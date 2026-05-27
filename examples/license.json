@@ -1,0 +1,33 @@
+{
+  "facts": ["license", "publish", "remove", "comment"],
+  "rules": [
+    {"id": "r0", "kind": "prescriptive", "then": {"forbidden": "use"},
+     "gloss": "Use of the product is forbidden by default."},
+    {"id": "r1", "kind": "prescriptive", "strength": "defeater",
+     "if": ["license"], "then": {"obligation": ["use"]},
+     "gloss": "Holding a licence permits use."},
+    {"id": "r2", "kind": "prescriptive", "then": {"obligation": ["-publish", "remove"]},
+     "gloss": "Publishing results is forbidden; removing them compensates."},
+    {"id": "r2e", "kind": "prescriptive", "strength": "defeater",
+     "if": ["approval"], "then": {"obligation": ["publish"]},
+     "gloss": "Approval from the licensor permits publishing."},
+    {"id": "r3", "kind": "prescriptive", "then": {"forbidden": "comment"},
+     "gloss": "Commenting on the evaluation is forbidden."},
+    {"id": "r3e", "kind": "prescriptive", "strength": "defeater",
+     "if": ["P publish"], "then": {"obligation": ["comment"]},
+     "gloss": "If publishing is permitted, commenting is too."},
+    {"id": "r4", "kind": "prescriptive", "if": ["commission"],
+     "then": {"obligation": ["publish"]},
+     "gloss": "If commissioned for an independent evaluation, must publish."},
+    {"id": "r4x", "kind": "prescriptive", "if": ["commission"],
+     "then": {"obligation": ["use"]},
+     "gloss": "If commissioned, must use the product."},
+    {"id": "r5", "kind": "prescriptive", "if": ["bottom"],
+     "then": {"forbidden": "use"},
+     "gloss": "A non-compensable breach terminates the licence: use is forbidden."}
+  ],
+  "superiority": [
+    ["r0", "r1"], ["r0", "r4x"], ["r1", "r5"],
+    ["r4x", "r2e"], ["r2", "r2e"], ["r3", "r3e"]
+  ]
+}
