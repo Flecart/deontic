@@ -1,0 +1,16 @@
+name = "ddl"
+defaultTargets = ["Ddl", "ddltest", "ddl"]
+testDriver = "ddltest"
+
+[[lean_lib]]
+name = "Ddl"
+
+# Natural-language / query test runner; exits non-zero if any check fails.
+[[lean_exe]]
+name = "ddltest"
+root = "Tests"
+
+# Command-line interface mirroring the Python `ddl` CLI (run/query/render).
+[[lean_exe]]
+name = "ddl"
+root = "Main"
