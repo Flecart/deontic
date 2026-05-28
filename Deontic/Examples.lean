@@ -72,18 +72,22 @@ def ex4Theory : Theory := { ex3Theory with
   let ext := computeExtension ex1Theory
   IO.println (renderQueryResults ["use", "publish", "comment"] ext)
   IO.println s!"  violation: {ext.hasViolation}"
+  IO.println s!"  unresolved: {ext.unresolvedConflicts.length}"
 
 #eval do
   IO.println "=== Example 1B: license + publish (no removal) ==="
   let ext := computeExtension ex1TheoryB
   IO.println (renderQueryResults ["use", "publish", "comment"] ext)
   IO.println s!"  violation: {ext.hasViolation}"
+  IO.println s!"  unresolved: {ext.unresolvedConflicts.length}"
 
 #eval do
   IO.println "=== Example 1C: license + commission ==="
   let ext := computeExtension ex1TheoryC
   IO.println (renderQueryResults ["use", "publish", "comment"] ext)
   IO.println s!"  violation: {ext.hasViolation}"
+  if ext.hasUnresolvedConflicts then
+    IO.println (renderUnresolvedConflicts ext)
 
 #eval do
   IO.println "=== Example 3: ExpressionDissatisfaction + InformationCall ==="

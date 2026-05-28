@@ -43,10 +43,25 @@ def Derivation.hasPositive (d : Derivation) (mod : Modality) (l : Lit) : Bool :=
 def Derivation.hasNegative (d : Derivation) (mod : Modality) (l : Lit) : Bool :=
   d.has ⟨false, mod, l⟩
 
+-- Applicable rules attack each other on O(a) vs O(~a) but ≺ does not pick a winner.
+structure UnresolvedConflict where
+  atom       : Atom
+  forO       : List String   -- rule labels supporting O(atom)
+  againstO   : List String   -- rule labels supporting O(~atom)
+  pairs      : List (String × String)  -- (r, s) with no r > s nor s > r
+  deriving Repr
+
 -- Extension result: the full derivation plus a flag for non-compensable violation
 structure Extension where
   derivation  : Derivation
   hasViolation : Bool   -- +∂_⊥
+  unresolvedConflicts : List UnresolvedConflict := []
+
+def Extension.hasUnresolvedConflicts (ext : Extension) : Bool :=
+  !ext.unresolvedConflicts.isEmpty
+
+def Extension.isUnresolvedAtom (ext : Extension) (a : Atom) : Bool :=
+  ext.unresolvedConflicts.any (·.atom == a)
 
 -- Collect all positive tags for a given atom across all modalities
 def Extension.tagsFor (ext : Extension) (a : Atom) : List TaggedLit :=

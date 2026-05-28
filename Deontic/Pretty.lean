@@ -10,10 +10,24 @@ def renderTaggedLit (tl : TaggedLit) : String :=
   let sign := if tl.positive then "+∂" else "-∂"
   s!"{sign}_{tl.modality} {tl.lit}"
 
+def renderUnresolvedConflict (c : UnresolvedConflict) : String :=
+  let pairLines := c.pairs.map fun (r, s) =>
+    s!"  {r}  and  {s}  conflict with no superiority (judge: add {r} > {s}  or  {s} > {r})"
+  let header :=
+    s!"[JUDGE: unresolved obligation conflict on {c.atom}]\n" ++
+    s!"  neither O({c.atom}) nor O(~{c.atom}) is provable (+∂)\n" ++
+    s!"  rules for O({c.atom}): {", ".intercalate c.forO}\n" ++
+    s!"  rules for O(~{c.atom}): {", ".intercalate c.againstO}"
+  header ++ "\n" ++ "\n".intercalate pairLines
+
+def renderUnresolvedConflicts (ext : Extension) : String :=
+  "\n\n".intercalate (ext.unresolvedConflicts.map renderUnresolvedConflict)
+
 def renderExtension (ext : Extension) : String :=
   let lines := ext.derivation.toList.map renderTaggedLit
   let viol := if ext.hasViolation then ["[NON-COMPENSABLE VIOLATION]"] else []
-  (lines ++ viol).foldl (· ++ "\n" ++ ·) ""
+  let judge := if ext.hasUnresolvedConflicts then [renderUnresolvedConflicts ext] else []
+  (lines ++ viol ++ judge).foldl (· ++ "\n" ++ ·) ""
 
 def renderQueryResults (atoms : List Atom) (ext : Extension) : String :=
   atoms.foldl (fun acc a =>
@@ -45,9 +59,19 @@ def renderAtomJSON (a : Atom) (ext : Extension) : String :=
   let tagsStr := "[" ++ ",".intercalate tags ++ "]"
   s!"{jsonStr a}:\{\"status\":{jsonStr status},\"tags\":{tagsStr}}"
 
+private def renderConflictJSON (c : UnresolvedConflict) : String :=
+  let pairs := c.pairs.map fun (r, s) => "[" ++ jsonStr r ++ "," ++ jsonStr s ++ "]"
+  "{\"atom\":" ++ jsonStr c.atom ++
+    ",\"forO\":[" ++ ", ".intercalate (c.forO.map jsonStr) ++
+    "],\"againstO\":[" ++ ", ".intercalate (c.againstO.map jsonStr) ++
+    "],\"unresolvedPairs\":[" ++ ", ".intercalate pairs ++ "]}"
+
 def renderExtensionJSON (atoms : List Atom) (ext : Extension) : String :=
   let entries := atoms.map (renderAtomJSON · ext)
   let viol := s!"\"hasViolation\":{jsonBool ext.hasViolation}"
-  "{\n" ++ ",\n".intercalate (entries ++ [viol]) ++ "\n}"
+  let conflicts := ext.unresolvedConflicts.map renderConflictJSON
+  let judge :=
+    s!"\"hasUnresolvedConflicts\":{jsonBool ext.hasUnresolvedConflicts},\"unresolvedConflicts\":[{String.intercalate ", " conflicts}]"
+  "{\n" ++ ",\n".intercalate (entries ++ [viol, judge]) ++ "\n}"
 
 end Deontic.Pretty

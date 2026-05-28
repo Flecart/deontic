@@ -21,6 +21,9 @@ def printHelp : IO Unit := do
   IO.println "  =>   defeasible constitutive  =>O  defeasible prescriptive"
   IO.println "  ~>   defeater constitutive    ~>O  defeater prescriptive"
   IO.println "  >    superiority: r1 > r2 means r1 defeats r2"
+  IO.println ""
+  IO.println "When applicable rules conflict on O(a) vs O(~a) with no > between them,"
+  IO.println "neither obligation is derived; the reasoner flags [JUDGE: ...] for the user."
   IO.println "  ~p   negation of atom p"
   IO.println "  *    compensatory chain: a * b * c"
 
@@ -62,6 +65,10 @@ def main (args : List String) : IO Unit := do
         IO.println (renderExtension ext)
         if ext.hasViolation then
           IO.println "WARNING: non-compensable violation detected"
+        if ext.hasUnresolvedConflicts then
+          IO.println ""
+          IO.println (renderUnresolvedConflicts ext)
+          IO.println "WARNING: unresolved obligation conflict — judge must add superiority"
     else  -- query
       let targets :=
         if atomArgs.isEmpty then thy.herbrandBase
@@ -74,6 +81,10 @@ def main (args : List String) : IO Unit := do
         IO.println (renderQueryResults targets ext)
       if ext.hasViolation then
         IO.println "WARNING: non-compensable violation detected"
+      if ext.hasUnresolvedConflicts then
+        IO.println ""
+        IO.println (renderUnresolvedConflicts ext)
+        IO.println "WARNING: unresolved obligation conflict — judge must add superiority"
   | _ =>
     IO.eprintln s!"Unknown command '{cmd}'. Use 'check' or 'query'."
     IO.Process.exit 1

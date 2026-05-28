@@ -1,6 +1,5 @@
 # Example 1: License contract (§4 of Governatori 2018)
-# Scenario A: licensee has license, published results, then removed them
-facts: license, publish, remove
+facts: license, commission, use
 
 r0:  =>O  ~use
 r1:  license  ~>O  use
@@ -14,4 +13,5 @@ r5:  bot  =>O  ~use
 
 # r ≺ s means r defeats s (r wins when both conflict)
 # More specific/exception rules defeat more general ones
+# Without e.g. r4 > r2, commission+use yields an unresolved publish conflict (judge must add ≺)
 superiority: r1 > r0, r4x > r0, r5 > r1, r5 > r4x, r2e > r2, r3e > r3

@@ -1,6 +1,7 @@
 import Deontic.Theory
 import Deontic.ProofTags
 import Deontic.ProofConditions
+import Deontic.Conflict
 
 namespace Deontic
 
@@ -40,6 +41,7 @@ def computeExtension (thy : Theory) : Extension :=
       if d'.size == d.size then d else loop d' fuel
   let fuel := base.length * 20 + 10
   let finalD := loop #[] fuel
-  ⟨finalD, canDerive_bot thy finalD⟩
+  let conflicts := findUnresolvedObligationConflicts thy finalD
+  ⟨finalD, canDerive_bot thy finalD, conflicts⟩
 
 end Deontic

@@ -20,7 +20,8 @@ def normativeStatus (ext : Extension) (a : Atom) : String :=
   let neg := Lit.neg a
   -- Deontic tags take priority over constitutive, but constitutive facts
   -- (facts derived via constitutive rules) come before weak deontic permissions
-  if      ext.derivation.hasPositive .O  pos then s!"O({a})"
+  if      ext.isUnresolvedAtom a then "unresolved"
+  else if ext.derivation.hasPositive .O  pos then s!"O({a})"
   else if ext.derivation.hasPositive .O  neg then s!"F({a})"
   else if ext.derivation.hasPositive .Ps pos then s!"Ps({a})"
   else if ext.derivation.hasPositive .C  pos then s!"fact({a})"

@@ -24,9 +24,15 @@ private def pDiscardedOrDefeated
 
 -- Non-defeater rules concluding q (used by O proof conditions — defeaters cannot
 -- positively establish obligations, §3.1)
-private def obligatoryRulesFor (thy : Theory) (q : Lit) : List Rule :=
+def obligatoryRulesFor (thy : Theory) (q : Lit) : List Rule :=
   thy.rules.filter fun r =>
     r.conclusion.any (· == q) && r.strength != .defeater
+
+-- Prescriptive rules that are body-p-applicable for literal q at its conclusion index.
+def applicableObligationRules (thy : Theory) (d : Derivation) (q : Lit) : List Rule :=
+  obligatoryRulesFor thy q |>.filter fun r =>
+    let j := firstIndex r.conclusion q
+    applicableForIndex r q j d thy.facts
 
 -- ── +∂_C (§3.3 p.19) ─────────────────────────────────────────────────────────
 
