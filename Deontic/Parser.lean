@@ -93,7 +93,10 @@ private def joinDeonticTokens (tokens : List String) : List String :=
   go [] tokens
 
 private def parseAntecedent (tokens : List String) : Except String (List Literal) :=
-  joinDeonticTokens tokens |>.mapM parseLiteral
+  -- Commas only separate antecedent conjuncts; drop them so "a, b, c" does not
+  -- parse the separators as spurious atoms (which would never be facts and so
+  -- would make every multi-condition rule un-applicable).
+  joinDeonticTokens (tokens.filter (· != ",")) |>.mapM parseLiteral
 
 -- ── Rule line parser ──────────────────────────────────────────────────────────
 
