@@ -1,6 +1,7 @@
 import Deontic.Theory
 import Deontic.Extension
 import Deontic.Query
+import Deontic.Abduce
 import Deontic.Parser
 import Deontic.Pretty
 
@@ -15,6 +16,17 @@ def printHelp : IO Unit := do
   IO.println ""
   IO.println "  deontic query <file.ddl> <atom> [...] [--json] [--trace]"
   IO.println "    Query normative status of specific atoms."
+  IO.println ""
+  IO.println "  deontic abduce <file.ddl> <goal> [more-conditions...]"
+  IO.println "                 [--all] [--limit N] [--assume t,...] [--json]"
+  IO.println "    Find fact configurations that make the goal hold."
+  IO.println "    Goal/condition tokens (prefix ! = must NOT hold):"
+  IO.println "      O(a) F(a) P(a) Ps(a) Pw(a) C(a)   a   ~a"
+  IO.println "    e.g.  P(Disclose)            configurations that ALLOW Disclose"
+  IO.println "          O(use)                 configurations that REQUIRE use"
+  IO.println "          P(Disclose) !C(Notify)  Disclose allowed while Notify absent"
+  IO.println "    --assume tokens pin facts and shrink the search:"
+  IO.println "      a (true)   ~a (false)   -a (must stay absent)"
   IO.println ""
   IO.println "Arrow syntax in .ddl files:"
   IO.println "  ->   strict constitutive    ->O  strict prescriptive"
@@ -34,6 +46,25 @@ def loadTheory (file : String) : IO Theory := do
     IO.eprintln s!"Parse error: {e}"
     IO.Process.exit 1
   | .ok thy => return thy
+
+structure AbduceArgs where
+  goals   : List String := []
+  assumes : List String := []
+  all     : Bool := false
+  json    : Bool := false
+  limit   : Nat := 8
+
+partial def parseAbduceArgs (args : List String) (acc : AbduceArgs) : AbduceArgs :=
+  match args with
+  | [] => { acc with goals := acc.goals.reverse }
+  | "--all"  :: rest => parseAbduceArgs rest { acc with all := true }
+  | "--json" :: rest => parseAbduceArgs rest { acc with json := true }
+  | "--limit" :: n :: rest =>
+    parseAbduceArgs rest { acc with limit := (n.toNat?).getD acc.limit }
+  | "--assume" :: v :: rest =>
+    let toks := (v.splitOn ",").map (·.trimAscii.toString) |>.filter (!·.isEmpty)
+    parseAbduceArgs rest { acc with assumes := acc.assumes ++ toks }
+  | tok :: rest => parseAbduceArgs rest { acc with goals := tok :: acc.goals }
 
 def main (args : List String) : IO Unit := do
   if args.isEmpty || args.head! == "--help" || args.head! == "-h" then
@@ -85,6 +116,27 @@ def main (args : List String) : IO Unit := do
         IO.println ""
         IO.println (renderUnresolvedConflicts ext)
         IO.println "WARNING: unresolved obligation conflict — judge must add superiority"
+  | "abduce" =>
+    if rest.isEmpty then
+      IO.eprintln "Error: missing .ddl file argument"
+      IO.Process.exit 1
+    let file := rest.head!
+    let thy  ← loadTheory file
+    let a    := parseAbduceArgs rest.tail {}
+    if a.goals.isEmpty then
+      IO.eprintln "Error: abduce needs at least one goal, e.g. 'P(Disclose)'"
+      IO.Process.exit 1
+    let conds ← match a.goals.mapM parseCondition with
+      | .error e => IO.eprintln s!"Goal error: {e}"; IO.Process.exit 1
+      | .ok cs   => pure cs
+    let assumptions ← match a.assumes.mapM parseAssumption with
+      | .error e => IO.eprintln s!"Assumption error: {e}"; IO.Process.exit 1
+      | .ok xs   => pure xs
+    let res := abduce thy assumptions conds
+    if a.json then
+      IO.println (renderAbduceResultJSON res)
+    else
+      IO.println (renderAbduceResult res a.all a.limit)
   | _ =>
-    IO.eprintln s!"Unknown command '{cmd}'. Use 'check' or 'query'."
+    IO.eprintln s!"Unknown command '{cmd}'. Use 'check', 'query', or 'abduce'."
     IO.Process.exit 1

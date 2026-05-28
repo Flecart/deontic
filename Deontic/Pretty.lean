@@ -1,6 +1,7 @@
 import Deontic.Theory
 import Deontic.ProofTags
 import Deontic.Query
+import Deontic.Abduce
 
 namespace Deontic.Pretty
 
@@ -73,5 +74,58 @@ def renderExtensionJSON (atoms : List Atom) (ext : Extension) : String :=
   let judge :=
     s!"\"hasUnresolvedConflicts\":{jsonBool ext.hasUnresolvedConflicts},\"unresolvedConflicts\":[{String.intercalate ", " conflicts}]"
   "{\n" ++ ",\n".intercalate (entries ++ [viol, judge]) ++ "\n}"
+
+-- ── Abduction rendering ───────────────────────────────────────────────────────
+
+def renderConfig (c : Config) : String :=
+  if c.isEmpty then "{ }  (no facts needed)"
+  else "{ " ++ ", ".intercalate (c.map toString) ++ " }"
+
+def renderConditions (cs : List Condition) : String :=
+  ", ".intercalate (cs.map toString)
+
+/-- Human-readable abduction report.  When `showAll` is false only the first
+`limit` minimal configurations are listed. -/
+def renderAbduceResult (res : AbduceResult) (showAll : Bool) (limit : Nat) : String :=
+  let header := s!"Goal: {renderConditions res.conds}"
+  let forcedLine :=
+    if res.forced.isEmpty then ""
+    else s!"\nAssuming facts: {", ".intercalate (res.forced.map toString)}"
+  if res.minimal.isEmpty then
+    let warn :=
+      if res.truncated then
+        s!"\n(search truncated at {res.cap} configurations; result may be incomplete — pin atoms with --assume)"
+      else ""
+    header ++ forcedLine ++
+      "\nNo fact configuration over the abducible atoms makes the goal hold." ++ warn
+  else
+    let total := res.minimal.length
+    let shown := if showAll then res.minimal else res.minimal.take limit
+    let lines := shown.zipIdx.map fun (c, i) => s!"  {i + 1}. {renderConfig c}"
+    let countLine :=
+      s!"\n{total} minimal configuration(s) make the goal hold ({res.satisfying} satisfying of {res.evaluated} evaluated):"
+    let more :=
+      if !showAll && total > limit then
+        s!"\n  … {total - limit} more (use --all to list every minimal configuration)"
+      else ""
+    let warn :=
+      if res.truncated then
+        s!"\n(search truncated at {res.cap} configurations; pin atoms with --assume for completeness)"
+      else ""
+    header ++ forcedLine ++ countLine ++ "\n" ++ "\n".intercalate lines ++ more ++ warn
+
+def renderAbduceResultJSON (res : AbduceResult) : String :=
+  let litJSON (l : Lit) := jsonStr (toString l)
+  let cfgJSON (c : Config) := "[" ++ ", ".intercalate (c.map litJSON) ++ "]"
+  let conds := res.conds.map (fun c => jsonStr (toString c))
+  let mins  := res.minimal.map cfgJSON
+  "{\n" ++
+    "\"goal\":[" ++ ", ".intercalate conds ++ "],\n" ++
+    "\"assumedFacts\":[" ++ ", ".intercalate (res.forced.map litJSON) ++ "],\n" ++
+    "\"minimalConfigs\":[" ++ ", ".intercalate mins ++ "],\n" ++
+    s!"\"minimalCount\":{res.minimal.length},\n" ++
+    s!"\"satisfying\":{res.satisfying},\n" ++
+    s!"\"evaluated\":{res.evaluated},\n" ++
+    s!"\"truncated\":{jsonBool res.truncated}\n}"
 
 end Deontic.Pretty

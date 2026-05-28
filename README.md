@@ -19,6 +19,9 @@ lake build deontic
 # Status of specific atoms
 ./.lake/build/bin/deontic query examples/ex1_license.ddl publish use comment
 
+# Which fact configurations ALLOW disclosure? (abduction / "what-if")
+./.lake/build/bin/deontic abduce examples/other.ddl 'P(Disclose)' --all
+
 # Machine-readable output for pipelines
 ./.lake/build/bin/deontic query examples/ex1_license.ddl publish --json
 ```
@@ -33,6 +36,32 @@ lake build deontic
 | Superiority | `r4 > r2` — which rule wins when both apply |
 | Violations | Obligation derived but fact situation does not comply (`+∂_⊥`) |
 | Unresolved conflicts | Neither `O(a)` nor `O(~a)` provable; `[…]` asks for `≺` |
+| Abduction ("what-if") | Which **fact configurations** make a goal hold — `abduce 'P(Disclose)'` |
+
+## Abduction: which facts make a goal hold?
+
+`check`/`query` run *forward* (facts → status). `abduce` runs *backward*: given a
+**goal** it searches for the fact configurations that entail it.
+
+```bash
+# All minimal fact sets under which Disclose becomes permitted
+deontic abduce examples/other.ddl 'P(Disclose)' --all
+#  → { RecipientIsRepresentative, NeedToKnow, TransactionPurpose }
+
+# Configurations that REQUIRE use, pinning/narrowing with assumptions
+deontic abduce examples/ex1_license.ddl 'O(use)'
+
+# Conjunctive / negative conditions: Disclose allowed while Notify stays absent
+deontic abduce examples/other.ddl 'P(Disclose)' '!C(Notify)' --assume -Notify
+```
+
+- **Goal tokens** (prefix `!` = must *not* hold): `O(a)`, `F(a)`, `P(a)`, `Ps(a)`,
+  `Pw(a)`, `C(a)`, or a bare `a` / `~a`. "Allow" ≈ `P(...)`, "require" ≈ `O(...)`.
+- **`--all`** lists every subset-minimal configuration; default shows the first few.
+- **`--assume a,~b,-c`** pins facts (`a` true, `b` false, `c` must stay absent),
+  both narrowing the search and shrinking it.
+- Search space is the **abducible** atoms (those appearing in rule antecedents),
+  so it stays small; `--json` emits the minimal configs for pipelines.
 
 ## Examples
 

@@ -39,6 +39,7 @@ The CLI entry point is `Main.lean`, which loads a theory, calls `computeExtensio
 | `Deontic/ProofConditions.lean` | `canDerive_*` for each modality; `canDerive_bot`; `applicableObligationRules` |
 | `Deontic/Extension.lean` | Fixed-point loop over the Herbrand base |
 | `Deontic/Conflict.lean` | Unresolved `O(a)` vs `O(~a)` conflicts (judge / superiority) |
+| `Deontic/Abduce.lean` | Backward search: which fact configurations make a goal hold |
 | `Deontic/Query.lean` | Per-atom normative status (`O`, `F`, `Ps`, `unresolved`, …) |
 | `Deontic/Pretty.lean` | Text and JSON rendering |
 | `Deontic/Examples.lean` | Embedded theories and `#eval` demos |
@@ -122,6 +123,12 @@ For each queried atom, the CLI reports a summary status, in priority order:
 
 The reasoner prints `[JUDGE: …]` and suggests adding `r > s` or `s > r`. This is intentional: the engine does not guess the law; a human (or downstream workflow) supplies `≺`.
 
+## Abduction (`Abduce.lean`)
+
+`check`/`query` run **forward** (facts → tagged literals). `abduce` runs **backward**: given a *goal* (a conjunction of tagged-literal conditions, each required to be present or absent) it returns the fact configurations that make the goal hold — "what would have to be true for `Disclose` to be permitted?". See the [README](../README.md#abduction-which-facts-make-a-goal-hold) for the goal/assumption token syntax.
+
+It is satisfiability-flavoured but not a SAT call. The search ranges only over the **abducible** atoms — those appearing as plain literals in rule antecedents, since only those change which rules fire — trying each present (in a tested polarity) or absent; the theory's own `facts:` line is ignored, as facts are what we solve for. Each configuration is evaluated with the same `computeExtension`, and the result is the subset-**minimal** satisfying configurations (the least you must assert; every superset also works). Assumptions pin atoms beforehand, both narrowing the question and shrinking the space, which is otherwise bounded by a configuration cap.
+
 ## Parser and `.ddl` syntax
 
 `Parser.lean` reads line-oriented theories:
@@ -153,6 +160,7 @@ lake build deontic
 |---------|---------|
 | `check` | Full extension (all tagged literals) + warnings |
 | `query` | Per-atom status; optional `--trace`, `--json` |
+| `abduce` | Backward search: fact configurations that make a goal hold |
 
 Flags:
 
@@ -177,17 +185,23 @@ flowchart BT
   ProofTags --> Extension
   Theory --> Extension
   Conflict --> Extension
+  Extension --> Abduce
+  ProofTags --> Abduce
+  Theory --> Abduce
   Extension --> Query
   ProofTags --> Query
   Query --> Pretty
   ProofTags --> Pretty
+  Abduce --> Pretty
   Theory --> Parser
   Extension --> Examples
   Query --> Examples
+  Abduce --> Examples
   Pretty --> Examples
   Parser --> Main
   Extension --> Main
   Query --> Main
+  Abduce --> Main
   Pretty --> Main
 ```
 
@@ -195,7 +209,7 @@ flowchart BT
 
 **Lean 4** — The proof conditions are pure functions over finite structures; Lean gives executable semantics now and a path to machine-checked refinements later (e.g. aligning `canDerive_O_pos` with a formal spec).
 
-**Fixed-point, not SAT** — The paper’s proof theory is operationalised directly. There is no external solver; complexity is bounded by Herbrand size and iteration fuel.
+**Fixed-point, not SAT** — The paper’s proof theory is operationalised directly. There is no external solver; complexity is bounded by Herbrand size and iteration fuel. Abduction (`abduce`) is likewise not a SAT call: it enumerates only the *abducible* fact assignments (antecedent atoms) and reuses the same `computeExtension`, so the backward search stays small and explainable rather than delegating to an opaque solver.
 
 **Separation of violation vs deadlock** — `+∂_⊥` means “an obligation you *did* derive is broken in the facts.” Unresolved conflicts mean “you *cannot* derive either side until the judge adds `≺`.”
 

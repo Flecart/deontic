@@ -1,6 +1,7 @@
 import Deontic.Theory
 import Deontic.Extension
 import Deontic.Query
+import Deontic.Abduce
 import Deontic.Pretty
 
 open Deontic Deontic.Pretty
@@ -98,3 +99,58 @@ def ex4Theory : Theory := { ex3Theory with
   IO.println "=== Example 4: + AdviseComplaint ==="
   let ext := computeExtension ex4Theory
   IO.println (renderQueryResults ["complaint"] ext)
+
+-- ── Abduction: which facts make a goal hold? ──────────────────────────────────
+-- NDA confidentiality clause (cf. examples/other.ddl): default prohibition on
+-- disclosure, with a permission carve-out gated on three conditions.
+
+def ndaTheory : Theory where
+  facts := []
+  rules := [
+    ⟨"def1", .defeasible, .constitutive, [.plain (.pos "Director")], [.pos "Representative"]⟩,
+    ⟨"rprohibit", .defeasible, .prescriptive, [], [.neg "Disclose"]⟩,
+    ⟨"rperm", .defeater, .prescriptive,
+      [.plain (.pos "Representative"), .plain (.pos "NeedToKnow"), .plain (.pos "TransactionPurpose")],
+      [.pos "Disclose"]⟩,
+    ⟨"rcare", .defeasible, .prescriptive, [], [.pos "Protect"]⟩
+  ]
+  superiority := [("rperm", "rprohibit")]
+
+-- Goal shorthands
+private def gP   (a : Atom) : Condition := ⟨true,  true, .P, .pos a⟩
+private def gF   (a : Atom) : Condition := ⟨true,  true, .O, .neg a⟩  -- F(a) = O(~a)
+private def gNotO (a : Atom) : Condition := ⟨false, true, .O, .pos a⟩ -- ¬ O(a)
+
+-- Goal/condition token parsing
+#guard (parseCondition "P(Disclose)").toOption == some ⟨true,  true, .P, .pos "Disclose"⟩
+#guard (parseCondition "F(Disclose)").toOption == some ⟨true,  true, .O, .neg "Disclose"⟩
+#guard (parseCondition "O(~use)").toOption     == some ⟨true,  true, .O, .neg "use"⟩
+#guard (parseCondition "!C(Notify)").toOption  == some ⟨false, true, .C, .pos "Notify"⟩
+#guard (parseCondition "~complaint").toOption  == some ⟨true,  true, .C, .neg "complaint"⟩
+#guard (parseAssumption "NeedToKnow").toOption == some (.factPos "NeedToKnow")
+#guard (parseAssumption "~Knows").toOption     == some (.factNeg "Knows")
+#guard (parseAssumption "-Knows").toOption     == some (.absent  "Knows")
+
+-- Allowing Disclose requires exactly the three carve-out facts asserted directly.
+#guard (abduce ndaTheory [] [gP "Disclose"]).minimal ==
+  [[.pos "Representative", .pos "NeedToKnow", .pos "TransactionPurpose"]]
+
+-- By default (no facts) disclosure is forbidden.
+#guard (abduce ndaTheory [] [gF "Disclose"]).minimal == [[]]
+
+-- "without asserting Representative directly": the constitutive def1 (Director ⇒
+-- Representative) does not feed rperm's plain antecedent, so no config works.
+#guard (abduce ndaTheory [.absent "Representative"] [gP "Disclose"]).minimal == []
+
+-- Disclose allowed *and* Protect not obligated is impossible (rcare always fires).
+#guard (abduce ndaTheory [] [gP "Disclose", gNotO "Protect"]).minimal == []
+
+-- License: an obligation to `use` is reachable only by asserting `commission`.
+#guard (abduce ex1Theory [] [⟨true, true, .O, .pos "use"⟩]).minimal == [[.pos "commission"]]
+
+#eval do
+  IO.println "=== Abduction: configurations that ALLOW Disclose ==="
+  IO.println (renderAbduceResult (abduce ndaTheory [] [gP "Disclose"]) true 8)
+  IO.println ""
+  IO.println "=== Abduction: configurations that REQUIRE use (license) ==="
+  IO.println (renderAbduceResult (abduce ex1Theory [] [⟨true, true, .O, .pos "use"⟩]) true 8)
