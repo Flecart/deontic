@@ -32,7 +32,7 @@ lake build deontic
 | Defeaters | `license ~>O use` |
 | Superiority | `r4 > r2` — which rule wins when both apply |
 | Violations | Obligation derived but fact situation does not comply (`+∂_⊥`) |
-| Unresolved conflicts | Neither `O(a)` nor `O(~a)` provable; `[JUDGE: …]` asks for `≺` |
+| Unresolved conflicts | Neither `O(a)` nor `O(~a)` provable; `[…]` asks for `≺` |
 
 ## Examples
 
@@ -62,6 +62,7 @@ The reasoner is deliberately not a black box: output is proof-theoretic tags, no
 ## Documentation
 
 - [Architecture](docs/architecture.md) — modules, fixed-point engine, violations vs judge conflicts, JSON API
+- [LLM prompts](prompts/README.md) — fact extraction from evidence; encoding law as `.ddl`
 
 ## License
 

@@ -209,3 +209,5 @@ flowchart BT
 - **Proof certificates**: Export the derivation `P` and rule instances that fired for explainability.
 
 See the root [README](../README.md) for project motivation and quick start.
+
+LLM workflow prompts (fact extraction, law → DDL) live in [`../prompts/`](../prompts/).

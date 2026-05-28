@@ -14,7 +14,7 @@ def renderUnresolvedConflict (c : UnresolvedConflict) : String :=
   let pairLines := c.pairs.map fun (r, s) =>
     s!"  {r}  and  {s}  conflict with no superiority (judge: add {r} > {s}  or  {s} > {r})"
   let header :=
-    s!"[JUDGE: unresolved obligation conflict on {c.atom}]\n" ++
+    s!"[unresolved obligation conflict on {c.atom}]\n" ++
     s!"  neither O({c.atom}) nor O(~{c.atom}) is provable (+∂)\n" ++
     s!"  rules for O({c.atom}): {", ".intercalate c.forO}\n" ++
     s!"  rules for O(~{c.atom}): {", ".intercalate c.againstO}"
