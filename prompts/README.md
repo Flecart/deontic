@@ -5,14 +5,18 @@ These prompts support a **two-stage** pipeline in front of the Lean reasoner:
 1. **[extract-facts.md](extract-facts.md)** — From evidence and a narrative, decide which **ground facts** hold (input to `facts:` in a `.ddl` file).
 2. **[law-to-ddl.md](law-to-ddl.md)** — From law or contract text in natural language, draft **rules, operators, and superiority** (the normative theory).
 
-Run the formal reasoner only after both stages:
+Both prompts emit plain `.ddl` text (rationale and open questions as `#`
+comments) — not JSON. Run the reasoner only after both stages:
 
 ```bash
 lake build deontic
-./.lake/build/bin/deontic query my_theory.ddl publish --json
+./.lake/build/bin/deontic query my_theory.ddl publish
 ```
 
-The reasoner computes obligations, permissions, violations (`+∂_⊥`), and unresolved conflicts (`[JUDGE: …]`). It does **not** read free text; the LLM’s job is to produce accurate `.ddl` fragments.
+The reasoner computes obligations, permissions, violations (`+∂_⊥`), and
+unresolved conflicts (`[JUDGE: …]`). It does **not** read free text; the LLM’s
+job is to produce accurate `.ddl`. (`--json` is available on `query`/`check` if a
+downstream tool needs structured output.)
 
 ## Suggested usage
 
