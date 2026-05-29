@@ -15,3 +15,5 @@ rofr: Before selling the asset to a third party, the party shall first offer it 
 non-disparagement: The party shall not make any disparaging statements about the other party.
 indemnification: The party shall indemnify the other party against third-party claims arising from its breach.
 license-grant: The licensor grants the licensee a license to use the licensed software during the term.
+change-of-control: Upon a change of control of a party, the other party may terminate the Agreement.
+termination-for-cause: A party may terminate the Agreement for cause upon the other party's material breach.

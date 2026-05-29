@@ -23,6 +23,8 @@ and a footer test. (`B=./.lake/build/bin/deontic`, run from project root.)
 | cuad_non-disparagement | prohibition | `$B query … Disparage` | `F(Disparage)` |
 | cuad_indemnification | cond. obligation | `$B query … Indemnify` | `O(Indemnify)` |
 | cuad_license-grant | permission | `$B query … UseLicensedSoftware` | `Ps(UseLicensedSoftware)` |
+| cuad_change-of-control | permission carve-out | `$B abduce … 'P(TerminateOnChangeOfControl)' --all` | `{ ChangeOfControl }` |
+| cuad_termination-for-cause | permission carve-out | `$B abduce … 'P(TerminateForCause)' --all` | `{ MaterialBreach }` |
 
 These cover CUAD's clause types that express a duty, prohibition, or
 conditional permission. Purely descriptive CUAD categories (governing law,
