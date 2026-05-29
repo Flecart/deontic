@@ -22,8 +22,9 @@ place of, or alongside, direct LLM classification.
 | Securities | [`securities/`](securities/) | 5 duties (insider trading, tipping, Reg FD, §16 reporting, short-swing) |
 | FCRA (credit reporting) | [`fcra/`](fcra/) | 5 CRA/user duties (permissible purpose, accuracy, reinvestigation, adverse-action disclosure, no obsolete info) |
 | CAN-SPAM (commercial email) | [`can-spam/`](can-spam/) | 5 sender duties (no false header, no deceptive subject, opt-out, honor opt-out, physical address) |
+| Fair Housing Act | [`fair-housing/`](fair-housing/) | 5 housing duties (no refusal, terms, advertising, steering; reasonable accommodation) |
 
-~129 deontic cases total, all verified. All three NLI labels (Entailment /
+~135 deontic cases total, all verified. All three NLI labels (Entailment /
 Contradiction / NotMentioned) are exercised across contract-nli, cuad, and maud.
 
 [`COMPARISON.md`](COMPARISON.md) — baseline protocol & analysis: **with** the
