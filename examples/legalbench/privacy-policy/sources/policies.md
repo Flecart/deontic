@@ -10,3 +10,5 @@ security: The company shall implement reasonable security measures to protect pe
 data-minimization: The company shall not collect personal data beyond what is necessary for the stated purpose.
 consent-withdrawal: The user may withdraw consent to processing at any time.
 cross-border-transfer: The company may transfer personal data abroad only with appropriate safeguards.
+dpia: The company shall conduct a data protection impact assessment before high-risk processing.
+processor-agreement: The company shall enter a data processing agreement before engaging any processor.
