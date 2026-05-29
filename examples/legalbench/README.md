@@ -18,8 +18,9 @@ place of, or alongside, direct LLM classification.
 | FDCPA (debt collection) | [`fdcpa/`](fdcpa/) | 5 debt-collector duties (unusual-time, harassment, false representation, validation notice, cease-on-request) |
 | HIPAA (health privacy) | [`hipaa/`](hipaa/) | 4 Privacy Rule duties (minimum necessary, authorization, breach notice, accounting) |
 | COPPA (children's privacy) | [`coppa/`](coppa/) | 5 operator duties (parental consent, notice, access, deletion, no-conditioning) |
+| ECOA (credit anti-discrimination) | [`ecoa/`](ecoa/) | 4 creditor duties (no discrimination, no discouragement, count protected income, adverse-action notice) |
 
-~111 deontic cases total, all verified. All three NLI labels (Entailment /
+~115 deontic cases total, all verified. All three NLI labels (Entailment /
 Contradiction / NotMentioned) are exercised across contract-nli, cuad, and maud.
 
 [`COMPARISON.md`](COMPARISON.md) — baseline protocol & analysis: **with** the
