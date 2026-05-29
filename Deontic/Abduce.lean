@@ -169,6 +169,7 @@ structure AbduceResult where
   truncated  : Bool              -- search space exceeded `cap`
   cap        : Nat
 
+-- TODO: This could be very slow, need to check this.
 /-- Find subset-minimal fact configurations making every condition hold.
 `assumptions` pin atoms (and shrink the search space); the theory's own `facts`
 line is ignored — facts are exactly what we are solving for. -/
