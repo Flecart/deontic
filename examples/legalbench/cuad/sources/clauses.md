@@ -20,3 +20,5 @@ termination-for-cause: A party may terminate the Agreement for cause upon the ot
 non-transferability: This Agreement is personal to the party and may not be transferred.
 source-code-escrow: The escrow agent shall release the source code to the licensee upon a release event.
 liquidated-damages: Upon a breach, the breaching party shall pay liquidated damages.
+revenue-sharing: The party shall pay the other party a share of revenue earned from the licensed product.
+warranty: The party shall remedy any defect reported during the warranty period.
