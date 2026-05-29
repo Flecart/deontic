@@ -7,10 +7,10 @@ place of, or alongside, direct LLM classification.
 
 | Family | Dir | Coverage |
 |--------|-----|----------|
-| ContractNLI | [`contract-nli/`](contract-nli/) | 14 `contract_nli_*` tasks (entailment) + NDA-2 and contradiction / not-mentioned variants |
-| CUAD | [`cuad/`](cuad/) | 7 deontic clause types (non-compete, audit-rights, anti-assignment, …) |
-| Consumer contracts QA | [`consumer-contracts-qa/`](consumer-contracts-qa/) | 4 yes/no questions as permission/obligation queries |
-| Privacy policy | [`privacy-policy/`](privacy-policy/) | 4 data-protection duties/rights (breach notice, deletion, access, sharing) |
+| ContractNLI | [`contract-nli/`](contract-nli/) | 14 `contract_nli_*` tasks + NDA-2, contradiction / not-mentioned variants, and a combined multi-hypothesis NDA |
+| CUAD | [`cuad/`](cuad/) | 15 deontic clause types (non-compete, audit-rights, anti-assignment, exclusivity, MFN, ROFR, indemnification, …) |
+| Consumer contracts QA | [`consumer-contracts-qa/`](consumer-contracts-qa/) | 7 yes/no questions as permission/obligation queries |
+| Privacy policy | [`privacy-policy/`](privacy-policy/) | 8 data-protection duties/rights (breach, deletion, access, sharing, retention, children, marketing, security) |
 | Telemarketing Sales Rule | [`telemarketing-sales-rule/`](telemarketing-sales-rule/) | 4 FTC TSR duties (do-not-call, calling hours, identification, robocall consent) |
 
 [`COMPARISON.md`](COMPARISON.md) — baseline protocol & analysis: **with** the
