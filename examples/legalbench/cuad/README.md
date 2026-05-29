@@ -25,6 +25,9 @@ and a footer test. (`B=./.lake/build/bin/deontic`, run from project root.)
 | cuad_license-grant | permission | `$B query … UseLicensedSoftware` | `Ps(UseLicensedSoftware)` |
 | cuad_change-of-control | permission carve-out | `$B abduce … 'P(TerminateOnChangeOfControl)' --all` | `{ ChangeOfControl }` |
 | cuad_termination-for-cause | permission carve-out | `$B abduce … 'P(TerminateForCause)' --all` | `{ MaterialBreach }` |
+| cuad_non-transferability | prohibition | `$B query … Transfer` | `F(Transfer)` |
+| cuad_source-code-escrow | cond. obligation | `$B query … ReleaseSourceCode` | `O(…)` |
+| cuad_liquidated-damages | cond. obligation | `$B query … PayLiquidatedDamages` | `O(…)` |
 
 These cover CUAD's clause types that express a duty, prohibition, or
 conditional permission. Purely descriptive CUAD categories (governing law,

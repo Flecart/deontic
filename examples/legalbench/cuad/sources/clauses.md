@@ -17,3 +17,6 @@ indemnification: The party shall indemnify the other party against third-party c
 license-grant: The licensor grants the licensee a license to use the licensed software during the term.
 change-of-control: Upon a change of control of a party, the other party may terminate the Agreement.
 termination-for-cause: A party may terminate the Agreement for cause upon the other party's material breach.
+non-transferability: This Agreement is personal to the party and may not be transferred.
+source-code-escrow: The escrow agent shall release the source code to the licensee upon a release event.
+liquidated-damages: Upon a breach, the breaching party shall pay liquidated damages.
