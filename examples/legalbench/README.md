@@ -9,6 +9,8 @@ place of, or alongside, direct LLM classification.
 |--------|-----|----------|
 | ContractNLI | [`contract-nli/`](contract-nli/) | 14 `contract_nli_*` tasks (entailment) + NDA-2 and contradiction / not-mentioned variants |
 | CUAD | [`cuad/`](cuad/) | 7 deontic clause types (non-compete, audit-rights, anti-assignment, …) |
+| Consumer contracts QA | [`consumer-contracts-qa/`](consumer-contracts-qa/) | 4 yes/no questions as permission/obligation queries |
+| Privacy policy | [`privacy-policy/`](privacy-policy/) | 4 data-protection duties/rights (breach notice, deletion, access, sharing) |
 
 [`COMPARISON.md`](COMPARISON.md) — baseline protocol & analysis: **with** the
 reasoner (LLM → `.ddl` → `deontic`) vs **without** (direct LLM classification).
