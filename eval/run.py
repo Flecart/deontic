@@ -28,6 +28,8 @@ def parse_args():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--model", default="stub", help="registry name or provider:model_id")
+    p.add_argument("--models", default=None,
+                   help="comma list of models to sweep (overrides --model); prints a comparison table")
     p.add_argument("--task", default="contract_nli", help=f"one of {list(data.TASKS)}")
     p.add_argument("--condition", default="baseline,cli",
                    help="comma list of {baseline,tool,cli}; 'both'=baseline,cli; 'all'=baseline,tool,cli")
@@ -43,31 +45,25 @@ def parse_args():
     return p.parse_args()
 
 
-def main():
-    args = parse_args()
-    spec = models.resolve(args.model)
-    client = models.make_client(spec)
-    task = data.get_task(args.task)
-    examples = data.load_examples(args, task)
+def parse_conditions(spec_str):
     aliases = {"both": ["baseline", "cli"], "all": ["baseline", "tool", "cli"]}
     valid = {"baseline", "tool", "cli"}
-    conditions = []
-    for c in args.condition.split(","):
+    conds = []
+    for c in spec_str.split(","):
         c = c.strip()
-        conditions.extend(aliases.get(c, [c]))
-    bad = [c for c in conditions if c not in valid]
+        conds.extend(aliases.get(c, [c]))
+    bad = [c for c in conds if c not in valid]
     if bad:
         raise SystemExit(f"unknown condition(s) {bad}; valid: {sorted(valid)} (or both/all)")
+    return conds
 
-    print(f"model={spec.name} ({spec.provider}:{spec.model_id})  task={task['name']}  "
-          f"examples={len(examples)}  conditions={conditions}\n")
 
-    stats = {c: {"correct": 0, "total": 0, "tool_calls": 0} for c in conditions}
-    logf = None
-    if args.out:
-        os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
-        logf = open(args.out, "w")
-
+def evaluate(spec, task, examples, conditions, args, logf):
+    """Run every condition over all examples for one model; return per-condition stats."""
+    client = models.make_client(spec)
+    print(f"\n### model={spec.name} ({spec.provider}:{spec.model_id})  "
+          f"examples={len(examples)}  conditions={conditions}")
+    stats = {c: {"correct": 0, "total": 0, "tool_calls": 0, "errors": 0} for c in conditions}
     for i, ex in enumerate(examples):
         for c in conditions:
             try:
@@ -82,9 +78,11 @@ def main():
                 pred, tr, err = None, [], str(e)
             ncalls = sum(1 for t in tr if t.get("role") == "tool")
             ok = pred is not None and pred == ex["gold"]
-            stats[c]["total"] += 1
-            stats[c]["correct"] += int(ok)
-            stats[c]["tool_calls"] += ncalls
+            s = stats[c]
+            s["total"] += 1
+            s["correct"] += int(ok)
+            s["tool_calls"] += ncalls
+            s["errors"] += int(err is not None)
             if logf:
                 logf.write(json.dumps({
                     "i": i, "condition": c, "model": spec.name, "task": task["name"],
@@ -94,18 +92,55 @@ def main():
             mark = "OK " if ok else ("ERR" if err else "X  ")
             extra = f" calls={ncalls}" if c in ("tool", "cli") else ""
             print(f"[{i+1}/{len(examples)}] {c:8} {mark} pred={pred} gold={ex['gold']}{extra}"
-                  + (f"  ({err})" if err else ""))
+                  + (f"  ({err[:80]})" if err else ""))
+    return stats
+
+
+def main():
+    args = parse_args()
+    task = data.get_task(args.task)
+    examples = data.load_examples(args, task)
+    conditions = parse_conditions(args.condition)
+    model_names = [m.strip() for m in (args.models or args.model).split(",") if m.strip()]
+    specs = [models.resolve(m) for m in model_names]
+
+    logf = None
+    if args.out:
+        os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
+        logf = open(args.out, "w")
+
+    table = {}  # spec.name -> stats
+    for spec in specs:
+        try:
+            table[spec.name] = evaluate(spec, task, examples, conditions, args, logf)
+        except SystemExit as e:   # e.g. missing API key — skip this model
+            print(f"  ! skipping {spec.name}: {e}")
     if logf:
         logf.close()
 
-    print("\n=== summary ===")
-    for c in conditions:
-        s = stats[c]
-        acc = s["correct"] / s["total"] if s["total"] else 0.0
-        tc = f"  avg_tool_calls={s['tool_calls']/s['total']:.1f}" if c in ("tool", "cli") and s["total"] else ""
-        print(f"{spec.name:18} {c:8} accuracy {s['correct']}/{s['total']} = {acc:.1%}{tc}")
+    # comparison table
+    print(f"\n=== results: task={task['name']}, {len(examples)} examples ===")
+    header = "model".ljust(20) + "".join(c.ljust(16) for c in conditions)
+    print(header)
+    print("-" * len(header))
+    for name, stats in table.items():
+        row = name.ljust(20)
+        for c in conditions:
+            s = stats[c]
+            acc = s["correct"] / s["total"] if s["total"] else 0.0
+            cell = f"{acc:.0%} ({s['correct']}/{s['total']})"
+            if s["errors"]:
+                cell += f" !{s['errors']}"
+            row += cell.ljust(16)
+        print(row)
+    if any(c in ("tool", "cli") for c in conditions):
+        print("\navg reasoner calls (tool/cli conditions):")
+        for name, stats in table.items():
+            calls = {c: (stats[c]["tool_calls"] / stats[c]["total"] if stats[c]["total"] else 0)
+                     for c in conditions if c in ("tool", "cli")}
+            print(f"  {name.ljust(20)} " + "  ".join(f"{c}={v:.1f}" for c, v in calls.items()))
     if args.out:
-        print(f"\nper-example log -> {args.out}")
+        print(f"\nper-example transcripts -> {args.out}")
 
 
 if __name__ == "__main__":

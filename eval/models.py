@@ -35,6 +35,11 @@ REGISTRY: dict[str, ModelSpec] = {
     "gpt-4.1":       ModelSpec("gpt-4.1",       "openai", "gpt-4.1"),
     "gpt-4.1-mini":  ModelSpec("gpt-4.1-mini",  "openai", "gpt-4.1-mini"),
     "o4-mini":       ModelSpec("o4-mini",       "openai", "o4-mini", reasoning=True),
+    # modern agentic models (user-requested)
+    "gpt-5.4":           ModelSpec("gpt-5.4",           "openai", "gpt-5.4", reasoning=True),
+    "gpt-5.4-mini":      ModelSpec("gpt-5.4-mini",      "openai", "gpt-5.4-mini", reasoning=True),
+    "qwen3.6":           ModelSpec("qwen3.6",           "openrouter", "qwen/qwen3.6-35b-a3b"),
+    "deepseek-v4-flash": ModelSpec("deepseek-v4-flash", "openrouter", "deepseek/deepseek-v4-flash"),
     # OpenRouter (provider/model ids)
     "llama-3.3-70b":     ModelSpec("llama-3.3-70b",     "openrouter", "meta-llama/llama-3.3-70b-instruct"),
     "claude-3.5-sonnet": ModelSpec("claude-3.5-sonnet", "openrouter", "anthropic/claude-3.5-sonnet"),
