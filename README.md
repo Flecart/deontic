@@ -22,6 +22,9 @@ lake build deontic
 # Which fact configurations ALLOW disclosure? (abduction / "what-if")
 ./.lake/build/bin/deontic abduce examples/other.ddl 'P(Disclose)' --all
 
+# What does each atom mean? (descriptions + provenance, for humans/LLMs)
+./.lake/build/bin/deontic atoms examples/clauses/disclosure_awareness.ddl
+
 # Machine-readable output for pipelines
 ./.lake/build/bin/deontic query examples/ex1_license.ddl publish --json
 ```
@@ -62,6 +65,22 @@ deontic abduce examples/other.ddl 'P(Disclose)' '!C(Notify)' --assume -Notify
   both narrowing the search and shrinking it.
 - Search space is the **abducible** atoms (those appearing in rule antecedents),
   so it stays small; `--json` emits the minimal configs for pipelines.
+
+## Atom descriptions & provenance
+
+Atom names (`Disclose`, `EmployeeRecipient`) are opaque on their own. Declare
+what each means so a fact-finder — human or LLM — knows what asserting it
+commits to, and where it came from:
+
+```ddl
+atom Disclose: disclose Confidential Information to any other person | NDA confidentiality clause, sentence 1
+```
+
+Text after `|` is **provenance** — a citation, a URI (fragments like `#sec1`
+are kept), or a local file path. `deontic atoms <file>` prints the dictionary
+(`--json` for tools; `--resolve` inlines provenance that points to a local
+file). `deontic check` warns about atoms used without a description, and
+`check --strict` turns that into an error.
 
 ## Examples
 

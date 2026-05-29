@@ -32,7 +32,7 @@ The CLI entry point is `Main.lean`, which loads a theory, calls `computeExtensio
 | Path | Role |
 |------|------|
 | `Deontic/Basic.lean` | Atoms, literals (`pos` / `neg`), deontic operators, `OExpr` (compensatory chains `a * b * c`) |
-| `Deontic/Theory.lean` | `Rule`, `Theory`, Herbrand base, superiority (`defeats`) |
+| `Deontic/Theory.lean` | `Rule`, `Theory`, `AtomDecl` (descriptions/provenance), Herbrand base, superiority (`defeats`) |
 | `Deontic/Parser.lean` | Tokeniser and parser for `.ddl` → `Theory` |
 | `Deontic/ProofTags.lean` | Modalities (`C`, `O`, `P`, `Pw`, `Ps`), `TaggedLit`, `Derivation`, `Extension` |
 | `Deontic/Applicability.lean` | Body-applicable / body-p-applicable; compensatory index conditions |
@@ -129,6 +129,10 @@ The reasoner prints `[JUDGE: …]` and suggests adding `r > s` or `s > r`. This 
 
 It is satisfiability-flavoured but not a SAT call. The search ranges only over the **abducible** atoms — those appearing as plain literals in rule antecedents, since only those change which rules fire — trying each present (in a tested polarity) or absent; the theory's own `facts:` line is ignored, as facts are what we solve for. Each configuration is evaluated with the same `computeExtension`, and the result is the subset-**minimal** satisfying configurations (the least you must assert; every superset also works). Assumptions pin atoms beforehand, both narrowing the question and shrinking the space, which is otherwise bounded by a configuration cap.
 
+## Atom descriptions & provenance
+
+Atom names are opaque tokens; the same name in two theories can mean different things. `AtomDecl` (an `atom NAME: description | provenance` line) grounds each atom so a fact-finder — human or LLM — knows what asserting it commits to, and binds it back to its source. Provenance after `|` is a free string: a legal citation, a URI (fragments are preserved — atom lines are read without `#` comment-stripping), or a local file path. `deontic atoms` prints the dictionary and can `--resolve` local-file provenance to inline text; `check` warns (or, with `--strict`, fails) on atoms used without a description. Descriptions are metadata — they do not affect the extension.
+
 ## Parser and `.ddl` syntax
 
 `Parser.lean` reads line-oriented theories:
@@ -161,6 +165,7 @@ lake build deontic
 | `check` | Full extension (all tagged literals) + warnings |
 | `query` | Per-atom status; optional `--trace`, `--json` |
 | `abduce` | Backward search: fact configurations that make a goal hold |
+| `atoms` | Print each atom's description + provenance (`--json`, `--resolve`) |
 
 Flags:
 

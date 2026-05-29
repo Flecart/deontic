@@ -41,11 +41,22 @@ structure Rule where
 -- (winner, loser): winner defeats loser when both are applicable and conflict
 abbrev SuperiorityRel := List (String × String)
 
+-- An atom declaration: the human/LLM-facing meaning of an atom plus optional
+-- provenance (a URI, a legal citation, or inline source text — see docs).
+-- Descriptions ground the otherwise opaque atom names so a fact-finder (human
+-- or LLM) knows what asserting the atom commits to.
+structure AtomDecl where
+  atom        : Atom
+  description : String
+  provenance  : Option String := none
+  deriving Repr, BEq
+
 -- Defeasible Deontic Theory D = (F, R^C, R^O, ≺)  eq. 29
 structure Theory where
   facts       : List Lit
   rules       : List Rule
   superiority : SuperiorityRel
+  atoms       : List AtomDecl := []
 
 -- ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -80,5 +91,14 @@ def Theory.herbrandBase (thy : Theory) : List Atom :=
       | .deontic d => [d.lit.atom]) ++
     r.conclusion.map (·.atom))
   (fromFacts ++ fromRules).eraseDups
+
+-- The declaration for an atom, if one was provided.
+def Theory.atomDecl? (thy : Theory) (a : Atom) : Option AtomDecl :=
+  thy.atoms.find? (·.atom == a)
+
+-- Atoms used in the theory that have no description (the checker complains
+-- about these: every atom should be grounded so a fact-finder knows its meaning).
+def Theory.undescribedAtoms (thy : Theory) : List Atom :=
+  thy.herbrandBase.filter fun a => (thy.atomDecl? a).isNone
 
 end Deontic

@@ -2,6 +2,7 @@ import Deontic.Theory
 import Deontic.Extension
 import Deontic.Query
 import Deontic.Abduce
+import Deontic.Parser
 import Deontic.Pretty
 
 open Deontic Deontic.Pretty
@@ -154,3 +155,42 @@ private def gNotO (a : Atom) : Condition := ⟨false, true, .O, .pos a⟩ -- ¬ 
   IO.println ""
   IO.println "=== Abduction: configurations that REQUIRE use (license) ==="
   IO.println (renderAbduceResult (abduce ex1Theory [] [⟨true, true, .O, .pos "use"⟩]) true 8)
+
+-- ── Atom descriptions / provenance ────────────────────────────────────────────
+
+private def describedSrc : String :=
+  "atom Disclose: disclose CI to a third party | NDA s1\n" ++
+  "atom PriorWrittenPermission: rights-holder gave prior written permission\n" ++
+  "no_disclosure: =>O ~Disclose\n" ++
+  "with_permission: PriorWrittenPermission ~>O Disclose\n" ++
+  "superiority: with_permission > no_disclosure"
+
+-- Descriptions parse, with provenance after `|` optional.
+#guard match Deontic.Parser.parse describedSrc with
+  | .ok thy =>
+    thy.atomDecl? "Disclose" == some ⟨"Disclose", "disclose CI to a third party", some "NDA s1"⟩
+    && thy.atomDecl? "PriorWrittenPermission"
+         == some ⟨"PriorWrittenPermission", "rights-holder gave prior written permission", none⟩
+    && thy.undescribedAtoms == []
+  | .error _ => false
+
+-- A `#` in provenance (URI fragment) is kept verbatim on atom lines.
+#guard match Deontic.Parser.parse "atom a: an atom | https://x.test/doc#sec1\nr: a => b\natom b: another" with
+  | .ok thy => (thy.atomDecl? "a").bind (·.provenance) == some "https://x.test/doc#sec1"
+  | .error _ => false
+
+-- Undescribed atoms are reported.
+#guard match Deontic.Parser.parse "r: a => b" with
+  | .ok thy => thy.undescribedAtoms == ["a", "b"]
+  | .error _ => false
+
+-- A declaration with no description is a parse error.
+#guard match Deontic.Parser.parse "atom X:" with
+  | .error _ => true
+  | .ok _    => false
+
+#eval do
+  IO.println "=== Atom dictionary ==="
+  match Deontic.Parser.parse describedSrc with
+  | .ok thy => IO.println (renderAtoms thy (fun _ => none))
+  | .error e => IO.println s!"parse error: {e}"

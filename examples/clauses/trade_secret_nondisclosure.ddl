@@ -10,10 +10,11 @@
 # Facts are solved for by reverse search (abduce); no scenario is fixed here.
 facts:
 
-# Atoms
-#   Disclose                disclose information concerning the trade secret/property
-#   PriorWrittenPermission  Navidec's prior written permission has been obtained
-# (Note: this clause names NO employee exception — recipient role is irrelevant.)
+# Atom descriptions ground meaning for a fact-finder; text after `|` is
+# provenance. (This clause names NO employee exception — recipient role is
+# irrelevant, so there is deliberately no EmployeeRecipient atom.)
+atom Disclose: disclose, disseminate or distribute any information concerning the trade secret or property to any person, entity or business | Navidec mutual NDA, non-disclosure undertaking
+atom PriorWrittenPermission: Navidec, Incorporated has given prior written permission for the disclosure | Navidec mutual NDA, non-disclosure undertaking
 
 # Recipient shall not disclose the trade secret / property to anyone.
 no_disclosure:  =>O  ~Disclose

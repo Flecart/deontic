@@ -114,6 +114,37 @@ def renderAbduceResult (res : AbduceResult) (showAll : Bool) (limit : Nat) : Str
       else ""
     header ++ forcedLine ++ countLine ++ "\n" ++ "\n".intercalate lines ++ more ++ warn
 
+-- ── Atom descriptions / provenance ────────────────────────────────────────────
+
+/-- One atom's grounding. `resolved` is the fetched provenance text (when a link
+was resolved); otherwise the raw provenance string is shown. -/
+def renderAtomEntry (a : Atom) (decl : Option AtomDecl) (resolved : Option String) : String :=
+  match decl with
+  | none => s!"{a}\n  (no description — undefined)"
+  | some d =>
+    let provLine := match d.provenance with
+      | none   => ""
+      | some p => s!"\n  src:  {p}"
+    let resLine := match resolved with
+      | none   => ""
+      | some t => s!"\n  text: {t.trimAscii.toString}"
+    s!"{a}\n  desc: {d.description}{provLine}{resLine}"
+
+/-- Render the whole atom dictionary (one entry per Herbrand-base atom). The
+`resolve` map supplies fetched provenance text keyed by atom, when available. -/
+def renderAtoms (thy : Theory) (resolved : Atom → Option String) : String :=
+  "\n".intercalate (thy.herbrandBase.map fun a =>
+    renderAtomEntry a (thy.atomDecl? a) (resolved a))
+
+def renderAtomsJSON (thy : Theory) (resolved : Atom → Option String) : String :=
+  let entry (a : Atom) : String :=
+    let d := thy.atomDecl? a
+    let desc := match d with | some x => jsonStr x.description | none => "null"
+    let prov := match d.bind (·.provenance) with | some p => jsonStr p | none => "null"
+    let res  := match resolved a with | some t => jsonStr t | none => "null"
+    s!"\{\"atom\":{jsonStr a},\"description\":{desc},\"provenance\":{prov},\"resolved\":{res}}"
+  "[" ++ ",\n".intercalate (thy.herbrandBase.map entry) ++ "]"
+
 def renderAbduceResultJSON (res : AbduceResult) : String :=
   let litJSON (l : Lit) := jsonStr (toString l)
   let cfgJSON (c : Config) := "[" ++ ", ".intercalate (c.map litJSON) ++ "]"

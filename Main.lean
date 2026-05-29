@@ -17,6 +17,11 @@ def printHelp : IO Unit := do
   IO.println "  deontic query <file.ddl> <atom> [...] [--json] [--trace]"
   IO.println "    Query normative status of specific atoms."
   IO.println ""
+  IO.println "  deontic atoms <file.ddl> [--json] [--resolve]"
+  IO.println "    Print every atom with its description and provenance"
+  IO.println "    (for an LLM/human to know what each atom means)."
+  IO.println "    --resolve inlines provenance that points to a local file."
+  IO.println ""
   IO.println "  deontic abduce <file.ddl> <goal> [more-conditions...]"
   IO.println "                 [--all] [--limit N] [--assume t,...] [--json]"
   IO.println "    Find fact configurations that make the goal hold."
@@ -46,6 +51,29 @@ def loadTheory (file : String) : IO Theory := do
     IO.eprintln s!"Parse error: {e}"
     IO.Process.exit 1
   | .ok thy => return thy
+
+/-- Resolve a provenance string to inlined text when it points to a readable
+local file (`file://…` or a plain path). Remote URIs are left unresolved. -/
+def resolveProvenance (p : String) : IO (Option String) := do
+  if p.startsWith "http://" || p.startsWith "https://" then return none
+  let path := if p.startsWith "file://" then (p.drop 7).toString else p
+  try
+    if ← System.FilePath.pathExists path then
+      return some (← IO.FS.readFile path)
+    else return none
+  catch _ => return none
+
+/-- Warn (or, in strict mode, fail) when used atoms lack a description. -/
+def checkAtomDescriptions (thy : Theory) (strict : Bool) : IO Unit := do
+  let missing := thy.undescribedAtoms
+  unless missing.isEmpty do
+    let msg := s!"atoms used without a description: {", ".intercalate missing}"
+    if strict then
+      IO.eprintln s!"Error: {msg}"
+      IO.eprintln "  add `atom <name>: <description>` lines (or drop --strict)"
+      IO.Process.exit 1
+    else
+      IO.println s!"WARNING: {msg}"
 
 structure AbduceArgs where
   goals   : List String := []
@@ -90,9 +118,11 @@ def main (args : List String) : IO Unit := do
     let ext := computeExtension thy
 
     if cmd == "check" then
+      if flags.contains "--strict" then checkAtomDescriptions thy true
       if useJSON then
         IO.println (renderExtensionJSON thy.herbrandBase ext)
       else do
+        checkAtomDescriptions thy false
         IO.println (renderExtension ext)
         if ext.hasViolation then
           IO.println "WARNING: non-compensable violation detected"
@@ -137,6 +167,30 @@ def main (args : List String) : IO Unit := do
       IO.println (renderAbduceResultJSON res)
     else
       IO.println (renderAbduceResult res a.all a.limit)
+  | "atoms" =>
+    if rest.isEmpty then
+      IO.eprintln "Error: missing .ddl file argument"
+      IO.Process.exit 1
+    let file    := rest.head!
+    let flags   := rest.tail
+    let thy     ← loadTheory file
+    let useJSON := flags.contains "--json"
+    let resolve := flags.contains "--resolve"
+    -- Build a resolved-text lookup (only when --resolve and provenance is local).
+    let mut resolvedPairs : List (Atom × String) := []
+    if resolve then
+      for a in thy.herbrandBase do
+        match (thy.atomDecl? a).bind (·.provenance) with
+        | none   => pure ()
+        | some p => match ← resolveProvenance p with
+          | none   => pure ()
+          | some t => resolvedPairs := resolvedPairs ++ [(a, t)]
+    let resolved : Atom → Option String := fun a =>
+      (resolvedPairs.find? (·.1 == a)).map (·.2)
+    if useJSON then
+      IO.println (renderAtomsJSON thy resolved)
+    else
+      IO.println (renderAtoms thy resolved)
   | _ =>
-    IO.eprintln s!"Unknown command '{cmd}'. Use 'check', 'query', or 'abduce'."
+    IO.eprintln s!"Unknown command '{cmd}'. Use 'check', 'query', 'abduce', or 'atoms'."
     IO.Process.exit 1

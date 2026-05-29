@@ -129,6 +129,29 @@ private def parseSup (tokens : List String) : Except String SuperiorityRel :=
 private def parseFacts (tokens : List String) : Except String (List Lit) :=
   tokens.filter (· != ",") |>.mapM parseLit
 
+-- ── Atom declaration parser ───────────────────────────────────────────────────
+-- Syntax (one line):  atom NAME: description text | provenance
+-- `provenance` (after the optional `|`) may be a URI, a citation, or inline
+-- text. The whole line is taken verbatim — no `#` comment stripping — so URIs
+-- with fragments survive; do not put trailing `#` comments on atom lines.
+
+private def parseAtomDecl (raw : String) : Except String AtomDecl := do
+  let afterKw := (raw.drop 5).toString          -- drop "atom "
+  match afterKw.splitOn ":" with
+  | [] => .error "malformed atom declaration"
+  | name :: rest =>
+    let name := name.trimAscii.toString
+    if name.isEmpty then .error "atom declaration with empty name"
+    let body := (":".intercalate rest).trimAscii.toString
+    let segs := body.splitOn "|"
+    let desc := segs.head!.trimAscii.toString
+    if desc.isEmpty then .error s!"atom '{name}' has no description"
+    let prov :=
+      if segs.length > 1 then
+        some ("|".intercalate (segs.drop 1)).trimAscii.toString
+      else none
+    .ok ⟨name, desc, prov⟩
+
 -- ── Main entry point ─────────────────────────────────────────────────────────
 
 def parse (src : String) : Except String Theory := do
@@ -136,8 +159,17 @@ def parse (src : String) : Except String Theory := do
   let mut facts       : List Lit       := []
   let mut rules       : List Rule      := []
   let mut superiority : SuperiorityRel := []
+  let mut atoms       : List AtomDecl  := []
 
   for rawLine in lines do
+    let rawTrim := rawLine.trimAscii.toString
+    -- Atom declarations are read verbatim (no `#` comment stripping) so that
+    -- provenance URIs may contain `#` fragments.
+    if rawTrim.startsWith "atom " then
+      let decl ← parseAtomDecl rawTrim
+      atoms := atoms ++ [decl]
+      continue
+
     let line := ((rawLine.splitOn "#").head!.trimAscii).toString
     if line.isEmpty then continue
 
@@ -159,6 +191,6 @@ def parse (src : String) : Except String Theory := do
       let rule ← parseRule label tokens
       rules := rules ++ [rule]
 
-  .ok ⟨facts, rules, superiority⟩
+  .ok ⟨facts, rules, superiority, atoms⟩
 
 end Deontic.Parser
