@@ -5,3 +5,5 @@ calling-hours: A telemarketer shall not initiate an outbound call before 8 a.m. 
 robocall-consent: A telemarketer shall not deliver a prerecorded message without the recipient's prior express written consent.
 abandoned-calls: A telemarketer shall not abandon more than three percent of answered calls.
 caller-id: A telemarketer shall transmit accurate caller identification information.
+payment-disclosure: A telemarketer shall disclose the total cost and material terms before obtaining payment.
+recordkeeping: A seller shall keep records of its telemarketing transactions for 24 months.
