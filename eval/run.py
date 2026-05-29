@@ -29,7 +29,8 @@ def parse_args():
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--model", default="stub", help="registry name or provider:model_id")
     p.add_argument("--task", default="contract_nli", help=f"one of {list(data.TASKS)}")
-    p.add_argument("--condition", choices=["baseline", "tool", "both"], default="both")
+    p.add_argument("--condition", default="baseline,cli",
+                   help="comma list of {baseline,tool,cli}; 'both'=baseline,cli; 'all'=baseline,tool,cli")
     p.add_argument("--data", help="JSONL or TSV dataset (default: built-in sample)")
     p.add_argument("--limit", type=int, default=0, help="max examples (0 = all)")
     p.add_argument("--max-rounds", type=int, default=4, dest="max_rounds")
@@ -48,7 +49,15 @@ def main():
     client = models.make_client(spec)
     task = data.get_task(args.task)
     examples = data.load_examples(args, task)
-    conditions = ["baseline", "tool"] if args.condition == "both" else [args.condition]
+    aliases = {"both": ["baseline", "cli"], "all": ["baseline", "tool", "cli"]}
+    valid = {"baseline", "tool", "cli"}
+    conditions = []
+    for c in args.condition.split(","):
+        c = c.strip()
+        conditions.extend(aliases.get(c, [c]))
+    bad = [c for c in conditions if c not in valid]
+    if bad:
+        raise SystemExit(f"unknown condition(s) {bad}; valid: {sorted(valid)} (or both/all)")
 
     print(f"model={spec.name} ({spec.provider}:{spec.model_id})  task={task['name']}  "
           f"examples={len(examples)}  conditions={conditions}\n")
@@ -64,8 +73,10 @@ def main():
             try:
                 if c == "baseline":
                     pred, tr = agents.run_baseline(client, spec, task, ex, args.temperature)
-                else:
+                elif c == "tool":
                     pred, tr = agents.run_tool(client, spec, task, ex, args.max_rounds, args.temperature)
+                else:  # cli
+                    pred, tr = agents.run_cli(client, spec, task, ex, args.max_rounds, args.temperature)
                 err = None
             except Exception as e:  # noqa: BLE001 - keep the sweep going
                 pred, tr, err = None, [], str(e)
@@ -81,7 +92,7 @@ def main():
                     "correct": ok, "error": err, "n_tool_calls": ncalls, "transcript": tr,
                 }) + "\n")
             mark = "OK " if ok else ("ERR" if err else "X  ")
-            extra = f" calls={ncalls}" if c == "tool" else ""
+            extra = f" calls={ncalls}" if c in ("tool", "cli") else ""
             print(f"[{i+1}/{len(examples)}] {c:8} {mark} pred={pred} gold={ex['gold']}{extra}"
                   + (f"  ({err})" if err else ""))
     if logf:
@@ -91,7 +102,7 @@ def main():
     for c in conditions:
         s = stats[c]
         acc = s["correct"] / s["total"] if s["total"] else 0.0
-        tc = f"  avg_tool_calls={s['tool_calls']/s['total']:.1f}" if c == "tool" and s["total"] else ""
+        tc = f"  avg_tool_calls={s['tool_calls']/s['total']:.1f}" if c in ("tool", "cli") and s["total"] else ""
         print(f"{spec.name:18} {c:8} accuracy {s['correct']}/{s['total']} = {acc:.1%}{tc}")
     if args.out:
         print(f"\nper-example log -> {args.out}")

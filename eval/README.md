@@ -1,11 +1,18 @@
 # Agentic eval harness
 
-Compares a model on LegalBench-style legal tasks under two conditions:
+Compares a model on LegalBench-style legal tasks under three conditions:
 
 - **baseline** — prompt the model directly for a label.
-- **tool** — give the model the `deontic` reasoner as a function-calling tool;
-  it formalizes the clause as DDL and queries the reasoner for up to N rounds
-  before answering. The full tool transcript is logged (the auditability win).
+- **cli** *(default agentic)* — give the model a `bash` tool (the `deontic`
+  binary is on PATH) plus [`deontic_skill.md`](deontic_skill.md) in the system
+  prompt. It writes `.ddl` files and runs `deontic query/abduce/...` itself for
+  up to N rounds — closest to a real agent with a terminal.
+- **tool** — a structured `run_deontic(ddl, command, args)` function tool instead
+  of raw shell (no arbitrary commands; handy to compare against `cli`).
+
+The full tool/CLI transcript is logged (the auditability win). The `cli` shell
+is scoped (runs in the repo, 30s timeout, refuses destructive/networked
+commands) — it is **not a sandbox**; use only for trusted research evals.
 
 Model-swappable: one OpenAI-compatible client drives both OpenAI and OpenRouter.
 
@@ -14,9 +21,14 @@ Model-swappable: one OpenAI-compatible client drives both OpenAI and OpenRouter.
 ```bash
 .venv/bin/python -m pip install -r eval/requirements.txt   # just `openai`
 export PATH="$HOME/.elan/bin:$PATH" && lake build deontic   # the tool binary
+ln -sf "$PWD/.lake/build/bin/deontic" ~/.local/bin/deontic   # put `deontic` on PATH
 export OPENAI_API_KEY=sk-...          # for provider openai
 export OPENROUTER_API_KEY=sk-or-...   # for provider openrouter
 ```
+
+(The `cli` condition also injects the build dir onto PATH for its shell, so the
+symlink is mainly for your own interactive use. Override the binary location
+with `DEONTIC_BIN`.)
 
 Run from the **project root** (so `./.lake/build/bin/deontic` resolves; override
 with `DEONTIC_BIN`).
@@ -25,13 +37,16 @@ with `DEONTIC_BIN`).
 
 ```bash
 # Offline smoke test (no network/spend): the `stub` model always answers "Yes".
-python eval/run.py --model stub --condition both
+python eval/run.py --model stub                      # default: baseline,cli
 
-# Real run on the built-in sample (6 contract_nli items), both conditions, logged.
-python eval/run.py --model gpt-4o-mini --condition both --out runs/gpt4omini.jsonl
+# Real run on the built-in sample (6 contract_nli items), baseline vs cli, logged.
+python eval/run.py --model gpt-4o-mini --out runs/gpt4omini.jsonl
+
+# Pick conditions explicitly (baseline | cli | tool; 'all' = all three):
+python eval/run.py --model gpt-4.1 --condition baseline,cli,tool
 
 # Any OpenRouter model ad-hoc (no registry entry needed):
-python eval/run.py --model openrouter:deepseek/deepseek-chat --condition tool
+python eval/run.py --model openrouter:deepseek/deepseek-chat --condition cli
 
 # Your own data (LegalBench task TSV with a fixed hypothesis, or a JSONL):
 python eval/run.py --model gpt-4.1 --data path/to/test.tsv \

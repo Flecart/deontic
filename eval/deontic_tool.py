@@ -63,6 +63,61 @@ Patterns: prohibition `=>O ~X` then query X -> F(X); conditional duty `cond =>O 
 with fact cond then query X -> O(X); permission `default =>O ~X` + `cond ~>O X` +
 `superiority` then `abduce 'P(X)' --all` -> {cond}."""
 
+
+# ── Raw-CLI condition: a scoped `bash` tool + the skill doc ────────────────────
+
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# `deontic` lives in the build dir; `lake` (if needed) in elan. Put both on PATH
+# so the model can call `deontic ...` as a bare command.
+_BIN_DIR = os.path.join(_REPO_ROOT, ".lake", "build", "bin")
+_TOOL_ENV = {**os.environ,
+             "PATH": f"{_BIN_DIR}:{os.path.expanduser('~/.elan/bin')}:{os.environ.get('PATH', '')}"}
+
+# Coarse guard — a timeout + repo cwd is the real containment; this just rejects
+# obviously destructive one-liners. NOT a sandbox; use only for trusted evals.
+_DANGER = ("rm -rf /", "rm -rf ~", "sudo ", "mkfs", "dd if=", ":(){", "shutdown",
+           "reboot", "> /dev/sd", "curl http", "wget http", "git push", "ssh ")
+
+
+def run_shell(command: str) -> str:
+    """Run a shell command in the repo (deontic on PATH). For the `cli` condition."""
+    cmd = (command or "").strip()
+    if not cmd:
+        return "error: empty command"
+    if any(tok in cmd for tok in _DANGER):
+        return "refused: command matched a destructive/networked pattern and was not run."
+    try:
+        proc = subprocess.run(cmd, shell=True, cwd=_REPO_ROOT, env=_TOOL_ENV,
+                              capture_output=True, text=True, timeout=30)
+        out = (proc.stdout or "") + (("\n[stderr] " + proc.stderr) if proc.stderr.strip() else "")
+        out = out.strip() or "(no output)"
+        return out[:4000] + ("\n…[truncated]" if len(out) > 4000 else "")
+    except subprocess.TimeoutExpired:
+        return "error: command timed out (30s)."
+    except Exception as e:  # noqa: BLE001
+        return f"error running command: {e}"
+
+
+def load_skill() -> str:
+    with open(os.path.join(os.path.dirname(__file__), "deontic_skill.md")) as f:
+        return f.read()
+
+
+SHELL_TOOL_SCHEMA = {
+    "type": "function",
+    "function": {
+        "name": "bash",
+        "description": ("Run a shell command in the project root. The `deontic` reasoner "
+                        "is on PATH. Use it to write a .ddl file and run `deontic query/"
+                        "abduce/check/atoms` (see the skill instructions). 30s timeout."),
+        "parameters": {
+            "type": "object",
+            "properties": {"command": {"type": "string", "description": "The shell command to run."}},
+            "required": ["command"],
+        },
+    },
+}
+
 TOOL_SCHEMA = {
     "type": "function",
     "function": {

@@ -10,7 +10,8 @@ Both return (label, transcript) where transcript is a list of dicts for logging
 from __future__ import annotations
 import json
 
-from deontic_tool import run_deontic, TOOL_SCHEMA
+from deontic_tool import (run_deontic, TOOL_SCHEMA,
+                          run_shell, SHELL_TOOL_SCHEMA, load_skill)
 
 
 def _create(client, spec, messages, tools=None, temperature=0.0):
@@ -99,6 +100,45 @@ def run_tool(client, spec, task, ex, max_rounds=4, temperature=0.0):
             transcript.append({"role": "tool", "call": a, "result": result})
             messages.append({"role": "tool", "tool_call_id": tc.id, "content": result})
     # ran out of rounds: force a final answer with no more tools
+    messages.append({"role": "user",
+                     "content": f"Give your final answer now. ANSWER: <one of {task['labels']}>."})
+    resp = _create(client, spec, messages, temperature=temperature)
+    content = resp.choices[0].message.content or ""
+    transcript.append({"role": "assistant", "content": content})
+    return parse_answer(content, task["labels"]), transcript
+
+
+def run_cli(client, spec, task, ex, max_rounds=4, temperature=0.0):
+    """Agentic condition with raw CLI access: a `bash` tool (deontic on PATH)
+    plus the skill doc in the system prompt. The model writes .ddl files and runs
+    `deontic ...` itself for up to max_rounds rounds, then answers."""
+    system = (_sys_baseline(task) +
+              "\n\nYou have a `bash` tool: a shell in the project root with the `deontic` "
+              f"reasoner on PATH. Before answering you SHOULD use it (up to {max_rounds} "
+              "rounds) to formalize the relevant clause as a DDL theory and run the reasoner, "
+              "then map the formal result to the label. Always finish with 'ANSWER: <label>'.\n\n"
+              "=== deontic skill ===\n" + load_skill())
+    messages = [{"role": "system", "content": system},
+                {"role": "user", "content": _user_msg(task, ex)}]
+    transcript = []
+    for _ in range(max_rounds):
+        resp = _create(client, spec, messages, tools=[SHELL_TOOL_SCHEMA], temperature=temperature)
+        msg = resp.choices[0].message
+        tool_calls = getattr(msg, "tool_calls", None)
+        if not tool_calls:
+            content = msg.content or ""
+            transcript.append({"role": "assistant", "content": content})
+            return parse_answer(content, task["labels"]), transcript
+        messages.append({"role": "assistant", "content": msg.content,
+                         "tool_calls": [_tc_dump(tc) for tc in tool_calls]})
+        for tc in tool_calls:
+            try:
+                a = json.loads(tc.function.arguments or "{}")
+            except json.JSONDecodeError:
+                a = {}
+            result = run_shell(a.get("command", ""))
+            transcript.append({"role": "tool", "call": a, "result": result})
+            messages.append({"role": "tool", "tool_call_id": tc.id, "content": result})
     messages.append({"role": "user",
                      "content": f"Give your final answer now. ANSWER: <one of {task['labels']}>."})
     resp = _create(client, spec, messages, temperature=temperature)
