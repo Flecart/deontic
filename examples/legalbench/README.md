@@ -13,8 +13,9 @@ place of, or alongside, direct LLM classification.
 | Privacy policy | [`privacy-policy/`](privacy-policy/) | 13 data-protection duties/rights (breach, deletion, access, sharing, retention, children, marketing, security, minimization, consent, transfer, DPIA, processor) |
 | Telemarketing Sales Rule | [`telemarketing-sales-rule/`](telemarketing-sales-rule/) | 8 FTC TSR duties (do-not-call, calling hours, identification, robocall, abandoned calls, caller-id, cost disclosure, recordkeeping) |
 | Contract QA | [`contract-qa/`](contract-qa/) | 5 employment/services yes/no questions (notice, at-will, overtime, confidentiality, reimbursement) |
+| MAUD (merger agreements) | [`maud/`](maud/) | 4 deal-point covenants (ordinary-course, no-shop, best-efforts, fiduciary-out) |
 
-~80 deontic cases total, all verified.
+~84 deontic cases total, all verified.
 
 [`COMPARISON.md`](COMPARISON.md) — baseline protocol & analysis: **with** the
 reasoner (LLM → `.ddl` → `deontic`) vs **without** (direct LLM classification).
