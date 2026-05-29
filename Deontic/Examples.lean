@@ -206,3 +206,31 @@ private def describedSrc : String :=
   match Deontic.Parser.parse describedSrc with
   | .ok thy => IO.println (renderAtoms thy (fun _ => none))
   | .error e => IO.println s!"parse error: {e}"
+
+-- ── Imports / namespacing ─────────────────────────────────────────────────────
+
+-- Import directives are recorded by the (pure) parser; the loader resolves them.
+#guard match Deontic.Parser.parse "from defs.ddl import *\nimport roles.ddl as r\natom a: d\nx: a => b\natom b: e" with
+  | .ok thy => thy.imports == [.glob "defs.ddl", .namespaced "roles.ddl" "r"]
+  | .error _ => false
+
+-- Namespacing prefixes every atom and rule label.
+#guard match Deontic.Parser.parse "atom a: d\nx: a => b\natom b: e" with
+  | .ok thy =>
+    let ns := thy.namespaced "m"
+    ns.herbrandBase == ["m.a", "m.b"] && ns.rules.map (·.label) == ["m.x"]
+  | .error _ => false
+
+-- A merge fails when two declarations of the same atom disagree on description.
+#guard match Deontic.Parser.parse "atom a: ONE\nx: a => b\natom b: e",
+             Deontic.Parser.parse "atom a: TWO\ny: a => c\natom c: f" with
+  | .ok t1, .ok t2 => (t1.mergeGuarded t2).toOption.isNone
+  | _, _ => false
+
+-- …and succeeds (deduping the shared atom) when the descriptions agree.
+#guard match Deontic.Parser.parse "atom a: same\nx: a => b\natom b: e",
+             Deontic.Parser.parse "atom a: same\ny: a => c\natom c: f" with
+  | .ok t1, .ok t2 => match t1.mergeGuarded t2 with
+    | .ok m => m.rules.length == 2 && m.atoms.length == 3
+    | .error _ => false
+  | _, _ => false

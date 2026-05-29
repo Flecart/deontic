@@ -83,12 +83,27 @@ GitHub-style line selector (`#L3-L6`); at least one must be present. `deontic
 atoms <file>` prints the dictionary (`--json` for tools; `--resolve` inlines the
 lines the uri points at).
 
+## Imports & namespacing
+
+Reuse a shared module (e.g. a definitions library) across theories:
+
+```ddl
+import definitions.ddl as roles   # imported atoms/labels become roles.*
+from definitions.ddl import *      # or merge into this namespace
+```
+
+Paths are relative to the importing file. Merging is **description-guarded**:
+two declarations of the same atom must agree on their description, or the load
+fails — the same name must mean the same thing. Rule-label collisions and import
+cycles are errors too. (Selective `from … import a, b` isn't implemented yet.)
+
 ## Examples
 
 | Path | Scenario |
 |------|----------|
 | `examples/ex1_license.ddl` | License contract (Governatori §4): commission, use, publish |
 | `examples/clauses/` | Single contract clauses, exercised via the `abduce` reverse search |
+| `examples/imports/` | Reusing a shared definitions module (`import` / `from … import *`) |
 | `examples/deprecated/` | Pre-description examples kept for reference (won't load) |
 
 ## Vision: legal LLMs with formal grounding

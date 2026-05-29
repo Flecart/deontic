@@ -64,12 +64,27 @@ structure AtomDecl where
   provenance  : Option Provenance := none
   deriving Repr, BEq
 
+-- An import directive (resolved by the loader, not the pure parser).
+--   namespaced path alias : `import <path> as <alias>` — imported atoms/labels
+--                           are prefixed `alias.` (alias defaults to the file stem)
+--   glob path             : `from <path> import *` — merged into this namespace,
+--                           with description-guarded conflict checking
+inductive ImportDecl where
+  | namespaced (path : String) (alias : String)
+  | glob       (path : String)
+  deriving Repr, BEq
+
+def ImportDecl.path : ImportDecl → String
+  | .namespaced p _ => p
+  | .glob p         => p
+
 -- Defeasible Deontic Theory D = (F, R^C, R^O, ≺)  eq. 29
 structure Theory where
   facts       : List Lit
   rules       : List Rule
   superiority : SuperiorityRel
-  atoms       : List AtomDecl := []
+  atoms       : List AtomDecl   := []
+  imports     : List ImportDecl := []
 
 -- ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -104,6 +119,53 @@ def Theory.herbrandBase (thy : Theory) : List Atom :=
       | .deontic d => [d.lit.atom]) ++
     r.conclusion.map (·.atom))
   (fromFacts ++ fromRules).eraseDups
+
+-- ── Namespacing (for imports) ─────────────────────────────────────────────────
+-- Prefix every name in a theory with `ns.` so an imported module's atoms and
+-- rule labels don't collide with the importer's. Empty prefix is the identity.
+
+private def qualifyName (ns : String) (name : String) : String :=
+  if ns.isEmpty then name else s!"{ns}.{name}"
+
+private def Lit.qualify (ns : String) : Lit → Lit
+  | .pos a => .pos (qualifyName ns a)
+  | .neg a => .neg (qualifyName ns a)
+
+private def Literal.qualify (ns : String) : Literal → Literal
+  | .plain l   => .plain (l.qualify ns)
+  | .deontic d => .deontic { d with lit := d.lit.qualify ns }
+
+def Theory.namespaced (ns : String) (thy : Theory) : Theory where
+  facts       := thy.facts.map (·.qualify ns)
+  rules       := thy.rules.map fun r =>
+    { r with label      := qualifyName ns r.label
+             antecedent := r.antecedent.map (·.qualify ns)
+             conclusion := r.conclusion.map (·.qualify ns) }
+  superiority := thy.superiority.map fun (w, l) => (qualifyName ns w, qualifyName ns l)
+  atoms       := thy.atoms.map fun d => { d with atom := qualifyName ns d.atom }
+  imports     := []
+
+-- Guarded merge: combine `add` into `base`. Two declarations of the same atom
+-- must agree on their description (else the atoms aren't really the same thing);
+-- two rules may not share a label. This is what makes `from x import *` safe.
+def Theory.mergeGuarded (base add : Theory) : Except String Theory := do
+  for d in add.atoms do
+    match base.atoms.find? (·.atom == d.atom) with
+    | some e =>
+      if e.description != d.description then
+        .error s!"conflicting descriptions for atom '{d.atom}':\n  {e.description}\n  {d.description}"
+    | none => pure ()
+  for r in add.rules do
+    if base.rules.any (·.label == r.label) then
+      .error s!"duplicate rule label '{r.label}' across imports"
+  .ok {
+    facts       := base.facts ++ add.facts
+    rules       := base.rules ++ add.rules
+    superiority := base.superiority ++ add.superiority
+    atoms       := base.atoms ++ add.atoms.filter fun d =>
+                     !base.atoms.any (·.atom == d.atom)
+    imports     := []
+  }
 
 -- The declaration for an atom, if one was provided.
 def Theory.atomDecl? (thy : Theory) (a : Atom) : Option AtomDecl :=

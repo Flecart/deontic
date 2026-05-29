@@ -32,7 +32,7 @@ The CLI entry point is `Main.lean`, which loads a theory, calls `computeExtensio
 | Path | Role |
 |------|------|
 | `Deontic/Basic.lean` | Atoms, literals (`pos` / `neg`), deontic operators, `OExpr` (compensatory chains `a * b * c`) |
-| `Deontic/Theory.lean` | `Rule`, `Theory`, `AtomDecl` (descriptions/provenance), Herbrand base, superiority (`defeats`) |
+| `Deontic/Theory.lean` | `Rule`, `Theory`, `AtomDecl`, `ImportDecl`, namespacing + guarded merge, Herbrand base, superiority (`defeats`) |
 | `Deontic/Parser.lean` | Tokeniser and parser for `.ddl` → `Theory` |
 | `Deontic/ProofTags.lean` | Modalities (`C`, `O`, `P`, `Pw`, `Ps`), `TaggedLit`, `Derivation`, `Extension` |
 | `Deontic/Applicability.lean` | Body-applicable / body-p-applicable; compensatory index conditions |
@@ -132,6 +132,10 @@ It is satisfiability-flavoured but not a SAT call. The search ranges only over t
 ## Atom descriptions & provenance
 
 Atom names are opaque tokens; the same name in two theories can mean different things. `AtomDecl` (an `atom NAME: description | <prov>…` line) grounds each atom so a fact-finder — human or LLM — knows what asserting it commits to, and binds it back to its source. Descriptions are **mandatory**: `loadTheory` refuses a theory with any undescribed Herbrand atom (the `atoms` command uses a non-enforcing load so it can still inspect). Provenance (`Provenance` = `{quote?, uri?}`, at least one set) follows the description as `|`-separated `quote:`/`uri:` segments (bare text is taken as a quote). A `uri` is a relative path to an in-repo markdown source with an optional GitHub-style line selector (`sources/nda.md#L3-L6`); atom lines skip `#` comment-stripping so selectors survive. `deontic atoms` prints the dictionary and can `--resolve` a uri to the lines it points at. Descriptions and provenance are metadata — they do not affect the extension.
+
+## Imports & namespacing
+
+A theory can reuse another via `import <path> [as <alias>]` (imported atoms and rule labels are prefixed `alias.`, default alias = file stem) or `from <path> import *` (merged unprefixed). The pure parser only *records* `ImportDecl`s; the loader (`Main.resolveImports`) reads the referenced files relative to the importer, recursively resolves their imports, applies `Theory.namespaced` for aliased imports, and folds them in with `Theory.mergeGuarded`. The merge is **description-guarded**: two declarations of the same atom must share a description (else the atoms aren't the same thing — error), and rule labels must be unique; import cycles are detected and rejected. This keeps the grounding rule consistent — *description = an atom's contract, namespace = its identity, a merge is legal only when contracts match*. Atoms stay shared semantics; only labels are isolated. (Selective `from … import a, b` is not yet implemented.)
 
 ## Parser and `.ddl` syntax
 

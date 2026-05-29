@@ -155,6 +155,24 @@ private def addProvSeg (name : String) (p : Provenance) (seg : String) : Except 
   else
     .ok { p with quote := some s }   -- bare text shorthand for a quote
 
+-- ── Import declaration parser ──────────────────────────────────────────────────
+-- `import <path> [as <alias>]`  or  `from <path> import *`
+-- The path stem (filename without `.ddl`) is the default alias.
+
+private def pathStem (path : String) : String :=
+  let base := (path.splitOn "/").getLast!
+  (base.splitOn ".").head!
+
+private def parseImport (raw : String) : Except String ImportDecl :=
+  let toks := (raw.splitOn " ").map trimS |>.filter (!·.isEmpty)
+  match toks with
+  | ["import", path]              => .ok (.namespaced path (pathStem path))
+  | ["import", path, "as", alias] => .ok (.namespaced path alias)
+  | ["from", path, "import", "*"] => .ok (.glob path)
+  | "from" :: _ =>
+    .error "only `from <path> import *` is supported (selective import not yet implemented)"
+  | _ => .error s!"malformed import: '{raw}'"
+
 private def parseAtomDecl (raw : String) : Except String AtomDecl := do
   let afterKw := (raw.drop 5).toString          -- drop "atom "
   match afterKw.splitOn ":" with
@@ -182,6 +200,7 @@ def parse (src : String) : Except String Theory := do
   let mut rules       : List Rule      := []
   let mut superiority : SuperiorityRel := []
   let mut atoms       : List AtomDecl  := []
+  let mut imports     : List ImportDecl := []
 
   for rawLine in lines do
     let rawTrim := rawLine.trimAscii.toString
@@ -190,6 +209,10 @@ def parse (src : String) : Except String Theory := do
     if rawTrim.startsWith "atom " then
       let decl ← parseAtomDecl rawTrim
       atoms := atoms ++ [decl]
+      continue
+    if rawTrim.startsWith "import " || rawTrim.startsWith "from " then
+      let imp ← parseImport ((rawTrim.splitOn "#").head!.trimAscii.toString)
+      imports := imports ++ [imp]
       continue
 
     let line := ((rawLine.splitOn "#").head!.trimAscii).toString
@@ -213,6 +236,6 @@ def parse (src : String) : Except String Theory := do
       let rule ← parseRule label tokens
       rules := rules ++ [rule]
 
-  .ok ⟨facts, rules, superiority, atoms⟩
+  .ok ⟨facts, rules, superiority, atoms, imports⟩
 
 end Deontic.Parser

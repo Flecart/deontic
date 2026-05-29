@@ -44,19 +44,49 @@ def printHelp : IO Unit := do
   IO.println "  ~p   negation of atom p"
   IO.println "  *    compensatory chain: a * b * c"
 
-/-- Parse a theory from a file, exiting on parse error. Does NOT enforce that
-atoms are described — used by the `atoms` command, which must run on any file. -/
-def loadTheoryRaw (file : String) : IO Theory := do
+private def parseFile (file : String) : IO Theory := do
   let src ← IO.FS.readFile file
   match parse src with
   | .error e =>
-    IO.eprintln s!"Parse error: {e}"
+    IO.eprintln s!"Parse error in {file}: {e}"
     IO.Process.exit 1
   | .ok thy => return thy
 
-/-- Load a theory and require every used atom to carry a description. -/
+/-- Directory of `file` (everything up to the last `/`), or "." if none. -/
+private def dirOf (file : String) : String :=
+  match (file.splitOn "/").dropLast with
+  | [] => "."
+  | parts => "/".intercalate parts
+
+/-- Parse a theory and recursively resolve its `import` / `from … import *`
+directives, namespacing or guard-merging each. Paths are relative to the
+importing file. Does NOT enforce that atoms are described. -/
+partial def resolveImports (visited : List String) (file : String) : IO Theory := do
+  if visited.contains file then
+    IO.eprintln s!"Error: import cycle through {file}"
+    IO.Process.exit 1
+  let thy ← parseFile file
+  let dir := dirOf file
+  let mut acc : Theory := { thy with imports := [] }
+  for imp in thy.imports do
+    let path := if (imp.path).startsWith "/" then imp.path else s!"{dir}/{imp.path}"
+    let sub  ← resolveImports (file :: visited) path
+    let nsSub := match imp with
+      | .namespaced _ alias => sub.namespaced alias
+      | .glob _             => sub
+    match acc.mergeGuarded nsSub with
+    | .ok merged => acc := merged
+    | .error e   => IO.eprintln s!"Import error ({path}): {e}"; IO.Process.exit 1
+  return acc
+
+/-- Resolve imports; the `atoms` command must run on any file. -/
+def loadTheoryRaw (file : String) : IO Theory :=
+  resolveImports [] file
+
+/-- Load a theory (with imports resolved) and require every used atom to carry
+a description. -/
 def loadTheory (file : String) : IO Theory := do
-  let thy ← loadTheoryRaw file
+  let thy ← resolveImports [] file
   let missing := thy.undescribedAtoms
   unless missing.isEmpty do
     IO.eprintln s!"Error: atoms used without a description: {", ".intercalate missing}"
