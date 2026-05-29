@@ -16,5 +16,7 @@ access, share) formalized as DDL. (`B=./.lake/build/bin/deontic`, project root.)
 | Is excessive collection barred? (`data_minimization`) | prohibition | `$B query … CollectExcessiveData` | `F(…)` | YES |
 | May the user withdraw consent? (`consent_withdrawal`) | permission | `$B query … WithdrawConsent` | `Ps(…)` | YES |
 | May transfer abroad with safeguards? (`cross_border_transfer`) | permission carve-out | `$B abduce … 'P(TransferAbroad)' --all` | `{ AppropriateSafeguards }` | YES |
+| DPIA before high-risk processing? (`dpia`) | cond. obligation | `$B query … ConductDPIA` | `O(…)` | YES |
+| DPA before engaging a processor? (`processor_agreement`) | cond. obligation | `$B query … HaveProcessingAgreement` | `O(…)` | YES |
 
 See [`../COMPARISON.md`](../COMPARISON.md) for the baseline protocol.

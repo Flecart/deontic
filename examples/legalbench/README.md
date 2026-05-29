@@ -8,11 +8,13 @@ place of, or alongside, direct LLM classification.
 | Family | Dir | Coverage |
 |--------|-----|----------|
 | ContractNLI | [`contract-nli/`](contract-nli/) | 14 `contract_nli_*` tasks + NDA-2, contradiction / not-mentioned variants, and a combined multi-hypothesis NDA |
-| CUAD | [`cuad/`](cuad/) | 15 deontic clause types (non-compete, audit-rights, anti-assignment, exclusivity, MFN, ROFR, indemnification, …) |
-| Consumer contracts QA | [`consumer-contracts-qa/`](consumer-contracts-qa/) | 7 yes/no questions as permission/obligation queries |
-| Privacy policy | [`privacy-policy/`](privacy-policy/) | 8 data-protection duties/rights (breach, deletion, access, sharing, retention, children, marketing, security) |
+| CUAD | [`cuad/`](cuad/) | 24 deontic clause types (non-compete, audit-rights, anti-assignment, exclusivity, MFN, ROFR, indemnification, escrow, warranty, …) |
+| Consumer contracts QA | [`consumer-contracts-qa/`](consumer-contracts-qa/) | 11 yes/no questions as permission/obligation queries |
+| Privacy policy | [`privacy-policy/`](privacy-policy/) | 13 data-protection duties/rights (breach, deletion, access, sharing, retention, children, marketing, security, minimization, consent, transfer, DPIA, processor) |
 | Telemarketing Sales Rule | [`telemarketing-sales-rule/`](telemarketing-sales-rule/) | 8 FTC TSR duties (do-not-call, calling hours, identification, robocall, abandoned calls, caller-id, cost disclosure, recordkeeping) |
-| Contract QA | [`contract-qa/`](contract-qa/) | 3 employment/services yes/no questions (notice, at-will, overtime) |
+| Contract QA | [`contract-qa/`](contract-qa/) | 5 employment/services yes/no questions (notice, at-will, overtime, confidentiality, reimbursement) |
+
+~80 deontic cases total, all verified.
 
 [`COMPARISON.md`](COMPARISON.md) — baseline protocol & analysis: **with** the
 reasoner (LLM → `.ddl` → `deontic`) vs **without** (direct LLM classification).
