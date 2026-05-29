@@ -9,5 +9,7 @@ Core FTC Telemarketing Sales Rule duties/prohibitions formalized as DDL.
 | Calling hours (`calling_hours`) | prohibition | `$B query … CallOutsidePermittedHours` | `F(…)` |
 | Identification (`caller_identification`) | obligation | `$B query … DiscloseIdentityAndPurpose` | `O(…)` |
 | Robocall consent (`robocall_consent`) | permission carve-out | `$B abduce … 'P(Robocall)' --all` | `{ PriorExpressWrittenConsent }` |
+| Abandoned calls (`abandoned_calls`) | prohibition | `$B query … AbandonExcessCalls` | `F(…)` |
+| Caller ID (`caller_id_transmission`) | obligation | `$B query … TransmitCallerID` | `O(…)` |
 
 See [`../COMPARISON.md`](../COMPARISON.md) for the baseline protocol.
