@@ -12,3 +12,6 @@ most-favored-nation: The party shall offer the other party terms no less favorab
 minimum-commitment: The buyer shall purchase at least the minimum quantity specified each year.
 post-termination-services: Upon termination, the party shall continue to provide transition services for the wind-down period.
 rofr: Before selling the asset to a third party, the party shall first offer it to the other party.
+non-disparagement: The party shall not make any disparaging statements about the other party.
+indemnification: The party shall indemnify the other party against third-party claims arising from its breach.
+license-grant: The licensor grants the licensee a license to use the licensed software during the term.

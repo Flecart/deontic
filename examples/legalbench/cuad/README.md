@@ -20,6 +20,9 @@ and a footer test. (`B=./.lake/build/bin/deontic`, run from project root.)
 | cuad_minimum-commitment | obligation | `$B query … MeetMinimumPurchase` | `O(…)` |
 | cuad_post-termination-services | cond. obligation | `$B query … ProvideTransitionServices` | `O(…)` |
 | cuad_rofr | permission carve-out | `$B abduce … 'P(SellToThirdParty)' --all` | `{ OfferedToHolderFirst }` |
+| cuad_non-disparagement | prohibition | `$B query … Disparage` | `F(Disparage)` |
+| cuad_indemnification | cond. obligation | `$B query … Indemnify` | `O(Indemnify)` |
+| cuad_license-grant | permission | `$B query … UseLicensedSoftware` | `Ps(UseLicensedSoftware)` |
 
 These cover CUAD's clause types that express a duty, prohibition, or
 conditional permission. Purely descriptive CUAD categories (governing law,
