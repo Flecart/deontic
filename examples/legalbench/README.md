@@ -16,8 +16,9 @@ place of, or alongside, direct LLM classification.
 | MAUD (merger agreements) | [`maud/`](maud/) | 7 deal-point covenants (ordinary-course, no-shop, best-efforts, fiduciary-out, financing, MAE, hell-or-high-water) + 2 label variants |
 | Supply chain disclosure | [`supply-chain-disclosure/`](supply-chain-disclosure/) | 5 SB 657 disclosure duties (verification, audits, certification, accountability, training) |
 | FDCPA (debt collection) | [`fdcpa/`](fdcpa/) | 5 debt-collector duties (unusual-time, harassment, false representation, validation notice, cease-on-request) |
+| HIPAA (health privacy) | [`hipaa/`](hipaa/) | 4 Privacy Rule duties (minimum necessary, authorization, breach notice, accounting) |
 
-~101 deontic cases total, all verified. All three NLI labels (Entailment /
+~105 deontic cases total, all verified. All three NLI labels (Entailment /
 Contradiction / NotMentioned) are exercised across contract-nli, cuad, and maud.
 
 [`COMPARISON.md`](COMPARISON.md) — baseline protocol & analysis: **with** the
