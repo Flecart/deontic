@@ -85,8 +85,60 @@ superiority: rA > rB   # <reason>
 # - <unresolved choice, e.g. is `approval` a defeater or a strict exception?>
 ```
 
-Worked encodings live in `examples/ex1_license.ddl` and `examples/clauses/`
-(which embed rationale and open questions as comments — follow that style).
+
+Example:
+
+```
+Article 1. The Licensor grants the Licensee a license to evaluate the Product.
+Article 2. The Licensee must not publish the results of the evaluation of the
+Product without the approval of the Licensor; the approval must be
+obtained before the publication. If the Licensee publishes results of
+the evaluation of the Product without approval from the Licensor,
+the Licensee has 24 h to remove the material.
+Article 3. The Licensee must not publish comments on the evaluation of the
+Product, unless the Licensee is permitted to publish the results of
+the evaluation.
+Article 4. If the Licensee is commissioned to perform an independent evalua-
+tion of the Product, then the Licensee has the obligation to publish
+the evaluation results.
+Article 5. This license terminates automatically if the Licensee breaches this
+Agreement.
+```
+
+Produces the output: (not every input could be clean like the above, usually it's more complex, and you might also need to make constitutive rules.)
+
+```
+# Example 1: License contract (§4 of Governatori 2018)
+facts: license, commission, use
+
+
+# Atom descriptions are mandatory; this synthetic example cites the paper.
+atom license:    the licensee holds a valid licence | Governatori 2018 §4, license example
+atom commission: the work was produced under commission | Governatori 2018 §4
+atom use:        the licensee uses the licensed material | Governatori 2018 §4
+atom publish:    the licensee publishes results | Governatori 2018 §4
+atom remove:     the licensee removes the published results (remedy) | Governatori 2018 §4
+atom approval:   prior approval to publish was obtained | Governatori 2018 §4
+atom comment:    the licensee comments publicly | Governatori 2018 §4
+atom bot:        we have a contradiction ? | Governatori 2018 §4
+
+
+r0:  =>O  ~use
+r1:  license  ~>O  use
+r2:  =>O  ~publish * remove
+r2e: approval  ~>O  publish
+r3:  =>O  ~comment
+r3e: P(publish)  ~>O  comment
+r4:  commission  =>O  publish
+r4x: commission  =>O  use
+r5:  bot  =>O  ~use
+
+# r ≺ s means r defeats s (r wins when both conflict)
+# More specific/exception rules defeat more general ones
+# Without e.g. r4 > r2, commission+use yields an unresolved publish conflict (judge must add ≺)
+superiority: r1 > r0, r4x > r0, r5 > r1, r5 > r4x, r2e > r2, r3e > r3
+```
+
 
 ## User (template)
 
