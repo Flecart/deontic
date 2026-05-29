@@ -9,3 +9,5 @@ auto-renewal: The subscription shall automatically renew for successive terms un
 data-opt-out: The consumer may opt out of the sale of their personal information at any time.
 price-change-notice: The company shall give at least 30 days' notice before any price increase.
 company-assignment: The company may assign this agreement to a successor without the consumer's consent.
+return-window: The consumer may return goods for a refund within 30 days of purchase.
+dispute-charges: The consumer may dispute any charge they believe is erroneous.

@@ -16,6 +16,8 @@ encodes the clause; the reasoner's status answers the question.
 | May the consumer opt out of data sale? (`data_opt_out`) | permission | `$B query … OptOutOfDataSale` | `Ps(OptOutOfDataSale)` | YES |
 | Notice before a price increase? (`price_change_notice`) | cond. obligation | `$B query … GiveAdvanceNotice` | `O(GiveAdvanceNotice)` | YES |
 | May the company assign without consent? (`company_assignment`) | permission | `$B query … AssignToSuccessor` | `Ps(AssignToSuccessor)` | YES |
+| May the consumer return for refund? (`return_window`) | permission carve-out | `$B abduce … 'P(ReturnForRefund)' --all` | `{ WithinReturnWindow }` | YES (cond.) |
+| May the consumer dispute a charge? (`dispute_charges`) | permission | `$B query … DisputeCharge` | `Ps(DisputeCharge)` | YES |
 
 A "NO / not addressed" answer surfaces as `unknown` (no rule) or the opposite
 status. See [`../COMPARISON.md`](../COMPARISON.md) for the baseline protocol.
