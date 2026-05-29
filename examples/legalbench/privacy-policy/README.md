@@ -13,5 +13,8 @@ access, share) formalized as DDL. (`B=./.lake/build/bin/deontic`, project root.)
 | Children's data collection barred? (`childrens_data`) | prohibition | `$B query … CollectChildData` | `F(…)` | YES |
 | Marketing only with consent? (`marketing_consent`) | permission carve-out | `$B abduce … 'P(SendMarketing)' --all` | `{ MarketingConsent }` | YES |
 | Must implement security? (`security_measures`) | obligation | `$B query … ImplementSecurity` | `O(…)` | YES |
+| Is excessive collection barred? (`data_minimization`) | prohibition | `$B query … CollectExcessiveData` | `F(…)` | YES |
+| May the user withdraw consent? (`consent_withdrawal`) | permission | `$B query … WithdrawConsent` | `Ps(…)` | YES |
+| May transfer abroad with safeguards? (`cross_border_transfer`) | permission carve-out | `$B abduce … 'P(TransferAbroad)' --all` | `{ AppropriateSafeguards }` | YES |
 
 See [`../COMPARISON.md`](../COMPARISON.md) for the baseline protocol.

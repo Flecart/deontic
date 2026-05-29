@@ -7,3 +7,6 @@ retention: The company shall delete personal data once the retention period expi
 childrens-data: The company shall not knowingly collect personal data from children under 13.
 marketing-consent: The company may send marketing communications only with the user's consent.
 security: The company shall implement reasonable security measures to protect personal data.
+data-minimization: The company shall not collect personal data beyond what is necessary for the stated purpose.
+consent-withdrawal: The user may withdraw consent to processing at any time.
+cross-border-transfer: The company may transfer personal data abroad only with appropriate safeguards.
