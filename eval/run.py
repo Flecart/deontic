@@ -36,6 +36,8 @@ def parse_args():
     p.add_argument("--data", help="JSONL or TSV dataset (default: built-in sample)")
     p.add_argument("--legalbench", help="real LegalBench task, e.g. contract_nli_sharing_with_employees")
     p.add_argument("--split", default="test", help="dataset split (default: test)")
+    p.add_argument("--shuffle", action="store_true", help="shuffle before --limit (LegalBench is label-sorted!)")
+    p.add_argument("--seed", type=int, default=0)
     p.add_argument("--limit", type=int, default=0, help="max examples (0 = all)")
     p.add_argument("--max-rounds", type=int, default=4, dest="max_rounds")
     p.add_argument("--temperature", type=float, default=0.0)

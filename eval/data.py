@@ -128,6 +128,10 @@ def load_examples(args, task: dict) -> list[dict]:
     for r in rows:
         r.setdefault("hypothesis", args.hypothesis or "")
         r["gold"] = normalize_answer(task, r.get("answer", ""))
+    # LegalBench splits are sorted by label; shuffle so a --limit slice is balanced.
+    if getattr(args, "shuffle", False):
+        import random
+        random.Random(getattr(args, "seed", 0)).shuffle(rows)
     if args.limit:
         rows = rows[: args.limit]
     return rows
