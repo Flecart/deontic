@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "information_for_contributors": [
+    "Grammar for the DDL (Defeasible Deontic Logic) language used by the `deontic` reasoner.",
+    "Each construct lives in its own named rule in `repository` with a `comment` describing it.",
+    "ORDER MATTERS: the top-level `patterns` list is tried left-to-right at each position.",
+    "Keep these rules in sync with Deontic/Parser.lean. After editing, open",
+    "`samples/showcase.ddl` (which exercises every token) and check the colours,",
+    "or run the scope inspector: Ctrl+Shift+P -> 'Developer: Inspect Editor Tokens and Scopes'.",
+    "Token -> scope map is documented in README.md ('Maintaining the grammar')."
+  ],
+  "name": "DDL",
+  "scopeName": "source.ddl",
+  "patterns": [
+    { "include": "#line-selector" },
+    { "include": "#comment" },
+    { "include": "#imports" },
+    { "include": "#sections" },
+    { "include": "#atom-decl" },
+    { "include": "#rule-label" },
+    { "include": "#provenance-keys" },
+    { "include": "#arrows" },
+    { "include": "#deontic" },
+    { "include": "#operators" },
+    { "include": "#punctuation" }
+  ],
+  "repository": {
+    "line-selector": {
+      "comment": "GitHub-style line selector in a provenance uri, e.g. file.md#L3-L5. Must precede #comment.",
+      "match": "#L[0-9]+(?:-L[0-9]+)?",
+      "name": "constant.numeric.line-selector.ddl"
+    },
+    "comment": {
+      "comment": "Line comment from # to end of line.",
+      "match": "#.*$",
+      "name": "comment.line.number-sign.ddl"
+    },
+    "imports": {
+      "comment": "Module imports: `import <path> [as <alias>]` / `from <path> import *`.",
+      "match": "\\b(import|from|as)\\b",
+      "name": "keyword.control.import.ddl"
+    },
+    "sections": {
+      "comment": "Top-level sections that introduce facts or the superiority relation.",
+      "match": "^\\s*(facts|superiority)\\b",
+      "captures": {
+        "1": { "name": "keyword.control.section.ddl" }
+      }
+    },
+    "atom-decl": {
+      "comment": "Atom declaration `atom NAME: ...` — keyword plus the declared atom name.",
+      "match": "^\\s*(atom)\\s+([A-Za-z_][A-Za-z0-9_.]*)",
+      "captures": {
+        "1": { "name": "keyword.control.atom.ddl" },
+        "2": { "name": "entity.name.type.atom.ddl" }
+      }
+    },
+    "rule-label": {
+      "comment": "A rule label at line start, before its `:` (sections/atoms are matched earlier).",
+      "match": "^\\s*([A-Za-z_][A-Za-z0-9_.]*)\\s*(?=:)",
+      "captures": {
+        "1": { "name": "entity.name.function.label.ddl" }
+      }
+    },
+    "provenance-keys": {
+      "comment": "Provenance field keys inside an atom declaration.",
+      "match": "\\b(uri|quote)\\b(?=\\s*:)",
+      "name": "keyword.other.provenance.ddl"
+    },
+    "arrows": {
+      "comment": "Rule arrows: strict ->/->O, defeasible =>/=>O, defeater ~>/~>O (longest first).",
+      "match": "(->O|=>O|~>O|->|=>|~>)",
+      "name": "keyword.operator.arrow.ddl"
+    },
+    "deontic": {
+      "comment": "Deontic operators applied to a literal: O() F() P() Pw() Ps() C(). Longest first.",
+      "match": "\\b(Pw|Ps|O|F|P|C)\\b(?=\\s*\\()",
+      "name": "support.function.deontic.ddl"
+    },
+    "operators": {
+      "comment": "Negation ~atom, compensatory chain *, superiority >.",
+      "match": "(~(?=[A-Za-z_])|\\*|>)",
+      "name": "keyword.operator.ddl"
+    },
+    "punctuation": {
+      "comment": "The provenance separator between description and provenance segments.",
+      "match": "\\|",
+      "name": "punctuation.separator.provenance.ddl"
+    }
+  }
+}

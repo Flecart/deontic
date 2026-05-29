@@ -1,0 +1,40 @@
+{
+  "name": "ddl-syntax",
+  "displayName": "Defeasible Deontic Logic (DDL)",
+  "description": "Syntax highlighting for .ddl defeasible deontic logic theories (the `deontic` reasoner).",
+  "version": "0.1.0",
+  "publisher": "flecart",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flecart/deontic"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ddl",
+        "aliases": [
+          "DDL",
+          "Defeasible Deontic Logic"
+        ],
+        "extensions": [
+          ".ddl"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ddl",
+        "scopeName": "source.ddl",
+        "path": "./syntaxes/ddl.tmLanguage.json"
+      }
+    ]
+  }
+}
