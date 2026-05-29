@@ -131,7 +131,7 @@ It is satisfiability-flavoured but not a SAT call. The search ranges only over t
 
 ## Atom descriptions & provenance
 
-Atom names are opaque tokens; the same name in two theories can mean different things. `AtomDecl` (an `atom NAME: description | provenance` line) grounds each atom so a fact-finder — human or LLM — knows what asserting it commits to, and binds it back to its source. Provenance after `|` is a free string: a legal citation, a URI (fragments are preserved — atom lines are read without `#` comment-stripping), or a local file path. `deontic atoms` prints the dictionary and can `--resolve` local-file provenance to inline text; `check` warns (or, with `--strict`, fails) on atoms used without a description. Descriptions are metadata — they do not affect the extension.
+Atom names are opaque tokens; the same name in two theories can mean different things. `AtomDecl` (an `atom NAME: description | <prov>…` line) grounds each atom so a fact-finder — human or LLM — knows what asserting it commits to, and binds it back to its source. Descriptions are **mandatory**: `loadTheory` refuses a theory with any undescribed Herbrand atom (the `atoms` command uses a non-enforcing load so it can still inspect). Provenance (`Provenance` = `{quote?, uri?}`, at least one set) follows the description as `|`-separated `quote:`/`uri:` segments (bare text is taken as a quote). A `uri` is a relative path to an in-repo markdown source with an optional GitHub-style line selector (`sources/nda.md#L3-L6`); atom lines skip `#` comment-stripping so selectors survive. `deontic atoms` prints the dictionary and can `--resolve` a uri to the lines it points at. Descriptions and provenance are metadata — they do not affect the extension.
 
 ## Parser and `.ddl` syntax
 

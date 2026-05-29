@@ -52,6 +52,18 @@ conflict. Prefer specific over general (`commission =>O publish` beats default
 - Classification ("is a complaint / a license") → `=>`; conduct ("must publish") → `=>O`.
 - Atom names: alphanumeric, consistent CamelCase.
 
+## Atom descriptions (mandatory)
+
+Every atom you use must be declared with a description — the reasoner refuses to
+load a theory with an undescribed atom. Write the description as a
+truth-condition (when does it hold?), since a fact-finder uses it to decide
+facts. Optionally add provenance after `|`: a `quote:` snapshot and/or a `uri:`
+to an in-repo markdown source with a GitHub-style line selector (at least one):
+
+```
+atom Disclose: discloses Confidential Information to any third party | quote: ...prior to the disclosure to any other person... | uri: sources/nda.md#L3-L6
+```
+
 ## Output shape
 
 Return only the `.ddl` text:
@@ -59,6 +71,9 @@ Return only the `.ddl` text:
 ```
 # <one-line summary of the clause>
 facts: {{FILLED_BY_FACT_FINDER}}
+
+atom Atom1: holds when ... | quote: <verbatim source> | uri: sources/<file>.md#L1-L2
+atom Atom2: holds when ...
 
 # <why this rule, if non-obvious>
 label: antecedent =>O conclusion
@@ -70,9 +85,8 @@ superiority: rA > rB   # <reason>
 # - <unresolved choice, e.g. is `approval` a defeater or a strict exception?>
 ```
 
-Worked encodings live in `examples/ex1_license.ddl`, `examples/ex3_tcpc.ddl`,
-and `examples/other.ddl` (which embeds its rationale and open questions as
-comments — follow that style).
+Worked encodings live in `examples/ex1_license.ddl` and `examples/clauses/`
+(which embed rationale and open questions as comments — follow that style).
 
 ## User (template)
 

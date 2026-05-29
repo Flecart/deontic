@@ -10,11 +10,12 @@
 # Facts are solved for by reverse search (abduce); no scenario is fixed here.
 facts:
 
-# Atom descriptions ground meaning for a fact-finder; text after `|` is
-# provenance. (This clause names NO employee exception — recipient role is
-# irrelevant, so there is deliberately no EmployeeRecipient atom.)
-atom Disclose: disclose, disseminate or distribute any information concerning the trade secret or property to any person, entity or business | Navidec mutual NDA, non-disclosure undertaking
-atom PriorWrittenPermission: Navidec, Incorporated has given prior written permission for the disclosure | Navidec mutual NDA, non-disclosure undertaking
+# Atom descriptions ground meaning for a fact-finder; after `|` is provenance
+# (quote snapshot + uri into the in-repo markdown source with a line selector).
+# (This clause names NO employee exception — recipient role is irrelevant, so
+# there is deliberately no EmployeeRecipient atom.)
+atom Disclose: disclose, disseminate or distribute any information concerning the trade secret or property to any person, entity or business | quote: shall not disclose or cause to be disclosed, disseminated or distributed any information concerning said trade secret or property | uri: examples/clauses/sources/navidec_nda.md#L5-L7
+atom PriorWrittenPermission: Navidec, Incorporated has given prior written permission for the disclosure | quote: without the prior written permission of Navidec, Incorporated | uri: examples/clauses/sources/navidec_nda.md#L7-L8
 
 # Recipient shall not disclose the trade secret / property to anyone.
 no_disclosure:  =>O  ~Disclose

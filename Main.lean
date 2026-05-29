@@ -44,7 +44,9 @@ def printHelp : IO Unit := do
   IO.println "  ~p   negation of atom p"
   IO.println "  *    compensatory chain: a * b * c"
 
-def loadTheory (file : String) : IO Theory := do
+/-- Parse a theory from a file, exiting on parse error. Does NOT enforce that
+atoms are described — used by the `atoms` command, which must run on any file. -/
+def loadTheoryRaw (file : String) : IO Theory := do
   let src ← IO.FS.readFile file
   match parse src with
   | .error e =>
@@ -52,28 +54,51 @@ def loadTheory (file : String) : IO Theory := do
     IO.Process.exit 1
   | .ok thy => return thy
 
-/-- Resolve a provenance string to inlined text when it points to a readable
-local file (`file://…` or a plain path). Remote URIs are left unresolved. -/
-def resolveProvenance (p : String) : IO (Option String) := do
-  if p.startsWith "http://" || p.startsWith "https://" then return none
-  let path := if p.startsWith "file://" then (p.drop 7).toString else p
-  try
-    if ← System.FilePath.pathExists path then
-      return some (← IO.FS.readFile path)
-    else return none
-  catch _ => return none
-
-/-- Warn (or, in strict mode, fail) when used atoms lack a description. -/
-def checkAtomDescriptions (thy : Theory) (strict : Bool) : IO Unit := do
+/-- Load a theory and require every used atom to carry a description. -/
+def loadTheory (file : String) : IO Theory := do
+  let thy ← loadTheoryRaw file
   let missing := thy.undescribedAtoms
   unless missing.isEmpty do
-    let msg := s!"atoms used without a description: {", ".intercalate missing}"
-    if strict then
-      IO.eprintln s!"Error: {msg}"
-      IO.eprintln "  add `atom <name>: <description>` lines (or drop --strict)"
-      IO.Process.exit 1
-    else
-      IO.println s!"WARNING: {msg}"
+    IO.eprintln s!"Error: atoms used without a description: {", ".intercalate missing}"
+    IO.eprintln "  add `atom <name>: <description>` lines (descriptions are mandatory)"
+    IO.Process.exit 1
+  return thy
+
+private def stripL (x : String) : String :=
+  if x.startsWith "L" then (x.drop 1).toString else x
+
+/-- Parse a GitHub-style line selector like `L3-L5` or `L3` into a 1-based range. -/
+def parseLineRange (sel : String) : Option (Nat × Nat) :=
+  match sel.splitOn "-" with
+  | [a]    => (stripL a).toNat?.map fun n => (n, n)
+  | [a, b] => match (stripL a).toNat?, (stripL b).toNat? with
+    | some x, some y => some (x, y)
+    | _, _ => none
+  | _ => none
+
+/-- Resolve an atom's provenance URI to inlined source text when it points to a
+local markdown file (relative to the project). A `#Lx-Ly` selector slices lines.
+Remote (`http(s)://`) URIs are left unresolved. -/
+def resolveProvenance (p : Provenance) : IO (Option String) := do
+  match p.uri with
+  | none => return none
+  | some uri =>
+    if uri.startsWith "http://" || uri.startsWith "https://" then return none
+    let parts := uri.splitOn "#"
+    let rawPath := parts.headD uri
+    let path := if rawPath.startsWith "file://" then (rawPath.drop 7).toString else rawPath
+    let sel  := if parts.length > 1 then some ("#".intercalate (parts.drop 1)) else none
+    try
+      if ← System.FilePath.pathExists path then
+        let content ← IO.FS.readFile path
+        match sel.bind parseLineRange with
+        | some (a, b) =>
+          let lines := content.splitOn "\n"
+          let chosen := (lines.drop (a - 1)).take (b + 1 - a)
+          return some ("\n".intercalate chosen)
+        | none => return some content
+      else return none
+    catch _ => return none
 
 structure AbduceArgs where
   goals   : List String := []
@@ -118,11 +143,9 @@ def main (args : List String) : IO Unit := do
     let ext := computeExtension thy
 
     if cmd == "check" then
-      if flags.contains "--strict" then checkAtomDescriptions thy true
       if useJSON then
         IO.println (renderExtensionJSON thy.herbrandBase ext)
       else do
-        checkAtomDescriptions thy false
         IO.println (renderExtension ext)
         if ext.hasViolation then
           IO.println "WARNING: non-compensable violation detected"
@@ -173,7 +196,7 @@ def main (args : List String) : IO Unit := do
       IO.Process.exit 1
     let file    := rest.head!
     let flags   := rest.tail
-    let thy     ← loadTheory file
+    let thy     ← loadTheoryRaw file   -- atoms must run even on undescribed files
     let useJSON := flags.contains "--json"
     let resolve := flags.contains "--resolve"
     -- Build a resolved-text lookup (only when --resolve and provenance is local).

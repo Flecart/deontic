@@ -11,12 +11,13 @@
 # Facts are solved for by reverse search (abduce); no scenario is fixed here.
 facts:
 
-# Atom descriptions ground the meaning for a fact-finder (human or LLM). The
-# part after `|` is provenance — here a legal-pinpoint citation.
-atom Disclose: disclose Confidential Information to any other person (incl. a professional advisor) | NDA confidentiality clause, sentence 1
-atom EmployeeRecipient: the other person is an employee of the Receiving Party | NDA permission clause ("may share with employees")
-atom AwareOfTerms: that person has been made aware of the provisions of this Agreement | NDA confidentiality clause, sentence 1
-atom AwareOfLiability: that person has been made aware that the Disclosee will be liable | NDA confidentiality clause, sentence 1
+# Atom descriptions ground the meaning for a fact-finder (human or LLM). After
+# `|`: provenance — a quote snapshot and a uri into the in-repo markdown source
+# with a GitHub-style line selector (resolve with `deontic atoms --resolve`).
+atom Disclose: disclose Confidential Information to any other person (incl. a professional advisor) | quote: prior to the disclosure to any other person ... of any Confidential Information | uri: examples/clauses/sources/nda_confidentiality.md#L3-L6
+atom EmployeeRecipient: the other person is an employee of the Receiving Party | quote: The Receiving Party may share some Confidential Information with some of the Receiving Party's employees | uri: examples/clauses/sources/nda_confidentiality.md#L8-L9
+atom AwareOfTerms: that person has been made aware of the provisions of this Agreement | quote: made aware of the provisions of this Agreement | uri: examples/clauses/sources/nda_confidentiality.md#L5
+atom AwareOfLiability: that person has been made aware that the Disclosee will be liable | quote: the fact that the Disclosee will be liable | uri: examples/clauses/sources/nda_confidentiality.md#L5-L6
 
 # Default: Confidential Information must not be disclosed.
 no_disclosure:  =>O  ~Disclose

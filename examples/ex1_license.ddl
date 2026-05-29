@@ -1,6 +1,16 @@
 # Example 1: License contract (§4 of Governatori 2018)
 facts: license, commission, use
 
+# Atom descriptions are mandatory; this synthetic example cites the paper.
+atom license:    the licensee holds a valid licence | Governatori 2018 §4, license example
+atom commission: the work was produced under commission | Governatori 2018 §4
+atom use:        the licensee uses the licensed material | Governatori 2018 §4
+atom publish:    the licensee publishes results | Governatori 2018 §4
+atom remove:     the licensee removes the published results (remedy) | Governatori 2018 §4
+atom approval:   prior approval to publish was obtained | Governatori 2018 §4
+atom comment:    the licensee comments publicly | Governatori 2018 §4
+atom bot:        the licensee is (or acts as) an automated agent | Governatori 2018 §4
+
 r0:  =>O  ~use
 r1:  license  ~>O  use
 r2:  =>O  ~publish * remove

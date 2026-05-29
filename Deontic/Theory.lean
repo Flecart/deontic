@@ -41,14 +41,27 @@ structure Rule where
 -- (winner, loser): winner defeats loser when both are applicable and conflict
 abbrev SuperiorityRel := List (String × String)
 
+-- Provenance for an atom: where its meaning comes from. At least one field must
+-- be filled (enforced by the parser).
+--   quote : a verbatim snapshot of the source text
+--   uri   : a relative path to an in-repo markdown source, with an optional
+--           GitHub-style line selector (`docs/sources/nda.md#L3-L5`)
+-- Both filled is the Ricardian sweet spot: a cached snapshot plus a pointer to
+-- where it lives, so drift can be detected later.
+structure Provenance where
+  quote : Option String := none
+  uri   : Option String := none
+  deriving Repr, BEq
+
+def Provenance.isEmpty (p : Provenance) : Bool := p.quote.isNone && p.uri.isNone
+
 -- An atom declaration: the human/LLM-facing meaning of an atom plus optional
--- provenance (a URI, a legal citation, or inline source text — see docs).
--- Descriptions ground the otherwise opaque atom names so a fact-finder (human
--- or LLM) knows what asserting the atom commits to.
+-- provenance. Descriptions ground the otherwise opaque atom names so a
+-- fact-finder (human or LLM) knows what asserting the atom commits to.
 structure AtomDecl where
   atom        : Atom
   description : String
-  provenance  : Option String := none
+  provenance  : Option Provenance := none
   deriving Repr, BEq
 
 -- Defeasible Deontic Theory D = (F, R^C, R^O, ≺)  eq. 29

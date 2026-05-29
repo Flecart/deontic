@@ -165,19 +165,26 @@ private def describedSrc : String :=
   "with_permission: PriorWrittenPermission ~>O Disclose\n" ++
   "superiority: with_permission > no_disclosure"
 
--- Descriptions parse, with provenance after `|` optional.
+-- Descriptions parse; bare provenance text is captured as a quote; provenance
+-- is optional.
 #guard match Deontic.Parser.parse describedSrc with
   | .ok thy =>
-    thy.atomDecl? "Disclose" == some ⟨"Disclose", "disclose CI to a third party", some "NDA s1"⟩
+    thy.atomDecl? "Disclose"
+         == some ⟨"Disclose", "disclose CI to a third party", some { quote := some "NDA s1" }⟩
     && thy.atomDecl? "PriorWrittenPermission"
          == some ⟨"PriorWrittenPermission", "rights-holder gave prior written permission", none⟩
     && thy.undescribedAtoms == []
   | .error _ => false
 
--- A `#` in provenance (URI fragment) is kept verbatim on atom lines.
-#guard match Deontic.Parser.parse "atom a: an atom | https://x.test/doc#sec1\nr: a => b\natom b: another" with
-  | .ok thy => (thy.atomDecl? "a").bind (·.provenance) == some "https://x.test/doc#sec1"
+-- A `uri:` keeps its GitHub-style `#L` selector verbatim on atom lines.
+#guard match Deontic.Parser.parse "atom a: an atom | uri: docs/x.md#L3-L5\nr: a => b\natom b: another" with
+  | .ok thy => (thy.atomDecl? "a").bind (·.provenance) == some { uri := some "docs/x.md#L3-L5" }
   | .error _ => false
+
+-- A provenance uri must point to a markdown file.
+#guard match Deontic.Parser.parse "atom a: an atom | uri: docs/x.txt" with
+  | .error _ => true
+  | .ok _    => false
 
 -- Undescribed atoms are reported.
 #guard match Deontic.Parser.parse "r: a => b" with
@@ -186,6 +193,11 @@ private def describedSrc : String :=
 
 -- A declaration with no description is a parse error.
 #guard match Deontic.Parser.parse "atom X:" with
+  | .error _ => true
+  | .ok _    => false
+
+-- A `|` with nothing usable after it is a parse error.
+#guard match Deontic.Parser.parse "atom X: a desc |" with
   | .error _ => true
   | .ok _    => false
 

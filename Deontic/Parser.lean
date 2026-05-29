@@ -130,27 +130,49 @@ private def parseFacts (tokens : List String) : Except String (List Lit) :=
   tokens.filter (· != ",") |>.mapM parseLit
 
 -- ── Atom declaration parser ───────────────────────────────────────────────────
--- Syntax (one line):  atom NAME: description text | provenance
--- `provenance` (after the optional `|`) may be a URI, a citation, or inline
--- text. The whole line is taken verbatim — no `#` comment stripping — so URIs
--- with fragments survive; do not put trailing `#` comments on atom lines.
+-- Syntax (one line):  atom NAME: description | <prov-seg> | <prov-seg> ...
+-- Each provenance segment is `uri: <path>`, `quote: <text>`, or bare text
+-- (treated as a quote). A `uri` must point to a markdown file and may carry a
+-- GitHub-style line selector (`docs/sources/nda.md#L3-L5`). The whole line is
+-- taken verbatim — no `#` comment stripping — so selectors survive; do not put
+-- trailing `#` comments on atom lines.
+
+private def trimS (s : String) : String := s.trimAscii.toString
+
+private def uriPath (uri : String) : String :=
+  (uri.splitOn "#").headD uri
+
+private def addProvSeg (name : String) (p : Provenance) (seg : String) : Except String Provenance :=
+  let s := trimS seg
+  if s.isEmpty then .ok p
+  else if s.startsWith "uri:" then
+    let u := trimS (s.drop 4).toString
+    if !(uriPath u |>.endsWith ".md") then
+      .error s!"atom '{name}': provenance uri must point to a markdown (.md) file, got '{u}'"
+    else .ok { p with uri := some u }
+  else if s.startsWith "quote:" then
+    .ok { p with quote := some (trimS (s.drop 6).toString) }
+  else
+    .ok { p with quote := some s }   -- bare text shorthand for a quote
 
 private def parseAtomDecl (raw : String) : Except String AtomDecl := do
   let afterKw := (raw.drop 5).toString          -- drop "atom "
   match afterKw.splitOn ":" with
   | [] => .error "malformed atom declaration"
   | name :: rest =>
-    let name := name.trimAscii.toString
+    let name := trimS name
     if name.isEmpty then .error "atom declaration with empty name"
-    let body := (":".intercalate rest).trimAscii.toString
+    let body := trimS (":".intercalate rest)
     let segs := body.splitOn "|"
-    let desc := segs.head!.trimAscii.toString
+    let desc := trimS segs.head!
     if desc.isEmpty then .error s!"atom '{name}' has no description"
-    let prov :=
-      if segs.length > 1 then
-        some ("|".intercalate (segs.drop 1)).trimAscii.toString
-      else none
-    .ok ⟨name, desc, prov⟩
+    let provSegs := segs.drop 1
+    if provSegs.isEmpty then .ok ⟨name, desc, none⟩
+    else
+      let prov ← provSegs.foldlM (addProvSeg name) ({} : Provenance)
+      if prov.isEmpty then
+        .error s!"atom '{name}' has an empty provenance ('|' with nothing usable after)"
+      else .ok ⟨name, desc, some prov⟩
 
 -- ── Main entry point ─────────────────────────────────────────────────────────
 

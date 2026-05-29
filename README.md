@@ -20,7 +20,7 @@ lake build deontic
 ./.lake/build/bin/deontic query examples/ex1_license.ddl publish use comment
 
 # Which fact configurations ALLOW disclosure? (abduction / "what-if")
-./.lake/build/bin/deontic abduce examples/other.ddl 'P(Disclose)' --all
+./.lake/build/bin/deontic abduce examples/clauses/disclosure_awareness.ddl 'P(Disclose)' --all
 
 # What does each atom mean? (descriptions + provenance, for humans/LLMs)
 ./.lake/build/bin/deontic atoms examples/clauses/disclosure_awareness.ddl
@@ -48,14 +48,14 @@ lake build deontic
 
 ```bash
 # All minimal fact sets under which Disclose becomes permitted
-deontic abduce examples/other.ddl 'P(Disclose)' --all
-#  → { RecipientIsRepresentative, NeedToKnow, TransactionPurpose }
+deontic abduce examples/clauses/disclosure_awareness.ddl 'P(Disclose)' --all
+#  → { EmployeeRecipient, AwareOfTerms, AwareOfLiability }
 
 # Configurations that REQUIRE use, pinning/narrowing with assumptions
 deontic abduce examples/ex1_license.ddl 'O(use)'
 
-# Conjunctive / negative conditions: Disclose allowed while Notify stays absent
-deontic abduce examples/other.ddl 'P(Disclose)' '!C(Notify)' --assume -Notify
+# Conjunctive / negative conditions: Disclose allowed while a condition stays absent
+deontic abduce examples/clauses/disclosure_awareness.ddl 'P(Disclose)' --assume -AwareOfLiability
 ```
 
 - **Goal tokens** (prefix `!` = must *not* hold): `O(a)`, `F(a)`, `P(a)`, `Ps(a)`,
@@ -73,22 +73,23 @@ what each means so a fact-finder — human or LLM — knows what asserting it
 commits to, and where it came from:
 
 ```ddl
-atom Disclose: disclose Confidential Information to any other person | NDA confidentiality clause, sentence 1
+atom Disclose: disclose Confidential Information to any other person | quote: ...prior to the disclosure to any other person... | uri: examples/clauses/sources/nda_confidentiality.md#L3-L6
 ```
 
-Text after `|` is **provenance** — a citation, a URI (fragments like `#sec1`
-are kept), or a local file path. `deontic atoms <file>` prints the dictionary
-(`--json` for tools; `--resolve` inlines provenance that points to a local
-file). `deontic check` warns about atoms used without a description, and
-`check --strict` turns that into an error.
+Descriptions are **mandatory** — `check`/`query`/`abduce` refuse to load a
+theory with an undescribed atom. After `|` is optional **provenance**: a
+`quote:` snapshot and/or a `uri:` pointing to an in-repo markdown source with a
+GitHub-style line selector (`#L3-L6`); at least one must be present. `deontic
+atoms <file>` prints the dictionary (`--json` for tools; `--resolve` inlines the
+lines the uri points at).
 
 ## Examples
 
-| File | Scenario |
+| Path | Scenario |
 |------|----------|
 | `examples/ex1_license.ddl` | License contract (Governatori §4): commission, use, publish |
-| `examples/ex1b_noremoval.ddl` | Publish without removal — non-compensable violation |
-| `examples/ex3_tcpc.ddl` | TCPC 2012 complaint classification |
+| `examples/clauses/` | Single contract clauses, exercised via the `abduce` reverse search |
+| `examples/deprecated/` | Pre-description examples kept for reference (won't load) |
 
 ## Vision: legal LLMs with formal grounding
 
