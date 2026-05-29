@@ -11,6 +11,9 @@ encodes the clause; the reasoner's status answers the question.
 | May the company change terms? (`unilateral_change`) | permission | `$B query … ModifyTerms` | `Ps(ModifyTerms)` | YES |
 | Must the company refund on outage? (`refund_on_outage`) | cond. obligation | `$B query … Refund` | `O(Refund)` | YES |
 | Must the consumer arbitrate? (`mandatory_arbitration`) | obligation | `$B query … Arbitrate` | `O(Arbitrate)` | YES |
+| May the company charge a late fee? (`late_fee`) | permission carve-out | `$B abduce … 'P(ChargeLateFee)' --all` | `{ PaymentOverdue }` | YES (cond.) |
+| Will it auto-renew? (`auto_renewal`) | constitutive (defeasible) | `$B query … AutoRenews` | `fact(AutoRenews)` | YES (unless cancelled) |
+| May the consumer opt out of data sale? (`data_opt_out`) | permission | `$B query … OptOutOfDataSale` | `Ps(OptOutOfDataSale)` | YES |
 
 A "NO / not addressed" answer surfaces as `unknown` (no rule) or the opposite
 status. See [`../COMPARISON.md`](../COMPARISON.md) for the baseline protocol.
