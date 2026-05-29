@@ -11,7 +11,8 @@ place of, or alongside, direct LLM classification.
 | CUAD | [`cuad/`](cuad/) | 15 deontic clause types (non-compete, audit-rights, anti-assignment, exclusivity, MFN, ROFR, indemnification, …) |
 | Consumer contracts QA | [`consumer-contracts-qa/`](consumer-contracts-qa/) | 7 yes/no questions as permission/obligation queries |
 | Privacy policy | [`privacy-policy/`](privacy-policy/) | 8 data-protection duties/rights (breach, deletion, access, sharing, retention, children, marketing, security) |
-| Telemarketing Sales Rule | [`telemarketing-sales-rule/`](telemarketing-sales-rule/) | 4 FTC TSR duties (do-not-call, calling hours, identification, robocall consent) |
+| Telemarketing Sales Rule | [`telemarketing-sales-rule/`](telemarketing-sales-rule/) | 8 FTC TSR duties (do-not-call, calling hours, identification, robocall, abandoned calls, caller-id, cost disclosure, recordkeeping) |
+| Contract QA | [`contract-qa/`](contract-qa/) | 3 employment/services yes/no questions (notice, at-will, overtime) |
 
 [`COMPARISON.md`](COMPARISON.md) — baseline protocol & analysis: **with** the
 reasoner (LLM → `.ddl` → `deontic`) vs **without** (direct LLM classification).
