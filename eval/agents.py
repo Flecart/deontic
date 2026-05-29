@@ -86,7 +86,15 @@ def run_tool(client, spec, task, ex, max_rounds=4, temperature=0.0):
         if not tool_calls:
             content = msg.content or ""
             transcript.append({"role": "assistant", "content": content})
-            return parse_answer(content, task["labels"]), transcript
+            pred = parse_answer(content, task["labels"])
+            if pred is not None:
+                return pred, transcript
+            # no tool call and no parseable answer (e.g. empty content from some
+            # tool-enabled models) -> nudge once for a plain answer, then continue
+            messages.append({"role": "assistant", "content": content})
+            messages.append({"role": "user",
+                             "content": f"Answer now with exactly one line: ANSWER: <one of {task['labels']}>."})
+            continue
         # record + execute each tool call
         messages.append({"role": "assistant", "content": msg.content,
                          "tool_calls": [_tc_dump(tc) for tc in tool_calls]})
@@ -128,7 +136,15 @@ def run_cli(client, spec, task, ex, max_rounds=4, temperature=0.0):
         if not tool_calls:
             content = msg.content or ""
             transcript.append({"role": "assistant", "content": content})
-            return parse_answer(content, task["labels"]), transcript
+            pred = parse_answer(content, task["labels"])
+            if pred is not None:
+                return pred, transcript
+            # no tool call and no parseable answer (e.g. empty content from some
+            # tool-enabled models) -> nudge once for a plain answer, then continue
+            messages.append({"role": "assistant", "content": content})
+            messages.append({"role": "user",
+                             "content": f"Answer now with exactly one line: ANSWER: <one of {task['labels']}>."})
+            continue
         messages.append({"role": "assistant", "content": msg.content,
                          "tool_calls": [_tc_dump(tc) for tc in tool_calls]})
         for tc in tool_calls:
