@@ -22,3 +22,5 @@ source-code-escrow: The escrow agent shall release the source code to the licens
 liquidated-damages: Upon a breach, the breaching party shall pay liquidated damages.
 revenue-sharing: The party shall pay the other party a share of revenue earned from the licensed product.
 warranty: The party shall remedy any defect reported during the warranty period.
+volume-restriction: The buyer shall not purchase more than the maximum quantity per period.
+renewal-notice: A party shall give notice of non-renewal at least 60 days before the term ends.
