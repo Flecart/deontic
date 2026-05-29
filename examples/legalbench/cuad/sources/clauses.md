@@ -7,3 +7,8 @@ audit-rights: The party shall permit the other party to audit its records relati
 termination-for-convenience: A party may terminate this Agreement for convenience upon prior written notice.
 insurance: The party shall maintain insurance of the types and amounts specified during the term.
 covenant-not-to-sue: The party covenants not to sue the other party in respect of the licensed matter.
+exclusivity: During the term, the party shall deal exclusively with the other party and shall not deal with competitors.
+most-favored-nation: The party shall offer the other party terms no less favorable than those offered to any third party.
+minimum-commitment: The buyer shall purchase at least the minimum quantity specified each year.
+post-termination-services: Upon termination, the party shall continue to provide transition services for the wind-down period.
+rofr: Before selling the asset to a third party, the party shall first offer it to the other party.

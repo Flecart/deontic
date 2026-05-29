@@ -15,6 +15,11 @@ and a footer test. (`B=./.lake/build/bin/deontic`, run from project root.)
 | cuad_insurance | obligation | `$B query … MaintainInsurance` | `O(…)` |
 | cuad_anti-assignment | permission carve-out | `$B abduce … 'P(Assign)' --all` | `{ PriorWrittenConsent }` |
 | cuad_termination-for-convenience | permission carve-out | `$B abduce … 'P(Terminate)' --all` | `{ NoticeGiven }` |
+| cuad_exclusivity | prohibition | `$B query … DealWithCompetitors` | `F(…)` |
+| cuad_most-favored-nation | obligation | `$B query … OfferNoLessFavorableTerms` | `O(…)` |
+| cuad_minimum-commitment | obligation | `$B query … MeetMinimumPurchase` | `O(…)` |
+| cuad_post-termination-services | cond. obligation | `$B query … ProvideTransitionServices` | `O(…)` |
+| cuad_rofr | permission carve-out | `$B abduce … 'P(SellToThirdParty)' --all` | `{ OfferedToHolderFirst }` |
 
 These cover CUAD's clause types that express a duty, prohibition, or
 conditional permission. Purely descriptive CUAD categories (governing law,
