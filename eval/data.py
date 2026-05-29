@@ -33,6 +33,51 @@ TASKS = {
 }
 
 
+# LegalBench contract_nli configs -> the hypothesis (matches our formalizations
+# in examples/legalbench/contract-nli/). Gold answers in the data are Yes/No.
+LEGALBENCH_HYPOTHESES = {
+    "contract_nli_confidentiality_of_agreement":
+        "The Receiving Party shall not disclose the fact that the Agreement was agreed or negotiated.",
+    "contract_nli_explicit_identification":
+        "All Confidential Information shall be expressly identified by the Disclosing Party.",
+    "contract_nli_inclusion_of_verbally_conveyed_information":
+        "Confidential Information may include verbally conveyed information.",
+    "contract_nli_limited_use":
+        "The Receiving Party shall not use any Confidential Information for any purpose other than the purposes stated in the Agreement.",
+    "contract_nli_no_licensing":
+        "The Agreement shall not grant the Receiving Party any right to Confidential Information.",
+    "contract_nli_notice_on_compelled_disclosure":
+        "The Receiving Party shall notify the Disclosing Party in case it is required by law, regulation or judicial process to disclose any Confidential Information.",
+    "contract_nli_permissible_acquirement_of_similar_information":
+        "The Receiving Party may acquire information similar to Confidential Information from a third party.",
+    "contract_nli_permissible_copy":
+        "The Receiving Party may create a copy of some Confidential Information in some circumstances.",
+    "contract_nli_permissible_development_of_similar_information":
+        "The Receiving Party may independently develop information similar to Confidential Information.",
+    "contract_nli_permissible_post-agreement_possession":
+        "The Receiving Party may retain some Confidential Information even after the return or destruction of Confidential Information.",
+    "contract_nli_return_of_confidential_information":
+        "The Receiving Party shall destroy or return some Confidential Information upon the termination of the Agreement.",
+    "contract_nli_sharing_with_employees":
+        "The Receiving Party may share some Confidential Information with some of the Receiving Party's employees.",
+    "contract_nli_sharing_with_third-parties":
+        "The Receiving Party may share some Confidential Information with some third parties (including consultants, agents and professional advisors).",
+    "contract_nli_survival_of_obligations":
+        "Some obligations of the Agreement may survive termination of the Agreement.",
+}
+
+
+def load_legalbench(lb_task: str, split: str = "test") -> list[dict]:
+    """Load a real LegalBench task split from HuggingFace (`nguha/legalbench`)."""
+    from datasets import load_dataset
+    if lb_task not in LEGALBENCH_HYPOTHESES:
+        raise SystemExit(f"unmapped LegalBench task '{lb_task}'. Known: "
+                         + ", ".join(sorted(LEGALBENCH_HYPOTHESES)))
+    hyp = LEGALBENCH_HYPOTHESES[lb_task]
+    ds = load_dataset("nguha/legalbench", lb_task)[split]
+    return [{"text": r["text"], "hypothesis": hyp, "answer": r["answer"]} for r in ds]
+
+
 def get_task(name: str) -> dict:
     if name not in TASKS:
         raise SystemExit(f"unknown task '{name}'. Known: {list(TASKS)}")
@@ -68,7 +113,9 @@ def load_tsv(path: str, text_col="text", answer_col="answer",
 
 
 def load_examples(args, task: dict) -> list[dict]:
-    if args.data:
+    if getattr(args, "legalbench", None):
+        rows = load_legalbench(args.legalbench, getattr(args, "split", "test"))
+    elif args.data:
         rows = (load_jsonl(args.data) if args.data.endswith(".jsonl")
                 else load_tsv(args.data, args.text_col, args.answer_col,
                               args.hypothesis_col, args.hypothesis))
