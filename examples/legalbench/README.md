@@ -23,8 +23,9 @@ place of, or alongside, direct LLM classification.
 | FCRA (credit reporting) | [`fcra/`](fcra/) | 5 CRA/user duties (permissible purpose, accuracy, reinvestigation, adverse-action disclosure, no obsolete info) |
 | CAN-SPAM (commercial email) | [`can-spam/`](can-spam/) | 5 sender duties (no false header, no deceptive subject, opt-out, honor opt-out, physical address) |
 | Fair Housing Act | [`fair-housing/`](fair-housing/) | 5 housing duties (no refusal, terms, advertising, steering; reasonable accommodation) |
+| ADA (disability) | [`ada/`](ada/) | 4 duties (no discrimination, reasonable accommodation, accessibility, interactive process) |
 
-~135 deontic cases total, all verified. All three NLI labels (Entailment /
+~139 deontic cases total, all verified. All three NLI labels (Entailment /
 Contradiction / NotMentioned) are exercised across contract-nli, cuad, and maud.
 
 [`COMPARISON.md`](COMPARISON.md) — baseline protocol & analysis: **with** the
