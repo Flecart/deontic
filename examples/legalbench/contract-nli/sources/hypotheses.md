@@ -14,3 +14,4 @@ NDA-16 permissible copy: Receiving Party may create a copy of some Confidential 
 NDA-17 permissible development of similar information: Receiving Party may independently develop information similar to Confidential Information.
 NDA-18 permissible post-agreement possession: Receiving Party may retain some Confidential Information even after the return or destruction of Confidential Information.
 NDA-19 survival of obligations: Some obligations of Agreement may survive termination of Agreement.
+NDA-2 none-inclusion of non-technical information: Confidential Information shall only include technical information.
