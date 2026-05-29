@@ -4,3 +4,4 @@ accuracy: A consumer reporting agency shall follow reasonable procedures to assu
 reinvestigation: Upon a consumer's dispute, the agency shall reinvestigate the disputed information.
 adverse-action: A user who takes adverse action based on a consumer report shall disclose the source of the report.
 obsolete: A consumer reporting agency shall not report obsolete adverse information beyond the reporting period.
+furnisher-accuracy: A furnisher shall not report information it knows or has reasonable cause to believe is inaccurate.
