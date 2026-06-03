@@ -57,3 +57,59 @@ python eval/run.py --legalbench contract_nli_sharing_with_employees \
   --shuffle --limit 60 --models gpt-5.4-mini,deepseek-v4-flash \
   --condition baseline,cli --out runs/lb_sharing_balanced.jsonl
 ```
+
+---
+
+# Ambiguous synthetic contract benchmark
+
+Task: **`ambiguous_contracts`**, generated locally by
+[`ambiguous_contracts.py`](ambiguous_contracts.py). The dataset has **2,304**
+ContractNLI-style examples across 12 clause families: disclosure, retention,
+assignment, subcontracting, data use, termination, price changes, audits,
+deletion, copying, customer contact, and reverse engineering.
+
+The examples deliberately stack defaults, exceptions, exception-to-exception
+rules, priority language ("notwithstanding", "unless"), and irrelevant
+distractor facts. Each row includes:
+
+- natural-language clause + scenario,
+- Yes/No hypothesis (`may`, `must`, or `must not`),
+- gold label,
+- the underlying `.ddl` theory and facts used to audit the label.
+
+Offline run, 2026-06-03. Split: 1,608 train / 696 test, stratified by clause
+family. The Lean/Lake binary was not installed in this environment, so the
+`deontic_system` column used the benchmark's small Python DDL fallback evaluator;
+the experiment will call `.lake/build/bin/deontic` automatically when present.
+
+```
+condition                    accuracy
+surface_no_deontic           57.5% (400/696)
+knn_precedent_no_deontic     90.7% (631/696)
+deontic_system              100.0% (696/696)
+```
+
+By hypothesis type:
+
+```
+condition                    may     must    must_not
+surface_no_deontic           59.3%   75.9%   36.8%
+knn_precedent_no_deontic     87.7%   94.4%   89.9%
+deontic_system              100.0%  100.0%  100.0%
+```
+
+Takeaway: on this harder ambiguous benchmark, precedent memory is strong but
+still misses exception boundaries; the formal rule system is exact when the
+NL→DDL representation is supplied. This is the "best case" for the deontic
+layer: it tests formal consequence, not extraction from prose.
+
+Reproduce:
+```bash
+python eval/ambiguous_contracts.py
+python eval/ambiguous_contract_experiment.py
+
+# LLM harness, once a model/key and the deontic binary are available:
+python eval/run.py --task ambiguous_contracts \
+  --data eval/sample/ambiguous_contracts.jsonl \
+  --shuffle --limit 100 --condition baseline,cli --model gpt-4o-mini
+```
