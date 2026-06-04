@@ -22,8 +22,8 @@ real law). Keep that lens.
 ```bash
 lake build deontic                 # build the CLI
 lake build Deontic.Examples        # elaborates the #guard tests + #eval demos
-./.lake/build/bin/deontic check  <file.ddl>
-./.lake/build/bin/deontic query  <file.ddl> <atom>... [--trace|--json]
+./.lake/build/bin/deontic check  <file.ddl> [--json|--assume t,...]
+./.lake/build/bin/deontic query  <file.ddl> <atom>... [--trace|--json|--assume t,...]
 ./.lake/build/bin/deontic abduce <file.ddl> <goal>... [--all|--assume t,...|--json]
 ./.lake/build/bin/deontic atoms  <file.ddl> [--json|--resolve]
 ```
@@ -58,8 +58,7 @@ artifact first: `rm -rf .lake/build/lib/lean/Deontic/Examples.*`.
 ## Conventions that matter
 
 - **Commits:** Karma / "gitkarma" conventional style (`feat(scope): …`,
-  `fix(parser): …`, `test(examples): …`, `docs: …`). End every commit with
-  `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`. Branch is `lean`;
+  `fix(parser): …`, `test(examples): …`, `docs: …`).  Branch is the current one that the user chooses.
   remote `github.com:Flecart/deontic`. Push when work is done and green.
   **Never commit `guido.pdf`** (untracked source PDF — leave it alone; don't
   `git add -A` without unstaging it).

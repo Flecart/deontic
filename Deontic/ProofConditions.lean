@@ -147,12 +147,18 @@ private def isViolatedInFacts (facts : List Lit) (ci : Lit) : Bool :=
   | .pos a => !facts.contains (.pos a)
   | .neg a => facts.contains (.pos a)
 
+-- The rules witnessing +∂_⊥: each is body-p-applicable and its entire (possibly
+-- compensatory) conclusion chain is obligated yet violated in the facts, so every
+-- fallback remedy has been exhausted. Reported to the reader so they can see why.
+def botWitnessRules (thy : Theory) (d : Derivation) : List Rule :=
+  thy.rules.filter fun r =>
+    r.strength != .strict &&
+    bodyPApplicable r d thy.facts &&
+    !r.conclusion.isEmpty &&
+    r.conclusion.all fun ci =>
+      d.hasPositive .O ci && isViolatedInFacts thy.facts ci
+
 def canDerive_bot (thy : Theory) (d : Derivation) : Bool :=
-  thy.rules.filter (fun r => r.strength != .strict)
-    |>.any fun r =>
-      bodyPApplicable r d thy.facts &&
-      !r.conclusion.isEmpty &&
-      r.conclusion.all fun ci =>
-        d.hasPositive .O ci && isViolatedInFacts thy.facts ci
+  !(botWitnessRules thy d).isEmpty
 
 end Deontic

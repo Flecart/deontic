@@ -55,6 +55,9 @@ structure UnresolvedConflict where
 structure Extension where
   derivation  : Derivation
   hasViolation : Bool   -- +∂_⊥
+  -- Labels of the rules witnessing +∂_⊥ (their whole conclusion chain is both
+  -- obligated and violated, so no compensation remains). Empty iff no violation.
+  violatingRuleLabels : List String := []
   unresolvedConflicts : List UnresolvedConflict := []
 
 def Extension.hasUnresolvedConflicts (ext : Extension) : Bool :=

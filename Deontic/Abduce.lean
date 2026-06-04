@@ -65,6 +65,18 @@ def Assumption.forcedLit : Assumption → Option Lit
   | .factNeg a => some (.neg a)
   | .absent  _ => none
 
+/-- Overlay CLI `--assume` tokens on a theory's `facts:` line.
+Later assumptions win on the same atom; `-a` removes any fact for `a`. -/
+def Theory.applyAssumptions (thy : Theory) (assumptions : List Assumption) : Theory :=
+  let facts := assumptions.foldl (fun fs a =>
+    let fs' := fs.filter (·.atom != a.atom)
+    match a with
+    | .factPos a => fs' ++ [.pos a]
+    | .factNeg a => fs' ++ [.neg a]
+    | .absent _  => fs')
+    thy.facts
+  { thy with facts }
+
 -- ── Goal / assumption parsing ─────────────────────────────────────────────────
 
 private def trimS (s : String) : String := s.trimAscii.toString

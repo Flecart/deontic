@@ -125,7 +125,8 @@ The reasoner prints `[JUDGE: …]` and suggests adding `r > s` or `s > r`. This 
 
 ## Abduction (`Abduce.lean`)
 
-`check`/`query` run **forward** (facts → tagged literals). `abduce` runs **backward**: given a *goal* (a conjunction of tagged-literal conditions, each required to be present or absent) it returns the fact configurations that make the goal hold — "what would have to be true for `Disclose` to be permitted?". See the [README](../README.md#abduction-which-facts-make-a-goal-hold) for the goal/assumption token syntax.
+`check`/`query` run **forward** (facts → tagged literals); optional `--assume`
+overlays the file's `facts:` (same tokens as `abduce`). `abduce` runs **backward**: given a *goal* (a conjunction of tagged-literal conditions, each required to be present or absent) it returns the fact configurations that make the goal hold — "what would have to be true for `Disclose` to be permitted?". See the [README](../README.md#abduction-which-facts-make-a-goal-hold) for the goal/assumption token syntax.
 
 It is satisfiability-flavoured but not a SAT call. The search ranges only over the **abducible** atoms — those appearing as plain literals in rule antecedents, since only those change which rules fire — trying each present (in a tested polarity) or absent; the theory's own `facts:` line is ignored, as facts are what we solve for. Each configuration is evaluated with the same `computeExtension`, and the result is the subset-**minimal** satisfying configurations (the least you must assert; every superset also works). Assumptions pin atoms beforehand, both narrowing the question and shrinking the space, which is otherwise bounded by a configuration cap.
 

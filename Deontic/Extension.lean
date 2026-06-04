@@ -42,6 +42,7 @@ def computeExtension (thy : Theory) : Extension :=
   let fuel := base.length * 20 + 10
   let finalD := loop #[] fuel
   let conflicts := findUnresolvedObligationConflicts thy finalD
-  ⟨finalD, canDerive_bot thy finalD, conflicts⟩
+  let viols := botWitnessRules thy finalD
+  ⟨finalD, !viols.isEmpty, viols.map (·.label), conflicts⟩
 
 end Deontic

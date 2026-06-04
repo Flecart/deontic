@@ -11,11 +11,12 @@ def printHelp : IO Unit := do
   IO.println "Defeasible Deontic Logic reasoner"
   IO.println ""
   IO.println "Usage:"
-  IO.println "  deontic check <file.ddl> [--json]"
+  IO.println "  deontic check <file.ddl> [--json] [--assume t,...]"
   IO.println "    Compute the full extension of the theory."
   IO.println ""
-  IO.println "  deontic query <file.ddl> <atom> [...] [--json] [--trace]"
+  IO.println "  deontic query <file.ddl> <atom> [...] [--json] [--trace] [--assume t,...]"
   IO.println "    Query normative status of specific atoms."
+  IO.println "    --assume overlays the file's facts: a (true), ~a (false), -a (absent)."
   IO.println ""
   IO.println "  deontic atoms <file.ddl> [--json] [--resolve]"
   IO.println "    Print every atom with its description and provenance"
@@ -130,6 +131,22 @@ def resolveProvenance (p : Provenance) : IO (Option String) := do
       else return none
     catch _ => return none
 
+structure ForwardArgs where
+  atoms   : List String := []
+  assumes : List String := []
+  json    : Bool := false
+  trace   : Bool := false
+
+partial def parseForwardArgs (args : List String) (acc : ForwardArgs) : ForwardArgs :=
+  match args with
+  | [] => { acc with atoms := acc.atoms.reverse }
+  | "--json" :: rest => parseForwardArgs rest { acc with json := true }
+  | "--trace" :: rest => parseForwardArgs rest { acc with trace := true }
+  | "--assume" :: v :: rest =>
+    let toks := (v.splitOn ",").map (·.trimAscii.toString) |>.filter (!·.isEmpty)
+    parseForwardArgs rest { acc with assumes := acc.assumes ++ toks }
+  | tok :: rest => parseForwardArgs rest { acc with atoms := tok :: acc.atoms }
+
 structure AbduceArgs where
   goals   : List String := []
   assumes : List String := []
@@ -162,13 +179,17 @@ def main (args : List String) : IO Unit := do
     if rest.isEmpty then
       IO.eprintln "Error: missing .ddl file argument"
       IO.Process.exit 1
-    let file   := rest.head!
-    let flags  := rest.tail
-    let thy    ← loadTheory file
-    let useJSON  := flags.contains "--json"
-    let useTrace := flags.contains "--trace"
-    -- atom arguments: everything that isn't a flag
-    let atomArgs := flags.filter (fun s => !s.startsWith "--")
+    let file := rest.head!
+    let a    := parseForwardArgs rest.tail {}
+    let mut thy ← loadTheory file
+    unless a.assumes.isEmpty do
+      let assumptions ← match a.assumes.mapM parseAssumption with
+        | .error e => IO.eprintln s!"Assumption error: {e}"; IO.Process.exit 1
+        | .ok xs   => pure xs
+      thy := thy.applyAssumptions assumptions
+    let useJSON  := a.json
+    let useTrace := a.trace
+    let atomArgs := a.atoms
 
     let ext := computeExtension thy
 
@@ -179,6 +200,7 @@ def main (args : List String) : IO Unit := do
         IO.println (renderExtension ext)
         if ext.hasViolation then
           IO.println "WARNING: non-compensable violation detected"
+          IO.println (renderViolationReport thy ext)
         if ext.hasUnresolvedConflicts then
           IO.println ""
           IO.println (renderUnresolvedConflicts ext)
@@ -195,6 +217,7 @@ def main (args : List String) : IO Unit := do
         IO.println (renderQueryResults targets ext)
       if ext.hasViolation then
         IO.println "WARNING: non-compensable violation detected"
+        IO.println (renderViolationReport thy ext)
       if ext.hasUnresolvedConflicts then
         IO.println ""
         IO.println (renderUnresolvedConflicts ext)

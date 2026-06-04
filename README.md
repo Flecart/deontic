@@ -16,8 +16,9 @@ lake build deontic
 # Full extension for a theory
 ./.lake/build/bin/deontic check examples/ex1_license.ddl
 
-# Status of specific atoms
+# Status of specific atoms (optional --assume overlays file facts)
 ./.lake/build/bin/deontic query examples/ex1_license.ddl publish use comment
+./.lake/build/bin/deontic query examples/ex1_license.ddl publish --assume license,commission
 
 # Which fact configurations ALLOW disclosure? (abduction / "what-if")
 ./.lake/build/bin/deontic abduce examples/clauses/disclosure_awareness.ddl 'P(Disclose)' --all
@@ -61,8 +62,9 @@ deontic abduce examples/clauses/disclosure_awareness.ddl 'P(Disclose)' --assume 
 - **Goal tokens** (prefix `!` = must *not* hold): `O(a)`, `F(a)`, `P(a)`, `Ps(a)`,
   `Pw(a)`, `C(a)`, or a bare `a` / `~a`. "Allow" ≈ `P(...)`, "require" ≈ `O(...)`.
 - **`--all`** lists every subset-minimal configuration; default shows the first few.
-- **`--assume a,~b,-c`** pins facts (`a` true, `b` false, `c` must stay absent),
-  both narrowing the search and shrinking it.
+- **`--assume a,~b,-c`** pins facts (`a` true, `b` false, `c` must stay absent).
+  The same tokens work on **`check` / `query`**, overlaying (not replacing) the
+  theory's `facts:` line for a what-if run without editing the file.
 - Search space is the **abducible** atoms (those appearing in rule antecedents),
   so it stays small; `--json` emits the minimal configs for pipelines.
 

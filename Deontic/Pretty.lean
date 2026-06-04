@@ -24,6 +24,46 @@ def renderUnresolvedConflict (c : UnresolvedConflict) : String :=
 def renderUnresolvedConflicts (ext : Extension) : String :=
   "\n\n".intercalate (ext.unresolvedConflicts.map renderUnresolvedConflict)
 
+-- ── Non-compensable violation report ─────────────────────────────────────────
+
+/-- The arrow that produced this rule, e.g. `=>O` (prescriptive defeasible). -/
+private def renderArrow (r : Rule) : String :=
+  toString r.strength ++ (if r.family == .prescriptive then "O" else "")
+
+/-- Formal one-line rendering of a rule: `label: body  =>O  c1 * c2 * …`. -/
+def renderRule (r : Rule) : String :=
+  let body := if r.antecedent.isEmpty then ""
+              else ", ".intercalate (r.antecedent.map toString) ++ "  "
+  s!"{r.label}: {body}{renderArrow r}  {r.conclusion.toStr}"
+
+/-- A literal as plain English, using the atom's description. `~a` reads as the
+negation of the description. Falls back to the bare name if undescribed. -/
+private def litEnglish (thy : Theory) (l : Lit) : String :=
+  let desc := (thy.atomDecl? l.atom).map (·.description) |>.getD "(no description)"
+  match l with
+  | .pos _ => desc
+  | .neg _ => s!"NOT ({desc})"
+
+/-- Why a chain literal counts as violated in the current facts. -/
+private def violReason (ci : Lit) : String :=
+  match ci with
+  | .pos a => s!"required, but '{a}' is not among the facts"
+  | .neg a => s!"prohibited, but '{a}' is among the facts"
+
+/-- Human-legible explanation of the non-compensable violation: which rules fired
+and why no remedy remains. Each violating rule's whole obligation chain is shown
+with the English meaning of every atom, so a reader needs no other reference. -/
+def renderViolationReport (thy : Theory) (ext : Extension) : String :=
+  let rules := ext.violatingRuleLabels.filterMap (fun lbl => thy.rules.find? (·.label == lbl))
+  let intro :=
+    "Rules causing the rejection (every obligation in each chain is itself\n" ++
+    "obligated and breached, so no compensation remains):"
+  let block (r : Rule) : String :=
+    let chain := r.conclusion.map fun ci =>
+      s!"    - O({ci}) — \"{litEnglish thy ci}\"\n        {violReason ci}"
+    s!"  • {renderRule r}\n" ++ "\n".intercalate chain
+  intro ++ "\n\n" ++ "\n\n".intercalate (rules.map block)
+
 def renderExtension (ext : Extension) : String :=
   let lines := ext.derivation.toList.map renderTaggedLit
   let viol := if ext.hasViolation then ["[NON-COMPENSABLE VIOLATION]"] else []
@@ -69,7 +109,9 @@ private def renderConflictJSON (c : UnresolvedConflict) : String :=
 
 def renderExtensionJSON (atoms : List Atom) (ext : Extension) : String :=
   let entries := atoms.map (renderAtomJSON · ext)
-  let viol := s!"\"hasViolation\":{jsonBool ext.hasViolation}"
+  let viol :=
+    s!"\"hasViolation\":{jsonBool ext.hasViolation}," ++
+    s!"\"violatingRules\":[{", ".intercalate (ext.violatingRuleLabels.map jsonStr)}]"
   let conflicts := ext.unresolvedConflicts.map renderConflictJSON
   let judge :=
     s!"\"hasUnresolvedConflicts\":{jsonBool ext.hasUnresolvedConflicts},\"unresolvedConflicts\":[{String.intercalate ", " conflicts}]"

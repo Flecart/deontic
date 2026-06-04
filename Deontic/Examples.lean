@@ -132,6 +132,12 @@ private def gNotO (a : Atom) : Condition := ⟨false, true, .O, .pos a⟩ -- ¬ 
 #guard (parseAssumption "~Knows").toOption     == some (.factNeg "Knows")
 #guard (parseAssumption "-Knows").toOption     == some (.absent  "Knows")
 
+#guard ({ ex1Theory with facts := [] }.applyAssumptions
+  [.factPos "license", .factPos "publish"]).facts ==
+  [.pos "license", .pos "publish"]
+#guard (computeExtension (ex1Theory.applyAssumptions [.absent "remove"])).hasViolation ==
+  (computeExtension ex1TheoryB).hasViolation
+
 -- Allowing Disclose requires exactly the three carve-out facts asserted directly.
 #guard (abduce ndaTheory [] [gP "Disclose"]).minimal ==
   [[.pos "Representative", .pos "NeedToKnow", .pos "TransactionPurpose"]]
