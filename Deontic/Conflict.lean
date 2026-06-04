@@ -4,14 +4,18 @@ import Deontic.ProofConditions
 
 namespace Deontic
 
-/-- Detect atoms where O(a) and O(~a) are both blocked by applicable rules with no ≺ between them. -/
-def findUnresolvedObligationConflicts (thy : Theory) (d : Derivation) : List UnresolvedConflict :=
-  thy.herbrandBase.filterMap fun a =>
+/-- Conflicts for a single bearer `b`: atoms where O(a) and O(~a) are both blocked
+by `b`'s applicable rules with no ≺ between them. `sthy`/`sv` are the theory and
+derivation scoped to `b` (see `Theory.scopedForBearer` / `Derivation.scopeForBearer`),
+so only same-bearer rules attack — a different party's opposite duty is no conflict. -/
+private def conflictsForBearer (thy sthy : Theory) (sv : Derivation)
+    (b : Option String) : List UnresolvedConflict :=
+  sthy.herbrandBase.filterMap fun a =>
     let q := Lit.pos a
-    if d.hasPositive .O q || d.hasPositive .O q.compl then none
+    if sv.hasPositive .O q || sv.hasPositive .O q.compl then none
     else
-      let forQ := applicableObligationRules thy d q
-      let forQc := applicableObligationRules thy d q.compl
+      let forQ  := applicableObligationRules sthy sv q
+      let forQc := applicableObligationRules sthy sv q.compl
       if forQ.isEmpty || forQc.isEmpty then none
       else
         let pairs : List (String × String) :=
@@ -26,6 +30,14 @@ def findUnresolvedObligationConflicts (thy : Theory) (d : Derivation) : List Unr
             forO := forQ.map (·.label) |>.eraseDups
             againstO := forQc.map (·.label) |>.eraseDups
             pairs := pairs
+            bearer := b
           }
+
+/-- Detect, per bearer, atoms where O(a) and O(~a) are both blocked by that
+bearer's applicable rules with no ≺ between them. Obligations of *different*
+bearers on the same atom never conflict — they are independent norms. -/
+def findUnresolvedObligationConflicts (thy : Theory) (d : Derivation) : List UnresolvedConflict :=
+  thy.bearers.flatMap fun b =>
+    conflictsForBearer thy (thy.scopedForBearer b) (d.scopeForBearer b) b
 
 end Deontic

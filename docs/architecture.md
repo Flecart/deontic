@@ -34,7 +34,7 @@ The CLI entry point is `Main.lean`, which loads a theory, calls `computeExtensio
 | `Deontic/Basic.lean` | Atoms, literals (`pos` / `neg`), deontic operators, `OExpr` (compensatory chains `a * b * c`) |
 | `Deontic/Theory.lean` | `Rule`, `Theory`, `AtomDecl`, `ImportDecl`, namespacing + guarded merge, Herbrand base, superiority (`defeats`) |
 | `Deontic/Parser.lean` | Tokeniser and parser for `.ddl` → `Theory` |
-| `Deontic/ProofTags.lean` | Modalities (`C`, `O`, `P`, `Pw`, `Ps`), `TaggedLit`, `Derivation`, `Extension` |
+| `Deontic/ProofTags.lean` | Modalities (`C`, `O`, `P`, `Pw`, `Ps`), `TaggedLit` (carries a Hohfeldian `bearer`), `Derivation`, bearer-scoped views, `Extension` |
 | `Deontic/Applicability.lean` | Body-applicable / body-p-applicable; compensatory index conditions |
 | `Deontic/ProofConditions.lean` | `canDerive_*` for each modality; `canDerive_bot`; `applicableObligationRules` |
 | `Deontic/Extension.lean` | Fixed-point loop over the Herbrand base |
@@ -65,7 +65,7 @@ Reasoning does not output a single “true” atom set. It builds a **derivation
 - `+∂_□ q` — defeasibly derive literal `q` in modality `□`
 - `−∂_□ q` — defeasibly derive the strong negation of `+∂_□ q`
 
-Modalities include constitutive `C`, obligation `O`, and several permission flavours (`Ps`, `Pw`, `P`).
+Modalities include constitutive `C`, obligation `O`, and several permission flavours (`Ps`, `Pw`, `P`). A deontic tag also carries an optional **bearer** (`+∂_O@Vendor q`) — see *Hohfeldian bearers* below.
 
 An **extension** bundles:
 
@@ -90,6 +90,24 @@ Proof conditions in `ProofConditions.lean` are **modular**: each `canDerive_O_po
 - superiority when counter-rules must be defeated or discarded
 
 Obligations use **only** strict and defeasible rules (not defeaters `~>`) to establish `+∂_O`; defeaters block or reshape conclusions without positively entailing obligations.
+
+## Hohfeldian bearers (directed obligations)
+
+A duty is always *someone's* duty. A prescriptive rule may name the party that bears its obligation/permission with `@Party` on the arrow (`pay: FeesDue =>O@Customer PayFees`); the bearer rides on the **obligation**, not the atom, so the act stays a single shared, importable token while the duty is directed. The correlative right-holder (the other party) is left implicit — rights are *derivable* from `O@bearer + counterparty`, so no separate `R` modality is introduced. Bearer is **optional**: a rule written without `@` is unattributed (`bearer = none`) and a theory with no `@` reduces exactly to the original calculus.
+
+`TaggedLit` carries the bearer (`none` for the bearer-neutral constitutive `C` and for unattributed norms). The crucial design property: **`ProofConditions.lean` is reused verbatim** — none of the published calculus is rewritten for bearers. Instead `Extension.lean` derives obligations/permissions/violations **once per bearer**, feeding each `canDerive_*` call a bearer-scoped *view* of the derivation:
+
+- `Theory.scopedForBearer b` — the rules party `b` owns (all constitutive rules + `b`'s prescriptive rules). A counter-rule of a *different* bearer is invisible, so it cannot attack `b`'s obligation.
+- `Derivation.scopeForBearer b` — the tags `b` can see (all `C` tags + `b`'s deontic tags, rebearered to `none` so the bearer-blind proof conditions read them unchanged).
+- `Derivation.flattenBearers` — the bearer-neutral view the constitutive layer sees, where a deontic antecedent `O(x)` holds when *any* party is obliged `x`.
+
+Consequences, all falling out of this scoping:
+
+- **Cross-party coexistence:** `O@Vendor(a)` and `O@Customer(~a)` both derive — opposite duties borne by different parties are independent norms, not a deadlock.
+- **Per-bearer conflict:** `Conflict.lean` flags `[JUDGE]` only when *one* party is pushed toward both `O(a)` and `O(~a)`; the report names the bearer.
+- **Per-bearer violation:** `+∂_⊥` is checked in each bearer's scoped view — a violation is a specific party failing their duty.
+
+Bilateral contracts need **no atom split**: confidentiality is one atom `Disclose` with two directed rules (`=>O@Vendor ~Disclose`, `=>O@Customer ~Disclose`), yielding distinct `Ps@Vendor`/`Ps@Customer` carve-outs. Known limits: a rule carries a *single* bearer (a chain mixing actors gets one tag), and "the non-breaching party" (a bearer bound by the antecedent) needs role variables, not yet supported — such clauses stay unattributed. See `examples/clauses/enterprise_saas_msa.ddl`.
 
 ## Applicability and compensatory chains
 
@@ -153,6 +171,7 @@ superiority: r4 > r2, r2e > r2
 
 - Comments: `# …`
 - Rule arrows: `->`, `=>`, `~>`, and prescriptive variants `->O`, `=>O`, `~>O`
+- Bearer (prescriptive arrows only): `=>O@Vendor`, `~>O@Customer` — names the duty-bearer (*Hohfeldian bearers* above); `@` on a constitutive arrow is an error
 - Negation: `~atom`
 - Compensatory chain: `lit1 * lit2 * …`
 - Superiority: `r1 > r2` (comma-separated)

@@ -7,16 +7,21 @@ namespace Deontic.Pretty
 
 -- ── Plain text rendering ──────────────────────────────────────────────────────
 
+private def bearerTag : Option String → String
+  | some p => s!"@{p}"
+  | none   => ""
+
 def renderTaggedLit (tl : TaggedLit) : String :=
   let sign := if tl.positive then "+∂" else "-∂"
-  s!"{sign}_{tl.modality} {tl.lit}"
+  s!"{sign}_{tl.modality}{bearerTag tl.bearer} {tl.lit}"
 
 def renderUnresolvedConflict (c : UnresolvedConflict) : String :=
   let pairLines := c.pairs.map fun (r, s) =>
     s!"  {r}  and  {s}  conflict with no superiority (judge: add {r} > {s}  or  {s} > {r})"
+  let who := match c.bearer with | some p => s!" (bearer {p})" | none => ""
   let header :=
-    s!"[unresolved obligation conflict on {c.atom}]\n" ++
-    s!"  neither O({c.atom}) nor O(~{c.atom}) is provable (+∂)\n" ++
+    s!"[unresolved obligation conflict on {c.atom}{who}]\n" ++
+    s!"  neither O{bearerTag c.bearer}({c.atom}) nor O{bearerTag c.bearer}(~{c.atom}) is provable (+∂)\n" ++
     s!"  rules for O({c.atom}): {", ".intercalate c.forO}\n" ++
     s!"  rules for O(~{c.atom}): {", ".intercalate c.againstO}"
   header ++ "\n" ++ "\n".intercalate pairLines
@@ -29,6 +34,7 @@ def renderUnresolvedConflicts (ext : Extension) : String :=
 /-- The arrow that produced this rule, e.g. `=>O` (prescriptive defeasible). -/
 private def renderArrow (r : Rule) : String :=
   toString r.strength ++ (if r.family == .prescriptive then "O" else "")
+    ++ (match r.bearer with | some p => s!"@{p}" | none => "")
 
 /-- Formal one-line rendering of a rule: `label: body  =>O  c1 * c2 * …`. -/
 def renderRule (r : Rule) : String :=
@@ -92,7 +98,8 @@ private def jsonStr (s : String) : String := s!"\"{ s }\""
 private def jsonBool (b : Bool) : String := if b then "true" else "false"
 
 private def renderTagJSON (tl : TaggedLit) : String :=
-  s!"\{\"positive\":{jsonBool tl.positive},\"modality\":{jsonStr (toString tl.modality)},\"literal\":{jsonStr (toString tl.lit)}}"
+  let bearer := match tl.bearer with | some p => jsonStr p | none => "null"
+  s!"\{\"positive\":{jsonBool tl.positive},\"modality\":{jsonStr (toString tl.modality)},\"bearer\":{bearer},\"literal\":{jsonStr (toString tl.lit)}}"
 
 def renderAtomJSON (a : Atom) (ext : Extension) : String :=
   let status := normativeStatus ext a

@@ -227,7 +227,10 @@ private def bySize (cs : List Config) : List Config :=
 
 def satisfies (ext : Extension) (conds : List Condition) : Bool :=
   conds.all fun c =>
-    let present := ext.derivation.has ⟨c.positive, c.modality, c.lit⟩
+    -- bearer-existential: a goal `O(x)` is met when *some* party is obliged `x`
+    -- (abduction goals are not yet bearer-qualified).
+    let present := ext.derivation.any fun tl =>
+      tl.positive == c.positive && tl.modality == c.modality && tl.lit == c.lit
     if c.holds then present else !present
 
 structure AbduceResult where

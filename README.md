@@ -35,6 +35,7 @@ lake build deontic
 | Capability | Example |
 |------------|---------|
 | Defeasible obligations & permissions | `commission =>O publish` vs default `=>O ~publish` |
+| Directed (Hohfeldian) obligations | `pay =>O@Customer PayFees` — names the duty-bearer; tags read `+∂_O@Customer` |
 | Compensatory chains | `=>O ~publish * remove` (remedy after breach) |
 | Defeaters | `license ~>O use` |
 | Superiority | `r4 > r2` — which rule wins when both apply |

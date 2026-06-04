@@ -29,12 +29,17 @@ instance : ToString RuleFamily where
 -- A labelled rule  r : a1,...,an ↪ C  (eq. 19 in the paper)
 -- For constitutive rules conclusion is a singleton OExpr
 -- For prescriptive rules conclusion is an OExpr (possibly a chain)
+-- A labelled rule. `bearer` names the party that bears a prescriptive rule's
+-- obligation/permission (`=>O@Vendor …`); it is `none` for constitutive rules
+-- and for unattributed prescriptive rules (`=>O …`, legacy/optional). The bearer
+-- rides on the obligation, not the act — see docs/architecture.md.
 structure Rule where
   label      : String
   strength   : RuleStrength
   family     : RuleFamily
   antecedent : List Literal
   conclusion : OExpr
+  bearer     : Option String := none
   deriving BEq, Repr
 
 -- Superiority relation ≺ ⊆ R×R
@@ -93,6 +98,22 @@ def Theory.constitutiveRules (thy : Theory) : List Rule :=
 
 def Theory.prescriptiveRules (thy : Theory) : List Rule :=
   thy.rules.filter (·.family == .prescriptive)
+
+-- The distinct bearers carried by prescriptive rules (includes `none` if any
+-- prescriptive rule is unattributed). The per-bearer fixed point in
+-- `Extension.lean` derives obligations/permissions once for each. A theory with
+-- no `@`-attributed rules yields `[none]`, reducing to the original calculus.
+def Theory.bearers (thy : Theory) : List (Option String) :=
+  (thy.prescriptiveRules.map (·.bearer)).eraseDups
+
+-- The theory as seen by bearer `b`'s obligation derivation: all constitutive
+-- rules (bearer-neutral, shared) plus the prescriptive rules borne by `b`. Other
+-- parties' prescriptive rules are invisible, so a counter-rule of a *different*
+-- bearer cannot attack `b`'s obligation (Vendor's O(a) and Customer's O(~a)
+-- coexist rather than deadlock).
+def Theory.scopedForBearer (thy : Theory) (b : Option String) : Theory :=
+  { thy with rules := thy.rules.filter fun r =>
+      r.family == .constitutive || r.bearer == b }
 
 def Theory.defeatersOf (thy : Theory) : List Rule :=
   thy.rules.filter (·.strength == .defeater)

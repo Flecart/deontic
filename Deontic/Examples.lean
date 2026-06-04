@@ -14,24 +14,24 @@ def ex1Theory : Theory where
   facts := [.pos "license", .pos "publish", .pos "remove"]
   rules := [
     -- r0: =>O ~use
-    ⟨"r0", .defeasible, .prescriptive, [], [.neg "use"]⟩,
+    ⟨"r0", .defeasible, .prescriptive, [], [.neg "use"], none⟩,
     -- r1: license ~>O use
-    ⟨"r1", .defeater, .prescriptive, [.plain (.pos "license")], [.pos "use"]⟩,
+    ⟨"r1", .defeater, .prescriptive, [.plain (.pos "license")], [.pos "use"], none⟩,
     -- r2: =>O ~publish * remove
-    ⟨"r2", .defeasible, .prescriptive, [], [.neg "publish", .pos "remove"]⟩,
+    ⟨"r2", .defeasible, .prescriptive, [], [.neg "publish", .pos "remove"], none⟩,
     -- r2e: approval ~>O publish
-    ⟨"r2e", .defeater, .prescriptive, [.plain (.pos "approval")], [.pos "publish"]⟩,
+    ⟨"r2e", .defeater, .prescriptive, [.plain (.pos "approval")], [.pos "publish"], none⟩,
     -- r3: =>O ~comment
-    ⟨"r3", .defeasible, .prescriptive, [], [.neg "comment"]⟩,
+    ⟨"r3", .defeasible, .prescriptive, [], [.neg "comment"], none⟩,
     -- r3e: P(publish) ~>O comment
     ⟨"r3e", .defeater, .prescriptive,
-      [.deontic ⟨.P, .pos "publish"⟩], [.pos "comment"]⟩,
+      [.deontic ⟨.P, .pos "publish"⟩], [.pos "comment"], none⟩,
     -- r4: commission =>O publish
-    ⟨"r4", .defeasible, .prescriptive, [.plain (.pos "commission")], [.pos "publish"]⟩,
+    ⟨"r4", .defeasible, .prescriptive, [.plain (.pos "commission")], [.pos "publish"], none⟩,
     -- r4x: commission =>O use
-    ⟨"r4x", .defeasible, .prescriptive, [.plain (.pos "commission")], [.pos "use"]⟩,
+    ⟨"r4x", .defeasible, .prescriptive, [.plain (.pos "commission")], [.pos "use"], none⟩,
     -- r5: bot =>O ~use
-    ⟨"r5", .defeasible, .prescriptive, [.plain (.pos "bot")], [.neg "use"]⟩
+    ⟨"r5", .defeasible, .prescriptive, [.plain (.pos "bot")], [.neg "use"], none⟩
   ]
   superiority := [
     ("r1", "r0"), ("r4x", "r0"), ("r5", "r1"), ("r5", "r4x"),
@@ -53,13 +53,13 @@ def ex3Theory : Theory where
   facts := [.pos "ExpressionDissatisfaction", .pos "InformationCall"]
   rules := [
     ⟨"tcpc1", .defeasible, .constitutive,
-      [.plain (.pos "ExpressionDissatisfaction")], [.pos "complaint"]⟩,
+      [.plain (.pos "ExpressionDissatisfaction")], [.pos "complaint"], none⟩,
     ⟨"tcpc2", .defeasible, .constitutive,
-      [.plain (.pos "InformationCall")], [.neg "complaint"]⟩,
+      [.plain (.pos "InformationCall")], [.neg "complaint"], none⟩,
     ⟨"tcpc3", .defeater, .constitutive,
-      [.plain (.pos "ProblemCall"), .plain (.pos "FirstCall")], [.pos "complaint"]⟩,
+      [.plain (.pos "ProblemCall"), .plain (.pos "FirstCall")], [.pos "complaint"], none⟩,
     ⟨"tcpc4", .defeasible, .constitutive,
-      [.plain (.pos "AdviseComplaint")], [.pos "complaint"]⟩
+      [.plain (.pos "AdviseComplaint")], [.pos "complaint"], none⟩
   ]
   superiority := [("tcpc2", "tcpc1"), ("tcpc4", "tcpc2")]
 
@@ -108,12 +108,12 @@ def ex4Theory : Theory := { ex3Theory with
 def ndaTheory : Theory where
   facts := []
   rules := [
-    ⟨"def1", .defeasible, .constitutive, [.plain (.pos "Director")], [.pos "Representative"]⟩,
-    ⟨"rprohibit", .defeasible, .prescriptive, [], [.neg "Disclose"]⟩,
+    ⟨"def1", .defeasible, .constitutive, [.plain (.pos "Director")], [.pos "Representative"], none⟩,
+    ⟨"rprohibit", .defeasible, .prescriptive, [], [.neg "Disclose"], none⟩,
     ⟨"rperm", .defeater, .prescriptive,
       [.plain (.pos "Representative"), .plain (.pos "NeedToKnow"), .plain (.pos "TransactionPurpose")],
-      [.pos "Disclose"]⟩,
-    ⟨"rcare", .defeasible, .prescriptive, [], [.pos "Protect"]⟩
+      [.pos "Disclose"], none⟩,
+    ⟨"rcare", .defeasible, .prescriptive, [], [.pos "Protect"], none⟩
   ]
   superiority := [("rperm", "rprohibit")]
 
@@ -221,6 +221,48 @@ private def describedSrc : String :=
   match Deontic.Parser.parse describedSrc with
   | .ok thy => IO.println (renderAtoms thy (fun _ => none))
   | .error e => IO.println s!"parse error: {e}"
+
+-- ── Hohfeldian bearers: directed obligations ──────────────────────────────────
+-- A duty is always *someone's* duty. `=>O@Vendor a` makes `a` Vendor's obligation;
+-- the bearer rides on the tag, so two parties can hold opposite duties on the same
+-- atom without deadlocking, while one party holding both does deadlock.
+
+def bearerTheory : Theory where
+  facts := []
+  rules := [
+    -- Vendor must `a`; Customer must `~a` — opposite duties, *different* bearers.
+    ⟨"v_a",  .defeasible, .prescriptive, [], [.pos "a"], some "Vendor"⟩,
+    ⟨"c_na", .defeasible, .prescriptive, [], [.neg "a"], some "Customer"⟩,
+    -- Vendor must `b` *and* must `~b` — opposite duties, *same* bearer.
+    ⟨"v_b",  .defeasible, .prescriptive, [], [.pos "b"], some "Vendor"⟩,
+    ⟨"v_nb", .defeasible, .prescriptive, [], [.neg "b"], some "Vendor"⟩
+  ]
+  superiority := []
+
+-- Cross-party opposite duties coexist: both tags derived, `a` is NOT a conflict.
+#guard
+  let ext := computeExtension bearerTheory
+  ext.derivation.has ⟨true, .O, some "Vendor", .pos "a"⟩
+  && ext.derivation.has ⟨true, .O, some "Customer", .neg "a"⟩
+  && !ext.isUnresolvedAtom "a"
+
+-- Same-bearer opposite duties deadlock: `b` is an unresolved conflict for Vendor.
+#guard (computeExtension bearerTheory).isUnresolvedAtom "b"
+#guard ((computeExtension bearerTheory).unresolvedConflicts.find? (·.atom == "b")).map (·.bearer)
+  == some (some "Vendor")
+
+-- A strong permission inherits the bearer of the obligation it comes from.
+#guard (computeExtension bearerTheory).derivation.has ⟨true, .Ps, some "Vendor", .pos "a"⟩
+
+-- The parser reads `@Party` off a prescriptive arrow and rejects it on a
+-- constitutive one.
+#guard match Deontic.Parser.parse "atom a: x\nr: =>O@Vendor a" with
+  | .ok thy => (thy.rules.head?).map (·.bearer) == some (some "Vendor")
+  | .error _ => false
+#guard match Deontic.Parser.parse "atom a: x\nr: =>@Vendor a" with
+  | .error _ => true | .ok _ => false
+#guard match Deontic.Parser.parse "atom a: x\nr: =>O@ a" with
+  | .error _ => true | .ok _ => false
 
 -- ── Imports / namespacing ─────────────────────────────────────────────────────
 

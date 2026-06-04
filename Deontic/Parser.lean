@@ -70,6 +70,14 @@ private def parseArrow (s : String) : Except String (RuleStrength × RuleFamily)
   | "~>O" => .ok (.defeater,   .prescriptive)
   | _     => .error s!"unknown arrow '{s}'"
 
+-- An arrow may carry a Hohfeldian bearer: `=>O@Vendor` means "Vendor is obliged".
+-- Splits the `@Party` suffix off the arrow token; the bearer is `none` when absent.
+private def splitArrowBearer (s : String) : String × Option String :=
+  match s.splitOn "@" with
+  | [base]       => (base, none)
+  | base :: rest => (base, some ("@".intercalate rest))
+  | []           => (s, none)
+
 -- ── OExpr parser ──────────────────────────────────────────────────────────────
 
 private def parseOExpr (tokens : List String) : Except String OExpr :=
@@ -101,7 +109,8 @@ private def parseAntecedent (tokens : List String) : Except String (List Literal
 -- ── Rule line parser ──────────────────────────────────────────────────────────
 
 private def isArrow (s : String) : Bool :=
-  s == "->" || s == "->O" || s == "=>" || s == "=>O" || s == "~>" || s == "~>O"
+  let base := (splitArrowBearer s).1
+  base == "->" || base == "->O" || base == "=>" || base == "=>O" || base == "~>" || base == "~>O"
 
 private def parseRule (label : String) (tokens : List String) : Except String Rule := do
   match tokens.findIdx? isArrow with
@@ -110,10 +119,15 @@ private def parseRule (label : String) (tokens : List String) : Except String Ru
     let antToks  := tokens.take arrowIdx
     let arrowTok := tokens[arrowIdx]!
     let conToks  := tokens.drop (arrowIdx + 1)
-    let (strength, family) ← parseArrow arrowTok
+    let (base, bearer) := splitArrowBearer arrowTok
+    let (strength, family) ← parseArrow base
+    if bearer == some "" then
+      .error s!"rule '{label}': empty bearer after '@' in '{arrowTok}'"
+    if bearer.isSome && family == .constitutive then
+      .error s!"rule '{label}': @bearer is only valid on prescriptive arrows (…O), got '{arrowTok}'"
     let ant ← parseAntecedent antToks
     let con ← parseOExpr conToks
-    .ok ⟨label, strength, family, ant, con⟩
+    .ok ⟨label, strength, family, ant, con, bearer⟩
 
 -- ── Superiority line parser ───────────────────────────────────────────────────
 

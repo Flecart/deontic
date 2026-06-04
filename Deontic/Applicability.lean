@@ -25,7 +25,7 @@ private def checkLiteral (d : Derivation) (facts : List Lit) (l : Literal) (want
     let lit : Lit := match dl.op with
       | .F => dl.lit.compl   -- F(l) means O(~l)
       | _  => dl.lit
-    d.has ⟨want, mod, lit⟩
+    d.has ⟨want, mod, none, lit⟩
 
 def bodyApplicable (r : Rule) (d : Derivation) (facts : List Lit) : Bool :=
   r.antecedent.all (checkLiteral d facts · true)
