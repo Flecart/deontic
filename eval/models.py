@@ -40,6 +40,7 @@ REGISTRY: dict[str, ModelSpec] = {
     "gpt-5.4-mini":      ModelSpec("gpt-5.4-mini",      "openai", "gpt-5.4-mini", reasoning=True),
     "qwen3.6":           ModelSpec("qwen3.6",           "openrouter", "qwen/qwen3.6-35b-a3b"),
     "deepseek-v4-flash": ModelSpec("deepseek-v4-flash", "openrouter", "deepseek/deepseek-v4-flash"),
+    "grok-4.3":          ModelSpec("grok-4.3",          "openrouter", "x-ai/grok-4.3"),
     # OpenRouter (provider/model ids)
     "llama-3.3-70b":     ModelSpec("llama-3.3-70b",     "openrouter", "meta-llama/llama-3.3-70b-instruct"),
     "claude-3.5-sonnet": ModelSpec("claude-3.5-sonnet", "openrouter", "anthropic/claude-3.5-sonnet"),
@@ -74,7 +75,9 @@ def make_client(spec: ModelSpec):
         raise SystemExit(
             f"environment variable {cfg['key_env']} is not set "
             f"(needed for provider '{spec.provider}').")
-    return OpenAI(api_key=key, base_url=cfg["base_url"])
+    # Bound each request so one hung connection (seen on OpenRouter) can't stall
+    # the whole sweep; the SDK still retries transient failures a few times.
+    return OpenAI(api_key=key, base_url=cfg["base_url"], timeout=90.0, max_retries=3)
 
 
 # ── Offline stub (mimics the slice of the SDK the agents use) ──────────────────

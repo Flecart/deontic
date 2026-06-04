@@ -67,9 +67,38 @@ def _user_msg(task, ex):
             f"{task['question']}")
 
 
+def _sys_knn(task, k):
+    return (_sys_baseline(task) +
+            f"\n\nYou are also given the {k} most similar past cases (precedents) with "
+            f"their gold labels. Treat them as decided precedents: find the ones whose "
+            f"clause and facts match this scenario most closely and let them guide your "
+            f"answer, but reason about the actual clause — precedents can differ on a "
+            f"decisive fact. Always finish with the 'ANSWER: <label>' line.")
+
+
+def _format_neighbors(neighbors):
+    blocks = []
+    for j, nb in enumerate(neighbors, 1):
+        blocks.append(f"[Precedent {j}] (label: {nb['gold']})\n"
+                      f"Text:\n{nb['text']}\nHypothesis: {nb['hypothesis']}")
+    return "\n\n".join(blocks)
+
+
 def run_baseline(client, spec, task, ex, temperature=0.0):
     messages = [{"role": "system", "content": _sys_baseline(task)},
                 {"role": "user", "content": _user_msg(task, ex)}]
+    resp = _create(client, spec, messages, temperature=temperature)
+    content = resp.choices[0].message.content or ""
+    return parse_answer(content, task["labels"]), [{"role": "assistant", "content": content}]
+
+
+def run_knn(client, spec, task, ex, neighbors, temperature=0.0):
+    """Retrieval-augmented condition: the k nearest decided precedents are shown
+    to the model as few-shot context, then it answers. No formal reasoner."""
+    user = (f"{_format_neighbors(neighbors)}\n\n=== New case ===\n"
+            f"{_user_msg(task, ex)}")
+    messages = [{"role": "system", "content": _sys_knn(task, len(neighbors))},
+                {"role": "user", "content": user}]
     resp = _create(client, spec, messages, temperature=temperature)
     content = resp.choices[0].message.content or ""
     return parse_answer(content, task["labels"]), [{"role": "assistant", "content": content}]
