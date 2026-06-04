@@ -149,6 +149,15 @@ private def gNotO (a : Atom) : Condition := ⟨false, true, .O, .pos a⟩ -- ¬ 
 -- License: an obligation to `use` is reachable only by asserting `commission`.
 #guard (abduce ex1Theory [] [⟨true, true, .O, .pos "use"⟩]).minimal == [[.pos "commission"]]
 
+-- Relevance restriction: only carve-out facts feed P(Disclose); `Director` gates
+-- the constitutive def1 (not rperm's plain antecedent) so it is *not* abducibly
+-- relevant — the search space drops to the three facts that can actually fire.
+#guard ndaTheory.relevantAbducibleAtoms [.pos "Disclose"] ==
+  ["Representative", "NeedToKnow", "TransactionPurpose"]
+-- When the goal literal is itself an abducible fact, asserting it must remain in
+-- the search space (its own fact-status is read directly, not via any rule head).
+#guard (abduce ndaTheory [] [⟨true, true, .C, .pos "NeedToKnow"⟩]).minimal == [[.pos "NeedToKnow"]]
+
 #eval do
   IO.println "=== Abduction: configurations that ALLOW Disclose ==="
   IO.println (renderAbduceResult (abduce ndaTheory [] [gP "Disclose"]) true 8)
