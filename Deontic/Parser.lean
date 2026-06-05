@@ -5,7 +5,7 @@ namespace Deontic.Parser
 -- ── Tokeniser ─────────────────────────────────────────────────────────────────
 
 private def isDelim (c : Char) : Bool :=
-  c == ',' || c == '(' || c == ')'
+  c == ',' || c == '(' || c == ')' || c == '[' || c == ']'
 
 partial def tokenise (s : String) : List String :=
   let chars := s.toList
@@ -57,6 +57,10 @@ private def parseLiteral (tok : String) : Except String Literal := do
   | none =>
     let lit ← parseLit tok
     .ok (.plain lit)
+
+private def isPlainLit : Literal → Bool
+  | .plain _   => true
+  | .deontic _ => false
 
 -- ── Rule arrow parser ─────────────────────────────────────────────────────────
 
@@ -128,6 +132,76 @@ private def parseRule (label : String) (tokens : List String) : Except String Ru
     let ant ← parseAntecedent antToks
     let con ← parseOExpr conToks
     .ok ⟨label, strength, family, ant, con, bearer⟩
+
+-- ── Sugar: oneof[…], precondition blocks, overrides ──────────────────────────
+-- These are PARSE-TIME desugarings; the proof theory (ProofConditions/Extension)
+-- is untouched. See examples/codice_penale for the surface syntax.
+
+-- Split a token list on top-level commas (no nesting of `[]` expected inside).
+private def splitTopCommas (toks : List String) : List (List String) :=
+  let rec go (cur : List String) (acc : List (List String)) : List String → List (List String)
+    | []           => acc ++ [cur]
+    | "," :: rest  => go [] (acc ++ [cur]) rest
+    | t   :: rest  => go (cur ++ [t]) acc rest
+  (go [] [] toks).filter (!·.isEmpty)
+
+-- `oneof[a, b, c]` in an antecedent → the rule is cloned once per disjunct.
+-- Several `oneof`s in one antecedent expand to their cartesian product.
+private partial def expandOneof (toks : List String) : List (List String) :=
+  match toks.findIdx? (· == "oneof") with
+  | none   => [toks]
+  | some i =>
+    match toks.drop (i + 1) with
+    | "[" :: rest =>
+      let inner        := rest.takeWhile (· != "]")
+      let afterBracket := (rest.dropWhile (· != "]")).drop 1
+      let pre          := toks.take i
+      (splitTopCommas inner).flatMap fun g => expandOneof (pre ++ g ++ afterBracket)
+    | _ => [toks]          -- malformed `oneof` without `[…]`; leave untouched
+
+-- `… overrides X` desugars (per expanded rule R) to a DEFEATER that blocks X,
+-- gated on R's PLAIN-FACT antecedents only (deontic `O(…)` literals are dropped
+-- so the defeater is active no later than the rule it overrides — defusing the
+-- frozen-snapshot ordering hazard). The defeater is later made superior to every
+-- rule concluding X.  `overrides` ⇒ the base penalty becomes not-obligated (the
+-- base rule stays in force, just out-prioritised), NOT forbidden.
+private def mkOverrideDefeater (r : Rule) (target : String) : Rule × (String × String) :=
+  let ovrLabel := r.label ++ "_ovr_" ++ target
+  let plainAnt := r.antecedent.filter isPlainLit
+  (⟨ovrLabel, .defeater, .prescriptive, plainAnt, [Lit.neg target], r.bearer⟩, (ovrLabel, target))
+
+-- Parse one rule line (already prefixed with any active block preconditions),
+-- expanding `oneof` and `overrides`. Returns the concrete rules, the label-map
+-- entry (base label → expanded variant labels, for superiority rewriting), and
+-- the (overrideDefeaterLabel, targetAtom) pairs whose superiority is resolved
+-- once every rule is known.
+private def parseRuleLine (label : String) (precondToks : List String) (toks : List String)
+    : Except String (List Rule × (String × List String) × List (String × String)) := do
+  let ruleToks := toks.takeWhile (· != "overrides")
+  let ovrToks  := (toks.dropWhile (· != "overrides")).drop 1 |>.filter (· != ",")
+  match ruleToks.findIdx? isArrow with
+  | none => .error s!"no arrow in rule '{label}'"
+  | some arrowIdx =>
+    let arrowTok := ruleToks[arrowIdx]!
+    let conToks  := ruleToks.drop (arrowIdx + 1)
+    let antToks  := precondToks ++ ruleToks.take arrowIdx
+    let variants := expandOneof antToks
+    let multi    := variants.length > 1
+    let mut outRules : List Rule := []
+    let mut labels   : List String := []
+    let mut ovrs     : List (String × String) := []
+    let mut idx := 0
+    for v in variants do
+      idx := idx + 1
+      let vlabel := if multi then s!"{label}${idx}" else label
+      let rule ← parseRule vlabel (v ++ [arrowTok] ++ conToks)
+      outRules := outRules ++ [rule]
+      labels   := labels ++ [vlabel]
+      for tgt in ovrToks do
+        let (dft, pair) := mkOverrideDefeater rule tgt
+        outRules := outRules ++ [dft]
+        ovrs     := ovrs ++ [pair]
+    .ok (outRules, (label, labels), ovrs)
 
 -- ── Superiority line parser ───────────────────────────────────────────────────
 
@@ -212,9 +286,13 @@ def parse (src : String) : Except String Theory := do
   let lines := src.splitOn "\n"
   let mut facts       : List Lit       := []
   let mut rules       : List Rule      := []
-  let mut superiority : SuperiorityRel := []
+  let mut rawSup      : SuperiorityRel := []
   let mut atoms       : List AtomDecl  := []
   let mut imports     : List ImportDecl := []
+  -- Sugar bookkeeping:
+  let mut precondStack : List (List String) := []        -- active block preconditions
+  let mut labelMap     : List (String × List String) := []  -- base label → variant labels
+  let mut ovrTargets   : List (String × String) := []    -- (overrideDefeater, targetAtom)
 
   for rawLine in lines do
     let rawTrim := rawLine.trimAscii.toString
@@ -232,6 +310,15 @@ def parse (src : String) : Except String Theory := do
     let line := ((rawLine.splitOn "#").head!.trimAscii).toString
     if line.isEmpty then continue
 
+    -- Precondition block: `<lits> {` opens, `}` closes. Each rule inside has the
+    -- accumulated literals prepended to its antecedent. Blocks may nest.
+    if line == "}" then
+      precondStack := precondStack.dropLast
+      continue
+    if line.endsWith "{" then
+      precondStack := precondStack ++ [tokenise (line.dropEnd 1).toString]
+      continue
+
     let parts := line.splitOn ":"
     if parts.length < 2 then continue
     let key  := parts[0]!.trimAscii.toString
@@ -244,12 +331,28 @@ def parse (src : String) : Except String Theory := do
       facts := facts ++ fs
     | "superiority" =>
       let sups ← parseSup tokens
-      superiority := superiority ++ sups
+      rawSup := rawSup ++ sups
     | label =>
       if label.isEmpty then continue
-      let rule ← parseRule label tokens
-      rules := rules ++ [rule]
+      let precondFlat := precondStack.foldl (· ++ ·) []
+      let (rs, mapEntry, ovrs) ← parseRuleLine label precondFlat tokens
+      rules      := rules ++ rs
+      labelMap   := labelMap ++ [mapEntry]
+      ovrTargets := ovrTargets ++ ovrs
 
-  .ok ⟨facts, rules, superiority, atoms, imports⟩
+  -- Rewrite author-written superiority through the oneof label-map: a label that
+  -- expanded into k rules expands its superiority pairs on each side.
+  let lookupLabels := fun (l : String) =>
+    (labelMap.find? (·.1 == l)).map (·.2) |>.getD [l]
+  let expandedSup := rawSup.flatMap fun (l, r) =>
+    (lookupLabels l).flatMap fun a => (lookupLabels r).map fun b => (a, b)
+  -- `overrides`: each generated defeater is made superior to every rule that
+  -- concludes the overridden atom.
+  let ovrSup := ovrTargets.flatMap fun (ovrLabel, tgt) =>
+    rules.filterMap fun s =>
+      if s.conclusion.head? == some (Lit.pos tgt) && s.label != ovrLabel
+      then some (ovrLabel, s.label) else none
+
+  .ok ⟨facts, rules, expandedSup ++ ovrSup, atoms, imports⟩
 
 end Deontic.Parser
