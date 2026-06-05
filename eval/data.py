@@ -30,6 +30,16 @@ TASKS = {
         "question": "Under the rule, is the hypothesis correct? Answer Yes or No.",
         "answer_map": {"yes": "Yes", "no": "No"},
     },
+    "ambiguous_contracts": {
+        "name": "ambiguous_contracts",
+        "labels": ["Yes", "No"],
+        "instructions": ("Decide whether the contract clause and described facts entail "
+                         "the stated permission, obligation, or prohibition. Answer Yes "
+                         "only when the hypothesis follows from the clause; answer No "
+                         "for contradictions, unresolved conflicts, or silence."),
+        "question": "Does the clause entail the hypothesis in this scenario? Answer Yes or No.",
+        "answer_map": {"yes": "Yes", "no": "No"},
+    },
 }
 
 
