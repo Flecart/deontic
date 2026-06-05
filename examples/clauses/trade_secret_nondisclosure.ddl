@@ -17,11 +17,13 @@ facts:
 atom Disclose: disclose, disseminate or distribute any information concerning the trade secret or property to any person, entity or business | quote: shall not disclose or cause to be disclosed, disseminated or distributed any information concerning said trade secret or property | uri: examples/clauses/sources/navidec_nda.md#L5-L7
 atom PriorWrittenPermission: Navidec, Incorporated has given prior written permission for the disclosure | quote: without the prior written permission of Navidec, Incorporated | uri: examples/clauses/sources/navidec_nda.md#L7-L8
 
-# Recipient shall not disclose the trade secret / property to anyone.
-no_disclosure:  =>O  ~Disclose
+# Recipient shall not disclose the trade secret / property to anyone. The duty is
+# the Recipient's (`@Recipient`); Navidec is the correlative right-holder, left
+# implicit. Unilateral NDA: only one party bears a duty here.
+no_disclosure:  =>O@Recipient  ~Disclose
 
 # The sole carve-out: disclosure with Navidec's prior written permission.
-with_permission:  PriorWrittenPermission  ~>O  Disclose
+with_permission:  PriorWrittenPermission  ~>O@Recipient  Disclose
 
 # The specific permission defeats the general prohibition.
 superiority: with_permission > no_disclosure

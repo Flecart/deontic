@@ -19,15 +19,17 @@ atom EmployeeRecipient: the other person is an employee of the Receiving Party |
 atom AwareOfTerms: that person has been made aware of the provisions of this Agreement | quote: made aware of the provisions of this Agreement | uri: examples/clauses/sources/nda_confidentiality.md#L5
 atom AwareOfLiability: that person has been made aware that the Disclosee will be liable | quote: the fact that the Disclosee will be liable | uri: examples/clauses/sources/nda_confidentiality.md#L5-L6
 
-# Default: Confidential Information must not be disclosed.
-no_disclosure:  =>O  ~Disclose
+# Default: Confidential Information must not be disclosed. The duty is borne by
+# the Disclosee / Receiving Party (`@Disclosee`); the Disclosing Party is the
+# correlative right-holder, left implicit.
+no_disclosure:  =>O@Disclosee  ~Disclose
 
 # Employees may receive Confidential Information, but the procurement clause
 # gates it: disclosure is only permitted once the recipient has been made aware
 # of (a) the Agreement's provisions and (b) the Disclosee's liability — the
 # "prior to the disclosure ... made aware" requirement, modelled as a
 # precondition on the employee permission.
-employee_disclosure:  EmployeeRecipient, AwareOfTerms, AwareOfLiability  ~>O  Disclose
+employee_disclosure:  EmployeeRecipient, AwareOfTerms, AwareOfLiability  ~>O@Disclosee  Disclose
 
 # The specific permission defeats the general prohibition.
 superiority: employee_disclosure > no_disclosure

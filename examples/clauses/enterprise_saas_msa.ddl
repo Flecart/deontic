@@ -111,60 +111,78 @@ atom ReasonableAuditNotice: Customer has given reasonable notice of a compliance
 atom CooperateWithAudit: Vendor cooperates with Customer's audit of security and data-processing compliance | quote: may audit Vendor's compliance | uri: examples/clauses/sources/enterprise_saas_msa.md#L77-L79
 
 # ---------------------------------------------------------------------------
-# Rules — license and scope
+# Rules — Hohfeldian directed obligations.  Each prescriptive rule names the
+# party that *bears* the duty/power with `@Party` (the bearer rides on the
+# obligation, not the atom; the correlative right-holder is the other party).
+# Constitutive rules (`=>`/`->`) are bearer-neutral — they classify world-state,
+# they are nobody's duty.
 # ---------------------------------------------------------------------------
 license_grant: OrderFormExecuted, CustomerParty  =>  ValidSubscriptionLicense
-no_use_default:  =>O  ~UseSoftware
-use_permitted: ValidSubscriptionLicense  ~>O  UseSoftware
-scope_limit:  =>O  ~ExceedOrderScope
+no_use_default:  =>O@Customer  ~UseSoftware
+use_permitted: ValidSubscriptionLicense  ~>O@Customer  UseSoftware
+scope_limit:  =>O@Customer  ~ExceedOrderScope
 scope_is_breach: ExceedOrderScope  =>  MaterialBreach
 
-# Fees
-pay_when_due: FeesDue  =>O  PayFees
-overdue_suspend: PaymentOverdue  =>O  SuspendAccess * PayOverdueAmounts * RestoreAccess
+# Fees — Customer's duty to pay; Vendor's power to suspend on default.
+pay_when_due: FeesDue  =>O@Customer  PayFees
+# NOTE: this chain mixes bearers (Vendor suspends, Customer pays overdue, Vendor
+# restores). A rule carries a single bearer, so it is tagged @Vendor (the head's
+# actor). Faithfully splitting the power-to-suspend from the duty-to-restore is
+# the separate refactor discussed in the file footer; not done here.
+overdue_suspend: PaymentOverdue  =>O@Vendor  SuspendAccess * PayOverdueAmounts * RestoreAccess
 overdue_material: PaymentOverdue  =>  MaterialBreach
 
-# SLA — uptime when active; credits only once failure is in the facts (sole remedy)
-sla_uptime: ActiveSla  =>O  MeetUptimeTarget
-sla_credits: SlaFailure, ActiveSla  =>O  ClaimServiceCredits
+# SLA — Vendor's uptime duty; Customer's power to claim credits (sole remedy).
+sla_uptime: ActiveSla  =>O@Vendor  MeetUptimeTarget
+sla_credits: SlaFailure, ActiveSla  =>O@Customer  ClaimServiceCredits
 
-# Confidentiality carve-outs (pattern from disclosure_awareness / trade_secret)
-conf_no_disclose:  =>O  ~DiscloseConfidentialInfo
-conf_employees: EmployeeNeedToKnow, EmployeeUnderNDA  ~>O  DiscloseConfidentialInfo
-conf_legal: LegalCompulsionRequired  ~>O  DiscloseConfidentialInfo
+# Confidentiality — genuinely bilateral: ONE shared act, TWO directed duties.
+# No atom split needed; the bearer on each rule keeps them distinct.
+conf_no_disclose_v:  =>O@Vendor    ~DiscloseConfidentialInfo
+conf_no_disclose_c:  =>O@Customer  ~DiscloseConfidentialInfo
+conf_employees_v: EmployeeNeedToKnow, EmployeeUnderNDA  ~>O@Vendor    DiscloseConfidentialInfo
+conf_employees_c: EmployeeNeedToKnow, EmployeeUnderNDA  ~>O@Customer  DiscloseConfidentialInfo
+conf_legal_v: LegalCompulsionRequired  ~>O@Vendor    DiscloseConfidentialInfo
+conf_legal_c: LegalCompulsionRequired  ~>O@Customer  DiscloseConfidentialInfo
 
-# DPA
-dpa_no_process:  =>O  ~ProcessPersonalData
-dpa_instruction: LawfulDataInstruction  ~>O  ProcessPersonalData
-dpa_no_sub:  =>O  ~EngageSubprocessor
-dpa_sub_notice: SubprocessorNoticeGiven  ~>O  EngageSubprocessor
+# DPA — Vendor is the processor, so these are Vendor's duties/powers.
+dpa_no_process:  =>O@Vendor  ~ProcessPersonalData
+dpa_instruction: LawfulDataInstruction  ~>O@Vendor  ProcessPersonalData
+dpa_no_sub:  =>O@Vendor  ~EngageSubprocessor
+dpa_sub_notice: SubprocessorNoticeGiven  ~>O@Vendor  EngageSubprocessor
 
-# Security
-sec_measures:  =>O  ImplementSecurityMeasures
-sec_notify_remedy: SecurityIncident  =>O  NotifyCustomer * RemediateIncident
+# Security — Vendor's duties.
+sec_measures:  =>O@Vendor  ImplementSecurityMeasures
+sec_notify_remedy: SecurityIncident  =>O@Vendor  NotifyCustomer * RemediateIncident
 
-# Indemnity vs cap — excluded liabilities defeat the general cap on excess payments
-indemnify_breach: VendorMaterialBreach, ThirdPartyClaim  =>O  IndemnifyCustomer
-indemnify_ip: IpInfringementClaim  =>O  IndemnifyCustomer
-cap_no_excess: LiabilityCapApplies  =>O  ~ExceedLiabilityCap
-cap_excluded: ExcludedLiability  ~>O  ExceedLiabilityCap
+# Indemnity vs cap — Vendor's duties; excluded liabilities defeat the general cap.
+indemnify_breach: VendorMaterialBreach, ThirdPartyClaim  =>O@Vendor  IndemnifyCustomer
+indemnify_ip: IpInfringementClaim  =>O@Vendor  IndemnifyCustomer
+cap_no_excess: LiabilityCapApplies  =>O@Vendor  ~ExceedLiabilityCap
+cap_excluded: ExcludedLiability  ~>O@Vendor  ExceedLiabilityCap
 
 # Termination
-term_conv: NinetyDayNotice  ~>O  TerminateForConvenience
+# Convenience: either party may terminate — two directed powers on one act.
+term_conv_v: NinetyDayNotice  ~>O@Vendor    TerminateForConvenience
+term_conv_c: NinetyDayNotice  ~>O@Customer  TerminateForConvenience
+# For-cause: borne by the NON-breaching party, decided by the facts. Expressing
+# "the non-breaching party" needs a bearer variable bound in the antecedent
+# (roles), which is not yet supported — so this stays unattributed (bearer none).
 term_cause: MaterialBreach, UncuredAfterNotice  ~>O  TerminateForCause
-post_term_data: AgreementTerminated  =>O  ReturnOrDeleteCustomerData
-post_term_winddown: AgreementTerminated  ~>O  AllowDataExportWindDown
+post_term_data: AgreementTerminated  =>O@Vendor  ReturnOrDeleteCustomerData
+post_term_winddown: AgreementTerminated  ~>O@Vendor  AllowDataExportWindDown
 
-# Non-solicit, insurance, audit
-no_solicit:  =>O  ~SolicitVendorEmployee
-solicit_exception: EmployeeInitiatedContact  ~>O  SolicitVendorEmployee
-insurance:  =>O  MaintainInsurance
-audit_coop: ReasonableAuditNotice  =>O  CooperateWithAudit
+# Non-solicit (Customer's duty/power), insurance + audit (Vendor's).
+no_solicit:  =>O@Customer  ~SolicitVendorEmployee
+solicit_exception: EmployeeInitiatedContact  ~>O@Customer  SolicitVendorEmployee
+insurance:  =>O@Vendor  MaintainInsurance
+audit_coop: ReasonableAuditNotice  =>O@Vendor  CooperateWithAudit
 
 # ---------------------------------------------------------------------------
-# Superiority — specific permissions and exclusions defeat general defaults
+# Superiority — specific permissions and exclusions defeat general defaults.
+# Per-bearer: a carve-out only defeats the same party's default prohibition.
 # ---------------------------------------------------------------------------
-superiority: use_permitted > no_use_default, conf_employees > conf_no_disclose, conf_legal > conf_no_disclose, dpa_instruction > dpa_no_process, dpa_sub_notice > dpa_no_sub, cap_excluded > cap_no_excess, solicit_exception > no_solicit
+superiority: use_permitted > no_use_default, conf_employees_v > conf_no_disclose_v, conf_employees_c > conf_no_disclose_c, conf_legal_v > conf_no_disclose_v, conf_legal_c > conf_no_disclose_c, dpa_instruction > dpa_no_process, dpa_sub_notice > dpa_no_sub, cap_excluded > cap_no_excess, solicit_exception > no_solicit
 
 # ---------------------------------------------------------------------------
 # CLI checks (run after uncommenting a scenario's facts: or copy facts: line)

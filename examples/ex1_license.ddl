@@ -11,15 +11,18 @@ atom approval:   prior approval to publish was obtained | Governatori 2018 §4
 atom comment:    the licensee comments publicly | Governatori 2018 §4
 atom bot:        the licensee is (or acts as) an automated agent | Governatori 2018 §4
 
-r0:  =>O  ~use
-r1:  license  ~>O  use
-r2:  =>O  ~publish * remove
-r2e: approval  ~>O  publish
-r3:  =>O  ~comment
-r3e: P(publish)  ~>O  comment
-r4:  commission  =>O  publish
-r4x: commission  =>O  use
-r5:  bot  =>O  ~use
+# Every duty here is the licensee's — a single-bearer contract. The `@Licensee`
+# tag makes that explicit (and, being one bearer, the extension is unchanged from
+# the un-tagged form: directing obligations only matters once parties differ).
+r0:  =>O@Licensee  ~use
+r1:  license  ~>O@Licensee  use
+r2:  =>O@Licensee  ~publish * remove
+r2e: approval  ~>O@Licensee  publish
+r3:  =>O@Licensee  ~comment
+r3e: P(publish)  ~>O@Licensee  comment
+r4:  commission  =>O@Licensee  publish
+r4x: commission  =>O@Licensee  use
+r5:  bot  =>O@Licensee  ~use
 
 # r ≺ s means r defeats s (r wins when both conflict)
 # More specific/exception rules defeat more general ones

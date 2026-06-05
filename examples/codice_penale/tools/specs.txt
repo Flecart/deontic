@@ -1,0 +1,2484 @@
+# Spec hand-decomposte: ogni articolo è scomposto nei suoi elementi.
+# Atomi già in definizioni.ddl (CagionaMorte, QualificaPubblica, …) sono solo
+# referenziati. Formato: tools/gen.py.
+
+@589 persona2 colpa
+CagionaMorte: causes the death of a person
+:: ReclusioneOmicidioColposo: reclusion 6 months-5 years, causing death by negligence
+
+@588 persona2
+PartecipaRissa: the agent takes part in a brawl (rissa)
+:: MultaRissa: fine up to 309 euro for mere participation
+
+@595 onore querela
+ComunicaPiuPersone: the agent communicates with several persons
+OffendeReputazione: thereby offending another person's reputation
+:: ReclusioneDiffamazione: reclusion up to 1 year or fine, a querela
+
+@328 pa2
+QualificaPubblica: public official or person charged with a public service
+RifiutaAttoUfficio: unduly refuses an act of office required for reasons of justice, public safety or public order
+:: ReclusioneRifiutoAtti: reclusion 6 months-2 years
+
+@340 pa2
+CagionaInterruzionePubblicoServizio: causes an interruption of, or disturbs the regularity of, a public office or service
+:: ReclusioneInterruzione: reclusion up to 1 year
+
+@348 pa2
+EsercitaAbusivamenteProfessione: abusively exercises a profession requiring a special State licence
+:: ReclusioneEsercizioAbusivo: reclusion up to 6 months or fine
+
+@426 incolumita2
+CagionaInondazioneFrana: causes a flood, a landslide, or the fall of an avalanche
+:: ReclusioneInondazione: reclusion 5-12 years
+
+@428 incolumita2
+CagionaNaufragio: causes the shipwreck or sinking of another's vessel, or the fall of an aircraft
+:: ReclusioneNaufragio: reclusion 5-12 years
+
+@434 incolumita2
+FattoCrolloDisastro: commits a fact apt to cause the collapse of a construction or another disaster
+:: ReclusioneCrollo: reclusion 1-5 years for the mere attempt
+
+@440 incolumita2
+AdulteraSostanzeAlimentari: corrupts or adulterates water or substances destined for food, before they are drawn or distributed, making them dangerous to public health
+:: ReclusioneAdulterazione: reclusion 3-10 years
+
+@527 moralita
+LuogoPubblico: in a public place, or one open or exposed to the public
+CompieAttiOsceni: the agent performs obscene acts
+:: ReclusioneAttiOsceni: reclusion 3 months-3 years
+
+@528 moralita
+FabbricaDistribuisceOsceni: fabricates, imports, acquires, holds, exports or distributes obscene writings/images
+ScopoCommercioOsceni: for the purpose of trade, distribution or public display
+:: ReclusionePubblicazioniOscene: reclusion or fine
+
+@556 famiglia2
+GiaSposato: the agent is already bound by a marriage having civil effects
+ContraeAltroMatrimonio: and contracts another marriage with civil effects
+:: ReclusioneBigamia: reclusion 1-5 years
+
+# ---- PA (Titolo II) ----
+@316 pa3
+QualificaPubblica: public official or person charged with a public service
+GiovaErroreAltrui: in the exercise of functions, profits from another's error to appropriate money/utility
+:: ReclusionePeculatoErrore: reclusion 6 months-3 years
+
+@316-bis pa3
+OttenutoContributiPubblici: having obtained State/EU public contributions or financing destined to public-interest works/activities
+DistraeDallaFinalita: fails to use them for those purposes
+:: ReclusioneMalversazione: reclusion 6 months-4 years
+
+@317 pa3
+QualificaPubblica: public official or person charged with a public service
+AbusaQualitaPoteri: abusing their quality or powers
+CostringeDareUtilita: compels someone to unduly give or promise money or other utility
+:: ReclusioneConcussione: reclusion 6-12 years
+
+@322 pa3
+OffrePrometteUtilita: offers or promises undue money or other utility to a public official, to induce an act of office or contrary to duty
+:: ReclusioneIstigCorruzione: reclusion for instigation to corruption
+
+@326 pa3
+QualificaPubblica: public official or person charged with a public service
+RivelaSegretiUfficio: violating office duties, reveals or uses secret official information
+:: ReclusioneRivelazioneSegreti: reclusion 6 months-3 years
+
+@346 pa3
+MillantaCredito: boasting influence with a public official, receives or gets money/utility as the price of their supposed intercession
+:: ReclusioneMillantato: reclusion 1-5 years
+
+@347 pa3
+UsurpaFunzionePubblica: usurps a public function or the powers of a public employment
+:: ReclusioneUsurpazione: reclusion up to 2 years
+
+@356 pa3
+CommetteFrodeForniture: commits fraud in the performance of public-supply contracts
+:: ReclusioneFrodeForniture: reclusion 1-5 years and fine
+
+@349 pa3
+ViolaSigilli: violates seals affixed by law or authority to ensure the preservation or identity of a thing
+:: ReclusioneViolazioneSigilli: reclusion 6 months-3 years
+
+@338 pa3
+oneof[Violenza, Minaccia]:
+ControCorpoPolitico: directed at a political, administrative or judicial body or a representation of it
+:: ReclusioneViolenzaCorpo: reclusion 1-7 years
+
+# ---- Giustizia (Titolo III) ----
+@361 giustizia2
+QualificaPubblica: public official
+OmetteDenunciaReato: omits or delays denouncing to the judicial authority a crime known by reason of office
+:: ReclusioneOmessaDenuncia: fine, omitted denunciation of crime
+
+@365 giustizia2
+ProfessioneSanitaria: exercising a health profession
+OmetteReferto: omits to report to the authority a case bearing the marks of a crime prosecutable ex officio
+:: ReclusioneOmissioneReferto: reclusion up to 1 year or fine
+
+@367 giustizia2
+SimulaReato: by complaint/charge falsely affirms a crime occurred, or fakes its traces, so that proceedings may begin
+:: ReclusioneSimulazione: reclusion 3 months-3 years
+
+@369 giustizia2
+SiIncolpaFalsamente: before the authority, falsely accuses themselves of a crime they know did not happen or was committed by another
+:: ReclusioneAutocalunnia: reclusion 1-6 years
+
+@371 giustizia2
+ParteInGiudizioCivile: being a party in civil proceedings
+GiuraFalso: swears what is false
+:: ReclusioneFalsoGiuramento: reclusion 6 months-3 years
+
+@373 giustizia2
+PeritoInterprete: court-appointed expert or interpreter
+ParereMendace: gives lying opinions or interpretations, or affirms facts not conforming to truth
+:: ReclusioneFalsaPerizia: reclusion 2-6 years
+
+@374 giustizia2
+AlteraStatoLuoghi: in civil/administrative proceedings, immutably alters the state of places, things or persons
+IngannareGiudice: to deceive the judge in an inspection or experiment
+:: ReclusioneFrodeProcessuale: reclusion 6 months-3 years
+
+@377 giustizia2
+OffrePrometteATestimone: offers or promises money/utility to a person called to make declarations before the judicial authority, to induce false statements or silence
+:: ReclusioneIntralcio: reclusion 2-6 years
+
+@379 giustizia2
+AiutaAssicurareProdottoReato: outside participation and outside receiving/laundering, helps someone secure the product, profit or price of a crime
+FuoriConcorso: did not take part in the predicate crime
+:: ReclusioneFavoreggiamentoReale: reclusion, up to the punishment for the predicate crime
+
+# ---- Fede pubblica: monete, sigilli, atti (Titolo VII) ----
+@454 fede2
+AlteraMonete: alters genuine coins, in any way diminishing their value
+:: ReclusioneAlterazioneMonete: reclusion 3-12 years and fine
+
+@455 fede2
+IntroduceSpendeMoneteFalse: without prior agreement, introduces into the State, holds, spends or circulates counterfeit or altered money
+:: ReclusioneSpenditaMonete: reclusion 3-12 years and fine
+
+@457 fede2
+SpendeMoneteFalseBuonaFede: spends or circulates counterfeit/altered money received in good faith
+:: ReclusioneSpenditaBuonaFede: reclusion up to 6 months or fine
+
+@460 fede2
+ContraffaCartaFiligranata: counterfeits the watermarked paper used for public-credit notes or stamp values
+:: ReclusioneCartaFiligranata: reclusion 2-6 years and fine
+
+@461 fede2
+FabbricaStrumentiFalsificazione: makes or holds watermarks or instruments destined for the falsification of money, stamp values or watermarked paper
+:: ReclusioneStrumentiFalsi: reclusion 1-5 years and fine
+
+@462 fede2
+ContraffaBigliettiTrasporto: counterfeits or alters tickets of railways or other public transport enterprises
+:: ReclusioneBigliettiTrasporto: reclusion up to 1 year and fine
+
+@464 fede2
+UsaValoriBolloFalsi: not having taken part in the counterfeiting, uses counterfeit or altered stamp values
+:: ReclusioneUsoBolloFalso: reclusion up to 3 years
+
+@467 fede2
+ContraffaSigilloStato: counterfeits the seal of the State destined to be affixed on public acts
+:: ReclusioneSigilloStato: reclusion 3-6 years and fine
+
+@468 fede2
+ContraffaPubbliciSigilli: counterfeits other public seals or instruments destined for public authentication or certification
+:: ReclusionePubbliciSigilli: reclusion 1-5 years
+
+@471 fede2
+UsaAbusivamenteSigilliVeri: having procured the genuine seals/instruments of public authentication, abusively uses them to another's harm
+:: ReclusioneUsoSigilliVeri: reclusion up to 3 years
+
+@472 fede2
+UsaPesiMisureFalse: to another's harm, uses measures or weights bearing a counterfeited or altered legal mark
+:: ReclusionePesiFalsi: reclusion up to 1 year or fine
+
+@473 fede2
+ContraffaMarchi: counterfeits or alters the marks or distinctive signs of intellectual works or industrial products
+:: ReclusioneContraffazioneMarchi: reclusion up to 2 years and fine
+
+@474 fede2
+CommerciaProdottiSegniFalsi: introduces into the State or sells industrial products with counterfeit marks
+:: ReclusioneCommercioSegniFalsi: reclusion up to 2 years and fine
+
+@476 fede2
+QualificaPubblica: public official
+FormaAttoFalso: in the exercise of functions, materially forms a false public act or alters a true one
+:: ReclusioneFalsoMaterialePU: reclusion 1-6 years
+
+@477 fede2
+QualificaPubblica: public official
+FormaCertificatoFalso: in the exercise of functions, materially counterfeits or alters certificates or administrative authorisations
+:: ReclusioneFalsoCertificatoPU: reclusion 6 months-3 years
+
+@483 fede2
+AttestaFalsoAttoPubblico: a private person falsely attests to a public official, in a public act, facts the act is meant to prove
+:: ReclusioneFalsoPrivatoAtto: reclusion up to 2 years
+
+@486 fede2
+AbusaFoglioFirmatoBianco: abusing a sheet signed in blank in their possession, writes a private act producing legal effects
+:: ReclusioneFoglioBianco: reclusion 6 months-3 years
+
+@489 fede2
+UsaAttoFalso: without having taken part in the forgery, uses a false act
+:: ReclusioneUsoAttoFalso: reclusion (the penalties of the preceding articles, reduced)
+
+@490 fede2
+DistruggeAttiVeri: wholly or partly destroys, suppresses or conceals a true public act or private writing
+:: ReclusioneSoppressioneAtti: reclusion (as for the corresponding forgery)
+
+@495 fede2
+DichiaraFalsaIdentita: falsely declares or attests to a public official the identity or personal qualities of self or others
+:: ReclusioneFalsaIdentita: reclusion 1-6 years
+
+@497 fede2
+ProcuraConFrodeCertificato: fraudulently procures a criminal-record certificate, or makes undue use of it
+:: ReclusioneFrodeCertificati: reclusion 1-5 years
+
+@498 fede2
+PortaAbusivamenteTitoli: abusively wears in public the uniform or distinctive signs of an office, or assumes titles/honours not due
+:: ReclusioneUsurpazioneTitoli: fine, usurpation of titles or honours
+
+# ---- Economia pubblica, industria, commercio (Titolo VIII) ----
+@499 economia
+DistruggeMateriePrime: destroys raw materials, agricultural/industrial products or means of production, causing serious harm to national production
+:: ReclusioneDistruzioneMaterie: reclusion 1-5 years
+
+@500 economia
+DiffondeMalattiaPianteAnimali: causes the spread of a plant or animal disease dangerous to the national economy
+:: ReclusioneMalattiaPiante: reclusion 1-5 years
+
+@501 economia
+ManipolaPrezziMercato: spreads false news or uses fraudulent means to cause a rise or fall in prices on the public market or exchanges
+FineTurbareMercato: in order to disturb the internal market of securities or goods
+:: ReclusioneAggiotaggio: reclusion up to 3 years and fine
+
+@508 economia
+InvadeOccupaAzienda: arbitrarily invades or occupies another's agricultural or industrial enterprise, or sabotages it
+ScopoImpedireLavoro: with the sole aim of impeding or disturbing the normal course of work
+:: ReclusioneInvasioneAzienda: reclusion 3-7 years
+
+@513 economia
+TurbaEsercizioIndustria: uses violence on things or fraudulent means to impede or disturb the exercise of an industry or trade
+:: ReclusioneTurbataIndustria: reclusion up to 2 years and fine
+
+@513-bis economia
+oneof[Violenza, Minaccia]:
+AttiConcorrenzaIllecita: in a commercial/industrial activity, performs acts of unlawful competition
+:: ReclusioneConcorrenzaIllecita: reclusion 2-6 years
+
+@515 economia
+ConsegnaAliudProQuo: in trade, delivers to the buyer a movable thing different in origin, provenance, quality or quantity from that declared or agreed
+:: ReclusioneFrodeCommercio: reclusion up to 2 years or fine
+
+@516 economia
+VendeAlimentiNonGenuini: offers for sale or markets as genuine food substances that are not genuine
+:: ReclusioneVenditaNonGenuini: reclusion up to 6 months or fine
+
+@517 economia
+VendeProdottiSegniMendaci: offers for sale industrial products with names/marks apt to mislead the buyer on origin or quality
+:: ReclusioneSegniMendaci: reclusion up to 2 years or fine
+
+# ---- Libro III: contravvenzioni (650-734) ----
+@650 contravvenzioni nomens
+NonOsservaProvvedimento: does not observe a measure legally given by the authority for justice, public safety, public order or hygiene
+:: ArrestoInosservanza: arrest up to 3 months or fine
+
+@651 contravvenzioni nomens
+RifiutaIdentita: refuses, to a public official in their functions, to give details of their own personal identity
+:: ArrestoRifiutoIdentita: arrest up to 1 month or fine
+
+@652 contravvenzioni nomens
+RifiutaOperaTumulto: on the occasion of a tumult, public disaster or common danger, refuses without just cause the assistance demanded by the authority
+:: ArrestoRifiutoOpera: arrest up to 3 months or fine
+
+@653 contravvenzioni nomens
+FormaCorpoArmato: without authorisation, forms an armed body not aimed at committing crimes
+:: ArrestoCorpoArmato: arrest 1-6 months
+
+@655 contravvenzioni nomens
+PartecipaRadunataSediziosa: takes part in a seditious gathering of ten or more persons
+:: ArrestoRadunata: arrest up to 1 year
+
+@656 contravvenzioni nomens
+DiffondeNotizieFalse: publishes or spreads false, exaggerated or tendentious news apt to disturb public order
+:: ArrestoNotizieFalse: arrest up to 3 months or fine
+
+@658 contravvenzioni nomens
+ProcuraAllarme: by announcing non-existent disasters, accidents or dangers, raises alarm with the authority or bodies in charge of public order
+:: ArrestoAllarme: arrest up to 6 months or fine
+
+@659 contravvenzioni nomens
+DisturbaRiposo: by clamour or noise, or abusing sound instruments, disturbs the occupations or rest of persons
+:: ArrestoDisturbo: arrest up to 3 months or fine
+
+@660 contravvenzioni nomens
+MolestaPersone: in a public place or by telephone, out of petulance or other reprehensible motive, harasses or disturbs persons
+:: ArrestoMolestia: arrest up to 6 months or fine
+
+@661 contravvenzioni nomens
+AbusaCredulita: publicly, by any imposture, tries to abuse popular credulity in a way apt to disturb public order
+:: ArrestoCredulita: arrest up to 3 months or fine
+
+@672 contravvenzioni nomens
+NonCustodisceAnimali: leaves free, or fails to keep with due care, dangerous animals they possess
+:: ArrestoAnimali: fine, failure to guard dangerous animals
+
+@673 contravvenzioni nomens
+OmetteSegnali: omits to place the signals or barriers prescribed by law or authority, or removes them
+:: ArrestoSegnali: arrest up to 3 months or fine
+
+@674 contravvenzioni nomens
+GettoPericoloso: throws or pours, in a place of public transit or of common use, things apt to offend, soil or harm persons
+:: ArrestoGetto: arrest up to 1 month or fine
+
+@675 contravvenzioni nomens
+CollocamentoPericoloso: without due care, places or hangs things that, falling in a place of public transit, may offend or harm persons
+:: ArrestoCollocamento: fine, dangerous placing of things
+
+@676 contravvenzioni nomens
+RovinaEdificio: having taken part in the design or works of a building, by fault causes its ruin endangering persons
+:: ArrestoRovina: fine, ruin of buildings
+
+@678 contravvenzioni nomens
+FabbricaEsplodenti: without licence or due care, fabricates or trades in explosive materials
+:: ArrestoEsplodenti: arrest up to 18 months and fine
+
+@681 contravvenzioni nomens
+AperturaAbusivaSpettacolo: opens or keeps open places of public spectacle or entertainment without the authority's licence
+:: ArrestoSpettacolo: arrest up to 6 months or fine
+
+@682 contravvenzioni nomens
+IngressoVietatoMilitare: enters places where access is forbidden in the military interest of the State
+:: ArrestoIngressoMilitare: arrest up to 1 year or fine
+
+@686 contravvenzioni nomens
+CommercioAbusivoLiquori: against the authority's prohibition, fabricates or trades in liquors or drugs or substances for their composition
+:: ArrestoLiquori: arrest, abusive trade in liquors/drugs
+
+@689 contravvenzioni nomens
+SomministraAlcoolMinori: an innkeeper administers alcoholic drinks to a person under 16 or to a person who is mentally infirm
+:: ArrestoAlcoolMinori: arrest up to 1 year
+
+@691 contravvenzioni nomens
+SomministraAlcoolUbriaco: administers alcoholic drinks to a person in a state of manifest drunkenness
+:: ArrestoAlcoolUbriaco: arrest up to 6 months
+
+@692 contravvenzioni nomens
+DetienePesiIllegali: in a commercial activity, holds illegal measures or weights
+:: ArrestoPesiIllegali: fine, holding of illegal weights
+
+@693 contravvenzioni nomens
+RifiutaMonete: refuses to receive, for their value, coins having legal tender in the State
+:: ArrestoRifiutoMonete: fine, refusal of legal tender
+
+@695 contravvenzioni nomens
+FabbricaArmiAbusiva: without the authority's licence, fabricates, imports or exports weapons
+:: ArrestoFabbricaArmi: arrest 1-8 years and fine
+
+@697 contravvenzioni nomens
+DetieneArmiAbusiva: holds weapons or munitions without having declared them to the authority when required
+:: ArrestoDetenzioneArmi: arrest up to 12 months or fine
+
+@699 contravvenzioni nomens
+PortoAbusivoArmi: without the authority's licence, when required, carries a weapon outside their dwelling
+:: ArrestoPortoArmi: arrest 6-18 months
+
+@703 contravvenzioni nomens
+AccensioniPericolose: without licence, in or near an inhabited place, sets off fireworks or dangerous explosions
+:: ArrestoAccensioni: arrest up to 1 month or fine
+
+@707 contravvenzioni nomens
+PossessoGrimaldelli: having been convicted of crimes for gain, is found in possession of altered keys or picklocks without justifying their use
+:: ArrestoGrimaldelli: arrest 6 months-2 years
+
+@712 contravvenzioni nomens
+AcquistoSospettaProvenienza: without first ascertaining the lawful provenance, acquires or receives things that, by their quality or the offeror's condition, give reason to suspect they come from crime
+:: ArrestoSospettaProvenienza: arrest up to 6 months or fine
+
+@718 contravvenzioni nomens
+EserciziGiocoAzzardo: in a public place or private club, runs a game of chance or facilitates it
+:: ArrestoGiocoAzzardo: arrest 3 months-1 year and fine
+
+@724 contravvenzioni nomens
+Bestemmia: publicly blasphemes, with invectives or outrageous words, against the Divinity
+:: ArrestoBestemmia: fine, blasphemy
+
+@725 contravvenzioni nomens
+CommercioOggettiIndecenti: exposes to public view, or trades, writings/images/objects contrary to public decency
+:: ArrestoOggettiIndecenti: arrest up to 1 year or fine
+
+@726 contravvenzioni nomens
+AttiContrariDecenza: in a public place, performs acts contrary to public decency, or foul language
+:: ArrestoDecenza: fine, acts against public decency
+
+@727 contravvenzioni nomens
+AbbandonaAnimali: abandons domestic animals, or animals that have acquired habits of captivity
+:: ArrestoAbbandonoAnimali: arrest up to 1 year or fine
+
+@731 contravvenzioni nomens
+OmetteIstruzioneMinore: being vested with authority or charged with the supervision of a minor, omits to provide for their elementary instruction
+:: ArrestoIstruzione: fine, failure to provide elementary instruction
+
+@733 contravvenzioni nomens
+DanneggiaPatrimonioArtistico: destroys, deteriorates or damages a monument or other thing of their own of recognised archaeological, historical or artistic value
+:: ArrestoPatrimonioArtistico: arrest up to 1 year or fine
+
+@734 contravvenzioni nomens
+DistruggeBellezzeNaturali: by constructions, demolitions or otherwise, destroys or alters natural beauties of places subject to special protection
+:: ArrestoBellezzeNaturali: fine, destruction of natural beauties
+
+# ---- Persona: sessuali, aborto, animali, stato, onore, riservatezza ----
+@521 persona3
+oneof[Violenza, Minaccia]:
+CostringeAttiLibidine: compels another to undergo acts of lust other than carnal union
+:: ReclusioneAttiLibidine: reclusion, violent acts of lust
+
+@522 persona3
+oneof[Violenza, Minaccia, Inganno]:
+SottraeFineMatrimonio: abducts or detains a person for the purpose of marriage
+:: ReclusioneRattoMatrimonio: reclusion 1-3 years
+
+@544-bis persona3
+UccideAnimale: causes the death of an animal
+CrudeltaSenzaNecessita: out of cruelty or without necessity
+:: ReclusioneUccisioneAnimali: reclusion 4 months-2 years
+
+@544-ter persona3
+LesioneAnimale: causes injury to an animal, or subjects it to torture or to behaviour intolerable for its characteristics, out of cruelty or without necessity
+:: ReclusioneMaltrattamentoAnimali: reclusion 3 months-18 months or fine
+
+@545 persona3
+CagionaAborto: causes the abortion of a woman
+SenzaConsensoDonna: without her consent
+:: ReclusioneAbortoNonConsenziente: reclusion 4-8 years
+
+@546 persona3
+CagionaAborto: causes the abortion of a woman
+ConsensoDonna: with her consent
+:: ReclusioneAbortoConsenziente: reclusion 6 months-2 years
+
+@548 persona3
+IstigaAborto: outside participation, instigates a woman to abort, and the abortion occurs
+:: ReclusioneIstigAborto: reclusion up to 4 years
+
+@554 persona3
+ContagioVenereo: being affected by syphilis/gonorrhoea and concealing it, has sexual relations infecting another
+:: ReclusioneContagio: reclusion, venereal infection
+
+@558 persona3
+InduceMatrimonioInganno: in contracting a marriage with civil effects, by fraudulent means induces the other party in error on an invalidating impediment
+:: ReclusioneIndMatrimonio: reclusion 6 months-3 years
+
+@564 persona3
+CommetteIncesto: commits incest with a descendant, ascendant or sibling, in a way producing public scandal
+:: ReclusioneIncesto: reclusion 1-5 years
+
+@566 persona3
+SupponeSopprimeStato: makes a non-existent birth figure in the civil-status registers
+:: ReclusioneSupposizioneStato: reclusion 3-10 years
+
+@567 persona3
+AlteraStatoCivile: by substituting a newborn, alters its civil status
+:: ReclusioneAlterazioneStato: reclusion 5-15 years
+
+@571 persona3
+AbusaMezziCorrezione: abuses means of correction or discipline against a person, causing danger of illness in body or mind
+:: ReclusioneAbusoCorrezione: reclusion up to 6 months
+
+@573 persona3 querela
+SottraeMinoreConsenziente: abducts a minor over 14, with their consent, from the parent or guardian
+:: ReclusioneSottrazioneConsensuale: reclusion up to 2 years, a querela
+
+@579 persona3
+CagionaMorte: causes the death of a person
+ConsensoVittima: with that person's consent
+:: ReclusioneOmicidioConsenziente: reclusion 6-15 years
+
+@583-bis persona3
+MutilazioneGenitaleFemminile: absent therapeutic needs, causes a mutilation of female genital organs
+:: ReclusioneMutilazione: reclusion 4-12 years
+
+@586 persona3
+DelittoDolosoBase: commits a fact foreseen as an intentional crime
+DerivaMorteLesione: from which, as an unintended consequence, the death or injury of a person results
+:: ReclusioneMorteConseguenza: reclusion (homicide/injury penalties, increased)
+
+@594 onore querela
+OffendeOnorePresente: offends the honour or decorum of a person who is present
+:: ReclusioneIngiuria: reclusion up to 6 months or fine, a querela
+
+@600-bis persona3
+InduceProstituzioneMinore: induces into prostitution a person under 18, or favours/exploits it
+:: ReclusioneProstituzioneMinorile: reclusion 6-12 years and fine
+
+@600-ter persona3
+PornografiaMinorile: using minors under 18, makes pornographic exhibitions or produces pornographic material
+:: ReclusionePornografiaMinorile: reclusion 6-12 years and fine
+
+@601 persona3
+CommetteTratta: commits trafficking of a person in the conditions of art. 600, by deception/violence/abuse
+:: ReclusioneTratta: reclusion 8-20 years
+
+@602 persona3
+AcquistaAlienaSchiavo: outside art. 601, buys, sells or transfers a person in the conditions of art. 600
+:: ReclusioneAcquistoSchiavi: reclusion 8-20 years
+
+@603 persona3
+SottoponeTotaleSoggezione: subjects a person to their power so as to reduce them to a total state of subjection
+:: ReclusionePlagio: reclusion 5-15 years
+
+@609-quater persona3
+AttiSessualiMinorenne: performs sexual acts with a person under the age limits set by law
+:: ReclusioneAttiSessualiMinore: reclusion (the penalty of art. 609-bis)
+
+@611 persona3
+oneof[Violenza, Minaccia]:
+CostringeCommettereReato: uses violence or threat to compel or determine another to commit a crime
+:: ReclusioneCostringereReato: reclusion up to 5 years
+
+@612-bis onore querela
+AttiPersecutori: with repeated conduct, threatens or harasses someone
+EventoAnsiaTimore: so as to cause a lasting state of anxiety/fear, or a well-founded fear for safety, or to alter their habits of life
+:: ReclusioneStalking: reclusion 6 months-4 years, a querela
+
+@613 persona3
+ProcuraIncapacita: by hypnotic suggestion or narcotic substances, or otherwise, puts a person, without their consent, in a state of incapacity to understand or will
+:: ReclusioneIncapacitaProcurata: reclusion up to 1 year
+
+@615-bis riservatezza querela
+ProcuraNotizieVitaPrivata: by visual or sound recording instruments, unduly obtains news or images of another's private life in places of private dwelling
+:: ReclusioneInterferenze: reclusion 6 months-4 years
+
+@615-ter riservatezza
+AccedeAbusivamenteSistema: abusively enters a computer or telematic system protected by security measures, or stays there against the holder's will
+:: ReclusioneAccessoAbusivo: reclusion up to 3 years
+
+@616 riservatezza querela
+PrendeCognizioneCorrispondenza: takes cognisance of correspondence not addressed to them, or subtracts/suppresses/diverts it
+:: ReclusioneViolazioneCorrispondenza: reclusion up to 1 year or fine, a querela
+
+@617 riservatezza
+IntercettaComunicazioni: fraudulently takes cognisance of, or interrupts/impedes, telegraphic or telephone communications between others
+:: ReclusioneIntercettazione: reclusion 6 months-4 years
+
+@618 riservatezza querela
+RivelaCorrispondenza: having abusively learned the content of correspondence, reveals it without just cause, to another's harm
+:: ReclusioneRivelazioneCorrisp: reclusion up to 6 months or fine
+
+@622 riservatezza querela
+RivelaSegretoProfessionale: having learned a secret by reason of their state, office or profession, reveals it without just cause, to another's harm
+:: ReclusioneSegretoProfessionale: reclusion up to 1 year or fine, a querela
+
+@623 riservatezza querela
+RivelaSegretiIndustriali: having learned, by reason of office, scientific or industrial secrets, reveals them or uses them to another's profit
+:: ReclusioneSegretiIndustriali: reclusion up to 2 years
+
+# ---- Sentimento religioso e pietà dei defunti (Titolo IV) ----
+@403 religione
+OffendeConfessione: publicly offends a religious confession by deriding persons who profess it
+:: ReclusioneOffesaConfessione: fine, offence to a religious confession
+
+@404 religione
+OffendeCoseCulto: in a place of worship, offends a religious confession by deriding or damaging things of the cult
+:: ReclusioneOffesaCose: reclusion up to 2 years
+
+@405 religione
+TurbaFunzioniReligiose: impedes or disturbs the exercise of religious functions, ceremonies or practices of a confession
+:: ReclusioneTurbamentoCulto: reclusion up to 2 years
+
+@407 religione
+VioliSepolcro: violates a tomb, sepulchre or urn
+:: ReclusioneViolazioneSepolcro: reclusion 1-5 years
+
+@410 religione
+VilipendioCadavere: commits acts of vilification on a corpse or its ashes
+:: ReclusioneVilipendioCadavere: reclusion 1-3 years
+
+@411 religione
+DistruggeCadavere: destroys, suppresses or subtracts a corpse, or a part of it, or its ashes
+:: ReclusioneDistruzioneCadavere: reclusion 2-7 years
+
+@412 religione
+OccultaCadavere: conceals a corpse or part of it, or hides its ashes
+:: ReclusioneOccultamentoCadavere: reclusion up to 3 years
+
+# ---- Ordine pubblico (Titolo V) ----
+@415 ordine_pubblico2
+IstigaDisobbedienza: publicly instigates disobedience of public-order laws, or hatred among social classes
+:: ReclusioneIstigDisobbedienza: reclusion 6 months-5 years
+
+@416-bis ordine_pubblico2
+FaParteAssociazioneMafiosa: is part of a mafia-type association of three or more persons, using the force of intimidation of the associative bond
+:: ReclusioneAssociazioneMafiosa: reclusion 10-15 years
+
+@418 ordine_pubblico2
+DaRifugioAssociati: outside participation or favouring, gives shelter, food, hospitality or means of transport to members of a criminal/mafia association
+FuoriConcorso: did not take part in the association's crimes
+:: ReclusioneAssistenzaAssociati: reclusion 2-4 years
+
+@419 ordine_pubblico2
+FattiDevastazioneSaccheggio: outside art. 285, commits acts of devastation or pillage
+:: ReclusioneDevastazione: reclusion 8-15 years
+
+@420 ordine_pubblico2
+AttentaImpiantiUtilita: commits a fact apt to damage or destroy public-utility installations
+:: ReclusioneAttentatoImpianti: reclusion 1-4 years
+
+@421 ordine_pubblico2
+MinacciaDelittiIncolumita: publicly threatens to commit crimes against public safety, or acts of devastation/pillage, so as to alarm the population
+:: ReclusionePubblicaIntimidazione: reclusion 1-6 years
+
+# ---- Incolumità pubblica, ulteriori (Titolo VI) ----
+@423-bis incolumita2
+CagionaIncendioBoschivo: causes a fire on woods, forests or forest nurseries
+:: ReclusioneIncendioBoschivo: reclusion 4-10 years
+
+@430 incolumita2
+CagionaDisastroFerroviario: causes a railway disaster
+:: ReclusioneDisastroFerroviario: reclusion 5-15 years
+
+@432 incolumita2
+AttentaSicurezzaTrasporti: endangers the safety of public transport
+:: ReclusioneAttentatoTrasporti: reclusion 1-5 years
+
+@433 incolumita2
+AttentaImpiantiEnergia: endangers the safety of electricity/gas installations or public communications
+:: ReclusioneAttentatoEnergia: reclusion 1-5 years
+
+@435 incolumita2
+FabbricaEsplodentiAttentato: to attack public safety, fabricates, holds or transports explosive or asphyxiating materials
+:: ReclusioneEsplodentiAttentato: reclusion 1-5 years
+
+@437 incolumita2
+OmetteCauteleInfortuni: omits to place plants, apparatus or signs destined to prevent disasters or accidents at work, or removes/damages them
+:: ReclusioneCauteleInfortuni: reclusion 6 months-5 years
+
+@439 incolumita2
+AvvelenaAcque: poisons water or substances destined for food, before they are drawn or distributed
+:: ReclusioneAvvelenamento: reclusion not less than 15 years
+
+@441 incolumita2
+AdulteraCoseSalute: adulterates or counterfeits, dangerously to public health, things other than food destined for trade
+:: ReclusioneAdulterazioneCose: reclusion 1-5 years or fine
+
+@442 incolumita2
+CommercioAlimentiAdulterati: not having taken part in the forgery, holds for trade or markets adulterated/counterfeit food substances
+:: ReclusioneCommercioAdulterati: the penalties of artt. 440-441
+
+@443 incolumita2
+CommercioMedicinaliGuasti: holds for trade, markets or administers spoiled medicines, dangerous to health
+:: ReclusioneMedicinaliGuasti: reclusion 6 months-3 years
+
+@444 incolumita2
+CommercioAlimentiNocivi: holds for trade or distributes food substances dangerous to public health
+:: ReclusioneAlimentiNocivi: reclusion 6 months-3 years
+
+@449 incolumita2 colpa
+CagionaDisastroColposo: by negligence, causes a fire or another disaster against public safety
+:: ReclusioneDisastroColposo: reclusion 1-5 years
+
+@451 incolumita2 colpa
+OmetteCauteleColposo: by negligence, omits to place, or removes, apparatus/signs against disasters or accidents at work
+:: ReclusioneCauteleColposo: reclusion up to 1 year or fine
+
+# ---- Contro la personalità dello Stato, ulteriori (Titolo I) ----
+@243 stato2
+IntelligenzeStranieroGuerra: holds dealings with a foreigner so the Italian State makes war or commits hostile acts against another State
+:: ReclusioneIntelligenze: reclusion not less than 10 years
+
+@247 stato2
+FavoreggiamentoBellico: holds dealings with a foreigner to favour enemy military operations to the harm of the Italian State
+TempoGuerra: the act was committed in time of war
+:: ReclusioneFavoreggiamentoBellico: reclusion not less than 10 years
+
+@248 stato2
+SomministraNemico: in time of war, supplies the enemy with provisions or other things harmful to war operations
+:: ReclusioneSomministrazioneNemico: reclusion not less than 5 years
+
+@253 stato2
+DistruggeOpereMilitari: destroys or renders unusable military works, ships, aircraft or other things destined to the State's defence
+:: ReclusioneSabotaggioMilitare: reclusion not less than 8 years
+
+@255 stato2
+SottraeAttiSicurezza: suppresses, falsifies, subtracts, destroys or conceals acts or documents concerning the security of the State
+:: ReclusioneAttiSicurezza: reclusion 8-15 years
+
+@257 stato2
+SpionaggioMilitare: for political or military espionage, obtains news that must remain secret in the State's interest
+:: ReclusioneSpionaggio: reclusion not less than 15 years
+
+@261 stato2
+RivelaSegretiStato: reveals secret news concerning the State's security
+:: ReclusioneRivelazioneSegretiStato: reclusion not less than 5 years
+
+@264 stato2
+InfedeltaAffariStato: charged by the Government with handling State affairs abroad, acts unfaithfully to deceive the State
+:: ReclusioneInfedelta: reclusion not less than 5 years
+
+@265 stato2
+DisfattismoPolitico: in time of war, spreads false news or carries out activity apt to depress public spirit or hinder war operations
+TempoGuerra: the act was committed in time of war
+:: ReclusioneDisfattismo: reclusion not less than 5 years
+
+@266 stato2
+IstigaMilitariDisobbedire: instigates the military to disobey the laws or violate their oath or military duties
+:: ReclusioneIstigMilitari: reclusion 1-3 years
+
+@270-bis stato2
+PartecipaAssociazioneTerroristica: promotes, organises, directs or is part of an association aimed at terrorism or subversion of the democratic order
+:: ReclusioneAssociazioneTerroristica: reclusion 7-15 years
+
+@270-quater stato2
+ArruolaTerrorismo: outside concerted cases, recruits one or more persons for terrorism
+FineTerrorismo: for the purpose of terrorism or subversion
+:: ReclusioneArruolamento: reclusion 7-15 years
+
+@270-quinquies stato2
+AddestraTerrorismo: trains or instructs in the preparation/use of explosives, weapons or harmful techniques for terrorism
+FineTerrorismo: for the purpose of terrorism or subversion
+:: ReclusioneAddestramento: reclusion 5-10 years
+
+@276 stato2
+AttentaPresidente: attacks the life, safety or personal liberty of the President of the Republic
+:: ReclusioneAttentatoPresidente: reclusion not less than the maximum, life
+noprec
+
+@278 stato2
+OffendePresidente: offends the honour or prestige of the President of the Republic
+:: ReclusioneOffesaPresidente: reclusion 1-5 years
+
+@280 stato2
+AttentatoTerroristico: for terrorism or subversion, attacks the life or safety of a person
+FineTerrorismo: for the purpose of terrorism or subversion
+:: ReclusioneAttentatoTerroristico: reclusion not less than 20 years if against life
+
+@286 stato2
+SuscitaGuerraCivile: commits a fact apt to stir up civil war in the territory of the State
+:: ReclusioneGuerraCivile: life imprisonment / long reclusion for civil war
+
+@287 stato2
+UsurpaPoterePolitico: usurps a political power or military command, or unduly persists in exercising it
+:: ReclusioneUsurpazionePotere: reclusion 6-15 years
+
+@289-bis stato2
+SequestroTerrorismo: for terrorism or subversion, seizes a person
+FineTerrorismo: for the purpose of terrorism or subversion
+:: ReclusioneSequestroTerrorismo: reclusion 25-30 years
+
+@290 stato2
+VilipendeRepubblica: publicly vilifies the Republic, the constitutional institutions or the armed forces
+:: ReclusioneVilipendioRepubblica: fine, vilification of the Republic
+
+@291 stato2
+VilipendeNazione: publicly vilifies the Italian nation
+:: ReclusioneVilipendioNazione: fine, vilification of the nation
+
+@292 stato2
+VilipendeBandiera: vilifies, with outrageous expressions, the flag or another emblem of the State
+:: ReclusioneVilipendioBandiera: fine, vilification of the flag
+
+@295 stato2
+AttentaCapoStatoEstero: in the territory of the State, attacks the life or safety of the head of a foreign State
+:: ReclusioneAttentatoEstero: reclusion not less than 10 years
+noprec
+
+@302 stato2
+IstigaDelittiStato: instigates someone to commit a crime against the personality of the State punishable with life or reclusion
+:: ReclusioneIstigDelittiStato: reclusion 1-8 years
+
+# ==== BULK BATCH 1: patrimonio3, giustizia3 ====
+@624-bis patrimonio3
+ImpossessamentoInAbitazione: takes possession of another's movable thing, removing it from the holder, by entering a dwelling or private place
+FineDiProfitto: in order to profit for self or others
+:: ReclusioneFurtoAbitazione: reclusion 1-6 years and fine
+
+@631 patrimonio3
+UsurpaImmobileAltrui: to appropriate another's immovable in whole or part, removes or alters its boundary markers
+:: ReclusioneUsurpazione2: reclusion up to 2 years, a querela
+querela
+
+@632 patrimonio3
+DeviaAcque: to profit for self or others, diverts waters or alters the state of another's places
+:: ReclusioneDeviazioneAcque: reclusion up to 3 years, a querela
+querela
+
+@635-bis patrimonio3
+DanneggiaDatiInformatici: destroys, deteriorates, erases or renders unusable another's computer information, data or programs
+:: ReclusioneDanneggiamentoDati: reclusion 6 months-3 years, a querela
+querela
+
+@636 patrimonio3
+IntroduceAnimaliFondo: introduces or abandons animals in another's land, or abusively grazes there
+:: ReclusioneAnimaliFondo: fine, a querela
+querela
+
+@637 patrimonio3
+IngressoFondoRecinto: without necessity, enters another's enclosed land
+:: ReclusioneIngressoFondo: fine, a querela
+querela
+
+@638 patrimonio3
+UccideAnimaliAltrui: without necessity, kills or renders unusable another's animals
+:: ReclusioneUccisioneAnimaliAltrui: reclusion up to 1 year, a querela
+querela
+
+@639 patrimonio3
+DeturpaCoseAltrui: defaces or soils another's movable or immovable things
+:: ReclusioneDeturpamento: fine, a querela
+querela
+
+@640-ter patrimonio3
+FrodeInformatica: altering the functioning of a computer system or intervening on data, procures an unjust profit with another's harm
+:: ReclusioneFrodeInformatica: reclusion 6 months-3 years and fine
+
+@641 patrimonio3
+InsolvenzaFraudolenta: concealing their state of insolvency, contracts an obligation intending not to fulfil it
+:: ReclusioneInsolvenza: reclusion up to 2 years or fine, a querela
+querela
+
+@645 patrimonio3
+FrodeEmigrazione: by mendacious assertions or false news, excites someone to emigrate to profit from it
+:: ReclusioneFrodeEmigrazione: reclusion up to 1 year and fine
+
+@648-bis patrimonio3
+Riciclaggio: outside participation, substitutes or transfers money/goods from a crime, or carries out operations to hinder identifying their illicit origin
+:: ReclusioneRiciclaggio: reclusion 4-12 years and fine
+
+@648-ter patrimonio3
+ImpiegoProventiIlleciti: outside participation and outside arts. 648/648-bis, uses money/goods of illicit origin in economic or financial activities
+:: ReclusioneImpiegoProventi: reclusion 4-12 years and fine
+
+@366 giustizia3
+RifiutaUfficioDovuto: appointed by the judicial authority as expert, interpreter or custodian, obtains exemption by false pretexts, or refuses to give the required service
+:: ReclusioneRifiutoUffici: reclusion up to 6 months or fine
+
+@380 giustizia3
+PatrocinioInfedele: the defence lawyer or technical consultant, being unfaithful to their professional duties, harms the party they assist
+:: ReclusionePatrocinioInfedele: reclusion 1-3 years and fine
+
+@385 giustizia3
+Evade: being legally arrested or detained for a crime, escapes
+:: ReclusioneEvasione: reclusion 6 months-3 years
+
+@386 giustizia3
+ProcuraEvasione: procures or facilitates the escape of a person legally arrested or detained
+:: ReclusioneProcurataEvasione: reclusion 6 months-5 years
+
+@388 giustizia3
+NonEsegueProvvedimentoGiudice: to evade a judge's measure, performs fraudulent acts on their own or others' goods, or otherwise fails to comply
+:: ReclusioneMancataEsecuzione: reclusion up to 3 years or fine, a querela
+querela
+
+@390 giustizia3
+ProcuraInosservanzaPena: outside participation, helps someone evade the execution of a penalty
+:: ReclusioneProcurataInosservanza: reclusion up to 3 years
+
+@392 giustizia3
+EsercizioArbitrarioCose: to exercise a claimed right, where they could resort to the judge, arbitrarily does justice using violence on things
+:: ReclusioneEsercizioArbCose: fine, a querela
+querela
+
+@393 giustizia3
+EsercizioArbitrarioPersone: to exercise a claimed right, where they could resort to the judge, arbitrarily does justice using violence or threat to persons
+:: ReclusioneEsercizioArbPersone: reclusion up to 1 year, a querela
+querela
+
+@379-bis giustizia3
+RivelaSegretiProcedimento: reveals secret news concerning a criminal proceeding, covered by secrecy
+:: ReclusioneSegretiProcedimento: reclusion up to 3 years
+
+# ==== BULK BATCH 2: stato2/pa3/fede2/economia/persona3/riservatezza/religione ====
+@241 stato2
+AttentaIntegritaStato: commits a fact apt to subject the territory of the State to foreign sovereignty, or to harm its integrity, independence or unity
+:: ReclusioneAttentatoIntegrita: reclusion not less than 12 years
+
+@244 stato2
+AttiOstiliStatoEstero: without Government approval, commits hostile acts against a foreign State exposing Italy to the danger of war
+:: ReclusioneAttiOstili: reclusion 6-18 years
+
+@246 stato2
+CorruzioneDaStraniero: a citizen who, even indirectly, receives money/utility from a foreigner to commit acts harmful to national interests
+:: ReclusioneCorruzioneStraniero: reclusion 3-10 years
+
+@256 stato2
+ProcacciaNotizieSicurezza: obtains news that, in the State's interest, must remain secret
+:: ReclusioneProcacciamento: reclusion 3-10 years
+
+@262 stato2
+RivelaNotizieVietate: reveals news whose divulgation the competent authority has forbidden
+:: ReclusioneNotizieVietate: reclusion not less than 3 years
+
+@267 stato2
+DisfattismoEconomico: in time of war, uses means apt to depress exchange rates or undermine public credit
+TempoGuerra: the act was committed in time of war
+:: ReclusioneDisfattismoEcon: reclusion not less than 5 years
+
+@277 stato2
+OffendeLibertaPresidente: outside art. 276, offends the personal liberty of the President of the Republic
+:: ReclusioneLibertaPresidente: reclusion 3-10 years
+noprec
+
+@280-bis stato2
+AttoTerrorismoOrdigni: for terrorism, commits an act apt to damage things by lethal or explosive devices
+FineTerrorismo: for the purpose of terrorism or subversion
+:: ReclusioneTerrorismoOrdigni: reclusion 2-5 years
+
+@288 stato2
+ArruolamentiNonAutorizzati: in the territory of the State, without Government approval, recruits or arms citizens for service of a foreign State
+:: ReclusioneArruolamentiEstero: reclusion 4-15 years
+
+@296 stato2
+OffendeLibertaCapoEstero: in the territory of the State, offends the personal liberty of the head of a foreign State
+:: ReclusioneLibertaCapoEstero: reclusion 3-10 years
+noprec
+
+@299 stato2
+OffendeBandieraEstera: in the territory of the State, vilifies the flag or emblem of a foreign State, displayed publicly
+:: ReclusioneBandieraEstera: fine, offence to a foreign flag
+
+@307 stato2
+AssistenzaCospiratori: outside participation or favouring, gives shelter, food or means to participants in a conspiracy or armed band
+:: ReclusioneAssistenzaCospiratori: reclusion up to 2 years
+
+@316-ter pa3
+PercepisceIndebitamenteErogazioni: by use or presentation of false declarations/documents, or omission of due information, unduly obtains public contributions/financing
+:: ReclusioneIndebitaPercezione: reclusion 6 months-3 years
+
+@342 pa3
+OltraggioCorpoPolitico: offends the honour or prestige of a political, administrative or judicial body or its representation
+:: ReclusioneOltraggioCorpo: reclusion, outrage to a public body
+
+@343 pa3
+OltraggioMagistrato: offends the honour or prestige of a magistrate at a hearing
+:: ReclusioneOltraggioMagistrato: reclusion up to 3 years
+
+@351 pa3
+ViolaPubblicaCustodia: subtracts, suppresses, destroys or damages corpora delicti, acts or documents in public custody
+:: ReclusioneViolazioneCustodia: reclusion 6 months-3 years
+
+@353 pa3
+oneof[Violenza, Minaccia]:
+TurbaGaraIncanti: by gifts, promises, collusion or fraud, impedes or disturbs a public auction or tender
+:: ReclusioneTurbataIncanti: reclusion up to 2 years and fine
+
+@355 pa3
+InadempimentoForniturePubbliche: failing the obligations of a supply contract with the State, causes a lack of things needed for a public service
+:: ReclusioneInadempimentoForniture: reclusion 6 months-3 years and fine
+
+@453 fede2
+FalsificaMonete: counterfeits national or foreign legal-tender money, or, by prior agreement, introduces/spends it
+:: ReclusioneFalsoMonete: reclusion 3-12 years and fine
+
+@469 fede2
+ContraffaImpronteAutenticazione: by means other than seals, counterfeits the imprints of a public authentication or certification
+:: ReclusioneImpronteAutenticazione: reclusion up to 2 years
+
+@484 fede2
+FalsificaRegistri: being legally obliged to keep registers subject to public-security inspection, makes false entries
+:: ReclusioneFalsoRegistri: reclusion up to 6 months or fine
+
+@496 fede2
+DichiaraFalseQualita: outside the preceding articles, when questioned about identity or personal qualities, falsely declares them
+:: ReclusioneFalseDichiarazioni: reclusion up to 3 years
+
+@497-bis fede2
+PossiedeDocumentiFalsi: is found in possession of a false identity document valid for expatriation, or fabricates such documents
+:: ReclusioneDocumentiFalsi: reclusion 1-4 years
+
+@501-bis economia
+ManovreSpeculativeMerci: in a productive/commercial activity, carries out speculative manoeuvres or hoards essential goods, causing scarcity or price rises
+:: ReclusioneManovreSpeculative: reclusion 6 months-3 years and fine
+
+@514 economia
+FrodiIndustrieNazionali: selling on national or foreign markets industrial products with counterfeit marks, harms the national industry
+:: ReclusioneFrodiIndustrie: reclusion 1-5 years and fine
+
+@519 persona3
+oneof[Violenza, Minaccia]:
+CostringeCongiunzioneCarnale: compels another to carnal union
+:: ReclusioneViolenzaCarnale: reclusion 5-10 years
+
+@550 persona3
+AttiAbortiviDonnaCreduta: administers to a woman believed pregnant means apt to cause abortion
+:: ReclusioneAttiAbortivi: reclusion 6 months-2 years
+
+@552 persona3
+ProcurataImpotenza: performs, with consent, acts apt to render a person impotent to procreate
+:: ReclusioneProcurataImpotenza: reclusion 6 months-2 years
+
+@600-quater persona3
+DetieneMaterialePornografico: outside art. 600-ter, knowingly holds pornographic material produced using minors under 18
+:: ReclusioneDetenzionePorno: reclusion up to 3 years and fine
+
+@609-quinquies persona3
+CorruzioneMinorenne: performs sexual acts in the presence of a person under 14, to make them witness it
+:: ReclusioneCorruzioneMinore: reclusion 1-5 years
+
+@615-quater riservatezza
+DetieneCodiciAccesso: to profit or harm, abusively procures, holds or diffuses access codes to a protected computer system
+:: ReclusioneCodiciAccesso: reclusion up to 1 year and fine
+
+@615-quinquies riservatezza
+DiffondeProgrammiDannosi: to damage or interrupt a computer system, diffuses apparatus, devices or programs apt to do so
+:: ReclusioneProgrammiDannosi: reclusion up to 2 years and fine
+
+@617-quater riservatezza
+IntercettaComunicazioniInformatiche: fraudulently intercepts, impedes or interrupts computer or telematic communications
+:: ReclusioneIntercettInformatica: reclusion 6 months-4 years
+
+@619 riservatezza
+ViolaCorrispondenzaAddetto: a person employed in the postal/telegraph service, abusing their office, takes cognisance of, subtracts or suppresses correspondence
+:: ReclusioneCorrispondenzaAddetto: reclusion 6 months-3 years
+
+@621 riservatezza
+RivelaDocumentiSegreti: having abusively learned the content of secret documents, reveals it without just cause, to another's harm
+:: ReclusioneDocumentiSegreti: reclusion up to 3 years or fine
+querela
+
+@408 religione
+VilipendioTombe: in cemeteries or burial places, commits vilification of tombs, sepulchres or urns
+:: ReclusioneVilipendioTombe: reclusion up to 2 years
+
+@413 religione
+UsoIllegittimoCadavere: dissects or otherwise uses a corpse, or part of it, for scientific or teaching purposes not permitted
+:: ReclusioneUsoCadavere: reclusion up to 6 months or fine
+
+# ==== BULK BATCH 3: contravvenzioni tail + residui ====
+@654 contravvenzioni nomens
+GridaSediziose: in a non-private meeting or public place, utters seditious cries or makes seditious demonstrations
+:: ArrestoGrida: arrest up to 1 year
+
+@663 contravvenzioni nomens
+VendeScrittiAbusiva: in a public place, sells or distributes writings or drawings without observing the prescribed rules
+:: ArrestoVenditaScritti: fine, abusive sale of writings
+
+@664 contravvenzioni nomens
+DistruggeAffissioni: detaches, tears or renders illegible writings or drawings lawfully posted
+:: ArrestoAffissioni: fine, destruction of postings
+
+@666 contravvenzioni nomens
+SpettacoloSenzaLicenza: gives public spectacles or entertainments in a public place without the authority's licence
+:: ArrestoSpettacoloSenzaLicenza: arrest up to 3 months or fine
+
+@669 contravvenzioni nomens
+MestiereGirovagoSenzaLicenza: exercises an itinerant trade without the authority's licence or the prescribed rules
+:: ArrestoMestiereGirovago: arrest up to 6 months or fine
+
+@671 contravvenzioni nomens
+ImpiegaMinoriAccattonaggio: uses, to beg, a person under 14 or otherwise incapable
+:: ArrestoAccattonaggio: arrest 3 months-1 year
+
+@679 contravvenzioni nomens
+OmetteDenunciaEsplodenti: omits to declare to the authority that they hold explosive materials
+:: ArrestoOmessaDenunciaEsplodenti: arrest up to 12 months or fine
+
+@684 contravvenzioni nomens
+PubblicaAttiProcedimento: publishes, in whole or part, acts of a criminal proceeding whose publication is forbidden
+:: ArrestoPubblicazioneAtti: arrest up to 30 days or fine
+
+@690 contravvenzioni nomens
+DeterminaUbriachezzaAltrui: in a public place, causes another's drunkenness by administering alcoholic drinks
+:: ArrestoUbriachezzaAltrui: fine, causing drunkenness of others
+
+@694 contravvenzioni nomens
+OmetteConsegnaMoneteFalse: having received as genuine money recognised as counterfeit, fails to deliver it to the authority
+:: ArrestoOmessaConsegnaMonete: fine, failure to hand over counterfeit money
+
+@696 contravvenzioni nomens
+VenditaAmbulanteArmi: exercises the itinerant sale of weapons
+:: ArrestoVenditaArmi: arrest up to 3 years and fine
+
+@698 contravvenzioni nomens
+OmessaConsegnaArmi: disobeys the authority's order to hand over weapons within the prescribed time
+:: ArrestoOmessaConsegnaArmi: arrest, failure to hand over weapons
+
+@705 contravvenzioni nomens
+CommercioCosePreziose: without licence or the legal prescriptions, trades in precious objects
+:: ArrestoCosePreziose: arrest up to 1 year or fine
+
+@709 contravvenzioni nomens
+OmessaDenunciaCoseDelitto: having received or acquired things coming from crime, omits to declare their provenance to the authority
+:: ArrestoOmessaDenunciaCose: arrest 3 months-1 year
+
+@720 contravvenzioni nomens
+PartecipaGiocoAzzardo: in a public place or private club, is found taking part in a game of chance
+:: ArrestoPartecipazioneGioco: arrest up to 6 months or fine
+
+@728 contravvenzioni nomens
+SopprimeCoscienza: with consent, puts a person in a state of narcosis or hypnosis, or otherwise suppresses their consciousness or will
+:: ArrestoSoppressioneCoscienza: arrest up to 6 months
+
+@730 contravvenzioni nomens
+SomministraSostanzeNociveMinori: being authorised to sell medicines, delivers to a minor poisonous or harmful substances outside the prescribed cases
+:: ArrestoSostanzeNocive: arrest, supply of harmful substances to minors
+
+@734-bis contravvenzioni nomens
+DivulgaIdentitaVittimaSessuale: divulges the identity or image of a victim of sexual violence without their consent
+:: ArrestoDivulgazioneVittima: fine, divulging a sexual-violence victim's identity
+
+# ---- residui incolumità ----
+@424 incolumita2
+DanneggiamentoSeguitoIncendio: to damage another's thing, sets fire to it, causing danger of fire
+:: ReclusioneDanneggiamentoIncendio: reclusion 6 months-2 years
+
+@427 incolumita2
+DanneggiamentoSeguitoInondazione: to damage another's thing, breaks or deteriorates works causing danger of flood, landslide or avalanche
+:: ReclusioneDanneggiamentoInondazione: reclusion 1-5 years
+
+@431 incolumita2
+PericoloDisastroFerroviario: to damage a railway, causes danger of a railway disaster
+:: ReclusionePericoloFerroviario: reclusion 1-5 years
+
+@445 incolumita2
+SomministraMedicinaliPericolosi: exercising, even abusively, the sale of medicines, administers them in a way dangerous to public health
+:: ReclusioneMedicinaliPericolosi: reclusion 6 months-2 years
+
+@450 incolumita2 colpa
+PericoloDisastroColposo: by negligent act or omission, gives rise to or maintains the danger of a fire or other disaster
+:: ReclusionePericoloColposo: reclusion up to 2 years
+
+# ---- residui PA / giustizia ----
+@345 pa3
+DanneggiaAffissioniAutorita: out of contempt for the authority, removes, tears or renders unusable lawfully made postings
+:: ReclusioneDanneggioAffissioni: fine, offence to the authority by damaging postings
+
+@352 pa3
+VendeStampatiSequestrati: sells, distributes or posts writings/drawings whose seizure has been ordered
+:: ReclusioneStampatiSequestrati: arrest or fine, sale of seized printed matter
+
+@387 giustizia3 colpa
+ColpaCustode: charged by office with the custody of an arrested person, by negligence allows their escape
+:: ReclusioneColpaCustode: reclusion up to 1 year, negligent custody
+
+@391 giustizia3
+ProcuraInosservanzaMisure: procures or facilitates the escape of a person held under a detentive security measure
+:: ReclusioneInosservanzaMisure: reclusion up to 3 years
+
+@377-bis giustizia3
+oneof[Violenza, Minaccia]:
+InduceNonRendereDichiarazioni: induces a person called to make declarations to the judicial authority to stay silent or lie
+:: ReclusioneInduzioneDichiarazioni: reclusion 2-6 years
+
+# ---- residui persona ----
+@523 persona3
+oneof[Violenza, Minaccia, Inganno]:
+SottraeFineLibidine: abducts or detains a minor for the purpose of lust
+:: ReclusioneRattoLibidine: reclusion 1-3 years
+
+@544-quinquies persona3
+CombattimentiAnimali: promotes, organises or directs unauthorised fights or competitions between animals causing danger to their integrity
+:: ReclusioneCombattimentiAnimali: reclusion 1-3 years and fine
+
+@553 persona3
+IncitaPraticheAntiprocreative: publicly incites practices against procreation, or makes propaganda for them
+:: ReclusioneIncitamento: fine, incitement to anti-procreative practices
+
+@609-octies persona3
+ViolenzaSessualeGruppo: takes part, with several persons gathered, in sexual violence
+:: ReclusioneViolenzaGruppo: reclusion 6-12 years
+
+# ---- residui fede pubblica ----
+@465 fede2
+UsaBigliettiTrasportoFalsi: not having taken part in the forgery, uses counterfeit or altered public-transport tickets
+:: ReclusioneUsoBigliettiFalsi: reclusion up to 6 months or fine
+
+@487 fede2
+QualificaPubblica: public official
+AbusaFoglioBiancoPubblico: abusing a sheet signed in blank in their official possession, forms a false public act
+:: ReclusioneFoglioBiancoPubblico: reclusion 1-6 years
+
+# ==== RESIDUI offence (mop-up) ====
+@245 stato2
+IntelligenzeNeutralita: holds dealings with a foreigner to commit the Italian State to neutrality or war
+:: ReclusioneIntelligenzeNeutralita: reclusion 3-10 years
+
+@249 stato2
+PartecipaPrestitiNemico: in time of war, takes part in loans or payments to the enemy
+TempoGuerra: the act was committed in time of war
+:: ReclusionePrestitiNemico: reclusion 5-15 years
+
+@251 stato2
+InadempimentoFornitureGuerra: in time of war, fails wholly or partly to perform a war-supply contract with the State
+TempoGuerra: the act was committed in time of war
+:: ReclusioneFornitureGuerra: reclusion 2-10 years and fine
+
+@252 stato2
+FrodeFornitureGuerra: in time of war, commits fraud in the performance of war-supply contracts
+TempoGuerra: the act was committed in time of war
+:: ReclusioneFrodeForniture2: reclusion not less than 10 years
+
+@258 stato2
+SpionaggioNotizieVietate: for espionage, obtains news whose divulgation the authority has forbidden
+:: ReclusioneSpionaggioVietate: reclusion not less than 3 years
+
+@260 stato2
+IntroduzioneLuoghiMilitari: clandestinely enters military places, or is found in unjustified possession of means of espionage
+:: ReclusioneLuoghiMilitari: reclusion 1-5 years
+
+@270-ter stato2
+AssistenzaTerroristi: outside participation or favouring, gives shelter, food or means to members of terrorist/subversive associations
+FuoriConcorso: did not take part in the association's crimes
+:: ReclusioneAssistenzaTerroristi: reclusion up to 4 years
+
+@334 pa3
+SottraeCoseSequestrate: subtracts, suppresses, destroys or damages a thing under seizure in criminal or administrative proceedings
+:: ReclusioneSottrazioneSequestro: reclusion 6 months-3 years
+
+@335 pa3 colpa
+ColpaCustodiaSequestro: charged with the custody of seized things, by negligence makes their subtraction or damage possible
+:: ReclusioneColpaSequestro: reclusion up to 6 months or fine
+
+@337-bis pa3
+OccultaMezziTrasporto: conceals, keeps or alters transport means whose features have been changed to evade controls
+:: ReclusioneOccultamentoMezzi: reclusion 2-8 years
+
+@354 pa3
+AstensioneIncanti: for money or other utility given or promised, abstains from bidding in a public auction
+:: ReclusioneAstensioneIncanti: reclusion up to 6 months or fine
+
+@371-bis giustizia3
+FalseInfoPM: in a criminal proceeding, when asked by the public prosecutor for information, gives false statements or stays silent
+:: ReclusioneFalseInfoPM: reclusion up to 4 years
+
+@374-bis giustizia3
+FalseAttestazioniGiudiziarie: makes false declarations or attestations in acts destined for the judicial authority
+:: ReclusioneFalseAttestazioni: reclusion 1-5 years
+
+@388-ter giustizia3
+MancataEsecuzioneSanzioni: to evade the execution of pecuniary sanctions, performs fraudulent acts on their own goods
+:: ReclusioneMancataEsecSanzioni: reclusion up to 3 years or fine
+
+@389 giustizia3
+InosservanzaPeneAccessorie: having a conviction entailing an accessory penalty, transgresses its obligations
+:: ReclusioneInosservanzaPene: reclusion up to 2 years or fine
+
+@409 religione
+TurbaFunerale: outside art. 405, impedes or disturbs a funeral or funeral service
+:: ReclusioneTurbamentoFunerale: reclusion up to 1 year
+
+@429 incolumita2
+DanneggiamentoSeguitoNaufragio: to damage a ship or aircraft, causes danger of shipwreck or air disaster
+:: ReclusioneDanneggiamentoNaufragio: reclusion 1-5 years
+
+@436 incolumita2
+SottraeApparecchiDifesa: on the occasion of a fire/disaster, subtracts, conceals or damages apparatus for public defence against accidents
+:: ReclusioneSottrazioneApparecchi: reclusion 1-5 years
+
+@452 incolumita2 colpa
+DelittiColposiSalute: by negligence, commits one of the facts against public health of artt. 439-444
+:: ReclusioneColposiSalute: reclusion, negligent crimes against public health
+
+@466 fede2
+AlteraSegniBollo: erases or makes disappear the signs of cancellation on used stamp values or tickets, and uses the altered objects
+:: ReclusioneAlterazioneSegni: reclusion up to 1 year or fine
+
+@470 fede2
+VendeImpronteContraffatte: outside participation in the forgery, sells or acquires things bearing counterfeit imprints of public authentication
+:: ReclusioneVenditaImpronte: reclusion, sale of falsely-marked things
+
+@507 economia
+Boicottaggio: for the aims of arts. 502-505, by propaganda or use of force/authority, induces a boycott harming an industry/trade
+:: ReclusioneBoicottaggio: reclusion 6 months-3 years
+
+@526 persona3
+SeduzionePromessaMatrimonio: by promise of marriage, seduces a woman, being a married person concealing their status
+:: ReclusioneSeduzione: reclusion up to 2 years
+
+@565 persona3
+AttentatiMoraleFamiliare: in the press, harms the family morals by attributing facts contrary to it
+:: ReclusioneMoraleFamiliare: reclusion up to 1 year, a querela
+querela
+
+@568 persona3
+OccultaStatoFanciullo: deposits or presents a child, already registered, so as to alter or conceal its civil status
+:: ReclusioneOccultamentoStato: reclusion up to 5 years
+
+@600-quinquies persona3
+TurismoSessualeMinori: organises or propagandises trips aimed at exploiting child prostitution
+:: ReclusioneTurismoSessuale: reclusion 6-12 years and fine
+
+@617-bis riservatezza
+InstallaApparecchiIntercettazione: installs apparatus apt to intercept or impede telegraphic or telephone communications between others
+:: ReclusioneInstallazioneIntercett: reclusion 1-4 years
+
+@617-ter riservatezza
+FalsificaComunicazioni: forms a false telegraphic/telephone communication, or alters/suppresses the content of a true one
+:: ReclusioneFalsoComunicazioni: reclusion 1-4 years
+
+@617-quinquies riservatezza
+InstallaApparecchiInformatici: installs apparatus apt to intercept, impede or interrupt computer or telematic communications
+:: ReclusioneInstallazioneInformatica: reclusion 1-4 years
+
+@617-sexies riservatezza
+FalsificaComunicazioniInformatiche: to profit or harm, forms a false computer/telematic communication, or alters/suppresses a true one
+:: ReclusioneFalsoInformatico: reclusion 1-4 years
+
+@644-bis patrimonio3
+UsuraImpropria: outside art. 644, exploiting another's economic difficulty, gets given or promised usurious interest
+:: ReclusioneUsuraImpropria: reclusion 1-5 years and fine
+
+@663-bis contravvenzioni nomens
+DivulgaStampaClandestina: in any way divulges clandestinely published press or printed matter
+:: ArrestoStampaClandestina: arrest or fine, clandestine press
+
+@668 contravvenzioni nomens
+RappresentazioniAbusive: publicly recites dramas or gives shows without observing the prescribed rules
+:: ArrestoRappresentazioni: arrest up to 6 months or fine
+
+@683 contravvenzioni nomens
+PubblicaDeliberazioniCamere: without authorisation, publishes the secret discussions or deliberations of a Chamber
+:: ArrestoDeliberazioni: fine, publication of secret parliamentary deliberations
+
+@685 contravvenzioni nomens
+PubblicaNomiGiudici: unduly publishes the names of judges with indication of their votes, in a criminal proceeding
+:: ArrestoNomiGiudici: fine, undue publication of proceeding news
+
+@687 contravvenzioni nomens
+ConsumoAlcoolVietato: buys or consumes, in a public establishment, alcoholic drinks at a time when their sale is not allowed
+:: ArrestoConsumoAlcool: fine, alcohol consumption at forbidden time
+
+@708 contravvenzioni nomens
+PossessoValoriIngiustificato: being in the personal conditions of art. 707, is found in unjustified possession of money or valuables
+:: ArrestoPossessoValori: arrest 6 months-2 years
+
+@716 contravvenzioni nomens
+OmessoAvvisoEvasioneMinori: a public official charged with a detention facility omits to notify the authority of the escape or flight of minors
+:: ArrestoOmessoAvviso: arrest, failure to report escape of minors
+
+@723 contravvenzioni nomens
+GiocoNonAzzardoAbusivo: authorised to keep game rooms, tolerates that games of chance are played there
+:: ArrestoGiocoNonAzzardo: fine, abusive non-chance game
+
+# ==== RESIDUI 2: soggetti qualificati ====
+@263 residui
+QualificaPubblica: public official
+ImpiegaSegretiStato: uses, for own or others' profit, scientific inventions/discoveries that must remain secret in the State's interest
+:: ReclusioneUtilizzazioneSegreti: reclusion not less than 5 years
+
+@325 residui
+QualificaPubblica: public official
+ImpiegaInvenzioniUfficio: uses, for own or others' profit, inventions or discoveries known by reason of office
+:: ReclusioneUtilizzazioneInvenzioni: reclusion 1-5 years and fine
+
+@329 residui
+AgenteForzaPubblica: a soldier or agent of the public force
+RifiutaEseguireRichiesta: unduly refuses or delays to execute a request lawfully made by the competent authority
+:: ReclusioneRifiutoMilitare: reclusion up to 2 years
+
+@331 residui
+InterrompeServizioPubblico: running a public-service or public-necessity enterprise, interrupts the service or suspends the work
+:: ReclusioneInterruzioneImpresa: reclusion 6 months-1 year and fine
+
+@381 residui
+PatrocinioBiprofessionale: a lawyer or technical consultant who, in proceedings, simultaneously assists opposing parties
+:: ReclusionePatrocinioBi: reclusion 6 months-3 years and fine
+
+@382 residui
+MillantaCreditoGiudice: a lawyer who, boasting influence with the judge, prosecutor or witness, gets given or promised money/utility
+:: ReclusioneMillantatoPatrocinatore: reclusion 1-5 years
+
+@478 residui
+QualificaPubblica: public official
+FalsificaCopieAutentiche: in the exercise of functions, falsely forms authentic copies of public/private acts or attestations of their content
+:: ReclusioneFalsoCopie: reclusion 1-4 years
+
+@509 residui
+DatoreNonAdempieContratto: an employer or worker who fails the obligations deriving from a collective labour contract
+:: ReclusioneInosservanzaLavoro: fine, breach of collective labour contract
+
+@520 residui
+QualificaPubblica: public official
+CongiunzionePersonaArrestata: has carnal union with a person who is arrested or detained and entrusted to them, or under their authority
+:: ReclusioneCongiunzioneArrestata: reclusion 6 months-3 years
+
+@544-quater residui
+OrganizzaSpettacoliSevizie: organises or promotes spectacles or events involving cruelty or torture of animals
+:: ReclusioneSpettacoliSevizie: reclusion 4 months-2 years and fine
+
+@606 residui
+QualificaPubblica: public official
+ArrestoIllegale: proceeds to an arrest abusing the powers inherent in their functions, outside the cases allowed by law
+:: ReclusioneArrestoIllegale: reclusion up to 3 years
+
+@607 residui
+QualificaPubblica: public official
+IndebitaRestrizioneDetenuto: in charge of a prison, receives a person without a lawful order, or unduly prolongs their detention
+:: ReclusioneIndebitaRestrizione: reclusion up to 15 months
+
+@608 residui
+QualificaPubblica: public official
+MisureRigoreIllegali: subjects an arrested or detained person under their authority to measures of rigour not allowed by law
+:: ReclusioneMisureRigore: reclusion up to 30 months
+
+@615 residui
+QualificaPubblica: public official
+IntroduceDomicilioAbusoUfficio: abusing the powers of their functions, enters or stays in a private dwelling outside the cases allowed by law
+:: ReclusioneDomicilioAbusoUfficio: reclusion (the penalties of art. 614, increased)
+
+@362 giustizia3
+QualificaPubblica: person charged with a public service
+OmetteDenunciaIncaricato: omits or delays to denounce to the authority a crime known by reason of their service
+:: ReclusioneOmessaDenunciaIncaricato: fine, omitted denunciation by a public-service agent
+
+@371-ter giustizia3
+FalseDichiarazioniDifensore: when asked by the defence lawyer for information for investigative purposes, gives false statements
+:: ReclusioneFalseDichDifensore: reclusion up to 4 years
+
+@388-bis giustizia3 colpa
+ColpaCustodiaPignoramento: charged with custody of things under attachment, by negligence allows their loss or damage
+:: ReclusioneColpaPignoramento: reclusion up to 1 year or fine
+
+@480 fede2
+QualificaPubblica: public official
+FalsoIdeologicoCertificato: in the exercise of functions, falsely attests in certificates or administrative authorisations facts they are meant to prove
+:: ReclusioneFalsoIdeoCertificato: reclusion 3 months-2 years
+
+
+# ==== LIBRO I — parte generale (grounding definitorio) ====
+@1 libro_primo def
+ReatiEPeneDisposizioneEspressaDiLegge1: Reati e pene: disposizione espressa di legge: Nessuno può essere punito per un fatto che non sia espressamente preveduto come reato dalla legge, né con pene
+
+@2 libro_primo def
+SuccessioneDiLeggiPenali2: Successione di leggi penali: Nessuno può essere punito per un fatto che, secondo la legge del tempo in cui fu commesso, non costituiva reat
+
+@3 libro_primo def
+ObbligatorietDellaLeggePenale3: Obbligatorietà della legge penale: La legge penale italiana obbliga tutti coloro che, cittadini o stranieri, si trovano nel territorio dello Stat
+
+@4 libro_primo def
+CittadinoItalianoTerritorioDelloStato4: Cittadino italiano. Territorio dello Stato: Agli effetti della legge penale, sono considerati cittadini italiani i cittadini delle colonie, i sudditi colo
+
+@5 libro_primo def
+IgnoranzaDellaLeggePenale5: Ignoranza della legge penale: Nessuno può invocare a propria scusa l'ignoranza della legge penale.
+
+@6 libro_primo def
+ReatiCommessiNelTerritorioDelloStato6: Reati commessi nel territorio dello Stato: Chiunque commette un reato nel territorio dello Stato è punito secondo la legge italiana. Il reato si consider
+
+@7 libro_primo def
+ReatiCommessiAllEstero7: Reati commessi all'estero: E' punito secondo la legge italiana il cittadino o lo straniero che commette in territorio estero taluno dei s
+
+@8 libro_primo def
+DelittoPoliticoCommessoAllEstero8: Delitto politico commesso all'estero: Il cittadino o lo straniero, che commette in territorio estero un delitto politico non compreso tra quelli ind
+
+@9 libro_primo def
+DelittoComuneDelCittadinoAllEstero9: Delitto comune del cittadino all'estero: Il cittadino, che, fuori dei casi indicati nei due articoli precedenti, commette in territorio estero un delit
+
+@10 libro_primo def
+DelittoComuneDelloStranieroAllEstero10: Delitto comune dello straniero all'estero: Lo straniero, che, fuori dei casi indicati negli articoli 7 e 8, commette in territorio estero, a danno dello 
+
+@11 libro_primo def
+RinnovamentoDelGiudizio11: Rinnovamento del giudizio: Nel caso indicato nell'art. 6, il cittadino o lo straniero è giudicato nello Stato, anche se sia stato giudica
+
+@12 libro_primo def
+RiconoscimentoDelleSentenzePenaliStranie12: Riconoscimento delle sentenze penali straniere: Alla sentenza penale straniera pronunciata per un delitto può essere dato riconoscimento: 1. per stabilire la 
+
+@13 libro_primo def
+Estradizione13: Estradizione: L'estradizione è regolata dalla legge penale italiana, dalle convenzioni e dagli usi internazionali. L'estradi
+
+@14 libro_primo def
+ComputoEDecorrenzaDeiTermini14: Computo e decorrenza dei termini: Quando la legge penale fa dipendere un effetto giuridico dal decorso del tempo, per il computo di questo si os
+
+@15 libro_primo def
+MateriaRegolataDaPiLeggiPenaliODaPiDispo15: Materia regolata da più leggi penali o da più disposizioni della medesima legge penale: Quando più leggi penali o più disposizioni della medesima legge penale regolano la stessa materia, la legge o 
+
+@16 libro_primo def
+LeggiPenaliSpeciali16: Leggi penali speciali: Le disposizioni di questo codice si applicano anche alle materie regolate da altre leggi penali, in quanto non
+
+@17 libro_primo def
+PenePrincipaliSpecie17: Pene principali: specie: Le pene principali stabilite per i delitti sono: 1. la morte; 2. l'ergastolo; 3. la reclusione; 4. la multa. L
+
+@18 libro_primo def
+DenominazioneEClassificazioneDellePenePr18: Denominazione e classificazione delle pene principali: Sotto la denominazione di pene detentive o restrittive della libertà personale la legge comprende: l'ergastolo
+
+@19 libro_primo def
+PeneAccessorieSpecie19: Pene accessorie: specie: Le pene accessorie per i delitti sono: 1. l'interdizione dai pubblici uffici; 2. l'interdizione da una profess
+
+@20 libro_primo def
+PenePrincipaliEAccessorie20: Pene principali e accessorie: Le pene principali sono inflitte dal giudice con sentenza di condanna; quelle accessorie conseguono di diritto
+
+@22 libro_primo def
+Ergastolo22: Ergastolo: La pena dell'ergastolo è perpetua, ed è scontata in uno degli stabilimenti a ciò destinati, con l'obbligo del 
+
+@23 libro_primo def
+Reclusione23: Reclusione: La pena della reclusione si estende da quindici giorni a ventiquattro anni, ed è scontata in uno degli stabili
+
+@24 libro_primo def
+Multa24: Multa: La pena della multa consiste nel pagamento allo Stato di una somma non inferiore a euro 5, né superiore a euro
+
+@25 libro_primo def
+Arresto25: Arresto: La pena dell'arresto si estende da cinque giorni a tre anni, ed è scontata in uno degli stabilimenti a ciò des
+
+@26 libro_primo def
+Ammenda26: Ammenda: La pena dell'ammenda consiste nel pagamento allo Stato di una somma non inferiore a euro 2 né superiore a euro
+
+@27 libro_primo def
+PenePecuniarieFisseEProporzionali27: Pene pecuniarie fisse e proporzionali: La legge determina i casi nei quali le pene pecuniarie sono fisse e quelli in cui sono proporzionali. Le pene 
+
+@28 libro_primo def
+InterdizioneDaiPubbliciUffici28: Interdizione dai pubblici uffici: L'interdizione dai pubblici uffici è perpetua o temporanea. L'interdizione perpetua dai pubblici uffici, salvo
+
+@29 libro_primo def
+CasiNeiQualiAllaCondannaConsegueLInterdi29: Casi nei quali alla condanna consegue l'interdizione dai pubblici uffici: La condanna all'ergastolo e la condanna alla reclusione per un tempo non inferiore a cinque anni importano l'i
+
+@30 libro_primo def
+InterdizioneDaUnaProfessioneODaUnArte30: Interdizione da una professione o da un'arte: L'interdizione da una professione o da un'arte priva il condannato della capacità di esercitare, durante l'int
+
+@31 libro_primo def
+CondannaPerDelittiCommessiConAbusoDiUnPu31: Condanna per delitti commessi con abuso di un pubblico ufficio o di una professione o di: un'arte. Interdizione. Ogni condanna per delitti commessi con l'abuso dei poteri, o con la violazione dei dove
+
+@32 libro_primo def
+InterdizioneLegale32: Interdizione legale: Il condannato all'ergastolo è in stato di interdizione legale. La condanna all'ergastolo importa anche la deca
+
+@32-bis libro_primo def
+InterdizioneTemporaneaDagliUfficiDiretti32bis: Interdizione temporanea dagli uffici direttivi delle persone giuridiche e delle imprese: L'interdizione dagli uffici direttivi delle persone giuridiche e delle imprese priva il condannato della capac
+
+@32-ter libro_primo def
+IncapacitDiContrattareConLaPubblicaAmmin32ter: Incapacità di contrattare con la pubblica amministrazione: L'incapacità di contrattare con la pubblica amministrazione importa il divieto di concludere contratti con la 
+
+@32-quater libro_primo def
+CasiNeiQualiAllaCondannaConsegueLIncapac32quater: Casi nei quali alla condanna consegue l'incapacità di contrattare con la pubblica: amministrazione. Ogni condanna per i delitti previsti dagli articoli 316-bis, 316-ter, 317, 318, 319, 319-bis,
+
+@32-quinquies libro_primo def
+CasiNeiQualiAllaCondannaConsegueLEstinzi32quinquies: Casi nei quali alla condanna consegue l'estinzione del rapporto di lavoro o di impiego: Salvo quanto previsto dagli articoli 29 e 31, la condanna alla reclusione per un tempo non inferiore a tre ann
+
+@33 libro_primo def
+CondannaPerDelittoColposo33: Condanna per delitto colposo: Le disposizioni dell'articolo 29 e del secondo capoverso dell'articolo 32 non si applicano nel caso di condann
+
+@34 libro_primo def
+DecadenzaDallaPotestDeiGenitoriESospensi34: Decadenza dalla potestà dei genitori e sospensione dall'esercizio di essa: La legge determina i casi nei quali la condanna importa la decadenza dalla potestà dei genitori. La condanna p
+
+@35 libro_primo def
+SospensioneDallEsercizioDiUnaProfessione35: Sospensione dall'esercizio di una professione o di un'arte: La sospensione dall'esercizio di una professione o di un'arte priva il condannato della capacità di esercitare
+
+@35-bis libro_primo def
+SospensioneDallEsercizioDegliUfficiDiret35bis: Sospensione dall'esercizio degli uffici direttivi delle persone giuridiche e delle imprese: La sospensione dall'esercizio degli uffici direttivi delle persone giuridiche e delle imprese priva il condann
+
+@36 libro_primo def
+PubblicazioneDellaSentenzaPenaleDiCondan36: Pubblicazione della sentenza penale di condanna: La sentenza di condanna alla pena di morte o all'ergastolo è pubblicata mediante affissione nel comune ove è s
+
+@37 libro_primo def
+PeneAccessorieTemporaneeDurata37: Pene accessorie temporanee: durata: Quando la legge stabilisce che la condanna importa una pena accessoria temporanea, e la durata di questa non è
+
+@38 libro_primo def
+CondizioneGiuridicaDelCondannatoAllaPena38: Condizione giuridica del condannato alla pena di morte: Il condannato alla pena di morte è equiparato al condannato all'ergastolo, per quanto riguarda la sua condizio
+
+@39 libro_primo def
+ReatoDistinzioneFraDelittiEContravvenzio39: Reato: distinzione fra delitti e contravvenzioni: I reati si distinguono in delitti e contravvenzioni, secondo la diversa specie delle pene per essi rispettivam
+
+@40 libro_primo def
+RapportoDiCausalit40: Rapporto di causalità: Nessuno può essere punito per un fatto preveduto dalla legge come reato, se l'evento dannoso o pericoloso, da 
+
+@41 libro_primo def
+ConcorsoDiCause41: Concorso di cause: Il concorso di cause preesistenti o simultanee o sopravvenute, anche se indipendenti dall'azione od omissione 
+
+@44 libro_primo def
+CondizioneObiettivaDiPunibilit44: Condizione obiettiva di punibilità: Quando, per la punibilità del reato, la legge richiede il verificarsi di una condizione, il colpevole risponde
+
+@45 libro_primo def
+CasoFortuitoOForzaMaggiore45: Caso fortuito o forza maggiore: Non è punibile chi ha commesso il fatto per caso fortuito o per forza maggiore.
+
+@46 libro_primo def
+CostringimentoFisico46: Costringimento fisico: Non è punibile chi ha commesso il fatto per esservi stato da altri costretto, mediante violenza fisica alla qu
+
+@47 libro_primo def
+ErroreDiFatto47: Errore di fatto: L'errore sul fatto che costituisce il reato esclude la punibilità dell'agente. Nondimeno, se si tratta di erro
+
+@48 libro_primo def
+ErroreDeterminatoDallAltruiInganno48: Errore determinato dall'altrui inganno: Le disposizioni dell'articolo precedente si applicano anche se l'errore sul fatto che costituisce il reato è d
+
+@49 libro_primo def
+ReatoSuppostoErroneamenteEReatoImpossibi49: Reato supposto erroneamente e reato impossibile: Non è punibile chi commette un fatto non costituente reato, nella supposizione erronea che esso costituisca re
+
+@53 libro_primo def
+UsoLegittimoDelleArmi53: Uso legittimo delle armi: Ferme le disposizioni contenute nei due articoli precedenti, non è punibile il pubblico ufficiale che, al fine
+
+@55 libro_primo def
+EccessoColposo55: Eccesso colposo: Quando, nel commettere alcuno dei fatti preveduti dagli articoli 51, 52, 53 e 54, si eccedono colposamente i l
+
+@56 libro_primo def
+DelittoTentato56: Delitto tentato: Chi compie atti idonei, diretti in modo non equivoco a commettere un delitto, risponde di delitto tentato, se 
+
+@57 libro_primo def
+ReatiCommessiColMezzoDellaStampaPeriodic57: Reati commessi col mezzo della stampa periodica: Salva la responsabilità dell'autore della pubblicazione e fuori dei casi di concorso, il direttore o il vice-d
+
+@57-bis libro_primo def
+ReatiCommessiColMezzoDellaStampaNonPerio57bis: Reati commessi col mezzo della stampa non periodica: Nel caso di stampa non periodica, le disposizioni di cui al precedente articolo si applicano all'editore, se l
+
+@58 libro_primo def
+StampaClandestina58: Stampa clandestina: Le disposizioni dell'articolo precedente si applicano anche se non sono state osservate le prescrizioni di leg
+
+@58-bis libro_primo def
+ProcedibilitPerIReatiCommessiColMezzoDel58bis: Procedibilità per i reati commessi col mezzo della stampa: Se il reato commesso col mezzo della stampa è punibile a querela, istanza o richiesta, anche per la punibilità
+
+@59 libro_primo def
+CircostanzeNonConosciuteOErroneamenteSup59: Circostanze non conosciute o erroneamente supposte: Le circostanze che attenuano o escludono la pena sono valutate a favore dell'agente, anche se da lui non conos
+
+@60 libro_primo def
+ErroreSullaPersonaDellOffeso60: Errore sulla persona dell'offeso: Nel caso di errore sulla persona offesa da un reato, non sono poste a carico dell'agente le circostanze aggrav
+
+@61 libro_primo def
+CircostanzeAggravantiComuni61: Circostanze aggravanti comuni: Aggravano il reato quando non ne sono elementi costitutivi o circostanze aggravanti speciali le circostanze se
+
+@62 libro_primo def
+CircostanzeAttenuantiComuni62: Circostanze attenuanti comuni: Attenuano il reato, quando non ne sono elementi costitutivi o circostanze attenuanti speciali, le circostanze 
+
+@62-bis libro_primo def
+CircostanzeAttenuantiGeneriche62bis: Circostanze attenuanti generiche: Il giudice, indipendentemente dalle circostanze previste nell'articolo 62, può prendere in considerazione altr
+
+@63 libro_primo def
+ApplicazioneDegliAumentiODelleDiminuzion63: Applicazione degli aumenti o delle diminuzioni di pena: Quando la legge dispone che la pena sia aumentata o diminuita entro limiti determinati, l'aumento o la diminuz
+
+@64 libro_primo def
+AumentoDiPenaNelCasoDiUnaSolaCircostanza64: Aumento di pena nel caso di una sola circostanza aggravante: Quando ricorre una circostanza aggravante, e l'aumento di pena non è determinato dalla legge, è aumentata fino
+
+@65 libro_primo def
+DiminuzioneDiPenaNelCasoDiUnaSolaCircost65: Diminuzione di pena nel caso di una sola circostanza attenuante: Quando ricorre una circostanza attenuante, e non è dalla legge determinata la diminuzione di pena, si osservan
+
+@66 libro_primo def
+LimitiDegliAumentiDiPenaNelCasoDiConcors66: Limiti degli aumenti di pena nel caso di concorso di più circostanze aggravanti: Se concorrono più circostanze aggravanti, la pena da applicare per effetto degli aumenti non può superare il t
+
+@67 libro_primo def
+LimitiDelleDiminuzioniDiPenaNelCasoDiCon67: Limiti delle diminuzioni di pena nel caso di concorso di più circostanze attenuanti: Se concorrono più circostanze attenuanti la pena da applicare per effetto delle diminuzioni non può essere inf
+
+@68 libro_primo def
+LimitiAlConcorsoDiCircostanze68: Limiti al concorso di circostanze: Salvo quanto è disposto nell'articolo 15, quando una circostanza aggravante comprende in sé un'altra circostan
+
+@69 libro_primo def
+ConcorsoDiCircostanzeAggravantiEAttenuan69: Concorso di circostanze aggravanti e attenuanti: Quando concorrono insieme circostanze aggravanti e circostanze attenuanti, e le prime sono dal giudice ritenut
+
+@70 libro_primo def
+CircostanzeOggettiveESoggettive70: Circostanze oggettive e soggettive: Agli effetti della legge penale: 1. sono circostanze oggettive quelle che concernono la natura, la specie, i m
+
+@71 libro_primo def
+CondannaPerPiReatiConUnicaSentenzaODecre71: Condanna per più reati con unica sentenza o decreto: Quando, con una sola sentenza o con un solo decreto, si deve pronunciare condanna per più reati contro la stes
+
+@72 libro_primo def
+ConcorsoDiReatiCheImportanoLErgastoloEDi72: Concorso di reati che importano l'ergastolo e di reati che importano pene detentive: temporanee. Al colpevole di più delitti, ciascuno dei quali importa la pena dell'ergastolo, si applica la dett
+
+@73 libro_primo def
+ConcorsoDiReatiCheImportanoPeneDetentive73: Concorso di reati che importano pene detentive temporanee o pene pecuniarie della: stessa specie. Se più reati importano pene temporanee detentive della stessa specie, si applica una pena unica
+
+@74 libro_primo def
+ConcorsoDiReatiCheImportanoPeneDetentive74: Concorso di reati che importano pene detentive di specie diversa: Se più reati importano pene temporanee detentive di specie diversa, queste si applicano tutte distintamente e 
+
+@75 libro_primo def
+ConcorsoDiReatiCheImportanoPenePecuniari75: Concorso di reati che importano pene pecuniarie di specie diversa: Se più reati importano pene pecuniarie di specie diversa, queste si applicano tutte distintamente e per intero
+
+@76 libro_primo def
+PeneConcorrentiConsiderateComePenaUnicaO76: Pene concorrenti considerate come pena unica ovvero come pene distinte: Salvo che la legge stabilisca altrimenti , le pene della stessa specie concorrenti a norma dell'articolo 73 si
+
+@77 libro_primo def
+DeterminazioneDellePeneAccessorie77: Determinazione delle pene accessorie: Per determinare le pene accessorie e ogni altro effetto penale della condanna, si ha riguardo ai singoli reati
+
+@78 libro_primo def
+LimitiDegliAumentiDellePenePrincipali78: Limiti degli aumenti delle pene principali: Nel caso di concorso di reati preveduto dall'articolo 73, la pena da applicare a norma dello stesso articolo n
+
+@79 libro_primo def
+LimitiDegliAumentiDellePeneAccessorie79: Limiti degli aumenti delle pene accessorie: La durata massima delle pene accessorie temporanee non può superare, nel complesso, i limiti seguenti: 1. diec
+
+@80 libro_primo def
+ConcorsoDiPeneInflitteConSentenzeODecret80: Concorso di pene inflitte con sentenze o decreti diversi: Le disposizioni degli articoli precedenti si applicano anche nel caso in cui, dopo una sentenza o un decreto d
+
+@81 libro_primo def
+ConcorsoFormaleReatoContinuato81: Concorso formale. Reato continuato: È punito con la pena che dovrebbe infliggersi per la violazione più grave aumentata sino al triplo chi con una
+
+@82 libro_primo def
+OffesaDiPersonaDiversaDaQuellaAllaQualeL82: Offesa di persona diversa da quella alla quale l'offesa era diretta: Quando, per errore nell'uso dei mezzi di esecuzione del reato, o per un'altra causa, è cagionata offesa a pers
+
+@83 libro_primo def
+EventoDiversoDaQuelloVolutoDallAgente83: Evento diverso da quello voluto dall'agente: Fuori dei casi preveduti dall'articolo precedente, se per errore nell'uso dei mezzi di esecuzione del reato, o
+
+@84 libro_primo def
+ReatoComplesso84: Reato complesso: Le disposizioni degli articoli precedenti non si applicano quando la legge considera come elementi costitutivi
+
+@86 libro_primo def
+DeterminazioneInAltriDelloStatoDIncapaci86: Determinazione in altri dello stato d'incapacità allo scopo di far commettere un reato: Se taluno mette altri nello stato d'incapacità d'intendere o di volere, al fine di fargli commettere un reato,
+
+@89 libro_primo def
+VizioParzialeDiMente89: Vizio parziale di mente: Chi, nel momento in cui ha commesso il fatto, era, per infermità, in tale stato di mente da scemare grandement
+
+@91 libro_primo def
+UbriachezzaDerivataDaCasoFortuitoODaForz91: Ubriachezza derivata da caso fortuito o da forza maggiore: Non è imputabile chi, nel momento in cui ha commesso il fatto, non aveva la capacità d'intendere o di volere, 
+
+@92 libro_primo def
+UbriachezzaVolontariaOColposaOvveroPreor92: Ubriachezza volontaria o colposa ovvero preordinata: L'ubriachezza non derivata da caso fortuito o da forza maggiore non esclude né diminuisce l'imputabilità. Se l
+
+@93 libro_primo def
+FattoCommessoSottoLAzioneDiSostanzeStupe93: Fatto commesso sotto l'azione di sostanze stupefacenti: Le disposizioni dei due articoli precedenti si applicano anche quando il fatto è stato commesso sotto l'azione
+
+@94 libro_primo def
+UbriachezzaAbituale94: Ubriachezza abituale: Quando il reato è commesso in stato di ubriachezza, e questa è abituale, la pena è aumentata. Agli effetti del
+
+@95 libro_primo def
+CronicaIntossicazioneDaAlcoolODaSostanze95: Cronica intossicazione da alcool o da sostanze stupefacenti: Per i fatti commessi in stato di cronica intossicazione prodotta da alcool ovvero da sostanze stupefacenti, si
+
+@96 libro_primo def
+Sordomutismo96: Sordomutismo: Non è imputabile il sordomuto che, nel momento in cui ha commesso il fatto, non aveva, per causa della sua inf
+
+@98 libro_primo def
+MinoreDegliAnniDiciotto98: Minore degli anni diciotto: E' imputabile chi, nel momento in cui ha commesso il fatto, aveva compiuto i quattordici anni, ma non ancora i
+
+@99 libro_primo def
+Recidiva99: Recidiva: Chi, dopo essere stato condannato per un delitto non colposo, ne commette un altro, può essere sottoposto ad u
+
+@101 libro_primo def
+ReatiDellaStessaIndole101: Reati della stessa indole: Agli effetti della legge penale, sono considerati reati della stessa indole non soltanto quelli che violano un
+
+@102 libro_primo def
+AbitualitPresuntaDallaLegge102: Abitualità presunta dalla legge: E' dichiarato delinquente abituale chi, dopo essere stato condannato alla reclusione in misura superiore compl
+
+@103 libro_primo def
+AbitualitRitenutaDalGiudice103: Abitualità ritenuta dal giudice: Fuori del caso indicato nell'articolo precedente, la dichiarazione di abitualità nel delitto è pronunciata anc
+
+@104 libro_primo def
+AbitualitNelleContravvenzioni104: Abitualità nelle contravvenzioni: Chi, dopo essere stato condannato alla pena dell'arresto per tre contravvenzioni della stessa indole, riporta 
+
+@108 libro_primo def
+TendenzaADelinquere108: Tendenza a delinquere: E' dichiarato delinquente per tendenza chi, sebbene non recidivo o delinquente abituale o professionale, comme
+
+@109 libro_primo def
+EffettiDellaDichiarazioneDiAbitualitProf109: Effetti della dichiarazione di abitualità, professionalità o tendenza a delinquere: Oltre gli aumenti di pena stabiliti per la recidiva e i particolari effetti indicati da altre disposizioni di 
+
+@110 libro_primo def
+PenaPerColoroCheConcorronoNelReato110: Pena per coloro che concorrono nel reato: Quando più persone concorrono nel medesimo reato, ciascuna di esse soggiace alla pena per questo stabilita, sa
+
+@111 libro_primo def
+DeterminazioneAlReatoDiPersonaNonImputab111: Determinazione al reato di persona non imputabile o non punibile: Chi ha determinato a commettere un reato una persona non imputabile, ovvero non punibile a cagione di una cond
+
+@112 libro_primo def
+CircostanzeAggravanti112: Circostanze aggravanti: La pena da infliggere per il reato commesso è aumentata: 1. se il numero delle persone, che sono concorse nel 
+
+@113 libro_primo def
+CooperazioneNelDelittoColposo113: Cooperazione nel delitto colposo: Nel delitto colposo, quando l'evento è stato cagionato dalla cooperazione di più persone, ciascuna di queste s
+
+@114 libro_primo def
+CircostanzeAttenuanti114: Circostanze attenuanti: Il giudice, qualora ritenga che l'opera prestata da talune delle persone che sono concorse nel reato a norma d
+
+@115 libro_primo def
+AccordoPerCommettereUnReatoIstigazione115: Accordo per commettere un reato. Istigazione: Salvo che la legge disponga altrimenti, qualora due o più persone si accordino allo scopo di commettere un rea
+
+@116 libro_primo def
+ReatoDiversoDaQuelloVolutoDaTalunoDeiCon116: Reato diverso da quello voluto da taluno dei concorrenti: Qualora il reato commesso sia diverso da quello voluto da taluno dei concorrenti, anche questi ne risponde, se
+
+@117 libro_primo def
+MutamentoDelTitoloDelReatoPerTalunoDeiCo117: Mutamento del titolo del reato per taluno dei concorrenti: Se, per le condizioni o le qualità personali del colpevole, o per i rapporti fra il colpevole e l'offeso, muta
+
+@118 libro_primo def
+ValutazioneDelleCircostanzeAggravantiOAt118: Valutazione delle circostanze aggravanti o attenuanti: Le circostanze che aggravano o diminuiscono le pene concernenti i motivi a delinquere, l'intensità del dolo, i
+
+@119 libro_primo def
+ValutazioneDelleCircostanzeDiEsclusioneD119: Valutazione delle circostanze di esclusione della pena: Valutazione delle circostanze di esclusione della pena. Le circostanze soggettive le quali escludono la pena p
+
+@120 libro_primo def
+DirittoDiQuerela120: Diritto di querela: Ogni persona offesa da un reato per cui non debba procedersi d'ufficio o dietro richiesta o istanza ha diritto
+
+@121 libro_primo def
+DirittoDiQuerelaEsercitatoDaUnCuratoreSp121: Diritto di querela esercitato da un curatore speciale: Se la persona offesa è minore degli anni quattordici o inferma di mente, e non v'è chi ne abbia la rappresenta
+
+@122 libro_primo def
+QuerelaDiUnoFraPiOffesi122: Querela di uno fra più offesi: Il reato commesso in danno di più persone è punibile anche se la querela è proposta da una soltanto di esse.
+
+@123 libro_primo def
+EstensioneDellaQuerela123: Estensione della querela: La querela si estende di diritto a tutti coloro che hanno commesso il reato.
+
+@124 libro_primo def
+TerminePerProporreLaQuerelaRinuncia124: Termine per proporre la querela. Rinuncia: Salvo che la legge disponga altrimenti, il diritto di querela non può essere esercitato, decorsi tre mesi dal 
+
+@125 libro_primo def
+QuerelaDelMinoreOInabilitatoNelCasoDiRin125: Querela del minore o inabilitato nel caso di rinuncia del rappresentante: La rinuncia alla facoltà di esercitare il diritto di querela, fatta dal genitore o dal tutore o dal curatore, 
+
+@126 libro_primo def
+EstinzioneDelDirittoDiQuerela126: Estinzione del diritto di querela: Il diritto di querela si estingue con la morte della persona offesa. Se la querela è stata già proposta, la mo
+
+@127 libro_primo def
+RichiestaDiProcedimentoPerDelittiControI127: Richiesta di procedimento per delitti contro il Presidente della Repubblica: Salvo quanto è disposto nel titolo primo del libro secondo di questo codice, qualora un delitto punibile a que
+
+@128 libro_primo def
+TerminePerLaRichiestaDiProcedimento128: Termine per la richiesta di procedimento: Quando la punibilità di un reato dipende dalla richiesta dell'autorità, la richiesta non può essere più propos
+
+@129 libro_primo def
+IrrevocabilitEdEstensioneDellaRichiesta129: Irrevocabilità ed estensione della richiesta: La richiesta dell'autorità è irrevocabile. Le disposizioni degli articoli 122 e 123 si applicano anche alla ri
+
+@130 libro_primo def
+IstanzaDellaPersonaOffesa130: Istanza della persona offesa: Quando la punibilità del reato dipende dall'istanza della persona offesa, l'istanza è regolata dalle disposizi
+
+@131 libro_primo def
+ReatoComplessoProcedibilitDiUfficio131: Reato complesso. Procedibilità di ufficio: Nei casi preveduti dall'articolo 84, per il reato complesso si procede sempre di ufficio, se per taluno dei re
+
+@132 libro_primo def
+PotereDiscrezionaleDelGiudiceNellApplica132: Potere discrezionale del giudice nell'applicazione della pena: limiti: Nei limiti fissati dalla legge, il giudice applica la pena discrezionalmente; esso deve indicare i motivi che 
+
+@133 libro_primo def
+GravitDelReatoValutazioneAgliEffettiDell133: Gravità del reato: valutazione agli effetti della pena: Nell'esercizio del potere discrezionale indicato nell'articolo precedente, il giudice deve tener conto della g
+
+@133-bis libro_primo def
+CondizioniEconomicheDelReoValutazioneAgl133bis: Condizioni economiche del reo; valutazione agli effetti della pena pecuniaria: Nella determinazione dell'ammontare della multa o dell'ammenda il giudice deve tener conto, oltre che dei crit
+
+@133-ter libro_primo def
+PagamentoRatealeDellaMultaODellAmmenda133ter: Pagamento rateale della multa o dell'ammenda: Il giudice, con la sentenza di condanna o con il decreto penale, può disporre, in relazione alle condizioni ec
+
+@134 libro_primo def
+ComputoDellePene134: Computo delle pene: Le pene temporanee si applicano a giorni, a mesi e ad anni. Nelle condanne a pene temporanee non si tien conto
+
+@135 libro_primo def
+RagguaglioFraPenePecuniarieEPeneDetentiv135: Ragguaglio fra pene pecuniarie e pene detentive: Quando, per qualsiasi effetto giuridico, si deve eseguire un ragguaglio fra pene pecuniarie e pene detentive, 
+
+@136 libro_primo def
+ModalitDiConversioneDiPenePecuniarie136: Modalità di conversione di pene pecuniarie: Le pene della multa e dell'ammenda, non eseguite per insolvibilità del condannato, si convertono a norma di le
+
+@137 libro_primo def
+CustodiaCautelare137: Custodia cautelare: La carcerazione sofferta prima che la sentenza sia divenuta irrevocabile si detrae dalla durata complessiva de
+
+@138 libro_primo def
+PenaECustodiaCautelarePerReatiCommessiAl138: Pena e custodia cautelare per reati commessi all'estero: Quando il giudizio seguito all'estero è rinnovato nello Stato, la pena scontata all'estero è sempre computata 
+
+@139 libro_primo def
+ComputoDellePeneAccessorie139: Computo delle pene accessorie: Nel computo delle pene accessorie temporanee non si tiene conto del tempo in cui il condannato sconta la pena 
+
+@145 libro_primo def
+RemunerazioneAiCondannatiPerIlLavoroPres145: Remunerazione ai condannati per il lavoro prestato: Negli stabilimenti penitenziari, ai condannati è corrisposta una remunerazione per il lavoro prestato. Sulla r
+
+@146 libro_primo def
+RinvioObbligatorioDellEsecuzioneDellaPen146: Rinvio obbligatorio dell'esecuzione della pena: L'esecuzione di una pena, che non sia pecuniaria, è differita: 1) se deve aver luogo nei confronti di donna in
+
+@147 libro_primo def
+RinvioFacoltativoDellEsecuzioneDellaPena147: Rinvio facoltativo dell'esecuzione della pena: L'esecuzione di una pena può essere differita: 1. se è presentata domanda di grazia, e l'esecuzione della pena
+
+@148 libro_primo def
+InfermitPsichicaSopravvenutaAlCondannato148: Infermità psichica sopravvenuta al condannato: Se, prima dell'esecuzione di una pena restrittiva della libertà personale o durante l'esecuzione, sopravviene 
+
+@150 libro_primo def
+MorteDelReoPrimaDellaCondanna150: Morte del reo prima della condanna: La morte del reo, avvenuta prima della condanna, estingue il reato.
+
+@151 libro_primo def
+Amnistia151: Amnistia: L'amnistia estingue il reato, e, se vi è stata condanna, fa cessare l'esecuzione della condanna e le pene acce
+
+@152 libro_primo def
+RemissioneDellaQuerela152: Remissione della querela: Nei delitti punibili a querela della persona offesa, la remissione estingue il reato. La remissione è processu
+
+@153 libro_primo def
+EsercizioDelDirittoDiRemissioneIncapaci153: Esercizio del diritto di remissione. Incapaci: Per i minori degli anni quattordici e per gli interdetti a cagione di infermità di mente, il diritto di remiss
+
+@154 libro_primo def
+PiQuerelantiRemissioneDiUnoSolo154: Più querelanti: remissione di uno solo: Se la querela è stata proposta da più persone, il reato non si estingue se non interviene la remissione di tut
+
+@155 libro_primo def
+AccettazioneDellaRemissione155: Accettazione della remissione: La remissione non produce effetto, se il querelato l'ha espressamente o tacitamente ricusata. Vi è ricusa taci
+
+@156 libro_primo def
+EstinzioneDelDirittoDiRemissione156: Estinzione del diritto di remissione: Il diritto di remissione si estingue con la morte della persona offesa dal reato.
+
+@157 libro_primo def
+PrescrizioneTempoNecessarioAPrescrivere157: Prescrizione. Tempo necessario a prescrivere: La prescrizione estingue il reato decorso il tempo corrispondente al massimo della pena edittale stabilita dal
+
+@158 libro_primo def
+DecorrenzaDelTermineDellaPrescrizione158: Decorrenza del termine della prescrizione: Il termine della prescrizione decorre, per il reato consumato, dal giorno della consumazione ; per il reato te
+
+@159 libro_primo def
+SospensioneDelCorsoDellaPrescrizione159: Sospensione del corso della prescrizione: Il corso della prescrizione rimane sospeso in ogni caso in cui la sospensione del procedimento o del processo 
+
+@160 libro_primo def
+InterruzioneDelCorsoDellaPrescrizione160: Interruzione del corso della prescrizione: Il corso della prescrizione è interrotto dalla sentenza di condanna o dal decreto di condanna. Interrompono pu
+
+@161 libro_primo def
+EffettiDellaSospensioneEDellaInterruzion161: Effetti della sospensione e della interruzione: La sospensione e l'interruzione della prescrizione hanno effetto per tutti coloro che hanno commesso il reato.
+
+@162 libro_primo def
+OblazioneNelleContravvenzioni162: Oblazione nelle contravvenzioni: Nelle contravvenzioni, per le quali la legge stabilisce la sola pena dell'ammenda, il contravventore è ammesso
+
+@162-bis libro_primo def
+OblazioneNelleContravvenzioniPuniteConPe162bis: Oblazione nelle contravvenzioni punite con pene alternative: Nelle contravvenzioni per le quali la legge stabilisce la pena alternativa dell'arresto o dell'ammenda, il con
+
+@163 libro_primo def
+SospensioneCondizionaleDellaPena163: Sospensione condizionale della pena: Nel pronunciare sentenza di condanna alla reclusione o all'arresto per un tempo non superiore a due anni, ovve
+
+@164 libro_primo def
+LimitiEntroIQualiAmmessaLaSospensioneCon164: Limiti entro i quali è ammessa la sospensione condizionale della pena: La sospensione condizionale della pena è ammessa soltanto se, avuto riguardo alle circostanze indicate nell'ar
+
+@165 libro_primo def
+ObblighiDelCondannato165: Obblighi del condannato: La sospensione condizionale della pena può essere subordinata all'adempimento dell'obbligo delle restituzioni,
+
+@166 libro_primo def
+EffettiDellaSospensione166: Effetti della sospensione: La sospensione condizionale della pena si estende alle pene accessorie. La condanna a pena condizionalmente so
+
+@167 libro_primo def
+EstinzioneDelReato167: Estinzione del reato: Se, nei termini stabiliti, il condannato non commette un delitto, ovvero una contravvenzione della stessa indo
+
+@168 libro_primo def
+RevocaDellaSospensione168: Revoca della sospensione: Salva la disposizione dell'ultimo comma dell'art. 164, la sospensione condizionale della pena è revocata di di
+
+@169 libro_primo def
+PerdonoGiudizialePerIMinoriDegliAnniDici169: Perdono giudiziale per i minori degli anni diciotto: Se, per il reato commesso dal minore degli anni diciotto la legge stabilisce una pena restrittiva della libert
+
+@170 libro_primo def
+EstinzioneDiUnReatoCheSiaPresuppostoElem170: Estinzione di un reato che sia presupposto, elemento costitutivo o circostanza: aggravante di un altro reato. Quando un reato è il presupposto di un altro reato, la causa che lo estingue non
+
+@171 libro_primo def
+MorteDelReoDopoLaCondanna171: Morte del reo dopo la condanna: La morte del reo, avvenuta dopo la condanna, estingue la pena.
+
+@172 libro_primo def
+EstinzioneDellePeneDellaReclusioneEDella172: Estinzione delle pene della reclusione e della multa per decorso del tempo: La pena della reclusione si estingue col decorso di un tempo pari al doppio della pena inflitta e, in ogni cas
+
+@173 libro_primo def
+EstinzioneDellePeneDellArrestoEDellAmmen173: Estinzione delle pene dell'arresto e dell'ammenda per decorso del tempo: Le pene dell'arresto e dell'ammenda si estinguono nel termine di cinque anni. Tale termine è raddoppiato se si
+
+@174 libro_primo def
+IndultoEGrazia174: Indulto e grazia: L'indulto o la grazia condona, in tutto o in parte, la pena inflitta, o la commuta in un'altra specie di pena 
+
+@175 libro_primo def
+NonMenzioneDellaCondannaNelCertificatoDe175: Non menzione della condanna nel certificato del casellario giudiziale: Se, con una prima condanna, è inflitta una pena detentiva non superiore a due anni, ovvero una pena pecuniaria
+
+@176 libro_primo def
+LiberazioneCondizionale176: Liberazione condizionale: Il condannato a pena detentiva che, durante il tempo di esecuzione della pena, abbia tenuto un comportamento t
+
+@177 libro_primo def
+RevocaDellaLiberazioneCondizionaleOEstin177: Revoca della liberazione condizionale o estinzione della pena: Nei confronti del condannato ammesso alla liberazione condizionale resta sospesa l'esecuzione della misura di 
+
+@178 libro_primo def
+Riabilitazione178: Riabilitazione: La riabilitazione estingue le pene accessorie ed ogni altro effetto penale della condanna, salvo che la legge 
+
+@179 libro_primo def
+CondizioniPerLaRiabilitazione179: Condizioni per la riabilitazione: La riabilitazione è conceduta quando siano decorsi almeno tre anni dal giorno in cui la pena principale sia st
+
+@180 libro_primo def
+RevocaDellaSentenzaDiRiabilitazione180: Revoca della sentenza di riabilitazione: La sentenza di riabilitazione è revocata di diritto se la persona riabilitata commette entro sette anni un del
+
+@181 libro_primo def
+RiabilitazioneNelCasoDiCondannaAllEstero181: Riabilitazione nel caso di condanna all'estero: Le disposizioni relative alla riabilitazione si applicano anche nel caso di sentenze straniere di condanna, ri
+
+@182 libro_primo def
+EffettiDelleCauseDiEstinzioneDelReatoODe182: Effetti delle cause di estinzione del reato o della pena: Salvo che la legge disponga altrimenti, l'estinzione del reato o della pena ha effetto soltanto per coloro ai 
+
+@183 libro_primo def
+ConcorsoDiCauseEstintive183: Concorso di cause estintive: Le cause di estinzione del reato o della pena operano nel momento in cui esse intervengono. Nel concorso di un
+
+@184 libro_primo def
+EstinzioneDellaPenaDiMorteDellErgastoloO184: Estinzione della pena di morte, dell'ergastolo o di pene temporanee nel caso di concorso: di reati. Quando, per effetto di amnistia, indulto o grazia, la pena di morte o dell'ergastolo è estinta, la p
+
+@185 libro_primo def
+RestituzioniERisarcimentoDelDanno185: Restituzioni e risarcimento del danno: Ogni reato obbliga alle restituzioni a norma delle leggi civili. Ogni reato, che abbia cagionato un danno patr
+
+@186 libro_primo def
+RiparazioneDelDannoMediantePubblicazione186: Riparazione del danno mediante pubblicazione della sentenza di condanna: Oltre quanto è prescritto nell'articolo precedente e in altre disposizioni di legge, ogni reato obbliga il col
+
+@187 libro_primo def
+IndivisibilitESolidarietNelleObbligazion187: Indivisibilità e solidarietà nelle obbligazioni ex delicto: L'obbligo alle restituzioni e alla pubblicazione della sentenza penale di condanna è indivisibile. I condannat
+
+@188 libro_primo def
+SpesePerIlMantenimentoDelCondannatoObbli188: Spese per il mantenimento del condannato. Obbligo di rimborso: Il condannato è obbligato a rimborsare all'erario dello Stato le spese per il suo mantenimento negli stabilime
+
+@189 libro_primo def
+Sequestro1189: Sequestro. (1): Lo Stato ha ipoteca legale sui beni dell'imputato a garanzia del pagamento: 1. delle pene pecuniarie e di ogni
+
+@190 libro_primo def
+GaranziaSuiBeniDellaPersonaCivilmenteRes190: Garanzia sui beni della persona civilmente responsabile: Le garanzie stabilite nell'articolo precedente si estendono anche ai beni della persona civilmente responsabil
+
+@191 libro_primo def
+OrdineDeiCreditiGarantitiConIpotecaOSequ191: Ordine dei crediti garantiti con ipoteca o sequestro: Sul prezzo degli immobili ipotecati e dei mobili sequestrati a norma dei due articoli precedenti, e sulle somm
+
+@192 libro_primo def
+AttiATitoloGratuitoCompiutiDalColpevoleD192: Atti a titolo gratuito compiuti dal colpevole dopo il reato: Gli atti a titolo gratuito, compiuti dal colpevole dopo il reato, non hanno efficacia rispetto ai crediti indi
+
+@193 libro_primo def
+AttiATitoloOnerosoCompiutiDalColpevoleDo193: Atti a titolo oneroso compiuti dal colpevole dopo il reato: Gli atti a titolo oneroso, eccedenti la semplice amministrazione ovvero la gestione dell'ordinario commercio, 
+
+@194 libro_primo def
+AttiDiTitoloOnerosoOGratuitoCompiutiDalC194: Atti di titolo oneroso o gratuito compiuti dal colpevole prima del reato: Gli atti a titolo gratuito, compiuti dal colpevole prima del reato, non sono efficaci rispetto ai crediti indi
+
+@195 libro_primo def
+DirittiDeiTerzi195: Diritti dei terzi: Nei casi preveduti dai tre articoli precedenti, i diritti dei terzi sono regolati dalle leggi civili.
+
+@196 libro_primo def
+ObbligazioneCivilePerLeMulteELeAmmendeIn196: Obbligazione civile per le multe e le ammende inflitte a persona dipendente: Nei reati commessi da chi è soggetto all'altrui autorità, direzione o vigilanza, la persona rivestita dell'aut
+
+@197 libro_primo def
+ObbligazioneCivileDellePersoneGiuridiche197: Obbligazione civile delle persone giuridiche per il pagamento delle multe e delle: ammende. Gli enti forniti di personalità giuridica, eccettuati lo Stato, le regioni, le province ed i comuni, 
+
+@198 libro_primo def
+EffettiDellEstinzioneDelReatoODellaPenaS198: Effetti dell'estinzione del reato o della pena sulle obbligazioni civili: Effetti dell'estinzione del reato o della pena sulle obbligazioni civili. L'estinzione del reato o della pena 
+
+@199 libro_primo def
+SottoposizioneAMisureDiSicurezzaDisposiz199: Sottoposizione a misure di sicurezza: disposizione espressa di legge: Nessuno può essere sottoposto a misure di sicurezza che non siano espressamente stabilite dalla legge e fuori 
+
+@200 libro_primo def
+ApplicabilitDelleMisureDiSicurezzaRispet200: Applicabilità delle misure di sicurezza rispetto al tempo, al territorio e alle persone: Le misure di sicurezza sono regolate dalla legge in vigore al tempo della loro applicazione. Se la legge del t
+
+@201 libro_primo def
+MisureDiSicurezzaPerFattiCommessiAllEste201: Misure di sicurezza per fatti commessi all'estero: Quando, per un fatto commesso all'estero, si procede o si rinnova il giudizio nello Stato , è applicabile la l
+
+@202 libro_primo def
+ApplicabilitDelleMisureDiSicurezza202: Applicabilità delle misure di sicurezza: Le misure di sicurezza possono essere applicate soltanto alle persone socialmente pericolose che abbiano comme
+
+@203 libro_primo def
+PericolositSociale203: Pericolosità sociale: Agli effetti della legge penale, è socialmente pericolosa la persona, anche se non imputabile o non punibile, 
+
+@205 libro_primo def
+ProvvedimentoDelGiudice205: Provvedimento del giudice: Le misure di sicurezza sono ordinate dal giudice nella stessa sentenza di condanna o di proscioglimento. Posso
+
+@206 libro_primo def
+ApplicazioneProvvisoriaDelleMisureDiSicu206: Applicazione provvisoria delle misure di sicurezza: Durante l'istruzione o il giudizio, può disporsi che il minore di età, o l'infermo di mente, o l'ubriaco abitu
+
+@207 libro_primo def
+RevocaDelleMisureDiSicurezzaPersonali207: Revoca delle misure di sicurezza personali: Le misure di sicurezza non possono essere revocate se le persone ad esse sottoposte non hanno cessato di esser
+
+@208 libro_primo def
+RiesameDellaPericolosit208: Riesame della pericolosità: Decorso il periodo minimo di durata, stabilito dalla legge per ciascuna misura di sicurezza, il giudice ripren
+
+@209 libro_primo def
+PersonaGiudicataPerPiFatti209: Persona giudicata per più fatti: Quando una persona ha commesso, anche in tempi diversi, più fatti per i quali siano applicabili più misure di 
+
+@210 libro_primo def
+EffettiDellaEstinzioneDelReatoODellaPena210: Effetti della estinzione del reato o della pena: L'estinzione del reato impedisce l'applicazione delle misure di sicurezza e ne fa cessare l'esecuzione. L'esti
+
+@211 libro_primo def
+EsecuzioneDelleMisureDiSicurezza211: Esecuzione delle misure di sicurezza: Le misure di sicurezza aggiunte a una pena detentiva sono eseguite dopo che la pena è stata scontata o è altri
+
+@211-bis libro_primo def
+RinvioDellEsecuzioneDelleMisureDiSicurez211bis: Rinvio dell'esecuzione delle misure di sicurezza: Alle misure di sicurezza previste dal presente capo si applicano gli articoli 146 e 147. Se la misura di sicur
+
+@212 libro_primo def
+CasiDiSospensioneODiTrasformazioneDiMisu212: Casi di sospensione o di trasformazione di misure di sicurezza: L'esecuzione di una misura di sicurezza applicata a persona imputabile è sospesa se questa deve scontare una p
+
+@213 libro_primo def
+StabilimentiDestinatiAllaEsecuzioneDelle213: Stabilimenti destinati alla esecuzione delle misure di sicurezza detentive. Regime: educativo, curativo e di lavoro. Le misure di sicurezza detentive sono eseguite negli stabilimenti a ciò desti
+
+@214 libro_primo def
+InosservanzaDelleMisureDiSicurezzaDetent214: Inosservanza delle misure di sicurezza detentive: Nel caso in cui la persona sottoposta a misura di sicurezza detentiva si sottrae volontariamente alla esecuzio
+
+@215 libro_primo def
+Specie215: Specie: Le misure di sicurezza personali si distinguono in detentive e non detentive. Sono misure di sicurezza detenti
+
+@216 libro_primo def
+AssegnazioneAUnaColoniaAgricolaOAdUnaCas216: Assegnazione a una colonia agricola o ad una casa di lavoro: Sono assegnati a una colonia agricola o ad una casa di lavoro: 1. coloro che sono stati dichiarati delinquenti
+
+@217 libro_primo def
+DurataMinima217: Durata minima: L'assegnazione a una colonia agricola o ad una casa di lavoro ha la durata minima di un anno. Per i delinquent
+
+@218 libro_primo def
+Esecuzione218: Esecuzione: Nelle colonie agricole e nelle case di lavoro i delinquenti abituali o professionali e quelli per tendenza son
+
+@219 libro_primo def
+AssegnazioneAUnaCasaDiCuraEDiCustodia219: Assegnazione a una casa di cura e di custodia: Il condannato, per delitto non colposo a una pena diminuita per cagione di infermità psichica o di cronica int
+
+@220 libro_primo def
+EsecuzioneDellOrdineDiRicovero220: Esecuzione dell'ordine di ricovero: L'ordine di ricovero del condannato nella casa di cura e di custodia è eseguito dopo che la pena restrittiva d
+
+@221 libro_primo def
+UbriachiAbituali221: Ubriachi abituali: Quando non debba essere ordinata altra misura di sicurezza detentiva, i condannati alla reclusione per delitti
+
+@222 libro_primo def
+RicoveroInUnManicomioGiudiziario222: Ricovero in un manicomio giudiziario: Nel caso di proscioglimento per infermità psichica, ovvero per intossicazione cronica da alcool o da sostanze 
+
+@223 libro_primo def
+RicoveroDeiMinoriInUnRiformatorioGiudizi223: Ricovero dei minori in un riformatorio giudiziario: Il ricovero in un riformatorio giudiziario è misura di sicurezza speciale per i minori, e non può avere durata
+
+@224 libro_primo def
+MinoreNonImputabile224: Minore non imputabile: Qualora il fatto commesso da un minore degli anni quattordici sia preveduto dalla legge come delitto, ed egli 
+
+@225 libro_primo def
+MinoreImputabile225: Minore imputabile: Quando il minore che ha compiuto gli anni quattordici, ma non ancora i diciotto, sia riconosciuto imputabile, 
+
+@226 libro_primo def
+MinoreDelinquenteAbitualeProfessionaleOP226: Minore delinquente abituale, professionale o per tendenza: Il ricovero in un riformatorio giudiziario è sempre ordinato per il minore degli anni diciotto, che sia delinq
+
+@227 libro_primo def
+RiformatoriSpeciali227: Riformatori speciali: Quando la legge stabilisce che il ricovero in un riformatorio giudiziario sia ordinato senza che occorra accer
+
+@228 libro_primo def
+LibertVigilata228: Libertà vigilata: La sorveglianza della persona in stato di libertà vigilata è affidata all'autorità di pubblica sicurezza. Alla
+
+@229 libro_primo def
+CasiNeiQualiPuEssereOrdinataLaLibertVigi229: Casi nei quali può essere ordinata la libertà vigilata: Oltre quanto è prescritto da speciali disposizioni di legge la libertà vigilata può essere ordinata: 1. nel ca
+
+@230 libro_primo def
+CasiNeiQualiDeveEssereOrdinataLaLibertVi230: Casi nei quali deve essere ordinata la libertà vigilata: La libertà vigilata è sempre ordinata: 1. se è inflitta la pena della reclusione per non meno di dieci anni: e
+
+@231 libro_primo def
+TrasgressioneDegliObblighiImposti231: Trasgressione degli obblighi imposti: Fuori del caso preveduto dalla prima parte dell'articolo 177, quando la persona in stato di libertà vigilata t
+
+@232 libro_primo def
+MinoriOInfermiDiMenteInStatoDiLibertVigi232: Minori o infermi di mente in stato di libertà vigilata: La persona di età minore o in stato di infermità psichica non può essere posta in libertà vigilata, se non qua
+
+@233 libro_primo def
+DivietoDiSoggiornoInUnoOPiComuniOInUnaOP233: Divieto di soggiorno in uno o più comuni o in una o più province: Al colpevole di un delitto contro la personalità dello Stato o contro l'ordine pubblico, ovvero di un delitto 
+
+@234 libro_primo def
+DivietoDiFrequentareOsterieEPubbliciSpac234: Divieto di frequentare osterie e pubblici spacci di bevande alcooliche: Il divieto di frequentare osterie e pubblici spacci di bevande alcooliche ha la durata minima di un anno. Il d
+
+@235 libro_primo def
+EspulsioneOdAllontanamentoDelloStraniero235: Espulsione od allontanamento dello straniero dallo Stato: Il giudice ordina l’espulsione dello straniero ovvero l’allontanamento dal territorio dello Stato del cittadin
+
+@236 libro_primo def
+SpecieRegoleGenerali236: Specie: regole generali: Sono misure di sicurezza patrimoniali, oltre quelle stabilite da particolari disposizioni di legge: 1. la cauz
+
+@237 libro_primo def
+CauzioneDiBuonaCondotta237: Cauzione di buona condotta: La cauzione di buona condotta è data mediante il deposito, presso la Cassa delle ammende, di una somma non inf
+
+@238 libro_primo def
+InadempimentoDellObbligoDiPrestareCauzio238: Inadempimento dell'obbligo di prestare cauzione: Qualora il deposito della somma non sia eseguito o la garanzia non sia prestata, il giudice sostituisce alla c
+
+@239 libro_primo def
+AdempimentoOTrasgressioneDellObbligoDiBu239: Adempimento o trasgressione dell'obbligo di buona condotta: Se, durante l'esecuzione della misura di sicurezza, chi vi è sottoposto non commette alcun delitto, ovvero alc
+
+@240 libro_primo def
+Confisca240: Confisca: Nel caso di condanna, il giudice può ordinare la confisca delle cose che servirono o furono destinate a commet
+
+
+# ==== ARTICOLI COMPLEMENTARI (circostanze, definizioni, estensioni, secondari) ====
+@242 complementari def
+CittadinoChePortaLeArmiControLoStatoIt242: Cittadino che porta le armi contro lo Stato italiano: Il cittadino che porta le armi contro lo Stato o presta servizio nelle forze armate di uno Stato in guerr
+
+@250 complementari def
+CommercioColNemico250: Commercio col nemico: Il cittadino, o lo straniero dimorante nel territorio dello Stato, il quale, in tempo di guerra e fuori d
+
+@254 complementari def
+AgevolazioneColposa254: Agevolazione colposa: Quando l'esecuzione del delitto preveduto dall'articolo precedente è stata resa possibile, o soltanto age
+
+@259 complementari def
+AgevolazioneColposa259: Agevolazione colposa: Quando l'esecuzione di alcuno dei delitti preveduti dagli articoli 255, 256, 257 e 258 è stata resa possi
+
+@268 complementari def
+ParificazioneDegliStatiAlleati268: Parificazione degli Stati alleati: Le pene stabilite negli articoli 247 e seguenti si applicano anche quando il delitto è commesso a danno d
+
+@270-sexies complementari def
+CondotteConFinalitDiTerrorismo270sexies: Condotte con finalità di terrorismo: 1. Sono considerate con finalità di terrorismo le condotte che, per la loro natura o contesto, possono ar
+
+@290-bis complementari def
+ParificazioneAlPresidenteDellaRepubbli290bis: Parificazione al Presidente della Repubblica di chi ne fa le veci: Agli effetti degli articoli 276, 277, 278, 279, 289, è parificato al presidente della Repubblica chi ne f
+
+@300 complementari def
+CondizioniDiReciprocit300: Condizioni di reciprocità: Le disposizioni degli articoli 295, 296, 297 e 299 si applicano solo in quanto la legge straniera garanti
+
+@301 complementari def
+ConcorsoDiReati301: Concorso di reati: Quando l'offesa alla vita, all'incolumità, alla libertà o all'onore, indicata negli articoli 276, 277, 27
+
+@304 complementari def
+CospirazionePoliticaMedianteAccordo304: Cospirazione politica mediante accordo: Quando più persone si accordano al fine di commettere uno dei delitti indicati nell'articolo 302, coloro 
+
+@305 complementari def
+CospirazionePoliticaMedianteAssociazio305: Cospirazione politica mediante associazione: Quando tre o più persone si associano al fine di commettere uno dei delitti indicati nell'articolo 302, c
+
+@306 complementari def
+BandaArmataFormazioneEPartecipazione306: Banda armata: formazione e partecipazione: Quando, per commettere uno dei delitti indicati nell'articolo 302, si forma una banda armata, coloro che 
+
+@308 complementari def
+CospirazioneCasiDiNonPunibilit308: Cospirazione: casi di non punibilità: Nei casi preveduti dagli articoli 304, 305 e 307 non sono punibili coloro i quali, prima che sia commesso
+
+@309 complementari def
+BandaArmataCasiDiNonPunibilit309: Banda armata: casi di non punibilità: Nei casi preveduti dagli articoli 306 e 307, non sono punibili coloro i quali, prima che sia commesso il 
+
+@310 complementari def
+TempoDiGuerra310: Tempo di guerra: Agli effetti della legge penale, nella denominazione di tempo di guerra è compreso anche il periodo di im
+
+@311 complementari def
+CircostanzaDiminuenteLieveEntitDelFatt311: Circostanza diminuente: lieve entità del fatto: Le pene comminate per i delitti preveduti da questo titolo sono diminuite quando per la natura, la specie
+
+@312 complementari def
+EspulsioneOdAllontanamentoDelloStranie312: Espulsione od allontanamento dello straniero dallo Stato: Il giudice ordina l’espulsione dello straniero ovvero l’allontanamento dal territorio dello Stato del cit
+
+@313 complementari def
+AutorizzazioneAProcedereORichiestaDiPr313: Autorizzazione a procedere o richiesta di procedimento: Per i delitti preveduti dagli articoli 244, 245, 265, 267, 269, 273, 274, 277, 278, 279, 287 e 288 non si
+
+@317-bis complementari def
+PeneAccessorie317bis: Pene accessorie: La condanna per il reato di cui agli articoli 314 e 317 importa l'interdizione perpetua dai pubblici uffi
+
+@319-bis complementari def
+CircostanzeAggravanti319bis: Circostanze aggravanti: La pena è aumentata se il fatto di cui all'art. 319 ha per oggetto il conferimento di pubblici impieghi o
+
+@319-ter complementari def
+CorruzioneInAttiGiudiziari319ter: Corruzione in atti giudiziari: Se i fatti indicati negli articoli 318 e 319 sono commessi per favorire o danneggiare una parte in un pro
+
+@320 complementari def
+CorruzioneDiPersonaIncaricataDiUnPubbl320: Corruzione di persona incaricata di un pubblico servizio: Le disposizioni dell'articolo 319 si applicano anche all'incaricato di un pubblico servizio; quelle di cu
+
+@321 complementari def
+PenePerIlCorruttore321: Pene per il corruttore: Le pene stabilite nel primo comma dell'articolo 318, nell'articolo 319, nell'articolo 319-bis, nell'art. 
+
+@322-bis complementari def
+PeculatoConcussioneCorruzioneEIstigazi322bis: Peculato, concussione, corruzione e istigazione alla corruzione di membri degli organi: delle Comunità europee e di funzionari delle Comunità europee e di Stati esteri. Le disposizioni degli ar
+
+@322-ter complementari def
+Confisca322ter: Confisca: Nel caso di condanna, o di applicazione della pena su richiesta delle parti a norma dell'articolo 444 del
+
+@323-bis complementari def
+CircostanzaAttenuante323bis: Circostanza attenuante: Se i fatti previsti dagli articoli 314, 316, 316-bis, 316-ter, 317, 318, 319, 320, 322, 322-bis e 323 son
+
+@335-bis complementari def
+DisposizioniPatrimoniali335bis: Disposizioni patrimoniali: Salvo quanto previsto dall'articolo 322-ter, nel caso di condanna per delitti previsti dal presente capo 
+
+@339 complementari def
+CircostanzeAggravanti339: Circostanze aggravanti: Le pene stabilite nei tre articoli precedenti sono aumentate se la violenza o la minaccia è commessa con 
+
+@350 complementari def
+AgevolazioneColposa350: Agevolazione colposa: Se la violazione dei sigilli è resa possibile, o comunque agevolata, per colpa di chi ha in custodia la c
+
+@357 complementari def
+NozioneDelPubblicoUfficiale357: Nozione del pubblico ufficiale: Agli effetti della legge penale, sono pubblici ufficiali coloro i quali esercitano una pubblica funzione 
+
+@358 complementari def
+NozioneDellaPersonaIncaricataDiUnPubbl358: Nozione della persona incaricata di un pubblico servizio: Agli effetti della legge penale, sono incaricati di un pubblico servizio coloro i quali, a qualunque tito
+
+@359 complementari def
+PersoneEsercentiUnServizioDiPubblicaNe359: Persone esercenti un servizio di pubblica necessità: Agli effetti della legge penale, sono persone che esercitano un servizio di pubblica necessità: 1. i priv
+
+@360 complementari def
+CessazioneDellaQualitDiPubblicoUfficia360: Cessazione della qualità di pubblico ufficiale: Quando la legge considera la qualità di pubblico ufficiale o di incaricato di un pubblico servizio, o di 
+
+@363 complementari def
+OmessaDenunciaAggravata363: Omessa denuncia aggravata: Nei casi preveduti dai due articoli precedenti, se la omessa o ritardata denuncia riguarda un delitto con
+
+@364 complementari def
+OmessaDenunciaDiReatoDaParteDelCittadi364: Omessa denuncia di reato da parte del cittadino: Il cittadino , che, avendo avuto notizia di un delitto contro la personalità dello Stato, per il quale la
+
+@370 complementari def
+SimulazioneOCalunniaPerUnFattoCostitue370: Simulazione o calunnia per un fatto costituente contravvenzione: Le pene stabilite negli articoli precedenti sono diminuite se la simulazione o la calunnia concerne un fa
+
+@375 complementari def
+CircostanzeAggravanti375: Circostanze aggravanti: Nei casi previsti dagli articoli 371-bis, 371-ter, 372, 373 e 374, la pena è della reclusione da tre a ot
+
+@376 complementari def
+Ritrattazione376: Ritrattazione: Nei casi previsti dagli articoli 371-bis, 371-ter, 372 e 373, il colpevole non è punibile se, nel procedi
+
+@383 complementari def
+InterdizioneDaiPubbliciUffici383: Interdizione dai pubblici uffici: La condanna per i delitti preveduti dagli articoli 380 e 381, prima parte, e 382 importa l'interdizione d
+
+@384 complementari def
+CasiDiNonPunibilit384: Casi di non punibilità: Nei casi previsti dagli articoli 361, 362, 363, 364, 365, 366, 369, 371-bis, 371-ter, 372, 373, 374 e 378
+
+@384-bis complementari def
+PunibilitDeiFattiCommessiInCollegament384bis: Punibilità dei fatti commessi in collegamento audiovisivo nel corso di una rogatoria: dall'estero. I delitti di cui agli articoli 366, 367, 368, 369, 371-bis, 372 e 373, commessi in occasione
+
+@416-ter complementari def
+ScambioElettoralePoliticoMafioso416ter: Scambio elettorale politico-mafioso: La pena stabilita dal primo comma dell'articolo 416-bis si applica anche a chi ottiene la promessa di vot
+
+@417 complementari def
+MisuraDiSicurezza417: Misura di sicurezza: Nel caso di condanna per i delitti preveduti dai due articoli precedenti, è sempre ordinata una misura di
+
+@425 complementari def
+CircostanzeAggravanti425: Circostanze aggravanti: Nei casi preveduti dagli articoli 423 e 424, la pena è aumentata se il fatto è commesso: 1. su edifici pu
+
+@446 complementari def
+ConfiscaObbligatoria446: Confisca obbligatoria: In caso di condanna per taluno dei delitti preveduti negli articoli 439, 440, 441 e 442, se dal fatto è d
+
+@448 complementari def
+PeneAccessorie448: Pene accessorie: La condanna per taluno dei delitti preveduti da questo capo importa la pubblicazione della sentenza. La c
+
+@456 complementari def
+CircostanzeAggravanti456: Circostanze aggravanti: Le pene stabilite negli articoli 453 e 455 sono aumentate se dai fatti ivi preveduti deriva una diminuzio
+
+@458 complementari def
+ParificazioneDelleCarteDiPubblicoCredi458: Parificazione delle carte di pubblico credito alle monete: Agli effetti della legge penale, sono parificate alle monete le carte di pubblico credito. Per carte di p
+
+@459 complementari def
+FalsificazioneDiValoriDiBolloIntroduzi459: Falsificazione di valori di bollo, introduzione nello Stato, acquisto, detenzione o messa in: circolazione di valori di bollo falsificati. Le disposizioni degli articoli 453, 455 e 457 si applicano a
+
+@463 complementari def
+CasiDiNonPunibilit463: Casi di non punibilità: Non è punibile chi, avendo commesso alcuno dei fatti preveduti dagli articoli precedenti, riesce, prima c
+
+@475 complementari def
+PenaAccessoria475: Pena accessoria: La condanna per alcuno dei delitti preveduti dai due articoli precedenti importa la pubblicazione della s
+
+@482 complementari def
+FalsitMaterialeCommessaDalPrivato482: Falsità materiale commessa dal privato: Se alcuno dei fatti preveduti dagli articoli 476, 477 e 478 è commesso da un privato, ovvero da un pubbli
+
+@488 complementari def
+AltreFalsitInFoglioFirmatoInBiancoAppl488: Altre falsità in foglio firmato in bianco. Applicabilità delle disposizioni sulle falsità: materiali. Ai casi di falsità su un foglio firmato in bianco diversi da quelli preveduti dai due articoli
+
+@491 complementari def
+DocumentiEquiparatiAgliAttiPubbliciAgl491: Documenti equiparati agli atti pubblici agli effetti della pena: Se alcuna delle falsità prevedute dagli articoli precedenti riguarda un testamento olografo, ovvero una c
+
+@491-bis complementari def
+DocumentiInformatici491bis: Documenti informatici: Se alcuna delle falsità previste dal presente capo riguarda un documento informatico pubblico o privato a
+
+@492 complementari def
+CopieAutenticheCheTengonoLuogoDegliOri492: Copie autentiche che tengono luogo degli originali mancanti: Agli effetti delle disposizioni precedenti, nella denominazione di atti pubblici e di scritture private s
+
+@493 complementari def
+FalsitCommesseDaPubbliciImpiegatiIncar493: Falsità commesse da pubblici impiegati incaricati di un servizio pubblico: Le disposizioni degli articoli precedenti sulle falsità commesse da pubblici ufficiali si applicano altre
+
+@493-bis complementari def
+CasiDiPerseguibilitAQuerela493bis: Casi di perseguibilità a querela: I delitti previsti dagli articoli 485 e 486 e quelli previsti dagli articoli 488, 489 e 490, quando conce
+
+@497-ter complementari def
+PossessoDiSegniDistintiviContraffatti497ter: Possesso di segni distintivi contraffatti: Le pene di cui all'articolo 497-bis si applicano anche, rispettivamente: 1) a chiunque illecitamente deti
+
+@503 complementari def
+SerrataEScioperoPerFiniNonContrattuali503: Serrata e sciopero per fini non contrattuali. (1): Il datore di lavoro o i lavoratori, che per fine politico commettono, rispettivamente, alcuno dei fatti p
+
+@504 complementari def
+CoazioneAllaPubblicaAutoritMedianteSer504: Coazione alla pubblica autorità mediante serrata o sciopero. (1): Quando alcuno dei fatti preveduti dall'articolo 502 è commesso con lo scopo di costringere l'autorità a d
+
+@505 complementari def
+SerrataOScioperoAScopoDiSolidarietODiP505: Serrata o sciopero a scopo di solidarietà o di protesta: Il datore di lavoro o i lavoratori, che, fuori dei casi indicati nei due articoli precedenti, commettono 
+
+@506 complementari def
+SerrataDiEsercentiDiPiccoleIndustrieOC506: Serrata di esercenti di piccole industrie o commerci. (1): Gli esercenti di aziende industriali o commerciali, i quali, non avendo lavoratori alla loro dipendenza, 
+
+@510 complementari def
+CircostanzeAggravanti510: Circostanze aggravanti: Quando i fatti preveduti dagli articoli 502 e seguenti sono commessi in tempo di guerra, ovvero hanno det
+
+@511 complementari def
+PenaPerICapiPromotoriEOrganizzatori511: Pena per i capi promotori e organizzatori: Le pene stabilite per i delitti preveduti dagli articoli 502 e seguenti sono raddoppiate per i capi, prom
+
+@512 complementari def
+PenaAccessoria512: Pena accessoria: La condanna per alcuno dei delitti preveduti dagli articoli 502 e seguenti importa l'interdizione da ogni
+
+@517-bis complementari def
+CircostanzaAggravante517bis: Circostanza aggravante: Le pene stabilite dagli articoli 515, 516 e 517 sono aumentate se i fatti da essi previsti hanno ad ogget
+
+@518 complementari def
+PubblicazioneDellaSentenza518: Pubblicazione della sentenza: La condanna per alcuno dei delitti preveduti dagli articoli 501, 514, 515, 516 e 517 importa la pubblicaz
+
+@524 complementari def
+RattoDiPersonaMinoreDegliAnniQuattordi524: Ratto di persona minore degli anni quattordici o inferma, a fine di libidine o di matrimonio: Le pene stabilite nei capoversi dei due articoli precedenti si applicano anche a chi commette il fatto iv
+
+@525 complementari def
+CircostanzeAttenuanti525: Circostanze attenuanti: Le pene stabilite nei tre articoli precedenti sono diminuite se il colpevole, prima della condanna, senza
+
+@529 complementari def
+AttiEOggettiOsceniNozione529: Atti e oggetti osceni: nozione: Agli effetti della legge penale, si considerano osceni gli atti e gli oggetti che, secondo il comune sent
+
+@537 complementari def
+TrattaDiDonneEDiMinoriCommessaAllEster537: Tratta di donne e di minori commessa all'estero: I delitti preveduti dai due articoli precedenti sono punibili anche se commessi da un cittadino in territ
+
+@538 complementari def
+MisuraDiSicurezza538: Misura di sicurezza: Alla condanna per il delitto preveduto dall'articolo 531 può essere aggiunta una misura di sicurezza dete
+
+@540 complementari def
+RapportoDiParentela540: Rapporto di parentela: Agli effetti della legge penale, quando il rapporto di parentela è considerato come elemento costitutivo 
+
+@544-sexies complementari def
+ConfiscaEPeneAccessorie544sexies: Confisca e pene accessorie: Nel caso di condanna, o di applicazione della pena su richiesta delle parti a norma dell'articolo 444 del
+
+@547 complementari def
+AbortoProcuratosiDallaDonna547: Aborto procuratosi dalla donna: La donna che si procura l'aborto è punita con la reclusione da uno a quattro anni.
+
+@549 complementari def
+MorteOLesioneDellaDonna549: Morte o lesione della donna: Se dal fatto preveduto dall'articolo 545 deriva la morte della donna, si applica la reclusione da dodici 
+
+@551 complementari def
+CausaDiOnore551: Causa di onore: Se alcuno dei fatti preveduti dagli articoli 545, 546, 547, 548, 549 e 550 è commesso per salvare l'onore
+
+@555 complementari def
+CircostanzaAggravanteEPenaAccessoria555: Circostanza aggravante e pena accessoria: Se il colpevole di uno dei delitti preveduti dall'articolo 545, dalla prima parte e dal secondo capoverso
+
+@557 complementari def
+PrescrizioneDelReato557: Prescrizione del reato: Il termine della prescrizione per il delitto preveduto dall'articolo precedente decorre dal giorno in cui
+
+@560 complementari def
+Concubinato560: Concubinato: [Il marito, che tiene una concubina nella casa coniugale, o notoriamente altrove, è punito con la reclusi
+
+@561 complementari def
+CasiDiNonPunibilitCircostanzaAttenuant561: Casi di non punibilità. Circostanza attenuante. (1): Nel caso preveduto dall'articolo 559, non è punibile la moglie quando il marito l'abbia indotta o eccitat
+
+@562 complementari def
+PenaAccessoriaESanzioneCivile1562: Pena accessoria e sanzione civile. (1): La condanna per alcuno dei delitti preveduti dagli articoli 556 e 560 importa la perdita dell'autorità ma
+
+@563 complementari def
+EstinzioneDelReato1563: Estinzione del reato. (1): Nei casi preveduti dagli articoli 559 e 560 la remissione della querela, anche se intervenuta dopo la con
+
+@569 complementari def
+PenaAccessoria569: Pena accessoria: La condanna pronunciata contro il genitore per alcuno dei delitti preveduti da questo capo importa la per
+
+@583-ter complementari def
+PenaAccessoria583ter: Pena accessoria: La condanna contro l'esercente una professione sanitaria per taluno dei delitti previsti dall'articolo 58
+
+@583-quater complementari def
+LesioniPersonaliGraviOGravissimeAUnPub583quater: Lesioni personali gravi o gravissime a un pubblico ufficiale in servizio di ordine: pubblico in occasione di manifestazioni sportive. Nell'ipotesi di lesioni personali cagionate a un pubbli
+
+@585 complementari def
+CircostanzeAggravanti585: Circostanze aggravanti: Nei casi preveduti dagli articoli 582, 583 e 584, la pena è aumentata da un terzo alla metà, se concorre 
+
+@590-bis complementari def
+ComputoDelleCircostanze590bis: Computo delle circostanze: Quando ricorre la circostanza di cui all'articolo 589, terzo comma, ultimo periodo, ovvero quella di cui 
+
+@596 complementari def
+EsclusioneDellaProvaLiberatoria596: Esclusione della prova liberatoria: Il colpevole dei delitti preveduti dai due articoli precedenti non è ammesso a provare, a sua discolpa, l
+
+@596-bis complementari def
+DiffamazioneColMezzoDellaStampa596bis: Diffamazione col mezzo della stampa: Se il delitto di diffamazione è commesso col mezzo della stampa le disposizioni dell'articolo precedente 
+
+@597 complementari def
+QuerelaDellaPersonaOffesaEdEstinzioneD597: Querela della persona offesa ed estinzione del reato: I delitti preveduti dagli articoli 594 e 595 sono punibili a querela della persona offesa. Se la persona 
+
+@598 complementari def
+OffeseInScrittiEDiscorsiPronunciatiDin598: Offese in scritti e discorsi pronunciati dinanzi alle autorità giudiziarie o amministrative: Non sono punibili le offese contenute negli scritti presentati o nei discorsi pronunciati dalle parti o d
+
+@599 complementari def
+RitorsioneEProvocazione599: Ritorsione e provocazione: Nei casi preveduti dall'articolo 594, se le offese sono reciproche, il giudice può dichiarare non punibil
+
+@600-sexies complementari def
+CircostanzeAggravantiEdAttenuanti600sexies: Circostanze aggravanti ed attenuanti: Nei casi previsti dagli articoli 600-bis, primo comma, 600-ter, primo comma, e 600-quinquies, nonché dagl
+
+@600-septies complementari def
+ConfiscaEPeneAccessorie600septies: Confisca e pene accessorie: Nel caso di condanna, o di applicazione della pena su richiesta delle parti, a norma dell'articolo 444 de
+
+@604 complementari def
+FattoCommessoAllEstero604: Fatto commesso all'estero: Le disposizioni di questa sezione, nonché quelle previste dagli articoli 609-bis, 609-ter, 609- quater e 
+
+@609-ter complementari def
+CircostanzeAggravanti609ter: Circostanze aggravanti: La pena è della reclusione da sei a dodici anni se i fatti di cui all'articolo 609-bis sono commessi: 1) 
+
+@609-sexies complementari def
+IgnoranzaDellEtDellaPersonaOffesa609sexies: Ignoranza dell'età della persona offesa: Quando i delitti previsti negli articoli 609-bis, 609-ter, 609-quater e 609-octies sono commessi in danno
+
+@609-septies complementari def
+QuerelaDiParte609septies: Querela di parte: I delitti previsti dagli articoli 609-bis, 609-ter e 609-quater sono punibili a querela della persona off
+
+@620 complementari def
+RivelazioneDelContenutoDiCorrispondenz620: Rivelazione del contenuto di corrispondenza, commessa da persona addetta al servizio: delle poste, dei telegrafi o dei telefoni. L'addetto al servizio delle poste, dei telegrafi o dei telefon
+
+@623-bis complementari def
+AltreComunicazioniEConversazioni623bis: Altre comunicazioni e conversazioni: Le disposizioni contenute nella presente sezione, relative alle comunicazioni e conversazioni telegrafich
+
+@625-bis complementari def
+CircostanzeAttenuanti625bis: Circostanze attenuanti: Nei casi previsti dagli articoli 624, 624-bis e 625 la pena è diminuita da un terzo alla metà qualora il 
+
+@627 complementari def
+SottrazioneDiCoseComuni627: Sottrazione di cose comuni: Il comproprietario, socio o coerede che, per procurare a sé o ad altri un profitto, si impossessa della c
+
+@639-bis complementari def
+CasiDiEsclusioneDellaPerseguibilitAQue639bis: Casi di esclusione della perseguibilità a querela: Nei casi previsti dagli articoli 631, 632, 633 e 636 si procede d'ufficio se si tratta di acque, terreni,
+
+@640-bis complementari def
+TruffaAggravataPerIlConseguimentoDiEro640bis: Truffa aggravata per il conseguimento di erogazioni pubbliche: La pena è della reclusione da uno a sei anni e si procede d'ufficio se il fatto di cui all'articolo 640 r
+
+@640-quater complementari def
+ApplicabilitDellArticolo322Ter640quater: Applicabilità dell'articolo 322-ter: Nei casi di cui agli articoli 640, secondo comma, numero 1, 640-bis e 640-ter, secondo comma, con esclusi
+
+@644-ter complementari def
+PrescrizioneDelReatoDiUsura644ter: Prescrizione del reato di usura: La prescrizione del reato di usura decorre dal giorno dell'ultima riscossione sia degli interessi che del
+
+@649 complementari def
+NonPunibilitEQuerelaDellaPersonaOffesa649: Non punibilità e querela della persona offesa, per fatti commessi a danno di congiunti: Non è punibile chi ha commesso alcuno dei fatti preveduti da questo titolo in danno: 1. del coniuge non l
+
+@677 complementari def
+OmissioneDiLavoriInEdificiOCostruzioni677: Omissione di lavori in edifici o costruzioni che minacciano rovina: Il proprietario di un edificio o di una costruzione che minacci rovina ovvero chi è per lui obbligato all
+
+@680 complementari def
+CircostanzeAggravanti680: Circostanze aggravanti: Le pene per le contravvenzioni prevedute dai due articoli precedenti sono aumentate se il fatto è commess
+
+@688 complementari def
+Ubriachezza688: Ubriachezza: Chiunque, in un luogo pubblico o aperto al pubblico, è colto in stato di manifesta ubriachezza è punito c
+
+@700 complementari def
+CircostanzeAggravanti700: Circostanze aggravanti: Nei casi preveduti dagli articoli precedenti, la pena è aumentata qualora concorra, taluna delle circosta
+
+@701 complementari def
+MisuraDiSicurezza701: Misura di sicurezza: Il condannato per alcuna delle contravvenzioni prevedute dagli articoli precedenti può essere sottoposto 
+
+@704 complementari def
+Armi704: Armi: Agli effetti delle disposizioni precedenti, per armi si intendono: 1. quelle indicate nel numero 1 del ca
+
+@713 complementari def
+MisuraDiSicurezza713: Misura di sicurezza: Il condannato per alcuna delle contravvenzioni prevedute dagli articoli precedenti può essere sottoposto 
+
+@719 complementari def
+CircostanzeAggravanti719: Circostanze aggravanti: La pena per il reato preveduto dall'articolo precedente è raddoppiata: 1. se il colpevole ha istituito o 
+
+@721 complementari def
+ElementiEssenzialiDelGiuocoDAzzardoCas721: Elementi essenziali del giuoco d'azzardo. Case da giuoco: Agli effetti delle disposizioni precedenti: sono giuochi d'azzardo quelli nei quali ricorre il fine di lu
+
+@722 complementari def
+PenaAccessoriaEMisuraDiSicurezza722: Pena accessoria e misura di sicurezza: La condanna per alcuna delle contravvenzioni prevedute dagli articoli precedenti importa la pubblicazione
