@@ -42,6 +42,11 @@ lake build deontic
 | Violations | Obligation derived but fact situation does not comply (`+∂_⊥`) |
 | Unresolved conflicts | Neither `O(a)` nor `O(~a)` provable; `[…]` asks for `≺` |
 | Abduction ("what-if") | Which **fact configurations** make a goal hold — `abduce 'P(Disclose)'` |
+| Sugar: `oneof[…]` | `oneof[Violence, Threat]` → a rule per disjunct (parse-time) |
+| Sugar: precondition block | `A, B { r1: … ; r2: … }` prepends shared antecedents |
+| Sugar: `overrides` | `… =>O Pena2 overrides Pena1` — lex specialis (Pena1 → not-obligated) |
+
+The three sugars are pure parse-time desugarings (see [architecture](docs/architecture.md#syntactic-sugar-parse-time-desugaring)); the proof calculus is untouched.
 
 ## Abduction: which facts make a goal hold?
 
@@ -104,6 +109,7 @@ cycles are errors too. (Selective `from … import a, b` isn't implemented yet.)
 
 | Path | Scenario |
 |------|----------|
+| `examples/codice_penale/` | **The Italian penal code in DDL** — offences decomposed into adjudicable elements; the flagship. Start at its `README.md` / `PRINCIPLES.md` |
 | `examples/ex1_license.ddl` | License contract (Governatori §4): commission, use, publish |
 | `examples/clauses/` | Single contract clauses, exercised via the `abduce` reverse search |
 | `examples/imports/` | Reusing a shared definitions module (`import` / `from … import *`) |
@@ -128,7 +134,9 @@ The reasoner is deliberately not a black box: output is proof-theoretic tags, no
 
 ## Documentation
 
-- [Architecture](docs/architecture.md) — modules, fixed-point engine, violations vs judge conflicts, JSON API
+- [Architecture](docs/architecture.md) — modules, fixed-point engine, bearers, syntactic sugar, violations vs judge conflicts, JSON API
+- [Codice Penale example](examples/codice_penale/README.md) — the Italian penal code in DDL; the methodology is in its `PRINCIPLES.md`
+- [Evaluation](docs/evaluation.md) — how to test that the tool beats LLM-only
 - [LLM prompts](prompts/README.md) — fact extraction from evidence; encoding law as `.ddl`
 
 ## License

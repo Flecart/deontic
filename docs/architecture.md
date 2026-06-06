@@ -176,6 +176,31 @@ superiority: r4 > r2, r2e > r2
 - Compensatory chain: `lit1 * lit2 * …`
 - Superiority: `r1 > r2` (comma-separated)
 
+### Syntactic sugar (parse-time desugaring)
+
+Three conveniences are **pure rewrites in `Parser.lean`** — they expand before
+`Theory` is built, so `ProofConditions`/`Extension` (the published calculus) are
+untouched. They were added to make large authored theories (see
+`examples/codice_penale/`) read like the source text.
+
+- **`oneof[a, b, c]`** in an antecedent → one rule per disjunct (`label$1`,
+  `label$2`, …); several `oneof`s give the cartesian product. Author-written
+  `superiority:` pairs naming an expanded label are rewritten across all
+  variants. Use for "violence **or** threat" (`oneof[Violence, Threat]`).
+- **Precondition block** — `<literals> {` … `}` (no keyword; a line ending in
+  `{` with no arrow opens it, `}` closes it, nestable). Each rule inside gets
+  the literals **prepended** to its antecedent, so a shared set of elements is
+  written once. Rules that should *not* inherit them (e.g. the prohibition) stay
+  outside the block.
+- **`overrides X`** suffix on a rule (after the conclusion; `overrides X, Y` for
+  several) → generates a **defeater** `~>O ~X`, gated on the rule's *plain-fact*
+  antecedents only (deontic `O(…)` literals dropped, so it activates no later
+  than the rule it overrides — sidestepping the frozen-snapshot ordering
+  hazard), and makes it superior to every rule concluding `X`. Effect: `X`
+  becomes *not-obligated* (`P`), **not** forbidden (`F`) — the overridden rule
+  stays in force, just out-prioritised. This is *lex specialis*: an aggravated
+  penalty supersedes the base one (e.g. `Ergastolo overrides Reclusione21`).
+
 ## CLI
 
 ```bash

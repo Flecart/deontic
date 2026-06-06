@@ -1,0 +1,418 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[numbers]{natbib}
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily\small,breaklines=true,frame=single,
+  columns=fullflexible,keepspaces=true}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+
+\title{Auditable Normative Infrastructure for AI Agent Societies:\\
+A Defeasible Deontic Engine and the Formalization Bottleneck}
+\author{Angelo Huang}
+\date{Draft --- \today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+As language models gain autonomy, they increasingly act as \emph{self-interested}
+agents on behalf of distinct principals rather than as cells of one cooperative
+organism. Such agents need institutions: shared, enforceable, disputable rules.
+We argue that the substrate for these institutions should be \emph{alignment-by-institution}---an
+explicit, inspectable, defeasible normative layer \emph{over} capable reasoners---rather
+than only alignment-by-internals (steering vectors, interpretability). We
+instantiate this with a defeasible deontic logic engine (Governatori-style proof
+theory) implemented in Lean~4 that compiles normative text into theories and
+computes obligations, permissions, prohibitions, compensatory remedies, violations,
+and \emph{unresolved} conflicts. We report a pilot evaluation and a sequence of
+small, adversarially-designed experiments. Three findings stand out. (i) On a
+penal-law verdict benchmark the engine and an LLM alone are near-tied on the
+\emph{guilty/not} question (100\% vs.\ 96\%), but diverge sharply on \emph{which}
+norm applies (offence-ID 83\% vs.\ 33\%; retrieval-augmented 0\%)---the metric an
+institution actually needs. (ii) The engine's labels are corroborated by
+\emph{independent} annotators from two different model families (gpt-4.1 89\%,
+DeepSeek~V3 83\%), addressing the charge of circular self-grading; and in an
+illustrative contract-breach scenario two self-interested LLM
+agents reach \emph{opposite} verdicts while the engine yields one verdict both can
+pre-commit to. (iii) The real bottleneck is the text$\rightarrow$logic
+front-end: unscaffolded single-shot formalization is unreliable (0/3), but the
+failure \emph{decomposes} into a cheap syntax layer (solved by a grammar spec)
+and a semantics layer that, given operator \emph{definitions}, generalizes
+correctly even to clause shapes never demonstrated (out-of-distribution
+contrary-to-duty: pass); a first multi-clause test, however, surfaces a
+compound-effect failure mode, leaving document-scale fidelity open. Throughout, a defining property holds: malformed
+formalizations \emph{fail loudly} (rejected by the loader) or are legible on
+inspection---a verification asset weight-space methods lack. (iv) We then stress this
+property adversarially: a self-interested scribe can poison an encoding so it loads yet
+escapes an obligation. An independent cross-family reviewer catches a blatant poison but
+only \textbf{1 of 3} subtle structural ones (a deleted compensation chain, an inverted
+superiority, a flipped condition)---so inspectability is necessary but \emph{not} sufficient.
+Grounding the reviewer in the engine's \emph{computed} verdict on an agreed probe (engine-assisted
+audit) restores detection to \textbf{3 of 3}, at some cost to precision---locating the defence in
+differential testing, not free-form review. We are explicit that
+several studies are single illustrative scenarios, and that the natural-language$\rightarrow$logic
+formalization itself is studied more thoroughly by concurrent work; our novel emphasis is the
+institutional and adversarial framing.
+\end{abstract}
+
+\section{Introduction}
+Most multi-agent LLM systems today behave as a single organism optimizing one
+shared objective. But the more valuable---and harder---regime is a \emph{society}
+of agents with different, sometimes conflicting, goals that nonetheless benefit
+from exchange, specialization, and contracting. Human societies enable this with
+institutions and the rule of law: machinery to resolve disputes, apply rules, and
+identify which norms govern a case. We ask what the equivalent machinery is for AI
+agents, and argue for an \emph{engineered} normative layer rather than an organically
+evolved one.
+
+The dominant alignment toolkit operates on a single model's internals: steering
+vectors, mechanistic interpretability, constitutional training. These are valuable
+but address the wrong locus for \emph{inter-agent} norms. ``Agent~$A$ breached its
+delivery obligation to Agent~$B$'' is not a fact in any one network's activations;
+it is a relational fact about a joint history plus a rule. We therefore explore
+\emph{alignment-by-institution}: an explicit, inspectable, machine-checkable
+normative layer that sits \emph{over} capable reasoners and that self-interested
+parties can agree to in advance.
+
+\paragraph{Contributions.}
+Using deontic norms to govern agents is an old idea (\S\ref{sec:related}); we do not claim the
+formalization task itself as new (cf.\ \citet{horner2025robust}). Our contributions are:
+(1) an \emph{institutional} reframing for \emph{self-interested} agents---the engine as a
+\emph{commitment device} two parties pre-commit to, evidenced by a contract-breach scenario where
+self-interested LLM agents diverge but the engine does not (E3); (2) an \emph{adversarial}
+threat model and a first result (E12): a self-interested scribe can poison the \texttt{.ddl} so it
+loads yet escapes a penalty, but an independent cross-family reviewer catches it---auditability as
+a \emph{security} property, which prior NorMAS and LLM-formalization work does not study;
+(3) a backward-generated evaluation isolating \emph{norm identification} from \emph{verdict},
+showing the engine's measurable edge is the former; and (4) a small replication that decomposes the
+text$\rightarrow$logic bottleneck into a solved syntax layer and a narrower semantics layer.
+The engine itself (Lean~4: Hohfeldian bearers, compensatory chains, \texttt{[JUDGE]} conflicts)
+is an implementation of an existing calculus, not a contribution.
+
+\paragraph{Methodological note.}
+This paper was developed through a structured adversarial debate between a
+proponent persona and a skeptic persona favoring non-symbolic methods. Each
+contested claim was settled, where possible, by a small experiment rather than
+argument. Conceded points are reported as such; the skeptic won at least one round
+(the formalization bottleneck), and the paper reflects that.
+
+\section{The Engine}
+We use defeasible deontic logic in the proof-theoretic formulation of Governatori
+(Figure~\ref{fig:pipeline} shows the full pipeline).
+A theory is a set of labelled rules with strengths (strict \texttt{->}, defeasible
+\texttt{=>}, defeater \texttt{\textasciitilde>}), a superiority relation between
+rule labels, and a separation between constitutive and prescriptive ($\dots O$)
+rules. Conclusions may be \emph{compensatory chains} $a * b * c$: $O(a)$, and on
+violation of $a$, $O(b)$, etc.\ (contrary-to-duty). The engine computes a per-bearer
+fixed point and reports, per literal, whether it is definitely provable in each
+deontic mode. Two outputs matter institutionally: \texttt{[JUDGE]} flags conflicts
+the rules under-determine (the system refuses to guess the law), and a
+\emph{non-compensable violation} flags a breach with no remaining remedy.
+
+\paragraph{Grounding.} Atom names are opaque, so every used atom must carry a
+natural-language description; the loader \emph{refuses} undescribed atoms. This
+makes a theory's meaning legible and a wrong rule diagnosable by reading it---a
+property we exploit below.
+
+\begin{figure}[h]\centering
+\begin{tikzpicture}[
+  font=\small,
+  box/.style={draw, rounded corners, align=center, inner sep=4pt, minimum height=9mm},
+  out/.style={draw, align=center, inner sep=3pt, fill=black!4},
+  >={Stealth[]}]
+\node[box] (text) {Normative\\text};
+\node[box, right=10mm of text] (llm) {LLM\\formalizer\\{\scriptsize(grammar spec)}};
+\node[box, right=10mm of llm] (ddl) {\texttt{.ddl} theory\\{\scriptsize grounded atoms +\\defeasible rules}};
+\node[box, right=10mm of ddl] (eng) {Deontic engine\\{\scriptsize per-bearer\\fixed point}};
+\node[out, right=10mm of eng] (res) {$O/P/F$, comp.\\chains; \texttt{[JUDGE]};\\non-comp.\ violation};
+\draw[->] (text) -- (llm);
+\draw[->] (llm) -- (ddl);
+\draw[->] (ddl) -- (eng);
+\draw[->] (eng) -- (res);
+\node[align=center, below=6mm of ddl, text width=42mm] (load)
+  {\scriptsize\emph{loader rejects undescribed atoms / malformed rules} $\Rightarrow$ \textbf{loud failure}};
+\draw[->, dashed] (ddl) -- (load);
+\end{tikzpicture}
+\caption{Pipeline. The LLM is the (fallible) \emph{scribe}; the engine is the
+deterministic reasoner. The auditability property (dashed) is that bad theories are
+rejected at load or are legible in the \texttt{.ddl}, never silently wrong.}
+\label{fig:pipeline}
+\end{figure}
+
+\section{Experiments}
+Experiments use \texttt{gpt-4.1} where an LLM is required, unless noted (E9 uses
+DeepSeek~V3). Datasets and harness are small (pilot scale); we are explicit about
+$n$ and treat results as directional.
+
+\subsection{Norm identification vs.\ verdict (E1)}
+We build a penal-law benchmark by \emph{backward generation}: the engine over an
+encoded slice of the Italian penal code is the gold oracle; we pick an atom
+configuration, read off the engine's verdict as the label, then dress it as an
+Italian narrative with no element-phrasing or leakage, including minimal pairs that
+flip one decisive element. We compare three arms: LLM-only, retrieval-augmented
+(RAG), and LLM+engine (deontic).
+
+\begin{table}[h]\centering
+\begin{tabular}{lccc}
+\toprule
+Arm & Verdict acc. & Offence-ID & Pair-acc.\\
+\midrule
+deontic   & \textbf{100\%} [88--100] & \textbf{83\%} (15/18) [61--94] & 100\% (11/11) [74--100]\\
+llm\_only  & 96\% [82--99]  & 33\% (6/18) [16--56]  & 91\% (10/11) [62--98]\\
+rag       & 96\% [82--99]  & 0\% (0/18) [0--18]    & 91\% (10/11) [62--98]\\
+\bottomrule
+\end{tabular}
+\caption{Pilot eval, $n{=}28$ (offence-ID over the 18 offence items; 11 minimal pairs).
+Brackets are Wilson 95\% confidence intervals. Grounding accuracy (deontic) is 94\%
+(92/98 atoms). RAG \emph{underperforms} the bare LLM on offence-ID, evidence against
+``just retrieve the statute.''}
+\label{tab:e1}
+\end{table}
+
+Three reads, with the CIs disciplining each. (i) The \emph{verdict} gap is not
+distinguishable---all three intervals overlap heavily---consistent with the verdict
+question (``was a crime committed'') being nearly guessable from narrative tone. (ii)
+The \emph{offence-ID} gap \emph{is} real: deontic $83\%$ [61--94] vs.\ llm\_only $33\%$
+[16--56] have non-overlapping intervals even at $n{=}18$, and RAG at $0\%$ [0--18] is
+cleanly separated. This is the institutional question---\emph{which} offence (lex
+specialis) governs, hence the penalty and remedy. A caveat we make explicit (and
+revisit in \S\ref{sec:discussion}): a manual audit of the llm\_only misses finds
+$\sim$80\% are the \emph{correct} offence named non-canonically (e.g.\ the element
+atom, or an invented synonym), so this gap is better read as the engine performing
+\emph{canonicalization} than as superior legal reasoning. (iii) We \emph{decline} to claim the
+minimal-pair difference ($100\%$ vs.\ $91\%$): at $n{=}11$ the intervals overlap and the
+difference is not statistically supported, a point we flag rather than oversell.
+
+\subsection{Breaking circularity (E2)}
+Objection: the engine grades the LLM against gold the engine itself produced. We
+test this with an \emph{independent} annotator: \texttt{gpt-4.1} given the full
+cross-offence catalogue and room to deliberate, never touching the engine. It agrees
+with the engine's offence-ID gold on \textbf{16/18 (89\%)}. The two disagreements are
+illuminating, not damning: one is a genuine interpretive fork (an aggravation the
+config did not set)---exactly the \texttt{[JUDGE]} case; the other is a premeditation
+$\rightarrow$ life-sentence escalation the \emph{independent model also missed} and
+only the engine's enforced lex-specialis caught.
+
+A sharper version of the objection is that this annotator is \emph{itself} \texttt{gpt-4.1},
+the same model family as the arm under test, so agreement could reflect shared priors rather
+than legal correctness. We therefore repeat the check with a \emph{different} model family,
+DeepSeek~V3, which agrees with the engine gold on \textbf{15/18 (83\%)}. Two independent model
+families thus corroborate the gold at 83--89\%, which addresses the same-model concern. Notably,
+the premeditation$\rightarrow$\texttt{Ergastolo} escalation is missed by \emph{both} families and
+caught only by the engine---a model-independent instance of enforced lex specialis; DeepSeek's
+other two misses are genuine legal errors, consistent with a weaker legal reasoner that is still
+83\% aligned. Finally, single-pass offence-ID was 33\% but deliberation-with-canonical-vocabulary
+reaches 83--89\%: the gap is closed by supplying canonical vocabulary and forcing
+element-by-element reasoning---which is what the engine institutionalizes.
+
+\subsection{The commitment device (E3)}
+We encode a two-party contract: the seller owes on-time delivery with a contrary-to-duty
+late penalty (\texttt{=>O@Seller DeliverOnTime * PayPenalty}); the buyer owes payment
+on delivery. In the ``delivered late'' scenario the engine deterministically derives
+$O(\text{PayPenalty})$. We then ask \texttt{gpt-4.1} to argue as each \emph{self-interested}
+party. The seller's counsel argues the penalty is \emph{not} owed (invoking
+\emph{exceptio non adimpleti contractus}---a real doctrine, but a cross-default the
+contract does not encode); the buyer's counsel argues it is; a neutral arbiter and the
+engine agree it is. The parties \emph{diverge}; the engine is the contract-as-written
+referee both can pre-commit to before knowing their side. The seller's defence also
+localizes the next problem: whether the \emph{exceptio} applies is a \emph{formalization}
+question the theory settles up front.
+
+\subsection{The formalization bottleneck, decomposed (E4--E8)}
+We probe text$\rightarrow$logic fidelity end-to-end: prose in, \texttt{.ddl} out, loaded
+in the engine and scored against a gold verdict.
+
+\begin{itemize}
+\item \textbf{E4 (scaffolded, simple):} given atom-name hints and the CTD pattern,
+the model round-trips a clause to valid \texttt{.ddl} reproducing the gold verdict. Feasible---but
+the scaffolding may be doing the work.
+\item \textbf{E5 (unscaffolded, textbook clause):} a prohibition with a gated permission.
+The model emits fluent-looking but \emph{semantically wrong} logic: it reifies permission
+into an obligated proposition $O(\text{permitted})$ instead of using the permission operator
+on the act, and inverts the superiority direction. Loads, but wrong.
+\item \textbf{E6 (replication, 2 fresh clauses):} the E5 error does not recur (both use
+\texttt{\textasciitilde>} correctly) but both \emph{fail to load} on new errors---``\&'' for
+conjunction where the grammar wants a comma, and superiority over labels never assigned.
+Unscaffolded tally: \textbf{0/3 correct}.
+\item \textbf{E7 (layer isolation):} re-running the E6 clauses with a syntax spec plus one
+worked permission-exception example yields \textbf{2/2}, syntactically and semantically
+correct. The syntax layer is scaffolding-solvable; the semantics error vanishes given a
+template.
+\item \textbf{E8 (out-of-distribution):} the grammar spec \emph{defines} the CTD ``$*$''
+operator but the worked example never shows it; the test clause (late rent $\rightarrow$
+rent + penalty) requires it. \textbf{Pass:} the model deploys ``$*$'' correctly and the
+engine derives the gold verdict. Generalization from a \emph{definition}, not a demonstration.
+Caveat: the encoding is non-minimal (a redundant parallel rule and a spurious superiority)---correct
+but inelegant, and legibly so.
+\item \textbf{E9 (second model, DeepSeek~V3 via OpenRouter):} re-running E8 on a non-OpenAI
+model, the \emph{semantic} generalization replicates---it deploys ``$*$'' correctly from the
+definition---but the file \emph{fails to load} on a surface lexical-consistency bug (a misspelled
+atom name in a rule vs.\ its declaration), which the engine flags exactly. Both models independently
+add the \emph{same} redundant rule and spurious superiority. So semantics-generalization is
+cross-model; \emph{surface-fidelity reliability is model-dependent} (the stronger model loads, the
+weaker trips on lexical consistency); and the minimality issue is model-independent.
+\end{itemize}
+
+\textbf{E10 (multi-clause scale).} A five-clause contract with \emph{interacting}
+defeasibility (non-payment derogates the service duty; a security incident triggers a
+notify$*$compensate chain; force majeure derogates). The model produces 4/5 clauses
+correctly---including the contrary-to-duty chain and \emph{both} superiority relations---and,
+notably, keeps the atom vocabulary \emph{consistent} across eight atoms and five rules, so
+cross-clause coreference does not break. The failure is localized to the single clause
+requiring a \emph{compound} effect (permit suspension \emph{and} release the service
+obligation): the model crams two conclusions into one rule, and the theory fails to load.
+A new failure mode---multi-effect clauses (one clause maps to $\geq 2$ rules)---appears under
+composition, but is caught by the loader, and the global structure (superiorities, bearers,
+shared vocabulary) is right. (We also observed the model intermittently emit a \emph{filename}
+in place of theory content on this larger task: schema adherence itself degrades with prompt
+complexity.)
+
+\paragraph{Arc.} Unscaffolded 0/3 $\rightarrow$ syntax-spec + isomorphic example 2/2
+$\rightarrow$ spec-defined-operator OOD 1/1 $\rightarrow$ multi-clause 4/5 clauses (one
+compound-effect clause fails). The bottleneck is real but \emph{decomposes}:
+a cheap syntax layer (grammar spec / constrained decoding) and a semantics layer that,
+given operator definitions, is more tractable than the raw 0/3 suggested. Across all
+failures the system \emph{fails loud or legible}: malformed theories are rejected by the
+loader; wrong-but-loadable ones are diagnosable by reading the \texttt{.ddl}. This
+auditability is the structural advantage over weight-space encodings of the same norm.
+
+\subsection{Adversarial formalization (E12)}
+Every experiment above assumes a cooperative scribe. In a society of self-interested agents
+the party who writes the \texttt{.ddl} has motive to cheat. We test this: the seller's agent is
+asked to encode the late-delivery contract so it \emph{loads} yet the penalty never applies.
+The attack \emph{succeeds}---the model smuggles a fabricated precondition (penalty owed only if
+delivery is ``certified by an independent moderator,'' a condition absent from the contract) into
+the contrary-to-duty rule, so the late-delivery scenario yields no $O(\text{Penalty})$. But the
+\emph{defence also succeeds}: an independent model from a different family (DeepSeek~V3), given the
+prose contract and the poisoned \texttt{.ddl}, flags the smuggled condition precisely. The
+auditability property thus extends to the adversarial setting for the reason it holds elsewhere:
+the manipulation is a \emph{visible extra atom} in an inspectable artifact, not a hidden weight
+perturbation. The institutional reading is that one does not trust the scribe; the counterparty's
+(or a neutral) agent audits the \texttt{.ddl} against the agreed prose.
+
+This optimism does not survive harder attacks. In E13 we hand-author three \emph{subtle}
+poisons that add \emph{no new vocabulary}---a silently deleted compensation chain (the
+\texttt{* PayPenalty} simply dropped), an inverted superiority (a no-penalty rule made to defeat
+the contrary-to-duty rule), and a condition flip (penalty owed only if delivery is \emph{on
+time})---each of which loads and lets the late-delivery penalty escape. The same independent
+reviewer now catches only \textbf{1 of 3}: it flags the inverted superiority (which adds a
+visible rule) but misses both the deletion and the condition flip; on the latter it even restates
+the contract correctly and then declares the faithless encoding faithful. The lesson is sharp:
+\emph{inspectability is necessary but not sufficient}. A representation being legible does not mean
+a naive single-pass reviewer detects a structural manipulation in it. Robust adversarial audit is
+therefore the central open problem for this approach---and the natural direction is
+\emph{engine-assisted} audit (e.g.\ differential testing: have the engine compute the theory's
+verdict on agreed probe scenarios and confront the reviewer with ``this encoding yields \emph{no}
+penalty on late delivery''), turning shallow prose-vs-code review into grounded review.
+
+We test that fix directly (E14): we run the engine on the agreed late-delivery probe and hand the
+reviewer its \emph{computed verdict} as a neutral fact (``$O(\text{PayPenalty})$ holds: yes/no'')
+alongside the prose and the \texttt{.ddl}. Detection of the three structural attacks rises from
+$1/3$ to \textbf{$3/3$}, stable across three runs---the reviewer now connects ``the contract
+requires the penalty when late'' with ``this theory yields no penalty when late.'' The cost is a
+precision one: in $1$ of $3$ runs the reviewer also flagged the \emph{faithful} control (a false
+positive), so grounding raises recall reliably but needs calibration. The engine's role in
+adversarial audit is thus not to out-reason the LLM but to \emph{ground} it: a deterministic
+behavioural verdict on an agreed probe converts a manipulation invisible in the syntax into a
+discrepancy the reviewer can see. We report E12--E14 as single illustrative attacker/reviewer
+studies (one model each, small per-cell $n$), not distributions; the strength is the
+\emph{direction}---inspectability plus engine-grounded differential audit---not the point estimates.
+
+\section{Discussion: what is settled, what is open}\label{sec:discussion}
+\textbf{Settled (on this evidence).} The engine's defensible value is not ``better legal
+reasoning'' than the LLM---on near-saturated verdicts they tie, and $\sim$80\% of the LLM's
+offence-ID ``errors'' in early analysis were correct reasoning under non-canonical atom names.
+Its value is \emph{canonicalization} (binding correct-but-idiolectal reasoning to one shared,
+machine-checkable vocabulary), \emph{enforced lex specialis} (escalations LLMs silently drop),
+\emph{conflict surfacing} (\texttt{[JUDGE]}), \emph{commitment-device adjudication} for
+self-interested parties, and \emph{auditability}. These make it a plausible \emph{protocol layer}
+for agent institutions, orthogonal to---not competing with---interpretability and steering.
+
+\textbf{Open (the central problem).} Formalization fidelity at scale. Our evidence is
+clause-level and small-$n$. A first multi-clause probe (E10) is encouraging on global structure
+(superiorities, bearers, consistent shared vocabulary across five rules) but exposes a
+compound-effect failure mode (one clause $\mapsto \geq 2$ rules) and degraded schema adherence.
+Still untested: contracts with deep cross-references and nested defeasibility at document scale;
+the minimality of encodings under composition; broad model coverage; adversarial clauses designed
+to induce \emph{silent} omissions (we have seen only loud ones so far). The decisive future
+benchmark contains structurally novel, multi-effect, and document-scale clauses, scored
+end-to-end against engine-gold verdicts.
+
+\section{Limitations}
+$n$ is pilot-scale (28 eval items; 1--3 clauses per formalization condition). The eval verdict/offence arms (E1)
+use \texttt{gpt-4.1}; the independent-annotator check (E2) and the formalization OOD test (E9)
+are run on both \texttt{gpt-4.1} and DeepSeek~V3, but broader model coverage is still thin.
+Quantitative claims remain directional pending larger samples. The penal-law gold is the
+engine's own output (mitigated, not eliminated, by the independent-annotator check). The
+commitment-device and formalization studies are illustrative single scenarios, not distributions.
+We deliberately report these rather than over-claim.
+
+\section{Related Work}\label{sec:related}
+\paragraph{Defeasible deontic logic.} We build directly on the proof-theoretic tradition of
+defeasible deontic logic, in particular reasoning about violations and contrary-to-duty
+obligations via a Gentzen-style system~\citep{governatori2006violations} and recent treatments
+of compensatory chains that avoid pragmatic oddity~\citep{governatori2024oddity}. Our engine
+is an implementation of this calculus; our contribution is not the logic but its use as
+institutional infrastructure and an empirical study of the natural-language front-end. We model
+directed (party-bearing) obligations using Hohfeld's analysis of jural
+relations~\citep{hohfeld1913}.
+
+\paragraph{Alignment by training vs.\ by institution.} Constitutional AI~\citep{bai2022constitutional}
+trains a fixed set of principles \emph{into} a model---a \emph{civil-law} stance, where the rules
+are compiled once and the model is trusted to apply them. We explore the complementary
+\emph{common-law} stance: an explicit, external, case-extensible normative layer that adjudicates
+\emph{between} agents and surfaces, rather than silently resolves, genuine conflicts. This is
+orthogonal to weight-space alignment: a normative fact about two agents is not located in one
+model's parameters.
+
+\paragraph{Scalable oversight.} AI safety via debate~\citep{irving2018debate} and
+weak-to-strong generalization~\citep{burns2023weak} scale supervision with model capability.
+We treat these as complementary, not competing: debate produces a \emph{winner}; an institution
+produces a \emph{contract both parties agreed to in advance}. For self-interested agents the latter,
+not the former, is the trust primitive.
+
+\paragraph{Normative MAS and electronic institutions.} Using deontic norms to govern agent
+societies is not new: normative multi-agent systems~\citep{boella2006normative} and electronic
+institutions with enforcement middleware~\citep{esteva2004ameli} pursued exactly this---obligations,
+permissions, and prohibitions coordinating self-interested agents in electronic commerce---two
+decades ago. The classical setting, however, assumed agents are \emph{purpose-built software} and
+norms are \emph{hand-authored} by an institution designer; the open problem of feeding messy
+natural language into the formal layer was left aside because there was no general text understander.
+Our premise is that this gap is now the crux: the agents are general LLM reasoners, and the LLM is
+also the formalization front-end. We therefore inherit the NorMAS goals but relocate the hard
+problem to the text$\rightarrow$logic bridge and its adversarial robustness.
+
+\paragraph{LLM-to-deontic-logic formalization.} Closest to our formalization experiments is
+\citet{horner2025robust}, who formalize legal text into defeasible deontic logic with a multi-stage
+LLM pipeline and a dedicated refinement step, evaluated on a real statute across model
+configurations; related auto-formalization-with-verification efforts target regulation such as
+GDPR~\citep{nguyen2026gdpr}. \textbf{We do not claim the formalization task as novel: \citet{horner2025robust}
+study it more thoroughly than our small probes (E4--E11), and our results are best read as a
+small replication and decomposition (syntax vs.\ semantics layers).} Our distinct contributions are
+elsewhere: (i) the \emph{institutional} framing for self-interested agents---the engine as a
+\emph{commitment device} both parties pre-commit to (E3); (ii) the \emph{adversarial} threat model
+(E12)---a self-interested scribe poisons the encoding, and an independent cross-family reviewer
+catches it---which neither the NorMAS nor the LLM-formalization literature addresses; and (iii) the
+separation of \emph{norm identification} from \emph{verdict} and the auditability-as-security
+argument. This connects to autoformalization in mathematics~\citep{wu2022autoformalization}, with
+enforceable norms rather than theorems as the target, and to LegalBench~\citep{guha2023legalbench},
+which measures legal \emph{reasoning} where we measure \emph{formalization}.
+
+\section{Conclusion}
+An explicit, auditable, defeasible normative layer is a credible substrate for institutions
+among self-interested AI agents. The calculus is sound and the adjudication properties are
+real; the binding constraint is the natural-language$\rightarrow$logic front-end, which our
+experiments show is neither trivial nor hopeless---it decomposes into a solved syntax layer and
+a tractable, definition-driven semantics layer, with scale and minimality as the genuine
+remaining risks. Building and stress-testing a structurally-diverse formalization benchmark is
+the next step.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

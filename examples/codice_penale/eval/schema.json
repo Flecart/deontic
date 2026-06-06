@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Flecart/deontic/examples/codice_penale/eval/schema.json",
+  "title": "Deontic eval dataset item",
+  "description": "One labelled penal-law scenario. `gold` is computed by the engine over `atoms_gold`; everything else is authored/validated.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "tier", "source", "theory", "narrative", "question",
+               "atoms_gold", "gold", "distractor", "prior_divergent"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z_]+-[0-9]{3}$",
+      "description": "offence-seq, e.g. furto-001"
+    },
+    "tier": {"type": "integer", "minimum": 1, "maximum": 4},
+    "source": {
+      "type": "string",
+      "pattern": "^(synthetic|real:.+|news:.+)$"
+    },
+    "theory": {"type": "string", "description": "relative path to the .ddl"},
+    "narrative": {"type": "string", "minLength": 1},
+    "question": {"type": "string", "minLength": 1},
+    "atoms_gold": {
+      "type": "object",
+      "description": "{AtomName: 0|1} — the engine --assume config",
+      "minProperties": 1,
+      "additionalProperties": {"type": "integer", "enum": [0, 1]},
+      "propertyNames": {"pattern": "^[A-Za-z][A-Za-z0-9]*$"}
+    },
+    "gold": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verdict", "offence", "penalty_status", "decisive"],
+      "properties": {
+        "verdict": {"type": "string", "enum": ["offence", "no-offence", "unresolved"]},
+        "offence": {"type": ["string", "null"]},
+        "penalty_status": {"type": "string"},
+        "decisive": {"type": "string"}
+      }
+    },
+    "minimal_pair": {"type": ["string", "null"]},
+    "distractor": {"type": "boolean"},
+    "prior_divergent": {"type": "boolean"}
+  }
+}

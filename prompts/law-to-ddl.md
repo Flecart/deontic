@@ -35,6 +35,20 @@ Prescriptive arrows carry `O`; constitutive arrows omit it.
   `O(a)`, `F(a)` (= `O(~a)`), `P(a)`, `Ps(a)`, `Pw(a)`.
 - Compensatory chain `c1 * c2 * …`: `c2` becomes obligatory only once `c1` is
   obligatory **and** violated (remedy-after-breach), e.g. `r2: =>O ~publish * remove`.
+- Bearer (prescriptive arrows only): `=>O@Party` names the duty-bearer
+  (`precetto: =>O@Anyone ~Kill`, `sanzione: Kill =>O@Judge Punish`).
+
+## Sugar (use to keep theories readable; all parse-time)
+
+- **`oneof[a, b]`** in an antecedent → one rule per disjunct. Use for "violence
+  **or** threat": `r: oneof[Violence, Threat] =>O@Judge X`.
+- **Precondition block** — `A, B { … }` prepends `A, B` to every rule inside, so
+  shared elements are written once. Keep the prohibition *outside* the block.
+- **`overrides X`** suffix → the rule's conclusion supersedes `X` (lex specialis;
+  `X` becomes not-obligated). Use for an aggravated penalty over a base one.
+
+A decomposed offence then reads:
+`Elem1, Elem2, Mens { tipico: =>O@Judge Punishable ; pena: O(Punishable) =>O@Judge Penalty overrides BasePenalty }`.
 
 ## Superiority
 
