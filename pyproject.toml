@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deontic-py"
+version = "0.1.0"
+description = "Typed, JSON-backed Python client for the deontic defeasible-logic reasoner."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["deontic_py"]
