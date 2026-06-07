@@ -1,3 +1,5 @@
+Ignore me if you just want to understand the repo.
+
 # Does the deontic tool actually help? — how to test it
 
 The claim to falsify: **an LLM equipped with the deontic reasoner reaches more
