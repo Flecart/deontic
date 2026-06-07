@@ -12,9 +12,14 @@ ones already proven there.
 """
 from __future__ import annotations
 
+import os
+import shlex
+import subprocess
+from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any
 
-from .client import Deontic
+from .client import Deontic, _find_repo_root
 from .errors import DeonticError
 
 _COMMANDS = ("check", "query", "abduce", "atoms")
@@ -127,3 +132,193 @@ def call_tool(tool_input: dict[str, Any], *, client: Deontic | None = None) -> s
         tool_input.get("flags"),
         client=client,
     )
+
+
+# ── Raw-CLI / bash tool ───────────────────────────────────────────────────────
+#
+# A shell tool for agents that want to write a .ddl file and run `deontic ...`
+# (or compose several commands) rather than go through `run_deontic`. The
+# permission model is Anthropic-style and binary at the top level:
+#
+#   • dangerous=True  → everything is permitted (full shell, any working dir).
+#                       Containment is the timeout alone. Trusted evals only.
+#   • dangerous=False → a *specification* applies: the executable must be in
+#                       `allowed_commands` and the working dir must sit inside
+#                       `allowed_dirs`; the command runs WITHOUT a shell, so
+#                       pipes / redirection / chaining are rejected.
+#
+# Default policy: run only `deontic`, only inside the repo — the safe "raw CLI"
+# condition (an allowlist, vs the blocklist eval/deontic_tool.py used).
+
+_MAX_OUTPUT = 4000
+# Shell control characters that let a single command escape an allowlist.
+_SHELL_METACHARS = ";|&<>$`()\n{}*?!"
+
+
+def _repo_root() -> str:
+    root = _find_repo_root(Path(__file__).resolve().parent)
+    return str(root) if root else os.getcwd()
+
+
+@dataclass
+class CLIPolicy:
+    """What the bash tool is allowed to do (Anthropic-style, all-or-spec).
+
+    Attributes
+    ----------
+    dangerous:
+        If true, **everything** is permitted: any command via a real shell, in
+        any directory. If false, the fields below specify what is allowed.
+    allowed_commands:
+        Executable basenames the model may invoke (ignored when ``dangerous``).
+    allowed_dirs:
+        Directories the command may run in (and under). Empty → the run's own
+        working dir only (which defaults to the repo root).
+    deontic_on_path:
+        Prepend the built-binary dir and ``~/.elan/bin`` to ``PATH`` so
+        ``deontic`` (and ``lake``) are callable as bare commands.
+    timeout:
+        Per-call wall-clock limit in seconds.
+    """
+
+    dangerous: bool = False
+    allowed_commands: tuple[str, ...] = ("deontic",)
+    allowed_dirs: tuple[str, ...] = ()
+    deontic_on_path: bool = True
+    timeout: float = 30.0
+
+
+def _tool_env(policy: CLIPolicy) -> dict[str, str]:
+    env = dict(os.environ)
+    if policy.deontic_on_path:
+        bin_dir = os.path.join(_repo_root(), ".lake", "build", "bin")
+        elan = os.path.expanduser("~/.elan/bin")
+        env["PATH"] = f"{bin_dir}:{elan}:{env.get('PATH', '')}"
+    return env
+
+
+def _within(path: str, roots: tuple[str, ...]) -> bool:
+    rp = os.path.realpath(path)
+    for r in roots:
+        rr = os.path.realpath(r)
+        if rp == rr or rp.startswith(rr + os.sep):
+            return True
+    return False
+
+
+def _format_proc(proc: subprocess.CompletedProcess) -> str:
+    out = (proc.stdout or "")
+    if (proc.stderr or "").strip():
+        out += "\n[stderr] " + proc.stderr
+    out = out.strip() or "(no output)"
+    if len(out) > _MAX_OUTPUT:
+        out = out[:_MAX_OUTPUT] + "\n…[truncated]"
+    return out
+
+
+def run_cli(
+    command: str, *, cwd: str | None = None, policy: CLIPolicy | None = None
+) -> str:
+    """Run a shell command under ``policy``. Never raises — errors come back as text.
+
+    In dangerous mode the command runs through a real shell. Otherwise it is
+    split with :func:`shlex.split` and executed directly (no shell), with the
+    executable and working dir checked against the policy.
+    """
+    policy = policy or CLIPolicy()
+    cmd = (command or "").strip()
+    if not cmd:
+        return "error: empty command"
+    env = _tool_env(policy)
+    workdir = cwd or _repo_root()
+
+    if policy.dangerous:
+        try:
+            proc = subprocess.run(
+                cmd, shell=True, cwd=workdir, env=env,
+                capture_output=True, text=True, timeout=policy.timeout,
+            )
+        except subprocess.TimeoutExpired:
+            return f"error: command timed out ({policy.timeout}s)."
+        except Exception as exc:  # noqa: BLE001
+            return f"error running command: {exc}"
+        return _format_proc(proc)
+
+    # Restricted mode: allowlisted executable, no shell, confined working dir.
+    if any(c in cmd for c in _SHELL_METACHARS):
+        return ("refused: shell operators (pipes, redirection, chaining, globs) "
+                "are disabled in restricted mode — run one command at a time, "
+                "or use a policy with dangerous=True.")
+    try:
+        argv = shlex.split(cmd)
+    except ValueError as exc:
+        return f"error: could not parse command: {exc}"
+    if not argv:
+        return "error: empty command"
+    exe = os.path.basename(argv[0])
+    if exe not in policy.allowed_commands:
+        return (f"refused: '{exe}' is not an allowed command "
+                f"{sorted(policy.allowed_commands)}.")
+    roots = policy.allowed_dirs or (workdir,)
+    if not _within(workdir, roots):
+        return (f"refused: working dir '{workdir}' is outside the allowed "
+                f"folders {list(roots)}.")
+    try:
+        proc = subprocess.run(
+            argv, shell=False, cwd=workdir, env=env,
+            capture_output=True, text=True, timeout=policy.timeout,
+        )
+    except FileNotFoundError:
+        return f"error: command not found on PATH: {argv[0]}"
+    except subprocess.TimeoutExpired:
+        return f"error: command timed out ({policy.timeout}s)."
+    except Exception as exc:  # noqa: BLE001
+        return f"error running command: {exc}"
+    return _format_proc(proc)
+
+
+def cli_tool_schema(policy: CLIPolicy | None = None) -> dict[str, Any]:
+    """Anthropic-format ``bash`` tool whose description reflects ``policy``.
+
+    The description tells the model exactly what is permitted, so it doesn't
+    waste turns probing the boundary.
+    """
+    policy = policy or CLIPolicy()
+    if policy.dangerous:
+        scope = ("UNRESTRICTED: any shell command, any directory. Use it to "
+                 "write a .ddl file and run `deontic check|query|abduce|atoms`.")
+    else:
+        cmds = ", ".join(sorted(policy.allowed_commands))
+        dirs = ", ".join(policy.allowed_dirs) or "the project root"
+        scope = (f"Restricted: only these commands are allowed — {cmds}; only "
+                 f"inside {dirs}. One command per call (no pipes, redirection, "
+                 f"chaining, or globs). `deontic` is on PATH.")
+    return {
+        "name": "bash",
+        "description": (
+            "Run a command line. " + scope + " " + str(int(policy.timeout)) +
+            "s timeout.\n\n" + DDL_SYNTAX),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "command": {"type": "string",
+                            "description": "The command line to run."},
+            },
+            "required": ["command"],
+        },
+    }
+
+
+def cli_tool_schema_openai(policy: CLIPolicy | None = None) -> dict[str, Any]:
+    """OpenAI function-calling variant of :func:`cli_tool_schema`."""
+    s = cli_tool_schema(policy)
+    return {"type": "function", "function": {
+        "name": s["name"], "description": s["description"],
+        "parameters": s["input_schema"]}}
+
+
+def dispatch_cli(
+    tool_input: dict[str, Any], *, policy: CLIPolicy | None = None
+) -> str:
+    """Route a ``bash`` tool call (input dict) through :func:`run_cli`."""
+    return run_cli(tool_input.get("command", ""), policy=policy)

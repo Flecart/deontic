@@ -139,6 +139,33 @@ def main() -> int:
     bad = dispatch("nope", "frobnicate")
     check("dispatch unknown command returns error string", bad.startswith("error"))
 
+    print("[cli/bash tool]")
+    from .llm import CLIPolicy, cli_tool_schema, run_cli
+    # default policy: deontic allowed inside the repo
+    out = run_cli("deontic query examples/ex1_license.ddl use")
+    check("restricted run_cli deontic works", "use :" in out)
+    # non-allowlisted command refused
+    check("restricted refuses non-allowlisted cmd",
+          run_cli("ls -la").startswith("refused"))
+    # shell operators refused in restricted mode
+    check("restricted refuses pipes",
+          run_cli("deontic atoms examples/ex1_license.ddl | head").startswith("refused"))
+    # working dir outside the allowlist refused
+    confined = CLIPolicy(allowed_dirs=(str(REPO / "examples"),))
+    check("restricted refuses cwd escape",
+          run_cli("deontic --help", cwd=str(REPO), policy=confined).startswith("refused"))
+    # dangerous mode: anything goes
+    dang = CLIPolicy(dangerous=True)
+    check("dangerous mode runs arbitrary shell",
+          run_cli("echo deontic-ok", policy=dang).strip() == "deontic-ok")
+    check("dangerous mode allows pipes",
+          run_cli("printf 'a\\nb\\n' | wc -l", policy=dang).strip() == "2")
+    # schema reflects the policy
+    check("restricted schema says 'Restricted'",
+          "Restricted" in cli_tool_schema()["description"])
+    check("dangerous schema says 'UNRESTRICTED'",
+          "UNRESTRICTED" in cli_tool_schema(dang)["description"])
+
     print(f"\nALL {PASSED} CHECKS PASSED")
     return 0
 

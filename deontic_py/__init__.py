@@ -22,8 +22,13 @@ from .llm import (
     DDL_SYNTAX,
     TOOL_SCHEMA,
     TOOL_SCHEMA_OPENAI,
+    CLIPolicy,
     call_tool,
+    cli_tool_schema,
+    cli_tool_schema_openai,
     dispatch,
+    dispatch_cli,
+    run_cli,
 )
 from .results import (
     AbduceResult,
@@ -57,6 +62,12 @@ __all__ = [
     "DDL_SYNTAX",
     "dispatch",
     "call_tool",
+    # cli / bash tool
+    "CLIPolicy",
+    "run_cli",
+    "cli_tool_schema",
+    "cli_tool_schema_openai",
+    "dispatch_cli",
     # errors
     "DeonticError",
     "DeonticNotBuilt",
