@@ -1,0 +1,37 @@
+# Tiny, fast end-to-end validation of the whole pipeline on a small model.
+# Used by scripts/slurm/smoke.sh. No huge download, runs in minutes.
+
+model:
+  name: Qwen/Qwen3-0.6B
+  auto_class: auto
+
+generation:
+  backend: hf            # tiny model -> skip vLLM startup cost
+  max_new_tokens: 64
+  batch_size: 8
+  vllm:
+    max_model_len: 2048
+
+data:
+  source: seed
+  max_prompts: 8
+
+constitution:
+  n_revisions: 1
+
+train:
+  output_dir: outputs/smoke
+  max_steps: 2
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 1
+  max_length: 512
+  gradient_checkpointing: false
+
+rl:
+  num_generations: 2
+
+paths:
+  sft_data: outputs/smoke/sft.jsonl
+  pref_data: outputs/smoke/prefs.jsonl
+  sft_model: outputs/smoke/sl-cai
+  rl_model: outputs/smoke/rl-cai

@@ -1,0 +1,77 @@
+# Shared defaults. Stage/profile configs (smoke.yaml, full.yaml) and `--set`
+# CLI overrides are deep-merged on top of this. Everything here is swappable.
+
+model:
+  # The model the whole pipeline operates on. Override per profile.
+  name: Qwen/Qwen3.6-35B-A3B
+  # transformers auto-class. "auto" tries AutoModelForCausalLM and falls back to
+  # AutoModelForImageTextToText (needed for the multimodal Qwen3.6 MoE).
+  auto_class: auto
+  dtype: bfloat16
+  device_map: auto
+  trust_remote_code: true
+  attn_implementation: null   # e.g. "flash_attention_2"; null = library default
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  # Linear modules to adapt. These attention projections exist on Qwen MoE text
+  # towers; confirm/extend from the runtime module dump on the 35B model.
+  target_modules: [q_proj, k_proj, v_proj, o_proj]
+  bias: none
+
+generation:
+  backend: vllm          # "vllm" (preferred) or "hf"; vllm auto-falls-back to hf
+  max_new_tokens: 512
+  temperature: 1.0
+  top_p: 0.95
+  batch_size: 16         # used by the HF backend
+  # vLLM engine knobs (ignored by the HF backend)
+  vllm:
+    gpu_memory_utilization: 0.90
+    max_model_len: 4096
+    tensor_parallel_size: 1
+
+data:
+  # Source of red-team prompts for the critique-revision stage.
+  source: seed                       # "seed" (bundled jsonl) or "hf"
+  seed_path: data/red_team_seed.jsonl
+  hf_name: Anthropic/hh-rlhf         # used when source == "hf"
+  hf_split: train
+  hf_config: null
+  hf_text_field: null                # if set, pull prompt text from this field
+  max_prompts: null                  # cap number of prompts (null = all)
+
+constitution:
+  path: constitution/default.yaml
+  n_revisions: 2        # critique->revise iterations per prompt (SL stage)
+
+rl:
+  method: dpo           # "dpo" or "grpo" -- the one-line switch for the RL stage
+  beta: 0.1             # DPO beta
+  num_generations: 4    # GRPO group size
+
+train:
+  output_dir: outputs/run
+  learning_rate: 1.0e-5
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 8
+  num_train_epochs: 1
+  max_steps: -1         # >0 overrides epochs (handy for smoke tests)
+  max_length: 1024
+  logging_steps: 1
+  save_steps: 500
+  bf16: true
+  gradient_checkpointing: true
+  seed: 42
+
+paths:
+  # Artifacts flow stage-to-stage through these files.
+  sft_data: outputs/sft.jsonl
+  pref_data: outputs/prefs.jsonl
+  sft_model: outputs/sl-cai      # SFT (SL-CAI) adapter dir
+  rl_model: outputs/rl-cai       # DPO/GRPO (RL-CAI) adapter dir
+
+seed: 42

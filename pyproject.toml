@@ -1,0 +1,49 @@
+[project]
+name = "constitutional-ai"
+version = "0.1.0"
+description = "Config-driven Constitutional AI (critique-revision SFT + RLAIF) training scaffolding"
+requires-python = "==3.11.*"
+dependencies = [
+    "torch>=2.7",
+    "transformers>=5.10",
+    "trl>=1.5",
+    "peft>=0.19",
+    "accelerate>=1.13",
+    "datasets>=3.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# vLLM is heavy and may not support the target model's bleeding-edge arch yet.
+# Keep it opt-in: `uv sync --extra vllm`. The generation layer falls back to HF.
+# torchvision/torchaudio are listed explicitly (not just pulled transitively by
+# vLLM) so the cu128 [tool.uv.sources] redirect below actually applies to them --
+# otherwise PyPI serves a cu130 build that ABI-mismatches our cu128 torch.
+vllm = ["vllm>=0.22", "torchvision", "torchaudio"]
+
+[project.scripts]
+cai = "cai.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cai"]
+
+# B200 / B300 are Blackwell (sm_100) -> torch (and the torchvision/torchaudio that
+# vLLM drags in) must all come from the cu128 wheels, or their compiled ops won't
+# match torch's ABI (e.g. "operator torchvision::nms does not exist") and importing
+# a multimodal model that transitively imports torchvision will fail.
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+torchaudio = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
