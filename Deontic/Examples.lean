@@ -164,6 +164,20 @@ private def gNotO (a : Atom) : Condition := ⟨false, true, .O, .pos a⟩ -- ¬ 
 -- the search space (its own fact-status is read directly, not via any rule head).
 #guard (abduce ndaTheory [] [⟨true, true, .C, .pos "NeedToKnow"⟩]).minimal == [[.pos "NeedToKnow"]]
 
+-- Multi-bearer + an unattributed prescriptive rule: bearer-`none` must not spuriously
+-- satisfy `P(x)` while attributed bearers still forbid the act (cf. enterprise MSA).
+private def bilateralNdaTheory : Theory where
+  facts := []
+  rules := [
+    ⟨"no_v", .defeasible, .prescriptive, [], [.neg "Disclose"], some "Vendor"⟩,
+    ⟨"no_c", .defeasible, .prescriptive, [], [.neg "Disclose"], some "Customer"⟩,
+    ⟨"perm_v", .defeater, .prescriptive, [.plain (.pos "NeedToKnow")], [.pos "Disclose"], some "Vendor"⟩,
+    ⟨"perm_c", .defeater, .prescriptive, [.plain (.pos "NeedToKnow")], [.pos "Disclose"], some "Customer"⟩,
+    ⟨"other", .defeasible, .prescriptive, [], [.pos "Unrelated"], none⟩]
+  superiority := [("perm_v", "no_v"), ("perm_c", "no_c")]
+#guard (abduce bilateralNdaTheory [] [gP "Disclose"]).minimal == [[.pos "NeedToKnow"]]
+#guard (abduce bilateralNdaTheory [] [gP "Disclose"]).minimal.contains [] == false
+
 #eval do
   IO.println "=== Abduction: configurations that ALLOW Disclose ==="
   IO.println (renderAbduceResult (abduce ndaTheory [] [gP "Disclose"]) true 8)

@@ -225,13 +225,34 @@ private def bySize (cs : List Config) : List Config :=
 
 -- ── The search ──────────────────────────────────────────────────────────────────
 
+/-- A directed act is forbidden when *some* bearer is obliged either the act or its
+complement (same priority as `normativeStatus`: O beats P). -/
+private def actForbidden (ext : Extension) (q : Lit) : Bool :=
+  ext.derivation.hasPositiveAny .O q || ext.derivation.hasPositiveAny .O q.compl
+
+/-- Bearer-existential check for a single abduction condition. Permission goals use
+normative priority so a spurious bearer-`none` weak permission (from vacuous `−∂_O`
+in the unattributed slice) cannot satisfy `P(x)` while attributed bearers still forbid
+the act. Obligation and constitutive goals stay tag-existential over bearers. -/
+private def conditionHolds (ext : Extension) (c : Condition) : Bool :=
+  let present :=
+    if c.modality == .O || c.modality == .C then
+      ext.derivation.hasPositiveAny c.modality c.lit
+    else if ext.isUnresolvedAtom c.lit.atom then
+      false
+    else if actForbidden ext c.lit then
+      false
+    else match c.modality with
+      | .Ps => ext.derivation.hasPositiveAny .Ps c.lit
+      | .Pw => ext.derivation.hasPositiveAny .Pw c.lit
+      | .P  => ext.derivation.hasPositiveAny .Ps c.lit ||
+               ext.derivation.hasPositiveAny .P c.lit ||
+               ext.derivation.hasPositiveAny .Pw c.lit
+      | _ => false
+  if c.holds then present else !present
+
 def satisfies (ext : Extension) (conds : List Condition) : Bool :=
-  conds.all fun c =>
-    -- bearer-existential: a goal `O(x)` is met when *some* party is obliged `x`
-    -- (abduction goals are not yet bearer-qualified).
-    let present := ext.derivation.any fun tl =>
-      tl.positive == c.positive && tl.modality == c.modality && tl.lit == c.lit
-    if c.holds then present else !present
+  conds.all (conditionHolds ext ·)
 
 structure AbduceResult where
   conds      : List Condition
