@@ -1,0 +1,1687 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/227"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/227"/>
+	  <FRBRdate date="2026-02-20" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="227"/>
+	  <FRBRname value="Simon Curtin v Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/227"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/227"/>
+	  <FRBRdate date="2026-02-20" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/227/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/227/data.xml"/>
+	  <FRBRdate date="2026-02-20T14:56:10" name="transform"/>
+	  <FRBRdate date="2026-02-20T15:29:10" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-11-02" refersTo="#decision" source="#"/>
+	<eventRef date="2026-01-19" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-02-13" refersTo="#decision" source="#"/>
+	<eventRef date="2026-02-20" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="simon-curtin" href="" showAs="SIMON CURTIN"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="ministry-of-defence" href="" showAs="MINISTRY OF DEFENCE"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>227</uk:number>
+	<uk:cite>[2026] UKFTT 227 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>0c7f7386488ff2e152674fc96448e28041e2cd455d05af6d9393b2b23c842f84</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00227 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"/><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: FT/EA/2024/0442 &amp; FT/EA/2025/0146</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard at: Field House, London</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-01-19" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">19 January 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-02-20" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">20 February 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HARRIS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER CHAFER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER COSGRAVE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#simon-curtin" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">SIMON CURTIN</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#ministry-of-defence" style="font-weight:bold;font-family:'Book Antiqua'">MINISTRY OF DEFENCE</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Mr Curtin, representing himself</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent: The Information Commissioner neither attended nor was represented.</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Second Respondent: John Jolliffe</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is:</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1)</num>
+	<p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Allowed in relation to the decision of the Information Commissioner dated 28 October 2024, reference IC-292124-F1N2.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2)</num>
+	<p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Dismissed in relation to the decision of the Information Commissioner dated 17 March 2025, reference IC-348013-F2L6.</span></p>
+      </blockContainer>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Substituted Decision Notice: </span></p>
+      <p><span style="font-family:'Book Antiqua'">Reference: IC-292124-F1N2</span></p>
+      <p><span style="font-family:'Book Antiqua'">Respondent: The Ministry of Defence</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1)</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The complainant has requested information broadly relating to UAPs (Unidentified Aerial or Anomalous Phenomena) and/or UFOs (Unidentified Flying Objects).</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2)</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Ministry of Defence was entitled to rely on section 12(1) (cost of compliance) of the Freedom of Information Act 2000 to refuse the request.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3)</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">No further steps are required.</span></p>
+      </blockContainer>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Background to the appeals</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This case concerns two appeals which were consolidated by an order dated 29 April 2025. They concern two decisions of the Information Commissioner (&#8220;IC&#8221;) dated 28 October 2024, reference IC-292124-F1N2 (the &#8220;First Decision&#8221;) and 17 March 2025, reference IC-348013-F2L6 (the &#8220;Second Decision&#8221;) (together &#8220;the Decisions&#8221;). The First Decision concerned a request for information submitted by Mr Curtin to the Ministry of Defence (&#8220;MOD&#8221;) on 2 November 2023 concerning Unidentified Aerial or Anomalous Phenomena (&#8220;UAPs&#8221;) and/or Unidentified Flying Objects (&#8220;UFOs&#8221;). The Second Decision concerned a request for information submitted by Mr Curtin to the MOD on 21 August 2024 concerning the UK&#8217;s presentation about UAP at a Five Eyes meeting.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The First Decision</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Curtin first wrote to the MOD on 31 August 2023 (the &#8220;August Request&#8221;) seeking the following information for the period from 1 January 2009 to the current date:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;I would appreciate you providing me with information under the Freedom of Information Act (2000), which refers to the following topics:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">1.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Any documents, reports, photographs or memos related to UAP/UFO.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Any documents, reports, photographs or memos related to the Five Eyes Foreign Material Recovery Program (FMP) with a specific focus on UAP/UFO.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">3.Information on the objective, scope and operation aspects of the FMP in relation to UAP.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">4.Any assessments, studies or analyses conducted by the relevant UK government department regarding recovered foreign materials associated with UAP/UFO.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">5.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Any communication or correspondence between the relevant UK government department and other Five Eyes alliance members regarding the FMP and UAP/UFO</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">6.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Any records of encounters with UAP/UFO, including incident reports, witness testimonies and analysis of potential national security threats.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Curtin provided a list of key phrases in his request which might assist the search.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The MOD refused this request on 26 September 2023 citing section 12 of FOIA on the basis that it would exceed the appropriate limit of 24 hours to answer the request. Further clarification was provided at Mr Curtin&#8217;s request on 2 November 2023.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On the same date, Mr Curtin wrote to the MOD to refine his earlier request in the following terms (the &#8220;November Request&#8221;):</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Thank you for your letter of 2</span><span style="font-style:italic;vertical-align:super;font-size:smaller">nd</span><span style="font-style:italic"> November 2023 and in particular your helpful analysis of the searches to date. My recommendation to expedite the search within the cost guidelines set out by the FOIA would be as follows; search only for the following terms:</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Five Eyes (FVEY) or Five Eyes Material Programme (FMP)</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Unidentified Flying Objects (UFO)</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Unidentified Anomalous Phenomena (UAP)</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Unidentified Aerial Phenomena (UAP)</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">All-Domain Anomaly Resolution Office (AARO)</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">As UAPs are not seen by the MOD as a &#8216;threat&#8217; or a &#8216;national security&#8217; issue, I think it would be sensible to remove these two terms from the search. [The request went on to offer a further revision should this be necessary]</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">If this still turns up too many responses to investigate within the cost guidelines, then I would recommend the following alternatives (in the following order):</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">Reduce the search timescale (currently set at 2009-2023 current date) to a 2019-2023 range for example to reduce the number of documents.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">Remove Five Eyes (FVEY) or Five Eyes Material Programme (FMP) from the search terms.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The MOD responded on 4 December 2023 to the November Request as a stand-alone request and refused to confirm or deny that it held information in scope of the request on the basis of sections 23 (security bodies), 24 (national security), 26 (defence) and 27 (international relations) of FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Curtin requested an internal review on 6 December 2023 and the MOD provided an outcome to that review on 29 February 2024, upholding its neither confirm nor deny (NCND) response.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Curtin contacted the IC on 3 March 2024 to complain about the way his request had been handled.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 28 October 2024, the IC issued the First Decision. In this he decided that the MOD was entitled to rely on section 23(5) and section 27(4) of FOIA to refuse to confirm or deny that it holds the requested information.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The Second Decision</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin wrote to the MOD on 21 August 2024 to ask for the following information:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;You will be aware, as it has been released by the MOD earlier this month, that two MOD officials represented the UK in attending a Five Eyes (FVEY) meeting at the Pentagon on 24 May 2023. The meeting was entitled &#8220;FVEY Inaugural UAP Caucus Working Group&#8221;.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">As you may also be aware, an agenda of this meeting was published recently as part of a FOI request in the US. In this agenda, timetabled for 1015-1130 (i.e. for 75 minutes) each of the four FVEY partners (Australia, Canada, United Kingdom and New Zealand) were asked to provide &#8216;partner UAP updates&#8217; suggesting a UK briefing time of 15-20 minutes. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">I am writing to request under the terms of the FOIA (2000) all details in all formats i.e. notes, presentation slides, videos etc from the United Kingdom UAP update section only, relating to information provided by the two MOD officials and any questions they received and responses they gave.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The MOD responded to this request on 17 September 2024, confirming that a search had been conducted for the requested information and that the request had been assessed to fall within scope of sections 24 (national security), 26 (defence) and 27 (international relations). The response also explained that the MOD considered section 23(5) (security bodies) of FOIA to provide a basis on which to refuse to neither confirm nor deny (NCND) whether any information was held.  In response, Mr Curtin wrote to the MOD on 18 September 2024 asking it to conduct an informal internal review of the decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The MOD replied on 4 October 2024 clarifying its application of the exemptions as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Taking your further points into consideration, it may be helpful if I explain that when it comes to the case of sensitive material, the Department has an obligation to protect such information and apply appropriate exemptions under the Act. Prior to the release of information under US FOI legislation, the &#8220;Neither Confirm Nor Deny&#8221;  (NCND) position for requests on this topic applied for the majority of exemptions. That still remains the case for Section 23(5) (Information supplied by, or relating to, bodies dealing with security matters).  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">However, since the US disclosure of information, the way in which we apply exemptions to similar FOI requests has changed in that, the NCND principle has not been engaged, and we can confirm some information is held, but this still remains exempt.&#8221;  </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin asked the MOD to conduct a formal internal review on 5 October 2024, to which the MOD responded on 24 January 2025. It explained that whilst the release of the agenda for the FVEY meeting of the 24 May 2023 (released on 13 June 2024) does affect how MOD may respond to some requests on this subject going forward in respect of the NCND principle, however, fundamentally each request is dealt with on a case-by-case basis. The MOD explained that having considered this request from first principles it had concluded that it should not have made a substantive response to the request under section 1, and rather that the:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;position is that the NCND limb of the exemptions detailed below [ie sections 23(5), 24(2), 26(3) and 27(4)] are engaged, I have not made any assessment of the section 1 declaration made in the response of the 4th October 2024 confirming that information was held. This means I have not considered whether any information potentially gathered actually related to the wording of your request, or was outside the scope such as purely administrative information related to the attendance at the meeting.&#8221;    </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin contacted the IC on 1 December 2024 to complain about the way his request for information had been handled.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 17 March 2025, the IC issued the Second Decision. In this he found that the MOD was entitled to rely on section 23(5) to refuse to confirm or deny whether it holds the requested information. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Abbreviations used in this decision</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;AARO&#8221; means All-Domain Anomaly Resolution Office</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;August Request&#8221; means, within the First Appeal, Mr Curtin&#8217;s request for information dated 31 August 2023</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;the Decisions&#8221; means both the First Decision and the Second Decision </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;First Decision&#8221; and &#8220;First Decision Notice&#8221; mean the IC&#8217;s decision dated 28 October 2024, reference IC-292124-F1N2. The appeal to the Tribunal of this decision is referred to as the &#8220;First Appeal&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;FMP&#8221; means Five Eyes Material Programme</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;FOIA&#8221; means the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>. All references to sections are references to sections of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref> unless otherwise specified </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;FVEY&#8221; means Five Eyes</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;IC&#8221; means the Information Commissioner, the First Respondent </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;MOD&#8221; means the Ministry of Defence, the Second Respondent</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;NCND&#8221; means Neither Confirm Nor Deny</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;November Request&#8221; means, within the First Appeal, Mr Curtin&#8217;s refined request for information dated <docDate date="2023-11-02" refersTo="#decision">2 November 2023</docDate></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;Second Decision&#8221; and &#8220;Second Decision Notice&#8221; mean the IC&#8217;s Decision dated 17 March 2025, reference IC-348013-F2L6. The appeal to the Tribunal of this decision is referred to as the &#8220;Second Appeal&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;UAP&#8221; means Unidentified Anomalous Phenomena and/or Unidentified Aerial Phenomena</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;UFO&#8221; means Unidentified Flying Object</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;UNUDHR&#8221; means United Nations Universal Declaration of Human Rights</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;UT&#8221; means the Upper Tribunal, Administrative Appeals Chamber Procedural matters concerning the hearing</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Procedural matters concerning the hearing&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">This matter had previously been partially heard on 11 July 2025. However, this hearing was abandoned and, accordingly, a new Tribunal panel which had not previously heard the case was convened before whom a fresh hearing took place.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">There was an OPEN session attended by all the parties present and a CLOSED session which was attended only by the MOD and its representatives.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal considered an OPEN bundle of documents (431 pages).&#160;&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal also considered a CLOSED bundle of withheld documents (3&#160;pages). Prior to the hearing an application under rule 14 of the Tribunal Rules had been made as regards the withheld material and an order made that disclosure of the information contained in the closed bundle should not be disclosed or published to any person other than&#160;the IC and MOD&#160;in this case pending further order.&#160;Further orders in relation to Rule 14 were made before the hearing in relation to further clarification filed by the IC on a CLOSED basis and at the hearing in relation to a response to this clarification filed by the MOD.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The following gist of the CLOSED session was approved by the Tribunal and provided to Mr Curtin. This focused on seven questions raised by Mr Curtin (set out in bold below) which were put to the MOD by the panel on his behalf:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">&#8220;1.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-weight:bold">Why, if the application of section 23 is "an absolute exemption", as indicated by the first and second respondent, has the second respondent itself released information relating to these security bodies (specifically the FOI release of 2nd August 2024) and a Five Eyes UAP meeting [A96-A100]</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The second respondent explained that, to the best of its knowledge and understanding, no material has been released pertaining to Section 23 bodies &#8211; the information provided was that 2 people attended the meeting, who did not work for a section 23 body. The point the appellant makes seems to assume that Defence Intelligence is a Section 23 body, which it is not.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">2.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-weight:bold">The 2024 House of Commons answer confirmed, "there are no current plans to create a dedicated team to investigate incidences of alleged sightings [in relation to UAP].", [A106] so where is the published mandate for a security body/bodies to be collecting such information proactively?</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The second respondent appreciated the highlighting of the formal position of the MOD as provided by the then Minister for the Armed Forces (Mr Luke Pollard MP), and reiterated that this remains the position of the department. In its submissions it identified that there is no reasonable expectation that any mandate could be published for a body the Minister has rightly ruled as not planned ever to exist. </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">3.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-weight:bold">If such information were being collected by a security body inadvertently as a result of other operations, why is it not incumbent on the MoD, given the scientific importance of that data, to publicly release such information in a way so that it cannot be related back to the security body or reveal the nature of their operations (Case Law: Lownie at [62])?</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">On the planning assumption that the appellant means by Security Bodies those which are as defined within the Section 23 of the FOI Act. On that basis, the bodies would reasonably be expected to operate under the Intelligence Services Act, or other Investigatory Powers of UK Statute. As such they would be rightly targeting subjects of interest. All other hypothetically collected information, assuming that NCND remains in this regard, it would be inadvertent collection - it could be reasonably expected to be discarded as soon as reasonable, and indeed not shared with anyone outside of the collection team so as to assure the proportionality of any such hypothetical collection operation. As such, noting the formal position of the MOD (A106), therefore MOD would take no reasonable steps in gaining such information, even if it did hypothetically exist, noting we would hold to NCND.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">4.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-weight:bold">If reporting on UAP is outside of specifically declared government policy, why would a security body have and hold information on them?</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The second defendant made the submissions, again based on the assumption that &#8220;Security Body&#8221; referred to those listed within Section 23 of the act. It is however a matter of NCND for the open hearing. The Panel questioned on the second defendant&#8217;s understanding of the wording of the question, drawing the attention to &#8220;have and hold&#8221;, and wanted to understand if it was the second defendant&#8217;s position that this would be read in the same way as retained.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">5.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-weight:bold">Why has the first respondent continued to additionally rely on the "Glomar" NCND response in relation to section 23 for the Five Eyes aspect of the information requests, when these aforementioned numerous public releases of information from across the Five Eyes partners, one from the second respondent themselves, confirm this event (the UAP Inaugural Caucus).</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The second respondent at this point confirmed for the Panel the reason for the change in position, namely from S23(5) to S12. This is based largely on the panel of the previous tribunal, raising with the second respondent, that they should have seen the email of the 3rd November 2023, referred to by the MOD as FOI/2023/13273, and it should have been treated as a clarification of the original request of the 31st August 2023, referred to by the MOD as FOI/2023/10542 for which a S12 response was provided to the appellant.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The Panel thanked the second defendant for explaining the reason for the change in the handling of this case and the matter of the decision notice. In this the Panel referred to the ICO DN (A8) in paragraph 6 that the ICO themselves in their decision notice do not appear to treat these as a single case. The Panel recognised that due to the circumstances of the previous hearing that no formal record or GIST of the closed session had been recorded that made this clear to the appellant before today.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The second respondents submitted that it was an error shared by both defendants that ultimately led to the DN as issued.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">6.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-weight:bold">Information on UAP activities across the 14 year 10 month time period of the initial information request would have been collated from numerous sources, including military personnel and systems not categorised as section 23 bodies given that "the UK air defence community detects and monitors all flying air systems 24 hours a day to provide an identified air picture" [A101-A105], and the appellant has not been provided with any evidence that every one of these sources would be bona fide excluded bodies, so why has a blanket section 23 exemption been applied across this time frame? To support this point I quote a recent (4th September 2025) parliamentary response from the UK government's under-secretary of defence regarding UAP information, "The broad term UAP may be contained within documents such as ships logs, Defence Air Safety Occurrence Reports (DASORS) or correspondence from members of the public" [Additional evidence from Hansard submitted to the tribunal on 22nd December 2025]. It is important to note that the first respondent recognised [A11, paragraph 20 of DN] that, "The MOD has not argued that all of the requested information, if held, would fall within the scope of section 23(5)", but critically there was no further expansion or investigation of this point.  </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The second respondent considered this point, and in relation to the new position under S12, that this would fall within this new handling, and on the matter around section 23 bodies then it would be similar to the previous hypothetical positions articulated in response to Q3 and Q4.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">7.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold">Why, given that the UK government have publicly confirmed that no new material on UAP has been classified since 2009 [A106], are the MoD acting in contradiction of this position by withholding what, by corollary, must be unclassified information on UAP from the public?</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The second respondent highlighted that the position the minister took in the response to the Parliamentary Question remains the department&#8217;s position on the matter. There was then a closed submission that highlighted the example of reports like &#8220;SCIENTIFIC &amp; TECHNICAL MEMORANDUM &#8211; no. 55/2/00&#8221; produced a report, referred by the appellant as the Condign report, this itself contains redactions on topics of National Security. The second respondent maintains that this is completely appropriate and in no way information on UAP.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The Panel then noted that with the change of the second respondent&#8217;s position to S12 that no further detail need be given.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.1in;text-indent:0.39in"><span style="font-style:italic">GIST on next steps:</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The Panel directed that a gist be produced of the closed question section that could be released to the appellant. The second respondent agreed to this and took the action to prepare that GIST over lunch. The Panel instructed the second respondent to make sure they included an explanation within the GIST on why the position has now changed from S23(5) to S12. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The Panel then reflected that some of the answers to the questions could have been heard in open, however accepted that that could not have been known until the question is asked and answered as to where the Panel&#8217;s follow-on question may lead. The second respondent confirmed that this was direction to require that the GIST was as close to the answers given as possible. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">It was then discussed how the Government Legal Department would correspond directly with the Judge to assure that the GIST could be considered in a timely manner. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The Panel then requested clarification on reference numbers that are quoted within B232 and B233, and requested understanding of where they come from. The second defendant couldn't identify the reference number "FOIA-00021017 - MOD" however did recognise the reference FOI2023/13273. &#8220;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">Having considered all the evidence, the Tribunal&#8217;s view was that the reasons for its decision could be properly set out in an OPEN decision and therefore did not prepare a separate CLOSED decision.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The First Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin appealed the First Decision to the Tribunal on 11 November 2024. He gave the following grounds for appeal:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC did not give enough weight to the UK government (and thus MOD)&#8217;s position that UAPs do not constitute a military threat to the UK and the distinction between US and UK definitions is not relevant. Mr Curtin relies in this connection on the statement made by Baroness Goldie (then Minister of State for Defence) in the House of Lords on 30 June 2021 which stated as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">&#8220;The [MOD] holds no reports on unidentified aerial phenomena but constantly monitors UK airspace to identify and respond to any credible threat to its integrity, and is confident in the existing measures in place to protect it&#8230;He is quite right about the closure of the UFO desk in 2009&#8230;The MoD has no plans to conduct its own report into UAP because, in over 50 years, no such reporting indicated the existence of any military threat to the UK.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC did not give enough weight to the public interest in this issue under section 27(4) and overstated the impact of information release on international relations which has <span style="font-style:italic">&#8220;enforced the inappropriate over-censorship of this information.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC&#8217;s acceptance of the MOD&#8217;s NCND position for all the information requested over a period of 14.5 years is disproportionate and inappropriate, given the UK government&#8217;s declared &#8216;no threat&#8217; position.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC did not appropriately consider the evidence provided by Mr Curtin that the existence of a meeting had already been put in the public domain both before the request (by the US Government in June 2023) and further information was released prior to publication of the First Decision Notice.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC did not investigate the MOD&#8217;s refusal of the request under section 24 and 26 of FOIA and so has produced an incomplete analysis, which is unbalanced and unfair.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">There has been significant delay in the handling of the request, resulting in a period of almost 14 months between the request and publication of the First Decision Notice. The timings in this case represent a concerning inefficiency and prejudice both the Appellant and the public&#8217;s right to timely information of public interest.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">There should be sanctions in place within FOIA to motivate compliance with published timescales for reviews.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The outcome sought by Mr Curtin was as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">A reversal of the IC&#8217;s decision in the First Decision Notice to state that the MOD is not entitled to rely on section 23(5) and 27(4) and must comply with the Appellant&#8217;s information request.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Acceptance that all relevant information in the public domain prior to the First Decision Notice should be considered by the IC and MOD.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Acceptance that the IC should have reviewed the case under sections 24 and 26 of FOIA.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Agreement that the MOD is further unable to refuse the information request under sections 24 and/or 26 of FOIA</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">An apology to Mr Curtin, with explanation as to why the request/case took so many days to be reviewed by the MOD and IC.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Action to be taken to ensure the delays in handling this case, both within the IC and MOD, do not occur in future cases.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The IC&#8217;s response to the First Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC filed a Response dated 6 December 2024. He relied on the First Decision Notice as setting out his findings and the reasons for those findings. He maintained that the Appellant&#8217;s grounds of appeal do not disturb his findings. He made the following additional observations: </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In relation to information put into the public domain after the request, following <span style="text-decoration-line:underline;text-decoration-style:solid">Montague v The Information Commissioner and Department for International Trade</span>&#160;<ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/104" uk:canonical="[2022] UKUT 104 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 104 (AAC)</ref> and [2023]EWCA&#160;Civ&#160;1278, these are not relevant considerations at the time the MOD responded to the request on 4 December 2023.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">It was not necessary for the IC to consider the MOD&#8217;s application of sections 24 and 26 of FOIA as he determined the MOD could rely on section 23(5) and 27(4) to refuse to NCND that information was held.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The grounds concerning delay fall outside the jurisdiction of the Tribunal.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The MOD&#8217;s response to the First Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The MOD filed a Response dated 16 January 2025. It also submitted that the grounds of appeal do not disturb the IC&#8217;s findings in the First Decision Notice. It made the following observations in relation to the Appellant&#8217;s grounds:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The statement of Baroness Goldie to the House of Lords that no reporting had indicated the existence of a military threat from UAP in the past 50 years cannot bear any more weight than the IC gave it. The public interest factor underpinning the NCND position in this case relates to the particular nature of the s23(3) bodies and, for the purposes of s.27, the nature of the relationships between the FVEY members. Responses under FOIA which would be revelatory of the intelligence sources available to government and international partners and/or reveal their analytical capabilities remain highly sensitive. The distinction between the UK and US definition of UAP is not relevant to the particular public interest that leads the MOD to rely on 23(5) and 27(4).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The public interest balance is to be gauged at the date of responding to the request, on 4 December 2023.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">There was no obligation on the IC to determine all the exemptions relied upon.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The allegations of delay are not justiciable grounds of appeal.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Mr Curtin&#8217;s Reply to the IC&#8217;s and MOD&#8217;s responses to the First Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin filed a summary of his position on 31 January 2025 responding to both Responses, together with a background information document. In summary, he made the following points:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The UK&#8217;s policy on UAPs, as set out in Baroness Goldie&#8217;s statement, is clear and unequivocal and has been the UK policy since at least 2009. It is not within the MOD&#8217;s remit to deviate from this position and it has no published mandate on principle to keep information on UAPs from the general public in the UK.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The Appellant has been clear and careful about the definition of UAPs in the context of this case &#8211; he says &#8220;<span style="font-style:italic">UAPs are by definition phenomena that exhibit some or all of the characteristics (known as the &#8220;five observables&#8221;) which human technology, as defined by the scientific establishment is currently incapable of creating</span>&#8221;. He summarised it thus &#8220;<span style="font-style:italic">UAPs are the class of phenomena remaining once all other alternatives have been evaluated and dismissed &#8211; and the number of instance of these phenomena occurring each year are significant</span>.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The release of information that demonstrates UAPs represent advanced technology to the open scientific establishment is critical to further understanding the phenomena and could lead to significant technological advances to benefit the UK population.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He has not been provided with any evidence to support the engagement of any exemptions in this case. He contends that any withholding of information on UAPs is inconsistent with both the UK government&#8217;s policy position and the human rights principles to freedom of access to information in Article 19 of the United Nations Universal Declaration of Human Rights (&#8220;UNUDHR&#8221;).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">There is no evidence that any of the possible UAP data collected involved security service personnel, from witnesses through to data collection. He does not accept that a section 23 exemption would apply to all the information requested.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC has used its discretion incorrectly in accepting the MOD&#8217;s application of a public interest test to support an exemption under section 27. The MOD has overstated the nature and impact of prejudice under section 27 and understated the public good of revealing the requested information.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The difference between the UK and US definitions of UAP is irrelevant to this case because he has requested information on UAPs as defined by the UK government.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He has not been provided with any evidence that any of the information that is the subject of the request would prejudice international relations in any way. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He does not agree that the allegations of delay fall outside the Tribunal&#8217;s jurisdiction.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">j.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC&#8217;s failure to investigate the section 24 and 26 exemptions &#8220;<span style="font-style:italic">invalidates the DN and represents prejudice against the appellant&#8217;s rights under FOIA&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant also filed a consolidated Reply in both Appeals on 3 June 2025. This made the following additional points in response to the First Appeal:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The case has to be judged against current UK government policy and this is of material and fundamental relevance to the significant public interest and scientific good engaged in this case, and the MOD&#8217;s approach to information release should reflect this.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">If reporting on UAPs is outside government policy, he questions why a security body would have information on them. He also questions why a blanket exemption was applied.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The Second Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin appealed the Second Decision to the Tribunal on 30 March 2025. He gave the following grounds for appeal:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC did not give enough weight to the UK government (and thus MOD)&#8217;s position that UAP s do not constitute a military threat to the UK. There is significant public interest and good in releasing this information.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC has not appropriately investigated the inconsistent and flawed application of NCND in relation to the reliance by the MOD on section 23(5) of FOIA, particularly in light of FOIA releases published prior to the original information request and subsequent admissions by the MOD.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC did not adequately assess or give appropriate weight to the Appellant&#8217;s rights under Article 19 of UNUDHR and subsequent legislation and the presumption that all information is accessible subject only to a narrow system of exceptions.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC did not investigate the MOD&#8217;s refusal of the request under sections 24, 26 and 27 of FOIA and so has produced an incomplete analysis, which is unbalanced and unfair.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC did not appropriately sanction the MOD for the significant delays in handling the Appellant&#8217;s complaint.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The outcome sought was that the Second Decision Notice should be struck out and replaced with an order for the MOD to provide the information requested to the Appellant, consistent with Article 19 of UNUDHR.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The IC&#8217;s response to the Second Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC filed a Response dated 24 April 2025. He submitted that none of the Appellant&#8217;s arguments are sufficient to alter his findings, as they do not identify any error of law in the Decision Notice or incorrect exercise of the IC&#8217;s discretion. He made the following observations about Mr Curtin&#8217;s grounds of appeal:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 23(5) FOIA is a class based absolute exemption and information in the public domain is not relevant to the assessment of whether or not it is engaged. The exemption is clearly engaged because if information within the scope of the request was held it is possible that it could have been supplied by or relate to a security body given the close working relationship between the MOD and security bodies. The Appellant&#8217;s arguments about conflict with UK government policy and information in the public domain are irrelevant. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The Appellant&#8217;s ground concerning the UNUDHR is unparticularised. The Tribunal only has jurisdiction under FOIA. This is supported by the UT&#8217;s decision in <span style="text-decoration-line:underline;text-decoration-style:solid">Moss v Information Commissioner &amp; Cabinet Office</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2020/242" uk:canonical="[2020] UKUT 242 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] UKUT 242 (AAC)</ref> which held that Article 10 ECHR does not create a right in domestic law to request information from a public authority and has no bearing on FOIA.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Once the IC was satisfied that section 23(5) was engaged,  the IC was not required to consider the other exemptions relied upon as he had concluded that the MOD had complied with part I of FOIA for the purposes of the complaint under s.50 of FOIA. He relied on the UT&#8217;s finding in <span style="text-decoration-line:underline;text-decoration-style:solid">Information Commissioner v Malnick &amp; ACOBA </span>[2018]UKUT 72 (AAC) that once the authority has lawfully relied on one exemption and notified its decision it has complied with its obligation and the applicability of other exemptions is irrelevant to the IC&#8217;s functions.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Internal reviews are not required by FOIA and cannot be the subject of a Decision Notice issued by the IC, so the Tribunal has no jurisdiction to consider the allegations of delay.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The MOD&#8217;s response to the Second Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The MOD filed a consolidated response to both Appeals dated 6 May 2025. In relation to the Appellant&#8217;s Second Appeal, it made the following points:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">In light of Baroness Goldie&#8217;s statement, it does not follow that reliance on section 23(5) would be invalid because it would contradict government policy. Section 23(5) does not depend on government policy, but on the fact that the subject matter, were it to exist, being information more likely than not to be information supplied to the public bodies by the security bodies listed in section 23(3).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The Tribunal does not have jurisdiction over complaints about the extent of the IC&#8217;s investigation. This is a procedural matter.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The UNUDHR is unincorporated international law and the argument here is weaker than the argument about ECHR in <span style="text-decoration-line:underline;text-decoration-style:solid">Moss</span>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Section 23(5) was legally sufficient for the IC to reach the Second Decision. There was no obligation on the IC to determine the correctness of all the exemptions relied upon.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The allegations of delay are not justiciable grounds of appeal.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Mr Curtin&#8217;s reply to the IC&#8217;s response to the Second Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin filed a consolidated Rule 24 Reply dated 3 June 2025. In relation to the Second Appeal he made the following points:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Information of material import came into the public domain before the initial information request submitted on 21 August 2024, so there is no justification for the MOD to use an NCND response concerning this meeting, as some or all of this information existed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The information request as submitted before the release of information under the US FOI legislation. The IC did not investigate this appropriately.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">FOIA should be proportionate and fair in terms of the principles in Article 19 of UNUDHR.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC has taken an inconsistent approach to investigating other exemptions between the two Appeals. The Appellant submits that this appeal is predicated on whether the IC undertook the appropriate level of investigation of all the exemptions prior to making a decision on their application.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The time delays for the internal reviews on both cases were significant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The clarification of section 12</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The MOD made an application by way of form GRC5 dated 9 January 2026 for permission to submit a further statement in evidence. It explained that it has become apparent that if the August and November requests made by the Appellant within the context of the First Appeal were to be treated as one whole and complete request, the MOD should have specified the appropriate response to this request which would have been reliance on section 12 of FOIA. The application was accompanied by a witness statement from an individual whose name could not be disclosed in OPEN material for security reasons.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In response, the Appellant submitted his own form GRC5 dated 11 January 2026, requesting that the MOD&#8217;s application be refused as irrelevant and hypothetical. In his reasons he stated the following: &#8220;<span style="font-style:italic">There is significant potential confusion, which could mislead the Tribunal, as a result of the [MOD&#8217;s application]. For clarity, the &#8220;two requests&#8221; referred to by the Second Respondent relate only to their own internal administrative definitions for the initial information request and refinement&#8230;That GRC5 form and associate evidence has no relationship or relevant for [the Second Appeal] which is unfortunately referred to in their documents by the Second Respondent and may mislead the Tribunal. For clarity, the initial information request for [the First Appeal] was made by me on 31</span><span style="font-style:italic;vertical-align:super;font-size:smaller">st</span><span style="font-style:italic"> August 2023. Following the second Respondent&#8217;s 26</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> September 2023 initial refusal under section 12, on 5</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> October 2023 I requested clarification consistent with the ICO policy &#8220;Where a public authority claims that section 12 is engaged it should, where reasonable, provide advice and assistance to help the requestor to refine the request so that it can be dealt with under the appropriate limit. I received this clarification from the second respondent on 2</span><span style="font-style:italic;vertical-align:super;font-size:smaller">nd</span><span style="font-style:italic"> November 2023 and on the same day submitted a refined request to comply with section 12. The 4</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> December 2023 refusal to comply with my refined request made no reference to section 12. It is therefore irrelevant for the Second Respondent to try and retrospectively apply this exemption over 2 years later. Clearly if the second respondent had been minded to again refuse under section 12 on 4</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> December 2023- which they did not &#8211; I had already pre-empted this in my email to the second respondent of 3</span><span style="font-style:italic;vertical-align:super;font-size:smaller">rd</span><span style="font-style:italic"> November 2023 stating &#8220;if this still turns up too many responses to investigate within the cost guidelines, then I would recommend the  following alternatives&#8230;&#8221;. All correspondence on these matters has been available to all parties for a very significant time prior to the original 11</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> July 2025 adjourned hearing. Furthermore the complaint investigated by the first respondent for [the First Appeal] was based on an information request which the second respondent considered compliant with section 12 when the complaint was accepted. The Second respondent is attempting to place a hypothetical scenario before the tribunal over 2 years after they had already considered the refined requests as compliant with section 12. This is confusing and in my view threatens to unnecessarily distract and obfuscate the purpose of the Tribunal from valid material matters</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In its skeleton argument, the MOD argued that section 12 should have been maintained throughout and that it was through its oversight that it was not done. It should be noted that section 12 was raised in response to the first request within the first appeal and on a realistic analysis has remained relevant throughout the appeal. The application should be viewed in light of the breadth of the Appellant&#8217;s requests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">After hearing submissions from both parties at the hearing, the Tribunal decided that it was in the interests of justice to admit the late evidence explaining the MOD&#8217;s position, as it was potentially relevant to the matters the Tribunal needed to consider the appeal, although it would be a matter for the Tribunal as to the weight which should be placed on this</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Legal framework</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 1 FOIA creates a duty to&#160;disclose&#160;information held by public authorities. That duty exists whether that information is&#160;accurate&#160;or not; if it is held it is subject to the regime in FOIA albeit the accuracy of the information may be relevant to any balance of the public interests.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The duty to&#160;disclose&#160;information held by public authorities is subject to exemptions. There are broadly two types of exemption set out in Part II of FOIA: absolute and qualified. An exemption will be &#8220;qualified&#8221; where, if the exemption is engaged, the relevant public interests must be balanced to&#160;determine&#160;whether the public interest in&#160;maintaining&#160;the exemption outweighs the public interest in disclosure&#160;pursuant to section 2 FOIA. Section 23 is an absolute exemption so will not require the balancing of the public interests.&#160;Sections 27, 24 and 26 are qualified exemptions so we must balance the public interest in considering them.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 12 is not subject to this, because it is an exemption under Part I rather than Part II of FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Following the cases of&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">R (Evans) v Attorney General</span>&#160;[2015]UKSC 21 and<span style="text-decoration-line:underline;text-decoration-style:solid">&#160;Montague v The Information Commissioner and Department for International Trade</span>&#160;<ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/104" uk:canonical="[2022] UKUT 104 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 104 (AAC)</ref> and [2023]EWCA&#160;Civ&#160;1278 it is clear that the Tribunal should apply the public interest balance at the date of refusal, not at the date of an internal review, and thus not at any later date such as where there is a later reliance on additional or different exemptions.&#160;&#160;</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Section 12</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 12(1) provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;color:#343338;font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#343338">Section 1(1) does not oblige a public authority to comply with a request for information if the authority estimates that the cost of complying with the request would exceed the appropriate limit.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#343338">(2) Subsection (1) does not exempt the public authority from its obligation to comply with paragraph (a) of section 1 (1) unless the estimated cost of complying with that paragraph alone would exceed the appropriate limit&#8221; </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#343338">By regulation 3 of the Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 2004 (the Fees Regulations), the 'appropriate limit' for the MOD, as a government department specified in Part 1 of Schedule 1 of FOIA is &#163;600. The cost of staff time is estimated at &#163;25 per hour meaning a request would exceed the appropriate limit if complying would take more than 24 hours</span><span style="font-style:italic;color:#343338">.</span><span style="color:#343338"> Regulation 4 provides that the public authority may take into account in its estimate the time which would be taken in determining whether it holds the information, locating the information, or a document which may contain the information, retrieving the information, or a document which may contain the information, and extracting the information from a document containing it.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.35in;text-indent:0.14in"><span style="font-style:italic;font-weight:bold">Section 23</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 23, in Part II of FOIA, provides that a public authority is entitled to withhold the information requested where to do so would involve disclosure of information supplied by a body dealing with security matter, as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;23 Information supplied by, or relating to, bodies dealing with security matters.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;color:#010302;font-family:'Book Antiqua'">(1)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#010302">Information held by a public authority is exempt information if it was directly or indirectly supplied to the public authority by, or relates to, any of the bodies specified in subsection (3). </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;color:#010302;font-family:'Book Antiqua'">(2)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#010302">A certificate signed by a Minister of the Crown certifying that the information to which it applies was directly or indirectly supplied by, or relates to, any of the bodies specified in subsection (3) shall, subject to section 60, be conclusive evidence of that fact. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <intro>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;color:#010302">(3)The bodies referred to in subsections (1) and (2) are&#8212;  </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';color:#010302;margin-left:1in;text-indent:-0.25in">a.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic;color:#010302">the Security Service, </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';color:#010302;margin-left:1in;text-indent:-0.25in">b.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic;color:#010302">the Secret Intelligence Service, </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';color:#010302;margin-left:1in;text-indent:-0.25in">c.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic;color:#010302">the Government Communications Headquarters, </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';color:#010302;margin-left:1in;text-indent:-0.25in">d.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic;color:#010302">the special forces, </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';color:#010302;margin-left:1in;text-indent:-0.25in">e.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic;color:#010302">the Tribunal established under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/23/section/65" uk:canonical="2000 c. 23 s. 65" uk:origin="TNA" uk:type="legislation">section 65</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/23" uk:canonical="2000 c. 23" uk:origin="TNA" uk:type="legislation">Regulation of Investigatory Powers Act 2000</ref>, </span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#010302">the Tribunal established under <ref href="http://www.legislation.gov.uk/id/ukpga/1985/56/section/7" uk:canonical="1985 c. 56 s. 7" uk:origin="TNA" uk:type="legislation">section 7</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1985/56" uk:canonical="1985 c. 56" uk:origin="TNA" uk:type="legislation">Interception of Communications Act 1985</ref>, </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';color:#010302;margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic;color:#010302">the Tribunal established under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/5/section/5" uk:canonical="1989 c. 5 s. 5" uk:origin="TNA" uk:type="legislation">section 5</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1989/5" uk:canonical="1989 c. 5" uk:origin="TNA" uk:type="legislation">Security Service Act 1989</ref>&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 23(5) provides that:-</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;The duty to confirm or deny does not arise</span><span style="font-style:italic;color:#FFFFFF"/><span style="font-style:italic">if, or to the extent that, compliance with section 1(1)(a) would involve the disclosure of any information (whether or not already recorded) which was directly or indirectly supplied to the public authority</span><span style="font-style:italic;color:#FFFFFF"/><span style="font-style:italic">by, or relates to any of the bodies specified in subsection (3)&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In determining whether information &#8216;relates to&#8217; a section 23 body, &#8216;relates to&#8217; is used in a wide sense, although it is not to be stretched too far; a mere incidental connection  between the  information and  the  body  is  not  enough  &#8211;  see  the decisions of the Upper<span style="color:#FFFFFF"/>Tribunal in <span style="text-decoration-line:underline;text-decoration-style:solid">APPGER v IC &amp; FCO</span><span style="color:#FFFFFF"/>[2015]<span style="font-size:11pt;color:#FFFFFF"/>UKUT 0377 (AAC) (&#8216;APPGER&#8217;) and <span style="text-decoration-line:underline;text-decoration-style:solid">Corderoy v IC &amp; Attorney General</span><span style="font-style:italic;font-weight:bold"/><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2017/0495" uk:canonical="[2017] UKUT 0495 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKUT 0495 (AAC)</ref> (&#8216;Corderoy&#8217;) and the Court of Appeal in <span style="text-decoration-line:underline;text-decoration-style:solid">Department of Health v IC &amp; Lewis</span><span style="font-style:italic;font-weight:bold"/><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2017/374" uk:canonical="[2017] EWCA Civ 374" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] EWCA Civ 374</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">FOIA should not be used in a way which reveals the activities of the section 23 bodies<span style="color:#FFFFFF"/>&#8211; see <span style="text-decoration-line:underline;text-decoration-style:solid">APPGER</span><span style="font-style:italic;font-weight:bold"/>paras 16, 21 and 33.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Upper Tribunal in <span style="text-decoration-line:underline;text-decoration-style:solid">Commissioner of the Police of the Metropolis v  Information Commissioner &amp; Rosenbaum</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2021/5" uk:canonical="[2021] UKUT 5 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKUT 5 (AAC)</ref> endorsed as being correct as a matter of law the following principles put forward by the IC in that case:-   </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;1.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Section 23 affords the &#8220;widest protection&#8221; of any of the exemptions: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cobain</span><span style="font-style:italic"> at [19(b)] and [29]. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The purpose of section 23 is to preserve the operational secrecy necessary for section 23(3) bodies to function: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Lownie</span><span style="font-style:italic"> at [50]. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">3.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">It is &#8220;Parliament&#8217;s clear intention that, because of what they do, there should be no question of using FOIA to obtain information from or about the activities of section 23 bodies at all&#8221;. The exclusion of the section 23(3) bodies from the scope of FOIA was shutting the front door, and section 23 was &#8220;a means of shutting the back door to ensure that this exclusion was not circumvented&#8221;: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">APPGER</span><span style="font-style:italic"> at [16].  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">4.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The legislative choice of Parliament was that &#8220;the exclusionary principle was so fundamental when considering information touching the specified bodies, that even perfectly harmless disclosure would only be made on the initiative or with the consent of the body concerned&#8221;: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Cobain</span><span style="font-style:italic"> at [28]; </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Lownie</span><span style="font-style:italic"> at [53]. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">5.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Asking whether the information requested is anodyne or revelatory fails to respect the difficulty of identifying what the revelatory nature of the information might be without a detailed understanding of the security context: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Lownie</span><span style="font-style:italic"> at [42]; </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Corderoy</span><span style="font-style:italic"> at [59]. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">6.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">When applying the &#8216;relates to&#8217; limb of sections 23(1) and (5), that language is used in &#8220;a wide sense&#8221;: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">APPGER</span><span style="font-style:italic"> at [25]; </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Corderoy</span><span style="font-style:italic"> at [59]; </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Savic</span><span style="font-style:italic"> at [40].</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">7.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The first port of call should always be the statutory language without any judicial gloss: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">APPGER</span><span style="font-style:italic"> at [23]; </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Corderoy</span><span style="font-style:italic"> at [51]; </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Savic</span><span style="font-style:italic"> at [40]. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">8.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">With that warning in mind, in the context of &#8216;relates to&#8217; in section 23, it may sometimes be helpful to consider the synonyms of &#8220;some connection&#8221;, or &#8220;that it touches or stands in some relation to&#8221; (APPGER at [13], [25]) or to consider whether the request is for &#8220;information, in a record supplied to one or more of the section 23 bodies, which was for the purpose of the discharge of their statutory functions&#8221; (</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">APPGER</span><span style="font-style:italic"> at [21], [26]; </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Lownie</span><span style="font-style:italic"> at [57]). But the &#8216;relates to&#8217; limb must not be read as subject to a test of focus (</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">APPGER</span><span style="font-style:italic"> at [14]) or directness (</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Lownie</span><span style="font-style:italic"> at [59] &#8211; [60]). </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">9.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The scope of the &#8216;relates to&#8217; limb is not unlimited and there will come a point when any connection between the information and the section 23(3) body is too remote. Assessing this is a question of judgement on the evidence: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Lownie</span><span style="font-style:italic"> at [62].  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">10.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The assessment of the degree of relationship may be informed by the context of the information: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Lownie</span><span style="font-style:italic"> at [4] and [67].</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">11.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The scope of the section 23 exemption is not to be construed or applied by reference to other exemptions, including section 24: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">APPGER</span><span style="font-style:italic"> at [17]; </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Lownie</span><span style="font-style:italic"> at [45] and [52]. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">12.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">In a section 23(1) case, regard should be had as to whether or not information can be disaggregated from the exempt information so as to render it nonexempt and still be provided in intelligible form: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Corderoy</span><span style="font-style:italic"> at [43].  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">13.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Section 23(5) requires consideration of whether answering &#8216;yes&#8217; or &#8216;no&#8217; to whether the information requested is held engages any of the limbs of section 23: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Savic</span><span style="font-style:italic"> at [43], [82] and [92].  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">14.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The purpose of section 23(5) is a protective concept, to stop inferences being  drawn on the existence or types of information and enables an equivalent position to be taken on other occasions: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Savic</span><span style="font-style:italic"> at [60].&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 23 is an absolute exemption; if it is engaged, no public interest balancing is required:  section 2(3)(b) FOIA</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Section 27</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 27 provides an exception to the duty to make disclosure of the  information for international relations as follows:  </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(1)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Information is exempt information if its disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/5" uk:canonical="1989 c. 5" uk:origin="TNA" uk:type="legislation">this Act</ref> would, or would be likely to, prejudice&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">relations between the United Kingdom and any other State, </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">relations between the United Kingdom and any international organisation or international court,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">the interests of the United Kingdom abroad, or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">the promotion or protection by the United Kingdom of its interests abroad.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Information is also exempt information if it is confidential information obtained from a State other than the United Kingdom or from an international</span><span style="font-style:italic;color:#010302"/><span style="font-style:italic">organisation or international court.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Section 24  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 24 provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Information which does not fall within section 23(1) is exempt information if exemption from section 1(1)(b) is required for the purpose of safeguarding national security. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The duty to confirm or deny does not arise if, or to the extent that, exemption from section 1(1)(a) is required for the purpose of safeguarding national security.&#8221; </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The principles regarding national security are also well-established and were set out by the three-judge panel of the Upper Tribunal in <span style="text-decoration-line:underline;text-decoration-style:solid">FCDO v Information Commissioner, Williams and Others</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2021/248" uk:canonical="[2021] UKUT 248 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKUT 248 (AAC)</ref> at [31]:  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Section 26  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 26 provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Information is exempt information if its disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/1989/5" uk:canonical="1989 c. 5" uk:origin="TNA" uk:type="legislation">this Act</ref> would, or would be likely to, prejudice&#8212; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">the defence of the British Islands or of any colony, or </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">the capability, effectiveness or security of any relevant forces. &#8230; </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(3)</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.35in;text-indent:0.29in"><span style="font-style:italic">The duty to confirm or deny does not arise if, or to the extent that, compliance with </span><marker name="tab"/><marker name="tab"/><span style="font-style:italic">section 1(1)(a) would, or would be likely to, prejudice any of the matters mentioned in </span><marker name="tab"/><marker name="tab"/><span style="font-style:italic">subsection (1).&#8221;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The Role of the Tribunal    </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal&#8217;s remit is governed by section 58 FOIA. This requires the Tribunal to consider whether the decision made by the IC is in accordance with the law or, where the IC&#8217;s decision involved exercising discretion, he should have exercised it differently. If we are satisfied that the IC&#8217;s decision notice is in error of law or involves an inappropriate exercise of discretion then we will allow the appeal and may substitute a decision notice for that of the IC. The Tribunal may receive evidence that was not before the IC and may make different findings of fact from the IC.    </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The hearing</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In his skeleton argument and at the hearing, in summary the Appellant made the following points relating to the First Appeal:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The government policy has confirmed there is no recognised threat from UAP, no classified material held on UAP and no dedicated UK team investigating such sightings. This policy is of &#8220;material and fundamental relevance to the significant public interest and scientific good engaged in this case&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC&#8217;s position in relation to the application of section 27(4) is &#8220;incorrectly formed&#8221; because:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">Only unsupported opinion has been provided that either such information exists or that the release of such information would have a negative impact on international relations or disturb Five Eyes relationships</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">The US government is going through a planned and detailed programme of disclosure relating to UAP, so there is no justification that the UK releasing this information would harm international relations</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in">The IC did not demonstrate it has investigated why this exemption was applied across the 14 years and 10 months of information requested.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Neither respondent has addressed why a blanket NCND exemption was applied to the information sought.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The reliance of the Respondents on <span style="text-decoration-line:underline;text-decoration-style:solid">Montague</span> to argue that only information at the time of the refusal of the initial request should be admissible is wrong; any information published up to the time of the First Decision Notice on 28 October 2024 should be considered because this information was provided by the Appellant, it was in the public domain by the latter date and throws light on the grounds now given for refusal (see <span style="text-decoration-line:underline;text-decoration-style:solid">R (Evans) v AG [2015] </span>UK SC 21). the MoD held the information relating to this UAP Inaugural Caucus at the time the information request was received as the general public had been made aware of the existence of this meeting on 31st May 2023 by the lead party in Five Eyes on this issue, the US government.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The lack of appropriate investigation of this case by the IC was a determining factor in the Appellant's original complaint being dismissed by the IC.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC did not investigate the complaint in full because it did not investigate the exemptions under section 24(2) or 26(3). The lack of investigation makes the IC&#8217;s decision invalid.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The time taken by the IC and MOD to review this case has material impact on the outcome of the investigation because of the information that has been released into the public domain during the process, which gives further weight to the lack of relevance of a section 27 exemption. For FOIA to be sufficiently robust, operationally fit for purpose and responsive to the general public's rights as enshrined within the act, that there should appropriate mechanisms in place to ensure timescales are adhered to by the public bodies involved.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He made the following points in relation to the Second Appeal:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Information of material import to the case came into the public domain [A96-A100], some published by the MOD themselves [A100], prior to the initial information request being submitted on 21 August 2024. The IC did not investigate this appropriately.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The MOD is effectively admitting that the NCND principles were not applied appropriately for this case.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Based on his own public release of information (on 2nd August 2024, prior to 21 August 2024 information request) regarding two officials attending the Inaugural UAP Caucus, which by corollary therefore took place, it is not tenable for the MOD to continue to use a NCND response.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The use of section 23 exemptions is heavy-handed and inappropriate. To be 'fit for purpose' the FOIA should be proportionate and fair in terms of the principles enshrined within Article 19 of the UN Universal Declaration of Human Rights and other appropriate subsidiary international law.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC took an inconsistent and incomplete investigation approach to its investigations in relation to the first and second document requests.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Mr Curtin commented on the IC&#8217;s reliance on <span style="text-decoration-line:underline;text-decoration-style:solid">Information Commissioner v Malnick &amp; ACOBA</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/72" uk:canonical="[2018] UKUT 72 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 72 (AAC)</ref>, whereby the Upper Tribunal rejected the submission that the IC had not fully discharged his functions unless and until he had made a decision on every exemption relied upon. He submitted that this appeal is predicated on whether the IC undertook the appropriate level of investigation of <span style="text-decoration-line:underline;text-decoration-style:solid">all</span> the exemptions prior to making a judgement decision on one or all of the exemptions.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The time delays for the internal reviews for both cases were significant (57 working days and 76 working days respectively), both in excess of the maximum guidelines (40 days) and not an isolated occurrence.  Furthermore, he considers the communication with him regarding these delays was poor or absent, which is inconsistent with the PR guidelines issued by the IC.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The First Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The first question we considered was whether, as a matter of fact, Mr Curtin&#8217;s November Request was made as a refinement of the previous August Request which had been considered under section 12 or whether both the MOD and IC were correct to treat it as a stand-alone request. We were persuaded by Mr Curtin&#8217;s clear evidence and find that that he intended that the November Request should be a refinement of the August Request. We considered that this was supported by the text of the November Request reproduced by the IC at paragraph 6 of the First Decision Notice which expressly offered some options for refining the request and reducing the number of responses caught by it so as to bring it under the cost threshold for section 12. We also note that Mr Curtin did not seek an internal review of the August Request, which suggested that he did not consider the MOD had made a final decision on his request at the point of making the November Request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The MOD in its response dated 4 December 2023 stated that it was treating the correspondence as a request for information under FOIA. It did not mention section 12. We accepted the MOD&#8217;s submission that it had made an error in its handling of the November Request, in that it had treated this as an entirely new request rather than as a refinement of the previous August Request. As the MOD had treated it in this way, it flowed from that that the IC would consider the response actually given by the MOD rather than looking at the November Request as part of the conversation between the MOD and Mr Curtin about refining the August Request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Having found as a matter of fact that the November Request was a refinement of the August request, we consider that the MOD, and thus the IC, ought properly to have considered it against the background of the August Request and considered whether section 12 was engaged. We consider that not to have done so and to have moved straight to consideration of section 23 and 27 was an error which means that the First Decision Notice was not issued in accordance with the law.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As to whether it was fair to allow the MOD to change its position to plead section 12 rather than section 23(5) and 27(2) at a late stage in the proceedings, we took account of the UT decision in <span style="text-decoration-line:underline;text-decoration-style:solid">DEFRA v Information Commissioner and Simon Birkett</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2011/39" uk:canonical="[2011] UKUT 39 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKUT 39 (AAC)</ref> (26 January 2011) which is binding authority for the proposition that a public authority which has initially relied upon a particular exemption under FOIA may, as of right, later rely on additional or different exemptions without the permission of the IC or Tribunal. Paragraph 60 of that decision states &#8220;<span style="font-style:italic">the nature of the appeal before the First-tier Tribunal requires it to consider the response that the public authority should have made afresh. It must apply the law afresh to the request taking account of the issues presented at the hearing or identified by the First-tier Tribunal.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the course of the hearing, Mr Jolliffe drew the Tribunal&#8217;s attention to the letter which was sent by the MOD to Mr Curtin on 2 November 2023 (page B255). This letter provided a breakdown of the results of undertaking a search using key terms from the request on one of the MOD&#8217;s internal network to identify potential information in scope, which yielded 20,020 links relating to &#8220;<span style="font-style:italic">national security</span>&#8221;, &#8220;<span style="font-style:italic">threats</span>&#8221; and &#8220;<span style="font-style:italic">Five Eyes</span>&#8221;. The MOD stated that if it was to allocate an initial search time of 3 minutes per link to conduct a search of that area to identify any information within scope of the request this would take 138 days to do so, which amply exceeded the limit for section 12. It concluded &#8220;<span style="font-style:italic">Please note, depending on the nature of any suggested refinement, this may still exceed the appropriate cost limit. Additionally, information may also be subject to exemptions under the Ac</span>t&#8221;. We find that it was this letter to which Mr Curtin was responding when he made the November Request, which sought ways in which the number of links could be reduced, notably by removing the search terms for &#8220;<span style="font-style:italic">national security</span>&#8221; and &#8220;<span style="font-style:italic">threats</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Adopting the information and methodology set out in the letter dated 2 November 2023, this suggestion would have removed the vast majority of the links, leaving 1,640 links which were related to Five Eyes. If 3 minutes was allocated to each of these links this would result in 82 hours of work, which is clearly in excess of the section 12 threshold, simply to identify whether there was any information in this sample. When taking account of the fact this sample was from only one of the MOD&#8217;s internal networks and any information identified would also need to be reviewed before considering disclosure, the potential figure rises. Had &#8220;<span style="font-style:italic">Five Eyes</span>&#8221; been also excluded as a search term, then a fresh search would need to have been undertaken in order to respond.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We are therefore persuaded on balance of probabilities that the work it would take to identify and consider potentially relevant information would significantly exceed the section 12 limit. For this reason, we allow the First Appeal and substitute a decision notice which reflects the section 12 position.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The Second Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ambit of the information sought by Mr Curtin in the Second Appeal is in connection with a Five Eyes (FVEY) meeting at the Pentagon on 24 May 2023. The meeting was entitled &#8220;<span style="font-style:italic">FVEY Inaugural UAP Caucus Working Group</span>&#8221;. Mr Curtin requested details for the UAP update section for the UK only. We deal with each of the grounds of appeal raised by Mr Curtin below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin argued that the IC did not give enough weight to the &#8216;non threat&#8217; policy position which in his view meant there was significant public interest and good in releasing this information. We did not agree with Mr Curtin that this public interest and public good should prevail, because we were persuaded by the IC&#8217;s argument that section 23 of FOIA is an absolute class-based exemption, so once it is engaged the public interest in disclosure does not need to be considered. We agreed with the MOD that Section 23(5) does not depend on government policy, but on the fact that the subject matter, were it to exist, being information more likely than not to be information supplied to the public bodies, directly or indirectly by the security bodies listed in section 23(3).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin made a number of criticisms of the investigation conducted by both the IC and the MOD into his complaints, in terms of the scope of the investigation, the consistency of the investigations into the First and Second Appeals and the time it took to respond to him properly. The Tribunal explained at the hearing that it does not have any power to review the way in which an investigation is conducted, and that the IC has significant discretion as to how it goes about this. We also clarified that the Tribunal does not have the power to sanction the IC or MOD for any delays under FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin argued that the IC did not adequately assess or give appropriate weight to the Appellant&#8217;s rights under Article 19 of UNUDHR and subsequent legislation and the presumption that all information is accessible subject only to a narrow system of exceptions. We disagreed with this, because, as pointed out by the IC, the Tribunal only has jurisdiction under FOIA in this appeal and attempts to widen this have failed, as in the <span style="text-decoration-line:underline;text-decoration-style:solid">Moss</span> case. We also agreed with the MOD&#8217;s argument that the position here is weaker than with <span style="text-decoration-line:underline;text-decoration-style:solid">Moss</span>, because that case concerned the ECHR which does have a bearing on the interpretation of English law, whereas the UNUDHR does not create a right to information which this Tribunal can address.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In relation to Mr Curtin&#8217;s argument that the IC did not investigate the MOD&#8217;s refusal of the request under sections 24, 26 and 27 of FOIA and so has produced an incomplete analysis, which is unbalanced and unfair, we disagreed. The Tribunal is bound by the UT&#8217;s decision in <span style="text-decoration-line:underline;text-decoration-style:solid">Malnick</span> that once the authority has lawfully relied on one exemption and notified its decision it has complied with its obligation and does not then need to consider all or any further potential exemptions which might be relied upon. In other words, if section 23 is engaged that is a complete answer and the IC does not need to go any further.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Curtin argued that information of material import came into the public domain before the initial information request submitted on 21 August 2024, so there is no justification for the MOD to use an NCND response concerning this meeting, as some or all of this information existed. We were persuaded for the reasons set out in the gist that the MOD had not released any such information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">For all these reasons, we were satisfied that section 23(5) was engaged. As this is an absolute exemption we did not need to go on to consider the public interest in any potential disclosure. We therefore dismiss the Second Appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed:  Judge Harris</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date: </span><docDate date="2026-02-13" refersTo="#decision" style="font-family:'Book Antiqua'">13 February 2026</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

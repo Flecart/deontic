@@ -1,0 +1,106 @@
+# Philip John Surtees Wise v The Information Commissioner & Anor
+
+citation: [2026] UKFTT 351 (GRC)
+url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/351
+exemptions: s35(1)(a)
+verified: yes
+
+## Background
+
+<!-- RAW kept sections from ukftt/grc/2026/351/data.xml (everything before the tribunal's
+     own reasoning) — used as-is; trim only if context length forces it.
+     Withheld headings: paras 37-70 manually cut to reasoning file (headingless decision). -->
+
+### (preamble)
+
+1. This decision relates to an appeal brought by the Appellant p ursuant to section 57 Freedom of Information Act 2000 . It is in respect of a decision notice issued by the Information Commissioner on 21 November 2022 with reference IC-15573-S7Z9. It concerns a request for information made to the 2nd Respondent on 12 January 2022 about the requirement for the return of expiring/expired driving licence documents to the 2nd Respondent.
+
+2. What follows is a summary of the submissions, evidence and our view of the law. It does not seek to provide every step of our reasoning. The absence of a reference to any specific submission or evidence does not mean it has not been considered. In this decision any page numbers indicated by their inclusion in brackets refer to pages of the bundle, if the letters CB are added it is to the closed bundle and the following definitions are used:- Freedom of Information Act 2000 FOIA Inquiries Act 2005 2005 Act public interest balance test PIBT The Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009 2009 Rules Dr Philip Wise the Appellant The Information Commissioner the IC Driver and Vehicle Licensing Agency DVLA The Appellant's request for information the Request The IC's decision notice the DN Mark Chatham from DVLA Mr Chatham Upper Tribunal & First-tier Tribunal UK & FtT guidance issued by the IC the Guidance Terms of Reference ToR DVLA's document headed "For Consideration by the Minister" at CB18 the Draft Submission DVLA's document called "Regulatory proposal pro-forma" at CB13 the Pro-Forma Background in summary
+
+3. DVLA is an executive agency of the Department for Transport. As part of its functions it is responsible for issuing driving licences. For various reasons a licence may, for example, expire, be suspended or be revoked. The Road Traffic Act 1988 contains statutory provisions requiring such licences to be returned to DVLA. This has been called "the surrender requirement." We were told that as of December 2025 this requirement remained in place and as far as Mr Chatham was aware Minsters had not given approval for an amendment to the Road Traffic Act to enable any change to the surrender requirement.
+
+4. The Appellant was required to renew his driving licence. Part of the process involved destroying his old licence and sending it back in that state to DVLA. On 12 November 2021 he wrote to DVLA and suggested that they could consider developing a process more akin to that used by UK financial institutions whereby cards are destroyed by customers but not sent back. He asked (82/SB2):- "...Why has the DVLA not reconsidered the costs and benefits of requiring the return of expiring driving licences and come to a similar conclusion to the banks i.e. to discontinue an outdated practice whose costs exceed its benefits?"
+
+5. DVLA replied on 22 November 2021. It said (25) "...I can confirm that we are reviewing our current procedures around all documents being returned to us, however it is required for now..."
+
+6. It was this reply that led to the Request on 12 January 2022 which asked:- "I was advised on 22/11/21 (case reference number 05636763) that DVLA is "reviewing our current procedures around all documents being returned to us". I would like to receive a copy of the terms of reference for that review."
+
+7. On 12 January 2022 (SB4) the Appellant was asked for more clarity as follows: "Thank you for contacting the DVLA, I would be grateful if you can clarify, you have stated (case reference number 05636763) that DVLA is "reviewing our current procedures around all documents being returned to us". I would like to receive a copy of the terms of reference for that review. Can you state what your case is in regards to and which copy of the terms of reference for that review is in regards to?"
+
+8. On 12 January 2022 the Appellant wrote (SB5):- "I've attached a copy of my original enquiry to DVLA in relation to the requirement to return expiring/expired driving licences...and the response received from DVLA contact centre... As you can see the response includes the words in quotations in your e-mail below. Since good practice requires that all such reviews are carried out in accordance with pre-specified Terms of Reference, I would like to receive a copy of those. Please let me know if this does not provide sufficient clarification.
+
+9. This decision contains conclusions which are at times somewhat critical of DVLA's approach to dealing with the Request. It is fair therefore to record DVLA's written apology by counsel as follows:- "The DVLA wishes to put on record its apology for inadvertently misleading the FTT into finding that a version of the Draft Submission existed in January 2022 and for its errors in handling the Appellant's request and responding to the Appellant's subsequent complaint to the Commissioner and appeal, all of which have caused considerable and unnecessary confusion" " Evidence and matters considered
+
+10. The hearing was attended by the Appellant and counsel for DVLA. We had a (revised) open bundle o f 155 pdf pages. In addition o ther items provided included the decision of the UT in this matter, a supplemental open bundle ("SB") of 5 pages and skeleton arguments for the Appellant and DVLA.
+
+11. The Tribunal also had a revised closed bundle ("CB") of 21 pages held pursuant to rule 14 2009 Rules. This included a copy of the Pro-Forma, the Draft Submission, an unredacted version of Mr Chatham's statement and a closed submission. DVLA provided a gist of the index of the closed bundle.
+
+12. When considering the closed material the Tribunal kept in mind that it has a continuing duty to ensure fairness with regard to it and continued to act in accordance with the decision of the Court of Appeal in B rowning -v- Information Commissioner [2014] EWCA civ 1050 .
+
+13. We held a closed hearing with Mr Chatham and counsel for DVLA during which we received a supplemental closed bundle of 13 pages. A gist was also prepared by counsel for DVLA. Following the closed hearing the Appellant was provided with a redacted copy of the Draft Submission showing only its date at the top of "xx September 2022" . Witness evidence
+
+14. Mr Chatham provided a statement dated 9 January 2025 (149-155) and appeared as a witness for DVLA. He was cross-examined by the Appellant and was asked questions by the Tribunal in the open and closed parts of the hearing.
+
+15. Since about June 2023 he has been responsible for the management of the Freedom of Information Team within DVLA. He said that the FOIA team had about 5 members of staff and dealt with over 1000 FOIA requests a year. He said that his role includes "ensuring that requests under the Freedom of Information Act 2000 ("FOIA") are dealt with in compliance with the provisions of that legislation." Mr Chatham said that a policy review can take many forms and can come from different people such as a Minister or DVLA's chief executive. Mr Chatham explained how he thinks the idea for a review of the surrender requirement arose and how it had proceeded. He thinks that "10 Downing Street" asked for proposals for dealing with the surrender requirement as part of the UK government's Covid recovery plan. In about June 2020 a review was initiated with the Pro-Forma. Progress was slow because advice was received that any change to the process might involve amendment to primary legislation.
+
+16. Cross-examination of Mr Chatham focused for example on how Mr Chatham knew the facts given in his statement, where his knowledge had come from and how it came about that two employees at DVLA said information was held if in reality no such document existed.
+
+17. It was helpful to have his evidence but, as he explained he was not able to assist to any great extent with information about DVLA's policy team processes, he was not involved in the initial response to the Request or after review and some parts of his evidence had to be based on assumptions. He was also at times having to explain how and why the processes had gone wrong. This led to information being sought about those who had been involved, if they had been spoken to about this appeal and their current employment status in DVLA. On this matter it appeared he knew more than he was prepared to say but we understood his reluctance. Role of the Tribunal
+
+18. The Tribunal's role in an appeal by section 57 FOIA is set out in section 58 FOIA which provides that:- (1) If on an appeal under section 57 the Tribunal considers— (a) that the notice against which the appeal is brought is not in accordance with the law, or (b) to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently, the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal. (2) On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based.
+
+19. The IC and DVLA also referred to a number of FtT decisions on the role of the Tribunal such as Stuart-v-the IC and DWP EA/2008/0040 and Matalia -v- the IC EA/2021/0302 and Cannis -v- the IC EA/2009/102 &119 with which we agree and in which the FtT in summary says that in carrying out its full merits review the FtT is not undertake a review of the basis on which the IC made a decision or the way the decision was reached. We also had regard to authorities such as NHS England -v- Information Commissioner and Dean [2019] UKUT 145 (ACC) and Information Commissioner v Malnick and Advisory Committee On Business Appointments [2018] UKUT 72 (AAC) .
+
+20. This appeal is a "full rehearing on the merits" and in In Peter Wilson -v- The Information Commissioner [2022] UKFTT 0149 the FtT said (with which we agree):- "30...the Tribunal's statutory role is to consider whether there is an error of law or inappropriate exercise of discretion in the Decision Notice. The Tribunal may not allow an appeal simply because it disagrees with the Information Commissioner's Decision. It is also not the Tribunal's role to conduct a procedural review of the Information Commissioner's decision making process or to correct the drafting of the Decision Notice."
+
+21. We also noted Forstater v Information Commissioner and others [2023] UKUT 303 (AAC) where the UT at para 40 said:- "40... (1) the FTT is required under section 58 of FOIA to decide independently whether the Information Commissioner's decision was in accordance with the law. In doing so the FTT "must apply the law afresh to the request taking account of the issues presented at the hearing or identified by the First-tier Tribunal." (2) the "ordinary presumption" is that it is for an appellant to prove their case. The burden will rest with the appellant except where statute expressly or impliedly provides otherwise:...Neither FOIA nor the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2008 contain any express provision about the burden of proof and neither by implication remove the 'ordinary presumption' either; and (3) however, the concept of the burden of proof is of secondary importance in tribunal proceedings which involve a full merits review, since to apply strict burdens of proof may prevent the tribunal from properly discharging its responsibility to decide the facts for itself and/or exercise any discretion afresh..." Response to appeal (in summary)
+
+22. DVLA responded to the Request, as clarified, on 24 January 2022 (83) and in summary said that it held information within the scope of the Request but it was being withheld in reliance on the exemption in section 35(1)(a)FOIA. The Appellant, on 25 January 2022, sought an internal review of DVLA's response and also indicated he considered DVLA had failed to comply with section 16 FOIA. DVLA responded again on 11 February 2022 (88) and maintained its position on section 35.
+
+23. On 12 February 2022 the Appellant complained to the IC. During the IC's investigation on 4 November 2022 DVLA now said (141):- "The DVLA does not hold the information specified by Dr Wise as there are no pre- specified terms of reference for the policy review in question". However the information that is held is draft version of a submission to government Ministers..." and if it was in-scope of the Request it was their view that it was exempt by section 35 (1)(a) FOIA.
+
+24. In the DN the IC said in summary (5):- "2. The Commissioner's decision is that the DVLA does not hold the requested information but has failed to comply with section 1 of FOIA. The Commissioner finds that the DVLA did comply with section 16." and for example said:- "23.. In this case, the DVLA is seeking to withhold information that does not appear – based on the DVLA's submissions – to be that which has been requested by the complainant. Furthermore, it would appear that the information the DVLA is seeking to withhold was created in September 2022, nine months after receipt of the request for information. In such a scenario, the Commissioner cannot reasonably conclude that the DVLA has conducted proper searches." "25.The Commissioner notes that the DVLA has now conducted proper searches and he has considered the DVLA's position. He is satisfied that there is no available evidence to suggest that such a Terms of Reference document is held by the DVLA." "26 The Commissioner's conclusion is therefore that, on the balance of probabilities, the DVLA does not hold information within the parameters of the complainant's request."
+
+25. On 6 December 2022 the Appellant commenced this appeal. The Appellant said that the outcome sought (20) is for the Tribunal to decide that:- "1) The Commissioner is correct in concluding that DVLA has not faile d to comply with section 1 of FOIA [but clearly the addition of "not" was an error]. 2) The Commissioner's investigation was insufficient to enable a determination on the balance of probabilities that DVLA does not hold the information requested by the appellant and, on that basis, the appeal is allowed 3) In consequence, the Commissioner should carry out a new investigation taking into account the document titled "Reasonable Minimum Investigation" in section 5b of this Notice of Appeal."
+
+26. The IC responded to the appeal on 13 January 2023 and the Appellant replied to the IC on 18 January 2023 (34). An application was made by the IC for the appeal to be struck out by rule 8(2)(a) 2009 Rules and/or rule 8(3)(c) 2009 Rules. That application was refused on 21 February 2023. DVLA became a party on 17 April 2023 then responded to the appeal on 21 June 2023 to which the Appellant replied on 30 June 2023. From the UT Decision of 15 March 2024 it can be seen that:- (a) on 15 March 2024 the FtT dismissed the appeal on the basis that, as concluded in the DN, on the balance of probabilities the information requested was not held by the IC. (b) on 7 October 2024 the UT gave the Appellant permission to appeal, on part of grounds requested for seeking permission. (c) on 9 January 2025 Mr Chatham provided his statement. (d) on 27 June 2025 the appeal was allowed as set out in the UT Decision and the appeal, was remitted to the FtT for reconsideration at an oral hearing. FOIA
+
+27. FOIA provides that any person making a request for information to a public authority is entitled to be informed in writing if that information is held (section 1(1) (a) FOIA) and if that is the case to be provided with that information (section 1 (1) (b) FOIA). These entitlements are subject to a number of exemptions which can be absolute or subject to the PIBT. Not held
+
+28. By section 1(4) FOIA "information" in section 1(1) is "the information in question held at the time when the request is received,..." in this case in January 2022.
+
+29. We considered various legal authorities on the question of "not held" such as Preston -v- the Information Commissioner and The Chief Constable of Yorkshire Police [2022] UKUT 344 ACC, Bromley and others -v-Information Commissioner and the Environment Agency EA/2006/0072 and Jeremy Clyne v IC and London Borough of Lambeth EA/2011/0190. From these it can be seen that (a) there will not usually be absolute certainty about whether in-scope information is held or not and in considering this question the IC and Tribunal should use the balance of probabilities test and (b) it may be that the information should exist but a failure to retain information does not mean it it is held and is not a breach of FOIA.
+
+30. In the FtT decision in Oates v Information Commissioner and Architects Registration Board EA/2011/0138 (with which we agree) it was said that the IC was entitled to accept the word of a public authority and not investigate further:- "11...in circumstances, where there was no evidence as to an inadequate search, any reluctance to carry out a proper search or as to a motive to withhold information actually in its possession."
+
+31. We noted and agreed with the decision in Bromley that:- "13...We think that its application requires us to consider a number of factors including the quality of the public authority's initial analysis of the request, the scope of the search that it decided to make on the basis of that analysis and the rigour and efficiency with which the search was then conducted. Other matters may affect our assessment at each stage, including, for example, the discovery of materials elsewhere whose existence or content point to the existence of further information within the public authority which had not been brought to light. Our task is to decide, on the basis of our review of all of these factors, whether the public authority is likely to be holding relevant information beyond that which has already been disclosed. " Section 35(1)(a) FOIA
+
+32. Section 35(1)(a) FOIA is a class-based exemption subject to the PIBT. It provides that "Information held by a government department... is exempt information if it relates to...(a)the formulation or development of government policy." Issues
+
+33. The outcome sought, as expressed by the Appellant in the appeal, is the Tribunal's determination that (a) the IC was correct about DVLA failing to comply with section 1 FOIA and (b) the IC's investigation was insufficient and so the IC should carry out a new investigation.
+
+34. A narrow reading of these points could result in the appeal being dismissed because agreeing with the DN, making a finding about the quality of the IC's investigation and ordering the IC to investigate again are not themselves remedies available to the Appellant by FOIA. The Appellant is alert to this possibility. He says (15) "... However, I do not know whether the Tribunal has the power to do this."
+
+35. From the substance of what the Appellant says seen, for example, in the complaint (92) and the Appellant's skeleton, in our view what he seeks to appeal is the outcome of the DN in a broad sense because he believes information is held and the approach to looking for information was flawed. To enable the Tribunal to decide if the DN was in accordance with the law the questions we have therefore considered are:- (a) what is a ToR in the context of the Request and this appeal? (b) is the Draft Submission document in the CB in-scope in terms of its date and content and, if so, is section 35(1)(a) FOIA engaged in respect of it and, if it is, does the PIBT favour disclosure or non- disclosure? (c) is the Pro-Forma in-scope in terms of its date and content? (d) on the balance of probabilities did DVLA hold any in-scope material at the date of the Request?
+
+36. The Appellant in his skeleton (para 22) confirmed that section 16 FOIA was not an issue and we also did not consider whether the IC was right to conclude that DVLA had failed to comply with section 1 FOIA because the Appellant agreed that part of the DN.
+
+<!-- manual cut: paras 37-70 (tribunal's own analysis) moved to cache/ukftt_grc_2026_351_reasoning.txt
+     because the fetch tool did not detect section headings (entire decision was in one (preamble) block) -->
+
+## Disputed information
+
+The terms of reference for DVLA's review of the "surrender requirement" (the statutory obligation to return expiring/expired driving licences to DVLA). Specifically, a document called the "Regulatory proposal pro-forma" (June 2020) held by DVLA and setting out the background, impacts and work needed to remove the surrender requirement. The tribunal found this Pro-Forma constitutes terms of reference within the scope of the request and was held by DVLA at the date of the request (12 January 2022).
+
+## Oracle facts
+
+Request, HoldsInfo, ConfirmOrDeny, RefusalNotice
+
+## Gold
+
+disclose
+
+## Gold rules
+
+engaged: 
+pi: na

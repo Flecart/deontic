@@ -1,0 +1,972 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/528"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/528"/>
+	  <FRBRdate date="2026-05-07" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="528"/>
+	  <FRBRname value="Jonathan Wilfred Samuel v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/528"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/528"/>
+	  <FRBRdate date="2026-05-07" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/528/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/528/data.xml"/>
+	  <FRBRdate date="2026-05-12T13:47:29" name="transform"/>
+	  <FRBRdate date="2026-05-12T14:17:53" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-03-25" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-13" refersTo="#decision" source="#"/>
+	<eventRef date="2026-05-07" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="jonathan-wilfred-samuel" href="" showAs="JONATHAN WILFRED SAMUEL"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>528</uk:number>
+	<uk:cite>[2026] UKFTT 528 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.8.0</uk:parser>
+	<uk:hash>2832be5a12ea644d186be69ed2ecd44aa5b9549c52645babf8a0be01e679793e</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .eop { }
+#judgment .normaltextrun { }
+#judgment .judgment-bodynumber { }
+#judgment .visually-hidden { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><span style="font-family:'Book Antiqua'">``</span></p>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00528 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0200</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard in person at Field House, London</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-03-25" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">25 March 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-13" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">13 April 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Amended decision given under Rule 40 on 7 May 2026</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HARRIS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER SCOTT</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER SHAW</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#jonathan-wilfred-samuel" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">JONATHAN WILFRED SAMUEL</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.39in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Mr Samuel, representing himself.</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent:  The Information Commissioner did not attend and was not represented.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Background to the appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">This appeal concerns a Decision Notice (the &#8220;Decision Notice&#8221;)&#160;of the Information Commissioner (&#8220;the IC&#8221;)&#160;dated 25 April 2025, reference IC-332337-N9X1. This was in connection with a request for information&#160;made by the Appellant to Kisharon </span><span class="eop" style="font-family:'Segoe UI'">No&#233;</span><span class="normaltextrun" style="font-family:'Segoe UI'"> School (the &#8220;School&#8221;) about referrals to social services.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">On 18 June 2024, the Appellant made the following request to the School:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">1)</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:Arial"/><span style="font-style:italic">&#8220;Numbers of referrals of pupils to social services by the school.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">Please supply the number of referrals of Kisharon School pupils to</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-style:italic">Social Services by the school between September 2019 and July 2020 inclusive.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">Please supply the number of referrals of Kisharon School pupils to</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-style:italic">Social Services by the school between September 2020 and May 2021 inclusive.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">Please supply the number of referrals of Kisharon School pupils to Social Services by the school between June 2021 and April 2024 inclusive.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">Please give a breakdown of these figures by local authority and by the type of referral. Please advise how many in total of these referrals (since Sep 2019) were related to sexual or sexualised behaviour.  </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">2)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">For the same time periods, please supply the number of individual parents who were banned from the school premises by the school. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">3)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">For the same time periods, please supply the number of pupils, parents or ex-parents who were reported to the police by the school, and how many of these reports to the police resulted in a charge, a successful prosecution, an unsuccessful prosecution, or in no further legal action being taken by the police.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">4)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">For each complete financial year since 2019/20 please advise how much the school spent on lawyers&#8217; fees.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">5)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">For each complete financial year since 2019/20 please advise how much the school spent on mediation.&#8221;  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">The School responded on 3 July 2024, refusing to comply with the request on the basis it was vexatious and therefore fell under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">The Appellant wrote to the School on 3 July 2024 requesting an internal review of its decision to refuse the request as vexatious.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">The School provided the outcome of the internal review on 18 July 2024, in which it maintained its original position.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">The Appellant contacted the IC on 10 September 2024 to complain about the way his request for information had been handled.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">The IC issued the Decision Notice on 25 April 2025. In it, he decided that the impact of the request on the School was disproportionate and unjustified by any serious purpose or value. He was satisfied that the request was vexatious, and that the School was entitled to refuse the request under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of FOIA.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold;font-family:'Segoe UI'">Abbreviations used in this decision</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;the&#160;Decision&#8221; means the Information Commissioner&#8217;s decision dated 25 April 2025, reference IC-332337-N9X1</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="eop" style="font-family:'Segoe UI'">&#8220;DN&#8221; means &#8220;Decision Notice&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">&#8220;FOIA&#8221; means the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>. All references to sections are references to sections of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref> unless otherwise specified</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;IC&#8221; means the Information Commissioner, the Respondent</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="eop" style="font-family:'Segoe UI'">&#8220;MASH&#8221; means Multi-Agency Safeguarding Hub</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="eop" style="font-family:'Segoe UI'">&#8220;the School&#8221; means Kisharon No&#233; School</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="eop" style="font-family:'Segoe UI'">&#8220;SEN&#8221; means Special Educational Needs</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">&#8220;UT&#8221; means the Upper Tribunal, Administrative Appeals Chamber</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold">Procedural matters concerning the hearing</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000;background-color:#FFFFFF">The hearing was conducted in person at Field House, London. The IC did not attend and was not represented at the hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">The Tribunal considered an OPEN bundle of documents (238 pages). We refer to this in the decision by the initials OB. The IC submitted a CLOSED bundle (12 pages) consisting of unredacted submissions made by the School to the IC in the course of the IC&#8217;s investigation, which appear in redacted form in the OPEN bundle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Segoe UI'">The Tribunal at the hearing made a Rule 14 order that the CLOSED annex to the witness statement of Peace Amara Onwuchekwa should not be disclosed to the IC, the School or the general public on the basis that it could identify the teacher mentioned in Ms Onwuchekwa&#8217;s OPEN statement.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.25in"><span style="font-weight:bold;font-family:'Segoe UI'">The Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The Appellant appealed the Decision to the Tribunal by way of form GRC1 dated 23 May 2025. The reasons for appeal set out the following grounds:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI'">&#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">The ICO wrongly relied on secret, untested, ad hominem allegations made by the school to conclude that my FOI request was vexatious. These allegations presented a misleading picture of the events and context leading up to my request, and of my motives and intentions in making it. In reality, the request was reasonable and served a legitimate purpose in the public interest&#8212;namely, to support better safeguarding of vulnerable children in Special Needs schools (not just this school) and to promote institutional accountability. The ICO failed to give sufficient weight to these important factors. Misled by the school&#8217;s numerous, untested and misleading statements, I believe the ICO applied the Dransfield criteria incorrectly and unfairly.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The grounds of appeal document filed with the Appeal in summary set out the following grounds:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The Decision Notice was procedurally unfair because it relied on serious and damaging allegations made by the School against the Appellant and his wife, including false statements and allegations to which he did not have a fair chance to respond. The IC did not disclose this information to him or invite him to respond.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">Applying the factors in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI'">Dransfield</span><span style="font-family:'Segoe UI'">, the Decision Notice does not claim that there was an undue burden on the School.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The Appellant&#8217;s motive has consistently been to identify patterns of safeguarding failure and institutional conflict that may correlate with the leadership of a particular former head teacher of the School. He denies any personal grudge against the former head teacher but considers that &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">the long list of false and distorted allegations made by the school against me and my wife apparently originate largely from the former head teacher</span><span style="font-family:'Segoe UI'">&#8221;. This included an order banning the Appellant&#8217;s wife from the School.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The Appellant states the information was needed to determine whether repeated safeguarding concerns surrounding the former head teacher might form part of a broader pattern of excessive referrals.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC conflated the allegations made by the school with fact and treated them as a basis to question the Appellant&#8217;s motive, which he says is not lawful or fair.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The Appellant states that &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">my request was not frivolous or obsessive; it was targeted, proportionate and grounded in real-world events</span><span style="font-family:'Segoe UI'">&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The allegations that the Appellant and his wife harassed the former head teacher were accepted uncritically. The Appellant says that he and his wife have been on the receiving end of repeated and distressing actions initiated by the former head teacher, including being reported to the police and labelling &#8220;ordinary parental actions&#8221; such as sending emails as harassment.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The Appellant and his wife deny causing distress to members of staff and suggest this accusation is part of a broader picture of suppressing dissent or criticism.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC has characterised the Appellant and his wife as vexatious rather than the request which was not.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">j.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The Appellant did not intend to make further requests for information to the School &#8211; the request with which this Appeal is concerned was one of three requests made.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">k.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The Decision Notice failed to properly consider the strong public interest underlying the request, particular around transparency concerning safeguarding of vulnerable children with special educational needs (SEN) in a publicly funded school.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">l.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC accepted prejudicial allegations without disclosure or challenge.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The IC responded briefly to the Appeal on 16 October 2025 submitting that in all the circumstances of the case the request was vexatious and standing by the Decision Notice. If the Tribunal concluded the request was not vexatious, the IC invited the Tribunal to order a fresh response from the School not relying on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref>.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Segoe UI'">Legal framework</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14(1)</ref>&#160;of FOIA&#160;provides:&#8221;</span><span style="font-style:italic;font-family:'Segoe UI'">&#160;Section 1(1) does not oblige a public authority to comply with a request for information if the request is vexatious.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">There is no further guidance on the meaning of &#8220;vexatious&#8221; in the legislation. The leading guidance is contained in the Upper Tribunal (&#8220;UT&#8221;) decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI'">Information Commissioner v Dransfield</span><span style="font-family:'Segoe UI'"> [2012]&#160;UKUT&#160;440 (AAC), as upheld and clarified in the Court of Appeal (&#8220;CA&#8221;) in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI'">Dransfield v Information Commissioner and another &amp; Craven v Information Commissioner and another</span><span style="font-family:'Segoe UI'"> [2015]&#160;EWCA&#160;Civ&#160;454 (CA).&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">As noted by Arden LJ in her judgment in the CA in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI'">Dransfield</span><span style="font-family:'Segoe UI'">, the hurdle of showing a request is vexatious is a high one:&#160;</span><span style="font-style:italic;font-family:'Segoe UI'">&#8220;&#8230;the starting point is that vexatiousness primarily involves making a request which has no reasonable foundation, that is, no reasonable foundation for thinking that the information sought would be of value to the requester, or to the public or any section of the public. Parliament has chosen a strong word which therefore&#160;means that the hurdle of satisfying it is a high one, and that is consistent with the constitutional nature of the right. The decision maker should consider all the relevant circumstances&#160;in order to&#160;reach a balanced conclusion as to whether a request is vexatious</span><span style="font-family:'Segoe UI'">.&#8221; (para 68).&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">Judge&#160;Wikeley&#8217;s&#160;decision in the UT decision on&#160;</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI'">Dransfield</span><span style="font-family:'Segoe UI'">&#160;sets out more detailed guidance that was not challenged in the CA. The ultimate question is, &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">is the request vexatious in the sense of being a manifestly unjustified, inappropriate or improper use of FOIA</span><span style="font-family:'Segoe UI'">?&#8221; (para 43). It is important to adopt a &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">holistic and broad</span><span style="font-family:'Segoe UI'">&#8221; approach, emphasising &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">manifest unreasonableness, irresponsibility and, especially where there is a previous course of dealings, the lack of proportionality that typically characterise vexatious requests</span><span style="font-family:'Segoe UI'">.&#8221; (para 45). Arden LJ in the CA also emphasised that a &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">rounded approach</span><span style="font-family:'Segoe UI'">&#8221; is&#160;required&#160;(para 69), and all evidence which may shed light on whether a request is vexatious should be considered.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The UT set out four non-exhaustive broad issues which can be helpful in assessing whether a request is vexatious:&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold;font-family:'Segoe UI'">The burden imposed on the public authority by the request</span><span style="font-family:'Segoe UI'">. This may be inextricably linked with the&#160;previous&#160;course of dealings between the parties. &#8220;&#8230;</span><span style="font-style:italic;font-family:'Segoe UI'">the context and history of the&#160;previous&#160;request, in terms of the&#160;previous&#160;course of dealings between the individual requester and the public authority in question, must be considered in assessing whether it is properly to be characterised as vexatious. In particular, the number, breadth,&#160;pattern&#160;and duration of&#160;previous&#160;requests may be a telling factor</span><span style="font-family:'Segoe UI'">.&#8221; (para 29).&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold;font-family:'Segoe UI'">The motive of the requester</span><span style="font-family:'Segoe UI'">. Although FOIA is motive-blind, &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">what may seem like an entirely reasonable and benign request may be found to be vexatious in the wider context of the course of dealings between the individual and the relevant public authority</span><span style="font-family:'Segoe UI'">.&#8221; (para 34).&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold;font-family:'Segoe UI'">The value or serious purpose</span><span style="font-family:'Segoe UI'">. Lack of objective value cannot provide a basis for refusal on its own, but is part of the balancing exercise &#8211; &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">does the request have a value or serious purpose in terms of the objective public interest in the information sought?</span><span style="font-family:'Segoe UI'">&#8221; (para 38).&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold;font-family:'Segoe UI'">Any harassment of, or distress caused to, the public authority&#8217;s staff</span><span style="font-family:'Segoe UI'">. This is not necessary&#160;in order for&#160;a request to be vexatious, but &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">vexatiousness may be evidenced by obsessive conduct that harasses or distresses staff, uses intemperate language, makes wide-ranging and unsubstantiated allegations of criminal behaviour or is in any other respects extremely offensive</span><span style="font-family:'Segoe UI'">.&#8221; (para 39).&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">Overall, the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> is to &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">protect the resources (in the broadest sense of that word) of the public authority from being squandered on disproportionate use of FOIA</span><span style="font-family:'Segoe UI'">&#8221; (UT para 10), subject always to the high standard of vexatiousness being met.&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="paragraph" style="text-align:justify;margin-left:0.49in"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">The Role of the Tribunal&#160;&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Segoe UI'">The Tribunal&#8217;s remit is governed by&#160;section&#160;58 FOIA. This requires the Tribunal to consider whether the decision made by the Commissioner is&#160;in accordance with&#160;the law or, where the IC&#8217;s decision involved exercising discretion, he should have exercised it differently. If we are satisfied that the IC&#8217;s decision notice is in error of law or involves an inappropriate exercise of&#160;discretion&#160;then we will allow the appeal&#160;and may substitute a decision notice for that of the IC. The Tribunal may receive evidence that was not before the IC and may make different findings of fact from the IC.&#160;&#160;&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="paragraph" style="text-align:justify;margin-left:0.49in"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">Evidence and submissions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Segoe UI'">In his skeleton argument, the Appellant made the following additional points:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun" style="font-family:'Segoe UI'">The allegations made by the School about the Appellant&#8217;s conduct and motives were disputed, untested and not disclosed to the Appellant before issue of the Decision Notice. He argues that this was procedurally unfair. He also argues that the Tribunal should exercise caution in the reliance placed on this material and avoid reaching an outcome which depends on allegations the Appellant has not had an opportunity to answer.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun" style="font-family:'Segoe UI'">The School is not participating in the appeal and the allegations remain subject to restrictions from disclosure. He argues that in the absence of a sound and reliable evidential footing for those allegations, they cannot safely bear the weight placed on them by the IC and the Tribunal must approach their evidential value with caution.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun" style="font-family:'Segoe UI'">The OPEN evidence before the Tribunal includes material which directly undermines important aspects of the School&#8217;s narrative.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun" style="font-family:'Segoe UI'">The IC accepts that the request itself was not burdensome, and the adverse and untested allegations made by the Respondent in relation to its dealings with the Appellant should not be considered. He argued that once these are removed from consideration, the remaining factors identified by the ICC are incapable of sustaining a finding that the request was vexatious.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun" style="font-family:'Segoe UI'">The focus should be on the request not the requester. The request history does not disclose any pattern of obsessive, repetitive or harassing conduct.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Segoe UI'">At the hearing, we heard oral submissions and evidence from Mr Samuel and Mrs Leonora Samuel. We found both of them to be honest, straightforward witnesses and genuine in their concerns. We reflect the relevant parts of their evidence in our discussion below.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold;font-family:'Segoe UI'">The issues</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Segoe UI'">The key issue which the Tribunal needs to decide in the Appeal is whether the School was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of FOIA to refuse to respond to the request.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold;font-family:'Segoe UI'">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Kennedy v Charity Commission</span>&#160;<ref href="#" uk:canonical="[2014] 2 WLR 808" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 2 WLR 808</ref>, Lord Sumption, with whom Lord Neuberger and Lord Clarke agreed, said as follows, at para 153:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;The <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> &#8230; introduced a new regime governing the disclosure of information held by public authorities. It created a prima facie right to the disclosure of all such information, save in so far as that right was qualified by the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> or the information in question was exempt. The qualifications and exemptions embody a careful balance between the public interest considerations militating for and against disclosure. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">The Act</ref> contains an administrative framework for striking that balance in cases where it is not determined by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> itself. The whole scheme operates under judicial supervision, through a system of statutory appeals.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">It is important to remind ourselves of those observations. FOIA creates a prima facie right to disclosure of information held by public authorities, save in so far as that right is qualified by the terms of FOIA or the information in question is exempt. Further, we remind ourselves that the qualifications and exemptions embody a careful balance between the public interest considerations militating for and against disclosure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> is &#8220;<span style="font-style:italic">to protect the resources (in the broadest sense of that word) of the authority from being squandered on disproportionate use of FOIA</span>.&#8221; (UT, <span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>, para 10). In order to achieve this purpose, as the Court of Appeal noted (CA, <span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>, para 68), Parliament has chosen to use a strong word, and therefore the hurdle of satisfying it is high.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14</ref> must not be interpreted in a way that in effect introduces a &#8216;public interest&#8217; threshold that all requestors have to pass. If no exemption is engaged, there is a right to disclosure of information held by public authorities whether or not there is any public interest in disclosure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Nor should <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> be interpreted in such a way that it operates as a &#8216;catch all&#8217; exemption. It should not be used to avoid the need to consider whether the authority is entitled to rely on an exemption to withhold the information, even where it might appear obvious to the authority, the IC or the Tribunal that the requested information ought to be withheld either in the public interest or for some other reason. Parliament has chosen which exemptions to include and determined how those exemptions operate in order to embody the &#8216;careful balance&#8217; identified above.&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14</ref> is not designed to avoid the need to consider the application of individual exemptions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Although the four broad issues or themes identified by the Upper Tribunal in&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>&#160;are not exhaustive and are not intended to create a formulaic checklist, they are a helpful tool to structure our discussion, although some elements do not fit neatly under one heading. In adopting this structure, we have taken a holistic approach, and we bear in mind that we are considering whether or not the request was vexatious in the sense of being a manifestly unjustified, inappropriate or improper use of FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The School was not a party to the appeal, but its submissions to the IC in the course of his investigation provided some material in relation to each of these factors.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The burden imposed on the public authority by the request.&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The School&#8217;s position in relation to this factor was summarised by the IC at paragraph 18 of the DN. It stated that complying with the request in this case would have been likely to cause a disproportionate and unjustified level of disruption, irritation and distress due to the following factors:  </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Excessive strain on limited resources &#8211; only one member of staff, the head teacher, was able to respond, so compliance would have meant diverting staff from their core responsibilities, significantly disrupting school operations and affecting the education and wellbeing of pupils.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal finds that the request followed years of an ongoing difficult relationship between the School and the Appellant, including what it considered to be harassment. The School said several members of staff have been directly affected by previous incidents involving the Appellant. The School stated that the &#8220;<span style="font-style:italic">emotional toll on staff would be exacerbated by the perception that the request was made with the intent to cause disruption rather than for a genuine purpose of the request.&#8221;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The requested information is not easily accessible or collatable. the process of locating, retrieving, and reviewing the data would require significant time and effort, which would be taken away from essential school functions</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The Appellant has submitted multiple requests incidents and allegations over a period of years, including several matters reported to the Police, which have collectively placed an undue burden on the school&#8217;s leadership and staff. In the circumstances, the school considers this request to be part of an ongoing pattern rather than a targeted attempt to access specific, meaningful information </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant stated at paragraph 2(1) of the grounds of appeal that the lack of burden was acknowledged in the Decision Notice and this weighs against a finding of vexatiousness.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC accepted at paragraph 47 of the Decision Notice that, viewed in isolation, the request in this case may not seem to impose an unreasonable burden.  However, he concluded in paragraph 58 that this request, given the context of the wider dealings between the School and the Appellant, would cause a disproportionate level of disruption to the School. In particular, the evidence of the Appellant&#8217;s previous dealings with the school suggests that, far from resolving the Appellant&#8217;s concerns, disclosure would be likely to result in the Appellant sending further communications, including more information requests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Samuel gave evidence about their dealings with the School, referring the Tribunal to the detailed rebuttal of the timeline which was set out in paragraph 28 of the Decision Notice at pages 233-238 of the OPEN bundle. Mr Samuel said that the first time he had seen these allegations was when he saw the Decision Notice so he was not given a fair opportunity to rebut these as being factually inaccurate and/or not taking into account relevant context.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mrs Samuel explained that there was a wider context of parent dissatisfaction with changes in the School&#8217;s organisation, governance and culture arising from a change to the type of school. This was in the background at the time of making the request, but was unconnected and some of it postdated the attendance of their child at the School. She explained that she had coordinated comments from a number of parents who were concerned about the way in which the School responded to issues and concerns raised with it. Her concerns were with the policies, governance and procedures at the School based on the experiences of their family and other families.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We accepted that the request when taken into isolation was not unduly burdensome, in that it consisted of a request for information which the School may reasonably be expected to have. However, the situation is significantly complicated by the background of general parent dissatisfaction and we observe that it is possible that what was put forward as a calm, polite and statistical request was coloured by the fact that other parents were expressing dissatisfaction with the School for different reasons, which may have led to this being perceived as a vexatious request. In this context, we noted Mrs Samuel&#8217;s evidence that her visibility when a number of parents wished to raise concerns with the School anonymously may have led to some of their concerns being attributed wrongly to her. We also noted that Mr &amp; Mrs Samuel&#8217;s son had left the school by the time of the request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We note Mr Samuel&#8217;s evidence that he has made three FOIA requests to the School in total; this does not appear to us to be a course of dealings which ought properly to be characterised as vexatious. We find the tone of the request is polite and factual.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We gave little weight to the timeline provided by the School to the IC. When considered against the extensive rebuttals of the Appellant, we considered that these were not as strong as they may initially have appeared and that it was not fair of the IC not to have afforded an opportunity to comment on this to the Appellant before issuing the Decision Notice. In any event, our view was that little turned on this in terms of our overall decision, as discussed below.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We were not persuaded by the School&#8217;s argument as to the inaccessibility of this information or the time it would take to respond; had this been the case, they could have sought to refuse the request on the basis of section 12 of FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Overall, we were not satisfied on<span style="color:#FF0000"/>balance of probabilities that the request would place an undue burden on the School. <span style="font-family:'Segoe UI'">We therefore considered this factor in Dransfield was not demonstrated in relation to the burden on the School as the public authority in question.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The motive of the requester.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The School&#8217;s position, set out in paragraph 21 to 27 of the DN, is that it considers that the reason behind the request is related to the issue between the previous head teacher and the Appellant. It had concerns that the Appellant is actively seeking information with a view to &#8216;fuelling&#8217; their campaign against the previous head teacher.  It contends that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">the parts of the request relating to the MASH (Multi-Agency Safeguarding Hub) referrals are in relation to a referral to another family which that family considered malicious and on behalf of whom the Appellant has made the request. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The references to parents being banned from school relates directly to the Appellant&#8217;s wife being so banned.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">References to reports to the police are to reports made about the Appellant and their family.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The reference to lawyers fees is to the fact the School instructed lawyers due to the level of harassment.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The reference to mediation also is linked to the Appellant being invited to and involved in mediation with the School.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant stated in paragraph 2(2) of the grounds of appeal &#8220;<span style="font-style:italic">My motive has always been consistent: to identify patterns of safeguarding failure and institutional conflict that may correlate with the leadership of a particular former head teacher</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">At paragraph 2(3) of the grounds of appeal the Appellant stated &#8220;<span style="font-style:italic">The information sought was needed to determine whether repeated safeguarding concerns surrounding one particular former Head teacher might form part of a broader pattern. I intended &#8211; and still intend &#8211; to refer my findings to appropriate regulators or safeguarding authorities.</span>&#8221; He goes on to deny that he has a personal grudge against the former head teacher and says <span style="font-style:italic">&#8220;As I have made clear&#8230;my motivation is to ensure that no more schools, children or teachers&#8230;are harmed. My wife and I have observed a pattern&#8230;in which this former Head teacher responded to criticism by discrediting complainants rather than addressing the substance of the complaints, often causing significant distress and sometimes presenting a misleading or false account of events.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant explained at paragraph 3 of the grounds of appeal that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The information related to abuse of power and safeguarding concerns involving vulnerable children in SEN schools.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The school is publicly funded and accountable to the community.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The former head teacher acted in ways that caused concerns among parents.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">When concerns were raised through legitimate channels about the former head teacher&#8217;s conduct, money was spent on legal action apparently aimed at silencing legitimate complaints or criticism and avoiding appropriate scrutiny of the former head teacher&#8217;s actions.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant commented &#8220;<span style="font-style:italic">Transparency is essential to public confidence in how such institutions are run. My purpose in requesting the data was to investigate potential correlations between the presence of the particular Head teacher and patterns of institutional conflict, referrals and sanctions targeting critics or complainants</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In his oral evidence, Mr Samuel said that his overriding concern is the welfare and safety of children in SEN schools. He explained that the reason for the request was to test what had gone on at the School. He said that he and his wife were aware of their experience dealing with the School but wanted to establish more about the experience of other parents.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Samuel went on to say that he was hoping to identify from the request whether there was any pattern which correlated with the tenure of the former head teacher. He said that he wanted to understand whether the figures show a sudden spike in incidents when the former head teacher arrived and a dip when they left the School. If this was demonstrated, then his intention was to take the matter to the appropriate authorities to investigate.  He said that his intention was always to make similar requests at other schools where the former head teacher had taught, but this was difficult because some of them are private schools which are not subject to disclosure obligations under FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He stated that his intention was to prevent the former head teacher from doing the same to other children if that is what the disclosed information shows. By understanding who else they may have treated in this way, his intention was to protect people at schools where the former head teacher might work in future by sending this information to the bodies responsible for maintaining quality in education and ensuring that appropriate persons are in positions of leadership at schools such as the School.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He also said that he saw this as a long process. He said that he was hoping to go to his MP and ask for the remit of FOIA to be extended to cover SEN schools which are privately run but funded by the state, so he can look into what has happened at previous schools where the former head teacher had worked.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mrs Samuel had a different perspective. She said that she envisaged contacting appropriate authorities and asking them to investigate the conduct of the former head teacher. However, she felt this was more broadly about the governance of the School and to evaluate what was going on so processes could be improved.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">When asked about what other processes they might have used to obtain this information and what they had already tried, Mr &amp; Mrs Samuel said their first step had been to approach a local councillor, who put them in touch with the safeguarding officer for Barnet, the head of Education and Learning Services, who Mr &amp; Mrs Samuel described as having been &#8220;surprised&#8221; by the evidence that had been provided. However, the local authority indicated that they could not take what was being said at face value and that action might be taken if more parents report similar concerns. Mrs Samuel offered to coordinate feedback from a number of parents and circulated a questionnaire. From the responses she noted at least one instance of the School responding to concerns raised by referring a family to social services and several of parents experiencing distress and upset and not knowing with whom to raise this. She described the motivation as wanting to try to help these people be heard because they were afraid.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mrs Samuel said that she had written to the Chair of the School&#8217;s trustees and another trustee with experience of local government and governance who she thought would understand how organisations are run to try and make a difference, but received a reply from them which indicated that nothing was wrong.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mrs Samuel said she had also raised comments in the context of an Ofsted inspection of the School, but it appeared that Ofsted had not looked at her evidence, as no one came back to her about this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Samuel also said that he had written to the Department for Education (&#8220;DfE&#8221;) and sent them evidence, but was of the view that this had not been read as he never received a response. He pursued this through a complaint to the DfE and eventually a Subject Access Request disclosed that the DfE had spoken to Barnet Education Services and the investigation had been closed, which he said happened before he had submitted evidence. He re-raised this and said the DfE &#8220;went through the motions&#8221; of investigating. He decided not to take this further to the Ombudsman because he said the DfE was good at defending itself.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He said that ultimately he intended to refer the matter to the Teachers Regulatory Authority (&#8220;TRA&#8221;), although he was not yet familiar with the process for doing so. When asked what he hoped to achieve from referring this to the TRA, Mr Samuel said that he saw the situation as being &#8220;<span style="font-style:italic">one bad apple&#8221;.</span> He said his fear was that the former head teacher is relatively young and may teach at a number of schools in their career, whereas some of the evidence he has makes him feel this is dangerous. He said that as a minimum he hoped for an order preventing the former head teacher from referring pupils to social services and possibly also an outright ban from being a head teacher. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mrs Samuel said that what they are trying to do is get the appropriate authority to look more closely at all the information, including information that Mr &amp; Mrs Samuel have been unable to obtain, to establish whether the experiences of which they are aware are simply unlucky or a pattern around the former head teacher. If the allegations are demonstrated, this would force the School and its associated charity to look again at their procedures for responding to concerns and complaints from families about vulnerable people, as the current complaints process and lack of responsiveness are not working. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Although we understood the wider concerns about safeguarding in SEN schools, in the context of this specific request we had concerns about the motives expressed by Mr Samuel in the hearing. It appeared to us that the request was intended to elicit information which could then be used to pursue further complaints against the School&#8217;s former head teacher. The fact that he intended to go to his MP to seek a change in the law to facilitate this end supported that view, as did his comments about the ultimate goal of protecting children from the former head teacher and preventing them from teaching.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We agreed with the thrust of the IC&#8217;s observation at paragraph 58 of the Decision Notice that, far from resolving the Appellant&#8217;s concerns, disclosure would not be the end of the process and would likely result in further actions, which may involve further communications with the School or other schools including other information requests. Mr Samuel was clear that he was engaged in a long process, and that there would be further action from him in future concerning the same subject matter and involving other regulatory authorities.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The purpose of obtaining information under FOIA is to promote transparency and accountability in public administration. We did not accept Mr Samuel&#8217;s submission that this request was &#8220;<span style="font-style:italic">personal in origin but for a public purpose</span>&#8221;; rather it appeared to us that the wider public purpose was not what was driving the specific request. We considered that the motive behind this particular request was inappropriately focused on the former head teacher and therefore personal, which did not appear to us to be a proper use of the power to obtain information under FOIA.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The value or serious purpose.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The School&#8217;s position, recorded by the IC in the Decision Notice at paragraph 19 is that it considers the information requested is strictly for personal use as opposed to information that would reasonably be expected to be published for transparency. The School has argued that the nature of the information requested is specific to the ongoing harassment and incidents concerning the complainant and does not   consider it to be of value or have a clear inherent purpose to the general public.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">At paragraph 30 of the Decision Notice, the IC records the School&#8217;s submission that given the history of interactions and the nature of the information requested, the school believes that the request does not serve a genuine purpose or value. Instead, it appears to contribute to an ongoing cycle of disruption and distress for staff. The School considers that this request is of personal interest to the complainant, rather than a disclosure that would be in the public interest or that would benefit the public. Further, it is not information which is intended to be public.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant&#8217;s position, summarised in paragraph 31 of the Decision Notice, is that there is a public interest in the requested information, as it relates to safeguarding practices and use of public funds, which he considers are matters of significant public interest. The Appellant argues that the request goes further than any personal concern and instead relates to the wider issue of protecting vulnerable children in educational settings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC stated at paragraphs 48 and 49 of the Decision Notice that he accepts that the request has purpose and value to the Appellant and relates to concerns that the Appellant, his spouse and their friend&#8217;s family have regarding the safeguarding of SEN children. However, there are appropriate complaints or appeals processes available for the individual parties, including in relation to the MASH referral, which should be followed and the IC stated that &#8220;<span style="font-style:italic">the purpose of the rights provided by FOIA is not to replace such processes, or else be used to express dissatisfaction with the outcome of them</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC noted in paragraphs 52 and 53 that the School provided a full response to the Appellant in relation to a request for all records about the Appellant from June 2023 in March 2024. He also notes that the School has investigated all concerns raised by the Appellant about the former head teacher, and considers the allegations to be unfounded.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC concluded at paragraph 59 that the Appellant has their reasons for requesting the information. They are clearly not satisfied with how their friend&#8217;s family were treated by the School in relation to the MASH referral and believe that their request to the School is in the public interest. However, disclosure of the requested information would likely do nothing to resolve the dispute, and there are more appropriate routes for disputing issues of this nature. In view of this, the IC concluded that the request for information has no wider value or purpose beyond the Appellant&#8217;s pursuit of their personal grievance against the school.      </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We looked at the specific information which was requested and were not satisfied that information about, for example, the amount of legal fees incurred by the School or the number of social services referrals was something that by itself would be of wider public interest. The figures and any pattern which may or may not emerge from them, without further explanation or context and without knowing the circumstances behind the number, would, in our view, be of limited value to a member of the public seeking to understand the workings of a publicly funded school or hold it accountable. So while we accepted that the information sought by the request was of value to the Appellant and his family and friends, we found this did not mean it had wider value in the public interest. Safeguarding is part of the responsibility of any school, particularly when its pupils are vulnerable, but the fact of a particular school or individual making referrals to social services, even when acknowledging the distress this can cause to those involved, does not by itself necessarily indicate misconduct or mismanagement, or indeed anything other than the particular circumstances in question.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Any harassment of, or distress caused to, the public authority&#8217;s staff.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The School provided a detailed timeline of its interactions with the Appellant and his family between December 2022 and March 2024 to the IC, which is reproduced at paragraph 28 of the Decision Notice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant stated at paragraph 2(4) of the grounds of appeal &#8220;<span style="font-style:italic">In my view, the real harassment flowed in the opposite direction, from the former Head teacher towards concerned parents, including us. Her conduct has cause significant distress to my family.</span>&#8221; He described the allegations that he and his family had caused distress to staff as &#8220;<span style="font-style:italic">vague, unsubstantiated and appears to be part of a broader pattern of suppressing dissent or criticism.</span>&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC noted in paragraph 54 of the Decision Notice the alleged incidents in which the Appellant and/or their spouse approached school staff or trustees at their homes or other locations outside of school premises (such as a GP surgery), the fact that the Appellant and their spouse attempted to tailgate staff  into the school, and the fact that police have been involved on more than one occasion. The IC stated that he &#8220;<span style="font-style:italic">considers these to be indicators of obsessive or unreasonable behaviour by the complainant and their spouse, and of the level of concern that this has caused the school and its staff&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC stated in paragraph 55 that it agrees with the Appellant that it is the request which must be vexatious rather than the requester, but that this does not mean that it can be separated from the previous interactions which the Appellant has had with the School. At paragraph 56 he commented &#8220;<span style="font-style:italic">this request appears to be the latest event in an ongoing difficult relationship between the school and the complainant since November 2022. Having considered the  context and history in which the request was made, the Commissioner  recognises that even when the school has seemingly attempted to address or resolve some of the issues relating to the request and  provided some of the information sought by the complainant from their  requests, the complainant has continued to correspond about the same issue</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Samuel said that in making the request he had no desire to cause harm or make anyone distressed or anxious and we considered that he was sincere in saying this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The UT&#160;decision in&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>&#160;makes it clear that this element&#160;is not necessary&#160;in order for&#160;a request to be vexatious.&#160;On balance of probabilities, we considered there is insufficient evidence to&#160;demonstrate&#160;that there has been harassment of or distress to the School&#8217;s staff.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Having considered each of the factors identified in <span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span> in turn, we then come to look at the evidence in the round, taking all relevant factors into account and adopting a holistic and broad approach.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We were not satisfied that the burden on the school, even when<span style="font-family:'Segoe UI'"> considered in the </span>context of <span style="font-family:'Segoe UI'">the </span>course of dealings between Mr &amp; Mrs Samuel, was such<span style="font-family:'Segoe UI'"> as </span>to make the request vexatious.<span style="font-family:'Segoe UI'"> Similarly, </span>we concluded that harassment and distress was not sufficiently evident to show the request was vexatious on balance of probabilities.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">However, as outlined above, we remained concerned about the motive behind the request. It appeared to us that this was part of a long process of seeking to find information with the ultimate aim of discrediting the former head teacher. While we would not go as far as the IC did in describing this behaviour as &#8220;obsessive&#8221; we did find that it was focused on one person rather than being a request for, say, details of policies and procedures of the School in relation to dealing with complaints or referrals to social services. If the intention had been to make the School more accountable and transparent in how it responds to concerns raised by parents, then this could have been achieved in other ways than by making a FOIA request to assist in building a case against a particular individual. Overall, this meant we concluded that the motive expressed by Mr Samuel in his oral evidence was not a justified or proper use of FOIA. We also had concerns about the reasonableness and responsibility of targeting the former head teacher in this way, as this may have caused or may in future cause distress to them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We also concluded that the specific information which was the subject of this request had limited value to members of the public other than to the Appellant, his family and friends. Any response to the request as sought would be numerical and would not be of public interest without further context.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In summary, although we did not find that all the factors in Dransfield were present in the current case, we considered that the factors of motive and value were sufficiently demonstrated to mean that on balance of probabilities the request was vexatious. We also considered that they outweighed the weaker factors in relation to burden and harassment.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Accordingly, we find the School&#160;was entitled to&#160;rely on&#160;the request being vexatious to refuse to&#160;comply with&#160;it. This means that the School is able to rely&#160;on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of FOIA&#160;to refuse the request on the basis it was vexatious.&#160;&#160;Accordingly, we&#160;consider&#160;that the IC&#8217;s Decision Notice was made&#160;in accordance with&#160;the law and&#160;dismiss&#160;the appeal.&#160;</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed: Judge Harris</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date: 1 April 2026</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Amended under Rule 40 on </span><docDate date="2026-05-07" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">7 May 2026</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

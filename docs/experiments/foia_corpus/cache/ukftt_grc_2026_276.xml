@@ -1,0 +1,1266 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/276"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/276"/>
+	  <FRBRdate date="2026-02-26" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="276"/>
+	  <FRBRname value="Robert Fortner v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/276"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/276"/>
+	  <FRBRdate date="2026-02-26" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/276/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/276/data.xml"/>
+	  <FRBRdate date="2026-02-26T14:11:03" name="transform"/>
+	  <FRBRdate date="2026-02-26T15:36:58" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-10-21" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-02-20" refersTo="#decision" source="#"/>
+	<eventRef date="2026-02-26" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="robert-fortner" href="" showAs="ROBERT FORTNER"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="uk-research-and-innovation" href="" showAs="UK RESEARCH AND INNOVATION"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>276</uk:number>
+	<uk:cite>[2026] UKFTT 276 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>fbbdc2bcacefb2348b6f03d41cf109b18f302ba5e2769d9a099f9333589bdca5</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .p1 { font-family: 'Book Antiqua'; font-size: 9pt; color: #000000; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .Body { font-size: 12pt; color: #000000; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .s1 { font-family: Arial; font-size: 9pt; }
+#judgment .s2 { color: #1C1C1D; }
+#judgment .apple-converted-space { }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .Strong { font-weight: bold; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00276 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: EA/2025/0168</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2025-10-21" refersTo="#hearing"><span style="font-weight:bold;font-family:'Book Antiqua'">21</span><span style="font-weight:bold;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">st</span><span style="font-weight:bold;font-family:'Book Antiqua'"> October 2025</span></docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-02-26" refersTo="#decision" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">26 February 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE KIAI</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER SHAW</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER PEPPERELL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#robert-fortner" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">robert fortner</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">First Respondent</role></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#uk-research-and-innovation" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">UK RESEARCH AND INNOVATION</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Second Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Appellant represented himself</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the First Respondent: Not represented</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Second Respondent: </span><span style="font-family:'Book Antiqua'">Alex Ustych (Counsel)</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is refused.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="s1" style="font-family:'Book Antiqua';font-size:12pt"/>This Decision relates to an Appeal brought by Robert Fortner against the Information Commissioner&#8217;s (&#8216;ICO&#8217;) decision notice (&#8216;DN&#8217;) of 31 March 2025. The First Respondent (the ICO) and the Second Respondent, UK Research and Innovation (&#8216;UKRI&#8217;) oppose the appeal on the basis that the DN was correctly decided.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Request</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Appellant submitted a request to UK Research and Innovation (UKRI) on 22 June 2024, in the following terms:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">&#8216;<span style="font-style:italic">I&#8217;m a journalist. I have written a number of articles for The BMJ about polio. In the most recent, I came across documents suggesting possible research integrity issues in an Imperial College study of a new polio vaccine, nOPV2. UKRI was among the study&#8217;s funders. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">[1] I request all Ivan Pavlov&#8217;s [Head of Preclinical Good Research Practice Policy at the Medical Research Council] email correspondence, from 01 January 2024 to 01 June 2024, regarding this matter, including but not limited to correspondence with staff at Imperial College and/or any party regarding the Imperial College nOPV2 paper and/or the research integrity policies and processes of Imperial College.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">[2] Partially overlapping with the preceding, I request all correspondence between anyone at UKRI and anyone at Imperial College regarding research integrity from 01 January 2021 to 01 June 2024.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">[3] I request any research integrity statistics provided by Imperial College to UKRI between 01 January 2014 and 01 June 2024&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">UKRI responded on 1 July 2024, asking Mr Fortner to narrow the scope of his request, in order to avoid it engaging the s.12 exemption (cost limit) due to the volume of material. UKRI stated that it would take almost 21 hours of staff time. UKRI suggested that this could include advising of additional search terms that would help to narrow the scope of the searches, so it was more relevant to his interests, potentially alongside a reduction in the original time frame. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Appellant responded on the same day, narrowing the range of question 2 to 26 January 2024 &#8211; 26 May 2024. He stated:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">&#8216;<span style="font-style:italic">If you would, please process Search 1 as specified. For now, please drop Search 2 completely. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">For Search 3, could you please move in [sic] both the start and end dates to 26/01/24 and 26/05/24. If the 325 emails found using the initial time window are evenly distributed, this narrowing should reduce the total time for this request to - 17.5 hours.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">Please let me know if this fits within Section 12 allowable costs&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The range of question 2 of the request was refined to 26 January 2024 &#8211; 26 May 2024. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 26 July 2024, in response to correspondence from UKRI, the Appellant consented to disclosure under FOIA of his own personal data where he was the author of emails.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">UKRI response</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">UKRI provided a response on 27 August 2024. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in">In relation to <span style="text-decoration-line:underline;text-decoration-style:solid">request 1</span>, it disclosed emails but redacted the names, contact details and job roles of individuals (except Ivan Pavlov) on the basis of s.40(2) (personal data) of FOIA. It explained &#8216;<span style="font-style:italic">In collating our response, we have excluded emails that consist solely of Ivan Pavlov forwarding an email received to the MRC Research Integrity Lead inbox, with no additional information added&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in">In relation to <span style="text-decoration-line:underline;text-decoration-style:solid">request 2,</span> UKRI disclosed some emails but explained some personal data had been redacted on the basis of s.40(2). It also explained that some email correspondence had been withheld on the basis of s.41(1) (information provided in confidence) of FOIA. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in">In relation to <span style="text-decoration-line:underline;text-decoration-style:solid">request 3,</span> UKRI explained that it did not hold any information except that which was published in the annual statement on research integrity which given it was in the public domain was exempt from disclosure on the basis of s.21(1) (reasonably accessible to the applicant) of FOIA. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Further Correspondence</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 28 August 2024, the Appellant explained that this portion of his request was initially projected to return 325 emails from a 6-month window. He then narrowed this to 5 months. However, only 4 pages of emails had been provided to him &#8211; which he already possessed as he was on the thread. Therefore, he believed approx. 200 results were withheld in their entirety. He explained that he did not accept that it was plausible to argue that this volume of material fell within the scope of s.41(1) FOIA. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 29 August 2024, UKRI replied. It explained that although a significant number of emails were returned by its initial searches for information <span style="text-decoration-line:underline;text-decoration-style:solid">potentially</span> in scope, once they reviewed them, they were either disclosed as part of their response or deemed to be exempt on the basis of s.41(1). UKRI asked the Appellant to confirm if he still wished them to conduct an internal review and the Appellant confirmed that he did. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">UKRI responded on 23 October 2024, upholding its decision. UKRI withheld the email chain on the basis of s.41(1) and 40(2), it explained:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">&#8216;To reiterate the searches conducted, used the key words &#8220;research integrity&#8221; between the dates you specified in combination with correspondents that had an @imperial.ac.uk email address and generated a large number of results. These results were then manually reviewed to determine whether they fell within the scope of the request, which in the case of your request, which in the case of your request was &#8220;between anyone at UKRI and anyone at Imperial College regarding research integrity&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">The review indicated that most of this information did not fall within the parameters of your request as it was not related to the topic of research integrity or was not otherwise in scope of your request. As explained on 29/08/24, the search results had picked up information related to grant applications where the grant scheme terms and conditions included the words &#8220;research integrity&#8221;. Once these results were discounted there were 50 emails which on further view after removing duplicated email chains resulted in only two email chains in scope of your request. We apologise that our communications with you, regarding the initial searches and where we sought your assistance in refining the searches, and our response of 28/08/24 were not as clear as they could have been round how these initial results related to the scope of your request. We hope that the additional information provided on 29/08/24 and summarised here clarifies this&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Complaint to the ICO</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 30 April the Appellant complained to the ICO. He submitted:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in">In relation to <span style="text-decoration-line:underline;text-decoration-style:solid">request 1, </span>he did not agree &#8220;<span style="font-style:italic">that emails that consist solely of Ivan Pavlov forwarding an email received to the MRC Research Integrity Lead inbox, with no additional information added</span>&#8221; should be excluded. He felt it was not clear why and on what basis this approach had been taken.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in">All the emails initially located by UKRI&#8217;s search criteria for <span style="text-decoration-line:underline;text-decoration-style:solid">question 2</span> of his clarified request (205 emails) fell within the scope of this part of his request and should be disclosed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in">The decision to withhold any information falling under s.41(1) was wrong and should be disclosed. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Decision Notice (dated 31 March 2025)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ICO came to the following conclusions. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Request 1</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ICO sought clarification as to why the emails forwarded from Ivan Pavlov to the MRC Research Integrity Lead Inbox with no additional information added, had been excluded. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">UKRI explained that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">They were not considered as providing additional relevant information. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">There were 17 emails and the Appellant had either been included in the correspondence and therefore had access to them, or they were disclosed to the Appellant in the FOIA response. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">They did not contain any further input from Ivan Pavlov and were forward for the purpose of record keeping only. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ICO confirmed that it had seen a sample of emails and agreed that UKRI&#8217;s explanation was accurate. The ICO was therefore satisfied that it was appropriate for UKRI not to include the emails as part of its response. The ICO further added &#8216;<span style="font-style:italic">Moreover, the Commissioner notes that this part of the request sought emails between Dr Pavlov and parties at Imperial College about research integrity. These emails have been disclosed. The simple, administrative emails in which Dr Pavlov sent that email correspondence to the internal inbox do not fall within the scope of the request. This is on the basis that such emails are internal emails between Dr Pavlov and an internal administrative inbox rather than emails between him and parties at Imperial College&#8217;. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Request 2</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ICO stated that in order to effectively address request 2, it should quote UKRI&#8217;s response to the complaint which explained how it had determined what information fell within scope:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">&#8216;<span style="font-style:italic">I wanted to provide you with some further insight into how requests of this nature are handled, as I believe there may be some misunderstanding in regard to the initial search figures and how that corresponds to information in scope of your request. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">When we conduct initial email searches, the results that are produced are based solely upon the search conditions and terms used. For Q2 of your request, this was using the key words &#8220;research integrity&#8217; between the dates you specified in combination with correspondents that had an @imperial.ac.uk email address. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">The results returned from these searches then need to be manually reviewed to determine whether they fall within the scope of the request, which in the case of our request was &#8220;between anyone at UKRI and anyone at Imperial College regarding research integrity&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">It is this manual review that takes a significant amount of time and is what engages Section 12 of the FOIA, prompting us to seek clarification from a requester and/or a narrowing of scope.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">Of the 325 results you mention that were returned by our search which looked at a period of six months reduced this number down to 205, which in combination with the 90 results produced for the search relevant to Q1, satisfied our estimate that the cost equivalent to 18 hours of staff resources would not be exceeded in reviewing them. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">On reviewing these 205 emails, it became apparent that approximately three-quarters of them were clearly not related to the topic of research integrity or were not otherwise in scope of your request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">To offer an example of the type of correspondence that was captured by the search criteria, but did not fall in scope of your request, there were a large number of emails where student&#8217;s grant applications consisting of multiple attached documents were being sent from Imperial College to UKRI. These emails were not related to research integrity and contained no actual discussion; they had been picked up by the search terms and conditions that included the words &#8220;research integrity&#8221; &#8211; something that is part of all grant scheme T&amp;Cs. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">Once these emails had been discounted, we were left with 50 that required further detailed review. At this point, it is important to note that each search result is a single email, many of which are repeated in other emails as they form chains and conversations. Therefore, once these emails were reviewed in more detail and duplicates of emails had been removed, it left only a small number of unique email chains. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">These chains were then reviewed in conjunction with the areas of the organisation from which they originated and the UKRI Research Integrity team to confirm if the topics under discussion were indeed related to research integrity, with those that were not also discounted as being not in scope. Those that remained that were not already part of the response to Q1, were either disclosed as part of our response, or deemed to be exempt under Section 41 of the FOIA. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">You are therefore correct, in that not every single responsive document met the requirements to be considered under Section 41, it was deemed that the release of one email chain would constitute an actionable breach of confidentiality as it was not related to the same issue being discussed between yourself and Imperial College and thus warranted consideration under a different set of circumstances&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">UKRI confirmed to the ICO that the searches returned a large number of &#8216;false positives&#8217; (ie emails unrelated to the scope of the request where the words &#8216;research integrity&#8217; appears in documents attached to emails or in standard terms and conditions for grant awards or within a grant agreement). The ICO saw some examples of emails that had been excluded. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ICO was satisfied with UKRI&#8217;s interpretation and approach to determining what falls within the scope of this part of the request as correct for the following reasons:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Simply because an email or document contains the word &#8216;research integrity&#8217; does not mean that it falls within scope. The request seeks emails that contain a substantive discussion or information on the topic of research integrity, not simply emails that contain the term. The ICO has examined examples of such emails and is satisfied.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The ICO accepts UKRI&#8217;s explanation as to why some emails have been excluded as they contained duplicates or will have been identified (and disclosed) in response to question 1 of the request. This will consequently reduce the scope of the question 2 request. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">For the reasons the ICO found that all the 205 emails should not have been disclosed.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Request 3</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">UKRI withheld one email chain on the basis of section 41(1). In order for this exemption to be engaged, 2 things must happen: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">The public authority must have obtained the information from a 3<span style="vertical-align:super;font-size:smaller">rd</span> party </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in">AND</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Disclosure of that information has to constitute an actionable breach of confidence. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ICO concluded: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">The information was obtained from another person</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">The majority of the information falling within the scope of the request was provided to UKRI by a third party. The remainder consist of emails sent by UKRI &#8211; however the material generated by UKRI directly reflects the content of information provided by the third party. Disclosure of the emails written by UKRI would still reveal the content of the information provided by the third party. Disclosure of the emails would therefore reveal the contents of information obtained from the other person. The ICO is satisfied these latter emails still meet the requirements of s.41(1)(a).</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">The information has the necessary quality of confidence.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">Information has the &#8216;necessary of quality of confidence&#8217; if it is not otherwise accessible and it is more than trivial. This information does have the necessary quality of confidence as it is more than trivial and not otherwise accessible to the public (as it was sent in confidence to the recipients on a matter that is not in the public domain). It can be considered to be private and confidential, namely sensitive matters concerning research integrity. </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">The information was imparted in circumstances importing an obligation of confidence</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">The information was provided to UKRI with the expectation that it would be treated confidentially. It was about a confidential matter. UKRI argued that the confidence was vital to ensure the processes and systems for reporting issues to UKRI are protected and individuals are assured that any matter raised will be treated in confidence. It referred to its policy on reporting matters related to research integrity which provides that &#8220;<span style="font-style:italic">all those involved in the process are required to maintain confidentiality&#8221;. </span>It argued that the third party provided the information on the understanding it would not be disclosed outside UKRI and only internally on a need-to-know basis. The ICO accepted this. </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">Disclosure would be of detriment to the confider</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The ICO accepted that disclosure would cause detriment to the parties as the issues raised in the correspondence are highly confidential and concern matters that would negatively affect individuals by impacting the personal lives and careers of the individuals involved, including the confider.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ICO found there is a public interest for the public to have confidence in how UKRI considers matters of research integrity. Disclosure would contribute to this as it would allow the public some insight and understanding as to how one particular matter concerning research integrity was handled by UKRI. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">However, the ICO also concluded that there is a general public interest in ensuring that confidences are maintained, in this case disclosure risks having a &#8216;<span style="font-style:italic">direct and clearly negative impact on the confider, an outcome which the Commissioner considers to be firmly against the public interest&#8217;. </span>He went on to find:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">&#8217;<span style="font-style:italic">52. Furthermore, more broadly, the Commissioner is conscious of the wider ramifications and impact that such a disclosure could have on UKRI&#8217;s reporting system in relation to matters of research integrity if individuals providing information to UKRI, in the expectation that it would be treated confidentiality, subsequently found that such information was disclosed under FOIA. In the Commissioner&#8217;s opinion a situation where individuals did not, or were unwilling to, share legitimate concerns about research integrity with UKRI for fear of sensitive information being disclosed, is an outcome that is clearly counter to the wider public interest&#8217;. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#000000">Grounds of Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant appealed against the decision on the following grounds:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Request 1</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ICO upheld UKRI&#8217;s refusal to disclose the emails containing the search term &#8216;research integrity&#8217; on the basis that &#8216;<span style="font-style:italic">the emails forwarded by Ivan Pavlov to the MRC Research Integrity Lead inbox do not contain additional input from Dr Pavlov&#8217;. </span>The Appellant maintains that the messages matched his request, they did not need to both match his request and &#8216;contain additional input&#8217;. He maintains that &#8216;<span style="font-style:italic">This unknown codicil is made up and arbitrary&#8217;.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Request 2</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">UKRI stated that approximately three quarters of the 205 emails &#8220;<span style="font-style:italic">were clearly not related to the topic of research integrity or were not otherwise in scope&#8221;. </span>The Appellant asserts that he did not request records <span style="font-style:italic">&#8216;on the topic&#8217; </span>of research integrity. He states that if the records match the search criteria, they are in scope. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Request 3</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The arguments made in relation to s.41(1) could be applied to other documents UKRI has made public. The Appellant submits &#8216;<span style="font-style:italic">Currently, the UK, Spain, Germany and other nations are seeing intermittent positive tests for polio in sewage. It is possible this email UKRI won&#8217;t turn over relates to this serious public health issue. UKRI is an interested or biased party in the matter and ICO not competent to judge a possible relation. If the chain has no possible relation to polio, it can be redacted so that it is not detrimental to parties mentioned in the email or to the confider while satisfying my investigation&#8217;. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">UKRI&#8217;s Response</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In its response, UKRI states:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(a)</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">Further to Request 1:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.25in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.25in">Question 1 specifically referred to &#8216;correspondence&#8217;. The nature of &#8216;correspondence&#8217; is such that it is between people.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.25in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.25in">Emails which were deemed to be out of scope were where Dr Pavlov had forwarded them to a shared mailbox for storage. There were 17 email chains of this type. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.25in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.25in">UKRI maintain that it properly withheld them but has elected to disclose the email chains with the written submissions. The Appellant has seen the body of every one of the emails already as he is either part of the chain or they have otherwise been disclosed to him as part of FOIA.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.25in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.25in">Ground 1 falls away. There is no information which UKRI continues to hold.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(b)</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">Further to Request 2:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.25in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.25in">Every email has been reviewed. Only 2 email chains remain in scope.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.25in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.25in">The inclusion of the word &#8216;<span style="font-style:italic">research integrity&#8217; </span>in an email does not mean that it falls within scope of the request, because it may have no substantive discussion or information on the topic.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(c)</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">Further to Request 3:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.25in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.25in">This concerns one email chain. UKRI maintain that the entire chain engages 41(1) and the public interest favours the information being withheld. Much of the chain also falls to be withheld under 40(1).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.25in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.25in">In open submissions, UKRI are unable to go into detail as to why it is withheld. The Appellant knows it is correspondence between 1 or more people at UKRI and one or more people at Imperial concerning research integrity. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Information Commissioner&#8217;s Response </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In its response, the ICO relies on the DN and states:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">With regards to Ground 1 (originally Request 2: the request for 205 emails to be disclosed), the ICO remains content with his investigation and his decision.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">With regards to Ground 2 (originally Request 3: applicability of 41(1)), the ICO reiterates that UKRI was entitled to rely on s.41(1) for the reasons in the DN. The ICO also adds: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">The names of the individuals can also be considered confidential.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">If information is in the public domain, it won&#8217;t possess the necessary quality of confidence. The ICO has not seen any evidence that the withheld information was in the public domain at the time of the request. It therefore possesses the necessary quality of confidence at the time of the request. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Appellant&#8217;s Response </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In it&#8217;s response, the Appellant states:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Further to (original) Ground 1:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">a.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.25in">The Appellant asks the Tribunal to find the information was withheld  improperly and to order the release of the group of messages.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Further to (original) Ground 2: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">a.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.25in">The second part of the original request matched 325 emails. UKRI released <span style="font-style:italic">one </span>and withheld another under s.41(2) and 40(2). </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">b.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.25in">The other 323 were withheld because the inclusion of the word &#8216;research integrity&#8217; does not meant that it falls within scope. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">c.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.25in">Emails with the word &#8216;research integrity&#8217; were exactly what the appellant&#8217;s request sought. UKRI refused to disclose 99% of the messages because it may have no substantive discussion or information on the topic. There is no reason why this should take precedence over the unambiguous direct match on search terms. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">d.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.25in">UKRI ask the tribunal to read the messages. There is no purpose to doing so as the documents are not withheld under s.41(1) and 40(2). There is nothing preventing their release. The Appellant requests disclosure of the 323 messages. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in">Further to Ground 3: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">a.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.3in">&#8216;<span style="font-style:italic">There are undoubtedly instances where s.41(1) and 40(2) justify withholding a document. In making this determination, the Tribunal might benefit from a brief description of my investigation at the hearing&#8217;. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Legal Framework</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Information provided in Confidence</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Where<span class="apple-converted-space" style="color:#000000">&#160;</span>information<span class="apple-converted-space" style="color:#000000">&#160;</span>is provided in confidence, the exception in regulation 41 (1) FOIA may be engaged. This states:</p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="judgment-bodytext" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8216;41(1) Information is exempt information if &#8211; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';margin-left:2.5in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="judgment-bodytext" style="text-align:justify;margin-left:2.5in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">it was obtained by the public authority from any other person (including another public authority), and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';margin-left:2.5in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="judgment-bodytext" style="text-align:justify;margin-left:2.5in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">the disclosure of the information to the public (otherwise than under this Act) by the public authority holding it would constitute a breach of confidence actionable by that or any other person. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+	      <content>
+		<p class="judgment-bodytext" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The duty to confirm or deny does not arise if, or to the extent that, the confirmation or denial that would have to be given to comply with section 1(1)(a) would (apart from this Act) constitute an actionable breach of confidence. </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="judgment-bodytext" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Personal Information</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">Personal Information may also be exempt under s.40 FOIA which states: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="judgment-bodytext" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8216;40(1) Any information to which a request for information relates is exempt information if it constitutes personal date of which the applicant is the data subject. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+	    <intro>
+	      <p class="judgment-bodytext" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Any information to which a request for information relates is also exempt information if &#8211; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p class="judgment-bodytext" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">it constitutes personal data which does not fall within subsection (1), and </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p class="judgment-bodytext" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">either the first, second or third condition below is satisfied. </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(3A)</num>
+	    <intro>
+	      <p class="judgment-bodytext" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The</span><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Book Antiqua';color:#000000">first condition</span><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">is that the disclosure of the information to a member of the public otherwise than under this Act&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p class="judgment-bodytext" style="text-align:justify;margin-left:1.18in;text-indent:0.71in"><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">would contravene any of the data protection principles, or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p class="judgment-bodytext" style="text-align:justify;margin-left:1.18in;text-indent:0.71in"><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">would do so if the exemptions in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/24/1" uk:canonical="2018 c. 12 s. 24" uk:origin="TNA" uk:type="legislation">section 24(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> (manual unstructured data held by public authorities) were disregarded.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(3B)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.79in;text-indent:0.21in"><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The</span><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Book Antiqua';color:#000000">second condition</span><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">is that the disclosure of the information to a member of the public otherwise than under <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">this Act</ref> would contravene Article 21 of the UK GDPR (right to object to processing).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(4A)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.79in;text-indent:0.21in"><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The</span><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Book Antiqua';color:#000000">third condition</span><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">is that </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.79in;text-indent:0.61in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">on a request under Article 15(1) of the UK GDPR (general processing: right of access by the data subject_) for access to personal data, the information would be withheld in reliance on provision made by or under section 15, 16, or 26 of, or Schedule 2, 3, or 4 to, the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref>, or </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.79in;text-indent:0.61in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">on a request under <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/45/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 45(1)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">that Act</ref> (law enforcement processing: right of access by the data subject) the information would be withheld in reliance on subsection (4) of that section&#8217;. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The Tribunal's Role</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">By s.58 FOIA, the Tribunal&#8217;s role is to consider whether the DN is in accordance with the law or where the ICO&#8217;s decision involved exercising discretion, whether it should have exercised it differently. It is a full merits jurisdiction. The tribunal may receive evidence that was not before the ICO and may make different findings of fact from the ICO. If the Tribunal determines the DN was not in accordance with the law or that a discretion should have been exercised differently it can allow the appeal and/or substitute a different Notice that could have been served by the ICO.&#160; Unless these apply the Tribunal shall dismiss the Appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">For the purposes of determining this appeal, we have considered those documents contained within the open bundle consisting of 599 (electronic) pages, the closed bundle of 861 (electronic) pages which contained the information requested, the skeleton argument submitted on behalf of UKRI (7 (electronic) pages) and the oral submissions made by the Appellant and UKRI&#8217;s legal representatives during the course of the hearing &#8211; we do not set these out again here. We note that the ICO did not send a representative to the hearing but instead relied on their written submissions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Following the Closed Hearing, a Gist was provided to the Appellant in the following terms: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.29in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8216;1. The Panel was taken to Mr. Viggers&#8217; closed witness statement. Submissions were made about the express assurances of confidentiality concerning third parties&#8217; reporting to UKRI, including as found on UKRI&#8217;s website: </span><a class="Hyperlink" href="https://www.ukri.org/who-we-are/contact-us/make-a-complaint/" style="font-style:italic;font-family:'Book Antiqua'">https://www.ukri.org/who-we-are/contact-us/make-a-complaint/</a><span style="font-style:italic;font-family:'Book Antiqua'">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.29in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">It was confirmed that the policy/guidance documents about integrity of research (from pg. 113 Open Bundle) was before the Commissioner. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.29in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">The Panel were taken to the withheld material in relation to Ground 3. UKRI confirmed that the withheld material related to general issues, rather than the Imperial College study of the nOPV2 vaccine.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.29in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">The Panel explored with UKRI whether redactions may address the confidentiality/personal data concerns. UKRI submitted that it would not, due to the nature of the material. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.29in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">The Panel asked whether UKRI&#8217;s limited enforcement/investigation role meant that a third-party report was not confidential. UKRI submitted that it was the content of the communication, the expectation of confidentiality and adverse consequences of disclosure that were relevant, not UKRI&#8217;s powers. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.29in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">The Panel asked if the third party was contacted for their views on disclosure. UKRI indicated that they had not, but that it was unnecessary to do so in a s. 41 (1) FOIA case where the nature of the material is apparent from the withheld material itself&#8217;. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant made brief submissions in response.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Discussion and Conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Scope and Question 1</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">UKRI served the documents relating to Request 1 (which were initially withheld), with its reply dated 4 June 2025. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the Appellant&#8217;s reply, he asks the Tribunal to find the information was withheld improperly and to order the release of the group of messages.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He again reiterated in his response to Tribunal directions (dated 2 October 2025) that he would ask the Tribunal to: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;border-style:none"><span style="font-family:'Book Antiqua'">Find invalid the initial withholding and continued claim that the respondents had and still have a basis for not releasing the documents.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;border-style:none"><span style="font-family:'Book Antiqua'">Determine how many documents were initially withheld and how many were actually delivered to me.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in;border-style:none"><span style="font-family:'Book Antiqua'">&#8216;</span><span style="font-style:italic;font-family:'Book Antiqua'">Respondents went to great lengths to withhold these emails and then released only messages I had already seen. Respondents made strange, quasi-philosophical claims such a that emails must by definition be between individuals. Also, at no point prior to my appeal to the Tribunal did respondents say I had already seen all of them. Why would respondents go to such efforts to hold on to emails I (ostensibly) already have? Have they actually released all the withheld messages&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="PageNumber">We noted the Open witness statement of Mr Viggers which confirms that &#8220;</span><span class="PageNumber" style="font-style:italic">there is no information which UKRI continues to withhold in relation to Search 1 and it is understood therefore that this resolves Ground 1 of the appeal&#8221;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="PageNumber">UKRI explained in their initial response on 27 August 2024 that they had not disclosed emails in which Dr Ivan Pavlov had forwarded emails (without adding more) to a shared mailbox for filing and that in so far as possible they had removed duplicate information.  The very fact that Dr Pavlov is &#8216;forwarding&#8217; emails, means that the email is being duplicated. There was no need to explicitly tell the Appellant that he already had the emails (he was provided with all the other emails, the fact that these were &#8216;forwarded&#8217; means by logical extension he had been provided with them). As such, we accept that all the initially withheld emails have now been disclosed. We attach weight to the Witness Statement of Mr Viggers. It would be a very serious allegation to suggest that he &#8211; as the UK Research and Innovation Director of Risk and Assurance Counter Fraud Investigations, would lie about such an issue. We do not find that he has. We find all relevant documents have now been disclosed. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="PageNumber">As such the appeal on Ground 1 has now become academic.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="PageNumber">The Appellant invites the Tribunal to find that the </span>initial withholding and continued claim that the respondents had and still have a basis for not releasing the documents is invalid. We refuse to consider this ground of appeal any further. <span class="PageNumber">The Appellant has in his possession the documents that he sought. It is a waste of the Tribunal&#8217;s time and resources to hear appeals in relation to material which is already in the possession of the Appellant. This runs counter to the overriding objective under which dealing with a care fairly and justly includes dealing with the case in ways which are proportionate to the importance of the case and anticipated costs. The overriding objective means, as Lord Phillips MR said in different context </span><span class="PageNumber" style="font-style:italic">Jameel (Yousef) v Dow Jones &amp; Co Inc <ref href="#" uk:canonical="[2005] QB 946" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2005">[2005] QB 946</ref> </span><span class="PageNumber">that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">&#8216;</span><span class="PageNumber" style="font-style:italic;font-family:'Book Antiqua'">it is no longer the role of the court simply to provide a level playing field and to referee whatever game the parties chose to play upon it. The court is concerned to ensure that judicial and court is concerned to ensure that judicial and court resources are appropriately and proportionately used in accordance with the requirements of justice&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Question 2</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant&#8217;s request stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NormalWeb" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;I am a journalist. I have written a number of articles for</span><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">The BMJ</span><span class="apple-converted-space" style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">concerning polio. In the most recent of these, I came across documents suggesting possible research-integrity issues in an Imperial College study of a new polio vaccine, nOPV2. UKRI was among the study&#8217;s funders.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NormalWeb" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">I request all Ivan Pavlov&#8217;s email correspondence, from 01 January 2024 to 01 June 2024, regarding this matter, including but not limited to correspondence with staff at Imperial College and/or any party regarding the Imperial College nOPV2 paper and/or the research integrity policies and processes of Imperial College.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NormalWeb" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Partially overlapping with the preceding, I request all correspondence between anyone at UKRI and anyone at Imperial College regarding research integrity from 01 January 2021 to 01 June 2024.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We accept at the outset the Second Respondent&#8217;s submission that the subject matter and context of the request are material considerations when determining whether particular information falls within the scope of the request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">We have considered the Appellant&#8217;s submission that emails containing the words &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">research integrity</span><span style="font-family:'Segoe UI';color:#000000">&#8221; ought, by virtue of that phrasing, to be treated as within scope. However, when the request is read cumulatively and in context, its ambit is more precisely defined. The Appellant identified potential research-integrity issues arising from an Imperial College study of the nOPV2 vaccine, which UKRI had part-funded. He then sought, &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">partially overlapping with the preceding</span><span style="font-family:'Segoe UI';color:#000000">&#8221; correspondence between UKRI and Imperial College &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">regarding research integrity</span><span style="font-family:'Segoe UI';color:#000000">&#8221; within the stated period.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">In our judgment, the Respondent was not required to treat every email in which the term &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">research integrity</span><span style="font-family:'Segoe UI';color:#000000">&#8221; appeared&#8212;irrespective of subject matter&#8212;as falling within the request. The request was expressly for correspondence</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Segoe UI';color:#000000">regarding</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000">research integrity. It was reasonable to interpret &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">regarding</span><span style="font-family:'Segoe UI';color:#000000">&#8221; as meaning </span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">concerning</span><span style="font-family:'Segoe UI';color:#000000"> research-integrity issues. The scope of the request therefore extended to correspondence substantively concerned with matters of research integrity and did not encompass communications in which the term appeared incidentally, tangentially, or in unrelated contexts.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">We also agree with the Second Respondent&#8217;s submission that to construe the request as encompassing</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Segoe UI';color:#000000">all</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000">documents in which the phrase appears would improperly conflate the duty under s.1 FOIA to provide recorded information with a right to the disclosure of whole documents. FOIA confers a right to information, not a general entitlement to all documents containing particular terminology.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As set out in the Second Respondent&#8217;s responses, some of the results identified by the search terms were in relation to studentship and grant applications because the word &#8220;research integrity&#8221; appeared without anything more. We examined a sample of the emails that had been withheld in the closed hearing and agree that this was an accurate description. We agree that these do not fall within scope for the reasons set out above. It was also explained by the second Respondent that of the remaining 50 emails, a number were duplicates. Once they were removed, two email chains fell within scope. Of what remained one email chain was provided to the Appellant, and one was withheld &#8211; to which ground 3 relates. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The <span style="font-family:'Segoe UI';color:#000000">Tribunal records that the Second Respondent does</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Segoe UI';color:#000000">not</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000">seek to rely upon any statutory exemption in relation to the emails identified by keyword searches. Rather, it contends that, although those emails were captured by search terms apparently linked to the subject matter of the request, they are not, on closer inspection,</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Segoe UI';color:#000000">relevant</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000">to it. The Tribunal is satisfied, on the evidence provided, that the Second Respondent conducted a reasonable and proportionate search and applied the correct relevance test to the documents retrieved. We accept that keyword searches often return &#8216;false positives&#8217; and that this outcome, while perhaps counter-intuitive to a lay observer, is</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Segoe UI';color:#000000">not unusual</span><span style="font-weight:bold;font-family:'Segoe UI';color:#000000">. </span><span style="font-family:'Segoe UI';color:#000000">The Tribunal therefore agrees that the emails in question fall</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Segoe UI';color:#000000">outside scope</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000">and need not be disclosed on the basis of</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Segoe UI';color:#000000">irrelevance</span><span style="font-weight:bold;font-family:'Segoe UI';color:#000000">,</span><span style="font-family:'Segoe UI';color:#000000"> without recourse to any statutory exemption. Nothing in this decision turns on, or requires, the engagement of an exemption.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">Finally, we note for completeness, the Appellant&#8217;s reference to the disclosure of 325 emails. This was the initial number of emails, but once the search was narrowed, the keyword search for &#8220;research integrity&#8221; conducted over the agreed revised period of 26/01/2024 to 26/05/2024, and limited to emails containing an @imperial.ac.uk address, yielded a total of 205 items.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">For the reasons set out above, Ground 2 is dismissed.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Question 3</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">The last ground relates to one email chain. The Tribunal examined this during the closed hearing and asked questions of the Second Respondent&#8217;s counsel. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">We agree that the email chain engages both s.41(1) and also s.40(1). We also agree that the public interest favours the information being withheld.  We explain our reasons below. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The information is exempt under s41(1) because:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">It was obtained by the public authority from any other person, </span><span style="font-style:italic;font-family:'Book Antiqua'">and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Disclosure to the public would constitute a breach of confidence actionable by that that or any other person. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">In determining whether any disclosure would constitute an actionable breach of confidence, we have applied the three-stage test articulated in</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Segoe UI';color:#000000">Coco v A N Clark (Engineering) Ltd</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000"><ref href="#" uk:canonical="[1968] FSR 415" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1968">[1968] FSR 415</ref></span>. <span style="font-family:'Segoe UI';color:#000000">That authority establishes that a claimant must demonstrate: (i) that the information in question has the necessary quality of confidence; (ii) that the information was imparted in circumstances importing an obligation of confidence; and (iii) that unauthorised use or disclosure of the information has caused, or would be likely to cause, detriment to the confider.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We are satisfied that: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.04in"><span style="font-family:'Book Antiqua'">Disclosure of the email would reveal the content of the information UKRI obtained from a third party;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.04in"><span style="font-family:'Book Antiqua'">The information is more than trivial;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.04in"><span style="font-family:'Book Antiqua';color:#000000">We are satisfied that the email was plainly sent in confidence. The information it contains is not otherwise accessible and was not in the public domain at the time of the decision, which is the relevant point for present purposes. We agree with the ICO&#8217;s conclusion that the material can properly be regarded as private and confidential. For completeness, we note that the information could actually be treated as falling outside the scope of the request. We find that characterising the content as relating to &#8220;research integrity&#8221; may be generous, but it is not in our view incorrect. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.04in"><span style="font-family:'Book Antiqua';color:#000000">We are satisfied that the information was communicated in circumstances giving rise to an obligation of confidence. The email clearly concerned a confidential matter and was provided by a third party on the basis that it should not be disseminated beyond UKRI, save on an internal, need-to-know basis. UKRI relied upon its research integrity reporting policy, which states that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">all those involved in the process are required to maintain confidentiality</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;. It submitted that such confidentiality is essential to safeguard the effectiveness of its reporting mechanisms and to ensure that individuals have confidence that any concerns raised will be treated in confidence. The ICO concurred with that position, as do we.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.04in"><span style="font-family:'Book Antiqua'">It was submitted by UKRI that &#8216;</span><span style="font-style:italic;font-family:'Book Antiqua'">the issues raised in the correspondence are highly confidential and concern matters that would negatively affect individuals by impacting the personal lives and careers of the individuals involved, including the confider, if the information was to be disclosed&#8217; </span><span style="font-family:'Book Antiqua'">(taken from the DN). Again, having examined the content of the email, we agree that disclosure of the withheld information would cause detriment to the confider.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Public Interest</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">Section 41 of FOIA 2000 establishes an absolute exemption. However, the common law duty of confidence is qualified by an inherent public interest test. The Tribunal must therefore determine whether disclosure would be justified by an overriding public interest sufficient to displace that duty.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">The established position is that information subject to a duty of confidence must be withheld unless the public interest in disclosure outweighs the strong public interest in maintaining confidentiality. As the ICO noted, considerable weight is traditionally afforded to duties of confidence, and only particularly compelling considerations will suffice to outweigh them. Nevertheless, the common law recognises that disclosure may be defensible where an overriding public interest exists, thereby providing a complete defence to a claim for breach of confidence. It was therefore necessary for the ICO to assess whether UKRI could realistically rely on such a defence if disclosure were made. The ICO undertook that assessment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">UKRI accept that research integrity is a matter of public interest and that transparency contributes to the trustworthiness of the research environment. They also acknowledge that disclosure of the emails would have enhanced transparency and supported UKRI&#8217;s accountability. However, they submit that the stronger countervailing public interest lies in maintaining confidentiality. They emphasise the importance of protecting the trust placed in them by those who provide information in confidence, and they argue that confidentiality is central to the operation of mechanisms through which research integrity concerns are raised and addressed. Disclosure, they contend, would undermine those mechanisms and could have adverse consequences for individuals involved. They further submit that confidentiality is essential to the discharge of their organisational responsibilities relating to research integrity&#8212;responsibilities reflected in the standard terms of grant funding&#8212;and that the wider research and innovation funding system depends upon that trust. On this basis, UKRI maintain that no overriding public interest has been demonstrated that could justify disclosure, and that they would lack any viable public interest defence in the event of a breach of confidence claim.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">The ICO concluded that disclosure &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">risks having a direct and clearly negative impact on the confider, an outcome which the Commissioner considers to be firmly against the public interest&#8230; a situation where individuals did not, or were unwilling to, share legitimate concerns about research integrity with UKRI for fear of sensitive information being disclosed, is an outcome that is clearly counter to the public interest&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">In weighing the competing public interests, we recognise that transparency and accountability carry genuine weight, particularly in matters concerning research integrity. However, the force of that interest is significantly reduced where the information was provided in confidence by a third party and where disclosure would foreseeably undermine established confidential reporting channels. Those mechanisms serve an important public purpose by enabling individuals to raise concerns without fear of external exposure. Undermining that trust would have adverse consequences not only for those individuals but for the effectiveness of UKRI&#8217;s processes more generally. On the evidence before us, we are satisfied that the public interest in maintaining the duty of confidence clearly outweighs the public interest in disclosure. Disclosure would amount to an actionable breach of confidence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">The consequences of eroding trust in a confidential reporting system extend beyond the particular case. Individuals may be deterred from raising concerns; internal scrutiny mechanisms may be weakened; and matters that ought to be addressed promptly and discreetly risk going unreported or being escalated externally. Such outcomes diminish organisational accountability and frustrate the public purposes those mechanisms are intended to serve. The erosion of trust therefore represents a significant detriment to the public interest.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">Trust is itself integral to public accountability. Where individuals are assured that their information will be treated fairly and kept confidential, they are more willing to engage with reporting processes. If that trust is diminished, the flow of information necessary for effective oversight is impaired, investigations become more difficult, and the organisation&#8217;s ability to perform its public functions is correspondingly reduced. The preservation of trust is therefore an important public interest in its own right.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">In his grounds of appeal, the Appellant submitted that &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">UKRI invoked section 41(1) of FOIA to block access to one email chain. The correspondence is with a third party &#8211; like many turned over by UKRI. The same argument of detriment to confider could be applied to documents UKRI has made public. Currently, the UK, Spain, Germany and other nations are seeing intermittent positive tests for polio in sewage</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI';color:#000000">. It is possible this email UKRI won&#8217;t turn over relates to this serious public health issue</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">. UKRI is an interested or biased party in the matter and ICO not competent to judge a possible relation. If the chain has no possible relation to polio, it can be redacted so that it is not detrimental to parties mentioned in the email or to the confider while satisfying my investigation</span><span style="font-family:'Segoe UI';color:#000000">&#8221; (emphasis added).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">In his reply, the Appellant added that &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">there are undoubtedly instances where s.41(1) and 40(2) justify withholding a document. In making this determination, the Tribunal might benefit from a brief description of my investigation at the hearing</span><span style="font-family:'Segoe UI';color:#000000">.&#8221; The Appellant subsequently gave evidence and made submissions at the oral hearing. The Tribunal is grateful for the clarity and courtesy with which he advanced his case. However, having reviewed the withheld material, we conclude that the information cannot be disclosed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">We hope it provides reassurance to the Appellant to know that &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">the withheld material [is] related to general issues, rather than the Imperial College study of the nOPV2 vaccine&#8221; </span><span style="font-family:'Segoe UI';color:#000000">(as set out in the gist). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">We have also concluded that the material cannot be redacted in a manner that would protect the identities and interests of those involved while also serving the Appellant&#8217;s investigative purpose, as the risk of identification is too high in the specific circumstances and again due to the wider public interest relating to confidentiality protections in this particular situation &#8211; which we cannot detail here.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">As a final comment, we add that it could be said that the material is arguably out of scope. However, the Second Respondent did not pursue that argument, and their counsel expressly confirmed that he did not intend to do so. In fairness to the Appellant, we do not rely on out-of-scope arguments. Nevertheless, in the circumstances, the public interest in disclosure is very limited.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">In the circumstances, we conclude that the email chain should be withheld under s.41.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">We also find s.40 is applicable, but in light of our findings above, do not address this in detail here.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.39in"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.39in"><span style="font-family:'SAVOYE LET PLAIN:1.0';font-size:16pt">Judge Kiai </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-02-20" refersTo="#decision" style="font-style:italic;font-family:'SAVOYE LET PLAIN:1.0';font-size:16pt">20 February 2026</docDate></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
