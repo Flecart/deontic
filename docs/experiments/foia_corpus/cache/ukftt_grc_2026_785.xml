@@ -1,0 +1,1641 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/785"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/785"/>
+	  <FRBRdate date="2026-06-02" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="785"/>
+	  <FRBRname value="James Coombs v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/785"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/785"/>
+	  <FRBRdate date="2026-06-02" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/785/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/785/data.xml"/>
+	  <FRBRdate date="2026-06-02T11:22:36" name="transform"/>
+	  <FRBRdate date="2026-06-02T11:48:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-19" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-02" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="james-coombs" href="" showAs="JAMES COOMBS"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>785</uk:number>
+	<uk:cite>[2026] UKFTT 785 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.1</uk:parser>
+	<uk:hash>89cd0e1acd379158ca1e9149ecd6b68d80436947c9046de7a41ab3c8ba562fe1</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .p1 { font-family: 'Book Antiqua'; font-size: 9pt; color: #000000; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .s1 { font-family: Arial; font-size: 9pt; }
+#judgment .s2 { color: #1C1C1D; }
+#judgment .apple-converted-space { }
+#judgment .Strong { font-weight: bold; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00785 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: EA/2025/0298</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decided without a hearing</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: 8</span><span style="font-weight:bold;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-weight:bold;font-family:'Book Antiqua'"> December  2025</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-06-02" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">2 June 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE KIAI</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER COOK</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER WOLF</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#james-coombs" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">JAMES COOMBS</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">First Respondent</role></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Allowed.</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">1.1</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant requested, in respect of each candidate who sat the Kent Test in September 2024, raw scores and standardised scores in each of the three sections, together with the candidates&#8217; date of birth,&#160;subject to an express anonymisation safeguard excluding any results where fewer than five children shared the same birth date.&#160;</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">1.2</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal finds that the Council was&#160;not&#160;entitled to rely on section 40(2) FOIA to withhold the requested information, when disclosed in appropriately anonymised form consistent with the request.&#160; </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">1.3</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal therefore substitutes this Decision Notice under section 58(1)(a)(ii) FOIA.&#160; </span></p>
+      </blockContainer>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Substituted Decision Notice: </span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua'">3.</num>
+	<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Steps required</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">3.1</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">The Council must disclose to the Appellant the following information for candidates who sat the Kent Test in September 2024:</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">(a)</num>
+	<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">raw scores&#160;in each of the three sections (English, Maths and Reasoning);</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">(b)</num>
+	<p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">standardised scores&#160;in each of the three sections (English, Maths and Reasoning);</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">(c)</num>
+	<p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">the candidate&#8217;s date of birth, subject to the anonymisation safeguard set out paragraph 3.2 below.&#160; </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">3.2</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">In complying with paragraph 3.1(c), the Council must apply the safeguard expressly contained in the request, namely:</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:Symbol;font-size:10pt;margin-left:0.89in;text-indent:-0.25in">&#8226;</num>
+	<p style="text-align:justify;margin-left:0.89in"><span style="font-family:'Book Antiqua';color:#000000">The exclusion or redaction of any any results where fewer than five candidates share the same birth date, so that no date of birth appearing in the disclosed dataset is associated with fewer than five candidates.&#160; </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">3.3</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">In addition, because the request expressly contemplated exclusion of candidates outside the normal cohort age range to avoid identification risk, the Council must:</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:1.01in;text-indent:-0.26in">(a)</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:1.01in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">remove from the disclosed dataset any candidates who were outside the normal cohort age range for the Kent Test sitting in September 2024 (older/younger out-of-cohort candidates); and</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">(b)</num>
+	<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">disclose, alongside the dataset, a&#160;count&#160;of the number of candidates removed on that basis.&#160; </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">3.4</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">The information must be disclosed in a&#160;single dataset&#160;(for example, a spreadsheet), with one record per candidate and clear column headings corresponding to the fields in paragraph 3.1.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">3.5</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">The Council is not required to create new information. Its obligation is to disclose the information&#160;it holds falling within the scope of the request, subject only to the exclusions in paragraphs 3.2&#8211;3.3 which give effect to the request&#8217;s anonymisation safeguard.&#160; </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua'">4.1</num>
+	<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Time for compliance</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">4.1</num>
+	<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">The Council must comply with paragraphs 3.1&#8211;3.4&#160;within 42 days&#160;of the date on which this decision is issued.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua'">5.</num>
+	<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Enforcement / certification</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">5.1</num>
+	<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua';color:#000000">Any failure to comply with this Substituted Decision Notice may result in certification by the Tribunal to the Upper Tribunal under rule 7A of the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009 (as amended) and may be dealt with as a contempt of court.</span></p>
+      </blockContainer>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This is an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/57" uk:canonical="2000 c. 36 s. 57" uk:origin="TNA" uk:type="legislation">section 57</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) against a decision notice (&#8220;DN&#8221;) issued by the Information Commissioner (&#8220;the Commissioner&#8221;) on 9 July 2025 (reference IC-351234-R4H2).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">By that DN, the Commissioner concluded that Kent County Council (&#8220;the Council&#8221;) was entitled to withhold the requested information under section 40(2) FOIA on the basis that disclosure would involve the unlawful processing of third-party personal data. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">For the reasons that follow, the Tribunal concludes that the DN is not in accordance with the law.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_1">
+	    <heading style="text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">PROCEDURAL HISTORY</span></heading>
+	    <paragraph>
+	      <num style="font-style:italic;font-weight:bold;font-family:'Segoe UI';text-decoration-line:underline;text-decoration-style:solid">(1)</num>
+	      <content>
+		<p class="Heading2" style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-weight:bold;font-family:'Segoe UI';color:#000000">Requests</span></p>
+	      </content>
+	    </paragraph>
+	  </level>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">6 November 2024</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">, </span><span style="font-family:'Book Antiqua';color:#000000">the Appellant made a request to</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">the Council</span><span style="font-family:'Book Antiqua';color:#000000"> under FOIA seeking information relating to candidates who sat the</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">Kent Test</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">in September 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The request sought, was framed in the following terms (material parts): the Appellant stated that he understood candidates were given three standardised scores in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">English</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">,</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">Maths</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">and</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">Reasoning</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">,</span><span style="font-family:'Book Antiqua';color:#000000"> and requested, for each candidate who sat the test in September 2024:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p class="NormalWeb" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">raw scores in each of the three sections;</span><br/><span style="font-family:'Book Antiqua';color:#000000">(b) standardised scores in each of the three sections; and</span><br/><span style="font-family:'Book Antiqua';color:#000000">(c) the candidate&#8217;s date of birth.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The request explicitly acknowledged the risk of identification in small categories and claimed to build in a safeguard: it sought disclosure of the candidate&#8217;s date of birth </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;[excluding] any results where less than five children share the same birth date</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In the request as recorded in the Commissioner&#8217;s investigation correspondence, the Appellant further emphasised that some children sit the test outside the normal cohort age range, asked for such results to be removed, requested a count of those removed, and asked that the Council not provide information capable of identifying individual candidates.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-weight:bold;font-family:'Segoe UI';text-decoration-line:underline;text-decoration-style:solid">(2)</num>
+	      <content>
+		<p class="Heading2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Segoe UI';color:#000000">Council&#8217;s Response</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Council responded on</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">15 November 2024</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">(</span><span style="font-family:'Book Antiqua';color:#000000">reference</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">52853316</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">).</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">It refused the request on the basis that disclosure would breach the</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref></span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">(unlawful processing of personal data) and therefore fell outside its disclosure obligations by virtue of</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">section 40(2) FOIA</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Council&#8217;s refusal included the following central reasoning:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NormalWeb" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;Even without any dates of birth, the combinations of three standardised scores are unique enough each year that many people would be able to identify their own child&#8217;s data in such a report.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Council therefore treated section 40 (2) as applying not merely to the requested dates of birth, but also (in practical effect) to the dataset of raw and standardised scores as a whole, on the basis that the combination of three standardised scores was sufficiently unique to permit identification (including self-identification).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Council advised the Appellant of his right to seek an internal review and thereafter, to complain to the Information Commissioner.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_2">
+	    <num style="font-style:italic;font-weight:bold;font-family:'Segoe UI';text-decoration-line:underline;text-decoration-style:solid">(3)</num>
+	    <content>
+	      <p class="Heading2" style="margin-left:0.11in;text-indent:0.79in"><span style="font-style:italic;font-weight:bold;font-family:'Segoe UI';color:#000000">Review</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">16 November 2024</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">,</span><span style="font-family:'Book Antiqua';color:#000000"> the Appellant requested an internal review.</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000"> In doing so, the Appellant expressly criticised the Council&#8217;s reliance on self-identification, describing the Council&#8217;s position as effectively asserting that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">because parents already know their child&#8217;s score, they will be able to discover their child&#8217;s score</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;, and stating he was &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">at a loss to understand what point is trying to be made.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant drew the Council&#8217;s attention to the decision in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">James Coombs v Information Commissioner and the Lincolnshire Consortium of Grammar Schools</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">(EA/2022/0245) (referred to as &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Lincolnshire</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; throughout this decision) and extracted the Tribunal&#8217;s discussion of identifiability and the &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">motivated intruder</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; approach, including the Tribunal&#8217;s statement that the &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">motivated intruder</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; starts without prior knowledge and would need to undertake substantial investigative steps; and the Tribunal&#8217;s conclusion that the likelihood of identification was &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">very remote and too remote&#8221; </span><span style="font-family:'Book Antiqua';color:#000000">to satisfy the legal test in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Department of Health v ICO</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">and</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">ICO v Magherafelt</span><span style="font-family:'Book Antiqua';color:#000000">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant then applied that reasoning to the Kent Test cohort. He asserted that, with around 8,000 candidates, there would be around 20 or so children sharing each birth date, and explained that this was why he stipulated redaction of any birth date shared by fewer than five candidates; he challenged the Council to explain how a motivated intruder could identify the relevant group of candidates and persuade them to disclose scores, or else disclose the information.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Council issued its internal review outcome on</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">11 December 2024</span><span style="font-family:'Book Antiqua';color:#000000">, stating that it was correct to withhold the information under section 40(2) FOIA.</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;It </span><span style="font-family:'Book Antiqua';color:#000000">recorded that the Admissions team explained:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NormalWeb" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua';color:#000000">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">when combining standardised, raw scores and dates of birth, 16369 of the 16388 permutations occur so infrequently that they fall below the threshold of 5 or less that we use to indicate a high risk of an individual identifying their own data &#8230; 12500 of the permutations are completely unique within the dataset.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The internal review further stated that following a complaint to the ICO in January 2018, the ICO advised the Council that disclosure of that level of detail had allowed identification and that Council had breached the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/29" uk:canonical="1998 c. 29" uk:origin="TNA" uk:type="legislation">Data Protection Act 1998</ref>; and, taking that advice into account (together with its current obligations under DPA 2018 and UK GDPR), the Council considered disclosure would be likely to enable identification &#8220;not only by others but also themselves.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The internal review cited Article 5(1) UK GDPR and concluded disclosure would breach &#8220;lawfulness, fairness, transparency&#8221;, and therefore section 40(2) FOIA applied.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant subsequently made a complaint to the ICO, who undertook an investigation. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_3">
+	    <num style="font-style:italic;font-weight:bold;font-family:'Segoe UI';text-decoration-line:underline;text-decoration-style:solid">(4)</num>
+	    <content>
+	      <p class="Heading2" style="margin-left:0.11in;text-indent:0.79in"><span style="font-style:italic;font-weight:bold;font-family:'Segoe UI';color:#000000">Decision Notice</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner issued a DN dated</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">9 July 2025</span><span style="font-family:'Book Antiqua';color:#000000">. The Commissioner&#8217;s decision was that the Council was correct to withhold the information under section 40(2) FOIA and no steps were required.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Under &#8220;Scope of the case&#8221;, the Commissioner noted the Appellant&#8217;s argument that suitable redactions could anonymise the data and that the request &#8220;clearly stipulated&#8221; that redactions should be made to allow anonymised disclosure; however, the Commissioner stated that he &#8220;must consider whether the council was correct to apply section 40(2) to the information which was actually requested&#8221;, because the council is required to respond to the request made and is not required to &#8220;work out what information, similar to that requested, would not be personal data.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Under &#8220;Reasons for decision&#8221;, the Commissioner set out the section 40(2) framework and identified the relevant condition as section 40(3A)(a): whether disclosure to any member of the public would contravene a data protection principle (Article 5 UK GDPR). The Commissioner stated the two-step structure: first, determine whether the information is personal data under DPA 2018; second, only if it is personal data, determine whether disclosure would breach a data protection principle.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On the question &#8220;Is the information personal data?&#8221;, the Commissioner concluded that there were scenarios in which it was &#8220;likely&#8221; individuals could be identified from the requested information. He gave examples:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">where a child has shared a score with another child or a third-party parent who also knows the child&#8217;s birth date; if the combination of birth date and known score is unique, the parent could identify the child in the dataset and learn the child&#8217;s other scores; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">where a child has told third-party parents a score that is unique (e.g. very high/low), the child would be identifiable, and the other scores and date of birth would be relatable to that child.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner concluded that the information, combined with existing knowledge held by some individuals, would allow individual children to be identified; accordingly, the requested information fell within the definition of personal data in section 3(2) DPA 2018.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="text-decoration-line:line-through;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On Article 5(1)(a) (&#8220;lawfulness, fairness, transparency&#8221;), the Commissioner identified Article 6(1)(f) (&#8220;legitimate interests&#8221;) as the most applicable lawful basis, and set out the three-part test (legitimate interest; necessity; balancing). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On legitimate interests, the Commissioner concluded that the public had a legitimate interest in disclosure because the data would allow greater transparency and oversight of the Kent Test and an &#8220;oversight on where individual children sit within that test in terms of school offers and placements&#8221; to those with an interest in the results.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On necessity, the Commissioner stated that &#8220;necessary&#8221; means more than desirable but less than indispensable; that it involves consideration of alternative measures; and that disclosure under FOIA must be the least intrusive means of achieving the aim. The Commissioner concluded disclosure was necessary and that there were no less intrusive means of achieving the identified aims.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On balancing, the Commissioner identified factors including harm/distress, whether information is already public/known to some, expressed concerns, and reasonable expectations. He concluded that children would have no expectation that their test results and birth dates would be disclosed &#8220;to the whole world&#8221; in response to an FOIA request and that this expectation was reasonable.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner concluded that disclosure would cause distress to children who could be identified, giving the example of a child with poor results not wishing their scores to be published to the whole world in a manner permitting identification. He acknowledged some individuals may already know relevant information where parents/children chose to share details but stated FOIA disclosure is &#8220;far wider&#8221; than limited disclosure chosen by each child/parent.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner concluded that, while there was public value in the requested information, disclosure that would allow identification would be an unwarranted intrusion into rights and freedoms; the legitimate interest was insufficient to outweigh children&#8217;s fundamental rights; there was no Article 6 basis; and disclosure would therefore be unlawful. Accordingly, section 40(2) applied.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Under &#8220;Other matters&#8221;, the Commissioner noted the Appellant&#8217;s anonymisation arguments but stated the Appellant could &#8220;remake&#8221; the request, reworded to avoid disclosure of personal data, if he wished.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-weight:bold;font-family:'Segoe UI';text-decoration-line:underline;text-decoration-style:solid">(5)</num>
+	      <content>
+		<p class="Heading2" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Segoe UI';color:#000000">Grounds of Appeal</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant lodged his appeal using form</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">GRC1</span><span style="font-family:'Book Antiqua';color:#000000">, dated 9 July 2025.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <intro>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In his &#8220;Reasons for your appeal&#8221; (Section 8), the Appellant summarised his challenges as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">the Commissioner&#8217;s two-step process required, at step 1, personal data findings; the Commissioner&#8217;s own findings were that disclosure would &#8220;likely&#8221; lead to identification; however, Judge Jacobs&#8217; decision in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">NHSBSA v IC and Spivack</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">required actual identification;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p class="NormalWeb" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">at step 2, the Commissioner failed to establish legitimate interests and exaggerated the impact; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(c)</num>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">the decision notice invited a reworded request but did not explain how and did not require the Council to provide advice/assistance under section 16 FOIA.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Under &#8220;Outcome of appeal&#8221; (Section 9), the Appellant invited the Tribunal to issue a substituted decision notice ordering the Council to disclose anonymised scores including dates of birth; to conclude the likelihood of a motivated intruder identifying candidates where each date of birth is shared by 45 candidates is very remote (relying on</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Department of Health v ICO</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">and</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">ICO v Magherafelt</span><span style="font-family:'Book Antiqua';color:#000000">); and to conclude that legitimate interests provide an overwhelming argument for disclosure.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-weight:bold;font-family:'Segoe UI';text-decoration-line:underline;text-decoration-style:solid">(6)</num>
+	      <content>
+		<p class="Heading2" style="margin-left:0.39in;text-indent:0.21in"><span style="font-style:italic;font-weight:bold;font-family:'Segoe UI';color:#000000">Commissioner&#8217;s Response</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s formal response under rule 23 was dated</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">10 September 2025</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span><span style="font-family:'Book Antiqua';color:#000000"> The Commissioner opposed the appeal.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Response set out the statutory framework: section 1 FOIA (right of access) and the relevant exemption section 40(2) FOIA; it adopted the DPA 2018 definition of personal data and the Recital 26 GDPR test for identifiability (&#8220;all the means reasonably likely to be used&#8221;).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Response cited the Article 29 Working Party guidance (Opinion 4/2007) that mere hypothetical possibility is not enough; if, taking account of all means likely reasonably to be used, the possibility of identification is negligible, the person should not be considered identifiable.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Response adopted the ICO &#8220;motivated intruder&#8221; approach as set out in ICO guidance on anonymisation and noted that similar approaches have been adopted by the Upper Tribunal in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Magherafelt</span><span style="font-family:'Book Antiqua';color:#000000">,</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Miller</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">and</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Morton</span><span style="font-family:'Book Antiqua';color:#000000">. It cited</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Breyer</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">for the proposition that the risk should &#8220;in reality&#8230; be insignificant&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Response relied upon</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">NHSBSA v IC and Spivack</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">in the FTT (EA/2019/0407) and the UT (<ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2021/192" uk:canonical="[2021] UKUT 192 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKUT 192 (AAC)</ref>), noting the requirement for a &#8220;degree of certainty&#8221;, that information must allow one individual to be distinguished from others, that correctly guessing is insufficient, and that a &#8220;reliable connection&#8221; is required rather than an educated guess.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On time-slice, the Response relied on</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Keighley</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">and</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Montague</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">and stated the relevant time was</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">15 November 2024</span><span style="font-family:'Book Antiqua';color:#000000">, the date of the Council&#8217;s response.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On Ground 1, the Response refuted the Appellant&#8217;s contention that the Commissioner proceeded on &#8220;likely identification&#8221; contrary to</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Spivack</span><span style="font-family:'Book Antiqua';color:#000000">. It emphasised that the Appellant sought DOB and score information for each candidate; it cited the Council&#8217;s internal review statement about permutations and uniqueness; and it submitted that it was reasonably likely that at least one member of the public (including a third-party parent) would be able to correctly identify a candidate from the requested information and other information known/available, thereby learning new information; and that unique score combinations could permit identification, not only DOB.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Response distinguished</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Spivack</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">on the basis that, in that case, there were multiple reasons a person might appear in the dataset, whereas here there was no reason for candidates to appear save that they took the Kent Test. It further relied on FOIA disclosure being effectively &#8220;to the world&#8221;, citing</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Office of Government Commerce v Information Commissioner</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000"><ref href="#" uk:canonical="[2010] QB 98" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2010">[2010] QB 98</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Response submitted that it would not be possible to disclose the requested information in anonymised form with redactions for all personal data, because the Council would not know the extent of relevant information available to others (including volunteered information) and it would be extremely difficult to redact successfully; and that the Commissioner was correct to err on the side of caution given the protection for children&#8217;s data.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On Grounds 2 and 3 (Article 6(1)(f)), the Response submitted that the Commissioner found (in the Appellant&#8217;s favour) that he was pursuing a legitimate interest; and that the Commissioner considered relevant factors and gave them appropriate weight but concluded the legitimate interest did not outweigh the harm to the candidates&#8217; privacy rights. The Response relied on</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Common Services Agency</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">(&#8220;no presumption in favour of release&#8221;) and</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Blake</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">(data subjects&#8217; interests receive a high degree of protection).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On section 16, the Response quoted section 16(1) FOIA and submitted that the duty to provide advice and assistance generally arises in three circumstances: lack of real name, ambiguity requiring clarification, or section 12 cost-limit reframing; the Response submitted those circumstances did not apply and the duty was not triggered.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner invited the Tribunal to dismiss the appeal and agreed the case was suitable for determination on the papers.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_4">
+	    <num style="font-style:italic;font-weight:bold;font-family:'Segoe UI';text-decoration-line:underline;text-decoration-style:solid">(7)</num>
+	    <content>
+	      <p class="Heading2" style="margin-left:0.11in;text-indent:0.79in"><span style="font-style:italic;font-weight:bold;font-family:'Segoe UI';color:#000000">Appellant&#8217;s Reply</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant&#8217;s Reply (rule 24) was dated</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">23 September 2025</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <intro>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Reply adopted the Commissioner&#8217;s two &#8220;steps&#8221; from the DN.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Heading3" style="margin-left:0.11in;text-indent:0.39in"><span style="font-family:'Segoe UI';color:#000000">Step 1 (personal data / identifiability)</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant asserted that the requested information is &#8220;almost identical&#8221; to that in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Lincolnshire</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">(EA/2022/0245) and invited the Tribunal to read that decision, identifying &#167;&#167;57&#8211;69 as dealing specifically with section 40.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant then set out the claimed differences: Lincolnshire involved 3,860 candidates, whereas Kent had 16,446 (citing the Council&#8217;s website archive); Lincolnshire requested date of birth rounded to week and did not decide that full DOB would lead to identification; Kent includes Maths, bearing on necessity.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant relied on ICO guidance on k-anonymisation and stated that the NHS standard for &#8220;strong anonymisation&#8221; uses k=5; he asserted his request adopted that standard; and he argued that for the in-cohort group each unique DOB would be shared by about 45 candidates on average.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant characterised the Commissioner&#8217;s DN &#167;20 as stating &#8220;it is likely&#8221; identification could occur but asserted that after</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Spivack</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">the Commissioner&#8217;s position shifted to identification &#8220;would&#8221; occur.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant described the Commissioner&#8217;s &#8220;putative case&#8221; (DN &#167;21&#8211;22) and argued that it depended on a candidate disclosing part of their score to someone who knows their DOB and the combination being unique; he called this &#8220;paradoxical&#8221;, asserted such a combination is unlikely; and argued that even if it occurred, the disclosure leading to identification would be made by the data subject themselves.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant further argued that the Commissioner&#8217;s approach impermissibly extends the concept of personal data to circumstances where identification depends on voluntary disclosure by the data subject and, if applied universally, would prevent the publication of anonymous statistics derived from personal data.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Heading3" style="margin-left:0.11in;text-indent:0.39in"><span style="font-family:'Segoe UI';color:#000000">Step 2 (lawful basis / legitimate interests / necessity / balancing)</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant asserted that, even though the data is not personal data, the Commissioner &#8220;spectacularly failed&#8221; to establish the legitimate interests by not enquiring what they were.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant accepted the</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">South Lanarkshire</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">three-question framework but contended the Commissioner misapplied it; he also relied on UT Judge Wikely&#8217;s propositions in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Goldsmiths</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">as a &#8220;roadmap&#8221;, particularly proposition 3 (necessity more than desirable but less than indispensable) and proposition 5 (least restrictive means).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On the question of legitimate interests, the Appellant stated that he did not advance detailed legitimate interest arguments during the Commissioner&#8217;s investigation because he was not invited to do so. He contended that the Decision Notice&#8217;s identification of the relevant legitimate interests was factually inaccurate, noting in particular that the Kent Test operates by reference to a binary pass/fail threshold at a score of 332, rather than by reference to &#8220;offers and placements&#8221;. He further advanced a detailed research-based and public-policy case, including work undertaken with Professor Alan Bainbridge, analysis of effect size, issues of socio-economic disadvantage, relevant government policy objectives, and the operation of the School Admissions Code.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On necessity, the Appellant asserted that Department for Education and the National Pupil Database do not hold 11+ data; Ofqual does not regulate the 11+; grammar schools allegedly resist independent scrutiny and that therefore  FOIA is a necessary last resort. He asserts that Kent&#8217;s large cohort provides the sample necessary to calculate age-in-cohort bias and the Maths component is necessary to test a conjecture about subject differences.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On balancing, the Appellant disputed the DN&#8217;s &#8220;whole world&#8221; language (DN &#167;&#167;43&#8211;45) and contended that identification to the world could only occur where candidates voluntarily disclose personal data; he characterised the realistic harm as, at most, a narrow risk that a candidate who voluntarily discloses part of their results might (rarely) thereby disclose more than expected to a close associate.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Heading3" style="margin-left:0.11in;text-indent:0.39in"><span style="font-family:'Segoe UI';color:#000000">Inadequate reasoning / section 16 reframed</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Finally, the Appellant reframed his &#8220;advice and assistance&#8221; ground as one of &#8220;inadequate reasoning&#8221;: he criticised the Commissioner&#8217;s attempt to limit section 16 to three examples; he criticised the absence of any reference to</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Lincolnshire</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">in the DN; and he contended the DN leaves the parties &#8220;guessing&#8221; how the request could be reworded when the DN itself suggests that it could be.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span class="apple-converted-space" style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Hearing</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The appeal has been determined without an oral hearing.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Following the case having been decided on the papers, the Appellant wrote to the Tribunal requesting that the appeal be determined at an oral hearing and indicating that he wished to rely upon further evidence. We have carefully considered that request in accordance with the Tribunal Procedure Rules and, in particular, the overriding objective of dealing with cases fairly and justly. Having regard to the fact that the Tribunal has allowed the appeal on the basis of the evidence already before it, we are satisfied that the material issues in the appeal have been fully and fairly determined. In those circumstances, we do not consider that an oral hearing, or the admission of further evidence, would be necessary or proportionate, or that it would add materially to our consideration of the appeal or affect the outcome. We therefore consider it consistent with the overriding objective to determine the appeal without listing a further hearing or inviting or considering any additional evidence.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_5">
+	    <content>
+	      <p style="text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE LEGAL FRAMEWORK</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_1_6">
+	    <content>
+	      <p style="text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The statutory right of access and the Tribunal&#8217;s jurisdiction</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) provides a general right of access to recorded information held by public authorities, subject to the application of statutory exemptions. Section 1(1) FOIA provides that:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;Any person making a request for information to a public authority is entitled&#8212;</span><br/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">(a) to be informed in writing by the public authority whether it holds information of the description specified in the request, and</span><br/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">(b) if that is the case, to have that information communicated to him.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">By <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/57/1" uk:canonical="2000 c. 36 s. 57" uk:origin="TNA" uk:type="legislation">section 57(1)</ref> FOIA, &#8220;where a decision notice has been served, the complainant or the public authority may appeal to the Tribunal against the notice.&#8221; Under section 58 FOIA, the Tribunal must consider whether the DN is in accordance with the law and, where the Commissioner has exercised a discretion, whether that discretion should have been exercised differently. The Tribunal exercises a full merits jurisdiction and may make its own findings of fact and law.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_7">
+	    <content>
+	      <p style="text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Section 40(2) FOIA and the Tribunal&#8217;s two-stage approach</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_64">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Section 40(2) FOIA provides an absolute exemption from disclosure where the requested information constitutes personal data of a person other than the requester and disclosure would contravene any of the data-protection principles.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The determination of the applicability of section 40(2) is ordinarily approached in two stages, which the Tribunal refers to as&#160;Step 1 and&#160;Step 2.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Step 1&#160;requires the Tribunal to determine whether the information requested constitutes &#8220;personal data&#8221;, namely information relating to an identified or identifiable living individual. If the information does not amount to personal data, section 40(2) is not engaged.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Step 2&#160;arises only if Step 1 is satisfied. It requires consideration of whether disclosure would be lawful under the UK GDPR&#8212;most commonly by reference to Article 6(1)(f)&#8212;and whether disclosure would therefore contravene the data-protection principles.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_8">
+	    <content>
+	      <p style="text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Step 1: Identifiability and anonymous information</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_68">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The definition of personal data is contained in Article 4(1) UK GDPR, which defines it as:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;any information relating to an identified or identifiable natural person (&#8216;data subject&#8217;).&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The concept of identifiability is further explained in Recital UK GDPR, which provides:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;To determine whether a natural person is identifiable, account should be taken of all the means&#160;reasonably likely to be used, such as singling out, either by the controller or by another person to identify the natural person directly or indirectly. To ascertain whether means are reasonably likely to be used to identify the natural person, account should be taken of all objective factors, such as the costs of and the amount of time required for identification, taking into consideration the available technology at the time of the processing and technological developments.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Recital 26 further states:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;The principles of data protection should therefore not apply to anonymous information, namely information which does not relate to an identified or identifiable natural person or to personal data rendered anonymous in such a manner that the data subject is not or no longer identifiable.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The inquiry at Step 1 therefore focuses on whether individuals could realistically be identified in practice by reference to means reasonably likely to be used, rather than on hypothetical or speculative possibilities of identification.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_9">
+	    <content>
+	      <p style="text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Step 2: Article 6(1)(f) UK GDPR </span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_72">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Where information constitutes personal data for the purposes of Step 1, it is necessary at Step 2 to consider whether disclosure would be lawful under Article 6 UK GDPR.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In the FOIA context, the lawful basis most commonly relied upon is Article 6(1)(f), which permits processing where:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The application of Article 6(1)(f) involves a structured assessment comprising three stages:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua';color:#000000">identification of the legitimate interest or interests relied upon;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.25in">2.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua';color:#000000">consideration of whether disclosure is reasonably necessary to achieve those interests; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.25in">3.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua';color:#000000">a balancing exercise weighing those interests against the rights and interests of the affected data subjects.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">If reasonable necessity is not established, the balancing exercise does not arise.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_1_10">
+	    <content>
+	      <p style="text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Protection of personal data in information rights cases</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_75">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">It is well established that there is no general presumption that transparency overrides privacy where personal data is concerned. The importance of data protection has been repeatedly emphasised in information rights jurisprudence, reflecting the principle that the protection of personal data is a fundamental right.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Those considerations, however, arise only where the information in question constitutes personal data. Where information is properly characterised as anonymous within the meaning of Recital 26, section 40(2) FOIA is not engaged and the data-protection principles do not apply.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_11">
+	    <content>
+	      <p style="text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Anonymisation and the &#8220;motivated intruder&#8221; concept</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_77">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In cases involving anonymised or aggregated information, the Commissioner and the Tribunal have frequently referred to the concept described as the &#8220;motivated intruder&#8221;. This is not a statutory test, but an analytical tool used to assist in the application of Recital 26.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The motivated intruder is commonly understood as a reasonably competent and determined member of the public, with access to information in the public domain and the ability to draw inferences and to cross-reference information. The concept does not assume specialist technical expertise, insider access, unlawfully obtained information, or criminal conduct.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The purpose of the concept is to assist the Tribunal in assessing whether disclosure would provide a realistic route to identification by reference to means reasonably likely to be used. It does not displace the statutory test set out in the UK GDPR, nor does it permit identifiability to be founded on conjecture or highly contingent factual scenarios.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_12">
+	    <content>
+	      <p style="text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Section 16 FOIA: advice and assistance</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_80">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">80.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Section 16(1) FOIA provides:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;It shall be the duty of a public authority to provide advice and assistance, so far as it would be reasonable to expect the authority to do so, to persons who propose to make, or have made, requests for information to it.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_13">
+	    <content>
+	      <p style="text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE ISSUES</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_81">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">81.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">By way of evidence and submissions we considered a bundle consisting of 234 electronic pages. The Tribunal has considered all of this material carefully but does not consider it necessary to refer to all, or indeed most of it, in this judgement. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">82.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Having regard to the procedural history and the parties&#8217; pleaded cases, the Tribunal considers that the appeal turns on a small number of tightly defined issues which arise sequentially from the DN and the parties&#8217; subsequent pleadings. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">83.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">First, the Tribunal must determine, applying the &#8220;time-slice&#8221; at the date of the Council&#8217;s response (15 November 2024), whether the requested dataset</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">as framed by the request</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">(including the Appellant&#8217;s express k-threshold safeguard and the exclusion of out-of-cohort candidates) constitutes &#8220;personal data&#8221; within section 3(2) DPA 2018, by reason of identifiability.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">84.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Second,</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">only if</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">the information is personal data, the Tribunal must determine whether disclosure would contravene Article 5(1)(a) UK GDPR, by applying the structured Article 6(1)(f) &#8220;legitimate interests&#8221; analysis (legitimate interests; necessity; balancing) - including the parties&#8217; competing submissions on the weight and identification of legitimate interests, the availability of less intrusive means, and the scope and reality of any harm/distress in light of children&#8217;s privacy expectations and the &#8220;disclosure to the world&#8221; character of FOIA disclosure. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">85.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Third, the Tribunal must address the Appellant&#8217;s procedural/adequacy criticisms, in particular whether the Decision Notice&#8217;s concluding invitation to &#8220;remake&#8221; or &#8220;reword&#8221; the request is consistent with a sufficiently reasoned determination and/or engages any duty of advice and assistance under section 16 FOIA in the circumstances.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">86.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">So in summary, the issues for determination are:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(1)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">Whether the requested information, as sought and subject to the Appellant&#8217;s proposed safeguards, constitutes personal data because individuals are identifiable. This is the gateway question for section 40(2).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(2)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">If so, whether disclosure would contravene the first data protection principle, having regard in particular to Article 6(1)(f) UK GDPR. We must apply the structured three-question approach (legitimate interests; necessity; balancing).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(3)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">Whether the decision notice is vitiated by inadequate reasoning and/or a failure to comply with section 16 FOIA.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">DISCUSSION AND FINDINGS</span></heading>
+	  <paragraph eId="lvl_2_1">
+	    <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">A.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Scope</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">87.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We begin by identifying the correct temporal and conceptual frame. The Commissioner relies on the &#8220;time slice&#8221; principle: the question whether an exemption is engaged falls to be determined as at the date of the public authority&#8217;s response (or, if late, the expiry of the statutory period), applying&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Montague v IC and DIT</span><span style="font-family:'Book Antiqua';color:#000000">&#160;and&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Keighley v IC &amp; BBC</span><span style="font-family:'Book Antiqua';color:#000000">. The Commissioner states expressly that, on this footing, the relevant date here is&#160;15 November</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua';color:#000000">2024, being the date of the Council&#8217;s response.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">88.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We accept that approach. Our task is therefore to decide whether, as of 15 November 2024, the Council was entitled to refuse the request by reliance on section 40(2) FOIA.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">89.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">A further threshold point is the Commissioner&#8217;s statement that although the Appellant argues that suitable redactions can anonymise the data, the Commissioner &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">must consider whether the council was correct to apply section 40(2) to the information which was actually requested</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;, because the council &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">is required to respond to the request that was made; it is not required to work out what information, similar to that requested, would not be personal data.&#8221;</span><span style="font-family:'Book Antiqua';color:#000000">&#160;. The Commissioner therefore frames the issue as whether &#8220;the information, as requested&#8221; is exempt under section 40(2).&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_90">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">90.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner is correct as a matter of principle that a public authority is ordinarily required to answer the request made and is not obliged to devise alternative formulations.&#160; However, that principle does not assist the Commissioner in the way the DN suggests, because the Appellant&#8217;s request&#160;itself expressly stipulated a key redaction&#8212;excluding any results where fewer than five candidates share the same birth date.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">91.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This is not a case where the Appellant is asking the Commissioner (or the Council) to imagine a different request. The &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">request as actually requested</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; already incorporates anonymisation. The Commissioner&#8217;s framing risks treating the request as if it sought unredacted individual-level DOB and score data. It did not.&#160; The request, as recorded in the DN and in the Council correspondence, expressly included safeguards: exclusion of results where fewer than five children shared a birth date, and a request to redact any results outside the normal cohort age range (and provide a count of those removed).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">92.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This point is central because the Step 1 identifiability assessment must be performed on the dataset&#160;as disclosed under the request, i.e. including the built-in k-threshold safeguard. The Appellant makes this criticism repeatedly in the appeal materials.&#160; </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">93.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Accordingly, the &#8220;request as made&#8221; includes (and must be analysed by reference to) those safeguards. It is not a case where the Tribunal is being asked to invent a different request; the Appellant built anonymisation features into the request itself.&#160; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">B. Issue 1 (Step 1): does the requested information constitute &#8220;personal data&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_2_2">
+	    <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">i.</num>
+	    <content>
+	      <p style="text-indent:1in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s Step 1 reasoning and &#8220;scenarios&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_94">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">94.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On Step 1, the Commissioner&#8217;s conclusion is that the information falls within the definition of personal data because &#8220;there are scenarios in which it is likely that individuals could be identified&#8221; from the information requested.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_95">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">95.</num>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner gives two principal examples.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_96">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">96.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">First, where a child has shared their individual score on one part of the test with another child or a third-party parent who also knows the child&#8217;s date of birth: if the combination of birth date and that known score is unique, the third-party could identify the child within the dataset and then learn the scores in the other parts of the test. The Commissioner states he is satisfied that if the combination is unique, the child would be identifiable.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_97">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">97.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Second, where a child has told a third-party parent their score for one part of the test and that score is unique (particularly because it is very high or very low): the child would be identifiable to that parent within the dataset and the other scores and date of birth would then be relatable to that child.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_98">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">98.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner then concludes that the requested information, combined with existing knowledge held by some individuals as described, would allow individual children to be identified, and therefore the information falls within the definition of personal data.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_99">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">99.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s Response expands the Step 1 case by emphasising the Council&#8217;s internal review figures: &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">when combining standardised, raw scores and dates of birth, 16369 of the 16388 permutations occur so infrequently that they fall below the threshold of 5 or less&#8230; 12500 of the permutations are completely unique within the dataset</span><span style="font-family:'Book Antiqua';color:#000000">.&#8221;&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_100">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">100.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner submits that friends/classmates/family &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">are likely to know some of the requested information</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; (DOB; and some scores disclosed &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">in part or in full</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;), and that it is &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">reasonably likely</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; that at least one member of the public could correctly identify a child from the dataset and learn something new.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_101">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">101.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner further submits that&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Spivack</span><span style="font-family:'Book Antiqua';color:#000000">&#160;does not assist the Appellant because the circumstances differ: in&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Spivack</span><span style="font-family:'Book Antiqua';color:#000000">&#160;there were &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">a variety of possible reasons</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; why a person might appear in the data, whereas here there is &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">no other reason</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; for a candidate to appear, save that they took the Kent Test.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_102">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">102.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner adds a practical submission: it would not be possible to disclose in anonymised form with redactions for all personal data because the Council would not know what information has been &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">volunteered</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; by candidates/parents; ensuring no child was identifiable &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">would be extremely difficult</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;; and given the special protection for children&#8217;s personal data, the Commissioner was right to &#8220;err on the side of caution.&#8221;&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_3">
+	    <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(ii)</num>
+	    <content>
+	      <p style="margin-left:0.11in;text-indent:0.79in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The Appellant&#8217;s &#8216;Step 1&#8217; submissions</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_103">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">103.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant frames Step 1 as a question of identifiability under the &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">motivated intruder</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; approach and relies heavily on&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Lincolnshire</span><span style="font-family:'Book Antiqua';color:#000000">&#160;as a close comparator. He submits the requested information (anonymised results plus dates of birth) is &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">almost identical</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; to&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Lincolnshire</span><span style="font-family:'Book Antiqua';color:#000000">, where section 40(2) was held not to be engaged; he directs attention to paragraphs 57&#8211;69 of that decision on section 40.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_104">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">104.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant identifies differences: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Kent&#8217;s cohort is far larger&#8212;around&#160;16,446&#160;candidates (he contrasts </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Lincolnshire</span><span style="font-family:'Book Antiqua';color:#000000">&#8217;s 3,860); </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Lincolnshire</span><span style="font-family:'Book Antiqua';color:#000000"> involved week-of-birth aggregation and does not decide that full DOB would lead to identification;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Kent includes 3 subject components, including Mathematics. This difference does not bear on the identifiability analysis at Step 1, but is relied upon by the Appellant at Step 2 when addressing necessity. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_105">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">105.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">He relies on &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">k-anonymisation</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; (including ICO anonymisation guidance), noting the NHS standard for &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">strong anonymisation</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; uses k=5; he says his request adopted that standard by excluding dates shared by fewer than five candidates.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_106">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">106.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant quantifies the cohort logic: births in the relevant period are shared by about&#160;45 candidates&#160;per date on average, and out-of-cohort candidates (who might be unique) can be removed.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_107">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">107.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">He attacks the Commissioner&#8217;s &#8220;scenario&#8221; as paradoxical and improbable: it depends on a candidate voluntarily disclosing&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">part</span><span style="font-family:'Book Antiqua';color:#000000">&#160;of their result to a close associate but simultaneously not wishing that associate to know their&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">full</span><span style="font-family:'Book Antiqua';color:#000000">&#160;results; and it depends on partial results being unique. Even if such a scenario arose, he submits, the disclosure leading to identification would be the disclosure made by the data subject themselves.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_108">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">108.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant submits that, if the Commissioner&#8217;s reasoning were applied generally, it would prevent publication of any anonymised statistical figures derived from personal data, because voluntary disclosure could always occur.&#160;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(iii)</num>
+	      <content>
+		<p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The legal test</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_109">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">109.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s Response sets out the legal framework in some detail, including Recital 26 GDPR; the Article 29 Working Party Opinion warning that mere hypothetical possibility is not enough; the ICO &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">motivated intruder</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; guidance;&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Magherafelt</span><span style="font-family:'Book Antiqua';color:#000000">,&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Miller </span><span style="font-family:'Book Antiqua';color:#000000">and&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Morton</span><span style="font-family:'Book Antiqua';color:#000000">; and the CJEU&#8217;s statement in </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Breyer </span><span style="font-family:'Book Antiqua';color:#000000">that the risk of identification must &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">in reality&#8230; be insignificant</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; to be treated as anonymous.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_110">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">110.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner further cites the FTT and UT decisions in&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Spivack</span><span style="font-family:'Book Antiqua';color:#000000">&#160;for the propositions that identification requires a &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">degree of certainty</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;, that an individual must be distinguished from others, and that an educated guess is insufficient.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_111">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">111.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We accept those legal propositions. They provide the correct frame for our analysis.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(iv)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Does the Commissioner&#8217;s scenario satisfy the legal threshold?</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_112">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">112.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s Step 1 conclusion rests on a series of &#8220;scenarios&#8221; involving a third-party parent (or another child) who already knows both (i) a candidate&#8217;s date of birth and (ii) one score, or partial score.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_113">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">113.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">That scenario does not, on its face, involve a motivated intruder operating otherwise than by reference to relationship-based or insider knowledge. Rather, it presupposes relationship-based knowledge held by a parent or child, which is a form of pre-existing knowledge of the kind acknowledged in the Commissioner&#8217;s own anonymisation guidance as sometimes capable of bearing on identifiability.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_114">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">114.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The correct question, however, remains whether&#8212;treating the disclosure as one made under FOIA to the public at large&#8212;individual children would be identifiable, having regard to all means reasonably likely to be used.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_115">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">115.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">In addressing that question, the Tribunal has had regard to the &#8220;motivated intruder&#8221; concept as set out in ICO guidance. The motivated intruder is assumed to be a reasonably competent and determined member of the public, with access to information in the public domain and the ability to cross-reference such material and draw inferences from it. They are not assumed to possess specialist expertise, insider or relationship-specific knowledge, or to engage in unlawful activity. The issue is whether disclosure, when combined with information reasonably available to the public, would enable identification of individuals or otherwise reveal personal data.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_116">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">116.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We accept, as a general proposition, that identifiability can sometimes arise, in some circumstances, where a person or small group already knows a great deal about another individual.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_117">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">117.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">However, the Commissioner must still demonstrate that the disclosed information allows one individual to be distinguished from others through a reliable connection, as opposed to speculative or conjectural inference.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_118">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">118.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We are not satisfied that the Commissioner has done so here, for the following reasons.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_119">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">119.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">First, the Appellant&#8217;s request incorporates a structural safeguard, namely redaction where fewer than five candidates share a date of birth. This removes the small-cohort or outlier cases which would most obviously present a risk of singling out.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_120">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">120.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Secondly, the Commissioner&#8217;s scenarios depend upon a third-party having advance knowledge of both an individual&#8217;s date of birth and a unique score. Even if that premise is accepted in some cases,</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Spivack</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">requires the Tribunal to assess whether disclosure enables identification through a reliable and meaningful connection, not whether identification could arise as a matter of possibility in a limited and highly contingent scenario.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_121">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">121.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Thirdly, the Commissioner&#8217;s analysis does not engage with the dilution effect arising from cohort size. The Appellant&#8217;s evidence and submissions proceed on the basis that approximately 45 candidates share any given date of birth within the relevant cohort.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_122">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">122.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">That point is not merely rhetorical. It means that date of birth, even if known, does not of itself single out an individual. The Commissioner&#8217;s analysis therefore turns on the asserted uniqueness of scores or combinations of scores, rather than date of birth.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_123">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">123.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span class="Emphasis" style="font-style:normal;font-family:'Book Antiqua';color:#000000">The effect of the request&#8217;s stipulated safeguards is that the disclosed dataset would be materially constrained. In particular, any date of birth shared by fewer than five candidates would be removed, and any candidates falling outside the normal cohort age range would be excluded altogether. The disclosure would therefore not include rare or extreme values, nor would it reveal individual-level dates of birth capable of singling out candidates by reference to age. These features of the request are not peripheral: they define the information that would in fact be disclosed and therefore form part of the proper foundation for the identifiability assessment at Step</span><span class="Emphasis" style="font-style:normal;color:#000000">&#8239;</span><span class="Emphasis" style="font-style:normal;font-family:'Book Antiqua';color:#000000">1.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_124">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">124.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span class="Emphasis" style="font-style:normal;font-family:'Book Antiqua';color:#000000">As a consequence of the request being framed in this way, the information to be disclosed would not include full dates of birth operating as quasi-identifiers. Rather, any dates of birth that might otherwise be unique or reveal outliers would be removed by operation of the request&#8217;s own safeguards. The identifiability analysis at Step</span><span class="Emphasis" style="font-style:normal;color:#000000">&#8239;</span><span class="Emphasis" style="font-style:normal;font-family:'Book Antiqua';color:#000000">1 must therefore proceed on the basis of a dataset from which the most powerful linkage variables have already been stripped out, and not by reference to a hypothetical disclosure of raw or unconstrained personal attributes.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_125">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">125.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span class="Emphasis" style="font-style:normal;font-family:'Book Antiqua';color:#000000">Against that background, we turn to the Commissioner&#8217;s reliance on the proposition that certain examination scores are unique and that this uniqueness is sufficient, of itself, to render the corresponding individuals identifiable. We do not accept that submission. The fact that a particular score is unique within a cohort establishes only that one candidate achieved that score; it does not, without more, provide a realistic or reliable means by which that candidate could be identified in practice. In the absence of dates of birth or other quasi-identifiers, the Commissioner&#8217;s scenarios depend either upon voluntary self-disclosure by the candidate or relationship-specific prior knowledge held by parents, peers or others. Such pathways do not amount to &#8216;means reasonably likely to be used&#8217; for the purposes of Recital</span><span class="Emphasis" style="font-style:normal;color:#000000">&#8239;</span><span class="Emphasis" style="font-style:normal;font-family:'Book Antiqua';color:#000000">26, nor do they demonstrate that identification would arise as a consequence of the disclosure itself.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_126">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">126.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Fourthly, the Commissioner&#8217;s reliance on &#8220;uniqueness&#8221;, derived from the permutations figures, is misplaced if treated as determinative. The mere fact that a combination of variables is unique within a dataset does not of itself render the data identifiable. What matters is whether there exists a realistic and reliable route by which that unique combination can be connected to an identified individual in the world outside the dataset.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_127">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">127.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The route relied upon by the Commissioner is said to lie in prior knowledge held by some parents or children, namely a date of birth together with one score. However, the Commissioner does not demonstrate that such prior knowledge, when combined with the disclosed dataset and taking account of the safeguards in place, would enable identification by way of a reliable connection. At its highest, the case advanced establishes only the possibility of inference in a limited and contingent set of circumstances, rather than a connection sufficient to render the data personal.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_128">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">128.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">For completeness, the Tribunal emphasises that it has reached its conclusions on the basis of its own assessment of the evidence and applicable legal principles. In referring to</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Spivack v Information Commissioner</span><span style="font-family:'Book Antiqua';color:#000000">, the Tribunal recognises that it is a decision of the First-tier Tribunal and is not binding or authoritative. It is relied upon only as a persuasive illustration of the correct analytical approach, namely that identifiability depends upon the existence of a reliable connection between the data and an individual, rather than the mere possibility of inference in hypothetical circumstances.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_129">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">129.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Fifthly, the Commissioner&#8217;s formulation that &#8220;at least one person could identify at least one candidate&#8221; is, as a general proposition, capable of being correct in some datasets.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_130">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">130.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">However, in this dataset, the Commissioner does not demonstrate that such identification is reasonably likely in reality once the request&#8217;s own anonymisation measures are applied, rather than amounting to a mere hypothetical possibility of the kind cautioned against by Recital 26 and Opinion 4/2007.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(v)</num>
+	      <content>
+		<p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s &#8220;difficulty of redaction&#8221; and &#8220;err on the side of caution&#8221; point</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_131">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">131.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner submits that effective redaction is &#8220;extremely difficult&#8221; because the Council cannot know what information individual candidates or parents may have volunteered to others and therefore cannot know what must be redacted in order to prevent identification.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_132">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">132.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We accept that absolute or perfect anonymity can rarely be guaranteed, particularly in the context of large or complex datasets.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_133">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">133.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">However, the applicable legal standard is not the elimination of all conceivable risk. The question is whether, considering all means reasonably likely to be used, identification is</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">realistic rather than hypothetical or speculative.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_134">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">134.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Properly analysed, the Commissioner&#8217;s &#8220;volunteered information&#8221; point concerns the consequences of choices made by data subjects themselves, or by their parents, to disclose information to others.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_135">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">135.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">That is a relevant contextual consideration, but it cannot, without more, convert information that is otherwise anonymous into personal data merely because a data subject may choose to render themselves identifiable to another individual. As the Appellant submits, FOIA identifiability cannot turn on the possibility of voluntary self-disclosure by those to whom the data relates.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_136">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">136.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Put another way, the Commissioner&#8217;s approach risks collapsing into the proposition that anonymisation fails whenever a data subject might share one or more attributes with another person. That formulation is too broad and would sit uneasily with the concept of anonymous data expressly recognised in Recital 26.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_137">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">137.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Accordingly, whilst we accept that the Council must proceed responsibly and with appropriate caution, the Commissioner&#8217;s reliance on an obligation to &#8220;err on the side of caution&#8221; does not bridge the analytical gap. It does not demonstrate that, once the request&#8217;s own safeguards are applied, identification in practice is realistic, as opposed to resting on conjecture or voluntary self-disclosure.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_4">
+	    <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(vi)</num>
+	    <content>
+	      <p style="margin-left:0.11in;text-indent:0.79in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s distinction of Spivack</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_138">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">138.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner distinguishes&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Spivack</span><span style="font-family:'Book Antiqua';color:#000000">&#160;by saying that, in that case, there were multiple reasons why an individual might appear in the dataset, whereas here the only reason is that the candidate sat the Kent Test.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_139">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">139.</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We accept that the contexts differ.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_140">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">140.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">But the core proposition in&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Spivack</span><span style="font-family:'Book Antiqua';color:#000000">&#160;is that identification requires more than an educated guess: the information must allow one individual to be distinguished from others by way of a reliable connection. Being merely in a position to guess correctly, in the absence of such a connection, is insufficient.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_141">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">141.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s distinction does not answer the Appellant&#8217;s point that, with DOB shared by many candidates and with safeguards excluding low-k dates, the dataset does not permit reliable singling out.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_142">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">142.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We therefore do not consider the&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Spivack</span><span style="font-family:'Book Antiqua';color:#000000">&#160;distinction sufficient to uphold the Step 1 conclusion.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_143">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">143.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We reiterate, in relying on</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Spivack v Information Commissioner</span><span style="font-family:'Book Antiqua';color:#000000">, the Tribunal is mindful that it is a decision of the First-tier Tribunal and is not binding or authoritative. The Tribunal does not treat</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Spivack</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">as laying down a freestanding legal test. Rather, it is relied upon for the assistance of its reasoning, insofar as it reflects and illustrates established principles applicable to identifiability, including the distinction between identification by way of a reliable connection and identification resting on conjecture or educated guesswork. The relevance of</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Spivack</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">in the present context lies not in its factual matrix, but in its articulation of that analytical distinction, which the Tribunal considers of general application.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_5">
+	    <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(vi)</num>
+	    <content>
+	      <p style="margin-left:0.11in;text-indent:0.79in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Engagement with Lincolnshire</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_144">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">144.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant relies strongly on&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Lincolnshire</span><span style="font-family:'Book Antiqua';color:#000000">&#160;as a near-match comparator and complains that the DN contains no reference to it, despite it having been drawn to the Commissioner&#8217;s attention.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_145">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">145.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s documents do not demonstrate a reasoned explanation of why&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Lincolnshire</span><span style="font-family:'Book Antiqua';color:#000000">&#160;is distinguishable on the identifiability issue (as opposed to merely stating the legal test).&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_146">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">146.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We accept that FTT decisions are not binding. But where a materially similar Tribunal decision has been squarely relied upon as part of a party&#8217;s submissions, the absence of meaningful engagement with that decision &#8211; beyond a recitation of the applicable legal test &#8211; may give rise to a concern as to the adequacy of reasoning. That omission forms part of the Appellant&#8217;s wider criticism of the adequacy of the DN&#8217;s reasoning. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_147">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">147.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Before drawing our conclusions on Step 1, we make the following clarification as to the legal standard we have applied. For the avoidance of doubt, we emphasise that our conclusion on identifiability is not reached by applying an unduly exacting or unrealistic threshold. We do not require proof of actual identification, nor do we treat the absence of certainty as determinative. The correct test, derived from Recital 26 UK GDPR and the authorities cited above, is whether identification would be reasonably likely in practice by reference to means reasonably likely to be used, rather than resting on speculative, contingent or purely theoretical possibilities. We have approached that question on the footing that identifiability may, in some circumstances, arise even where the risk is confined to a small subset of cases or a limited audience. However, having assessed the dataset as it would in fact be disclosed under the request &#8212; including the express k-threshold safeguard and the exclusion of out-of-cohort candidates &#8212; we are not satisfied that the pathways relied upon by the Commissioner amount to more than hypothetical scenarios dependent on voluntary disclosures or relationship-specific prior knowledge. In our judgment, such scenarios do not establish a realistic or reliable route by which individuals would be identified as a consequence of the disclosure itself. Even adopting the Commissioner&#8217;s formulation of &#8220;reasonable likelihood&#8221;, the risk of identification here remains too remote, once properly analysed, to render the information personal data within the meaning of Article 4(1) UK GDPR and Recital 26.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_6">
+	    <num style="font-weight:bold;font-family:'Segoe UI';font-style:italic">(vii)</num>
+	    <content>
+	      <p class="Heading3" style="margin-left:0.11in;text-indent:0.79in"><span style="font-weight:bold;font-family:'Segoe UI';color:#000000">Conclusion on Step 1 </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_148">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">148.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Drawing the analysis together, the Tribunal is not satisfied that the Commissioner has demonstrated that disclosure of the requested information, treated as disclosure under FOIA to the public at large and subject to the request&#8217;s own anonymisation measures, would make it possible in practice to identify living individuals by reference to means reasonably likely to be used. The Commissioner has not identified any objective mechanism inherent in the dataset that would enable members of the public to single out individuals without recourse to conjecture or external contingencies.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_149">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">149.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">In particular, the scenarios advanced depend upon the existence of additional information held by specific parents or children, or upon voluntary self-disclosure by the data subjects themselves. Such possibilities do not constitute means reasonably likely to be used by the public at large, nor do they establish a realistic pathway by which the data disclosed could be linked to identified individuals as a consequence of the disclosure itself.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_150">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">150.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Assessing the matter objectively and having regard to the safeguards incorporated into the request, the Tribunal is not persuaded that disclosure would render individuals identifiable in the sense required by Recital 26. What remains are theoretical or incidental possibilities of identification, rather than identification arising from the data through means reasonably likely to be employed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_151">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">151.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Section 40(2) is therefore not engaged. The information disclosed, subject to the request&#8217;s built-in safeguards, constitutes anonymous information rather than personal data.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">C. Issue 2 (Step 2): Article 6(1)(f) &#8212; lawful processing</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_152">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">152.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">In light of our conclusion on Step 1, Step 2 does not strictly arise. However, Article 6(1)(f) was fully argued before us, and the Commissioner&#8217;s DN proceeds on that basis. We therefore address it in the alternative, in case we are wrong in our conclusion on Step 1.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_153">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">153.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner identifies Article 6(1)(f) as the relevant lawful basis for processing and correctly sets out the applicable three-stage test: (i) the existence of legitimate interests; (ii) necessity; and (iii) the balancing exercise. He further recognises that the necessity limb must be satisfied before the balancing exercise is undertaken.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_154">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">154.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner concludes that legitimate interests exist, framed in terms of transparency and oversight; that disclosure is necessary and that no less intrusive means are available; but that the balancing exercise favours non-disclosure because children would not reasonably expect their dates of birth and test scores to be disclosed to the public at large, and because disclosure could cause distress to affected individuals.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_155">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">155.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">In his Reply, the Appellant challenges the Commissioner&#8217;s analysis of legitimate interests on two grounds.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_156">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">156.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">First, he submits that the Commissioner failed to identify or explore the Appellant&#8217;s legitimate interests during the investigation, such that those interests were articulated in full only on appeal.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_157">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">157.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Secondly, he contends that the Commissioner&#8217;s formulation of the legitimate interests pursued&#8212;described as oversight of school offers and placements&#8212;is factually inapt. He submits that, in Kent, outcomes communicated to parents are essentially pass/fail against the grammar assessment threshold, whereas his interest lies in age standardisation, cohort effects, and fairness, rather than placements as such.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_158">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">158.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant then sets out a detailed legitimate interest case, grounded in research concerning socio-economic disadvantage and age-in-cohort effects, governmental policy statements on disadvantage in selective admissions, and determinations of the Schools Adjudicator indicating that lack of age standardisation may render an admissions test unfair.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_7">
+	    <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(i)</num>
+	    <content>
+	      <p style="text-indent:1in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Legitimate interests</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_159">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">159.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We accept that entitlements under FOIA are applicant- and motive-blind, in the sense that a requester&#8217;s motive is not determinative of the right to information.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_160">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">160.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">However, where Article 6(1)(f) is relied upon, the decision-maker is required to identify the legitimate interests pursued and to weigh them. It is lawful for a decision-maker to identify general transparency as a legitimate interest.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_161">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">161.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">In the present case, however, the Appellant&#8217;s evidence discloses specific and non-trivial legitimate interests (as detailed in the Appellant&#8217;s witness statement and reply in particular), namely independent research into the fairness of admissions testing affecting large cohorts of children, with potential relevance to public policy debates concerning disadvantage and selection.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_162">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">162.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s DN does not engage with those specific interests. On the Appellant&#8217;s unchallenged account, they were not sought from him during the course of the investigation.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_163">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">163.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We consider that omission to be material, given that the Commissioner then proceeded to afford determinative weight to privacy impacts without having articulated or evaluated the legitimate interests at their proper strength.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_8">
+	    <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(ii)</num>
+	    <content>
+	      <p style="text-indent:1in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Necessity</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_164">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">164.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant advances a detailed case on necessity. He explains that the Department for Education does not hold the data sought; the National Pupil Database does not contain it; the 11+ is not regulated by Ofqual; grammar schools and relevant bodies are resistant to data sharing; and that FOIA is therefore the only realistic route to access. He further submits that Kent is uniquely valuable by reason of cohort size and the inclusion of mathematics.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_165">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">165.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">On necessity, while the DN reaches a conclusion in the Appellant&#8217;s favour (necessity is met), it does so without engaging with the Appellant&#8217;s detailed necessity case.&#160;We agree that, on these materials, the &#8220;reasonable necessity&#8221; threshold discussed in&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Goldsmiths</span><span style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">v ICO and the Home Office </span><span style="font-family:'Book Antiqua';color:#000000">would be satisfied. We record that the Appellant&#8217;s necessity evidence materially strengthens the case for disclosure if balancing is required. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_9">
+	    <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(iii)</num>
+	    <content>
+	      <p style="text-indent:1in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The balancing exercise</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_166">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">166.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s balancing analysis is set out at &#167;&#167;39&#8211;47 of the DN. He places weight on the reasonable expectations of privacy; the fact that children would not expect their dates of birth and test scores to be disclosed to the public at large; the potential for distress to identifiable children, particularly those with poor results; the breadth of FOIA disclosure as compared with voluntary sharing with friends or family; and concludes that the legitimate interests identified do not outweigh the rights and interests of the children concerned.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_167">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">167.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant responds that the &#8220;whole world&#8221; framing is overstated. He submits that the only plausible route to identification arises where a child has voluntarily disclosed partial information to a close associate, and that the realistic harm in such cases is limited to the possibility that the child may reveal more than intended to that one individual.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_168">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">168.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We accept as a general proposition that children reasonably expect their test results not to be published in identifying form, and that the rights and freedoms of child data subjects&#8217; merit particular protection.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_169">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">169.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We agree with the Commissioner that disclosure under FOIA is disclosure to the public at large as a matter of legal character, as confirmed in&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Office of Government Commerce v Information Commissioner</span><span style="font-family:'Book Antiqua';color:#000000">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_170">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">170.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">However, the central question in the balancing exercise is not merely the theoretical breadth of disclosure, but its practical impact. Where information is anonymised such that identification is not realistically enabled, the weight to be attached to the &#8220;whole world&#8221; character of FOIA disclosure correspondingly diminishes, because the public at large would be unable to connect the data to identified individuals.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_171">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">171.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">In that respect, the Commissioner&#8217;s balancing analysis is contingent upon the conclusion at Step 1 that identifiable personal data would be disclosed. As we do not accept that conclusion for the reasons set out above, the analysis of distress and reasonable expectations is substantially weakened.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_172">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">172.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Even if we were wrong on Step 1, we would observe that the Commissioner&#8217;s balancing analysis does not engage with the request&#8217;s own safeguards, including the k&#8805;5 threshold and the exclusion of outliers, which materially reduce the likelihood that any child could be identified in a manner giving rise to distress or unwarranted intrusion.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_173">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">173.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The DN&#8217;s reasoning therefore overstates harm by treating a narrow, contingent inference scenario as tantamount to publication of a child&#8217;s identifiable results to the world. We find that this is not justified on the materials.&#160; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-weight:bold;font-family:'Book Antiqua'">(iv)</num>
+	      <content>
+		<p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Common Services Agency v Scottish Information Commissioner</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;and&#160;</span><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Blake v Information Commissioner </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_174">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">174.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner reminds the Tribunal that there is no presumption that transparency overrides privacy, relying on&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Common Services Agency v Scottish Information Commissioner</span><span style="font-family:'Book Antiqua';color:#000000">&#160;and&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Blake v Information Commissioner</span><span style="font-family:'Book Antiqua';color:#000000">&#160;for the high level of protection afforded to personal data.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_175">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">175.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">We accept those propositions.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_176">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">176.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">They do not, however, determine the present appeal. Both authorities concern circumstances in which personal data was in issue. Where information can properly be disclosed in anonymised form such that section 40(2) is not engaged, those authorities do not mandate non-disclosure.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.11in;text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">D. Issue 3: Section 16 FOIA and adequacy of reasoning</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_177">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">177.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Given our conclusions on the substantive issues above, it is not necessary to reach a determination on the Appellant&#8217;s section 16 FOIA ground. That issue does not affect the outcome of the appeal, which turns on whether section 40(2) is engaged. We therefore express no concluded view on section 16.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Conclusion</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_178">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">178.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">For the reasons set out above, we conclude that the Commissioner&#8217;s DN is not in accordance with the law. The Decision Notice proceeds on the basis that the requested dataset, notwithstanding its built-in safeguards, constitutes personal data, without adequately demonstrating that disclosure would enable identification by reference to means reasonably likely to be used. It then undertakes a balancing exercise under section 40(2) FOIA and Article 6 which is dependent on that initial assessment.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_179">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">179.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">It follows that section 40(2) FOIA is not engaged, and the appeal is therefore allowed.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Apple Chancery'">Judge Kiai </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-05-19" refersTo="#decision" style="font-family:'Apple Chancery'">19 May 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

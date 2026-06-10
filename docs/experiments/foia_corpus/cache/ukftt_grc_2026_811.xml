@@ -1,0 +1,1905 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/811"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/811"/>
+	  <FRBRdate date="2026-06-04" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="811"/>
+	  <FRBRname value="G Boswell v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/811"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/811"/>
+	  <FRBRdate date="2026-06-04" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/811/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/811/data.xml"/>
+	  <FRBRdate date="2026-06-04T13:55:28" name="transform"/>
+	  <FRBRdate date="2026-06-04T14:39:47" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-08" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-05-27" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-04" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="g-boswell" href="" showAs="G BOSWELL"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="The Information commissioner"/>
+	<TLCPerson eId="office-for-national-statistics" href="" showAs="OFFICE FOR NATIONAL STATISTICS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>811</uk:number>
+	<uk:cite>[2026] UKFTT 811 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.1</uk:parser>
+	<uk:hash>911c53f819224b9200e5d16c082e25e2c65cdffa3420087a6d2b7588748dda6f</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { margin-left: 0.58in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation2 { margin-left: 1in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation3 { margin-left: 1.25in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .EndnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .BalloonText { text-align: justify; font-size: 9pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .Default { font-family: 'Calibri, sans-serif'; font-size: 12pt; color: #000000; }
+#judgment .msonormal0 { font-size: 12pt; }
+#judgment .EndnoteTextChar { font-family: 'Book Antiqua'; }
+#judgment .EndnoteReference { vertical-align: super; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .BalloonTextChar { font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .normaltextrun { }
+#judgment .s5 { font-style: normal; font-weight: normal; font-family: QGGZBC+Calibri; font-size: 11pt; color: #000000; }
+#judgment .s7 { font-style: normal; font-weight: normal; font-family: Helvetica; font-size: 11pt; color: #000000; }
+#judgment .s1 { font-style: normal; font-weight: bold; font-family: ERFAPA+Calibri-Bold; font-size: 11pt; color: #000000; }
+#judgment .s6 { font-style: normal; font-weight: normal; font-family: QGGZBC+Calibri; font-size: 11pt; color: #000000; }
+#judgment .s2 { font-style: normal; font-weight: bold; font-family: ERFAPA+Calibri-Bold; font-size: 11pt; color: #000000; }
+#judgment .s4 { font-style: normal; font-weight: normal; font-family: Helvetica; font-size: 11pt; color: #000000; }
+#judgment .apple-converted-space { }
+#judgment .NormalWebChar { font-size: 12pt; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00811 (GRC)</neutralCitation><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: EA/2023/0178 (remitted)</span></p>
+      <p style="text-align:justify"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal</courtType></p>
+      <p style="text-align:justify"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="text-align:justify"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua'">Information Rights</docJurisdiction></p>
+      <p class="Style1" style="text-align:right"><span style="color:#000000">Heard: By Cloud Video Platform</span></p>
+      <p class="Style1" style="text-align:right"><span style="color:#000000">Heard on: </span><docDate date="2026-05-08" refersTo="#hearing" style="color:#000000">8 May 2026</docDate></p>
+      <p class="Style1" style="text-align:right"><span style="color:#000000">Decision given on: </span><docDate date="2026-06-04" refersTo="#decision" style="color:#000000">04 June 2026</docDate></p>
+      <p class="Style4">Before</p>
+      <p class="Style5">Judge SOPHIE BUckley</p>
+      <p class="Style5">MEMBER kerry pepperell</p>
+      <p class="Style5">MEMBER naomi matthews</p>
+      <p class="Style4">Between</p>
+      <p class="Style4"><party as="#appellant" refersTo="#g-boswell">G BOSWELL</party></p>
+      <p class="Style6"><role refersTo="#appellant">Appellant</role></p>
+      <p class="Style4">and</p>
+      <blockContainer>
+	<num style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	<p class="Style5" style="margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#the-information-commissioner">The Information commissioner</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	<p class="Style5" style="margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#office-for-national-statistics">OFFICE FOR NATIONAL STATISTICS</party></p>
+      </blockContainer>
+      <p class="Style6"><role refersTo="#respondent">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation:</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the Appellant: In person</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the First Respondent: Did not appear</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the Second Respondent: Did not appear</span></p>
+      <p class="Style1"><span style="color:#000000">Decision: </span><span style="font-weight:normal;color:#000000">The appeal is allowed.</span></p>
+      <p class="Style1"><span style="color:#000000">Substitute decision notice: </span>IC-207287-P1Y3</p>
+      <p class="Style1"><span style="font-weight:normal;color:#000000">Organisation: Office for National Statistics</span></p>
+      <p class="Style1"><span style="font-weight:normal;color:#000000">Complainant: Mr. Gregory Joseph Boswell</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	<p class="Style1" style="margin-left:0.5in"><span style="font-weight:normal">The part of the decision notice dealing with the request made on 25 May 2022 is dealt with in the tribunal&#8217;s decision in FT/EA/2025/0288.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	<p class="Style1" style="margin-left:0.5in"><span style="font-weight:normal">The requests made by the complainant on 27 May 2022 and 1 June 2022 were requests for information within the meaning of section 1(1) FOIA.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	<p class="Style1" style="margin-left:0.5in"><span style="font-weight:normal">The requests for information made by the complainant on 27 May 2022 and 1 June 2022 were not vexatious. The</span><span/><span style="font-weight:normal">public authority was not entitled to rely on section 14(1) of the Freedom of Information Act 2000 (FOIA) to refuse to comply with the request.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The tribunal does not require the public authority to take any steps in relation to the request made on 1 June 2022. </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The public authority must take the following step in relation to the request made on 27 May 2022: </span></p>
+      </blockContainer>
+      <p style="text-align:justify;margin-left:0.69in"><span style="font-family:'Book Antiqua'">Issue to the complainant a fresh response to the request made on 27 May 2022 which does not rely on section 14(1) FOIA. </span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The public authority must take this step within 35 calendar days of the date of this decision. </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	<p class="Style1" style="margin-left:0.5in"><span style="font-weight:normal">Any failure to abide by the terms of the tribunal&#8217;s substituted decision notice may amount to contempt which may, on application, be certified to the Upper Tribunal. </span></p>
+      </blockContainer>
+      <p><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="margin-left:-0.2in"><span style="font-weight:bold;font-family:'Book Antiqua'">Introduction </span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">This is a remitted decision. It should be read in conjunction with the initial decision of this panel in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Boswell v Information Commissioner and Office for National Statistics</span><span style="font-weight:bold"/>[2024] UKFTT 00779 (GRC) promulgated on 4 September 2024 (&#8216;the initial decision&#8217;) and the decision of the Upper Tribunal reported at <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/99" uk:canonical="[2025] UKUT 99 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKUT 99 (AAC)</ref>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">2.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.25in">This is an appeal against the Commissioner&#8217;s decision notice IC-207287-P1Y3 of 28 February 2023 which held that the Office for National Statistics (ONS) was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (FOIA) in relation to three requests: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.09in;text-indent:-0.3in">2.1.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.09in;text-indent:0.07in">A request made by Mr. Boswell on 25 May 2022 for certain emails, referred to in this decision as &#8216;DPR 188&#8217;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.09in;text-indent:-0.3in">2.2.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.09in;text-indent:0.07in">A request made by Mr. Boswell on 27 May 2022 for a video, minutes and attendee list of a meeting referred to in this decision as &#8216;DPR 189&#8217;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.09in;text-indent:-0.3in">2.3.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.09in;text-indent:0.07in">A request made by Mr. Boswell on 1 June 2022 for further emails, referred to in this decision as &#8216;DPR 190&#8217;. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">This decision concerns DPR 189 and DPR 190, the two requests for information made by Mr Boswell on 27 May and 1 June 2022. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In the initial decision we decided that PNS was not entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> in relation to a request known as DPR 188 and ordered PNS to provide a fresh response. That finding was not disturbed on appeal. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">We heard appeal number FT/EA/2025/0288, which arose out of the fresh response to DPR 188, at the same time as this appeal. A separate decision has been issued in relation to FT/EA/2025/0288.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In the initial decision we also held, for a number of reasons, that we had no appeal before us in relation to the Commissioner&#8217;s decision in DPR 189 and 190. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Upper Tribunal held, in essence, that we were wrong to conclude in the earlier decision that we could not also deal with the requests DPR 189 and 190. The appeal was remitted to the same tribunal to determine two specific issues. The findings made in the rest of the initial decision were unchallenged on appeal. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">One of the issues that was remitted was whether Mr Boswell should be permitted to amend his appeal to include a challenge to PNS&#8217;s determination that DPR 189 and 190 were vexatious. That issue has already been determined as preliminary issue in Mr Boswell&#8217;s favour and the appeal has been amended to allow that challenge. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">9.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.25in">The remaining issues are: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.09in;text-indent:-0.3in">9.1.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.09in;text-indent:0.07in">Whether requests DPR-189 and DPR-190 were requests within the meaning of section 1(1) FOIA?</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.09in;text-indent:-0.3in">9.2.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.09in;text-indent:0.07in">Was ONS entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> to refuse to comply with DPR-189 and DPR-190?</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In relation to the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> issue, PNS is &#8216;neutral&#8217; and has played no part in the remitted appeal. Further, ONS&#8217; position, as set out in an email to Mr Boswell dated 7 November 2025 to Mr Boswell is that he has now been provided via related employment tribunal proceedings with all the material held within the scope of DPR 190. It has informed Mr. Boswell that ONS holds no information within the scope of DPR 189. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">This appeal was heard at the same time as a related appeal (FT/EA/2025/0288). We took account of the same evidence when determining both appeals but we have issued separate decisions. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="margin-left:-0.2in"><span style="font-weight:bold;font-family:'Book Antiqua'">Employment tribunal proceedings</span></heading>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.45in">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">There are ongoing employment tribunal proceedings brought by Mr. Boswell against ONS which arise out of the same factual background as this appeal. The factual matters set out under &#8216;background&#8217; in the previous decision represent the factual context as this tribunal understood it based on the documentation in the bundle. They were not findings of fact made on the balance of probabilities after hearing evidence from relevant witnesses of fact. They will not bind any employment tribunal, which will make its own findings of fact based on the evidence before it. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="margin-left:-0.2in"><span style="font-weight:bold;font-family:'Book Antiqua'">Background to the appeal </span></heading>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.49in">13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">We set out the background to the appeal in detail in the initial decision. Mr. Boswell urged us to make a number of minor corrections and to make further findings, either on the basis of additional evidence produced for this hearing, or on the basis of submissions based on evidence that was before us at the original hearing. It has not been necessary for us to make additional findings in order to determine the appeal. The minor errors highlighted by Mr. Boswell are not material to our decision. On that basis, we adopt the background from the initial decision in full for the purposes of this appeal. We set it out here for the benefit of anyone reading the decision who is not familiar with the proceedings. </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">&#8220;13.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">This appeal arises against the background of a &#8216;Weekly Message&#8217; company-wide email sent by ONS Deputy National Statistician Iain Bell on 8 June 2020, which used certain phrases commonly used in Critical Race Theory, referred to blogs and a Radio 1 Xtra programme that were overtly political and signed off with the words, &#8216;Black Lives Matter&#8217;. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">14.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">We note that Ed Humpherson, Director General for Regulation, in his outcome to Mr. Boswell&#8217;s grievance appeal stated that &#8216;I think [Mr. Boswell] has demonstrated that Iain made a statement that brought into the ONS inappropriate political currents. But that is not the same as it being politically motivated &#8211; i.e. motivated by a desire to achieve the goals of a particular partisan political movement.&#8217; Mr Humpherson raised &#8216;three general concerns&#8217; in that document, one of which was his view that &#8216;the wording and content of Iain Bell&#8217;s original email was unwise&#8217;. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">15.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">A number of employees, including Mr. Boswell on 10 June 2020, sent private emails to Mr. Bell in response. Mr. Boswell received no response to his email. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">16.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 26 June 2020 Mr. Bell held a meeting with some BAME colleagues. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">17.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 2 July 2020 in a company-wide video call Mr. Bell stated: </span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;First off, as I said in my original message, educate ourselves. I was actually quite shocked by some responses to my email which said that there was no racism and they didn't need to educate themselves (was almost the tone). Please, listen to the experiences. Through various materials which are available online, through recommended books in the blogs by Bethan and others, the first thing is just read and educate.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">18.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Mr. Boswell infers that the &#8216;various materials&#8217; and &#8216;recommended books&#8217; are a reference to a reading list that was published on the ONS BAME network and which contained overtly political and radical content. We note that one of the three &#8216;general concerns&#8217; raised by Ed Humpherson, Director General for Regulation, in his outcome to Mr. Boswell&#8217;s grievance appeal was his &#8216;surprise&#8217; at some of the content in the reading list. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">19.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 13 July 2020 Mr. Boswell sent a &#8216;reply all&#8217; email to Mr. Bell&#8217;s Weekly Message of 8 June, in Mr. Boswell&#8217;s words, &#8220;openly criticising him for his breaches of the Civil Service code and arguing for a more liberal approach to antiracism based on treating people as individuals&#8221;. A number of &#8216;reply all&#8217; emails were sent in response. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">20.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">A BAME network meeting was held following this email. The BAME network issued a statement which Mr. Boswell describes as &#8216;condemning [his] &#8220;misunderstanding&#8221; of Black Lives Matter&#8217;. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">21</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 13 July 2020 Mr. Bell sent another Weekly Message, in which he referred again to &#8216;Black Lives Matter&#8217; and stated that &#8216;Any reference to black lives matters is not made as a political statement it is about how we treat people individually and as an organisation&#8217;.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">22.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">The above emails resulted in a number of messages on &#8216;Yammer&#8217;, a messaging and chat software product used by members of staff within ONS. This period of Yammer messages lasted approximately six weeks. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">23.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Also on 13 July 2020 the ONS received a FOI request via WhatDoTheyKnow from a requester (MC) seeking disclosure of the emails set out above. This request is referred to in the decision as &#8216;the MC FOI request&#8217;. The MC FOI request stated: </span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;An e-mail chain was started on 13 July 2020 when a Director signed off an e-mail with the phrase "black lives matter". An employee, whom I believe is a field interviewer, replied to everyone on the distribution list with a diatribe which included questioning whether the murder of George Floyd was racially motivated and also included the phrase "all lives matter". It is also my understanding that other employees also sent e-mails using the "reply to all" function.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">I would like all e-mails involved in this matter to be released. This includes the original e-mail from the Director and any and all replies, including those sent as "reply to all".</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">I would also like to know what, if any, disciplinary action ONS is, or intends to, take against those involved.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">24.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">The request mistakenly gives the date of 13 July 2020 for the &#8216;original&#8217; email from Mr. Bell signed off with the phrase &#8216;Black Lives Matter&#8217;. The original email that was signed &#8216;Black Lives Matter&#8217; was dated 8 June 2020. The ONS assumed that this was an error in the date rather than a request relating to the later email from Iain Bell dated 13 July 2020. They interpreted the scope of the request as including &#8216;all emails involved in the matter&#8217; and searched for reply alls and individual replies to Iain Bell between 8 June and 13 July 2020. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">25.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 19 July 2020 a report on the issue appeared in the Mail on Sunday, quoting from Mr. Bell&#8217;s original email and one of the replies and discussing the issues of the principle of Civil Service neutrality and the political nature of Black Lives Matter. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">26.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 27 July 2020 Mr. Boswell emailed the Head of Internal Communications, Adam Wheeler, noting that some Yammer threads relating to his reply all email of 13 July had been deleted or made private. He stated &#8216;there were some serious &#8211; and I would say bullying &#8211; accusations thrown at me in the course of the discussions. I&#8217;m undecided as to whether to make a complaint, but I&#8217;d appreciate being able to access the evidence&#8230;Is there any chance I could gain access to the threads.&#8217;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">27.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Although Mr. Boswell never received a response to this, it appears that Mr. Wheeler did discuss the matter with &#8216;HR, data protection and legal who agreed that whilst JB was entitled to his own comments, he wasn&#8217;t entitled directly to the comments of other people. HR did advise [Mr Wheeler] that if a request was made through HR, HR would ask him, and he would provide HR with those comments. However he never had a request for that information (from HR).&#8217;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">28.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Also on 27 July 2020 a letter was sent by &#8216;ONS BAME Network allies&#8217; to the ONS Senior Leadership Team to &#8216;convey our concern &#8230;regarding recent PPP email correspondence and Yammer discussions on the topics of BLM and BAME&#8217;. The letter stated: &#8216;Whilst we are not seeking punitive measures on those individuals involved: We would ask the senior leadership team to consider how to ensure the individuals involved understand the consequences and effect of their words and a reminder of the boundaries within which we work.&#8217; The letter stated that it was important to prepare for the event of a similar situation occurring in the future and asked for a response to the question of &#8216;what (if any) action can (and will) be taken against staff who insist on continuing discussions which cause staff distress (claiming right to free speech)&#8217;. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">29.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 13 August 2020, in response to the MC FOI request, the ONS released redacted versions of the June and July Weekly Messages and any &#8216;reply all&#8217; responses with personal data redacted. They withheld any individual emails sent only to Iain Bell relying on section 41. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">30.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 14 August 2020 the Senior Leadership Team replied to the letter from the ONS BAME Network Allies stating that &#8216;We were taken aback by the inappropriate use of emails to debate sensitive issues and are fully aware of the distress caused&#8217;. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">31.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">The letter stated:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;&#8230; we have encouraged a culture of open debate: introducing a range of channels to give colleagues the chance to discuss various issues. We took an active decision to trust our colleagues to use these channels respectfully&#8230; Like you, we were dismayed that this trust was abused by a handful of colleagues&#8230; Following the offensive views shared by some colleagues, we reinforced the boundaries and guidance that are in place.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">We do not moderate Yammer on a daily basis and have urged colleagues (through guidance on the intranet, as well as a recent reminder announcement in the All Company group, and on threads that were the subject of complaints) to raise any concerns about the use of Yammer via news@ons.gov.uk rather than commenting on the chain. This way, we can provide robust support for colleagues and quickly stop these conversations from continuing on the channel.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">We will keep the effectiveness of this process under review and would welcome support from the BAME network in cascading this message to members, so we can take a united front to prevent comments which may cause distress for colleagues.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">32.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Mr. Boswell lodged a grievance on 14 October 2020 effectively complaining that there had been an institutionalisation of Critical Race Theory at the ONS which he complained had led to significant harassment under the Equality Act of liberal anti-racists.  He made nine specific complaints against the ONS BAME network, the Civil Service Race Forum, Mr. Bell, the ONS legal team, those involved in the 13 August FOI release, the internal communications team and various members of staff who he said had used emails or Yammer posts to attack Mr. Boswell&#8217;s character.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">33.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">In the same letter on 14 October 2020 Mr. Boswell made his first subject access request (SAR) for a &#8216;complete copy of his file at employment relations in order to fully understand the nature of the communications surrounding my protest to date.&#8217; This was responded to on 13 November 2020. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">34.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">No further requests were made until just over a year later in December 2021. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">35.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 19 October 2020 in an email to the whole organisation, Iain Diamond, the National Statistician in which he stated as follows: </span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;Recently, I&#8217;ve been made aware of some behaviours from a small number of people that are not reflective of the kind of organisation we want to be &#8211; behaviours that are causing offence and distress to colleagues. Behaviours that I feel have no place at the ONS, in our offices, or on any of our corporate channels, be it email, Reggie, or Yammer.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">We have clear policies in place that govern how we should be using ONS&#8217; corporate communication channels and our responsibilities, both inside and outside of the workplace as Civil Servants, are clearly laid out in the Civil Service Code. Any breaches of these rules will not be tolerated and may result in temporary or permanent loss of access to some channels and possibly disciplinary action.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8230;</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Anyone who has been affected by the behaviour of another colleague should raise their concerns immediately through formal channels, either via your Line Manager, the Speaking Up Framework, or in the case of Reggie or Yammer, through the Internal Communications Team.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">All complaints are taken seriously, and I want to reassure you all that we are taking action where required.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8230;[we] urge everyone to report any behaviours that are not in line with our ambitions and values. We will listen and we will take action.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">36.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 4 March 2021 Mr. Boswell received an outcome to his complaint relating to the reading list that had appeared on the BAME network. This had been reclassified as a whistleblowing complaint and Karen Campbell-White, one of the co-chairs of the BAME network, had been asked to investigate. The conclusions in relation to the reading list complaint were, in essence, that the link came from the Civil Service Race Forum and was considered a trusted source and was removed as soon as it became evident that it had offended a member of staff. Mr. Boswell disputes this outcome for a number of reasons and complains that Ms Campbell-White was, in effect, investigating herself. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">37.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 30 October 2021 a further article appeared in the Mail on Sunday, discussing in detail the reading list published on the ONS BAME network, which had been passed to the Mail on Sunday. The article discusses the reading list in detail, highlights issues in relation to impartiality and includes quotes from a spokesman of the ONS and Toby Young. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">38.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 9 December 2021 Mr. Boswell wrote to HR asking for information. This request was headed &#8216;Request for information from HR specifically&#8217; and began with the sentence &#8216;Can I please get some answers to the following four questions ASAP, or at least a week before my first Resolution Meeting, in order to give me time to prepare&#8217;. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">39.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">This email was passed to Legal Services. Part of it was treated as a SAR (the second SAR). In that part he asked for copies of emails relating to the decision to release his email as part of the FOIA release to MC in August 2020. This was responded to on 12 January 2022. Mr. Boswell also requested copies of three Yammer threads that had been removed and replaced in edited versions in late July/early August 2020. This was treated as a FOI request. It was responded to on 1 April 2022 providing the Yammer threads with personal data redacted. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">40.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">After an investigation by the Home Office professional standards unit and two dispute resolution meetings in December 2021, on 7 January 2022 the ONS gave its decision in relation to Mr. Boswell&#8217;s grievance. The outcome is a ten-page letter which acknowledged some of the issues raised by Mr. Boswell and partially upheld two of the complaints. The ONS did not uphold the other complaints. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">41.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Mr Boswell appealed the grievance outcome on 7 February 2022. Part of that appeal was a complaint of &#8216;ideological harassment of liberal antiracists by Iain Bell&#8217;. This included a complaint about Iain Bell&#8217;s comments in the Your Call session on 2 July 2020 set out above. That appeal also included a complaint of &#8216;ideological harassment of liberal antiracists by [seven named more junior members of staff]&#8217; by the use of mass emails, private emails and Yammer posts to attack Mr. Boswell&#8217;s character. There is no reference in this part of the grievance appeal to potential allegations of harassment arising out of private emails sent to Mr. Bell. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">42.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 25 February 2022 Mr. Boswell made his third SAR/an amendment to his previous SAR to include correspondence between his line manager and human resources for two weeks from 3 August 2020. This was responded to on 25 March 2022. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">43.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">In the same letter on 25 February 2022 Mr. Boswell also made a nine-part request for information covering a wide range of information related to his grievance. This was treated as a FOI request by ONS. Many parts of that request specifically ask for names to be included, (&#8216;I hope I am entitled to see names&#8217;) although the bullet point that includes the Request in this appeal does not. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">44.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">The ONS wrote to Mr. Boswell on 1 March 2022 informing him that the first part of his request would be treated as a SAR and the rest under FOIA because the majority of the information requested was not his personal data. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">45.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Mr. Boswell responded on 11 March 2022 identifying which bullet points he considered were requests for his personal data. This did not include the bullet point equivalent to the current Request. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">46.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">The 25 February FOI request was refused under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> (vexatious requests) on 29 March 2022, in essence on the basis that the scope of the request was very wide and carried a disproportionate burden given the limited wider public interest in the information. The response states that the ONS had considered whether or not the request should be treated as a SAR and concluded: </span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;For the small amount of information that would directly consist of your personal data, we would deem it manifestly unreasonable and excessive to conduct a search of this scale. Should you wish to make a new subject access request, we would strongly recommend that you take the opportunity to limit the scope of your request to reasonable search parameters over a specific time period.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">47.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 29 March 2022 Mr. Boswell contacted Legal Services by telephone in relation to the response to the nine-part request. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">48.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 7 April 2022 Legal Services emailed Mr. Boswell with a further explanation of the response to the request and gave Mr. Boswell some advice about narrowing the size and scope of any new request. They stated &#8216;if you are unhappy with your response, you can request an internal review. But equally, please email us any questions if you would like to submit a narrower request and we will assist where we can.&#8217;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">49.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 15 April 2022 Mr. Boswell emailed Legal Services with 21 detailed questions. Most of these are questions about why his FOIA request of February 2022 was refused or questions about the response to the December 2021 FOIA request for Yammer threads, mainly about the redactions that had been made. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">50.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 20 April 2022 Mr. Boswell emailed the Head of Internal Communications indicating that he wished to go ahead with complaints about the makers of the Yammer thread comments that had been released to him with names redacted. He asked for the names of the authors to be confirmed so that he could make the complaints. This was passed to Legal Services on the basis that it would be &#8216;inappropriate&#8217; to provide any information &#8216;outside of this process&#8217; and the request was refused. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">51.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 18 May 2022 Mr. Boswell emailed the Head of Legal Services asking a series of questions about the response to the MC FOI request and asking for the names of the individuals involved in responding to that request. This was passed to the Appeal Manager who responded on 24 May 2022. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">52.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 19 May 2022 Legal Services responded to the 21 questions. In that letter Legal Services reiterated the invitation to Mr. Boswell to consider narrowing his request to more reasonable parameters, while flagging up that this did not mean that other exemptions would not apply.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">53.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 24 May 2022 Mr. Boswell made a request for &#8216;the full paper-trail&#8217; for the FOI request which led to the disclosure of his email in August 2020. He asked for the request to be treated as a SAR and not a FOI request.  In that email he stated, &#8216;As you know I have various requests for information I would like to make, which might take a few days to put together, but to get the ball rolling, here&#8217;s the first&#8230;&#8221; This request was treated as a SAR and responded to on 21 July 2022. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">54.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Mr Boswell submitted requests for information to the ONS on 25 May 2022, 27 May 2022 and 1 June 2022. They were made under FOIA and under data protection legislation. In summary, those requests were for:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-family:'Book Antiqua'">54.1</num>
+		      <content>
+			<p style="margin-left:1.97in"><span style="font-family:'Book Antiqua'">Copies of emails received by Iain Bell in response to the email that he sent on 8 June 2020 and any ensuing correspondence. </span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:'Book Antiqua'">54.2</num>
+		      <content>
+			<p style="margin-left:1.97in"><span style="font-family:'Book Antiqua'">The video recording, the minutes and the attendees of the BAME Network session held following Mr. Boswell&#8217;s email of 13 July 2020. </span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:'Book Antiqua'">54.3</num>
+		      <content>
+			<p style="margin-left:1.97in"><span style="font-family:'Book Antiqua'">Copies of emails received by Iain Bell concerning Mr. Boswell&#8217;s email of 13 July 2020, Mr. Bell&#8217;s replies and any ensuing correspondence. </span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">55.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 25 May 2022, Mr. Boswell submitted the request in issue in this appeal. It is referred to in this decision as the Request. The Request was for: </span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;Copies of every email received by Iain Bell (at any of his email addresses, including those of his secretaries) in response to his &#8220;Black Lives Matter!&#8221; email of the 8th of June 2020. I would also be interested in any of Iain&#8217;s replies to these messages, and any ensuing correspondence.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">56.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">The request made on 27 May 2022 was said by Mr Boswell to be a subject access request. He asked the ONS to let him know if they felt that particular elements of the request could only be released under FOIA, and he would make a further request under FOIA. The 27 May request was for:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;The video, the minutes, and the attendee list of the &#8220;closed session&#8221; of the BAME Network which was convened to discuss my open email to the ONS, sent on the 13th of July 2020. I presume the session was held that Monday or Tuesday, but it could have been any time that week. I would also be interested in any follow-up sessions.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">57.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 30 May 2022 Legal Services wrote to Mr. Boswell in relation to both requests. It stated that the 24 May request had been logged and they were conducting a search. In relation to the Request on 27 May Legal Services stated that:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;You have asked that we disclose copies of every email received by Iain Bell (at any of his email addresses, including those of his secretaries) in response to his email relating to Black Lives Matter dated the 8 June 2020, including any responses to these messages and ensuing correspondence.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">We have previously received an FOI request asking for the disclosure of all emails involved in this matter. Our response to this can be found here. Documents in scope of your request can be found in the associated downloads (Doc.2_Responses_to_5_Proposals_Redacted). Our position on the information withheld for the purposes of FOI has not changed and we maintain the use of exemptions found under s.40(2) and s.41(1).</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">We have also considered your request under the subject access provisions of the UK GDPR. To the extent that any emails received or sent by Iain Bell contain your personal data, these also contain the personal data of those that wrote the emails, including their own thoughts and feelings in relation to the matters being discussed. Where those emails were also sent to single recipients those writing would have a high expectation of confidence. For these reasons we consider that it would be unfair to release any more information than has already been released under the FOI request linked, and that any further information is exempt from release under subject access (in accordance with Part 3 Schedule 2, <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref>).&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">58.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">The request made on 1 June 2022 was also said by Mr Boswell to be a subject access request. As with the request on 27 May Mr Boswell asked the ONS to let him know if they felt that particular elements of the request could only be released under FOIA, and he would make a further request under FOIA. The 1 June request was for: </span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;Copies of every email received by Iain Bell (at any of his email addresses, including those of his secretaries) concerning my open reply to his &#8220;Black Lives Matter!&#8221; email. My email was sent on the 13th of July 2020, so the emails to Iain will begin at this point. I would also be interested in any of Iain&#8217;s replies to these messages, and any ensuing correspondence. I hope I am entitled to see names, given that these emails concern me directly.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">59.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">A joint response to the above three requests was provided on 6 July 2022, refusing the requests on the grounds that they were vexatious. </span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p style="margin-left:1.38in;text-indent:-0.59in"><span style="font-weight:bold;font-family:'Book Antiqua'">Factual background after 6 July 2022</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">60.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">The following is only relevant and taken into account by the tribunal to the extent that it sheds light on the position at the time of the response to the Request. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">61.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 22 July 2022 Mr Boswell wrote to the individual who had signed the letter of 6 July 2022 requesting an internal review and an apology. In relation to the apology request he stated: </span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;I am writing to request an immediate apology for your email of the 6</span><span style="vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua'"> of July in which I feel you have allowed your personal biases to tip into harassment. I understand that you have a job to do, and I will contest the substance of your judgments though the proper processes, but there is no excuse for the unprofessional excesses of your tone or the evidence-free accusations you have levelled against me on the basis of my beliefs. </span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">I would remind you that until a final judgement is reached in my forthcoming appeal meeting, it is Legal Services that remain under suspicion of having colluded in the harassment of liberal antiracists at the ONS. I would strongly prefer it if you apologised now rather than embroil yourself in that larger dispute.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">I think the following five false accusations warrant an apology:</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:'Book Antiqua'">1)</num>
+		      <content>
+			<p style="margin-left:1.38in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">You accuse me of being motivated by a "personal grudge" against Iain Bell and others.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:'Book Antiqua'">2)</num>
+		      <content>
+			<p style="margin-left:1.38in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">You accuse me of "targeting" colleagues on the basis of their having disagreed with me.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:'Book Antiqua'">3)</num>
+		      <content>
+			<p style="margin-left:1.38in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">You accuse me of making an "unsubstantiated accusation" against those colleagues in attendance at the closed session of the BAME Network, or those colleagues who emailed Iain Bell about me. In particular you claim that I am holding them responsible for my having been punished.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:'Book Antiqua'">4)</num>
+		      <content>
+			<p style="margin-left:1.38in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">You accuse me of pursuing a "personal agenda" with no public interest.</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-family:'Book Antiqua'">5)</num>
+		      <content>
+			<p style="margin-left:1.38in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">You accuse me of ignoring your advice as to what might constitute a vexatious or excessive request.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">62.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Mr. Boswell raised queries about &#8216;gaps&#8217; in the information provided in response to his request of 24 May 2022 in emails dated 27 July, 23, 26, 28, and 29 September and 5 October 2022. These were responded to by Legal Services. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">63.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">The reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> in relation to the three requests was upheld on internal review on 7 September 2022. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">64.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 22 November 2022 Mr. Boswell resubmitted his request for information made on 1 April 2022 for the Yammer threads with 3</span><span style="vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">rd</span><span style="font-family:'Book Antiqua'"> party personal data unredacted and asked for it to be treated as a SAR. This was refused on 6 December 2022. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">65.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">On 10 January 2023 Mr. Boswell made an FOI request for Yammer comments posted and subsequently deleted by users or admins. This request was refused on 3 February 2023 on the basis that it was a vexatious request. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">66.</num>
+		    <intro>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Mr. Boswell&#8217;s grievance appeal was heard by Ed Humpherson. The written outcome was provided on 15 November 2023. Mr. Humpherson gives the following summary of his decision:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">&#8220;In summary, I have:</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Upheld Joe&#8217;s appeal on the FOI process aspects of Grievance 7, but not the whistleblowing aspect of Grievance 7;</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Partially upheld Joe&#8217;s appeal on Grievance 4;</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Proposed different outcomes (i.e. performance feedback) for two individuals in Grievance 9; but</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Not upheld all other aspects of Joe&#8217;s appeal.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">67.</num>
+		    <content>
+		      <p style="margin-left:1.38in"><span style="font-family:'Book Antiqua'">Mr. Boswell was dismissed with effect from 27 June 2023. The reason given was that he had failed to maintain an acceptable level of attendance and was unable to return to work within a timescale that the decision maker considered reasonable.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-weight:bold;font-family:'Book Antiqua'">Requests, Decision Notice, and appeal</span></p>
+	    <p style="margin-left:-0.3in"><span class="Hyperlink" style="font-family:'Book Antiqua';color:initial">The requests and the response</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">This decision concerns two requests: DPR 189 made on 27 May 2022 and DPR 190 made on 1 June 2022. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">On 27 May 2022 Mr Boswell made request DPR 189 which was for: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.89in">&#8220;The video, the minutes, and the attendee list of the &#8220;closed session&#8221; of the BAME Network which was convened to discuss my open email to the ONS, sent on the 13th of July 2020. I presume the session was held that Monday or Tuesday, but it could have been any time that week. I would also be interested in any follow-up sessions.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">On 1 June 2022 Mr Boswell made request DPR 190 which was for: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.89in">&#8220;Copies of every email received by Iain Bell (at any of his email addresses, including those of his secretaries) concerning my open reply to his &#8220;Black Lives Matter!&#8221; email. My email was sent on the 13th of July 2020, so the emails to Iain will begin at this point. I would also be interested in any of Iain&#8217;s replies to these messages, and any ensuing correspondence. I hope I am entitled to see names, given that these emails concern me directly.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Request DPR 188, made on 25 May 2022, and which is not the subject of this decision, was for: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Book Antiqua'">&#8220;Copies of every email received by Iain Bell (at any of his email addresses, including those of his secretaries) in response to his &#8220;Black Lives Matter!&#8221; email of the 8th of June 2020. I would also be interested in any of Iain&#8217;s replies to these messages, and any ensuing correspondence.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">On 30 May 2022 ONS wrote to Mr. Boswell referring him to the response to the MC FOI request (see factual background above) and stating that it maintained its position in relation to those emails. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">On 6 July 2022 ONS issued a joint response to the three FOIA and subject access requests made on 25 and 27 May and 1 June 2022. The ONS<span style="font-weight:bold"/>refused what it termed &#8216;the FOI elements&#8217; of the requests under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA (vexatiousness). It refused the requests where Mr Boswell asked for information about himself on the basis that they were manifestly unfounded and excessive under the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The ONS upheld its position on internal review on 7 September 2022. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The summary of the decision notice and the submissions from the initial decision, is adopted in full, and repeated here for the benefit of those reading the decision who are not familiar with the proceedings. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The decision notice</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In a decision notice dated 12 February 2023 the Commissioner decided that the elements of the three requests that were covered by FOIA were vexatious requests under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> FOIA. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.59in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.3in">The Commissioner stated that at the time of the requests Mr. Boswell had been in dispute with ONS about a particular matter for approximately two years. The Commissioner found that while the original requests may have had a serious value and purpose, that value and purpose had diminished two years later. The Commissioner noted that ONS had confirmed to Mr. Boswell that he did not need the information he was seeking in order to progress a complaint with ONS.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The Commissioner found that by May/June 2022 Mr. Boswell appeared to be mis-using FOIA to pursue a grievance against ONS and to progress matters that are more appropriately dealt with through other channels. The Commissioner found that Mr. Boswell&#8217;s requests &#8211; including earlier requests and the requests sent in succession in this case &#8211; and related past behaviours &#8211; such as attempting to acquire redacted information (individuals&#8217; names) from other parts of the organisation - were not those of an individual using FOIA reasonably and responsibly. The Commissioner considered that, in view of the background and circumstances, Mr. Boswell&#8217;s requests would be likely to cause ONS staff to feel distressed and harassed. The Commissioner found that ONS&#8217; evidence suggested that, as well as generating new requests from Mr. Boswell, responding to the three requests would also cause a burden to ONS. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Since the Commissioner considered that the purpose and value of the requests was minimal, he was satisfied that that burden would be wholly disproportionate. The Commissioner decided that ONS was entitled to refuse the requests under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of FOIA.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Notice of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in">The grounds of appeal, as amended and as they relate to DPR 189 and DPR 190, are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.64in">26.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.89in">That the Commissioner was wrong to consider DPR 189 and 190 as freedom of information requests, because they are subject access requests.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.64in">26.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.89in">That the Commissioner was wrong to conclude that the requests were vexatious. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The respondents&#8217; responses to the appeal and Mr Boswell&#8217;s replies</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.59in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.3in">The statements of case are summarised in detail in the initial decision. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:-0.3in"><span style="text-decoration-line:underline;text-decoration-style:solid">The position of ONS on the vexatiousness of DPR 189 and 190</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.59in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.3in">The ONS is neutral on whether or not DPR-189 and 190 are vexatious</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-weight:bold;font-family:'Book Antiqua'">Legal framework</span></p>
+	    <p style="margin-left:-0.3in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Requests for information</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Section 1 FOIA provides that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;(1)Any person making a request for information to a public authority is entitled&#8212;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">(a)to be informed in writing by the public authority whether it holds information of the description specified in the request, and</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">(b)if that is the case, to have that information communicated to him.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Section 8 provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-weight:bold">&#8220;8 Request for information.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">In <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">this Act</ref> any reference to a &#8220;request for information&#8221; is a reference to such a request which&#8212;</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">is in writing,</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">states the name of the applicant and an address for correspondence, and</p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">(c)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">describes the information requested.&#8221;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="margin-left:-0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14(1)</ref> Vexatious requests</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Guidance on applying <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> is given in the decisions of the Upper Tribunal and the Court of Appeal in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dransfield</span> (<ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/440" uk:canonical="[2012] UKUT 440 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 440 (AAC)</ref> and <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref>). The tribunal has adapted the following summary of the principles in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dransfield</span> from the judgment of the Upper Tribunal in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">CP v Information Commissioner</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2016/427" uk:canonical="[2016] UKUT 427 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKUT 427 (AAC)</ref>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The Upper Tribunal held that the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> must be to protect the resources of the public authority from being squandered on disproportionate use of FOIA. That formulation was approved by the Court of Appeal subject to the qualification that this was an aim which could only be realised if &#8216;the high standard set by vexatiousness is satisfied&#8217; (para 72 of the CA judgment). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The test under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> is whether the request is vexatious not whether the requester is vexatious. The term &#8216;vexatious&#8217; in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> should carry its ordinary, natural meaning within the particular statutory context of FOIA (para 24). As a starting point, a request which is annoying or irritating to the recipient may be vexatious but that is not a rule. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Annoying or irritating requests are not necessarily vexatious given that one of the main purposes of FOIA is to provide citizens with a qualified right of access to official documentation and thereby a means of holding public authorities to account. The Commissioner&#8217;s guidance that the key question is whether the request is likely to cause distress, disruption, or irritation without any proper or justified cause was a useful starting point as long as the emphasis was on the issue of justification (or not). An important part of the balancing exercise may involve consideration of whether or not there is an adequate or proper justification for the request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Four broad issues or themes were identified by the Upper Tribunal as of relevance when deciding whether a request is vexatious. These were: (a) the burden (on the public authority and its staff); (b) the motive (of the requester); (c) the value or serious purpose (of the request); and (d) any harassment or distress (of and to staff). These considerations are not exhaustive and are not intended to create a formulaic checklist.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Guidance about the motive of the requester, the value or purpose of the request and harassment of or distress to staff is set out in paragraphs 34-39 of the Upper Tribunal&#8217;s decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">As to burden, the context and history of the particular request, in terms of the previous course of dealings between the individual requester and the public authority in question, must be considered in assessing whether the request is properly to be described as vexatious. In particular, the number, breadth, pattern, and duration of previous requests may be a telling factor. Thus, the greater the number of previous FOIA requests that the individual has made to the public authority concerned, the more likely it may be that a further request may properly be found to be vexatious. A requester who consistently submits multiple FOIA requests or associated correspondence within days of each other or who relentlessly bombards the public authority with email traffic is more likely to be found to have made a vexatious request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Ultimately the question was whether a request was a manifestly unjustified, inappropriate, or improper use of FOIA. Answering that question required a broad, holistic approach which emphasised the attributes of manifest unreasonableness, irresponsibility and, especially where there was a previous course of dealings, the lack of proportionality that typically characterises vexatious requests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In the Court of Appeal in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dransfield</span> Arden LJ gave some additional guidance in paragraph 68:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;In my judgment the Upper Tribunal was right not to attempt to provide any comprehensive or exhaustive definition. It would be better to allow the meaning of the phrase to be winnowed out in cases that arise. However, for my own part, in the context of FOIA, I consider that the emphasis should be on an objective standard and that the starting point is that vexatiousness primarily involves making a request which has no reasonable foundation, that is, no reasonable foundation for thinking that the information sought would be of value to the requester or to the public or any section of the public. Parliament has chosen a strong word which therefore means that the hurdle of satisfying it is a high one, and that is consistent with the constitutional nature of the right. The decision maker should consider all the relevant circumstances in order to reach a balanced conclusion as to whether a request is vexatious. If it happens that a relevant motive can be discerned with a sufficient degree of assurance, it may be evidence from which vexatiousness can be inferred. If a requester pursues his rights against an authority out of vengeance for some other decision of its, it may be said that his actions were improperly motivated but it may also be that his request was without any reasonable foundation. But this could not be said, however vengeful the requester, if the request was aimed at the disclosure of important information which ought to be made publicly available...&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Nothing in the above paragraph is inconsistent with the Upper Tribunal&#8217;s decision which similarly emphasised (a) the need to ensure a holistic approach was taken and (b) that the value of the request was an important but not the only factor.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The lack of a reasonable foundation to a request was only the starting point to an analysis which must consider all the relevant circumstances. Public interest cannot act as a &#8216;trump card&#8217;. Rather, the public interest in the subject matter of a request is a consideration that itself needs to be balanced against the resource implications of the request, and any other relevant factors, in a holistic determination of whether a request is vexatious.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The role of the tribunal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The tribunal&#8217;s remit is governed by section 58 FOIA. This requires the tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved exercising discretion, whether he should have exercised it differently. The tribunal may receive <span style="font-family:Arial">evidence that was not before the Commissioner and may make different findings of fact from the Commissioner.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-weight:bold;font-family:'Book Antiqua'">Evidence </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">43.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">We had before us and took account of where relevant: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">43.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">An updated open bundle in this appeal</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">43.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">The open bundle in FT/EA/2025/0288</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">43.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">The appellant&#8217;s supplementary bundle dated 13 March 2026 </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">43.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">Various video and audio recordings listed in the index to that supplementary bundle plus an audio recording from the initial hearing resubmitted by email dated 7 May 2025. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">43.5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">A closed hearing bundle (open to the Commissioner and the second respondent) provided by the Commissioner</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">43.6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">The appellant&#8217;s additional bundle dated 1 May 2026</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">43.7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">A closed bundle (open to all parties) dated 1 May 2026 provided by the appellant</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="margin-left:-0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Submissions </span></p>
+	    <p style="margin-left:-0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Mr. Boswell&#8217;s skeleton argument and oral submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">Mr. Boswell provided a detailed skeleton argument on the morning of the hearing which the tribunal adjourned to read. It set out his submissions in detail. He fleshed out those submissions in oral argument. We have taken account of those arguments and include them, where appropriate, in our discussion and conclusions below. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:-0.2in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">The parties&#8217; positions on whether requests DPR-189 and DPR-190 were requests within the meaning of section 1(1) FOIA</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">In written submissions dated 4 June 2025 the Commissioner noted that section 8 of FOIA defines a valid request for information as:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;(a)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">is in writing,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p style="margin-left:0.89in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">states the name of the applicant and an address for correspondence, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">(c)</num>
+		  <content>
+		    <p style="margin-left:0.89in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">describes the information requested.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">The Commissioner submitted that a requestor is not expected to state that a request is being made under a particular access regime, and in any event, while Mr Boswell specified that he considered that the requests should be dealt with as subject access requests, he included the following caveat:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.89in"><span style="font-family:Arial">&#8220;If Legal Services feels that particular elements of this request could only be released under FOI, please let me know as soon as possible (i.e. at the beginning of the process) and I will submit that FOI in addition.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">The Commissioner submitted that FOIA provided a mechanism for responding to a request for a requester&#8217;s own personal data (section 40 FOIA).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">The Commissioner submitted that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> can be relied on before a public authority has determined what, if any, information is held within the scope of a request.  The Commissioner said that the decision notice upheld the application of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA by ONS to &#8220;the elements of the complainant&#8217;s three requests for information that are covered by FOIA&#8221;. The Commissioner submitted that all elements of the requests are valid under FOIA, because even where a request requires information which may constitute the Appellant&#8217;s own personal data it can still be processed as a request under FOIA (as well as the DPA).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">The ONS agreed with the Commissioner&#8217;s submissions on this issue. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">Mr Boswell submitted that ONS had inappropriately misclassified his subject access requests as FOI requests in order to thwart them, because ONS was engaged in a cover-up and &#8216;in the grip of a cloud of beliefs associated with Critical Race Theory&#8217;. He submitted that the ONS wanted to be able to classify his requests as FOIA requests so that they could be refused as vexatious. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p style="margin-left:-0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Closed session</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">We held a closed session but that dealt only with evidence and submissions in FT/EA/2025/0288. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p style="margin-left:-0.2in"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion and conclusions</span></p>
+	    <p style="margin-left:-0.2in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Were DPR 189 and 190 requests for information under FOIA? </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The interpretation section of FOIA states that a &#8216;request for information&#8217; has the definition given by section 8.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Section 8 provides that any reference in FOIA to a &#8220;request for information&#8221; is a reference to &#8216;such a request&#8217; which is in writing, states the name of the applicant and an address for correspondence, and describes the information requested.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Although section 8 specifies when a request for information will be covered by FOIA, it does not define the phrase any further. Accordingly that phrase has to be construed in accordance with the normal principles of statutory interpretation, namely that the meaning of the words used must be ascertained in the light of their context and the purpose of the statutory provision. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Mr. Boswell made submissions that &#8216;request for information&#8217; should not be construed so broadly that it would cover any internal and informal requests made between colleagues or different departments during the day to day activities of a public authority. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">It is not necessary in this appeal to consider the outer boundaries of a &#8216;request for information&#8217;. In DPR 189 and DPR 190 the appellant made a formal request for information. He made the request to legal services. Each request began with the sentence &#8216;This is my [third/fourth] request for information&#8217;. Mr. Boswell then goes on to request information. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">It is clear, by any sensible definition of the phrase request for information, construed in the light of the context and purpose of the statutory provision, that DPR 189 and DPR 190 are requests for information. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The real issue in this appeal is whether the requests for information fall outside FOIA because (a) Mr. Boswell insisted in the request that each request should be treated as a subject access request and not a freedom of information request and/or (b) because the request was, in Mr. Boswell&#8217;s submission, a request for his own data. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The answer to both those questions is no. If a request for information is made that satisfies the criteria in section 8, a public authority has to either supply the information (section 1(5)) or comply with its obligations under section 1(1)(a), subject to any other relevant provisions in FOIA. The fact that the requestor has asked or insisted that the request is not dealt with under FOIA does not relieve the authority of those obligations. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Even if the information requested consists solely of the requestor&#8217;s personal data, the authority is not relieved of its obligations under FOIA. The information is exempt under section 40(1) and the public authority is entitled to refuse to confirm or deny if the information is held under section 40(5A), but the authority remains obliged to issue a refusal notice under section 17. The Commissioner has stated in his guidance that he does not expect public authorities to do this, but the obligation under section 17 remains. A request for the requestor&#8217;s personal data remains a request for information under FOIA. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Mr Boswell made submissions to the effect that the application of both regimes could be manipulated by a public authority to reduce the amount of information made available. Whether or not this is the case, it cannot alter the effect of the provisions of FOIA dealt with above. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">For those reasons, we find that DPR 189 and 190 were requests for information under FOIA, whether or not they included or consisted entirely of Mr Boswell&#8217;s personal data. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p style="margin-left:-0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14</ref></span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Whilst Mr Boswell presented additional evidence and further submissions it was not necessary for us to make additional findings in order to determine this issue. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">64.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in">There was no appeal to the Upper Tribunal against our conclusions in the earlier decision on the application of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> to DPR 188, and we repeat and adopt those in full in so far as they are also relevant to DPR 189 and 190 as follows. Where there is reference to Ms Ivimy&#8217;s submissions in our discussion and conclusions below, that is a reference to her submissions at the previous hearing as summarised in the initial decision. </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:1.18in;text-indent:-0.89in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Preliminary observations</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">217.</num>
+		  <intro>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Kennedy v Charity Commission</span><span style="font-family:'Book Antiqua'"> <ref href="#" uk:canonical="[2014] 2 WLR 808" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 2 WLR 808</ref>, Lord Sumption, with whom Lord Neuberger and Lord Clarke agreed, said as follows, at para 153: </span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="margin-left:1.18in"><span style="font-weight:bold;font-family:'Book Antiqua'">&#8220;</span><span style="font-family:'Book Antiqua'">The <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> &#8230; introduced a new regime governing the disclosure of information held by public authorities. It created a </span><span style="font-style:italic;font-family:'Book Antiqua'">prima facie</span><span style="font-family:'Book Antiqua'"> right to the disclosure of all such information, save in so far as that right was qualified by the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> or the information in question was exempt.  The qualifications and exemptions embody a careful balance between the public interest considerations militating for and against disclosure. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">The Act</ref> contains an administrative framework for striking that balance in cases where it is not determined by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> itself. The whole scheme operates under judicial supervision, through a system of statutory appeals.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">218.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">It is important to remind ourselves of those observations.  FOIA creates prima facie</span><span style="font-style:italic;font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua'">right to disclosure of information held by public authorities, save in so far as that right is qualified by the terms of FOIA or the information in question is exempt. Further, we remind ourselves that the qualifications and exemptions embody a careful balance between the public interest considerations militating for and against disclosure. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">219.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">The purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> is &#8220;to protect the resources (in the broadest sense of that word) of the authority from being squandered on disproportionate use of FOIA.&#8221; (UT, </span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield, </span><span style="font-family:'Book Antiqua'">para 10). In order to achieve this purpose, as the Court of Appeal noted (CA, </span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield, </span><span style="font-family:'Book Antiqua'">para 68),</span><span style="font-style:italic;font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua'">Parliament has chosen to use a strong word, and therefore the hurdle of satisfying it is high. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">220.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14</ref> must not be interpreted in a way that in effect introduces a &#8216;public interest&#8217; threshold that all requestors have to pass. If no exemption is engaged, there is a right to disclosure of information held by public authorities whether or not there is any public interest in disclosure.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">221.</num>
+		  <intro>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We note what the Upper Tribunal said in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Dr Yeong-Ah Soh v Information Commissioner and Imperial College London</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2016/0249" uk:canonical="[2016] UKUT 0249 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKUT 0249 (AAC)</ref> [79] and [80] (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Soh</span><span style="font-family:'Book Antiqua'">):</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua'">&#8220;79.</num>
+		    <content>
+		      <p class="NormalWeb" style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">The FTT&#8217;s reasons conclude that &#8220;at the time the requests were made they were vexatious in their content by reason of the burden on the [second respondent] ... and the distress to the second mentor ...; the benefit sought from the disclosure was [the appellant&#8217;s] private interest ... not the public interest. It was an inappropriate use of the FOIA and therefore vexatious&#8221;. From these words, I find it inescapable that, at the least, a factor in the FTT&#8217;s decision was the perceived lack of any public interest in the appellant&#8217;s request for information. </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua'">80.</num>
+		    <content>
+		      <p class="NormalWeb" style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">However, it seems to me that the real issue is whether there was a value or a serious purpose to the appellant&#8217;s request. A request can have a value or a serious purpose while serving an entirely private interest. Judge Wikeley referred to objective public interest. He later stated at paragraph 14 that &#8220;of course, a lack of apparent objective value cannot alone provide a basis for refusal under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref>&#8221;. He continued, &#8220;..., unless there are other factors present which raise the question of vexatiousness&#8221;. </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua'">81.</num>
+		    <content>
+		      <p class="NormalWeb" style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">It appears to me that the FTT would err in law if it considered that the request was vexatious for lacking public interest alone.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">222.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Nor should <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> be interpreted in such a way that it operates as a &#8216;catch all&#8217; exemption. It should not be used to avoid the need to consider whether the authority is entitled to rely on an exemption to withhold the information, even where it might appear obvious to the authority, the Commissioner or to the tribunal that the requested information ought to be withheld either in the public interest or for some other reason. Parliament has chosen which exemptions to include and determined how those exemptions operate in order to embody the &#8216;careful balance&#8217; identified above. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14</ref> is not designed to avoid the need to consider the application of individual exemptions. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="margin-left:1.18in;text-indent:-0.89in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:1.18in;text-indent:-0.89in"><span style="font-style:italic;font-family:'Book Antiqua'">Application of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref></span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">224.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Although the four broad issues or themes identified by the Upper Tribunal in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Dransfield</span><span style="font-family:'Book Antiqua'"> are not exhaustive and are not intended to create a formulaic checklist, they are a helpful tool to structure our discussion, although some elements do not fit neatly under one heading. In adopting this structure, we have taken a holistic approach, and we bear in mind that we are considering whether or not the request was vexatious in the sense of being a manifestly unjustified, inappropriate or improper use of FOIA.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="margin-left:1.18in;text-indent:-0.89in"><span style="font-style:italic;font-family:'Book Antiqua'">Burden</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">225.</num>
+		  <intro>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">In assessing burden the number, breadth, pattern and duration of FOIA requests are relevant to the question of misuse of FOIA by an individual. Related correspondence can also be taken into account. In </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Soh</span><span style="font-family:'Book Antiqua'">, the Upper Tribunal stated: </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua'">&#8220;94.</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">The issue of burden was addressed by Judge Wikeley in </span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield </span><span style="font-family:'Book Antiqua'">as involving questions as to the number, breadth, pattern and duration of FOIA requests in terms of the misuse of the FOIA by an individual. However, it is clear that related correspondence can also be considered.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua'">95.</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">&#8230; the Court of Appeal has clearly warned against applying bright line rules as to what evidence should be taken into account when addressing the question of whether a request is vexatious. A rounded approach is required. Thus, I consider that a DPA request can properly be addressed in determining whether a FOIA request is vexatious, to the extent that it is relevant. I accept the general proposition that the decision maker should consider all the circumstances in order to reach a balanced conclusion as to whether a request is vexatious, without artificially excluding particular types of evidence.&#8221; </span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">226.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Mr Boswell submitted that certain requests should not be taken into account when assessing burden because they were not made under FOIA, but we are entitled to take account of any related correspondence.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">227.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We accept that the ONS as an organisation was also carrying the significant burden of responding to the related grievance. That grievance was partially upheld, and for the purposes of assessing the vexatiousness of the request in issue we do not place significant weight on the separate burden which arose out of investigating and responding to the grievance. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">228.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">There is a significant gap in time between the SAR made in October 2020 and the next request in December 2021. Ms Ivimy in her submissions focussed on the burden on ONS from December 2021 and in our view it is right to focus primarily on the burden from December 2021. We do not place significant weight on any burden prior to December 2021. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">229.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We do accept that the December 2021 request, which asked for copies of the Yammer threads removed by the ONS, whether responded to under FOIA or otherwise, carried a significant burden because of the technical difficulties in retrieving deleted threads. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">230.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">It is not clear what the ONS process, if any, is for individuals wanting to request information to be disclosed to them individually in order to consider whether to make a complaint or as supporting evidence in a complaint already made. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">231.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">It is unclear to us if HR or those involved in the grievance processes appreciate that not all requests for information are FOIA requests, and that just because a FOIA request is refused, that does not mean that the </span><span style="font-style:italic;font-family:'Book Antiqua'">individual</span><span style="font-family:'Book Antiqua'"> is not entitled to see that information as part of the grievance process. The question of whether an individual should be provided with evidence or information as part of a grievance process is very different to the question of whether information should be disclosed to the world. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">232.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">To give an example, the tribunal has considered the hypothetical situation where male employees had discussed a female employee in posts on Yammer. Yammer is not anonymous and can be viewed by all employees. We assume that a number of those individuals made remarks that were offensive and sexual in nature. We assume that those posts had then been deleted from Yammer by the ONS. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">233.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">It seems bizarre to us that the woman in question, in order to consider whether she wanted to make a formal complaint of sexual harassment and in order to decide against whom that compliant should be made, should have to have her request to HR treated as a FOIA request. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">234.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">This requires her, in many circumstances, to justify why this information should be provided to the world at large. It requires the ONS, in many circumstances, to consider the impact on the individuals accused of harassment of having their comments released to the world. This latter aspect appears to us to carry a risk of Legal Services becoming unnecessarily entangled in considerations of the merits of the harassment claim before that matter has been properly determined. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">235.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Further the individual potentially faces the argument that FOIA is not intended to be used for &#8216;private interests&#8217; being used by the employer, as ONS does in this appeal, to submit that there is no relevant value in the request for the purpose of considering vexatiousness.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">236.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Further, if such an individual had already made a complaint and had reasonable grounds for suspecting that there was further evidence in, for example, private emails between those individuals, it is not clear to us whether there is any mechanism for a request for that potential evidence to be disclosed to the individual to be considered without being redirected into FOIA or DPA with the consequences set out in the preceding paragraph. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">237.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Mr Boswell&#8217;s original request for the deleted Yammer threads was made a matter of weeks after their deletion on 27 July 2020. The request was made as a request to the Head of Internal Communications, Adam Wheeler, for them to be disclosed to Mr. Boswell personally so that he could decide whether to make a complaint, because, he stated, they contained some serious and, in Mr Boswell&#8217;s view, bullying accusations. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">238.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Mr Wheeler took some advice and his understanding was that Mr Boswell was not &#8216;entitled directly&#8217; to the comments of other people, but a request could be made through HR. Nobody ever replied to Mr Boswell or informed him of this. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">239.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Mr Boswell next requested the Yammer threads from HR, specifically for the purposes of his grievance/complaints in December 2021. This request was headed &#8216;Request for information from HR specifically&#8217; and began with the sentence &#8216;Can I please get some answers to the following four questions ASAP, or at least a week before my first Resolution Meeting, in order to give me time to prepare&#8217;. This was treated as an FOI request.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">240.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">In our view at least some of the burden of the FOI request in December 2021 might have been avoidable if someone had responded to Mr Boswell in July 2020 and if there had been a clear mechanism for requesting information to be disclosed to an individual for the purposes of grievances/complaints as discussed above. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">241.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Further, when Mr Boswell, having been provided with the Yammer threads with the names redacted under FOIA, approached Mr Wheeler again for the names of those individuals so that he could consider making a complaint, we do not see that as unreasonable persistence. Again this was redirected to Legal Services whose reply was, we think, in the email of 19 May 2022 which stated that names were not included because disclosure under FOIA is disclosure to the public. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">242.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">After the December 2021 request, on 25 February 2022 Mr. Boswell made a further SAR/amendment to his previous SAR and a nine-part SAR/FOIA request in the same email. There was some burden in responding to the SAR/amendment. The nine-part request was treated as a FOIA request. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">243.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We accept that there was a reasonably significant burden on the ONS arising out of the refusal of the nine-part request on the grounds that it was vexatious. First, there were a number of emails and telephone calls in which Mr. Boswell persistently challenged the response and insisted that at least some of the parts of the request should be treated as SAR requests. This included an email sent to Legal Services on 15 April 2022 with 21 detailed questions. These were responded to in detail by ONS. We do not accept that these questions were simply Mr. Boswell attempting to narrow his request. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">244.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">As part of these discussions with Legal Services they did invite him to resubmit a narrowed request or requests. The four requests sent on 24, 25 and 27 May and 1 June 2022 were, we accept, Mr. Boswell&#8217;s attempt to narrow his request sent on 25 February 2022. They do, taken together, ask for less information than was requested in the February 2022 request, but there is still a burden on the ONS caused by each of those requests and exacerbated by making multiple requests at the same time. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">245.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Overall we accept that by July 2022 looked at as a whole the course of dealings was placing a not insignificant burden on ONS&#8217; resources. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">246.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We have taken account of the evidence from ONS as to the likely burden of responding to the Request in issue in isolation. It is not, in our view, an excessive burden. The respondent has already located the relevant emails. If it intends to maintain its refusal to disclose under section 41 the burden is minimal. If it intends to make redactions and consider the application of section 40, we accept that there will be some burden involved, but it would not in our view be excessive or unmanageable for the ONS. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">247.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">The request does overlap, in part, with the MC FOI request. The overlap is limited to any private, rather than &#8216;reply all&#8217;, emails sent between 8 June and 13 July. We accept that Mr Boswell honestly did not appreciate that there was any overlap and so, as set out below, we do not impute any inappropriate motive or unreasonable persistence as a result of this overlap. However the overlap is also relevant in considering the burden of the request. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">248.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We note that the private emails were refused, as a category, under section 41.  To the extent that the ONS intend to take the same approach and apply section 41, most of the work has already been done and the burden would be minimal. To the extent that the ONS intend to take a different approach, the burden involved in this request is not increased by any overlap. Further the overlap is limited to a specific period. Any emails post-dating 13 July are outside the scope of the MC FOI request. For those reasons we do not accept that there is any significant increase in the burden of this request arising out of the overlap with the MC FOI request and there is likely to be some reduction in the burden. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">249.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Further, we consider that some steps could be taken under section 16 to attempt to narrow down the request and avoid some of the consequences that the ONS are concerned about. Mr. Boswell has been clear that he is largely interested in the emails in order to test Mr. Bell&#8217;s assertion in the Your Call meeting on 2 July 2020 that he was &#8216;quite shocked by some responses to my email which said that there was no racism and they didn't need to educate themselves (was almost the tone)&#8217;. Mr. Boswell could be asked if he would agree to limit the request to emails up to and including 2 July 2020. This was before the reply all sent by Mr. Boswell and presumably would exclude many of the emails containing &#8216;personal stories&#8217; sent to Mr. Bell. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">250.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We do accept that this request was likely to carry a future burden. In the light of Mr. Boswell&#8217;s general approach we accept that he was unlikely to accept a decision to withhold information or substantial redactions without persistent challenge. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">251.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Overall, we accept that the burden of this Request, looked at in the context of the whole course of dealings and the likely future burden, is reasonably significant for an organisation like the ONS. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="margin-left:1.18in;text-indent:-0.89in"><span style="font-style:italic;font-family:'Book Antiqua'">Purpose or value</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">252.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Mr Boswell submits that there is a public interest in disclosure of the requested information because the public should understand the degree of support and/or criticism that this kind of politicisation of the Civil Service received within the ONS. We agree with Ms Ivimy that it is fanciful that ad hoc replies sent individually by members of staff would somehow reveal the degree of support and/or criticism within the ONS for politicisation of this sort. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">253.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Although we accept that the underlying issues are of significant public interest, the initial emails, any reply all emails up to 13 July and the reading list were already in the public domain at the relevant date and have been reported in the press. We have not seen the relevant emails and it is difficult to determine to what extent there might be some additional contribution to the general public debate by the publication of these emails, but it is likely, in our view, to be limited. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">254.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We do not accept Ms Ivimy&#8217;s submission that when considering vexatiousness the focus must always be on whether the information is of objective public interest. We do not agree that the question is whether the request has a value or serious purpose in terms of the objective public interest in the information. The private interests of the requestor are relevant even where they do not overlap with the public interest. There is no public interest threshold that requestors have to pass. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">255.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We have already cited paragraph 79 of the Upper Tribunal decision in Soh. In that decision the Upper Tribunal makes clear that the real issue is whether there is a value or serious purpose to the request and that a request can have a value or serious purpose while serving an entirely private interest. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">256.</num>
+		  <intro>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We accept that Mr Boswell has a serious purpose in making the request. He has a private interest in the requested information. He asserts that it will be of assistance in his grievance appeal. In the letter which contains the request he states: </span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">&#8220;I would like you to consider that the information is extremely important to my upcoming appeal meeting with Ed Humpherson, bearing as it does on the question of whether Iain Bell was receiving genuinely shocking emails, or if he himself was expressing a bigoted view towards liberal antiracists such as myself.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">257.</num>
+		  <intro>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">The respondent submitted that the information, if it would be relevant to the appeal, could be obtained in the course of the grievance proceedings by the decision maker. We note the following paragraphs from </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Soh</span><span style="font-family:'Book Antiqua'">: </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua'">&#8220;87.</num>
+		    <content>
+		      <p class="NormalWeb" style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">&#8230;it is difficult to ignore the comment in the FTT&#8217;s conclusion at paragraph 30 that &#8220;it would be inappropriate for this tribunal to justify disclosure in the public interest of material for the purpose of litigation before another tribunal when that Tribunal (which is far better placed to understand the issues it needs to resolve) is in a position to make that order&#8221;. The issue for the FTT was not to consider whether it was appropriate for it to order disclosure &#8211; but whether it was an inappropriate use of the FOIA to request it. By this comment, the FTT clearly appears to make the possible availability of the requested information through the ET a factor in its decision. </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua'">88.</num>
+		    <content>
+		      <p class="NormalWeb" style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">If it did, in my view, it was not entitled to do so. The issue before it was whether the applicant had a serious motive in requesting information. This was the assessment of the merits of her potential claim to the ET and its potential use as evidence in those proceedings. It might well have been that, upon sight of the requested information, she would have decided not to bring or to discontinue ET proceedings. The fact that she might have obtained the same material by way of an application to the ET does not diminish the seriousness of the purpose for which it was sought. In any event she had no right to the requested material through the ET proceedings, but a possibility that an employment tribunal judge might have ordered disclosure. </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua'">89.</num>
+		    <content>
+		      <p class="NormalWeb" style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">It appears to me that, to the extent that it placed weight on this issue, the FTT has misdirected itself on the question of whether the request was vexatious for lack of serious purpose, or has alternatively taken an immaterial consideration into account.&#8221; </span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">258.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Similarly the question for us is whether there is a serious purpose in requesting the information. As stated above it is not clear to us whether there is any mechanism for Mr Boswell to obtain the information for use in his grievance appeal, but he certainly does not have any right to that information, nor can he insist upon the decision maker requesting the information or taking the material into account.   There is only a possibility that the decision maker might have obtained the information. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">259.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">The respondent submits in any event that this particular point has, by this stage in the grievance, become attenuated and remote. Ms Ivimy submitted that it is not the centre of the grievance and is an attempt to create a new ground of complaint against Mr. Bell. She submitted that it is at the furthest reaches of what is an appropriate complaint to be making as part of the grievance and notes that the appeal was a review rather than a de novo rehearing. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">260.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We accept that this issue is not the central complaint against Mr Bell, but we do find that it is closely related. In particular we do not accept that the Request is an attempt to create a new ground of complaint against Mr Bell to add to the grievance. Mr Boswell submitted his grievance appeal in February 2022, before the Request in issue was made. Part of that grievance appeal was the assertion that &#8216;Sam [who decided the grievance] also fails to mention that Iain had used his Your Call session of July the 2nd to lambast the critics of his June email as shocking and uneducated&#8217;. Further the allegation also falls under &#8216;theme two&#8217; of the grievance appeal &#8216;Ideological harassment of liberal antiracists by Iain Bell&#8230;&#8217; and reference to the comment in the Your Call session appears in the chronology in the first page of that section of the appeal document. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">261.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We accept that in normal circumstances an appeal against a grievance outcome is intended under the ONS procedure to be a review rather than a rehearing. It is clear from the quote above that Mr Boswell certainly took the view that this had been raised with the original decision maker and at the relevant time Mr Boswell was, in any event, attempting to persuade the appeal manager to exercise his power to rehear the grievance.  For all those reasons we do not accept that this is a &#8216;fishing&#8217; attempt in order to find a new ground of complaint to add to the grievance appeal</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">262.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Ms Ivimy submitted that Mr Boswell was unreasonably persistent. She submitted that he had made his complaint about the original email from Iain Bell on 8 June 2022, which had been dealt with by way of a clarification by Mr Bell on 13 July 2022. He had received the outcome to his grievance, which had, in the main, not been upheld. He had been provided with information in response to a number of requests. She submitted that he was being unreasonably persistent in pursuing his complaint about the original email, and that he was being unreasonably persistent in repeatedly requesting personal information of other members of staff and by insisting that requests be treated as SARs, despite being repeatedly told the ONS&#8217; position. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">263.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">If we had been considering a request made today, we would have agreed with the ONS on this issue. Mr Boswell continues (although not in the Request in issue) to repeatedly request personal data. He continues to insist that particular requests are treated as SARs. The underlying grievance has now been exhaustively considered and addressed. His persistence has, by the time of the tribunal hearing, become unreasonable. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">264.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">However, at the time of the response to the Request, we accept that Mr Boswell&#8217;s private interest in the information shows that there was a serious purpose behind the complaint. The requested information, which we have not seen, was at least potentially of relevance to his grievance appeal and therefore at least potentially of value to him in pursuing his grievance.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="margin-left:1.18in;text-indent:-0.89in"><span style="font-style:italic;font-family:'Book Antiqua'">Motive</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">265.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We do not accept that Mr Boswell&#8217;s motive for making the Request in issue was a &#8216;fishing expedition&#8217; for evidence to support new harassment complaints against colleagues. We have already dealt with the question of whether this was an attempt to make a new complaint against Mr Bell. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">266.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">In relation to colleagues, the Request in issue first appeared as part of the multi-part request made on 25 February 2022 that was refused as vexatious. Although many parts of that request sought individuals&#8217; names, the bullet point equivalent to the current request did not. That is presumably because the purpose of the request is to obtain evidence in support of the complaint against Mr Bell. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">267.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Although the Request itself does ask the ONS to consider the necessity of redactions or omissions of third-party data, this point is specifically made with reference to those emails described by Mr Bell as &#8216;shocking&#8217; which the context suggests are emails supportive of Mr Boswell rather than emails containing matters that could form the basis of additional harassment complaints by Mr Boswell. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">268.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We do not accept that this particular Request was intended to unearth evidence that would form the basis of new complaints against either Mr Bell or colleagues. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">269.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We have already stated above that we do not accept that Mr Boswell deliberately made a request that overlapped with the MC FOIA request to cause disruption or annoyance. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="margin-left:1.18in;text-indent:-0.89in"><span style="font-style:italic;font-family:'Book Antiqua'">Harassment and distress</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">270.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Up to the relevant date, Mr Boswell had adopted a moderate and courteous tone in his correspondence and telephone conversations with the respondent. We accept that individuals working in Legal Services felt uncomfortable with talking to a FOI requestor by telephone, as a result of the direct access which was available to Mr Boswell as an employee. We accept that dealing with the burden set out above was annoying and probably stressful. We do not accept, at the relevant date, that this reached the threshold of harassment or distress. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">271.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Circumstances arising after the date upon which the request was responded to by the public authority are not relevant unless they cast light on the position at the relevant date. We do not accept that the letter of 22 May 2022 in which Mr Boswell accuses the legal officer who sent the response of unprofessionalism, bias and harassment casts any light on the position at the time of the response to the request.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">272.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">If this letter had been sent before the response to the Request, we would have taken the view that Mr Boswell&#8217;s immoderate tone and specific targeting of the individual who wrote the response was likely to cause distress to that individual. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">273.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">We have also considered the potential for distress to those individuals whose emails fall within the scope of the request. We accept Ms Ivimy&#8217;s submission that the ONS will &#8216;potentially&#8217; have to contact those individuals. They may not have to if they rely again on section 41. They are not obliged to attempt to seek consent to disclosure. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">274.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">The ONS may be able to make a judgment on whether or not disclosure of any &#8216;personal stories&#8217; or personal opinions of those who are not supportive of Mr Boswell is reasonably necessary for the purposes of his identified legitimate interests without contacting those individuals.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">275.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">As identified under burden above, in our view it might be possible under section 16 to suggest to Mr Boswell that the request be limited to those emails up to and including 2 July 2020, which would exclude any emails sent after Mr Boswell&#8217;s open email and, we anticipate, most of the &#8216;personal stories&#8217; emails. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">276.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">However, we do accept that the ONS will at least potentially have to contact some or all of the individuals when considering the exemptions. Further, in the event that ONS adopt a different approach to the MC FOI request and decide to disclose some of the private emails, the ONS are likely to have to contact those individuals.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">277.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Although we have not seen the relevant emails, we accept that some contain personal stories of harassment or discrimination. Further we accept that some individuals clearly found the entire incident stressful and upsetting. For those reasons we accept that responding to the request has the potential to cause upset to some employees and we take that into account. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="margin-left:1.18in;text-indent:-0.89in"><span style="font-style:italic;font-family:'Book Antiqua'">Conclusions</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">278.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">One of the main purposes of FOIA is to provide citizens with a qualified right of access to official documentation and thereby a means of holding public authorities to account. It is important for that qualified right of access that vexatiousness is a high hurdle. Further, whilst we have structured our discussion around a number of convenient headings, we must take a holistic approach to our assessment and we bear in mind that the fundamental question is whether or not the request was vexatious in the sense of being a manifestly unjustified, inappropriate or improper use of FOIA.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">279.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">In our view, at the relevant time, the burden of this particular request, even looked at in the context of the entire related course of dealings, was reasonably significant but not disproportionate. We accept that there was some potential distress to some individuals and this points towards vexatiousness. We accept that Mr Boswell had been extremely persistent, but in the relevant period, we find that this persistence had not yet become unreasonable. We do not accept that there was an inappropriate motive for making the request. We accept that there was purpose and at least potential value to Mr Boswell in making the request. We do not accept that this was an inappropriate or improper use of FOIA or a request without reasonable foundation. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">280.</num>
+		  <content>
+		    <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Having considered the matter carefully and in the round, we find that this Request did not reach the high hurdle of vexatiousness and the appeal is allowed.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Further discussion and conclusions on vexatiousness in relation to DPR 189 and 190</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">65.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in">In relation to burden, DPR 189 and 190 were made very shortly after DPR 188, and we find that the burden is as set out in the initial decision, i.e. that the burden of responding to DPR 189 and 190, looked at in the context of the whole course of dealings and the likely future burden, is reasonably significant for an organisation like ONS. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">66.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in">In relation to purpose and value, for the reasons set out in detail in the initial decision,  we accept that at the time of the response to the requests, there was a serious purpose to the requests in that the requested information was at least potentially of relevance to Mr Boswell&#8217;s grievance appeal and therefore at least potentially of value to him in pursuing his grievance. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">67.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in">In relation to harassment and distress, we rely on our findings above. We do not accept, at the relevant date, that Mr Boswell&#8217;s conduct had reached the threshold of harassment or distress. We accept that responding to the requests has the potential to cause upset to some employees and we take that into account. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">68.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in">Taking account of the matters set out in paragraphs 257-259 of the initial decision we reach the same conclusion in relation to DPR 189 and 190. Having considered the matter carefully and in the round, we find that DPR 189 and 190 did not reach the high hurdle of vexatiousness and the appeal is allowed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Next steps</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">69.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in">Mr Boswell no longer requires the correspondence for the purposes of his grievance appeal. As set out above, we are not satisfied that there is any wider public interest in publication of those letters. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">70.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in">Mr Boswell has brought parallel proceedings in the employment tribunal. The correspondence requested in DPR 190 is relevant to those proceedings. Parties in employment tribunal proceedings are required to conduct a reasonable search for all relevant documents they have in their possession or control even if they do not support their case. ONS have carried out that search and provided the emails located to Mr Boswell in those proceedings. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">71.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in">We accept the position of ONS that all the emails in scope of DPR 190 have been provided to Mr Boswell as part of the employment tribunal proceedings. For those reasons we do not require the public authority to take any steps in relation to DPR 190. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">72.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.49in">The position in relation to DPR 189 is different. ONS has stated in correspondence to Mr Boswell that it does not hold any information in the scope of DPR 189. ONS has not said whether or not it has conducted searches for any information within the scope of DPR 189. Mr Boswell challenges the assertion that ONS holds no information within the scope of the request and questions whether or not adequate searches have been conducted. In those circumstances it is appropriate to order ONS to provide a fresh response to DPR 189. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Sophie Buckley</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-05-27" refersTo="#decision" style="font-family:'Book Antiqua'">27 May 2026</docDate><span style="font-family:'Book Antiqua'"/></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

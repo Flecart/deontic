@@ -1,0 +1,211 @@
+# Withheld tribunal reasoning — [2026] UKFTT 785 (GRC)
+# Gold-labelling material; NEVER include in a prompt.
+
+== DISCUSSION AND FINDINGS ==
+A. Scope
+
+87. We begin by identifying the correct temporal and conceptual frame. The Commissioner relies on the “time slice” principle: the question whether an exemption is engaged falls to be determined as at the date of the public authority’s response (or, if late, the expiry of the statutory period), applying Montague v IC and DIT and Keighley v IC & BBC . The Commissioner states expressly that, on this footing, the relevant date here is 15 November 2024, being the date of the Council’s response.
+
+88. We accept that approach. Our task is therefore to decide whether, as of 15 November 2024, the Council was entitled to refuse the request by reliance on section 40(2) FOIA.
+
+89. A further threshold point is the Commissioner’s statement that although the Appellant argues that suitable redactions can anonymise the data, the Commissioner “ must consider whether the council was correct to apply section 40(2) to the information which was actually requested ”, because the council “ is required to respond to the request that was made; it is not required to work out what information, similar to that requested, would not be personal data.” . The Commissioner therefore frames the issue as whether “the information, as requested” is exempt under section 40(2).
+
+90. The Commissioner is correct as a matter of principle that a public authority is ordinarily required to answer the request made and is not obliged to devise alternative formulations. However, that principle does not assist the Commissioner in the way the DN suggests, because the Appellant’s request itself expressly stipulated a key redaction—excluding any results where fewer than five candidates share the same birth date.
+
+91. This is not a case where the Appellant is asking the Commissioner (or the Council) to imagine a different request. The “ request as actually requested ” already incorporates anonymisation. The Commissioner’s framing risks treating the request as if it sought unredacted individual-level DOB and score data. It did not. The request, as recorded in the DN and in the Council correspondence, expressly included safeguards: exclusion of results where fewer than five children shared a birth date, and a request to redact any results outside the normal cohort age range (and provide a count of those removed).
+
+92. This point is central because the Step 1 identifiability assessment must be performed on the dataset as disclosed under the request, i.e. including the built-in k-threshold safeguard. The Appellant makes this criticism repeatedly in the appeal materials.
+
+93. Accordingly, the “request as made” includes (and must be analysed by reference to) those safeguards. It is not a case where the Tribunal is being asked to invent a different request; the Appellant built anonymisation features into the request itself. B. Issue 1 (Step 1): does the requested information constitute “personal data”
+
+i. The Commissioner’s Step 1 reasoning and “scenarios”
+
+94. On Step 1, the Commissioner’s conclusion is that the information falls within the definition of personal data because “there are scenarios in which it is likely that individuals could be identified” from the information requested.
+
+95. The Commissioner gives two principal examples.
+
+96. First, where a child has shared their individual score on one part of the test with another child or a third-party parent who also knows the child’s date of birth: if the combination of birth date and that known score is unique, the third-party could identify the child within the dataset and then learn the scores in the other parts of the test. The Commissioner states he is satisfied that if the combination is unique, the child would be identifiable.
+
+97. Second, where a child has told a third-party parent their score for one part of the test and that score is unique (particularly because it is very high or very low): the child would be identifiable to that parent within the dataset and the other scores and date of birth would then be relatable to that child.
+
+98. The Commissioner then concludes that the requested information, combined with existing knowledge held by some individuals as described, would allow individual children to be identified, and therefore the information falls within the definition of personal data.
+
+99. The Commissioner’s Response expands the Step 1 case by emphasising the Council’s internal review figures: “ when combining standardised, raw scores and dates of birth, 16369 of the 16388 permutations occur so infrequently that they fall below the threshold of 5 or less… 12500 of the permutations are completely unique within the dataset .”
+
+100. The Commissioner submits that friends/classmates/family “ are likely to know some of the requested information ” (DOB; and some scores disclosed “ in part or in full ”), and that it is “ reasonably likely ” that at least one member of the public could correctly identify a child from the dataset and learn something new.
+
+101. The Commissioner further submits that Spivack does not assist the Appellant because the circumstances differ: in Spivack there were “ a variety of possible reasons ” why a person might appear in the data, whereas here there is “ no other reason ” for a candidate to appear, save that they took the Kent Test.
+
+102. The Commissioner adds a practical submission: it would not be possible to disclose in anonymised form with redactions for all personal data because the Council would not know what information has been “ volunteered ” by candidates/parents; ensuring no child was identifiable “ would be extremely difficult ”; and given the special protection for children’s personal data, the Commissioner was right to “err on the side of caution.”
+
+(ii) The Appellant’s ‘Step 1’ submissions
+
+103. The Appellant frames Step 1 as a question of identifiability under the “ motivated intruder ” approach and relies heavily on Lincolnshire as a close comparator. He submits the requested information (anonymised results plus dates of birth) is “ almost identical ” to Lincolnshire , where section 40(2) was held not to be engaged; he directs attention to paragraphs 57–69 of that decision on section 40.
+
+104. The Appellant identifies differences: 1. Kent’s cohort is far larger—around 16,446 candidates (he contrasts Lincolnshire ’s 3,860); 2. Lincolnshire involved week-of-birth aggregation and does not decide that full DOB would lead to identification; 3. Kent includes 3 subject components, including Mathematics. This difference does not bear on the identifiability analysis at Step 1, but is relied upon by the Appellant at Step 2 when addressing necessity.
+
+105. He relies on “ k-anonymisation ” (including ICO anonymisation guidance), noting the NHS standard for “ strong anonymisation ” uses k=5; he says his request adopted that standard by excluding dates shared by fewer than five candidates.
+
+106. The Appellant quantifies the cohort logic: births in the relevant period are shared by about 45 candidates per date on average, and out-of-cohort candidates (who might be unique) can be removed.
+
+107. He attacks the Commissioner’s “scenario” as paradoxical and improbable: it depends on a candidate voluntarily disclosing part of their result to a close associate but simultaneously not wishing that associate to know their full results; and it depends on partial results being unique. Even if such a scenario arose, he submits, the disclosure leading to identification would be the disclosure made by the data subject themselves.
+
+108. The Appellant submits that, if the Commissioner’s reasoning were applied generally, it would prevent publication of any anonymised statistical figures derived from personal data, because voluntary disclosure could always occur. (iii) The legal test
+
+109. The Commissioner’s Response sets out the legal framework in some detail, including Recital 26 GDPR; the Article 29 Working Party Opinion warning that mere hypothetical possibility is not enough; the ICO “ motivated intruder ” guidance; Magherafelt , Miller and Morton ; and the CJEU’s statement in Breyer that the risk of identification must “ in reality… be insignificant ” to be treated as anonymous.
+
+110. The Commissioner further cites the FTT and UT decisions in Spivack for the propositions that identification requires a “ degree of certainty ”, that an individual must be distinguished from others, and that an educated guess is insufficient.
+
+111. We accept those legal propositions. They provide the correct frame for our analysis. (iv) Does the Commissioner’s scenario satisfy the legal threshold?
+
+112. The Commissioner’s Step 1 conclusion rests on a series of “scenarios” involving a third-party parent (or another child) who already knows both (i) a candidate’s date of birth and (ii) one score, or partial score.
+
+113. That scenario does not, on its face, involve a motivated intruder operating otherwise than by reference to relationship-based or insider knowledge. Rather, it presupposes relationship-based knowledge held by a parent or child, which is a form of pre-existing knowledge of the kind acknowledged in the Commissioner’s own anonymisation guidance as sometimes capable of bearing on identifiability.
+
+114. The correct question, however, remains whether—treating the disclosure as one made under FOIA to the public at large—individual children would be identifiable, having regard to all means reasonably likely to be used.
+
+115. In addressing that question, the Tribunal has had regard to the “motivated intruder” concept as set out in ICO guidance. The motivated intruder is assumed to be a reasonably competent and determined member of the public, with access to information in the public domain and the ability to cross-reference such material and draw inferences from it. They are not assumed to possess specialist expertise, insider or relationship-specific knowledge, or to engage in unlawful activity. The issue is whether disclosure, when combined with information reasonably available to the public, would enable identification of individuals or otherwise reveal personal data.
+
+116. We accept, as a general proposition, that identifiability can sometimes arise, in some circumstances, where a person or small group already knows a great deal about another individual.
+
+117. However, the Commissioner must still demonstrate that the disclosed information allows one individual to be distinguished from others through a reliable connection, as opposed to speculative or conjectural inference.
+
+118. We are not satisfied that the Commissioner has done so here, for the following reasons.
+
+119. First, the Appellant’s request incorporates a structural safeguard, namely redaction where fewer than five candidates share a date of birth. This removes the small-cohort or outlier cases which would most obviously present a risk of singling out.
+
+120. Secondly, the Commissioner’s scenarios depend upon a third-party having advance knowledge of both an individual’s date of birth and a unique score. Even if that premise is accepted in some cases, Spivack requires the Tribunal to assess whether disclosure enables identification through a reliable and meaningful connection, not whether identification could arise as a matter of possibility in a limited and highly contingent scenario.
+
+121. Thirdly, the Commissioner’s analysis does not engage with the dilution effect arising from cohort size. The Appellant’s evidence and submissions proceed on the basis that approximately 45 candidates share any given date of birth within the relevant cohort.
+
+122. That point is not merely rhetorical. It means that date of birth, even if known, does not of itself single out an individual. The Commissioner’s analysis therefore turns on the asserted uniqueness of scores or combinations of scores, rather than date of birth.
+
+123. The effect of the request’s stipulated safeguards is that the disclosed dataset would be materially constrained. In particular, any date of birth shared by fewer than five candidates would be removed, and any candidates falling outside the normal cohort age range would be excluded altogether. The disclosure would therefore not include rare or extreme values, nor would it reveal individual-level dates of birth capable of singling out candidates by reference to age. These features of the request are not peripheral: they define the information that would in fact be disclosed and therefore form part of the proper foundation for the identifiability assessment at Step 1.
+
+124. As a consequence of the request being framed in this way, the information to be disclosed would not include full dates of birth operating as quasi-identifiers. Rather, any dates of birth that might otherwise be unique or reveal outliers would be removed by operation of the request’s own safeguards. The identifiability analysis at Step 1 must therefore proceed on the basis of a dataset from which the most powerful linkage variables have already been stripped out, and not by reference to a hypothetical disclosure of raw or unconstrained personal attributes.
+
+125. Against that background, we turn to the Commissioner’s reliance on the proposition that certain examination scores are unique and that this uniqueness is sufficient, of itself, to render the corresponding individuals identifiable. We do not accept that submission. The fact that a particular score is unique within a cohort establishes only that one candidate achieved that score; it does not, without more, provide a realistic or reliable means by which that candidate could be identified in practice. In the absence of dates of birth or other quasi-identifiers, the Commissioner’s scenarios depend either upon voluntary self-disclosure by the candidate or relationship-specific prior knowledge held by parents, peers or others. Such pathways do not amount to ‘means reasonably likely to be used’ for the purposes of Recital 26, nor do they demonstrate that identification would arise as a consequence of the disclosure itself.
+
+126. Fourthly, the Commissioner’s reliance on “uniqueness”, derived from the permutations figures, is misplaced if treated as determinative. The mere fact that a combination of variables is unique within a dataset does not of itself render the data identifiable. What matters is whether there exists a realistic and reliable route by which that unique combination can be connected to an identified individual in the world outside the dataset.
+
+127. The route relied upon by the Commissioner is said to lie in prior knowledge held by some parents or children, namely a date of birth together with one score. However, the Commissioner does not demonstrate that such prior knowledge, when combined with the disclosed dataset and taking account of the safeguards in place, would enable identification by way of a reliable connection. At its highest, the case advanced establishes only the possibility of inference in a limited and contingent set of circumstances, rather than a connection sufficient to render the data personal.
+
+128. For completeness, the Tribunal emphasises that it has reached its conclusions on the basis of its own assessment of the evidence and applicable legal principles. In referring to Spivack v Information Commissioner , the Tribunal recognises that it is a decision of the First-tier Tribunal and is not binding or authoritative. It is relied upon only as a persuasive illustration of the correct analytical approach, namely that identifiability depends upon the existence of a reliable connection between the data and an individual, rather than the mere possibility of inference in hypothetical circumstances.
+
+129. Fifthly, the Commissioner’s formulation that “at least one person could identify at least one candidate” is, as a general proposition, capable of being correct in some datasets.
+
+130. However, in this dataset, the Commissioner does not demonstrate that such identification is reasonably likely in reality once the request’s own anonymisation measures are applied, rather than amounting to a mere hypothetical possibility of the kind cautioned against by Recital 26 and Opinion 4/2007. (v) The Commissioner’s “difficulty of redaction” and “err on the side of caution” point
+
+131. The Commissioner submits that effective redaction is “extremely difficult” because the Council cannot know what information individual candidates or parents may have volunteered to others and therefore cannot know what must be redacted in order to prevent identification.
+
+132. We accept that absolute or perfect anonymity can rarely be guaranteed, particularly in the context of large or complex datasets.
+
+133. However, the applicable legal standard is not the elimination of all conceivable risk. The question is whether, considering all means reasonably likely to be used, identification is realistic rather than hypothetical or speculative.
+
+134. Properly analysed, the Commissioner’s “volunteered information” point concerns the consequences of choices made by data subjects themselves, or by their parents, to disclose information to others.
+
+135. That is a relevant contextual consideration, but it cannot, without more, convert information that is otherwise anonymous into personal data merely because a data subject may choose to render themselves identifiable to another individual. As the Appellant submits, FOIA identifiability cannot turn on the possibility of voluntary self-disclosure by those to whom the data relates.
+
+136. Put another way, the Commissioner’s approach risks collapsing into the proposition that anonymisation fails whenever a data subject might share one or more attributes with another person. That formulation is too broad and would sit uneasily with the concept of anonymous data expressly recognised in Recital 26.
+
+137. Accordingly, whilst we accept that the Council must proceed responsibly and with appropriate caution, the Commissioner’s reliance on an obligation to “err on the side of caution” does not bridge the analytical gap. It does not demonstrate that, once the request’s own safeguards are applied, identification in practice is realistic, as opposed to resting on conjecture or voluntary self-disclosure.
+
+(vi) The Commissioner’s distinction of Spivack
+
+138. The Commissioner distinguishes Spivack by saying that, in that case, there were multiple reasons why an individual might appear in the dataset, whereas here the only reason is that the candidate sat the Kent Test.
+
+139. We accept that the contexts differ.
+
+140. But the core proposition in Spivack is that identification requires more than an educated guess: the information must allow one individual to be distinguished from others by way of a reliable connection. Being merely in a position to guess correctly, in the absence of such a connection, is insufficient.
+
+141. The Commissioner’s distinction does not answer the Appellant’s point that, with DOB shared by many candidates and with safeguards excluding low-k dates, the dataset does not permit reliable singling out.
+
+142. We therefore do not consider the Spivack distinction sufficient to uphold the Step 1 conclusion.
+
+143. We reiterate, in relying on Spivack v Information Commissioner , the Tribunal is mindful that it is a decision of the First-tier Tribunal and is not binding or authoritative. The Tribunal does not treat Spivack as laying down a freestanding legal test. Rather, it is relied upon for the assistance of its reasoning, insofar as it reflects and illustrates established principles applicable to identifiability, including the distinction between identification by way of a reliable connection and identification resting on conjecture or educated guesswork. The relevance of Spivack in the present context lies not in its factual matrix, but in its articulation of that analytical distinction, which the Tribunal considers of general application.
+
+(vi) Engagement with Lincolnshire
+
+144. The Appellant relies strongly on Lincolnshire as a near-match comparator and complains that the DN contains no reference to it, despite it having been drawn to the Commissioner’s attention.
+
+145. The Commissioner’s documents do not demonstrate a reasoned explanation of why Lincolnshire is distinguishable on the identifiability issue (as opposed to merely stating the legal test).
+
+146. We accept that FTT decisions are not binding. But where a materially similar Tribunal decision has been squarely relied upon as part of a party’s submissions, the absence of meaningful engagement with that decision – beyond a recitation of the applicable legal test – may give rise to a concern as to the adequacy of reasoning. That omission forms part of the Appellant’s wider criticism of the adequacy of the DN’s reasoning.
+
+147. Before drawing our conclusions on Step 1, we make the following clarification as to the legal standard we have applied. For the avoidance of doubt, we emphasise that our conclusion on identifiability is not reached by applying an unduly exacting or unrealistic threshold. We do not require proof of actual identification, nor do we treat the absence of certainty as determinative. The correct test, derived from Recital 26 UK GDPR and the authorities cited above, is whether identification would be reasonably likely in practice by reference to means reasonably likely to be used, rather than resting on speculative, contingent or purely theoretical possibilities. We have approached that question on the footing that identifiability may, in some circumstances, arise even where the risk is confined to a small subset of cases or a limited audience. However, having assessed the dataset as it would in fact be disclosed under the request — including the express k-threshold safeguard and the exclusion of out-of-cohort candidates — we are not satisfied that the pathways relied upon by the Commissioner amount to more than hypothetical scenarios dependent on voluntary disclosures or relationship-specific prior knowledge. In our judgment, such scenarios do not establish a realistic or reliable route by which individuals would be identified as a consequence of the disclosure itself. Even adopting the Commissioner’s formulation of “reasonable likelihood”, the risk of identification here remains too remote, once properly analysed, to render the information personal data within the meaning of Article 4(1) UK GDPR and Recital 26.
+
+(vii) Conclusion on Step 1
+
+148. Drawing the analysis together, the Tribunal is not satisfied that the Commissioner has demonstrated that disclosure of the requested information, treated as disclosure under FOIA to the public at large and subject to the request’s own anonymisation measures, would make it possible in practice to identify living individuals by reference to means reasonably likely to be used. The Commissioner has not identified any objective mechanism inherent in the dataset that would enable members of the public to single out individuals without recourse to conjecture or external contingencies.
+
+149. In particular, the scenarios advanced depend upon the existence of additional information held by specific parents or children, or upon voluntary self-disclosure by the data subjects themselves. Such possibilities do not constitute means reasonably likely to be used by the public at large, nor do they establish a realistic pathway by which the data disclosed could be linked to identified individuals as a consequence of the disclosure itself.
+
+150. Assessing the matter objectively and having regard to the safeguards incorporated into the request, the Tribunal is not persuaded that disclosure would render individuals identifiable in the sense required by Recital 26. What remains are theoretical or incidental possibilities of identification, rather than identification arising from the data through means reasonably likely to be employed.
+
+151. Section 40(2) is therefore not engaged. The information disclosed, subject to the request’s built-in safeguards, constitutes anonymous information rather than personal data. C. Issue 2 (Step 2): Article 6(1)(f) — lawful processing
+
+152. In light of our conclusion on Step 1, Step 2 does not strictly arise. However, Article 6(1)(f) was fully argued before us, and the Commissioner’s DN proceeds on that basis. We therefore address it in the alternative, in case we are wrong in our conclusion on Step 1.
+
+153. The Commissioner identifies Article 6(1)(f) as the relevant lawful basis for processing and correctly sets out the applicable three-stage test: (i) the existence of legitimate interests; (ii) necessity; and (iii) the balancing exercise. He further recognises that the necessity limb must be satisfied before the balancing exercise is undertaken.
+
+154. The Commissioner concludes that legitimate interests exist, framed in terms of transparency and oversight; that disclosure is necessary and that no less intrusive means are available; but that the balancing exercise favours non-disclosure because children would not reasonably expect their dates of birth and test scores to be disclosed to the public at large, and because disclosure could cause distress to affected individuals.
+
+155. In his Reply, the Appellant challenges the Commissioner’s analysis of legitimate interests on two grounds.
+
+156. First, he submits that the Commissioner failed to identify or explore the Appellant’s legitimate interests during the investigation, such that those interests were articulated in full only on appeal.
+
+157. Secondly, he contends that the Commissioner’s formulation of the legitimate interests pursued—described as oversight of school offers and placements—is factually inapt. He submits that, in Kent, outcomes communicated to parents are essentially pass/fail against the grammar assessment threshold, whereas his interest lies in age standardisation, cohort effects, and fairness, rather than placements as such.
+
+158. The Appellant then sets out a detailed legitimate interest case, grounded in research concerning socio-economic disadvantage and age-in-cohort effects, governmental policy statements on disadvantage in selective admissions, and determinations of the Schools Adjudicator indicating that lack of age standardisation may render an admissions test unfair.
+
+(i) Legitimate interests
+
+159. We accept that entitlements under FOIA are applicant- and motive-blind, in the sense that a requester’s motive is not determinative of the right to information.
+
+160. However, where Article 6(1)(f) is relied upon, the decision-maker is required to identify the legitimate interests pursued and to weigh them. It is lawful for a decision-maker to identify general transparency as a legitimate interest.
+
+161. In the present case, however, the Appellant’s evidence discloses specific and non-trivial legitimate interests (as detailed in the Appellant’s witness statement and reply in particular), namely independent research into the fairness of admissions testing affecting large cohorts of children, with potential relevance to public policy debates concerning disadvantage and selection.
+
+162. The Commissioner’s DN does not engage with those specific interests. On the Appellant’s unchallenged account, they were not sought from him during the course of the investigation.
+
+163. We consider that omission to be material, given that the Commissioner then proceeded to afford determinative weight to privacy impacts without having articulated or evaluated the legitimate interests at their proper strength.
+
+(ii) Necessity
+
+164. The Appellant advances a detailed case on necessity. He explains that the Department for Education does not hold the data sought; the National Pupil Database does not contain it; the 11+ is not regulated by Ofqual; grammar schools and relevant bodies are resistant to data sharing; and that FOIA is therefore the only realistic route to access. He further submits that Kent is uniquely valuable by reason of cohort size and the inclusion of mathematics.
+
+165. On necessity, while the DN reaches a conclusion in the Appellant’s favour (necessity is met), it does so without engaging with the Appellant’s detailed necessity case. We agree that, on these materials, the “reasonable necessity” threshold discussed in Goldsmiths v ICO and the Home Office would be satisfied. We record that the Appellant’s necessity evidence materially strengthens the case for disclosure if balancing is required.
+
+(iii) The balancing exercise
+
+166. The Commissioner’s balancing analysis is set out at §§39–47 of the DN. He places weight on the reasonable expectations of privacy; the fact that children would not expect their dates of birth and test scores to be disclosed to the public at large; the potential for distress to identifiable children, particularly those with poor results; the breadth of FOIA disclosure as compared with voluntary sharing with friends or family; and concludes that the legitimate interests identified do not outweigh the rights and interests of the children concerned.
+
+167. The Appellant responds that the “whole world” framing is overstated. He submits that the only plausible route to identification arises where a child has voluntarily disclosed partial information to a close associate, and that the realistic harm in such cases is limited to the possibility that the child may reveal more than intended to that one individual.
+
+168. We accept as a general proposition that children reasonably expect their test results not to be published in identifying form, and that the rights and freedoms of child data subjects’ merit particular protection.
+
+169. We agree with the Commissioner that disclosure under FOIA is disclosure to the public at large as a matter of legal character, as confirmed in Office of Government Commerce v Information Commissioner .
+
+170. However, the central question in the balancing exercise is not merely the theoretical breadth of disclosure, but its practical impact. Where information is anonymised such that identification is not realistically enabled, the weight to be attached to the “whole world” character of FOIA disclosure correspondingly diminishes, because the public at large would be unable to connect the data to identified individuals.
+
+171. In that respect, the Commissioner’s balancing analysis is contingent upon the conclusion at Step 1 that identifiable personal data would be disclosed. As we do not accept that conclusion for the reasons set out above, the analysis of distress and reasonable expectations is substantially weakened.
+
+172. Even if we were wrong on Step 1, we would observe that the Commissioner’s balancing analysis does not engage with the request’s own safeguards, including the k≥5 threshold and the exclusion of outliers, which materially reduce the likelihood that any child could be identified in a manner giving rise to distress or unwarranted intrusion.
+
+173. The DN’s reasoning therefore overstates harm by treating a narrow, contingent inference scenario as tantamount to publication of a child’s identifiable results to the world. We find that this is not justified on the materials. (iv) Common Services Agency v Scottish Information Commissioner and Blake v Information Commissioner
+
+174. The Commissioner reminds the Tribunal that there is no presumption that transparency overrides privacy, relying on Common Services Agency v Scottish Information Commissioner and Blake v Information Commissioner for the high level of protection afforded to personal data.
+
+175. We accept those propositions.
+
+176. They do not, however, determine the present appeal. Both authorities concern circumstances in which personal data was in issue. Where information can properly be disclosed in anonymised form such that section 40(2) is not engaged, those authorities do not mandate non-disclosure. D. Issue 3: Section 16 FOIA and adequacy of reasoning
+
+177. Given our conclusions on the substantive issues above, it is not necessary to reach a determination on the Appellant’s section 16 FOIA ground. That issue does not affect the outcome of the appeal, which turns on whether section 40(2) is engaged. We therefore express no concluded view on section 16. Conclusion
+
+178. For the reasons set out above, we conclude that the Commissioner’s DN is not in accordance with the law. The Decision Notice proceeds on the basis that the requested dataset, notwithstanding its built-in safeguards, constitutes personal data, without adequately demonstrating that disclosure would enable identification by reference to means reasonably likely to be used. It then undertakes a balancing exercise under section 40(2) FOIA and Article 6 which is dependent on that initial assessment.
+
+179. It follows that section 40(2) FOIA is not engaged, and the appeal is therefore allowed.
+
+Signed Date:
+
+Judge Kiai 19 May 2026

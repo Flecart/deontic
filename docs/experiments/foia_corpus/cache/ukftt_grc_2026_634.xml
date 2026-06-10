@@ -1,0 +1,1209 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/634"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/634"/>
+	  <FRBRdate date="2026-04-29" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="634"/>
+	  <FRBRname value="The English Heritage Trust v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/634"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/634"/>
+	  <FRBRdate date="2026-04-29" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/634/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/634/data.xml"/>
+	  <FRBRdate date="2026-04-29T09:41:33" name="transform"/>
+	  <FRBRdate date="2026-04-29T11:08:05" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-03-18" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-27" refersTo="#decision" source="#"/>
+	<eventRef date="2026-04-29" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="the-english-heritage-trust" href="" showAs="THE ENGLISH HERITAGE TRUST"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>634</uk:number>
+	<uk:cite>[2026] UKFTT 634 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>8a9792b6d54257f517c0bd7c4f6722ad00c32f1fa4dd0b7d2f1db1a70f483563</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .judgment-bodynumber { }
+#judgment .visually-hidden { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00634 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0345</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-03-18" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">18 March 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-29" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">29 April 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HARRIS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER EDWARDS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER SHAW</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#the-english-heritage-trust" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">THE ENGLISH HERITAGE TRUST</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p style="text-align:center;margin-left:0.25in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Remi Reichhold</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent: Natalie Nguyen</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="paragraph" style="text-align:justify;margin-left:0.49in"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">Background to the appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">This appeal concerns a decision of the Information Commissioner (the &#8220;IC&#8221;) dated 21 August 2025, reference IC-357435-K3R4 (the &#8220;Decision&#8221;). The Decision was in connection with a request for information made to English Heritage (&#8220;EH&#8221;) about considerations for a blue plaque for Sir Charles Chaplin under the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The complainant wrote to EH on 19 October 2024 and requested information in the following terms:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;1...Can you provide a list of occasions when the late Sir Charles Chaplin was suggested and or recommended for a blue plaque. These recommendations and or suggestions may have originated from within the organisation itself, or they may have been suggested by someone outside the organisation. Please include all those recommendations and</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-style:italic">suggestions which were for whatever reason declined and or not acted upon as well as the recommendation which resulted in the erection of the blue plaque in 2017. In the case of each recommendation and or suggestion can you state when the recommendation /suggestion was received/made. In the case of each recommendation/suggestion can you state whether it was forwarded to English Heritage's Blue Plaques Panel. In the case of each recommendation / suggestion can you state whether English Heritage carried out and or commissioned historical research into Sir Charles&#8217;s career and or his private life and or his political affiliations.   </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">2...Can you list those occasions when the recommendation and or a suggestion for a blue plaque for Sir Charles was declined by English Heritage even though he met the eligibility criteria for the honour. In the case of each occasion when the recommendation and or suggestion</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-style:italic">was declined and or not acted upon can you state the reason why the idea for a blue plaque was not proceeded with.   </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">3...lf English Heritage carried out and or commissioned historical research either into the suitability of Sir Charles for a blue plaque and</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-style:italic">or into his private life and or his political beliefs and or his career, can</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-style:italic">you provide a copy of this research.&#8221;  </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">EH responded on 14 November 2024. It provided a response concerning<span style="font-family:'Times New Roman'"/>parts one and two of the request and stated that it was relying on section 22 of FOIA (intended for future publication) to withhold the requested information for part 3 of the request.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Following an internal review, EH wrote to the complainant on 6 January<span style="font-family:'Times New Roman'"/>2025. It provided some of the requested information concerning recommendation occasions and maintained its reliance on section 22 to withhold the remaining information (the &#8220;Disputed Information&#8221;) requested in part 3 of the request.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The complainant contacted the IC on 20 January 2025 to complain about the way their request for information had been handled. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">When providing its submission to the IC, EH withdrew its reliance on section 22 of FOIA.  This is because at the time of the Request, it could not be determined with certainty precisely which parts of the Disputed Information would be included within the forthcoming Blue Plaques Guide. EH stated that it instead considered that section 36, section 43, and section 40(2) of FOIA applied to the Disputed Information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 4 July 2025, EH wrote to the complainant to update its position. It also provided a redacted copy of a Panel Report.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 21 August 2025, the IC issued the Decision Notice. In it, he determined that while EH was entitled to rely on section 36 of FOIA, the balance of the public interest is weighted in favour of disclosure. He found that EH was not entitled to rely on section 43 of FOIA, but it was entitled to rely on section 40(2) of FOIA to withhold some of the information in part 3 of the request. He also found that, on the balance of probabilities, EH does not hold any further information within scope of parts 1 and 2 of the request.  The IC required EH within 30 calendar days to disclose the information requested in part 3 of the request, except for the information withheld under section 40(2) of FOIA.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold;font-family:'Segoe UI'">Abbreviations used in this&#160;decision</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;Chaplin&#8221; means Sir Charles (Charlie) Chaplin</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;Decision&#8221;&#160;and &#8220;Decision Notice&#8221; mean the IC&#8217;s decision dated&#160;21 August 2025, reference IC-357435-K3R4</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="eop" style="font-family:'Segoe UI'">&#8220;Disputed Information&#8221; means the information withheld in response to the complainant&#8217;s request</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="eop" style="font-family:'Segoe UI'">&#160;&#8220;EH&#8221; means English Heritage</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;FOIA&#8221; means the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>. All references to sections are references to sections of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref> unless otherwise&#160;specified</span><span class="eop" style="font-family:'Segoe UI'">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;IC&#8221; means the Information Commissioner, the First Respondent</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="eop" style="font-family:'Segoe UI'">&#8220;Panel&#8221; means the Blue Plaques Panel</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;QP&#8221; means qualified&#160;person</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;UT&#8221; means the Upper Tribunal, Administrative Appeals Chamber</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Procedural matters concerning the&#160;hearing&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">There was an OPEN session attended by all the parties present and a CLOSED session which was attended only by EH, the IC and their representatives.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal considered an OPEN bundle of documents (228&#160;pages) and an authorities bundle (408 pages).&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal also considered a CLOSED bundle of withheld documents (11&#160;pages) and a CLOSED note from the IC (3 pages). Prior to the hearing an application under rule 14 of the Tribunal Rules had been made as regards the Disputed Information and other&#160;CLOSED&#160;material and an order made that disclosure of the information contained in the CLOSED bundle and CLOSED Note should not be disclosed or published to any person other than&#160;the IC and EH&#160;in this case pending further order.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">There were, within the hearing, two brief CLOSED sessions in which the Tribunal heard CLOSED evidence from the two witnesses and explored the CLOSED material with them. As both parties were permitted to see and hear CLOSED material, there was no need to provide a gist to either party</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">Having considered all the evidence, the Tribunal&#8217;s view was that the reasons for its decision could be properly set out in an OPEN decision and therefore did not prepare a separate CLOSED decision.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">EH appealed the Decision to the Tribunal on 18 September 2025. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In its grounds of appeal, it noted that it was common ground between the parties and not disputed that the exemptions in sections 36(2)(b)(i), 36(2)(c) and 40(2) are engaged.  EH gave the following grounds for appeal:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold">Ground 1</span> The IC erred in not finding that section 43(2) is engaged. EH is striving towards financial independence which involves undertaking commercial activities including publications. It is intending to publish a forthcoming book on Blue Plaques and considers that disclosure of the information would be likely to diminish the originality and impact of the publication and mean that it &#8220;<span style="font-style:italic">necessarily loses its value as original work that can be used by [EH] through its commercial activities</span>.&#8221;, which is likely to affect the commercial success of EH&#8217;s publications or ticket sales for an event based on, or produced with the benefit of the disputed information.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold">Ground 2</span> In relation to sections 36(2)(b)(i) and 36(2)(c), the IC erred in finding that the balance of public interest favours disclosure and failed to give sufficient weight to the factors in favour of maintaining the exemption. EH argued that the public interest in transparency and accountability is already met to a very large degree. </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">In relation to section 36(2)(b)(i) it said the IC was wrong to conclude that an EH historian would not alter the way they perform their role for fear of disclosure of internal briefing papers; this would be likely to inhibit the process by which a commemoration of an individual by a Blue Plaque is determined. Disclosure of advice as to the appropriateness of a commemoration would be likely to result in a real and tangible chilling effect, inhibiting historians from being candid and lowering the quality of discussion and debate.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">In relation to section 36(2)(c), disclosure of the disputed information is likely to detract from EH&#8217;s ability to fully celebrate the commemoration of Chaplin &#8220;<span style="font-style:italic">and would detract from the sense of occasion emanating from publication of the upcoming Blue Plaques book as well as other anticipated events/activities concerning Charlie Chaplin, including a Blue Plaques app</span>.&#8221; It would deprive EH of &#8220;<span style="font-style:italic">the opportunity to unveil, on its own terms, the original historical research and analysis carried out by its own historians</span>&#8221; and &#8220;<span style="font-style:italic">goes to the heart of [EH]&#8217;s public function</span>&#8221;. EH argued that the IC was wrong to discount this prejudice on the basis that:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:2in;text-indent:-0.25in">1.</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:2in">The Blue Plaques book is expected to be published in 2027; and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:2in;text-indent:-0.25in">2.</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:2in">The publication includes other Blue Plaque recipients.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold">Ground 3</span> Because the IC determined that section 43(2) is not engaged, it did not engage with the balancing of the public interest so far as it concerns EH&#8217;s commercial interests. EH argued that there are weighty public interest arguments in favour of withholding the disputed information under section 43(2), including EH being able to:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">Generate income to fulfil its public functions and carry out its charitable aims;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">Becoming less reliant on the public purse;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in">Obtain the benefit of its original work product; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iv.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">Compete with other entities engaged in publication, events and hospitality on a level playing field.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold">Ground 4</span> In the alternative, and only to the extent necessary, EH relies on the Supreme Court&#8217;s decision in <span style="text-decoration-line:underline;text-decoration-style:solid">Department for Business and Trade v IC</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2025/27" uk:canonical="[2025] UKSC 27" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKSC 27</ref> (&#8220;the <span style="text-decoration-line:underline;text-decoration-style:solid">DBT</span> decision&#8221;) with respect to adopting a cumulative approach to the public interest under both section 36(2) and section 43(2).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">IC&#8217;s response to the Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC filed a Response dated 18 November 2025 in which it responded to the grounds of appeal raised by EH.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In relation to Ground 1, the IC submitted that EH has failed to advance any, or any sufficient, evidence regarding (i) the specific harm to its commercial activities which would stem from disclosure of the information in question and/or (ii) the causal link between disclosure and such harm. He argued that EH has failed to identify the specific commercial interests which would be at risk due to disclosure and why its commercial activities relating to its broader network of historic sites and monuments would be at risk where the requested information concerns only Chaplin and his recommendation for a blue plaque. He also argued that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"> EH has withdrawn reliance on section 22 (future publication) on the basis that it could not say which elements of the research would be used to create the Blue Plaques Guide so the envisaged harm is speculative; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">EH has not identified precisely which parts of the requested information could be capitalised upon, or any real tangible monetary benefit flowing from the research.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The wealth of publicly available biographical information makes it unlikely the requested information would be needed to enable other organisations to introduce their own commercial activities.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In relation to Ground 2, the IC submitted that EH&#8217;s evidence about the need for a safe space for free and frank advice does not identify any aspect of the information contested in these proceedings where such a space is needed. Employees of public authorities are not expected to operate under an assumption that their advice will be protected from disclosure. In relation to the importance of preserving the celebration of Chaplin&#8217;s commemoration through controlled publication is not a factor to which weight should be given in assessing the balance of the public interest, where there is a clear public interest in transparency and accountability and how the decision to award a Blue Plaque to Chaplin was reached.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC argued that Ground 3 is only relevant if the Tribunal finds that section 43(2) is engaged. He said that the factors identified by EH are unparticularised and do not evidence a link between the actual requested information, its sensitivity and how the information could be utilised for the purpose specified in the grounds of appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC stated that Ground 4 does not disclose any error of law that could be the subject of appeal. Without prejudice to this position, the IC agrees the Tribunal is bound by the <span style="text-decoration-line:underline;text-decoration-style:solid">DBT</span> decision and that the Tribunal would need to consider the public interest factors applying to the same piece of information cumulatively if the exemptions were engaged, but argues that it is appropriate to consider each exemption and the public interest which applies in sequence. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">EH did not file a Reply to the IC&#8217;s Response.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Legal Framework</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The relevant law was not in dispute between the parties. The Tribunal is grateful to the IC for its summary, which it adopts in part below.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Section 36 (prejudice to effective conduct of public affairs)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Section 36(2) of FOIA states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in">&#8220;<span style="font-style:italic">Information to which this section applies is exempt information if, in the reasonable opinion of a qualified person, disclosure of the information under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8212;&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">would, or would be likely to, inhibit&#8212;  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(i)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.3in"><span style="font-style:italic">the free and frank provision of advice&#8230;or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">would otherwise prejudice, or would be likely otherwise to prejudice, the effective conduct of public affairs.</span> &#8220;</p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The exemptions at s.36(2) FOIA can only be engaged on the basis of the reasonable opinion of a qualified person (&#8220;QP&#8221;). A reasonable opinion is one which is not irrational or absurd, but the opinion does not have to be the only reasonable opinion or the &#8216;most&#8217; reasonable opinion that could be held. If the opinion is reasonable, the IC should not substitute his own view for that of the QP: <span style="text-decoration-line:underline;text-decoration-style:solid">Guardian Newspapers Ltd and Brooke v Information Commissioner and British Broadcasting Corporation</span> (EA/2006/0011 and EA/2006/0013, 8 January 2007) (&#8220;Guardian Newspapers Ltd&#8221;), at [54], as cited with approval in <span style="text-decoration-line:underline;text-decoration-style:solid">Information Commissioner v Malnick and the Advisory Committee on Business Appointments</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/72" uk:canonical="[2018] UKUT 72 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 72 (AAC)</ref>, at [47].  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">It is common ground between the parties in this case that the threshold test of the reasonableness of the QP&#8217;s opinion is met, so the remaining question for the Tribunal is whether the public interest weighs in favour of disclosure or maintaining the exemption.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Arguments under s.36(2)(b)(i) are usually based on the concept of a &#8216;chilling effect&#8217;, that the loss of frankness and candour would damage the quality of advice and deliberation and lead to poorer decision-making. There is a body of case law that recognises the importance of caution when considering a generalised and unspecific &#8220;chilling effect&#8221; argument that disclosure of discussions would inhibit free and frank discussions which would impact the quality of advice and decision making &#8211; see&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">Davies v IC and the Cabinet Office</span>[2020] AACR 2, 11 June 2019 at [25]- [26]. This is because there is no absolute guarantee of confidentiality for public authorities in all circumstances and public officials are expected to be impartial and robust when giving advice and not easily deterred by possible future disclosure. In <span style="text-decoration-line:underline;text-decoration-style:solid">Davies</span>, the Upper Tribunal at [28] emphasised that the correct approach when assessing the competing public interests under FOIA includes assessing the actual harm or prejudice which weighs against disclosure, which required detailed identification, proof, explanation and examination of the likely harm or prejudice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Section 36(2)(c) is intended to apply to cases not covered by another specific exemption, and where the disclosure would prejudice the public authority&#8217;s ability to offer an effective public service or to meet its wider objectives or purposes due to the disruption caused  by  the  disclosure  or  the  diversion  of  resources  in  managing  the  impact  of disclosure:  <span style="text-decoration-line:underline;text-decoration-style:solid">McIntyre  v  Information  Commissioner  and  the  Ministry  of  Defence </span>(EA/2007/0068, 4 February 2008), at [25].  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 36 is not listed under section 2(3) FOIA, so it is a qualified exemption and is subject to the public interest test at section 2(2)(b), which requires consideration of whether &#8220;<span style="font-style:italic">in all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The case of&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">All Party Parliamentary Group on Extraordinary Rendition (APPGER) v IC &amp; Foreign and Commonwealth Office</span>&#160;<ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2013/560" uk:canonical="[2013] UKUT 560 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKUT 560 (AAC)</ref> gives guidance on how the balancing exercise required by s 2(2)(b) of FOIA should be carried out:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;&#8230; when assessing competing public interests under FOIA the correct approach is to identify the actual harm or prejudice that the proposed disclosure would (or would be likely to or may) cause and the actual benefits its disclosure would (or would be likely to or may) confer or promote. This &#8230; requires an appropriately detailed identification of, proof, explanation and examination of both (a) the harm or prejudice, and (b) benefits that the proposed disclosure of the relevant material in respect of which the exemption is claimed would (or would be likely to or may) cause or promote.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The balancing of public interest is on the basis of how matters stood at the time of the public authority&#8217;s response to a request under FOIA.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Section 43(2) (commercial interests)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 43(2) FOIA provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in">&#8220;<span style="font-style:italic">Information is exempt information if its disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref> would, or would be likely to, prejudice the commercial interests of any person (including the public authority holding it).&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Court of Appeal in <span style="text-decoration-line:underline;text-decoration-style:solid">Department for Work and Pensions v Information Commissioner</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/758" uk:canonical="[2016] EWCA Civ 758" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 758</ref> at [27] approved the Tribunal&#8217;s statement in <span style="text-decoration-line:underline;text-decoration-style:solid">Christopher Martin Hogan and Oxford City Council v Information Commissioner</span> (EA/2005/0026 and 0030), which identified two possible limbs on which the prejudice-based exemption might be engaged. Either disclosure would prejudice commercial interests (i.e. the occurrence of prejudice is more probable than not) or disclosure would be likely to prejudice commercial interests, which would mean there is a real and significant risk of prejudice, even if it cannot be said that the occurrence of prejudice is more probable than not. With respect to the latter, the likelihood of such prejudice occurring must be &#8220;<span style="font-style:italic">very significant and weighty</span>&#8221;: <span style="text-decoration-line:underline;text-decoration-style:solid">R (Lord) v Secretary of State for the Home Department</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2003/2073" uk:canonical="[2003] EWHC 2073 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWHC 2073 (Admin)</ref>, at [100].  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">It is not sufficient for a public authority to argue that because information is commercially sensitive, its disclosure would, or would be likely to, prejudice commercial interests; the public authority must be able to demonstrate a causal relationship between the disclosure of the information in question and the prejudice envisaged: <span style="text-decoration-line:underline;text-decoration-style:solid">Hartlepool Borough Council v Information Commissioner</span>, EA/2017/0057 (14 March 2018), at [55].  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">&#8216;Commercial interests&#8217; should be interpreted broadly. The IC&#8217;s Guidance states that a commercial interest relates to a person&#8217;s ability to participate competitively in a commercial activity.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 43 is a qualified exemption, so that the public interest test has to be applied.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In considering the factors that militate against disclosure the harm must relate to the interests protected by the exemption.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The role of the Tribunal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal&#8217;s remit is governed by section 58 FOIA. This requires the Tribunal to consider whether the decision made by the IC is in accordance with the law or, where the IC&#8217;s decision involved exercising discretion, whether he should have exercised it differently. The Tribunal may receive evidence that was not before the IC and may make different findings of fact from the IC.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The issues</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">It is common ground between the parties that sections 36(2)(b)(i) and (c) are engaged, so the key issue for the Tribunal to determine is whether the public interest in maintaining the exemption outweighs the public interest in disclosing the information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In relation to section 43(2), the Tribunal needs to consider the following issues:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Would disclosure be likely to prejudice the commercial interests of any person?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">If so, does the public interest in maintaining the exemption outweigh the public interest in disclosing the information?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Evidence </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We heard OPEN and CLOSED oral evidence from Dr Matthew Thompson, EH&#8217;s Conservation, Curatorial and Learning Director, who was also the Qualified Person (QP) for the purposes of Section 36. The key additional points he made were, in summary, as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He spoke about how original research and surfacing and curating stories to bring sites to life is a key part of EH&#8217;s work and being able to make use of this is a key part of generating and maximising income.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He said that the process a historian goes through to create the content presented to the Blue Plaques Panel creates an overview which is then used as a base for publications, tours and other income opportunities.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He emphasised the importance of the quality, content and veracity of the work product produced by EH historians (including the Disputed Information) and the sense of trust this creates, as people reading it will know they can have faith in it. He spoke about the &#8216;halo effect&#8217; of the EH brand and how this implies an authoritative position that can be trusted. Disclosure would mean EH loses the opportunity to monetise this.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He noted that a revised version of the Blue Plaques Guide is due to be published this year, following previous editions in 2016 and 2019.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He explained that the process for awarding a Blue Plaque is that the historian provides the Panel, which is made up of volunteers, with information before the final decision is made by the Panel.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He noted that the Blue Plaque Scheme is a key part of EH&#8217;s visible presence in London.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He spoke about the importance of donors to secure the future of funding for culture and heritage, not only for EH but generally in the sector. When asked how reports are used to cultivate donor relations, he spoke about allowing exclusive opportunities to see what goes into the development of EH&#8217;s knowledge economy as a way of strengthening key relationships</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">When asked about commercial interests, he said that the proposed Blue Plaques App is a commercial vehicle. He said that there were a number of other players in the market who are looking to avail themselves of EH's work product and use it for monetary gain. These other entities pose a challenge to EH&#8217;s ongoing charitable work.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We also heard OPEN and CLOSED oral evidence from Howard Spencer, EH&#8217;s Lead Historian on the Blue Plaques Scheme. The key additional points he made were, in summary, as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He explained that around 80-100 suggestions for Blue Plaques are received by EH each year from members of the public, who have to provide basic details of the individual or group they are suggesting enabling EH to start research. This results in around 12 awards of Blue Plaques a year and the process can take between three and five years from nomination to installation of a Blue Plaque.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He noted that the upcoming Blue Plaques Guide will contain an additional 85 plaques, bringing the total to around 1030.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Mr Spencer accepted that each FOIA information request is considered on merit and that EH approaches this on a case-by-case basis. He also accepted that it is not possible to guarantee confidentiality.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We decided to deal with the grounds in the order in which they were set out by the parties, dealing first with the question of whether section 43(2) is engaged and then proceeding to consider the public interest balancing test in in relation to the engaged exemption(s).</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Ground 1 &#8211; is Section 43(2) engaged?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The first point to consider here is whether there are any commercial interests of any person. Such interests do not have to be the interests of the public authority in question. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Spencer&#8217;s witness statement at paragraphs 32-34 makes the following comments about the commercial interests in play:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;32.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">EH reports have been used for various commercial activities associated with blue plaques. These includes, for example, the sale of plates, mugs, tea towels and fridge magnets. The reports also form the basis for guided walks led by EH staff, the tickets for which are sold to the public. Some of these commercial activities remain in development, such as a blue plaques calendar, and a blue plaques app which is currently in the pipeline. The app will link physical blue plaques to the relevant online page. While it is anticipated that the app will be free to download, it may well include paid-for extras, the proceeds of which will go to EH.   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">33.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Beyond the commercial use of the fruits of our in-house research, it is important for EH to meet its charitable objective to run the Blue Plaques Scheme effectively, and to promote public knowledge.  Providing high-quality, well curated research via the website, a new book and a new app, is precisely in line with this objective. There is a considerable halo effect to be gained from this kind of work &#8211; and it is exactly this kind of high-profile content that attracts and retains donors and members who are vital to the organisation&#8217;s long-term future.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">34.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">EH&#8217;s reports contain original research material that can be (and is) used as a basis for profit-making ventures. Although some potential uses may not generate profit directly &#8211; such as the use in EH website entries &#8211; they do add to the lustre of the EH brand, making the charity a more attractive prospect for potential donors. </span>&#8220;  </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Dr Thompson&#8217;s witness statement also makes the following observations at paragraphs 5 and 7, which he emphasised in his oral evidence:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;As a charity it is essential for EH to maximise its income streams. EH has many income streams. Membership is of primary importance, supported by receipts on the door, secondary spend, food and beverage, as well as charitable support through donors, grants and trusts. However, publishing is an area of current development. Guidebooks to EH properties currently bring in around &#163;1million a year. Other publications can generate roughly &#163;50k a year&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;It is also vital for EH to attract charitable income via donors. The London Blue Plaque Scheme is a key part of EH&#8217;s visible presence in the capital and has been key in attracting donors. Indeed, the scheme itself is supported primarily through charitable donations. Original research is an essential aspect of donor cultivation; it is regularly used (in print, online and via curated walks and presentations) as a way to engage current and potential donors with our work</span>.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We accept that there is a commercial interest in play here, namely that of EH being able to raise money and maximise its income streams, so proceed to consider the next part of the test.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The next question is whether the prejudice would (in that that it would more likely than not) or would be likely (in that there was a real and significant risk of it happening) to result in the prejudice envisaged. This harm or prejudice has to relate to the applicable interests within the relevant exemption. Here those applicable interests are the commercial interests of EH. EH has to be able to demonstrate that there is a causal relationship between the potential disclosure of the information being withheld and the exemption which it is designed to protect and that the resultant prejudice will be real, actual, or of substance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Dr Thompson&#8217;s witness statement says at paragraphs 10 and 11 &#8220;<span style="font-style:italic">the research around Charlie Chaplin&#8217;s addresses is original work, not available anywhere else. Releasing this original research would compromise EH&#8217;s ability to capitalise on that research and maximise our income streams.</span><span/><span style="font-style:italic">A &#8216;new&#8217; edition of The English Heritage Blue Plaques Guide is not &#8216;new&#8217; if all of the original research that has been undertaken over the previous years is already in the public domain.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">At paragraph 12 he says &#8220;<span style="font-style:italic">If new information is already in the public domain ahead of EH&#8217;s planned public relations schedule, then its value is diminished and the appeal to media outlets would likely be significantly adversely impacted&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">At paragraphs 13 and 14 Dr Thompson adds:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;A further adverse impact is in the cultivating and maintaining of effective donor relations. Each year we receive around &#163;55,000 to &#163;60,000 of private philanthropic support to enable us to facilitate the scheme: this represents around 20% of the total operating cost of the scheme. Without the support of private donors, EH would struggle to facilitate the London Blue Plaques Scheme. Our ability to attract and retain donors is immeasurably strengthened by our use of original research as described in the paragraph above.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">These prejudices are likely to arise because EH carries out its commercial activities in a competitive environment. Other publishers, historians, and even media organisations would be free to disseminate EH&#8217;s original research prior to EH having the opportunity to benefit commercially from it. For example, a person or organisation who obtains the disputed information could set up a curated Charlie Chaplin walk or trail using EH research, and seek to monetise this. As a result, EH would generate less income from its original research</span>.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Dr Thompson expanded on this in his oral evidence when he said that he saw a large amount of competition around Blue Plaques, including other websites using Blue Plaques to create walks and trails. He disagreed that this risk of harm was speculative, because he said that EH can see there are other players in the sector who are looking to avail themselves of EH&#8217;s work product and use it for monetary gain. He saw these other entities as an ongoing challenge to EH&#8217;s charitable operations.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Spencer said that there are many media organisations with an interest in London heritage who could potentially use EH&#8217;s research.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">EH argued that a request for its research was analogous to asking a university for a copy of its course materials before deciding whether to apply to it. In response the IC cited the case of <span style="text-decoration-line:underline;text-decoration-style:solid">University of Central Lancashire v Information Commissioner and Colquhoun</span> (EA/2009/0034) and particularly paragraph 37 which stated &#8220;<span style="font-style:italic">It was not clear to us who a competitor could significantly exploit access to this material, without infringing UCLAN&#8217;s copyright or brazenly aping the content of a course, which would surely attract the scorn of the wider academic community.&#8221;</span> EH said that the Disputed Information was not protected by copyright as it was not published so we gave little weight to this argument.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Reichhold, for EH, argued that it does make a difference who publishes the material, as EH has a reputation for being reliable, authoritative and this gives a &#8220;halo effect&#8221;. EH does want the public to know the information but on its own terms because it has commercial value, and the fact that EH is a public authority subject to FOIA should not deprive it of being able to compete with others.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">EH&#8217;s view, set in its skeleton argument and expanded in submissions, is in essence that &#8220;<span style="font-style:italic">The causal link in this case is obvious.  As explained by Dr Thompson: if EH&#8217;s reports about Chaplin are disclosed, the originality of EH&#8217;s work is lost. Competitors would unduly benefit from significant advantages. For example, they would not need to carry out their own research. They could use the product of EH&#8217;s original research, and they would benefit from EH&#8217;s hard earned reputation as an authoritative source of knowledge and history&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Paragraph 46 of the Decision Notice summarises the IC&#8217;s view of the harm as follows: <span style="font-style:italic">&#8220;the harm could be that competitors in the heritage sector could use the information to introduce their own commercial activities concerning blue plaques. However, he is not convinced that the requested information is needed to enable other organisations to do this due to the wealth of publicly available biographical information already available concerning the public figures who are recipients of blue plaques</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Paragraph 45 of the Decision Notice records the IC&#8217;s view that &#8220;<span style="font-style:italic">EH has not explained the harm it envisages disclosure of the requested information would or would be likely to cause its commercial interests, nor the causal link between disclosure and prejudice to those commercial interests.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Ms Nguyen for the IC argued that Dr Thompson had identified EH&#8217;s commercial interests in generic terms, rather than linking it to specific passages in the Disputed information. She relied on the Tribunal&#8217;s decision in Hartlepool BC v Information Commissioner (EA/2017/0057) at paragraph 55, which states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in">&#8220;<span style="font-style:italic">The Commissioner had highlighted the need for a much greater level of specificity. Peel&#8217;s response that it does not consider the Commissioner&#8217;s request for a more &#8220;granular explanation&#8221; is reasonable, misses the point. The need for the explanation does not arise from the Commissioner&#8217;s request. It arises because the onus rests with the party making the assertion that the exemption is engaged to make good its claim. So, for example, if a manufacturer of widgets were to claim that disclosure of information relating to its dealings with a particular commercial partner would or would be likely to prejudice its commercial interests, it would not be sufficient for it to say simply that the manufacture of widgets is a competitive business, that it enters into similar agreements as part of its business and will therefore suffer prejudice if the information became available to its competitors. It would need to demonstrate the link between the specific information in issue and the claimed prejudice. So, for example, it might show that the information would disclose that it manufactures its widgets in a particular way that is cost effective and that is not known by its competitors, or that it had structured its agreement in a way that is unusual in the industry by charging its widgets at an unusually low mark-up because of a commitment that it would provide training at higher return than usual.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">She argued that the same considerations applied here, as EH has provided little detailed analysis and has not identified a link between the Disputed Information in particular and the prejudice if it is disclosed to the public or identified either any sentences in the Disputed Information that might have commercial value or any specific competitors that might use the Disputed Information for commercial benefit. In response, EH argued that the current case can be distinguished from Hartlepool because there are witness statements and the EH has made arguments. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC argued that EH seems to accept that large amounts of underlying factual and biographical information about Chaplin is available. The IC does not suggest that public sites such as Wikipedia are comparable to the research done by EH&#8217;s historians, but there is a different between intellectual value and commercial value. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Ms Nguyen noted that the recommendation for Chaplin to receive a Blue Plaque was made over 10 years ago and that EH has already produced two editions of the Blue Plaque Guide with reference to the Chaplin Blue Plaque.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The harm which EH alleges would flow from the disclosure of the Disputed Information appeared to us to be largely concerned with losing control of EH&#8217;s original information and research, which would affect the commercial success of any activities which draw on that research such as publications and ticket sales. Taking into account the arguments which were made to the Tribunal by both parties, we considered that EH had not demonstrated either that it would be likely that this harm would flow from disclosure of the Disputed Information specifically or that the harm would be real, actual or of substance. We were not satisfied that it was more likely than not that competitors (who those might be other than media outlets interested in London heritage was not made clear to us) would or would be likely to seek to use the specific Disputed Information as opposed to the information currently in the public domain in the way alleged by EH. If someone sought to set up a walking tour concerning Chaplin, for example, then there are not only public access websites such as Wikipedia but also, as Mr Spencer accepted, authoritative biographies and autobiography available for them to draw on. We were not satisfied it would be the Disputed Information&#8217;s disclosure which would be likely to tip the balance towards them doing so. We accept that there is competition in the heritage and cultural sector, but we were not persuaded that there was a real and substantial risk that the disclosure of the specific Disputed Information as opposed to any other information would be likely to cause the prejudice EH says it would without further explanation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In relation to whether the harm would be real, actual and substantial, we did not consider that EH&#8217;s argument that it wished to use the Disputed Information in refreshing and expanding the entry for Chaplin in the Blue Plaque Guide and that it would be hindered from doing so if the Disputed Information was disclosed to be a strong one. We noted from the screenshot provided to us of the current guide that the entry for Chaplin is brief (approximately 160 words) and focuses only on the address at which the Blue Plaque is situated. With over 1000 entries in the forthcoming guide, we considered the scope for using the specific Disputed Information in expanding that entry was, in practice, limited. This in turn means that the harm the disclosure of the Disputed Information would cause to this commercial interest would also be limited, particularly as Mr Spencer explained that what makes the Disputed Information stand out is not just any original research it might contain but also the way in which it has gathered together and curated other information and the authoritative trust engendered by the EH brand. We also noted that we had limited evidence in terms of extent of the financial or other impact which disclosure of the Disputed Information would have on EH&#8217;s commercial activities, other than assertions that it would be likely. We would have been more persuaded had the potential scale of such impact been demonstrated in evidence or submission. We considered that it was even possible that disclosure of the Disputed Information might in fact support EH&#8217;s commercial activities by generating public interest in them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">For all these reasons, we concluded that we were not satisfied that disclosure of the Disputed Information under FOIA would, or would be likely to, prejudice the commercial interests of EH. We therefore decided that section 43(2) of FOIA was not engaged, so Ground 1 fails and we did not need to proceed with the public interest balancing test in relation to that exemption.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Ground 2 - Section 36 &#8211; application of the public interest test&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The starting point is that the exemption is engaged because&#160;the IC accepted&#160;that the&#160;opinion of the QP&#160;is reasonable.&#160;&#160;The Tribunal is also satisfied that the opinion is reasonable.&#160;&#160;&#160;We therefore&#160;proceed&#160;to consider the public interest and where the balance weighs.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Following&#160;the judgment in&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">APPGER</span>, we need to apply a&#160;three-stage&#160;process to&#160;determining&#160;where the balance of public interests lies. This involves considering:&#160;&#160;</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The harm or prejudice which would result from&#160;disclosure;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Factors in favour of disclosure; and&#160;&#160;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Factors in favour of&#160;maintaining&#160;the exemption.&#160;&#160;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The harm or prejudice which would result from&#160;disclosure&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In its letter to the IC dated 4 July 2025, EH identified the following harm which could arise from disclosure:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in">&#8220;<span style="font-style:italic">to release such information in its current form would have a significant impact on the free and frank provision of advice given to the Blue Plaques Panel...Individuals would feel inhibited in conveying the frank level of advice required to fully illustrate to the panel the full scope of an individual&#8217;s past and their present reputation. This could in turn have a detrimental effect on the blue plaques process as a whole, with the Panel not being privy to all the detail they require to make an informed decision on the appropriateness of a commemoration...could also lead to reputational damage being inflicted upon [EH] should parts of the report be quoted in a selective and misleading manner. This could lead to controversy or embarrassment for the charity&#8221;.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;the premature release of this information, in its current form, will prejudice [EH]&#8217;s ability to fully celebrate and depict the life of Charlie Chaplin in its upcoming publication in a way that it considers appropriate. It will also significantly impact {EH&#8217;s] ability to build any sense of occasion for the launch of its publication.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC in the Decision Notice said that he was not persuaded that the Blue Plaques Historian would alter the way they perform their role for fear of disclosure of biographical information under FOIA.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Factors in favour of disclosure&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC records at paragraph 31 of the Decision Notice that EH has acknowledged that there is public interest in the transparency and accountability of its work relating to the Blue Plaques Scheme.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC at paragraphs 35 of the DN noted that the withheld information concerns largely biographical information that is already commonly known, and the opinion of the Blue Plaques Historian about the most appropriate location for a blue plaque to be placed.  This is disputed by Dr Thompson who states at paragraph 10 of his witness statement: <span style="font-style:italic">&#8220;the research around Charlie Chaplin&#8217;s addresses is original work, not available anywhere else</span>&#8221;.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC acknowledged at paragraph 36 of the DN that there is a general public interest in transparency and increasing public knowledge of how the Blue Plaques Scheme operates. He notes that EH publishes information about Blue Plaques recipients on its website and that it signposted the complainant to the relevant page about Chaplin in its updated response. EH&#8217;s website also includes general information about the Blue Plaques Scheme and how it operates.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">At paragraph 39 of the DN, the IC notes that while he considers that the public interest in transparency can somewhat be met through the information EH already routinely publishes on its website, he is not convinced that the public interest factors for maintaining the exemptions under section 36 are compelling enough to prevent disclosure. The IC is mindful that there is a general public interest in understanding how decisions are made about Blue Plaques and the type of information that is required to make those decisions. Given that biographical information about Chaplin is already widely available, the IC considers that there would be little impact in disclosure of the requested information.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In the QP&#8217;s opinion at OBp232, the QP states <span style="font-style:italic">&#8220;I have considered that there is a public interest in the transparency of English Heritage&#8217;s work in regard to Blue Plaques and the processes and considerations taken into account when an individual is assessed for a plaque. We do however make efforts to address the public interest by the information we release via our website.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In his oral evidence, when asked about the contentious issues for Blue Plaque nomination identified in paragraphs 26 to 30 of his witness statement, Mr Spencer accepted that the following examples of the sorts of things which might require a safe space for discussion did not apply in this case:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Racist or homophobic views;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Allegations of sexual abuse;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The need to protect the privacy of living persons; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The need to be able to freely assess and advice on books and other coverage of a figure.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Factors in favour of&#160;maintaining&#160;the&#160;exemption&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC records in paragraphs 32-34 of the Decision Notice that EH explained that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">there is public interest in it being able to maintain the efficacy of its Blue Plaques process. It explained that its necessary for its panel to be privy to all the detail that it requires to make an informed decision on the appropriateness of a commemoration.   </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">there is also public interest in its Blue Plaques Historian feeling able to present the frank level of advice required to fully illustrate to the panel the full scope of an individual&#8217;s past and their present reputation. It explained that the lack of &#8216;safe space&#8217; for free and frank advice could also lead to reputational damage being inflicted upon EH should vital details be omitted from the reports due to them being quoted in a selective and misleading manner.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">there is public interest in it being able to have control over the research it has produced, and to use that research to fully celebrate and depict the life of blue plaque recipients in the most appropriate way.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Spencer states at paragraph 39 of his witness statement that <span style="font-style:italic">&#8220;I can confidently say that EH historians (myself included) would feel inhibited in future if there were an erosion of the safe space within which the Panel is provided with advice. As a result, advice to the Panel would, in all likelihood, be less candid and framed with a view to its possible disclosure. For example, historians may omit particularly controversial observations or assessments, such that the quality and clarity of their reports is diminished. In turn, this would mean that the Panel&#8217;s decision-making is less well informed</span>.&#8221; He also comments at paragraph 40 that there is a strong public interest in EH being able to generate income derived from its own proprietary research work.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He states at paragraph 41 that &#8220;<span style="font-style:italic">There is already a significant amount of information in the public domain about the operation of the Blue Plaques Scheme in general, and the commemoration of Charlie Chaplin in particular. EH&#8217;s website provides key, curated biographical information about Charlie Chaplin as well as detailed information on the workings of the Blue Plaque Scheme as a whole. Therefore, the public interest in transparency and accountability are, to a considerable extent, already met.</span><span/><span style="font-style:italic">Disclosure of the withheld reports would add relatively little to the public&#8217;s understanding of the Blue Plaque Scheme in general or the commemoration of Charlie Chaplin in particular.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">When advising the Blue Plaques Panel, he said the historian had a responsibility to identify any reason not to proceed with the commemoration and that sometimes this involves highlighting negative aspects and a careful balancing between these and more positive points. This needs to be put in &#8220;unvarnished terms&#8221;. The historian produces information for the panel which is readable and easily digestible for busy people.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He said that if the Tribunal ordered the Disputed Information to be disclosed this would erode the safe space in which he works because it would make the historians more wary about what they say and may mean they gloss over aspects because their advice to the Panel is likely to be public. This would take the form of being more careful with language and less candid. The effect would be that EH was unable to curate and edit content as it sees fit.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Dr Thompson states at paragraphs 10 and 11 &#8220;<span style="font-style:italic">the research around Charlie Chaplin&#8217;s addresses is original work, not available anywhere else. Releasing this original research would compromise EH&#8217;s ability to capitalise on that research and maximise our income streams.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">At paragraph 12 he says, &#8220;<span style="font-style:italic">If new information is already in the public domain ahead of EH&#8217;s planned public relations schedule, then its value is diminished and the appeal to media outlets would likely be significantly adversely impacted&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In the QP&#8217;s opinion Dr Thompson states at paragraph 9 &#8220;<span style="font-style:italic">It is our view that to release such information&#8230;would have a significant impact on the free and frank provision of advice given to the Blue Plaques Panel. Having discussed this matter with relevant colleagues it is certainly felt that individuals would feel inhibited in conveying the frank level of advice required to fully illustrate to the panel the full scope of an individual&#8217;s past. This could in turn have a detrimental effect on the blue plaques process as a whole, with the Panel not being privy to all of the detail they require to make an informed decision on the appropriateness of a commemoration. The lack of &#8216;safe space&#8217; for free and frank advice could also lead to reputational damage being inflicted upon [EH] should vital detail be omitted from the reports. This could lead to controversy or embarrassment for the charity&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He goes on to say at paragraph 11 &#8220;<span style="font-style:italic">The reports provide advice to the Panel on individual nominations. The reports are effectively mini-policy papers, offering pros and cons on a figure&#8217;s commemoration. It is the job of the Blue Plaques historian to create an accurate and digestible account of the figure&#8217;s life, highlighting both insightful and interesting extracts but also identifying any less favourable qualities too. The reports purpose is to be informative and to highlight to the panel a true portrayal of the candidate, exposing any aspects of the individual&#8217;s past which could be perceived critically, and in turn identify any negative or controversial backlash upon [EH] should a plaque be awarded</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The QP concludes that harm caught by sections 36(2)(b)(i) and (c) &#8220;<span style="font-style:italic">would be likely to occur</span>&#8221; as opposed to would occur. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">85.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">EH argued in its skeleton argument and again in submissions that disclosure of the Disputed Information would irretrievably deprive EH of the opportunity to use, on its own terms and exclusively, the original historical research and analysis carried out by its own historians. This matters because presentational work on existing plaques &#8211; particularly those relating to high profile figures such as Chaplin &#8211; is an ongoing process.   The value of the EH brand and the trust this inspires would be damaged if the Disputed Information is disclosed.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Balance of the public interest</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">86.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Both parties made submissions on this in the hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Reichhold, for EH, argued that the IC had erred in the Decision Notice by not referring to the QP&#8217;s opinion in balancing the public interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He argued that in considering the public interest, we are not considering the Disputed Information but whether disclosure of the Disputed Information would impact the process of deciding on Blue Plaque awards in future. He argued that if reports have previously been withheld under section 36, the IC is wrong to say that EH staff do not operate under the assumption that it is probably not going to be released.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">89.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He argued that a &#8220;chilling effect&#8221; is not the same as safe space and that the chilling effect in this case is in the context of Mr Spencer being an historian, which is not the same as being a senior civil servant, as was cited from in <span style="text-decoration-line:underline;text-decoration-style:solid">Lewis</span> at paragraph 27 of <span style="text-decoration-line:underline;text-decoration-style:solid">Davies</span>. He said that the IC had overlooked this context.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">90.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He said that the IC had adopted the wrong test when it said that the arguments in favour of maintaining the exemption were not &#8220;compelling&#8221; enough. The IC has to take into account the public interest factors on both sides of the equation and balance them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">91.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Ms Nguyen, for the IC, noted the dicta in <span style="text-decoration-line:underline;text-decoration-style:solid">Guardian</span> at paragraph 51 that <span style="font-style:italic">&#8220;the exemption is therefore concerned with disclosure of Governor&#8217;s minutes as a class but with the likelihood of inhibition resulting from the disclosure of the particular minutes requested</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">92.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">She noted that of the contentious issues which might require safe space for discussion identified by Mr Spencer, most did not apply to the Disputed Information and the extent of the contentious material appeared to be only advice in relation to existing commemorations and concerns about whether this could have been worded differently. She argued that if this is the extent of the contentious material, that is not a reason for not disclosing the specific Disputed Information. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">93.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">She argued that the correct approach was that as employees of a public body, EH historians should be aware of the public authority&#8217;s obligations under FOIA and that information and material held by EH may be subject to disclosure unless a FOIA exemption applies.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">94.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Having assessed the relevant factors and arguments on both sides of the public interest test,&#160;including the Qualified Person&#8217;s opinion, we&#160;consider that&#160;the IC was correct to hold that EH was not entitled to rely on section 36 (b)(i) and (c) to withhold the&#160;requested&#160;information because&#160;in all the circumstances of the case, the public interest in disclosing the information outweighs the public interest in maintaining those&#160;exemptions.&#160;&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We considered that this was finely balanced, but in the circumstances of this particular case and the specific content of the Disputed Information, we were not satisfied that in this instance a safe space was required to discuss the matters set out in the Disputed Information.  The specific points which Mr Spencer raised as needing a safe space to discuss or which he was uncomfortable about disclosing mostly involved wording which could be construed as obliquely critical of persons other than Chaplin. We were not satisfied that, by itself, this was sufficient to demonstrate that a safe space was required to discuss the recommendation of Chaplin for a Blue Plaque. The phrases in question could have been omitted without compromising the quality of advice being given to the panel and do not by themselves warrant a safe space for discussion. We also noted that the Disputed Information is more than 10 years old and may have been written differently if it was produced today.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">96.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The fact that we found that, in these particular circumstances, the factors weigh in favour of disclosure does not mean that in other circumstances that will be the case. There will, of course, be individuals recommended for Blue Plaques where the material that must be considered is contentious, but in relation to the Disputed Information in question in this case we were not satisfied that it was. We do not consider that this undermines the Blue Plaque recommendation process, because each recommendation must be considered on a case-by-case basis and it does not follow that if disclosure was ordered in this case, it necessarily would be in any other set of circumstances. We accepted the IC&#8217;s view that employees of public authorities should be mindful that confidentiality of communications is subject to the authority&#8217;s obligations under FOIA and the application of an exemption in specific circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">97.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">For these reasons, we find that the public interest weighs in favour of disclosure and that Ground 2 fails.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">98.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Grounds 3 and 4 fall away because we found that section 43(2) of FOIA is not engaged.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">99.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Accordingly, we dismiss the appeal.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Signed</span><span style="font-weight:bold">: </span><span style="font-style:italic;font-weight:bold">Judge Harris</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Date: </span><docDate date="2026-04-27" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">27 April 2026</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>
