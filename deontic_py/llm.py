@@ -38,7 +38,8 @@ DDL syntax (one statement per line; `#` starts a comment):
 Commands:
   query  args=["X","Y"]          -> status of atoms: O(X)=obligated, F(X)=forbidden,
       Ps(X)/P(X)/Pw(X)=permitted, fact(X)=constitutively holds, unresolved=judge
-      must add superiority, unknown=not addressed.
+      must add superiority, unknown=not addressed. flags=["--why"] -> proof
+      certificate: the applicable rules on each side, with superiority defeats.
   abduce args=["P(X)"] flags=["--all"] -> minimal fact sets that make a goal hold.
       Goal tokens: O(a) F(a) P(a) Ps(a) Pw(a) C(a) a ~a ; prefix ! = must NOT hold.
   check                          -> full extension + violations + conflicts.

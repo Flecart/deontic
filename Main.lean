@@ -11,12 +11,14 @@ def printHelp : IO Unit := do
   IO.println "Defeasible Deontic Logic reasoner"
   IO.println ""
   IO.println "Usage:"
-  IO.println "  deontic check <file.ddl> [--json] [--assume t,...]"
-  IO.println "    Compute the full extension of the theory."
+  IO.println "  deontic check <file.ddl> [--json] [--trace] [--bearer Party] [--assume t,...]"
+  IO.println "    Per-atom normative status by bearer (default). --trace dumps all tags."
   IO.println ""
-  IO.println "  deontic query <file.ddl> <atom> [...] [--json] [--trace] [--assume t,...]"
-  IO.println "    Query normative status of specific atoms."
+  IO.println "  deontic query <file.ddl> <atom> [...] [--json] [--trace] [--why] [--bearer Party] [--assume t,...]"
+  IO.println "    Query normative status of specific atoms (one line per bearer)."
   IO.println "    --assume overlays the file's facts: a (true), ~a (false), -a (absent)."
+  IO.println "    --why prints the proof certificate instead: the applicable rules on"
+  IO.println "    each side of the obligation question, with superiority defeats."
   IO.println ""
   IO.println "  deontic atoms <file.ddl> [--json] [--resolve]"
   IO.println "    Print every atom with its description and provenance"
@@ -28,9 +30,11 @@ def printHelp : IO Unit := do
   IO.println "    Find fact configurations that make the goal hold."
   IO.println "    Goal/condition tokens (prefix ! = must NOT hold):"
   IO.println "      O(a) F(a) P(a) Ps(a) Pw(a) C(a)   a   ~a"
-  IO.println "    e.g.  P(Disclose)            configurations that ALLOW Disclose"
-  IO.println "          O(use)                 configurations that REQUIRE use"
-  IO.println "          P(Disclose) !C(Notify)  Disclose allowed while Notify absent"
+  IO.println "      O@Party(a) P@Customer(a)  directed goal for one bearer"
+  IO.println "    e.g.  P(Disclose)              ALLOW Disclose (any bearer)"
+  IO.println "          P@Customer(Disclose)     ALLOW for Customer only"
+  IO.println "          O@Vendor(SuspendAccess)  REQUIRE Vendor to suspend"
+  IO.println "          P(Disclose) !C(Notify)   Disclose allowed while Notify absent"
   IO.println "    --assume tokens pin facts and shrink the search:"
   IO.println "      a (true)   ~a (false)   -a (must stay absent)"
   IO.println ""
@@ -140,12 +144,16 @@ structure ForwardArgs where
   assumes : List String := []
   json    : Bool := false
   trace   : Bool := false
+  why     : Bool := false
+  bearer  : Option String := none
 
 partial def parseForwardArgs (args : List String) (acc : ForwardArgs) : ForwardArgs :=
   match args with
   | [] => { acc with atoms := acc.atoms.reverse }
   | "--json" :: rest => parseForwardArgs rest { acc with json := true }
   | "--trace" :: rest => parseForwardArgs rest { acc with trace := true }
+  | "--why" :: rest => parseForwardArgs rest { acc with why := true }
+  | "--bearer" :: p :: rest => parseForwardArgs rest { acc with bearer := some p }
   | "--assume" :: v :: rest =>
     let toks := (v.splitOn ",").map (·.trimAscii.toString) |>.filter (!·.isEmpty)
     parseForwardArgs rest { acc with assumes := acc.assumes ++ toks }
@@ -199,26 +207,33 @@ def main (args : List String) : IO Unit := do
 
     if cmd == "check" then
       if useJSON then
-        IO.println (renderExtensionJSON thy.herbrandBase ext)
-      else do
+        IO.println (renderExtensionJSON thy thy.herbrandBase ext)
+      else if useTrace then
         IO.println (renderExtension ext)
-        if ext.hasViolation then
-          IO.println "WARNING: non-compensable violation detected"
-          IO.println (renderViolationReport thy ext)
-        if ext.hasUnresolvedConflicts then
-          IO.println ""
-          IO.println (renderUnresolvedConflicts ext)
-          IO.println "WARNING: unresolved obligation conflict — judge must add superiority"
+      else
+        IO.println (renderCheckSummary thy thy.herbrandBase ext a.bearer)
+      if ext.hasViolation then
+        IO.println "WARNING: non-compensable violation detected"
+        IO.println (renderViolationReport thy ext)
+      if ext.hasUnresolvedConflicts then
+        IO.println ""
+        IO.println (renderUnresolvedConflicts ext)
+        IO.println "WARNING: unresolved obligation conflict — judge must add superiority"
     else  -- query
       let targets :=
         if atomArgs.isEmpty then thy.herbrandBase
         else atomArgs
-      if useJSON then
-        IO.println (renderExtensionJSON targets ext)
+      if a.why then
+        if useJSON then
+          IO.println (renderWhyJSON thy targets ext a.bearer)
+        else
+          IO.println (renderWhy thy targets ext a.bearer)
+      else if useJSON then
+        IO.println (renderExtensionJSON thy targets ext)
       else if useTrace then
-        IO.println (renderQueryResultsWithTrace targets ext)
+        IO.println (renderQueryResultsWithTrace thy targets ext a.bearer)
       else
-        IO.println (renderQueryResults targets ext)
+        IO.println (renderQueryResults thy targets ext a.bearer)
       if ext.hasViolation then
         IO.println "WARNING: non-compensable violation detected"
         IO.println (renderViolationReport thy ext)

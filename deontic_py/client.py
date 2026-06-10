@@ -29,6 +29,7 @@ from .results import (
     AtomEntry,
     Extension,
     QueryResult,
+    WhyReport,
     status_code,
     status_to_verdict,
 )
@@ -241,6 +242,34 @@ class Deontic:
             args += ["--limit", str(limit)]
         out = self._run("abduce", theory, args)
         return AbduceResult.from_json(_extract_json(out))
+
+    def why(
+        self,
+        theory: str | os.PathLike,
+        atoms: list[str],
+        *,
+        bearer: str | None = None,
+        assume: list[str] | None = None,
+    ) -> dict[str, dict[str, WhyReport]]:
+        """Proof certificates for ``atoms`` (``query --why --json``).
+
+        Returns ``{atom: {bearer_label: WhyReport}}`` — for each atom, the
+        applicable rules on each side of the obligation question with
+        superiority-defeat annotations. ``bearer_label`` is the party name or
+        ``"(unattributed)"``.
+        """
+        args = [*atoms, "--why", "--json", *self._assume_args(assume)]
+        if bearer:
+            args += ["--bearer", bearer]
+        out = self._run("query", theory, args)
+        raw = _extract_json(out)
+        return {
+            atom: {
+                b: WhyReport.from_json(atom, b, rep)
+                for b, rep in entry.get("byBearer", {}).items()
+            }
+            for atom, entry in raw.items()
+        }
 
     def atoms(
         self, theory: str | os.PathLike, *, resolve: bool = False

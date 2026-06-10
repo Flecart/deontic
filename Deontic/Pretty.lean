@@ -76,20 +76,87 @@ def renderExtension (ext : Extension) : String :=
   let judge := if ext.hasUnresolvedConflicts then [renderUnresolvedConflicts ext] else []
   (lines ++ viol ++ judge).foldl (· ++ "\n" ++ ·) ""
 
-def renderQueryResults (atoms : List Atom) (ext : Extension) : String :=
-  atoms.foldl (fun acc a =>
-    let status := normativeStatus ext a
-    let pad := if a.length < 20 then String.ofList (List.replicate (20 - a.length) ' ') else ""
-    let padded := pad ++ a
-    acc ++ s!"{padded} : {status}\n") ""
+def bearerLabel (b : Option String) : String :=
+  match b with | some p => p | none => "(unattributed)"
 
-def renderQueryResultsWithTrace (atoms : List Atom) (ext : Extension) : String :=
+/-- Parties with a prescriptive rule whose conclusion mentions `a` (or its
+complement). Falls back to all theory bearers when the atom is only constitutive. -/
+def bearersForAtom (thy : Theory) (a : Atom) (filter : Option String) : List (Option String) :=
+  match filter with
+  | some p => [some p]
+  | none   =>
+    let lits := [Lit.pos a, Lit.neg a]
+    let fromRules := thy.prescriptiveRules.filterMap fun r =>
+      if r.conclusion.any (lits.contains ·) then some r.bearer else none
+    let bs := fromRules.eraseDups
+    if bs.isEmpty then
+      if thy.bearers.isEmpty then [none] else thy.bearers
+    else bs
+
+private def padCol (s : String) (width : Nat) : String :=
+  if s.length < width then s ++ String.ofList (List.replicate (width - s.length) ' ') else s
+
+/-- One atom's status: per-bearer lines when several parties matter; a single line
+when the theory has only the unattributed slice or `--bearer` pins one party. -/
+def renderAtomStatus (ext : Extension) (a : Atom) (bearers : List (Option String)) : String :=
+  let bs := bearers
+  if bs.length == 1 then
+    let b := bs.head!
+    let status := normativeStatusForBearer ext a b
+    s!"{padCol a 28} : {status}\n"
+  else
+    let lines := bs.map fun b =>
+      s!"  {padCol (bearerLabel b) 14} : {normativeStatusForBearer ext a b}"
+    s!"{a} :\n" ++ "\n".intercalate lines ++ "\n"
+
+def renderQueryResults (thy : Theory) (atoms : List Atom) (ext : Extension)
+    (bearerFilter : Option String) : String :=
+  atoms.foldl (fun acc a => acc ++ renderAtomStatus ext a (bearersForAtom thy a bearerFilter)) ""
+
+def renderCheckSummary (thy : Theory) (atoms : List Atom) (ext : Extension)
+    (bearerFilter : Option String) : String :=
+  renderQueryResults thy atoms ext bearerFilter
+
+def renderQueryResultsWithTrace (thy : Theory) (atoms : List Atom) (ext : Extension)
+    (bearerFilter : Option String) : String :=
   atoms.foldl (fun acc a =>
-    let status := normativeStatus ext a
+    let bearers := bearersForAtom thy a bearerFilter
+    let header :=
+      if bearers.length == 1 then
+        let b := bearers.head!
+        s!"{a} : {normativeStatusForBearer ext a b}"
+      else
+        s!"{a} :\n" ++ "\n".intercalate
+          (bearers.map fun b =>
+            s!"  {padCol (bearerLabel b) 14} : {normativeStatusForBearer ext a b}")
     let tags := ext.tagsFor a |>.map renderTaggedLit
     let trace := if tags.isEmpty then "  (no tags derived)"
                  else tags.foldl (fun s t => s ++ "\n  " ++ t) ""
-    acc ++ s!"{a} : {status}{trace}\n\n") ""
+    acc ++ header ++ trace ++ "\n\n") ""
+
+-- ── Why: proof certificate rendering ─────────────────────────────────────────
+
+private def renderWhyEntry (e : WhyRuleEntry) : String :=
+  let note :=
+    if e.defeatedBy.isEmpty then ""
+    else s!"   [defeated by {", ".intercalate e.defeatedBy}]"
+  s!"    • {renderRule e.rule}{note}"
+
+/-- One bearer's why-report: status plus the applicable rules on each side of
+the obligation question (with defeat annotations). Empty sides are stated. -/
+def renderWhyReport (w : WhyReport) : String :=
+  let side (name : String) (es : List WhyRuleEntry) : String :=
+    if es.isEmpty then s!"  {name}: (no applicable rule)"
+    else s!"  {name}:\n" ++ "\n".intercalate (es.map renderWhyEntry)
+  s!"{w.atom}{bearerTag w.bearer} : {w.status}\n" ++
+    side s!"rules for O({w.atom})" w.forO ++ "\n" ++
+    side s!"rules for O(~{w.atom})" w.againstO
+
+def renderWhy (thy : Theory) (atoms : List Atom) (ext : Extension)
+    (bearerFilter : Option String) : String :=
+  let reports := atoms.flatMap fun a =>
+    bearersForAtom thy a bearerFilter |>.map (whyForBearer thy ext a ·)
+  "\n\n".intercalate (reports.map renderWhyReport)
 
 -- ── JSON rendering ────────────────────────────────────────────────────────────
 
@@ -101,11 +168,17 @@ private def renderTagJSON (tl : TaggedLit) : String :=
   let bearer := match tl.bearer with | some p => jsonStr p | none => "null"
   s!"\{\"positive\":{jsonBool tl.positive},\"modality\":{jsonStr (toString tl.modality)},\"bearer\":{bearer},\"literal\":{jsonStr (toString tl.lit)}}"
 
-def renderAtomJSON (a : Atom) (ext : Extension) : String :=
+def renderAtomJSON (thy : Theory) (a : Atom) (ext : Extension) : String :=
   let status := normativeStatus ext a
+  let byBearer :=
+    thy.bearers.map fun b =>
+      let lbl := bearerLabel b
+      s!"{jsonStr lbl}:{jsonStr (normativeStatusForBearer ext a b)}"
   let tags   := ext.tagsFor a |>.map renderTagJSON
   let tagsStr := "[" ++ ",".intercalate tags ++ "]"
-  s!"{jsonStr a}:\{\"status\":{jsonStr status},\"tags\":{tagsStr}}"
+  let byBearerStr := "{" ++ ",".intercalate byBearer ++ "}"
+  jsonStr a ++ ":{\"status\":" ++ jsonStr status ++ ",\"byBearer\":" ++ byBearerStr ++
+    ",\"tags\":" ++ tagsStr ++ "}"
 
 private def renderConflictJSON (c : UnresolvedConflict) : String :=
   let pairs := c.pairs.map fun (r, s) => "[" ++ jsonStr r ++ "," ++ jsonStr s ++ "]"
@@ -114,8 +187,8 @@ private def renderConflictJSON (c : UnresolvedConflict) : String :=
     "],\"againstO\":[" ++ ", ".intercalate (c.againstO.map jsonStr) ++
     "],\"unresolvedPairs\":[" ++ ", ".intercalate pairs ++ "]}"
 
-def renderExtensionJSON (atoms : List Atom) (ext : Extension) : String :=
-  let entries := atoms.map (renderAtomJSON · ext)
+def renderExtensionJSON (thy : Theory) (atoms : List Atom) (ext : Extension) : String :=
+  let entries := atoms.map (renderAtomJSON thy · ext)
   let viol :=
     s!"\"hasViolation\":{jsonBool ext.hasViolation}," ++
     s!"\"violatingRules\":[{", ".intercalate (ext.violatingRuleLabels.map jsonStr)}]"
@@ -123,6 +196,24 @@ def renderExtensionJSON (atoms : List Atom) (ext : Extension) : String :=
   let judge :=
     s!"\"hasUnresolvedConflicts\":{jsonBool ext.hasUnresolvedConflicts},\"unresolvedConflicts\":[{String.intercalate ", " conflicts}]"
   "{\n" ++ ",\n".intercalate (entries ++ [viol, judge]) ++ "\n}"
+
+private def renderWhyEntryJSON (e : WhyRuleEntry) : String :=
+  let by_ := "[" ++ ", ".intercalate (e.defeatedBy.map jsonStr) ++ "]"
+  s!"\{\"rule\":{jsonStr e.rule.label},\"text\":{jsonStr (renderRule e.rule)},\"defeatedBy\":{by_}}"
+
+private def renderWhyReportJSON (w : WhyReport) : String :=
+  let side (es : List WhyRuleEntry) : String :=
+    "[" ++ ", ".intercalate (es.map renderWhyEntryJSON) ++ "]"
+  s!"{jsonStr (bearerLabel w.bearer)}:\{\"status\":{jsonStr w.status},\"forO\":{side w.forO},\"againstO\":{side w.againstO}}"
+
+/-- `{"atom":{"byBearer":{"Party":{status, forO, againstO}}}}` for each target. -/
+def renderWhyJSON (thy : Theory) (atoms : List Atom) (ext : Extension)
+    (bearerFilter : Option String) : String :=
+  let entry (a : Atom) : String :=
+    let per := bearersForAtom thy a bearerFilter |>.map fun b =>
+      renderWhyReportJSON (whyForBearer thy ext a b)
+    jsonStr a ++ ":{\"byBearer\":{" ++ ", ".intercalate per ++ "}}"
+  "{\n" ++ ",\n".intercalate (atoms.map entry) ++ "\n}"
 
 -- ── Abduction rendering ───────────────────────────────────────────────────────
 

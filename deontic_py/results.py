@@ -169,6 +169,56 @@ QueryResult = Extension
 
 
 @dataclass(frozen=True)
+class WhyRule:
+    """One applicable rule in a why-report (``renderWhyEntryJSON``):
+    its label, its full one-line text, and the labels of the applicable
+    counter-rules that defeat it by superiority."""
+
+    rule: str
+    text: str
+    defeated_by: list[str]
+
+    @classmethod
+    def from_json(cls, d: dict[str, Any]) -> "WhyRule":
+        return cls(
+            rule=d["rule"],
+            text=d.get("text", ""),
+            defeated_by=list(d.get("defeatedBy", [])),
+        )
+
+
+@dataclass(frozen=True)
+class WhyReport:
+    """Proof certificate for one atom in one bearer slice
+    (``renderWhyReportJSON``): the status plus the *applicable* prescriptive
+    rules concluding the atom (``for_o``) and its complement (``against_o``).
+    Inapplicable rules are omitted — they played no part."""
+
+    atom: str
+    bearer: str
+    status: str
+    for_o: list[WhyRule]
+    against_o: list[WhyRule]
+
+    @property
+    def winning_rules(self) -> list[str]:
+        """Labels of the undefeated applicable rules on the derived side
+        (``O(...)`` -> for_o, ``F(...)`` -> against_o; else empty)."""
+        side = {"O": self.for_o, "F": self.against_o}.get(status_code(self.status))
+        return [r.rule for r in side if not r.defeated_by] if side else []
+
+    @classmethod
+    def from_json(cls, atom: str, bearer: str, d: dict[str, Any]) -> "WhyReport":
+        return cls(
+            atom=atom,
+            bearer=bearer,
+            status=d["status"],
+            for_o=[WhyRule.from_json(r) for r in d.get("forO", [])],
+            against_o=[WhyRule.from_json(r) for r in d.get("againstO", [])],
+        )
+
+
+@dataclass(frozen=True)
 class AbduceResult:
     """Backward search result (``renderAbduceResultJSON``).
 

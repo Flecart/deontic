@@ -39,6 +39,8 @@ from .results import (
     Provenance,
     QueryResult,
     Tag,
+    WhyReport,
+    WhyRule,
     status_code,
     status_to_verdict,
 )
@@ -54,6 +56,8 @@ __all__ = [
     "AbduceResult",
     "AtomEntry",
     "Provenance",
+    "WhyReport",
+    "WhyRule",
     "status_code",
     "status_to_verdict",
     # llm surface

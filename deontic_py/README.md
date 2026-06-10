@@ -39,6 +39,12 @@ d.check("examples/ex1_license.ddl", assume=["~use"]).has_violation
 # atom dictionary (descriptions + provenance)
 for e in d.atoms("examples/ex1_license.ddl"):
     print(e.atom, e.description)
+
+# proof certificate: which applicable rules decided an atom, and what they defeated
+rep = d.why("examples/ex1_license.ddl", ["publish"])["publish"]["Licensee"]
+rep.status          # "O(publish)"
+rep.winning_rules   # ["r4"]
+[(r.rule, r.defeated_by) for r in rep.against_o]  # [("r2", ["r4"])]
 ```
 
 ### Binary resolution
@@ -62,6 +68,9 @@ Each mirrors a renderer in `Deontic/Pretty.lean`:
 - `AbduceResult` — `minimal_configs`, `minimal_count`, `satisfying`,
   `evaluated`, `truncated`.
 - `AtomEntry` — `atom`, `description`, `provenance`, `resolved`.
+- `WhyReport` — proof certificate per atom/bearer (`why()`): `status`,
+  `for_o` / `against_o` (each a `WhyRule` with `rule`, `text`, `defeated_by`),
+  `.winning_rules` helper.
 
 Status → verdict map (4-class): `O→obligatory`, `F→forbidden`,
 `Ps/P/Pw→allowed`, `unresolved→dilemma`, anything else → `allowed`.
