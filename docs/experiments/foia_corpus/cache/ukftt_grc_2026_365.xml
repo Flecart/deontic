@@ -1,0 +1,1361 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/365"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/365"/>
+	  <FRBRdate date="2026-03-16" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="365"/>
+	  <FRBRname value="Paul Cardin v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/365"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/365"/>
+	  <FRBRdate date="2026-03-16" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/365/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/365/data.xml"/>
+	  <FRBRdate date="2026-04-22T14:39:05" name="transform"/>
+	  <FRBRdate date="2026-04-22T14:49:50" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-03-10" refersTo="#decision" source="#"/>
+	<eventRef date="2026-03-16" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="paul-cardin" href="" showAs="PAUL CARDIN"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-tribunal-judge-shenaz-muzaffer" href="/judge-tribunal-judge-shenaz-muzaffer" showAs="TRIBUNAL JUDGE SHENAZ MUZAFFER"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>365</uk:number>
+	<uk:cite>[2026] UKFTT 365 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>b861978e5282b8cfe9c7a09ce1d78828d9d204ebde66e1555f91d68f2e1da274</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .judgment-bodynumber { }
+#judgment .judgment-bodycopy-link-tooltip { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00365 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case References: FT/EA/2025/0196</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Determined without a hearing</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-03-16" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">16 March 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Amended on 03 April 2026</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-tribunal-judge-shenaz-muzaffer" style="font-weight:bold;font-family:'Book Antiqua'">TRIBUNAL JUDGE SHENAZ MUZAFFER</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">TRIBUNAL MEMBER JO MURPHY</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">TRIBUNAL MEMBER MARION SAUNDERS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#paul-cardin" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">PAUL CARDIN</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">First Respondent</role></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is allowed in part as the Decision Notice contains an error of law.  The Tribunal makes a Substituted Decision Notice as follows:</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal finds that the Royal Borough of Kingston Upon Thames was not entitled to rely on regulation 12(4)(a) of the Environmental Information Regulations 2004 to withhold the information requested in part 2 of the Appellant&#8217;s request dated 15 July 2024.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal finds that the Royal Borough of Kingston Upon Thames was entitled to rely on the exemption contained in regulation 12(4)(a) of the Environmental Information Regulations 2004 to refuse to provide the information sought at parts 4 and 5 of the Appellant&#8217;s request.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal finds that the Royal Borough of Kingston Upon Thames was entitled to rely on the exemption contained in regulation 12(4)(b) of the Environmental Information Regulations 2004 to refuse to provide the information sought at parts 1 and 3 of the Appellant&#8217;s request.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Royal Borough of Kingston Upon Thames must take the following step within 28 days of promulgation of this Decision:</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Issue a fresh response to the request made by the Appellant dated 15 July 2024 in relation to the information sought at part 2 of the request, which must either </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.25in">i.</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua'">Supply the information sought; or</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.25in">ii.</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua'">Refuse to provide the information sought pursuant to reliance on a ground/s other than regulation 12(4)(a) of the Environmental Information Regulations 2004.  </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Any failure to abide by the terms of the Tribunal&#8217;s Substituted Decision Notice may amount to contempt which may, on application, be certified to the Upper Tribunal.</span></p>
+      </blockContainer>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This is an appeal against a decision of the Information Commissioner (&#8220;the Commissioner&#8221;) dated 21 May 2025, reference IC-332330-S7R4 (&#8220;the Decision Notice&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The parties opted for a paper determination of the appeal.  The Tribunal is satisfied that it can properly determine the issues without a hearing in accordance with rule 2 and rule 32(1)(b) of The Tribunal Procedure (First-tier Tribunal)(General Regulatory Chamber) Rules 2009 (as amended).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Factual background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The appeal relates to the application of the Environmental Information Regulations 2004 (&#8220;the EIR&#8221;).  The relevant Public Authority is the Royal Borough of Kingston Upon Thames (&#8220;the Council&#8221;).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold">The request and response</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant made the request which is the subject of this appeal on 15 July 2024 in writing as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;I noticed that there is at least one potentially fraudulent ICNIRP safety certificate contained in Kingston upon Thames Borough Council&#8217;s planning portal, an online facility which displays details of planning applications and approvals.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">A company named &#8220;Three UK Limited&#8221; &#8211; which was dissolved in the year 2015 &#8211; has somehow become the signatory for at least one bogus safety certificate (sometimes referred to as a conformity statement) for a 5G telecommunications mast installation.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">Using your best and most honest endeavours, please provide:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">1.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">A figure for the precise number of ICNIRP safety certificates related to 5G telecommunications mast installations that have been signed off by &#8220;Three UK Limited&#8221;, a company that didn&#8217;t exist at the time the relevant planning applications were made, and whose declared ICNIRP safety certificates are potentially fraudulent.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">Actual copies of the ICNIRP safety certificates related to 5G telecommunications mast installations that have been signed off by &#8220;Three UK Limited&#8221;, a company that didn&#8217;t exist at the time of the planning applications, and are therefore potentially fraudulent.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">3.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">The actual dates of the initial planning applications made for 5G telecommunications mast installations that have been allegedly ICNIRP &#8216;safety certified&#8217; by bogus certificates, along with the named street locations and identifying nomenclature.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">4.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">The time period, stated in years, months, weeks and days, between the date of the dissolution of &#8220;Three UK Limited&#8221;(27</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-style:italic;font-family:'Book Antiqua'"> October 2015) and the date of the initial applications made for all of the 5G telecommunications masts concerned, having bogus safety certificates, e.g. &#8220;8 years, 2 months, 3 weeks and 5 days&#8221;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">5.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">Given that the World Health Organisation classifies radio frequency &#8211; such as that transmitted 24/7 by 5G telecommunications masts &#8211; as a potential Type 2B carcinogen, that the power output of the affected 5G masts is unknown, that potentially a large number of safety certificates are potentially fraudulent, and that tens of thousands of Dear Kingston Upon Thames Borough Council residents have potentially been plunged into an unsafe environment, please provide detailed information explaining how Dear Kingston upon Thames Borough Council is planning to restore council tax payers, voters, their children, and Dear Kingston upon Thames Borough Council&#8217;s wildlife and domestic pets back to a safe, non-hazardous environment, one which will no longer be a serious, ongoing, potential threat to residents&#8217; health and wellbeing?&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 16 July 2024, a Planning Link Officer from the Council emailed the Appellant to ask for the site location address of the mast that the Appellant asserted had a potentially fraudulent ICNIRP safety certificate.  The Appellant provided the address of the mast on 21 July 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council responded to the Appellant&#8217;s request in writing on 12 August 2024 as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;[Part One]</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">We have considered this request Under Environmental Information Regulations (EIR) </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">and we have determined that the information should be withheld (if it exists) under </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">exception 12(4)(b) due to being &#8216;manifestly unreasonable&#8217;.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">To explain, the council would need to search the planning database on the council website </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">for several keywords, reading the documents to determine if they meet the scope of the </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">request, and if the requested information is held.  Due to the volume of records, this would </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">place an excessive time burden on the council.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">Under the EIR, this exception is subject to the public interest test, and the Council must </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">apply a presumption in favour of disclosure when considering that test.  I have considered </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">the public interest test below:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Public interest factors in favour of disclosure</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;font-weight:bold;font-family:Symbol;margin-left:1.28in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in"><span style="font-style:italic;font-family:'Book Antiqua'">The general public interest in transparency</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-weight:bold;font-family:Symbol;margin-left:1.28in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in"><span style="font-style:italic;font-family:'Book Antiqua'">The public interest in understanding issues affecting their local community</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify"><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Public interest factors in favour of maintaining the exception</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.28in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in"><span style="font-style:italic;font-family:'Book Antiqua'">The public interest in using public resources efficiently especially in the context of reduced budgets</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.28in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in"><span style="font-style:italic;font-family:'Book Antiqua'">Disproportionate burden on the authority</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.28in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in"><span style="font-style:italic;font-family:'Book Antiqua'">The public interest in not distracting officers from dealing with their core job responsibilities and diverting attention away from service delivery.</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">The public interest in this instance is in favour of maintaining the exemption.  </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">Under regulation 9(1) of the EIR, the council has a duty to offer advice and </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">assistance.  </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">You can access the planning database via the link below to conduct your own </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">searches, should you wish: [website address provided].</span></p>
+		  </wrapUp>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">[Part Two]</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">The information on &#8216;copies of the ICNIRP safety certificates&#8217; would not be held by the </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">council, and is therefore refused under EIR exception 12(4)(a) &#8216;Information not held&#8217;.  We </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">would recommend that you direct this question to the mast owner(s)/operator(s).</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">[Part Three]</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">Please see the answer to question 1 above with regards to planning approval documents.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">[Part Four]</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">The information on &#8216;time periods&#8217; would not be held by the council, and is therefore </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">refused under EIR exception 12(4)(a) &#8216;Information not held&#8217;.  We would recommend that </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">you direct this question to the mast owner(s)/operator(s).</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">The information on installation dates would not be held by the council, and is therefore </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">refused under EIR exception 12(4)(a) &#8216;Information not held&#8217;.  We would recommend that </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">You direct this question to the mast owner(s)/operator(s).</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">[Part Five]</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">The information on &#8216;WHO&#8217; would not be held by the council, and is therefore refused </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">under EIR exception 12(4)(a) &#8216;Information not held&#8217;.  This is not a request for recorded </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">information held by the Council.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">We would recommend that you direct this question to the mast owner(s)/operator(s)&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant submitted a request for an internal review on 17 August 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council responded to the request for an internal review on 05 September 2024 as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Having reviewed your original request, I am of the view that the exception applied under </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">EIR regulation 12(4)(b) &#8220;Manifestly Unreasonable&#8221; with regard to &#8216;a figure for the </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">precise number of ICNIRP safety certificates related to 5G telecommunications mast </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">installations that have been signed off by &#8220;Three UK Limited&#8221; (Q1/Q2) was appropriate </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">and remains withheld under this exception.  This is because we have calculated that it </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">would place an excessive, disproportionate and unreasonable burden on the service and </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">ultimately the Council to respond to your request.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">To explain further we have carried out a quick search of the Planning Database using </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">search words &#8216;telecom&#8217; and &#8216;mast&#8217; and have estimated that it would likely take one officer </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">the following amount of hours just to conduct a full search:-</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.28in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in"><span style="font-style:italic;font-family:'Book Antiqua'">Mast &#8211; 15 mins x 2,730 applications / 60 mins (to get hours) = 45.5 hours</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.28in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.28in"><span style="font-style:italic;font-family:'Book Antiqua'">Telecom &#8211; 15 mins x 3,460 applications / 60 mins (to get hours) = 57.66 hours</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <content>
+		      <p style="text-align:justify"><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">With regard to questions 2, 4 and 5, the exception applied under EIR 12(4)(a) </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">&#8216;Information not Held&#8217; continues to apply as the Council does not hold the information </span><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">requested&#8221;.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in;margin-right:0.25in;text-indent:-0.25in"><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">The complaint and the Commissioner&#8217;s investigation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant lodged a complaint with the Commissioner on 16 September 2024.  In particular, he stated that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;I have successfully applied to another council (Sefton Borough Council) who responded </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">in full to four of my five questions.  Yet Kingston Upon Thames Council is suggesting </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">that my request is in part &#8216;manifestly unreasonable&#8217;.  They are also suggesting that I </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">should make enquiries of private companies, i.e. the telecoms operators, or access the </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">information myself.  I regard this as being unfair and inappropriate because the </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">information I am seeking is of a highly dubious and possibly fraudulent nature, and I feel </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">it is incumbent upon the council to satisfy not only me, but itself as to the true extent of </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">the information being inappropriately withheld&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant also provided a link to the &#8216;Whatdotheyknow.com&#8217; website.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner accepted the complaint for investigation on 24 September 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 08 January 2025, the Commissioner wrote to the Council and asked them to respond to a series of questions.  In relation to the reliance on regulation 12(4)(a) of the EIR, the questions related to the searches that had been carried out, the search terms used to search any electronic data, whether any recorded information had been deleted/destroyed/not retained, and whether the Council had given appropriate advice and assistance to the applicant (Appellant) in line with the duty contained in regulation 9 of the EIR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In relation to the reliance on regulation 12(4)(b) of the EIR, the Council was asked to provide a detailed estimate of the time/cost taken to provide the information falling within the scope of the requests, confirm whether a sampling exercise had been undertaken to determine the estimate, confirm that the estimate had been based upon the quickest method of gathering the requested information, and clarify the nature of any advice and assistance given to the Appellant.  The Council was also asked to explain the public interest arguments in favour of disclosure and in favour of maintaining the exception that were taken into account, and why the Council determined that the public interest in maintaining the exception outweighed that in disclosing the withheld information.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council was asked to provide a response by 21 January 2025.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Following a request for additional time to respond, the Council provided an update in writing on 05 February 2025.  Their response was, in summary:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">A basic search had been conducted to check that no information was held that would fall within the scope of the request but, as the masts belonged to &#8220;Three UK Ltd&#8221;, the Council took the view that the request should be made directly to Three UK Ltd;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">A limited number of searches of the planning database (electronic records) had been carried out.  It took approximately 15 minutes to look through one application and search each document to determine if any ICNIRP safety certificates were held.  The certificates were not easily identifiable as they could be embedded in a much larger document.  Two ICNIRP safety certificates were located and there was a nil return in the remaining applications that were searched;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The search was confined to the planning database, which was publicly searchable.  The search term used was &#8220;ICNCRP safety certificates&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">No relevant records had been deleted or destroyed, and there was no information that had previously been held by the Council but was no longer held by them;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The information requested related to a private company and so there was no business purpose for which the requested information should be held by the Council.  The safety certificates did not form part of a planning application request, but may have been provided by Three UK Ltd as part of a document for information purposes;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council were not aware of any information held that was similar to that which had been requested;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council had advised the Appellant in their initial response that, if he wished to carry out the searches of the planning database himself, then the information would be available.  The Council took the view that, in doing so, they had satisfied the requirement pursuant to Regulation 9 of the EIR.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 05 February 2025, the Commissioner asked whether the Council had any submissions to make in respect of regulation 12(4)(b) [of the EIR] as they had not addressed this provision in their response.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council provided a response on the same date in which they maintained that responding to the request would be manifestly unreasonable.  The response stated as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Each application would need to be read in order to determine whether or not it contained </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">the information requested.  This is because the information may be embedded within a </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">planning application and would not be a stand alone document that could easily be </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">searched.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">We have calculated that this is likely to take an officer at least 103 working hours to </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">complete which we consider to be unreasonable as it would take the officer away from </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">carrying out his/her core duties for a considerable time.  This figure equates to </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">approximately 6000 applications at 15 min each.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">We believe that this exception is intended to protect public authorities from exposure to a </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">disproportionate burden or an unjustified level of distress and disruption in handling a </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">request.  This process could be completed by the requestor and we have advised him of </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">this accordingly&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 16 April 2025, the Commissioner sent a further email to the Council, in which they suggested that a more appropriate search term to be used would be &#8220;Three UK Ltd&#8221; and asked whether a search could be conducted using that term.  The Commissioner also asked for further details on how the search of each document was carried out and asked whether the use of the alternative search term would potentially narrow the search to a specific organisation.  Finally, the Commissioner noted that it was unclear whether the requested information was, in fact, available on the Council&#8217;s website and queried whether the Council had directed the Appellant to where the information was actually held.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council responded on 29 April 2025.  They stated that a search using the suggested alternative search term of &#8220;Three UK Ltd&#8221; had only highlighted a single planning application.  The Council further stated as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;The electronic record is the actual planning application, and any related planning </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">documents etc.  The number of documents per planning application varies as each one is </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">different.  Then each document within the application has to be searched to see if there is </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">any reference to &#8216;ICNCRP&#8217;, which is a manual search per document.  This has been </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">calculated as taking on average 15 mins.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">The requestor would need to undertake a &#8216;simple&#8217; search of the planning database, putting </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">in a keyword such as MAST, 3 UK, Three UK or various other words.  This is exactly </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">the same process that would need to be undertaken by Council officers.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">&#8230;..I believe that advice and assistance under EIR Regulation 9(1) was provided to the </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">requestor at both the initial response and the subsequent Internal Review.  We advised </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">on both occasions that a search could be carried out on the Planning Portal and a link to </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">the portal was provided.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">Given that the requestor could carry out a search for the information in exactly the same </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">way as a Council officer and in retrospect I feel that Regulation 12(4)(b) also applies to </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">this request in being manifestly unreasonable on the grounds that the information sought </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">could be freely searched on the planning portal.  Carrying out a search on behalf of the </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">requestor would constitute an unreasonable diversion of resources&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Decision Notice was issued on 21 May 2025.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision notice</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner&#8217;s decision was that the Council was entitled to rely on regulation 12(4)(b) to withhold information in scope of parts 1 and 3 of the request and that the public interested favoured maintaining the exception and that, on the balance of probabilities, the Council did not hold information within the scope of parts 2, 4 and 5 of the request.  The Commissioner did not require the Council to take any steps as a result of the decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner agreed that the requested information is likely to be environmental as per regulation 2(1)(c) and 2(1)(d) [of the EIR] as it was for information relating to mast locations, planning and safety concerns.  The Council had therefore been correct to handle the request under the EIR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In relation to the application of regulation 12(4)(b) of the EIR, the Commissioner&#8217;s reasons were as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Freedom of Information and Data Protection (Appropriate Limit and Fees) sets out an appropriate limit for responding to requests for information under the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;the FOIA&#8221;).  The applicable limit for a public authority, such as the Council is &#163;450, calculated at a rate of &#163;25 per hour, which equates to a time limit of 18 hours.  Where a public authority estimates that responding to the request will exceed this limit, section 12(1) of the FOIA provides an exclusion from the obligation to comply with the request.  Whilst there was no equivalent limit within the EIR, the Commissioner considered that public authorities may use equivalent figures as an indication of what Parliament considers to be a reasonable burden to respond to EIR requests.  However, the public authority must then balance the burden calculated to respond to the request against the public value of the information which would be disclosed before concluding whether the exception is applicable;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Based on the information provided by the Council regarding the burden that it considered would be required to carry out the request, namely searching approximately 6,000 applications at a rate of one search per 15 minutes, the Commissioner considered that the Council had carried out reasonable searches to locate information falling within the scope of the request and had demonstrated why it would case a significant burden to respond further;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Regulation 12(4)(b) of the EIR is subject to the public interest test.  In relation to the public interest test, the Commissioner&#8217;s reasons were as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">It was recognised that there are clear public interest arguments in favour of the release of information, including transparency, accountability and for a better-informed public to enable understanding and engagement in the matter to which the information relates.  In addition, there is an assumption in the EIR that, on balance, information should be made available;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">However, the Commissioner noted that the presumption in favour of disclosure did not make burdensome requests any less vexatious;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner accepted that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;there is a general public interest in this issue and that local residents will have their own interest in knowing how the Council is carrying out its duties and to use its recourses to the greatest effect for the community as a whole.  However, it is clearly not in the public interest to place an excessive burden on a public authority for little or no overall public gain (suspicion of fraudulent activity).  Having considered both the complainants and the Council&#8217;s arguments, the Commissioner is not convinced that providing this information would substantially add to any public interest argument outside of that of the complainant and local residents&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Taking into consideration the significant burden that responding to the request would place on the Council, the Commissioner considered that the public interest in maintaining the exception outweighed the public interest in disclosure in this case.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In relation to the application of regulation 12(4)(a) of the EIR, the Commissioner&#8217;s reasons were as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The relevant decision for the Commissioner is whether, on the civil standard of the balance of probabilities, the public authority holds any information (or held any information at the time of the request) which falls within the scope of the request;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council had confirmed that it was not a stipulation for the specific requested information to be included within a planning application and, if such information was included by the third party or its agents, it would not be held by the Council for its own purposes;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner was satisfied that the Council had checked with the most relevant department as to whether any information relating to the specific parts of the request may be held;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner held that, on the balance of probabilities, the information requested for parts 2, 4 and 5 of the request was not held and therefore regulation 12(4)(a) of the EIR was engaged.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Regarding the duty pursuant to regulation 9 of the EIR to provide advice and assistance to a requestor, the Commissioner considered that it would be difficult to refine the request further, given the specific wording of it.  He therefore concluded that, as there was no easy way for the Council to suggest how the Appellant could refine the request in such a way that it would be able to provide the information requested, the Council had complied with its obligations under regulation 9(1) of the EIR.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify;text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Grounds of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant lodged his appeal on 21 May 2025.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In his reasons for the appeal, the Appellant stated as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;I have successfully applied to another council (Sefton Borough Council) with exactly the </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">same FOI request, who responded in full to four of my five questions.  Yet Kingston Upon </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">Thames Council has provided no information, and has suggested that my request is in </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">part &#8216;manifestly unreasonable&#8217;.  This is incorrect.  I have made over a dozen of these </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">enquiries to councils via the WhatDoTheyKnow website and have only been met by this </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">&#8216;manifestly unreasonable&#8217; response on one occasion.  This one.  The council are also </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">suggesting that I should make enquiries of private companies, i.e. the telecoms operators, </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">or access the information myself.  I regard this as being unfair and inappropriate because </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">even on a cursory examination it can be seen that the information I am seeking is of a </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">highly dubious and possibly fraudulent nature, and I feel it is incumbent upon the council </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">to satisfy not only me, but itself, as to the true extent of the information being </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">inappropriately withheld, in the same way that Sefton Borough Council was happy to do.  </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">I feel that the senior case officer at the Information Commissioner&#8217;s Office who dealt with </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">my complaint was either lazy or incompetent in not addressing the potentially fraudulent </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">nature of the safety certificates and in not conducting her enquiries with this in mind&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The remedy sought was </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;a positive outcome whereby the information is released&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">The response of the Commissioner</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Whilst reviewing the matter upon receiving the Appellant&#8217;s appeal, the Commissioner noted that the Council had provided incorrect figures in relation to the number of hours that it would take to review the applications.  The figure that the Council had calculated was that it would take approximately 103 hours to check a total of 6,000 applications.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner emailed the Council on 17 June 2025 as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.04in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;When reviewing this matter, the Commissioner notes that if the calculations above are correctly inputted as 15 minutes x Applications / 60 minutes then the timings are much larger and the following should in fact be produced = </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua'">*Mast &#8211; 15 x 2730 / 60 = 682.5 hours</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua'">*Telecom &#8211; 15 x 3460 / 60 = 865 hours</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua'">*Total &#8211; 6190 applications with a time of 1547.5 hours&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 18 June 2025, the Council confirmed that they agreed with the revised totals as calculated by the Commissioner.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner lodged his response on 26 June 2025, in which he maintained that the Decision Notice was correct and that the appeal should be dismissed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner&#8217;s response, in essence, was:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">It was not possible to compare the responses of other Councils to that of the Council in the current case in any meaningful way, because each Council is a different public authority and therefore there will be a variety of variables as to why some Councils may, or may not be, able to comply with a request;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">It was not within the remit of the Tribunal to carry out some form of broad analysis of how similar requests submitted by the Appellant have been handled by different public authorities;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Appellant had not challenged the Commissioner&#8217;s decision that, on the balance of probabilities, the Council did not hold the information requested in parts 2, 4 and 5 of the request.  The Commissioner was entitled to accept at face value the response of a public authority where there was no evidence of an attempt to mislead the Commissioner, or a motive to withhold information actually within its possession.  There was no evidence that the Council had attempted to mislead the Commissioner during his investigation and the Council had answered all questions that had been asked of it;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Whilst it could be seen as a motive for the Council to withheld information within its possession (on the basis that potentially fraudulent ICNIRP safety certificates were said to be on the Council&#8217;s planning portal), there was no evidence provided by the Appellant or confirmation by the Council that there was, in fact, any fraudulent ICNIRP safety certificates on the portal;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">As the Appellant had not provided any evidence that would contradict the submissions made by the Council during the Commissioner&#8217;s investigation, the Commissioner remained satisfied that, on the balance of probabilities, the Council did not hold any more information within the scope of parts 2, 4 and 5 of the request;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Regarding the burden on the Council, the Commissioner concluded that he had been right to decide that the request was manifestly unreasonable on the basis that the Council would need to undertake 103.16 hours of work to review the applications.  He noted that the correct figure of 1547.5 hours </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;firmly solidifies that his decision is correct&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner also noted that the Appellant had not challenged the timings put forward by the Council in his appeal and therefore, with any contradictory evidence, the Commissioner remained satisfied that it would take 15 minutes to review each application;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner understood that the Appellant&#8217;s reference to the requested information being possibly fraudulent in nature to be a submission as to why the public interest favoured disclosure in respect of the information sought at parts 1 and 3 of the request.  However, the Commissioner concluded that, in the absence of any evidence to demonstrate any fraudulent ICNIRP safety certificates on the planning portal, this aspect of the Appellant&#8217;s grounds of appeal added </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;limited weight when undertaking the public interest balancing exercise&#8221;</span><span style="font-family:'Book Antiqua'">;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner submitted that he remained satisfied that the burden of complying with parts 1 and 3 of the request was manifestly unreasonable and that, due to the manifestly unreasonable burden placed on the Council, the public interest favoured the information sought at parts 1 and 3 of the request being withheld.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner also addressed the issue of the accessibility of the information that had been requested in parts 1 and 3 of the request.  The Council asserted that any information held that fell within the scope of those parts of the request would be held in the publicly accessible Planning Database, which is the same database that Council officers would need to search to obtain the information.  The Appellant&#8217;s position was that it was unfair and inappropriate to conduct his own searches for the requested information.   The Commissioner&#8217;s position was that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;had this request been handled under FOI, the fact that it is publicly available may well have provided grounds for the request to be refused under Section 21 FOIA (information accessible to the applicant by other means).  Although there is no direct equivalent of Section 21 FOIA under EIR, the Commissioner submits that the fact that the Appellant has the ability to search for the information themselves should be an important factor that weighs the public interest in favour of maintaining the exception, when undertaking the public interest balancing test&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner therefore concluded that, in his submission, the appeal should be dismissed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Appellant&#8217;s reply to the Commissioner&#8217;s response </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">No reply was filed by the Appellant to the Commissioner&#8217;s response.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Legal Framework </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">&#8220;Environmental information&#8221; is defined in regulation 2 of the EIR as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Interpretation </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">2(1)</span><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">In these Regulations &#8211; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.89in;text-indent:0.29in"><span style="font-family:'Book Antiqua'">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">&#8220;environmental information&#8221; has the same meaning as in Article 2(1) of the Directive, namely any information in written, visual, aural, electronic or any other material form on &#8211; </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua'">the state of the elements of the environment, such as air and atmosphere, water, soil, land, landscape and natural sites, including wetlands, coastal and marine areas, biological diversity and its components, including genetically modified organism, and the interaction among these elements;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua'">factors, such as substances, energy, noise, radiation or waste, including radioactive waste, emissions, discharges and other releases into the environment, affecting or likely to affect the elements of the environment referred to in (a);</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(c)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua'">measures (including administrative measures), such as policies, legislation, plans, programmes, environmental agreements, and activities affecting or likely to affect the elements and factors referred to in (a) and (b) as well as measures or activities designed to protect those elements;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(d)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;text-indent:0.4in"><span style="font-family:'Book Antiqua'">reports on the implementation of environmental legislation;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(e)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua'">cost-benefit and other economic analysis and assumptions used within the framework of the measures and activities referred to in (c); and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(f)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua'">the state of human health and safety, including the contamination of the food chain, where relevant, conditions of human life, cultural sites and built structures inasmuch as they are or may be affected by the state of the elements of the environment referred to in (a) or, through those elements, by any of the matters referred to in (b) and (c).</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The duty to make environmental information available on request is found in regulation 5 of the EIR as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Subject to paragraph (3) and in accordance with paragraphs (2), (4), (5) and (6) and the remaining provisions of this Part and Part 3 of the Regulations, a public authority that holds environmental information shall make it available on request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Information shall be made available under paragraph (1) as soon as possible and no later than 20 working days after the date of receipt of the request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">&#8230;&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The provisions relating to the duty on public authorities to provide advice and assistance are contained within regulation 9 of the EIR as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">A public authority shall provide advice and assistance, so far as it would be reasonable to expect the authority to do so, to applicants and prospective applicants.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(2)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Where a public authority decides that an applicant has formulated a request in too general a manner, it shall &#8211; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">ask the applicant as soon as possible and in any event no later than 20 working days after the date of receipt of the request, to provide more particulars in relation to the request; and</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">assist the applicant in providing those particulars.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The relevant parts of regulation 12, which outlines the exceptions to the duty to disclose environmental information, read as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(1)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if &#8211; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">an exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">in all the circumstances on the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(2)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">A public authority shall apply a presumption in favour of disclosure.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">To the extent that the information requested includes personal data of which the applicant is not the data subject, the personal data shall not be disclosed otherwise than in accordance with regulation 13.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(4)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">For the purposes of paragraph (1)(a), a public authority may refuse to disclose information to the extent that &#8211; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">it does not hold that information when an applicant&#8217;s request is received;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">the request for information is manifestly unreasonable</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">&#8230;&#8230;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic">Regulation 12(4)(a) of the EIR</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">A public authority may therefore refuse to disclose information to the extent that it does not hold that information when the applicant&#8217;s request is received and where, in all of the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Whether a public authority holds material is a question of fact to be determined on the balance of probabilities (<span style="font-style:italic">Linda Bromley v the Information Commissioner and the Environment Agency (EA/2006/0072; 31 August 2007, </span>as approved in <span style="font-style:italic">Andrew Preston v the Information Commissioner and the Chief Constable of West Yorkshire Police <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/344" uk:canonical="[2022] UKUT 344 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 344 (AAC)</ref>).  </span>The First-tier Tribunal held that in determining a dispute as to whether information is &#8216;held&#8217; that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">&#8220;There can seldom be absolute certainty that information relevant to a request does not remain undiscovered somewhere within a public authority's records. This is particularly the case with a large national organisation like the Environment Agency, whose records are inevitably spread across a number of departments in different locations.&#160; The Environment Agency properly conceded that it could not be certain that it holds no more information.  However, it argued (and was supported in the argument by the Information Commissioner) that the test to be applied was not certainty but the balance of probabilities.  This is the normal standard of proof and clearly applies to Appeals before this Tribunal in which the Information Commissioner's findings of fact are reviewed.  We think that its application requires us to consider a number of factors including the quality of the public authority's initial analysis of the request, the scope of the search that it decided to make on the basis of that analysis and the rigour and efficiency with which the search was then conducted.  Other matters may affect our assessment at each stage, including, for example, the discovery of materials elsewhere whose existence or content point to the existence of further information within the public authority which had not been brought to light.  Our task is to decide, on the basis of our review of all of these factors, whether the public authority is likely to be holding relevant information beyond that which has already been disclosed&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Whilst the above cases relate to FOIA, the considerations are of equal applicability to the EIR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The relevant test is therefore whether information is, on the evidence, more likely to be held than not held.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">For practical purposes, if the information is not held then the public interest test is essentially redundant.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify;text-indent:0.25in"><span style="font-style:italic;font-family:'Book Antiqua'">Regulation 12(4)(b) of the EIR </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">A public authority may refuse to disclose information to the extent that the request for information is manifestly unreasonable and where, in all of the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">This exception can apply if the cost or burden of dealing with a request is too great.  The ICO&#8217;s guidance titled </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Manifestly unreasonable requests &#8211; Regulation 12(4)(b)(Environmental Information Regulations) </span><span style="font-family:'Book Antiqua'">states that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;The inclusion of the word &#8220;manifestly&#8221; means that there must be an obvious or clear quality to the unreasonableness&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The ICO guidance also states as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;In assessing whether the cost or burden of dealing with a request is too great, you will need to consider the level of the costs involved and decide whether they are clearly or obviously unreasonable.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <intro>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">This will mean taking into account all of the circumstances of the case including:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.29in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.29in"><span style="font-style:italic;font-family:'Book Antiqua'">the nature of the request and any wider value in the requested information being made publicly available;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.29in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.29in"><span style="font-style:italic;font-family:'Book Antiqua'">the importance of any underlying issue to which the request relates, and the extent to which responding to the request would shed light on that issue;</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.29in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.29in"><span style="font-style:italic;font-family:'Book Antiqua'">the size of your organisation and the resources available to you, including the extent to which you would be distracted from delivering other services; and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:Symbol;margin-left:1.29in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.29in"><span style="font-style:italic;font-family:'Book Antiqua'">the context in which the request is made, which may include the cost of responding to other requests on the same subject from the same requestor&#8221;.  </span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">When considering the provisions of regulation 12 of the EIR with section 12 of FOIA, the ICO note the following:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;In assessing whether the amount of staff time involved in responding to a request is sufficient to make a request manifestly unreasonable, the Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 2004 (the fees regulations) may be a useful starting point.  The fees regulations are made under section 12 of FOIA.  They establish the cost threshold, known as the appropriate limit, and set out what activities can be taken into account when estimating whether it would be exceeded.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">This does not mean that the FOIA fees regulations apply to requests made under the EIR.  However, we take these regulations to give a clear indication of what Parliament considered to be a reasonable allocation of resources when dealing with requests in terms of staff time.  Under those fees regulations, a government department is expected to commit up to 24 hours of staff time to dealing with a request.  For other public authorities it is 18 hours</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">However, it is stressed that the fees regulations only provide an indication of the amount of staff time that&#8217;s considered reasonable to commit to dealing with a request.  They are not determinative in any way&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">As noted in the ICO guidance, the public interest in maintaining the exception lies in protecting public authorities from exposure to disproportionate burden or to an unjustified level of distress, disruption or irritation in handling information requests.  Conversely, the guidance notes that there will always be some public interest in disclosure to promote transparency and accountability of public authorities, greater public awareness and understanding of environmental matters, a free exchange of views, and more effective public participation in environmental decision making.  The weight to be attached to each of these interests will evidently vary from case to case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The correct approach is for the public interest in disclosing the information and the public interest in withholding the information to be identified, and for a balancing exercise to then be carried out.  If the public interest in disclosing is stronger than the public interest in withholding the information, then the information should be disclosed.  </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">The role of the Tribunal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">By virtue of regulation 18 of the EIR, the Tribunal&#8217;s remit is governed by section 58 of FOIA. This requires the Tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved an exercise of his discretion, whether he ought to have exercised it differently. The Tribunal may receive evidence that was not before the Commissioner and may make different findings of fact from the Commissioner.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The issues for the Tribunal to determine are whether:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.03in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.03in"><span style="font-family:'Book Antiqua'">The Commissioner was correct in holding, on the balance of probabilities, that the Council did not hold any relevant information as sought in parts 2, 4 and 5 of the request, at the time that the request was made and that therefore the Council was entitled to rely on regulation 12(4)(a) of the EIR to refuse those parts of the request; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.03in;text-indent:-0.25in">ii.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.03in"><span style="font-family:'Book Antiqua'">The Commissioner was correct in holding that the Council was entitled to rely on regulation 12(4)(b) of the EIR to refuse parts 1 and 3 of the request and, if so, whether the public interest balance favoured the disclosure or the withholding of the information.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We read and took account of an open bundle containing 102 pages including indexes.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussions and conclusions</span></p>
+	    <p style="text-align:justify;text-indent:0.25in"><span style="font-style:italic;font-family:'Book Antiqua'">Regulation 12(4)(a) &#8211; information not held</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council refused to disclose the information requested in parts 2, 4 and 5 of the request on the basis that they did not hold any relevant information at the time of receipt of the request.  The Tribunal has considered whether, on the balance of probabilities, the Commissioner was correct in concluding that the information was not held by the Council at the time of the Appellant&#8217;s request in relation to each of the three parts of the request separately.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Part 2 of the Appellant&#8217;s request sought copies of the ICNIRP safety certificates relating to 5G telecommunications mast installations that have been signed off by Three UK Ltd.  In his Grounds of Appeal, the Appellant has not challenged the Council&#8217;s assertion that they would not hold copies of the safety certificates and that the enquiry should be directed to the mast owner/operator instead.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">However, in their response of 05 February 2025 to the first set of questions from the Commissioner, the Council stated the following:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;A limited number of searches of the planning database, (electronic records) were carried out by Planning colleagues.  Each search took approximately 15 mins to look through one application and search each document to determine if any &#8216;ICNCRP safety certificates&#8217; were held by the Council.  Two were located but a nil return in the remaining applications searched.  The certificates are not easily identifiable as they can be embedded in a much larger document&#8217;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council&#8217;s position is therefore that copies of two ICNIRP safety certificates were held by them at the relevant time.  It follows that it is possible that copies of further ICNIRP safety certificates were also held by them at the relevant time but were not located during the limited number of searches if the planning database that were carried out.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Given that, on the Council&#8217;s own evidence, copies of two ICNIRP safety certificates were held at the relevant time, the Tribunal concludes that the Commissioner erred in concluding that, on the balance of probabilities, the Council did not hold any ICNIRP safety certificates.  The Commissioner&#8217;s conclusion was demonstrably in error given the existence of copies of (at least) two of the ICNIRP safety certificates in the Council&#8217;s records.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We therefore find that the Commissioner made an error in law in concluding that the Council was entitled to rely on regulation 12(4)(a) of the EIR in relation to part 2 of the request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Part 4 of the Appellant&#8217;s request sought information on the time period between the date of the dissolution of Three UK Ltd and the date of the initial applications that were made for all of the relevant 5G telecommunications masts.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council&#8217;s response was that the information on installation dates and the information on time periods would not be held by the Council, and that the queries should be directed to the mast owner/operator.  Whilst not determinative, we note that the Appellant has not sought to contradict this assertion in his Grounds of Appeal.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal accepts that the Commissioner is entitled to accept at face value the response of a public authority where there was no evidence of an attempt to mislead the Commissioner and where there is no motive for the public authority to withhold information that it actually within its possession.  We are satisfied that there is no evidence in this case to suggest that the Council has deliberately attempted to mislead the Commissioner during his investigation.  We are also satisfied that, whilst there is a potential motive for the Council to withhold information on the basis of the allegedly potential fraudulent nature of the safety certificates, there is no actual evidence before the Tribunal that any fraudulent safety certificates were, in fact, on the Council&#8217;s planning portal.  Whilst we acknowledge that the Appellant provided information about the location of one potentially fraudulent safety certificate to the Council, there is no evidence to demonstrate whether that allegation was correct.  In any event, any certificates that are held are already publicly available on the Council&#8217;s planning&#160;portal.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal is therefore satisfied that the Commissioner was correct in finding that, on the balance of probabilities, the information requested in part 4 of the request was not held by the Council at the relevant time, and that the Council was therefore entitled to rely on regulation 12(4)(a) of the EIR to refuse the request in relation to part 4.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Part 5 of the Appellant&#8217;s request asked for detailed information as to how the Council was planning to restore a safe, non-hazardous environment for local residents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal are satisfied that the request at part 5 is not a request for information that is held by the Council.  The basis for the request at part 5 is entirely premised on a subjective belief / viewpoint held by the Appellant that the existence of the telecommunication masts pose a </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;serious, ongoing, potential threat to residents&#8217; health and wellbeing&#8221;.  </span><span style="font-family:'Book Antiqua'">We are satisfied that the Commissioner was correct in finding that, on the balance of probabilities, the information requested in part 5 of the request was not held by the Council at the relevant time, and that the Council was therefore entitled to rely on regulation 12(4)(a) of the EIR to refuse the request in relation to part 5, for the same reasons as are applicable to our decision in relation to part 4 of the request.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">Regulation 12(4)(b) &#8211; manifestly unreasonable</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Part 1 of the request asked for information as to the number of ICNIRP safety certificates related to 5G telecommunications mast installations that had been signed off by Three UK Ltd.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">There is no evidence before us to contradict the amended figures referenced by the Commissioner and agreed by the Council that a search of the planning database would require a total of 6190 applications to be reviewed, taking approximately 1547 hours in total at a rate of one application per 15 minutes.  Whilst the Tribunal accepts that the Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 2004 are not directly applicable to the EIR, we do find them to be instructive as to what is deemed to be a reasonable allocation of resources for dealing with requests in relation to staff time.  Under those regulations, it is deemed reasonable for a public authority to commit up to 18 hours of staff time to deal with a request.  Here, the estimate provided by the Council as to the number of hours of staff time that would be required is over 85 times more than that which is set out in the Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 2004.  Even if the estimate provided by the Council was overly generous in each case, taking half the time estimated would still be significantly in excess of the 18 hours that is outlined in the Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 2004</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We are therefore satisfied that the request for information in relation to part 1 of the request is manifestly unreasonable due to the burden that would be placed on the Council if they were compelled to comply with it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We have then gone on to consider whether the Commissioner was correct in accepting the Council&#8217;s conclusion that the public interest in the maintenance of the exemption outweighed the public interest in disclosure of the information.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal recognises that there are clear and applicable public interest arguments in favour of disclosure of the information, including increased transparency, accountability and increased public engagement and understanding.  Conversely, it cannot be said to be in the public interest if council staff are diverted away from their core duties to respond to a request that has, on the face of it, limited wider public interest.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We also consider it to be relevant that the planning database is publicly accessible and that the Appellant is able to conduct the same searches that would be conducted by the Council if they were required to do so.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Having considered the public interest in favour of maintaining the exception and against maintaining the exception, the Tribunal agrees with the decision of the Commissioner that the public interest in maintaining the exception outweighs the public interest in disclosure in this case in relation to part 1 of the request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Part 3 of the request sought information on dates, street locations, and identifying nomenclature relating to the initial planning applications made for 5G telecommunications mast installations.  The Council relied on the same arguments as were outlined in relation to part 1 of the request.  For the same reasons as outlined above in relation to part 1 of the request, the Tribunal is satisfied that the Commissioner was correct in holding that the Council was entitled to rely on regulation 12(4)(b) of the EIR in refusing the request, and that the public interest in the maintenance of the exception outweighs the public interest in disclosure in relation to the information sought in part 3 of the request.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Finally, in his Grounds of Appeal, the Appellant emphasised that a similar request to another council had not been refused on the grounds that it was manifestly unreasonable, and nor had multiple requests made to councils via the WhatDoTheyKnow website.  The Tribunal does not find this argument to be persuasive in any way.  Each council is a different public authority, with different resources and different ways of dealing with a request.  In addition, the amount of information held will inevitably vary from council to council.  We are therefore not assisted in our determination by the Appellant&#8217;s submission in this regard.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal allows the appeal in relation to the information sought at part 2 of the request only, for the reasons given above and makes a Substituted Decision Notice as outlined above.&#160;</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p><span style="font-family:'Book Antiqua'">Signed: </span><marker name="tab"/>Tribunal <span style="font-family:'Book Antiqua'">Judge Shenaz Muzaffer</span></p>
+      <p><span style="font-family:'Book Antiqua'">Dated:</span><marker name="tab"/><docDate date="2026-03-10" refersTo="#decision" style="font-family:'Book Antiqua'">10 March 2026</docDate></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">On 03 April 2026, Tribunal Judge Muzaffer amended the decision pursuant to rule 40 of The Tribunal Procedure (First-tier Tribunal)(General Regulatory Chamber) Rules 2009 as follows:</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">i.</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">At paragraph 14, &#8220;The Commissioner was asked&#8230;&#8221; is amended to &#8220;The Council was asked&#8230;&#8221;;</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">ii.</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">At paragraph 15, &#8220;The Commissioner provided&#8230;&#8221; is amended to &#8220;The Council provided&#8230;&#8221;.</span></p>
+      </blockContainer>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

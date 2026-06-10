@@ -259,6 +259,10 @@ engaged: {engaged}
 pi: {pi}
 """
     out.write_text(md)
+    if not withheld:
+        print("  WARNING: NOTHING WITHHELD — the whole decision (including the "
+              "tribunal's reasoning) is in the background. Fix with "
+              "--withhold-from or a manual cut before using this case.")
     print(f"  wrote {out.relative_to(HERE)} "
           f"({len(kept)} sections kept, {len(withheld)} withheld)")
     print(f"  reasoning -> {reasoning.relative_to(HERE)}")

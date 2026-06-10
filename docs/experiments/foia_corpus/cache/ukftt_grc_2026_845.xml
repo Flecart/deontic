@@ -1,0 +1,666 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/845"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/845"/>
+	  <FRBRdate date="2026-06-10" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="845"/>
+	  <FRBRname value="J S Hughes v Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/845"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/845"/>
+	  <FRBRdate date="2026-06-10" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/845/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/845/data.xml"/>
+	  <FRBRdate date="2026-06-10T09:26:40" name="transform"/>
+	  <FRBRdate date="2026-06-10T11:08:09" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-07" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-06-03" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-10" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="j-s-hughes" href="" showAs="J S HUGHES"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>845</uk:number>
+	<uk:cite>[2026] UKFTT 845 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.1</uk:parser>
+	<uk:hash>afa5234c2caa0c0f37251f55d82b52ddb5390f400036f398cc4471b5f53b650b</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { text-align: left; margin-left: 0.58in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation2 { text-align: left; margin-left: 1in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation3 { text-align: left; margin-left: 1.25in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Revision { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .CommentText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .CommentSubject { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .BBCText { font-size: 12pt; color: #000000; }
+#judgment .NormalWeb { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .judgment-bodytext { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: none; color: #0072A8; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Book Antiqua'; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Book Antiqua'; }
+#judgment .FooterChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .judgment-bodynumber { }
+#judgment .visually-hidden { }
+#judgment .judgment-bodycopy-link-tooltip { }
+#judgment .FootnoteReference { vertical-align: super; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p style="text-align:left"><span style="font-weight:bold;font-family:Arial;color:#000000">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:Arial;color:#000000">[2026] UKFTT 00845 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial"> Case Reference: FT/EA/2025/0394</span></p>
+      <p style="text-align:left;margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:Arial">First-tier Tribunal </courtType></p>
+      <p style="text-align:left;margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:Arial">General Regulatory Chamber</courtType></p>
+      <p style="text-align:left;margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:Arial">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial">Hearing date: </span><docDate date="2026-05-07" refersTo="#hearing" style="font-weight:bold;font-family:Arial">7 May 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial">Decision given on: </span><docDate date="2026-06-10" refersTo="#decision" style="font-weight:bold;font-family:Arial">10 June 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:Arial">Judge scherbel-ball</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:Arial">tribunal member mann</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:Arial">Tribunal member wolf</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#j-s-hughes" style="font-weight:bold;text-transform:uppercase;font-family:Arial">j s hughes</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#information-commissioner" style="font-weight:bold;font-family:Arial">INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Respondent</role></p>
+      <p style="text-align:left"><span style="font-weight:bold;font-family:Arial">Decisions: </span></p>
+      <blockContainer>
+	<num style="margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	<p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:Arial">The Appellant&#8217;s application dated 26 March 2026 is refused.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	<p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:Arial">The Appeal is dismissed.</span></p>
+      </blockContainer>
+      <p class="Style3"><span style="text-decoration-line:none;text-transform:none;font-variant:small-caps;font-family:Arial">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <num style="font-weight:bold;text-transform:uppercase;font-variant:small-caps">A.</num>
+	  <heading class="ListParagraph" style="margin-left:0.39in"><span style="font-weight:bold;font-family:Arial">Introduction and Summary</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">This is an appeal against a Decision Notice (the &#8220;Decision Notice&#8221;) of the Information Commissioner (the &#8220;Commissioner&#8221;) dated 2 October 2025 with Reference IC-373977-CB65. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">In the Decision Notice, the Commissioner considered that the Insolvency Service was justifiably entitled to refuse to confirm or deny whether it held a copy of the response to the Appellant&#8217;s complaint of 11 July 2023 by relying on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">We have concluded that the Decision Notice was in accordance with the law and was indeed correct. These are our reasons. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <num style="font-weight:bold">B.</num>
+	  <heading style="margin-left:0.39in"><span style="font-weight:bold;font-family:Arial">Conduct of the Hearing </span></heading>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">The hearing of this appeal was determined on the papers. The parties wished the hearing to be conducted on the papers and the Tribunal agreed that this was appropriate having regard to the overriding objective. We considered a hearing bundle of 262 pages, together with various supplementary correspondence from the Appellant and her application dated 26 March 2026.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <num style="font-weight:bold">C.</num>
+	  <heading class="ListParagraph" style="margin-left:0.39in"><span style="font-weight:bold;font-family:Arial">Summary of the Background Context to the Appeal</span></heading>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">There is a long and complex background to this matter which the Appellant has set out in very substantial detail in her grounds of appeal and supporting documentation. While we have considered all of that background, for the purposes of this appeal, the key factual points can be summarised relatively succinctly. They are taken from the Appellant&#8217;s grounds of appeal.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">The Appellant owned a property in Wales. In 2018 she evicted a tenant and secured a number of court judgments in her favour against that tenant for the payment of various judgment sums. The Appellant says the tenant failed to pay the judgment sums which she was owed. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">In March 2023, the Insolvency Service issued a number of Debt Relief Orders under the provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">Insolvency Act 1986</ref> (&#8220;DROs&#8221;) in respect of that (now former) tenant. The Appellant objected to the DROs and informed the Insolvency Service of this. In April 2023, the Insolvency Service informed the Appellant that the monies which she was owed could no longer be recovered despite the judgments in her favour as they had been superseded by the DROs.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">The Appellant complained to the Insolvency Service in April 2023 by making a &#8220;Tier 1 complaint&#8221;. The Insolvency Service responded in May 2023. The Appellant was not satisfied with the Insolvency Service&#8217;s response to her Tier 1 complaint. She then made a further &#8220;Tier 2 Complaint&#8221; in June 2023. The Appellant says that she did not receive any response to this Tier 2 complaint and therefore on 11 July 2023, she submitted a &#8220;Tier 3 complaint&#8221;. The Insolvency Service acknowledged receipt of the Tier 3 complaint but, according to the Appellant </span><span style="font-style:italic;font-family:Arial">&#8220;refused to provide a response&#8221;</span><span style="font-family:Arial">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">In the absence of a reply from the Insolvency Service, on 15 October 2024,</span><authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"><span style="font-size:10pt"/><span style="font-size:10pt">Paragraph 4 of t</span><span style="font-size:10pt">he Decision Notice </span><span style="font-size:10pt">incorrectly </span><span style="font-size:10pt">states that</span><span style="font-size:10pt"> the date </span><span style="font-size:10pt">of the Request </span><span style="font-size:10pt">w</span><span style="font-size:10pt">as 15 October 202</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">5</span><span style="font-size:10pt">; </span><span style="font-size:10pt">nothing turns on this</span><span style="font-size:10pt"> minor typographical error.</span></p>
+		</authorialNote><span style="font-family:Arial"> the Appellant wrote to the Insolvency Service and made a request under FOIA for a copy of the Insolvency Service&#8217;s response to her Tier 3 complaint of 11 July 2023 (the &#8220;Request&#8221;).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <num style="font-weight:bold">D.</num>
+	  <heading class="ListParagraph" style="margin-left:0.39in"><span style="font-weight:bold;font-family:Arial">Summary of the Handling of the Request and the Procedural Background to the Appeal. </span></heading>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The Insolvency Service responded to the Request on 1 November 2024. It stated that it was unable to confirm or deny if it held information within the scope of the Request in reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5B) FOIA. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The Appellant requested an internal review by letter dated 20 November 2024. The Insolvency Service provided its response on 29 November 2024 in which it upheld its reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5B) FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">In a letter dated 5 January 2025, the Appellant complained to the Commissioner about the Insolvency Service&#8217;s handling of the Request.</span><authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText"><span style="font-size:10pt"> Paragraph 4.2 of the Grounds of Appeal complains that the Decision Notice </span><span style="font-size:10pt">says that the complaint was made on 7 January 2025. The Commissioner in his response says this was the date on which he received the complaint. </span><span style="font-size:10pt">Again nothing of substance relating to the actual material issues turns on this matter. </span><span style="font-size:10pt">In any event, the Tribunal notes</span><span style="font-size:10pt"/><span style="font-size:10pt">that (a) Page A152 of the Hearing Bundle contains a letter from the Appellant dated 5 January 2025 which refers to having completed a copy of the ICO&#8217;s complaint form on that date and (b) </span><span style="font-size:10pt">page B245 of the</span><span style="font-size:10pt"> Hearing B</span><span style="font-size:10pt">undle does appear to suggest that the Commissioner received the complaint on 7 January 2025 at 12:22. </span><span style="font-size:10pt">5 January 2025 was in any event a Sunday</span><span style="font-size:10pt"> and this is an </span><span style="font-size:10pt">issue of no material consequence at all to the issues which the Tribunal needs to determine. </span></p>
+		</authorialNote><span style="font-family:Arial"> She insisted that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5B) FOIA was not applicable as the request concerned </span><span style="font-style:italic;font-family:Arial">&#8220;information specifically relating to the [Appellant] and the obligation to provide the same in accordance with the Insolvency Service Complaints Handling Procedures the provision of the information cannot contravene any data protection principles applicable to the [Appellant].&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">During the course of the Commissioner&#8217;s investigation, the Insolvency Service wrote to the Commissioner and changed the specific exemption on which it relied under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref> FOIA to neither confirm or deny whether it held information within the scope of the Request. By email dated 19 September 2025, the Insolvency Service said that it relied on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA, because </span><span style="font-style:italic;font-family:Arial">&#8220;disclosure of information relating </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">to the requester</span><span style="font-style:italic;font-family:Arial">&#8230;would reveal whether the named and identifiable requester had (or had not) previously corresponded with the agency in terms of the original request&#8221;</span><span style="font-family:Arial"> (original emphasis) The Insolvency Service apologised for this error but noted that it considered that it made no substantive difference to the outcome of the Request.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The Decision Notice was issued on 2 October 2025. The Commissioner upheld the Insolvency Service&#8217;s revised reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA. The Commissioner reached this conclusion because:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-style:italic;font-family:Arial">&#8220;he is satisfied that if the requested information was held it would constitute the complainant&#8217;s personal data as it concerns correspondence they have sent to the public authority. Such information (at least in part) would be  their personal data given that they would be identifiable from it and it is linked to them. This information would therefore be exempt from disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/1" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40(1)</ref> of FOIA. It follows that The Insolvency Service is entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40</ref>(5A) and the Commissioner is satisfied that the exemption is engaged.&#8221;</span><span style="font-family:Arial"> (paragraph 18 of the Decision Notice)</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The Appellant appealed the Decision Notice to the First-Tier Tribunal on 26 October 2025 accompanied by lengthy grounds of appeal and supporting documents. Much of the grounds of appeal concern the history of this matter or her complaints about the Commissioner&#8217;s handling of her complaint about the Request along with complaints about the Insolvency Service..</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">Much of the grounds of appeal falls outside the scope of the Tribunal&#8217;s jurisdiction on an appeal against a decision notice of the Commissioner. This is most apparent from a number of the Appellant&#8217;s requested remedies as set out at paragraph 17 of the Grounds of Appeal, which asks, amongst other things, that the Tribunal determine whether the Insolvency Service complied with its guidance, its complaints handling procedures, decisions of two District Judges, and whether the Insolvency Service&#8217;s labelling of the Appellant as vexatious under s.14 FOIA was correct. The Appellant asks that the Tribunal requires the Commissioner to take various steps, including to </span><span style="font-style:italic;font-family:Arial">&#8220;confirm in writing on ICO letterheaded paper to the Appellant that the ICO accepts labelling of the Appellant as &#8220;vexatious&#8221; by the Insolvency Service was incorrect&#8221;</span><span style="font-family:Arial"> and to </span><span style="font-style:italic;font-family:Arial">&#8220;issue a public written apology to the Appellant regarding the obstructive practices, neglect, mal-administration and dismissive contempt directed towards the Appellant by the ICO&#8230;&#8221;</span><span style="font-family:Arial"> These are not remedies which the Tribunal has the power to direct (even if they were appropriate as to which we cannot comment). It is not for this Tribunal (or indeed for the Commissioner) to address the adequacy of the Insolvency Service&#8217;s complaints procedure and its adherence (or alleged lack of adherence) to that procedure. In addition, the Insolvency Service did not ultimately pursue and the Commissioner did not make any determination in respect of the application of s.14 FOIA. In the absence of that aspect of FOIA being relied upon by the Commissioner (or the Insolvency Service which is not a party to the appeal and which has not been joined) again, this is not a matter for the Tribunal to consider.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">The Tribunal&#8217;s jurisdiction to consider this appeal is set out in s.58 FOIA. If the Tribunal considers that the Decision Notice is not in accordance with the law or, if it involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently, the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner. In any other case, the Tribunal shall dismiss the appeal.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">The Tribunal must consider whether the provisions of FOIA have been correctly applied and is not bound by the Commissioner&#8217;s views or findings but must arrive at its own view, giving such weight to the Commissioner&#8217;s views and findings as it deems fit in the particular circumstances - </span><span style="font-weight:bold;font-family:Arial">Guardian Newspapers &amp; Brooke v Information Commissioner and BBC</span><span style="font-style:italic;font-family:Arial"/><span style="font-family:Arial">(EA/2006/0011 &amp; 0013) at [14(3)]. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <intro>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">Accordingly, we consider that the substance of the grounds of challenge to the Decision Notice are set out at paragraph 16 of the Appellant&#8217;s grounds of appeal which we summarise for ease of reference as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">19.1.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">First, the Appellant contends that complying with the Request would not (a) constitute the disclosure of personal data and (b) would not contravene any data protection principles &#8211; paragraphs 16.1.1, 16.14 to 16.17 (the &#8220;First Ground&#8221;).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">19.2.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">Second, the Appellant contends the Insolvency Services attempted reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA is an attempt to obstruct the provision of the information of the </span><span style="font-style:italic;font-family:Arial">&#8220;bias, neglect, contradiction of its operational practices&#8230;&#8221;</span><span style="font-family:Arial"> &#8211; paragraph 16.1.2 (the &#8220;Second Ground&#8221;).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">19.3.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The Insolvency Service cannot rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA because it provided responses to the Tier 1 and Tier 2 complaints to which the exemptions under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/1" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40(1)</ref> FOIA were not considered applicable. Accordingly, the response to the Tier 3 complaint cannot be excluded from disclosure under FOIA &#8211; paragraph 16.1.3 - (the &#8220;Third Ground&#8221;). </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">19.4.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The Commissioner&#8217;s failure to uphold the Appellant&#8217;s complaints and </span><span style="font-style:italic;font-family:Arial">&#8220;acceptance of the operational practices of the Insolvency Service&#8221;</span><span style="font-family:Arial"> is a dereliction of duty and </span><span style="font-style:italic;font-family:Arial">&#8220;evidence of collusion&#8221;</span><span style="font-family:Arial"> between the Commissioner and the Insolvency Service &#8211; paragraphs 16.1.4 and 16.2 - (the &#8220;Fourth Ground&#8221;).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">19.5.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The Insolvency Service&#8217;s initial failure to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA means that the Tribunal should disregard it &#8211; paragraphs 16.4.1, 16.12 and 16.18 - (the &#8220;Fifth Ground&#8221;).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">19.6.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The Commissioner has attempted to </span><span style="font-style:italic;font-family:Arial">&#8220;deceive and mislead&#8221;</span><span style="font-family:Arial"> the Tribunal by excluding any reference to the Appellant&#8217;s response to the Insolvency Service dated 4 January 2025 &#8211; paragraph 16.4.2 - (the &#8220;Sixth Ground&#8221;).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">19.7.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The Insolvency Service has never responded to the Appellant&#8217;s Tier 3 complaint and hence it has failed to comply with &#8220;its duty to confirm or deny&#8221; and it must be in the public interest to identify compliance &#8211; paragraphs 16.10 and 16.11 &#8211; (the &#8220;Seventh Ground&#8221;).</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The Appellant also seeks payment of her &#8220;costs&#8221; in the sum of &#163;3,200 to reflect the </span><span style="font-style:italic;font-family:Arial">&#8220;grief, anguish, time, costs and gross mal-administration, by way of an ex-gratia payment&#8221;</span><span style="font-family:Arial"> for the period between 5 January 20255 and 26 October 2025</span><span style="font-style:italic;font-family:Arial">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The Commissioner opposes the appeal for the reasons set out in his response dated 24 November 2025. In summary:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">21.1.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The onus as a matter of law is for the Appellant to demonstrate that the Decision Notice involved an error of law - </span><span style="font-weight:bold;font-family:Arial">Forstater v Information Commissioner &amp; Ministry of Justice &amp; Judicial College</span><span style="font-family:Arial"> [2023] UKUT 303 at [37-38]. See also </span><span style="font-weight:bold;font-family:Arial">Doorstep Dispensaree Ltd v Information Commissioner</span><span style="font-family:Arial"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2024/1515" uk:canonical="[2024] EWCA Civ 1515" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] EWCA Civ 1515</ref> at [39-41].</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">21.2.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The Commissioner continues to rely on his findings and reasons set out in the Decision Notice.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">21.3.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The Appellant appears to accept that providing a substantive response to the Request would involve the disclosure of her personal data. At paragraphs 3.8.6.5  to 3.8.6.9 of her grounds of appeal she states: </span></p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1.18in"><span style="font-style:italic;font-family:Arial">&#8220;I dispute the assertion that my &#8230; Request &#8230; referred to the Disclosure of personal information, other than the information relating to myself, in the manner defined by <ref href="http://www.legislation.gov.uk/id/ukpga/1986/45" uk:canonical="1986 c. 45" uk:origin="TNA" uk:type="legislation">the Act</ref> &#8230; As the Disclosure of the information requested is personal to the Applicant the Applicant is entitled to the Disclosure of the information requested [being the relevant data subject]&#8221;.</span></p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">21.4.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The exemption in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA concerns whether the requested information if held would represent the Appellant&#8217;s personal data, not the consequences of whether or confirming or denying if the information is held. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">21.5.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">Disclosure under FOIA is to the world at large, free from any duty of confidence. It is an error of law to ignore disclosure to persons other than requester. A complaints process initiated by the Appellant outside of FOIA is separate and distinct from the statutory provisions of FOIA. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">21.6.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">Parliament has made clear that individuals need to seek disclosure of their own personal data under data protection legislation not under FOIA. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">21.7.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The specific information which is the subject of the Request would relate to the Appellant as she can be identified from the Request itself. If the Insolvency Service held recorded information within the scope of the Request it would represent the Appellant&#8217;s personal data, and it is therefore exempt from disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA even if it also included personal data of other individuals.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">21.8.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">S.40</ref>(5A) is an absolute exemption and is therefore not the subject of a public interest test. Accordingly, any attempts by the Appellant to introduce public interest arguments are not relevant. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">21.9.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">A public authority is entitled to review its handling of its response to a FOIA request and change its position during the Commissioner&#8217;s investigation or event before the Tribunal: </span><span style="font-weight:bold;font-family:Arial">Birkett v Defra</span><span style="font-family:Arial"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/1606" uk:canonical="[2011] EWCA Civ 1606" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 1606</ref>, [2012] AACR 32.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">By application dated 26 March 2026, the Appellant sought disclosure to the Appellant and the Tribunal of </span><span style="font-style:italic;font-family:Arial">&#8220;all replies and documentation associated with the Appellant&#8217;s letters to the Respondent dated 28 January 2026 and 11 February 2026&#8221;</span><span style="font-family:Arial">. The purported reason for the application is that by </span><span style="font-style:italic;font-family:Arial">&#8220;failing to disclose the extent of the correspondence with the Insolvency Service to the Appellant, [the Commissioner] is effectively concealing the collusion and the mal-administration towards, HMCTS&#8230;&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">The letter of 28 January 2026 was entitled </span><span style="font-style:italic;font-family:Arial">&#8220;9</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-style:italic;font-family:Arial"> ICO Complaint&#8221;</span><span style="font-family:Arial">. The nub of this letter concerned a request for copies of the correspondence between the ICO and the Insolvency Service.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">The letter of 11 February 2026 was entitled </span><span style="font-style:italic;font-family:Arial">&#8220;10</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:Arial">th</span><span style="font-style:italic;font-family:Arial"> ICO Complaint&#8221;</span><span style="font-family:Arial">. The nub of this letter was that the ICO had, during the course of its investigation, asked the Insolvency Service to notify the Appellant of its change of reliance from <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5B) FOIA to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA and that the Appellant had not received any such communication. The Appellant requested that the Commissioner identify what he proposed to do in respect of this failure and to provide a copy of the correspondence to the GRC. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <intro>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">I considered this application before the Panel sat and rejected it for the reasons which I now set out. I considered this to be an application pursuant to the Tribunal&#8217;s case management powers in r.5(3)(d) of the GRC Rules 2009 (as amended). It therefore falls to be determined in accordance with the overriding objective. I refuse the application because:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">25.1.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The Tribunal does not need to consider this documentation to determine the appeal. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">25.2.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">On the contrary, both letters are a paradigmatic example of a &#8220;meta-dispute&#8221; which is a noticeable feature of the Appellant&#8217;s approach to this appeal. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">25.3.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">For the reasons set out below in this judgment, the Appellant&#8217;s arguments about purported &#8220;collusion&#8221; are not relevant to the issue which the Tribunal needs to determine, namely the potential application and engagement of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">25.4.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">Disclosure would therefore not assist the overriding objective and indeed be contrary to its provisions, since it would lead to further unnecessary expense and delay in the determination of this appeal.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">I reached this conclusion independently but note that it substantively accords with the reasons given by Judge Harris in paragraph 10 of the reasons of her CMDs given on 20 March 2026, where the Judge stated:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:Arial">&#8220;It appears that the Tribunal has before it all the evidence which it needs to determine the matter without a hearing and that no real purpose would be served by further delay, so the appeal is ready for determination. I  therefore direct that the matter should now proceed to determination without a hearing.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <num style="font-weight:bold">E.</num>
+	  <heading class="ListParagraph" style="margin-left:0.39in"><span style="font-weight:bold;font-family:Arial">The Relevant Legal Principles</span></heading>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">The scope of the Tribunal&#8217;s jurisdiction is addressed at paragraphs 17 and 18 above.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">S.1 FOIA imposes two duties on a public authority in response to a request made under FOIA. The first duty under s.1(1)(a) FOIA is to inform the requester in writing whether or not the public authority holds information of the description specified in the request. The second duty under s.1(1)(b) FOIA is to provide such information to the requester, if indeed it is held. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">Both of these duties are subject to various exemptions in Part II of FOIA. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">S.40</ref> FOIA is concerned with exemptions relating to personal data and sets out a number of exemptions addressing circumstances where information within the scope of a request amounts to either (a) personal data of the requester or (b) personal data of third parties.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">The substantive effect of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/1" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40(1)</ref> FOIA and <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA is that a request for the personal data of the requester even is made under FOIA must fall outside of the scope of FOIA. Instead, such a request should be dealt with under the applicable data protection access regime, for example Article 15(3) of the UK GDPR. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/1" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">S.40(1)</ref> and <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA provide as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:Arial">&#8220;(1)</num>
+		    <content>
+		      <p style="margin-left:0.39in;text-indent:0.1in"><span style="font-style:italic;font-family:Arial">Any information to which a request for information relates is exempt information if it constitutes personal data of which the applicant is the data subject.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:Arial">(5A)</num>
+		    <content>
+		      <p style="margin-left:0.39in;text-indent:0.1in"><span style="font-style:italic;font-family:Arial">The duty to confirm or deny does not arise in relation to information which is (or if it were held by the public authority would be) exempt information by virtue of [<ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/1" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40(1)</ref> FOIA].&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/1" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">S.40(1)</ref> FOIA is expressly identified as an absolute exemption in s.2(3) FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/7" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">S.40(7)</ref> FOIA states that personal data has the meaning provided for in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3" uk:canonical="2018 c. 12 s. 3" uk:origin="TNA" uk:type="legislation">s.3</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref>, where it is defined in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/2" uk:canonical="2018 c. 12 s. 3" uk:origin="TNA" uk:type="legislation">s.3(2)</ref> as </span><span style="font-style:italic;font-family:Arial">&#8220;any information relating to an identified or identifiable individual&#8221;</span><span style="font-family:Arial">. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <num style="font-weight:bold">F.</num>
+	  <heading class="ListParagraph" style="margin-left:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Discussion, Findings and Conclusions</span></heading>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">This is perhaps a slightly unusual case in that on the express case advanced by the Appellant, she is seeking disclosure under FOIA of a (substantive) response which she says she has never been sent (and it appears by logical implication of her argument) she says was never issued by the Insolvency Service. However, the Tribunal has well in mind that one of the purposes of FOIA, in principle, is to allow a requester to understand whether a public authority holds information within the scope of a request and this is an important aspect of the two distinct rights under s.1 FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">However, notwithstanding this, the Tribunal substantively agrees with and accepts the Commissioner&#8217;s arguments advanced in his Response as summarised at paragraph 21 above. We find that on the Appellant&#8217;s own case, if the Insolvency Service did hold such a response, it would amount to her personal data and therefore <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA is accordingly engaged. Therefore FOIA does not provide a route of access to this information (or putative information) for the Appellant. The potentially appropriate route of access for the Appellant is data protection legislation, not FOIA. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <intro>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">Addressing the grounds of appeal as summarised above:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">36.1.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The logical starting point is the Fifth Ground, namely whether the Insolvency Service is entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA at all, since it did not do so in its initial correspondence with the Appellant. We reject this ground of appeal. The Commissioner is correct in his argument as set out at paragraph 21.9 above. As a matter of law, a public authority is entitled to change the exemption(s) it relies on before the Commissioner or even before the Tribunal, subject in the latter scenario to case management principles, as the decision in </span><span style="font-weight:bold;font-family:Arial">Birkett </span><span style="font-family:Arial">makes clear. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">36.2.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The real nub of the issue before the Tribunal is the First Ground. The starting point, and indeed the end point, for the Tribunal on this appeal is whether, if the Insolvency Service did hold information within the scope of the Request, it would amount to the Appellant&#8217;s personal data. If so, <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) is engaged. It does not automatically follow that a response to an individual in the course of a complaints process will necessarily amount to their personal data, see for example, </span><span style="font-weight:bold;font-family:Arial">Durant v Financial Services Authority </span><span style="font-family:Arial"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2003/1746" uk:canonical="[2003] EWCA Civ 1746" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWCA Civ 1746</ref>. However, we are also conscious that the scope of personal data can be very broad. Information relates to a data subject where </span><span style="font-style:italic;font-family:Arial">&#8220;the information, by reasons of its content, purpose or effect, is linked to a particular person.&#8221;</span><span style="font-family:Arial"> &#8211; </span><span style="font-weight:bold;font-family:Arial">Ashley v HMRC </span><span style="font-family:Arial">[2025] EWHC 134 (KB at [161] per Heather Williams J. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">36.3.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">In this case we have concluded that any such response would in this case be the Appellant&#8217;s personal data for three reasons:</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.08in;text-indent:-0.59in">36.3.1.</num>
+	      <content>
+		<p style="margin-left:1.08in;text-indent:0.16in"><span style="font-family:Arial">First, because the Appellant herself expressly insists that the response concerns and relates to her personally. This is set out a number of points in the appeal papers, including: (a) the Appellant&#8217;s letter dated 4 January 2025 to the Insolvency Service where she states the request </span><span style="font-style:italic;font-family:Arial">&#8220;appl[ies] to information specifically relating to the [Appellant]&#8221;</span><span style="font-family:Arial">, (b) paragraph 3.4.2 of the Appellant&#8217;s complaint to the Commissioner dated 5 January 2025 where she repeats the same point word-for-word, (c) paragraph 3.8.6.5 of the grounds of appeal where the Appellant </span><span style="font-style:italic;font-family:Arial">&#8220;dispute[s] the assertion that [the Request] referred to the Disclosure of personal information, other than the information relating to myself&#8221;</span><span style="font-family:Arial"> and (d) paragraph 3.8.6.8 of the grounds of appeal where the Appellant states that </span><span style="font-style:italic;font-family:Arial">&#8220;the information requested is personal to the Applicant&#8221;</span><span style="font-family:Arial">. While at least some of these were points were made to rebut the Insolvency Service&#8217;s incorrect reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5B) FOIA, the logical consequence of them is that they do reaffirm the Appellant&#8217;s own case was that this putative response would amount to information relating specifically and personally to her, and therefore is her personal data.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.08in;text-indent:-0.59in">36.3.2.</num>
+	      <content>
+		<p style="margin-left:1.08in;text-indent:0.16in"><span style="font-family:Arial">Second, because on the specific facts of this case, we accept the Commissioner&#8217;s argument at paragraph 21 of his Response, that given the very personal nature of the Request which concerns the Appellant&#8217;s own complaint, any response under FOIA would necessarily amount to the Appellant&#8217;s personal data. It is all information which ultimately concerns her, and her complaint about the Insolvency Service&#8217;s handling of matters relating to monies owed to her. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.08in;text-indent:-0.59in">36.3.3.</num>
+	      <content>
+		<p style="margin-left:1.08in;text-indent:0.16in"><span style="font-family:Arial">Third, our views on the first two points are reinforced by the contents of the Insolvency Commissioner&#8217;s (apparently) automated response to the Appellant&#8217;s Tier 3 complaint of 11 June which is in the hearing bundle at A120. In context, this response (which would technically fall within the scope of the Request, even if it is not the information which the Appellant is actually seeking) would amount to the Appellant&#8217;s personal data. It refers to </span><span style="font-style:italic;font-family:Arial">&#8220;your email&#8221;, &#8220;your correspondence&#8221;, &#8220;your concerns&#8221;</span><span style="font-family:Arial"> and that that they will only contact the Appellant </span><span style="font-style:italic;font-family:Arial">&#8220;if we require further information or otherwise need to contact you.&#8221;</span><span style="font-family:Arial"> In its full context, this automated response is information, which by reasons of its content, purpose or effect, is linked to a particular person and therefore the Appellant&#8217;s personal data.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">36.4.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">There is also a further issue which the Appellant has raised in the First Ground which is whether, if information were held, its disclosure would breach the data protection principles. This aspect is legally flawed. If the information amounts to the applicant&#8217;s personal data, there is no further consideration under FOIA of whether disclosure would breach the data protection principles as would necessarily need to considered if the information solely concerned the personal data of third parties (rather than the Appellant) under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/2" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40(2)</ref> FOIA. The inquiry stops if the information is the Appellant&#8217;s personal data. The correct route of access is data protection legislation.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">36.5.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The Second, Fourth and Seventh Grounds are in substance grounds which relate to the purported public interest in the disclosure sought. However, these are not relevant to the engagement of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA because that sub-section is necessarily and expressly consequent on the engagement of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/1" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40(1)</ref> FOIA which is an absolute exemption. Accordingly, the public interest argument advanced by the Appellant are not matters for consideration by the Tribunal and we reject them.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">36.6.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">The Third Ground is also without merit for the reasons set out by the Commissioner at paragraph 19 of the Response. The Insolvency Service may choose to disclose information outside the scope of FOIA but that does not necessarily mean that it is required to disclose it under FOIA where relevant exemptions apply. A response under a complaints process is separate and distinct from the legal provisions of FOIA. For completeness, the Tribunal notes that the Appellant&#8217;s assertion at paragraph 16.1.3 of her grounds that she received a response to her Tier 2 complaint would appear to be contradicted by paragraphs 3.6.11 and 3.6.12 of the same document which refers to the apparent </span><span style="font-style:italic;font-family:Arial">&#8220;absence of a reply&#8221;</span><span style="font-family:Arial"> to her Tier 2 complaint. Indeed her letter to the Insolvency Service of 7 July 2023 complains at paragraph 3.2 about </span><span style="font-style:italic;font-family:Arial">&#8220;the failure/refusal of the Insolvency Service to reply in the manner requested to my Tier 2 complaints 26/6/23.&#8221;</span><span style="font-family:Arial"> However this small factual issue does not detract from the central point, namely that the provision of any response in response to a complaints process initiated by the Appellant does not alter the engagement of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA. Indeed, it arguably reinforces the engagement of that section by reaffirming the personal nature of the information in question &#8211; see paragraphs 36.3.2 and 36.3.3 above.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">36.7.</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">Finally, there is no merit in the Sixth Ground. We reject that there was any attempt by the Commissioner to </span><span style="font-style:italic;font-family:Arial">&#8220;deceive and mislead</span><span style="font-family:Arial">&#8221; the Tribunal by not referring to the Appellant&#8217;s response to the Insolvency Service dated 4 January 2025. There is no obligation on the Commissioner to refer to every aspect of a complainant&#8217;s correspondence. In any event, having considered the points raised in that letter, we do not consider it added materially to the issues which the Commissioner needed to consider on the complaint before it under FOIA which the Appellant had already addressed. We therefore reject this ground of appeal. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p style="margin-left:0.39in"><span style="font-family:Arial">Accordingly, we consider that the Commissioner (and the Insolvency Service) were correct in determining that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s.40</ref>(5A) FOIA applied to the Request. The Decision Notice was in accordance with the law. We therefore dismiss the appeal. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <num style="font-weight:bold">G.</num>
+	  <heading class="ListParagraph" style="margin-left:0.39in"><span style="font-weight:bold;font-family:Arial">Costs</span></heading>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The Appellant has made an application for costs in the sum of &#163;3,200.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The circumstances in which the Tribunal can order costs are provided for in r.10 of the GRC Rules 2009. The only theoretically applicable circumstances for this appeal are set out in r.10(1)(b) of the GRC Rules 2009 which provides that costs may be awarded (subject to the Tribunal&#8217;s discretion) if the Tribunal considers that a </span><span style="font-style:italic;font-family:Arial">&#8220;party has acted unreasonably in bringing, defending or conducting the proceedings.&#8221;</span><span style="font-family:Arial">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The rules require that an application for a costs order must include a </span><span style="font-style:italic;font-family:Arial">&#8220;schedule of the costs or expenses claimed with the application&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in">Unreasonable conduct is conduct which is <span style="font-style:italic">&#8220;vexatious, designed to harass the other side rather than advance the resolution of the case, and it makes no difference that the conduct is the product of excessive zeal and not improper motive. But conduct cannot be described as unreasonable simply because it leads to an unsuccessful result or because other more cautious legal representatives would have acted differently. The acid test is whether the conduct permits of a reasonable explanation. If so, the course adopted may be regarded as optimistic and as reflecting on a practitioner&#8217;s judgment, but it is not unreasonable.&#8221;</span> &#8211; <span style="font-weight:bold">Ridehalgh v Horsefield </span><ref href="#" uk:canonical="[1994] Ch 205" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1994">[1994] Ch 205</ref> at 232-233, cited at <span style="font-weight:bold">Jacobs on Tribunal Practice and Procedure</span>, 6<span style="vertical-align:super;font-size:smaller">th</span> Edition<span style="font-weight:bold"/>at 7.240.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in">The Court of Appeal explained the correct approach to assessing unreasonableness in <span style="font-weight:bold">Yerrakalva v Barnsley Metropolitan Borough Council </span><ref href="#" uk:canonical="[2012] ICR 420" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] ICR 420</ref> at [41] per Mummery LJ:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in"><span style="font-style:italic">The vital point in exercising the discretion to order costs is to look at the whole picture of what happened in the case and to ask whether there has been unreasonable conduct by the claimant in bringing and conducting the case and, in doing so, to identify the conduct, what was unreasonable about it and what effects it had. The main thrust of the passages cited above from my judgment in McPherson's case was to reject as erroneous the submission to the court that, in deciding whether to make a costs order, the employment tribunal had to determine whether or not there was a precise causal link between the unreasonable conduct in question and the specific costs being claimed. In rejecting that submission I had no intention of giving birth to erroneous notions, such as that causation was irrelevant or that the circumstances had to be separated into sections and each section to be analysed separately so as to lose sight of the totality of the relevant circumstances.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:Arial">The application for costs is totally without merit. It is refused for the following reasons:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">43.1.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">There is nothing in the papers before us which comes close to meeting the required high threshold of unreasonableness on the part of the Commissioner. Indeed, the Tribunal has concluded that the Commissioner&#8217;s Decision Notice was correct. Accordingly, there is no jurisdictional basis for an award of costs, or for the Tribunal to consider the second stage of any inquiry, namely whether to exercise its discretion to award costs if the gateway threshold of unreasonableness was satisfied.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.39in">43.2.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in;text-indent:0.11in"><span style="font-family:Arial">In any event, it is clear that the Appellant is actually largely seeking payment of compensation rather than costs. This is apparent from the Appellant&#8217;s description of the amount sought as covering &#8220;</span><span style="font-style:italic;font-family:Arial">grief, anguish, time, costs and gross mal-administration, by way of an ex-gratia payment&#8221;</span><span style="font-family:Arial">. Moreover, no schedule of costs has been submitted. The Tribunal has no jurisdiction to award compensation of the type sought by the Appellant, save for legal costs. There is no evidence before the Tribunal of any legal costs being incurred by the Appellant even if the Tribunal was satisfied that (a) the gateway threshold for such an order was made and (b) if was appropriate to exercise its discretion to order costs, neither of which is the case. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.25in"><span style="font-weight:bold;font-family:Arial">Signed: Judge Scherbel-Ball </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:Arial"/><marker name="tab"/><span style="font-weight:bold;font-family:Arial">       Dated </span><docDate date="2026-06-03" refersTo="#decision" style="font-weight:bold;font-family:Arial">3 June 2026</docDate></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

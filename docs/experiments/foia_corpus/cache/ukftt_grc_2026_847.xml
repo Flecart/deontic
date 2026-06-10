@@ -1,0 +1,1420 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/847"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/847"/>
+	  <FRBRdate date="2026-06-09" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="847"/>
+	  <FRBRname value="Ian Adams v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/847"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/847"/>
+	  <FRBRdate date="2026-06-09" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/847/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/847/data.xml"/>
+	  <FRBRdate date="2026-06-09T11:15:17" name="transform"/>
+	  <FRBRdate date="2026-06-09T12:12:37" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-06-01" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-09" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="ian-adams" href="" showAs="IAN ADAMS"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="the-ministry-of-defence" href="" showAs="THE MINISTRY OF DEFENCE"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>847</uk:number>
+	<uk:cite>[2026] UKFTT 847 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.1</uk:parser>
+	<uk:hash>2c8c8da9e2aefa5582ddae7de9e80098c101bc6120c5cb962386d6b0f3ca1f0e</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading { font-family: 'Liberation Sans'; font-size: 14pt; }
+#judgment .BodyText { font-size: 12pt; }
+#judgment .List { font-size: 12pt; }
+#judgment .Caption { font-style: italic; font-size: 12pt; }
+#judgment .Index { font-size: 12pt; }
+#judgment .HeaderandFooter { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .TableContents { font-size: 12pt; }
+#judgment .Quotations { margin-left: 0.39in; margin-right: 0.39in; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .Bullets { font-family: OpenSymbol; }
+#judgment .NumberingSymbols { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:95.6pt;height:61.6pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00847 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0173</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-family:'Book Antiqua'">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'">Decided without a hearing</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Decision given on: </span><docDate date="2026-06-09" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">09 June 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HEALD </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER MATTHEWS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER TAYLOR</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#ian-adams" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">IAN ADAMS</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua'">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.5in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua'">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.5in"><party as="#respondent" refersTo="#the-ministry-of-defence" style="font-weight:bold;font-family:'Book Antiqua'">THE MINISTRY OF DEFENCE</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua';color:#000000">The appeal is dismissed.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This decision relates to an appeal brought by the Appellant p<span style="color:#000000">ursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/57" uk:canonical="2000 c. 36 s. 57" uk:origin="TNA" uk:type="legislation">section 57</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>.  It is in respect of a decision notice issued by the 1st Respondent on 24 March 2025 with reference IC-341244-T5F7 by which the 1st Respondent decided that the 2nd Respondent had been entitled to refuse the Appellant's request for information of 26 February 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">W<span style="color:#000000">hat follows is a summary of the submissions, evidence and our view of the law. It does not seek to </span><span style="color:#252526">provide every step of our reasoning.  </span><span style="color:#000000">The absence of a reference to any specific submission or evidence does not mean it has not been considered.</span><span/><span style="color:#000000">In this decision page numbers indicated by their inclusion in brackets refer to pages of the bundle and if the letters CB are added it is to the closed bundle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"> In this decision the following definitions are used:-</p>
+	    <table uk:widths="3.94in 1.46in">
+	      <tr>
+		<td style="border-top-width:0.5pt;border-bottom-width:0.5pt;border-left-width:0.5pt;border-top-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#000000;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref></span></p>
+		</td>
+		<td style="border:0.5pt solid #000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">FOIA</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">Data Protection Act 2018</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">DPA18</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the UK General Data Protection Regulation</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">UKGDPR</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">Criminal Procedure and Investigations Act 1996 </span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the 1996 Act</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the public interest balance test</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the PIBT</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">The Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009 </span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">2009 Rules</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the Information Commissioner </span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the IC</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the Ministry of Defence </span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the MoD</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the Royal Air Force Police</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the RAFP</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the Service Prosecuting Authority </span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the SPA</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the IC's decision notice</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the DN</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the Appellant's request for information</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the Request</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">Upper Tribunal &amp; First-tier Tribunal </span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">UT &amp; FtT</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">non-binding guidance issued by the IC</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the Guidance</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">Wilkin Chapman LLP solicitors </span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">WC </span></p>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial;color:#000000">The appeal was decided without a hearing as provided for in </span>paragraph 2 of the Directions of 11 July 2025 <span style="font-family:Arial;color:#000000">and allowed by the Tribunal by rule 32(1) 2009 Rules.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Evidence and matters considered</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">For the appeal we had a bundle of 383 PDF <span style="color:#000000">pages.  Other items provided included notes from the Appellant explaining page reference changes, the Appellant's reply to the MOD's Response of 20 February 2026, a schedule of relevant unused material, the "</span><span style="font-style:italic;color:#000000">Supplemental Bundle lead document page 1"</span><span style="color:#000000">, an email of 26 February 2024 and various other documents.  We also had a 569 page closed bundle of material held pursuant to rule 14 2009 Rules.  The closed bundle, from page 158 contained a list of unused material and then that material. There was also a gist (249) and the Appellant's note on the gist dated 13 February 2026 (295). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">In dealing with this closed material we kept in mind that we had a continuing duty to ensure fairness with regard to it (see B</span><span style="font-style:italic;color:#000000">rowning -v- Information Commissioner <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2014/1050" uk:canonical="[2014] EWCA Civ 1050" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] EWCA Civ 1050</ref>) </span><span style="color:#000000">with</span><span style="font-style:italic;color:#000000"/><span style="color:#000000">Directions given on 13 April 2026 and 21 May 2026 in relation to some material held in the closed bundle.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The bundle contained a considerable amount of information about the background to the Request.  In summary only it appears that in November 2019 the RAFP notified the Appellant that he was alleged to have committed fraud while a serving member of the RAF.  He denied the allegations.  The MoD says that (282):-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"6.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The charges were subsequently varied to six charges of misapplication of service property (contrary to <ref href="http://www.legislation.gov.uk/id/ukpga/2006/52/section/25/1" uk:canonical="2006 c. 52 s. 25" uk:origin="TNA" uk:type="legislation">section 25(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/52" uk:canonical="2006 c. 52" uk:origin="TNA" uk:type="legislation">Armed Forces Act 2006</ref>). On 4 December 2020, the Appellant pleaded guilty to the six misapplication offences"</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">About this the Appellant says (300):-</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"The appellant&#8217;s plea on 10th November was made without sight of known missing material recorded on a disclosed Service Police witness statement and without sight of material recorded on the disclosure schedule.  Appellant&#8217;s defense continued to request all unused material but ignored. Sentencing was passed on 4th December 2020 but material not disclosed."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Request appears to derive from concerns the Appellant has with aspects of disclosure (in particular of unused material) provided by the SPA within the Court Martial process.  In his correspondence with the IC (304) the Appellant said for example:- </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"...I could not supply evidence during a legal process because the MoD were withholding and continue to withhold undisclosed material that remains vital evidence to support my rightful actions..."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">and in the Appellant's request for an internal review he said (<span style="font-style:italic">288):-</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"...it is a legal requirement for all evidence taken during the investigation between 2019 and 2020 must be fully disclosed to the defence. This process was not followed by the MoD therefore, this FOI request, directs your office to release all withheld undisclosed material without any further delay."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#000000">FOIA </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial;color:#000000">FOIA provides that any person making a request for information to a public authority is entitled to be informed in writing if that information is held (section 1(1) (a) FOIA) and if that is the case to be provided with that information (section 1 (1) (b) FOIA).  </span>These entitlements are subject to a number of exemptions which can be absolute or subject to the PIBT. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Role of the Tribunal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">It is not the Tribunal's role in this appeal to consider or make findings on whether or not the SPA or RAFP provided the Appellant with all the disclosure required by the 1996 Act or any relevant procedural rules or on the merits of any appeal of or challenge to his conviction. The Tribunal's role in an appeal brought under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/57" uk:canonical="2000 c. 36 s. 57" uk:origin="TNA" uk:type="legislation">section 57</ref> FOIA is as set out in section 58 FOIA which provides that:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">If on an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/57" uk:canonical="2000 c. 36 s. 57" uk:origin="TNA" uk:type="legislation">section 57</ref> the Tribunal considers&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">that the notice against which the appeal is brought is not in accordance with the law, or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently, the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We had regard to authorities such as </span><span style="font-style:italic;font-family:'Book Antiqua'">NHS England -v- Information Commissioner and Dean [2019] UKUT 145 (ACC), Information Commissioner v Malnick and Advisory Committee On Business Appointments <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/72" uk:canonical="[2018] UKUT 72 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 72 (AAC)</ref> </span><span style="font-family:'Book Antiqua'">and</span><span style="font-style:italic;font-family:'Book Antiqua'"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Williams v Information Commissioner and Commissioner of Police for the Metropolis [2023] UKFTT 1079 (GRC)</span><span style="font-style:italic;font-family:'Book Antiqua'"> In </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Peter Wilson -v- The Information Commissioner  [2022] UKFTT 0149 </span><span style="font-family:'Book Antiqua';color:#000000">the FtT said (with which we agree):- </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;color:#000000">"30...the Tribunal&#8217;s statutory role is to consider whether there is an error of law or inappropriate exercise of discretion in the Decision Notice. The Tribunal may not allow an appeal simply because it disagrees with the Information Commissioner&#8217;s Decision. It is also not the Tribunal&#8217;s role to conduct a procedural review of the Information Commissioner&#8217;s decision making process or to correct the drafting of the Decision Notice.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">As regards the burden of proof we noted that in </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Forstater v Information Commissioner and others <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2023/303" uk:canonical="[2023] UKUT 303 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKUT 303 (AAC)</ref> </span><span style="font-family:'Book Antiqua';color:#000000">the UT, at para 40, said that while this burden rests with an appellant except where statute expressly or impliedly provides otherwise </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">"(3)...the concept of the burden of proof is of secondary importance in tribunal proceedings which involve a full merits review, since to apply strict burdens of proof may prevent the tribunal from properly discharging its responsibility to decide the facts for itself and/or exercise any discretion afresh..."</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Request to appeal in summary</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">By email of 26 February 2024 the Request asked as follows (323):-</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"...The MoD to fully disclose, all investigators material from the investigation under reference number IRN: 213512/19 to Ian Adams. Also, fully disclose all unused material that was obtained during this investigation, but was deliberately withheld by the RAF Police and potentially Service Prosecution Authority during a legal system process."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 25 April 2024 (324), in response, the MoD confirmed it held information within the scope of the Request but indicated that in reliance on section 30(1)(a)-(c) FOIA it would not disclose it.  On 7 May 2024 (326) the Appellant asked for an internal review.  The outcome of that review was sent by the MoD on 31 October 2024 (329). Reliance on section 30 FOIA was maintained but in addition the MoD indicated its reliance on section 40(2) FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Prior to the outcome of the review the Appellant had complained to the IC on 8 October 2024 (335).  Following its own consideration of the matter the IC issued the DN on 24 March 2025 in which it said (7) "<span style="font-style:italic">The Commissioner&#8217;s decision is that all of the requested information is exempt from disclosure on the basis of sections 30(1)(a) to (c) and that the public interest favours maintaining each of these exemptions."</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The DN did not reach a conclusion on section 40(2) because of the decision on section 30(1) but it did refer to section 40(1) FOIA at para 50 (16). </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The appeal from the DN was dated 30 April 2025.  It is supported by Grounds dated 17 April 2025.  The outcome sought is (27) <span style="font-style:italic">"... Request RAF Policing release the remainder of the not declared material that also became withheld undisclosed material during and after the legal case in redacted version and issue to the appellant. "</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Thereafter the IC provided a response to the appeal on 14 May 2025 (42) and the Appellant replied to the IC on 10 June 2025 (51).  The MoD became a party to the appeal on 26 November 2025 and provided a response to the appeal on 30 January 2026 (281).  As part of its response the MoD said that, in addition to its reliance on sections 30 and 40(2) FOIA, all the requested information was exempt by section 40(1) FOIA (281/290).  On 20 February 2026 the Appellant replied to the MoD (299).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As regards the closed material a gist was provided to the Appellant who submitted a note on it on 13 February 2026 (295). </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Issues</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The issues to be considered were:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">whether, and if so then to what extent, the MoD was entitled to rely on exemptions that were not raised when it first replied to the Request;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">whether the information requested <span style="color:#1E1E1E">constituted personal data of which the Appellant is the data subject making it exempt from disclosure by the absolute exemption at section 40(1) FOIA;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">whether the MoD and the DN were correct to assert that section 30(1)(a)-(c) FOIA was engaged and if so whether the PIBT favoured the maintenance of the exemption; and <span style="font-family:Arial;color:#000000">if necessary</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial">(d)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial;color:#000000">whether the MoD were correct to assert, and to what extent, that section 40(2) FOIA applied to the information requested and in so far as the Request was for personal data whether its disclosure would be in accordance with the UKGDPR. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">FOIA requests are requester blind and FOIA disclosures are to the world. This request involved material which derived from identifiable criminal allegations and proceedings brought against the requester.  While the Request had come from the subject of the criminal investigation and prosecution this did not diminish the MoD's obligation to deal with the Request in compliance with the data protection principles.  In light of this, in our view, rather than confirming it held in-scope material the MoD might also have given consideration to responding to the Request with a <span style="font-style:italic">neither confirm nor deny response </span>by section 40(5B)(a)(i) FOIA and/or section 30(3) FOIA.  As this was not an issue in this appeal no decision is made in relation to it in this decision.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">The addition of exemptions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The MoD relied on section 30 then added section 40(2).  The IC dealt with section 30 but not section 40(2) and referred to section 40(1) FOIA which was then relied on in the MoD's response.  The Appellant expressed concern about this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We had regard to the decision of the UT in <span style="font-style:italic;color:#000000">Information Commissioner v E Malnick and The Advisory Committee on Business Appointments <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/72" uk:canonical="[2018] UKUT 72 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 72 (AAC)</ref> (1 March 2018)</span><span style="color:#000000"> and in </span><span style="font-style:italic;color:#000000">NHS England v Information Commissioner and Dean <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2019/145" uk:canonical="[2019] UKUT 145 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKUT 145 (AAC)</ref></span><span style="color:#000000"> at paragraphs 11 and 12.  </span>In <span style="font-style:italic">Gibbons v Information Commissioner [2024] UKFTT 35 (GRC) </span>the FtT following <span style="font-style:italic;color:#000000">Birkett v The Department for the Environment, Food and Rural Affairs <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/1606" uk:canonical="[2011] EWCA Civ 1606" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 1606</ref> (21 December 2011) </span><span style="color:#000000">said</span>:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"76.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">It is not in the public interest to prevent late reliance on exemptions and this has been recognised in the case law that clarifies that the Tribunal may permit reliance on &#8220;new&#8221; exemptions even during the appeal proceedings, (see above legal framework). It may not be necessary in all circumstances for a public authority at the beginning of the FOIA process to rely on every possible exemption that might apply, but it is necessary for the public authority to keep matters under review and to reconsider their response to a request for information when appropriate. This not only allows further or different exemptions to be relied upon but also enables further information to be released such as occurred in this case. In our view, if it were otherwise intransigence would be encouraged at the expense of transparency. It is in the public interest for the statutory framework set out in FOIA to be applied properly, and this is assisted by the ability of the public authority to rely on further or alternative exemptions from those that were initially raised." </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">On the basis of the legal authorities and having taken account of the issues under consideration in this appeal and the role of the Tribunal we are satisfied that when considering the exemptions relied upon it is appropriate for us to consider all those raised by the MoD and the IC and indeed, if necessary, any the Tribunal might itself consider relevant. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Section 40(1) FOIA </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Section 40(1) - Law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">This is an absolute exemption and the MoD asserted that it applies to all the disputed material.  Section 40(1) FOIA states <span style="font-style:italic">"</span><span style="font-style:italic;color:#1E1E1E">Any information to which a request for information relates is exempt information if it constitutes personal data of which the applicant is the data subject</span><span style="color:#1E1E1E">."</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 40(7) FOIA sets out that <span style="font-style:italic">"personal data "</span> has the same meaning as is given in section 3(2) DPA18 namely ".<span style="font-style:italic">..</span><span style="font-style:italic;color:#1E1E1E">any information relating to an identified or identifiable living individual (subject to subsection (14)(c))</span><span style="color:#1E1E1E">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 3(3) DPA18 defines an identifiable living individual as:- </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"...a living individual who can be identified, directly or indirectly, in particular by reference to&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(a)an identifier such as a name, an identification number, location data or an online identifier, or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(b)one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of the individual."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">When considering identification we had regard to <span style="font-style:italic;font-family:Arial;color:#000000">Information Commissioner v Magherafelt District Council</span><span style="font-family:Arial;color:#000000"/><span style="font-style:italic;font-family:Arial;color:#000000">[2012] UKUT 263 (ACC)</span><span style="font-family:Arial;color:#000000"> in which the UT referred to the &#8220;motivated intruder&#8221; test which is a person:- </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-family:Arial;color:#000000">&#8220;&#8230;.who starts without any prior knowledge but who wishes to identify the individual or individuals referred to in the purportedly anonymised information and will take all reasonable steps to do so.&#8217;. The question was then one of assessment by a public authority as to &#8216;&#8230; whether, taking account of the nature of the information, there would be likely to be a motivated intruder within the public at large who would be able to identify the individuals to whom the disclosed information relates.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial;color:#000000">We also had regard to the decision of the UT in </span><span style="font-style:italic;font-family:Arial;color:#000000">NHS Business Services Authority v Information Commissioner and Spivack <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2021/192" uk:canonical="[2021] UKUT 192 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKUT 192 (AAC)</ref></span><span style="font-family:Arial;color:#000000"> (which we concluded was the NHS case of 2021 cited by the Appellant) in which it was held that "</span><span style="font-style:italic;font-family:Arial;color:#000000">37. The legislation provides that actual identification is necessary in order for data to be personal data..." </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In our view <span style="font-style:italic">"relating to" </span>requires a broad approach.  The Guidance, with which we agree, advises for example that:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">if the data identifies an individual even if that individual is not named that can be personal data if it is being processed to learn about the individual or where the processing will have an impact on the individual; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">where data is used to learn about or evaluate or make a decision about an individual then it may be personal data; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">even if the information, which identifies an individual, is factually incorrect it can still be personal data if it relates to that individual; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">opinions about an individual may relate to that individual whatever the accuracy of the opinion. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Where material consists of the requester's own personal data but is also mixed with the personal data of others the Guidance advises:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">if the information requested is the personal data about more than one person the people involved are to be treated as separate data subjects;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">if the requester's personal data can be separated then this is dealt with as a Subject Access Request; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">if the information cannot be separated then all of it is treated as if it were the requester's personal data.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Guidance also advises:- </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">" Requests for mixed personal data are quite common in the context of requests for access to complaint or investigation files. In these cases, the requester&#8217;s own personal data is often inextricably linked to the personal data of the individuals involved in the complaint or investigation process. For example, the officers investigating the complaint or any witnesses who gave a statement." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Section 40(1) - the position of the parties</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the DN the IC said:<span style="font-style:italic">- </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"50...the Commissioner is conscious that section 40(1) provides that information is exempt from disclosure under FOIA if it constitutes the requester&#8217;s own personal data. Given the circumstances of this case, ie the complainant is seeking information from an investigation file, and he was the focus of that investigation, then some of the withheld information will be his own personal data. As a result, any such information &#8211; regardless as to the application of section 30 of FOIA &#8211; would be exempt from disclosure under FOIA by virtue of section 40(1) of FOIA. "</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In its response the MoD said the information sought by the Request was exempt by section 40(1) because (290):-</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"48 All of the requested information was produced as a result of an investigation into criminal allegations made against the Appellant himself. Therefore it is very clear that all of the requested information related to the Appellant and therefore constituted his personal data:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">its content was directly about his alleged criminal conduct;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">the purpose of the information was to investigate criminal allegations made against him and to make a decision on whether to bring criminal proceedings against him; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">the effect of the information was to make a decision on whether to bring criminal proceedings against him.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"49.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">In these circumstances, the exemption under section 40(1) applied and the MOD would have been entitled to refuse the request on this basis."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant said (299-301):<span style="font-style:italic">- </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"1...The disputed material is about the appellant and not the wider public or world.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">"3.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The appellant shall give reasons why section 40(1) and section 40(2) does not prevent the appellant from viewing and reading all the disputed material. The appellant would support erasing names from documents where appropriate"</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"18.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Material restricted by section 40(1) cannot be released to open source. However, material can be released and lawful when the material connects to the person requesting disclosure. Case NHS V IC (2021) overturned the use section 40. The ICO decision letter of 24th March 2025 removed section 40." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">26 The appellant finds MoD response about section 40(1) and 40(2) FOIA does not support withholding the disputed non sensitive material."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Section 40(1) - Tribunal's review and decision</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the Appellant's opposition to reliance on section 40(1) he said "<span style="font-style:italic">1...The disputed material is about the appellant and not the wider public or world"</span> (299) which would be a strong indication that this exemption did apply at least to some of the disputed material.  Also the Appellant's suggestions that:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">"<span style="font-style:italic">Material restricted by section 40(1) cannot be released to open source. However, material can be released and lawful when the material connects to the person requesting disclosure" </span>does not assist him as a FOIA disclosure is to the world </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">"<span style="font-style:italic">The ICO decision letter of 24th March 2025 removed section 40" </span>also does not assist his appeal because that was a reference to section 40(2) FOIA and in any event, as set out in para 42 of the DN the IC did not <span style="font-style:italic">"remove" </span>section 40. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We reviewed the disputed unused material in the closed bundle.  The Appellant's identity was clear in much of the material.  Much of it referred to the Appellant by name. This was, in our view, to be expected as it had been created and collated in response to the allegations made about the Appellant, as part of the various enquiries and investigation into the Appellant's alleged offences and generally in connection with the court martial proceedings as they progressed. As the gist says it included material such as:- </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"> &#8226; <span style="font-style:italic">witness statements and notebooks</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8226; victim/witness needs proformas</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8226; investigators&#8217; notes</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8226; statement plan</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8226; email correspondence between RAFP personnel</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8226; copies of documents gathered during investigation</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8226; Unit Investigation Management &#8211; Strategy and diary </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In our view therefore it was clear from the material's purpose, context and content that much of it was the requester's personal data (as defined) and that disclosure of it was exempt by section 40(1) FOIA.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">However, having reviewed the disputed material, we did not agree with the MoD that all of it <span style="text-decoration-line:underline;text-decoration-style:solid">(</span>i.e. every page) constituted the Appellant's personal data because in our view some material did not relate closely enough to the Appellant even though it was on "his" file.  We therefore went on to consider if the material, that was not exempt by section 40(1) FOIA, was exempt by section 30(1) FOIA. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Section 30(1) FOIA</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">law</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 30(1) FOIA is a class-based exemption.  It provides:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"(1)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Information held by a public authority is exempt information if it has at any time been held by the authority for the purposes of&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">any investigation which the public authority has a duty to conduct with a view to it being ascertained&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(i)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">whether a person should be charged with an offence, or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(ii)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">whether a person charged with an offence is guilty of it,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">any investigation which is conducted by the authority and in the circumstances may lead to a decision by the authority to institute criminal proceedings which the authority has power to conduct, or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">any criminal proceedings which the authority has power to conduct."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The words <span style="font-style:italic">"at any time" </span>mean that material can be exempt if it relates to live ongoing, closed or abandoned investigations and the Guidance advises:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"8.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Section 30(1) provides an exemption from the duty to disclose information that a public authority has held at any time for certain investigations or proceedings. As long as the other requirements of the exemption are satisfied, the exemption will apply to information even if it was not originally obtained or generated for one of those purposes and it will continue to protect information even if it is no longer</span> being used for the specified investigation or <span style="font-style:italic">proceeding. It is only necessary for the information to have been held at some point for those purposes. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">9.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The exemption applies to information rather than documents so it is possible that information contained in a document created after the conclusion of an investigation or set of proceedings could still attract the exemption...." </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 30 is subject to the PIBT that <span style="font-style:italic">"</span><span style="font-style:italic;color:#1E1E1E">in all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information."</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">When considering the PIBT we noted the Guidance that:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"52.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">In a democratic society it is important that offences can be effectively investigated and prosecuted. However, the public needs to have confidence in the ability of the responsible public authorities to uphold the law and the public interest will be served by disclosures which serve that purpose." </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant referred to the decision in <span style="font-style:italic;color:#343338">Toms v Information Commissioner EA/2005/0027 19.6.06.  </span><span style="color:#343338">In that FtT d</span>ecision, with which we agree, the Tribunal said:- </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">"<span style="font-style:italic;color:#343338">[freedom of information] should not undermine the investigation, prosecution or prevention of crime, or the bringing of civil or criminal proceedings by public bodies. The investigation and prosecution of crime involve a number of essential requirements. These include the need to avoid prejudicing effective law enforcement, the need to protect witnesses and informers, the need to maintain the independence of the judicial and prosecution processes and the need to preserve the criminal court as the sole forum for determining guilt&#8221;. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In <span style="font-style:italic">Toms t</span>he FtT also said:-</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#343338">&#8220;</span><span style="font-style:italic;color:#343338">The general public interest served by the section 30(1) exemption is the effective investigation and prosecution of crime, which itself requires in particular (a) the protection of witnesses and informers to ensure that people are not deterred from making statements or reports by the fear that they may be publicised, (b) the maintenance of the independence of the judicial and prosecution processes and (c) the preservation of the criminal court as the sole forum for determining guilt. In assessing where the public interest balance lies in a section 30(1) case relevant matters are therefore likely to include (a) the stage a particular investigation or prosecution has reached, (b) whether and to what extent the information is already in the public domain, (c) the significance or sensitivity of the information requested and (d) whether there is any evidence that an investigation or prosecution has not been carried out properly which may be disclosed by the information </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC in its response referred to the FtT decision in<span style="font-style:italic"> Alan Digby Cameron v Information Commissioner &amp; Bedfordshire Police and Hertfordshire Police (EA/2008/0023 &amp; 0025). </span>While not binding on us we agreed with it and it had this guidance on the PIBT and <span style="font-style:italic">section 30(1):-</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;In applying section 2(2)(b) it is important to note that the relevant interest in disclosure is the public interest and that the purely private interests of the requester are irrelevant. And when it comes to the other side of the scales it is important to note that the relevant public interest is that in &#8220;maintaining the exemption&#8221; rather than any general public interest in the non-disclosure of the information; it is therefore necessary to focus on the purpose of the relevant exemption. The general public interest served by the section 30(1) exemption is the effective investigation and prosecution of crime, which itself requires in particular (a) the protection of witnesses and informers to ensure that people are not deterred from making statements or reports by the fear that they may be publicised, (b) the maintenance of the independence of the judicial and prosecution processes and (c) the preservation of the criminal court as the sole forum for determining guilt. In assessing where the public interest balance lies in a section 30(1) case relevant matters are therefore likely to include (a) the stage a particular investigation or prosecution has reached, (b) whether and to what extent the information is already in the public domain, (c) the significance or sensitivity of the information requested and (d) whether there is any evidence that an investigation or prosecution has not been carried out properly which may be disclosed by the information&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant also cited "<span style="font-style:italic">Greenwood V IC (2024) </span>and<span style="font-style:italic"/><span/><span style="font-style:italic">JS V IC (2019) </span>which he said <span style="font-style:italic">"overturned the use of section 30"</span> and <span style="font-style:italic">Allen (2017)</span> in which he said <span style="font-style:italic">"the public interest test rejected due to improper use of withholding evidence" </span>(301).  We were not able to locate these three specific decisions.  However all appear to be decisions from the FtT and therefore fact specific and non-binding.  It was therefore not considered to be proportionate or necessary (having considered the overriding objective) to delay and adjourn our deliberations to ask for copies of these decisions especially as the Request had been made over two years ago.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Section 30(1)(a)-(c) &#8211; position of the parties on engagement</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the DN (para 16) the IC stated that he was satisfied that section 30(1)(a)-(c) was engaged because the MoD acting through the RAFP and SPA has a duty to investigate criminal offences and conduct criminal proceedings.  The IC said ((10):- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"15.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">With regard to the information falling within the scope of this request, the MOD explained that all of this material was held for the purposes of the specific investigation, and subsequent specific proceedings, referred to in the request. The information consists of an initial investigation report, additional evidence request, a Service Police Referral Report and unused material." </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The MoD in its response provided background detail and said:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"24.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The RAFP is the service police force branch for the Royal Air Force. It has jurisdiction under the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/52" uk:canonical="2006 c. 52" uk:origin="TNA" uk:type="legislation">Armed Forces Act 2006</ref> to investigate alleged service offences and to refer cases for prosecution (either by the Service Prosecuting Authority (&#8220;SPA&#8221;) or, in less serious cases, by the alleged offender&#8217;s commanding officer).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">25.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The Service Prosecuting Authority (&#8220;SPA&#8221;) has jurisdiction under the <ref href="http://www.legislation.gov.uk/id/ukpga/2006/52" uk:canonical="2006 c. 52" uk:origin="TNA" uk:type="legislation">Armed Forces Act 2006</ref> to review cases referred to it by the service police or by an alleged offender&#8217;s commanding officer and to prosecute cases at the Court Martial.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">26.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The Secretary of State for Defence has general responsibility for defence of the United Kingdom pursuant to the Defence (Transfer of Functions) Order 1964. The Secretary of State chairs the Defence Council, which (by the same Order) exercises powers of command and administration over His Majesty&#8217;s armed forces delegated by the Crown. These include overall responsibility for the exercise of the functions of the RAFP and SPA respectively. Neither the RAFP nor the SPA are &#8220;public authorities&#8221; in their own right for the purposes of FOIA and therefore the relevant public authority in this appeal is the MOD. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">It was the MoD's submission that:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">section 30(1)(a)(i) FOIA applied to items (a)-(b) of the requested information because it had been<span style="font-style:italic"> "...gathered by the RAFP during the course of its investigation into suspected service offences committed by the Appellant..." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">section 30(1)(b) FOIA applied to item c as it is <span style="font-style:italic">"...information held by the MOD (acting through the RAFP and SPA) for the purposes of an investigation conducted by it (through the RAFP) which may lead to a decision by the MOD (through the SPA) to institute criminal proceedings which the MOD (again, through the SPA) has power to conduct."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(</span>c<span style="font-style:italic">) </span>section 30(1)(c) applied to the unused material because<span style="font-style:italic"> "it is information held by the MOD (through the SPA) for the purposes of criminal proceedings which it (again, through the SPA) had power to conduct."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the grounds of appeal the Appellant's challenge to the engagement of section 30 FOIA was based on the timing of the use of section 30 FOIA by the MoD, the interconnection to the court martial proceedings and for example he said (35):-</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">" Number 15 &#8211; Do the MoD have records to show that support making the court and legal system aware in 2020 that undisclosed material cannot be released because of section 30 or any other reason?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Number 16 &#8211; The ICO state &#8216;The Commissioner is satisfied that the withheld information was clearly held by the MOD for the purposes set out at sections 30(1)(a) to (c) of FOIA&#8217;. The commissioner does not record seeing the withheld undisclosed material. Therefore, was the decision made on what the MoD communicated to the ICO?"</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He also said it was possible that <span style="font-style:italic">"a legal system failure occurred and Section 30 is a cover up".</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Section 30(1)(a)-(c) review and Tribunal's decision on engagement. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In our view the timing of the use of this exemption, any possible motivation for its use and any connection to the Appellant's criminal proceedings were not relevant considerations when deciding if section 30 was engaged. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We accept the MoD's explanation of the role of the SPA, RAFP and the MoD. The in-scope material we saw in the closed bundle had all been received, collated and added to the file created and held by the SPA and or the RAFP or MoD for one or more of the purposes set out in section 30(1)(a)-(c) FOIA.  The file of papers had been prepared for and used for the purpose of criminal proceedings that in fact took place.  This material (including the unused part) was section 30 material even though the criminal proceedings had ended in 2020. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Accordingly in our view the exemption was engaged and a consideration of the PIBT was necessary. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Section 30(1)(a)-(c) &#8211; position of the parties on the PIBT</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The parties to the appeal put forward their positions on why the public interest favoured disclosure or the maintenance of exemption.  We agree with the IC's summary that:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"20.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The purpose of section 30 of FOIA is to protect the police&#8217;s (and other applicable public authorities, in this case the Service Police&#8217;s) function of carrying out effective investigations."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Arguments in favour of disclosure included:<span style="font-weight:bold">- </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">because it is generally in the public interest for public authorities to act with openness and transparency; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">because disclosure would allow there to be better understanding of the work done by the RAFP and the SPA; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">because greater understanding, as well as being in the public interest itself, could lead to there being greater confidence that military investigations are being carried out in accordance with the law which was also in the public interest. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant's submissions included:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">because of the lapse of time since the criminal case concluded any public interest in favour of maintaining the exemption will have considerably diminished; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">because "<span style="font-style:italic">The investigation was known across RAF Odiham, wider RAF and MoD, meaning section 30 cannot be applied..."; </span>and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">because of what he alleges was the mishandling of disclosure by the SPA/MoD when they (allegedly) wrongfully withheld information from him and it may have been "<span style="font-style:italic">adjusted"</span> all of which led him to plead guilty.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Arguments in favour of maintaining the exemption included because:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">the Court Martial process ended when the Appellant pleaded guilty and did not seek to appeal at which stage the MoD's duty of disclosure came to an end; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">there needs to be finality in litigation and it is against the public interest for criminal processes to be re-opened in this way; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">disclosure in the course of criminal procedure and disclosure to the world by FOIA are different and those that may have provided information to the SPA for the purposes of the criminal procedure could reasonably have expected that this information would have been handled in accordance with the relevant procedure rules and not disclosed to the world at large; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">the relevant criminal procedure rules provide a legal framework and if those who are being asked to reveal information or be witnesses feared that what they said could be subject to <span style="font-style:italic">uncontrolled disclosure to the world at large</span> that might operate to dissuade some witnesses from cooperating with future service police investigations which would be against the public interest, </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(e)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">the Appellant's concerns relate to his private interests rather than any public interest; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(f)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">while there was some public interest in this FOIA disclosure this was greatly reduced by the Appellant's right of appeal within the court martial process and the procedure rules by which those accused have the right to seek disclosure;  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(g)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">there is a need to maintain the  <span style="font-style:italic">"integrity of the Service justice system as the sole forum for determining innocence or guilt"</span> (11); and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(h)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">because <span style="font-style:italic">"Those instructed to carry out such investigations on behalf of the authority should be free to establish the facts of the case and gather evidence without fear of subsequent reprisals"(332)</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000"/><span style="font-weight:bold;color:#000000">Section 30(1)(a)-(c) &#8211; review and decision by the Tribunal on the PIBT</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We considered the PIBT as at the date of the MOD's response on 25 April 2024 but in our view the outcome would have been the same if the PIBT had been tested as at 31 October 2024 when the MoD responded after its internal review. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">It is not our role to decide whether or not the Appellant has been or even may have been the victim of a miscarriage of justice as he asserts and we have not concluded for this appeal that there was a<span style="font-style:italic"> "cover up"</span>.  However as this concern, which we accept is genuinely held by the Appellant, has been a consistent theme throughout his appeal we consider it appropriate for us, for balance, to record that the MoD say that there is no evidence that the Appellant was the victim of a miscarriage of justice or that they, in any way, acted unlawfully by failing to provide disclosure as required in the court martial process.  In support of this the MoD says that:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">the Appellant had legal representation from WC itself a specialist military law firm;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">the SPA gave disclosure to WC and this disclosure included a list of unused material; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">WC, acting for the Appellant offered a guilty plea to various charges subject to disclosure of various items which were disclosed; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">WC raised no challenge to the SPA's performance of its duties and there was no appeal<span style="font-style:italic">. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We accept that it is in the public interest for there to be openness and transparency in what is done by public authorities including in this case the MoD and its connected entities and these reasons weigh in favour of disclosure being in the public interest.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As regards the appeal specific reasons put forward by the Appellant for disclosure (or against maintenance of the exemption):- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">we did give some weight to the time elapsed from 2022 to 2024 as we accept that it can be the case that the public interest in favour of maintenance of an exemption may reduce over time while noting that in this appeal the time period is not particularly long; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">we gave minimal weight to the Appellant's submission that the public interest was in favour of disclosure because he had been the victim of a miscarriage of justice and wanted to take further proceedings.  This is because FOIA is motive and requester blind and while such issues in the Request engage the Appellant's private interest they do not, to any material extent, involve the public interest.  It is also because he had a right of appeal and legal representation;  and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">we did not give weight to the public interest argument based upon the Appellant's submission that the allegations, investigation, court process and his guilty plea were known by others in the RAF and within the MoD. This is because a FOIA disclosure is to the world.  It is also because in our view, while members of the RAFP, SPA and MoD will have known the content of the disputed material the wider RAF community and even those at RAF Odiham would only have been aware (if at all) of the facts of the case in general terms and would not have been aware of the detailed information contained in the disputed material.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#343338">Of the submissions in favour of the maintenance of the exemption:-</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#343338;font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#343338">we accept that the public interest in favour of disclosure is considerably reduced not just because the Request only engages a private interest but because we were told, and accept, that the Appellant had a right of appeal within the relevant process and procedure rules and was at all relevant times represented by WC;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#343338;font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#343338">we gave some but little weight to the MoD's argument that their duty of disclosure came to an end when the court martial procedure came to an end.  This is because in the absence of a statutory provision to the contrary a public authority's obligation to respond to a FOIA request is separate to and in addition to any obligations created by litigation procedure rules;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#343338;font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#343338">we did give weight to the MoD's submission as to the desirability for there to be finality in litigation.  This weight was again reduced in a small way because of what we concluded in (b) above and because while the Court of Appeal in </span><span style="font-style:italic;color:#343338">R v Foy <ref href="https://caselaw.nationalarchives.gov.uk/ewca/crim/2020/270" uk:canonical="[2020] EWCA Crim 270" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Crim 270</ref></span><span style="color:#343338"> expressed this proposition as a core principle it added that this was a general approach which may have exceptions;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#343338;font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#343338">we accept </span>that it would not be in the public interest for the MoD's/RAFP's investigations to be compromised as a result of witnesses and others being fearful that their information could be subject to uncontrolled disclosure to the world at large.  We accept that it is possible that the knowledge that such information might be subject to a FOIA disclosure could risk dissuading witnesses and others from cooperating with future investigations and this would be against the public interest. We concluded that this issue amounted to a considerable but not overwhelming argument.  This is because those involved might well have expected to have taken part in a criminal trial in open court but for the guilty plea and because in certain circumstances a FOIA request might result in similar information obtained in the same way being disclosed because Parliament has made section 30 FOIA a qualified and not an absolute exemption; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(e)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">when considering the PIBT for section 30 FOIA we gave no weight to the MoD's concern, expressed in its response to the Appellant, that the public interest favoured maintaining the exemption because those involved in the investigation must be allowed to carry out their role free from fear of what was referred to as <span style="font-style:italic">"reprisals." </span>This is because there was no evidence provided to indicate what was meant by this, how likely it was or on what basis it was thought to be a possible risk. We considered it possible that had we gone on to consider section 40(2) this fear (if evidenced) might have been relevant when considering the application of the data protection principles in particular those in Articles 5 and 6 UKGDPR.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">There are arguments both for and against the public interest being in favour of disclosure.  Those in favour are based mainly on:- </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">the generic need for openness and transparency which has weight; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">the Appellant's arguments in relation to why disclosure to him is important to enable him to continue his challenge of the outcome of his court martial because he has a strongly held belief that he has been the victim of a miscarriage of justice which does not have weight.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Against this there are a number of public interest reasons why it would not be in the public interest for the disputed material to be disclosed on the basis of the Request.  We have not identified one particular reason that operates conclusively in favour of the MoD's position.  Some are stronger than others. However, in our view, the combination of the reasons we have identified above both in favour of maintenance of the exemption and as reasons that reduce the public interest for disclosure do cause the balance of the public interest to be in favour of non- disclosure.  In our view therefore the public interest balance was on the side of the maintenance of the exemption.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Redactions </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We considered whether, by the use of appropriate redactions, the MoD would have been able to respond to the Request with the disclosure of part of the information requested as contended for by the Appellant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#343338">The IC in the DN said:- </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#343338;font-family:'Book Antiqua'">"30.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#343338">With regard to the complainant&#8217;s suggestion that anonymised witness statements could be provided, the MOD argued that this did not arise as such information would still be exempt from disclosure on the basis of section 30 of FOIA." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#343338">and </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#343338;font-family:'Book Antiqua'">"40.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#343338">In balancing the public interest under section 30, the Commissioner has considered whether the information in scope could be disclosed in anonymised form. However, in his view if steps were taken to anonymise the information then this would still not prevent the risk of the material that was then disclosed providing an insight into how this investigation was conducted which could in turn impact on the conduct and approach of similar investigations in to the future. In other words, in the Commissioner&#8217;s view release of such material even in anonymised form still represents a risk of undermining the integrity of the RAFP investigatory processes and procedures. Linked to this point, the Commissioner also considers there to be value in the MOD&#8217;s position that it is in the public interest that the Service justice system is seen as the sole forum for determining innocence</span><span style="color:#343338"/><span style="font-style:italic;color:#343338">or guilt, and that  in his view the cherry picking or limited disclosure of information from an investigatory case file risks undermining the integrity of this forum."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#343338">In the IC's response he said:- </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;color:#343338;font-family:'Book Antiqua'">"23.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#343338">As the Commissioner determined that s.30(1)(a)-(c) FOIA apply to the withheld information in its entirety, he submits that redaction would not be possible in this case." </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We have seen the closed material.  In our view:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">where it is the requester's own personal data and the absolute exemption at section 40(1) FOIA applies redaction of the material would not alter it so as to make it not the requester's personal data;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic"/>redaction would not prevent section 30(1) FOIA material from being section 30(1) material and we did not identify any effective redactions that would change our view on the PIBT. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Section 40(2) FOIA</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial;color:#000000">In light of paragraph 2 of the DN and our conclusions regarding sections 40(1) and 30(1) FOIA, which together relate to all the disputed material, we did not go on to consider section </span>40(2) FOIA.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Decision</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">In our view </span><span style="font-family:Arial;color:#000000">the DN was partially, but not fully, in accordance with the law. However, all the disputed material is exempt from disclosure and no further steps are required of the MoD because</span><span style="color:#000000">:-  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">section 30 FOIA did not apply to </span><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">all</span><span style="color:#000000"> the requested information as concluded in the DN but did apply to all the requested information that was not exempt from disclosure by section 40(1) FOIA; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">where the disputed material was the Appellant's personal data this was not exempt by section 30 FOIA but was exempt pursuant to section 40(1) FOIA </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The appeal is dismissed. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify"><marker name="tab"/><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Judge Heald</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Date: </span><docDate date="2026-06-01" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">1 June 2026</docDate></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

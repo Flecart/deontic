@@ -1,0 +1,123 @@
+# David Babbs v The Information Commissioner & Anor
+
+citation: [2026] UKFTT 389 (GRC)
+url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/389
+exemptions: s44(1), s44(2)
+verified: yes
+
+## Background
+
+<!-- RAW kept sections from ukftt/grc/2026/389/data.xml (everything before the tribunal's
+     own reasoning) — used as-is; trim only if context length forces it.
+     Withheld headings: Conclusions -->
+
+### (preamble)
+
+1. The appeal is dismissed.
+
+2. Decision notice IC-403651-J1L1 is confirmed.
+
+### Background
+
+3. The appellant is lead consultant for Clean Up the Internet, a not for profit organisation with an interest in online safety and the Online Safety Act 2023 , and a particular focus on the harms associated with fake and anonymous accounts. The appellant states that the purpose of his request was to understand how the second respondent, the Office of Communications (Ofcom) came to take decisions about the content of its Illegal Content Codes of Practice. Clean Up the Internet is concerned that Ofcom may have been influenced by arguments and information from large tech platforms which are not in the public domain and which have therefore not been scrutinised or challenged.
+
+4. The appellant made a 6 part request for information to Ofcom on 17 January 2025. The request is set out in full in decision notice IC-403651-J1L1 dated 15 September 2025 and is not repeated here. In brief, the appellant sought information relating to any meetings since November 2023 held between Ofcom and any of the following companies: Meta or its subsidiaries (including WhatsApp, Facebook, and Instagram); X/Twitter; Google/YouTube; and Bytedance/TikTok, as well as other documents relating to the Illegal Harms Statement published on 16 December 2024.
+
+5. Ofcom responded on 14 February 2025. It disclosed some documents within scope of parts 3, 4, and 5, but withheld others within scope of all 6 parts under section 44(1) of the Freedom of Information Act 2000 (FOIA). Ofcom would neither confirm nor deny that it held some information within scope of parts 1 and 2 of the request relying in section 44(2) of FOIA. In applying section 44 of FOIA, Ofcom relied on section 393(1) of the Communication Act 2003 ( the 2003 Act ).
+
+6. The appellant requested an internal review on 1 April 2025. Ofcom responded on 9 April 2025 and upheld its application of section 44 to the request.
+
+7. The appellant complained to the first respondent, the Information Commissioner (the Commissioner) on 14 July 2025. The Commissioner issued his decision on 15 September 2025.
+
+### Preliminary issues
+
+8. On 25 February 2026 the tribunal responded to an application by Movement for an Open Web (MOW) to be joined to these proceedings as an interested party. The tribunal indicated that it was minded to grant MOW’s application but would hear any objections from the parties as a preliminary issue. The appellant consented, and the Commissioner confirmed that he had no objection in advance of the hearing. No objection was raised on behalf of Ofcom by Mr Gillow at the hearing and MOW is therefore joined as an interested party. Their participation is limited to making written submissions, which we received in advance of the hearing and which we have considered.
+
+9. Both the appellant and Ofcom made applications to rely on evidence not provided in accordance with directions. Neither party objected and the evidence was cited in and relevant to the submissions for each of the parties. We admitted the evidence.
+
+### The first respondent’s decision
+
+10. In his decision notice dated 15 September 2025, the respondent gave the following reasons for his decision: (i) There is a three stage test for determining whether section 44 of FOIA is engaged: (a) Does the 2003 Act prevent disclosure of any particular category(ies) of information, including through confirming or denying information is held? (b) If so, on the facts of the case, if held, does the information fall within one or more of those categories? (c) If and to the extent that it does, do any of the lawful gateways for disclosure contained in the 2003 Act permit disclosure under FOIA? (ii) Section 393 of the 2003 Act makes it a criminal offence to disclose certain information outside of prescribed circumstances. Section 393 can act as a statutory prohibition on disclosure. (iii) Ofcom did obtain information to the extent that it is held in the course of carrying out the regulatory functions conferred on it under the 2003 Act . This includes information obtained by Ofcom directly from an organisation and information provided voluntarily to Ofcom, including through consultations. (iv) Considering the lawful gateways in section 393(2) , disclosure of the information (if held) is not required to fulfil Ofcom’s functions or those of any person listed in section 393(3) . None of the other remaining gateways relate to court orders or Ofcom’s obligations under other pieces of legislation; none of which apply to FOIA. (v) In summary, if held, the withheld information is covered by section 393 of the 2003 Act ; there is no lawful gateway which would permit its disclosure; and any disclosure would breach the 2003 Act . Section 44(1) is engaged in respect of that information. (vi) Section 44(2) is also engaged. If Ofcom confirmed or denied that it holds information relating to X and Google/YouTube, it would be disclosing whether those organisations had been subject to Ofcom’s regulatory functions. That information is not in the public domain and disclosing it would be prohibited for the reasons set out above. (vii) Section 44 is an absolute exemption and there is no requirement for Ofcom to show that disclosure would be harmful and there is no requirement to consider the balance of the public interest.
+
+### The appellant’s case
+
+11. The appellant’s notice of appeal is dated 9 October 2025. He provided detailed grounds of appeal, which can be summarised as follows: (i) The Commissioner misinterpreted section 393 of the 2003 Act . The interpretation applied is unreasonably wide and not what was intended by Parliament. (ii) Section 44(2) is not engaged.
+
+### The law
+
+12. Section 44 of FOIA provides as follows: (1) Information is exempt information if its disclosure (otherwise than under this Act ) by the public authority holding it— (a) is prohibited by or under any enactment, (b) is incompatible with any assimilated obligation, or (c) would constitute or be punishable as a contempt of court. (2) The duty to confirm or deny does not arise if the confirmation or denial that would have to be given to comply with section 1(1) (a) would (apart from this Act ) fall within any of paragraphs (a) to (c) of sub section (1 ).
+
+13. Section 393 of the 2003 Act provides where relevant: General restrictions on disclosure of information (1) Subject to the following provisions of this section, information with respect to a particular business which has been obtained in exercise of a power conferred by— (a) this Act , (c) the 1990 Act, (d) the 1996 Act, or (e) the Online Safety Act 2023 , is not, so long as that business continues to be carried on, to be disclosed without the consent of the person for the time being carrying on that business. (7) Nothing in this section applies to information obtained in exercise of the powers conferred by section 196 of the 1990 Act (powers of entry and search). (10) person who discloses information in contravention of this section is guilty of an offence and shall be liable— (a) on summary conviction, to a fine not exceeding the statutory maximum; (b) on conviction on indictment, to imprisonment for a term not exceeding two years or to a fine, or to both.
+
+### Findings and reasons
+
+14. This appeal hinges on the interpretation of section 393 of the 2003 Act . The parties have different interpretations and rely on various other statutes and case law to support their positions.
+
+### Ground 1
+
+15. The parties’ positions can be briefly summarised as follows: (i) The appellant contends that section 393 should be construed narrowly and be interpreted as applying only to information which Ofcom has obtained by exercising compulsory powers. The appellant contends that section 393 does not apply to information provided voluntarily to Ofcom. This interpretation is correct in the submission of the appellant because the purpose of section 393 is to protect businesses which are compelled to disclose information and it compensates for the intrusive nature of Ofcom’s statutory information gathering powers. (ii) Ofcom contends that section 393 should be given a broad interpretation and that it applies to all information obtained in the exercise of Ofcom’s statutory powers, including information provided compulsorily and voluntarily. Ofcom submits that its interpretation is correct because the purpose of section 393 is to encourage frank and open engagement between Ofcom and regulated businesses, by reassuring them that, whether it is provided compulsorily or voluntarily, information will not be disclosed. To make a distinction between compulsorily or voluntarily provided information would make the scheme unworkable. (iii) MOW contends that section 393 should be interpreted narrowly and that it applies only to commercially sensitive information relating to the ‘affairs’ of businesses obtained under the 2003 Act . MOW submits that this interpretation is correct because the purpose of section 393 is to prevent the disclosure of commercially sensitive data only.
+
+16. The Supreme Court identified relevant principles of statutory interpretation in R (PACCAR Inc & Ors) v Competition Appeal Tribunal & Ors [2023] UKSC 28 . The court is required to identify the meaning borne by the words in question in the particular context. The purpose and scheme of an Act provide the basic frame of orientation for the use of the language employed in it. The Supreme Court referred to the following from R (Project for the Registration as British Citizens) v SSHD [2022] UKSC 3 about the use of the explanatory notes at §42: … external aids to interpretation such as these play a secondary role, as it is the words of the provision itself read in the context of the section as a whole and in the wider context of a group of sections of which it forms part and of the statute as a whole which are the primary means by which Parliament’s meaning is to be ascertained… Reference to the explanatory notes may inform the assessment of the overall purpose of the legislation and may also provide assistance to resolve any specific ambiguity in the words used in a provision in that legislation. Whether and to what extent they do so very much depends on the circumstances and the nature of the issue of interpretation which has arisen.
+
+17. The parties made various semantic arguments about the meaning of ‘in exercise of a power’. We give that phrase its ordinary meaning, which we consider is the act of using a power. We do not consider that the explanatory notes provide any assistance in the interpretation of ‘in exercise of a power’. The explanatory note is couched differently than is expressed in the actual provision because it simply refers to information ‘obtained under this Act ’. Similarly, the explanatory notes import words not present in the provision because they refer to information ‘relating to the affairs’ of any particular business. In addition, we do not find the analysis of the wording of other provisions to be of any material assistance. There is limited consistency in the use of wording across provisions, and it cannot be assumed that there was not an express intention behind the use of different wording.
+
+18. We find that Office of Gas and Electricity Markets v Pytel [2019] ICR 715 is of limited assistance because section 105 of the Utilities Act 2000 is substantially wider than section 393 of the 2003 Act , as it simply refers to information ‘obtained under or by virtue of the provisions of this Act …’. It does not expressly require the exercise of a power. It is at the same time narrower than section 393 of the 2023 Act because it provides that the information relates to the ‘affairs of any individual or to any business’. No such qualification to the nature of the information exists in section 393 .
+
+19. The appellant contends that section 393(1) of the 2003 Act only applies to information obtained under Ofcom’s powers to obtain information. Section 393(1) applies to ‘information obtained in exercise of a power conferred by’ and then lists the statutes containing Ofcom’s powers to which the section applies. The appellant provides examples of provisions in the statutes listed in sub section (1 ) giving Ofcom powers to compel the provision of information. We do not take issue with these examples. However, it is not disputed that those are not the only powers that are conferred on Ofcom under those Acts.
+
+20. We do not accept the appellant’s submission that Ofcom v Morrisey and The Information Commissioner [2012] AACR 1 is authority for the proposition that section 393(1) is to be read as being limited to information which a business had been compelled to provide. The issue in the appeal was not the information itself or the particular power under which it had been obtained. The issue for the Upper Tribunal was the appropriate forum for a challenge to Ofcom’s application of section 393 of the 2003 Act . This is made clear in paragraph 28 of the Upper Tribunal’s decision. Paragraph 55 of Morrisey correctly sets out the position. We do not accept the passage from paragraph 57 of the judgment relied on by the appellant adds anything. The specific power under which the requested information was obtained was not identified by the Upper Tribunal. It appears that there was no need to do so, because it was accepted that the information did fall within the remit of section 393(1) of the 2003 Act . Nothing in paragraph 57 of Morrisey can properly be read as meaning section 393(1) applies only to information obtained under powers to compel the provision of information.
+
+21. We do not accept that the power exercised must have been one specifically for the purposes of obtaining the information. Information may be provided because the power exercised by Ofcom is one which requires it, but equally, information may be provided voluntarily where the power being exercised is not one specifically requiring the provision of that information. Because information will potentially be obtained when Ofcom exercises any of its powers, we find that there is no rational basis for distinguishing between those powers.
+
+22. We accept Ofcom’s submission that distinguishing between information obtained compulsorily and that obtained because it was provided voluntarily creates the potential for the provision to be unworkable. The fact that information is provided voluntarily does not mean that it does not or should not carry the same prohibition against disclosure, particularly where consent has not been given. The distinction between information obtained compulsorily and that obtained through voluntary provision also creates potential inconsistency in what would constitute an offence under section 393(10) . Disclosure of the same information may give rise to the commission of an offence in the first scenario but not the second.
+
+23. The appellant’s submissions in relation to subsection (7) do not take him anywhere. The fact that this provision disapplies section 393(2) to information obtained under the exercise of the power to enter and search premises contained in section 196 of the Broadcasting Act 1990 ( the 1990 Act ) does not mean that the powers referred to in sub section (1 ) should be limited to those to compulsorily obtain information. The 1990 Act was in force before the 2003 Act came into being and section 196(4) contains its own express provisions regarding disclosure of information obtained under this provision, as well as a criminal offence for disclosure in breach of the provision. This may be why it is outside the scope of section 393(1) . Section 393(7) applies expressly to the power in section 196 of the 1990 Act and section 196(4) applies expressly to the power to enter and search contained in section 196 . There is nothing in section 393(1) that similarly limits the powers to which it applies, and subsection (7) cannot be read as qualifying sub section (1 ). This approach does not lead to the same words being interpreted inconsistently.
+
+24. We reject the Commissioner’s submission that section 393 is so broad as to cover information obtained by Ofcom in exercise of its functions generally. The provision is specifically limited to the exercise of a power. The exercise of a power may enable Ofcom to discharge its duties or exercise its functions; however, for section 393 to apply, it expressly requires the exercise of a power rather than a function.
+
+25. By referring to the entire Act, rather than specifying particular provisions, we find that section 393 is intended to apply to all provisions contained in the listed statutes which confer a power on Ofcom unless specifically excluded. We consider that had Parliament intended section 393 to be expressly limited to Ofcom’s powers to obtain information, it would have said so.
+
+26. The appellant argues for a narrow interpretation of section 393 of the 2003 Act because there are alternative protections against disclosure contained in FOIA, e.g. sections 41 and 42. Ofcom argues that these are not in fact equivalent to section 393 because section 41 is limited to information where disclosure would give rise to an actionable breach of confidence and because section 42 is limited to legally privileged information. We accept Ofcom’s arguments in this regard. Ofcom is not required to consider the application of other exceptions simply because they might apply.
+
+27. In enacting section 393 of the 2003 Act , Parliament expressly vested responsibility for determining whether and in what circumstances information may be disclosed in Ofcom. We agree that there is no basis for reading down section 393 because there are other exemptions which might be engaged in relation to the requested information.
+
+28. While it is established that Ofcom’s decisions about the application of section 393 are not susceptible to challenge in this tribunal, that is not support for a narrow interpretation of the provision. Ofcom’s decisions are susceptible to challenge by way of judicial review, which is an effective remedy.
+
+29. We do not accept MOW’s contention that section 393 of the 2003 Act applies only to commercially sensitive information. We find that MOW’s reliance on the Explanatory Note is misplaced for the following reasons. Firstly, the summary of the provision relied on is not an accurate summary of the provision. Nowhere in section 393 is there any reference to the ‘affairs’ of any particular business and those words cannot be read into the provision based on the Explanatory Notes. Moreover, the Explanatory Notes suggest that the information is limited to that which is ‘obtained’ under the 2003 Act and the other legislation referred to in sub section (1 ). This is broader than the actual wording of the provision because the summary does not refer to the need for the information to have been obtained in the exercise of a power . The Explanatory Notes can assist in the interpretation of legislation, as the parties all agree. However, we accept Ofcom’s submission that they cannot replace the wording of the statute itself.
+
+30. We do not accept that anything in the Competition Appeal Tribunal’s decision in Sky UK Ltd & Ors v Office of Communications [2015] CAT 16 can be read as supporting the contention that section 393 applies only to commercially sensitive information. This is a case that turns on its facts and references to commercially sensitive information are made because that is the nature of the information in question in that case. Similarly, we do not consider that T-Mobile (UK) Ltd & Ors v Office of Communications [2008] CAT 12 provides any kind of example which is useful in the interpretation of section 393 of the 2003 Act . The case does not directly involve the interpretation of the provision because it was accepted by Ofcom that the use of information in question was permitted by section 393(2) . MOW’s interpretation of section 393(1) is predicated on an interpretation based on the language used in the Explanatory Notes which is different to that used in the provision itself. While an intention behind the provision may have been to protect commercially sensitive information; the language used in the provision does not limit it in that way and in our view, the use of broader language must be taken to be deliberate and therefore not precluding the disclosure of information which is not necessarily commercially sensitive.
+
+31. MOW appears to adopt the appellant’s position that it is only Ofcom’s powers relating to obtaining information that are relevant. We reject that submission. Our reasons can be found in paragraphs 21 to 23 above.
+
+32. We note that public interest arguments were made by the appellant and MOW in support of a narrow interpretation of section 393 of the 2003 Act . While we would readily accept that openness and transparency are in the public interest in relation to online safety, the public interest is not a relevant consideration in the application of section 44 of FOIA and cannot be read into section 393 .
+
+### Ground 2
+
+33. The appellant disputes that section 44(2) of FOIA is engaged because details of meetings is not information ‘obtained in exercise of a power’ pursuant to section 393 of the 2003 Act .
+
+34. Ofcom submits that information does not necessarily need to have come from another person to have been obtained in exercise of a power. Mr Gillow submitted that if the tribunal considered that this was necessary, the information had been generated by Ofcom in the context of dealing with other people and in that way, it was information obtained from a business, even if it was recorded by the public authority. Mr Gillow relied on Information Commissioner v Driver [2020] UKUT 333 (AAC) . What this case shows is that the focus should be on how information is obtained and not how it is recorded. A public authority may create a record based on information imparted by a third party, but that does not mean that the information is not obtained from another person.
+
+35. We find that the information (i.e. dates, agendas and attendees) is information obtained by Ofcom in exercise of a power. All of those things are potentially records that are created by Ofcom, but this of itself does not mean that the information was not obtained by Ofcom from those businesses in exercise of a power. For example, even if Ofcom simply recorded the names of attendees at a meeting, the information recorded must have been obtained from the individuals. We find that the information requested is information that is obtained by Ofcom through their engagement with the businesses in exercise of its powers.
+
+36. Where one of the gateways applied or where the fact of a meeting was public knowledge, Ofcom may be able to confirm whether it held the information, but that is not the case here. Accordingly, we find that section 44(2) is engaged, and that disclosure is prohibited for the same reasons as set out above.
+
+## Disputed information
+
+The dispute concerns two distinct types of information: (1) documents held by Ofcom relating to meetings and communications with Meta, X/Twitter, Google/YouTube, and Bytedance/TikTok since November 2023 regarding the Illegal Harms Statement (parts 3–6 of the request), withheld under s44(1); and (2) whether Ofcom holds any information at all about its regulatory engagement with X and Google/YouTube (parts 1–2 of the request), in respect of which Ofcom refused to confirm or deny under s44(2). The core legal dispute is whether s393 of the Communications Act 2003 — the statutory prohibition relied on for s44 — covers information obtained voluntarily as well as compulsorily, and whether meeting records/attendee lists constitute information "obtained in exercise of a power."
+
+## Oracle facts
+
+Request, HoldsInfo, StatutoryProhibition, RefusalNotice
+
+## Gold
+
+withhold
+
+<!-- header disposition hint: appeal dismissed, Commissioner's decision upheld -->
+
+<!-- label-draft notes (gpt-4.1): Paragraph 37 explicitly finds s44(1) and s44(2) engaged and upholds the refusal to disclose and refusal to confirm or deny. No public-interest test applies. See para 37. -->
+
+## Gold rules
+
+engaged: s44_exempt
+pi: na

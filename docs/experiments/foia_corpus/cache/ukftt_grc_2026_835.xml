@@ -1,0 +1,926 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/835"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/835"/>
+	  <FRBRdate date="2026-06-09" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="835"/>
+	  <FRBRname value="George Greenwood v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/835"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/835"/>
+	  <FRBRdate date="2026-06-09" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/835/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/835/data.xml"/>
+	  <FRBRdate date="2026-06-09T12:02:24" name="transform"/>
+	  <FRBRdate date="2026-06-09T12:22:38" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-29" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-09" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>835</uk:number>
+	<uk:cite>[2026] UKFTT 835 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.1</uk:parser>
+	<uk:hash>ba4d4e9360ca8a48b56f3a449a4ede2a2a987172ccec69f383d17f42c0143008</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Bodytexttax2 { text-align: justify; margin-left: 0.79in; font-size: 12pt; }
+#judgment .Bodytexttax4 { text-align: justify; margin-left: 1.5in; font-size: 12pt; }
+#judgment .Bodytexttax1 { text-align: justify; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .Default { font-size: 12pt; color: #000000; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .legds { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00835 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0376</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p class="paragraph" style="text-align:right"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-06-09" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">09 June 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">JUDGE A. MARKS CBE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER K. GRIMLEY EVANS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER P. DEWAAL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Between</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">GEORGE GREENWOOD</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">                                      THE INFORMATION COMMISSIONER                </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">First Respondent</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">                                   DEPARTMENT FOR BUSINESS AND TRADE    </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Second Respondent</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">:</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">The Appellant: represented himself</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the First Respondent: Helen Wrighton, Solicitor</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Second Respondent: Michael Fry, Counsel</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Decision: </span><span style="font-family:'Book Antiqua';color:#000000">The appeal is </span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">allowed: </span><span style="font-family:'Book Antiqua';color:#000000">a substitute Decision Notice is set out below.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Substitute Decision Notice:</span></p>
+      <p><span style="font-family:'Book Antiqua'">To: Department for Business and Trade</span><br/><span style="font-family:'Book Antiqua'">Information Rights Unit</span><br/><span style="font-family:'Book Antiqua'">Old Admiralty Building</span><br/><span style="font-family:'Book Antiqua'">London SW1A 2DY</span></p>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">FOI@businessandtrade.gov.uk</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Re. ICO Decision Notice IC-378867-C5N9 dated 6 October 2025</span></p>
+      <p><span style="font-family:'Book Antiqua'">The Department for Business and Trade must, by no later than 35 working days after the date of promulgation of this decision (or, if later, the outcome of any appeal):</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Comply</span><span style="font-family:'Book Antiqua'"> with its duty under section 1(1)(a) FOIA by informing the Appellant in writing whether it holds information of the description specified in the Appellant's request and without any reliance on the exemption in section 43(3) FOIA; </span><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p><span style="font-family:'Book Antiqua'">If it confirms that it holds information of the description specified in the Appellant's request, </span><span style="font-weight:bold;font-family:'Book Antiqua'">comply</span><span style="font-family:'Book Antiqua'"> with its duty under section 1(1)(b) FOIA to communicate that information to the Appellant </span><span style="font-weight:bold;font-family:'Book Antiqua'">or</span><span style="font-family:'Book Antiqua'"> issue a refusal notice in compliance with section 17 FOIA.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">A failure to comply with this Substitute Decision Notice could lead to contempt proceedings.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua'">1.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">This is an appeal against the Information Commissioner&#8217;s Decision Notice dated 6 October 2025 (IC-378867-C5N9) ("the Decision Notice") about a request for information made by the Appellant, Mr George Greenwood ("GG"), to the Department for Business and Trade (&#8220;DBT&#8221;). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua'">2.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Information Commissioner ("Commissioner") upheld DBT&#8217;s reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(3)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;), maintaining a neither confirm nor deny (&#8220;NCND&#8221;) position.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua'">3.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The parties consent to this appeal being determined on the papers, and the Tribunal is satisfied that it is appropriate to do so pursuant to Rule 32 of the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt">Background</span></heading>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua'">4.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The request relates to Bounce Back Loans (&#8220;BBLs&#8221;) issued to companies during the COVID-19 pandemic.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua'">5.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">GG's request focused on two specific companies, J A M Financial Limited and Gym Live Health &amp; Fitness Limited which, at relevant times, were owned or controlled by Mr James McMurdock, who has since been elected as a Member of Parliament.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua'">6.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">Both companies were the subject of strike-off processes which were suspended by Companies House, giving rise to the inference that a third party&#8212;potentially a government department&#8212;had objected to their dissolution.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">The request for information, internal review and responses</span></heading>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua'">7.</num>
+	    <intro>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The key part of GG's request, dated 5 December 2024, was:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">"Please could you confirm that:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua'">1)</num>
+		<content>
+		  <p style="text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">The Department for Business and Trade opposed the application to strike these </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">companies [J A M Financial Limited and Gym Live Health &amp; Fitness Limited] off the </span><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">Companies House register, as per filings both companies made on 11 Feb. 2023;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua'">2)</num>
+		<content>
+		  <p style="text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">That it did so on the basis that each of these companies had a bounce back </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">loan </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">outstanding?"</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua'">8.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">DBT responded on 10 February 2025, neither confirming nor denying ("NCND") whether it held information falling within the scope of the request. It relied on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(3)</ref> FOIA on the basis that confirmation or denial would be likely to prejudice commercial interests.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua'">9.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">GG sought an internal review, contending that a NCND response was unjustified given the narrow scope of the request and the public interest in transparency.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua'">10.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">Following an internal review, on 3 April 2025 DBT informed GG that it upheld its original position.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">The Commissioner&#8217;s investigation and Decision Notice</span></heading>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua'">11.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">On 11 April 2025, GG complained to the Commissioner about DBT's handling of his request.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua'">12.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Commissioner considered the scope of his investigation was whether DBT was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(3)</ref> FOIA to give a NCND response. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua'">13.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">In his Decision Notice dated 6 October 2025, the Commissioner accepted DBT's stance. He found that confirming or denying the existence of relevant information would be likely to prejudice the commercial interests of the companies concerned and that the balance of the public interest favoured maintaining the NCND position.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua'">14.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Decision Notice relied heavily on the Tribunal's reasoning in the </span><span style="font-style:italic;font-family:'Book Antiqua'">Spotlight</span><span style="font-family:'Book Antiqua'"> case</span><authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"><span/>Spotlight on Corruption and Pearce v The Commissioner and The British Business Bank<span style="font-weight:bold"/>[2023] UKFTT 00007 (GRC)</p>
+		</authorialNote><span style="font-family:'Book Antiqua'">. It also cited the unchallenged Commissioner's decision</span><authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText"><span/>IC-240698-Q0S8</p>
+		</authorialNote><span style="font-family:'Book Antiqua'"> in another case which considered a similar request about a supposed COVID-19 Future Fund grant to a company with links to the former Prime Minister's wife: the public authority's NCND response was upheld.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Appeal to the Tribunal</span></heading>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua'">15.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">On 14 October 2025, GG appealed against the Decision Notice to the Tribunal.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua'">16.</num>
+	    <intro>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">GG's grounds of appeal are, in summary, that:  </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">the Commissioner erred in his assessment of potential prejudice to commercial interests under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(3)</ref> FOIA: the Respondents have failed to demonstrate that confirmation or denial would give rise to real and significant harm; and </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">the public interest in transparency outweighs any identified commercial harm.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua'">17.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">GG seeks disclosure of the requested information.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt">The Law</span></heading>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua'">18.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">It is not disputed that FOIA is the relevant statutory regime.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Duty to confirm or deny</span></heading>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua'">19.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">Section 1(1)(a) FOIA requires a public authority to confirm or deny whether it holds information of the description specified in the request (&#8216;the section 1(1)(a) duty&#8217;).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua'">20.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">Information is exempt under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> FOIA if disclosure:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;... would, or would be likely to, prejudice the commercial interests of any person (including the public authority holding it).&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua'">21.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">According to </span><span style="font-style:italic;font-family:'Book Antiqua'">Hogan v Information Commissioner [2011] 1 Infor LR 588</span><span style="font-family:'Book Antiqua'"> at paragraph 34, </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;would be likely to&#8221;</span><span style="font-family:'Book Antiqua'"> means that the chance of prejudice being suffered should be </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;more than a hypothetical or remote possibility: there must have been a real and significant risk.&#8221;</span><span style="font-family:'Book Antiqua'"> This approach was approved by the Court of Appeal in </span><span style="font-style:italic;font-family:'Book Antiqua'">DWP v Information Commissioner <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/785" uk:canonical="[2016] EWCA Civ 785" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 785</ref></span><span style="font-family:'Book Antiqua'">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua'">22.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">Section 43(3)</ref> FOIA provides that the section 1(1)(a) duty does not arise if, or to the extent that, compliance with that duty would, or would be likely to, prejudice the commercial interests of any person (including the public authority to whom the information request has been made).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua'">23.</num>
+	    <content>
+	      <p class="legclearfix" style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">Section 2 FOIA provides that where the section 1(1)(a) duty does not arise in relation to any information by virtue of the exemption in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">s.43(3)</ref> FOIA, the effect is that the section 1(1)(a) duty does not apply if in all the circumstances of the case the public interest in maintaining the exclusion of the duty to confirm or deny outweighs the public interest in disclosing whether the public authority holds the information.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Role of the Tribunal</span></heading>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua'">24.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">Under section 57 FOIA, GG is entitled to appeal to this Tribunal.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua'">25.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">Under section 58 FOIA, the Tribunal must determine whether the Decision Notice was wrong in law or involved a misapplication of discretion.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua'">26.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal may make its own findings of fact.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt">Evidence</span></heading>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua'">27.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal was provided with an Open Bundle of 167 pages (including indices) comprising pleadings, correspondence, and witness evidence.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua'">28.</num>
+	    <intro>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The evidence includes:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">material relating to the two companies and their strike-off status;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">witness evidence from Mr David Clarke, a counter-fraud expert; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(c)</num>
+	      <content>
+		<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">witness evidence from Mr Steven Greenwood on behalf of DBT.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua'">29.</num>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal considered all materials contained within the bundle.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt">Submissions</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Summary of submissions on behalf of the Commissioner</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua'">30.</num>
+	  <intro>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Commissioner relies on the reasoning set out in the Decision Notice which applied his guidance on the three-step criteria for prejudice-based exemptions such as <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43</ref> FOIA as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-family:'Book Antiqua'">(a)</num>
+	    <intro>
+	      <p style="margin-left:0.25in;text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">What is the actual prejudice that would (or would be likely to) affect the applicable interests?</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <intro>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">confirmation or denial would reveal whether the companies:</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p style="margin-left:1.18in"><marker name="tab"/><span style="font-family:'Book Antiqua'">I.  held BBLs; and/or</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">II. had strike-off opposed on that basis.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(ii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">this would expose commercially sensitive indicators of financial distress.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-family:'Book Antiqua'">(b)</num>
+	    <intro>
+	      <p style="margin-left:0.25in;text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Is there a causal link between the confirmation/denial and the prejudice?</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <intro>
+		<p style="margin-left:0.25in;text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua'">confirmation or denial could: </span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">I.   trigger speculation about financial weakness;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">II.  undermine customer/supplier/investor confidence;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">III. affect valuation and funding prospects; and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">IV. thus cause harm which is real, actual or of substance.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-family:'Book Antiqua'">(c)</num>
+	    <intro>
+	      <p style="margin-left:0.25in;text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">What is the likelihood of the prejudice?</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua'">the threshold of &#8220;would be likely&#8221; to cause prejudice was met in this case; as</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(ii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">there is a real and significant risk of harm to the companies&#8217; commercial interests.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua'">31.</num>
+	  <intro>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Commissioner's position, in summary, is that:  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">arguments that the companies were inactive, or that the requested information was of limited commercial sensitivity, were considered but did not negate the risk of prejudice to commercial interests. The assessment of potential harm set out in the Decision Notice remains justified.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">while acknowledging that the request concerns a serving MP and engages considerations of accountability in public office, these factors were given appropriate weight in the Decision Notice. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">allegations or suspicions of misconduct must have a plausible evidential basis before materially strengthening the public interest in disclosure. Mere assertion or inference is insufficient. At the time of the request, there was no such plausible basis.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">it was appropriate to have regard to earlier Tribunal decisions and decision notices of the Commissioner concerning BBLs. These were used as guidance only, with full recognition that each case turns on its own facts. Such authorities supported (but did not determine) the Decision Notice's conclusion that the public interest favoured neither confirming nor denying whether the information is held.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(e)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">the competing public interest factors were properly assessed and, as set out in the Decision Notice, neither confirming nor denying whether the requested information is held would better serve the public interest. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Summary of submissions on behalf of DBT</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua'">32.</num>
+	  <intro>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">In supporting the Decision Notice, DBT's submissions are in summary as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p style="margin-left:0.25in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">confirming or denying whether DBT holds relevant information would itself disclose commercially sensitive information, namely whether there are outstanding BBL liabilities associated with the two companies: such indirect disclosure engages the exemption in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(3)</ref> FOIA.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <intro>
+	      <p style="margin-left:0.25in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">confirmation or denial would be likely to prejudice the commercial interests of those companies (and their creditors and lenders) by:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <content>
+		<p style="margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">indirectly confirming important information about the companies in question that would not otherwise be in the public domain: small and micro-companies do not have to publicly display their profit and loss accounts and thus turnover;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(ii)</num>
+	      <content>
+		<p style="margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">putting confidential financial information into the public domain. Neither company has filed that it is not trading. A public confirmation or denial is likely to damage their commercial interests and, if either company does have an outstanding BBL, also confidence;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iii)</num>
+	      <content>
+		<p style="margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">affecting reputation and carrying stigma in needing to take out a BBL; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iv)</num>
+	      <content>
+		<p style="margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">impacting current or future commercial dealings, and loan repayment prospects.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <intro>
+	      <p style="margin-left:0.25in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">maintaining confidentiality is important to:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">preserve confidence in government support schemes such as BBL;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(ii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">encourage businesses to continue engaging openly with government; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">prevent any precedent encouraging similar requests.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <intro>
+	      <p style="margin-left:0.25in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">while acknowledging a public interest in transparency, including additional weight arising from Mr McMurdock's subsequent election as an MP, this is outweighed by:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <content>
+		<p style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Book Antiqua'">the need to protect commercial confidence and sensitive financial information; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(ii)</num>
+	      <content>
+		<p style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Book Antiqua'">the potential broader harm to scheme integrity and business confidence; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iii)</num>
+	      <content>
+		<p style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Book Antiqua'">the risk of setting a precedent encouraging similar requests.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Summary of GG's submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua'">33.</num>
+	  <intro>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">GG submits that:  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">the request is narrowly focused on two identified companies, not a broad request for information about BBLs or government-backed support generally;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">there is strong circumstantial evidence suggesting that the companies had outstanding public debt and that government intervention may have occurred;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">the companies appear not to be actively trading and have failed to file recent accounts, limiting any ongoing commercial sensitivity; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">there is a compelling public interest in transparency given BBLs involve the use of public funds and, in this case, an individual who is now a Member of Parliament.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua'">34.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">GG further relies on the evidence of a Mr David Clarke (a counter-fraud professional and former police officer), whose witness statement dated 8 November 2025 emphasises that targeted, evidence-based disclosure of the kind sought by GG's request - in circumstances suggesting potential misuse of public funds - serves an important anti-fraud and accountability function.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua'">35.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">GG considers that his appeal grounds and the public interest in compliance with the section(1)(a) duty have not been properly understood or engaged with.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt">Discussion and decision</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Findings of fact</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua'">36.</num>
+	  <intro>
+	    <p style="text-indent:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua'">The Tribunal first considered the relevant facts of this case. Based on all the evidence provided, the Tribunal made the following findings of fact on the balance of probabilities. None of these facts has been disputed.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <intro>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">At the time of the request in December 2024, in respect of J A M Financial Limited:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">Mr McMurdock had resigned as Director on 26 January 2021 when another Director was appointed in his place. Before that date and since the company's incorporation on 31 October 2016, Mr McMurdock had been sole director and had significant control (owning 75% or more of the shares).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(ii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">the company's Micro-entity Balance Sheet as at 31 October 2021 showed &#163;50,000 creditors (i.e. amounts falling due after more than one year) against net current assets of &#163;29,797; capital and reserves of &#163;(14,076). The company had no employees.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">the First Gazette notice for compulsory strike-off had been filed on 17 January 2023.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iv)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">compulsory strike-off action had been suspended on 11 February 2023.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <intro>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">As regards Gym Live Health &amp; Fitness Limited, at the date of the request:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">Mr McMurdock had been sole director of the company since its incorporation on 9 January 2017 and remained so.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(ii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">on 31 January 2021, accounts for a dormant company made up to 31 January 2020 had been filed at Companies House showing cash of &#163;100 comprising issued share capital of 100 Ordinary Shares of &#163;1 each.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">on 30 October 2021, Micro-company accounts had been filed made up to 31 January 2021. These showed &#163;20,000 creditors (i.e. amounts falling due after more than one year) against net current assets of &#163;23,277; capital and reserves of &#163;3,277. The company had no employees.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iv)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">no accounts had been filed thereafter.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(v)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">the First Gazette notice for compulsory strike-off had been registered on 3 January 2023.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(vi)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">compulsory strike-off action had been suspended on 11 February 2023.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">No enquiries had been made of either company about any prejudice which would, or would be likely to, result to its commercial interests were DBT to respond to GG's request for information in compliance with the section 1(1)(a) duty.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">Mr McMurdock was elected as the MP for South Basildon and East Thurrock on 4 July 2024.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua'">37.</num>
+	  <intro>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal took account of the Commissioner's guidance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43</ref> FOIA and considered the following principles particularly relevant to this case:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">generic assertions of commercial sensitivity are insufficient: evidence of actual prejudice is required;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">where prejudice to the commercial interests of third parties is claimed, the public authority must usually consult the third party and evidence that party's actual concerns rather than rely on speculation; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">timing is relevant: sensitivity may diminish though not inevitably;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">financial interests are not necessarily equivalent to commercial interests: it depends on the facts; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(e)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">where an NCND response is claimed under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(3)</ref> FOIA, the same evidential and causal analysis is required as for the exemption in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> FOIA;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua'">38.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal's decision in the </span><span style="font-style:italic;font-family:'Book Antiqua'">Spotlight</span><span style="font-family:'Book Antiqua'"> case is not binding on the panel. Moreover, given the disparity in context (in that case, the request was made in the early months of the COVID-19 pandemic and asked for the names of </span><span style="font-weight:bold;font-family:'Book Antiqua'">all</span><span style="font-family:'Book Antiqua'"> companies that had received BBLs and other government-backed financial support), the panel does not regard that decision as persuasive on the facts of this case. The Commissioner's previous decision notice (mentioned in paragraph 14 above) made on 26 September 2023 is also not binding on the panel nor, given its timing and context, does the panel consider it persuasive in the context of the facts of this case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua'">39.</num>
+	  <intro>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">To consider whether the Decision Notice contained any error of law, the Tribunal applied the above principles to the undisputed facts in this case, and found that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <intro>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">no real, actual or significant prejudice to the commercial interests of either company would be likely to result from DBT responding to GG's request for information in compliance with DBT&#8217;s section 1(1)(a) duty (i.e. by confirming or denying whether DBT holds information of the description specified in the request), because:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">in the absence of any evidence from the companies themselves, it was hard to identify any specific commercial interests: it was in the public domain that neither company had, by the date of the request, filed any accounts beyond 31 October 2021 (over three years prior to the request) and compulsory strike-off proceedings had been commenced against each company in January 2023, nearly two years prior to the request;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(ii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">there was no evidence of any current or future commercial dealings by either company;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">even if there were any such dealings, in the above circumstances, each company's customers, suppliers or investors would likely already have been aware that each company was, or at least had been, in financial difficulty or were unconcerned about the company's financial health;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iv)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">the Tribunal therefore did not accept that confirmation or denial in response to the request would itself trigger speculation about either company's financial weakness; undermine customer/supplier confidence; or adversely affect their reputation;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(v)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">the attempt compulsorily to strike off each company was in the public domain and that was itself potentially damaging to each company's commercial interests and reputation: there was no reason to believe that </span><span style="font-weight:bold;font-family:'Book Antiqua'">additional</span><span style="font-family:'Book Antiqua'"> prejudice would likely flow from DBT confirming or denying whether it holds information within the scope of GG's request nearly two years later; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(vi)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">accordingly, the Tribunal did not accept that the alleged likely harm to either company's commercial interests was "real, actual or of substance".</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">concerns that prejudice to borrowers' interests generally would likely arise if DBT responded to GG's request in compliance with the section 1(1)(a) duty - for example undermining confidence in government-backed schemes such as BBL and discouraging businesses from engaging openly with government - were unsubstantiated by any evidence.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <intro>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">similarly, particularly in the absence of any substantiating evidence, it is implausible - given the years (unlike weeks as in the </span><span style="font-style:italic;font-family:'Book Antiqua'">Spotlight </span><span style="font-family:'Book Antiqua'">case) which had elapsed since the creation of the BBL scheme - that:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">responding to GG&#8217;s request in compliance with the section 1(1)(a) duty would be likely to prejudice the commercial interests of companies which had benefited from government assistance during the COVID-19 pandemic; and/or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(ii)</num>
+	      <content>
+		<p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">there would be any broader impact from similar requests.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-family:'Book Antiqua'">given the narrow scope of the request - relating to just two "micro" companies - broader concerns about potentially undermining confidence in lender/customer obligations or confidence in businesses' financial health, future trading opportunities or reputations were not only unevidenced but also tenuous.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua'">40.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">In short, the Tribunal was not satisfied that the three-step test for engagement of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(3)</ref> FOIA exemption was met, i.e. actual prejudice to commercial interests; a causal link between prejudice and compliance with the section 1(1)(a) duty to confirm or deny; and the likelihood of prejudice.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua'">41.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">Consequently, the Tribunal found that - contrary to the Commissioner's findings in his Decision Notice &#8211; the exemption in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(3)</ref> FOIA is not engaged.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt;color:#000000">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua'">42.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#000000">For the above reasons, the panel finds that the Commissioner&#8217;s Decision Notice is not in accordance with the law.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua'">43.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Having found that the exemption in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/3" uk:canonical="2000 c. 36 s. 43" uk:origin="TNA" uk:type="legislation">section 43(3)</ref> FOIA is not engaged, the Tribunal did not go on to consider the balance of the public interest applicable to that exemption under section 2(1) FOIA.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua'">44.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The appeal is allowed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua'">45.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#000000">A substitute Decision Notice is set out at the start of this decision.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua'">Signed:</span></p>
+	    <p class="ListParagraph" style="margin-left:0in"><img src="image2.emf.png" style="width:112.45pt;height:32.27pt"/></p>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua'">Judge A. Marks CBE, First-tier Tribunal Judge</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:  </span><docDate date="2026-05-29" refersTo="#decision" style="font-family:'Book Antiqua'">29 May 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

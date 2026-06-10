@@ -1,0 +1,1722 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/789"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/789"/>
+	  <FRBRdate date="2026-05-29" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="789"/>
+	  <FRBRname value="Gilead Sciences Limited v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/789"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/789"/>
+	  <FRBRdate date="2026-05-29" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/789/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/789/data.xml"/>
+	  <FRBRdate date="2026-05-29T12:13:29" name="transform"/>
+	  <FRBRdate date="2026-05-29T15:16:10" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-04-29" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-05-22" refersTo="#decision" source="#"/>
+	<eventRef date="2026-05-29" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="gilead-sciences-limited" href="" showAs="GILEAD SCIENCES LIMITED"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="nhs-england" href="" showAs="NHS ENGLAND"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>789</uk:number>
+	<uk:cite>[2026] UKFTT 789 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.0</uk:parser>
+	<uk:hash>ee1e3f71992da90c16d0c144e06bf7023a2bc397c34fc916512c149af854257e</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:99.3pt;height:64.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00789 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0370</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on 28 &amp; </span><docDate date="2026-04-29" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">29 April 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-05-29" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">29 May 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HARRIS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER CHAFER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER SIVERS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#gilead-sciences-limited" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">GILEAD SCIENCES LIMITED</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#nhs-england" style="font-weight:bold;font-family:'Book Antiqua'">NHS ENGLAND</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant:&#160;David Glen&#160;</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Second Respondent:&#160;Leo Davidson&#160;</span></p>
+      <p><span style="font-family:'Book Antiqua'">The Information Commissioner did not attend and was not represented&#160;</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is allowed in part</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Substituted Decision Notice:&#160;</span></p>
+      <p><span style="font-family:'Book Antiqua'">Reference IC-371005-H0Q5&#160;</span></p>
+      <p><span style="font-family:'Book Antiqua'">NHS England</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';color:#343338;margin-left:0.5in;text-indent:-0.25in">1.</num>
+	<p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#343338">NHS England (NHSE) was not entitled to rely on section 41(1) of the Freedom of Information Act 2000 (FOIA) to withhold information about the range of costs used to inform the average/approximate/median cost for components within the CAR-T tariff and associated costs (the Disputed Information).</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';color:#343338;margin-left:0.5in;text-indent:-0.25in">2.</num>
+	<p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#343338">NHSE was entitled to rely on section 36(b)(ii) and (c) of FOIA to withhold the Disputed Information. The public interest weighs in favour of maintaining the exemption.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';color:#343338;margin-left:0.5in;text-indent:-0.25in">3.</num>
+	<p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#343338">No further steps are required.</span></p>
+      </blockContainer>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Background to the appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">This appeal concerns&#160;a decision&#160;of the Information Commissioner (the &#8220;IC&#8221;) dated&#160;9 September 2025, reference IC-371005-H0Q5&#160;(the &#8220;Decision&#8221;).&#160;The Decision&#160;was in connection with a request for information made to&#160;NHS England&#160;(&#8220;NHSE&#8221;)&#160;by the Appellant,&#160;Gilead Sciences Limited (&#8220;Gilead&#8221;), concerning&#160;its&#160;Chimeric Antigen Receptors T-Cell&#160;Therapy&#160;(&#8220;CAR-T&#8221;)&#160;tariff.&#160;&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">CAR-T&#160;is a type of immunotherapy. Each treatment is patient specific and involves reprogramming&#160;a patient&#8217;s own immune system cells (t-cells) to manufacture&#160;a targeted&#160;product which is then administered to treat their cancer. It&#160;is&#160;a&#160;highly complex,&#160;innovative&#160;and potentially risky treatment which&#160;has been&#160;used in the NHS since 2019. The delivery of this therapy and&#160;the associated&#160;wrap around service is complex with specialised treatment spanning many months within commissioned CAR-T centres.&#160;&#160;NHSE has&#160;established&#160;a single tariff to capture the costs of delivering CAR-T cell therapy.&#160;The CAR-T tariff reflects NHSE&#8217;s assessment of the cost to the NHS of delivering current CAR-T therapies to patients, excluding the cost of the medicine itself. It accordingly&#160;determines&#160;the amount paid to CAR-T centres for the treatment of a patient with a CAR-T therapy and thereby serves to inform assessments which the National Institute for Health and Care Excellence (&#8220;NICE&#8221;)&#160;is required to&#160;make of the cost-effectiveness of CAR-T medicines. As a result, the tariff (and the information upon which it is based) have a direct impact on whether a CAR-T therapy is recommended by NICE and the criteria by which it is made available to NHS patients in England.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead is the marketing authorisation holder in the UK for two medicinal products used for CAR-T therapies.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead&#160;made&#160;an information request about the CAR-T</span><span/><span style="font-family:'Book Antiqua'">tariff to NHSE on 12 December 2024. The key&#160;parts of the request&#160;for the purposes of this appeal were:&#160;&#160;</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;[4] What are the components (list all) within the CAR-T tariff and&#160;the associated&#160;costs?&#8221;&#160;</span><span style="font-family:'Book Antiqua'">(&#8220;Request A&#8221;)&#160;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;[6] For each component where an approximate/average/median cost is used, provide the range of costs that were used to inform this.&#8221;&#160;(&#8220;Request B&#8221;)&#160;&#160;&#160;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">NHSE responded to the request on 8 January 2025.&#160;In response to request A, NHSE provided a description of the components which made up the tariff but withheld the associated costs of each&#160;component, relying upon&#160;the exemption under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41(1)</ref>(a)&#160;of&#160;the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;).&#160;&#160;In&#160;response to request B, NHSE withheld the requested information, relying upon the&#160;exemption under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41(1)</ref>(a) FOIA.&#160;&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead wrote to NHSE&#160;on 27 January 2025.&#160;It&#160;considered that NHSE&#160;had not&#160;fully addressed part 4 of&#160;its&#160;request&#160;and disputed&#160;its reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> of FOIA in relation to part 6.&#160;&#160;NHSE treated this as a request for an internal review.&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">NHSE provided an internal review on 19 February 2025. It advised:&#160;&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">We confirm we hold the &#8216;associated costs&#8217; for each of the items included in the Chimeric Antigen Receptors T-cell Therapy (CAR-T) tariff&#160;[part 4], and the &#8216;range of costs&#8217; that were used to inform this [part 6]. However, we&#160;maintain&#160;this information is exempt&#160;under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section&#160;41</ref> of the FOI Act&#8221;</span><span style="font-family:'Book Antiqua'">.&#160;In particular NHSE&#160;maintained that:&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The requested information has been provided by third parties, thereby satisfying <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">s.41(1)</ref>(a) FOIA on the purported basis that the information had been &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">created through  the  formation  of  a  Finance  Working  Group  in  2023  which was a collaborative working group with NHS England and participants from Trusts that deliver the CAR-T service</span><span style="font-family:'Book Antiqua'">&#8221;.&#160;&#160;&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Disclosure of the information would constitute an actionable breach of confidence on the part of the Trusts and that the public interest in&#160;maintaining&#160;the confidentiality of the information was not outweighed by the public interest in disclosure.&#160;&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead contacted the IC on 18 March 2025 to complain about the way its request for information had been handled.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC accepted the complaints in relation to Requests A and B&#160;on 26 March 2025.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On&#160;9 September 2025, the IC issued the Decision Notice. In this, he decided that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41(1)</ref> had been correctly applied and that no further steps were&#160;required.&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Abbreviations used in this</span><span style="font-weight:bold">&#8239;</span><span style="font-weight:bold;font-family:'Book Antiqua'">decision</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;CAR-T&#8221; means&#160;Chimeric Antigen Receptors T-Cell Therapy&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;the</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">Decision&#8221;&#160;and the &#8220;Decision Notice&#8221;&#160;mean the IC&#8217;s decision dated</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">9 September 2025&#160;reference&#160;IC-371005-H0Q5</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;Disputed Information&#8221; means the withheld information which is the subject of this appeal&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;FOIA&#8221; means the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>. All references to sections are references to sections of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref> unless otherwise</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">specified</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;Gilead&#8221; means Gilead Sciences Limited, the Appellant&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;IC&#8221; means the Information Commissioner, the First Respondent</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;NICE&#8221; means&#160;National Institute for Health and Care Excellence&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;NHSE&#8221; means NHS England, the Second Respondent.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;QP&#8221; means the Qualified Person</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;QPO&#8221; means the Qualified Person&#8217;s Opinion</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;Request A&#8221; means part 4&#160;and &#8220;Request B&#8221; means part 6&#160;of Gilead&#8217;s&#160;information&#160;request dated&#160;12 December 2024&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;RUC&#8221; means resource use cost</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;Trusts&#8221; means NHS Trusts&#160;and/or NHS Foundation Trusts</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;UT&#8221; means the Upper Tribunal,&#160;Administrative Appeals Chamber</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Procedural matters concerning the</span><span style="font-weight:bold">&#8239;</span><span style="font-weight:bold;font-family:'Book Antiqua'">hearing</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">There were two OPEN sessions attended by Gilead and NHSE and their representatives and a CLOSED session which was attended only by&#160;NHSE&#160;and its representatives.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal considered an OPEN bundle of documents (737</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">pages). The parties also</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">submitted</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">a joint</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">authorities</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">bundle (641</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">pages).</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">In this decision we refer to page numbers of documents in these bundles with the prefixes</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">OB and</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">AB</span><span>&#8239;</span><span style="font-family:'Book Antiqua'">respectively.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead, with the consent of the other parties, also applied for the late admission of a supplemental bundle (24 pages). We were satisfied that it contained material potentially relevant to the matters the Tribunal must consider and that it was in the interests of justice to admit it.</span><span>&#8239;&#8239;</span><span style="font-family:'Book Antiqua'"> We refer to page numbers in this bundle with the prefix SB.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal also considered a CLOSED bundle of withheld documents (77</span><span>&#160;</span><span style="font-family:'Book Antiqua'">pages). Prior to the hearing an application under rule 14 of the Tribunal Rules had been made as regards the withheld</span><span>&#160;</span><span style="font-family:'Book Antiqua'">and&#160;other</span><span>&#160;</span><span style="font-family:'Book Antiqua'">CLOSED</span><span>&#160;</span><span style="font-family:'Book Antiqua'">material and an order made that disclosure of the information contained in the closed bundle should not be disclosed or published to any person other than</span><span>&#160;</span><span style="font-family:'Book Antiqua'">the IC and&#160;NHSE</span><span>&#160;</span><span style="font-family:'Book Antiqua'">in this case pending further order.</span><span>&#160;&#160;&#160;</span><span style="font-family:'Book Antiqua'">&#160;A gist summarising the materials in the CLOSED bundle was provided to the Tribunal and other parties by NHSE on 23 April 2026.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The following gist of the CLOSED session was approved by the Tribunal and provided to&#160;Gilead:&#160;</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Ben Doak&#8217;s CLOSED evidence</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">1.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">The Tribunal asked questions about the similarities between the Withheld Information and GL1-11 (page D713 of the OPEN Bundle), and the choice of components used. Mr Doak confirmed his understanding of the approach the working groups had taken. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Mr Doak answered questions about the extent to which the identities of the Trusts who had provided data was known by other stakeholders, and the extent to which confidentiality was discussed at meetings. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">3.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">The Tribunal asked a further question about the differences between the data in GL1-11 and the data in the Withheld Information. Mr Doak explained that the more recent data reflected actual costs being incurred, i.e. real data relating to real patients, which is more accurate. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">4.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">The Tribunal asked a further question exploring the relationship between the disclosure of GL1-11 and the potential disclosure of the Withheld Information. Mr Doak noted that the figure quoted in the NICE guidance had been acknowledged to be too high, so there was not as much scrutiny of the underlying data. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">5.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Mr Doak explained that all 20 Trusts had been asked to submit their costs, but that only 7 had actually done so; and that only 2 of those 7 Trusts had been approached to ascertain their reaction to disclosure under FOIA, in order to avoid concerning other Trusts by highlighting the risk of disclosure under FOIA.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">6.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Mr Doak gave his view about identifiability of Trusts from the Withheld Information, by reference to the Market Forces Factor (&#8220;MFF&#8221;) and the data itself; and in particular what would need to be redacted in order to ensure that those identities would not be able to be deduced.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The Second Respondent&#8217;s CLOSED submissions </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">7.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Mr Davidson (counsel for NHS England) made submissions about the asserted likely prejudice and public interest impact illustrated by reference to the Withheld Information. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">8.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Mr Davidson highlighted the parts of the spreadsheet which appeared to correspond to what Mr Glen (counsel for Gilead Sciences Ltd) had indicated was the Appellant&#8217;s interpretation of what was covered by the Request.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Having considered all the evidence, the Tribunal&#8217;s view was that the reasons for its decision could be properly set out in an OPEN decision and therefore did not prepare a separate CLOSED decision.&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead appealed the Decision to the Tribunal on&#160;7 October 2025.&#160;It gave the following grounds for appeal:&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-weight:bold;font-family:'Book Antiqua'">Ground 1</span><span style="font-family:'Book Antiqua'">: The&#160;IC&#160;erred in holding that the information sought by at least Request A was information which NHSE had obtained from another legal person for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">s.41(1)</ref>(a).&#160;The overall outputs arrived at by the Finance Working Group is information generated by NHSE itself.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-weight:bold;font-family:'Book Antiqua'">Ground 2</span><span style="font-family:'Book Antiqua'">: Further or alternatively, the&#160;IC&#160;erred in holding that the Disputed Information was information which possessed the&#160;necessary quality of confidence and/or was imparted to NHSE in circumstances which gave rise to an obligation of confidence not to disclose the information specifically sought by Requests A and B.&#160;&#160;&#160;&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-weight:bold;font-family:'Book Antiqua'">Ground 3:</span><span style="font-family:'Book Antiqua'">&#160; Further or alternatively, the&#160;IC erred in accepting NHSE&#8217;s case&#160;regarding&#160;the&#160;purported detriment&#160;which disclosure of&#160;the Disputed Information would allegedly cause to the NHS Trusts who took part in the CAR-T Tariff Review Working Group.&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">&#160;</span><span style="font-weight:bold;font-family:'Book Antiqua'">Ground 4:</span><span style="font-family:'Book Antiqua'">&#160;Further or alternatively, the&#160;IC&#160;erred in concluding that the countervailing public interest in disclosure of the Disputed Information did not outweigh the public interest in&#160;maintaining&#160;the relevant confidence (to the extent any was owed by NHSE in respect of the&#160;particular information).&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The IC&#8217;s response to the Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to Ground 1, the IC accepted that the information requested in request A would be the figures representing the costs of the components which is the output from the Working Group and that this information&#160;would be different from the costing information from the 7 Trusts upon which the output figure was based.&#160;He therefore accepted that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41(1)</ref>&#160;would&#160;not be engaged with respect to the information requested in Request A.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to Ground 2, the IC accepted this was now an academic argument in relation to Request A&#160;in light of&#160;his changed position on Ground 1. In relation to Request B, he&#160;maintained&#160;that&#160;the Disputed Information has the necessary quality of confidence based on the indicators of inaccessibility of the information and its value.&#160;To determine the question of whether there is an obligation of confidence, the question for the public authority is whether it received&#160;the information in circumstances which would have created an expectation in the confider that the information they were communicating would be kept confidential and not widely shared. He contended that&#160;an obligation of confidence would be implied from the circumstances, i.e. in this case, information shared between 7 NHS Trusts and the NHSE as part of the discharge of NHSE&#8217;s functions as a public authority.&#160;The IC also noted that&#160;NHSE&#160;advised&#160;him during his&#160;investigation that the 7&#160;Trusts&#160;provided the information in confidence.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">He said that the test is not whether actual harm is certain, but whether there is a real risk of detriment, taking into account the context and reasonable expectations of the confider. This thus requires, to a certain extent, the need to assess a future risk. The IC maintains that, given the small number of Trusts involved and the specialist nature of the service, there is a real risk that disclosure of the ranges falling within the scope of part B of the request could allow for re-identification or inference of sensitive information. The risk of detriment is not limited to direct financial harm but includes broader harms to the integrity of NHS processes and relationships. The IC maintained he was correct to conclude that disclosure of the Disputed Information in scope of request B would cause detriment to the Trusts who provided the information to NHSE</span><span class="normaltextrun" style="font-family:'Book Antiqua'">.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Book Antiqua'">On Ground 4,&#160;the question is whether there would be a public interest defence to an actionable breach of confidence. This requires a balancing exercise, the purpose of which is to decide if the public authority would be able to defeat a claim for breach of confidence on public interest grounds. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">Section 41</ref> is an absolute exemption, so this balancing exercise is not the same as that required for a qualified exemption. The IC accepted there is a public interest in transparency about the cost-effectiveness of the CAR-T therapy and some patients possibly being excluded from the therapy. However, the detail in the form of price ranges for each specific element of the CAR-T tariff are less meaningful to the public than the final aggregate figure that was agreed and the public interest is sufficiently and more accurately served by the provision of the tariff data (already provided). Further, disclosure of the information would undermine the trust between NHS England and Trusts, affecting the flow of information between them. He concluded that there would not on balance be a public interest defence to an actionable breach of confidence. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="paragraph" style="text-align:justify;margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">NHSE&#8217;s response to the Appeal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Book Antiqua'">NHSE filed its response to the Appeal on 29 December 2025. It considered that the IC was wrong to change his position in relation to Request A, as the information under Request A would reveal information obtained from third parties. In the alternative, it contended that the </span><span style="font-family:'Book Antiqua'">Disputed Information </span><span class="normaltextrun" style="font-family:'Book Antiqua'">is exempt under section 36 and/or section 43 of FOIA and the public interest in maintaining the exemption outweighs the public intertest in disclosure. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Book Antiqua'">On Ground 1, the material in question was all material which either was provided by external participants or was directly derived from such material so that disclosure would necessarily involve disclosing the received information.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Book Antiqua'">On Ground 2, the information plainly satisfies the elements of both (i) having the necessary quality of confidence and (ii) being obtained in circumstances importing an obligation of confidence.  The information is of a confidential nature inasmuch as the Trusts would wish for them to remain inaccessible and would object (and NHSE having checked in two sample cases, have objected) to disclosure. The fact that the information was provided for a particular purpose bears a strong implication that the provider of the information would not anticipate the information being used or disseminated for any alternative purpose, and the receiving party would not be entitled to do so contrary to that purpose. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Book Antiqua'">On Ground 3, NHSE contended that to whatever extent detriment is necessary (which is not accepted), the risk of it occurring is amply made out. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Book Antiqua'">On Ground 4, NHSE said there is little public interest in the Disputed Information and certainly not enough to make out a positive defence to an action in confidence. To whatever extent there is a public interest in transparency around the calculation of the tariff, that can be provided without disclosing the underlying data, and indeed substantially has been including in response to other parts of the Request; but that is not the focus</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua'">of Request A or Request B.&#160; Generic considerations</span><span style="font-family:'Book Antiqua';color:#000000;background-color:#FFFFFF"/><span style="font-family:'Book Antiqua'">of public interest are subject to the statutory exemptions which Parliament put in place to protect various public interests; in this case, those public interests vastly outweigh the public interest in disclosure.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="paragraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">NHSE contended that the Disputed Information is exempt under section 36,&#160;pursuant to&#160;the opinion of the Qualified Person (&#8220;QP&#8221;), who in this instance is NHSE&#8217;s chief executive, dated 23 December 2025.&#160;It argues that this opinion is plainly reasonable.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Further, NHSE says the Disputed Information is exempt from disclosure under section 43 since disclosure would, or would be likely to, prejudice the commercial interests of NHSE and/or other bodies involved in commissioning or negotiating the price of therapies. NHSE considers that prejudice </span><span style="font-style:italic;font-family:'Book Antiqua'">would</span><span style="font-family:'Book Antiqua'"> occur. Granular information about costs incurred in various contexts and / or by individual Trusts would give future potential counterparties an unfair advantage in negotiations and calibrating their prices accordingly, which carries a real and substantial risk of prejudicing the NHS&#8217;s ability to obtain the best possible terms on behalf of patients and taxpayers, and to set rates of payment for Trusts which are cost-appropriate for the treatment being commissioned. It argued that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">The Appellant&#8217;s motivation to uncover the information is for its own commercial advantage.  That commercial advantage has a corresponding commercial disadvantage to the NHSE and also to relevant Trusts&#8221;</span><span style="font-family:'Book Antiqua'">. </span><span style="font-family:'Book Antiqua';color:#000000">),  NHSE has a legitimate commercial interest in withholding  the  Disputed</span><span style="font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua';color:#000000">Information.  NHSE wishes to ensure the most appropriate price for the tariff which</span><span style="font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua';color:#000000">ensures both best value and that services are sustainable. Furthermore, Trusts are</span><span style="font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua';color:#000000">individual corporate entities which will both want to be reimbursed fairly but will also</span><span style="font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua';color:#000000">in some circumstances need to compete with each other for commissioning income,</span><span style="font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua';color:#000000">service designation, reputation, attracting good staff and so forth.</span><span style="font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua';color:#000000">There would also be a real and substantial risk of commercial prejudice to the Appellant&#8217;s competitors.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">NHSE identified the key factors in favour of maintaining the exemptions as protecting the appraisal of CAR-T service costs, avoiding a chilling effect on this and future similar exercises, avoiding market manipulation and commercial disadvantage and confidentiality. It concludes that the public interest lies in maintaining the exemptions.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Gilead&#8217;s Reply to the IC&#8217;s response&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead replied to the IC&#8217;s response on 30 January 2026. In summary, it raised the following points:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">On Ground 1, it agreed with and endorsed the IC&#8217;s position.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">On Ground 2, it argued that it does not follow that because information is not publicly accessible and of value to the confider that it will possess the necessary quality of confidence; the test is an objective one. Disclosure of the information sought on Request B in an anonymised form and/or which is not attributed to any named Trust cannot coherently be characterised as confidential.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">On Ground 3, it accepted that detriment may include both actual and potential harm and is not limited to financial harm. Otherwise, it took issue with the IC&#8217;s position on this ground.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">On Ground 4, it accepted the IC&#8217;s summary of the general approach to the balancing exercise under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref>.  It argued that an actionable breach of confidence requires the public authority to establish that material and unwarranted damage would be caused to the public interest if disclosure was permitted. Otherwise, it disputed the IC&#8217;s position.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Gilead&#8217;s Reply to NHSE&#8217;s response&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead also replied to NHSE&#8217;s response on 30 January 2026. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">It did not contest NHSE&#8217;s right to raise new exemptions at a late stage, but suggested that its failure to recognise either exemption is &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">indicative of the illusory nature of the prejudice now asserted</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On Ground 1, it denied NHSE&#8217;s position and contended that the IC was correct.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On Ground 2, it argued that it does not follow that because certain trusts wish the information they provided not to be disclosed that information holds the necessary quality of confidence, or that such an expectation arises legitimately in respect of the requested information. It contends that information will only be confidential if a reasonable person in the position of the parties would view it as so. In this instance, Gilead says that disclosure of the Disputed Information on an aggregated and/or anonymous basis cannot coherently give rise to a reasonable expectation of confidentiality on the part of any individual NHS Trust.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On Ground 3, Gilead denied that NHSE has identified a proper basis for establishing detriment in this instance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On Ground 4, Gilead argued that the public interest in the Disputed Information in transparency and accountability around the calculation of the CAR-T tariff is very substantial and outweighs any countervailing interest. It cannot be meaningfully addressed without either disclosing the Disputed Information or by the limited information provided by NHSE to date. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to section 36, it denied that it is reasonable for the QP to hold the opinion that disclosure of anonymised and/or aggregated costs information in a form which is not attributed to any named Trust would be likely to either (a) inhibit the free and frank provision of advice and/or exchange of views for the purposes of deliberation; and/or (b) would otherwise be likely to cause prejudice to effective conduct of public affairs. It also disputed NHSE&#8217;s arguments as to the prejudice which disclosure would be likely to cause.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to section 43, Gilead said there is no reason to believe that the disclosure of the Disputed Information would be likely to prejudice the commercial interests of NHSE and/or other bodies involved in commissioning or negotiating the price of therapies. Prices are set as a result of the NICE appraisal process and need to be based on robust and accurate figures.</span><span/><span style="font-family:'Book Antiqua'">The provision of the Disputed Information would afford Gilead no &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">commercial advantage</span><span style="font-family:'Book Antiqua'">&#8221; over NHSE or any individual Trust. Disclosure under FOIA is to the world-at-large and there would be no commercial advantage which would be unique to Gilead and not other manufacturers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On the public interest balancing test, Gilead commented on the analysis by NHSE and concluded that the public interest &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">plainly outweighs the prejudice or detriment (if any) which would be occasioned by its disclosure</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Legal Framework</span></p>
+	    <p style="text-align:justify;text-indent:0.25in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">Section 41</ref> </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">Section 41(1)</ref> provides: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Information is exempt information if </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">it was obtained by the public authority from any other person (including another public authority), and </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">b)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">the disclosure of the information to the public (otherwise than under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref>) by the public authority holding it would constitute a breach of confidence actionable by that or any other person</span><span style="font-family:'Book Antiqua'">.&#8221;. </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Actionable means something that would be upheld by the courts, so one can take action and win. The High Court in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Coco v Clark</span><span style="font-family:'Book Antiqua'"> <ref href="#" uk:canonical="[1969] RPC 41" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1969">[1969] RPC 41</ref> set out the test for determining whether a breach of confidence is actionable, which is that:  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">a.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">The information must have the necessary quality of confidence about it;  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">b.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">The information must have been imparted in circumstances importing an obligation of confidence; and   </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">c.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">There must be an unauthorised use of the information to the detriment of the party who communicated it.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">AG v Guardian Newspapers (No.2) (&#8220;Spycatcher&#8221;)</span><span style="font-family:'Book Antiqua'"> <ref href="#" uk:canonical="[1990] 1 AC 109" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1990">[1990] 1 AC 109</ref>, the House of Lords found at paragraph 281:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">A duty of confidence arises when confidential information comes to the knowledge of a person (the confidant) in circumstances where he has notice, or is held to have agreed, that the information is confidential, with the effect that it would be just in all the circumstances that he should be precluded from disclosing the information to others</span><span style="font-family:'Book Antiqua'">.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In the recent case of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">UKRI v ICO and Kirkham</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2026/146" uk:canonical="[2026] UKUT 146 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2026">[2026] UKUT 146 (AAC)</ref>, the Upper Tribunal stated at paragraph 85 &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">the quality of confidence depends not on how the recipient views the information, but rather on the reasonable expectations of the confider, and the terms on which the information was provided&#8221;. </span><span style="font-family:'Book Antiqua'">The UT went on to comment at paragraph 90 &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">What really matters is whether the preservation of the information&#8217;s confidentiality is &#8220;of substantial concern&#8221; to the party confiding the information (see </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Moorgate Tobacco Co Ltd v Philip Morris Ltd</span><span style="font-style:italic;font-family:'Book Antiqua'"> (No. 2) (1984) 156 CLR 414 at 438), which is &#8220;not a high threshold&#8221; (per Arnold J in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Force India Formula One Team Limited v 1 Malaysia Racing Team</span><span style="font-style:italic;font-family:'Book Antiqua'"> SDN BHD <ref href="#" uk:canonical="[2012] RPC 29" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] RPC 29</ref> at 22</span><span style="font-family:'Book Antiqua'">3). &#8220;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">By virtue of section 2(3)(g) FOIA, <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> is an absolute exemption which means, once engaged, no subsequent consideration of the balance of public interest is required. However, confidence is inherently subject to a balancing analysis, weighing the public and private interests in maintaining confidence against a countervailing public interest favouring disclosure: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Spycatcher</span><span style="font-family:'Book Antiqua'"> at 282 per Lord Goff. This is not the same as the balancing exercise required for qualified exemptions under section 2(2)(b). In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">UKRI </span><span style="font-family:'Book Antiqua'">at paragraph 94, the UT said &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">Section 41</ref> requires that a determination of whether the public interest in favour of disclosure is such that it would defeat an otherwise actionable claim for breach of confidence</span><span style="font-family:'Book Antiqua'">.&#8221; It went on to say at paragraph 95 that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Where information the subject of a request under FOIA is confidential, consideration of the applicability of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> FOIA must proceed from the starting point that there is a public interest in confidence being respected</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The UT in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">UKRI </span><span style="font-family:'Book Antiqua'">at paragraph 97 made it clear that the Tribunal must consider not only the public interest in maintaining confidence but also those interests in favour of disclosure. In addition, it must assess whether the interests in favour of disclosure amounted to an exceptional case.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Section 36&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Section 36 provides, so far as is relevant:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;(2)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Information to which this section applies is exempt information if, in the reasonable opinion of a qualified person, disclosure of the information under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8212;&#8230;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">(b)would, or would be likely to, inhibit&#8212;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">(i)the free and frank provision of advice, or</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">(ii)the free and frank exchange of views for the purposes of deliberation, or</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">(c)would otherwise prejudice, or would be likely otherwise to prejudice, the effective conduct of public affairs.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">As the IC&#8217;s guidance on these exemptions explains, they are concerned with&#160;</span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;the processes that may be inhibited, rather than what is in the information. The issue is whether disclosure would inhibit the processes of providing advice or&#160;exchanging views. To engage the exemption, the information requested does not necessarily have to&#160;contain&#160;views and advice that are in themselves notably free and frank. On the other hand, if the information only consists of&#160;relatively neutral&#160;statements, then it may not be reasonable to think that its disclosure could inhibit the provision of advice or the exchange of views</span><span style="font-family:'Book Antiqua'">.&#8221;&#160;&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">As&#160;the exemptions in&#160;section 36(2)(b)((ii) and (c)&#160;are&#160;prejudice-based, the reasonable opinion&#160;of the QP&#160;must consider the question of whether disclosure would or would be likely to inhibit the free and frank&#160;provision of advice&#160;or&#160;the free and frank&#160;exchange of views for the purposes of deliberation,&#160;or&#160; would otherwise prejudice or would be likely otherwise to prejudice the effective conduct of public affairs.&#160;In considering the factors that militate against disclosure,&#160;the primary focus should be on the particular interest which the&#160;exemptions&#160;are designed&#160;to protect.&#160;&#160;&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The question of what amounts to a &#8220;reasonable opinion&#8221; was considered by the Tribunal at paragraphs 54 and 60 in&#160;</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Guardian Newspapers Limited and Heather Brooke v Information Commissioner and British Broadcasting Corporation</span><span style="font-family:'Book Antiqua'">&#160;(EA 2006/0011 and EA/2006/0013). These paragraphs were endorsed by the Upper&#160;Tribunal in&#160;</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Information Commissioner v&#160;Malnick&#160;and ACOBA</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/72" uk:canonical="[2018] UKUT 72 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 72 (AAC)</ref>; [2018] AACR 29 at [56], which stated that reasonable means &#8220;substantively reasonable and not procedurally reasonable&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">When deciding the question of reasonableness of the skeleton, it would be an error for a tribunal to consider matters of public interest: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Malnick</span><span style="font-family:'Book Antiqua'"> at [33]. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">More than one conflicting opinion may be reasonable, and the Tribunal should not substitute its own view for that of the qualified person: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Malnick</span><span style="font-family:'Book Antiqua'"> at [47]-[48]. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">This is a qualified exemption,&#160;so it&#160;is&#160;subject&#160;to the&#160;public interest test&#160;in&#160;s.2(2)(b) FOIA.&#160;&#160;If the test of the reasonableness of the skeleton is met, only then will the Tribunal go on to decide whether the public interest weighs in favour of disclosure or&#160;maintaining&#160;the exemption.&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Section 43</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Section 43(2) provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;(2)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Information is exempt information if its disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref>, would, or would be likely to prejudice the commercial interests of any person (including the public authority holding it)&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8216;Commercial interests&#8217; should be interpreted broadly. The ICO Guidance states that a commercial interest relates to a person&#8217;s ability to participate competitively in a commercial activity. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The exemption is prejudice based. &#8216;Would or would be likely to&#8217; means that the prejudice is more probable than not or that there is a real and significant risk of prejudice. The public authority must show that there is some causative link between the potential disclosure and the prejudice and that the prejudice is real, actual or of substance (see </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Hogan v IC</span><span style="font-family:'Book Antiqua'"> [2011] 1 Info LR 588, endorsed by the Court of Appeal </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">in DWP v IC and Zola</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/758" uk:canonical="[2016] EWCA Civ 758" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 758</ref> at paragraph 27). The harm must relate to the interests protected by the exemption. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Section 43 is a qualified exemption, so that the public interest test has to be applied. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The public interest balancing test</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">This applies to sections 36 and 43 as qualified exemptions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">When determining whether or not the public interest test is met, the Tribunal&#8217;s task is to identify the actual harm or prejudice that the proposed disclosure would (or would be likely to or may) cause and the actual benefits its disclosure would (or would be likely to or may) confer or promote.  This requires an appropriately detailed identification, proof, explanation and examination of both (a) the harm or prejudice, and (b) benefits that the proposed disclosure would (or would be likely to or may) cause or promote: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">APPGER v IC</span><span style="font-family:'Book Antiqua'"> [2013] UKUT 560 at [74]-[76] and [146]-[152]. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Where more than one exemption applies, the public interest in maintaining the exemptions should be considered cumulatively: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Department for Business and Trade v IC &amp; Montague</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2025/27" uk:canonical="[2025] UKSC 27" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKSC 27</ref>; <ref href="#" uk:canonical="[2025] 1 WLR 3456" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] 1 WLR 3456</ref> at [34]-[52].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">This has been described as a three-stage test: The first step is to identify the values, policies and so on that give the public interests their significance. The second step is to decide which public interest is the more significant. In some cases, it may involve a judgment between the competing interests. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In other cases, the circumstances of the case may (a) reduce or eliminate the value or policy in one of the interests or (b) enhance that value or policy in the other. The third step is for the tribunal to set out its analysis and explain why it struck the balance as it did: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">O&#8217;Hanlon v IC</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2019/34" uk:canonical="[2019] UKUT 34 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKUT 34 (AAC)</ref> at [15]. Any factor that is capable of affecting the operation of those values and policies is relevant to the balancing exercise.  That includes both the content of the information and the possible consequences of disclosure or non-disclosure.  The arguments presented may be general in their nature or unique to the information in issue. But the test is not an abstract one; the issue is always whether the information covered by the request should be disclosed: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">NHS England v IC and Dean</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2019/145" uk:canonical="[2019] UKUT 145 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKUT 145 (AAC)</ref> at [15].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The public interest balancing test should be carried out by reference to the circumstances pertaining on the date on which the request for information ought to have been dealt with pursuant to FOIA (section 10(1) FOIA: within 20 working days following receipt of the request): </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Montague v IC and DIT</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/104" uk:canonical="[2022] UKUT 104 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 104 (AAC)</ref> at [47]-[90] (see </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Cabinet Office v IC</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/114" uk:canonical="[2025] UKUT 114 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKUT 114 (AAC)</ref> at [113]). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">When weighing the public interest, the tribunal should take into account &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">the actual effect that disclosure could have rather than the effect it should have</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Role of the Tribunal    </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal&#8217;s remit is governed by section 58 FOIA. This requires the Tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the IC&#8217;s decision involved exercising discretion, he should have exercised it differently. If we are satisfied that the IC&#8217;s decision notice is in error of law or involves an inappropriate exercise of discretion then we will allow the appeal and may substitute a decision notice for that of the IC. The Tribunal may receive evidence that was not before the IC and may make different findings of fact from the IC.    </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The evidence </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">We heard OPEN and CLOSED evidence from Ben Doak, Head of Innovative Treatments, with responsibility for commissioning advanced therapy medicinal products for NHSE. Mr Doak was cross-examined by Mr Glen.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In his OPEN evidence, in summary Mr Doak made the following points:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He noted that each Trust has a unique Market Forces Factor (&#8220;MFF&#8221;) and if this appears in relation to certain data, it would be possible for a person to cross-reference to data in the public domain and find out who the Trust is.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He commented on the NICE appraisal process and the input stakeholders would have into that process, saying that stakeholders such as the manufacturers of products would only have the opportunity to comment on other stakeholders submissions if NICE decide to employ technical engagement and consult with stakeholders before the committee meeting. This is not routinely used and was not used in this instance. The other opportunity arises when NICE has made proposed negative recommendations which are put into the public domain for consultation and consultees have the opportunity to comment at that point.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He agreed that a key element of the NICE appraisal process requires NICE to know the Resource Use Cost (&#8220;RUC&#8221;), which is the cost to the NHS in terms of resources to deliver treatment to patients. He accepted that there could be a distinction between the RUC used in the NICE appraisal process and the tariff the NHS may actually pay providers for service, but said that NHSE believed the costs included in the NICE appraisal reflect actual service costs and it is in the interests of taxpayers to make sure the value NICE uses does reflect the reality of what providers are paid. He stated that the NHS is paying more than the costs used by NICE for the purposes of the appraisal. He said that NHSE does not incentivise Trusts at all in this context.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">When asked about the NICE manuals at page OB 558 which stated that it was essential that as much as possible of the information considered by NICE was available to stakeholders and the public, he said there are exceptions to that transparency.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He accepted that some treatments are well established and coded, with existing Healthcare Resource Groups (HRGs), which are in the public domain,  but if a treatment is new there is not necessarily a cost model which is directly applicable, so there needs to be a mechanism to determine how best to pay providers. He said that NHSE can seek to influence providers to engage in information gathering exercises, but there is no contractual obligation on them to do so.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He explained that the Cancer Drugs Fund (CDF) was set up to create opportunities for new cancer therapies to be made available from the time of NICE appraisal of a treatment rather than having to wait 90 days for this to be implemented. The clinical lead of the CDF attend the NICE technology appraisal committee.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He explained that the focus within the tariff is on what should be paid to providers and this may include elements which should not have been within the appraisal. Costings in 2019/20 were indicative; there was no evidence because CAR-T was a new treatment. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He stated that it was NICE&#8217;s decision not NHSE&#8217;s as to whether Gilead needs to see the information which NICE has used to reach its decision.  He said it was not necessary for the Disputed Information to be shared in a hard granular form with Gilead or the public to be able to explain the way the process was undertaken. He agreed that the granular raw data was to an extent at a high level, but is nevertheless of value to the Trusts. He said that if someone knew enough about the individual providers, for example how many patients they treat, this could help identify individual providers. The data concerned was the Trust&#8217;s data, not NHSE&#8217;s and the Trusts were uncomfortable with it being released so NHSE shared it with NICE in an anonymised form which fulfils the obligation to be transparent with NICE. The use of the label &#8220;academic in confidence&#8221; was the NICE definition that most closely fitted the data.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He said that when NHSE pays CAR-T providers for therapy they pay a lump sum per patient and do not tell them how to allocate it. Each provider can choose how it allocates this funding and as a result apportioning costs into totals is done in different ways by different providers. This means that the information without further context could lead to conclusions which undermine the robustness of the NICE process. The values which are attributed to a Trust remain the information of that Trust.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">We also heard OPEN evidence from Gordon Lundie, Executive Director of Market Access and Pricing at Gilead. Mr Lundie was cross-examined by Mr Davidson.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In his oral evidence, Mr Lundie made the following points:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He explained that the role of Gilead as manufacturer in the NICE process is to develop a dossier on cost-effectiveness which can then be tested by NICE. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He described the NICE process as &#8220;adversarial&#8221; and disagreed with the suggestion it was inquisitorial. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He considered it important that the information presented to NICE by NHSE is also provided to Gilead for relevance and transparency so they can check and challenge it. He accepted that it is up to NICE what they do with the evidence. He expressed the view that NICE has not fulfilled its duty in making its decision because NHSE will not share information so NICE cannot be transparent to Gilead as to how it has arrived at the figures in its appraisal. He noted that this currently is the subject of a separate appeal process in another forum where Gilead and others are challenging NICE&#8217;s findings.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">He repeated that it appeared that NHSE is paying far more than the actual cost to deliver CAR-T to patients and that where Gilead has been able to challenge in the past, the numbers submitted by NHSE have been found to be incorrect. He said that NICE has a partial view and Gilead would take that and try to find information to demonstrate how its version is more accurate.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Issues</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The issues before the Tribunal, summarised in NHSE&#8217;s skeleton, were:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-weight:bold;font-family:'Book Antiqua'">Issue 1</span><span style="font-family:'Book Antiqua'">: Is any of the Disputed Information exempt by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> FOIA? If so, that information is absolutely exempt. This turns on the following questions:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua'">Was the information obtained from a third party? NHSE says the information was obtained from the Trusts who contributed on a voluntary basis to its working group.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.25in">2.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua'">Does the information have the necessary quality of confidence?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.25in">3.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua'">Was the information imparted in circumstances importing an obligation of confidence?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.25in">4.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua'">Gilead says that there is a requirement that the disclosure should cause detriment. If that is right, would sufficient detriment be caused?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.25in">5.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua'">Is there any countervailing public interest in the Disputed Information which outweighs the public interest in maintaining the confidence?</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-weight:bold;font-family:'Book Antiqua'">Issue 2</span><span style="font-family:'Book Antiqua'">: Is any of the Disputed Information exempt by virtue of section 36 FOIA? This turns on the question of whether the qualified person&#8217;s opinion (&#8220;QPO&#8221;) was substantively reasonable.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-weight:bold;font-family:'Book Antiqua'">Issue 3</span><span style="font-family:'Book Antiqua'">: Is any of the Disputed Information exempt by virtue of section 43 FOIA? This turns on the question of whether there is a real and significant risk that disclosure of the information would cause prejudice which is real, actual or of substance?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-weight:bold;font-family:'Book Antiqua'">Issue 4</span><span style="font-family:'Book Antiqua'">: If any information is exempt by virtue of section 36 and/or section 43 FOIA, does the public interest in maintaining the exemption(s) outweigh the public interest in disclosure?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In a letter dated 14 April 2026 (SB page S6) NHSE&#8217;s representatives confirmed the components of the elements of the care pathway which were within the scope of the CAR-T tariff to Gilead. We consider that this provided a sufficient response to Request A, so have in our analysis focused only on Request B, which asked for the ranges of costs used to inform the averages for each component. This means that from the Requests, only the position in relation to highest and lowest figures indicating the ranges for costings remains outstanding. Accordingly, in our analysis below, this is what we mean by the Disputed Information.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">Section 41</ref></span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">We deal in turn with each of the issues in relation to this section below.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Was the information obtained from a third party? </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC, at paragraph 17 of the Decision Notice (OB A9), accepted NHSE&#8217;s explanation that a legal person other than itself &#8211; in this case seven Trusts involved in the CAR-T Tariff Review Working Group&#8211; provided the information to NHSE and that the confidential source data originates from the Trusts not NHSE.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead&#8217;s position, summarised by the IC at paragraph 14 of the Decision Notice, was that NHSE generated the cost information in question itself and therefore did not obtain it from another person.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to Request B, Gilead accepts that this type of information may be information obtained from other persons as the NHSE Working Group took the cost values submitted by the seven participating Trusts for each component part of the tariff, &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">consolidated</span><span style="font-family:'Book Antiqua'">&#8221; those values into a spreadsheet, and then calculated a &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">pure average</span><span style="font-family:'Book Antiqua'">&#8221; (presumably the mean value) as the relevant component cost. (Paragraph 68, skeleton argument) However, it argues that these costs were liable to be revised by the Working Group, which means that the final values are the product of the Working Group&#8217;s own analysis.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Mr Glen, for Gilead, argued that it was far from obvious that the information sought in Request B is information obtained by NHSE from another party. Doak 1 at paragraph 33 says that there was a process of rolling peer review, confirmation and challenge which ran across the summer of 2023. He said Mr Doak accepted that spreadsheet was amended or manipulated on multiple&#160;occasions&#160;by&#160;the working group&#160;itself, at least in some instances without asking Trusts for more information. He said that the relationship between the information provided by the Trusts and the information sought was even more remote when the values in question were anonymised.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">NHSE&#8217;s position is that the Disputed Information was obtained from a third party.</span><span/><span style="font-family:'Book Antiqua'">The &#8220;associated costs&#8221; sought by the Request comprise information which either was contributed by other persons, i.e. the participating Trusts, or was directly derived from the information they provided so that disclosure would necessarily involve disclosing the received information. The overall average is sufficiently removed from the original data to be disclosed and has been; but the more granular costs reflect the information obtained from third parties.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">We considered that the information about the costing for each component was, on balance of probabilities, information which was received from the individual Trusts in question and we were not persuaded that these figures were manipulated by NHSE during the Working Group process because there was no evidence before us to demonstrate that these specific figures had or had not been changed from the raw data which NHSE had received.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Does the information have the necessary quality of confidence? Was the information imparted in circumstances importing an obligation of confidence? </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We decided to deal with these two limbs together, because following </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">UKRI</span><span style="font-family:'Book Antiqua'">, considering the quality of confidence involves assessing both the expectations of the confider and the terms on which the information was provided. This latter point makes it difficult to deal with the quality of confidence without also considering the circumstances in which the information was provided and whether these impart an obligation of confidence. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The IC found at paragraph 19 of the Decision Notice that the information is part of the building blocks for how NHSE calculates the overall tariff costs for the commissioning of a relatively new and specialised treatment on a national basis. As such, the IC was satisfied that the information has the necessary quality of confidence because it was not trivial, is not accessible to the public and is not public knowledge.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">At paragraph 20 of the Decision Notice (OB A10), the IC was satisfied that NHSE obtained the information in circumstances which would have created an expectation of confidence in the Trusts as confiders. They confided the information to NHSE for a particular purpose &#8211; as members of the finance sub-group involved in evaluating the CAR-T therapy - and would have expected that the information they were providing would be kept confidential and would not be widely shared.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Mr Glen suggested that whether disclosure gives rise to an obligation of confidence must be assessed by reference to the specific information which would be disclosed if the request was answered. Gilead says it is not seeking Trust-specific information or the identities of the relevant Trusts, but anonymised or unattributed data. It relies on the case of </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">R v Department of Health (ex p. Source Informatics</span><span style="font-style:italic;font-family:'Book Antiqua'">)</span><span style="font-family:'Book Antiqua'"> <ref href="#" uk:canonical="[2001] QB 424" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2001">[2001] QB 424</ref>, which suggests that the bare fact that the relevant information was not in the public domain did not determine whether information possessed the necessary degree of confidentiality. That case also noted that any interests which patients may have held in the underlying prescribing data in issue could not be said to have been violated in circumstances where it had been stripped of any identifying detail and disclosed in anonymised form.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Gilead notes at skeleton argument paragraph 70 that Request B seeks the values which NHSE&#8217;s Working Group chose to attribute to each of the component elements of its revised CAR-T tariff, alongside the range of costs used to inform its analysis when an average was used.  Neither piece of information would have the ostensible effect of disclosing specific cost estimates submitted by an identified Trust. The range values sought by Request B would be unattributed and cannot somehow be &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">reverse engineered</span><span style="font-family:'Book Antiqua'">&#8221; to enable the relevant Trust to be identified. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Gilead argues (at skeleton argument paragraph 71.2) that disclosure of the anonymous information sought by Request B cannot coherently be characterised as confidential, nor can it be subject to a reasonable expectation of confidence on the part of the relevant Trusts. The information sought by Request B is unattributed and anonymous. Disclosure of information in aggregated and/or anonymised form cannot properly be argued to constitute a breach of any obligation of confidence owed by NHSE.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">NHSE argues at skeleton argument paragraph 37 that the withheld information has the necessary quality of confidence. It says that the very fact that Gilead seeks the information, and is prepared to go to such lengths to obtain it, speaks to the inaccessibility of the withheld information and the Trusts&#8217; rationale for that inaccessibility. The Trusts&#8217; costs are commercially sensitive and, as in any live market, publicity (and in particular asymmetrical publicity) would be commercially disadvantageous.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">NHSE (skeleton argument paragraph 38) says the Disputed Information was obtained in circumstances importing an obligation of confidence. The information was provided upon request by NHSE for a particular purpose pursuant to a particular function. In those circumstances, there was an implicit understanding that the information would not be disseminated more broadly or used for any other purpose. It follows that NHSE would not be entitled to use the information in a way which was inconsistent with those purposes.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Applying </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">UKRI</span><span style="font-family:'Book Antiqua'">, we found that the confider, in this instance the Trusts who provided information to NHSE as part of the process, implicitly or explicitly understood that the information that they provided about their Trust&#8217;s delivery of CAR-T would be used for the purposes of calculating and/or reviewing the CAR-T tariff and/or providing RUC to NICE as part of the appraisal process. We noted that CLOSED material evidencing interaction between the Trusts and NHSE in this context was marked confidential to current and aspiring providers of CAR-T, but that there was no evidence contemporaneous with the submission of the information of those Trusts showing them having an express or implied expectation, reasonable or otherwise, that their information would not be used or disclosed other than for the purposes contemplated.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We find that the indications of discomfort with disclosure from particular trusts or evidence of what they intended, summarised in the QPO, significantly post-date the submission of information by the Trusts. One trust stated that they provided cost data into the tariff review process &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">on the understanding that it would be used solely for the purpose and would not be shared outside the working group</span><span style="font-family:'Book Antiqua'">&#8221; (OB C227). Another stated that the information was provided in confidence at the time of the CAR-T tariff review. The QPO goes on to state at OB C227 that NHSE&#8217;s view &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">is that the Trusts it has worked with in this area would reasonably expect that the Disputed Information would only be used for the specific purposes for which it was provided (i.e. the work of the finance working group and associated healthcare commissioning functions) and it would not be shared outside of the providers delivering the service, specialised commissioning teams within NHSE England and NICE, for whom the information may be useful in onward technology appraisals. The information supplied to NICE was supplied under an express direction that it must not be shared or used for other purposes</span><span style="font-family:'Book Antiqua'">&#8221;. We have not, however, seen a copy of any express direction to NICE to that effect or copies of correspondence with the Trusts in advance of their submitting information setting out what the expectations were in relation to onward transmission of that information. One trust commented (OB C227) that had a request under FOIA been made to them for this information directly, their response would have been to decline the request as the information is &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">commercial in confidence</span><span style="font-family:'Book Antiqua'">&#8221;. This expression of discomfort again appears to significantly post-date the submission of information by Trusts to NHSE and indeed post-dates the Requests with which this appeal is concerned. On the evidence before us, we could not be satisfied that these comments were not made with the benefit of hindsight and/or in knowledge of the Requests or whether they genuinely reflected the basis on which the Trusts had previously provided the information to NHSE. This led to us placing limited weight on them as evidence of contemporaneous expectations of the confider or understanding of NHSE at the point where the Trust submitted information to it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Spycatcher</span><span style="font-family:'Book Antiqua'"> case suggests that for an obligation of confidence to arise, the person to whom the information is confided has notice or is held to have agreed that the information was confidential. Again, we found that there was no contemporaneous evidence before us of NHSE requesting the information from the Trusts or indicating that it would be confidential. We therefore concluded that NHSE had not demonstrated that there was an expectation of confidentiality or circumstances which imparted an obligation of confidentiality.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">This led us to find that that on balance of probabilities we are not satisfied that the information did have the necessary quality of confidence or arose in circumstances imparting an obligation of confidence. We therefore found the first two limbs of the test in</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'"> Coco v Clark</span><span style="font-family:'Book Antiqua'"> are not met. Accordingly, we consider that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> is not engaged and have not gone on to consider the issues of detriment or public interest in that context.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">90.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">As <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> is not engaged, the appeal succeeds in part, subject to our findings in relation to the other exemptions.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Section 36</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">91.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC did not deal with this in the Decision Notice.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">92.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">It is common ground that there are two limbs to the test in section 36, the reasonableness of the QP&#8217;s Opinion and the public interest balancing test.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">93.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead argues (skeleton argument paragraph 77) that the overwhelming focus of the QP&#8217;s Opinion is the alleged prejudice arising from disclosing the &#8220;range&#8221; costs sought by Request B. Barely any reason at all is advanced as to why it would be similarly prejudicial for NHSE to provide the component &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">output</span><span style="font-family:'Book Antiqua'">&#8221; values sought by Request A.  It argues that there is no reasonable basis for NHSE&#8217;s position in relation to alleged breaches of the confidentiality owed to participating Trusts [OB C227], &#8220;competitive disadvantage&#8221; [ OB C228] and &#8220;loss of negotiating power&#8221; [OB C231].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">94.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Gilead says that the Opinion&#8217;s insistence that disclosure would &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">prejudice healthcare commissioning arrangements&#8221;</span><span style="font-family:'Book Antiqua'"> more generally [OB C230] is unconvincing.</span><span style="font-family:Arial;font-size:10.5pt"/><span style="font-family:'Book Antiqua'">If there are reasons why higher or lower range values were comparative outliers, NHSE is well-placed to explain why the Working Group took that view &#8211; including in its own submissions to NICE on the reliability of the final outputs and the &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">thorough</span><span style="font-family:'Book Antiqua'">&#8221; costs calculations which it claims were undertaken to that end. The NHSE&#8217;s suggestion that opening the CAR-T tariff to further questioning could impact on the planned working groups cannot be tested without the transparency the requested information is designed to promote.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Gilead disputes the Opinion&#8217;s claim that disclosure would damage stakeholder relationships. It argues that (a) reputational harm cannot reasonably flow from the disclosure of information which would not identify any individual Trust; and (b) a public authority cannot properly withhold information on the ground that disclosure might prompt external criticism of their own financial processes and efficiencies. It says &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">the benefits of critical scrutiny would be a reason for transparency and disclosure given the very significant sums of public money involved and the public interest in the performance of the public health authorities in question.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">96.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In his oral submissions, Mr Glen argued that the QPO was not based on reasonable or well-founded concerns and that these concerns were not reasonable ones for a public body to rely on when withholding information on the basis of prejudice.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">97.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">NHSE&#8217;s position is that the information is exempt pursuant to section 36 FOIA, in light of the QP&#8217;s reasonable opinion [OB C220-C237]. The Opinion sets out, with detailed reasoning, a list of concerns about the possible effects of disclosure of the Disputed Information. Each of those concerns is a recognised kind of prejudice to the conduct of public affairs. The Chief Executive of NHSE is the person invested by Parliament with the statutory responsibility to make such an evaluation, and is in the best position &#8211; given his understanding of NHSE, its functions and its relationships with other persons &#8211; to assess the likely extent of any impact of disclosure. The opinion has regard both to the immediate context of this information and the appraisal process(es) to which it relates, and the broader risks arising from disclosure in circumstances of this kind. The conclusions reached are plainly within the range of reasonable conclusions open to the qualified person.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">98.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Mr Davidson commented in his oral submissions that the considerations which fed into the QPO were essentially the same considerations that fed into the original refusal; the underlying public interests motivating the initial refusal and at internal review stage reflect the same potential prejudices.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">99.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We considered that the QPO was both reasonable in substance and reasonably arrived at. We noted that it considered whether disclosure would or would be likely to inhibit the free and frank&#160;provision of advice&#160;or&#160;the free and frank&#160;exchange of views for the purposes of deliberation,&#160;or&#160; would otherwise prejudice or would be likely otherwise to prejudice the effective conduct of public affairs.&#160;In our view, it also focused on the particular interest which the&#160;exemptions&#160;are designed&#160;to protect by explaining NHSE&#8217;s statutory obligations which would be affected by disclosure.&#160;&#160;&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">100.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.13in"><span style="font-family:'Book Antiqua'">Given the information with which he was provided, including arguments as to why prejudice would/would be likely to occur and counter arguments, our view is that he considered all the matters he was required to and it was objectively reasonable for him to have come to the conclusion that he did that prejudice would be likely to occur. Although this is not the test, we consider that his response was within the range of reasonable responses open to him. Conversely, we were not satisfied that Gilead had demonstrated it was unreasonable. It is clear that Gilead does not agree with the QPO, or with the arguments raised within it, but that is not the same as it not being a reasonable response to the question before the QP or the QPO not considering the matters it ought to have done.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">101.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.13in"><span style="font-family:'Book Antiqua'">In reaching this conclusion we gave appropriate weight to the QPO as being the opinion of the person invested by Parliament with the statutory responsibility to make such an evaluation, who is in the best position to assess the likely extent of any impact of disclosure. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">102.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.13in"><span style="font-family:'Book Antiqua'">As we considered that the threshold test of reasonableness of the QPO was met, the next step was to consider the public interest balancing test required by section 2(2)(b). In light of the Supreme Court&#8217;s decision in Montague, we decided to consider first whether any other qualified exemption (here section 43) was engaged before dealing with public interest in the round.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Section 43</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">103.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Gilead argues (skeleton argument paragraph 73) that the interests of NHSE/the Trusts are not &#8220;commercial&#8221;.</span><span style="font-family:Arial;font-size:10.5pt"/><span style="font-family:'Book Antiqua'">It says the requested information is not analogous to &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">itemised details of commercial transactions</span><span style="font-family:'Book Antiqua'">&#8221; or &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">granular costs data</span><span style="font-family:'Book Antiqua'">&#8221;.  Nor, contrary to the theory posited at &#167;47 of Doak 1, can they sensibly be compared to the manufacturing costs of a private company.  Unlike the latter (which are liable to be exploited by competitors operating in the private sector), the &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">information about costs incurred in various contexts</span><span style="font-family:'Book Antiqua'">&#8221; in issue here is simply the NHS&#8217;s own assessment of its administrative costs of providing particular types of treatment within a public health service. Such information does not engage a &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">commercial interest</span><span style="font-family:'Book Antiqua'">&#8221;, properly defined &#8211; as opposed to the sort of administrative or &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">financial interests</span><span style="font-family:'Book Antiqua'">&#8221; distinguished in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Zola</span><span style="font-family:'Book Antiqua'">. In any event, the manufacturing costs of the pharmaceutical company are not assessed as part of the NICE appraisal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">104.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">It also argues that there is no credible basis to contend that NHSE and/or NHS Trusts would suffer any &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">commercial</span><span style="font-family:'Book Antiqua'">&#8221; detriment or disadvantage if the requested information was disclosed. It makes the following points (skeleton argument paragraph 75):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">NHS Trusts do not &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">negotiate</span><span style="font-family:'Book Antiqua'">&#8221; prices with pharmaceutical companies &#8211; see Lundie 1, &#167;70 </span><span style="font-weight:bold;font-family:'Book Antiqua'">[D352]</span><span style="font-family:'Book Antiqua'">. Gilead supplies the medicine to Trusts which have been commissioned to provide CAR-T services by NHSE. Gilead invoices the Trusts at the price determined at the time of the NICE appraisal process.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The NICE process is not akin to a negotiation as NHSE contends &#8211; it is a considered assessment made by NICE, as an independent adjudicator with the power to request information from relevant stakeholders and the discretion to make whatever recommendations about a medicine&#8217;s cost-effectiveness it considers warranted in the circumstances, in accordance with its published methodology. Nor does the NICE appraisal make any assessment of the manufacturer&#8217;s costs. Instead, NICE&#8217;s focus is to balance a medicine&#8217;s clinical benefits against the NHS&#8217;s anticipated Resource Use Costs in providing the treatment.    </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">While a company may subsequently enter into discussions with NHSE to see whether a medicine that NICE is otherwise not minded to recommend could still be provided pursuant to a bespoke patient access scheme, these discussions are conducted strictly on the basis of NICE's existing cost effectiveness calculation. Importantly, a manufacturer cannot seek to revisit or pick apart the Resource Use Cost used in the NICE appraisal in the context of such discussions.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">There is asymmetry of information with the manufacturer required to submit a detailed dossier containing all relevant evidence regarding clinical effectiveness (including clinical trial data, real world evidence etc), but with no corresponding transparency about basis on which the approved Resource Use Cost has been calculated.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">NHSE&#8217;s arguments about manufacturers being able to calibrate their own prices in the context of a NICE appraisal to their commercial advantage &#8220;lacks reality&#8221;.</span><span style="font-family:Arial;font-size:10.5pt"/><span style="font-family:'Book Antiqua'">Disclosure would plainly not prejudice the ability of NHSE &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">to set rates of payment for Trusts which are cost-appropriate for the treatment being commissioned&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">105.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Mr Glen submitted that the interests of the Trusts and NHSE are not &#8220;commercial&#8221; in any material sense, in that the information requested is in relation to administrative and financial costs incurred by a public body, rather than shedding any light on commercial dealings. He noted that the analysis of how the tariff came into being was marked &#8220;academic in confidence&#8221; rather than &#8220;commercial in confidence&#8221; and the meanings of these two terms were well established in the context of NICE appraisals. He contended that even if the information is commercial, any damage would be more than outweighed by the public interest in disclosure.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">106.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">NHSE&#8217;s position (skeleton argument paragraph 42) is that disclosure would be likely to prejudice the commercial interests of NHSE and/or other bodies involved in commissioning or negotiating the price of therapies. Both the skeleton and Doak 1 describe the way in which such information plays into these processes and how its disclosure would be likely to affect the commercial positions of commissioning bodies and healthcare providers. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">107.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">NHSE also argued that there would also be a real and substantial risk of commercial prejudice to Gilead&#8217;s competitors. Whereas Gilead would have the benefit of considerable insight into the Trusts&#8217; granular costs information in relation to their own product, others would be in the dark when, e.g., seeking to have their own therapies commissioned.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">108.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">The first question we must consider, before looking at prejudice, is whether there is in fact a commercial interest of any person here which is capable of being prejudiced by disclosure of the Disputed Information in relation to Request B, namely the range of costs for each component. The IC&#8217;s guidance on section 43(2) states that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">a commercial interest relates to a legal person&#8217;s ability to participate competitively in a commercial activity. The underlying aim will usually be to make a profit. However, it could also be to cover costs or to simply remain solvent.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">109.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Whilst the QPO and Doak 1 talk about the prejudice which might arise from disclosure of the Disputed Information, we were not persuaded that this demonstrated that there was a commercial interest of any person in play which was capable of being prejudiced by disclosure. The QPO suggested that the Disputed information &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">can be used to undermine the trusts&#8217; competitive position by anticipating future reimbursement models or exploiting perceived weaknesses in how the costing models were created</span><span style="font-family:'Book Antiqua'">&#8221; and this would be &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">exploitable to the disadvantage of the NHS</span><span style="font-family:'Book Antiqua'">&#8221;. However, we did not consider that this provided enough information to demonstrate that NHSE or the Trusts had a commercial interest capable of being prejudiced by disclosure. We were left unclear what their commercial position might be in the context of a publicly funded health service.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">110.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">We gave limited weight to the argument in the QPO that the Disputed Information was provided on a &#8220;commercial in confidence&#8221; basis, because there was insufficient evidence before us to demonstrate that this was the case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">111.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">We were also not persuaded by NHSE&#8217;s arguments about prejudice to Gilead&#8217;s competitors, because we were unclear who these might be and how putting the Disputed Information in the public domain would in fact affect them.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">112.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">For those reasons, we were not satisfied that there was a commercial interest of any person here which was capable of being prejudiced by disclosure and concluded that section 43(2) was not engaged.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The public interest balancing test</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">113.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Having decided that section 36 is engaged, as it is a qualified exemption we proceeded to consider the balance of public interest.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">114.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Following&#160;the judgment in&#160;</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">APPGER</span><span style="font-family:'Book Antiqua'">, we need to apply a&#160;three-stage&#160;process to&#160;determining&#160;where the balance of public interests lies. This involves considering:&#160;&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The harm or prejudice which would result from&#160;disclosure;&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Factors in favour of disclosure; and&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Factors in favour of&#160;maintaining&#160;the exemption.&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The harm or prejudice which would result from disclosure</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">115.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">The Qualified Person, James Mackey, in his opinion dated 23 December 2025 (OB C220) identifies the following harms which would arise from disclosure:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;disclosure of the Disputed Information would enable a potential future supplier of CAR-T (or analogous medicines) looking to submit future cost information as part of NICE submissions on a &#8216;cherrypicked&#8217; basis, by selecting from the Disputed Information the lowest costs in each category to suit their position that a lower figure for administration costs should be used in NICE appraisals.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Applying a different standard for NHS-related cost components, within the overall cost-effectiveness assessment, would create an uneven and inconsistent negotiating position.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;The unmoderated disclosure of costing information &#8216;to the world&#8217; in circumstances where the expectations of the Trusts were that it would not be so published, would make it much harder to have open conversations with Trusts about how to achieve value for money in the future.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">4.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Taken together, the disclosure of information would undermine NHS England&#8217;s statutory functions (being part of the &#8216;effective conduct of public affairs&#8217; for the purposes of s 36) in terms of its ability:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">to commission healthcare services in accordance with its statutory functions under s 1H of the NHS Act 2006</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">to exercise its functions economically, efficiently and effectively under s.13D of the NHS Act 2006</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">to discharge its financial duties under Chapter 6 of the NHS Act 2006</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(d)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">To cooperate with other NHS bodies under section 2 of the NHS Act 2006 (the other bodies being those that have contributed to the working group and/or which provide CAR-T services)&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">5.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua'"> &#8220;prejudice would arise because:   </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">1.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">We are reliant on close collaboration with provider Trusts, who may not provide it willingly in the future, which would make the process of commissioning novel treatments such as CAR-T less efficient or effective, or less well informed;  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">The information would be useful for parts of the supply chain for CAR-T (to the detriment of the NHS) because &#8216;cherrypicked&#8217; data could then be used by suppliers to present unrealistically low values for the overall tariff in NICE appraisals of their products. This would set a precedent for any other CAR-T appraisals and potentially undermines NHS England&#8217;s cost figures in other NICE appraisal processes. This in turn would undermine NHS England&#8217;s ability to procure treatments at an effective price and discharge its statutory functions to commission services and treatments economically, efficiently or effectively.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">3.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">There is also a risk to NHSE being forced to pay far lower amounts to providers than are needed for the services to run. This could create a risk to patient safety (as services would essentially be underfunded) and the ability of providers to deliver innovative highly complex treatment's effectively in optimum conditions due to financial constraints.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">116.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">NHSE identified in its Response that in the context of an ongoing appraisal process, there is a danger of influencing the actions of stakeholders so that the data fed into the evaluation becomes tainted by premature disclosure. It stated &#8220;there</span><span style="font-style:italic;font-family:'Book Antiqua'"> is a real risk that relevant parties will &#8220;cherry-pick&#8221; figures or otherwise seek to &#8220;game the system&#8221;, undermining the integrity of the appraisal process and by extension the usefulness of its output</span><span style="font-family:'Book Antiqua'">&#8221;. This was disputed by Gilead who described this risk as &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">unwarranted and incoherent</span><span style="font-family:'Book Antiqua'">&#8221; and &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">illusory</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">117.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">NHSE also argues in its response that disclosure of the Disputed Information, particularly the granular costs information would have a number of unfair or prejudicial effects, namely:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">It would afford an insight into the Trusts&#8217; financial positions and attitudes which could be exploited in a commercial negotiation. The impact on the advantageousness of the terms would ultimately be suffered by patients and by the public purse. It would also unfairly disadvantage the Trusts who volunteered to participate in the Financial Working Group. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Scrutiny of the Disputed Information out of context could lead to undue pressure and/or criticism based on inappropriate comparison without knowledge of specific nuances in how the NHS operates. It commented &#8220;A member of the public, or indeed commercial counterparty, who does not understand that context and those nuances may seek to compare the black-and-white figures in a way which is not conducive to good policy or decision-making&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">If either Trusts or commercial operators (including the Appellant) were to be influenced by the Disputed Information when making commercial decisions, that could undermine the proper functioning of the marketplace.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Factors in favour of disclosure </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">118.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Gilead argued in its Reply to NHSE at paragraph 34 that the public interest </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;is necessarily furthered (not harmed) by transparency and accountability in the decision-making process by which those costing figures are calculated</span><span style="font-family:'Book Antiqua'">. &#8220; It highlighted that making NHSE&#8217;s analysis subject to appropriate scrutiny would have the effect of &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">substantially increasing confidence that profoundly important decisions for patients, taxpayers and stakeholders have been reached in a robust way on the basis of reliable and reasonable assumptions and figures</span><span style="font-family:'Book Antiqua'">&#8221;. It said that NHSE&#8217;s refusal to disclose details of the CAR-T tariff makes its position an outlier in the context of NICE&#8217;s appraisals of the therapy.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">119.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Gilead also emphasised the obvious public benefit in greater transparency over the costing analysis which NHSE uses for potentially life-saving treatments. It states at skeleton argument paragraph 81 that there is an acute public interest in allowing the public to understand how the NHS decides to spend and allocate its public funds, including, specifically, (a) in understanding the information on which key decisions taken by NHSE about the costing and provision of particular types of treatments as part of a public health service are based and (b) the circumstances in which any such treatments will be offered to patients as a result.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">120.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Gilead argues that there is a &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">self-evident public interest in ensuring that the costing assumptions and analysis which underpin the calculation of such tariffs are as robust and reliable as possible.  If the costs assumptions are distorted, either by unreasonable reliance on outlying figures and/or a lack of rigour in NHSE&#8217;s wider analysis, the CAR-T tariff will be deficient and the interests of both taxpayers and patients are at risk</span><span style="font-family:'Book Antiqua'">&#8221;. It says that disclosure will ensure that: (a) that the NHS remains transparent and accountable, both in terms of how it chooses to use and allocate its substantial public funding and resources and also in terms of the reasoning which it uses to justify decisions taken in these regards; and (b) that decisions which rely on the revised CAR-T Tariff (including NICE appraisals involving CAR-T therapies and other analogous treatments) are properly accountable in the eyes of patients, stakeholders and taxpayers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">121.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">It asserts that the public interests engaged by disclosure of the requested information run far wider than Gilead&#8217;s own narrow commercial interests and that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;far from being &#8216;disadvantaged&#8217; by disclosure of the requested information, Gilead&#8217;s competitors would benefit from the insight and understanding it will offer</span><span style="font-family:'Book Antiqua'">&#8221;. It notes transparency about the way in which relevant tariffs are calculated will assist stakeholders in understanding how new and innovative products could be accommodated within an NHS setting, thereby informing understanding about how such treatments could most effectively be developed in the future for the benefit of patients.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">122.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Mr Glen argued that there is a compelling public benefit in maintaining transparency over how payments are made under the NHS payment scheme and how evidence and data are put to NICE in their appraisal process on cost-effectiveness. He said that payment arrangements must be transparent and shared in a way that allows NHSE to be held to account by patients, the public and other stakeholders and that more reliable costing is in everyone&#8217;s interests, particularly those of patients who will miss out on treatment if the CAR-T tariff is excessive. If NHSE gives a lump sum per patient to Trusts to provide treatment and leaves it up to the Trust how it allocates that money, it is all the more important that the basis on which the lump sum is calculated is reasonable and not excessive. A lot is riding on the accuracy of the CAR-T tariff because it is being used as the basis for a number of CAR-T NICE appraisals and other products.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">123.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">He further submitted that the rigour of the NICE appraisal process depends on there being rigorous analysis of evidence which stakeholders submit to it. He argued that within the NICE process, costings presented by NHSE are likely to be highly persuasive because of their provenance and given more weight than Gilead&#8217;s real-world calculations. He noted that at an earlier stage of the process, in 2019/20, the figures presented to NICE were found to be incorrect and overstating the RUC. He argued that unless the Disputed Information is released, enabling Gilead and other stakeholders to scrutinise and challenge the information from NHSE, then it might not be as robust and reliable as it needs to be, which may mean that patients miss out on the treatment because NICE deems it not cost-effective. He said that getting the Disputed Information would be a &#8220;sense check&#8221; and a way of starting the process of proper scrutiny.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">124.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">In response to this, Mr Davidson commented on Gilead&#8217;s frustration with NICE&#8217;s decision making. He noted that NICE scrutinises the data independently and critically so the notion that it is accepting blindly what NHSE says is wrong. He commented that the NICE appraisal process is inquisitorial rather than adversarial and questioned how in practice Gilead or the public would apply scrutiny in the process which NICE itself is not able to apply. He questioned how Gilead would be enabled to validate NHSE&#8217;s data with the Disputed Information. He argued that if Gilead already had information as to what the RUC should be, there is no reason why it cannot make those submissions now and it does not require disclosure of the Disputed Information to do so, nor would that disclosure assist Gilead. He noted that when the original RUC information was submitted in 2019/20, both NHSE and Gilead were speculating as to the actual cost of delivering the CAR-T treatments within the NHS, as there was no experience of how it would work in practice. The figures in the Disputed Information are based on real life experiences of the Trusts in delivering these treatments over a number of years. To the extent that Gilead needs to understand the rationale for the RUC costs presented by NHSE to NICE, the Disputed Information does not provide that and would not meaningfully increase transparency or enable accountability. On the contrary, it would carry serious risk of prejudice with low benefit to public understanding or participation in the NICE appraisal process.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Factors in favour of maintaining the exemption  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">125.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">NHSE, in its Response, emphasised the importance of ensuring the assessment of cost-effectiveness is robust and reliable, to enable the NHS, through the NICE process to determine whether or not treatments become generally available on the NHS in England. In the context of CAR-T and other novel therapies it argued &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">NHSE considers that its methodology provides</span><span style="font-style:italic;font-family:'Book Antiqua'"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">the best rubric to facilitate good decision-making, and that disclosure of the</span><span style="font-style:italic;font-family:'Book Antiqua'"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">information for the purposes of self-serving or selective analyses is liable to distort,</span><span style="font-style:italic;font-family:'Book Antiqua'"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">rather than improve, the process.  This is not a question of avoiding legitimate</span><span style="font-style:italic;font-family:'Book Antiqua'"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">criticism, but rather of avoiding misunderstanding</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_126">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">126.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">NHSE said in its Response that it relies on the voluntary cooperation of a wide range of stakeholders, not just to perform its functions</span><span/><span style="font-family:'Book Antiqua'">as effectively as possible, but also to do so as efficiently as possible. It stated &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">It would be contrary to the public interest if there was any inhibition on those persons&#8217; willingness to provide full information, whether that was reflected in: declining to cooperate at all or in relation to  certain  types  of  information;  delay;  insisting  on  time-consuming  and  possibly costly   legal   formalities;   providers   submitting   conservative,   less   informative information; providers withdrawing from pilot exercises or displaying less flexibility in future information; and/or increased &#8216;up-stream&#8217; bureaucracy, as Trusts may wish to apply more involved governance processes because of the heightened prospect of disclosure</span><span style="font-family:'Book Antiqua'">&#8221;. This &#8216;chilling effect&#8217; would &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">seriously undermine any evaluative process which depended on such information, especially in the context of a novel treatment (as on the present facts) where there is no alternative data or methodology to use</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_127">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">127.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">It went on to explain that it is not in the interests of the public or the NHS for treatment prices to be skewed too cheaply for the benefit of a commercial manufacturer to launch their product in the NHS only to find that Trusts are unwilling to  deliver  it  due  to  concerns  about  reimbursement  of  their  reasonable  costs of providing the treatment. Establishing reference costs underpins all reference tariffs so there may be a knock-on effect from disclosure in relation to CAR-T on other treatments. It noted that two of the Trusts approached (from among those who provided information) expressed vehement opposition to disclosure of the Disputed Information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">128.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">It also argued that even if <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> does not apply, there is &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">a public interest in upholding confidentiality, as the only interest in disclosing more granular information would be to enable gaming on pricing to the advantage of an individual commercial party, which should be aggregated with any other applicable public interest in the balancing exercise&#8221;. </span><span style="font-family:'Book Antiqua'">Gilead denies this</span><span style="font-style:italic;font-family:'Book Antiqua'">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">129.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">NHSE further argued that good decision-making depends on good data and good analysis. If the quality of the data, or the robustness of the assessment process, is diminished, that will diminish the reliability of the outcomes. As a result, there would be an increased risk that public funds would be misdirected (either as a whole or as to the amount), to the detriment of both patients and the broader public. The cost-effectiveness of CAR-T generally, and the appropriate level of tariff, is subject to ongoing review. Disclosure of the Disputed Information could be used by manufacturers in the context of that live exercise to distort the cost assessment, resulting in unrealistic figures being fed into decision-making processes. In turn, those who provide the information may be incentivised to adjust the information which they provide for such purposes, in light of the distortionary effect of such one-sided disclosure. Such distortion could lead to therapies being approved when they ought not be, or vice versa; or to over- or underfunding of healthcare providers. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_130">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">130.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">NHSE notes that the Disputed Information also has a number of commercial implications. As Doak 1 and the QPO both note, this is effectively the corollary of a manufacturer providing a breakdown of all of their internal costs &#8211; something which no enterprise would countenance doing and which would certainly be protected by section 43 FOIA. Under both sections 36 and 43, then, there is a strong public interest in avoiding an information imbalance, which would afford private entities an unfair commercial advantage when negotiating with the NHS. This is so even where the figures in question cannot be linked to a specific, identifiable trust. This was disputed by Gilead, who argued that this was not a good analogy as NHSE&#8217;s position is nothing like that of the manufacturers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_131">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">131.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Moreover, disclosure could affect not only the information which Trusts choose to provide to NHSE, but also their actual behaviour in the marketplace. This would have a compounding distortionary effect on NHSE&#8217;s exercise of its own functions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_132">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">132.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">NHSE maintains that the supplementary disclosure sought by Gilead is not merely of negligible additional value, but could in fact be positively harmful to the public&#8217;s understanding of the process. As the Disputed Information appears in the spreadsheet, without context, it is liable to be misinterpreted and therefore to be misleading. That effect would be even more pronounced if, as Gilead argues, the data they seek would be not only limited but in fact avowedly focused on &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">outliers</span><span style="font-family:'Book Antiqua'">&#8221;; i.e. the very data which would present a misleading picture versus the adjusted average. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_133">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">133.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">It comments &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">The more granular the information, the more harmful disclosure would be to the public interest. The more generic the information is, the less conceivable value it has in shedding further light beyond what has already been made available</span><span style="font-family:'Book Antiqua'">.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_134">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">134.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Mr Glen argued that the factors in favour of maintaining the exemption, if they existed at all, were very limited. He disputed NHSE&#8217;s arguments about manufacturers being able to &#8220;cherry-pick&#8221; the lowest cost and give an unrealistically low value to the cost of treatment, arguing again for the need for additional scrutiny within the NICE process so that NHSE&#8217;s figures are accurate. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_135">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">135.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">He commented that the burden which replying to this and other possible future information requests from stakeholders was not a good reason to withhold disclosure. He also argued against NHSE&#8217;s contention that some Trusts might step back from offering treatment out of concern about the need to share costing information, as these are important public bodies run by senior public officials who must expect proper scrutiny of their work.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion and conclusions on public interest</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_136">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">136.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Following </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Montague</span><span style="font-family:'Book Antiqua'">, in assessing where the balance of public interest lies, we considered circumstances pertaining on the date on which the request for information ought to have been dealt with pursuant to FOIA, which we calculated as being 14 January 2025, 20 working days after the request was made on 12 December 2024. This was relevant and had the effect of narrowing our focus, because some of the evidence on which both parties relied concerns circumstances which post-date this point, and so did not fall to be considered in this context. For example, we noted that the evidence from the Trusts as to the impact on disclosure summarised in the QPO post-dated this point. We also noted that since this point several CAR-T therapies have been reappraised and stopped or reduced in scope following NICE appraisal, which appears to have had the effect of intensifying Gilead&#8217;s concern about the accuracy of the figures presented to NHSE during the NICE process.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_137">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">137.</num>
+	  <intro>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">In relation to the harm which would be caused by disclosure, and thus the significance of the public interests, we considered each of the points raised by the parties and found the following.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">We were not persuaded that disclosure of the Disputed Information would enable a supplier of CAR-T medicines to &#8220;cherry-pick&#8221; the lowest costs to support their submissions in the NICE appraisal process in the way contended. This is because the NICE appraisal process, which we found to be inquisitorial rather than adversarial in nature, involves independent scrutiny of RUC figures provided by NHSE. While Gilead, or any other manufacturer, would be able to make submissions about this if the Disputed Information is disclosed, it would be hard for them to provide evidence based on experience of delivering CAR-T treatment within the NHS. It is ultimately a matter for NICE what weight it places on the submissions and evidence before it, not a matter for this Tribunal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">We considered that disclosure of the Disputed Information without supporting context did carry a risk of distortion or misinterpretation, as the context for those figures, for example in terms of numbers of patients and relevant infrastructure requirements, may not be clear. We also found as a matter of fact that NHSE reimbursed Trusts for delivering CAR-T by providing a lump sum per patient to the Trust for it to allocate as needed. Against this background, disclosure of the Disputed Information provides only a partial picture of how Trusts allocate their funding and the reasons for how they do so.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">We noted that there is a statutory obligation under section 72 of the NHS Act 2006 for NHSE to cooperate with the other NHS bodies contributing to the CAR-T tariff process and/or delivering CAR-T services. Taking into account all the evidence before us, particularly Doak 1 and the QPO, we found that the relationships between NHSE and the Trusts in this context was a key component to these bodies being able to comply with their statutory obligation. We agreed with the QP that disclosure of the Disputed Information would be likely to have a cooling effect, even if unintended, on the openness of such working relationships and the ability to have a free and frank exchange of views and information. Clearly, effective collaboration between parts of the NHS is essential to enable it to fulfil its public functions, including healthcare commissioning, economically and efficiently. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_138">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">138.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">We then turned to balancing the factors in favour of disclosure and in favour of maintaining the exemption.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_139">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">139.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">We accepted that there is an obvious high-level public interest in accountability of public bodies and transparency as to the way in which they conduct their functions. The public clearly needs to understand how NHSE spends and allocates its public funds. We accept that the NICE appraisal process is an important part of ensuring cost-effectiveness within the NHS for specific treatments such as CAR-T and as such needs to be rigorous and robust.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_140">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">140.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">However, we considered that such transparency would not necessarily be furthered by, in effect, changing the NICE appraisal process so that it became adversarial, with all contributors able to see, comment on and challenge each other's submissions. The NICE appraisal process operates with input from various experts; while Gilead may be the expert in relation to its products, it does not follow that it is also the expert in how NHSE delivers CAR-T treatment. We were accordingly not persuaded that disclosure of the Disputed Information would materially improve the rigour and robustness of NICE appraisals or that Gilead could provide scrutiny which NICE cannot. The structure and operation of the NICE appraisal process is, in any event, beyond the remit of this Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_141">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">141.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Similarly, we considered that there was a distinction to be drawn between the figures NHSE provided to NICE in 2019/20 and the Disputed Information, because the former was an estimate of likely costs and the latter was produced with the benefit of years of experience delivering CAR-T in an NHS context. The fact that the former were projections which needed adjustment does not mean that the latter is necessarily going to be incorrect. We agreed with Mr Davidson&#8217;s submission that to the extent that Gilead&#160;needs to understand the rationale for the RUC costs presented by NHSE to NICE, the Disputed Information would not provide that and accordingly would not meaningfully&#160;increase transparency or enable accountability. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_142">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">142.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">We considered that disclosing the Disputed Information could assist Gilead and other stakeholders in understanding how new and innovative products could be accommodated within an NHS setting, thereby informing understanding about how such treatments could most effectively be developed in the future for the benefit of patients.&#160;However, we considered this was primarily a private rather than public interest.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_143">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">143.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">We accepted that NHSE relies on the voluntary cooperation of a wide range of stakeholders, not just to&#160;perform its functions&#160;as effectively as possible, but also to do so as efficiently as possible. The long-term working relationships between NHSE and other NHS bodies such as the Trusts are a key part of this and we agreed that inhibition of the sort contemplated of these relationships could have a serious and wide-ranging effect on NHSE&#8217;s ability to carry out its statutory functions. If, for example, the relationship was inhibited by disclosure of information deriving from those Trusts, this may mean that fewer Trusts in future participate in collaborative exercises such as developing and reviewing the CAR-T tariff, leading to diminution of the robustness of the figures resulting from such a process. We did not give weight to the evidence of the Trusts&#8217; concerns about&#160;disclosure summarised in the QPO because these post-dated the time for responding to the Requests. However, it was clear that some form of chilling effect would be likely, notwithstanding that these are public bodies and therefore open to public scrutiny. The additional burden of hypothetical future requests for information was not a point to which we gave any weight.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_144">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">144.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">We considered that the risk of distortion or misinterpretation of data due to incomplete context would not be in the public interest, because it would not further public understanding of how the NHS carries out its functions, and may risk undermining this.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_145">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">145.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Taking all these reasons and all the circumstances of the case into account, although our decision was finely balanced, we concluded that the public interest weighed in favour of maintaining the exemption under section 36 and that the Disputed Information should not be disclosed for that reason.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_146">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">146.</num>
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">The appeal is therefore allowed in part and the Tribunal makes a substituted decision notice dealing within the revised basis on which the Disputed Information should be withheld.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Signed: </span><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Judge Harris</span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Date: </span><docDate date="2026-05-22" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">22 May 2026</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

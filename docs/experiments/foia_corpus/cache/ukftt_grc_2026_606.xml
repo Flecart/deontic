@@ -1,0 +1,1523 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/606"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/606"/>
+	  <FRBRdate date="2026-04-23" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="606"/>
+	  <FRBRname value="Dr RJ Abrahart v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/606"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/606"/>
+	  <FRBRdate date="2026-04-23" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/606/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/606/data.xml"/>
+	  <FRBRdate date="2026-04-23T11:36:21" name="transform"/>
+	  <FRBRdate date="2026-04-23T12:57:12" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-02" refersTo="#decision" source="#"/>
+	<eventRef date="2026-03-20" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-23" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>606</uk:number>
+	<uk:cite>[2026] UKFTT 606 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>4ef3c446c7f6d6d2ca1f8a0c9ddcf182dd48e4a585d85b41cbdd279f2e86557a</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6 { font-size: 12pt; color: #1F3763; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Bodytexttax2 { text-align: justify; margin-left: 0.79in; font-size: 12pt; }
+#judgment .Bodytexttax4 { text-align: justify; margin-left: 1.5in; font-size: 12pt; }
+#judgment .Bodytexttax1 { text-align: justify; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .scxw99550665 { }
+#judgment .Strong { font-weight: bold; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6Char { font-size: 12pt; color: #1F3763; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00606 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'">Case Reference: FT/EA/2025/0407</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal</courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-03-20" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">20 March 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-23" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">23 April 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">JUDGE A. MARKS CBE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER K. GRIMLEY EVANS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER N. MATTHEWS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">DR. R. J. ABRAHART</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER (1)</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE DEPARTMENT FOR EDUCATION (2)</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Respondents</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant</span><span style="font-family:'Book Antiqua';color:#000000">: Represented himself</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the First Respondent: </span><span style="font-family:'Book Antiqua';color:#000000">Unrepresented and not in attendance</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Second Respondent: Ms. L. Shepherd (Counsel) and Ms. J-M. Bonnet (Solicitor)</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The </span><span style="font-family:'Book Antiqua';color:#000000">appeal is dismissed.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p style="margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt">Background</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_1_2">
+	    <content>
+	      <p style="margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Introduction</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">This appeal is against the Commissioner&#8217;s combined Decision Notices (IC-375980-K8P9; IC-376471-J6J9 and IC-376716-C1Q2) dated 20 October 2025. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in">The combined Decision Notices ("DN") deal with three FOIA requests made by the Appellant ("RJA") to the Department for Education. Each request related to the formulation of the Government&#8217;s public statements on the existence and scope of a common law duty of care owed by higher education ("HE") providers to students.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in">The combined Decision Notices ("DN") held that the Second Respondent, ("DfE ") was entitled to refuse to respond, relying upon <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s. 14</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> ("FOIA") because RJA's requests for information were "vexatious". </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in">RJA pursues the appeal only in respect of the second and third requests, dated 15 February 2025 and 2 March 2025 respectively (hereafter called Requests 2 and 3).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in">The Tribunal convened an oral hearing which was held remotely using HMCTS&#8217;s Cloud Video Platform.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_3">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Brief Factual Background</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in">The background to the requests is sustained public, parliamentary and media debate following a large e-petition calling for the introduction of a statutory duty of care in HE, which was debated in Parliament in June 2023.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in">The Government issued a formal response to that petition in January 2023 and subsequently answered Parliamentary Questions addressing the same subject.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in">RJA has personal and campaign involvement in issues concerning student mental health and welfare and has engaged extensively with DfE on those matters.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in">Over a period of around 12 months, he made several FOIA requests and wrote lengthy related correspondence to DfE concerning the legal and policy basis for the government&#8217;s position.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">These included requests for drafts, internal discussions, briefing material and legal advice relied upon when producing the petition response and subsequent Parliamentary Question responses.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">DfE disclosed some information but declined to disclose other material, primarily relying on exemptions relating to legal professional privilege, policy formulation, and personal data.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_4">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">The Information Requests and Responses</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The three FOIA requests covered by the DN were made between February and March 2025.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Request 1, dated 6 February 2025:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">sought confirmation of specific dates relating to the drafting of the government&#8217;s petition response, including when legal advice was first sought and received;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">was treated by DfE as a request for recorded information under s.1 FOIA;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">was refused under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s.14(1)</ref>, asserting that it formed part of a vexatious course of conduct; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">is not pursued by RJA in this appeal.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Request 2, dated 15 February 2025<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"> The full text of Request 2 is set out in Annex A to this decision</p>
+		</authorialNote>:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">was expressly framed as a request for advice and assistance under s.16 FOIA "...by a person <span style="font-weight:bold">proposing</span> to make a future request for information" (emphasis added);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">sought guidance on what categories of recorded information existed that explained how particular wording in the petition response had been determined; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">was, RJA stated, intended to enable him to frame a future FOIA request in a more precise and appropriate way, expressly excluding legally privileged material.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Request 3, dated 2 March 2025<authorialNote class="footnote" marker="2">
+		  <p class="FootnoteText"> The full text of Request 3 is set out in Annex B to this decision</p>
+		</authorialNote>:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"> was similarly framed under s.16 FOIA;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">related to the formulation of wording used in a Parliamentary Question response concerning the duty of care in HE; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">likewise sought advice on what recorded information existed so that any future request could be appropriately framed and "avoid unnecessary reliance on exemptions."</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">DfE responded to all three requests together on 6 March 2025:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">refusing the requests under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s. 14(1)</ref> FOIA, characterising them as repetitive and vexatious and asserting that it had already disclosed all information it was able to provide; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">stating that further engagement would impose a disproportionate burden on departmental resources.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_1_5">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Internal Review</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">RJA requested an internal review of DfE&#8217;s response.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The internal review upheld the original refusals and maintained reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s. 14(1)</ref> FOIA.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_6">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Complaint to the Commissioner and Decision Notice</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">RJA complained to the Commissioner about DfE&#8217;s handling of his requests.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">As stated above, the Commissioner issued a single combined Decision Notice dated 20 October 2025 addressing all three requests which:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">concluded that DfE was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s. 14(1)</ref> FOIA to refuse to respond;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">in relation to the Requests 2 and 3 (the only two requests under appeal), accepted DfE&#8217;s position that, notwithstanding their express framing under s. 16 FOIA, they were in substance requests for recorded information under s.1 FOIA;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">concluded that, when viewed cumulatively and in context, the requests formed part of a course of conduct that imposed a disproportionate burden on DfE; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">recognised that RJA's motivation was genuine and that his correspondence was polite but concluded that these factors did not prevent the Requests from being vexatious.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_1_7">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Appeal to the Tribunal</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">RJA appealed to the Tribunal under s. 57 FOIA</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">challenging the DN only insofar as it relates to the Requests 2 and 3; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">raising a narrow point of law concerning the proper relationship between <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">ss. 14</ref> and 16 FOIA, rather than any issue of substantive disclosure.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_1_8">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold;font-size:13pt">The Law</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_1_9">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Relevant statutory provisions and case law</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Section 1 FOIA provides a general right to be informed by a public authority whether it holds recorded information and, if so, to have it communicated, subject to exemptions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14(1)</ref> FOIA disapplies the duty under s.1 FOIA where a request is vexatious.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Information Commissioner v Devon County Council &amp; Dransfield <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/440" uk:canonical="[2012] UKUT 440 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 440 (AAC)</ref> ("Dransfield"),</span> the Upper Tribunal identified four key issues were relevant when deciding whether a request is vexatious: (1) the burden (on the public authority and its staff); (2) the motive (of the requester); (3) the value or serious purpose (of the request); and (4) any harassment or distress (of and to staff). However, the Upper Tribunal said these four considerations were not exhaustive nor created a formulaic checklist: a holistic and broad approach was needed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Court of Appeal in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Dransfield v Information Commissioner <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref> </span>emphasised <span style="font-style:italic">&#8220;</span>... the high standard set by vexatiousness...."</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Section 16 FOIA imposes a duty on public authorities to provide advice and assistance, so far as it would be reasonable to expect them to do so, to persons who propose to make, or have made, requests for information.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Tribunal authority, including <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">McInerney</span><authorialNote class="footnote" marker="3">
+		  <p class="FootnoteText"> Ms McInerney v Information Commissioner and Department for Education [2015] UKUT 0047 (ACC) (29.01.2015) </p>
+		</authorialNote>, establishes that the duty under s.16 is not automatically displaced merely because a request is considered vexatious.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Section 57 FOIA entitles either the requester or the relevant public authority to appeal to this Tribunal against the Commissioner&#8217;s decision notice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Under s. 58 FOIA, if the Tribunal considers that the decision notice was either wrong in law or, to the extent that the notice involved an exercise of discretion by the Commissioner he ought to have exercised it differently, the Tribunal shall either allow the appeal (or substitute the decision notice) or dismiss the appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Tribunal can also review any finding of fact on which the decision notice was based.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_10">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold;font-size:13pt">Opening Submissions</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_1_11">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">RJA's Submissions</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">RJA submits that Requests 2 and 3 were not requests for recorded information under s.1 FOIA but were requests for advice and assistance under s.16 FOIA by a person proposing to make a future request. He contends that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the requests did not seek confirmation that information was held, nor disclosure of recorded information;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s. 14(1)</ref> FOIA can only disapply the duty imposed by s.1 and does not override or extinguish the independent statutory duty imposed by s.16;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the Commissioner erred in law by mischaracterising the requests and applying <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s.14</ref> without first determining whether s.1 FOIA was engaged;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the wording, structure and purpose of s.16, ICO guidance, and the decision of the Upper Tribunal in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">McInerney</span> are inconsistent with such a construction;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(e)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">public authorities must still consider what advice or assistance it would be reasonable to provide, even where there is a history of repeated requests; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(f)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">treating attempts to refine or narrow future requests as themselves vexatious would undermine the statutory purpose of s.16 and discourage constructive engagement.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_1_12">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">The Respondents&#8217; Submissions</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">DfE submits that Requests 2 and 3 were, despite their framing, in substance requests for recorded information because they repeatedly asked what recorded information existed. DfE contends that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">s.16 FOIA is not intended to operate as a mechanism to circumvent exemptions or to obtain advice on how to frame requests so as to avoid lawful refusals;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">when viewed in context, the requests formed part of a sustained and disproportionate pattern of correspondence and FOIA activity concerning the same underlying issue;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the cumulative burden imposed on departmental resources can be characterised as &#8220;vexatiousness by drift";</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">notwithstanding RJA's civility, sincerity and legitimate interest in the subject matter, vexatiousness still applies;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(e)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">even if s. 16 were engaged, the advice sought went beyond what it would be reasonable to expect DfE to provide; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(f)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">providing such assistance would not, in any event, alter the position that information relating to legal advice would remain withheld under s. 42 FOIA.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt">Pre-hearing materials</span></heading>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The parties had submitted written evidence and submissions to the Tribunal prior to the hearing, comprising an Open Bundle of 785 pages (including indices). Both RJA and DfE had provided the Tribunal with skeleton arguments.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Commissioner provided a response opposing the appeal, and relying on the DN, but did not attend the hearing itself or through a representative nor provide further representations or submit further documentation.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold;font-size:13pt">Evidence</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_2_1">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold">Summary of oral and written evidence by RJA</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">RJA explained that his FOIA activity was directed at understanding how DfE formulated its public position on the existence and scope of a common-law duty of care owed by HE providers.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">By Request 2, he was not seeking disclosure of legal advice, but the basis for the petition response apart from such advice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">He referred to the track-changed draft disclosed in January 2025, which showed only limited legal amendments, indicating that the substantive wording must have originated from policy input.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">He explained that this view was reinforced by a separate 2025 Decision Notice, in which the Commissioner accepted that legal edits were limited and did not materially alter the drafts, showing that the core wording pre-dated legal advice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">On that basis, RJA inferred that non-legally privileged policy material must have informed the wording, and it was that material he sought to identify through a s.16 request.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">He emphasised that he deliberately avoided making a request for recorded information, because without knowing what non-privileged material existed he could not frame a future request without risking repetition or exemption.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">He stated that, before submitting Requests 2 and 3, he sought confirmation from DfE&#8217;s solicitor that a draft s.16 request would not be treated as a s.1 request, but she declined to comment and referred to DfE&#8217;s position of not responding to substantially similar requests.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">He said that his attempt to exercise the s.16 right to advice and assistance was frustrated when DfE treated Request 2 as a s.1 request and refused it under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s.14</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">He accepted that he had made numerous FOIA requests, but said this reflected the fact that most had been refused, relying on various exemptions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">He stated that, of the 30 FOIA requests he had made between May 2024 and June 2025, he had withdrawn four and received substantive responses to only five.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">He explained that Request 3 arose independently due to different wording used in the response to a Parliamentary Question in January 2025 from the response to the petition in January 2023.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">He said the change in wording suggested either a shift in position or reliance on different underlying material, which he sought to understand through a further s.16 request.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">He maintained that both requests were carefully framed, made in good faith, excluded legally privileged material, and were intended to reduce rather than increase burden on DfE by enabling any future request to be properly targeted.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_2">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Summary of written and oral evidence on behalf of DfE</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Deputy Director at the DfE, Elizabeth Franey, gave written and oral evidence in summary as follows.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">She expressed sympathy for RJA and other campaigners whose relatives have died by suicide while at university and stated that DfE is strongly committed to supporting student wellbeing and mental health in HE settings.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">She explained that RJA has had extensive communications with Ministers and officials in connection with his campaign for a statutory duty of care for HE providers.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">In addition to his FOIA requests, RJA submitted approximately 75 items of correspondence between May 2023 and June 2025, totalling over 280 pages, largely seeking further information on how DfE reached its conclusions on the common law duty of care in HE.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">During a period of 12 months, he made around 30 FOIA requests on related topics, nine of which were taken to the Commissioner, generating significant work for FOI officers, legal advisers and senior staff, particularly once the Commissioner became involved.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">DfE considers that the cumulative volume, repetition and overlap of these requests is vexatious in effect and has placed a substantial burden on departmental resources, notwithstanding that the requests have been handled by DfE in good faith in pursuit of transparency.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Responding to the requests and associated correspondence has diverted significant resource from policy work, including occupying one official full<span style="font-family:'Cambria Math'">&#8209;</span>time, with additional involvement from senior management and legal staff.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Request 2 replicated earlier requests made in June and December 2024, which addressed the same questions about the common law duty of care in different formulations in response to which DfE considers it has disclosed all relevant non<span style="font-family:'Cambria Math'">&#8209;</span>privileged information.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">DfE&#8217;s position is that repetition and duplication, including attempts to revisit material withheld from co<span style="font-family:'Cambria Math'">&#8209;</span>campaigners, amount to an attempt to circumvent earlier FOIA decisions and result in a misdirection of departmental resources.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">DfE made clear in its refusal notice of 6 March 2025 that it regarded the relevant issues as comprehensively addressed and stated that, to protect departmental resources, it would not respond to substantially similar requests.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">She explained that it is standard practice for DfE to work "hand in glove" with departmental lawyers from an early stage when preparing responses to, for example, petitions or Parliamentary Questions, and that this approach was followed in this case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">There is no fixed benchmark for how many requests are reasonable, but in this case the cumulative effect of multiple overlapping requests over a short period was substantial.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The burden arose from the need to assess each request, identify information held, consider exemptions, draft responses, and conduct internal reviews which became increasingly onerous as requests were numerous, repetitive, frequent and overlapping.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">A significant amount of resource has been diverted away from other objectives of DfE, including progression of important policy work on student mental health in HE settings.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">While Requests 2 and 3 were framed as seeking advice and assistance, each asked what recorded information existed, which DfE considers information requests.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">She stated that DfE sought to be helpful and that advice and assistance had been provided to RJA on various occasions, including clarifying requests, explaining exemptions and setting out the scope of s.16.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The difficulty with RJA's requests was not their lack of clarity, but that they repeated earlier requests for information which DfE had already explained it was unable to provide.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_3">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold;font-size:13pt">Closing Submissions</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_2_4">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Submissions on behalf of DfE</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_65">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">DfE submits that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">as a matter of construction, the Commissioner was correct to characterise Requests 2 and 3 as requests for information despite being framed as requests for advice and assistance;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">this is because both Requests asked what "recorded information exists" and listed various types of documents, making each essentially a s.1 FOIA request;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">RJA's argument that he did not ask for the recorded information <span style="font-weight:bold">itself</span> is unsustainable: his expressed intention during his oral evidence to know "what information exists", though prefaced by s.16. It is necessary to look at the Requests' substance, not label;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">RJA said in oral evidence he wanted to know "where the wording came from" in DfE's responses to the petition and Parliamentary Question: that is a request for information, not advice and assistance;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(e)</num>
+	      <intro>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">s.16 imposes a duty on public authorities to provide advice and assistance:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in">so far as it would be <span style="font-weight:bold">reasonable</span> to expect the authority to do so (emphasis added);</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in">ancillary to the operation of FOIA, not as a free-standing right for requesters or prospective requesters: the type of documents RJA referred to in Requests 2 and 3 had already been provided to him (as the table appended to Ms Franey's witness statement shows) or legitimately withheld under FOIA exemptions in ss. 21 (already publicly accessible), 35 (policy making). 40(2) (personal data) and 42 (legal professional privilege) ("LPP");</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.25in">none of the purposes of s.16 is, as RJA submits, "to avoid 'unnecessary' exemptions"; and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iv.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in">DfE complied with its s. 16 duty in this case because it had already engaged in considerable dialogue with the requester, including clarifying some of his previous requests as recognised by the Commissioner's DN.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(f)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.65in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">RJA's s.16 argument overstates the scope of the provision: </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">McInerney</span><span style="font-family:'Book Antiqua'"> does not require a public authority to map out existing material and, in any event, in this case DfE had previously given RJA advice and assistance;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(g)</num>
+	      <intro>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the Commissioner was also right to treat the Requests 2 and 3 as part of a vexatious course of conduct because:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in">both Requests were similar to previous requests;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in">while the raw number of previous requests is not determinative of vexatiousness, in this case the repetitive nature as well as number of the previous requests is liable to engage <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s.14</ref>;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.25in">DfE's refusal to respond to these Requests was not unreasonable in the context of RJA's previous history of requests;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iv.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in">DfE carefully considered and applied the <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Dransfield</span><authorialNote class="footnote" marker="4">
+		      <p class="FootnoteText"> Dransfield v. IC and anor; Craven v IC and anor <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref></p>
+		    </authorialNote> criteria for an "objective standard" of vexatiousness and found that the Requests had no reasonable foundation in terms of the sought information being of value (to the requester, public or section of the public) due to previous responses and correspondence from DfE;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">v.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in">DfE had also considered all relevant circumstances including the requester's motive; the nature and public importance of the information; and that a finding of vexatiousness demands a "high standard";</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">vi.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Parker</span><authorialNote class="footnote" marker="5">
+		      <p class="FootnoteText"> Colin Parker v IC [2016] UKUT (AAC)</p>
+		    </authorialNote> stated that the public interest in the requested information cannot act as a "trump card" against a finding of vexatiousness;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">vii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.25in">Ms Franey's evidence clearly identifies the time and energy spent by DfE, as well as disruption caused by dealing with RJA's requests; and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">viii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.38in">as in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">S v Commissioner</span><authorialNote class="footnote" marker="6">
+		      <p class="FootnoteText"> S v IC (EA/2023/0087 at &#167;38</p>
+		    </authorialNote>, a series of subsequent requests can become disproportionate to the aim of the original request and thus "vexatious by drift". </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(h)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">In this case, no further information can be provided that has not already been provided (or legitimately withheld under other FOIA exemptions) so framing future requests differently would not yield any different answer from DfE.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_2_5">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Submissions by RJA</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_66">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">RJA submits that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">DfE treated Requests 2 and 3 as <span style="font-weight:bold">information</span> requests and, relying on that construction, applied <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s. 14</ref> (which applies only to information requests).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">If, as RJA contends, Requests 2 and 3 were not information requests but genuinely, as RJA intended them to be, requests for advice and assistance under s.16 FOIA, "vexatiousness" does not arise.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">If DfE did not realise that Requests 2 and 3 were asking for help, they should have provided advice and assistance to enable him to make that clear. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">The DN is flawed in failing to consider the scope of reasonable advice and assistance. S.16 exists to help requesters, or prospective requesters, and that help is being denied in this case.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(e)</num>
+	      <intro>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">RJA's interpretation of s.16 is that it provides a fundamental right to reasonable advice and assistance to:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in"><span style="color:#000000">reduce unnecessary burdens on the public authority;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in"><span style="color:#000000">facilitate targeted requests; and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.25in"><span style="color:#000000">avoid unnecessary exemptions.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(f)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">In this case, it was unfair of DfE not to provide advice and assistance because clearly there is material </span><span style="font-weight:bold;color:#000000">other</span><span style="color:#000000"> than legal advice protected by LLP: the draft response to the petition was created first and </span><span style="font-weight:bold;color:#000000">then</span><span style="color:#000000"> commented on the lawyers. How is RJA to get access to the source of that first draft? RJA was denied help in identifying that material so he could make a future request for it.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(g)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Dransfield </span><span style="color:#000000">stresses the importance of proportionality yet DfE has not responded proportionately: it is obligated to assist not just requesters but people who want to make requests in future and failed to do so.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(h)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">RJA went to great lengths to explain that Requests 2 and 3 were not information requests but instead were asking for help how to target a future request to obtain the non-LPP information he seeks.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(i)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">DfE has failed to provide the provenance of non-privileged material and RJA has been blocked from obtaining it. The result is that RJA has another ongoing follow-up request to address this very point.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:13pt;margin-left:0.65in;text-indent:-0.25in">(j)</num>
+	      <intro>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">The task for the Tribunal is to consider:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:13pt;margin-left:1.5in;text-indent:-0.12in">i.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in">Were Requests 2 and 3 correctly understood, namely that they were seeking advice and assistance rather than being information requests in themselves? </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:13pt;margin-left:1.5in;text-indent:-0.12in">ii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in">Was the duty under s.16 FOIA properly applied?</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold;font-size:13pt;color:#000000">Discussion</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold;color:#000000">Findings of fact</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The panel first considered the relevant facts of this case. Based on all the evidence provided, the panel made the following findings of fact, none of which is disputed.</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">Requests 2 and 3 were expressly and deliberately framed as requests for advice and assistance under s.16 FOIA.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">Both Requests expressly asked "what recorded information exists".</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">DfE's standard practice is to work "hand in glove" with departmental lawyers from an early stage when, for example, preparing responses on behalf of government to petitions and Parliamentary Questions: such an approach was adopted in this case.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">RJA submitted a large volume of FOIA requests and related correspondence to DfE on the same general subject matter over a 12 month period from May 2024 to June 2025.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(e)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">RJA's communications with DfE were consistently polite and non<span style="font-family:'Cambria Math'">&#8209;</span>abusive.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(f)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">DfE relied on cumulative burden of requests and correspondence rather than the content of Requests 2 and 3 individually.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(g)</num>
+	      <intro>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">The number, frequency, repetitiveness, duplication and overlap of RJA's requests disrupted DfE other activities, including policy work in the field of student mental health within HE settings.</p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Is there an error of law in the Commissioner&#8217;s Decision Notices?</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Having made its findings of fact, the panel considered whether the DN was in accordance with the law.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_6">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Relevant principles</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_69">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Drawing on relevant law and ICO guidance, the panel identified the following relevant principles:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.39in"><span style="font-style:italic;font-weight:bold">Vexatiousness</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the threshold for establishing vexatiousness is a high one;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">while a large volume of requests may indicate vexatiousness, authorities should keep evidence logs and cannot rely on numbers alone;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">a single focused request is less likely to be vexatious absent other factors;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the value or serious purpose of a request is material; and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(e)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">vexatiousness concerns the nature and impact of the request, not the requester.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.4in"><span style="font-style:italic;font-weight:bold">Advice and assistance duty</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(f)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">what is "reasonable to expect" of the public authority in terms of its duty to provide advice and assistance depends on the nature of the request and the surrounding circumstances;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(g)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">s.16 is concerned with helping an applicant clarify or refine their request where it is unclear;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(h)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">if a request is clear, it should be processed without delay: authorities should not seek clarification unnecessarily;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(i)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the fact that a request is vexatious does not of itself remove the s.16 duty: authorities should still consider whether reasonable advice could help the requester make a less burdensome or non-vexatious request.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_2_7">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Applying the above principles to this case</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_2_8">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;font-weight:bold">The nature of Requests 2 and 3</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_70">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The panel found that nature of Requests 2 and 3 was:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">broad by referring to recorded information " including any drafts, discussions, internal reviews, meeting minutes, policy papers, briefing notes, or other relevant documents";</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">ambiguous, purportedly seeking advice and assistance rather than information itself, despite repeatedly asking "what recorded information exists";</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">on the same or similar subject matter as other requests made in the preceding 12 months;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">for a serious purpose, but for the same purpose as several previous requests.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_2_9">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-style:italic;font-weight:bold">RJA&#8217;s requests overall</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_71">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">RJA's previous requests were:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">largely refused under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s.14</ref> (vexatiousness); or exemptions such as ss. 21 (accessible by other means); 35 (formulation of government policy) and 42 (LPP);</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">in some cases follow-up requests for material withheld from other requesters;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">in a minority of cases, responded to by DfE with some information provided;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">disruptive of the work of the DfE, and its policy work in particular.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_2_10">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Were Requests 2 and 3 "information" requests?</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_72">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in"><span style="color:#000000">The panel was divided about whether or not Requests 2 and 3 were information requests: on the one hand, they were deliberately framed as s.16 requests for advice and assistance for the benefit of a </span><span style="font-weight:bold;color:#000000">future</span><span style="color:#000000"> request, but on the other explicitly asked "what recorded information exists" which is typical of s.1 FOIA information requests.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in"><span style="color:#000000">Further, as Ms Franey's evidence demonstrated, the issue with RJA's previous requests on the same or similar topics was not their lack of clarity or precision (save in those instances where DfE had proactively sought clarification as envisaged by s.16). Rather, DfE had already provided the information that it could i.e. information which was not subject to legitimate exemptions entitling DfE to withhold it.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in"><span style="color:#000000">More fundamentally, Requests 2 and 3 - and indeed some of RJA's previous requests - were premised on RJA's belief (see paras. 37-39 above) that there must be other (non-legal) sources of DfE's responses to the petition and the Parliamentary question.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in"><span style="color:#000000">However, due to Ms Franey's unchallenged evidence that such responses are dealt with by DfE "hand in glove" with legal input "from the start", the panel considered an alternative scenario. The panel considers it likely that those DfE officials tasked with preparing the responses to the petition and Parliamentary Question at issue in this case discussed with legal advisors at the outset the substance of the response. DfE officials then committed this to writing for comment and approval by their lawyers.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in"><span style="color:#000000">Such a scenario would be consistent with DfE's sustained position that the responses were "informed" by legal advice - though apparently not actually drafted by lawyers - and would explain why: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">in the draft response, track-changes made by the legal team were only minor;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">DfE insists there is no source or provenance of the responses - such as pre-existing policy - which is not subject to LPP; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">therefore, no matter how precisely RJA were to focus any future request on this topic, DfE would not respond any differently.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_2_11">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">If Requests 2 and 3 are information requests, is <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s. 14</ref> properly applicable?</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_77">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Applying <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>, the panel concluded that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">Ms Franey persuasively evidenced a disproportionate burden on DfE, and disruption in its policy work, in dealing with RJA&#8217;s requests and other correspondence. However, no harassment nor distress to staff was alleged or evidenced: on the contrary, it was accepted that RJA's tone had been polite and courteous throughout;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">RJA&#8217;s motive was to hold DfE to account for its sustained position that no statutory duty of care is required because HE providers are already subject to a common law duty of care to students. The panel considers RJA's motive a genuine and legitimate motive driven by the public interest;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">however, given the past history of requests and correspondence as well as information and explanations already provided, Requests 2 and 3 themselves fulfilled little valuable purpose;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">taking a holistic approach and bearing in mind the repetitious and duplicatory nature as well as the persistence and frequency of RJA's previous requests, the high threshold for <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s.14</ref> to apply was met so - if Requests 2 and 3 are indeed information requests - the Commissioner had not erred in law in finding the exemption engaged.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_2_12">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">If Requests 2 and 3 are not information requests, what was the extent of DfE's duty under s.16?</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_78">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in"><span style="color:#000000">Taking into account the above principles in relation to DfE's s.16 duty, the panel concluded that:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">as mentioned above, DfE had on more than one occasion proactively engaged with RJA to clarify his requests;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">Ms Franey's evidence demonstrated that clarification of Requests 2 and 3 was not necessary: it was clear what RJA was seeking but as DfE had already responded to similar previous requests, all information which could be disclosed already had been disclosed. Any other information was subject to legitimate FOIA exemptions which entitled DfE to withhold it;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">even though DFE's position was that Requests 2 and 3 were vexatious, that did not remove its 16 duty: however, DfE did not consider that reasonable advice could help the requester make a less burdensome or non-vexatious request because previous requests had exhausted DfE's ability to provide any further information;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">contrary to RJA's interpretation of s.16, it does not create a free-standing right for requesters irrespective of the surrounding circumstances. Nor is one of s.16's purposes to enable requesters to obtain, or public authorities to provide, information avoiding "unnecessary" exemptions. This is because such a purpose would undermine the statutory scheme which entitles public authorities to apply lawful exemptions to withhold requested information subject (for some exemptions) to a public interest test though no such test applies to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">s.14</ref>.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in"><span style="color:#000000">For the above reasons, the panel was accordingly unanimous in concluding that, in all the circumstances, even if Requests 2 and 3 were properly treated as s.16 requests, it would not have been reasonable to have expected DfE to have provided advice and assistance of the kind sought.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold;font-size:13pt">Outcome</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">80.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">As the panel did not conclude that the Commissioner made an error of law nor, even if he did, that DfE had breached its s.16 duty in respect of Requests 2 and 3, the appeal is dismissed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">81.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">No further directions are required.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_13">
+	    <content>
+	      <p class="Bodytexttax1" style="text-align:left"><span style="font-family:'Book Antiqua'">Signed:   </span><marker name="tab"/><img src="image2.emf" style="width:167pt;height:43pt"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:  15 April 2026</span></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p><span style="font-family:'Book Antiqua'">Judge A. Marks CBE</span><br/><span style="font-family:'Book Antiqua'">(First-tier Tribunal Judge)</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Annex A</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Full text of Request 2 dated 15 February 2025</span></p>
+	    <p><span style="font-family:'Book Antiqua'">&#8220;I am requesting advice and assistance under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/16" uk:canonical="2000 c. 36 s. 16" uk:origin="TNA" uk:type="legislation">Section 16</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (FOIA) regarding how best to frame a future request for recorded information.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_4">
+	  <content>
+	    <p><span style="font-family:'Book Antiqua'">This request concerns how the following wording was determined in the Department&#8217;s statement in response to Parliamentary e-Petition 622847, specifically:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Higher Education providers do have a general duty of care to deliver educational and pastoral services to the standard of an ordinarily competent institution and, in carrying out these services, they are expected to act reasonably to protect the health, safety and welfare of</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">their students. This can be summed up as providers owing a duty of care to not cause harm to their students through the university&#8217;s own actions.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#2F5496">https://petition.parliament.uk/archived/...</span></p>
+	    <p><span style="font-family:'Book Antiqua'">I am seeking clarification on what recorded information exists that would help explain how this wording was determined&#8212;including any drafts, discussions, internal reviews, meeting minutes, policy papers, briefing notes, or other relevant documents&#8212;so that I can refine any future FOI request accordingly.</span></p>
+	    <p><span style="font-family:'Book Antiqua'">To clarify:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_6">
+	  <num style="font-family:'Book Antiqua'">a)</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">This request does not seek any information that is subject to legal professional privilege (LPP).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-family:'Book Antiqua'">b)</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">LPP does not apply to information that has already been publicly disclosed, including content that was incorporated into the published statement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-family:'Book Antiqua'">c)</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">LPP also does not apply to any legal advice obtained after the statement was published.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_9">
+	  <num style="font-family:'Book Antiqua'">d)</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">This request is not limited to email records; it seeks to understand the full range of recorded information that contributed to the formulation of this statement.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-family:'Book Antiqua'">As <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/16" uk:canonical="2000 c. 36 s. 16" uk:origin="TNA" uk:type="legislation">Section 16</ref> FOIA requires public authorities to provide advice and assistance to requesters, I would appreciate guidance on:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_11">
+	  <num style="font-family:'Book Antiqua'">1.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">What recorded information exists that would explain how this wording was determined.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_12">
+	  <num style="font-family:'Book Antiqua'">2.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">How I might frame a future request to ensure it is appropriately targeted and avoids any unnecessary exemptions.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Annex B</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Full text of Request 3 dated </span><docDate date="2025-03-02" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">2 March 2025</docDate></p>
+	    <p><span style="font-family:'Book Antiqua'">&#8220;I am requesting advice and assistance under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/16" uk:canonical="2000 c. 36 s. 16" uk:origin="TNA" uk:type="legislation">Section 16</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (FOIA) regarding how best to frame a future request for recorded information.</span></p>
+	    <p><span style="font-family:'Book Antiqua'">This request concerns how the following response was determined by the Department for Education (DfE) in relation to Parliamentary Question UIN 21515, tabled on 19 December 2024, specifically: </span></p>
+	    <p><span style="font-family:'Book Antiqua'">Janet Daby &#8211; the Minister for Children, Families and Wellbeing in the Department for Education (DfE), stated: "</span><span style="font-style:italic;font-family:'Book Antiqua'">The department&#8217;s position is that a duty of care in higher education may arise in certain circumstances. Such circumstances would be a matter for the courts to decide, based on the specific facts and context of the case being considered, and will be dependent on the application by a court of accepted common law principles."</span></p>
+	    <p><span style="font-family:'Book Antiqua'">For reference, the full text of the question and response can be found here: </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#2F5496">https://questions-statements.parliament....</span></p>
+	    <p><span style="font-family:'Book Antiqua'">I am seeking clarification on what recorded information exists that would help explain how this response was formulated&#8212;including any drafts, discussions, internal reviews, meeting minutes, policy papers, briefing notes, or other relevant documents&#8212;so that I can refine any future FOI request accordingly.</span></p>
+	    <p><span style="font-family:'Book Antiqua'">To clarify:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_14">
+	  <num style="font-family:'Book Antiqua'">a)</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">This request does not seek any information that is subject to legal professional privilege (LPP).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_15">
+	  <num style="font-family:'Book Antiqua'">b)</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">LPP does not apply to information that has already been publicly disclosed, including content that was incorporated into the published statement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_16">
+	  <num style="font-family:'Book Antiqua'">c)</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">LPP also does not apply to any legal advice obtained after the statement was published.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_17">
+	  <num style="font-family:'Book Antiqua'">d)</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">This request is not limited to email records; it seeks to understand the full range of recorded information that contributed to the formulation of this statement.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p><span style="font-family:'Book Antiqua'">As <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/16" uk:canonical="2000 c. 36 s. 16" uk:origin="TNA" uk:type="legislation">Section 16</ref> FOIA requires public authorities to provide advice and assistance to requesters, I would appreciate guidance on:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_19">
+	  <num style="font-family:'Book Antiqua'">1.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">What recorded information exists that would explain how this wording was determined.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_20">
+	  <num style="font-family:'Book Antiqua'">2.</num>
+	  <content>
+	    <p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">How I might frame a future request to ensure it is appropriately targeted and avoids any unnecessary exemptions.&#8221;</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

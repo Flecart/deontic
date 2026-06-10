@@ -88,8 +88,21 @@ ENGAGEMENT: dict[str, list[str]] = {
     "s14_rep": ["RepeatedRequest"],
     "s9_fees": ["FeesNoticeUnpaid"],
 }
+# NCND rules (decision: confirm cases) — same shape, ConfirmOrDeny side.
+NCND_ENGAGEMENT: dict[str, list[str]] = {
+    "s23_ncnd": ["ConfirmWouldRevealSecurityBodyInfo"],
+    "s24_ncnd": ["NcndRequiredNationalSecurity"],
+    "s30_ncnd": ["ConfirmWouldRevealInvestigationInfo"],
+    "s31_3_ncnd": ["ConfirmPrejudiceLawEnforcement"],
+    "s40_5a_ncnd": ["ApplicantOwnData"],
+    "sx_ncnd": ["ConfirmWouldCauseExemptHarm"],
+    "s14_vex_ncnd": ["VexatiousRequest"],
+    "s9_fees_ncnd": ["FeesNoticeUnpaid"],
+}
+PI_NCND_ATOM = "PiNcndMaintainOutweighs"
 # Short codes the llm arm answers with (avoids leaking rule-label spelling).
 EXEMPTION_CODES = {label.removesuffix("_exempt"): label for label in ENGAGEMENT}
+EXEMPTION_CODES.update({label: label for label in NCND_ENGAGEMENT})
 # Administrative-duty conclusions: real provisions (s10/s16) but never
 # evidenced in case backgrounds — excluded from the facts-agreement universe
 # so they don't inflate agreement with trivial mutual omissions.
@@ -116,6 +129,9 @@ def load_case(path: Path) -> dict:
         "name": path.stem,
         "citation": meta.get("citation", "?"),
         "verified": meta.get("verified", "no").strip().lower() == "yes",
+        # "disclose" (default) or "confirm" — which s1 duty the case decides;
+        # pure NCND disputes are scored on the ConfirmOrDeny atom.
+        "decision": meta.get("decision", "disclose").strip().lower(),
         "background": sections.get("background", "").strip(),
         "disputed": sections.get("disputed information", "").strip(),
         "oracle_facts": _csv(sections.get("oracle facts", "")),
@@ -133,11 +149,17 @@ def _csv(s: str) -> list[str]:
 
 # ── engine side ─────────────────────────────────────────────────────────────
 
-def engine_result(d: Deontic, facts: list[str], verbose: bool) -> dict:
-    """Disposition / engagement / pi from a fact set, via the proof certificate."""
-    rep = d.why(str(DDL), [DECISION_ATOM], assume=facts)[DECISION_ATOM][BEARER]
+def engine_result(d: Deontic, facts: list[str], verbose: bool,
+                  decision: str = "disclose") -> dict:
+    """Disposition / engagement / pi from a fact set, via the proof
+    certificate. `decision` picks the duty in dispute: "disclose" (s1(1)(b),
+    the default) or "confirm" (s1(1)(a) — pure NCND cases)."""
+    atom = DECISION_ATOM if decision != "confirm" else "ConfirmOrDeny"
+    pi_atom = PI_ATOM if decision != "confirm" else PI_NCND_ATOM
+    engagement = ENGAGEMENT if decision != "confirm" else NCND_ENGAGEMENT
+    rep = d.why(str(DDL), [atom], assume=facts)[atom][BEARER]
     code = status_code(rep.status)
-    engaged = [lbl for lbl, atoms in ENGAGEMENT.items()
+    engaged = [lbl for lbl, atoms in engagement.items()
                if all(a in facts for a in atoms)]
     if verbose:
         win = ", ".join(rep.winning_rules) or "(none)"
@@ -154,7 +176,7 @@ def engine_result(d: Deontic, facts: list[str], verbose: bool) -> dict:
     return {
         "disposition": disposition,
         "engaged": engaged,
-        "pi": "maintain" if PI_ATOM in facts else "disclose",
+        "pi": "maintain" if pi_atom in facts else "disclose",
     }
 
 
@@ -389,7 +411,7 @@ def run_ground_arm(d: Deontic, case: dict, model: str, verbose: bool,
     if verbose and dropped:
         print(f"    dropped out-of-batch/unknown: {', '.join(dropped)}")
 
-    res = engine_result(d, facts, verbose)
+    res = engine_result(d, facts, verbose, case["decision"])
     # Per-atom grounding accuracy against the verified oracle facts — the
     # sensitive endpoint for the batch-size experiment (|universe| judgments
     # per case instead of one disposition).
@@ -497,7 +519,8 @@ def main() -> int:
               f"{', '.join(g['engaged']) or '(none)'}; pi {g['pi']}")
         for arm in arms:
             if arm == "oracle":
-                pred = engine_result(d, case["oracle_facts"], args.verbose)
+                pred = engine_result(d, case["oracle_facts"], args.verbose,
+                                     case["decision"])
             elif arm == "ground":
                 pred = run_ground_arm(d, case, args.model, args.verbose,
                                       args.atoms_per_call, args.seed,

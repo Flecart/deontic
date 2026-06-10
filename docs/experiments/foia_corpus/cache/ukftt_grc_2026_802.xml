@@ -1,0 +1,762 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/802"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/802"/>
+	  <FRBRdate date="2026-06-01" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="802"/>
+	  <FRBRname value="Deborah Cox v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/802"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/802"/>
+	  <FRBRdate date="2026-06-01" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/802/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/802/data.xml"/>
+	  <FRBRdate date="2026-06-01T15:03:24" name="transform"/>
+	  <FRBRdate date="2026-06-01T15:59:28" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-08" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-05-28" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-01" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="deborah-cox" href="" showAs="DEBORAH COX"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="home-office" href="" showAs="HOME OFFICE"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>802</uk:number>
+	<uk:cite>[2026] UKFTT 802 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.0</uk:parser>
+	<uk:hash>c4b878729ecfb66b545fc498bdccc9001a925f854c9e4b242b5cde7ef0560d8d</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .p1 { font-family: 'Book Antiqua'; font-size: 9pt; color: #000000; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .s1 { font-family: Arial; font-size: 9pt; }
+#judgment .s2 { color: #1C1C1D; }
+#judgment .apple-converted-space { }
+#judgment .Emphasis { font-style: italic; }
+#judgment .Strong { font-weight: bold; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00802 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"/><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: EA/2025/0176</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-02-08" refersTo="#hearing"><span style="font-weight:bold;font-family:'Book Antiqua'">8</span><span style="font-weight:bold;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-weight:bold;font-family:'Book Antiqua'"> February 2026</span></docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-06-01" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">01 June 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE KIAI</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER SCOTT</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER SHAW</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#deborah-cox" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">deborah cox</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">First Respondent</role></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#home-office" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">HOME OFFICE</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Second Respondent</role></p>
+      <p style="text-align:justify"><span style="font-style:italic;color:#000000">For the Appellant&#8217;s benefit: this decision has been</span><span style="color:#000000"/><span style="font-style:italic;color:#000000">provided in draft form to the Commissioner and the Second Respondent, before it&#8217;s finalisation for</span><span style="color:#000000"/><span style="font-style:italic;color:#000000">promulgation, in order that they may identify whether the Tribunal has</span><span style="color:#000000"/><span style="font-style:italic;color:#000000">inadvertently included any CLOSED material in the OPEN decision, and to identify any</span><span style="color:#000000"/><span style="font-style:italic;color:#000000">typographical errors.</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Mr Richardson</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the First Respondent: Not represented</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Second Respondent: </span><span style="font-family:'Book Antiqua'">Mr Knight (now Mr Knight KC)</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is dismissed. </span></p>
+      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Before we start this decision, we wish to apologise unreservedly for the time taken to issue it. Owing to unexpected personal difficulties affecting the judge responsible for drafting the judgment, the written reasons could not be finalised within the usual timeframe. We regret any delay and appreciate the courtesy and forbearance shown by all concerned.  </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This appeal concerns whether the Second Respondent may lawfully withhold two audit reports examining serious and systematic regulatory failures in statistical reporting, in the context of animal experimentation under the <ref href="http://www.legislation.gov.uk/id/ukpga/1986/14" uk:canonical="1986 c. 14" uk:origin="TNA" uk:type="legislation">Animals (Scientific Procedures) Act 1986</ref> (&#8220;ASPA&#8221;). The appeal is brought under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/57" uk:canonical="2000 c. 36 s. 57" uk:origin="TNA" uk:type="legislation">section 57</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) against a Decision Notice (&#8220;DN&#8221;) dated 22 April 2025 in which the First Respondent upheld the Second Respondent&#8217;s reliance on section 36(2)(b)(i) and (ii) of FOIA to withhold the two reports in full.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal acknowledges at the outset that the Appellant&#8217;s case is advanced with care and rigour. The Appellant submits that the Second Respondent&#8217;s reliance on section 36 fails at the first threshold because the opinion of the qualified person was not reasonably formed and that even if section 36 is engaged, the public interest decisively favours disclosure, whether in full or subject to proportionate redaction. The Second Respondent contends that the statutory threshold is met and that the public interest balance favours maintaining the exemption.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Background and Procedural History</span></heading>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">ASRU is the relevant unit responsible for regulating licensed animal experimentation under ASPA and for publishing statistical information intended to inform Parliament and the public about the operation of the licensing regime.&#160; </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In December 2022, ASRU identified errors in some of the data reported in its Annual Report for 2019-2021, which had been published online on 26 October 2022. The catalysts for the identification of these errors were FOIA requests and queries raised by the Appellant. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Investigation revealed that published data contained serious inaccuracies. The Appellant contends, and the Second Respondent accepts in broad terms, that these inaccuracies materially altered official figures previously relied upon by Parliament and the public. The Appellant&#8217;s case is that the published figures overstated animal use by approximately 7.6 million animals in 2019 alone, with inaccuracies extending across multiple reporting years, and that the errors were discovered by the Appellant.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In response, the Home Office commissioned two audit exercises. The first was undertaken by the Government Internal Audit Agency (&#8220;GIAA&#8221;), an executive agency sponsored by HM treasury, established in 2015 to provide central government with objective, independent insight and assurance enabling its organisations to achieve better outcomes and to develop better governance, risk management and internal controls. It examined information governance and data integrity processes, the report was finalised in January 2024. The second was undertaken by Home Office Analytics and Insight (&#8220;HOAI&#8221;), a team within the HO with data analytics expertise. This examined validation and quality assurance systems, the report was finalised in February 2024. The Appellant submits that the audits were retrospective accountability exercises examining completed regulatory failures rather than part of ongoing policy formulation, and the Tribunal accepts that this is a fair characterisation of their primary purpose, whilst noting that such reports nevertheless involve evaluative judgement and deliberative assessment. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In April 2024, ASRU published an Explanatory Note and corrections acknowledging the errors, describing the commissioning of independent scrutiny and audit, and stating that recommendations were accepted and implementation begun.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Following publication of the Explanatory Note, the Appellant made a FOIA request to the Home Office on 29 April 2024. The request was in multiple parts, but only part 2 is relevant to this appeal: the request for copies of the HOAI and GIAA audit reports.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Home Office officials sought the opinion of the section 36 qualified person via a Ministerial submission dated 11 June 2024. The qualified person was Lord Sharpe of Epsom, who provided his opinion on 12 June 2024 that disclosure would prejudice the matters protected by sections 36(2)(b)(i) and (ii) FOIA.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Home Office refused disclosure on 25 June 2024, relying upon sections 36(2)(b)(i) and (ii) FOIA and concluding that the public interest favoured maintaining the exemption. The Appellant sought an internal review, which maintained that position. The Appellant then complained to the Information Commissioner. The Commissioner inspected the two withheld reports and issued a Decision Notice on 22 April 2025 concluding that section 36 was engaged and that the public interest favoured maintaining the exemption. The Appellant now appeals that decision. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The HO has served 3 witness statements explaining the context in which the reports were commissioned and carried out and the application of section 36 to the content of those reports, from: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Chloe Jenkins, the Head of Regulation Reform in the Animals in the Animals in Science Regulation Policy Unit (&#8216;ASRPU&#8217;). This addresses the role of ASRPU and the obtaining of the Qualified Person&#8217;s Opinion under section 36; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Kate Chandler, Head of ASRU. This addresses the data errors which led to the Reports, the commissioning of the Reports and the alleged harms which would follow from their disclosure;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Chris Westwood, the Technical Direction of the GIAA. This addresses the role of the GIAA Report in particular. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The Hearing</span></heading>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">The Tribunal had before it the following evidence and submissions, all of which have been taken into account in reaching its decision:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">An Open Hearing Bundle, comprising of 346 electronic pages; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">2.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">A Closed Bundle, comprising of 43 electronic pages (together with a Rule 14(6) application);</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">3.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">An Authorities Bundle, comprising of 239 electronic pages;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">4.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">The Gist of the Closed Session comprising 2 electronic pages;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">5.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">The decision in </span><span class="PageNumber" style="font-style:italic;font-family:'Book Antiqua'">Dr Christopher Garrard v ICO v Cabinet Office </span><span class="PageNumber" style="font-family:'Book Antiqua'">[2025] UKFTT 00343;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">6.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">The Appellant&#8217;s skeleton argument, comprising 12 electronic pages, which the Tribunal found very helpful;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">7.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">The Second Respondent&#8217;s skeleton argument, comprising 12 electronic pages, which the Tribunal likewise found very helpful. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal has considered all of the evidence and submissions before it. What follows addresses the principal issues raised by the parties and explains the reasons for the Tribunal&#8217;s conclusions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal heard the appeal in OPEN session, where Chloe Jenkins provided oral evidence. A CLOSED session was also held and a CLOSED bundle submitted. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">A rule 14 direction was made in relation to the closed bundle. The Tribunal was satisfied that disclosure of the closed bundle beyond the Respondents and their representatives would prematurely reveal the nature and/or content of the withheld information and defeat a purpose of the proceedings and therefore prevented disclosure accordingly. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal then convened a CLOSED session. Ms Chandler gave oral evidence and the Tribunal heard submissions. A gist of the CLOSED session was provided. It records that the Tribunal held a short CLOSED session to ask questions about the level of detail in the reports, the extent to which teams or individuals could be identified, whether redaction would address identifiability, and concerns about chilling effects on candour and engagement in future audits; and that counsel for the Home Office made CLOSED submissions by reference to the reports to emphasise the frankness of the advice and the allocation of responsibility within the reports to particular teams and roles.&#160; Further OPEN submissions were heard and the decision was reserved. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">There is no separate CLOSED decision. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Issues for Determination</span></heading>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The issues for determination are: (i) whether section 36(2)(b)(i) and/or (ii) FOIA is engaged; (ii) whether the opinion of the qualified person was reasonably held; and (iii) if engaged, whether the public interest in maintaining the exemption outweighs the public interest in disclosure.&#160; </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The Legal Framework</span></heading>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Section 36(2) FOIA provides that information is exempt if, in the reasonable opinion of a qualified person, disclosure &#8216;would or would be likely to inhibit &#8211; (i) the free and frank provision of advice, or (ii) the free and frank exchange of views for the purposes of deliberation&#8217;.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal also notes that the opinion of the qualified person is to be afforded a measure of respect in any balancing exercise, although the Tribunal must form its own view: </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Department for Work and Pensions v Information Commissioner </span><span style="font-family:'Book Antiqua';color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/758" uk:canonical="[2016] EWCA Civ 758" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 758</ref> at &#167;55.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">&#160;The Upper Tribunal has emphasised that a chilling effect on the public interests expressly protected by sections 35 and 36 are a matter of commonsense and statutory policy such that they do not necessarily need to be the subject of evidence at all: </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Department of Health and Social Care v Information Commissioner</span><span style="font-family:'Book Antiqua';color:#000000"> [2020] UKUT 299 at &#167;28 </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">per</span><span style="font-family:'Book Antiqua';color:#000000"> Farbey J.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant is right to emphasise that section 36 involves a two-stage analysis. First, there is the threshold question: whether the qualified person&#8217;s opinion is &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">reasonable&#8221;</span><span style="font-family:'Book Antiqua';color:#000000">&#160;adopting the ordinary meaning of that term as explained in </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Malnick V IC &amp; ACBA </span><span style="font-family:'Book Antiqua';color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/72" uk:canonical="[2018] UKUT 72 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 72 (AAC)</ref></span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">, </span><span style="font-family:'Book Antiqua';color:#000000">namely an opinion is &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">in accordance with reason; not irrational or absurd&#8221;</span><span style="font-family:'Book Antiqua';color:#000000">. The Tribunal does not substitute its own opinion for that of the qualified person at the threshold stage. Its task is to determine whether the opinion falls within the range of views which a reasonable qualified person, properly directing themselves, could hold on the material before them. The Tribunal also notes that the Upper Tribunal has held &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">section 36(2) does not require the&#8230;FTT to determine whether prejudice will or is likely to occur that being a matter for the QP. The threshold question is concerned only with whether the opinion of the QP as to prejudice is reasonable&#8230;.The public interest is only relevant at the second stage&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal also bears in mind the caution expressed in&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Davies v The Information Commissioner; The Cabinet Office (GIA): [2019] UKUT 185 (AAC): [2020] AACR 2</span><span style="font-family:'Book Antiqua';color:#000000">&#160;about &#8220;chilling effect&#8221; assertions and the need to consider the adequacy of the evidence base for expressions of opinion.&#160;The Appellant submits that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Here, the submission&#8217;s redactions and reliance on broad behavioural assumptions (e.g. official&#8217;s reduced engagement) echo the &#8220;anodyne&#8221; material in Davies, lacking a specific connection to these retrospective audits, thus undermining the opinion&#8217;s evidential basis&#8221;. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Secondly, only if that threshold is met, the Tribunal must conduct the public interest balancing exercise under section 2(2)(b) FOIA as at the date of refusal.&#160;</span><a href="https://outlook.office365.com/owa/?ItemID=AAMkAGI5OWNhODU3LWM3MjMtNGYwMy04MjJmLTEzZTIxYWI4MmU5NwBGAAAAAACI14S3Pbi7Q5fM%2fUNu50PaBwDq8SFvJVNFQoo3iZ0%2fASeKAAAAAAEJAADq8SFvJVNFQoo3iZ0%2fASeKAAFhS0MFAAA%3d&amp;exvsurl=1&amp;viewmodel=ReadMessageItem"/><span style="font-family:'Book Antiqua';color:#000000">Where more than one limb of section 36(2)(b) is engaged, the relevant public interests are considered in the round. The Appellant submits that: &#8216;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">In the present case, this aggregate assessment is particularly relevant because the Home Office&#8217;s reliance on section 36 involves intertwined claims of inhibition to advice and deliberation, which must be weighed together against the strong public interest in transparency over regulatory failures in animal experimentation&#8217;. </span><span style="font-family:'Book Antiqua';color:#000000">She further submits that public interest carries strong weight where disclosure reveals institutional error or promotes accountability in ethically sensitive areas relying on </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Evans v Attorney General <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/21" uk:canonical="[2015] UKSC 21" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 21</ref>; </span><span style="font-family:'Book Antiqua';color:#000000">Department for Business, enterprise and Regulatory Reform v Information Commissioner and Friends of the Eath [2008] UKIT EA/2007/0072. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The role of the tribunal</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">The tribunal&#8217;s remit is governed by section 58 FOIA. This requires the tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved exercising discretion, whether he should have exercised it differently. The tribunal may receive evidence that was not before the Commissioner and may make different findings of fact from the Commissioner. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The Parties&#8217; Submissions</span></heading>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant&#8217;s skeleton argument sets out a detailed challenge to the engagement of section 36 and, in the alternative, to the public interest balance. In summary, the Appellant submits that the qualified person was presented with an overtly one-sided and cyclical submission that emphasised withholding without exploring disclosure&#8217;s accountability benefits, that the opinion was effectively a rubber stamp with no recorded reasoning, that redactions obscured the evidential foundation, and that extraneous reference to the requester introduced irrelevant bias. On that basis the Appellant submits that the statutory safeguard of an independent and reasonable qualified person opinion has not been satisfied and section 36 is not engaged.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In the alternative, the Appellant submits that even if section 36 is engaged, the public interest decisively favours disclosure because the audits concern serious institutional error in a field of exceptional ethical and societal sensitivity; that audit reports provide independent evaluative scrutiny which cannot be substituted by curated explanatory material; that the Home Office&#8217;s inhibition arguments are speculative; and that any residual concerns can be met by redaction.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Second Respondent&#8217;s skeleton argument and oral submissions contend that section 36 is orthodoxly engaged in the context of internal government audits; that the qualified person&#8217;s opinion need only be substantively reasonable; that such audits depend on confidential, candid participation (particularly where errors or concerns arise), and that disclosure would have a chilling effect&#8212;rendering future contributions more guarded and reducing the quality and utility of audit findings across government, as supported by witness evidence and established practice; that the reports are frank and allocate responsibility by roles and teams; and that the public interest in disclosure is materially reduced because the material concerns internal processes, the issues were ongoing at the time, and transparency and accountability have already been substantially met by the detailed Explanatory Note, which provides a proportionate account of the errors, audits, and corrective steps without disclosing the underlying audit material.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Engagement of Section 36: The Qualified Person&#8217;s Opinion</span></heading>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant contends that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">the opinion was not formed through the independent, evaluative scrutiny envisaged by section 36, but instead resulted from a perfunctory and biased process which undermines both its rationality and evidential foundation</span><span style="font-family:'Book Antiqua';color:#000000">.&#8221; In developing that submission, it is argued that the ministerial submission was one-sided, setting out extensive arguments in favour of engaging section 36 whilst omitting any meaningful consideration of alternatives, including the public interest in disclosure and the character of the audits as retrospective accountability exercises rather than part of any live deliberative process. It is further said that the submission was cyclical, in that it merely restated the exemption without properly explaining its application.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant also submits that Lord Sharpe of Epsom&#8217;s response amounted to little more than a brief endorsement unsupported by any recorded reasoning, there was a lack of sufficient material upon which to conduct an objective assessment and that the speed of the turnaround indicates inadequate consideration. It is additionally contended that redactions have deprived the Tribunal of the underlying evidential basis for the opinion (and that, if such material exists in CLOSED, the Tribunal should itself assess it). Reference is also made to extraneous material relating to the requester, said to be irrelevant and capable of contaminating the process, undermining confidence in the objectivity of the process &#8211; introducing an irrelevant bias into the advisory process, undermining the opinion&#8217;s rationality. Finally, it is argued that the brevity of Lord Sharpe&#8217;s response demonstrates that the opinion was not &#8220;genuinely held&#8221; on the basis of a rational evaluation, as required. Significant reliance is placed on </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Davies </span><span style="font-family:'Book Antiqua';color:#000000">throughout the submissions (amongst other cases).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">It is further submitted &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Although the submission underwent internal quality assurance (page 8 table), including clearances under the Civil Service Code, these formalities do not remedy the substantive flaws. Procedural checks cannot substitute for the qualified person&#8217;s independent rationality, here, they mask rather than cure the lack of balanced material and deliberation&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal makes the following findings in response. The Tribunal has approached this issue by reference to the well-established requirements that the opinion must be formed on proper material, must be rational in the sense of being capable of logical support, and must be genuinely held, as reflected in the authorities including</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Malnick</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">and</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Davies</span><span style="font-family:'Book Antiqua';color:#000000">.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The Tribunal&#8217;s conclusions</span></heading>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal is satisfied that the opinion of the qualified person was both genuinely held and reasonable, such as to engage section 36(2)(b)(i) and (ii).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">It is common ground that Lord Sharpe of Epsom was the qualified person for the purposes of section 36. The issue is whether the opinion recorded&#8212;namely that disclosure would, or would be likely to, inhibit the free and frank provision of advice and the free and frank exchange of views&#8212;was one which it was reasonably open to him to form.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant places reliance on the brevity of the Minister&#8217;s response and the absence of express reasoning. The Tribunal has carefully considered that submission. The evidence of Ms Jenkins was that brief ministerial endorsements are a conventional feature of decision-making within government, with Ministers frequently indicating agreement by reference to submissions rather than producing freestanding reasoning. That evidence was not materially challenged. In those circumstances, the Tribunal considers that the Minister&#8217;s response is properly understood as adopting the reasoning contained within the submission, rather than as standing alone. Viewed in that way, the brevity of the response does not of itself undermine either the genuineness or the reasonableness of the opinion.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal accepts that section 36 requires a substantively reasonable opinion but does not require detailed reasons to be recorded in a particular form. The question is whether the opinion was one a reasonable qualified person could hold on the material before him, including the submission and documents accompanying it. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has also considered the Appellant&#8217;s submission that the process was, in substance, &#8220;official-led&#8221;, such that the Minister cannot be taken to have formed an independent view. The Tribunal does not accept that characterisation.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal accepts that the submission placed before the Minister was prepared by officials. However, that is the ordinary and intended operation of the statutory scheme. Section 36 does not require the qualified person to formulate an opinion independently of official input, but rather to consider and form a view on the basis of the material placed before him. As the evidence of Ms Jenkins makes clear, it is conventional for Ministers to indicate agreement with such submissions without producing separate or freestanding reasoning.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The question is therefore not whether officials contributed to the process, but whether the Minister can properly be said to have adopted and endorsed the reasoning presented, thereby forming his own opinion. In the Tribunal&#8217;s judgment, the evidence supports that conclusion. The submission identified the nature of the material and the basis upon which inhibition was said to arise, and the Minister expressly indicated agreement with that analysis. There is no indication that the outcome was pre-determined or that the Minister failed to engage with the substance of the submission. In those circumstances, the Tribunal is satisfied that the process reflects the proper interaction between official advice and ministerial decision-making contemplated by section 36. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant further submits that the material placed before the Minister was expressed at a relatively high level and lacked detailed evidential support. The Tribunal accepts that the submission was concise. However, when read as a whole, it did more than restate the statutory language. It identified (i) the nature of the material, the processes said to be affected and the basis upon which inhibition was said to arise. The Tribunal also notes that the reports themselves were before the Minister as part of the material accompanying the submission. The opinion was therefore not formed in the abstract, but in the context of the material to which it related. In the Tribunal&#8217;s judgment, this constitutes a sufficient explanatory foundation at the engagement stage.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has also considered the Appellant&#8217;s submission that the material was one-sided, in that it did not set out any countervailing considerations in any detail or alternative analysis. The Tribunal accepts that the submission was primarily directed towards explaining why the exemption was said to be engaged and did not explore competing considerations: for example, while it identified the nature of the audit reports and articulated the risk that disclosure might reduce candour in future participation, it did not address in detail matters which might be said to diminish that risk, such as the retrospective character of the audits, the potential for mitigation through redaction, or the extent to which similar information may already be in the public domain.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal accepts that in an appropriate case, the omission of material considerations may bear upon the weight to be given to an opinion and in some circumstances may affect its reasonableness. That is a central teaching of</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Davies</span><span style="font-family:'Book Antiqua';color:#000000">. However, the Tribunal does not consider that such concerns arise here. The submission addressed the statutory question directly by identifying the nature of the material, the processes affected and the mechanism by which inhibition was said to arise. Those features provided a coherent basis upon which the Minister could form a view as to the likelihood of inhibition.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has also considered whether the absence of more balanced analysis, when taken cumulatively with the other matters relied upon by the Appellant&#8212;including the brevity of the Minister&#8217;s response and the high-level nature of the submission&#8212;undermines the reasonableness of the opinion. Having regard to the evidence as a whole, the Tribunal is not satisfied that it does so. There is no indication in the evidence that the Minister was unable to take a broader view or to question the analysis presented. In those circumstances, while the submission was not balanced in a forensic sense, that does not render the opinion one which it was not reasonably open to the Minister to reach.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal&#8217;s assessment of reasonableness is informed by the factual context established in the evidence heard in OPEN. That evidence is relied upon not to supplement the Minister&#8217;s reasoning retrospectively, but to assess whether the matters identified in the submission were capable of supporting a reasonable opinion.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The evidence of Ms Chandler establishes that the reports were commissioned following the identification of discrepancies requiring investigation and were directed to understanding how those errors had arisen and what corrective steps were required. The Tribunal accepts that such audits involve evaluative scrutiny of internal systems and processes, including the identification of shortcomings.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">It was also apparent from the evidence that such exercises depend upon input from officials within the relevant unit, including those required to explain how the issues arose. The Tribunal accepts that such contributions may involve engagement with matters which are evaluative or critical in nature.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Against that background, the Tribunal considers that the risk of some degree of inhibition was not advanced purely in abstract terms, but reflects a predictive judgment grounded in the nature of the process itself. The Tribunal accepts the evidence of Ms Jenkins that, while participation would continue, there is a realistic possibility that contributions may be somewhat more guarded where there is a prospect of external disclosure. The Tribunal considers that this represents a reasonable and measured assessment of likely behaviour.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal also observes that the reasoning advanced in the submission was expressed in measured terms, focusing on a potential reduction in candour rather than suggesting that participation would cease altogether. The Tribunal considers that this supports the conclusion that the assessment was a realistic and balanced one, rather than an overstated or speculative claim.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal also takes into account that, as submitted in OPEN, the material includes evaluative findings and references to defined roles within a relatively small operational context. The Tribunal considers that this is a relevant feature when assessing the potential impact of disclosure on the candour of future participation.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has also considered the Appellant&#8217;s submission regarding the timeframe within which the Minister responded. The Tribunal is not persuaded that the speed of the decision-making process renders the opinion unreasonable or not genuinely held. The evidence indicates that decisions of this nature are commonly taken within comparable timeframes and there is no indication that the Minister lacked a sufficient opportunity to consider the material before him. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">As to the inclusion within the submission of references to the requester and to  public interest considerations, the Tribunal accepts that such matters were not necessary to the statutory test at the engagement stage. However, the evidence indicates that these references were directed to contextual or media handling considerations. There is no basis for concluding that they materially influenced the Minister&#8217;s assessment of inhibition. The Tribunal does not therefore find that the opinion is rendered unreasonable on that account.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has had regard to the Appellant&#8217;s reliance on&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Davies</span><span style="font-family:'Book Antiqua';color:#000000">. While the principles set out in that authority are well understood, the Tribunal does not consider that the present case is analogous. The submission provided to the Minister cannot fairly be characterised as a bare or formulaic assertion. It identified the nature of the material, the relevant processes, and the mechanism by which inhibition was said to arise, albeit in concise terms. The reports were annexed, such that the Minister was not deciding the case in the abstract. That provides a sufficient analytical foundation for the opinion. Those features materially distinguish this appeal from the factual context in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Davies</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">in which the Upper Tribunal found the withheld emails &#8220;extremely anodyne&#8221; and the submission devoid of any specific evidential foundation.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-indent:0.39in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Retrospective Audits and &#8220;Safe Space&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant submits that the Second respondent&#8217;s contention that disclosure would inhibit candour in future audits and internal discussions is based on an extremely weak and speculative evidential basis, relying on institutional behaviour rather than identifying concrete evidence that disclosure of retrospective audit material would alter conduct. She submits: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">&#8220;47.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The regulatory regime under ASPA imposes statutory obligations of cooperation and accurate reporting upon regulated entities. The suggestion that disclosure would undermine compliance with those obligations is unsupported by evidence and rests upon speculative behavioural assumptions.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">48.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The audits examine completed regulatory failures and form part of an accountability process which has already been concluded. The Home Office has not identified any continuing deliberate process that would realistically be inhibited by disclosure fo completed audit scrutiny&#8230;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">50.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The Tribunal is invited to recognise the constitutional distinction between material generated for the purpose of policy formulation and material generated to investigate institutional failure after the event traditionally seen in s35 cases. The latter performs ac accountability function which is inherently outward-facing and directed rowards restoring regulatory integrity. Treating retrospective audit scrutiny as falling within the same protected deliberative space as live policy advice risks diluting the public law principle and regulators remain answerable for the effectiveness of their oversight systems especially in instances where incorrect information has been provided to the public. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">51.</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">In circumstances where audit findings concern completed regulatory activity and implemented corrective measures, the weight attaching to safe space protection  is necessarily attenuated&#8221;.</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal accepts the Appellant&#8217;s submission that the documents in issue are retrospective audits examining completed failures rather than materials generated in the course of live policy formulation. It also accepts the conceptual distinction between policy formulation, more commonly considered under section 35, and processes of retrospective accountability and review. That contextual feature is relevant to the Tribunal&#8217;s assessment, as it bears both on the realism of any asserted inhibition and on the weight to be afforded to maintaining a &#8220;safe space&#8221;.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">However, the Tribunal does not accept the Appellant&#8217;s conclusion that such retrospective audit scrutiny cannot engage section 36. Section 36 is not confined to the protection of live policy development; rather, it is directed more broadly to the maintenance of the effective conduct of public affairs, including the protection of candid advice, the free exchange of views for the purposes of deliberation, and internal processes of evaluation and institutional improvement. Internal audit reports, although backward-looking in subject matter, may nonetheless involve frank assessment, evaluative judgement, and deliberation about performance, governance, and remedial steps. The Tribunal accepts that the retrospective nature of the audits reduces, but does not remove, the weight to be accorded to maintaining a protected place for candid internal evaluation. That reduction is reflected in the Tribunal&#8217;s assessment of the public interest below.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal accepts the Second Respondent&#8217;s submission, reflected in its OPEN submissions, that the prejudice relied upon in this case is principally predictive in nature: it is not contended that the audits themselves would be retrospectively inhibited, but rather that routine or expected disclosure would give rise to a real risk that future internal audits and analogous assurance exercises would be conducted with reduced candour. The Tribunal accepts that section 36 cases frequently and properly proceed on that forward-looking basis, assessing the impact on future comparable situations.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Provided that such a claim is grounded in the nature of the material and supported by a real and significant risk of inhibition, the Tribunal is satisfied that retrospective audit material is capable, in principle, of engaging section 36. On the facts of this case, and for the reasons set out elsewhere in this decision, the Tribunal accepts that threshold is met.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Drawing these matters together, while the Tribunal accepts the substance of the Appellant&#8217;s legal submission that a qualified person&#8217;s opinion cannot be upheld where it amounts to no more than a bare or formulaic recitation of the statutory language, it does not accept that the circumstances of the present case fall within that category. The Tribunal is satisfied, having inspected the withheld reports and considered the evidence and submissions in both open and closed session, that the opinion was grounded in the particular characteristics of the material in question. In particular, the Tribunal finds that the reports are not neutral or anodyne in character. Rather, they contain detailed and candid evaluative analysis, including the identification of shortcomings, the attribution of responsibility by reference to specific roles and functions, and the articulation of remedial actions with assigned ownership and timescales. Those features, taken together, provide a cogent and intelligible basis upon which a reasonable qualified person could conclude that disclosure would be likely to inhibit the free and frank provision of advice and exchange of views in comparable audit contexts. The fact that the supporting submission was relatively concise, or that the endorsement was recorded briefly, does not detract from that conclusion when the substance of the material is properly considered.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal is satisfied that the opinion was grounded in the nature of the material, supported by a coherent (albeit concise) explanatory framework and consistent with the evidential context established at the hearing. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal therefore concludes that the opinion was genuinely held and reasonable and that section 36(2)(b)(i) and (ii) is engaged. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The FTT Decision: Garrard v ICO &amp; Cabinet Office</span></heading>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal was referred to, and has considered, the First-tier Tribunal decision in Garrard v ICO &amp; Cabinet Office. The Tribunal records expressly that it is a First-tier Tribunal decision and therefore not binding. It may nonetheless be considered for such persuasive value as it may have, bearing in mind that its conclusions are fact sensitive.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In that case, the Tribunal considered section 36 arguments and was critical of a submission to the qualified person that was generic and not linked to the specific content of the withheld passages, concluding that the opinion was not reasonable in relation to particular passages (and noting the template was not completed).&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal accepts the Appellant&#8217;s submission that an opinion must have an adequate evidential foundation and not rest on bare assertion untethered to the specific content and that an inadequate evidential foundation may render an opinion unreasonable. This is consistent with the Upper Tribunal authority in </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Davies</span><span style="font-family:'Book Antiqua';color:#000000"> and with the established caution in the case law regarding reliance on generic &#8220;chilling effect&#8221; assertions.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has had regard to the decision in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Garrard</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">but finds it materially distinguishable on the facts. In</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Garrard</span><span style="font-family:'Book Antiqua';color:#000000">, the disputed information comprised limited residual redactions within briefing packs concerning international relations, and the Tribunal there considered the section 36 evidence to be largely generic and insufficiently connected to the specific content withheld. In the present appeal, by contrast, the Tribunal has inspected in full the two audit reports themselves and has heard detailed evidence, including witness evidence, directed to their evaluative nature, their attribution of responsibility by role and function, and the anticipated effect of disclosure on candour in comparable future audits. These matters were also explored expressly in the Tribunal&#8217;s CLOSED session.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The first point of distinction lies in the nature and extent of the withheld material. In</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Garrard</span><span style="font-family:'Book Antiqua';color:#000000">, the majority of the material had been disclosed and the remaining passages were relatively limited in scope and content, which the Tribunal characterised as largely unremarkable, with any risk of inhibition assessed as remote in relation to those specific passages. In the present case, however, the withheld information comprises the entirety of two audit reports. Having inspected those reports, the Tribunal is satisfied that they contain candid evaluative analysis, including the allocation of responsibility by reference to roles and functions, such that the potential for inhibition cannot be assessed in the same way as in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Garrard</span><span style="font-family:'Book Antiqua';color:#000000">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The second distinction concerns the evidential foundation for the claimed inhibition. In</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Garrard</span><span style="font-family:'Book Antiqua';color:#000000">, the Tribunal was critical of the absence of a content-specific justification linking the asserted prejudice to the particular passages withheld. Here, by contrast, the Tribunal is satisfied that the nature and content of the reports themselves provide a concrete and particularised basis for the inhibition concern. The CLOSED session evidence addressed, in a focused way, the issues of identifiability, the evaluative tone of the reports, and the practical implications of disclosure for the candour of future audit processes.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Thirdly, the Tribunal has considered</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Garrard</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">in the light of subsequent Upper Tribunal authority. On the evidence before it in this appeal, including the Tribunal&#8217;s direct examination of the reports, it is satisfied that the concern identified in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Davies</span><span style="font-family:'Book Antiqua';color:#000000">&#8212;namely, the absence of anything in the material itself to support the claimed prejudice&#8212;does not arise. The Tribunal therefore does not regard</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Garrard</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">as persuasive towards the outcome contended for by the Appellant on the facts of the present case.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Drawing these strands together, the practical significance of&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Garrard</span><span style="font-family:'Book Antiqua';color:#000000">&#160;in a case such as the present lies in the following: it highlights that a section 36 claim will fail where it is unsupported by material-specific evidence; it emphasises the importance of the Tribunal&#8217;s scrutiny of the withheld information itself; and it illustrates how the nature and extent of the material bear directly on the assessment of prejudice. Conversely, where, as here, the Tribunal has inspected the material, received detailed evidence directed to its content, and is satisfied that the characteristics of the information provide a concrete basis for the claimed inhibition, the deficiencies identified in&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Garrard</span><span style="font-family:'Book Antiqua';color:#000000">&#160;do not arise. In those circumstances,&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Garrard</span><span style="font-family:'Book Antiqua';color:#000000">&#160;does not carry persuasive weight towards allowing the appeal, but instead serves to clarify why a more fully evidenced case can properly lead to a different conclusion. In those circumstances, </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Garrard </span><span style="font-family:'Book Antiqua';color:#000000">does not assist the Appellant and instead illustrates why an absence of material-specific evidence may be decisive in other case, but is not so here. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The Public Interest Balance</span></heading>
+	  <paragraph eId="para_69">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal turns to the public interest balance as at the date of refusal in June 2024. It accepts the Appellant&#8217;s submission that the public interest in disclosure is exceptionally strong. The scale of the inaccuracies, the ethical sensitivity of animal experimentation regulation, and the importance of maintaining public confidence in the effectiveness and integrity of regulatory oversight are all powerful factors weighing in favour of disclosure. It further accepts that transparency regarding such failures is important to maintaining confidence in the integrity of regulatory oversight. Disclosure would enable public understanding of how the failures occurred, were addressed and whether regulatory safeguards are adequate. The Tribunal therefore give significant weight to the public interest in transparency where disclosure promotes accountability for institutional error. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant submits that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The preliminary assessment in the submission was official-led and not independently ministerial, representing a flaw that tips the balance towards transparency&#8221;. </span><span style="font-family:'Book Antiqua';color:#000000">This submission is directed not to the identification of the public interests themselves, but to the weight properly to be afforded to the qualified person&#8217;s opinion within the balancing exercise. It is said that, because the process was in substance official-led rather than reflecting an independent ministerial judgment, the opinion attracts reduced weight, thereby diminishing the force of the public interest in maintaining the exemption. As indicated above we do not accept the submission that the process was not &#8216;independently ministerial. As such, we are not persuaded by this submission. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal also accepts the Appellant&#8217;s submission that independent audit reports perform a distinct and important accountability function which is not necessarily replicated by explanatory materials prepared by the regulator itself. A published explanatory note, while plainly of significance, does not inevitably constitute a substitute for the disclosure of the underlying audit reports. The role of an independent audit lies in providing structured, critical, and evaluative scrutiny which is qualitatively different from a narrative account produced for publication. Accordingly, the Tribunal accepts that the existence of such a note does not exhaust the public interest in transparency, and that disclosure would &#8216;deepen rather than duplicate&#8217; the transparency already achieved through the explanatory material. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Further, the Tribunal accepts that redaction is, in principle, a relevant and important alternative to blanket withholding. It is capable, in appropriate cases, of reducing the weight to be attached to maintaining an exemption, particularly where the principal concern relates to the protection of personal data or the identification of individuals. The Tribunal has therefore carefully considered whether proportionate redaction could achieve an appropriate balance between transparency and the protection of the interests underlying section 36.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We note the Appellant&#8217;s submission that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">While there is a legitimate public interest in protecting candid internal discussion, the Home Office has not demonstrated that disclosure of retrospective audit material would cause real or substantial inhibition. The retrospective nature of the audits, combined with the implementation of their recommendations, significantly reduces any remaining sensitivity&#8221;. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">However, having considered the evidence, including inspection of the reports, the Tribunal accepts the Second Respondent&#8217;s submission that the public interest in maintaining section 36 in this case is not confined to the protection of individual identities. The reports contain frank evaluative analysis, including the allocation of responsibility by reference to teams, functions, and operational roles, as well as candid assessments of performance and systemic shortcomings. The Tribunal is satisfied that the character of this material engages the core concerns underpinning section 36, namely the protection of a space in which advice and views for the purposes of deliberation may be expressed with candour.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal accepts that the prejudice relied upon is both real (and not merely speculative) and properly predictive in nature. It is not suggested that the audits themselves would be retrospectively inhibited; rather, the concern is that disclosure would be likely to inhibit the candour, completeness, and engagement found in future internal audit and assurance processes. The Tribunal accepts that this forward-looking consideration is a legitimate and well-recognised basis for reliance on section 36, and that the risk is not merely speculative but is grounded in the nature of the material and the realities of how internal assurance functions operate, particularly within a relatively small and specialist regulatory context. The Tribunal is satisfied that this risk is supported by evidence as to the manner in which such audit processes operate and the reliance placed upon candid internal evaluation within those processes. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In that regard, the Tribunal accepts that the protection afforded by section 36 extends beyond live policy formulation to encompass candid internal evaluation and governance processes designed to improve institutional performance. The maintenance of such processes, including a &#8220;no blame&#8221; culture conducive to frank appraisal, attracts substantial weight in the public interest balancing exercise. The Tribunal is satisfied that disclosure of the reports, even in redacted form, would be likely to have a chilling effect on the tone and substance of future audits, including the willingness of contributors to engage fully and candidly. The Tribunal accepts that the retrospective nature of the audits reduces, but does not remove, the weight to be accorded to maintaining a protected space for candid internal evaluation</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has given careful consideration to whether redaction could adequately mitigate these concerns. It accepts that redaction would be capable of removing explicit personal identifiers and that the Appellant has indicated a willingness to accept such an approach. However, the Tribunal is not persuaded that redaction would sufficiently address the identified prejudice. The Tribunal has also considered whether any meaningful partial disclosure&#8212;such as extraction of high-level findings or anonymised thematic conclusions&#8212;could be achieved. It is satisfied that such an approach would not avoid the inhibition identified, given that the evaluative structure and attribution of responsibility are integral to the reports as a whole. The risk in this case is bound up not simply with the naming of individuals, but with the evaluative tone of the reports and the attribution of responsibility by role and function. Even with names removed, there remains a real likelihood that those familiar with the operational context would be able to infer identities, and, more broadly, that the expectation of disclosure would alter the manner in which such evaluations are expressed in the future. The Tribunal is satisfied that the prejudice identified is inherent in the evaluative character and structure of the reports, rather than confined to particular passages or identifiers, such that redaction would not remove the substance of the inhibition risk. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal also takes into account that a substantial degree of transparency has already been placed in the public domain through the publication of the Explanatory Note and associated corrections, which acknowledge the errors identified and describe the corrective measures taken and their implementation. While this does not eliminate the public interest in disclosure of the full audit reports, it is relevant to the weight to be accorded to the marginal transparency gains that such disclosure would secure when set against the potential harm to the effectiveness of future audit processes. The Tribunal does not treat the Explanatory Note as a substitute for the reports, but as a factor reducing the marginal additional insight likely to be gained from disclosure when weighed against the identified harms.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This is a finely balanced case. The decisive factor is the Tribunal&#8217;s finding that the inhibition risk affects not merely peripheral aspects of the reports, but their central evaluative function, including the candid identification of shortcomings and attribution of responsibility. The Tribunal has fully recognised the force of the Appellant&#8217;s arguments as to accountability and transparency, including the distinct value of the audit reports and the limitations of summary material. Nevertheless, for the reasons set out above, the Tribunal concludes that the countervailing public interest in maintaining the exemption&#8212;specifically, in preserving the candour, integrity, and effectiveness of internal audit and assurance processes&#8212;carries substantial weight and, on balance, marginally outweighs the public interest in disclosure. In reaching that conclusion, the Tribunal has not treated any single factor as determinative but has weighed the competing considerations cumulatively and in the round. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">80.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Finally, for the avoidance of doubt, the Tribunal records that it has&#160;not&#160;treated section 36 as a blanket basis for withholding internal scrutiny material, nor has it proceeded on the footing that disclosure is inherently inimical to accountability. The Tribunal&#8217;s conclusion is specific to the&#160;particular information&#160;in issue in this appeal, reached after inspecting the withheld reports, considering OPEN submissions and evidence, and considering the gist of the CLOSED session, and applying the structured approach required by the authorities to the reasonableness threshold and the public interest balance. The Tribunal has also not relied upon any private panel deliberations or discussion notes as evidence or reasoning; the determination is grounded solely in the material properly before the Tribunal and set out in these reasons and the Tribunal&#8217;s own assessment of the withheld material.&#160;</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Fairness and the CLOSED Procedure</span></heading>
+	  <paragraph eId="para_81">
+	    <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">81.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">For completeness, the Tribunal confirms that it is satisfied that the CLOSED procedure adopted was fair and proportionate. It was necessary to avoid defeating the purpose of the proceedings and to enable the Tribunal to inspect the withheld reports. A gist was provided and the Appellant&#8217;s counsel was afforded the opportunity to make further submissions in response after the CLOSED session, consistent with the hearing structure described in the open hearing notes and the provision of a gist recorded in the closed gist document.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Conclusion</span></heading>
+	  <paragraph eId="para_82">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">82.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">For these reasons, the Tribunal concludes that section 36(2)(b)(i) and (ii) FOIA is engaged; that the opinion of the qualified person was reasonably held; and that the public interest in maintaining the exemption outweighs the public interest in disclosure. The appeal is therefore dismissed.&#160; </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Apple Chancery'">Judge Kiai</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-05-28" refersTo="#decision"><span style="font-family:'Apple Chancery'">28</span><span style="vertical-align:super;font-size:smaller;font-family:'Apple Chancery'">th</span><span style="font-family:'Apple Chancery'"> May 2026</span></docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

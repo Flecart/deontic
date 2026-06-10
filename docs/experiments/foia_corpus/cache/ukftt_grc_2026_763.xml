@@ -1,0 +1,1589 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/763"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/763"/>
+	  <FRBRdate date="2026-05-22" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="763"/>
+	  <FRBRname value="The Cabinet Office v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/763"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/763"/>
+	  <FRBRdate date="2026-05-22" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/763/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/763/data.xml"/>
+	  <FRBRdate date="2026-05-22T14:57:32" name="transform"/>
+	  <FRBRdate date="2026-05-22T16:08:57" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-03-06" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-05-22" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="the-cabinet-office" href="" showAs="THE CABINET OFFICE"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="ben-kingsley" href="" showAs="BEN KINGSLEY"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>763</uk:number>
+	<uk:cite>[2026] UKFTT 763 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.8.1</uk:parser>
+	<uk:hash>e1ea42975ac58f725f90153ed18f63494a6ead8989d93009427aea58b7792b76</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NoSpacing { font-size: 11pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .numberedreasons0 { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .msoins0 { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p class="Header"><span style="font-family:'Book Antiqua';font-size:10pt;color:#92D050">FT/EA/2025/0001 - OPEN DECISION AND REASONS</span></p>
+    </coverPage>
+    <header>
+      <p><img src="image1.png" style="width:95.59pt;height:61.6pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00763 (GRC)</neutralCitation></p>
+      <p><span style="font-family:'Book Antiqua'">                                                                                                       Case Reference: </span><span style="font-weight:bold;font-size:11pt">FT/EA/2025/0001</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard at: Field House, London</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: 5</span><span style="font-weight:bold;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-weight:bold;font-family:'Book Antiqua'"> and </span><docDate date="2026-03-06" refersTo="#hearing"><span style="font-weight:bold;font-family:'Book Antiqua'">6</span><span style="font-weight:bold;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-weight:bold;font-family:'Book Antiqua'"> March 2026</span></docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-05-22" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">22 May 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">CHAMBER PRESIDENT, JUDGE O&#8217;CONNOR</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE DWYER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">TRIBUNAL MEMBER GASSTON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#the-cabinet-office" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">tHE CABINET OFFICE</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#ben-kingsley" style="font-weight:bold;font-family:'Book Antiqua'">BEN KINGSLEY</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Robin Hopkins &amp; Gethin Thomas</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent: Joseph Lavery</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Second Respondent: James Maurici KC &amp; Si&#226;n McGibbon</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Direction made under Rule 14 of the Tribunal Procedure (First-tier Tribunal (General Regulatory Chamber) Rules:</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Unless and until a Tribunal or Court directs otherwise, this document shall not be provided in any form to any person or body other than the Appellant and the</span><span style="font-weight:bold;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'"/><span style="font-weight:bold;font-family:'Book Antiqua'">First Respondent to this appeal, and their legal representatives. Any application to widen the scope of the persons or bodies to whom this document can be provided, must be made in writing and attach a Draft Order.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Failure to comply with this direction could lead to contempt proceedings.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is </span><span style="font-weight:bold;font-family:'Book Antiqua'">DISMISSED</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua'">1.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">This appeal is brought by the Cabinet Office (&#8220;CO&#8221;) against a decision of the Information Commissioner (&#8220;the Commissioner&#8221;) of 4 November 2024 (referenced IC-309680-Q9V0). The decision in this appeal is unanimous and is one to which all members of the panel have contributed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua'">2.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The appeal concerns a request by Mr Kingsley for the disclosure of legal advice provided to the Government in March 2020, regarding social distancing measures and the closure of social venues in response to the Covid-19 pandemic (&#8220;the Pandemic&#8221;).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua'">3.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">On 15 March 2020, the Department of Health and Social Care&#8217;s (&#8220;DHSC&#8221;) legal advisers provided legal advice on social distancing measures that could be instituted by the Government. CO legal advisers provided the Government with legal advice on the subject of mandatory closure of social venues on 20 March 2020. Although there are two separate pieces of legal advice relevant to this appeal, for the sake of convenience, in the decision we will refer to them as &#8220;the Legal Advice&#8221;. </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Mr Kingsley&#8217;s Request and CO&#8217;s Response</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua'">4.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">On 5 December 2023, Mr Kingsley submitted the following request to the CO (&#8220;the Request&#8221;): </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.39in"><span style="font-size:11pt">&#8220;&#8230;Please could you provide me with a copy of the legal advice provided in or around March 2020 to Government Ministers, including the then Cabinet Office Minister Rt Hon Michael Gove MP, which addressed the legislative basis on which the Government could or should order the first national Covid-related lockdown in late March 2020. If no such advice was ever provided in writing, please confirm this in your response.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.39in"><span style="font-size:11pt">Please also provide any closely related ancillary communications, including for example any record of a meeting in which that advice was provided to or discussed with Ministers, and any accompanying explanatory papers or presentations or other non-public source documents referenced therein which are pertinent to the legal advice.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.39in"><span style="font-family:Verdana;font-size:11pt;color:#000000">The existence of advice from government lawyers on the question of whether the statutory threshold for exercising powers under the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/36" uk:canonical="2004 c. 36" uk:origin="TNA" uk:type="legislation">Civil Contingencies Act 2004</ref> had been met was explicitly referenced by Mr Gove in his oral evidence to the UK Covid Inquiry on Tuesday 28 November (see page 112 of the official transcript of his evidence). Mr Gove revealed the main substance of that advice in his public evidence when he said, "And the general view was that, as I say, a terrorist attack, by definition, would be unforeseen but the gathering storm of a pandemic might not meet that threshold".</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.39in"><span style="font-family:Verdana;font-size:11pt;color:#000000">Though the Government may originally have sought to resist disclosure of that advice on the grounds that it is privileged advice (s.42, FOIA), by revealing the main substance or gist of that legal advice in a public forum, and moreover by putting the content of the advice at issue by referencing it to explain the state of mind of key decision-makers at that time, including himself, Mr Gove has waived legal professional privilege in that advice.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.39in"><span style="font-family:Verdana;font-size:11pt;color:#000000">Even if privilege had not been waived, by discussing the substance and context of the advice at a public inquiry, on a topic of manifest material public interest (a legally significant aspect of a pivotal moment in recent national history, specifically raised by the lead counsel in a public inquiry into that period of history), Mr Gove would have put beyond doubt that the public interest in disclosing that advice outweighs any public interest in maintaining it as exempt information (s.2(2), FOIA). ...&#8221; </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua'">5.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Given its necessity to the understanding of what is said below it is prudent at this stage to interpose the material details of Lord Gove&#8217;s (as he is now) evidence to the UK Covid-19 Inquiry (&#8220;the Inquiry&#8221;), as referenced in Mr Kingsley&#8217;s request for information. Lord Gove was the Chancellor of the Duchy of Lancaster and Minister for the Cabinet Office at the time the Government were discussing pandemic response measures in March 2020, and he remained in those roles until September 2021.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua'">6.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The Inquiry was established to examine the UK&#8217;s response to, and impact of, the Pandemic. It began work on 22 June 2022. Lord Gove gave oral evidence to the Inquiry on 28 November 2023. Evidence was given in response to questions directed at why the Government did not use the CCA in response to the Pandemic, but instead used the <ref href="http://www.legislation.gov.uk/id/ukpga/1984/22" uk:canonical="1984 c. 22" uk:origin="TNA" uk:type="legislation">Public Health (Control of Disease) Act 1984</ref> (&#8220;the PHA&#8221;) and then, when it came into force, the <ref href="http://www.legislation.gov.uk/id/ukpga/2020/7" uk:canonical="2020 c. 7" uk:origin="TNA" uk:type="legislation">Coronavirus Act 2020</ref> (&#8220;the Coronavirus Act&#8221;):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">&#8220;Q. There is also a provision in <ref href="http://www.legislation.gov.uk/id/ukpga/2020/7" uk:canonical="2020 c. 7" uk:origin="TNA" uk:type="legislation">the Act</ref>, is there not, which requires the event, in respect of which one is passing the regulations, to be unforeseen? </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">A. Yes. </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">Q. So, in essence, a judgement call was taken that this was a step too far. It was the nuclear option, it had never been used, this was not the time to do it? </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">A. Precisely so. And the unforeseen element is, again, it's debatable, and we did have that debate with government lawyers, to what extent was the pandemic unforeseen? And the general view was that, as I say, a terrorist attack, by definition, would be unforeseen but the gathering storm of a pandemic might not meet that threshold.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua'">7.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The CO responded to Mr Kingsley&#8217;s request on 5 February 2024 (&#8220;the Response&#8221;). In relation to the Legal Advice, it confirmed that it held the requested information but concluded that the section 42 exemption applied. Privilege had not been waived because whilst Lord Gove had <span style="font-style:italic">&#8220;referred to the existence of the advice, the advice itself remains legally privileged&#8221;</span>. The public interest was not in favour of disclosing the advice. The CO also relied upon <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/35/1" uk:canonical="2000 c. 36 s. 35" uk:origin="TNA" uk:type="legislation">section 35(1)</ref>(b) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) at this juncture (Ministerial Communications), again concluding that the public interest favoured maintaining the exemption. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua'">8.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Kingsley requested an internal review on 26 February 2024, averring that section 42 did not apply because privilege had been waived and, in any event, the public interest favoured disclosure. In relation to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/35/1" uk:canonical="2000 c. 36 s. 35" uk:origin="TNA" uk:type="legislation">section 35(1)</ref>(b), Mr Kingsley did not contest that this applied to communications between Ministers but requested disclosure of relevant material that was not communication between Ministers. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua'">9.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">By way of a response of the 14 May 2024, the CO maintained that privilege had not been waived and that the public interest did not favour disclosure. The review also explained that the CO had not identified any &#8216;closely related ancillary communications&#8217; which were not exempt under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/35/1" uk:canonical="2000 c. 36 s. 35" uk:origin="TNA" uk:type="legislation">section 35(1)</ref>(b) FOIA. </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Complaint and the Commissioner&#8217;s Decision</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua'">10.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Kingsley made a complaint to the Commissioner, disputing the CO&#8217;s reliance on section 42(1) FOIA, asserting that privilege had been waived and that the public interest favoured disclosure of the legal advice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua'">11.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In a decision of 4 November 2024 (&#8220;the Decision Notice&#8221;), the Commissioner concluded that legal privilege had not been waived, and that the public interest favoured disclosure of the legal advice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua'">12.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In relation to the ancillary advice, the Commissioner upheld the CO&#8217;s conclusion that there were no such communications that are disclosable under FOIA. Mr Kingsley did not appeal this finding, and the parties did not seek to persuade the Tribunal that it should give consideration to this aspect of the Decision Notice. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua'">13.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">As a consequence of the above conclusions, the Commissioner required the CO to <span style="font-style:italic">&#8220;provide [Mr Kingsley] with a copy of the information it has withheld on the basis of section 42(1) of FOIA&#8221;</span> within 30 days of the date of the Decision Notice. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua'">14.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The CO now appeals this Decision Notice. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua'">15.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">During the course of the Tribunal proceedings, the CO disclosed a redacted copy of the DHSC&#8217;s advice of 15 March 2020. </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Issues before the Tribunal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua'">16.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The issues to be determined by the Tribunal are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">i)</num>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:0.75in">Has privilege in the Legal Advice been waived, such that section 42(1) of FOIA is not engaged.</p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:0.75in">Mr Kingsley says privilege has been waived. The CO and the Commissioner contend that it has not. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">ii)</num>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.12in">If the answer to (i) is no, and the exemption is engaged; does <span style="font-family:'Book Antiqua';color:#000000">the public interest in maintaining the exemption outweigh the public interest in disclosing the Withheld Information?</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:0.75in">Mr Kingsley and the Commissioner contend that the public interest favours disclosure. The CO asserts that it does not. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Legislative Background</span></heading>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua'">17.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The relevant provisions of FOIA are as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt;color:#000000">&#8220;Section 1</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt;color:#000000">General right of access to information held by public authorities.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua';font-size:11pt">(1)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">Any person making a request for information to a public authority is entitled-</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua';font-size:11pt">(a)</num>
+		    <content>
+		      <p style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">To be informed in writing by the public authority whether it holds </span><marker name="tab"/><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">information of the description specified in the request, and</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua';font-size:11pt">(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">If that is the case, to have that information communicated to him.</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.39in;margin-right:0.79in;text-indent:0.39in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">...</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt;color:#000000">Section 2</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.39in;margin-right:0.79in;text-indent:0.39in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt;color:#000000">Effect of the exemptions in Part II</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.39in;margin-right:0.79in;text-indent:0.39in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">&#8230;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua';font-size:11pt">(3)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">In respect of any information which is exempt information by virtue of any provision of Part II, section 1(1)(b) does not apply if or to the extent that-</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua';font-size:11pt">(a)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">The information is exempt information by virtue of a provision conferring absolute exemption, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua';font-size:11pt">(b)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">In all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <intro>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt;color:#000000">Section 42</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt;color:#000000">Legal professional privilege</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.79in">(1)</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.38in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">Information in respect of which a claim to legal professional privilege or, in Scotland, to confidentiality of communications could be maintained in legal proceedings is exempt information.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua'">18.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The list of absolute exemptions is contained in section 2(3) FOIA. That list does not contain section 42 and, therefore, section 42 is a qualified exemption, which means that it only applies if, in all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information (s.2(2)(b)).</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The jurisdiction of the Tribunal on an appeal from the Commissioner </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua'">19.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">On appeal to the Tribunal, it must decide if the Commissioner&#8217;s Decision Notice is in accordance with the law (s.58 FOIA). The Tribunal exercises a full merits jurisdiction over the Commissioner&#8217;s judgment, including as to where the public interest balancing test is to be struck. It is for the Tribunal, if necessary, to restrike that balance afresh - see the decision of a three judge panel of the Upper Tribunal in <span style="text-decoration-line:underline;text-decoration-style:solid">IC v Malnick and ACOBA</span> [2018] AACR 29, at paragraphs [45]-[46] and [90].</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Documentation and Evidence &#8211; a summary</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua'">20.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">For the purposes of determining this appeal we have considered all of the material provided, whether or not specifically referred to in this judgment. The OPEN bundle consists of 710 pages, including the OPEN Grounds of Appeal, OPEN Response of the Commissioner, Mr Kingsley&#8217;s Reply, various correspondence and case management directions, and the OPEN Witness Statement of Roger Hargreaves - a senior civil servant and the Director of the COBR Directorate, a post he assumed in July 2022. From October 2020, Mr Hargreaves was the Director of the Civil Contingencies Secretariat within the CO. He has been a civil servant for 28 years. The CLOSED bundle includes the withheld Legal Advice, a confidential annex to the Decision Notice, CLOSED Grounds of Appeal and Response, the witness statement of Roger Hargreaves, and the CLOSED correspondence between the CO and the Commissioner. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua'">21.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The Tribunal was helpfully provided with an Authorities Bundle, and all parties provided a skeleton argument in advance of the hearing. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua'">22.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Further written material was provided on the second day of the hearing which consisted of the Civil Service Code, sections of the <ref href="http://www.legislation.gov.uk/id/ukpga/2005/12" uk:canonical="2005 c. 12" uk:origin="TNA" uk:type="legislation">Inquiries Act 2005</ref> and FOIA, extracts of the report on Modules 2, 2A, 2B and 2C from the Chair of the UK Covid-19 Inquiry, and the decision of the Court of Appeal in <span style="text-decoration-line:underline;text-decoration-style:solid">James Stanley Prest v The Secretary of State for Wales &amp; The Welsh Water Authority</span> 1983 WL 215478. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua'">23.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The Tribunal also considered the recent Upper Tribunal decision of <span style="text-decoration-line:underline;text-decoration-style:solid">Cabinet Office v Information Commissioner and Peagram</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2026/144" uk:canonical="[2026] UKUT 144 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2026">[2026] UKUT 144 (AAC)</ref><span style="font-style:italic">,</span> which was promulgated after the hearing. We did not consider it necessary to seek further submissions from the parties in relation to this decision, the issues before this Tribunal being wholly different to those under consideration in <span style="text-decoration-line:underline;text-decoration-style:solid">Peagram</span>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua'">24.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The CO gave evidence through the OPEN and CLOSED witness statements of Roger Hargreaves. Mr Hargreaves also gave oral evidence in both OPEN and CLOSED session at the hearing.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua'">25.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Hargreaves explained in his statement that one of the principal purposes of the COBR directorate is to ensure that Ministers and senior officials can make effective decisions during times of acute civil contingency or national security emergency. He did not work in the team at the time the Legal Advice was obtained but joined COBR in the autumn of 2020. During a crisis situation, COBR and the lead government department that owns the risk will seek advice from their departmental lawyers. Mr Hargreaves submits that he has extensive experience of the commission and use of legal advice in a wide variety of government contexts and understands the different contexts in which government uses legal advice. During 2002 to 2006, Mr Hargreaves led the team delivering the CCA.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua'">26.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In response to the increasing crisis of the Pandemic, a COBR meeting on 5 March 2020, co-chaired by the Prime Minister Boris Johnson and Cabinet Secretary Mark Sedwill, and a cross-governmental meeting on 6 March, discussed the need to develop policy options to delay the virus. On 7 March 2020, CCS Control commissioned policy advice from the DHSC on the potential impacts of the intervention options available, which was provided on the 15 March 2020. Various measures were implemented from 16 to 20 March 2020. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua'">27.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">On 18 March 2020, SAGE advised that the agreed packages of non-pharmaceutical interventions would have a significant effect with good compliance rates, but additional measures would be needed if compliance rates were low. On 20 March 2020, COBR decided to implement measures for the mandatory closure of various social venues, such as pubs, restaurants, and gyms, as well as schools. CO legal advisers provided legal advice on the same date, in advance of the COBR meeting. The publicly available minutes of the COBR meeting record that the following discussion was made during a wider discussion: <span style="font-style:italic">&#8220;the CCA could not be used as this is not an unforeseen event, and the PHA was recommended instead.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua'">28.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The UK Government implemented mandatory non-pharmaceutical interventions through a bespoke bill, the Coronavirus Bill. The <ref href="http://www.legislation.gov.uk/id/ukpga/2020/7" uk:canonical="2020 c. 7" uk:origin="TNA" uk:type="legislation">Coronavirus Act 2020</ref> received Royal Assent on 25 March 2020. Thereafter, the UK Government&#8217;s response to the Pandemic evolved, and remained under constant review.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua'">29.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Hargreaves explains that the provision of timely legal advice is a key way in which uncertainty is reduced. Decision makers need to know what options are legally permissible. Anything which inhibits the ability or confidence of Government to seek this advice at pace, such as fear that it might be disclosed &#8211; would lead to more uncertainty, worse decisions, and thus materially damage the Government&#8217;s ability to respond to crisis. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua'">30.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In relation to the public interest in disclosing the advice, Mr Hargreaves opines that the UK Government has publicly explained its decision not to employ secondary legislation-making powers under the CCA, for example parliamentary debate during the passage of the Coronavirus Bill and the Government&#8217;s response to various Committees and Inquiries, in particular, the Inquiry. There has already been significant scrutiny of the UK Government&#8217;s decision not to rely upon the CCA, including during the passage of the Coronavirus Bill in March 2020, as well as by various Parliamentary committees thereafter, and the Inquiry. Mr Hargreaves notes that it was open to the Inquiry to request any legal advice given to Government, but it chose not to. There has also been a comprehensive review of the CCA as a whole in 2022, to establish whether it achieves its aims.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua'">31.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The contention that the CCA should have been used to impose lockdown-type restrictions in place of the PHA was tested and rejected by the Court of Appeal in <span style="text-decoration-line:underline;text-decoration-style:solid">R. (on the application of Dolan) v Secretary of State for Health and Social Care</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1605" uk:canonical="[2020] EWCA Civ 1605" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 1605</ref> (&#8220;Dolan&#8221;), in which the Court of Appeal concluded that whilst it may have been open to the Secretary of State to make the 2020 Regulations under the CCA, it does not follow that he was required to do so; nor that he is somehow prevented from using the powers which Parliament has conferred by the PHA. The Court of Appeal&#8217;s judgment was made when the issues were still live, 3 years prior to Mr Kingsley&#8217;s FOIA request. As such, Mr Hargreaves opines that the Commissioner&#8217;s submission that disclosure of the Legal Advice may help to inform debate about the adequacy of the powers conferred by the CCA, does not account for the ventilation of the matter before the Court of Appeal. The key issue - whether or not the PHA is available to respond to a situation such as a major pandemic, has been determined.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua'">32.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Passages in this OPEN witness statement were redacted. In unredacted form, this document formed Mr Hargreaves&#8217; CLOSED witness statement. Further details of the evidence provided in the CLOSED witness statement are set out in the CLOSED Decision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua'">33.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Hargreaves also gave oral evidence to the Tribunal in both OPEN and CLOSED session. Under cross-examination in the OPEN session, Mr Hargreaves explained that his reading of the FOIA request was for advice relating to lockdowns, not advice specifically relating to Lord Gove&#8217;s evidence to the Inquiry. His understanding is that the Inquiry was looking at why the CCA was not used. Whilst Lord Gove has stated that the events must be unforeseen for the CCA to used, the statement leaves open the possibility that there may have been other reasons why it was not used and his use of the word unforeseen is not necessarily accurate. For the CCA to be used, various conditions must be satisfied: foreseeability is not one of them. It is assumed Lord Gove used the term &#8216;unforeseen&#8217; colloquially, but Mr Hargreaves cannot say what was in Lord Gove&#8217;s mind at the time he was giving evidence to the Inquiry. Mr Hargreaves also observed that the Inquiry had not asked for the Legal Advice. He accepted that they could not compel production of the advice but averred that the Inquiry would not have been slow in saying the advice was material, if it thought this.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua'">34.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Other speeches relating to the conditions of usage of the CCA were shown to Mr Hargreaves. Mr Hargreaves stated that the points had been debated for 20 years, everyone is referring to well understood points &#8211; the basic mechanics of <ref href="http://www.legislation.gov.uk/id/ukpga/2020/7" uk:canonical="2020 c. 7" uk:origin="TNA" uk:type="legislation">the Act</ref>. The correct consideration is &#8216;emergency&#8217;, and it could be that Lord Gove is referring to the urgency and necessity elements of the test. The debate as to which powers to use was never led by legality, the purpose of the COBR meetings is to determine the right thing to do.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua'">35.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">It was put to Mr Hargreaves that the issue of whether the PHA powers used were to avoid scrutiny is important to public debate, it being observed that use of the CCA would provide more parliamentary scrutiny and by using the PHA there was no room for consideration by Parliament of the Regulations. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua'">36.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Hargreaves stated the regulation making powers were scrutinised by Parliament. The government has the power to make the Regulations. There was no avoidance of scrutiny. The pros and cons of lockdown were debated. The public have the right to challenge the use of the power by the government by way of judicial review, if it has used a power improperly or unlawfully. There are pros and cons to using the CCA, all of which were considered.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua'">37.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Hargreaves continued by asserting that there would be a &#8216;chilling effect&#8217; if the legal advice were to be disclosed. Advice given in a moment of crisis needs judgements to be made quickly. Advice is delivered at pace and sometimes on the spot verbally. It is different in character to what would normally be expected. Mr Hargreaves explained this further by way of example; when war planes are in the air, the criticality of time means ordinary processes are not available to legal advisers or other advisers. It is a difficult operating environment. They are exposed and make their best effort. If they know that further down the line this might be second guessed, it will have a substantial chilling effect as they may wish to delay or seek second opinions, and the Government could not receive advice in the moment. Advisors seek solace that advice given at pace forms part of a closed discussion, and to disclose it could lead to unfair criticism.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua'">38.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Hargreaves was asked whether this was consistent with the Civil Service Code. In response, Mr Hargreaves gave an example of the sort of behaviour that might change in an emergency, with a lawyer providing advice wanting to test the opinion with a senior lawyer in &#8216;peace time&#8217; but not having time to do this in an emergency. If there was a fear of the advice being disclosed, lawyers would revert to &#8216;peace time&#8217; models, in an emergency situation. There may be criticism of the advice given in an emergency without an understanding of the context within which the advice was given. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua'">39.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">It was suggested to Mr Hargreaves that, given the Legal Advice was developed at pace, if there was a future emergency it is unlikely that the government would go back and consider the advice &#8211; the Government would ask for new advice. Mr Hargreaves averred that &#8216;what goes before tends to be the starting point for what we do next&#8217;. At the point in time of Mr Kingsley&#8217;s request, the Government would have relied on the advice, although the Inquiry outcomes have subsequently led to &#8216;new planning&#8217;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua'">40.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Hargreaves contended that there has been complete scrutiny of the Government&#8217;s actions and the use of powers, by the Inquiry and the CCA review. The review of the CCA in 2022 looked at the mechanism and whether it still worked and was fit for purpose. Whenever legislation is passed there is parliamentary scrutiny. The Inquiry has looked at everything pertinent to the issue of why certain powers were used. There will be significant lessons learned for the Government from the Inquiry report and will most likely make a difference to future pandemic planning. Whilst the Inquiry does not have a monopoly on the issue, they are the focal point for national consideration. If the Inquiry had thought the legal advice important to their investigation, they would not have been slow in saying it or requesting it. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua'">41.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Hargreaves also gave evidence in a CLOSED session. Details are provided in the CLOSED judgment. The following gist of the CLOSED session was provided to Mr Kingsley:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt;font-family:'Book Antiqua'">&#8220;1.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.98in;margin-right:0.79in"><span style="font-size:11pt">The session started with Mr Hopkins taking the Tribunal through the contents of the CLOSED bundle.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;font-family:'Book Antiqua'">2.</num>
+		    <intro>
+		      <p class="NumberedReasons" style="margin-left:0.98in;margin-right:0.79in"><span style="font-size:11pt">Mr Lavery cross-examined Mr Hargreaves on:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:11pt;font-family:'Book Antiqua'">a.</num>
+		      <content>
+			<p class="NumberedReasons" style="margin-left:1.08in;margin-right:0.79in;text-indent:0.42in"><span style="font-size:11pt">The process and timings of the production of the Advice;</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt;font-family:'Book Antiqua'">b.</num>
+		      <content>
+			<p class="NumberedReasons" style="margin-left:1.08in;margin-right:0.79in;text-indent:0.42in"><span style="font-size:11pt">Specific parts of the Advice itself.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;font-family:'Book Antiqua'">3.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.98in;margin-right:0.79in"><span style="font-size:11pt">Under cross examination, Mr Hargreaves confirmed that neither Advice had a named author attributed to it.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;font-family:'Book Antiqua'">4.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.98in;margin-right:0.79in"><span style="font-size:11pt">In re-examination, Mr Hopkins asked about the role played by these Advices in governmental decision-making, and the consequences if Advice of this nature were published.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;font-family:'Book Antiqua'">5.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.98in;margin-right:0.79in"><span style="font-size:11pt">Mr Hargreaves&#8217; answers referred to the Withheld Material.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Discussion and Conclusions</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Waiver of privilege</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua'">42.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We first consider whether Lord Gove&#8217;s answer to the Inquiry amounts to a waiver of the legal professional privilege attached to the legal advice falling within the scope of Mr Kingsley&#8217;s request. If privilege is waived, then section 42(1) does not apply, and the Legal Advice must be disclosed. In such circumstances, there is no need to apply the public interest test. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua'">43.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Although we have partially set this out above, it is prudent to begin our analysis by identifying the evidence provided by Lord Gove to the Inquiry, that has led to the need for consideration to be given to the issue of waiver. On 28 November 2023, Lord Gove was asked the following question by counsel to the inquiry:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Book Antiqua';font-size:11pt">&#8220;The United Kingdom Government had on the statute books the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/36" uk:canonical="2004 c. 36" uk:origin="TNA" uk:type="legislation">Civil Contingencies Act 2004</ref> which had a never used provision that allowed it to produce emergency regulations, which would require governors being appointed for parts of the United Kingdom.  It also had on its statute books the Public Health (Control of Disease) Act as well as the new Coronavirus Act which came to pass. Why did the Government not use the Civil Contingencies Act?  Why did it use the Public Health (Control of Disease) Act and then, when it came into force, the Coronavirus Act?&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua'">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:'Book Antiqua'">Lord Gove&#8217;s answer was as follows</span>:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Book Antiqua';font-size:11pt">&#8220;Several reasons. The Civil Contingencies Act was designed to deal with events like a terrorist attack which paralyses national infrastructure.  The powers within  it are draconian and to take that step, to cross that threshold, also requires a  Civil Contingencies Act to be actively renewed, and if it falls away, if the immediate nature of the crisis, the immediate sudden impact, as it were,  diminishes, then the case for maintaining it diminishes too. So it was thought better to have bespoke legislation&#8230; &#8220;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua'">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">There was then an exchange regarding the potential use of the CCA, which included the following:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span/><span style="font-size:11pt">&#8220;Q. There is also a provision in <ref href="http://www.legislation.gov.uk/id/ukpga/2004/36" uk:canonical="2004 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref>, is there not, which requires the event, in respect of which one is passing the regulations, to be unforeseen? </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">A. Yes. </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">Q. So, in essence, a judgement call was taken that this was a step too far. It was the nuclear option, it had never been used, this was not the time to do it? </span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-size:11pt;font-family:'Book Antiqua'">A.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-size:11pt">Precisely so. And the unforeseen element is, again, it's debatable, and we did have that debate with government lawyers, to what extent was the pandemic unforeseen? And the general view was that, as I say, a terrorist attack, by definition, would be unforeseen but the gathering storm of a pandemic might not meet that threshold.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';color:#1F1F1F">46.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#1F1F1F">Moving on to the applicable legal principles underlying consideration of the issue of waiver of legal professional privilege; the parties referred the Tribunal to various authorities in this regard but, in our view, we can do no better than recite the words of Mr Justice Waksman in</span><span style="font-style:italic;font-family:'Book Antiqua';color:#1F1F1F">&#160;</span><a class="Hyperlink" href="https://uk.westlaw.com/Document/I09F547F0AB0411EAAAFCFB2D34140F19/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;ppcid=bcd6705937ea457cb701e07e88fa023f&amp;contextData=(sc.Default)&amp;comp=wluk" style="font-family:'Book Antiqua';color:initial">PCP Capital Partners v Barclays Bank <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/comm/2020/1393" uk:canonical="[2020] EWHC 1393 (Comm)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWHC 1393 (Comm)</ref></a><span style="font-family:'Book Antiqua';color:#1F1F1F">, at [47] &#8211; [49]:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">"47.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">I begin with a number of overarching points.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">(1)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">Legal professional privilege is regarded as a fundamental right of the client whose privilege it is. The loss of that right through waiver is therefore to be carefully controlled;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">(2)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">Generally, privileged documents cannot be ordered to be provided in litigation by the party whose privilege it is unless this is as a result of a waiver;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">(3)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">Absent waiver, the fact that such documents might be highly relevant does not entail their production;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">(4)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">Applications for documents based on a waiver of privilege entail at least the two following fundamental questions:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">(a)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">Has there been a waiver of privilege?</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">(b)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.98in;margin-right:0.79in;text-indent:0.02in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">If so, is it appropriate to order production of privileged documents other than those to which reference has been made which was the foundation for the waiver?</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">(5)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">The concept of fairness underpins the rationale for having a concept of waiver which can then entail the production of further privileged documents. This is because if the party waiving is, by the waiver thereby creating a partial picture only of the relevant legal advice, it is unfair to the other party to allow him to 'cherry pick' in this way.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">(6)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">That said, it is also clear that the question of whether or not there has been a waiver is not to be decided simply by an appeal to broad considerations of fairness.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">48.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">As to the question of waiver itself, it is not easy to find a succinct and clear definition of when it arises&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">49.</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#1F1F1F">I give two examples of what is clearly not waiver. First, a purely narrative reference to the giving of legal advice does not constitute waiver. This is because, on any view, there is no reliance upon it in relation to an issue in the case. Nor does a mere reference to the fact of legal advice along these lines, "My solicitor gave me detailed advice. The following day I entered into the contract". That is not waiver, however tempting it may be to say that what is really being said is "I entered into the contract as a result of that legal advice". The corresponding point is that if that latter expression is used, then there will be waiver.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua'">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">At [50], Waksman J turned to : </span><span style="font-style:italic;font-family:'Book Antiqua'">"the vexed question which still confounds  the law of privilege, namely the idea that, quite apart from reliance, waiver cannot arise if the reference is to the "effect" of the legal advice as opposed to its "contents"."</span><span style="font-family:'Book Antiqua'">  In this regard, Waksman J said as follows at [60]:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#231F20">&#8220;&#8230;the application of the content/effect distinction, as a means of determining whether there has been a waiver or not, cannot be applied mechanistically. Its application has to be viewed and made through the prism of (a) whether there is any reliance on the privileged material adverted to; (b) what the purpose of that reliance is; and (c) the particular context of the case in question. This is an acutely fact-sensitive exercise. To be clear, this means that in a particular case, the fact that only the conclusion of the legal advice referred to is stated as opposed to the detail of the contents may not prevent there being a waiver.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua'">48.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The Tribunal&#8217;s analysis of the waiver issue can helpfully be subdivided as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:0.04in">a)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.29in">Does the concept of a waiver apply in the context of an Inquiry; and,</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.39in">b)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in">If so, does Lord Gove&#8217;s oral evidence to the Inquiry amount to a waiver of privilege on the facts of the case?</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua'">49.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Considering these in turn, we first conclude that, as a matter of law, legal privilege is capable of being waived in evidence given before an Inquiry. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua'">50.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In this regard, the CO submits, albeit in the briefest of terms, that the concept of waiver does not apply <span style="font-style:italic">&#8220;at least invariably&#8221;</span> in the context of an inquiry. Both Mr Kingsley and the Commissioner contend that concept of waiver is, as a matter of law, capable of applying to evidence given during an Inquiry. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua'">51.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The CO&#8217;s submission is founded on the distinction between the Court&#8217;s adversarial process, in which evidence is deployed in order to attempt to gain an advantage over another party to the litigation, and the inquisitorial nature of an inquiry, in which evidence is given to assist the inquiry and not to gain an advantage over an opponent. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua'">52.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Whilst we readily accept that cherry picking and fairness concerns are at the forefront of considerations of whether privilege has been waived through evidence given in adversarial proceedings, they do not function as absolutes in the assessment of the application of privilege &#8211; see, for example, <span style="text-decoration-line:underline;text-decoration-style:solid">PCP</span> at [47(6)]. Determining whether privilege has been waived is an acutely fact sensitive exercise. That the evidence in question was given during an inquisitorial process is relevant context, but not determinative as to the application of the principles of waiver.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua'">53.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We next turn to consider what, in substance, is the core issue, whether Lord Gove&#8217;s oral evidence to the Inquiry amounts to a waiver of privilege on the facts of this case. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua'">54.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The Request sets out the basis on which Mr Kingsley contends that privilege has been waived, noting that Lord Gove had &#8220;<span style="font-style:italic">revealed the main substance of that advice in his public evidence when he said "And the general view was that, as I say, a terrorist attack, by definition, would be unforeseen but the gathering storm of a pandemic might not meet that threshold</span>", and that in doing so &#8220;<span style="font-style:italic">in a public forum, and moreover by putting the content of the advice at issue by referencing it to explain the state of mind of key decision-makers at that time, including himself, the Rt Hon Michael Gove MP has waived legal professional privilege in that advice</span>&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua'">55.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Kingsley maintains that Lord Gove provided his view as to why the Government did not use the CCA, setting out his understanding of the law in the context of having a debate with government lawyers. It is averred that he went beyond mere reference to the advice and referred to the content of the Legal Advice. It is further maintained that it is possible that the evidence Lord Gove gave to the Inquiry did not accurately reflect the advice, in which case fairness requires that the advice be disclosed. This weighs heavily in favour of privilege being waived. Alternatively, if it is found that the evidence given to the Inquiry was only partial disclosure of the advice then, at the very least, redacted disclosure should be provided. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua'">56.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Attention was drawn to the Australian case of <span style="text-decoration-line:underline;text-decoration-style:solid">Bennett v Chief Executive Officer of the Australian Customs Service</span><span style="font-style:italic;font-weight:bold"/>[2004] FCAFC 237, where it was said by Tamberlin J at paragraph 13 (<span style="text-decoration-line:underline;text-decoration-style:solid">emphasis</span> added):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Book Antiqua';font-size:11pt">&#8220;Various expressions are used in the formulation of principles relating to waiver of legal professional privilege, such as references to 'the substance', 'effect' or 'content' of the advice. The weight of the authorities, in my view, supports the conclusion that the disclosure of the conclusion reached in or course of action recommended by, an advice can amount to waiver of privilege in respect of the premises relating to the opinion which has been disclosed, notwithstanding that this reasoning is not disclosed. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';font-size:11pt">By way of illustration, if there is a disclosure that a client has been advised that interpretation 'A' is preferable to interpretation 'B' of a legislative provision, then even if there is no disclosure of the reasoning leading to that conclusion, the reasoning and content of the advice may be waived, including the factual premises and circumstances leading to that conclusion</span><span style="font-family:'Book Antiqua';font-size:11pt">.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua'">57.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In written and oral submissions, the CO submit that it would be irrational to conclude that the short statement of Lord Gove to the Inquiry amounts to waiver of privilege. It is not clear from his statement what Lord Gove is referring to, there is no reference to legal advice, and, in any event, the substance of any legal advice has not been revealed. There was no reliance by Lord Gove on the legal advice, and there is no &#8216;cherry-picking&#8217;. The word unforeseen used by Lord Gove was actually initially Counsel to the Inquiry&#8217;s words, not Lord Gove&#8217;s. The CO also made brief submissions on this issue in CLOSED. A gist was provided to Mr Kingsley stating that it was submitted that the contents of the Legal Advice supported the OPEN submissions on the issue of waiver.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua'">58.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The Commissioner averred that a passing reference by Lord Gove of the type given in his evidence to the Inquiry, does not amount to waiver of the Legal Advice. The operation of waiver is different in the context of an inquiry, as it is not an adversarial process and there can be no unfairness or cherry picking concerns. The evidence given by Lord Gove does not give any specific reference to particular legal advice, the reference to a debate may be a reference to an oral debate, not written legal advice. Lord Gove does not refer to any reasoning that may have been provided in the Legal Advice. In summary, to the extent there is any reference to legal advice, which it is submitted there is not, it is a narrative reference or a reference to a conclusion and not the contents of the advice. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua'">59.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Having carefully considered the terms of the Legal Advice that are the subject of this appeal, we do not accept that, in the material evidence to the Inquiry, Lord Gove was referring to either of these two pieces of legal advice. In any event, even if we had concluded that Lord Gove was referring to one or both pieces of legal advice in his evidence to the Inquiry, we would have concluded that the evidence to the Inquiry does not reveal the substance or gist of that legal advice. In reaching this conclusion we have found that the exchange between Lord Gove and Counsel at the Inquiry related to the issue of why the Government did not use the CCA as opposed to the PHA or, later, the Coronavirus Act. This is plain from reading the whole of the exchange found at page 364 of the bundle, rather than just the few lines of the extract referred to in the Request. In this context, it is clear that the particular section of the exchange alighted upon by the parties, and being of most relevance, is referencing the threshold in the CCA for the passing of subordinate regulations. This is not a case in which the non-adversarial nature of Inquiries weighs materially in our analysis, as it may have done in other scenarios. This is not because there is no significance to the fact that the evidence was provided in inquisitorial rather than adversarial proceedings, or that Lord Gove was not seeking to &#8216;cherry-pick&#8217; or advance a case, but rather, it is because the answer to the issue posed of the Tribunal can be swiftly identified by duly analysing the terms of the two pieces of legal advice, properly set in the context of the evidence given by Lord Gove. Further reasons are provided in the CLOSED decision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua'">60.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We further find that reference to the Australian case of <span style="text-decoration-line:underline;text-decoration-style:solid">Bennett v Chief Executive Officer of the Australian Customs Service</span> [2004] FCAFC 237, does not assist Mr Kingsley. This decision is not binding on this Tribunal, although we accept that it evinces what seems to us to be a sensible principle. However, nothing said by Lord Gove was akin, or remotely analogous, to a disclosure that the Legal Advice was to the effect <span style="font-style:italic">&#8220;interpretation A is preferable to interpretation B</span>&#8221;. Further reasons are provided in CLOSED. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua'">61.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Having considered the two pieces of legal advice, and for the reasons given above, we find that there has been no waiver of privilege in the Legal Advice as a consequence of the evidence given by Lord Gove to the Inquiry.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The Public Interest balance</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua'">62.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Having determined that there has been no waiver of privilege, it is otherwise accepted by the parties that section 42 is engaged i.e. the Legal Advice is the subject of legal professional privilege. The only remaining question for the Tribunal is, therefore, whether, in all the circumstances of the case, <span style="font-family:'Book Antiqua';color:#000000">the public interest in maintaining the exemption outweighs the public interest in disclosing the information &#8211; section 2(2)(b) FOIA.</span> In undertaking this assessment, the Tribunal must <span style="font-style:italic">&#8220;identify the values, policies and so on that give the public interests their significance&#8221; and then decide which public interest is the most significant&#8221;</span>: <span style="text-decoration-line:underline;text-decoration-style:solid">O&#8217;Hanlon v Information Commissioner</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2019/34" uk:canonical="[2019] UKUT 34 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKUT 34 (AAC)</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Book Antiqua'">63.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">In </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">All Party Parliamentary Group on Extraordinary Rendition v Information</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Commissioner</span><span style="font-family:'Book Antiqua';color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2013/0560" uk:canonical="[2013] UKUT 0560 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKUT 0560 (AAC)</ref>, the Upper Tribunal said at [149]: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">&#8220;When assessing competing public interests under FOIA the correct approach is to identify the actual harm or prejudice that the proposed disclosure would (or would be likely to or may) cause and the actual benefits its disclosure would (or would be likely to or may) confer or promote. This&#8230;requires an appropriately detailed identification, proof, explanation and examination of both (a) the harm or prejudice, and (b) benefits that the proposed disclosure of the relevant material in respect of which the exemption is claimed would (or would be likely to or may) cause or promote.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num style="font-family:'Book Antiqua'">64.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in"><span style="font-family:'Calibri, sans-serif'">In accordance with the decision of the Upper Tribunal in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Calibri, sans-serif'">Montague v Information Commissioner and DIT</span><span style="font-family:'Calibri, sans-serif'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/104" uk:canonical="[2022] UKUT 104 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 104 (AAC)</ref></span><span style="font-style:italic;font-family:'Calibri, sans-serif'">,</span><span style="font-family:'Calibri, sans-serif'"> at [86],</span><span style="font-style:italic;font-family:'Calibri, sans-serif'"> &#8220;&#8230;the public authority is not to be judged on the balance of competing interests on how matters stand other than at the time of the decision on the request which it has been obliged by Part I of FOIA to make.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="font-family:'Book Antiqua'">65.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The parties&#8217; submissions on the issue of the public interest broadly fall into the following themes, which we consider in turn below:  </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.01in">a)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.24in">Inherent weight of the exemption.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.01in">b)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.24in">Likelihood and severity of harm caused by disclosure.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.01in">c)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.24in">Value in disclosure.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Public interest in maintaining the exemption </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Inherent weight</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="font-family:'Book Antiqua'">66.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We turn first to consider the public interest factors that have been put forward in favour of maintaining the exemption. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="font-family:'Book Antiqua'">67.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The rationale underpinning legal professional privilege is detailed in the judgment of Lord Taylor CJ in <span style="text-decoration-line:underline;text-decoration-style:solid">R v Derby Mags Court ex parte B</span> <ref href="#" uk:canonical="[1996] AC 487" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1996">[1996] AC 487</ref> at 507D: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in">&#8220;<span style="font-size:11pt">The principle which runs through all these cases, and the many other cases which were cited, is that a man must be able to consult his lawyer in confidence, since otherwise he might hold back half the truth. The client must be sure that what he tells his lawyer in confidence will never be revealed without his consent. Legal professional privilege is thus much more than an ordinary rule of evidence, limited in its application to the facts of a particular case. It is a fundamental condition on which the administration of justice as a whole rests.&#8221;  </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="font-family:'Book Antiqua'">68.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Mr Justice Wyn Williams gave guidance in relation to the application of the public interest test in section 42 FOIA cases, in <span style="text-decoration-line:underline;text-decoration-style:solid">DBERR v O&#8217;Brien v IC</span> [2009] EWHC 164 QB, [41 &amp; 53]: </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">&#8216;41. &#8230; it is for the public authority to demonstrate on the balance of probability that the scales weigh in favour of the information being withheld. That is as true of a case in which section 42 is being considered as it is in relation to a case which involves consideration of any other qualified exemption under FOIA. Section 42 cases are different simply because the in-built public interest in non-disclosure itself carries significant weight which will always have to be considered in the balancing exercise once it is established that legal professional privilege attaches to the document in question. &#8230; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt;font-family:'Book Antiqua'">53.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-size:11pt">In my judgment that paragraph is a clear indicator that the Tribunal failed to attach appropriate weight to the exemption. The in-built public interest in withholding information to which legal professional privilege applies is acknowledged to command significant weight. Accordingly, the proper approach for the Tribunal was to acknowledge and give effect to the significant weight to be afforded to the exemption in any event; ascertain whether there were particular or further factors in the instant case which pointed to non-disclosure and then consider whether the features supporting disclosure (including the underlying public interests which favoured disclosure) were of equal weight at the very least.&#8217; </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num style="font-family:'Book Antiqua'">69.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Wyn Williams J also made clear at [51] that the <span style="font-style:italic">&#8220;significant weight&#8221;</span> inherent in section 42 is to be taken into account in addition to any case specific factors, and that this general factor arises without the need <span style="font-style:italic">&#8220;to demonstrate any specific prejudice or harm from the specific disclosure of the documents in question.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="font-family:'Book Antiqua'">70.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We, therefore, accept that the in-built public interest in non-disclosure of information otherwise protected by legal professional privilege carries significant weight, which will be considered in the balancing exercise. However, whilst in the common law context there is no requirement to engage in a balancing exercise once it is found that legal professional privilege is engaged, ostensibly because legal professional privilege is seen as the predominant public interest, this is not the position under FOIA. Parliament has chosen not to make section 42 an absolute exemption and, although significant weight must be accorded to the exemption, it must not be so heavy so as to effectively be elevated into an absolute exemption &#8211; see, for example, <span style="text-decoration-line:underline;text-decoration-style:solid">Corderoy and Ahmed v Information Commissioner, Attorney-General and Cabinet Office</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2017/495" uk:canonical="[2017] UKUT 495 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2017">[2017] UKUT 495 (AAC)</ref>) at [68]. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="font-family:'Book Antiqua'">71.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In its skeleton argument, the CO submits that the test that the Tribunal must apply is <span style="font-style:italic">&#8220;effectively one of exceptionality&#8221;</span> (see [62]). We do not accept that the case law supports the application by the Tribunal of a &#8216;test&#8217; of exceptionality. The case law does no more than express an expectation that when the legal professional privilege exemption is engaged, it will only be on rare occasions that the public interest balance falls in favour of disclosure. This offers no insight in to how the public interest balance will fall in any given appeal. Just because there is an inbuilt weight in the legal professional privilege exemption, which does not mean that there cannot be factors in favour of disclosure that are weightier than those in favour of maintaining the exemption. That is a fact specific analysis to be conducted on a case by case basis, taking full cognisance of what we have said above about the inherent weight of the exemption. </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Likelihood and severity of harm caused by disclosure</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num style="font-family:'Book Antiqua'">72.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The submissions in relation to the general theme of the &#8216;likelihood and severity of the harm caused by disclosure&#8217; &#8211; other than those already referred to under the &#8216;inherent weight&#8217; heading above, fall into three categories:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">a)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.64in">The recency of the Legal Advice</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">b)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.64in">Is the Legal Advice still live?</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">c)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.64in">The &#8216;chilling effect&#8217;</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num style="font-family:'Book Antiqua'">73.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The recency of the Legal Advice must factor into any assessment of the likelihood and level of harm that would be caused by its disclosure. We accept that, as of the date of the CO&#8217;s response to Mr Kingsley&#8217;s FOIA request, the Legal Advice was recent, in that it was just shy of 4 years old.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num style="font-family:'Book Antiqua'">74.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In reality, the relevance of the recency of the Legal Advice to the issue of the likelihood of the severity of harm caused by disclosure, is intertwined with the issue of whether the Legal Advice was &#8216;live&#8217; at the time of the CO&#8217;s response to Mr Kingsley&#8217;s request. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="font-family:'Book Antiqua'">75.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">This is another area of our considerations where the parties&#8217; positions diverge significantly. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num style="font-family:'Book Antiqua'">76.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The CO contends that the Legal Advice is still live because it would likely form part of the material upon which legal advisers would draw in the event of comparable future emergencies. This submission was directly supported by the evidence of Mr Hargreaves, who indicated that this would be the case even though the largest peacetime planning exercise has subsequently been conducted to ensure preparedness for any such future emergency. There is no reason we should not accept this evidence at face value.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num style="font-family:'Book Antiqua'">77.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">Having taken this into account we, nevertheless, attach little weight to the fact that the advice is recent and live. This was an advice produced in a matter of days very early on in the Pandemic. Furthermore, although the Legal Advice formed part of the material relating to discussions which led to such constitutionally significant political decisions, at the time of the CO&#8217;s response, most of the Coronavirus Act had expired and the restrictions in regulations made under the PHA had been repealed or revoked, with the last major update occurring in April 2022 &#8211; although we do also take cognisance of the fact that the CCA and PHA were, and are, still live pieces of legislation. Additionally, significant post-implementation learning had taken place between the date of the Legal Advice and the date of the CO&#8217;s response to Mr Kingsley. Even if there had been no subsequent learning, if the Legal Advice were to be disclosed to the public now, this would not remove it from the knowledge bank. No reason has been advanced as to why, in the event of a future emergency, the Government of the time could not draw upon this advice, if it were thought appropriate to do so, despite it having been disclosed to the world at large. Mr Hargreaves specifically accepted that this was so under cross-examination. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num style="font-family:'Book Antiqua'">78.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We now turn to what was labelled as the &#8216;chilling effect&#8217;, which in this appeal is the broad term given to the detrimental future impact of disclosure on both the nature of Legal Advice given by the Government lawyers in an emergency scenario, the inhibition and on the <span style="font-style:italic">&#8220;exploration of all options&#8221;</span> by those who would otherwise be involved in decision making. On this issue, the Tribunal had the advantage of direct evidence from Mr Hargreaves as to the nature and effect of this chilling effect. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num style="font-family:'Book Antiqua'">79.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In his OPEN witness statement, Mr Hargreaves says as follows regarding the nature and effect of disclosure:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.79in">110.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.38in"><span style="font-size:11pt">Public exposure of the legal advice provided during proceedings of COBR could deter full, candid&#8239;and proper deliberation of policy formulation and development, including the exploration of all options. The candour of all involved in the policy development process would be affected by their assessment of whether information relating to their discussions on legality of options will be disclosed prematurely. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt;font-family:'Book Antiqua'">111.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-size:11pt">This extends to the information that is provided to ministers to support discussions at COBR, such as legal advice. It is important that ministers and officials have a safe space to formulate and explore advice with complete candour, and then develop policies and/or response plans to address issues identified. The policy development process therefore relies on ministers and officials being in an environment that facilitates and encourages deliberation without undue external pressure. Release of information contained in legal advice may not give officials or Ministers those assurances that they require to work effectively on the development of policy or the response to emergencies. They would be more mindful about the public perception of the advice being developed. The effect of this would be to undermine the efficacy of the policy development process and would limit effective response to emergencies. To maintain strong and effective leadership, particularly when confronting the policy challenges of relatively uncharted territory, the legal advisors play a key role, often in real time, as Government seeks to urgently secure agreement for policy directions. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt;font-family:'Book Antiqua'">112.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-size:11pt">Necessarily, the practical constraints of time and sensitivity during crisis can inhibit the scope for legal advice to be developed in the fulsome and complete way that government lawyers would ordinarily adopt. Individuals will need to apply a higher degree of personal professional judgement, often without recourse to the support or evidence that they might otherwise like. Whereas in ordinary circumstances a decision might be delayed for consultation or the acquisition of further evidence, during a crisis rapid decision making cannot wait. This is a trade-off necessarily made regularly during a crisis, but which would not be possible if professional advisers felt obliged to adopt a 'peacetime' process for fear of retrospective second-guessing and disclosure of the advice they have given.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num style="font-family:'Book Antiqua'">80.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">This evidence was robustly tested in cross examination, a summary of which is set out above.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num style="font-family:'Book Antiqua'">81.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The parties&#8217; positions as to the weight to be afforded to this evidence, and the chilling effect, are diametrically opposed. The CO submits that Mr Hargreaves has extensive knowledge of how Government operates and his evidence should be given very significant weight in relation to the minds of those providing advice, including legal advice, in haste. Disclosure of legal advice provided on an emergency basis, even if that disclosure were by order of the Commissioner or the Tribunal, would play on the mind of the advisors, they would be more cautious, require second opinions and additional time. This is detrimental to effective decision making in a crisis. There will be a fear of &#8216;public raking over the coals&#8217;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num style="font-family:'Book Antiqua'">82.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">It was contended on behalf of Mr Kingsley that, at their highest, the chilling effect arguments are &#8216;an extremely weak factor&#8217;. It is maintained that the rationale underpinning the CO&#8217;s chilling effects arguments is in effect a restatement of the rationale underpinning the inherent weight to be attached to legal professional privilege. Furthermore, case law indicates that such arguments should be treated with caution. Public officials must now recognise that it is not possible to guarantee the confidentiality of their advice or deliberations. Legal advisors would know that the section 42 exemption is not absolute. Civil servants and other public officials are expected to be impartial and robust when giving advice, and they will not easily be deterred from expressing their views by the fear of future disclosure. We are entitled to expect public officials to be courageous and independent in their work. They will understand the importance of their role in providing advice. The lawyers would have professional obligations to give complete and accurate advice. Mr Hargreaves&#8217; examples related to situations which were not akin to the giving of the Legal Advice that is the subject of the instant appeal. His examples related to the giving of advice when &#8216;planes were in the air&#8217;. There have been cases where legal advice has been disclosed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num style="font-family:'Book Antiqua'">83.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The Commissioner&#8217;s submissions were broadly aligned with those made on behalf of Mr Kingsley, with emphasis being placed on the knowledge of public officials that non-disclosure is not guaranteed, and that the public are entitled to expect courage and independence from civil servants. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num style="font-family:'Book Antiqua'">84.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In our conclusion, it is appropriate to attach no material weight to what has been termed in this appeal as the &#8216;chilling effect&#8217;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num style="font-family:'Book Antiqua'">85.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The starting point for our analysis is the evidence of Mr Hargreaves, the crux of which is found at [112] of his witness statement, to the effect that those being required to produce legal advice on an emergency basis would, if there was a fear of that advice being disclosed in the future, delay the advice for consultation or the acquisition of further evidence through fear of second-guessing.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num style="font-family:'Book Antiqua'">86.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We accept that when faced with evidence from an institutional witness, such as Mr Hargreaves &#8211; who we find has significant relevant experience, albeit he was not directly involved in the process leading to the production of the Legal Advice in the instant case, we should follow the principles endorsed by the Upper Tribunal in the decision in <span style="text-decoration-line:underline;text-decoration-style:solid">Department for Transport v IC and Alexander</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2021/327" uk:canonical="[2021] UKUT 327 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKUT 327 (AAC)</ref>; <ref href="#" uk:canonical="[2022] 1 WLR 3403" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] 1 WLR 3403</ref> at [134]): </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt;font-family:'Book Antiqua'">(1)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-size:11pt">a &#8220;bald statement&#8221; that such evidence was taken into account will be insufficient and will not demonstrate that the Tribunal gave it proper weight: [74]. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt;font-family:'Book Antiqua'">(2)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-size:11pt">if it rejected the evidence, it must explain why &#8211; it must not simply substitute its own speculation, particularly where the evidence was unchallenged and from someone who was well placed to make the relevant assessment: [75]. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt;font-family:'Book Antiqua'">(3)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-size:11pt">as distinct from the qualified person point above, this was not a question of deference, but rather a requirement that the Tribunal reach decisions as to the likely effect of disclosure, not on the basis of its own speculation, but on the basis of the evidence before it: [76]. Cabinet Office v ICO (GIA) 51 UA-2024-000236-GIA <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/114" uk:canonical="[2025] UKUT 114 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKUT 114 (AAC)</ref> </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt;font-family:'Book Antiqua'">(4)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-size:11pt">when making a prognostic assessment, the Tribunal would give great weight to the views of those with the relevant institutional expertise: [76]. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num style="font-family:'Book Antiqua'">87.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We also observe that in <span style="text-decoration-line:underline;text-decoration-style:solid">Alexander</span>, the Upper Tribunal noted the principle that assertions of a chilling effect should be treated with caution, but counterbalanced them with the observation, at [138]: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">&#8220;&#8230; A degree of circumspection or caution does not however mean (and is not suggested in any of the authorities to mean) that this threshold can never be discharged (particularly given the low degree of likelihood required), nor that it cannot properly be discharged on the basis of evidence in writing setting out the basis of the view taken that such a chilling effect will occur, as occurred in this case.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num style="font-family:'Book Antiqua'">88.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We readily accept Mr Hargreaves has extensive experience in the commissioning and use of legal advice in a wide variety of government contexts. We also accept his evidence that government lawyers operate differently in emergency situations, in that <span style="font-style:italic">&#8220;the practical constraints of time and sensitivity during crisis can inhibit the scope for legal advice to be developed in the fulsome and complete way that government lawyers would ordinarily adopt&#8221;. </span>However, we do not accept that if the Legal Advice in the instant case were disclosed this would likely lead to government lawyers, if asked for emergency advice in the future, reverting to &#8216;adopting a peacetime process&#8217; &#8211; a more time consuming and cautious approach, such as to <span style="font-style:italic">&#8220;deter full, candid</span><span style="font-style:italic;font-family:'Times New Roman'">&#8239;</span><span style="font-style:italic">and proper deliberation of policy formulation and development, including the exploration of all options&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num style="font-family:'Book Antiqua'">89.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">In giving his evidence, in this regard Mr Hargreaves was applying his wider knowledge and experience of managing crisis situations in government, to the question of how government lawyers would likely behave in the future when asked to give legal advice in an emergency situation, if the Legal Advice that is relevant to the instant appeal were to be disclosed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_90">
+	    <num style="font-family:'Book Antiqua'">90.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We observe that Mr Hargreaves does not purport to have ever worked as a government lawyer, nor does he either; recount factual evidence of enquiries made of government lawyers on this issue, or detail historic events which support the evidence that government lawyers would, in the future, act in the manner contended for if the Legal Advice were to be disclosed. On the evidence we have before us, it appears, at its highest, that Mr Hargreaves is importing potential future behaviours to government lawyers that he has experience of occurring in other spheres of public life, although even then Mr Hargreaves did not provide the Tribunal with any real life examples.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num style="font-family:'Book Antiqua'">91.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">The lawyers working in government are subject to professional regulatory obligations, as well as the Civil Service Code. Mr Hargreaves accepted this in his evidence. Those obligations, and the Code, currently require the lawyers to provide information and advice on the basis of the evidence, and to accurately present the options and the facts. That will still be the position if the Legal Advice is disclosed. In addition, the lawyers working in government will already be aware that any legal advice they provide has the potential to be disclosed by virtue of the operation of FOIA. Despite this, they have been prepared to provide advice on an emergency basis in the manner described by Mr Hargreaves. We do not accept that government lawyers would have been operating thus far on the understanding that, despite section 42 of FOIA being a qualified exemption, there was no prospect of that section being operated so as to require disclosure. Finally, in our view, if disclosure were to be ordered in this case, any diligent government lawyer would understand that this is a rare or exceptional case involving matters of the utmost constitutional importance, with significant public interest arguments in favour of disclosure founded on the unprecedented Covid-19 related events. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num style="font-family:'Book Antiqua'">92.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">As to the submission that the government legal advisers may potentially be &#8216;raked publicly over the coals&#8217; if the Legal Advice were to be disclosed, we make two points. First, insofar as this submission was intended to reinforce the submission that government legal advisers in the future would act differently when giving advice if the Legal Advice relevant to this appeal were to be disclosed, we conclude that the same points made in the preceding paragraph apply equally to this submission. If the submission was intended to relate to the authors of the Legal Advice in the instant appeal, then, as identified in the gist of the CLOSED evidence, neither legal advice has an attributed author, although we do also accept that in such circumstances the advice may be attributed to the director of the relevant department. In our view, the context in which the Legal Advice was produced would also go to ameliorate the possibility of criticism of the contents, albeit we accept that this would not prohibit unfair and unreasonable criticism. Looked at in the round we attach no material weight to this submission. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num style="font-family:'Book Antiqua'">93.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">There is also a separate &#8216;safe space&#8217; submission by CO; that if the Legal Advice were to be disclosed this would inhibit candid discussion amongst all those involved in the policy development process. This is said to be so, because <span style="font-style:italic">&#8220;&#8230;candour&#8230;would be affected by their assessment of whether information relating to their discussions on legality of options will be disclosed prematurely&#8230;Release of information contained in legal advice may not give officials or Ministers those assurances that they require to work effectively on the development of policy or the response to emergencies.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_94">
+	    <num style="font-family:'Book Antiqua'">94.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">We accept that officials should have a safe space to formulate and explore advice with complete candour, but we note what Charles J said about a similar argument in <span style="text-decoration-line:underline;text-decoration-style:solid">Department of Health v IC &amp; Lewis</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2015/159" uk:canonical="[2015] UKUT 159 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 159 (AAC)</ref> 5 at [27 &amp; 28], albeit in the context of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/35" uk:canonical="2000 c. 36 s. 35" uk:origin="TNA" uk:type="legislation">section 35</ref> of FOIA. </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt;font-family:'Book Antiqua'">&#8220;27.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-size:11pt">&#8230; The lack of a right guaranteeing non-disclosure of information, absent consent, means that that information is at risk of disclosure in the overall public interest (i.e. when the public interest in disclosure outweighs the public interest in non-disclosure). As soon as this qualification is factored into the candour argument (or the relevant parts of the safe space or chilling effect arguments), it is immediately apparent that it highlights a weakness in it. This is because the argument cannot be founded on an expectation that the relevant communications will not be so disclosed&#8230;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt;font-family:'Book Antiqua'">28.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-size:11pt">The same weakness exists in respect of a qualified FOIA exemption because any properly informed person will know that information held by a public authority is at risk of disclosure in the public interest.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_95">
+	    <num style="font-family:'Book Antiqua'">95.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in">This is akin to a point we have already made above in relation to the submission regarding government legal advisers, and we conclude is also of relevance to a consideration of the &#8216;safe space&#8217; submissions made by the CO. In addition, as was contended for by the Commissioner, in judging the likely consequences of disclosure on officials future conduct, <span style="font-style:italic">&#8220;we are entitled to expect of them &#8230; courage and independence&#8230;These are highly &#8211; educated and politically sophisticated public servants who well understand the importance of their impartial role as counsellors to ministers of conflicting convictions.</span>&#8221; Mr Hargreaves&#8217; evidence on this issue, although provided from a place of experience, is framed in broad, and speculative, terms. Looking at everything in the round, we attach little weight to this aspect of the public interest in favour of maintaining the exemption. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Public interest in favour of disclosure</span></p>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.5in"><span style="font-style:italic">Value of disclosure</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_96">
+	  <num style="font-family:'Book Antiqua'">96.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">It was submitted on Mr Kingsley&#8217;s behalf that there is a strong public interest in transparency of Government work in high profile emergencies and, in particular, the unprecedented response to the Pandemic. There were severe restrictions on movement and other restrictions imposed under the PHA, for which some of the outcomes were bizarre, in that schools were closed but public houses remained open. There is a growing body of evidence that the long term costs of the restrictions outweighed the health benefits. There are public concerns that the initial restrictions, even if justified, continued too long as there was no legal cut off, as there would have been under the CCA. The debate is ongoing and it is not a minority view that the Government deliberately chose a vehicle with the least scrutiny. The restrictions were authorised largely at ministerial level with minimal parliamentary scrutiny. Lord Sumption stated, in extrajudicial writings, these were 'beyond the pale'. There is academic debate as to how the Government were able to achieve such severe and unprecedented restrictions on freedom of movement, with minimal parliamentary scrutiny.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-family:'Book Antiqua'">97.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">These submissions further contend that the public are entitled to know how the law allowed this to happen, whether the Government were told in legal advice that there was a serious question over whether they could use the CCA, and whether they took that advice. The question is not lawfulness as discussed in <span style="text-decoration-line:underline;text-decoration-style:solid">Dolan</span>; the question is whether the Government chose another legislative vehicle because it had less scrutiny. The fact that there are inconsistencies in the evidence given by Government officials to the public on the use of the CCA, including the interpretation of the provisions, and the fact that Lord Gove used an incorrect legal test in evidence (&#8216;unforeseen&#8217;), adds significantly to the public interest in disclosure. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-family:'Book Antiqua'">98.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">The Commissioner also maintains that there is a substantial public interest in transparency, which is not generalised. It was averred that there is currently a lack of transparency regarding the use of powers to impose restrictions. There have been nine separate reasons provided as to why the CCA was not used. No other fora provides transparency that is important to the public debate. The Inquiry cannot compel legal advice; at best it could have requested that the parties waive privilege. FOIA is a statutory test which is not modified by whether the Inquiry could or should have requested the Legal Advice. The Inquiry report was not produced until 18 months after the Request, this is not an effective transparency mechanism. Overall, this is a rare case justifying disclosure. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="font-family:'Book Antiqua'">99.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">In its submissions, the CO recognised that there is great public interest in how Covid decisions were made, and it was confirmed that nothing submitted by the CO in this appeal attempts to diminish from this. However, any public interest factors that may weigh in favour of disclosure are diminished by extensive Government explanations in relation to lockdown measures used during COVID, and the choice of legislative vehicle. In the <span style="text-decoration-line:underline;text-decoration-style:solid">Dolan</span> case, the lawfulness of the decision to use the CCA has been considered, if not the question of whether it was desirable. Ministers are responsible for choices; legal advice is the wrong target if the public interest is said to be understanding the internal Government decision making. Decision making and advice are distinct areas of scrutiny, and one cannot assume that legal advice dictates the answer.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-family:'Book Antiqua'">100.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">It was further maintained that speculation as to why the Government chose one option over another, and whether this was done to avoid scrutiny, is a self-generated public interest through speculative theories. Requesting legal advice to answer that suspicion deserves little or no weight.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="font-family:'Book Antiqua'">101.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">The CO also contends that the public interest in disclosure is further diminished by the fact of the ongoing Covid Inquiry. It has covered the choice of legislative vehicle used at the relevant time of the Request. Whilst the CO accepts the Inquiry report was published after the request was made, the report covers in detail the choice of legislative vehicle, without having to request the privileged legal advice. The Tribunal were taken through extracts from the report discussing the decision to use the PHA and the Coronavirus Bill, as opposed to the CCA. The post implementation scrutiny of the CCA in 2022 is an appropriate mechanism to answer any public interest in understanding how the CCA could or would work. Overall, the Parliamentary, Judicial and Inquiry scrutiny has been rigorous, without trespassing on the rights afforded to legal professional privilege.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="font-family:'Book Antiqua'">102.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Moving on to the Tribunal&#8217;s consideration of the weight to be attached to the public interest in transparency and accountability. Whenever the public interest test is applied, the need for transparency and accountability weigh in favour of disclosure. The importance of those factors was emphasised by the Supreme Court in <span style="text-decoration-line:underline;text-decoration-style:solid">BBC v Sugar</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2012/4" uk:canonical="[2012] UKSC 4" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKSC 4</ref> (Lord Walker) at [76]. In the same vein, the Upper Tribunal in <span style="text-decoration-line:underline;text-decoration-style:solid">Evans v IC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/313" uk:canonical="[2012] UKUT 313 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 313 (AAC)</ref> recognised, at [133], that: <span style="font-style:italic">&#8220;[w]hen the disputed information concerns important aspects of the working of government, the interests in accountability and transparency will be not merely of general importance, but of particular strength.&#8221;</span> Mr Hargreaves also accepted in his statement that: <span style="font-style:italic">&#8220;The Cabinet Office recognises that there is a strong public interest in the transparency of Government work relating to high profile national emergencies such as the Covid-19 pandemic.&#8221;</span> [115]</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="font-family:'Book Antiqua'">103.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Before looking more closely at the public interest in disclosing the Legal Advice, we observe that the context within which the Legal Advice was produced is, in our view, of very great significance. As Mr Hargreaves said at [50] of his statement: <span style="font-style:italic">&#8220;...the pandemic impacted the whole of society and reached areas of intervention that the Government had never taken before. It was beyond the pale. New ground was being broken every single day.&#8221;</span> There was, of course, also a significant financial cost the country as a consequence of the Pandemic lockdown measures.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="font-family:'Book Antiqua'">104.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">The foundation of the particularised submissions as to the weight to be attached to the public interest in transparency is the public debate surrounding the choice of legislation by the Government to implement the Covid restrictions. As identified above, a part of that debate relates to the Government&#8217;s motive in not using the CAA as the underpinning legislation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="font-family:'Book Antiqua'">105.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">The CO refers to this as a self-generated public interest founded upon speculative theories, deserving of minimal weight. We have found considerable difficulty in understanding this submission, particularly in the context of the Commissioner&#8217;s observation in the Decision Notice, at [40], that<span style="font-style:italic">: &#8220;[I]t is also accepted </span>[by the CO] <span style="font-style:italic">that there is definite public interest in understanding the legal justifications for decisions taken by the Government, particularly in this instance given the information&#8217;s relevance to the ongoing Inquiry.&#8221;</span>,<span style="font-style:italic"/>and Commissioner&#8217;s findings, at [63], with which we agree: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">&#8220;In the Commissioner&#8217;s view it is clearly a matter of notable media interest as to which legislative provisions could, or should, have been used to introduce restrictions during the Covid pandemic. This is evidenced by the sources cited by the complainant, which the Commissioner notes includes journalist commentary pieces, but also analysis by academics and lawyers. Furthermore, the Commissioner notes that this issue as well as being considered in court cases such as that cited by the complainant at paragraph 47, has also been the subject of Parliamentary scrutiny. In the Commissioner&#8217;s view this range of fora in which this matter has been discussed, commented on and considered, points to the significance and importance of the issue, ie the legislative basis upon which restrictions were imposed during the pandemic. The Commissioner considers this point to be supported by the fact that this is one of the issues that the Inquiry is considering as part of Module 2 of its work.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num style="font-family:'Book Antiqua'">106.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">In our view, it is difficult to imagine a more constitutionally significant act than the imposition on people&#8217;s lives imposed by the Covid restrictions. There can be no doubt as to the breadth of individual freedoms that this legislation impinged upon. There was, of course, also a significant financial cost the country as a consequence of the Pandemic lockdown measures. In his skeleton argument, Mr Maurici KC emphasises the impact on children, a particular focus of Mr Kingsley&#8217;s attention, in the following terms, at [15]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">&#8220;The impact on children has been severe: school closures during the Pandemic directly resulted in the loss of 575 million school days with a long term impact on attainment (and in particular widening the gap in attainment); many struggled to re-engage once schools reopened, with 1.28 million children persistently absent from school and one in 50 continuing to miss at least half of school a trend which the Children&#8217;s Commissioner for England attributes to lockdown; while mental health conditions among children and young people have risen sharply, from one in eight in 2017 to one in five by 2023.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num style="font-family:'Book Antiqua'">107.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">As identified above, the spotlight in this appeal has been shone towards the public interest in understanding why regulations implementing the Covid restrictions were not made pursuant to the powers under the CCA. The Government instead used the PHA, as amended by the <ref href="http://www.legislation.gov.uk/id/ukpga/2008/14" uk:canonical="2008 c. 14" uk:origin="TNA" uk:type="legislation">Health and Social Care Act 2008</ref>, and later, in addition, the Coronavirus Act, which was passed by Parliament in three sitting days in March 2020. That debate also incorporates the position that the CCA was not utilised because it would have involved a greater degree of parliamentary scrutiny than making regulations under the PHA. The value of disclosure lies in the opportunity it provides to the public to better understand the decision making process that took place regarding one of, if not the most, constitutionally significant acts in living memory. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num style="font-family:'Book Antiqua'">108.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">It is prudent at this juncture to consider the relevant legislation itself. We need not delve into the threshold requirements of the CCA, but it is relevant to note, because it is in part the fuel for the public debate that, by virtue of section 26 of the CCA, regulations made pursuant to the powers therein lapse at the end of 30 days. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num style="font-family:'Book Antiqua'">109.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Under the Coronavirus Act, the Government was required to report on the use of powers every two months, and parliamentary approval was required every six months. In its report &#8216;<ref href="http://www.legislation.gov.uk/id/ukpga/2020/7" uk:canonical="2020 c. 7" uk:origin="TNA" uk:type="legislation">Coronavirus Act 2020</ref> Two Years On&#8217;, the Public Administration and Constitutional Affairs Committee expressed concerns that the six-monthly vote on a motion to keep <ref href="http://www.legislation.gov.uk/id/ukpga/2020/7" uk:canonical="2020 c. 7" uk:origin="TNA" uk:type="legislation">the Act</ref> in place &#8220;<span style="font-style:italic">was ultimately a &#8216;take it or leave it&#8217; motion and did not allow for amendments [which] had a deleterious effect on Parliament&#8217;s ability to scrutinise and amend emergency provision</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num style="font-family:'Book Antiqua'">110.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">The Health Protection (Coronavirus, Restrictions) (England) Regulations 2020/350 (the first Coronavirus Regulations) were made under the PHA and came into force on 26 March 2020. The Secretary of State, in making these Regulations, relied on section 45R of the PHA. This provides that, if it is considered by the Secretary of State that the matter is urgent, this negates the need for a draft of the Regulations to be laid before, and approved by a resolution of, each House of Parliament. Moreover, the PHA requires no reporting back to Parliament on the use of <ref href="http://www.legislation.gov.uk/id/ukpga/2020/7" uk:canonical="2020 c. 7" uk:origin="TNA" uk:type="legislation">that Act</ref>. Regulation 6 of the first Coronavirus Regulations made it a criminal offence for a person to leave the place they lived without a reasonable excuse for so doing. Regulation 7 prevented the gathering in a public place of more than two people save in highly prescribed circumstances. Regulation 4 required the closure of a large number of premises and businesses. The Health Protection (Coronavirus, Restrictions) (No. 2) (England) Regulations 2020/684 thereafter came into effect on the 4 July 2020.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num style="font-family:'Book Antiqua'">111.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">In evidence, Mr Hargreaves accepted that prior scrutiny of legislation is always preferable to post scrutiny. It was put to Mr Hargreaves in cross examination that the PHA left no room for consideration by Parliament of the regulations made pursuant to it. Mr Hargreaves robustly defended the contrary position, maintaining that there had been Parliamentary scrutiny of the regulation making powers. Parliament had given the Government the power to make regulations under the PHA and, thereafter it was a political choice as to whether to exercise that power. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num style="font-family:'Book Antiqua'">112.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">In our view, the evidence given by Mr Hargreaves as to the role played by Parliament in the scrutiny, or lack of scrutiny, in the Regulations implemented pursuant to the PHA, does not operate at all to reduce the public interest in the debate as to why the CCA was not used as the appropriate legislative vehicle. Although not relevant to our conclusions in this appeal, we venture to suggest that anyone interested in that debate may, reading the terms of Mr Hargreaves evidence to this Tribunal, conclude that the evidence stokes the fire of the public debate, rather than helps extinguish it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num style="font-family:'Book Antiqua'">113.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Moving on, as we have identified above, the CO asserts, as one of the central themes of its submissions, that the Government has extensively given explanations to Parliament, both at the time and subsequently, about the &#8216;imposition of lockdown measures&#8217; and, in particular, about &#8216;the choice of legislative vehicles&#8217;. In short, the CO submits that the public debate has been repeatedly answered by the Government, and the public interest in maintaining that debate, comes nowhere near meeting the weight of maintaining legal professional privilege. There has, it is said by the CO, been multiple levels of scrutiny by Parliament, the judiciary, the Inquiry and in the form of the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/36" uk:canonical="2004 c. 36" uk:origin="TNA" uk:type="legislation">CCA 2004</ref> post-implementation report. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num style="font-family:'Book Antiqua'">114.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">In this regard, the CO drew our attention to a number of examples of the vehicles which, it is said, answer the debate on the issue of the choice of legislation used to implement the lockdown measures. In his OPEN witness statement, Mr Hargreaves refers, in this regard, to the discussion during the House of Commons second reading of the Coronavirus Bill, on Monday 23 March 2020, where Members queried why the CCA was not being used. It is said by Mr Hargreaves, at [78], that Penny Mourdaunt MP, Paymaster General, noted (amongst other things) that anything undertaken pursuant to the CCA would only be in force for 30 days. Although this evidence is referenced to pages in the exhibit bundle attached to Mr Hargreaves&#8217; statement, the Tribunal has been unable to locate the relevant passage referred to; nevertheless, the Tribunal has no reason to reject the evidence regarding the Paymaster General&#8217;s contribution to the House on 23 March. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num style="font-family:'Book Antiqua'">115.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Reference is also made by the CO to the UK Government&#8217;s response to the Public Administration and Constitutional Committee&#8217;s Fourth report of session 2019-21, where it was explained that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">&#8220;The Civil Contingencies Act (CCA) is designed to be used only as a last resort, where it is not possible to take conventional or accelerated primary legislation through Parliament, and thereby to allow Parliamentary scrutiny before measures pass into law. The CCA has strict tests (known as the &#8220;triple lock&#8221;) which must be met before emergency regulations under it can be made. These are not in place to prevent its use at all costs, but a test that ensures that Parliamentary scrutiny is not unnecessarily sacrificed. In this instance, although the measures in the Coronavirus Act were urgent, the Government believed it was both important and possible in the timeframe to provide an opportunity for prior Parliamentary scrutiny for the Coronavirus Act. That was thought to be preferable to making regulations under the CCA, where Parliamentary debate would take place after the legislation had come into force.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num style="font-family:'Book Antiqua'">116.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;margin-right:-0in"><span style="font-family:'Book Antiqua'">In the CO&#8217;s written evidence in response to the House of Lords Constitution Committee&#8217;s Inquiry into the Constitutional Implications of Covid-19, it is said:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua';font-size:11pt">&#8220;10.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">It has been suggested that the <ref href="http://www.legislation.gov.uk/id/ukpga/2004/36" uk:canonical="2004 c. 36" uk:origin="TNA" uk:type="legislation">Civil Contingencies Act 2004</ref> (CCA) would have been a more appropriate route by which to implement Covid- 19 related measures. The CCA allows the Government to make urgent, necessary, temporary legislation (emergency regulations) to prevent,  control or mitigate an aspect or effect of an emergency, without the prior scrutiny of Parliament. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua';font-size:11pt">11.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">For a number of reasons the Government considered that, in this instance, the CCA did not present the best route to achieving the measures needed to address the pandemic. The CCA contains strict tests (known as the &#8220;triple lock&#8221;) &#8230; </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua';font-size:11pt">12.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">The triple lock test ensures that the CCA is only used when there are no other legislative options available to the Government, and that parliamentary scrutiny is not unnecessarily sacrificed. In this case, primary legislation was preferable to using the CCA. The Government considered that although the measures in the Coronavirus Act were urgent, it was important - and possible in the timeframe - to provide an opportunity for prior - and now ongoing - parliamentary scrutiny of the Bill. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua';font-size:11pt">13.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">A further benefit of the Coronavirus Act was that, once the Bill has been debated and passed, it provided legal certainty for Government and public agencies in their responses to the pandemic. The process set out by the CCA requires that regulations receive parliamentary approval within seven days (if Parliament is sitting) and may be amended at that point. This is also important for those whom the Coronavirus Act is supporting &#8211; people claiming Statutory Sick Pay and other benefits, tenants, people on the Job Retention Scheme; businesses receiving Government support: they also need to know that this help is going to be available over the long term, and not constantly in jeopardy. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua';font-size:11pt">14.</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;margin-right:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';font-size:11pt;color:#000000">The Government therefore considers that the Coronavirus Act was a necessary and appropriate route by which to make provisions in relation to the pandemic, one that afforded a greater degree of certainty and, importantly, allowed parliamentary scrutiny of the measures being put forward</span><span style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;color:#000000">.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num style="font-family:'Book Antiqua'">117.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">The CO also drew attention to an extract from the Select Committee on the Constitution&#8217;s report; <span style="font-style:italic">&#8220;COVID-19 and the use of emergency powers, Chapter 2&#8221;</span>, dated 21 March 2025, which says as follows at [35 &amp; 36]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <intro>
+		    <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">&#8220;[35] On 25 March 2021 Lord Bethell, Parliamentary Under-Secretary in the Department of Health and Social Care, justified the Government's use of <ref href="http://www.legislation.gov.uk/id/ukpga/1984/22" uk:canonical="1984 c. 22" uk:origin="TNA" uk:type="legislation">the 1984 Act</ref> instead of <ref href="http://www.legislation.gov.uk/id/ukpga/2004/36" uk:canonical="2004 c. 36" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref> in the following terms:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.98in;margin-right:0.98in"><span style="font-size:11pt">&#8216;we looked very closely at the [2004] Act, and I know many noble Lords feel we missed an opportunity there, not least because it might have meant that we engaged more fully with Parliament, but also because it would have taken us down an all-UK approach that would have perhaps somehow have spared the pressure on the union. However, the truth is that, that choice was never possible. The [2004] Act a provision of the last resort and its use is subject to very strict triple-lock criteria A change to the CCA would have been necessary for it to have been usable. Instead, we used the [1984] Act to enact most of our public health legislative responses to the virus. It is an unloved Act, and many suggest we stretched it beyond its intended purpose. That is not true, We used it for what it was designed to do: to protect the population from communicable diseases of pandemic proportions,'</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">[36] The Chancellor of the Duchy of Lancaster and Minister for the Cabinet Office, the Rt Hon Michael Gove MP, has also said that the circumstances of the pandemic were not appropriate for using <ref href="http://www.legislation.gov.uk/id/ukpga/2004/36" uk:canonical="2004 c. 36" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref>, which was designed to address sudden, unanticipated events rather than the gradual onset of a pandemic. Lord Bethell provided a similar explanation to us. He said that advance knowledge of the pandemic meant that if the Government sought to use <ref href="http://www.legislation.gov.uk/id/ukpga/2004/36" uk:canonical="2004 c. 36" uk:origin="TNA" uk:type="legislation">the 2004 Act</ref> it "faced severe risk of the launch of legal action and successful legal action so we had no option but to go down the conventional statute route".</span></p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num style="font-family:'Book Antiqua'">118.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Although this extract postdates the relevant date for our consideration, the quotations therein do not, and we take these into account when reaching our conclusions. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num style="font-family:'Book Antiqua'">119.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">On the overarching issue of whether the &#8216;explanations&#8217; provided by the Government have answered the public debate, Mr Kingsley and the Commissioner contend that rather than put out the fire of public debate, the multiple explanations across various fora regarding the choice of legislative vehicle for implementing the restrictive measures during the Pandemic, have fanned the flames of the debate because of the inconsistency of explanation. They also draw attention in this regard to evidence provided to the Inquiry by Lord Gove (which we have explored above), and also that of Mr Hargreaves.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num style="font-family:'Book Antiqua'">120.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">In his written evidence, Mr Hargreaves stated at [8.19]:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">&#8220;Existing powers (such as the Health Act 1984) were initially used to respond to Covid-19 but it was recognised that additional measures were needed to respond to the pandemic. Whilst these could, potentially, have been taken using part two of the [CCA], the Government considered there was time to introduce the Coronavirus Bill, appropriately providing the opportunity for parliamentary scrutiny of the legislation before it came into force.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num style="font-family:'Book Antiqua'">121.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.39in">In his oral evidence to the Inquiry of 22 June 2023, Mr Hargreaves said, in relation to the CCA:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">Q: was the [CCA] used at the time of Covid&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">A: No. When the Bill went through Parliament, this point was discussed &#8211; you know, when we would use it was discussed at some considerable length, and there was concern that the government would use it too freely.  &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">What government committed to Parliament at the time is that it would only use emergency powers where it was not possible to use normal constitutional routes&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">It&#8217;s a mechanism for making emergency legislation at high speed through secondary legislation, but often with the kind of reach of primary legislation, and it&#8217;s designed to be temporary and designed to have just &#8230;a much faster mechanism for delivery.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num style="font-family:'Book Antiqua'">122.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Additionally, we have been provided with evidence of a statement made by Mr Rees-Mogg to Parliament on the 19 March 2020:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.79in;margin-right:0.79in"><span style="font-size:11pt">&#8220;The legal experts say that if we introduce emergency legislation we should do so rather than using the [CCA], because if we have time to introduce emergency legislation, we obviously knew about it long enough in advance for <ref href="http://www.legislation.gov.uk/id/ukpga/2004/36" uk:canonical="2004 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> not to apply. That is why <ref href="http://www.legislation.gov.uk/id/ukpga/2004/36" uk:canonical="2004 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> should not be used.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num style="font-family:'Book Antiqua'">123.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Contrary to the CO&#8217;s contention, we do not accept that, on the evidence before us, the &#8216;explanations&#8217; relied upon by the CO weaken the public interest or value in transparency. Much of the evidence referred to relates to the implementation of the Coronavirus Act and not the initial decision to issue regulations under the PHA rather than the CCA. We note the &#8216;explanations&#8217; also include reference to a severe risk of legal action if the CCA route were utilised, and to the need for the CCA to have been changed in order to make it usable. Insofar as the evidence impinges on the debate as to why the PHA was chosen as the relevant vehicle at the outset, rather than the CCA, we are entitled to take account of the fact that Lord Gove adopted, in his evidence to the Inquiry, a legal threshold that does not appear in the CCA. There is also an observation regarding the short life span of any CCA regulations, and reference to the CCA being designed to deal with unanticipated events. When this evidence is duly analysed in the round, we do not accept that it provides the necessary clarity of rationale for the Government&#8217;s decision making that would lead us to find that there should be reduced weight attached to the public interest factor of transparency that weighs in favour of disclosure. In addition, just because a debate cannot be authoritatively decided one way or another does not mean it without value &#8211; this is complex landscape and the Legal Advice assists with the debate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num style="font-family:'Book Antiqua'">124.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">We next turn to the CO&#8217;s submission that the historic &#8216;judicial scrutiny&#8217; should weaken the public interest in disclosure. In this regard, focus was placed on the conclusion of the Court of Appeal in <span style="text-decoration-line:underline;text-decoration-style:solid">Dolan v Secretary of State for Health and Social Care</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1605" uk:canonical="[2020] EWCA Civ 1605" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 1605</ref>, a case in which the Claimant appealed against the refusal of permission for his application for judicial review of the &#8216;lockdown&#8217; regulations made in response to the Pandemic, under the PHA. Therein, the Claimant argued (amongst other things) that the regulations could have been made under the CCA. The Court of Appeal accepted that that &#8216;would appear to be correct&#8217;, at [72], but held that that did not impede the UK Government&#8217;s choice to make the regulations under the PHA. The Secretary of State was not required as a matter of law to use the CCA. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num style="font-family:'Book Antiqua'">125.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">It is prudent at this juncture to refer to the submissions made by the other parties on the relevance of the decision in <span style="text-decoration-line:underline;text-decoration-style:solid">Dolan</span>, it being observed that although Counsel for the Claimants maintained before the Court of Appeal that the lockdown regulations could have been made under the CCA [72], and that Counsel for the Secretary of State also accepted that such power might exist [76], the Court specifically stated that it had not heard detailed submissions on the issue [72]. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_126">
+	  <num style="font-family:'Book Antiqua'">126.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Once again, we do not accept the CO&#8217;s submission as to the impact this &#8216;scrutiny&#8217; should have on our assessment of the public interest. The Court did not consider whether, as a matter of policy or constitutional good practice, the CCA should, as opposed to lawfully could, have been used, nor did it scrutinise the Government&#8217;s reasons for not having used its powers under CCA. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_127">
+	  <num style="font-family:'Book Antiqua'">127.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">We finally turn to consider the relevance of the Inquiry to our assessment. The CO submits that the public interest case in transparency and scrutiny of governmental decision making, runs up against the Inquiry, which was covering precisely these things at the time of the Request, including issues surrounding the choice of legislative vehicle. It is said that the Inquiry is the main mechanism for scrutinising the Government's actions during COVID. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num style="font-family:'Book Antiqua'">128.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">We accept that Module 2 of the Inquiry, in particular, had within scope <span style="font-style:italic">&#8220;the public health and coronavirus legislation, and regulations that were proposed and enacted&#8221;,</span> which encompassed the UK Government&#8217;s decision not to employ the CCA. We also accept that the CO engaged extensively with the Inquiry. This can be seen from the report from the Chair of the Inquiry on Modules 2, 2A, 2B, 2C of November 2025, which gives consideration to the legislative response to the Pandemic, including consideration of the CCA. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num style="font-family:'Book Antiqua'">129.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Although the report post-dates the relevant date for our considerations, we were invited to read paragraphs 13.4 to 13.7 and 13.13 to 13.62 of the report, which we have. Our attention was specifically taken to paragraph 13.20 of the report, which in turn refers to a briefing note prepared for the Prime Minister ahead of a COBR meeting on 2 March 2020, which identified that: <span style="font-style:italic">&#8220;[T]he consequence of relying on the CCA may therefore be to take on unnecessary legal risk&#8221;</span>. This referred to <span style="font-style:italic">&#8220;a doubt that the urgency safeguard&#8230;would be met by a Covid-19 Reasonable Worst Case Scenario&#8221;</span> and that <span style="font-style:italic">&#8220;if a Bill could be fast tracked through Parliament, it must be used in preference.&#8221;</span> The report also refers to oral evidence given to the Inquiry; for example, Mr Hancock (the Secretary of State for Health and Social Care from 2018 to 2021) told the Inquiry, in August 2023, that using the CCA: <span style="font-style:italic">&#8220;was inappropriate for two reasons: first it could only be legally binding for &#8216;unforeseen&#8217; events, and there was legal uncertainty as to whether it applied to the circumstances such as the spread of Covid-19, and in any event it could only be used for 30 days, and any lockdown was likely to last longer than that&#8221;</span> [13.24].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_130">
+	  <num style="font-family:'Book Antiqua'">130.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">We do not accept that the fact that the Inquiry was ongoing at the time of the CO&#8217;s response to Mr Kingsley&#8217;s request materially reduces the weight to be attached to the public interest case in transparency and scrutiny of governmental decision making. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_131">
+	  <num style="font-family:'Book Antiqua'">131.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">At the time of the CO&#8217;s response to Mr Kingsley&#8217;s request, the Inquiry did not have a copy of the Legal Advice before it. This was also the position at the time of the writing of its report in November 2025. At the risk of stating the obvious, the consequence of this is that the Inquiry, and the conclusions in the report, do not take account of what was said in the Legal Advice. The Inquiry had no power to compel the production of privileged material, although we accept that it could have requested that privilege be waived. However, it did not do so. We do not know why. In our view, had the Legal Advice been disclosed by the CO to the world at large under FOIA at the time of its response to Mr Kingsley, it could have been used by Mr Kingsley, or others, to support future submissions to the Inquiry on a topic that was of interest to it. We observe that the oral evidence to the Inquiry relating to Module 2 continued into May 2024. We also find it of relevance that the report relating to Module 2 was not produced until November 2025, 18 months after the date of the CO&#8217;s response. Again, we agree with the point the Commissioner makes in this regard, that <span style="font-style:italic">&#8220;this is hardly an effective transparency mechanism&#8221;</span>. More significantly, at the time of the CO&#8217;s response, the Inquiry&#8217;s conclusions on the use, or choice, of legislation to implement lockdown were very far from being known, and an assessment as to the extent of the relevance of the Legal Advice to the Inquiry&#8217;s consideration could not have been predicted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_132">
+	  <num style="font-family:'Book Antiqua'">132.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Drawing all of this together, we do not accept the CO&#8217;s position that <span style="font-style:italic">&#8220;[T]he main purpose that the public disclosure of the Legal Advice has already been served by alternative means that do not intrude upon the fundamentally important LPP rights&#8221;</span>. We, further, do not accept that the features relied upon by the CO in this regard materially diminish the public interest in transparency, i.e. allowing the public to better understand the decision making process that took place regarding one of, if not the most, constitutionally significant acts in living memory. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_133">
+	  <num style="font-family:'Book Antiqua'">133.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">The CO contends that, even if there is a significant public interest in better understanding the decision-making process, the Legal Advice is the wrong target. The relevant decisions were made in the political arena. Again, we cannot accept the CO&#8217;s submission. The Legal Advice formed part of the material relevant to the discussions and decisions that ultimately led to the imposition of the Covid restrictions. There is a clear public interest in knowing what that Legal Advice said, in order to better understand the political decision making process. For example, knowing what legal information informed the political discussions and decisions, how complete that information was, and whether it was followed, or rejected, are all matters that would serve the public interest in transparency of decision making. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_134">
+	  <num style="font-family:'Book Antiqua'">134.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.39in">Further reasons are given in CLOSED. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_135">
+	  <num style="font-family:'Book Antiqua'">135.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">In our conclusion, whilst we recognise that the in-built public interest in withholding information to which legal professional privilege applies commands significant weight, and having taken into account those findings we made above in relation to the weight to be attached to the likelihood and severity of harm caused by disclosure, we have no doubt that this is one of those rare cases where, in all the circumstances of the case and having undertaken the intensely fact sensitive evaluative judgment, the public interest in disclosing the information outweighs the public interest in maintaining the exemption. We find the cumulative weight of those features we have identified above as being in favour of disclosure, to be very significant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_136">
+	  <num style="font-family:'Book Antiqua'">136.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.39in">There is no utility at this juncture in simply repeating what we have said above; however, it is worth referring again to the fact that the value of disclosure lies in the opportunity it provides to the public to better understand and scrutinise the decision making process that took place regarding one of, if not the most, constitutionally significant acts in living memory, in circumstances where there was, at the time of the CO&#8217;s response, an ongoing public debate surrounding decisions made by the Government of the day and, in particular, the choice of legislative vehicle used to impose an extraordinary level of restriction on the lives of the entire population. We have identified further matters in our CLOSED decision that add weight to the public interest in disclosure. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_137">
+	  <num style="font-family:'Book Antiqua'">137.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Consequently, we find, as did the Commissioner, that the Cabinet Office&#8217;s response to the FOIA request was not in accordance with Part I of FOIA. The ICO&#8217;s Decision Notice is in accordance with the law, and the Cabinet Office&#8217;s appeal is dismissed.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed: Judge Dwyer</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date: </span><docDate date="2026-05-22" refersTo="#decision" style="font-family:'Book Antiqua'">22 May 2026</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>
