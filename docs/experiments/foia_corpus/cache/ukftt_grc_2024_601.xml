@@ -1,0 +1,1687 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2024/601"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2024/601"/>
+	  <FRBRdate date="2024-07-10" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="601"/>
+	  <FRBRname value="Dr Christopher Garrard v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2024/601"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2024/601"/>
+	  <FRBRdate date="2024-07-10" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2024/601/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2024/601/data.xml"/>
+	  <FRBRdate date="2024-07-10T07:22:20" name="transform"/>
+	  <FRBRdate date="2024-07-10T09:18:18" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-06-20" refersTo="#hearing" source="#"/>
+	<eventRef date="2024-07-10" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="dr-christopher-garrard" href="" showAs="DR CHRISTOPHER GARRARD"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="The Information commissioner"/>
+	<TLCPerson eId="the-british-museum" href="" showAs="THE BRITISH MUSEUM"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2024</uk:year>
+	<uk:number>601</uk:number>
+	<uk:cite>[2024] UKFTT 601 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>0.25.3</uk:parser>
+	<uk:hash>6254e98f26f72b6f8429af4e92751793e7e77c053869831c19791af3668c0a0f</uk:hash>
+	<uk:tna-enrichment-engine>6.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-size: 18pt; }
+#judgment .Heading2 { font-weight: bold; font-size: 16pt; }
+#judgment .Heading3 { font-style: italic; font-weight: bold; font-size: 14pt; }
+#judgment .Heading4 { font-weight: bold; font-size: 12pt; }
+#judgment .Heading5 { text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .Heading6 { font-weight: bold; text-transform: uppercase; font-size: 12pt; }
+#judgment .Heading7 { font-style: italic; font-size: 12pt; }
+#judgment .MessageHeader { margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Style7 { margin-left: 2.56in; font-size: 12pt; }
+#judgment .FootnoteText { font-size: 8pt; }
+#judgment .quotation { margin-left: 0.59in; margin-right: 0.86in; font-size: 11pt; }
+#judgment .Legislation1 { margin-left: 0.58in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation2 { margin-left: 1in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation3 { margin-left: 1.25in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Style1 { font-weight: bold; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-size: 12pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .EndnoteText { font-size: 10pt; }
+#judgment .BalloonText { font-family: 'Lucida Grande'; font-size: 9pt; }
+#judgment .p1 { font-family: 'Helvetica Neue'; font-size: 8.5pt; color: #000000; }
+#judgment .p2 { font-family: 'Helvetica Neue'; font-size: 8.5pt; color: #000000; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .EndnoteTextChar { font-family: 'Book Antiqua'; }
+#judgment .EndnoteReference { vertical-align: super; }
+#judgment .PageNumber { }
+#judgment .BalloonTextChar { font-family: 'Lucida Grande'; font-size: 9pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention1 { color: #605E5C; background-color: initial; }
+#judgment .s1 { font-style: normal; font-weight: normal; font-family: 'Helvetica Neue'; font-size: 11pt; }
+#judgment .apple-converted-space { }
+#judgment .apple-tab-span { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Book Antiqua'; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Book Antiqua'; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:87.85pt;height:77.9pt"/></p>
+      <p class="Style1"><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2024] UKFTT 00601 (GRC)</neutralCitation></p>
+      <p class="Style1"><courtType refersTo="#ukftt-grc" style="font-family:'Book Antiqua'">First-tier Tribunal</courtType></p>
+      <p class="Style1"><courtType refersTo="#ukftt-grc" style="font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p class="Style1"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-family:'Book Antiqua'">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2024-06-20" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">20 June 2024</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2024-07-10" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">10 July 2024</docDate></p>
+      <p class="Style4"><span style="font-family:'Book Antiqua'">Before</span></p>
+      <p class="Style5"><span style="font-family:'Book Antiqua'">JUDGE SOPHIE BUckley</span></p>
+      <p class="Style5"><span style="font-family:'Book Antiqua'">MEMBER PAUL TAYLOR</span></p>
+      <p class="Style5"><span style="font-family:'Book Antiqua'">member SUZANNE COSGRAVE</span></p>
+      <p class="Style4"><span style="font-family:'Book Antiqua'">Between</span></p>
+      <p class="Style5" style="margin-left:0.5in"><party as="#appellant" refersTo="#dr-christopher-garrard" style="font-family:'Book Antiqua'">DR CHRISTOPHER GARRARD</party></p>
+      <p class="Style6"><role refersTo="#appellant" style="font-family:'Book Antiqua'">Appellant</role></p>
+      <p class="Style4"><span style="font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	<p class="Style5" style="margin-left:0.75in;text-indent:0.12in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-family:'Book Antiqua'">The Information commissioner</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	<p class="Style5" style="margin-left:0.75in;text-indent:0.12in"><party as="#respondent" refersTo="#the-british-museum" style="font-family:'Book Antiqua'">THE BRITISH MUSEUM</party></p>
+      </blockContainer>
+      <p class="Style6"><role refersTo="#respondent" style="font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation:</span></p>
+      <p class="Style1"><span style="font-weight:normal;font-family:'Book Antiqua'">For the Appellant: James Goudie KC (Counsel)</span></p>
+      <p class="Style1"><span style="font-weight:normal;font-family:'Book Antiqua'">For the First Respondent: Did not attend </span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Second Respondent: Robin Hopkins (Counsel) </span></p>
+      <p class="ListParagraph" style="margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is allowed in part. </span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Substituted Decision Notice:</span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Organisation: The British Museum</span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Complainant: Dr Christopher Garrard</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">The Substitute Decision &#8211; IC-164636-C6T0</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">For the reasons set out below:</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.98in;text-indent:-0.49in">1.1.</num>
+	<p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Book Antiqua'">The British Museum (&#8216;the Museum&#8217;) was entitled to rely on section 43(2) of the Freedom of Information Act (FOIA) to withhold the information identified in Part A of the closed Annex to this decision.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.98in;text-indent:-0.49in">1.2.</num>
+	<p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Book Antiqua'">The Museum was not entitled to rely on section 43(2) FOIA to withhold the information identified in part B of the closed Annex to this decision. </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.98in;text-indent:-0.49in">1.3.</num>
+	<p style="text-align:justify;margin-left:0.98in"><span style="font-family:'Book Antiqua'">The Commissioner&#8217;s findings on section 40(2) are undisturbed and remade by the tribunal. </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Museum is ordered to take the following steps by no later than 42 days from the date this decision is sent to the Museum by the tribunal: </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(i)</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Disclose the information identified in part B of the closed Annex.  </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Any failure to abide by the terms of the tribunal&#8217;s substituted decision notice may amount to contempt which may, on application, be certified to the Upper Tribunal.</span></p>
+      </blockContainer>
+      <p class="Style3"><span style="text-decoration-line:none;font-family:'Book Antiqua'">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua'">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">This is an appeal against the Commissioner&#8217;s decision notice IC-164636-C6T0</span><span style="font-weight:bold;font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua'">of 20 January 2023 which held that the Museum was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> and 40(2) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (FOIA) to withhold some of the requested information. The Commissioner found that the Museum was not entitled to withhold some of the information under section 40(2) FOIA. The Commissioner found that the Museum was in breach of sections 1 and 10 FOIA. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua'">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">This appeal relates only to the decision on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> FOIA. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua'">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The disputed information in this appeal consists of information redacted from internal memoranda relating to proposed meetings between the Museum and BP on 29 September 2021 and 14 October 2021.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua'">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The parties are agreed that this appeal is concerned with the information highlighted in green at CB 80-103. Those documents appear in redacted form at OB 449-460. The highlighted information on those pages is referred to in the decision as &#8216;the withheld information&#8217;. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua'">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Goudie KC accepted on behalf of the Appellant that the tribunal could apply the Commissioner&#8217;s approach to any personal information i.e. that the personal data of employees below a certain level of seniority could be withheld. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua'">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">There is a closed annex to this decision. It is necessary to withhold this annex from the appellant to avoid defeating the purpose of the appeal. This will be reviewed at the conclusion of any appeal from the tribunal&#8217;s decision. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Factual background</span></heading>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua'">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">BP has been a sponsor of the British Museum since 1996. In 2020/2021 the then current sponsorship agreement was coming to an end. The sponsorship agreement that was in place at that time amounted to BP providing the Museum with a total of &#163;2.5 million over five years. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua'">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Between June and October 2021 there were a number of initial meetings between BP and the British Museum in the context of the possible renewal of the sponsorship agreement. A telephone discussion took place on 20 June 2021. Peter Mather from BP visited the Museum on 29 September 2021 and met with Dr Hartwig Fischer, then the director of the Museum. On 14 October 2021 Louise Kingham from BP visited the Museum and met with Dr Hartwig Fischer. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua'">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Broadly, the green information is redacted from the notes prepared for the purposes of internal consideration by the Museum in preparation for the meetings of 29 September 2021 and 14 October 2021. The withheld aspects of those notes cover: the Museum&#8217;s desired outcomes from those meetings, aspects of the agenda (i.e. issues to be discussed with BP), brief points relating to the BP sponsorship as it stood at the time, references to projects for which the Museum was hoping to obtain external funding, and aspects of the Museum&#8217;s work-in-progress thinking and planning in relation to its goals and potential arrangements with BP.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua'">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Following the period with which we are concerned, the Museum entered into a new agreement with BP which was announced in December 2023. The new arrangement amounted to BP providing the Museum with a total of &#163;50 million over 10 years.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua'">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">The Museum is a high-profile national institution which receives significant public funding. The sponsorship of the Museum by BP is, and was at the time of the response to the request, the subject of public debate. The actions of BP, as a company engaged primarily in the arena of fossil fuels, are and were at the time of the response, the subject of public debate. The ethics of corporate sponsorship of cultural organisations by companies working in fossil fuels is and was also the subject of public debate. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Requests, Decision Notice and appeal</span></p>
+	    <p><span class="Hyperlink" style="font-style:italic;font-weight:bold;text-decoration-line:none;font-family:'Book Antiqua';color:initial">The Request</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua'">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Dr Garrard made the following request to the Museum on 10 January 2022: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-family:'Book Antiqua'">&#8220;&#8230;I request that you disclose the following information. Details and copies of recorded information held by the Museum relating to the following three events, involving discussions between BP and staff at the British Museum:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">i)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Book Antiqua'">a telephone call held between two members of staff from BP, Dr Fischer and the Director of Development on 28 June 2021;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">ii)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Book Antiqua'">a meeting between one member of staff from BP, Dr Fischer and the Director of Development on 29 September 2021; and </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">iii)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Book Antiqua'">a meeting between one member of staff from BP, Dr Fischer and the Director of Development on 14 October 2021.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-family:'Book Antiqua'">&#8216;Recorded information&#8217; should follow the ICO&#8217;s broad definition as set out on the following web page: https://ico.org.uk/fororganisations/the-right-torecorded-information-and-requests-for-documents/</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-family:'Book Antiqua'">In the case of this request, this will likely include copies of meeting agendas and/or notes, and also correspondence arising from the events specified above, both with BP and internally between Dr Fischer and the Director of Development.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-family:'Book Antiqua'">Recorded information within the scope of this request may also include any notes taken by Dr Fischer or the Director of Development, in addition to any formal minutes taken.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The Museum&#8217;s reply</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua'">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">The Museum replied on 8 February 2022. It supplied some information redacted under section 40(2) (personal information) and 43(2) (commercial interests). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua'">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">On 5 April 2022 the Museum disclosed some further information on internal review and upheld its position in relation to the remainder of the information. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The Decision Notice</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua'">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">There is no appeal in relation to the Commissioner&#8217;s decision on section 40(2) FOIA. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua'">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">In relation to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> FOIA the Commissioner accepted that the requested information related to the commercial interests of the Museum and, to a lesser extent, BP. He found that the requested information included discussions concerning sponsorship that, if disclosed, would be likely to prejudice the Museum and BP.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua'">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">The Commissioner stated that he was aware that the public has an interest in the subject of its public institutions and those companies that sponsor them. He noted that the Museum has had a connection to BP for many years and this is acknowledged on the Museum&#8217;s website. He noted that this relationship has been and continues to be the subject of negative publicity from opponents of the sponsorship. The Commissioner stated that this was a finely balanced decision. The Commissioner decided in favour of non-disclosure because he accepted that disclosure may well deter organisations from entering into future sponsorships with the Museum which needs to attract funding.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Notice of Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua'">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Dr Garrard&#8217;s grounds of appeal are, in summary that the Commissioner was wrong to conclude that the Museum had correctly applied <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> and was wrong to conclude that the public interest favoured maintaining the exemption. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The Commissioner&#8217;s response</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua'">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">The Commissioner maintained that disclosure of the withheld information would be likely to prejudice the Museum&#8217;s commercial interests. The Museum relies on charitable donations and sponsorship in order to carry out its functions in the public interest. In negotiations with potential corporate sponsors, the Museum is concerned to maximise the commercial benefit of any support agreement. The Commissioner submitted that disclosure would divulge details of one specific package, which could affect the Museum&#8217;s ability to negotiate and secure the best possible outcome in relation to a different sponsor in the future.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua'">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">The Commissioner submitted that there was, to a lesser extent, a real risk of substantial prejudice to BP if the withheld information is disclosed. It includes details of BP&#8217;s business shared with the Museum in the context of and in pursuance of the bespoke arrangement reached between them. It is submitted that disclosure could have a prejudicial impact on BP&#8217;s relationships with other parties and the commercial outcomes it is able to achieve.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua'">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">The Commissioner maintained that the public interest in maintaining the exemption outweighed the public interest in disclosure. The Commissioner agreed with the Museum that the redactions applied to the disclosed documents were targeted and proportionate, withholding only those details where the exemption is engaged and where the public interest balance favours maintaining the exemption.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua'">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">The Commissioner maintained that the balance was a fine one. He agreed with the Appellant that there is a public interest in transparency around the sponsorship of public institutions, in particular where the corporate sponsors operate in controversial sectors. However, he submitted that there is a countervailing strong public interest in upholding both the Museum&#8217;s and BP&#8217;s commercial positions, especially given the implications for the public interest functions which such sponsorship deals enable the Museum to carry out for the public&#8217;s benefit.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua'">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">While the Commissioner acknowledged the public interest in controversial sponsorship, he maintained that the withheld information sheds little light on the issue either as a matter of principle or in terms of the specific details, above and beyond what is already in the public domain (not least as a result of the disclosures made by the Museum in response to the Request). Conversely, given its contents it is submitted that the withheld information would be likely to cause substantial prejudice to both the Museum and BP.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The Museum&#8217;s response</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua'">24.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr Hopkins, on behalf of the Museum clarifies that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.6in">24.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">The information withheld under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> consists of sections of internal memoranda relating to the relevant meetings between BP and the Museum. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">24.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Those sections outline, in brief terms and for the purposes of internal consideration by the Museum: the Museum&#8217;s desired outcomes from the relevant meetings, aspects of the agenda (i.e. issues to be discussed with BP) at those meetings, brief points relating to the BP sponsorship as it stood at the time, references to confidential projects for which the Museum was hoping to obtain external funding, and aspects of the Museum&#8217;s work-in-progress thinking and planning in relation to its goals and potential arrangements with sponsors such as BP.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua'">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It is submitted that public disclosure of the withheld information would have created a very significant and weighty risk of substantial prejudice to the Museum&#8217;s commercial interests and thus <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> was engaged. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua'">26.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It is argued that a disclosure which risks harming the Museum&#8217;s ability to seek the most favourable arrangements from this and/or other sponsors would prejudice the Museum&#8217;s commercial interests:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">26.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">At the time of this request, the Museum was yet to conclude negotiations with BP about further sponsorship arrangements. Disclosure of the redacted information would have weakened the Museum&#8217;s position in those negotiations, in particular because the Museum&#8217;s desired outcomes and its thinking about prospective arrangements would have been revealed to BP.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">26.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">The redacted information is relevant not only to the Museum&#8217;s arrangements with BP, but to prospective arrangements with other potential sponsors also. Disclosure of the redacted information would have weakened the Museum&#8217;s negotiating position in respect of other sponsors. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">26.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Public disclosure of the Museum&#8217;s internal thinking about aspects of its arrangements with BP would have damaged its relationship with BP. BP&#8217;s trust in the Museum&#8217;s ability to maintain confidentiality would be undermined by the disclosure of the redacted information. That damage to the Museum&#8217;s relationship with BP would have weakened the Museum&#8217;s ability to secure the best outcome from its sponsorship negotiations with BP.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">26.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Similar damage would have been done to other sponsors&#8217; and potential sponsors&#8217; trust in the Museum, thereby weakening the Museum&#8217;s ability to secure the best outcomes from sponsorship negotiations.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">26.5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Disclosure would have revealed aspects of the Museum&#8217;s plans and thinking to the Museum&#8217;s competitors that could assist those competitors in improving their positions in negotiations with sponsors.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua'">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It is submitted that disclosure would also entail a very significant and weighty chance of significant prejudice to BP&#8217;s ability to secure the best outcome from its perspective in its sponsorship negotiations with other institutions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua'">28.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It is submitted that there is a weighty public interest in maintaining the exemption: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">28.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">There is a very weighty public interest in the ongoing success of the Museum.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">28.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Fundraising from commercial sponsors was (and is) very important to the Museum&#8217;s success.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">28.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">There is weighty public interest in preventing prejudice to the Museum&#8217;s ability to maximise the funds it raises from commercial sponsorships.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">28.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">There is also significant public interest in maintaining fair competition in the market for commercial sponsorship.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">28.5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">There is also significant public interest in not exposing commercial sponsors like BP to unwarranted commercial prejudice.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua'">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It is submitted that the public interest in disclosure of the requested information is much weaker:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">29.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">The Tribunal needs to focus on the extent (if any) to which the disclosure of the particular information in dispute is relevant to the public interest in transparency about the Museum&#8217;s arrangements with BP, including the terms of those arrangements and the Museum&#8217;s decision making about its relationship with BP.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">29.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Whatever the merits of Dr Garrard&#8217;s general arguments about transparency on these issues, they have negligible purchase on this particular information. The public interest in the disclosure of that information is very limited and does not assist to any meaningful extent with the transparency objectives identified by Dr Garrard.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">29.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Some of the issues with which the redacted information is concerned were in fact never discussed at the relevant meetings, because key staff were in the event unable to attend.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">29.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">It is wholly unrealistic to suggest that disclosure may help the Museum attract sponsors. The same goes for Dr Garrard&#8217;s argument that &#8220;greater transparency around the tendering process&#8221; would improve the sponsorship process: the redacted information would not meaningfully illuminate &#8220;the tendering process&#8221;, because it is concerned with outline points about internal preparations for specific meetings.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua'">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We have before us and have read: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">30.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">An open hearing bundle.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">30.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">A closed hearing bundle.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua'">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The closed bundle consists of an unredacted version of the documents containing the withheld information and a redacted version of the Museum&#8217;s letter to the Information Commissioner dated 7 December 2022. We are satisfied that it is necessary to withhold this information from the appellant to avoid defeating the purposes of the appeal. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua'">32.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 43(2)</ref> provides:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:1.08in"><span style="font-family:'Book Antiqua'">&#8220;Information is exempt information if its disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref>, would, or would be likely to prejudice the commercial interests of any person (including the public authority holding it)&#8221;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua'">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">&#8216;Commercial interests&#8217; should be interpreted broadly. The ICO Guidance states that a commercial interest relates to a person&#8217;s ability to participate competitively in a commercial activity.&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua'">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The exemption is prejudice based. &#8216;Would or would be likely to&#8217; means that the prejudice is more probable than not or that there is a real and significant risk of prejudice. The public authority must show that there is some causative link between the potential disclosure and the prejudice and that the prejudice is real, actual or of substance. The harm must relate to the interests protected by the exemption.&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua'">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 43</ref> is a qualified exemption, so that the public interest test has to be applied.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua'">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">In considering the factors that militate against disclosure the primary focus should be on the particular interest which the exemption is designed to protect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua'">37.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The Upper Tribunal in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">APPGER</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2013/0560" uk:canonical="[2013] UKUT 0560 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKUT 0560 (AAC)</ref> gives guidance on how the balancing exercise required by section 2(2)(b) of FOIA should be carried out:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.08in"><span style="font-family:'Book Antiqua'">&#8220;&#8230; when assessing competing public interests under FOIA the correct approach is to identify the actual harm or prejudice that the proposed disclosure would (or would be likely to or may) cause and the actual benefits its disclosure would (or would be likely to or may) confer or promote. This &#8230; requires an appropriately detailed identification of, proof, explanation and examination of both (a) the harm or prejudice, and (b) benefits that the proposed disclosure of the relevant material in respect of which the exemption is claimed would (or would be likely to or may) cause or promote.&#8221; [75]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua'">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The date for assessing the public interest balance is the date on which the public authority responded to the request. </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Montague v IC and DIT </span><span style="font-family:'Book Antiqua'"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/104" uk:canonical="[2022] UKUT 104 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 104 (AAC)</ref> at [47]-[90].</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The Task of the Tribunal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua'">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The tribunal&#8217;s remit is governed by section 58 FOIA. This requires the tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved exercising discretion, whether he should have exercised it differently. The tribunal may receive evidence that was not before the Commissioner and may make different findings of fact from the Commissioner.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua'">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The issues we have to determine are as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.08in"><span style="font-family:'Book Antiqua'">Would disclosure be likely to prejudice the commercial interests of the Museum and/or BP? </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.08in"><span style="font-family:'Book Antiqua'">Where does the balance of public interest lie? </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Oral submissions/skeleton argument of the appellant</span></p>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Is <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> engaged in relation to the Museum&#8217;s interests? </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua'">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Goudie KC submitted that the Museum has fallen far short of its evidential  burden of proving that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> is engaged. He submitted that the Museum has not explained why or how the green information would prejudice the Museum&#8217;s position in negotiations with BP. He argued that the Museum&#8217;s description of the information is inconsistent: it cannot both be information that is &#8216;not concerned with the details of the Museum&#8217;s arrangements with or decisions about BP&#8217; and also be highly sensitive material that would damage its competitive edge. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua'">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It was further argued that the Museum has not provided an evidential basis for the assertion that it would weaken its negotiating position with other sponsors. The Museum states that each sponsorship period with BP is unique and negotiated on an individual basis. It is submitted that the Museum has not explained why disclosure of its position in respect of a unique deal would reveal anything about its thinking and approach to other sponsors. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua'">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Goudie KC made the same points in relation to the argument that other institutions would be given a competitive edge over the Museum in seeking sponsorship. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua'">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Goudie KC submitted that commercially sophisticated companies such as BP should be aware that the Museum is subject to the FOIA 2000.</span> I<span style="font-family:'Book Antiqua'">t is argued that it could be the case that BP appreciated and accepted the applicability of FOIA to its sponsorship activities as part of the &#8220;cost of doing business&#8221; &#8211; as an acceptable risk to run. Mr. Goudie KC noted that the Tribunal does not have any evidence before it either way.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua'">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">He submitted that the Museum had not provided sufficient evidential underpinning for its assertion that there was a causative link or that the risk of prejudice was real and significant. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Is <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> engaged in relation to BP&#8217;s interests?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua'">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It is submitted that the Museum has not satisfied the burden of showing that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43(2)</ref> would prejudice BP&#8217;s commercial interests. It has merely asserted this without evidence. The Museum has neither adduced a witness statement from BP nor provided a witness statement from one of its own members of staff explaining that they sought comment from BP on the issue of commercial prejudice. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Public interest in disclosure</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua'">47.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It is submitted that there is a very weighty public interest in transparency for the following reasons:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">47.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">The Museum is a public institution of national importance in receipt of substantial public funding.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">47.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">The Museum is an institution where public and private interests are financially entangled. The public should be in a position to consider and debate whether the right balance is being struck by the Museum in its mixing of public funds and public interests with private funds and private interests.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">47.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">There is a substantial public interest in understanding the entanglement of public interests and private fossil fuel interests.</span><span/><span style="font-family:'Book Antiqua'">The public have a very weighty interest in understanding and debating the ways the public&#8217;s institutions, in receipt of substantial public funds, are used to manage public opinion.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">47.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">Public interest in disclosure via FOIA is even greater in circumstances where the public authority is not habitually transparent. He submitted that public debate is crippled where disclosure of underlying documents is selective and limited and where some of the public body&#8217;s decision-making process is operated behind a curtain of its own making.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">47.5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">There is a public interest in disclosure to prompt due diligence.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua'">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Goudie KC submitted that corporate sponsorship is not a &#8216;plain vanilla&#8217; commercial interest. It is hybrid &#8211; part commercial and part philanthropic or wanting to be seen as philanthropic. The latter part is not within <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref>. This affects the weight in the public interest balance. So does the fact that disclosure is particularly critical because sponsorship is capable of distorting standards, consciously or subconsciously. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Public interest arguments against disclosure</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua'">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It is accepted by the appellant that there is a weighty public interest in the ongoing success of the Museum. It is submitted that the ongoing success of the Museum is broader than the second respondent&#8217;s narrow focus on raising money. The reputation of the Museum and public trust in the Museum&#8217;s use of its substantial imprimatur are also vital elements of the Museum&#8217;s future success. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua'">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Goudie KC accepted that there may be some commercial prejudice but submitted that it carries little weight in the overall balance. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua'">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Goudie KC submitted that the tribunal should reject the argument that there is a public interest in not exposing commercial sponsors like BP to unwarranted prejudice as an attempt to dress BP&#8217;s private interests as a public interest to be weighed against disclosure. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua'">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">In relation to the Museum&#8217;s submissions as to the importance of specificity to the information in disclosure, it is submitted that there is no evidence to support the assertion relating to what was and was not discussed at the meeting on 14 October 2021. To the extent that the letter of 5 April 2021 can serve as evidence of what was discussed in October 2021, the extract does not support the assertion. The letter states that the Museum does not hold any information indicating that the points noted in the Agenda were ever discussed. It is submitted that the Museum&#8217;s account is factually implausible and the Museum has produced no evidence to support it. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua'">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It was submitted that the Commissioner decided that the balance finely favoured withholding the information on the basis that an organisation may well be deterred from entering into future sponsorship with the Museum. There is no indication of who that organisation might be. It was submitted that although BP is not a unique case, it is a special case and not representative in terms of the sponsorship market.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Oral submissions/skeleton argument of the Museum</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua'">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">The skeleton argument reiterates the arguments made in the Museum&#8217;s response. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua'">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">In oral submissions, Mr. Hopkins began by giving some context, which he submitted consisted of facts that were uncontroversial and in the public domain, including that fact that the ultimate outcome of the discussions with BP was an announcement in December 2023 of a new arrangement amounting to BP providing the Museum with a total of &#163;50 million over 10 years.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua'">56.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Taking that into account, he submitted that it was clear on the face of the withheld information, as summarised in open, that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">56.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">The discussions in question were very early-stage high level discussions.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">56.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">The notes do not descend into granularity, nor do they represent the Museum weighing up the &#8216;goods and bads&#8217; of continuing their relationship with BP. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">56.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">The notes do not represent a forensic scrutiny and analysis or due diligence, which would take place later in the process in 2023, would involve the Museum&#8217;s trustee board and would be recorded in public minutes. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">56.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">This was not a presentation prepared for delivery to BP. Its existence and contents are not intended to be shared with BP. It is not a script for the meetings. They are very high-level notes intended to help the director&#8217;s thinking when approaching this initial preliminary meeting. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Engagement of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref></span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua'">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins submitted that it should be uncontentious that sponsorship income is a commercial interest for an organisation like the Museum. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua'">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">He submitted that in January or February 2022, when the information was a few months old but the Museum was still in the early stages of building towards a potential new partnership, public disclosure would have been likely to have created a real and significant risk of real, actual or substantial prejudice to the commercial interests primarily of the Museum but also of BP. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua'">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins noted that the level of risk needed was common ground: the tribunal has to decide if there &#8216;may very well be&#8217; prejudice. There has to be a significant and weighty chance of prejudice. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua'">60.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">He submitted that that test was comfortably met and the risk of prejudice obvious, taking into account:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">60.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">The context set out in submissions, which is based on uncontroversial public domain facts.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">60.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">The explanations contained in letters from the Museum to the Commissioner. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.08in;text-indent:-0.49in">60.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">The redacted documents themselves, as summarised in open.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua'">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins submitted that this showed that these were the early stages of a potential negotiation process that will give rise to a hugely important sponsorship arrangement of enormous commercial significance. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua'">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins then made submissions with reference to the content of the material, in so far as he could do so in open. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua'">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">The material contains a page headed &#8216;Desired outcomes&#8217; which contains headlines for the director to consider in terms of what the Museum wants to get out of this initial meeting and where it wants this to go. It was submitted that revealing this internal thinking at this stage to the other party to potential negotiations would cause detriment to the Museum&#8217;s ability to negotiate the best outcome from the process. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua'">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins drew the tribunal&#8217;s attention to the list of sponsor benefits that BP had made use of, the sections setting out the Museum&#8217;s own thinking about personnel changes at BP, the timelines and a section setting out how the Museum as an institution saw the process as being likely to pan out. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua'">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">There are two slides summarising potential areas for BP support for the Museum. Mr. Hopkins noted that these are not terms that the Museum was proposing. It is not a pre-contractual negotiation process but very preliminary items that the Director may wish to bear in mind in hosting the preliminary meetings as to areas where BP might end up providing support. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua'">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins highlighted one redacted reference to where BP ranks on the Museum&#8217;s list of sponsors and stated that the rest of the material related to information on BP&#8217;s structure and personnel that the Museum considered to be relevant in a prospective negotiation partner.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua'">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It was submitted that the information must be seen in its context: preliminary early stage meetings from what is envisaged to grow into a process for the renewal of a massively important and financially vital partnership for the Museum. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua'">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins invited the tribunal to &#8216;test the risk&#8217; by considering what would have happened if, in early 2022, the Museum had emailed the slides containing desired outcomes of the meeting and what the areas of potential support by BP might look like. He submitted that this would show the Museum&#8217;s hand. He acknowledged that this is high level material and would not be as damaging as, for example, revealing the Museum&#8217;s bottom line sum, but he submitted that it would reveal the initial headline points that the Museum thought were important in agenda setting. He submitted that this was the sort of information that you would not reveal to your opposite number if you wanted to get the best out of the likely negotiation process. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua'">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins submitted that disclosure would have shown the Museum&#8217;s hand to BP and would have been valuable to BP and disadvantageous to the Museum in terms of securing the best terms in the subsequent negotiation. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua'">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">In terms of prejudice to negotiations with other potential sponsors, Mr. Hopkins acknowledged that some of the information was specific to BP but some was not. Other sponsors would also gain insight and strengthen their hand. They know what, internally, was seen as important. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua'">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins again invited the tribunal to &#8216;test the risk&#8217; by considering what would have happened if, in early 2022, the Museum had placed these slides on their website. The material includes the Museum&#8217;s distillation of BP personnel/BP&#8217;s organogram, information about BP&#8217;s use of its benefits and the Museum&#8217;s own thinking in high level initial terms about where they saw these renewal discussions going. It is, Mr. Hopkins submitted, obvious that BP would be unimpressed and would consider it a surprising thing for the Museum to have done. It would have diminished BP&#8217;s trust in the Museum&#8217;s ability to keep its internal thinking about BP confidential. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua'">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins submitted that BP will, of course, understand that the Museum has transparency obligations, and that the usual scrutiny processes will be followed, that the relationship will be &#8216;raked over the coals&#8217; by the trustees and that there will public material about what the trustees think. He submitted that BP will know that there will be transparency about this relationship and the Museum&#8217;s thinking about it, but he submitted that this is different from publishing internal briefing notes for the director about nearly one-to-one discussions. If that material had been published it is submitted that it would have damaged trust in this potential negotiating partner. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua'">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">The Museum asserts more generally that there would be a diminution in trust in the Museum of prospective sponsors as a result of the Museum publishing this sort of information. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua'">74.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins asserted that it should be uncontroversial that sponsorship is a competitive market in the sense that cultural institutions compete for this kind of funding because they have to maximise their resources. If the material had been published in early 2022 it would have been of value to rival institutions in two ways: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">74.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">They could have replicated the good points from the Museum&#8217;s own internal thinking and planning about how to approach BP. This would give them an insight they would not otherwise have had. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">74.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">They would have the opportunity to differentiate themselves in doing things differently to the British Museum. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Book Antiqua'">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Competitors would have had insight into the Museum&#8217;s position while the Museum would not have had a corresponding insight into its competitors&#8217; positions. This would diminish the Museum&#8217;s chances of &#8216;maximising its slice of the sponsorship pie&#8217;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua'">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">In terms of harm to BP&#8217;s commercial interests, Mr. Hopkins stated that this was not the primary argument. However it was submitted that the information would be useful to others entering into sponsorship negotiations with BP, because it gives insights into the key points about BP that the Museum thinks are relevant and a summary of how BP has been using its sponsorship benefits. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Book Antiqua'">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">In terms of the lack of evidence from BP, Mr. Hopkins submitted that this appeal was very different to the factual context in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Derry City Council v IC</span><span style="font-family:'Book Antiqua'"> (FTT EA/2006/0014) because the material was not intended to be seen by BP, and the prejudice is asserted to flow, in part, from BP seeing the information. In those circumstances it is not possible to consult with BP to find out their views on whether commercial harm would be caused by release. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Book Antiqua'">78.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins submitted that evidence had been provided in the form of:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">78.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Uncontentious facts in the public domain. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">78.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'"> Two letters from the Museum, containing detailed and reasoned explanations. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Book Antiqua'">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">He submitted that there is no formal requirement for a witness statement. He submitted that there are no controversial facts in this appeal &#8211; the tribunal has to make a forward-looking assessment of risk and does not need the evidence of a witness to do that. The assessment can be made on the basis of the context and the content of the information itself. Further up until a few days before the hearing, the Museum understood that the engagement of the exemption was not in issue. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Book Antiqua'">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">In relation to the public interest balance, Mr. Hopkins submitted that there is a very weighty public interest in avoiding the prejudicial consequences. The potential sponsorship by BP is important to the health and viability of the Museum. A detrimental effect on the amount of money the Museum could raise would affect its ability to do the important work that it does. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Book Antiqua'">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">It was submitted that the request comes at the end of a period of covid disruption and the impact on attendance of in-person exhibitions. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Book Antiqua'">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins submitted that it was in the public interest to avoid the unfair distortion of sponsorship negotiations whereby one party gets to know the early thinking of the other. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Book Antiqua'">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Although internal briefing notes setting out high level thinking would be valuable to the other side and to competing institutions, they do not in any meaningful way help the public understand the Museum&#8217;s decision making or whether they adopted the right charitable or ethical or commercial analysis. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Book Antiqua'">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins accepted that there were important public interest issues about how partnership deals are done and how institutions make those decisions particularly in relation to fossil fuel companies. This information, it was submitted, does not show the Museum&#8217;s evaluative thinking about the rights and wrongs of such a deal or thoughts on how much money might make such a deal worthwhile. Mr. Hopkins submitted that it would not help public understanding or shed light on or further those important debates. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Book Antiqua'">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">From the information the Museum has placed in open, Mr. Hopkins argued, the appellant could not reasonably interpret the withheld material as containing information that goes to those kinds of important themes and interests. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Book Antiqua'">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">In terms of relevance to the issues identified by the appellant Mr. Hopkins submitted that some of the information gets a &#8216;zero rating&#8217; and some gets a &#8216;very low rating&#8217;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-family:'Book Antiqua'">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">This has to be weighed against a significant and weighty chance that there will be some harm to the Museum&#8217;s ability to get the best outcome, taking into account that this is high level initial thinking that would have been released at an early stage. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_19">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Closed submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_88">
+	  <num style="font-family:'Book Antiqua'">88.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.59in"><span style="font-family:'Book Antiqua'">We held a closed session. The following gist of the closed session, drafted by Mr. Hopkins and approved by the panel, was provided to the appellant&#8217;s representative during the hearing:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">1.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">The closed session began at 2.05pm. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">2.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">Judge Buckley asked Mr Hopkins to go through the closed material and answer her questions. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">3.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">Judge Buckley started by asking about the slides prepared for the September meeting. Mr Hopkins acknowledged that there were some admin oversights in the manner in which some redactions had been applied resulting in some apparent inconsistencies. For example on page OB440 the first two redacted words are &#8220;outgoing&#8221; and &#8220;incoming&#8221; respectively. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">4.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">Mr Hopkins provided additional context on the change of personnel at BP and how this impacted on the Museum&#8217;s commercial interests. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">Judge Buckley asked about the &#8220;Desired outcomes&#8221; slide.  Mr Hopkins clarified that this slide related to the desired outcome from the meeting (rather than the entire relationship), albeit it did include information on what the prospective sponsorship might cover.  It was confirmed that this slide covered both messages to be communicated to BP and, in addition, desired outcomes from BP. Judge Buckley asked how this information would prejudice commercial interests. Mr Hopkins talked through the various bullets on this slide and explained that some of those represented new proposals / strategic directions.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">6.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">Judge Buckley asked a question about the &#8220;Agenda&#8221; slide, and Mr Hopkins provided more information on the proposals for potential BP support which are redacted on this slide.  He gave an example of wording which he said showed that this was an internal document which was not intended to be shared with BP. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">7.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">The &#8220;Background&#8221; slide was then discussed. Judge Buckley asked Mr Hopkins for clarification on this would prejudice commercial interests. Mr Hopkins gave an example of how the benefits package was bespoke.  Mr Hopkins explained how the Museum considered that the disclosure of its preliminary outlook on timings would be harmful. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">8.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">The single slide which is entirely redacted [OB444] was then discussed and Mr Hopkins clarified that the sensitivity was about other sponsors and competitor institutions gaining an unfair insight (rather than BP learning something new). Mr Hopkins explained how this slide showed a possible strategic change was being considered. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">9.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">The extra slide within the slide deck for the October meeting was then discussed [OB456]. Mr Hopkins explained how this slide contained a proposal that BP might support and how this proposal was uncertain at the time of the meeting. Judge Buckley asked a follow up question and Mr Hopkins explained this proposal was only mentioned in a high level way in the September slides but is discussed in more detail in the October slides.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">10.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">Taking both versions of the slide deck together, Judge Buckley asked about the slide containing the profile of Louise Kingham. Mr Hopkins explained that this information had been packaged up in a particular manner in terms of what the Museum felt the Director needed to have to make most productive use of the meeting. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">11.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">Mr Hopkins confirmed that the information redacted on the &#8220;Past Relationship&#8221; slide is not in the public domain. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">12.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">The final two slides were then discussed. They relate to personnel changes at BP and Mr Hopkins explained why the Museum felt this information was sensitive. Judge Buckley asked a clarification question about this.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">13.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">Panel Members Cosgrave and Taylor did not have any additional questions or points to raise. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">14.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">Mr Hopkins reminded the Tribunal that the slide decks were not a script for the Museum&#8217;s Director to raise but rather things for him to bear in mind as he prepared for both meetings. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">15.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.28in"><span style="font-family:'Book Antiqua'">The closed session ended at 2.48pm.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_20">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion and conclusions</span></p>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Closed annex</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_89">
+	  <num style="font-family:'Book Antiqua'">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The closed annex contains additional reasoning. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_21">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">First-tier tribunal decisions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_90">
+	  <num style="font-family:'Book Antiqua'">90.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">A number of decisions of other First-tier Tribunals were drawn to our attention. We note the observations of Upper Tribunal Judge Jacobs in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">LO v Information Commissioner</span><span style="font-weight:bold;font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua'"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2019/34" uk:canonical="[2019] UKUT 34 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKUT 34 (AAC)</ref> [17]:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.98in"><span style="font-weight:bold;font-family:'Book Antiqua'">&#8220;G. The Commissioner shouldn&#8217;t worry about immaterial mistakes by the First-tier Tribunal </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">17.</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.98in;text-indent:0.02in"><span style="font-family:'Book Antiqua'">Ms Gannon asked me to deal with a mistake the tribunal had made about the law of privilege. That mistake was to Mr O&#8217;Hanlon&#8217;s benefit and did not affect the outcome of the appeal. So why should the Commissioner worry? The answer is that the Commissioners have made rods for their own backs by treating statements of law by the First-tier Tribunal as significant. The correct approach is to treat the decisions of the First-tier Tribunal with the respect they are due, no less but no more. What is their due? (a) A decision of that tribunal is, subject to any appeal, binding as between the parties on the issues decided. The Commissioner is under a duty to accept it as such and does. (b) I know from the documents in this case that the Commissioner analyses each case to see what lessons can be learned for the future. That is a proper and valuable practice. (c) The problem comes when the Commissioner treats the First-tier Tribunal&#8217;s decisions as containing authoritative statements of the law. They do not. Anything that the tribunal says in one case is not binding in any other. If it is wrong, it must not be followed in other cases. If it happens to be right, all to the good, and the same law should be applied in later cases. But it should be applied only because it is the law, not because it was said by the tribunal in a previous case.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-family:'Book Antiqua'">91.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">That is the approach that this tribunal adopts. For those reasons we were not assisted by considering the approach taken by different First-tier Tribunals in different factual contexts on the basis of different evidence. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_22">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Preliminary observations </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_92">
+	  <num style="font-family:'Book Antiqua'">92.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The parties spent a significant proportion of their submissions dealing with the evidence or the lack of evidence produced by the Museum in support of its case. For that reason we make these preliminary observations. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-family:'Book Antiqua'">93.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Where the exemption in issue is prejudice based, the tribunal must decide if the public authority has </span><span class="normaltextrun" style="font-family:'Book Antiqua'">satisfied the evidential burden of showing that some causal relationship exists between the prejudice being claimed and the potential disclosure; if the prejudice is real, actual or substantial; and whether the chance of prejudice is more than a hypothetical or remote possibility i.e. is there a real and significant risk of prejudice?</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-family:'Book Antiqua'">94.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">When considering whether a public authority has established a causative link or that the prejudice would be likely to happen, the tribunal has to take account of the fact that disclosure has not yet happened. It is a hypothetical, future event. There is therefore unlikely to be concrete or direct evidence of the specific effect of this particular disclosure. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-family:'Book Antiqua'">95.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">There is no requirement that the evidential burden must be satisfied by evidence given in particular form. The causal relationship and the level of risk might, as a matter of common sense, be clear from the closed material itself. The burden might be satisfied on the basis of documentary evidence in the bundle. Causation and level of risk might be adequately evidenced in the letter to the Commissioner from the public authority. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-family:'Book Antiqua'">96.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">In our view, a short witness statement from someone at the public authority, focussed on the issues that remain live before the tribunal, is generally useful and sometimes necessary. That statement can also address context and timing which are, in most cases, relevant to both the engagement of the exemption and the public interest balance. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-family:'Book Antiqua'">97.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">In many cases the factual nexus of context and timing is not disputed. Often, but not always, it is in the public domain already. That does not mean that relevant factual context ought simply to be introduced for the first time in oral submissions, as it was in this appeal. That does not allow the appellant sufficient time or opportunity to determine if they do wish to challenge those facts or undertake their own research to determine if those facts were in the public domain at the relevant time. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-family:'Book Antiqua'">98.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The question of whether it is a proportionate use of resources to produce a witness statement or for a witness to attend a hearing to give oral evidence is a matter for the public authority. The public authority will have to take a view on whether the documentary evidence is likely to suffice. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_23">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Inconsistent redactions/agreed disclosure</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_99">
+	  <num style="font-family:'Book Antiqua'">99.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">There are two similar sets of notes, one relating to October and one to September. There are a small number of identical words that have been released in one version and redacted in the other, presumably in error. The redactions are not of consequence but as a matter of consistency the Museum should ensure that anything that has been released is released in both versions. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-family:'Book Antiqua'">100.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins agreed that the withheld information, other than personal data, on page 81 of the closed bundle could be disclosed. We have not included this in our decision notice above. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_24">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Would disclosure be likely to prejudice the commercial interests of the Museum? </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_101">
+	  <num style="font-family:'Book Antiqua'">101.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">As our reasoning below makes clear, we have found that the commercial interests of the Museum would be likely to be prejudiced by disclosure and that this prejudice alone outweighs the public interest in disclosure. For that reason it was not necessary for us to make findings in relation to any commercial prejudice that it was asserted would be likely to be caused to BP&#8217;s commercial interests. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="font-family:'Book Antiqua'">102.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The arguments on commercial prejudice were threefold: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.28in;text-indent:-0.69in">102.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.28in"><span style="font-family:'Book Antiqua'">The Museum&#8217;s prospects of obtaining the best deal in their negotiations with BP would be likely to have been diminished if this information had been shown to BP in February 2022. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.28in;text-indent:-0.69in">102.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.28in"><span style="font-family:'Book Antiqua'">Publication would have undermined the trust of BP and other potential sponsors in the Museum. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.28in;text-indent:-0.69in">102.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.28in"><span style="font-family:'Book Antiqua'">Publication would have given valuable insight to competitors for sponsorship. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="font-family:'Book Antiqua'">103.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that these claimed prejudices are to the Museum&#8217;s commercial interests. The Museum is not purely a state funded organisation. It is funded by a combination of a grant from the Department of Culture, Media and Sport and income from other sources such as sponsorship and other commercial activities. There is a competitive market for sponsorship &#8211; the Museum competes with other institutions for a limited pot of available funds. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="font-family:'Book Antiqua'">104.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that a sponsorship relationship is not purely commercial. It is, in part philanthropic and has wider benefits for the reputation of the sponsor. This does not prevent the Museum&#8217;s interest in maximising its sponsorship income from being a commercial interest. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="font-family:'Book Antiqua'">105.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">In relation to the risk of prejudice to negotiations with BP, there are two aspects of timing that are critical to our decision. The first is the stage in negotiations at which the meetings took place and the second is the stage in negotiations at which disclosure would have taken place. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num style="font-family:'Book Antiqua'">106.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Our findings are made on the basis of the contents of the notes themselves, the preparatory correspondence and the context provided in the letters from the Museum.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num style="font-family:'Book Antiqua'">107.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We find that these meetings took place at a very early stage. This was the &#8216;cultivation&#8217; stage. Discussions had not yet begun. These were high level meetings, that did not descend into granular detail about a potential future deal. They were not meetings that were intended to form part of the Museum&#8217;s scrutiny of any potential deal from a due diligence or an ethical perspective. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num style="font-family:'Book Antiqua'">108.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Further, we are considering the impact of disclosure in February 2022. At that time, the negotiations remained at a very early stage. The matter was still very much &#8216;live&#8217; at the relevant date. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num style="font-family:'Book Antiqua'">109.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">As well as timing, we have taken account of the content of the withheld material. We have considered each redacted section individually, set in the context of the document as a whole and in its place in the process. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num style="font-family:'Book Antiqua'">110.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">There is additional detailed reasoning in the closed annex, identified and redacted in the following paragraphs. The redacted sections are sections where we have referred to the specific content of the withheld information or have given detailed reasons which would otherwise lead to the same harm. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_25">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">Desired outcomes pages CL82 and CL95 </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_111">
+	  <num style="font-family:'Book Antiqua'">111.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The slide headed &#8216;Desired outcomes&#8217; contains information that we accept would give insight to other institutions into how the Museum, with its knowledge of BP and what it might be interested in, had decided to position itself in early discussions with BP. [CLOSED]. Although the level of detail is fairly minimal, we accept that this insight into the Museum&#8217;s positioning for BP would put competitors in a better position than they would have been without that information in competing for sponsorship from BP or other organisations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num style="font-family:'Book Antiqua'">112.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that this slide would also provide insight to competitors and BP into the Museum&#8217;s significant focus on [CLOSED]. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num style="font-family:'Book Antiqua'">113.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that revealing the Museum&#8217;s [CLOSED] would place it at some disadvantage in negotiations with BP, which were at a very early stage in February 2022.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num style="font-family:'Book Antiqua'">114.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that this insight into the Museum&#8217;s [CLOSED] would put competitors in a better position than they would have been without that information in competing for sponsorship from BP or other organisations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num style="font-family:'Book Antiqua'">115.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Although BP and other commercial organisations will be aware of the Museum&#8217;s obligations under FOIA, taken together with the other withheld information we accept that if this information had been placed by the Museum on its website in February 2022, BP would have been surprised that these early high-level internal thoughts had been laid bare at such an early stage in negotiations. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num style="font-family:'Book Antiqua'">116.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that there is a significant risk that this would have undermined, albeit to a fairly limited extent, the confidence of BP and other commercial organisations in the Museum&#8217;s judgment on what should and should not be put in the public domain. We accept that this would be likely to impact on the relationship with BP and that, at such a stage in the negotiations, carries a real and significant risk of some damage to the Museum&#8217;s commercial interests. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num style="font-family:'Book Antiqua'">117.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">In relation to other potential sponsors, we accept that this would be likely to impact, but only to a very limited extent, on other commercial organisations willingness to enter into sponsorship negotiations with BP. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_26">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">Agenda page CL83 </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_118">
+	  <num style="font-family:'Book Antiqua'">118.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that the wording &#8216;[CLOSED]&#8217; can be withheld on the same basis as the information discussed in paragraph 107 above. The text before this (&#8216;[CLOSED&#8217;) is in our view, unlikely to lead to any prejudice and repeats information already revealed in other parts of the slide and should be disclosed.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num style="font-family:'Book Antiqua'">119.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that the second redacted bullet point contains [CLOSED]. It is clear to us that this falls within the category of revealing the Museum&#8217;s hand which would place it at some disadvantage in negotiations with BP, which were at a very early stage in February 2022. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_27">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">Agenda page CL96</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_120">
+	  <num style="font-family:'Book Antiqua'">120.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We are not persuaded that any text on this page carries any risk of prejudice to commercial interests and it should be disclosed. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_28">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">Background pages CL84 and CL97</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_121">
+	  <num style="font-family:'Book Antiqua'">121.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">In relation to the use by BP of its sponsorship benefits, [CLOSED] overall we accept that this reveals details of the use that BP was making of the package of benefits, and also something about that package of benefits. This, we accept, would give a competitor for sponsorship insight into the sort of benefits that BP was particularly interested in, which would be likely to cause prejudice to the Museum&#8217;s commercial interests in the way set out above. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num style="font-family:'Book Antiqua'">122.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that the sentence relating to [CLOSED] engages <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref> on the basis set out above in paragraph 118.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num style="font-family:'Book Antiqua'">123.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The final sentence (October slides only) is [CLOSED]. We accept that this is the sort of information that, if released, would undermine the trust of BP in the Museum which would be likely to cause prejudice in the ways set out above. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num style="font-family:'Book Antiqua'">124.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">There is some inconsistent redaction of the timeline. The first text box and the title should be disclosed in both the September and the October versions. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num style="font-family:'Book Antiqua'">125.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We considered the timeline as a package including both [CLOSED] because it is only meaningful when looked at together. We accept that disclosure would be likely to cause prejudice to the Museum&#8217;s commercial interests by revealing two things to BP at an early stage in negotiations. [CLOSED]. Both these factors would, in our view, have a negative impact on the Museum&#8217;s bargaining position. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_29">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">[CLOSED]  pages CL85 and CL98/99</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_126">
+	  <num style="font-family:'Book Antiqua'">126.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We are not persuaded that the title of these slides either in the September or the October version would be likely to cause any prejudice to anyone&#8217;s commercial interests. [CLOSED]</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_127">
+	  <num style="font-family:'Book Antiqua'">127.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">There is more detail in the October slide but the reasons for withholding the information are the same.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num style="font-family:'Book Antiqua'">128.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">For the same reasons given in relation to the &#8216;Desired outcomes&#8217; slide we accept that this information would give insight to other institutions into how the Museum, with its knowledge of BP and what it might be interested in, had decided to position itself in early discussions with BP. We accept that this insight into the Museum&#8217;s positioning for BP would put competitors in a better position than they would have been without that information in competing for sponsorship from BP or other organisations. There is more detail in the October slide but the reasons for withholding the information are the same for both slides</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num style="font-family:'Book Antiqua'">129.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The last bullet point would, in our view, be likely to have a detrimental effect on the relationship with BP on the basis set out in paragraph 111 above. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_30">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">Biographies of Peter Mather and Louise Kingham pages CL86, CL87 and CL100</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_130">
+	  <num style="font-family:'Book Antiqua'">130.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Mr. Hopkins only addressed us on the page relating to Louise Kingham. He suggested that it was, in effect, a &#8216;cheat sheet&#8217; for the director to help him understand Louise Kingham&#8217;s priorities and the kinds of things that interest her. It gives insight into what the Museum have seen fit to package up as the key points for the director and the buttons he could push and would be useful to competitors. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_131">
+	  <num style="font-family:'Book Antiqua'">131.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We disagree. These are basic biographies of high-profile public figures, which we would expect to see published, in almost identical form, widely on the internet. To the extent that they give any insight into the private thinking of the Museum it is extremely limited and we are not satisfied that a competitor could obtain any tangible commercial advantage from these pages. We are not persuaded that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref> is engaged in relation to these pages. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_31">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">Past relationship &#8211; pages CL88 and CL101</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_132">
+	  <num style="font-family:'Book Antiqua'">132.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Most of this page has been released. We accept that [CLOSED] is not in the public domain and is sensitive commercial information that would be likely to assist a competitor to some extent. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_32">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">[CLOSED] pages CL89 and CL102</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_133">
+	  <num style="font-family:'Book Antiqua'">133.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We are not satisfied that that the title of the page and the first paragraph reveal [CLOSED] any other useful insight into the Museum&#8217;s thinking, that has not already been revealed by the disclosed information. The fact that the slide concerns [CLOSED] is obvious from the unredacted information on that page. The first paragraph is obviously in the public domain. We are not satisfied that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref> is engaged in relation to the title and the first paragraph.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_134">
+	  <num style="font-family:'Book Antiqua'">134.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that the detailed consideration of [CLOSED] would give competitors some insight which would assist someone attempting to compete for sponsorship from BP. We accept that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref> is engaged on this basis. We accept that this detailed consideration along with the second paragraph also reveals the [CLOSED] highlighted and discussed in paragraphs 108-110 above and it engages <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref> for the same reason. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_33">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">[CLOSED]  pages CL90 and CL103</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_135">
+	  <num style="font-family:'Book Antiqua'">135.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We do not accept that the redacted sections on 103 reveal anything more than is already obvious from the sections that have been released. Even without the title, this is clearly a slide dealing with [CLOSED]. [CLOSED] are obvious from the job titles of those in each column. Taking into account what has already been released, we do not accept that the withheld sections give sufficient additional valuable insight into the internal thinking, focus [CLOSED] of the Museum to lead to any risk of prejudice to its commercial interests. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_34">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Conclusions on the engagement of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref></span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_136">
+	  <num style="font-family:'Book Antiqua'">136.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">For the reasons set out above, we are satisfied on the basis of the evidence before us that the Museum has established:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">136.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.18in;text-indent:0.03in"><span style="font-family:'Book Antiqua'">A causative link between disclosure at the relevant time and the prejudice set out in the following paragraph.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">136.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.18in;text-indent:0.03in"><span style="font-family:'Book Antiqua'">That the prejudice would be real, actual and of substance and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.59in">136.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.18in;text-indent:0.03in"><span style="font-family:'Book Antiqua'">That there is real and significant risk of that prejudice.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_137">
+	  <num style="font-family:'Book Antiqua'">137.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The prejudice that we have accepted for the above reasons is a prejudice to the commercial interest of the Museum. In summary we have accepted that the prospects of the Museum obtaining the best deal in their negotiations with BP would be likely to have been diminished if this information had been shown to BP in February 2022; that publication would have undermined the trust of BP and other potential sponsors in the Museum; and that publication would have given valuable insight to competitors for sponsorship. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_138">
+	  <num style="font-family:'Book Antiqua'">138.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">For those reasons we find that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref> is engaged in relation to the parts of the withheld information outlined above, and detailed in the closed annex. In relation to the other parts of the withheld information, <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref> is not engaged and those parts must be disclosed subject to redaction of personal data of less senior employees. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_35">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Public interest balance</span></p>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">Public interest in withholding the information</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_139">
+	  <num style="font-family:'Book Antiqua'">139.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">The information does not contain detailed proposals for a sponsorship agreement. It does not contain specific figures. Whilst we have accepted that there is a real and significant risk of prejudice to the Museum&#8217;s commercial interests as set out above, in our view there is a not a high risk of serious harm. For example, we consider it unlikely that the negotiations would have been derailed entirely by the release of this information. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_140">
+	  <num style="font-family:'Book Antiqua'">140.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">However we do place significant weight on the fact that there was a real and significant risk of diminishing the Museum&#8217;s prospects of obtaining the best deal from BP, including the prospect of some loss of trust by BP. This is particularly weighty because negotiations were ongoing and at a very early stage at the relevant date. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_141">
+	  <num style="font-family:'Book Antiqua'">141.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that there is a weighty public interest in preventing prejudice to the Museum&#8217;s ability to maximise the funds it raises from commercial sponsorship because the Museum is an institution of substantial national importance and public funding is subject to significant constraints. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_142">
+	  <num style="font-family:'Book Antiqua'">142.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We do not place any significant additional weight in the balance as a result of any prejudice that would be likely to flow from a loss of trust in the Museum by other potential sponsors, as we have concluded that the likely extent of this is very limited. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_143">
+	  <num style="font-family:'Book Antiqua'">143.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Further, whilst we have found that the information does provide valuable insight to competitors, the fairly high-level nature of the information means, in our view, that there is not a high risk of serious harm to the Museum&#8217;s commercial interests. Competitors gain an advantage but it is likely to be a small one. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_144">
+	  <num style="font-family:'Book Antiqua'">144.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We do place weight on the public interest in maintaining fair competition in the market for commercial sponsorship but given the limited distortion this particular information is likely to cause, we place only very moderate weight on this prejudice. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_36">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Public interest in disclosure</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_145">
+	  <num style="font-family:'Book Antiqua'">145.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We accept that there is a general public interest in the actions of the Museum as a public institution of national importance. We accept that there is a strong public interest in transparency in relation to how the Museum manages what Mr. Goudie KC referred to as &#8216;a striking intermingling of public and private interests&#8217; in relation to the governing and financing of the Museum and the Museum&#8217;s role in &#8216;bestowing the imprimatur of state approval via partnership with such private interests&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_146">
+	  <num style="font-family:'Book Antiqua'">146.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Further, we accept there is a strong public interest in any information that sheds light on the matters that were at the time and remain subject to public debate such as the ethics of sponsorship by companies such as BP, whose operations largely centre around fossil fuels. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_147">
+	  <num style="font-family:'Book Antiqua'">147.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Finally we accept that there is a strong public interest in information that demonstrates whether the Museum was, or was not, adopting an &#8216;ethical approach&#8217; or carrying out due diligence in relation to the potential renewal of its relationship with BP. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_148">
+	  <num style="font-family:'Book Antiqua'">148.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We do accept that the information about these meetings meets this public interest in transparency to a limited extent, because it illuminates, in high level terms, the kind of future relationship that the Museum were envisaging with BP at that stage. It illuminates, to a limited extent, the sort of relationship that the Museum had and would like to have with BP. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_149">
+	  <num style="font-family:'Book Antiqua'">149.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">In February 2022 there were no published board minutes or other public documents about the proposed new relationship. However, if the parties were going to enter into a new sponsorship arrangement, then the opportunity for public scrutiny and due diligence would inevitably follow at a later date. We find that the extent to which this early stage thinking of the Museum contributes meaningfully to the public interests identified above is limited. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_150">
+	  <num style="font-family:'Book Antiqua'">150.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">It is asserted in paragraph 36 of the grounds of appeal that the Museum has not disclosed certain substantive information about the sponsorship agreement with BP, and in paragraph 40 that &#8216;it had been publicised in the media that the British Museum had engaged in seeking to generate &#163;1 billion as part of a major fundraising initiative, what was initially referred to as the Rosetta Project. However, little to no information was provided about any ethical approach or process that would be adopted by the British Museum.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_151">
+	  <num style="font-family:'Book Antiqua'">151.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">We do not accept that this is a sufficient basis for us to accept Mr. Goudie KC&#8217;s submissions that the Museum is &#8216;not habitually transparent&#8217;. We do not add any additional weight to the public interest in disclosure on that basis. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_37">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Conclusion on the public interest balance</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_152">
+	  <num style="font-family:'Book Antiqua'">152.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:'Book Antiqua'">Looked at as a whole, we have decided for the reasons set out above, that there is a weighty public interest in maintaining the exemption. Whilst there is a very strong public interest in transparency in the issues identified by the appellant, the extent to which the withheld information serves that interest or informs public debate or illuminates the identified issues is limited. For those reasons we decide that where <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/43" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 43</ref> is engaged, the public interest favours maintaining the exemption. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_38">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Sophie Buckley</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">8 July 2024</span></p>
+	    <p><span style="font-family:'Book Antiqua'">Promulgated</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2024-07-10" refersTo="#decision" style="font-family:'Book Antiqua'">10 July 2024</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1344 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/61"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/61"/>
+	  <FRBRdate date="2025-01-24" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="61"/>
+	  <FRBRname value="Ian Driver v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/61"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/61"/>
+	  <FRBRdate date="2025-01-24" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/61/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/61/data.xml"/>
+	  <FRBRdate date="2025-01-24T12:06:25" name="transform"/>
+	  <FRBRdate date="2025-01-24T13:31:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-01-11" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-01-24" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="ian-driver" href="" showAs="IAN DRIVER"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="thanet-district-council" href="" showAs="THANET DISTRICT COUNCIL"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>61</uk:number>
+	<uk:cite>[2025] UKFTT 61 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>0.26.18</uk:parser>
+	<uk:hash>1e75c6b267e06dca0626c401a0f210b70e36447efa3732bfe82d4639b2fdccdd</uk:hash>
+	<uk:tna-enrichment-engine>7.0.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: Aptos; }
+#judgment .Heading1 { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2 { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3 { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4 { font-style: italic; color: #0F4761; }
+#judgment .Heading5 { color: #0F4761; }
+#judgment .Heading6 { font-style: italic; color: #595959; }
+#judgment .Heading7 { color: #595959; }
+#judgment .Heading8 { font-style: italic; color: #272727; }
+#judgment .Heading9 { color: #272727; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; color: #404040; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; color: #0F4761; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .NoSpacing { }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .Revision { }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .Heading1Char { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2Char { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3Char { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4Char { font-style: italic; color: #0F4761; }
+#judgment .Heading5Char { color: #0F4761; }
+#judgment .Heading6Char { font-style: italic; color: #595959; }
+#judgment .Heading7Char { color: #595959; }
+#judgment .Heading8Char { font-style: italic; color: #272727; }
+#judgment .Heading9Char { color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .IntenseEmphasis { font-style: italic; color: #0F4761; }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .IntenseQuoteChar { font-style: italic; color: #0F4761; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #0F4761; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #467886; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-size: 10pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:73.5pt;height:64.5pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2025] UKFTT 00061 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000"> Case Reference: EA/2023/0185</span></p>
+      <p class="NoSpacing"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p class="NoSpacing"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">General Regulatory Chamber</courtType></p>
+      <p class="NoSpacing"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua'">Information Rights </docJurisdiction></p>
+      <p class="NoSpacing" style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard: By Cloud Video Platform</span></p>
+      <p class="NoSpacing" style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2024-01-11" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">11 January 2024</docDate></p>
+      <p class="NoSpacing" style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Deliberation:  11 January 2024</span></p>
+      <p class="NoSpacing" style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">30 June 2024 </span></p>
+      <p class="NoSpacing" style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">25 November 2024</span></p>
+      <p class="NoSpacing" style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2025-01-24" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">24 January 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">TRIBUNAL JUDGE FOSS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">TRIBUNAL MEMBER MURPHY</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">TRIBUNAL MEMBER SCOTT</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#ian-driver" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">IAN DRIVER</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua'">(1)</num>
+	<p style="text-align:center;text-indent:0.5in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua'">(2)</num>
+	<p style="text-align:center;text-indent:0.5in"><party as="#respondent" refersTo="#thanet-district-council" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THANET DISTRICT COUNCIL</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">:</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">For the Appellant: the Appellant appeared in person.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">For the First Respondent: the First Respondent did not appear.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">For the Second Respondent: the Second Respondent was represented by Rupert Beloff, Counsel.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Decision: </span><span style="font-family:'Book Antiqua';color:#000000">The appeal is Dismissed.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt;color:#000000">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Introduction to the Appeal</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This appeal concerns the Appellant&#8217;s request for a report (&#8220;the Report&#8221;) commissioned by Thanet District Council (&#8220;the Council&#8221;) into matters relating to the conduct of certain senior executives from around 2019. The Council commissioned the Report in December 2021 after certain recommendations were made by its auditors on 12 October 2021 pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2014/2/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">s24</ref> and Schedule 7 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2014/2" uk:canonical="2014 c. 2" uk:origin="TNA" uk:type="legislation">Local Audit and Accountability Act 2014</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This is an appeal against the Commissioner&#8217;s Decision Notice Reference</span><span style="font-family:Aptos;color:#000000"/><span style="font-family:'Book Antiqua';color:#000000">IC-195534-T1F7 dated 28 February 2023 (&#8220;the Decision Notice&#8221;), wherein he concluded that the Council was entitled to rely on s40(2) FOIA to withhold the full Report.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The Request</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Report, dated 13 April 2022, was prepared by an Independent Monitoring Officer (the &#8220;IMO&#8221;).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On 24 April 2022, the Appellant requested the following information from the Council (&#8220;the Request&#8221;):</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">Please provide me with a full unredacted copy of the REPORT FROM THE INDEPENDENT MONITORING OFFICER which will be discussed at a meeting of TDC&#8217;s [the Council&#8217;s] General Purposes Committee on 27 April 2022.  </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua'">It is my opinion that the public interest in the disclosure of the full unredacted version of this report far outweighs the public interest in its non-disclosure.</span><span style="font-family:'Book Antiqua'">&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The IMO also prepared, and the Council published on 19 May 2022, a &#8220;Lessons Learnt Paper &#8211; Public Summary&#8221; dated 16 May 2022 (&#8220;the Public Summary&#8221;). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In the Public Summary, the IMO (1) summarised deficiencies in governance in the Council in dealing with grievances, whistle-blower complaints and disciplinary proceedings, and (2) described the emergence in 2019 of a serious breakdown in the relationships between the four, senior officers comprising the Council&#8217;s Corporate Management team (&#8220;the CMT&#8221;). He identified those four officers by name. He concluded that the matters described at (1) had been a factor in causing or aggravating the matter described at (2). He listed key areas of concern, identified the cause of disfunction in the CMT, identified in broad terms the causes of problems in relationships between the relevant senior officers, and between those officers and Councillors, summarised the mishandling of grievances, whistleblower complaints and disciplinary matters, addressed deficiencies in the availability of adequate Human Resources support and advice, and enumerated multiple recommendations as a starting point for improvement.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_2">
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Refusal of the Request</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On 23 May 2022, the Council refused the Request, citing <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/44/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">s44(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) (prohibitions on disclosure). The Council said that the applicable statutory bar was that set out in Paragraph 1 of Schedule 12A Part 1 of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref> (information relating to any individual).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Internal Review</span></heading>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On 24 May 2022, the Appellant requested an internal review of the Council&#8217;s refusal. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On 9 June 2022, following its internal review, the Council relied instead on s40(2) FOIA (personal data) to refuse the Request.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">On 5 October 2022, the Appellant complained to the Information Commissioner (&#8220;the Commissioner&#8221;). The Commissioner investigated.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The Decision Notice</span></heading>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">By his Decision Notice, the Commissioner upheld the Council&#8217;s position. He found, in summary, that the information requested both related to and identified either current or former employees of the Council or third parties and constituted personal data within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s3(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">In assessing whether disclosure would contravene principle (a) of the Data Protection principles, namely that personal data must be processed lawfully, fairly and in a transparent manner in relation to the data subject, he identified that for the processing to be lawful, one of the lawful bases listed in Article 6(1) of the UK GDPR must apply (and that it must be generally lawful). He considered that of the lawful bases identified in Article 6(1) UK GDPR, the most applicable was Article 6(1)(f) which states:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">He identified the following three-part test to establish the application of Article 6(1)(f):</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">legitimate interest test: whether a legitimate interest was being pursued in the request for information; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">necessity test: whether disclosure of the information was necessary to meet the legitimate interest in question; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">balancing test: whether the above interests overrode the legitimate interest(s) or fundamental rights and freedoms of the data subject.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">There was, as he put it, &#8220;a number of legitimate interests&#8221; in disclosure of the requested information, although he did not identify which of such interests advanced by the Appellant he accepted: detecting or exposing crime or the threat of crime, disclosing a person&#8217;s or organisation's failure or likely failure to comply with any obligation to which they are subject, and raising or contributing to a matter of public debate, including serious cases of impropriety, unethical conduct or incompetence concerning the public.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">He noted that the Council recognised that there was a legitimate interest in the disclosure of the Report as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The Council recognises that there is a legitimate interest in the conduct of its staff, particularly at its most senior level where there has been particular interest due to the excessive costs triggered by the historical disagreements amongst most senior four staff. Disclosure of such information supports transparency and accountability and enables the public to hold highly paid senior officers to account for their conduct in office and question the diversion of public money to deal with costly and drawn out employment disputes that could have been avoided if individuals conducted themselves appropriately.</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">He identified that &#8220;necessary "means more than desirable but less than indispensable or absolutely necessary; the test was one of reasonable necessity and involved consideration of alternative measures which might make disclosure of the requested information unnecessary; disclosure under FOIA must be the least intrusive means of achieving the legitimate aim in question.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Having reviewed the Report, he concluded that the Public Summary and accompanying recommendations were sufficient to meet the legitimate interests in this case; disclosure of the Report in its entirety would &#8220;grossly exceed &#8221;the purpose limitation principle (UK GDPR, Article 5(1)(b)): it was not necessary to publish the Report to fulfil the purpose of holding senior staff in public office to account, and disclosure of all the personal data in the Report &#8211; relating to both former and current officers of the Council &#8211; went beyond what was necessary to meet any public interest argument.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Given his conclusion that disclosure was not necessary to meet the legitimate interest test, he did not go on to conduct the balancing test. If disclosure was not necessary, disclosing the data would be unlawful. On that basis, he concluded that the Council was entitled to withhold the requested information pursuant to s40(2) FOIA, by way of s40(3A)(a) FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The Notice of Appeal</span></heading>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">By his Notice of Appeal dated 29 May 2023, the Appellant submitted that in reaching his decision, the Commissioner had:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">failed to give sufficient weight to a pressing social need for transparency, accountability, value for money and democracy, which would be met by disclosure of the Report.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">failed to conclude that disclosure of the Report was a proportionate interference with the relevant data subjects&#8217; rights to privacy and protection of their personal data in the circumstances.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">wrongly taken into account the distress likely to be felt by officials who had been found to engage in misconduct and wrongly concluded that they had a reasonable expectation of privacy in relation to the Report.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">failed to take into account information already in the public domain about alleged and proven wrongdoing of a serious nature by senior Council officials.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s Response to the Appeal</span></heading>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner&#8217;s Response to the Appeal dated 1 August 2023, may be summarised as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the Commissioner and the Council had expressly acknowledged that disclosure of the Report would serve a number of legitimate interests.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">noting that the Public Summary had already been published by the Council when it refused the Request, the Commissioner had given careful consideration as to whether disclosure of the Report would be proportionate. Bearing in mind that the key legitimate interest in disclosure was to hold senior staff in public office to account, he was satisfied that disclosure of the Report was </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">not</span><span style="font-family:'Book Antiqua';color:#000000"> necessary to achieve that aim, and that disclosure would, in fact, grossly exceed the purpose limitation principle under Article 5(1)(b) GDPR.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the Commissioner had considered the Appellant&#8217;s submission that the names of junior officials who would have a greater expectation of confidentiality could be redacted but concluded that the Report contained not only the personal data of the most senior Council officials whose conduct was at issue but also former and current officers, as well as a number of councillors, officers, external partners and external lawyers. Additionally, the Report concerned allegations of mishandling of grievances, whistleblowers and disciplinary proceedings, and consequently &#8220;ample details&#8221; of grievances and whistleblower reports. Having concluded that the Public Summary was sufficient to meet the legitimate interests in disclosure for the purposes of Article 6(1)(f) UK GDPR, it was not necessary for the Commissioner to address himself to the question of whether the full Report could also be published. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the Commissioner had not, in fact, referred to the possibility of senior officials experiencing distress as a result of disclosure. Rather he had regard to the fact the full Report contained not just the personal data of the most senior Council officials but also former and current Council officers as well as the data of third parties. It was in that respect that the Commissioner found that disclosure of the full Report would not be necessary to meet the legitimate interests in this case, including that of holding senior officials to account. Moreover, the personal data of the four most senior Council officials was already contained in the Public Summary. It was the personal data of </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">other</span><span style="font-family:'Book Antiqua';color:#000000"> persons identified in the full Report which gave rise to the greatest sensitivity.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the Commissioner was entitled to conclude that the amount of information </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">already</span><span style="font-family:'Book Antiqua';color:#000000"> in the public domain, in the form of the Public Summary, was sufficient to meet the legitimate interests in disclosure. Indeed, given the amount of information already made public, the Commissioner found that disclosure of the full Report would be grossly excessive.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_5_1">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The Appellant&#8217;s Reply to the Council&#8217;s Response to the Appeal</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">By submissions dated 8 August 2023, the Appellant replied to the Commissioner&#8217;s Response to the Appeal as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">he would respond substantively to the Commissioner&#8217;s Response in his submissions at the hearing of the appeal.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">in the interim, he had identified that the Report should have been, but wrongly was not, made public by the Council at the time it was presented to and discussed by elected Councillors, pursuant to provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/2014/2" uk:canonical="2014 c. 2" uk:origin="TNA" uk:type="legislation">Local Audit and Accountability Act 2014</ref>, the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref>, and the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/67" uk:canonical="1960 (8 &amp; 9 Eliz. 2) c. 67" uk:origin="TNA" uk:type="legislation">Public Bodies (Admissions to Meetings) Act 1960</ref>; the Council was obliged to ensure that the Report was open to inspection at a Council meeting, where it was to be discussed. In essence, he argued, the requirement under this legislation to make the Report public, meant that processing of personal data within it would be lawful.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Appellant&#8217;s Reply to the Commissioner&#8217;s Response to the Appeal</span></heading>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">By response to the Appellant&#8217;s Reply, dated 10 August 2023, the Commissioner submitted as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the Tribunal is tasked with determining whether the Council were entitled to withhold the Report from disclosure pursuant to s40(2) FOIA. It is not within the Tribunal&#8217;s jurisdiction to determine the Council&#8217;s compliance or otherwise with the legislation identified by the Appellant.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the only lawful bases for processing personal data under FOIA were Article 6(1)(a) (consent of the data subject) and Article 6(1)(f) (legitimate interests). In disclosing the Report under FOIA, the Council would be processing personal data/disclosing the Report under FOIA, not to comply with a legal obligation for the purposes of Article 6(1)(c) GDPR (to ensure that the Report was open to inspection by the public at Council meetings in accordance with the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref>). </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The hearing</span></heading>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The hearing of this appeal took place on 11 January 2024. The Appellant represented himself. The Commissioner did not appear. The Council was represented by Counsel. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We had before us an OPEN bundle and a CLOSED Bundle.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The OPEN bundle contained the Request and associated correspondence, the pleadings and submissions in the appeal, the Commissioner&#8217;s investigation correspondence, Tribunal directions, and three witness statements: one from a former Council employee dated 29 September 2023, whom we do not identify in this decision for reasons which will become apparent, and two from Catherine Curtis, Information Governance and Equality Manager and Data Protection Officer for the Council. Her first statement was dated 6 October 2023, and her second was dated 3 January 2024. Her second statement summarised an earlier witness statement she had made on 16 June 2023, which was not in the OPEN bundle but was in the CLOSED bundle.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The CLOSED bundle contained: the unredacted Report, Ms Curtis&#8217; witness statement of 16 June 2023, a document dated 19 May 2023 called &#8220;Bullying and Misconduct Secret Council Report by Ian Driver&#8221;, and two appendices to the unredacted Report. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We heard oral submissions from the Appellant and from the Council&#8217;s Counsel in OPEN sessions, and oral submissions from the Council&#8217;s Counsel in CLOSED session.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Council called its former employee and Ms Curtis to give evidence. The Appellant cross-examined both.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Ms Curtis&#8217; OPEN statements addressed:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the fact that at some point the Appellant had, by means unidentified, already obtained and published on his blog a copy of what appeared to be a version of the Report albeit not a true replica of it, the Appellant&#8217;s version containing for example different formatting, missing bullet points, and some additional or extraneous material.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">certain of the Appellant&#8217;s and the Council&#8217;s previous dealings with each other.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We did not find that Ms Curtis&#8217; evidence assisted us in determining any of the issues before us, and we do not address it further in this decision.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Council gave the following, oral gist of the CLOSED session  to the Appellant in OPEN session after the CLOSED session:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the Council had impressed upon the Tribunal the need to have regard to the positions of Council employees other than senior management.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the Tribunal had explored with the Council whether it might be possible for the Council to redact the Report, and the Council had submitted that even with the names of certain people redacted, there remained other information in the Report which might be effective to disclose the identity of those persons.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">there was other material in the public domain e.g. relating to the Council processes and structures which might enable identification of those individuals, even with their names redacted from the Report.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">there was no legitimate interest in disclosure of data relating to junior Council employees.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">After the hearing on 11 January 2024</span></heading>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">After the hearing, the Tribunal received a series of applications and email correspondence from the parties concerning further submissions or evidence which the parties wished to place before the Tribunal, as to which the Tribunal has given directions. It is not necessary to rehearse those here other than to address briefly a few, specific matters. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">On 24 January 2024, the Appellant applied to the Tribunal for permission to publish the witness statements filed on behalf of the Council.  On 16 February 2024, the Tribunal directed, with reasons, that the Appellant be prohibited from publishing any part of those statements to any party, but that he might renew his application upon issue of the Tribunal&#8217;s decision in this appeal. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">On 21 March 2024, the Appellant served and filed further written submissions and annexes. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On 1 July 2024, the Council elected to provide a substantially but not wholly unredacted version of the Report to the Appellant, inviting him to withdraw his appeal. The Appellant declined.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On 22 July 2024, the Council filed material with the Tribunal, applying for it to be held pursuant to Rule 14(6) of the Tribunal Rules, on the basis that the material included (1) contained a list of the personal data within the Report, (2) documents which form the evidential basis for the Council&#8217;s contention that the data is personal data and why redaction of the Report would not be effective to prevent its disclosure and (3) information relating to other tribunal cases which it described as confidential and highly sensitive. The witness statement accompanying that application made by the Council&#8217;s Head of legal and Democracy &amp; Monitoring Officer had not been signed or dated. The Tribunal sought a signed, dated copy which was provided on 12 September 2024. On 13 December 2024, the Tribunal directed that the material filed by the Council's application of 22 July 2024 be held pursuant to Rule 14(6) of the Tribunal Rules. In the event, none of that material assisted us in determining any of the issues before us.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal reconvened on 25 November 2024 to consider all the parties&#8217; submissions and evidence.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">We have not found it necessary to issue a separate, CLOSED judgment addressing any of the CLOSED material filed with the Tribunal. It is sufficient for us to give our reasons in this single, OPEN judgment.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The Legal Framework</span></heading>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">39.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Section 1 FOIA provides a right of access to recorded information held by public authorities. It is subject to a number of exemptions, of which s40 FOIA is one, reading relevantly as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;(2)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Any information to which a request for information relates is ... exempt information if-</span><br/><span style="font-style:italic;font-family:'Book Antiqua'">(a) </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">it constitutes personal data ..., and</span><br/><span style="font-style:italic;font-family:'Book Antiqua'">(b) </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">... the first ... condition below is satisfied.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <intro>
+		      <p style="text-align:justify;margin-left:1.5in;text-indent:-0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">(3A) </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">The first condition is that the disclosure of the information to a member of public otherwise than under <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref>-</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		      <content>
+			<p style="text-align:justify;margin-left:2in"><span style="font-style:italic;font-family:'Book Antiqua'">would contravene any of the data protection principles, ...&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">&#8220;Personal data&#8221; is defined by <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">s3(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> (&#8220;DPA&#8221;) as &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">any information relating to an identified or identifiable living individual.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">41.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">&#8220;Identifiable living individual&#8221; is defined by <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/3" uk:canonical="" uk:origin="TNA" uk:type="legislation">s3(3)</ref> DPA as:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.12in;text-indent:-0.06in"><span style="font-family:'Book Antiqua';color:#000000">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">a living individual who can be identified, directly or indirectly, in particular by reference to-</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.5in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">an identifier such as a name, an identification number, location data or an online identifier, or</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.5in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identify to the individual.</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.84in;text-indent:-0.25in">42.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.84in"><span style="font-family:'Book Antiqua';color:#000000">&#8220;Processing&#8221; is defined by <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s3(4)</ref> DPA in a number of ways, relevantly for current purposes as &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">disclosure by transmission, dissemination or otherwise making available</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; (<ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">s3(4)</ref>(d) DPA).</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">43.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Article 5 GDPR provides the data protection principles. Relevant for current purposes is Article 5(1)(a) which provides that </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Article 6 GDPR provides for specific circumstances in which processing of personal data is lawful.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Article 6(1)(a)) provides that processing shall be lawful if the data subject has given consent to the processing of their data for one or more specific purposes. As at the date of refusal of the Request, we understand that no relevant consent was obtained. Article 6(1)(a) is, therefore, of no application.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="margin-left:0.56in;text-indent:-0.31in">46.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Of the remaining provisions for lawful processing, the following two are in issue between the parties:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Article 6(1)(f), which provides a lawful basis for processing personal data if &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Article 6(1)(c) which provides a lawful basis for processing personal data if &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">processing is necessary for compliance with a legal obligation to which the controller is subject.</span><span style="font-family:'Book Antiqua'">&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Article 6(1)(f) - legitimate interests</span></heading>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The substantive arguments in the appeal focused on the application of Article 6(1)(f).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">To determine the application of Article 6(1)(f), it is necessary to determine: (1) the legitimate interest of the Request (2) whether disclosure of the Report (including the personal data in it) was necessary for the purposes of meeting that interest, and (3) (assuming that disclosure of the Report was necessary for the purposes of meeting that interest) whether that interest outweighed the interests or rights of the affected data subjects.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Legitimate Interest of the Request</span></heading>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The essence of the Appellant&#8217;s submissions was that there was a pressing social need for disclosure of the Report, in the interests of transparency, accountability, value for money and the health of democracy, which effectively outweighed the rights and freedoms of individuals whose personal data would, by disclosure of the Report, be published.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">50.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">He developed his submissions at the hearing as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">there was a legitimate interest in transparency around the accountability of the Council&#8217;s most senior executives in a context of alleged bullying, intimidation and harassment by those concerned, at substantial cost to the taxpayer, matters which went to the heart of the greatest failure of corporate governance. The relevant behaviours were not one-off mistakes but constituted a well-established, prolonged pattern of misconduct. They were not trivial or inconsequential.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">an overwhelming public interest in transparency around the relevant matters outweighed the rights of individuals.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the personal data of &#8220;innocent&#8221; persons or &#8220;victims&#8221; referred to in the Report could be redacted.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the elapse of time since the events in question and the publication of the Public Summary meant that media interest in the subject matter of the Report would now be diminished.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">there must be an expectation on the part of persons referred in the Report that, given the interest in the underlying issues which have become so important, there is a likelihood of their being in the limelight.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">the Tribunal&#8217;s role is to weigh up and ensure that the names of people who perpetrated horrendous acts and profited, are in the public domain and held to account; if &#8220;lesser persons&#8221; are involved, that is a necessary &#8220;trade-off&#8221;.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">51.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">We remind ourselves at the outset that the circumstances against which we must assess the circumstances which prevailed at the date of refusal of the Request: 23 May 2022. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">52.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Report had been issued on 13 April 2022. The Public Summary was published five weeks later, on 16 May 2022., a week before the Council refused the Request.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">53.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">To the extent that the Appellant submitted, inter alia, that the passing of time and subsequent media coverage meant that as at the date of his appeal or the hearing of his appeal, the public interest in the subject matter of the Report was diminished, that is irrelevant. We must consider the position as at 23 May 2022.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">54.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant has referred us to multiple reports published online about the Council&#8217;s problems, several of them authored and published by him. We do not consider that multiple press reports on such matters are, themselves, necessarily a measure of a legitimate public interest in such matters. They may merely reflect public curiosity or be the expression of a dedicated, specific interest by particular journalists but neither of those is sufficient to constitute a legitimate interest.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Report was the ultimate product of recommendations made by the Council&#8217;s auditors, Grant Thornton UK LLP, (&#8220;Grant Thornton&#8221;) on 12 October 2021, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2014/2/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">s24</ref> and Schedule 7 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2014/2" uk:canonical="2014 c. 2" uk:origin="TNA" uk:type="legislation">Local Audit and Accountability Act 2014</ref> (&#8220;LAA&#8221;), which provides that:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:2in;text-indent:-1in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">1</span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">(1)</span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">A local auditor of the accounts of a relevant authority must consider whether, in the public interest, the auditor should make a report on any matter coming to the auditor's notice during the audit and relating to the authority or an entity connected with the authority, so it can be considered in accordance with this Schedule or brought to the public's attention.</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+		      <content>
+			<p style="text-align:justify;margin-left:2in"><span style="font-style:italic;font-family:'Book Antiqua'">A report under sub-paragraph (1) is referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/2014/2" uk:canonical="2014 c. 2" uk:origin="TNA" uk:type="legislation">this Act</ref> as a public interest report.</span></p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua'">...</span><span style="font-family:'Book Antiqua'">&#8221;</span></p>
+		    </wrapUp>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Grant Thornton justified its recommendations &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">due to inadequate arrangements in governance in responding to whistleblowing, grievances and disciplinary procedures with the direct financial costs adding further pressure to a fragile financial position.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">57.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Those recommendations included the commission of an experienced IMO from a large local authority to report to the Council&#8217;s General Purposes Committee on:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">a risk assessment of the current employment tribunal claims and proposals for actions to safeguard the Council&#8217;s best interests including a detailed financial analysis of the options available to the Council</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">an assessment of the status of all outstanding grievances, alleged whistleblowing complaints and any continuing suspensions and proposals for a plan of action to address them.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">a lessons learnt report collating themes and recommendations from all externally commissioned reports and any other appropriate evidence.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">58.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Obedient to that recommendation, the Council engaged the IMO two months later (12 December 2021) and approved his implementation plan for his investigation and report one week later (18 December 2021).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">59.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The resulting Report and the Public Summary make clear beyond doubt that the management, governance and culture of the Council, particularly in the senior echelons, was, in the material period or periods covered by the Report, in a very sorry state. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">60.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Public Summary referred to multiple internal and external investigations, including investigations of a disciplinary nature, which on their face engaged direct consideration of the Council&#8217;s management, governance and culture resting on concerns as to the conduct of non-elected senior officials in the Council, internecine strife in the CMT, the potential impact of a falling-short in officials&#8217; conduct on the delivery of public services, and the significant costs met by the taxpayer, associated with investigating and resolving the issues arising therefrom.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">61.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Given that the Report was the product of a recommendation by the Council&#8217;s auditors, and given the content of the Report as we have described it, we are satisfied that there was a broad legitimate interest in transparency, accountability, value for money and the health of democracy, as the Appellant put it, in relation to the discharge of the Council&#8217;s functions.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Was disclosure of the Report necessary to meet the legitimate interest of the Request?</span></heading>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">62.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">In determining this issue, we have conducted a close and careful comparison of the Report, section by section, with the Public Summary. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">63.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The main body of the Report is 26 pages long. The Public Summary is 10 pages long. The Public Summary referred to there having been eight reports into Council affairs by six external independent reviewers undertaken in two and a half years preceding the Report. It described the IMO as having reviewed investigation reports and legal advice, minutes of Council meetings, internal policy documents and email correspondence, as well as having met with Officers, Councillors and other stakeholders to obtain first-hand observations regarding recent events at the Council.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">64.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Report appended six appendices of which three were appended to the Public Summary: (1) Grant Thornton&#8217;s <ref href="http://www.legislation.gov.uk/id/ukpga/2014/2/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.24</ref> LAA Report, (2) Resolution of the Council of 2 November 2021 approving and responding to Grant Thornton&#8217;s recommendations, (3) the IMO <ref href="http://www.legislation.gov.uk/id/ukpga/2014/2/section/24" uk:canonical="" uk:origin="TNA" uk:type="legislation">s.24</ref> Implementation Plan. The three appendices to the Report which were not attached to the Public Summary consisted of a List of reports of investigations, an internal Council email, and a key to abbreviations/initials used throughout the Report. We are satisfied that each of those three appendices contained personal data, and that it was not necessary for them to be included with the Public Summary for the reader fully to comprehend the Public Summary.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">65.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Public Summary contained the same Summary of Governance Review as the Report, save that it omitted therefrom a brief reference to a single grievance by a named individual.  Notably, it did replicate from that part of the Report, the names of the four most senior officers comprising the CMT, between whom both the Report and the Public Summary described the serious breakdown in relationships as giving rise to the Report&#8217;s headline concerns.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">66.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Public Summary replicated the very great majority of the Report&#8217;s list of the following Key Areas of Concern; only item f. below did not feature as a standalone section in the Public Summary, albeit the Public Summary did refer to &#8220;a number of interlinked instances of whistleblowing and grievances which in some case were without adequate or in some cases, any, supporting evidence&#8221;. The Key Areas of Concern were as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Disfunction within the Corporate Management Team</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Relationship between the Leader and Chief Executive</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Relationships between Officers and Councillors</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Access for councillors to information and support</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Mishandling of grievance and whistleblower complaints</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Serious allegations by senior officers without adequate supporting evidence</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Adequacy of HR support and advice</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">A Council project called the Berth 4/5 project.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">67.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">We have considered the Key Areas of Concern, and their subject matter generally, as presented in the Report and then in the Public Summary. We find that both across the board, and in relation to substantive, individual sections of the Report, the Public Summary is a close and generous replication of the Report, indeed, in our view, strikingly so.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">68.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">We find that the fundamental purpose of the Report was to assist the Council in improving the Council&#8217;s operations, of which culture and governance were bedrocks found to be wanting. The Report, both in its narrative of past events and its recommendations, was forward-looking; the specific conduct of any particular individual on any particular occasion in an historic context was not a feature of primary importance. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">69.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Public Summary, in extracting as fulsomely as it did from the Report, was no less damning in its thrust or detail than the Report. We are confirmed in that view both by our close comparison of individual sections of the two documents, and by our &#8220;stand-back&#8221; impression of them.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">70.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Looking at matters in the round, we are satisfied that the Council was entitled to conclude that disclosure of the Report including personal data was not necessary to meet the legitimate interests of the Request, including that of holding senior employees to account, when the Public Summary had been published in such detail as it had, including the names of the four most senior employees in the  CMT. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">71.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">On that basis, it is not necessary for us to go on to determine whether the legitimate interest pursued by the Request outweighed the interests or rights of the affected data subjects. If, however, we are wrong in our conclusion as to necessity, we address the issue of the interests and rights of individuals in broad terms, for completeness.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_12_1">
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:-0.31in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The interests and rights of individuals</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_72">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">72.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">To the extent that the legitimate interest of the Request required scrutiny of the conduct of senior individuals tasked with significant responsibility in public office, in our view, the Public Summary achieved that: it identified by name and role the four senior Council officers between whom there had been a critical break-down in working relationships, and against whom the most serious criticisms were levelled: the Chief Executive Officer, the Director of Finance, the Director of Operations and the Director of Law &amp; Monitoring Officer. It gave a sufficient flavour, in our view, of those officers&#8217; relevant conduct, even if it did not provide the full details of that as set out in the Report.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">73.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Report was not, however, itself the product of an investigation into each of the grievance matters and associated examples  described therein. Those matters appear to have been the subject of their own separate, detailed investigations, in some cases by external investigators. The extracts from those investigation reports included in the Report were not sufficient to tell the whole story about the individual cases. It seems to us that publication of at least those aspects of the Report, and the associated personal data, would have been misleading for their incompleteness, and consequently unfair, and potentially damaging, to the individuals concerned. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">74.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Public Summary did not disclose the identities of Council employees referred to in the Report (other than the four members of the CMT), Councillors, investigators or external lawyers.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">75.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">In his submissions, the Appellant evinced a clear interest in disclosure of the names of Council personnel referred to in the Report other than four most senior Council officers named.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">76.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Council called one of those personnel to give evidence at the hearing of this appeal. They gave evidence that they had assisted the IMO in his investigation. They had not expected to be mentioned in the Report and were not shown a copy of the Report in draft or given an opportunity to comment on it before it was finalised.  They were most concerned that if the Report were to be published, the Appellant would use it to attack and attempt to discredit them (as well as others referred to in the Report), damaging their professional profile, well-being and happiness.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">77.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">We do not doubt the sincerity of that witness&#8217; evidence. They seemed to us to be genuinely distressed at the prospect of disclosure of the Report, with a particular emphasis on the effect of disclosure on them now. However, we must consider the circumstances prevailing at the time the Request was refused. We are satisfied that the witness would still have been distressed by disclosure of the Report in May 2022, and justifiably so.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">78.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">We do not consider that disclosure of that witness&#8217; personal data by publication of the Report would have been a proportionate interference with their rights. Although the Appellant sought by his submissions and cross-examination of the witness to diminish the feared impact on the witness of disclosure of their personal data, it was clear that the witness believed, we consider justifiably, that disclosure might be damaging to them. We do not accept that disclosure of their personal data in May 2022 could have been justified to meet the broad legitimate interest of the Request.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">79.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">We remind ourselves of the Appellant&#8217;s submission that there must be an expectation on the part of persons referred in the Report that, given the interest in the underlying issues which have become so important, there is a likelihood of their being in the limelight. Notably, the Appellant refers to current expectations, the fact that the underlying issues &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">have become</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; so important, and the current likelihood of persons referred to in the Report being in the limelight. Now is the wrong point in time at which to assess such matters. The correct point in time for such assessment is at the date of refusal of the Request, and, in our view should include an assessment of the actual or reasonable expectations of participants in the investigation at the time of the investigation and the creation of the Report. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">80.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The investigation started in December 2021. The Report was dated 13 April 2022. The Request was made on 24 April 2022. The Appellant told us that the Report was considered at the Council&#8217;s General Purposes meeting on 27 April 2022 from which the public and press were excluded. The Public Summary was published on 16 May 2022. The Appellant told us that the Report was also considered at a meeting of the full Council on 19 May 2022, from which the public and press were again excluded. The Request was refused on 23 May 2022.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">81.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Beyond evidence from the Council&#8217;s former employee that they were appalled to see the references to themselves in the Report at a point beyond which they felt, or were, able to make any representations to the IMO, we had no direct evidence as to any other participant&#8217;s expectations as to whether their personal data in the product of that investigation might be published, for example, any assurance which had been given to them at the point at which they were invited to assist the investigation. We can see that such expectations, and any associated concerns, would vary according to individuals&#8217; roles, for example, whether they were a Council participant such as an employee or elected official, or a third party, such as an investigator, and according to the content and relevance of any person&#8217;s evidence. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">82.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">On the basis of the material before us, and viewing matters in the round, we find that certainly after issue of the Public Summary on 16 May 2022, at the very least no Council participant in the investigation (the four CMT individuals aside), would or should have had any expectation that their personal data would be published. They would, understandably, have assumed that the Public Summary, depleted of personal data, was thought by the Council to be sufficient to meet any public interest in its subject matter. We consider it unlikely that any other affected individual would have expected publication of their personal data. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">83.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">We do not find that the legitimate interest pursued by the Request, assuming disclosure of the Report was necessary to meet that interest, outweighed the interests or rights of the affected data subjects.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">84.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">We have considered carefully whether the Council could have redacted personal data in the Report so that no individual would be identifiable.  In so doing, we must assess whether a motivated intruder could identify those persons.  A motivated intruder is to be considered as reasonably competent, with access to resources such as the internet, libraries and all public documents, and who would employ investigative techniques. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">85.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">We are satisfied that no such redaction would have been effective. Embedded in the Report are not just individual names but information about individuals&#8217; interactions with each other in a relatively small group context, job functions, reporting chains and line management. This information, taken together, would, in our view, enable the identification of individuals or in any event enable a motivated enquirer to piece together the available information and fill in the gaps to identify individuals by those means. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">86.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">W</span><span style="font-family:'Book Antiqua'">e find that s40(3A) FOIA was appropriately considered to be engaged because disclosure of the personal data would contravene Article 5(1)(a) GDPR; the processing of the personal data would not be lawful under Article 6(1)(f) in the circumstances of this case.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_13">
+	  <heading style="text-align:justify"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Article 6(1)(c) - compliance with a legal obligation</span></heading>
+	  <paragraph eId="para_87">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">87.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Article 6(1)(c) GDPR provides that processing of personal data is lawful if it is necessary for compliance with a legal obligation to which the controller, in this case, the Council, is subject.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num style="font-family:'Book Antiqua';color:#2E2D2C;margin-left:0.56in;text-indent:-0.31in">88.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#2E2D2C">The Appellant identified Article 6(1)(c) as a potentially relevant provision in his Reply of 8 August 2023 to the Commissioner&#8217;s Response to the Notice of Appeal. </span><span style="font-family:'Book Antiqua';color:#000000">He presented it as &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">some new legal information which I have only just discovered and which, I believe, has an important bearing on the case. ... This new information shows that the requested information i.e. the unredacted version of [the Report] should have been made public by the council at the time it was presented to and discussed by elected councillors. However, the Council, whether deliberately or out of ignorance failed to do so.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num style="font-family:'Book Antiqua';color:#2E2D2C;margin-left:0.56in;text-indent:-0.31in">89.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#2E2D2C">We take the Appellant to submit that the Commissioner should have considered the application of Article 6(1)(c) as well as Article 6(1)(f) in his decision. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_90">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">90.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">In summary, the Appellant submits that the Council had a legal obligation to make the Report, unredacted of personal data, available to the public. On that basis, as we understand it, he says that disclosure of the personal data, otherwise than under FOIA, was lawful, such that the requirement for lawful processing was met.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">91.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#2E2D2C">The statutory route by which the Appellant constructs his submission is as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#2E2D2C;margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">p</span><span style="font-family:'Book Antiqua';color:#2E2D2C">aragraph 1 of Schedule 7 to the LAA (Reports and recommendations) provides as follows: </span></p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:2in;text-indent:-0.66in"><span style="font-style:italic">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">Public Interest Reports</span></p>
+		      </content>
+		    </level>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Book Antiqua'">(1)</num>
+		      <intro>
+			<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-style:italic;font-family:'Book Antiqua'">A local auditor of the accounts of a relevant authority must consider whether, in the public interest, the auditor should make a report on any matter coming to the auditor's notice during the audit and relating to the authority or an entity connected with the authority, so it can be considered in accordance with this Schedule or brought to the public's attention.</span></p>
+		      </intro>
+		      <subparagraph>
+			<num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+			<content>
+			  <p style="text-align:justify;margin-left:2in"><span style="font-style:italic;font-family:'Book Antiqua'">A report under sub-paragraph (1) is referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/2014/2" uk:canonical="2014 c. 2" uk:origin="TNA" uk:type="legislation">this Act</ref> as a public interest report.</span><span style="font-style:italic">&#8221;</span></p>
+			</content>
+		      </subparagraph>
+		    </paragraph>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#2E2D2C;margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#2E2D2C">paragraph 9(8) of Schedule 7 to the LAA provides as follows: </span></p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Book Antiqua';color:#2E2D2C">&#8220;(8)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-style:italic;font-family:'Book Antiqua'">References in this paragraph to a public interest report or a recommendation include any report on the report or recommendation.&#8221;</span></p>
+		      </content>
+		    </paragraph>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#2E2D2C;margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#2E2D2C">the Report was, in the Appellant&#8217;s words, a &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#2E2D2C">report on the recommendation</span><span style="font-family:'Book Antiqua';color:#2E2D2C">&#8221; i.e. a report based on the recommendations made by Grant Thornton.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#2E2D2C;margin-left:1in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#2E2D2C">consequently, the Report was subject to the requirements of paragraph 9(1), (3), (4), (5), (6) and (7) of Schedule 7 to the LAA, which provide as follows: </span></p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <paragraph>
+		      <num style="font-style:italic">&#8220;(1)</num>
+		      <intro>
+			<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-style:italic;font-family:'Book Antiqua'">Where a public interest report or a recommendation is to be considered under paragraph 5 by a relevant authority to which the <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/67" uk:canonical="1960 (8 &amp; 9 Eliz. 2) c. 67" uk:origin="TNA" uk:type="legislation">Public Bodies (Admission to Meetings) Act 1960</ref> applies, the report or recommendation is not to be excluded from the matter supplied under <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/67/section/1/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(4)</ref>(b) of <ref href="http://www.legislation.gov.uk/id/ukpga/Eliz2/8-9/67" uk:canonical="1960 (8 &amp; 9 Eliz. 2) c. 67" uk:origin="TNA" uk:type="legislation">that Act</ref> (supply of agenda etc to newspapers).</span></p>
+		      </intro>
+		      <subparagraph>
+			<content>
+			  <p style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">...</span></p>
+			</content>
+		      </subparagraph>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Book Antiqua'">(3)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-style:italic;font-family:'Book Antiqua'">Sub-paragraphs (4) to (6) apply in relation to the consideration under paragraph 5 or 6 of a public interest report or a recommendation by a relevant authority to which Part 5A (access to meetings and documents) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref> applies.</span></p>
+		      </content>
+		    </paragraph>
+		    <paragraph>
+		      <num style="font-style:italic;font-family:'Book Antiqua'">(4)</num>
+		      <content>
+			<p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-style:italic;font-family:'Book Antiqua'">Information contained in the report or recommendation is not to be treated as exempt information for the purposes of that Part.</span></p>
+		      </content>
+		    </paragraph>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(5)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.84in;text-indent:0.66in"><span style="font-style:italic;font-family:'Book Antiqua'">The report or recommendation is not to be excluded&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:2.44in"><span style="font-style:italic;font-family:'Book Antiqua'">from the documents open to inspection under <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/100" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 100</ref>B(1) of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">that Act</ref> (public access to agenda and reports before meetings), or</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:1in"><span style="font-style:italic;font-family:'Book Antiqua'">from the matter supplied under <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/100" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 100</ref>B(7) of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">that Act</ref> </span><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">(supply of agenda etc to newspapers).</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua'">(6)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-style:italic;font-family:'Book Antiqua'">Part 5A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref> has effect in relation to the report or recommendation as if <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70/section/100" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 100</ref>C(1)(d) of <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">that Act</ref> (public access to copies of reports for six years after meeting) were not limited to so much of the report or recommendation as relates to an item during which the meeting was open to the public.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua'">(7)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:2in"><span style="font-style:italic;font-family:'Book Antiqua'">Information contained in a public interest report or a recommendation is not to be treated as exempt information for the purposes of any Act or instrument made under an Act that applies in relation to exempt information within the meaning of Part 5A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref></span><span style="font-style:italic">.&#8221;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="color:#2E2D2C;margin-left:1in;text-indent:-0.25in">e.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#2E2D2C">Paragraph 100(I) of Part 5A of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref> (Exempt information and power to vary Schedule 12A) provides: &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#2E2D2C">In relation to principal councils in England the descriptions of information which are, for the purposes of this part, exempt information are those for the time being specified in Part I of Schedule 12A to <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">this Act</ref>, but subject to any qualifications contained in Part II of that Schedule; </span><span style="color:#2E2D2C">...&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';color:#2E2D2C;margin-left:1in;text-indent:-0.25in">f.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#2E2D2C">Part 1 (Descriptions of Exempt Information: England) of Schedule 12A  (Access to Information: Exempt Information) of the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref> identifies, relevantly for current purposes, information relating to any individual, and information which is likely to reveal the identity of an individual, as exempt information (paragraphs 1 and 2 of Part 1 respectively), subject to a qualification at paragraph 10 of Part II that it be exempt information &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#2E2D2C">if and so long as, in all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num style="font-family:'Book Antiqua';color:#2E2D2C;margin-left:0.56in;text-indent:-0.31in">92.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#2E2D2C">On 10 August 2023, the Commissioner made the following very brief responsive submissions by email to the Tribunal and the parties:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#2E2D2C;margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#2E2D2C">the Council &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#2E2D2C">would be processing/disclosing [the Report]  in order to respond to the Appellant&#8217;s information request and not to comply with a legal obligation for the purposes of article 6(1)(c) GDPR e.g. to ensure that [the Report]  is open for inspection by the public at Council meetings in accordance with the <ref href="http://www.legislation.gov.uk/id/ukpga/1972/70" uk:canonical="1972 c. 70" uk:origin="TNA" uk:type="legislation">Local Government Act 1972</ref></span><span style="font-family:'Book Antiqua';color:#2E2D2C">.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#2E2D2C;margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#2E2D2C">if the Council were required to make the Report accessible at public meetings, the Appellant would have had an alternative means by which to access the Report outwith FOIA, with the result that disclosure would not be necessary under FOIA.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#2E2D2C;margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#2E2D2C">it is not within the Tribunal&#8217;s jurisdiction to determine the Council&#8217;s compliance, or otherwise, with the legislation referred to by the Appellant.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">93.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Council addressed the point in its skeleton argument of 22 December 2023 as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num>&#8220;18.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-style:italic;font-family:'Book Antiqua'">It is submitted that the Appellant&#8217;s attempts to rely upon a purported duty imposed on the Second Defendant by legislation specifically governing the actions of local authorities is wholly misguided within the ambit of the current appeal. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">19.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-style:italic;font-family:'Book Antiqua'">The First Respondent&#8217;s decision relates to the Appellant&#8217;s complaint that the Second Respondent had failed to comply with requirements imposed upon it by the provisions of FOIA and the Second Respondent&#8217;s response to a freedom of information request made to of it by the Appellant. It is that response that is the underlying subject of the appeal and, in particular, the Second Respondent&#8217;s decision to withhold the full specified report pursuant to section 40(2) of FOIA.</span>&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_94">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">94.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant responded to the Commissioner&#8217;s submissions on the point at the hearing. He submitted that the Council had failed to discharge its legal obligations by not holding a public meeting to discuss the Report and by not disclosing the Report, and that those were matters which were themselves of weighty legitimate interest, requiring the Tribunal&#8217;s consideration.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_95">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">95.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Council submitted in response that the issue of whether the Report should have been disclosed by the Council under other legislation concerning local government was not something which weighed in the Commissioner&#8217;s decision which is under appeal; the Council did not accept that its conduct in this context was unlawful; the Commissioner could not consider the issue when he responded to the Appellant&#8217;s complaint; the issue was entirely outwith the ambit of FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_96">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">96.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has no general jurisdiction to adjudicate on the lawfulness of the Council&#8217;s conduct in holding or not holding a publicly accessible meeting to consider the Report or not otherwise disclosing the Report to the public. In any event, beyond the Appellant&#8217;s statement that the Council had wrongly excluded the public and press from two meetings to consider the Report (the Council&#8217;s General Purposes meeting on 27 April 2022 and at a meeting of the full Council on 19 May 2022), the Tribunal had next to no submissions or evidence before it about such matters, including, specifically, the basis for such exclusions.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_97">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">97.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal&#8217;s jurisdiction under s58 FOIA as to whether the Decision Notice was or was not in accordance with the law must be viewed in the context of the Commissioner's task under s50 FOIA, which is to determine whether the Request was dealt with in accordance with Part 1 of FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_98">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">98.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">Thus, it falls to the Tribunal to consider the application of Article 6(1)(c) in that context, which rests on the Appellant&#8217;s submission, as we understand it, that the Council had a legal obligation to publish the Report, equating to lawful processing of the personal data.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_99">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">99.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in"><span style="font-family:'Book Antiqua';color:#000000">The first condition (s40(3A) FOIA) is that disclosure of the information to a member of the public </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">otherwise</span><span style="font-family:'Book Antiqua';color:#000000"> than under FOIA would contravene any of the data protection principles. Put another way: but for any duty to disclose under FOIA, would it have been lawful for the Council to disclose personal data? </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_100">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">100.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant&#8217;s answer to that is in the affirmative because he says that, by the statutory route he has demonstrated, the Council had a positive legal obligation to make the Report, including the personal data within it, accessible to the public and were not entitled to treat the personal data within it as exempt because, in short, the Report should be regarded effectively as a public  interest report (paragraph 9(8) to Schedule 7 to the LAA).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_101">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">101.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">We were not shown, and have not undertaken, analysis of the various statutory provisions which the Appellant indicates apply to the Council&#8217;s operations, and specifically, what the Council should or should not have disclosed at any public meeting or otherwise made publicly available. However, it seems to us that the essential foundation of the Appellant&#8217;s submission in this context is the characterisation of the Report as a public interest report within the meaning of Schedule 7 to the LAA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_102">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">102.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">We do not accept that the Report can be so characterised.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_103">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">103.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">Self-evidently, the Report is not a report by the Council&#8217;s statutory auditor, Grant Thornton, and so it is not, per se, a public interest report. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_104">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">104.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">Nor is it a report </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">on</span><span style="font-family:'Book Antiqua';color:#000000"> Grant Thornton&#8217;s report or recommendations (which we understand were published in line with the requirements of Schedule 7 to the LAA).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_105">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">105.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">Rather, the Report is the product of an activity undertaken by the Council, acting on one of several recommendations by Grant Thornton. The Report takes Grant Thornton&#8217;s recommendation as its stimulus and starting point, states that the contextual information in the background to Grant Thornton&#8217;s recommendations is a helpful indication of relevant matters, and it attaches Grant Thornton&#8217;s recommendations as an appendix. Thereafter, however, it flies free and unfettered by anything said by Grant Thornton in its recommendations, and is evidently its own creature, informed by the implementation plan prepared by the IMO and approved by the Council, and the IMO&#8217;s subsequent investigations. It reports no comment on, or analysis of, or answer to, Grant Thornton&#8217;s recommendations. It is not a report </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">on</span><span style="font-family:'Book Antiqua';color:#000000">, in the ordinary sense of that small word, Grant Thornton&#8217;s recommendations. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_106">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">106.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">On that basis, we are unable to accept the Appellant&#8217;s extended submission, as we understand it, that the consequences of the Report being, as he would have it, effectively a public interest report, were that (a) the Council was not entitled to treat the personal data in the Report as exempt from disclosure, and (b) that the Council had a legal obligation to disclose the Report and the personal data within it, with the result that disclosure of that data otherwise than under FOIA was lawful.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_107">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">107.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">We find that the processing of the personal data would not be lawful under Article 6(1)(c) in the circumstances of this case.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_14">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Conclusion</span></heading>
+	  <paragraph eId="para_108">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">108.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">For all the reasons we have given, we find that the Council was entitled to refuse disclosure of the Report in reliance on s40(2) FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_109">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">109.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">We find that the Decision Notice was in accordance with the law.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_110">
+	    <num style="font-family:'Book Antiqua';margin-left:0.56in;text-indent:-0.31in">110.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.56in;text-indent:0.06in"><span style="font-family:'Book Antiqua';color:#000000">The appeal must be dismissed.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_14_1">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.56in;text-indent:-0.31in"><span style="font-family:'Book Antiqua';color:#000000">Signed: </span><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Judge Foss</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#000000">Dated:16 January 2025</span></p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
