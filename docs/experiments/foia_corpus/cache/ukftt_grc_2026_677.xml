@@ -1,0 +1,2022 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/677"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/677"/>
+	  <FRBRdate date="2026-05-12" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="677"/>
+	  <FRBRname value="Niall Wermter v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/677"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/677"/>
+	  <FRBRdate date="2026-05-12" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/677/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/677/data.xml"/>
+	  <FRBRdate date="2026-05-12T11:24:35" name="transform"/>
+	  <FRBRdate date="2026-05-12T13:59:00" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-04-08" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-05-05" refersTo="#decision" source="#"/>
+	<eventRef date="2026-05-12" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="niall-wermter" href="" showAs="NIALL WERMTER"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="the-mayor-and-burgesses-of-the-london-borough-of-camden" href="" showAs="THE MAYOR AND BURGESSES OF THE LONDON BOROUGH OF CAMDEN"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>677</uk:number>
+	<uk:cite>[2026] UKFTT 677 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.8.0</uk:parser>
+	<uk:hash>9c25a65190156de9708066bf999b65940cb77304c781ce6e016fdf4cf25b1438</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { margin-left: 0.58in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation2 { margin-left: 1in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation3 { margin-left: 1.25in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .EndnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .BalloonText { text-align: justify; font-size: 9pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.45in; font-size: 12pt; }
+#judgment .EndnoteTextChar { font-family: 'Book Antiqua'; }
+#judgment .EndnoteReference { vertical-align: super; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .BalloonTextChar { font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .ListParagraphChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00677 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: FT/EA/2025/0237</span></p>
+      <p><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal</courtType></p>
+      <p><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">General Regulatory Chamber </courtType></p>
+      <p><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua'">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard at Field House, London</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: 7 and </span><docDate date="2026-04-08" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">8 April 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-05-12" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">12 May 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">JUDGE SOPhiE BUckley</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">MEMBER KERRY PEPPERELL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">MEMBER DR PHEBE MANN</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#niall-wermter" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">niall wermter</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0.75in;text-indent:0.12in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;text-transform:uppercase">The Information commissioner</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0.75in;text-indent:0.12in"><party as="#respondent" refersTo="#the-mayor-and-burgesses-of-the-london-borough-of-camden" style="font-weight:bold;text-transform:uppercase">the mayor and burgesses of the london borough of Camden</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation:</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the Appellant: In person</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the First Respondent: Did not appear</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the Second Respondent: Richard Beaty (Counsel)</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is dismissed.</span></p>
+      <p><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">This is an appeal against the Commissioner&#8217;s decision notice IC-339810-G3Z0 of 5 June 2025 which held that the London Borough of Camden (&#8216;the Council&#8217;) were entitled to rely on regulation 12(4)(b) (manifestly unreasonable request) of the Environmental Information Regulations 2004 (EIR). The Commissioner did not require the public authority to take any steps.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Procedural matters</span></heading>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant produced a number of additional documents on the morning of the hearing. The second respondent took a pragmatic approach and agreed to those documents being relied on. We took those documents into account where relevant. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Under rule 14 the redacted sections of those documents will not be disclosed to anyone other than the parties. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant made an application for disclosure of an email. The tribunal refused that application for the reasons given orally in the hearing. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Background to the appeal</span></heading>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">There are two background issues in this appeal. The first relates to the legality of water charges made by Councils and related caselaw. The second relates to a dispute that the appellant had with the Council&#8217;s social services department and the course of dealings that arose out of that dispute. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Jones v Southwark London Borough Council</span><span style="font-style:italic">&#160;</span><ref href="https://caselaw.nationalarchives.gov.uk/ewhc/ch/2016/457" uk:canonical="[2016] EWHC 457 (Ch)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWHC 457 (Ch)</ref> and <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Kingston-Upon-Thames v Moss</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/1381" uk:canonical="[2020] EWCA Civ 1381" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 1381</ref> concerned agreements between the local authorities and water undertakers (the water companies), under which the local authorities collected charges for water and sewerage from tenants.  In those cases the courts held that the local authorities were &#8216;resellers&#8217; within the Water Resale Orders, rather than the agents of the water companies. This meant that there was a statutory cap on the amount the local authorities could charge. Although tenants were paying the same amount that they would have paid if they had been billed by the water company directly, the statutory cap is calculated by reference to the amount payable by the local authority to the water company under the agreement. As a result, the local authorities in question were required, in effect, to pass on to their tenants the benefit of any reductions or allowances agreed with the water company. As the local authorities had not passed on those reductions or allowances, the charges made to the tenants exceeded the maximum charge. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Following the decisions in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Jones</span><span style="font-weight:bold"/>and <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Moss </span>a number of local authorities have set up schemes to repay tenants the overcharged amounts. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The Council&#8217;s position is that it had a different arrangement with Thames Water, however it has established a provision in its accounts of &#163;3.7m to meet the estimated costs of reclaims against historical Thames Water utility charges. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">A &#8216;provision&#8217; can only be established in a public authority&#8217;s accounts if it meets the following criteria as listed in the Code of Practice on Local Authority Accounting in the United Kingdom, which is based on International Financial Reporting Standards and statutory guidance:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Courier New';margin-left:1.5in;text-indent:-0.25in">&#9702;</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in">The authority has a present obligation as a result of a past event, i.e. an event has taken place that either binds the authority to transfer economic benefits as a result of legislation, a contract or other operation of law or creates a valid expectation by another party that the authority will transfer economic benefits as a result of it accepting certain responsibilities, arising from the Council&#8217;s actions.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Courier New';margin-left:1.5in;text-indent:-0.25in">&#9702;</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in">It is probable that an outflow of resources embodying economic benefits or service potential will be required to settle the obligation, and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Courier New';margin-left:1.5in;text-indent:-0.25in">&#9702;</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.5in">A reliable estimate can be made of the amount of the obligation.<authorialNote class="footnote" marker="1">
+		    <p class="FootnoteText"><span/>This summary of the Code is<span/>helpfully provided in the notes on Accounting Policies in the Council&#8217;s annual financial report 2024/2025. <span/></p>
+		  </authorialNote></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">In August and September 2023 the appellant became involved in a dispute with the Council&#8217;s social services department. The dispute concerned the appellant&#8217;s involvement in the care and welfare of a third party. The appellant was very dissatisfied with decisions limiting his involvement and contact with the third party and the way the situation was handled by the social services department. He says that the social services department then stopped communicating with him altogether, which created an impasse. The appellant describes the situation as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.28in">&#8220;Through my interaction with Camden's social services directive throughout 2023, it became clear that arbitrary and capricious decisions were being routinely made that were both immoral and unlawful. Far from safeguarding and promoting the well-being of the vulnerable, as the <ref href="http://www.legislation.gov.uk/id/ukpga/2014/23" uk:canonical="2014 c. 23" uk:origin="TNA" uk:type="legislation">Care Act 2014</ref> requires, social services' actions and omissions were doing the opposite. When challenged, two senior officers on two separate occasions became verbally venomous. I recorded these unpleasant outbursts and then told the officers concerned that I had done so. Thereafter Camden's social services went silent. I advised the senior officers through unanswered emails that their bilious tirades compounding their failure to work within the parameters of law together with their refusal to engage in necessary dialogue thereafter constituted common law criminal offences of misconduct in public office.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">It is not the tribunal&#8217;s role to make a judgement on whether the social services department were justified in acting as they did, but we recognise that the situation was extremely upsetting for the appellant and has clearly affected him deeply. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Request and response</span></heading>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Mr. Wermter made the request that is the subject of this appeal on 6 June 2024: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-family:'Book Antiqua'">&#8220;I would now request that Camden send me copies of all agreements between itself and Thames Water Utilities from 1989 until March 2019, together with any deeds of variation, clarification and the like.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-family:'Book Antiqua'">Any clause in these documents purporting to prevent disclosure by reason of commercial sensitivity should be disregarded - these agreements and any variations to them have been terminated or have expired, as have all other such agreements between TWU and other local authorities.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-family:'Book Antiqua'">These copy documents should be posted to my home address.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The Council wrote to the appellant on 27 June 2024 extending the deadline for a response under EIR until 2 August 2024. The Council responded substantively on 2 August 2024. The Council refused to provide the information, relying on regulation 12(4)(b) EIR on the basis that the request was manifestly unreasonable.  It upheld its position on internal review on 3 October 2024. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">The Decision Notice</span></heading>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The Commissioner had not seen the requested information but decided that the requested information was environmental because information relating to the Council&#8217;s contract with Thames Water was likely to be information on measures and plans which will affect the elements of the environment outlined in Regulation 2(1)(a) of the EIR. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The Commissioner found that the impact of dealing with this level of correspondence and unreasonable behaviour represented a disproportionate or unjustified level of disruption. He accepted that in isolation the request appeared to have a serious purpose, however he was satisfied that the motivation for the request was to cause disruption and it has no serious purpose. He said that he did not accept that corresponding using inappropriate and/or abusive language should be tolerated by public authorities. The Commissioner noted that the appellant&#8217;s behaviour escalated following the request, but was satisfied that had the Council continued to engage with the complainant there would continue to be disproportionate or unjustified levels of disruption. This was supported by evidence that the appellant was responsible for a second request for the same information. On that basis the Commissioner was satisfied that the exception was engaged. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">In relation to the public interest, the Commissioner accepted that disclosing the information would increase transparency and allow the public a greater ability to understand the contract between Thames Water and the Council. Taking into account the significant burden that responding to the request would place on the Council, balanced against the information which is already published in relation to its connection with Thames Water, the Commissioner decided that the public interest in the exception being maintained outweighed the public interest in disclosure. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Notice of Appeal</span></heading>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant has not explicitly set out his grounds of appeal, but it is apparent that the grounds of appeal are as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:left;margin-left:1in">The information requested was not environmental information and therefore the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (FOIA) and not the EIR is the appropriate regime. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:left;margin-left:1in">The request was not manifestly unreasonable under EIR or vexatious under FOIA. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">The Commissioner&#8217;s response</span></heading>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The Commissioner relied on the Decision Notice. He submitted that in all the circumstances the request was manifestly unreasonable. He noted that in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Craven v Information Commissioner and DECC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref> the Upper Tribunal held that for all intents and purposes the term &#8216;manifestly unreasonable&#8217; under regulation 12(4)(b) has the same meaning as &#8216;vexatious&#8217; under section 14(1) FOIA. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">His view was that the balance of the public interest favoured the maintenance of the exception, rather than being equally balanced. This meant that the Commissioner&#8217;s decision, whilst informed by the presumption provided for in regulation 12(2), was that the exception provided by regulation 12(4)(b) was applied correctly.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">The Council&#8217;s response</span></heading>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">To the extent that the tribunal considers it necessary to determine if the EIR was engaged, the Council submitted that the contract with Thames Water, as an agreement relating to the supply of water, is information <span style="font-style:italic">on</span> a measure which will affect the elements of the environment. The Council submitted that the Commissioner was correct to conclude that the EIR applied and, in any event, that the tests under FOIA and EIR are, in essence, identical.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The Council submitted that it is clear from the evidence submitted to the Commissioner that the appellant has pursued a relentless and often vitriolic campaign against the Council and certain members of staff in relation to the requested information. The Council submitted that the pattern of abusive, intemperate and occasionally aggressive behaviour has persisted for an extensive period of time including verbal (voicemail) and written (email) acts of harassment, which on occasions occurred several times during the course of the same day. The Council submitted that evidence of ulterior motive indicated that the allegations would be withdrawn if the social services dispute was concluded to the appellant&#8217;s satisfaction, and that it is self-evident that such conduct is inherently inappropriate. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">In all the circumstances of the case, the Council submitted that it reasonably determined that the public interest in maintaining the exception clearly outweighed the public interest in disclosing the information.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">The appellant&#8217;s reply/skeleton argument</span></heading>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant submitted that the request is a FOIA request because the request is not for &#8216;environmental information&#8217;. He submitted that the Council deliberately applied EIR in order to benefit from the regulation 7 extension of time, albeit that the appellant submitted that regulation 7 did not apply in any event, because the request was not complex or the requested information voluminous. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant submitted that the tribunal should determine if the request was vexatious under section 14 FOIA, but accepted that &#8216;vexatious&#8217; and &#8216;manifestly unreasonable&#8217; under FOIA EIR are for all intents and purposes synonymous and that the same underlying guidelines and holistic test from <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dransfield </span>apply. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant submitted that the behaviour of the public authority is relevant. He submitted that his insistent, persistent and assertive tone was contextually justified and that his admittedly at times heated manner was an understandable human and inevitable reaction to ever more dismissive, evasive, provocative and, indeed, vexatious behaviour on the part of Camden's staff, together with the underlying very serious purpose of the request - to expose fraud perpetrated by senior council officers and seek redress of those affected by that fraud.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The Appellant submitted that senior Camden officers particularly harmed relations by making scurrilous and false accusations of sexually offensive language and homophobic and transphobic slurs which contributed to the deterioration of relations and have been improperly relied upon to justify a finding of vexatiousness against the Appellant. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">He submitted that the distress caused to senior officers by the custodial consequences of disclosure cannot turn an otherwise proper request into a vexatious one. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant submitted that the request had a very serious purpose and an exceptionally strong public interest. He submitted that there was substantial and compelling evidence of wrongdoing. He submitted that the requested documents are directly relevant to further evidencing a significant fraud upon its own tenants and leaseholders by senior Camden officers. He said that a request aimed at exposing serious wrongdoing should not be refused as vexatious. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">In relation to motive the appellant submitted that his letter of 15 November 2023 to the borough solicitor Andrew Maughan, presented him with two clear options. He said that through inaction and abuse, Maughan and other senior officers chose the path the appellant consequently took and &#8216;on their heads be it&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">He submitted that, in any event, a request aimed at exposing serious wrongdoing should not be refused as vexatious, whatever the imputed motive. He quoted paragraph 68 of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dransfield </span> in the Court of Appeal: :"If a requester pursues his rights against authority out of vengeance for some other decision of its, it may be said that his actions were improperly motivated but it may also be that his request was without any reasonable foundation. But this could not be said, however vengeful the requester, if the request was aimed at the disclosure of important information which ought to be made publicly available&#8230;&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant submitted that the request by Mr Foot, the deputy editor of a local newspaper, made the request of his own volition and the appellant was not responsible for that request. He submitted that if a local newspaper considers information newsworthy that reinforces the serious purpose in the request and the clear public interest in the information. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">In conclusion the appellant submitted that the request has a clear serious purpose and substantial public interest value far outweighing any distress of the Council's staff. He said that the Council&#8217;s own conduct first created and then exacerbated the acrimonious relationship. He submitted that the Commissioner's caseworker failed entirely to conduct the proper holistic assessment under s.14(1).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Legal Framework</span></heading>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Council Directive 2003/4/EC on Public Access to Environmental Information (&#8216;the Directive&#8217;) sets out a regime for public access to environmental information held by Public authorities in the Member States. It implements the United Nations Economic Commission for Europe&#8217;s (UN/ECE) Convention on Access to Information, Public Participation in Decision-Making and Access to Justice in Environmental Matters 1998 (&#8216;Aarhus&#8217;).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The importance of the obligation to provide access to environmental information is seen from the recitals to the Directive and the Aarhus Convention. The first recital to the Directive states that: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">&#8220;&#8230;increased public access to environmental information and the dissemination of such information contribute to a greater awareness of environmental matters, a free exchange of views, more effective participation by the public in environmental decision-making and, eventually, to a better environment.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The recitals to the Aarhus Convention include:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8220;&#8230;citizens must have access to information, be entitled to participate in decision-making and have access to justice in environmental matters</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">improved access to information and public participation in decision-making enhance the quality and the implementation of decisions, contribute to public awareness of environmental issues, give the public the opportunity to express its concerns and enable public authorities to take due account of such concerns.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Regulation 12(4)(b) &#8211; where the request is manifestly unreasonable</span></heading>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Regulation 12 EIR provides, insofar as relevant:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">&#8220;(1)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if&#8211;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">(a)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">an exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">(b)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">(2)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">A public authority shall apply a presumption in favour of disclosure.</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">&#8230;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">(4)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">For the purposes of paragraph 1(a), a public authority may refuse to disclose information to the extent that-</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">&#8230;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">(b)</num>
+		    <content>
+		      <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">the request is manifestly unreasonable.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The following analysis is adopted, with only minor changes to the wording, from the Upper Tribunal decision in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Vesco v (1) Information Commissioner and (2) Government Legal Department </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">[</span>2019] UKUT 247 (TCC)).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">As the Court of Justice of the European Union (&#8220;CJEU&#8221;) has said:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:10pt">&#8220;The right to information means that the disclosure of information should be the general rule and that public authorities should be permitted to refuse a request for environmental information only in a few specific and clearly defined cases. The grounds for refusal should therefore be interpreted restrictively, in such a way that the public interest served by disclosure is weighed against the interest served by the refusal&#8221;. </span>(<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Office for Communications v Information Commissioner <ref href="#" uk:canonical="Case C-71/10" uk:isNeutral="true" uk:origin="TNA" uk:type="case">Case C-71/10</ref></span> at paragraph 22).</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">This is why the EIR is deliberately different from the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) in that all exceptions are subject to a public interest test and there is a presumption in favour of disclosure. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The EIR does not contain an express obligation to interpret grounds for refusal in a restrictive way, but, given the obligation to interpret the EIR purposively in accordance with the Directive the overall result in practice ought to be the same: the grounds for refusal under the EIRs should be interpreted in a restrictive way (<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Vesco v (1) Information Commissioner and (2) Government Legal Department </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">[</span>2019] UKUT 247 (TCC)) </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">A three-stage test applies, on the wording of Regulation 12:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">1.</num>
+	      <content>
+		<p style="margin-left:0.49in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">Is the request manifestly unreasonable? (Regulation 12(1)(a))</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">2.</num>
+	      <content>
+		<p style="margin-left:0.49in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">If so, does the public interest in maintaining the exception outweigh the public interest in disclosing the information, in all the circumstances of the case? (Regulation 12(1)(b))</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">3.</num>
+	      <content>
+		<p style="margin-left:0.49in;text-indent:0.01in"><span style="font-family:'Book Antiqua'">Does the presumption in favour of disclosure mean that the information should be disclosed? (Regulation 12(2))</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Under the first stage we must decide if the request is manifestly unreasonable. Authorities on &#8220;vexatiousness&#8221; under Section 14 of FOIA are of assistance at this stage. The parties agree that the tests for vexatiousness and manifest unreasonableness are, for the purposes of this appeal, materially the same (<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Craven v Information Commissioner and Department for Energy and Climate Change</span> [2012] UKUT 442, and <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Craven/Dransfield v Information Commissioner</span> <ref href="#" uk:canonical="[2015] 1 WLR 5316" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 5316</ref> at paragraph 78). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The starting point is whether the request has no reasonable foundation, that is, no reasonable foundation for thinking that the information sought would be of value to the requester, or to the public or any section of the public, judged objectively (<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dransfield v Information Commissioner</span> <ref href="#" uk:canonical="[2015] 1 WLR 5316" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 5316</ref> at paragraph 68, <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Beggs v Information Commissioner</span> 2019 SLT 173 paragraphs 26-29). The hurdle of satisfying the test is a high one. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The lack of a reasonable foundation to a request is only the starting point to an analysis which must consider all the relevant circumstances. It is clear from the Court of Appeal&#8217;s decision that the public interest in the information which is the subject of the request cannot act as a &#8216;trump card&#8217; so as to tip the balance against a finding of vexatiousness (see <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">CP v Information Commissioner</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2016/427" uk:canonical="[2016] UKUT 427 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKUT 427 (AAC)</ref> and <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Cabinet Office v Information Commissioner and Ashton</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/208" uk:canonical="[2018] UKUT 208 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 208 (AAC)</ref>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">In considering manifest unreasonableness, it may be helpful to consider factors set out by the Upper Tribunal in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dransfield v Information Commissioner and Devon County Council</span> [2012] UKUT 440 at paragraph 28. These are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">1)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in">the burden (on the public authority and its staff), since one aim of the provision is to protect the resources of the public authority being squandered; (2) the motive of the applicant - although no reason has to be given for the request, it has been found that motive may be relevant: for example a malicious motive may point to vexatiousness, but the absence of a malicious motive does not point to a request not being vexatious (Beggs, paragraph 33); </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(3)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in">the value or serious purpose of the request;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(4)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in">the harassment or distress of staff.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">This is not an exhaustive checklist, and other factors that may be relevant are previous requests (including number, subject matter, breadth and pattern), whether they were to the same or a different body, the time lapse since the previous requests, and whether matters may have changed during that time. If, after applying the first stage of the test, the conclusion is that the request is not manifestly unreasonable, then the information requested should be disclosed (assuming no other exemptions apply). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">If it has been established that a request falling under the EIRs is manifestly unreasonable within Regulation 12(4)(b), that of itself is not a basis for refusing the request. We must then go on to the second stage and apply the public interest test in Regulation 12(1)(b). Application of this test may result in an obligation to disclose, even if a request is manifestly unreasonable. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">There is a presumption in favour of disclosure under Regulation 12(2) of the EIRs. It was &#8220;common ground&#8221; in the case of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Export Credits Guarantee Department v Friends of the Earth</span><span style="font-style:italic"/><ref href="#" uk:canonical="[2008] Env LR 40" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] Env LR 40</ref> at paragraph 24 that the presumption serves two purposes: (1) to provide the default position in the event that the interests are equally balanced and (2) to inform any decision that may be taken under the regulations. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">The role of the tribunal </span></heading>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The tribunal&#8217;s remit is governed by s.58 FOIA. This requires the tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved exercising discretion, whether he should have exercised it differently. The tribunal may receive evidence that was not before the Commissioner and may make different findings of fact from the Commissioner.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_13">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Evidence </span></heading>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">We have read and taken account of an open and a closed bundle of documents as well as the additional documents submitted by Mr. Wermter on the first day of the hearing. We heard oral evidence from Mr. Wermter and, for the second respondent, from Andrew Maughan and Sarah Laws. We read a statement from Philip Lewis, to which we attached reduced weight because he was not subject to cross-examination. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_14">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Issues</span></heading>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">One of the issues raised by the appellant is whether the Council was correct to deal with the request under the EIR. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Although the appellant&#8217;s position was that the request was for environmental information, he makes this point because he says that the Council deliberately and wrongly dealt with the request under EIR in order to vex him by obtaining an extension of time that would not have been available under FOIA. He does not maintain that on the facts of this case, the application of section 14 FOIA would lead to a different answer to the test in regulation 12 EIR. Given that both parties agreed that the choice of regime would not affect the outcome, and given that we did not have access to the requested information, the tribunal took the view that it was appropriate to address the request on an &#8220;either/or&#8221; basis, as suggested by Upper Tribunal Judge Wikeley in paragraph 23 of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Craven v Information Commissioner</span><span style="font-weight:bold"/><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/442" uk:canonical="[2012] UKUT 442 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 442 (AAC)</ref>. The tribunal did not therefore have to determine if the requested information was environmental. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The tribunal canvassed this with the parties at the start of the hearing, and there was no objection to the approach, subject to the appellant remaining able to make his points about whether or not the Council had deliberately chosen to use EIR to vex him by obtaining an extension of time. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">The issues for the Tribunal to determine are: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">1.</num>
+	      <intro>
+		<p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Under EIR: </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(a)</num>
+		<content>
+		  <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">Is the request manifestly unreasonable?</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<content>
+		  <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">If so, does the public interest in maintaining the exception outweigh the public interest in disclosing the information, in all the circumstances of the case? </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(c)</num>
+		<content>
+		  <p style="margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">Does the presumption in favour of disclosure mean that the information should be disclosed? </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">2.</num>
+	      <content>
+		<p style="margin-left:1.18in"><span style="font-family:'Book Antiqua'">Is the request vexatious under FOIA? </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_14_1">
+	    <content>
+	      <p style="margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Findings of fact on the prior course of dealings between the appellant and the Council &#8211; up to the date of the original refusal on 2 August 2024</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Some of the evidence was in the form of automatic transcriptions of voicemails from the appellant, which contain errors. The tribunal was satisfied that the transcriptions were accurate enough to form the basis of findings of fact. No specific content of the transcriptions was disputed by the appellant. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 11 September 2023 the appellant sent an email to the director of social services which included the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8220;You love this term, &#8220;next of kin&#8221;, don't you? It was your every second utterance in our phone conversation last Friday (recorded and, no, I don't need your permission).</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">Define &#8220;next of kin&#8221; in English law. Google &#8220;next of kin&#8221;. Did you find any legal authority for the term? Maybe in other common law jurisdictions, but not here.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">You'll find the following article excellent in dispelling misconceptions you have labouring under for decades no doubt. Read it no, I insist read it.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">https://www.hilldickinson.com/insights/articles/myth-busting-next-kin </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8220;Next of kin&#8221; has no legal meaning in English law. None whatsoever. Zilch. Nichts.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">Read that again. And again. Got it? Now never use that term again and cascade that instruction to all CSS workers immediately (I use the word &#8220;workers&#8221; very, very loosely indeed) As I submitted to you on Friday, if the relatives are Harold Shipman and Myra Hinckley, and the carer is Mother Theresa, whom do you liaise with? You wouldn't answer then. Answer now. Without a LPA, relatives have no right to exclude any other person from [redacted]&#8217;s life. To the extent that you have allowed them to do so hitherto, this was wholly unlawful and will desist this instant. Full unrestricted access to [redacted now]. You can phone me to apologise profusely and confirm that all and any advice to exclude has been nullified. Any time before 5pm is fine. Your tone on Friday was condescending, by the way. It irritates. You don't like me and so feelings have to be mutual. Nonetheless, as a local government civil servant you are obliged to act without personal prejudice and there are civil and criminal sanctions should you fail to do so. Don't go there. Grit your teeth and overcompensate.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">Much, much more to follow. You have a great day."</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">He emailed them again on 13 September 2023 and hand delivered a letter to on 27 September 2023. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Following the appellant&#8217;s dispute with social services, in about October 2023, he attempted to discuss the issue with the Council&#8217;s solicitor, Andrew Maughan. He made an appointment with Mr Maughan via his PA, but this was postponed by a letter from the PA on 10 October 2023. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Following that, the appellant left a number of voicemails, which were unanswered. He sent an email to Andrew Maughan&#8217;s PA on 25 October 2023 in which he said that officers in the social services had committed and continue to commit criminal offences of misconduct in public office and said, inter alia, that it was imperative that the culpable officers were removed. He received no response. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant states that he had been aware for some time that the Council was &#8216;highly likely&#8217; to have overcharged its tenants and leaseholders for unmetered water rates over a considerable number of years. He therefore wrote a letter to Andrew Maughan dated 15 November 2023 which, in the appellant&#8217;s words, &#8216;threatened to expose this scandal should Maughan continue to stonewall&#8217;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">In the letter of 15 November 2023 issues he had raised in 2012/2013 with Westminster Council and his views on the legality of water charges and raised the <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Jones/Moss</span> litigation. Then he said: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8220;Now, Mr Maughan, what&#8217;s sauce for the goose&#8230;Camden has exactly the same catastrophic criminal and financial Damoclean sword handing over it. Would you like me to now sever the thread? Or do we expeditiously resolve the evil mess that your social services directorate has created? All done and dusted within a week? </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">Good. Clear your diary. Telephone me immediately on [redacted]&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 22 November 2023 he left the following voice note for Andrew Maughan/his PA (the tribunal&#8217;s corrections are in square brackets):</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8220;This is [Wermter]. You haven't responded to my letter of the 15th. I will now be getting in contact with members of Camden Council rather than officers. You've got until 5:00 until close of Business Today. You get in contact with me? Do you know my number? [redacted] you said, can all be resolved very expeditiously. All it needs is will on your part, otherwise you'll have the members coming down on you like a ton of bricks. close of business. 5:00 before then.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 4 December 2023 the appellant called Andrew Maughan&#8217;s PA. Her note of the call records that &#8216;He makes all these threats&#8230; that &#8220;you will not have a job&#8221;. He will go nuclear whatever that may means (<span style="font-style:italic">sic</span>). Demands I call you out of the meeting to speak with him.&#8221; </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num style="font-family:'Book Antiqua';margin-left:0.59in;text-indent:-0.3in">64.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.59in">On 5 December 2023 the appellant called asking to speak to the Director of HR. The note of the member of staff who took the call reads as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8220;just took a call that came through for Jo (Director of HR) from an anonymous caller. His name is Niall Wermter from Lab London. His telephone number is [redacted]. He said he is an investigative lawyer. He was very well spoken and was claiming that the supporting people directors were defrauding camden council tenants, by overcharging water rates (mentioned Thames Water) and by not advising Council Tenants of discounts available. He said he'd spoken to the Borough solicitor but got nowhere and said he had his finger on the nuclear button and could cause the council damage by millions/billions of pounds. He mentioned the words nuclear button/action several times (which was a bit disturbing). I took the above details from him and explained that all I could do was get someone to call him or email him back. He said it was no use taking his email as no one would respond, but he did give me his telephone number. He then predicted that I may give his number to someone in social services, said this wouldn't be a good thing to do as they would cover up. He expected a call from Jenny (chief executive), I said this was likely not going to happen, which he started to challenge me back on. He then gave the expectation that I would pass on the message to someone much lower down that couldn't do anything. He mentioned Daniels name, Jenny and "Borough solicitor", he didn't mention your name Andrew.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">The conversation went on and he kept reiterating the issue and the nuclear power button he had and was surprised that camden wasn't interested in what he wanted to say. I had to firmly put a stop to what he was saying. I had to forcefully ask him to provide his telephone number for someone to call him back and explained to him that he could go on telling me all this if he wanted to but as a PA I couldn't do much with the information and that all I could do was pass on his details. He then continued going on so I told him I was going to stop the call now that I had his details and he put the phone down.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 6 December 2023 the appellant spoke to the Director of Corporate Service. She reported the phone call as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8220;I have spoken to him this morning he called again. I've been clear to him that him calling is not the solution and that he needs to put his concerns in writing and go through his established social care route or lodge a complaint. I've also said that if he is alleging any "financial corruption", we have a whistleblowing process etc but again, this wont be solved through an adhoc phone call.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">Andrew Maughan wrote to the appellant on 6 December 2023. He said: </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in">I refer to your numerous telephone calls to a variety of Camden employees, including myself, Mr Rowney and support staff.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in">&#8230;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in">Whatever the issues such matters are not going to be brought to any sort of resolution by a phone call &#8211; particularly one which in my case included you using sexually explicit language and an aggressive tone which was nothing other than entirely counterproductive. As I believe you have been informed by myself and others the proper routes open to you are:</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.25in">-</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in">Making a formal complaint in writing </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.25in">-</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in">Starting legal proceedings - to be served by post and addressed for me at 5PS.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.25in">-</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in">You could, should you consider you have evidence of wrongdoing, also take matters via our whistleblowing procedure, the details and links for which are available on our website.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.18in;text-indent:-0.25in">-</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in">Failing the above please write to me and I will investigate the matters you raise and write back to you and if you are not satisfied, you can take one of the routes above.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant&#8217;s reply on 13 December 2023 included the following: </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in">The first sentence of the paragraph commencing &#8216;whatever...&#8217; is untruthful and defamatory. I would remind you that I record telephone conversations with Camden officers. I insist that you immediately retract that sentence and apologise unreservedly for publishing it. Should you not, I will initiate the defamation pre-action protocol with you personally as the respondent. Publishing malevolent statements merely compounds the evils already perpetrated by your chums at social services and is, to use your term of art, &#8216;entirely counterproductive&#8217;.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in">With regard to the email&#8217;s final paragraph, I have already emailed and hand-delivered a letter to you with attachments&#8230;.The days of stonewalling and buck-passing are over. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.18in">Clear your diary or it&#8217;s the &#8216;counterproductive&#8217; &#163;50m+ default. A long face-to-face meeting on neutral turf is an imperative. I can hire a quiet space very close to St Pancras station with a day&#8217;s notice. The backroom of the Cock Tavern, Chalcot Street, Friday morning, 10am? Good. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Andrew Maughan replied stating that he was not going to meet the appellant and said that if he had matters to raise he should please choose one of the routes he had previously identified. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant emailed Andrew Maughan again on 14 December 2023, including the following &#8220;A gentle reminder of the pressing engagement you have at The Cock at 10am tomorrow. I've advised Jon Rowney by voicemail to cancel his Christmas should you play truant as he would then be dealing with a &#163;50m black hole.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant left a voicemail for Andrew Maughan to a similar effect on 18 December 2023. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 18 January 2024 the appellant emailed Jon Rowney, the executive director of corporate services at the Council, copying in Andrew Maughan, his PA and the Chief Executive of Camden Council. That email included the following:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8220;Due to the indolence, incompetence and defamatory insolence to boot of Andrew Maughan, the easier path of dealing with certain unlawful activities of your social services directorate is hereby closed. Camden is now looking at an extrapolated black hole of in excess of &#163;50m, the incarceration of officers past and present for misconduct in public office and offences under Section 3 Fraud Act in respect of water rates unlawfully and knowingly overcharged, not to speak of much dire adverse media attention and public opprobrium.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">We, you and I, Mr Rowney will meet. Tuesday, 23 January, back room of the Cock Tavern, Chalton Street, NW1 at 10am. An acceptable excuse for nonattendance? Death, your own."</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 30 January 2024 Jon Rowney emailed the appellant as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8220;I refer to your recent communications via email and the large number of phone calls and messages.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">You originally approached us with regard to your desire to see your friend [redacted] again. I understand that this was originally dealt with by colleagues in Adult Social Care, but you were unhappy with that outcome, which led you to approach our borough solicitor, Mr Maughan. He explained that [redacted] was now under the care of another local authority in [redacted] and that while we were still funding her support, we had no influence over issues regarding access to her. These remain matters for both her family and [redacted]. Should you wish to discuss access to [redacted] I suggest that you discuss with [redacted] City Council. I now consider this matter closed.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">In your e-mails and phone calls, you have also alleged wrong doing in relation to water charges in the light of the Kingston case (Royal Borough of Kingston Upon Thames v Moss [2020]) which concerned Kingston&#8217;s agreement with Thames Water regarding the supply of water to tenants. There is limited value in going through how the detail of the Kingston case (which is well documented publicly) might apply to other boroughs. However, I&#8217;d like to be very clear that Camden does not have any general duty to make payments to our tenants and it is misleading and totally incorrect to allege Camden&#8217;s position in the light of the Kingston case amounts to any form of wrongdoing fraud or criminal action.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">I would also like to point out that your communications have consistently been abusive, unpleasant and in some regards threatening. We cannot tolerate this behaviour and my instructions to officers are now to not communicate with you.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">As Andrew Maughan confirmed in his last email to you, there are a number of formal procedures you can take if you wish to submit a complaint.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 26 February 2024 the appellant emailed Osian Jones, who uses they/them pronouns, starting the email with &#8220;Dear preferred pronoun&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 9 March 2024 the appellant emailed Jon Rowney as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">&#8220;I'm getting mightily peeved by officers diverting my mail to Complaints. Now you're at it. Don't let it happen again. Below is the text of such a diverted email sent earlier:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">I would like to thank you for your last email, but given its unnecessarily obstructive and defamatory content, I'm afraid I cannot.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">I can agree that correspondence with you seems pointless at the moment, given your present unfortunate attitude.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">Kindly arrange for the hand-delivery of a letter by myself to Ms Gould in person and through no intermediary on Tuesday/Wednesday 12/13 March. This hand-delivery may be at absolutely any time and at whatever place suits Ms Gould. Notify me accordingly by phone, if you would.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">I would reiterate for the umpteenth time that how I choose to resolve matters is exactly that - my choice. As you know very well, none of the options you purport to oh-so helpfully provide are either in the least bit effective or expeditious - expedition that the extremely time-sensitive nature of [redacted]'s condition demands.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">The solution to the either/or dilemma ominously looming over Camden outlined in my email to Maughan of 15 November 2023 (of which you have a copy) is within Ms Gould's remit - not yours, nor indeed any other officer.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">That this dilemma has arisen is no fault of mine or Ms Gould, but rather occasioned by the unlawful conduct of your fellow officers. Rather than desperately defending the indefensible, you would be wise, Mr Rowney, to rapidly distance yourself from your nefarious mates. You are paid by and charged to serve us, not them.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.18in">I sincerely hope you will readopt the cooperative manner which characterised our initial dealings.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 12 March 2024 the appellant emailed Jon Rowney as follows: &#8220;I've left a message on your voicemail. Kindly now advise me of when and where the letter will be hand-delivered. There can be no reason for you not arranging this, literally, one-second operation other than bloodymindedness - an attitude that may attract a criminal sanction.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Mr Rowney replied as follows: &#8220;You&#8217;re welcome to hand deliver private and confidential correspondence to the Leader, Cllr Gould, at the reception desk at 5 Pancras Square and that will go directly to her. We&#8217;re unable to arrange an appointment for you to personally hand your correspondence to her.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant then contacted the Council&#8217;s external auditor, Suresh Patel, and made allegations of fraud perpetrated by officers within the housing directorate. The auditor asked him to share the evidence of fraud. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 5 April 2024 the appellant emailed Jon Rowney, including the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">&#8220;I have received an email from Camden's external auditor at Mazars, Suresh Patel, the salient passage of which is&#8230; &#8220;&#8230;[Y]ou claim to have uncovered fraud perpetrated by officers within the housing directorate and that you have repeatedly attempted to resolve the matter through communication with Camden's Section 151 officer and the Council's Monitoring Officer. Before we arrange to speak, can you please share with me the evidence you have of the fraud and details of what you have asked Council officers.&#8221; Would you like me to now share that evidence with Mr Patel? Do I share with him, inter alia, my missive to Maughan of 15 November 2023? Or do you, Maughan and I deal with the criminal conduct of officers in your social services directorate and expedite the lifting of restrictions unlawfully imposed and maliciously retained?.... Deadline: Close of business, Wednesday, 10 April 2024. Otherwise, it's Enola Gay.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 11 April 2024 the appellant emailed Jess McGregor, in social services, as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">&#8220;Camden is about to face a &#163;50m+ black hole and the incarceration of officers past and present in its housing department &#8211; a potential calamity which you have caused. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">What&#8217;s that got to do with you, eh?</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">Well, Camden&#8217;s external auditor has asked me to detail an historic and chronic fraud which I discovered your housing pals have perpetrated. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">I have advised Mr Maughan and Mr Rowney that I will not pursue the fraud issue, contingent upon a thorough investigation of and action against you, Solvey, Bennett and Sharples for misconduct in public office in respect of [redacted]&#8217;s case.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">What you and your maters have done and continually to do is sheer inhumane evil &#8211; criminally so. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">You will phone me by close of business today. You will adopt an appositely anilingual attitude.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">80.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 19 April 2024 the appellant emailed Susan Bennett, Service Manager in social services, as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;There was a needs assessment conducted in April last year which by law I should have been but was not involved in &#8230; At that meeting, Sharples contrived to exclude me from [redacted]&#8217;s life permanently&#8230; you stated that the exclusion was correct as I had no &#8220;close relationship&#8221; with [redacted]. How so, Ms Bennett? You really should do some research before taking such drastic action. Do you want to change your mind on that one? Time for a proper needs assessment, wouldn&#8217;t you say? Good. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">Georgina Gould (Leader), Jon Rowney (Finance Director), Andrew Maughan (Borough Solicitor) and many others are very much aware of an anxious about the &#163;50m+ catastrophe that would befall Camden should I choose to pursue the housing department fraud. They know that I will not drop the bomb, as it were, if you and your pals in the social services directorate hold your hands up, take your punishment and, most importantly for [redacted]&#8217;s wellbeing, immediately remove all restrictions.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">Don't kid yourself. Faced with financial disaster, the big wigs at Camden would feed you to the lions. You're a pawn&#8230; Yes, the sky IS falling in on you. Actions, particularly malicious ones, have consequences.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">You will attend a meeting at 9am, Tuesday 23 April at 5 Pancras Square. Bring Sharples along. You&#8217;ll be there all day.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">81.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 23 April 2024 the appellant emailed Susan Bennett, copying in Courtney Sharples as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;You and Sharples failed to make an appearance this morning. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">Let&#8217;s try again, shall we? Tomorrow, 9am, 5 Pancras Square. The game&#8217;s up. You confess to misconduct in public office, you accept due punishment, and you instantaneously clear up the maliciously motivated evil you have created.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">82.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Susan Bennett replied that that no staff would be meeting with him at 5 Pancras Square and that she had informed security of this. She said that the appellant&#8217;s emails and voicemails were threatening and that they will not be responding to his demands. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">83.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 24 April 2024 the appellant sent two further emails to Susan Bennett including the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">&#8220;The only threats made have been by yourselves upon yourselves. There's an old adage: "If you can't do the time, don't do the crime" Advising you as I have that your acts and omissions constitute misconduct in public office and of the custodial consequences of those acts and omissions does indeed threaten your liberty. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">I&#8217;ll have a copy right now of that email sent by [redacted] on 25 July 2023 (or thereabouts). I&#8217;m led to believe it contains defamatory untruths about me. I can see no reason for that copy email not to be sent to me. So see to it. Right now. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">To iterate, given the dread of a &#163;50m+ black hole, incarceration of housing officers, much adverse national media attention and general chaos at Camden, you and your chums are on your own. Camden will desert you&#8230; and rightly so.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">Confess, take your punishment, but first undo immediately the mess that Sharples, Solvey and you have created. Do that now, do that rapidly. I'm sure the judge will consider your albeit very belated cooperation in mitigation when determining the length of sentences. The longer you take to act now, the longer you and your pals rot behind bars.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">Why Sharples was ever left on the case after the meeting last April is a mystery, having displayed such wholly unjustified, visceral and demented contempt towards me, a snarling contempt which occasioned her necessary removal from the meeting - snarling as she went! Her initial malice has lingered like an unpleasant odour in the lives of [redacted] and me. It's time Sharples smelt the inside of a holding cell prior to interrogation.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">84.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant shared the letter of 15 November 2023 with Suresh Patel. The auditor replied on 21 May 2024 and asked the appellant again to clarify the fraud he claims the Council has carried out. In that letter he stated: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">&#8220;You refer to the issue of Westminster Council and water charges which they, like many councils including Camden, were collecting from council tenants on behalf of Thames Water. My understanding is that while some councils have accepted that the tenants had been overcharged because the councils had not passed on the discounts they had arranged with Thames Water, Camden asserts that tenants did not pay any more under the arrangement with Thames Water than they would have done if they were being billed by Thames Water directly.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">The Council has informed me that should any tenant make a claim for overpayment then the Council will react to them as and when they are made.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">Nonetheless, the Council has considered it financially prudent to make provision for repayment which is currently &#163;3.7m.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">85.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Although the appellant considers the &#8216;disclosure&#8217; of this provision significant, any provision will have been published every year in the Council&#8217;s accounts. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">86.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">In his reply to the auditor dated 27 May 2024, copying in Andrew Maughan and the Chief Finance Officer, the appellant summarised the basis for his allegation of fraud, as set out in his letter of 15 November 2023 as follows, &#8216;Through knowledge of discounts available, a fiduciary duty, and a failure to advise tenants of these discounts, officers committed offences under <ref href="http://www.legislation.gov.uk/id/ukpga/2006/35/section/3" uk:canonical="2006 c. 35 s. 3" uk:origin="TNA" uk:type="legislation">sections 3</ref> and/or 4 <ref href="http://www.legislation.gov.uk/id/ukpga/2006/35" uk:canonical="2006 c. 35" uk:origin="TNA" uk:type="legislation">Fraud Act 2006</ref>.&#8217; He explains why he says that the Council is &#8216;more than likely liable to make the necessary repayments to its unmetered tenants as Southwark and Kingston have been obliged to do&#8217;. He concludes with the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.98in">&#8220;Without delay, I would now request that Camden send me copies of all agreements between itself and TWU from 1989 until March 2019, together with any deeds of variation, clarification and the like. Any clause in these documents purporting to prevent disclosure by reason of commercial sensitivity should be disregarded &#8211; these agreements and any variations to them have been terminated or have expired, as have all other such agreements between TWU and other local authorities.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">87.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant followed this with the request for information on 6 June 2024. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">88.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">Sarah Laws, the FOI lead at the Council, took the view that the request should be dealt with under EIR because of the nature of the contract. We accept that Sarah Laws honestly formed this opinion on the basis of the knowledge of the requested information. She was aware that a previous request for the same contract in around 2018 which had led to a complaint to the Commissioner. Because of this she took the view that they should extend the time for consideration under regulation 7 EIR. We do not accept, as the appellant asserts, that this decision was taken in order to vex the appellant, because at this stage Sarah Laws had no knowledge of the appellant or any of his previous dealings with the Council. We do not accept that the decision to handle the matter under EIR was a deliberate ploy to gain the benefit of the regulation 7 extension of time. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">89.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 27 June 2024 the Council wrote to the appellant to inform him that the Council were extending the deadline under regulation 7(1) EIR. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_90">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">90.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant took the view that this was clearly not a request for environmental information. He made two assumptions. First that the Council knew that FOIA was the appropriate regime and were deliberately using EIR to get the benefit of the regulation 7 extension and second that they did this deliberately in order to vex him. He says that as a result of the &#8216;bogus EIR extension&#8217; he responded with a &#8216;barrage of voicemails and emails to various Camden officers&#8217;. When asked about this in evidence he said that they &#8216;deserved it&#8217;. He accepted that many of the voicemails were offensive. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">91.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant sent at least twelve emails to Philip Lewis and Peter Williams between 2 and 5 July.  These included the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;I will have the information supplied to me by close of business tomorrow or heads roll. Understood? You have failed to phone me despite repeated requests to do so. I will pursue disciplinary action against you I hear they're hiring at Burger King. Finger out, do some work. Go! No, no cup of tea first. Get the papers, stick them in a large manilla folder and despatch to me pronto. I will call you on the phone in thirty minutes. It will come up &#8220;Private&#8221;. You and I will be in constant contact this afternoon while you chase around for the documents. Abandon all other business.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;I will arrange for you to face disciplinaries and inevitable sackings should you fail to phone me by 1 pm. To earn a salary you actually have to do some work now again shocking, isn't it? Phone now.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">92.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant left a voicemail for Peter Williams (lasting 5 minutes) on 2 July 2024. It included the following: </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.08in">You'll need to phone me immediately. Immediately on [redacted] stop everything that you are doing. Stop it now and phone me. .... I'll have that information now, so you need to get back to me immediately. You'll ensure that it's all done now. You'll work every hour that God sends. You will not leave the office until that information is posted to me. It goes today. That information comes to me today. I'm extremely annoyed. It's quite clear that you're just delaying. You get back to me immediately and we sort this out if it means getting all of your staff. ODE to this case today that happens to repeat, you do not use the environmental regulation, environment information regulations. That's completely wrong. &#8230; Now, if you're in cahoots with the bar solicitor, you're for the high jump. Mr. Williams, make sure that information is getting sent to me today. That means every single member of staff that you have at the Freedom in your Freedom of Information section will now be diverted to getting that information to the survey yourself. Phone me back immediately as I say your job is on the line. I've had enough of this. I've had, I've been mucked around by Cameron Council for over a year now. I've asked for this information separately from your Bow solicitor, he stonewalls. That's why I've gone through a Freedom of Information, Freedom of Information section. Do not muck me around. Did I say muck? But I'm wrapped up and I'm a lawyer. You will not have a job unless the information is given to me today. Diverse all your staff to this case that's got to be dealt with under the Environment Information Regulations is to be dealt with other new Freedom of Information acts. All staff diverted to this case now, this instant, and you support me back immediately and I'll have hourly reports. Is that understood, Mr. Williams? I have, when I have that information, I will have Camden by the scrotum and I'll be demanding some sackings. Do I make myself clear, Mr. Williams? I'll be demanding sackings, so I'll have that information immediately. All of your staff diverted to dealing with the case, all of the information requested via the Freedom of Information Act, not the Environment Information Regulations&#8230;&#8221;</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">93.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant left another voicemail for Peter Williams (lasting over 4 minutes) on 2 July 2024 at 09:51. It included the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;I will be holding Camden to ransom. That information means that Campbell Fight will have a black hole of in excess of &#163;50 million, I repeat 5050 million. That's why the Bone solicitor is, well, I think the borough solicitor is hoping that I fall under a bus. Now I've told you, I'm not asking you, I'm telling you all staff are diverted to obtaining that information that I require and it's done. Now all stop. None of them. None of them sleep. They don't eat, they don't treat drink, they don't defecate, they don't urinate. They are all on that task. And I'll have that information today. As I say, I have Camden with that information. I have Camden, Camden Council by the short and curlies and I will be demanding sackings. So Williams, make sure you're not on that list of names and you can ensure that by getting all of that information to me&#8230; All of that information to me today I'll have hourly report. So on the hour, every hour you will be phoning me. So at 10:00 you will be phoning me. This is what we're doing. 11:00. This is what we're doing 12 talk, this is what we're doing and by 5:00 doing it by close of Business Today you will be saying the information has been has been sent by a motorcycle Courier to you. Do you understand or you don't have a job? You might have intimated that I'm extremely annoyed you prompt you passed me around for a month, 20 working days and then say now you say it's too complex and voluminous. Absolute bullshit. So, Mr. Williams, I'll have the information now. All staff diverted to Cam 7864 hourly reports 10. O'CLOCK 11121234 and by 5. I have that I have a I have the information that I've that I've requested involves a demanded under the Freedom of Information Act of 2000. All of it. 10:00 I have a report 11121234 and by 5 that's delivered by motorcycle Courier to me.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_94">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">94.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 3 July 2024 at 10.54 the appellant left another voicemail for Peter Williams, lasting nearly 4 minutes, which included the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;&#8230;it was clearly an FOI request. Now you're not setting it back to grade one. I've just had a last Thursday I had a missive through an email through from your Mr. Phillip Lewis saying due to the complexity of the luminous, this bullshit is essentially there's nothing complex or voluminous about it. I think Mr. Lewis needs to work a little harder. Of the 20 day limit is up tomorrow. You'll be back tomorrow. Make sure that is with me, that all of the information is with me by close of business tomorrow. All hell will break loose. The next request I will be making. If you fail to get that information to me by close of business tomorrow, send it by motion. Local Courier might just make sure it's here by close of business. If not, then my next Freedom of Information request. We will demand that you tell me what percentage of your FOIA requests are being dealt with within the 20 within the 2020 working days. And if, as I suspect, very few of your FBI's are being dealt with in within 20 days. When I go straight to the Information Commissioner and heads will roll. Have I made myself clear? You're so phone me. You're back tomorrow. You're phone me the moment you get in, the moment you hear this message, you phone me on 07984779919 and I don't want any attitude from your soul other than an apology Apologetic 1 Make sure that information is with me. There's, as I say, there's nothing complex or voluminous about that, about the information requested. Nothing. It should be easy to identify the documents, I retrieve them and dispatch them. There's nothing to it, absolutely nothing to it. It's bullshit. It's total bullshit. Complex and voluminous, son. Straight through to me. You're back tomorrow before 11:00 tomorrow you phone me. Are they all hands on deck? That information is given to me by close of business tomorrow. I'm getting sick of Cabinet Council. Absolutely sick of you. Not so. Yeah. By the way, I'm a lawyer, so the letters after my name, LB London. So yes, heads will roll. If that doesn't, if that information isn't with me by close of business tomorrow, heads will roll. There will be people losing their jobs. Mr. Williams, have I made myself clear? Right, get to it.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_95">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">95.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The appellant left another voicemail for Peter Williams at 09.51 on 4 July 2024, including the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;Every single member, member, staff that you have there is now on this. You don't stop for lunch, don't have a cup of tea, you don't defecate, you don't urinate, You don't eat, you don't drink&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_96">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">96.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 4 July 2024 the appellant emailed Philip Lewis, copying in Peter Williams including the following &#8220;You are to phone me immediately on [redacted] and then every hour on the hour.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_97">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">97.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">On 4 July 2024 at 10.30 the appellant left another voicemail for Peter Williams which included the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;Every member of staff, every member of staff is now engaged in grabbing those documents, carefully photocopying them and having them dispatched to me. No tea breaks, no lunch breaks. You work. You work harder than you have ever have done before. You run. You don&#8217;t walk and you phone me back immediately.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_98">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">98.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">On 4 July 2024 at 12.35 the appellant left the following voicemail for Philip Lewis: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:1.08in"><span style="font-family:'Book Antiqua'">&#8220;At 1:00, I&#8217;ll be arranging for a disciplinary hearing, which I will attend your disciplinary hearing. At 1:00, I will arrange that disciplinary meeting. I&#8217;ll also demand an input into any reference that you receive on your departure. So understood. You get those papers through to me now, Papers to be in a filing cabinet that all be all be in the same place. You pull it out, you copy the papers, you put them in the middle of envelope. You have some dispatch by the motorcycle Courier and you do that. Now. You get on the phone. You stay with me all afternoon. You stay on the phone as you get the folder, photocopy the content of the folder and send and then put it in an envelope and hand and hand the envelope. So the most cycle Courier, you stay on the phone from phone with me as I say at 1:00. So I have a response on the phone at 1:00. Your goose is cooked. You have to do some work. You can&#8217;t just pump out a sit on their hands for a month. They&#8217;d send out a bullshit standard form letter. It&#8217;s copious, copious, voluminous, that&#8217;s you just pump those out because you&#8217;re too lazy. It&#8217;s so obvious you&#8217;re supposed to deal with a FOIA promptly. You&#8217;re not supposed to miss that. You&#8217;re not supposed to turn them into EIR&#8217;s, which they&#8217;re not, so that you</span><span/><span style="font-family:'Book Antiqua'">can get an extension of a further 20 working days. You&#8217;ve cooked up until the 20 working days is up today, as I say, at 1:00 you&#8217;re looking at you&#8217;re looking at working at saying second shelves at Sainsbury&#8217;s or flipping burgers. It&#8217;s entirely up to you need to do some work occasionally. You said you have a job tonight with the council. You&#8217;ll find out. You&#8217;ll find out. As I say, 1:00 absolutely bone idle and useless right before 1:00 and you stay on the phone. You phone me and you stay on the phone.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_99">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">99.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">The appellant left another voicemail for Peter Williams at 14.59 and one for Philip Lewis at 15.21. He left another for Philip Lewis at 16.41 which included the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;Not a wise move, Mr. Lewis. So you won&#8217;t have a job and you&#8217;re going to prison unless in the next 21 minutes I have those papers through.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_100">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">100.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">On 5 July 2024 the appellant emailed the FOI department three times as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;The s.10 FOIA time-limit expired yesterday and no lawful ground for time-extension pertains. Your junior officers erroneously and negligently determined my request to be under EIR 2004 and then applied a time-limit extension permissible under the EIR but not the FOIA.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">Kindly see to it that the demanded information is despatched to me by close of business today. Telephone me on [redacted] upon receipt of this email.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">Your junior officers are refusing to communicate with me. In respect of the behaviour of those junior officers, kindly arrange disciplinary meetings for them next week. Advise me of the the [sic] time and place of these meetings in order that I might attend and present information.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;I have not received the phone call required by my previous email marked for your immediate attention and action. Still less have I received the documents demanded in my FOI, the receipt of which is now overdue without lawful cause.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">Kindly now telephone me on 07984779919 immediately in order to secure an extremely expeditious conclusion to this matter.&#8221;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;Documents delivered, now.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">If Mr Williams is the most senior officer in the FOI department, then I&#8217;ll have his line-manager on the phone now &#8211; [redacted] &#8211; immediately.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">NOW, NOW, NOW. HAVE YOU GOT IT?!&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_101">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">101.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">On 5 July 2024 the appellant left another voicemail for Philip Lewis at 15.54 which included the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in"> &#8220;Where are they? You seem to be a little slow. It was never is not and never will be. And EIR, what you did because I&#8217;m being impression you&#8217;re not too bright&#8230;This will all come up in your disciplinary next week. In the meantime, I suggest you get those papers to the right now. I don&#8217;t care if you have to work until midnight, you get those papers to me now... Do you understand those papers to read now? Stop what you&#8217;re doing. Don&#8217;t eat, don&#8217;t drink, don&#8217;t defecate, don&#8217;t urinate. You have permission to breathe and get those papers together and dispatched to me. You have my address, you have my phone number. Do it now.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_102">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">102.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">On 8 July 2024 the appellant emailed the FOI department as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;I can only assume that your radio silence is motivated by malice. I would advise you that this constitutes misconduct in public office, a common law offence which upon conviction always carries a custodial sentence.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">You will phone immediately on [redacted]. If the line is busy, you will keep calling until it is free. This email has been copied Camden&#8217;s chief executive.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_103">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">103.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">On 8 July 2024 at 09.19 the appellant left Peter Williams a voicemail including the following:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;&#8230;You know who I am. I've just sent you an e-mail. It looks like you are going to court. It's a criminal offence what you're doing. You might be having a giggle about this, but you won't be giggling when they when you're sent down. Understand you are in big sheets now go and get those papers. There's a good boy run along&#8230; If you act maliciously, as you appear to be doing now, you go to prison. Understand that now, whatever you're doing, stop it&#8230;.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_104">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">104.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">He sent another voicemail to Peter Williams on 8 July 2024 at 11.31: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;The chief executive is aware of what's going on now. I suggest you get the finger out right now. Papers to me right now them. So C AN7864 is a reference as you know damn well. Get on the phone to me right now. Right now, your bloody mindedness is doing you no favors at all. Type this to me right now. You phone me right now. As I say, Chief executive is well aware of what's happening now. She's the head honcho. So big trouble.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_105">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">105.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">On 8 July 2024 at 13.08 the appellant left Peter Williams the following voicemail: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;Do you have a look at the e-mail that I've just sent you? You're doing an FOIA request and review all on the same day. I have been advised they're not very happy with you. Mr. Williams, you committed offences. You and Mr. What's his name now Lewis have committed a criminal offence to criminal criminal offences of misconduct in public office. It always track it carries invariably carries a custodial sentence. So you're looking at prison time unless you get your asses into gear. Now all of those papers completes very carefully. Get those papers together and get them to me now. So understood. The CEO, the head honcho of Camden Council is on your case. The IC O is on your case. I'm on your case. The police will be on your case. You will have your door kicked in at 4:00 in the morning because you acted maliciously. Now, the way that you save your bacon is you get those papers together right now. Right now, and dispatch to me.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_106">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">106.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">On 8 July 2024 the appellant emailed the FOI inbox, copying in the Council&#8217;s CEO, as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:1.08in"><span style="font-family:'Book Antiqua'">&#8220;You have unlawfully and deliberately miscategorised my FOI request as an EIR request in order to abuse the extension provision in the EIR to my detriment. This is an intentional and malicious act of delay.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:1.08in"><span style="font-family:'Book Antiqua'">Scores of emails and voicemails to you have met with absolutely no response.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:1.08in"><span style="font-family:'Book Antiqua'">Common law criminal offences of misconduct in public office have occurred. These offences invariably - id est, always - carry custodial sentences. I will pursue this path of action should I fail to receive the requested documents today. If you, Williams and Lewis, do not care about imprisonment for your malice, then you should in any event treat this email as a &#8220;review&#8221; request to be actioned and completed today, not a further 20 working days, as it is not strictly speaking a &#8220;review&#8221; at all as you haven't made a lawful decision yet! The FOIA time-limit expired four days ago. In short, papers now or go to prison. You will conduct any review today and despatch the papers to me today. Understood? Mindful of the characteristic petty vindictiveness of bone-idle council officers, you will ensure that the demanded papers are completely and carefully copied. Or else&#8230; Move!&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_107">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">107.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">The appellant also sent similarly worded emails during this period to Mr Maughan and his deputy. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_108">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">108.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.79in">On 9 July 2024 Jon Rowney emailed the appellant including the following: </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.08in">We have received a number of emails and phone calls from you about your request for information which was made by you on 6/6/24 and which is being dealt with under the Environmental Information Regulations (EIR). You were advised on 27/06/24 that the Council has extended time to reply to your request due to it being complex and voluminous. The EIR permits an extension to the time for compliance from 20 to 40 working days, if the Council believes that the complexity and volume of the request would make it impractical to comply or reach a decision about whether to refuse the request, within 20 working days. It is perfectly legitimate for the Council to apply this provision. The Council is now required to reply by 2/8/24 and you have been advised of this deadline.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.08in">You are required to allow the Council the appropriate time to respond. I&#8217;m aware that you&#8217;ve made excessive amounts of contact with numerous Council officers with threatening behaviour which is both unreasonable and vexatious and will not be tolerated. I&#8217;ve previously written to you about similar conduct on other matters and requested that you stop.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.08in">Recent examples of communication causing us concern include, without limitation:</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.08in">&#8226; Threatening to pursue officers for &#8216;common law criminal offences of misconduct in public office&#8217; without foundation and threatening them to provide the requested information &#8216;or go to prison&#8217;, saying they are &#8216;looking at jail time&#8217; or that they will lose their job or be subject to disciplinary action</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.08in">&#8226; Repeatedly phoning and sending emails to various officers across the council demanding delivery of the information within set self-imposed deadlines</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.08in">&#8226; Demanding officers phone you at set times at unreasonable intervals or that they stay on the phone to you all afternoon</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.08in">&#8226; Threatening officers to tell you where they are then threatening to follow them as they gather documents</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.08in">This is unacceptable behaviour and you are requested to stop such conduct. While your request for information will be dealt with through the appropriate channels, the above behaviour will not be tolerated. If you do not stop such behaviour, this could be deemed to be repetitious and unreasonable behaviour and I will have to consider this under our Unreasonable Behaviour procedure.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.08in">We would prefer not to do this, and so ask that you refrain from repetitious and other forms of vexatious and threatening behaviour. We will continue to read correspondence received from you to look at any new issues, however my previous emails have been very clear on how you can contact us regarding whistleblowing or complaints, and I&#8217;d urge you to follow that advice.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_109">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">109.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">On 9 July 2024 the appellant replied to Jon Rowney, including the following: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8220;Let&#8217;s get some matters straight, shall we?</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">First, the request was and is a FOIA 2000 request. Read that again, and again, and again. And again. FOIA 2000, not EIR 2004. Sunk in? Good.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">Second, your FOI people have deliberately miscategorised the request as an EIR 2004 request. My communication with the ICO yesterday reveals that this intentional misclassification is a common ploy by local authority FOI people, a cynical device used to artificially and unlawfully extend the time-limit of an information request. The time-limit extensions permitted under the EIR stretch out to near-infinite, while the Section 10 FOIA requirement is a strict 20 working-day turnaround.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">None of these Reg 2 EIR definitions describe in any sense or under any sane construction my request for documents - as your FOI people know damn well. Had they not known this - an extremely unlikely possibility - numerous emails and voicemails to them over the last week in this regard would surely have alerted them to their supposed ignorance. Throwing melodramatic histrionic fits to obfuscate malfeasance is par for the course with Camden officers. Stop it.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">&#8230;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">Kindly now have a word with your FOI layabouts and have them despatch the documents this afternoon. Better still, do it yourself after all, you have had since May to supply information that both I and the external auditor are very anxious to view.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">Given your previous exemplary civility toward me, I'm bound to say that I'm disappointed by your earlier email. Perhaps had you first phoned me to establish the facts, you would have then breathed fire upon your FOI clowns rather than further distressing me.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:1.08in">By the way, [the third party] is still dying and missing me as I do her - unless you'd forgotten what this is all about. And if you are looking for (extremely) "unreasonable behaviour", perhaps you should try your social services directorate.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_15">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Findings of fact following the refusal of the request on 2 August 2024</span></heading>
+	  <paragraph eId="para_110">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">110.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">These matters are only relevant to the extent that they shed light on the position at the time of the refusal. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_111">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">111.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">The appellant continued to email and leave voicemails for individuals at the Council in similar terms, despite having been asked not to on a number of occasions. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_112">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">112.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in">The appellant asked Mr Foot, deputy editor of the Camden New Journal to request the same information. He did so on 9 January 2025 and the appellant followed this request with multiple emails to the Council, in a similar tone to his previous correspondence. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_16">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion and conclusions</span></p>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The date for assessing whether a request is vexatious or manifestly unreasonable. </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_113">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">113.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">Under FOIA, the tribunal is required to determine whether or not the decision to refuse to disclose was correct at the date of the original refusal by the public authority. This is not limited to the application of the public interest test, but arises from the language in sections 50(1), 50(4) and 58(1) FOIA. This was said to be common ground in the Supreme Court&#8217;s decision in&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">R(Evans) v HM Attorney General</span><span style="font-style:italic">&#160;</span><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/21" uk:canonical="[2015] UKSC 21" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 21</ref>:&#160;</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.18in">&#8220;72......It is common ground, in the light of the language of sections 50(1), 50(4) and 58(1), which all focus on the correctness of the original refusal by the public authority, that the Commissioner, and, on any appeal, any tribunal or court, have to assess the correctness of the public authority&#8217;s refusal to disclose as at the date of that refusal.......&#160;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">114.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">The principle was applied in the context of the public interest test by the Upper Tribunal in&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Montague v Information Commissioner</span><span style="font-weight:bold">&#160;</span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/104" uk:canonical="[2022] UKUT 104 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 104 (AAC)</ref> when the Upper Tribunal held that the date of the refusal did not include the date of any internal review. The reasoning for that conclusion applies equally to the consideration of vexatiousness as it does to the public interest test. The&#160;Court&#160;of Appeal and Supreme Court decisions in&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Montague&#160;</span>do not deal with the timing point.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">115.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">The tribunal is not aware of any binding authority that has expressly&#160;considered&#160;and definitively answered the question of whether the relevant date is the date of the actual refusal, whenever that may be, or whether it is, at the latest, the date by which the public authority should have responded under FOIA.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">116.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">The Commissioner&#8217;s guidance adopts a clear position that the relevant cut-off point is the expiry of the statutory time limit under section 10 FOIA. It states that, provided the authority responds within that period, it may take into account matters arising up to that point, but that anything occurring after the expiry of that time limit must be disregarded, even where the authority responds late or relies on section 14 at a later stage. That guidance is not binding on the tribunal.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">117.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dr Yeong-Ah Soh v Information Commissioner and Imperial College London</span>&#160;<ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2016/0249" uk:canonical="[2016] UKUT 0249 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKUT 0249 (AAC)</ref>, no argument was heard on the point but the parties proceeded on the basis that the relevant date for assessing vexatiousness was when the request fell to be answered under FOIA (i.e. by the expiry of the&#160;section 10 time limit). In&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Soh</span><span style="font-weight:bold">&#160;</span>Upper Tribunal Judge Stockman assessed the burden of the request at that date and expressed a reasoned but &#8217;tentative' view that that was the right approach. That view was obiter and was prior to <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Montague.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">118.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">There is nothing in&#160;the reasoning in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Montague</span><span style="font-style:italic">&#160;</span>that supports an argument that the relevant date is the date at which the public authority&#160;<span style="font-style:italic">should have&#160;</span>responded to the request. There are a number of references in the decision to an &#8216;in-time&#8217; review decision. The Upper Tribunal could have used, but did not use, these words in relation to the initial refusal decision.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">119.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.79in">In contrast,&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Montague</span><span style="font-style:italic">&#160;</span>states repeatedly that the relevant date is the date of the initial refusal decision. We consider that we are bound by the Upper Tribunal decision to assess the public interest at the date of the original refusal, not at the date by which the Department should have refused. Whether or not this should be the position is not a matter for this tribunal.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.18in">120.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:left;margin-left:1.18in;text-indent:0.38in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Evans,</span><span style="font-weight:bold">&#160;</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Montague</span>&#160;and&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Soh</span><span style="font-weight:bold">&#160;</span>also set out clearly the circumstances in which evidence of later events can be relevant to the tribunal&#8217;s answer to the question of whether the decision was correct at the date of the refusal:<br/><br/>&#8220;73. However, although the question whether to uphold or overturn (under section 50 or sections 57 and 58) a refusal by a public authority must be determined as at the date of the original refusal, facts and matters and even grounds of exemption may, subject to the control of the Commissioner or the tribunal, be admissible even though they were not in the mind of the individual responsible for the refusal or communicated at the time of the refusal to disclose (i) if they existed at the date of the refusal, or (ii) if they did not exist at that date, but only in so far as they throw light on the grounds now given for refusal..... &#8220; (<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Evans</span>)<br/><br/><span>&#160;</span><br/><br/>&#8220;72. &#8230;I accept that subsequent conduct can also be relevant, but only in so far as it sheds&#160;light on the true purpose and circumstances surrounding the request at the time it was made.&#8221; (<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Soh</span>)<br/><br/><br/>&#8220;52 &#8230;the FTT, in a general exposition of the relevant law on the appeal, had stated that it was well established that the date at which the public interest balance was to be assessed was &#8220;the date of the public authority&#8217;s refusal to disclose the information&#8221; and that &#8220;[e]vidence about subsequent events is only relevant in so far as it throws light on the position as it was at that date&#8221;. Save for whether the date of the public authority&#8217;s refusal to disclose the information extends to the date of any internal&#160;review of its original refusal decision, which we address below, what is said by the FTT in paragraph 10 of its decision is a correct statement of the law.&#8221;&#160;(<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Montague)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">121.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">For those reasons we reject the appellant&#8217;s submission that the appropriate date, were this to be treated as a FOIA request, would be 27 June 2024 when the request was due. We find that the appropriate date is the date of the original refusal which was 2 August 2024. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">122.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We note that in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">O&#8217;Hanlon v Information Commissioner and Health and Safety Executive</span><span style="font-weight:bold"/><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/66" uk:canonical="[2025] UKUT 66 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKUT 66 (AAC)</ref>, an EIR appeal which we discuss below, the relevant date was held to be 5 August 2021, which was the date of the public authority&#8217;s out of time reconsideration decision not the date on which a reconsideration decision should have been due. That aspect of the decision supports our conclusion that the relevant date is the actual date of the decision rather than the date on which the decision was due. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">123.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">In our view there are good reasons for the same date to apply in both regimes, including that it is legitimate for a public authority (and the Commissioner and the tribunal) to consider a request on an &#8220;either/or basis&#8221;. However, we are bound by the Upper Tribunal in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">O&#8217;Hanlon </span>which decided that the relevant date under EIR is the date of the reconsideration decision, which in this case is 3 October 2024. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">124.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">However, for pragmatic reasons we have considered the position at 2 August 2024 under both regimes because we are satisfied that there are no factual matters between 2 August and 3 October 2024 that could have led us to reach a different conclusion. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">125.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We have considered carefully whether we would have reached a different conclusion if the appropriate date had been 27 June 2024. We concluded that we would not have reached a different decision. In our view the nature and extent of the course of dealings prior to 27 June 2024 was such that we would still have concluded that the request was vexatious and manifestly unreasonable.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Is the request manifestly unreasonable? (Regulation 12(1)(a))</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_126">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">126.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.79in">In answering this question it is useful to begin by looking at the following factors: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">the burden (on the public authority and its staff); </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">the motive of the applicant; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">the value or serious purpose of the request; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(4)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">the harassment or distress of staff.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p><span style="font-style:italic;font-family:'Book Antiqua'">Burden</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_127">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">127.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">This is a focussed request dealing with a specific contract or series of contracts. Sarah Laws knew which contract was being requested, because it had been requested previously. In isolation, the request would not have placed a significant burden on the Council. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">128.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">When assessing the burden of the request, we take into account the context and history of the particular request, in terms of the previous course of dealings between the individual requester and the public authority in question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">129.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We repeat that it is not the tribunal&#8217;s role to make a judgement on whether the social services department were justified in acting as they did, but we recognise that the situation was extremely upsetting for the appellant and has clearly affected him deeply. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_130">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">130.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">There is a clear link between the appellant&#8217;s course of dealings with the social services department and his course of dealings leading up to the request. He said in evidence that he was initially using the water charges issue as leverage to force the hand of the Council about the social services department. Then, once he had what he called &#8216;the golden ticket&#8217; from the auditor (i.e. confirmation that the Council had made a provision), he had resigned himself to the fact that the Council was not &#8216;playing the game&#8217; and that he would never see [redacted] again, and, he said in evidence, &#8216;now it is revenge&#8217;. Those purposes are also clear on from the content of the appellant&#8217;s voicemails and emails. He initially used the water charges &#8216;bomb&#8217; as a threat to try and force the Council to resolve the social services issue in his favour and once it became clear that they were not going to do so, he dropped the bomb. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_131">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">131.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">On that basis it is in our view appropriate to take account of the burden of all the correspondence and voicemails set about above, up to 2 August 2024. We find that the appellant&#8217;s frequent emails and voicemails to numerous individuals, including the borough solicitor, the freedom of information officers and the director of corporate services demanding responses and action, placed a significant burden on the Council. The frequency of emails and voicemails increased significantly after 27 June 2024, when the appellant began relentlessly bombarding the freedom of information officers with multiple daily voicemails and emails, but even prior to that date we find that the appellant&#8217;s correspondence was already placing a significant burden on the Council. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_132">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">132.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We have concluded that this burden is disproportionate, taking a holistic approach and in the light of our conclusions below. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_19">
+	  <content>
+	    <p style="margin-left:0.79in;text-indent:-0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">Purpose or value of the request and the appellant&#8217;s motive</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_133">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">133.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">The Council&#8217;s arrangements with Thames Water may be different to those in the Kingston case, but that does not preclude the Council from having acting as a reseller. There is a potential for a large number of tenants to be affected. Given the criteria for establishing a provision, the fact that the Council has made a provision in its accounts for repayment in the sum of &#163;3.7m indicates that it considered repayment to be probable. In those circumstances, we find that there is clear value in transparency in relation to the contract between the Council and Thames Water and in the public being able to scrutinise those arrangements. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_134">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">134.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We do not accept that there is any plausible suspicion of wrongdoing in the sense alleged by the appellant. We are not persuaded by the appellant&#8217;s arguments that officers of the Council owed a fiduciary duty to tenants, nor that there is any credible prospect of individual Council officers being prosecuted for fraud even if it transpires that the Council was acting as a reseller under its arrangements with Thames Water and had overcharged tenants. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_135">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">135.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We do not, however, accept that the appellant had a legitimate serious purpose in making the request. In correspondence he describes the water charges issue as a &#8216;catastrophic criminal and financial Damoclean sword&#8217; hanging over the Council and makes clear that he will &#8216;sever the thread&#8217; unless the Council complies with his demands. The Council did not comply with his demands, and the appellant made this request as part the threatened course of action. Using the threat of exposure of alleged wrongdoing to seek to force a public authority to act in a particular way and then deploying EIR or FOIA as a means of pursuing that threat is not a legitimate use of the statutory regimes. The appellant said in evidence that his motive was in part &#8216;revenge&#8217; and in part his concern for redress for 13000 people who had been overcharged and punishment for the people involved in the fraud. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_136">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">136.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">In the light of the correspondence as a whole, in particular the fact that the appellant made clear that he would not pursue the water charges issue if the Council complied with his demands, we find that the appellant&#8217;s primary motive in making the request for information was to carry out the threat he had made and to gain ammunition with which he hoped to &#8216;punish&#8217; the Council for failing to take the action he required in relation to the dispute with social services. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_20">
+	  <content>
+	    <p style="margin-left:0.79in;text-indent:-0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">Harassment and distress</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_137">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">137.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">Throughout the course of dealings between the appellant and the Council set out above, the appellant used intemperate language. He used strong and emotive words like &#8216;evil&#8217; and &#8216;malevolent&#8217; &#8216;visceral&#8217; and &#8216;demented&#8217; to describe the actions of Council employees. He regularly threatened that he would take action that would result in imprisonment or disciplinary action. The voicemails and emails to the FOI officers were particularly offensive and controlling. They are set out in full above and speak for themselves, but include, for example, the instruction &#8216;You don't stop for lunch, don't have a cup of tea, you don't defecate, you don't urinate, You don't eat, you don't drink&#8217;. He described the objections of officers to his correspondence as &#8216;melodramatic histrionic fits&#8217;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_138">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">138.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We accept the evidence of Ms Laws that this was one of the worst two cases she has dealt with in FOIA in terms of &#8216;vitriol and threats&#8217;. We accept her evidence that her team, Philip Lewis and Peter Williams had been &#8216;very upset&#8217; by the correspondence. Taking into account the content and the tone of the emails and voicemails, that is an entirely reasonable reaction. In our view these emails and voicemails are likely to cause distress. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_21">
+	  <content>
+	    <p style="margin-left:0.3in"><span style="font-style:italic;font-family:'Book Antiqua'">Provocation/justification</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_139">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">139.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.79in">The appellant submitted forcefully that he only acted in this way because he had been &#8216;vexed&#8217; by the public authority. He relied on a number of matters, including in particular: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The way in which social services had treated him in relation to [redacted], denying him access to a loved one</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The way in which social services and then Andrew Maughan had refused to engage with him or ignored him</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in">The deliberate reliance on EIR to avoid complying with FOIA timelines and to vex the appellant</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_140">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">140.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We have found that the reliance on EIR was not a deliberate act to avoid deadlines under FOIA or to vex the appellant. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_141">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">141.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">In relation to (b) and (c), even if the appellant is right that his treatment by social services was entirely unjustified and that his correspondence was ignored, we do not accept that this in any way justifies his conduct. Mr. Wermter&#8217;s submission was that anyone would have acted in this way if they had been treated as he had. He says that his aim, to &#8216;sort out&#8217; social services for his benefit and the benefit of others was justified. We do not accept that the tone, content and frequency of his communications with the Council are justified. We do not accept, however poorly an individual is treated by a public authority and however poorly a department is functioning, that it is ever justified to attempt to force the public authority to act in a particular way through threats of imprisonment of officers and exposure of wrongdoing. Nor do we accept that it was necessary or justified to adopt the offensive tone used by the appellant in his correspondence. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_22">
+	  <content>
+	    <p style="margin-left:0.79in;text-indent:-0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">Conclusions on whether the request is manifestly unreasonable</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_142">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">142.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We have taken a holistic and broad approach and have looked at the request in the light of the past course of dealings between the appellant and the Council. We have considered the burden on the Council and the value and purpose of this request. We have looked at the appellant&#8217;s motive and any distress that is likely to be caused by the request. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_143">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">143.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">The value of a request cannot be seen as a &#8216;trump card&#8217;. What is required is to balance the value to the public of this information against the resource implications of this request, in the light of the other relevant factors set out above. We bear in mind that the hurdle of satisfying the test is a high one. However this is a case where there is a significant burden from course of dealings, distress likely to be caused and caused in fact by the tone and content of the appellant&#8217;s correspondence and, in particular, a wholly inappropriate and improper use of EIR as &#8216;revenge&#8217; (using the appellant&#8217;s words) and to carry out a threat after the Council failed to comply with the appellant&#8217;s demands. Whilst we accept that the requested information is of clear value to the public, for the reasons set out above, balanced against the other factors set out above, we find that the request was manifestly unreasonable in the sense of being a manifestly unjustified, inappropriate and improper use of the EIR.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_144">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">144.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We conclude accordingly that the exception in regulation 12(4)(b) applies.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_23">
+	  <content>
+	    <p style="margin-left:0.79in;text-indent:-0.49in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Public interest balance/presumption in favour of disclosure</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_145">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">145.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">The interests underlying the exception include protecting public authorities from squandering their resources on requests that meet the high hurdle of manifest unreasonableness. There is a very strong public interest in ensuring that the limited public resources of Councils are not squandered. Whilst we accept that there is a clear public interest in transparency in relation to the contract with Thames Water for the reasons set out under &#8216;purpose and value&#8217; above, taking into account all the matters set out above, and bearing in mind the presumption of disclosure, in our view this does not outweigh the public interest in maintaining the exception. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_24">
+	  <content>
+	    <p style="margin-left:0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Was the request vexatious under FOIA?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_146">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">146.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">For all the reasons set out above, we conclude that the request was vexatious within section 14 FOIA. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_25">
+	  <content>
+	    <p style="margin-left:0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Alternative findings </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_147">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">147.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">In case we are wrong that the relevant date is 2 August 2024, we have considered whether the request was manifestly unreasonable at 27 June 2024. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_148">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">148.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">In relation to burden, we have found above that the course of dealings was placing a significant burden on the Council by 27 June 2024. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_149">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">149.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">In relation to purpose and value and motive, we repeat our findings above. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_150">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">150.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">In relation to harassment and distress, by 27 June 2024 the appellant had already sent a significant number of emails containing threats of prison and disciplinary action and written in a similar tone to those after 27 June 2024, including in particular the emails to the social services department. Those emails are also likely to cause distress. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_151">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">151.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">Taking a holistic and broad approach and looking at the request in the light of the past course of dealings between the appellant and the Council up to 27 June 2024, our conclusion is that this is a case where there is a significant burden from course of dealings, distress likely to be caused by the tone and content of the appellant&#8217;s correspondence and, in particular, a wholly inappropriate and improper use of EIR as &#8216;revenge&#8217; (in the appellant&#8217;s words) and to carry out a threat after the Council failed to comply with the appellant&#8217;s demands. Whilst we accept that the requested information is of clear value to the public, even disregarding the emails and voicemails that were sent after 27 June 2024, we find that the request was manifestly unreasonable in the sense of being a manifestly unjustified, inappropriate and improper use of the EIR and regulation 12(4)(b) applies.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_152">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">152.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We find that the public interest favours maintaining the exception for the reasons set out above.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_153">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">153.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We find that the request is vexatious under FOIA for the same reasons. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_26">
+	  <content>
+	    <p style="margin-left:0.3in"><span style="font-style:italic;font-family:'Book Antiqua'">Outcome of appeal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_154">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">154.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We have concluded that the public authority was entitled to refuse to comply with the request under EIR and FOIA. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_155">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.49in">155.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.79in">We have considered whether we ought to allow the appeal and substitute a different decision notice which includes both EIR and FOIA. However, although we have reached the conclusion via a different route, there is no error in the Commissioner&#8217;s conclusion that the Council was entitled to withhold the information </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_27">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Sophie Buckley</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-05-05" refersTo="#decision" style="font-family:'Book Antiqua'">5 May 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

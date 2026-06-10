@@ -1,0 +1,684 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/281"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/281"/>
+	  <FRBRdate date="2026-03-02" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="281"/>
+	  <FRBRname value="David Tindell v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/281"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/281"/>
+	  <FRBRdate date="2026-03-02" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/281/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/281/data.xml"/>
+	  <FRBRdate date="2026-03-02T12:15:13" name="transform"/>
+	  <FRBRdate date="2026-03-02T12:49:58" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-01-12" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-03-02" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="david-tindell" href="" showAs="DAVID TINDELL"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="the-chief-constable-of-sussex-police" href="" showAs="THE CHIEF CONSTABLE OF SUSSEX POLICE"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>281</uk:number>
+	<uk:cite>[2026] UKFTT 281 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>55a5b9d09fbbef7b90d22654f6f58404cbf99ad542ad3b631634d53b914265a3</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00281 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0235</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on the papers: </span><docDate date="2026-01-12" refersTo="#hearing"><span style="font-weight:bold;font-family:'Book Antiqua'">12</span><span style="font-weight:bold;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-weight:bold;font-family:'Book Antiqua'"> January 2026</span></docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-03-02" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">02 March 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE ARMSTRONG-HOLMES</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER COSGRAVE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER SAUNDERS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#david-tindell" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">DAVID TINDELL</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <p class="ListParagraph" style="text-align:right;margin-left:0in"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">First Respondent</role></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#the-chief-constable-of-sussex-police" style="font-weight:bold;font-family:'Book Antiqua'">THE CHIEF CONSTABLE OF SUSSEX POLICE</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Second Respondent</role></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is dismissed. </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Background and Chronology </span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">This is an appeal against the Decision Notice of the Information Commissioner (&#8220;the Commissioner&#8221;), dated 16</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> June 2025 and referenced IC-354802-W9W3.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">On 23</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> July 2024, the Appellant wrote to Sussex Police and requested information in the following terms: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;A secured by design assessment has been carried out by Sussex Police (ref: NW/M/19/006B SBD) for St Peter&#8217;s Health Centre, 30-36 Oxford Street, Brighton BN1 4LA</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">I would like a copy and also provide email address to contact.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:11pt">Sussex Police respondent to this request on 30</span><span style="vertical-align:super;font-size:11pt;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua';font-size:11pt"> October 2024, withholding the Secured by Design (&#8220;SBD&#8221;) crime prevention assessment and placing reliance upon <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;). The Appellant subsequently requested an internal review of that decision. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:11pt">On 2</span><span style="vertical-align:super;font-size:11pt;font-family:'Book Antiqua'">nd</span><span style="font-family:'Book Antiqua';font-size:11pt"> January 2025, the Sussex Police wrote to the Appellant, upholding its original decision in relation to the SBD assessment. The Appellant was, at that stage, provided with an email address for contacting the police force in relation to the request. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Decision Notice of the Commissioner</span></heading>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:11pt">The complainant contacted the Commissioner on 8</span><span style="vertical-align:super;font-size:11pt;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua';font-size:11pt"> January 2025 to complain about the way their request for information had been handled. In his Decision Notice of 16</span><span style="vertical-align:super;font-size:11pt;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua';font-size:11pt"> June 2025, the Commissioner decided that Sussex Police was entitled to rely upon the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) exemption. Additionally, the Commissioner determined that Sussex Police had breached section 10(1) FOIA, having failed to comply with section 1(1) FOIA within 20 days. In summary, his conclusions were as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">That the envisaged harm relates to the law enforcement interests protected by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA, namely the prevention of crime. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.11in"><span style="font-family:'Book Antiqua';font-size:11pt">That the SBD assessment, if disclosed would have a detrimental effect on the prevention of crime at the premises concerned. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.23in"><span style="font-family:'Book Antiqua';font-size:11pt">That the outcome of disclosure predicted by Sussex Police would be likely to occur and he is therefore satisfied that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA is engaged.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iv)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.11in"><span style="font-family:'Book Antiqua';font-size:11pt">That he accepts that disclosure of the SBD assessment  would to some extent help to increase openness and transparency of police measures in relation to safety and public&#8217;s awareness of available safety measures, and that its disclosure would go towards increasing public trust and confidence in Sussex Police&#8217;s security measures, whilst providing reassurance that it is proactive in seeking to prevent crime. However, beyond the general public interest in transparency, the Commissioner does not consider that any public interest arguments have been raised which serve to counterbalance the public interest in preventing crime. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(v)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">That it would be counter to the public interest for criminals to be given material which could potentially make the premises less secure and enable crime. The Commissioner considers this argument to be of considerable weight in favour of maintaining the exemption. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(vi)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.11in"><span style="font-family:'Book Antiqua';font-size:11pt">That having considered all of the arguments, both in favour and against disclosure, he concludes that the public interest in maintaining the exemption outweighs the public interest in disclosure. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(vii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.23in"><span style="font-family:'Book Antiqua';font-size:11pt">That <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA was correctly applied to the withheld information. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Appeal to the Tribunal</span></heading>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant&#8217;s Notice of Appeal, dated 26</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> June 2025, was submitted on form GRC1 and was accompanied by a number of documents, including a 15-page document entitled &#8216;Response to Decision Notice&#8217; which sets out his reasons for this appeal. These reasons are summarised as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(i)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in"><span style="font-size:11pt">That there is a public interest in promoting transparency about the UK government and public authorities, and St Peter&#8217;s Health Centre is the Appellant&#8217;s General Practitioner Health Centre, which has had a major redevelopment and there are some issues with this.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(ii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">That there is a public interest in providing the SBD assessment.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iii)</num>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.23in"><span style="font-size:11pt">By reference to the Information Commissioner&#8217;s guidance on applying the prejudice test, dated 15</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> March 2024, to claim that prejudice &#8216;would be likely to apply&#8217;, it must be established that: (1) There is a plausible causal link between disclosing the information in question and the argued prejudice; (2) That there is a real possibility that the circumstances giving rise to prejudice would occur (i.e. the causal link should not be purely hypothetical); and (3) the opportunity for prejudice to arise is not so limited that the chance of prejudice is in fact remote. This test is not met for the following reasons:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.83in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.83in;text-indent:0.12in"><span style="font-size:11pt">There is not a plausible causal link in that a criminal would know about the SBD document. It is a design guide and there is information on the SBD website. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.83in;text-indent:-0.25in">(b)</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.83in;text-indent:0.12in"><span style="font-size:11pt">There is no real possibility that the circumstances giving rise prejudice would occur, in that a criminal would have to know about the document. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.83in;text-indent:-0.25in">(c)</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.83in;text-indent:0.12in"><span style="font-size:11pt">That the chance of prejudice is remote, in that there is no reason for a criminal to read the document when there is information on the SBD website. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.83in;text-indent:-0.25in">(d)</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.83in;text-indent:0.12in"><span style="font-size:11pt">The criminal would not know what steps the Trust or developer has taken to correct any of the issues highlighted in the SBD assessment (i.e. nobody knows what measures have been put in place). </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.83in;text-indent:-0.25in">(e)</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.83in;text-indent:0.12in"><span style="font-size:11pt">That a criminal downloading the document would leave a digital trace which might enable the police to trace the criminal. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.83in;text-indent:-0.25in">(f)</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.83in;text-indent:0.12in"><span style="font-size:11pt">All commercial properties are potential targets for criminals and not just health centres. </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iv)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">Noting the case of </span><span style="font-style:italic;font-size:11pt">Pauline Reith v Information Commissioner and London Borough of Hammersmith and Fulham</span><span style="font-size:11pt"> (EA/2006/0058), that Sussex Police has provided no evidence to support there being a causal link between disclosure of the information and the prejudice concerned. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(v)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in"><span style="font-size:11pt">That if the SBD assessment was disclosed, the public would be able to challenge the Trust and/or the developer as to the extent of the security measures that have been implemented. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(vi)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">That the SBD assessment is a set of guidelines to be followed, and if the assessment is not made available to the public then there is no way of holding the Trust and/or the developer to account if they have not implemented the recommendations identified within the assessment. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(vii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.23in"><span style="font-size:11pt">Disclosing the SBD assessment will not help a &#8216;motivated offender&#8217;, as they would not know what measures have been implemented. However, if the assessment is disclosed, then the Trust and/or the developer would be more likely to ensure that any security issues have been dealt with. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(viii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.36in"><span style="font-size:11pt">That the Commissioner&#8217;s decision in relation to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA is flawed. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(ix)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">That the public interest favours disclosure. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant invites the Tribunal to set aside the Decision Notice and substitute it with a Decision Notice which requires Sussex Police to disclose the SBD assessment. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Commissioner&#8217;s Response to the Notice of Appeal</span></heading>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Commissioner&#8217;s Response, dated 21</span><span style="vertical-align:super;font-size:11pt">st</span><span style="font-size:11pt"> July 2025, submits that the appeal should be dismissed and relies upon his Decision Notice as setting out his findings and the reasons for those findings. Additionally, the Commissioner submits the following: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(i)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in"><span style="font-size:11pt">That the assessment of likelihood is often a predictive judgment and it was appropriate for the Commissioner to accept the submissions of Sussex Police in light of its expertise and experience. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(ii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.1in"><span style="font-size:11pt">That the Appellant&#8217;s arguments are insufficient to undermine the engagement of the exemption.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(iii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.22in"><span style="font-size:11pt">That the Commissioner correctly concluded that the exemption contained within <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA was engaged. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(iv)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.1in"><span style="font-size:11pt">That the public interest in maintaining the exemption outweighs the public interest in disclosing the information. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Chief Constable of Sussex Police&#8217;s Response to the Notice of Appeal</span></heading>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Chief Constable&#8217;s response relies upon the letter, dated 30</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> October 2024 (p.A89 of the OPEN bundle), provided to the Appellant following his request for a copy of the SBD assessment, and additionally, the internal review response of 2</span><span style="vertical-align:super;font-size:11pt">nd</span><span style="font-size:11pt"> January 2025 (p.A92 of the OPEN bundle). A summary of his submissions is as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(i)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in"><span style="font-size:11pt">There are concerns associated with the release of any information that would identify or jeopardize security measures and increased vulnerability to crime, as law enforcement could be adversely affected. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(ii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">The release of the SBD assessment would enable individuals involved in criminal activity to bypass those security measures implemented, increasing the risk of criminal activity. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.23in"><span style="font-size:11pt">The information within the SBD assessment relates to a specific location and details potential points of security weaknesses, and as such, should that information be disclosed to the public, it would enable the criminal fraternity to target those weaknesses for the purpose of committing crime. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iv)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">The Appellant has not requested generic information and has asked for a specific SBD assessment which relates to a particular building, St Peter&#8217;s Health Centre. Whilst guides are available to the public, the assessment carried out was specifically to identify weaknesses at that location.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(v)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in"><span style="font-size:11pt">Sussex Police has a duty of care to the community and public safety is of paramount importance. Disclosing the SBD assessment to the world would give the criminal fraternity a possible advantage, assisting them with the knowledge to bypass security measures. Consequently, this would have a negative impact upon the police&#8217;s ability to enforce the law and may place the police at a disadvantage in certain scenarios. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(vi)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">Disclosing the SBD assessment could cause certain individuals to be at risk of harm and undermine public safety, thereby hindering the prevention and detection of crime. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(vii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.23in"><span style="font-size:11pt">The strongest argument for disclosure, namely that of openness and accountability on the part of the police, is outweighed by the strongest argument against disclosure, which is the potential impact upon the ability of the police to enforce the law. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">The Legal Framework</span></heading>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">Section 1(1) of FOIA provides for a general right of access to information held by public authorities, which is subject to a series of exemptions. Those exemptions are contained within Part II of FOIA and include <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31</ref> (Law Enforcement). <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">Section 31</ref> is a prejudice based exemption and is additionally a qualified exemption, meaning that not only does disclosure of the information have to prejudice one of the purposes listed in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref> FOIA, but that it can then only be withheld if the public interest in maintaining the exemption outweighs the public interest in disclosing the information (section 2(2) FOIA). The relevant provisions are as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify"><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';font-size:11pt">31: Law Enforcement</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.04in;text-indent:-0.25in">(1)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.04in;text-indent:0.12in"><span style="font-family:'Book Antiqua';font-size:11pt">Information which is not exempt information by virtue of section 30 is exempt information if its disclosure under this act would, or would be likely to, prejudice &#8211; </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.29in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.29in;text-indent:0.12in"><span style="font-family:'Book Antiqua';font-size:11pt">The prevention or detection of crime,</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.29in;text-indent:-0.25in">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.29in;text-indent:0.12in"><span style="font-family:'Book Antiqua';font-size:11pt">&#8230;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.29in"><span style="font-style:italic;font-weight:bold;font-size:11pt">Section 2 (Effect of the Exemptions in part 2)</span></p>
+	      </intro>
+	      <subparagraph>
+		<intro>
+		  <p class="NumberedReasons" style="margin-left:0.79in;text-indent:-0.25in"><marker name="tab"/><marker name="tab"/><span style="font-size:11pt">2(2) In respect of any information which is exempt information by virtue of any provision of Part II, section 1(1)(b) does not apply if or to the extent that &#8211; </span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.43in;text-indent:-0.25in">(a)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1.43in;text-indent:0.13in"><span style="font-size:11pt">The information is exempt information by virtue of any provision conferring absolute exemption, or</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.43in;text-indent:-0.25in">(b)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1.43in;text-indent:0.13in"><span style="font-size:11pt">In all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information.&#8221;</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">In </span><span style="font-style:italic;font-size:11pt">DWP v IC</span><span style="font-size:11pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/758" uk:canonical="[2016] EWCA Civ 758" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 758</ref>, at [27] the Court of Appeal approved the following passage of the Tribunal&#8217;s decision in </span><span style="font-style:italic;font-size:11pt">Christopher Martin Hogan and Oxford City Council v the Information Commissioner</span><span style="font-size:11pt"> (&#8220;Hogan&#8221;) (EA/2005/0026 and 0030), 17</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> October 2006, as being &#8220;an accurate statement of the correct approach to take when determining prejudice.&#8221;:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">&#8220;29.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">First there is a need to identify the applicable interest(s) within the relevant exemption. There are only two under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">s31(1)</ref>(a), namely the prevention or detection of crime.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">30.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">Second, the nature of the &#8216;prejudice&#8217; being claimed must be considered. An evidential burden rests with the decision maker to be able to show that some causal relationship exists between the potential disclosure and the prejudice and that the prejudice is, as Lord Falconer of Thoronton has stated, &#8220;real, actual or of substance&#8221; (Hansard HL, Vol. 162, April 20, 2000, col. 827). If the public authority is unable to discharge this burden satisfactorily, reliance on &#8216;prejudice&#8217; should be rejected. There is therefore effectively as de minimis threshold which must be met&#8230;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">31.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">When considering the existence of &#8216;prejudice&#8217;, the public authority needs to consider the issue from the perspective that the disclosure is being effectively made to the general public as a whole, rather than simply the individual applicant, since any disclosure may not be made subject to any conditions governing subsequent use.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">32.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">However, while the intended use or motive of the applicant is not relevant to a decision whether to grant or refuse access, this Tribunal accepts that where a public authority is aware of the intended use, it may be a factor for consideration when assessing the nature of the prejudice&#8230;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">34.</num>
+		    <intro>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">A third step for the decision-maker concerns the likelihood of occurrence of prejudice. A differently constituted division of this Tribunal in John Connor Press Associates Limited v Information Commissioner (EA/2005/0005) interpreted the phrase &#8220;likely to prejudice&#8221; as meaning that the chance of prejudice being suffered should be more than a hypothetical or remote possibility; there must have been a real and significant risk. That Tribunal drew support from the decision of Mr Justice Mundy in R (on the application of Lord) v Secretary of State for the Home Office <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2003/2073" uk:canonical="[2003] EWHC 2073 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWHC 2073 (Admin)</ref>, where a comparable approach was taken to the construction of similar words in <ref href="http://www.legislation.gov.uk/id/ukpga/1998/29" uk:canonical="1998 c. 29" uk:origin="TNA" uk:type="legislation">Data Protection Act 1998</ref>. Mr Justice Munby stated that &#8216;likely&#8217;:</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0in"><span style="font-style:italic;font-size:11pt">&#8220;connotes a degree of probability where there is a very significant and weighty chance of prejudice to the identified public interests. The degree of risk must be such that there may &#8216;may very well&#8217; be prejudice to those interests, even if the risk falls short of being more probable than not.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">35.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">On the basis of these decisions there are two possible limbs on which a prejudice-based exemption might be engaged. Firstly, the occurrence of prejudice to the specified interest is more probable than not, and secondly there is a real and significant risk of prejudice, even if it cannot be said that the occurrence of prejudice is more probable than not.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">Should it be determined that the exemption under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA is engaged, the Tribunal would then need to assess the competing public interests under section 2(2)(b) FOIA to determine whether the information should be disclosed. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';font-size:11pt">The role of the Tribunal</span></heading>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">The Tribunal has the following powers when determining appeals against the Commissioner&#8217;s decisions for the purposes of FOIA:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.39in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Section 57 FOIA: Appeal against notices&#8230;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt">(1)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua';font-size:11pt">Where a decision notice has been served, the complainant or the public authority may appeal to the Tribunal against the notice.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.39in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Section 58 FOIA: Determination of appeals</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt">(1)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.73in;text-indent:0.66in"><span style="font-family:'Book Antiqua';font-size:11pt">If on an appeal under section 57 the Tribunal considers&#8211; </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.58in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;text-indent:0.12in"><span style="font-family:'Book Antiqua';font-size:11pt">that the notice against which the appeal is brought is not in accordance with the law, or</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.58in;text-indent:-0.25in">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.58in;text-indent:0.12in"><span style="font-family:'Book Antiqua';font-size:11pt">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised the discretion differently,</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';font-size:11pt">(2)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua';font-size:11pt">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Issues and Evidence</span></heading>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">The parties had submitted written evidence to the Tribunal prior to the hearing, comprising of an OPEN bundle of 242 pages, and a CLOSED bundle of 16 pages, containing the withheld information. The Tribunal considered and read both of these bundles before determining this appeal </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">The parties were agreeable to the determination of this appeal on the papers, that is to say, without an oral hearing. We are satisfied, pursuant to Rule 32(1)(b) of the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009, that we can properly determine the issues without an oral hearing. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Discussion and Conclusions </span></heading>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">In 2019, Sussex Police carried out a &#8216;Secured By Design&#8217; crime prevention assessment at St Peter&#8217;s Health Centre in Brighton. The purpose of that assessment was to identify any potential risks to the location from a crime prevention perspective, and to provide recommendations to improve the security of buildings and their immediate surroundings. The assessment was withheld from disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA by Sussex Police on the ground that its disclosure would be likely to prejudice the prevention of crime. That decision was upheld by the Commissioner after carrying out his own investigation into the matter, and in his Decision Notice he concluded that Sussex Police was entitled to rely upon the exemption to withhold the SBD assessment.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">The Tribunal must determine whether the Decision Notice was wrong in law, or alternatively whether any exercise of discretion by the Commissioner ought to have been exercised differently. In approaching these matters, the Tribunal must consider firstly whether the exemption contained within <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA has been properly engaged, and if so, whether in all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the SBD assessment (section 2(2)(b) FOIA). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">We start by briefly mentioning section 30. This is relevant as it is a precursor to the engagement of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a), in that this section can only be engaged if section 30 is itself not engaged. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">Section 31</ref> FOIA refers to a potential exemption for information </span><span style="font-style:italic;font-size:11pt">&#8220;which is not exempt by virtue of section 30&#8221;</span><span style="font-size:11pt">. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">There is no dispute between the parties regarding section 30 not being engaged. However, for completeness, we find that section 30 (investigations and proceedings conducted by public authorities) is not engaged in respect of any of the withheld information which is the subject matter of this appeal. This is because we conclude that the information in question is not related to any investigations relating to possible crimes, criminal proceedings or civil proceedings. We therefore return to the question of whether <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA was correctly engaged. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_9_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;font-weight:bold;font-size:11pt">The Prejudice Test </span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">In the case of </span><span style="font-style:italic;font-size:11pt">Hogan </span><span style="font-size:11pt">(see</span><span style="font-style:italic;font-size:11pt"/><span style="font-size:11pt">paragraph 11 above), the Tribunal identified a three-stage test to be applied when considering whether such a prejudice-based exemption should apply to the information in question. Firstly, there is a need to identify the applicable interest(s) within the exemption. The focus of the SBD assessment is the security of the NHS premises in Brighton city centre, which it is submitted by the Chief Constable, enables those operating the premises to understand risks, including risks associated with the surrounding area, and to help them to implement physical and procedural controls to deter crime or to frustrate potential offenders, or to mitigate any damage that such offenders may cause. It is further submitted that disclosing this assessment would enable criminals to target any weaknesses identified in the report to gain access to the building(s). On any view of it, the potential harm referred to relates to the prevention of crime, and the Tribunal is therefore satisfied that this applicable interest has been correctly identified. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">Secondly, the Tribunal must consider whether the harm identified is </span><span style="font-style:italic;font-size:11pt">&#8220;real, actual or of substance&#8221;</span><span style="font-size:11pt">, and determine whether there is a causal link between disclosure of the information and that harm. The purpose of an SBD assessment is to identify weaknesses or risks to the security of a premises, and to suggest suggestions or recommendations which, if implemented, serve to minimise of reduce any potential security issues. Whilst the Appellant submits that there is not a plausible causal link between disclosure of the SBD assessment and the harm identified, in that it is &#8220;a design guide&#8221; and there is information on the SBD website, having considered the assessment in the CLOSED bundle, we consider that it provides recommendations which are specific to the health centre, and we consider that if the information was disclosed to the world that there is a significant risk that any security weaknesses would be highlighted to the reader. As the Appellant recognises, the nature of the report is that it provides recommendations to the NHS or the developer of the premises, and there is no mechanism by which they may be compelled to implement the suggested measures. Whilst it is true that the reader of the assessment would not know whether the recommended measures have been implemented, we consider that, at the very least, it identifies potential weaknesses in security which could be exploited by those involved in criminal activity. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">The Appellant has referred the Tribunal to the case of </span><span style="font-style:italic;font-size:11pt">Pauline Reith v Information Commissioner and London Borough of Hammersmith and Fulham</span><span style="font-size:11pt"> (EA/2006/0058) in submitting that Sussex Police has not provided any evidence to support there being a causal link between disclosure of the SBD assessment and the harm envisaged. That decision concerned the applicable interest detailed under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(g) FOIA, namely &#8216;</span><span style="font-style:italic;font-size:11pt">the exercise by any public authority of its functions for any purposes specified in subsection (2)&#8217;</span><span style="font-size:11pt">, with the applicable section of subsection 2 being 31(2)(c) </span><span style="font-style:italic;font-size:11pt">(the purpose of ascertaining whether circumstances which would justify regulatory action in pursuance of any enactment exist or may arise), </span><span style="font-size:11pt">and the public authority in question had submitted that disclosing its detailed criteria for towing vehicles would encourage people to park illegally. They had provided no evidence to substantiate this claim however, and the Commissioner&#8217;s argument that people who park illegally would know, based on the detailed criteria, where they could park and only receive a fine, rather than being towed away, was not accepted by the Tribunal. The Tribunal found no evidence that there were people who would take this risk, given that they would receive a substantial fine in any case. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">A previous decision of the Tribunal is of course not binding on a subsequent and differently constituted Tribunal, and each appeal turns on its own facts. However, in </span><span style="font-style:italic;font-size:11pt">Colin P England v London Borough of Bexley and the Information Commissioner</span><span style="font-size:11pt"> (EA/2006/0060 and 0066), which was concerned with the disclosure of a list of empty properties, the Tribunal stated that providing evidence of a causal link between the disclosure of the list and the prevention of crime was </span><span style="font-style:italic;font-size:11pt">&#8220;a speculative task, and as all parties have accepted there is no evidence of exactly what would happen on disclosure, it is necessary to extrapolate from the evidence available to come to the conclusion about what is likely.&#8221;</span><span style="font-size:11pt">. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">The police are of course part of the machinery of the State which is tasked with the prevention and detection of crime, and the apprehension of criminals. Whilst it is impossible to say what would happen if this particular SBD assessment were to be disclosed to the public, the views of the police, as experts in the field of crime prevention, carry significant weight.  There is, in the Tribunal&#8217;s view, a distinct possibility that criminals may target the health centre, should the assessment be disclosed, and although the SBD website may offer guidance to potential developers and organisation, such guidance is not specific in nature and can provide only general recommendations to an interested individual. A motivated individual with access to a specific SBD assessment would, in the Tribunal&#8217;s view, be in a stronger position in which to target the premises for criminal activity. We therefore conclude that there is a causal link between disclosure of the information and the harm identified, and that there is a real and significant risk of this harm or prejudice arising. Accordingly, the third condition is satisfied on the basis that it would be likely to occur, should the information be disclosed. We therefore find that the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA exemption is engaged. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_9_2">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;font-weight:bold;font-size:11pt">The Public Interest Test </span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">Although we have determined that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA is engaged, we must now consider whether </span><span style="font-style:italic;font-size:11pt">&#8220;in all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information.&#8221;</span><span style="font-size:11pt"> (s.2.(2)(b) FOIA). In favour of disclosure, the Tribunal recognises the general public interest in the transparency and openness of public authorities, and that disclosure of the SBD assessment would go some way towards informing members of the public that the police is assisting developers to take preventative steps towards crime, thereby increasing public confidence in the police. Disclosure might equally, as the Appellant suggests, lead to the increased accountability of the NHS Trust in terms of the steps taken by it to implement adequate security features to these particular premises. However, the Tribunal considers that the general information provided by the SBD website and other sources demonstrates the preventative steps which may be taken by developers under the guidance of the police, and that the existence of this material in the public domain goes some way towards increasing public confidence in the police. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">There is, in the view of the Tribunal, a strong public interest in preventing crime and the measures used by the police to assist it with this aim. Should the SBD assessment, which is particular to these NHS premises, be disclosed to the world, there is a real risk that this would compromise the integrity of any security measures which have been implemented by the health centre. Any such risk is likely to be increased considerably in the event that the NHS Trust has not implemented all of the recommendations in the assessment, whether this is as a result of financial limitations or other rationale. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">The SBD was created in April 2019, and by the time of the Appellant&#8217;s request for information in July 2024, there had been a considerable passage of time during which the health centre had been built and is understood to have been operational. As has already been referred to above, there was no requirement for the developer or the NHS to implement any of the recommendations within the assessment, and whilst it may have highlighted potential areas of concern when it was written, we consider that that any value in its disclosure would have been reduced further over time.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">Having considered all of the arguments advanced by the parties, we conclude that the public interest in maintaining the exemption outweighs the public interest in disclosure, and that the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/31/1" uk:canonical="2000 c. 36 s. 31" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(a) FOIA exemption was correctly relied upon in withholding the requested information. Accordingly, we do not consider that the Commissioner&#8217;s Decision Notice was wrong in law, or that he ought to have exercised his discretion differently when assessing the prejudice or public interest in this appeal. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">For the reasons identified above, the appeal is dismissed. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua';font-size:11pt">Signed:</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';font-size:11pt">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua';font-size:11pt">Judge Armstrong-Holmes</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';font-size:11pt">15</span><span style="vertical-align:super;font-size:11pt;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua';font-size:11pt"> February 2026 </span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
