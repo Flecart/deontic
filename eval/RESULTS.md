@@ -77,14 +77,21 @@ distractor facts. Each row includes:
 - gold label,
 - the underlying `.ddl` theory and facts used to audit the label.
 
-Offline run, 2026-06-03. Split: 1,608 train / 696 test, stratified by clause
-family. The Lean/Lake binary was not installed in this environment, so the
-`deontic_system` column used the benchmark's small Python DDL fallback evaluator;
-the experiment will call `.lake/build/bin/deontic` automatically when present.
+Split: 1,608 train / 696 test, stratified by clause family. The fair
+no-deontic baseline for this benchmark is now the direct LLM baseline from
+`agents.run_baseline`, not the old surface-word heuristic. The surface heuristic
+is still available with `--include-surface-diagnostic`, but it should not be
+reported as the baseline.
+
+The real LLM rerun was not completed in this shell on 2026-06-03 because no
+`OPENAI_API_KEY` or `OPENROUTER_API_KEY` was set. The Lean/Lake binary was also
+not installed in this environment, so local deontic smoke tests used the
+benchmark's small Python DDL fallback evaluator; the experiment will call
+`.lake/build/bin/deontic` automatically when present.
 
 ```
 condition                    accuracy
-surface_no_deontic           57.5% (400/696)
+llm_baseline_no_deontic      TODO: rerun with a real model/key
 knn_precedent_no_deontic     90.7% (631/696)
 deontic_system              100.0% (696/696)
 ```
@@ -93,7 +100,7 @@ By hypothesis type:
 
 ```
 condition                    may     must    must_not
-surface_no_deontic           59.3%   75.9%   36.8%
+llm_baseline_no_deontic      TODO    TODO    TODO
 knn_precedent_no_deontic     87.7%   94.4%   89.9%
 deontic_system              100.0%  100.0%  100.0%
 ```
@@ -106,9 +113,12 @@ layer: it tests formal consequence, not extraction from prose.
 Reproduce:
 ```bash
 python eval/ambiguous_contracts.py
-python eval/ambiguous_contract_experiment.py
+OPENAI_API_KEY=... .venv/bin/python eval/ambiguous_contract_experiment.py \
+  --baseline-model gpt-4o-mini \
+  --baseline-log eval/runs/ambiguous_contract_llm_baseline.jsonl \
+  --out eval/runs/ambiguous_contract_results.json
 
-# LLM harness, once a model/key and the deontic binary are available:
+# Agentic CLI comparison, once a model/key and the deontic binary are available:
 python eval/run.py --task ambiguous_contracts \
   --data eval/sample/ambiguous_contracts.jsonl \
   --shuffle --limit 100 --condition baseline,cli --model gpt-4o-mini

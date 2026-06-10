@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline with/without-deontic experiment for ambiguous_contracts.jsonl."""
+"""With/without-deontic experiment for ambiguous_contracts.jsonl."""
 from __future__ import annotations
 
 import argparse
@@ -8,17 +8,14 @@ import math
 import os
 import random
 import re
-import subprocess
-import tempfile
 from collections import Counter, defaultdict
 
 try:
-    from ambiguous_contracts import TEMPLATES, answer_for, status_from_template
+    import agents
+    import data
+    import models
 except ImportError:  # pragma: no cover
-    from .ambiguous_contracts import TEMPLATES, answer_for, status_from_template
-
-
-TEMPLATE_BY_ID = {t.tid: t for t in TEMPLATES}
+    from . import agents, data, models
 
 
 def load_jsonl(path: str) -> list[dict]:
@@ -58,51 +55,11 @@ def knn_predict(train: list[dict], row: dict, k: int = 5) -> str:
     return votes.most_common(1)[0][0]
 
 
-def deontic_binary_status(row: dict, deontic_bin: str) -> str | None:
-    if not deontic_bin or not os.path.exists(deontic_bin):
-        return None
-    body = "facts: " + ", ".join(row["facts"]) + "\n\n" + row["ddl"]
-    fd, path = tempfile.mkstemp(suffix=".ddl")
-    try:
-        with os.fdopen(fd, "w") as f:
-            f.write(body)
-        proc = subprocess.run([deontic_bin, "query", path, row["target"]],
-                              capture_output=True, text=True, timeout=20)
-        out = proc.stdout + proc.stderr
-    finally:
-        try:
-            os.unlink(path)
-        except OSError:
-            pass
-    if "unresolved" in out:
-        return "unresolved"
-    for line in out.splitlines():
-        if re.search(rf"\b{re.escape(row['target'])}\s*:", line):
-            rhs = line.split(":", 1)[1].strip()
-            if rhs.startswith("O("):
-                return "O"
-            if rhs.startswith("F("):
-                return "F"
-            if rhs.startswith(("Ps(", "P(", "Pw(")):
-                return "P"
-    return "unknown"
-
-
-def deontic_predict(row: dict, deontic_bin: str | None) -> tuple[str, str]:
-    status = deontic_binary_status(row, deontic_bin or "")
-    source = "deontic-cli"
-    if status is None:
-        t = TEMPLATE_BY_ID[row["template"]]
-        status = status_from_template(t, set(row["facts"]))
-        source = "python-ddl-fallback"
-    return answer_for(row["mode"], status), source
-
-
-def accuracy(rows: list[dict], preds: list[str]) -> float:
+def accuracy(rows: list[dict], preds: list[str | None]) -> float:
     return sum(p == r["answer"] for p, r in zip(preds, rows)) / len(rows)
 
 
-def by_group(rows: list[dict], preds: list[str], key: str) -> dict[str, float]:
+def by_group(rows: list[dict], preds: list[str | None], key: str) -> dict[str, float]:
     groups = defaultdict(list)
     for r, p in zip(rows, preds):
         groups[r[key]].append(int(p == r["answer"]))
@@ -125,22 +82,67 @@ def split(rows: list[dict], seed: int, frac: float):
     return train, test
 
 
+def llm_baseline_predict(rows: list[dict], model_name: str, temperature: float,
+                         log_path: str | None = None) -> tuple[list[str | None], Counter]:
+    """Run the direct no-tool LLM baseline used by eval/run.py on these rows."""
+    task = data.get_task("ambiguous_contracts")
+    spec = models.resolve(model_name)
+    client = models.make_client(spec)
+    preds: list[str | None] = []
+    stats: Counter = Counter()
+    logf = None
+    if log_path:
+        os.makedirs(os.path.dirname(log_path) or ".", exist_ok=True)
+        logf = open(log_path, "w")
+    try:
+        for i, row in enumerate(rows):
+            ex = dict(row)
+            ex["gold"] = data.normalize_answer(task, row["answer"])
+            try:
+                pred, transcript = agents.run_baseline(client, spec, task, ex, temperature)
+                err = None
+            except Exception as e:  # noqa: BLE001 - keep a long run from dying
+                pred, transcript, err = None, [], str(e)
+            preds.append(pred)
+            stats["total"] += 1
+            stats["correct"] += int(pred == row["answer"])
+            stats["errors"] += int(err is not None)
+            if logf:
+                logf.write(json.dumps({
+                    "i": i, "id": row.get("id"), "condition": "llm_baseline",
+                    "model": spec.name, "task": task["name"], "hypothesis": ex["hypothesis"],
+                    "gold": ex["gold"], "pred": pred, "correct": pred == row["answer"],
+                    "error": err, "transcript": transcript,
+                }) + "\n")
+            mark = "OK " if pred == row["answer"] else ("ERR" if err else "X  ")
+            print(f"[{i+1}/{len(rows)}] llm_baseline {mark} pred={pred} gold={row['answer']}"
+                  + (f" ({err[:80]})" if err else ""))
+    finally:
+        if logf:
+            logf.close()
+    return preds, stats
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", default="eval/sample/ambiguous_contracts.jsonl")
     ap.add_argument("--out", default="eval/runs/ambiguous_contract_results.json")
     ap.add_argument("--seed", type=int, default=11)
     ap.add_argument("--train-frac", type=float, default=0.7)
-    ap.add_argument("--deontic-bin", default=os.environ.get("DEONTIC_BIN", ".lake/build/bin/deontic"))
+    ap.add_argument("--baseline-model", default=os.environ.get("AMBIGUOUS_BASELINE_MODEL", "gpt-4o-mini"),
+                    help="direct no-tool LLM baseline model, as in eval/run.py")
+    ap.add_argument("--baseline-log", default="eval/runs/ambiguous_contract_llm_baseline.jsonl",
+                    help="write direct LLM baseline transcripts here; empty disables logging")
+    ap.add_argument("--temperature", type=float, default=0.0)
+    ap.add_argument("--include-surface-diagnostic", action="store_true",
+                    help="also report the old text heuristic as a non-baseline diagnostic")
     args = ap.parse_args()
 
     rows = load_jsonl(args.data)
     train, test = split(rows, args.seed, args.train_frac)
-    surface = [surface_baseline(r) for r in test]
+    llm_baseline, llm_stats = llm_baseline_predict(
+        test, args.baseline_model, args.temperature, args.baseline_log or None)
     knn = [knn_predict(train, r) for r in test]
-    deontic_pairs = [deontic_predict(r, args.deontic_bin) for r in test]
-    deontic = [p for p, _ in deontic_pairs]
-    source_counts = Counter(src for _, src in deontic_pairs)
 
     results = {
         "data": args.data,
@@ -148,19 +150,21 @@ def main():
         "n_train": len(train),
         "n_test": len(test),
         "label_balance": dict(Counter(r["answer"] for r in rows)),
-        "deontic_source": dict(source_counts),
+        "llm_baseline_model": args.baseline_model,
+        "llm_baseline": dict(llm_stats),
         "accuracy": {
-            "surface_no_deontic": accuracy(test, surface),
+            "llm_baseline_no_deontic": accuracy(test, llm_baseline),
             "knn_precedent_no_deontic": accuracy(test, knn),
-            "deontic_system": accuracy(test, deontic),
         },
         "by_mode": {
-            "surface_no_deontic": by_group(test, surface, "mode"),
+            "llm_baseline_no_deontic": by_group(test, llm_baseline, "mode"),
             "knn_precedent_no_deontic": by_group(test, knn, "mode"),
-            "deontic_system": by_group(test, deontic, "mode"),
         },
-        "by_template_deontic": by_group(test, deontic, "template"),
     }
+    if args.include_surface_diagnostic:
+        surface = [surface_baseline(r) for r in test]
+        results["accuracy"]["surface_heuristic_diagnostic"] = accuracy(test, surface)
+        results["by_mode"]["surface_heuristic_diagnostic"] = by_group(test, surface, "mode")
 
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
     with open(args.out, "w") as f:
@@ -168,7 +172,8 @@ def main():
 
     print(f"dataset: {len(rows)} examples ({len(train)} train / {len(test)} test)")
     print(f"labels: {results['label_balance']}")
-    print(f"deontic source: {dict(source_counts)}")
+    print(f"llm baseline model: {args.baseline_model} "
+          f"(errors: {llm_stats['errors']}/{llm_stats['total']})")
     print("\naccuracy")
     for name, acc in results["accuracy"].items():
         print(f"  {name:26s} {acc:.1%} ({math.floor(acc * len(test) + 1e-9)}/{len(test)})")

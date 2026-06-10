@@ -60,7 +60,11 @@ def _sys_tool(task, max_rounds):
             f"reasoner. Before answering, you SHOULD formalize the relevant clause as a "
             f"small DDL theory and call the tool (up to {max_rounds} times) to check the "
             f"obligation/prohibition/permission status, then decide. Map the formal result "
-            f"to the label set. Always finish with the 'ANSWER: <label>' line.")
+            f"to the label set. Always finish with the 'ANSWER: <label>' line."
+            "\n\nCritical query pattern: for 'may'/'permitted' hypotheses do NOT just run "
+            "`query X` (that returns the default-no-facts status, usually F(X)). Instead "
+            "run `abduce 'P(X)' --all` to find which fact combinations grant permission, "
+            "then answer Yes if a returned config matches the scenario's present facts.")
 
 def _user_msg(task, ex):
     return (f"Text:\n{ex['text']}\n\nHypothesis: {ex['hypothesis']}\n\n"
@@ -125,6 +129,11 @@ def run_cli(client, spec, task, ex, max_rounds=4, temperature=0.0):
               f"reasoner on PATH. Before answering you SHOULD use it (up to {max_rounds} "
               "rounds) to formalize the relevant clause as a DDL theory and run the reasoner, "
               "then map the formal result to the label. Always finish with 'ANSWER: <label>'.\n\n"
+              "Critical query pattern: for 'may'/'permitted' hypotheses do NOT just run "
+              "`deontic query <file> X` (returns default-no-facts status, usually F(X)). "
+              "Instead run `deontic abduce <file> 'P(X)' --all` to find which fact "
+              "combinations grant permission, then answer Yes if a returned config matches "
+              "the scenario's present facts.\n\n"
               "=== deontic skill ===\n" + load_skill())
     messages = [{"role": "system", "content": system},
                 {"role": "user", "content": _user_msg(task, ex)}]

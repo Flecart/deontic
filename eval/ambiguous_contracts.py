@@ -372,7 +372,6 @@ def make_examples(seed: int, limit: int | None) -> list[dict]:
                         "facts": sorted(facts),
                         "target": t.target,
                         "status": status,
-                        "ddl": t.ddl(),
                     })
     rng.shuffle(rows)
     return rows[:limit] if limit else rows
