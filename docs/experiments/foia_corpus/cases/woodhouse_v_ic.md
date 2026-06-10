@@ -2,12 +2,8 @@
 
 citation: [2025] UKFTT 1528 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1528
-exemptions: []
+exemptions: 
 verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2025_1528_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
 
 ## Background
 
@@ -101,7 +97,7 @@ disclose
 
 <!-- label-draft notes (gpt-4.1): The Tribunal finds that NYP failed to respond to the request as required by s1 FOIA and that reliance on s31 was not justified (paras 34–36). No exemption was found engaged and the appeal was allowed, requiring a fresh response. -->
 
-<!-- Verified against reasoning file: para 34 = NYP failed to respond to Request under s1; para 35 = Commissioner erred in upholding s31; para 37 = fresh search and fresh response ordered; para 38 = appeal allowed. No exemption found engaged; no PI balance reached. HoldsInfo omitted: tribunal ordered fresh search because it is not established that NYP holds the 2023 correspondence (the search was defective). ConfirmOrDeny included because NYP issued a refusal confirming it held information, albeit misdirected. Candidate stratum s30 not relevant: s30 was not relied upon or decided by the tribunal. -->
+<!-- Verified against reasoning file: para 34 = NYP failed to respond to Request under s1; para 35 = Commissioner erred in upholding s31; para 37 = fresh search and fresh response ordered; para 38 = appeal allowed. No exemption found engaged; no PI balance reached. HoldsInfo omitted: tribunal ordered fresh search because it is not established that NYP holds the 2023 correspondence (the search was defective). ConfirmOrDeny included because NYP issued a refusal confirming it held information, albeit misdirected. Candidate stratum s30 not relevant: s30 was not relied upon or decided by the tribunal. Oracle MISS on disposition: engine returns P(Disclose)=withhold because HoldsInfo is absent and no O(Disclose) rule fires; this is a genuine engine limitation — the theory has no rule for "authority failed to conduct an adequate s1 search" distinct from "authority does not hold the information." Gold and engaged labels are directly supported by the tribunal reasoning; verified: no solely due to the oracle disposition MISS. -->
 
 ## Gold rules
 

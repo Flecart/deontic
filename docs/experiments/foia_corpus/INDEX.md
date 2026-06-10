@@ -107,7 +107,13 @@ statute), pilot-able with **~15**. Cases to index: pool is thousands; we need
   (s43(2), allowed **in part** — encoded as two instances, Part A withhold /
   Part B disclose, i.e. gold at the per-part level as the sampling plan needs);
   *Kennaugh v IC* [2026] UKFTT 790 (s42(1), dismissed — decided May 2026, past
-  current model cutoffs, so memorization-free).
+  current model cutoffs, so memorization-free); *Logan v IC & Home Office*
+  [2025] UKFTT 393 (s40(2)+s38(1), allowed **in part** — Part A withheld:
+  special-category IRA data, Article 6(1)(f) balance data subjects win,
+  fingerprint/medical; Part B disclosed: Balcombe Street ASU confessors via
+  Article 9(2)(e), deceased individuals, public-domain data; manual KEEP/HIDE
+  cut required — XML has a single "Introduction" section with no structural
+  heading break).
 - **Intake tool:** [`fetch_case.py`](fetch_case.py) — Find Case Law serves
   every judgment as Akoma Ntoso XML at `<judgment-url>/data.xml` (**no PDF
   parsing needed**); the tool fetches + caches the XML, splits sections in
