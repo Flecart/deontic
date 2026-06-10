@@ -31,8 +31,8 @@ def parse_args():
     p.add_argument("--models", default=None,
                    help="comma list of models to sweep (overrides --model); prints a comparison table")
     p.add_argument("--task", default="contract_nli", help=f"one of {list(data.TASKS)}")
-    p.add_argument("--condition", default="baseline,cli",
-                   help="comma list of {baseline,tool,cli}; 'both'=baseline,cli; 'all'=baseline,tool,cli")
+    p.add_argument("--condition", default="baseline,tool",
+                   help="comma list of {baseline,tool,cli}; 'both'=baseline,tool; 'all'=baseline,tool,cli")
     p.add_argument("--data", help="JSONL or TSV dataset (default: built-in sample)")
     p.add_argument("--legalbench", help="real LegalBench task, e.g. contract_nli_sharing_with_employees")
     p.add_argument("--split", default="test", help="dataset split (default: test)")
@@ -50,7 +50,7 @@ def parse_args():
 
 
 def parse_conditions(spec_str):
-    aliases = {"both": ["baseline", "cli"], "all": ["baseline", "tool", "cli"]}
+    aliases = {"both": ["baseline", "tool"], "all": ["baseline", "tool", "cli"]}
     valid = {"baseline", "tool", "cli"}
     conds = []
     for c in spec_str.split(","):
