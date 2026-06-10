@@ -1,0 +1,778 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/680"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/680"/>
+	  <FRBRdate date="2026-05-12" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="680"/>
+	  <FRBRname value="Rabbi Gabriel Kanter-Webber v Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/680"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/680"/>
+	  <FRBRdate date="2026-05-12" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/680/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/680/data.xml"/>
+	  <FRBRdate date="2026-05-12T14:57:39" name="transform"/>
+	  <FRBRdate date="2026-05-12T15:29:59" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-05-04" refersTo="#decision" source="#"/>
+	<eventRef date="2026-05-01" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-05-12" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="rabbi-gabriel-kanter-webber" href="" showAs="RABBI GABRIEL KANTER-WEBBER"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="metropolitan-police-service" href="" showAs="METROPOLITAN POLICE SERVICE"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-tribunal-judge-mornington" href="/judge-tribunal-judge-mornington" showAs="TRIBUNAL JUDGE MORNINGTON"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>680</uk:number>
+	<uk:cite>[2026] UKFTT 680 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.8.0</uk:parser>
+	<uk:hash>f4cfc8db1f31f0c21ad4d15296c731097acd6108a42ddbbc1b709252c5374dec</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .legds { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua';color:#000000">[2026] UKFTT 00680 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: EA/2024/0004</span></p>
+      <p><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Determined on the papers</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">: </span><docDate date="2026-05-01" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">1 May 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-05-12" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">12 May 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-tribunal-judge-mornington" style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">TRIBUNAL JUDGE MORNINGTON</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">TRIBUNAL MEMBER WOLF</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">TRIBUNAL MEMBER PEPPERELL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#rabbi-gabriel-kanter-webber" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#0D0D0D">Rabbi gabriel kanter-webber</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#0D0D0D">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#metropolitan-police-service" style="font-weight:bold;font-family:'Book Antiqua'">METROPOLITAN POLICE SERVICE</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Second Respondent</role></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">Decision: </span><span style="font-family:'Book Antiqua';color:#0D0D0D">The appeal is Dismissed.</span></p>
+      <p style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">The Appeal was decided without a hearing as agreed by the parties and allowed by the Tribunal by rule 32(1) Tribunal Procedure (First -Tier Tribunal) (General Regulatory Chamber) Rules 2009</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Background to Appeal</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This Appeal dated 22 December 2023 and made by Rabbi Gabriel Kanter-Webber (the &#8220;Appellant&#8221;) arises following a request for information (the &#8220;Request&#8221;) made by the Appellant to the Metropolitan Police Service (&#8220;MPS&#8221;)&#160;on 6 June 2023 in the following terms:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Please can you provide me with an electronic copy of the transcript of the misconduct hearing into PC Thomas (the outcome of which was given on 28 May 2023). If there is no transcript, please provide the audio recording instead.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 9 June 2023, the Metropolitan Police Service issued its initial response. The request was refused by way of a refusal notice relying on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/2" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;), on the basis that the requested information constituted third party personal data. The response did not clearly distinguish between the request for a transcript and the request for an audio recording, nor did it clearly acknowledge whether the audio recording was held by the public authority.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 12 June 2023, the Appellant requested an internal review of that decision. In doing so, he contended that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40</ref> FOIA was not properly engaged, emphasising that the misconduct proceedings had been held in public and relying on recent Tribunal authority concerning disclosure of material arising from public disciplinary hearings (K</span><span style="font-style:italic;font-family:'Book Antiqua'">anter-Webber v Information Commissioner and the Chief Constable of Cambridgeshire Constabulary [2023] 441 (GRC)</span><span style="font-family:'Book Antiqua'">).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The outcome of the internal review was communicated to the Appellant on 17 July 2023. In that response, the Metropolitan Police Service stated that it did not hold the requested information. MPS indicated that no transcript existed and suggested that the recording was held by an external contractor and transcribed only when necessary. At that stage, MPS did not clearly acknowledge that it held the audio recording itself, nor did it maintain or restate reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40</ref> FOIA or any other exemption. That position was later clarified and corrected during the subsequent Information Commissioner&#8217;s (&#8220;IC&#8221;) investigation.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 19 July 2023, dissatisfied with the internal review outcome, the Appellant submitted a complaint to the IC under section 50 FOIA. The complaint focused on the refusal to disclose the audio recording, the inconsistency in the MPS&#8217; position as to whether the information was held, and the Appellant&#8217;s continuing contention that disclosure was required having regard to the public nature of the proceedings.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">During the IC&#8217;s investigation, which took place in August and September 2023, the MPS clarified its position. It accepted that it did hold a copy of the audio recording of the misconduct hearing and acknowledged that the earlier suggestion that the information was not held had been inaccurate or incomplete. The MPS advanced reliance on two exemptions at that stage: section 32(1)(c) FOIA, on the basis that the recording was a court record, and <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/2" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40(2)</ref> FOIA, on the basis that it constituted third party personal data.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 20 September 2023, the MPS provided an updated response to both the IC and the Appellant. It confirmed that the audio recording was held but maintained that it was exempt from disclosure under sections 32 and 40 FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC issued Decision Notice IC</span>-<span style="font-family:'Book Antiqua'">246277</span>-<span style="font-family:'Book Antiqua'">R1P1 on 20 December 2023. The Commissioner concluded that the MPS was entitled to rely on section 32(1)(c) FOIA, finding that the police misconduct panel was a &#8220;court&#8221; exercising the judicial power of the State and that the audio recording constituted a court record. As section 32 is an absolute exemption, the Commissioner did not determine whether <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40</ref> FOIA applied.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant subsequently appealed that Decision Notice to the First tier Tribunal. While the appeal was pending, binding authority was issued by the Upper Tribunal in the case of </span><span style="font-style:italic;font-family:'Book Antiqua'">Kanter</span>-<span style="font-style:italic;font-family:'Book Antiqua'">Webber v Information Commissioner and the Chief Constable of Hampshire Constabulary <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/171" uk:canonical="[2025] UKUT 171 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKUT 171 (AAC)</ref> </span><span style="font-family:'Book Antiqua'">determining that police misconduct panels do not constitute courts for the purposes of section 32 FOIA. As a result, section 32 ceased to be applicable in this appeal, and the dispute crystallised around <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40</ref> FOIA, which had not been substantively determined by the Commissioner in the original Decision Notice. The appeal therefore proceeds on the basis of what ought properly to have been decided had section 32 not been relied upon.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The requested information consists of an audio recording running to several hours, capturing the evidence, submissions, and exchanges during a police misconduct hearing.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">It is accepted by all parties that no written transcript exists and that the recording is a verbatim record of what was said during the hearing.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal accepts that the recording contains personal data relating to:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Book Antiqua'">the officer who was the subject of the misconduct proceedings;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Book Antiqua'">other serving police officers who gave evidence and; </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">c)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in"><span style="font-family:'Book Antiqua'">potentially other identifiable participants.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal further accepts that this personal data is interwoven throughout the recording and that meaningful anonymisation or redaction of the audio as a whole would not be practicable.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Documents</span></heading>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';color:#242424;margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#242424">The Tribunal was provided with a 320</span>-<span style="font-family:'Book Antiqua';color:#242424">page open bundle. The Tribunal was also provided with a closed bundle consisting of an index page indicating that an audio recording of the misconduct hearing existed, together with a 17</span>-<span style="font-family:'Book Antiqua';color:#242424">page unredacted outcome report. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#242424">The Tribunal did not have the audio recording and accordingly did not listen to it. </span><span style="font-family:'Book Antiqua'">The Tribunal consider that determination under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">s40</ref> FOIA did not depend on the specific content of what was said during the hearing, but on the nature and consequences of disclosure under FOIA. There was no dispute between the parties as to the character of the recording, namely that it constituted a verbatim record containing intertwined personal data of multiple identifiable individuals. The issues for decision concerned whether disclosure of such a recording to the world at large would be necessary, lawful, and fair under the data protection principles. The Tribunal decided that those issues could be determined on the basis of the agreed description of the material, the statutory framework, and the nature of FOIA disclosure, without it being necessary or proportionate for the Tribunal to listen to the audio itself, which is substantial in length.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant&#8217;s Submissions </span></heading>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant advances a single, coherent case grounded in the importance of transparency and accountability in police disciplinary proceedings.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant submits that the starting point must be the fact that the misconduct hearing was conducted in public, pursuant to statute, without reporting restrictions. It is said to follow that what was said and done in that hearing was, at the time, open to public observation and reporting, and that disclosure of the audio recording would therefore not involve the revelation of private or confidential material.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant places significant weight on the principle of transparency in policing, submitting that public confidence in the police depends upon the ability of the public to scrutinise not merely the outcome of misconduct hearings, but the processes by which those outcomes are reached. In particular, the Appellant argues that public confidence is undermined where decision makers retain control over the narrative by publishing only a summarised version of proceedings.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant contends that the published outcome report, however detailed, cannot substitute for access to the verbatim record. It is said that credibility findings, which featured prominently in the outcome report, cannot properly be evaluated without an opportunity to assess the underlying evidence, including the manner in which witnesses answered questions, any hesitation or evasion, and the extent to which assertions were tested.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant further submits that disclosure of the audio recording is reasonably necessary to meet the legitimate interest in transparency, because it would allow informed scrutiny of whether the panel&#8217;s findings were supported by the evidence given, rather than merely asserted in the outcome report. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In addressing data protection concerns, the Appellant argues that those who participated in the hearing, particularly serving police officers, had a reduced expectation of privacy. The Appellant submits that police officers, as publicly funded office holders subject to statutory discipline, cannot reasonably expect that evidence they give in a public misconduct hearing will remain inaccessible to the public once the hearing has concluded.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant also relies on the fact that the outcome report was published for a limited period (28 days) and contained the names of officers and witnesses. It is said that this prior publication demonstrates that disclosure of related material would not represent a novel or disproportionate intrusion.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Finally, the Appellant submits that concerns about misuse, embarrassment, or adverse commentary are not legitimate grounds for withholding disclosure under FOIA, and that the statutory right of access must not be curtailed merely because disclosure might prove uncomfortable for those involved.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents&#8217; Submissions</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Respondents resist the appeal on the basis that disclosure of the audio recording would involve unlawful and unfair processing of personal data and is therefore exempt from disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/2" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40(2)</ref> FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Respondents accept, and do not dispute, that there is a legitimate public interest in transparency and accountability in police disciplinary proceedings. They also accept that disclosure of the audio recording would provide more information than is contained in the published outcome report.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">However, the Respondents submit that the Appellant&#8217;s case fails properly to address the requirement of necessity under Article 6(1)(f) UK GDPR. They argue that FOIA does not mandate maximal disclosure, and that the existence of a legitimate interest does not of itself justify disclosure where that interest has already been met through less intrusive means.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Respondents emphasise that the misconduct hearing was public and that a detailed outcome report was published in accordance with the statutory scheme. They submit that this combination achieves a substantial degree of transparency and enables the public to understand both the nature of the allegations and the reasons for the outcome.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Respondents further submit that disclosure of the audio recording would be qualitatively different from attendance at a public hearing or reading an outcome report. They stress that FOIA disclosure is disclosure to the world at large, without restriction as to audience, purpose, or duration, and that this distinction is central to the assessment of fairness under data protection law.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to the expectations of those involved in the hearing, the Respondents submit that participants could reasonably expect contemporaneous public observation and reporting, but not the permanent and unrestricted release of an official audio record capable of indefinite replay and redistribution.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Respondents also draw attention to the presence of third party personal data, including evidence given by officers who were not the subject of the misconduct proceedings. They submit that the personal data of those individuals is inseparable from the recording as a whole and that disclosure would disproportionately interfere with their rights and freedoms.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Finally, the Respondents submit that disclosure of the audio recording would engage considerations of fairness and proportionality for those required to participate as witnesses in misconduct proceedings. They contend that witnesses could not reasonably expect their live evidence, including their manner of delivery and responses under questioning, to be subject to permanent and unrestricted dissemination under FOIA, and that such disclosure would be liable to affect the candour with which evidence is given.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Applicable Law </span></heading>
+	  <paragraph eId="para_32">
+	    <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The relevant provisions of FOIA are as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:1.17in;text-indent:-0.78in">1</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.17in"><span style="font-weight:bold;font-family:'Book Antiqua'">General right of access to information held by public authorities.</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(1)</num>
+		<intro>
+		  <p style="text-align:justify;margin-left:1.17in"><span style="font-family:'Book Antiqua'">Any person making a request for information to a public authority is entitled&#8212;</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">to be informed in writing by the public authority whether it holds information of the description specified in the request, and</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in;text-indent:0.61in"><span style="font-family:'Book Antiqua'">if that is the case, to have that information communicated to him.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-weight:bold;font-family:'Book Antiqua'">40</num>
+	    <intro>
+	      <p class="Heading3" style="text-align:justify;text-indent:0.89in"><span style="font-style:normal;font-weight:bold;font-family:'Book Antiqua'">Personal information.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1E1E1E">(2)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#1E1E1E">Any information to which a request for information relates is also exempt </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">information if - </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';color:#1E1E1E">(a)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in;text-indent:0.61in"><span style="font-family:'Book Antiqua';color:#1E1E1E">it constitutes personal data which does not fall within subsection </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">(1), and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';color:#1E1E1E">(b)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in;text-indent:0.61in"><span style="font-family:'Book Antiqua';color:#000000">[</span><span style="font-family:'Book Antiqua';color:#1E1E1E">the first, second or third</span><span style="font-family:'Book Antiqua';color:#000000">]</span><span style="font-family:'Book Antiqua';color:#1E1E1E"> condition below is satisfied.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1E1E1E">(3A)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#1E1E1E">The first condition is that the disclosure of the information to a member of </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">the public otherwise than under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';color:#1E1E1E">(a)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in;text-indent:0.61in"><span style="font-family:'Book Antiqua';color:#1E1E1E">would contravene any of the data protection principles,</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">58</span><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Determination of appeals</span><span style="font-family:'Book Antiqua'">.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(1)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><span style="font-family:'Book Antiqua'">If on an appeal under section 57 the Tribunal considers&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(a)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">that the notice against which the appeal is brought is not in accordance with the law, or</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<intro>
+		  <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently,</span></p>
+		</intro>
+		<subparagraph>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal.</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(2)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The relevant provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> are:</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_4_1">
+	    <num style="font-weight:bold;font-family:'Book Antiqua'">3</num>
+	    <intro>
+	      <p class="Heading3" style="text-align:justify;text-indent:0.5in"><span style="font-style:normal;font-weight:bold;font-family:'Book Antiqua'">Terms relating to the processing of personal data</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">(1)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.04in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">.....</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1E1E1E;margin-left:1.04in;text-indent:-0.25in">(2)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.04in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#1E1E1E">&#8220;Personal data&#8221; means any information relating to an identified or identifiable living individual (subject to subsection (14)(c)).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1E1E1E;margin-left:1.04in;text-indent:-0.25in">(3)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.04in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#1E1E1E">&#8220;Identifiable living individual&#8221; means a living individual who can be identified, directly or indirectly, in particular by reference to&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';color:#1E1E1E;margin-left:1.54in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.54in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#1E1E1E">an identifier such as a name, an identification number, location data or an online identifier,</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The relevant provisions of the UK General Data Protection Regulations are:</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Article 5 </span><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Principles relating to processing of personal data </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">1.</num>
+		<intro>
+		  <p style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Personal data shall be:</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-family:'Book Antiqua';color:#1E1E1E">(a)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.61in"><span style="font-family:'Book Antiqua';color:#1E1E1E">processed lawfully, fairly and in a transparent manner in relation to </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">the data subject (&#8216;lawfulness, fairness and transparency&#8217;)</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#1E1E1E">Article 6</span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua';color:#1E1E1E">Lawfulness of processing</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="font-family:'Book Antiqua';color:#1E1E1E">1.</num>
+		  <intro>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#1E1E1E">Processing shall be lawful only if and to the extent that at least one </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">of the following applies: </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua'">(f)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in;text-indent:0.71in"><span style="font-family:'Book Antiqua';color:#1E1E1E">processing is necessary for the purposes of the legitimate interests </span><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">pursued by the controller or by a third party, except where such </span><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">interests are overridden by the interests or fundamental rights and </span><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">freedoms of the data subject which require protection of personal </span><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">data, in particular where the data subject is a child.</span></p>
+		    </content>
+		  </subparagraph>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/2" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">Section 40(2)</ref> FOIA provides that information is exempt from disclosure where disclosure would contravene any of the data protection principles.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The relevant principle here is the first data protection principle in Article 5(1)(a) UK GDPR, which requires that personal data be processed lawfully and fairly.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In the FOIA context, lawfulness turns on whether a lawful basis for processing exists under Article 6 UK GDPR. The only potentially applicable basis in this case is </span><span style="font-weight:bold;font-family:'Book Antiqua'">Article 6(1)(f)</span><span style="font-family:'Book Antiqua'">: processing necessary for the purposes of legitimate interests, unless those interests are overridden by the rights and freedoms of the data subjects.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal therefore applies the well established three stage test:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.04in"><span style="font-family:'Book Antiqua'">Is there a legitimate interest in disclosure?</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.04in"><span style="font-family:'Book Antiqua'">Is disclosure necessary to meet that interest?</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">c)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.04in"><span style="font-family:'Book Antiqua'">Is that interest overridden by the rights and freedoms of the data subjects?</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion and Conclusions </span></heading>
+	  <level eId="lvl_5_1">
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Legitimate Interest Test</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal accepts that there is a legitimate public interest in transparency and accountability in police disciplinary proceedings. Policing is a publicly funded function that depends upon public confidence, and there is a clear and recognised interest in ensuring that allegations of misconduct are properly investigated and adjudicated.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_5_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal does not underestimate that interest. The Appellant&#8217;s submissions on this point are serious and principled. They reflect a broader public concern about police standards and the effectiveness of disciplinary mechanisms.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The appeal does not fail at this stage of the analysis.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;text-indent:0.39in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Necessity Test</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal must next consider whether disclosure of the audio recording itself is reasonably necessary to meet the identified legitimate interest. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In addressing this question, the Tribunal has regard to the circumstances as they existed at the time of the request. In particular that:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.25in">a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.89in"><span style="font-family:'Book Antiqua'">the misconduct hearing was held in public;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.25in">b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.89in"><span style="font-family:'Book Antiqua'">a detailed written outcome report, running to approximately 17 pages, was published for a defined period;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.25in">c)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.89in"><span style="font-family:'Book Antiqua'">that report summarised the allegations, the evidence, the credibility findings, and the reasoning underpinning the outcome;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.25in">d)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.89in"><span style="font-family:'Book Antiqua'">the request for the audio recording was made shortly after publication of that outcome.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal has considered the Parties&#8217; submissions with care. It recognises the force of the Appellant&#8217;s concern that summaries, however detailed, inevitably involve selection and evaluation by the decision maker.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">However, the Tribunal is not persuaded that, on the facts of this case, disclosure of the audio recording is reasonably necessary to meet the legitimate interest relied upon.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Several considerations are central to that conclusion. First, the Tribunal places significant weight on the nature and quality of the published outcome report. This was not a cursory or formulaic document. It set out the allegations, summarised the evidence, explained why certain witnesses were preferred or discounted, and articulated the reasoning leading to the outcome. The report did not shy away from adverse credibility findings, nor did it seek to sanitise the evidential picture.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Secondly, the Tribunal considers that the legitimate interest in transparency is directed primarily towards enabling the public to understand how accountability has been exercised, rather than towards enabling independent, line</span>-<span style="font-family:'Book Antiqua'">by</span>-<span style="font-family:'Book Antiqua'">line re</span>-<span style="font-family:'Book Antiqua'">evaluation of witness testimony by members of the public at large.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal does not accept that Article 6(1)(f) requires disclosure wherever it is theoretically possible that more information might permit a deeper or alternative analysis of the evidential material. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Thirdly, the Tribunal is not persuaded that such access would materially enhance public comprehension of the panel&#8217;s reasoning as opposed to inviting speculative or selective reinterpretation.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Fourthly, the Tribunal accepts the Respondents&#8217; submission that FOIA disclosure must be assessed in its full legal context. Disclosure would not be limited to interested observers, journalists, or those with contextual knowledge, but would be unrestricted, permanent, and capable of indefinite reuse. The necessity of such disclosure must therefore be assessed at that scale. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Importantly, the Tribunal&#8217;s conclusion on necessity is fact specific. The Tribunal does not hold that audio recordings of police disciplinary hearings can never be necessary to meet a legitimate interest. There may be cases where the published material is so limited, or the public interest so acute, that disclosure of a verbatim record is required.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">However, in the present case, where a substantial degree of transparency was achieved through a public hearing and a detailed outcome report, the Tribunal is not satisfied that disclosure of the audio recording itself is reasonably necessary.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">For those reasons, the Tribunal concludes that the Appellant has not established the necessity limb of Article 6(1)(f) and that disclosure of the audio recording is not necessary to meet the legitimate interest in transparency and accountability.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.11in;text-indent:0.39in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Rights and Freedoms of Data Subjects</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Even if disclosure were necessary, the Tribunal would in any event conclude that disclosure would be unfair, and that the legitimate interest is overridden by the rights and freedoms of the data subjects identifiable within the audio recording.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">A central distinction must be drawn between:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.04in"><span style="font-family:'Book Antiqua'">a public hearing, which is a bounded and time limited procedural event governed by specific rules and safeguards; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.04in"><span style="font-family:'Book Antiqua'">disclosure under FOIA of a complete and official audio record, which would be permanent, unrestricted, and available to the world at large.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Participants in public disciplinary proceedings may reasonably expect that what they say can be heard by those present and summarised in a published outcome. They cannot fairly be treated as having accepted that their voices, hesitations, uncertainties, or exchanges under questioning will be capable of indefinite replay, extraction and redistribution, divorced from the procedural context in which they occurred.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">This point applies with particular force to witnesses and officers whose conduct was not the subject of the proceedings, but whose credibility was assessed as part of the evidential process. The outcome report already exposes those witnesses to professional scrutiny. Disclosure of the audio recording would expose them to a materially greater level of intrusion.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal also gives weight to the systemic implications of routine disclosure of audio recordings of misconduct hearings under FOIA. Such disclosure would be likely to alter expectations across the disciplinary system and risk undermining the candour and effectiveness of future investigations. Witnesses may become more guarded; evidence may become less frank; and the integrity of the disciplinary process may be weakened.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal also takes account of the impact that disclosure of the audio recording would have on those required to participate as witnesses in misconduct hearings. In particular, the Tribunal accepts that witnesses could not reasonably expect their live evidence, including their manner of delivery and responses under questioning, to be subject to permanent and unrestricted disclosure under FOIA. The prospect of such disclosure is a relevant consideration when assessing the proportionality of disclosure, as it bears on the candour with which evidence may be given and the fairness of exposing witnesses&#8217; live contributions to enduring public scrutiny.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Against this must be set the incremental benefit of disclosure. In the present case, that benefit is limited, given the extent of transparency already achieved.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal therefore concludes that disclosure would involve a disproportionate interference with the rights and freedoms of the data subjects and would be unfair within the meaning of Article 5(1)(a) UK GDPR.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Accordingly, for the reasons set out in this decision, the Appellant&#8217;s appeal is dismissed. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Judge Mornington </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:  </span><docDate date="2025-05-04" refersTo="#decision" style="font-family:'Book Antiqua'">4 May 2025</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
