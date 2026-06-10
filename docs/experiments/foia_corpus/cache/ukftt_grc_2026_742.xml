@@ -1,0 +1,1682 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/742"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/742"/>
+	  <FRBRdate date="2026-05-29" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="742"/>
+	  <FRBRname value="Martin Baker v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/742"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/742"/>
+	  <FRBRdate date="2026-05-29" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/742/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/742/data.xml"/>
+	  <FRBRdate date="2026-05-29T15:03:01" name="transform"/>
+	  <FRBRdate date="2026-06-01T08:55:22" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-18" refersTo="#decision" source="#"/>
+	<eventRef date="2026-05-29" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="martin-baker" href="" showAs="MARTIN BAKER"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="the-london-borough-of-richmond-upon-thames" href="" showAs="THE LONDON BOROUGH OF RICHMOND UPON THAMES"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>742</uk:number>
+	<uk:cite>[2026] UKFTT 742 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.0</uk:parser>
+	<uk:hash>86f10214b6d31aae51c423e793c1a4501181d8a0232871868f61d3701d4442cd</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; }
+#judgment .Heading1 { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2 { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3 { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4 { font-style: italic; color: #0F4761; }
+#judgment .Heading5 { color: #0F4761; }
+#judgment .Heading6 { font-style: italic; color: #595959; }
+#judgment .Heading7 { color: #595959; }
+#judgment .Heading8 { font-style: italic; color: #272727; }
+#judgment .Heading9 { color: #272727; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; font-family: 'Times New Roman'; color: #404040; }
+#judgment .ListParagraph { margin-left: 0.5in; font-family: 'Times New Roman'; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: 'Times New Roman'; color: #0F4761; }
+#judgment .Header { font-family: 'Times New Roman'; }
+#judgment .Footer { font-family: 'Times New Roman'; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .NormalWeb { font-family: 'Times New Roman'; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; }
+#judgment .Revision { font-family: 'Times New Roman'; }
+#judgment .Heading1Char { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2Char { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3Char { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4Char { font-style: italic; color: #0F4761; }
+#judgment .Heading5Char { color: #0F4761; }
+#judgment .Heading6Char { font-style: italic; color: #595959; }
+#judgment .Heading7Char { color: #595959; }
+#judgment .Heading8Char { font-style: italic; color: #272727; }
+#judgment .Heading9Char { color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; color: #0F4761; }
+#judgment .IntenseQuoteChar { font-style: italic; color: #0F4761; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #0F4761; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; }
+#judgment .FooterChar { font-family: 'Times New Roman'; }
+#judgment .PageNumber { }
+#judgment .BalloonTextChar { font-family: Tahoma; font-size: 8pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00742 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0012</span></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'">FT/EA/2025/0013</span></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'">FT/EA/2025/0014</span></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'">FT/EA/2025/0015</span></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'">FT/EA/2025/0064</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: 30</span><span style="font-weight:bold;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-weight:bold;font-family:'Book Antiqua'"> January 2026 via Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-05-29" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">29 May 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE ARMSTRONG-HOLMES</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER MURPHY</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER WOLF</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#martin-baker" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">MARTIN BAKER</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#the-london-borough-of-richmond-upon-thames" style="font-weight:bold;font-family:'Book Antiqua'">THE LONDON BOROUGH OF RICHMOND UPON THAMES</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';font-size:11pt">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">: </span></p>
+      <p><span style="font-family:'Book Antiqua';font-size:11pt">For the Appellant: appeared in person</span></p>
+      <p><span style="font-family:'Book Antiqua';font-size:11pt">For the Respondent: did not attend</span></p>
+      <p><span style="font-family:'Book Antiqua';font-size:11pt">For the Second Respondent: Murz Parchment of the South London Legal Partnership</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Decision: </span></p>
+      <p style="margin-left:0.39in"><span style="font-family:'Book Antiqua';font-size:11pt">The appeal is ALLOWED. The Information Commissioner&#8217;s decisions, referenced </span><span style="font-size:11pt">IC-300052-G2Z8, IC305377-Y5Q5, IC-305634-L8K7, IC-327841-D8P9 and IC-297962-G7Q7, are not in accordance with the law. </span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Substituted Decision Notice: </span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">1.</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:11pt">The London Borough of Richmond Upon Thames must, by no later than 4.00 p.m. on 28 June 2026 disclose to the Appellant the document containing the maintenance instruction relating to the strip out of the health suite at Pools on the Park. </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">2.</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:11pt">The London Borough of Richmond Upon Thames must, by no later than 4.00 p.m. on 28 June 2026carry out a search for any information relating to the advice received regarding the Grade II listed status of the building and disclose any such information to the Appellant. </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">3.</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:11pt">The London Borough of Richmond Upon Thames must, by no later than 4.00 p.m. on 28 June 2026 send the full, anonymised engagement data relating to the health suite at Pools on the Park. </span></p>
+      </blockContainer>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">This is an appeal against two Decision Notices of the Information Commissioner (&#8220;the Commissioner&#8221;). The first Decision Notice is dated 5</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2024 and deals with complaints to the Commissioner which are referenced: IC-300052-G2Z8, IC305377-Y5Q5, IC-305634-L8K7 and IC-327841-D8P9. The second Decision Notice is dated 23</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> December 2024 and has the reference IC-297962-G7Q7. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Background and Chronology</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">On 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2023, the London Borough of Richmond Upon Thames (&#8220;LBRUT&#8221;) made the decision to replace the health suite at the leisure centre known as Pools on the Park with a new gym exercise studio estimated at a cost of &#163;140,000. The other option, which was rejected by the council, was to provide the health suite facilities with a new steam room, sauna, spa bath, drench shower and other facilities at a cost of &#163;210,000. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.3in;text-indent:-0.05in"><span style="font-weight:bold;font-size:11pt">Decision Notice of 5</span><span style="font-weight:bold;vertical-align:super;font-size:11pt">th</span><span style="font-weight:bold;font-size:11pt"> November 2024 </span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">This Decision Notice, dated 5</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2024, relates to four complaints which were made by the Appellant to the Commissioner and are referenced </span><span style="font-weight:bold;font-size:11pt">&#8216;</span><span style="font-size:11pt">IC-300052-G2Z8&#8217;, &#8216;IC305377-Y5Q5&#8217;, &#8216;IC-305634-L8K7&#8217; and &#8216;IC-327841-D8P9&#8217;. In each instance, the Appellant had made a request for information to LBRUT, and upon being provided with the public authority&#8217;s response to the request, a complaint was then made to the Commissioner. The requests are dealt with below in chronological order by date of the request. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_2">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Request 1 (ICO Ref: IC-300052-G2Z8 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0012)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">On 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> February 2024, the Appellant write to LBRUT and requested information in the following terms:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;Please provide all project management documentation for the strip out of the health suite area at Pools on the Park Richmond that took place in July 2022.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">This should include (but not be limited to):</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">1.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-size:11pt">Reason(s) that the work was required.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">2.</num>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-size:11pt">Specification of the works to be carried out.</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">3.</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">Details of planning advice or listed building consent received on this project since this is a Grade II listed building. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:0.79in;text-indent:-0.25in"><marker name="tab"/><span style="font-style:italic;font-size:11pt">I believe this was the responsibility of the Corporate Project Office and the works were carried out by the Council&#8217;s Facilities Management department.&#8221;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Following that request, LBRUT responded on 1</span><span style="vertical-align:super;font-size:11pt">st</span><span style="font-size:11pt"> March 2024 and stated that </span><span style="font-style:italic;font-size:11pt">&#8220;This is a maintenance instruction directly to term contractors and there is no project management documentation&#8221;</span><span style="font-size:11pt">. However, LBRUT provided further information in relation to points 1 and 2 of the request, setting out that the works </span><span style="font-style:italic;font-size:11pt">&#8220;were required to resolve issues with the electrical system, water system, fire separation, rotten wood, damp and mould.&#8221;</span><span style="font-size:11pt">, and detailing the specifics of the works to be carried out by reference to the headings of &#8216;Electrical&#8217;, &#8216;Water&#8217;, and &#8216;Fire Alarm System/Sensor/Smoke Detectors&#8217;. In relation to the third point relating to &#8216;planning advice or listed building consent&#8217;, LBRUT stated that </span><span style="font-style:italic;font-size:11pt">&#8220;There is no listed building or planning requirement for these works. The previous Conservation Officer (who advised on this matter) and the FM Hard Services Officer on site to discuss the works, they have both since left he Council and there is no further information held.&#8221;</span><span style="font-size:11pt">. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Following a further email exchange between the parties where the Appellant queried the lack of documentation on this </span><span style="font-style:italic;font-size:11pt">&#8220;Grade II listed building&#8221;</span><span style="font-size:11pt"> and stated that </span><span style="font-style:italic;font-size:11pt">&#8220;Without any documentation, there is no evidence that correct procedures for alteration of a Grade II listed building were followed&#8221;</span><span style="font-size:11pt">, the council responded to state that </span><span style="font-style:italic;font-size:11pt">&#8220;Richmond Council does not hold any project management documentation for the strip out of the health suite area at Pools on the Park, because these works were carried out by the Council&#8217;s Facilities Management team, who undertake small repairs works jobs, which do not require such documentation and no listed building consent or planning advice was required for these works either.&#8221;</span><span style="font-size:11pt">. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">On 31</span><span style="vertical-align:super;font-size:11pt">st</span><span style="font-size:11pt"> March 2024, the Appellant requested an internal review of LBRUT&#8217;s decision, querying the responses and the lack of documentation, and suggesting that the information he had been provided with was copied and pasted from another source, when he had specifically requested documents in his request for information. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Following that request for an internal review, LBRUT wrote to the Appellant on 3</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> April 2024 and informed him that </span><span style="font-style:italic;font-size:11pt">&#8220;Richmond Council does not hold any project management documentation for the strip out of the health suite at Pools on the Park. Therefore, the Council does not hold any recorded information relevant to your request. Please note that the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> permits requests for recorded information. This does not include requests for opinions or value judgments (unless these have been recorded in some way), nor does <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> require the Council to create information. This is the Council&#8217;s fourth and final response to your FOI request.&#8221;. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_3">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Request 2 (ICO Ref: IC-305634-L8K7</span><span style="font-size:11pt"/><span style="font-weight:bold;font-size:11pt">/ Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0014)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant made an additional information request of LBRUT on 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> February 2024, which asked for:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;Please provide all communication between [LBRUT] and QS Support Ltd in regard to the two options for the health suite area at Pools on the Park that culminated in project estimates of &#163;140K and &#163;210K in a document dated 31/10/22.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT responded on 6</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> March 2024, disclosing some information in the form of emails and spreadsheets, but withholding the names of staff and contractors under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/2" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) (Personal Information). LBRUT additionally informed the Appellant that the attached emails and spreadsheets had been </span><span style="font-style:italic;font-size:11pt">&#8220;redacted of costs yet to go out to tender&#8221;</span><span style="font-size:11pt"> and that reliance had been placed on section 43 FOIA (Commercial Interests) to withhold this information. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">On 30</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> March 2024, the Appellant request an internal review. Following that internal review being carried out, LBRUT wrote to the Appellant on 30</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> April 2024, disclosing some further photographs, but ultimately maintaining its position in withholding the redacted information and placing reliance upon <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/2" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40(2)</ref> FOIA and section 43 FOIA. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_4">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Request 3 (ICO Ref: IC305377-Y5Q5 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0013)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">On 28</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> February 2024, the Appellant requested information from LBRUT in the following terms:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;Please provide the full anonymised results of this residents consultation on the future group exercise studio at Pools on the Park that was open between 01/02/24 and 28/02/24: [link redacted]&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT respondent to that request on 6</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> March 2024, stating that </span><span style="font-style:italic;font-size:11pt">&#8220;Firstly please note that this was not a &#8216;consultation&#8217; exercise, it was engaging users and non-users on their views on programming the group exercise studio. Secondly, Richmond Council are currently working on the analysis report and once signed off, the results will be made publicly available.&#8221;</span><span style="font-size:11pt">. LBRUT then stated that it was therefore withholding the information under section 22 FOIA on the basis that it was intended for future publication. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">On 16</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> March 2024, the Appellant request an internal review, explaining that he had not requested an analysis report, but was instead seeking disclosure of the original results from this survey. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Following an internal review, LBRUT wrote to the Appellant on 17</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> April 2024, maintaining its original position of withholding information under section 22 FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_5">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Request 4 (ICO Ref: IC-327841-D8P9</span><span style="font-size:11pt"/><span style="font-weight:bold;font-size:11pt">/ Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0015)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">On 15</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> April 2024, the Appellant requested information from LBRUT in the following terms:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;This is a supplementary [FOIA] request to [Request 2 of 7</span><span style="font-style:italic;vertical-align:super;font-size:11pt">th</span><span style="font-style:italic;font-size:11pt"> February 2024]&#8230;</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">In this email thread between LBRUT project officer and QS Support Ltd&#8230;[link redacted] </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">A third (redacted) person is referred to by the Project officer in their email sent at 0945hrs on 25/10/22 when they say &#8220;I will wait to hear back from XXXX before feeding these back to you.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">Please provide all emails between this project officer and this third person in regard to this Pools on the Park project.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT gave its substantive response to this request on 30</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> April 2024, as part of the internal review that related to request 2 of 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> February 2024. LBRUT stated </span><span style="font-style:italic;font-size:11pt">&#8220;As previously advised, Richmond Council has already provided copies of all communications held between the Council and QS Support regarding options for health suite at Pools on the Park.&#8221;</span><span style="font-size:11pt">. LBRUT was effectively stating that it did not hold the requested information. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">On 30</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> April 2024, the Appellant requested an internal review of this request, stating that it had been incorrectly handled, and referring to being provided with a response which was copy and pasted from the internal review of another request, which he stated was not a helpful response to this particular request. He then contacted LBRUT again on 9</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> May 2024, stating </span><span style="font-style:italic;font-size:11pt">&#8220;It is not acceptable practice&#8230;to choose to respond to request B by including it within an internal review of request A.&#8221;</span><span style="font-size:11pt">. LBRUT replied on the same date, stating </span><span style="font-style:italic;font-size:11pt">&#8220;Richmond Council responded to your Internal Review on 09/05/2024 and this [FOIA] request is now closed.&#8221;</span><span style="font-size:11pt">. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_6">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Decision Notice of 23</span><span style="font-weight:bold;vertical-align:super;font-size:11pt">rd</span><span style="font-weight:bold;font-size:11pt"> December 2024 </span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">This Decision Notice, dated 23</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> December 2024, relates to a single complaint made to the Commissioner on 31</span><span style="vertical-align:super;font-size:11pt">st</span><span style="font-size:11pt"> March 2024 and referenced IC-297962-G7Q7. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_7">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Request 5 </span><span style="font-style:italic;font-weight:bold;font-size:11pt">(ICO Ref: </span><span style="font-weight:bold;font-size:11pt">IC-297962-G7Q7 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0064)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">On 17</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2023, the Appellant requested information from LBRUT in the following terms:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;Regarding this report written by [XXXXX], Assistant Director of Leisure in connection of the two options for the redevelopment of the health suite area: [link redacted]</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">It is stated:</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">3.9</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">The cost of replacing the Health Suite is estimated to be &#163;210,000 (Estimated cost as at November 2022).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">3.14</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">The cost of replacing the Health Suite with a new Group Exercise Studio is estimated to be &#163;140,000 (Estimated cost as at November 2022).</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">Please provide any written supplier estimates and/or internal/external communications that were used to determine these two estimates.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT responded on 29</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> December 2023, stating that </span><span style="font-style:italic;font-size:11pt">&#8220;There are no supplier estimates as this cost exercise was carried out by a QS.&#8221;</span><span style="font-size:11pt"> and refusing to disclose other information on the basis that the exemption contained in section 43(2) FOIA (Commercial Interests) applied. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">On 8</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> January 2024, the Appellant requested an internal review, questioning how the disclosure of the costings breakdown would be very likely to harm the commercial interests of the council to obtain value for money. The Appellant made reference in this request to the 371 respondents to the council survey in September 2021 who said they wanted to see the health suite refurbished and reopened, and that it was important that decision making was open and transparent to enable the public to scrutinise how these cost estimates were arrived at. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT wrote to the Appellant on 6</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> February 2024 following an internal review. LBRUT disclosed some information, but maintained its original position to withhold other information, relating to figures, under section 43(2) FOIA. LBRUT explained as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;The Council obtains value for money through its procurement process. By providing an overall figure for the works the Council invites potential bidders to provide bids which compete on how they would go about the work, cost for those works and any additional works which may not be readily apparent to the Council within the overall figure or less. Disclosure of the Council&#8217;s detailed breakdown of cost estimates would constrain the flexibility of bids, particularly on bidders&#8217; proposals on spreading the costs and additional works. This would undermine the Council&#8217;s ability to optimise value for money through the procurement process.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';font-size:11pt">Complaints to the Commissioner and Decision Notices </span></heading>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant made a complaint to the Commissioner about LBRUT&#8217;s handling of his first request of 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> February 2024 (</span><span style="font-weight:bold;font-size:11pt">Request 1</span><span style="font-size:11pt"> &#8211; ICO Ref: IC-300052-G2Z8 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0012) on 10</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> April 2024. His complaint to the Commissioner about LBRUT&#8217;s handling of his additional request of 7</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> February 2024 (</span><span style="font-weight:bold;font-size:11pt">Request 2</span><span style="font-size:11pt"> &#8211; ICO Ref: IC-305634-L8K7 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0014) was made on 9</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> May 2024. Complaints were additionally made to the Commissioner on 8</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> May 2024 (</span><span style="font-weight:bold;font-size:11pt">Request 3 </span><span style="font-size:11pt">&#8211; ICO Ref: IC305377-Y5Q5 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0013), 20</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> June 2024 (</span><span style="font-weight:bold;font-size:11pt">Request 4 </span><span style="font-size:11pt">&#8211; ICO Ref: IC-327841-D8P9 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0015) and 31</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">st</span><span style="font-family:Arial;font-size:11pt"> March 2024 (</span><span style="font-weight:bold;font-size:11pt">Request 5 &#8211; </span><span style="font-style:italic;font-size:11pt">ICO Ref: </span><span style="font-size:11pt">IC-297962-G7Q7 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0064).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">Four of those complaints, relating to Requests 1 to 4, were investigated simultaneously by the Commissioner, and during that investigation LBRUT retrospectively applied section 14(1) FOIA (vexatious requests) to each of those requests for information. LBRUT did not resile from its reliance upon the exemptions it had applied in its responses and subsequent internal reviews, but these were relied upon in the alternative to section 14(1) FOIA. Ultimately the Commissioner concluded in his Decision Notice of 5</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> November 2025 that LBRUT was entitled to refuse to comply with all four of the requests on the basis that they were vexatious. However, the Commissioner concluded that LBRUT had breached section 17(5) FOIA as a consequence of its late reliance upon section 14(1) FOIA. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">The Commissioner&#8217;s subsequent Decision Notice of 23</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">rd</span><span style="font-family:Arial;font-size:11pt"> December 2024 addressed LBRUT&#8217;s response to what was chronologically the earliest request for information made by the Appellant on 17</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> November 2023 (Request 5). The complaint in this instance was made to the Commissioner on 31</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">st</span><span style="font-family:Arial;font-size:11pt"> March 2024 and there appears to have been some delay in LBRUT responding to the Commissioner&#8217;s requests for full and final submissions, which resulted in the Commissioner serving an Information Notice, pursuant to section 51 FOIA, on LBRUT on 27</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> September 2024. LBRUT responded on 10</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> October 2024 to confirm that, as with the other requests, they were retrospectively applying section 14(1) FOIA to this request, which preceded the other four requests being made. LBRUT maintained its reliance upon section 43(2) FOIA in the alternative. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">The Commissioner ultimately concluded that LBRUT was entitled to rely upon section 14(1) FOIA to withhold the information requested by the Appellant in this instance, but as before, he found that there had been a breach of section 17(5) FOIA due to the late reliance upon this exemption. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';font-size:11pt">Appeals to the Tribunal</span></heading>
+	  <level eId="lvl_3_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Decision Notice of 5</span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;vertical-align:super;font-size:11pt">th</span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt"> November 2024 </span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant submitted four separate appeals against the Commissioner&#8217;s Decision Notice of 5</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2024. Each of these appeals was dated 3</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> December 2024, and each dealt separately with the Appellant&#8217;s four requests which the Commissioner subsequently addressed collectively in his Decision Notice. The Appellant&#8217;s grounds of appeal are summarised as follows in relation to those matters: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.25in"><span style="font-weight:bold;font-size:11pt">Request 1 (ICO Ref: IC-300052-G2Z8 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0012)</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">That although LBRUT stated that it did not hold any &#8216;project management documentation&#8217; it provided me with short responses to the specific questions I had asked, which appeared to have been copied from an unknown source. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.1in"><span style="font-family:'Book Antiqua';font-size:11pt">That the assertion that this is a vexatious request is unjustified when LBRUT provided me with some information in relation to my request. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.23in"><span style="font-family:'Book Antiqua';font-size:11pt">That LBRUT failed to notify the Appellant directly of its reliance upon section 14(1) FOIA. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(iv)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.1in"><span style="font-family:'Book Antiqua';font-size:11pt">That the Commissioner failed to specify any steps to be taken by LBRUT for the breach of section 17(5) FOIA.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;text-indent:0.39in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Commissioner&#8217;s Response to this Notice of Appeal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Commissioner&#8217;s Response to this appeal, dated 15</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> April 2026, confirmed that he maintains his position as per the Decision Notice, in that he submits that the request was vexatious. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.25in;text-indent:0.14in"><span style="font-weight:bold;font-size:11pt">LBRUT&#8217;s Response to this Notice of Appeal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT&#8217;s response to the appeal was set out in a Response of 3</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> October 2025. A summary of that Response is as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(i)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in"><span style="font-size:11pt">That between 4</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> August 2022 and 2</span><span style="vertical-align:super;font-size:11pt">nd</span><span style="font-size:11pt"> April 2024, the Appellant has submitted 22 requests for information, with 19 relating directly to the Pools on the Park health suite project, comprised of 58 questions, with 120 follow up emails. Additionally, the Appellant has submitted 7 formal complaints to LBRUT and has sent an email to LBRUT&#8217;s Quantity Surveyor regarding an information request. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(ii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">That the Appellant has a private interest in the details of the Pools on the Park project, which is not shared by the wider public. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.23in"><span style="font-size:11pt">That the complainant&#8217;s history of requests is ongoing and will continue into the future.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iv)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">That the frequent, voluminous and repetitious nature of the contact by the Appellant with LBRUT has the effect of harassing staff due to the collective burden on LBRUT in responding to the Appellant&#8217;s requests and contact.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(v)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in"><span style="font-size:11pt">That the public interest in understanding the Pools on the Park health suite project is being served by LBRUT through published information, public consultation and public meetings. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(vi)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">That the information provided by LBRUT to the Appellant in its response was from a maintenance instruction. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(vii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.23in"><span style="font-size:11pt">LBRUT maintains that no information is held in relation to the request. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(viii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.36in"><span style="font-size:11pt">That the request is vexatious pursuant for the purposes of section 14(1) FOIA. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_3_2">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Request 2 (ICO Ref: IC-305634-L8K7 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0014)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant&#8217;s grounds of appeal are summarised as follows in respect of this appeal:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">Despite providing several emails and attachments, it is clear that there was at least one email missing between the period of the on-site meeting, between LBRUT and QS Support Limited, on 12</span><span style="vertical-align:super;font-size:11pt;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua';font-size:11pt"> October 2022 and the email dated 18</span><span style="vertical-align:super;font-size:11pt;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua';font-size:11pt"> October 2022. This is due to the line &#8220;thanks for sending these over&#8221;. In its internal review response, LBRUT subsequently provided photographs, which it stated were the missing files, but they weren&#8217;t accompanied by an email. The parent email for those photographs was later sent on 20</span><span style="vertical-align:super;font-size:11pt;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua';font-size:11pt"> November 2024. However, far from refusing my request as being vexatious, LBRUT has been sending information in response to this request.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.1in"><span style="font-family:'Book Antiqua';font-size:11pt">That the request was not vexatious. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.23in"><span style="font-family:'Book Antiqua';font-size:11pt">That whilst LBRUT has relied upon section 43 FOIA to redact the costs in the spreadsheet, only Option 1 will be going out to tender, and there is therefore no reason for the costs in Option 2 to be redacted. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(iv)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.1in"><span style="font-family:'Book Antiqua';font-size:11pt">That LBRUT failed to notify the Appellant directly of its reliance upon section 14(1) FOIA. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(v)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">That the Commissioner failed to specify any steps to be taken by LBRUT for the breach of section 17(5) FOIA.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;text-indent:0.39in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Commissioner&#8217;s Response to this Notice of Appeal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Commissioner&#8217;s Response to this appeal, dated 15</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> April 2026, confirmed that he maintains his position as per the Decision Notice, in that he submits that the request was vexatious. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.25in;text-indent:0.14in"><span style="font-weight:bold;font-size:11pt">LBRUT&#8217;s Response to this Notice of Appeal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT&#8217;s response to the appeal was set out in a separate Response of 3</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> October 2025. A summary of that Response is as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">That the search for information carried out by LBRUT to respond to the request included all information held about </span><span style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">&#8220;QS Support Ltd in regard to the two options for the health suite area at Pools on the Park that culminated in project estimates of &#163;140k and &#163;210k in a document dated 31/10/22&#8221;</span><span style="font-family:'Book Antiqua';font-size:11pt">, as well LBRUT&#8217;s communications with QS Support Ltd about this work. Other than the information disclosed, no other information is held by LBRUT. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.11in"><span style="font-family:'Book Antiqua';font-size:11pt">That the request is vexatious for the purposes of section 14(1) FOIA. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iii)</num>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.23in"><span style="font-size:11pt">That in the alternative, LBRUT maintains its position that section 43(2) FOIA applies to the figures contained within the QS Support costs estimates which have been redacted in the version provided to the Appellant. </span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.39in"><span style="font-weight:bold;font-size:11pt">Request 3 (ICO Ref: IC305377-Y5Q5 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0013)</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant&#8217;s grounds of appeal are summarised as follows in respect of this appeal:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">That LBRUT&#8217;s application of the section 22 FOIA exemption is incorrect, as firstly, LBRUT never made a commitment (before my request) to publish the requested information, and secondly, the request was for the full anonymised results of the survey, and this was not what was finally published on 13/05/2024. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.1in"><span style="font-family:'Book Antiqua';font-size:11pt">That LBRUT&#8217;s late reliance upon section 21 FOIA (Information Accessible to Applicant by Other Means) is additionally incorrect, as the published information is not the same as the &#8216;full anonymised survey results&#8217; that were requested. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.23in"><span style="font-family:'Book Antiqua';font-size:11pt">That the request was not vexatious. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;text-indent:0.39in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Commissioner&#8217;s Response to this Notice of Appeal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Commissioner&#8217;s Response to this appeal, dated 15</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> April 2026, confirmed that he maintains his position as per the Decision Notice, in that he submits that the request was vexatious. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.25in;text-indent:0.14in"><span style="font-weight:bold">LBRUT&#8217;s Response to this Notice of Appeal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT&#8217;s response to the appeal was set out in a separate Response of 3</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> October 2025. A summary of that Response is as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(i)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in"><span style="font-size:11pt">That the request was vexatious for the purposes of section 14(1) FOIA. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(ii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-size:11pt">That in the alternative, section 22 FOIA applies as LBRUT held the information at the time of the request with the intention of publishing it in the future. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.23in"><span style="font-size:11pt">The information was subsequently published in May 2024, and as such LBRUT now additionally relies upon section 21 FOIA, as the information is accessible to the Appellant by accessing LBRUT&#8217;s website.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.25in;text-indent:0.15in"><span style="font-weight:bold;font-size:11pt">Request 4 (ICO Ref: IC-327841-D8P9</span><span style="font-size:11pt"/><span style="font-weight:bold;font-size:11pt">/ Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0015)</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant&#8217;s grounds of appeal are summarised as follows in respect of this appeal:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">That the request was not vexatious.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;text-indent:0.39in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Commissioner&#8217;s Response to this Notice of Appeal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Commissioner&#8217;s Response to this appeal, dated 15</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> April 2026, confirmed that he maintains his position as per the Decision Notice, in that he submits that the request was vexatious. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.25in;text-indent:0.14in"><span style="font-weight:bold">LBRUT&#8217;s Response to this Notice of Appeal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT&#8217;s response to the appeal was set out in a separate Response of 3</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> October 2025. A summary of that Response is as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">That there is no further information held beyond that which has already been disclosed to the Appellant in relation to the earlier request of 7</span><span style="vertical-align:super;font-size:11pt;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua';font-size:11pt"> February 2024 regarding QS Support Ltd.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.11in"><span style="font-family:'Book Antiqua';font-size:11pt">That the request was vexatious within the meaning of section 14(1) FOIA. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_3_3">
+	    <heading class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">Decision Notice of 23</span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;vertical-align:super;font-size:11pt">rd</span><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt"> December 2024 </span></heading>
+	    <paragraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.25in;text-indent:0.14in"><span style="font-weight:bold;font-size:11pt">Request 5 (ICO Ref: IC-297962-G7Q7 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0064)</span></p>
+	      </content>
+	    </paragraph>
+	  </level>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant&#8217;s grounds of appeal are summarised as follows in respect of this appeal:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:11pt">LBRUT did not deal with the request correctly because relevant information was disclosed in another later information request that would have fallen within the scope of this request. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.1in"><span style="font-family:'Book Antiqua';font-size:11pt">That the information disclosed as a result of that later information request contained discussion about QS Support Ltd matching target costings of &#163;140k and &#163;210k. It is therefore reasonable to conclude that these figures would have been stated in an email from LBRUT to QS Support Ltd, which would therefore fall within scope of the present request. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.23in"><span style="font-family:'Book Antiqua';font-size:11pt">That the request was not vexatious. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;text-indent:0.39in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Commissioner&#8217;s Response to this Notice of Appeal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Commissioner&#8217;s Response to this appeal, dated 3</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> March 2025, confirmed that he maintains his position as per the Decision Notice, in that he submits that the request was vexatious. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.25in;text-indent:0.14in"><span style="font-weight:bold">LBRUT&#8217;s Response to this Notice of Appeal </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT&#8217;s response to the appeal was set out in a separate Response of 3</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> October 2025. A summary of that Response is as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(i)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in"><span style="font-size:11pt">That the request is vexatious for the purposes of section 14(1) FOIA. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.4in">(ii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.1in"><span style="font-size:11pt">Alternatively, that section 43(2) applies, as disclosure of the estimated costs would indicate to potential bidders for the works what LBRUT had estimated, and consequently it would constrain LBRUT&#8217;s ability to obtain competitive tenders and to negotiate with bidders. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';font-size:11pt">The Legal Framework </span></heading>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The applicable law is as set out below: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.39in"><span style="font-style:italic;font-weight:bold;font-size:11pt">Section 1(1) FOIA: General Right of access to information held by public authorities </span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:0.5in"><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-size:11pt">Any person making a request for information held to a public authority is entitled &#8211; </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.03in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.03in;text-indent:0.12in"><span style="font-style:italic;font-size:11pt">To be informed in writing by the public authority whether it holds information of the description specified in the request, and </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:1.03in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.03in;text-indent:0.12in"><span style="font-style:italic;font-size:11pt">If that is the case, to have that information communicated to him.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_4_1">
+	    <heading class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">When is a FOIA request vexatious?</span></heading>
+	    <paragraph>
+	      <intro>
+		<p style="text-align:justify;text-indent:0.39in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Section 14(1) FOIA: Vexatious or repeated requests </span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">Section 1(1) does not oblige a public authority to comply with a request for information if the request is vexatious.</span></p>
+		</content>
+	      </subparagraph>
+	    </paragraph>
+	  </level>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The term &#8216;vexatious&#8217; is not statutorily defined. However, in <span style="font-weight:bold">Information Commissioner v Devon County Council &amp; Dransfield</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/440" uk:canonical="[2012] UKUT 440 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 440 (AAC)</ref>, the Upper Tribunal held that the purpose of s.14 <span style="font-style:italic">&#8220;must be to protect the resources (in the broadest sense of the word) of the public authority from being squandered on disproportionate use of FOIA.&#8221;</span>. That formulation was subsequently qualified by the Court of Appeal in <span style="font-style:italic;font-weight:bold">Dransfield v Information Commissioner</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref> to the extent that<span style="font-style:italic"> &#8220;that aim [is] one only to be realised if the high standard set by vexatiousness is satisfied.&#8221;</span>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">In </span><span style="font-style:italic;font-weight:bold;font-size:11pt">Dransfield</span><span style="font-size:11pt">, the Upper Tribunal identified four key issues were relevant when deciding whether a request is vexatious: (1) the burden (on the public authority and its staff); (2) the motive (of the requester); (3) the value or serious purpose (of the request); and (4) any harassment or distress (of and to staff). However, the Upper Tribunal pointed out that these four considerations were not exhaustive, nor did they create a formulaic checklist: a holistic and broad approach was needed. The Upper Tribunal went on to emphasise that, when determining what constitutes a vexatious request, </span><span style="font-style:italic;font-size:11pt">&#8220;There is no magic formula &#8211; all the circumstances need to be considered in reaching what is ultimately a value judgment as to whether the request in issue is vexatious in the sense of being a disproportionate, manifestly unjustified, inappropriate or improper use of FOIA.&#8221;</span><span style="font-size:11pt">. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">In </span><span style="font-weight:bold;font-size:11pt">Cabinet Office v Information Commissioner and Ashton</span><span style="font-size:11pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/208" uk:canonical="[2018] UKUT 208 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 208 (AAC)</ref>, the Upper Tribunal confirmed that s.14 FOIA may be invoked on the grounds of resources alone. A substantial public interest supporting the request does not necessarily trump an argument based on resources:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="text-align:justify;margin-left:0.89in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">&#8220;In some cases, the burden of complying with the request will be sufficient, in itself, to justify characterising that request as vexatious, and such a conclusion is not precluded if there is a clear public interest in the information requested. Rather, the public interest in the subject matter of a request is a consideration that itself needs to be balanced against the resource implications of the request, and any other relevant factors, in a holistic determination of whether a request is vexatious.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">The Upper Tribunal clarified that the public interest in the subject matter of the request must be balanced against the competing burden imposed upon the public authority by complying with that request. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_4_2">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">FOIA exemptions being relied upon</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Part II of FOIA provides a number of exemptions to the general right of access to information conferred by section 1(1) FOIA. These exemptions include the exemptions relied upon by LBRUT, including section 22(1) FOIA (Information Intended for Future Publication), <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/2" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40(2)</ref> FOIA (Personal Information), and section 43(2) FOIA (Commercial Interests). The exemptions contained within sections 22(1) and 43(2) FOIA are qualified exemptions, meaning that if the exemption is found to be engaged, that is not the end of the matter, as there is then the need for a balancing exercise to be carried out in relation to the competing public interests both for and against disclosure, in accordance with section 2(2) FOIA. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/2" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">Section 40(2)</ref> as it applies to the facts of this matter is an absolute exemption and an assessment of the competing public interests is not required, should it be found that the exemption is engaged. However, the approach to be taken to the application of this exemption is set out at paragraphs 32 to 38 below. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.29in"><span style="font-style:italic;font-weight:bold;font-size:11pt">Section 2 (Effect of the Exemptions in part 2)</span></p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <paragraph>
+		      <intro>
+			<p class="NumberedReasons" style="margin-left:0.79in;text-indent:-0.25in"><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-size:11pt">&#8220;2(2) In respect of any information which is exempt information by virtue of any provision of Part II, section 1(1)(b) does not apply if or to the extent that &#8211; </span></p>
+		      </intro>
+		      <subparagraph>
+			<num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.43in;text-indent:-0.25in">(a)</num>
+			<content>
+			  <p class="NumberedReasons" style="margin-left:1.43in;text-indent:0.13in"><span style="font-style:italic;font-size:11pt">The information is exempt information by virtue of any provision conferring absolute exemption, or</span></p>
+			</content>
+		      </subparagraph>
+		      <subparagraph>
+			<num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.43in;text-indent:-0.25in">(b)</num>
+			<content>
+			  <p class="NumberedReasons" style="margin-left:1.43in;text-indent:0.13in"><span style="font-style:italic;font-size:11pt">In all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information.&#8221;</span></p>
+			</content>
+		      </subparagraph>
+		    </paragraph>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-weight:bold;font-size:11pt">Section 22 (Information Intended For Future Publication)</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;22(1) Information is exempt information if &#8211; </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.43in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.43in;text-indent:0.13in"><span style="font-style:italic;font-size:11pt">the information is held by the public authority with a view to its publication, by the authority or any other person, at some future date (whether determined or not),</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.43in;text-indent:-0.25in">(b)</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.43in;text-indent:0.13in"><span style="font-style:italic;font-size:11pt">the information was already held with a view to such publication at the time when the request for information was made, and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.43in;text-indent:-0.25in">(c)</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.43in;text-indent:0.13in"><span style="font-style:italic;font-size:11pt">it is reasonable in all the circumstances that the information should be withheld from disclosure until the date referred to in paragraph (a).&#8221;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.04in;text-indent:-0.25in"><span style="font-style:italic;font-weight:bold;font-size:11pt">Section 43 (Commercial Interests) </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.04in;text-indent:-0.25in"><span style="font-style:italic;font-size:11pt">&#8220;43(2) Information is exempt information if its disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref> would, or would be likely to, prejudice the commercial interests of any person (including the public authority holding it). </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.04in;text-indent:-0.25in"><span style="font-style:italic;font-weight:bold;font-size:11pt"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">Section 40</ref> (Personal Information) </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:1.04in;text-indent:-0.25in"><span style="font-style:italic;font-size:11pt">&#8220;40(1) Any information to which a request for information relates is exempt information if it constitutes personal data of which the applicant is also the data subject.</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">(2)</num>
+		<intro>
+		  <p class="NumberedReasons" style="margin-left:1.04in"><span style="font-style:italic;font-size:11pt">Any information to which a request for information relates is also exempt information if &#8211; </span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.48in;text-indent:-0.25in">(a)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1.48in;text-indent:0.13in"><span style="font-style:italic;font-size:11pt">it constitutes personal data which does not fall within subsection (1), and</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.48in;text-indent:-0.25in">(b)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1.48in;text-indent:0.13in"><span style="font-style:italic;font-size:11pt">either the first, second or third condition below is satisfied.</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">(3A)</num>
+		<intro>
+		  <p class="NumberedReasons" style="margin-left:0.98in"><span style="font-style:italic;font-size:11pt">The first condition is that the disclosure of the information to a member of the public otherwise than under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref> &#8211; </span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.42in;text-indent:-0.25in">(a)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1.42in;text-indent:0.13in"><span style="font-style:italic;font-size:11pt">would contravene any of the data protection principles, or</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.42in;text-indent:-0.25in">(b)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1.42in;text-indent:0.13in"><span style="font-style:italic;font-size:11pt">would so if the exemptions in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/24/1" uk:canonical="2018 c. 12 s. 24" uk:origin="TNA" uk:type="legislation">section 24(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> (manual unstructured data held by public authorities) were disregarded. </span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-size:11pt">&#8230;&#8221; </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Section 2(3)(fa) FOIA provides that where the first condition contained within <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40</ref> FOIA is satisfied, the exemption is absolute, meaning that if the exemption is found to apply, an assessment of the competing public interests is not required under section 2(2) FOIA. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Personal data is defined in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/2" uk:canonical="2018 c. 12 s. 3" uk:origin="TNA" uk:type="legislation">section 3(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> as being </span><span style="font-style:italic;font-size:11pt">&#8220;any information relating to an identified or identifiable living individual&#8230;&#8221;</span><span style="font-size:11pt">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Article 5 of the UK General Data Protection Regulation (UK GDPR) sets out the data protection principles referred to in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40</ref>(3A)(1) FOIA. Article 5(1) provides that personal data shall be: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">&#8220;(a)</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">processed lawfully, fairly and in a transparent manner in relation to the data subject (&#8216;lawfulness, fairness and transparency&#8217;);</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">(b)</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">collected for specified, explicit and legitimate purposes and not further processed in a manner that is incompatible with those purposes; further processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes shall, in accordance with Article 89(1), not be considered to be incompatible with the initial purposes (&#8216;purpose limitation&#8217;);</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">(c)</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (&#8216;data minimisation&#8217;); </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">(d)</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">accurate and, where necessary, kept up to date; every reasonable step must be taken to ensure that personal data that are inaccurate, having regard to the purposes for which they are processed, are erased or rectified without delay (&#8216;accuracy&#8217;);</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">(e)</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">kept in a form which permits the identification of data subjects for no longer than is necessary for the purposes for which the personal data will be processed; personal data may be stored for longer periods insofar as the personal data will be processed solely for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes in accordance with Article 89(1) subject to implementation of the appropriate technical and organisational measures required by this Regulation in order to safeguard the rights and freedoms of the data subject (&#8216;storage limitation&#8217;); </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">(f)</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.78in;text-indent:0.22in"><span style="font-style:italic;font-size:11pt">processed in a manner that ensures appropriate security of the personal data, </span><marker name="tab"/><span style="font-style:italic;font-size:11pt">including protection against unauthorised or unlawful processing and against </span><marker name="tab"/><span style="font-style:italic;font-size:11pt">accidental loss, destruction or damage, using appropriate technical or organisational measures (&#8216;integrity and confidentiality&#8217;).&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Article 6(1)(f) of the UK GDPR provides a lawful basis for processing personal data if the processing is:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;&#8230;necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The second sub-paragraph of Article 6(1) of the UK GDPR goes on to state that </span><span style="font-style:italic;font-size:11pt">&#8220;Point (f) of the first subparagraph shall not apply to processing carried out by public authorities in the performance of their tasks.&#8221;</span><span style="font-size:11pt">. However, <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/8" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40(8)</ref> FOIA provides as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;In determining for the purposes of this section whether the lawfulness principle of Article 5(1)(a) of the UK GDPR would be contravened by the disclosure of the information, Article 6(1) of the UK GDPR (lawfulness) is to be read as if the second sub-paragraph (disapplying the legitimate interests gateway in relation to public authorities) were omitted.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The effect of these two provisions is that Article 6(1)(f) of the UK GDPR applies to public authorities insofar as it relates to the question of whether disclosure of the information concerned would contravene the data protection principle of lawfulness (Article 5(1)(a) of the UK GDPR) for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40</ref>(3A) FOIA.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Supreme Court considered the proper interpretation and application of Article 6(1)(f) of the UK GDPR in </span><span style="font-weight:bold;font-size:11pt">South Lanarkshire Council v The Scottish Information Commissioner</span><span style="font-size:11pt"> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/55" uk:canonical="[2013] UKSC 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 55</ref>, with Lady Hale identifying that this condition for the lawful processing of personal data required three questions to be answered. These are as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(i)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in"><span style="font-style:italic;font-size:11pt">Is the data controller or the third party or parties to whom the data are disclosed pursuing a legitimate interest or interests? </span><span style="font-style:italic;font-weight:bold;font-size:11pt">(Legitimate interest test)</span><span style="font-style:italic;font-size:11pt">.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(ii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.11in"><span style="font-style:italic;font-size:11pt">Is the processing involved necessary for the purposes of those interests? </span><span style="font-style:italic;font-weight:bold;font-size:11pt">(Necessity test)</span><span style="font-style:italic;font-size:11pt">.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.18in;text-indent:-0.39in">(iii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.18in;text-indent:0.23in"><span style="font-style:italic;font-size:11pt">Is the processing unwarranted in this case by reasons of prejudice to the rights and freedoms or legitimate interests of the data subject? </span><span style="font-style:italic;font-weight:bold;font-size:11pt">(Balancing test)</span><span style="font-style:italic;font-size:11pt">. </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:11pt">The role of the Tribunal</span></heading>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-size:11pt">The Tribunal has the following powers when determining appeals against the Commissioner&#8217;s decisions for the purposes of FOIA:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p style="text-align:justify;text-indent:0.39in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Section 57 FOIA: Appeal against notices&#8230;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">(1)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">Where a decision notice has been served, the complainant or the public authority may appeal to the Tribunal against the notice.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;text-indent:0.39in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';font-size:11pt">Section 58 FOIA: Determination of appeals</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">(1)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">If on an appeal under section 57 the Tribunal considers&#8211; </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.38in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;text-indent:0.12in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">that the notice against which the appeal is brought is not in accordance with the law, or</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.38in;text-indent:-0.25in">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.38in;text-indent:0.12in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised the discretion differently,</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify;margin-left:1.04in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua';font-size:11pt;margin-left:1.04in;text-indent:-0.25in">(2)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.04in;text-indent:0.12in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:11pt">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The import of section 58 is that the right of appeal to the First-tier Tribunal involves a full merits consideration of whether, on the facts and the law, the public authority&#8217;s response to the FOIA Request is in accordance with Part 1 of FOIA (</span><span style="font-weight:bold;font-size:11pt">Information Commissioner v Malnick and ACOBA</span><span style="font-size:11pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/72" uk:canonical="[2018] UKUT 72 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 72 (AAC)</ref>; [2018] AACR 29, at paragraphs [45]-[46] and [90]. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';font-size:11pt">Evidence and Issues</span></heading>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The parties had submitted written evidence to the Tribunal in advance of the hearing, comprising of a consolidated OPEN bundle of 2377 pages, and a consolidated CLOSED bundle of 79 pages. The panel had read and considered these materials before the hearing commenced. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The hearing took place via Cloud Video Platform on 30</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> January 2026 and included both an OPEN and a CLOSED session. The Appellant was provided with a &#8216;Gist&#8217; of the CLOSED hearing following the </span><span style="font-size:11pt;color:#000000">CLOSED session and was given a further opportunity to make any additional submissions at that stage of the hearing. He confirmed that he had nothing further to add upon being provided with the Gist and having had an opportunity to consider it. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';font-size:11pt">The Hearing</span></heading>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">At the outset of the hearing, counsel for LBRUT informed the Tribunal that the council was no longer relying upon the section 43(2) FOIA exemption in relation for some of the requests. It was explained that the disclosure of some of the figures to which that exemption had been applied would have been prejudicial to the procurement exercise at the time, but that this is no longer the case. However, the exemption was still being relied upon in the alternative in relation to some of the information concerned. It was then advanced on behalf of LBRUT that it was being maintained that all of the requests were vexatious. It was submitted that the Appellant had made 22 requests for information of LBRUT between the dates of 4</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> August 2022 and 2</span><span style="vertical-align:super;font-size:11pt">nd</span><span style="font-size:11pt"> April 2024, and that 19 of those requests related to the Pools on the Park health suite. Additionally, LBRUT submitted that the Appellant had made 7 complaints to the relevant ombudsman, arguing that the plans for the health suite should be withdrawn. It was explained that since 2</span><span style="vertical-align:super;font-size:11pt">nd</span><span style="font-size:11pt"> April 2024, the Appellant had submitted a further 13 information requests, comprising of 20 parts, and with 8 of those relating to the Pools on the Park health suite, and that since October 2025, LBRUT had been managing the Appellant&#8217;s requests under its unreasonable customer policy. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">It was submitted on behalf of LBRUT that the Appellant was making his various requests for information because he was aggrieved at the council&#8217;s proposed plans, and that he ought to challenge LBRUT&#8217;s decision by way of judicial review rather than through FOIA. Whilst LBRUT recognised that there was a high bar for vexatiousness, it didn&#8217;t rely upon this mechanism lightly. However, it was submitted that the burden placed upon LBRUT by the Appellant&#8217;s requests was particularly burdensome, in that no sooner has LBRUT dealt with one request, another then materialises, which is disrupting the work of the small team which deals with these requests. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">In relation to request 1 of 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> February 2024 (ICO Ref: IC-300052-G2Z8 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0012), which is set out below for convenience, it was submitted that there was no &#8216;project management&#8217; documentation involved, as this was a maintenance instruction and was therefore not carried out by contractors. The information that was provided to the Appellant was copied from the maintenance instruction and was inserted into the response provided. The maintenance instruction itself was not disclosed. It was additionally explained that there was no requirement for listed building consent, and the Appellant was provided with information relating to that advice, which he does not accept and continues to question it. LBRUT has disclosed what information it has. </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;Please provide all project management documentation for the strip out of the health suite area at Pools on the Park Richmond that took place in July 2022.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">This should include (but not be limited to):</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">1.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-size:11pt">Reason(s) that the work was required.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">2.</num>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-size:11pt">Specification of the works to be carried out.</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">3.</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">Details of planning advice or listed building consent received on this project since this is a Grade II listed building. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:0.79in;text-indent:-0.25in"><marker name="tab"/><span style="font-style:italic;font-size:11pt">I believe this was the responsibility of the Corporate Project Office and the works were carried out by the Council&#8217;s Facilities Management department.&#8221;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">In response, the Appellant submitted that the term &#8216;project management&#8217; should be taken to include any maintenance instruction, and that this should have been disclosed in full in response to this request. He explained that he had asked for &#8216;documentation&#8217; within his request, and that the cutting and pasting of part of the maintenance instruction did not therefore satisfy this requirement. There is a maintenance instruction and an invoice, but LBRUT has not provided either of those documents. Stripping out all of the contents of the health suite is claimed to be a minor maintenance instruction, but the costs for the works is said to be &#163;13,915.20 inclusive of VAT. Given that there has been a copying and pasting from a document, there must be a document that it was copied from. It was further submitted that should have shown that it has carried out a proper search for any information when it states that it doesn&#8217;t hold any information in relation to this request. Additionally, the Appellant submitted that he had been advised by a former Senior Conservation Officer at LBRUT that listed building consent would have been required for any works carried out on the site. He referred the Tribunal to an email of 6</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> June 2024 at D1127 of the OPEN bundle. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">In relation to request 2 (ICO Ref: IC-305634-L8K7 /Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0014), which is again set out below, it was submitted on behalf of LBRUT that it has provided all of the communications that it holds, save for the specific figures involved, which have been redacted as they would be likely to prejudice the commercial interests of the LBRUT.  This request was subsequently followed by a later supplementary request (Request 4), which the Appellant then raised issue with when LBRUT treated it as a supplementary request.  </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;Please provide all communication between [LBRUT] and QS Support Ltd in regard to the two options for the health suite area at Pools on the Park that culminated in project estimates of &#163;140K and &#163;210K in a document dated 31/10/22.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">65.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">In response, the Appellant confirmed that this request was made following request 5 </span><span style="font-size:11pt">(ICO Ref: IC-297962-G7Q7 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0064), which came before request 2 in time. It was therefore a follow up to that request. He explained that he submitted this additional request when he only received two pages from LBRUT following request 5 being made, having asked for internal and external communications. LBRUT disclosed a significantly more documents in response to this request than they had with request 5. LBRUT objects to the back and forth, but he responds to things when they don&#8217;t add up. LBRUT did not disclose to me what their search criteria was in connection with this request. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">66.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">As regards request 3</span><span style="font-style:italic;font-size:11pt"/><span style="font-size:11pt">(ICO Ref: IC305377-Y5Q5 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0013), LBRUT submitted that it informed the Appellant that it was going to publish the results of this consultation, which it subsequently did in May 2024. The published document reflects the consultation. However, the Appellant insists that he wishes to see the full, anonymised results of that consultation. The comments were made confidentially by residents, and the results were summarised in the published report, and it is submitted that providing the actual comments or data does not meaningfully add to the published information. Other engagement exercises have since been published and are available. It was submitted that the Appellant has directly approached the main officers involved in the project and on one occasion he contacted LBRUT&#8217;s contractors directly for information. When asked what the residents understood would happen to the information that they had submitted, it was explained that they were given a privacy notice and were told that the information would be kept secure as this was a user stakeholder exercise, and that their actual comments would not be made public. The exercise was an engagement exercise with a narrow band of people and was not a general public exercise. It was submitted that the Appellant&#8217;s desire for information is endless, but that LBRUT&#8217;s resources are not. Consequently, it was decided that the request was vexatious. </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;Please provide the full anonymised results of this residents consultation on the future group exercise studio at Pools on the Park that was open between 01/02/24 and 28/02/24&#8230;&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">67.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">In response, the Appellant submitted that this request was straightforward in seeking the full anonymised results of this consultation, and he waited until the consultation had concluded before making this request. </span><span style="font-family:Arial;font-size:11pt">He explained that he was not seeking anyone&#8217;s personal data, and he made the request as he did not believe that LBRUT would publish the full results. This was because of a previous experience with LBRUT where they carried out a similar exercise, but when he made a FOIA request in 2021 for the results of that survey, they refused to disclose the results. On that occasion, despite being assured that the full results would be published, they were not. He explained that in relation to request 2, he wanted the full anonymised results and not an edited document. He further explained that the Citizenspace platform, which LBRUT uses, has the ability to export to a spreadsheet with anonymised data. He stated that he knows that this is possible because the council has done this for another survey. Despite stating that it was relying upon section 22 FOIA initially, LBRUT had not made any statement that it intended to publish this information, and it was not until my complaint was made to the Commissioner that anything was published by LBRUT. The Appellant additionally submitted that there is a clear distinction between an &#8216;analysis report&#8217;, which was published by LBRUT, and the &#8216;full results&#8217; of the consultation. He stated that he does not approach individual officers during the process of a FOIA request. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">68.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">In relation to request 4 (ICO Ref: IC-327841-D8P9 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0015), counsel for LBRUT explained that it is evident from the terms of the request that this was submitted as a supplementary request to request 2 of 7</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> February 2024, and consequently LBRUT dealt with the review for both matters together. The Appellant was unhappy with this approach however, and LBRUT was unclear as to how he wished this supplementary request to be handled. This demonstrates the kind of approach taken by the Appellant, where it becomes disruptive to the work of LBRUT, particularly when he asks for it to be dealt with in a manner which differs to the language of the request. It was clarified that LBRUTdid not hold any further information other than that which had already been provided to the Appellant. LBRUT confirmed that it maintained its position as per its response of 3</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">rd</span><span style="font-family:Arial;font-size:11pt"> October 2025. </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;This is a supplementary [FOIA] request to [Request 2 of 7</span><span style="font-style:italic;vertical-align:super;font-size:11pt">th</span><span style="font-style:italic;font-size:11pt"> February 2024]&#8230;</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">In this email thread between LBRUT project officer and QS Support Ltd&#8230;[link redacted] </span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">A third (redacted) person is referred to by the Project officer in their email sent at 0945hrs on 25/10/22 when they say &#8220;I will wait to hear back from XXXX before feeding these back to you.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">Please provide all emails between this project officer and this third person in regard to this Pools on the Park project.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">69.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant explained that when he stated that this was a supplementary request, he did not mean that it should be considered as part of the original request. Requests are self-contained and this request was made by way of a follow-up to the earlier request. It was prompted by LBRUT providing me with an email which had someone stating </span><span style="font-style:italic;font-size:11pt">&#8220;I&#8217;ll wait till we hear back from [redacted]&#8221;</span><span style="font-size:11pt">. This request was not treated as a request in its own right and LBRUT stated that they had responded to it in the internal review to request 2. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">70.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Request number 5 (ICO Ref: IC-297962-G7Q7 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0064) was, chronologically speaking, the first in the series of requests that was made to LBRUT for the purposes of this appeal, being made on 17</span><span style="vertical-align:super;font-size:11pt;font-family:Arial">th</span><span style="font-family:Arial;font-size:11pt"> November 2023. It was made two months after LBRUT had made its decision in respect of the health suite at Pools on the Park. It was submitted that LBRUT had not, in fact, obtained any supplier estimates at this stage, as the only estimates obtained were provided by a quantity surveyor (QS Support Ltd).  These were subsequently provided to the Appellant, though as referred to previously, the sums involved were redacted from the documents under section 43(2) FOIA. </span><span style="font-size:11pt">It was submitted that whilst this request was the first request in the sequence, it was only later that LBRUT realised that there was a pattern of behaviour which comprised of a request being made, a response from LBRUT, unhappiness expressed by the Appellant, a request for a review and then formal complaints being made about the decision. In total, seven formal complaints were made, with all being rejected and LBRUT&#8217;s decision being upheld. Each complaint was then taken to the relevant ombudsman, but they determined that it was not within their jurisdiction, as the requests did not involve a particular service to the requester. This, it is submitted, gives this request a context and a backdrop where the general behaviour of the Appellant goes way beyond a strong public interest in the Pools on the Park health suite.</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;Please provide any written supplier estimates and/or internal/external communications that were used to determine these two estimates.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">71.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant responded by stating that he submitted this information request ten days after the committee meeting took place where the decision was made not to reopen the health suite and instead to convert it into a group exercise studio. The Appellant explained that he was looking for the bottom-line figures, in that he wanted to see how the quantity surveyor arrived at the figures reached, which it subsequently came to light was &#163;140k and &#163;210k for the respective options. It was further explained that those figures were already in the public domain when he made this request in November 2023. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';font-size:11pt">Discussion and Conclusions</span></heading>
+	  <paragraph eId="para_72">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">72.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The first request in time was that of 17</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2023 (request 5 - ICO Ref: IC-297962-G7Q7 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0064). However, this was dealt with by the Commissioner in the second of his two Decision Notices (</span><span style="font-size:11pt">IC-297962-G7Q7 &#8211; dated 23</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> December 2024). This is of note as the earlier Decision Notice of 5</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2024 (IC-300052-G2Z8, IC305377-Y5Q5, IC-305634-L8K7 and IC-327841-D8P9) dealt with the requests which post-dated that request. It is unclear why this occurred in this manner, but the Commissioner acknowledged this issue at paragraphs 18 to 20 of his Decision Notice, where he states as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">&#8220;18.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">The Commissioner has recently issued a decision notice regarding several other requests made by the complainant, on the subject of the indoor renovation project at Pools on the Park. Those requests were made in February and April 2024, and the Commissioner upheld LBRUT&#8217;s refusals on the basis of section 14(1). </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">19.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">He didn&#8217;t include the present case in that decision notice; since then, however, the Commissioner has carefully considered the request of 17 November 2023 further (and, in particular, the circumstances that existed at the time that LBRUT&#8217;s response was due), and has been able to finalise his decision.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-size:11pt;font-family:'Book Antiqua'">20.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-size:11pt">LBRUT&#8217;s reasons for relying upon section 14(1) in the present case are the same as its reasons for relying on that exemption in the cases covered by the decision notice cited in paragraph 18 above.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">73.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">There is little detail in the Commissioner&#8217;s Decision Notice regarding how he came to the conclusion that this request was vexatious within the meaning of section 14(1) FOIA. Instead, the Commissioner points to his earlier Decision Notice of 5</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2024 to explain his rationale for reaching the same conclusions, even though that Decision Notice dealt with the requests which I have already explained post-dated this request.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">74.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT&#8217;s decision in relation to the Pools on the Park health suite was made on 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2023, and as has been indicated above, the initial request (request 5) was made ten days later on 17</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2023. The second Decision Notice (IC-297962-G7Q7) references that this request was the third request for information made by the Appellant which related to LBRUT&#8217;s decision of 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2023. LBRUT&#8217;s position and that of the Commissioners is that the request was vexatious. However, before we may examine whether this request was vexatious, because of the way in which the Commissioner approached this decision, we must first consider the rationale for the later requests (requests 1 to 4), as set out in the Decision Notice of 5</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2024. In that decision, the Commissioner approached the question of whether those four requests were vexatious by considering the four broad themes which were identified in the case of </span><span style="font-style:italic;font-weight:bold;font-size:11pt">Dransfield</span><span style="font-size:11pt">, namely: (1) the burden on the public authority and its staff; (2) the motive of the requester; (3) the value or serious purpose of the request; and (4) any harassment or distress of and to staff. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Commissioner firstly made an assessment of the value or serious purpose of the request, acknowledging that there was a public interest in information about the Pools on the Park project, but stating that this public interest was met by LBRUT discussing its plans in public meetings, publishing information about the project, and having a page on its website with updates. Specifically, the Commissioner points to the assertion made by LBRUT that the Appellant was </span><span style="font-style:italic;font-size:11pt">&#8220;aggrieved by the Pools on the Park health suite refurbishment project.&#8221;</span><span style="font-size:11pt">, that this grievance could not be resolved under FOIA, and that it should instead be challenged in the courts. The Commissioner then referred to the Appellant making four complaints in December 2023, two in January 2024, and one in March 2024, which all related to the Pools on the Park project. However, none of these complaints nor the responses from LBRUT were evidenced in either the OPEN or CLOSED bundle which the Tribunal had been provided with. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">76.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Whilst the Commissioner acknowledges a general public interest in transparency and accountability, he took the view that the Appellant&#8217;s requests were linked to his dissatisfaction with LBRUT&#8217;s decision in relation to the Pools on the Park project. He therefore questioned the value or serious purpose of all four information requests (requests 1 to 4) which were being examined in that Decision Notice. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">77.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Commissioner then addressed the burden on the public authority and referred to the Appellant&#8217;s requests in relation to the project having commenced in 2022, though he noted that only two requests were made in that year. He then set out that the number of requests increased from November 2023, with three requests being made in November 2023, four in December 2023, one in January 2024, five in February 2024, six in March 2024, and one in April 2024, making a total of twenty requests over that period. Additionally, the Commissioner pointed to the Appellant making six complaints to LBRUT over December 2023 and January 2024, which he considered added to the burden on the local authority, and he noted that LBRUT had expressed that the requests </span><span style="font-style:italic;font-size:11pt">&#8220;will continue into the future&#8221;</span><span style="font-size:11pt">.  He considered that </span><span style="font-style:italic;font-size:11pt">&#8220;burden is a weighty factor in favour of deeming the four requests of February and April 2024 vexatious.&#8221;</span><span style="font-size:11pt">. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">78.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">In terms of motive, the Commissioner concluded that the Appellant was </span><span style="font-style:italic;font-size:11pt">&#8220;using FOIA to air their grievances with LBRUT&#8221;</span><span style="font-size:11pt">, and that the Appellant was </span><span style="font-style:italic;font-size:11pt">&#8220;dissatisfied with and seeks to fight LBRUT&#8217;s decision on the health suite.&#8221;</span><span style="font-size:11pt">. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">79.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Lastly, before carrying out a balancing exercise in relation to the four broad themes, the Commissioner considered whether there was any harassment or distress caused to LBRUT&#8217;s staff. He stated that </span><span style="font-style:italic;font-size:11pt">&#8220;a request which is the latest in a series demonstrating obsessive behaviour can have the effect of harassing staff due to the collective burden the requests place on staff.&#8221;</span><span style="font-size:11pt">, and referred to LBRUT having stated:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-size:11pt">&#8220;The frequent, voluminous and repetitious nature of the contact by complainant with [LBRUT] has the effect of harassing [LBRUT] staff due to the collective burden on [LBRUT] of responding to the complainant&#8217;s requests and contact.&#8221; </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">80.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Commissioner&#8217;s overall view of this broad theme was that LBRUT&#8217;s staff would have felt harassed at the time of the Appellant&#8217;s requests of February and April 2024, having regard to the number, pattern and duration of the requests, and the number of complaints made by the Appellant in December 2023 and January 2024 which related to the Pools on the Park project. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">81.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">When considering whether the four requests were vexatious, the balancing exercise carried out by the Commissioner sought to determine whether the value and purpose of the requests were enough to justify their impact on the public authority. He concluded that the impact of the Appellant&#8217;s requests upon LBRUT was not justified in respect of each of the four requests, and he noted the limited value and purpose of the requests, and the burden on LBRUT. He concluded that the four requests of February 2024 and April 2024 were vexatious. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_8_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold;font-size:11pt">Request 5 (ICO Ref: IC-297962-G7Q7 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0064)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_82">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">82.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">As has already been referred to above, the Commissioner applied the rationale identified in this earlier Decision Notice to the information request which formed the subject matter for the later Decision Notice of 23</span><span style="vertical-align:super;font-size:11pt">rd</span><span style="font-size:11pt"> December 2024. The Tribunal has considered the assessment and view reached by the Commissioner in relation to this earlier information request (request 5), but considers that there was, at the time, a value or serious purpose to the request, in that the council had recently made a decision in how to spend its funds on the repurposing of a public amenity. Without knowing how the council&#8217;s costings were reached, it would be difficult for a member of the public to properly understand whether the sums involved represented value for money or were otherwise cost effective. The request was targeted in nature, focusing on any information which was used to determine the costings for the two options, and the motive from the request appears to be to gain an understanding of how the council&#8217;s decision of 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> November 2023 was reached. In terms of any burden on LBRUT, the Tribunal considers that it was incorrect of the Commissioner to approach this specific request by reference to the rationale he had already applied to the later requests, and that the context for this request was therefore at odds with the context applied to the subsequent four information requests which were the subject of the earlier Decision Notice. The context, as it was in relation to this request (request 5), was that this was the third information request that the Appellant had made of LBRUT in relation to the Pools on the Park project. The Appellant had not made any complaints to LBRUT about any of these matters, and the Tribunal does not consider that there would have been any harassment or distress caused to the LBRUT staff by this request. Whilst the four broad themes identified in </span><span style="font-style:italic;font-weight:bold;font-size:11pt">Dransfield</span><span style="font-size:11pt"> are not exhaustive, the Tribunal must have regard to the high standard required for an information request to be considered vexatious, and in this instance, having considered the four broad themes, the Tribunal does not consider that the request was a &#8220;</span><span style="font-style:italic;font-size:11pt">disproportionate, manifestly unjustified, inappropriate or improper use of FOIA.&#8221;. </span><span style="font-size:11pt">The Commissioner&#8217;s decision was therefore not in accordance with the law. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">83.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">LBRUT relied in the alternative upon the exemption provided by section 43(2) FOIA, in that it was submitted that the disclosure of detailed breakdowns of the overall costs estimates in respect of the two options would be likely to prejudice the commercial interests of the public authority. As the procurement process for the project had not concluded at the time of the request, with the project still to go out to tender, LBRUT considered that disclosure of a detailed breakdown to potential bidders would affect its ability to carry out a competitive procurement process for the works. Whilst LBRUT did not provide any specific evidence that would support this proposition, it is common sense that providing full details of the breakdown of estimated costs to a potential bidder for the works would be likely to prejudice the ability of the public authority to run a competitive procurement exercise to secure value for money. By way of example, this might result in a bidder deciding not to offer certain costs savings for some of the works, if it was to be made fully aware of the anticipated costs for that aspect of the work. The Tribunal therefore considers that section 43(2) FOIA is engaged in respect of these detailed breakdowns of costs. However, section 43 FOIA is a qualified exemption, and before a public authority may rely upon the exemption it must carry out a balancing exercise of the competing public interests. The Tribunal must therefore consider whether &#8220;</span><span style="font-style:italic;font-size:11pt">In all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information.&#8221;</span><span style="font-size:11pt">. Whilst the Tribunal recognises that there is a general public interest in transparency and accountability, preventing a public authority from running a competitive procurement exercise would not be in the public interest if a conceivable consequence of disclosing the information is that a greater drain is placed upon the public purse than it should be. The public interest in maximising the cost effectiveness or cost savings for any publicly funded project is, in the Tribunal&#8217;s view, of particular importance, and in this instance the Tribunal considers that the public interest in maintaining the exemption outweighs the public interest in disclosing the information. Accordingly, LBRUT was entitled to rely upon the exemption provided by section 43(2) FOIA in relation to request 5. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_8_2">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Request 2 (ICO Ref: IC-305634-L8K7 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0014)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_84">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">84.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">As the Appellant clarified at the hearing of this matter, this request came about following the response he received in connection with request 5 (ICO Ref: IC-297962-G7Q7 / Appeal Reference: </span><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0064), which stated that </span><span style="font-style:italic;font-size:11pt">&#8220;There are no supplier estimates as this cost exercise was carried out by a QS.&#8221;</span><span style="font-size:11pt">. This led him to refine the terms of this follow-on request, by reference to QS Support Limited, which was made on 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> February 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">85.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">As has been summarised above at paragraphs 74 to 81, the Commissioner concluded that each of the four requests dealt with in his Decision Notice, including this request, were vexatious. However, this request stemmed from the response that had already been provided by LBRUT, and the Tribunal considers that the value or serious purpose of the request remains as it was for request 5. The motive of the Appellant is equally clear, in that he is seeking to obtain an understanding of how the overall costs detailed for the two projects were reached. It is undoubtedly the case that seeking this information would lead to greater transparency and accountability on the part of LBRUT. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">86.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">By this point in time, the Appellant had made a number of requests of LBRUT, with at least eight other requests, which, save for request 5, do not form the subject of this appeal. He had additionally made a total of 6 complaints to LBRUT in December 2023 and January 2024. Nevertheless, we do not consider that this particular request was particularly burdensome for LBRUT. It was a request which had been formulated in response to LBRUT&#8217;s own response to his previous request and was focused in nature, being confined to a specific date. It is therefore hard to comprehend how this particular request was in any way burdensome to LBRUT, particularly when its scope was confined in this manner. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">87.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">In terms of any harassment or distress caused to LBRUT&#8217;s staff as a consequence of this request, it does not appear to this Tribunal that the request was particularly onerous or burdensome, and it is evident that LBRUT did locate information which was within the scope of this request, as they provided documents and emails which were </span><span style="font-style:italic;font-size:11pt">&#8220;redacted of costs yet to go out to tender&#8221;</span><span style="font-size:11pt">. Of course, the section 14(1) FOIA exemption was applied at the stage of the Commissioner&#8217;s investigation and LBRUT had prior to that point sought to rely upon the exemption contained within section 43(2) FOIA, which is now being relied upon in the alternative to section 14(1) FOIA, should it be decided that the Commissioner&#8217;s decision was not in accordance with the law. However, having considered the four broad themes identified in </span><span style="font-style:italic;font-weight:bold;font-size:11pt">Dransfield</span><span style="font-size:11pt">, and looking at things in the round, the Tribunal does not consider that this request reached the high standard required to be considered vexatious. Nevertheless, for the reasons identified in paragraph 83 above, the Tribunal reaches the same conclusion in relation to the section 43(2) FOIA exemption, and determines, having applied the public interest balancing exercise required by section 2(2) FOIA that the public interest in maintaining the exemption outweighs the public interest in disclosing the information relating to detailed costings or rates, which was withheld from the Appellant. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_8_3">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Request 4 (ICO Ref: IC-327841-D8P9 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0015)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_88">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">88.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">This request of 15</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> April 2024 was stated in the request to be a </span><span style="font-style:italic;font-size:11pt">&#8220;supplementary request to [request 2]&#8221;</span><span style="font-size:11pt">, and although it was treated as such by LBRUT and was not dealt with as a separate request for information by the public authority, the Commissioner&#8217;s decision in relation to this request is now the subject of this appeal. The Tribunal has some sympathy with LBRUT in relation to its handling of this request because the Appellant&#8217;s wording of the request may have been confusing initially. Nevertheless, LBRUT confirmed that it had provided all communications it held between LBRUT and QS Support Limited in its responses to requests 5 and 2. This request followed on from request 2, which has been addressed above, and came about as a result of the other material that had been disclosed to the Appellant in response to those earlier requests. By the time of this request, the Appellant told the Tribunal that he was waiting on LBRUT to respond to his request for an internal review of its response to request 2, which is why he considered that this was a separate request in its own right and should not have been dealt with together with request 2 when the LBRUT communicated the outcome of its internal review to request 2. As with request 2, the Commissioner found that this request was vexatious. The Tribunal takes a contrary view to this position. Firstly, this was a follow-up request to LBRUT&#8217;s response to request 2, whereby it disclosed emails to the Appellant which made reference to a named individual, whose name had been redacted from that material. The value or serious purpose in this request remained as it was in relation to requests 5 and 2, in that there is a general public interest in the need for transparency and accountability from public authorities. The motive and the value and serious purpose of the request are therefore inextricably linked, and the Appellant was clearly motivated to get to the bottom of who had been involved in the decision-making process relating to the Pools on the Park project. As with the previous request, it is targeted and focused, and would not, in the view of the Tribunal, place an excessive burden upon LBRUT in responding to it. Indeed, LBRUT confirmed to the Commissioner, as part of the investigation process, that it had carried out searches of emails which would be within the scope of this request. The Tribunal therefore has some scepticism that this request would have caused any of LBRUT&#8217;s staff harassment or distress in receiving or responding to this request. Whilst the Tribunal acknowledges that the Appellant had made 19 information requests by the time of this request, and a number of complaints to LBRUT, having considered the broad themes identified in Dransfield, the Tribunal does not consider that the high bar for vexatiousness has been met in this instance. The Commissioner&#8217;s decision was therefore not in accordance with the law. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">89.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Turning to the question of whether the information requested was held by LBRUT at the time of the request, the Tribunal is satisfied on the balance of probabilities that it was not held. In reaching this determination, the Tribunal considered the nature of the material which had already been disclosed to the Appellant in response to request 5 and 2, and the searches carried out by LBRUT which were disclosed to the Commissioner as part of his investigation (see page 135 of the OPEN bundle). The following information was provided to the Commissioner in this regard:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1.18in"><span style="font-style:italic;font-size:11pt">&#8220;All communications between the Council and QS Support Ltd regarding Pools on the Park were conducted via email. There were no paper records.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1.18in"><span style="font-style:italic;font-size:11pt">Council Officers who carried out communications with QS Support Ltd were identified, consulted and their emails were searched using the search terms:</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-size:11pt">Pools on the Park;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-size:11pt">POTP;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-size:11pt">QS Support;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-size:11pt">QS Support Limited;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-size:11pt">The name of the consultant at QS Support Limited [NAME REDACTED]; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-size:11pt">The consultant&#8217;s email address. </span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.18in;text-indent:-0.25in"><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-size:11pt">Emails relating to providing costs for the two options for the Pools on the Park were located, extracted and redacted before being disclosed with the Council&#8217;s response.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.18in"><span style="font-style:italic;font-size:11pt">&#8230;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1.18in"><span style="font-style:italic;font-size:11pt">The Council&#8217;s search as detailed above did not reveal any information relating to the redacted named person in Email 8 of the disclosures in the Council response to request LBR-FOI.04209 (IC-3056340L8K7), giving their comments on the estimates provided by QS Support Limited.&#8221;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_8_4">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Request 1 (ICO Ref: IC-300052-G2Z8 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0012)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_90">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">90.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">This request of 7</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> February 2024 asked for </span><span style="font-style:italic;font-size:11pt">&#8220;all project management documentation for the strip out of the health suite area at Pools on the Park Richmond that took place in July 2022.&#8221;</span><span style="font-size:11pt">.  The request stated that the reasons for the work being carried out and the specification of the works being carried out should be included as part of this request, and that details of planning advice or listed building consent should additionally be provided in any response. LBRUT provided its reasons for the work and the nature of the work being addressed, and subsequently explained that </span><span style="font-style:italic;font-size:11pt">&#8220;Richmond Council does not hold any project management documentation for the strip out of the health suite area at Pools on the Park, because these works were carried out by the Council&#8217;s Facilities Management team, who undertake small repairs works jobs, which do not require such documentation and no listed building consent or planning advice was required for these works either.&#8221;</span><span style="font-size:11pt">. In effect, LBRUT&#8217;s position was that it did not hold any &#8216;project management&#8217; documentation in relation to the stripping out of the health suite at the Pools on the Park site. However, as with the other requests which are the subject of the Commissioner&#8217;s Decision Notice, reliance was subsequently placed upon section 14(1) FOIA to refuse to comply with the request. However, as is evident from the initial responses that LBRUT provided, some information had already been disclosed in response to this information request. The question is therefore whether the Commissioner was correct in finding that LBRUT was entitled to find that the request was vexatious. His reasons are summarised at paragraphs 74 to 81 above. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">91.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The Appellant was aware that this building was a Grade II listed building and he explained at the hearing that he was aware that the costs of this stripping out of the building were stated to be &#163;13,915.20 inclusive of VAT. In view of this, and despite being informed by LBRUT that this was a minor maintenance instruction, he explained that he was concerned that the building&#8217;s protected status might not have been adhered to when such works were carried out. Additionally, he considered that the fact that he had been provided with some information, albeit it had been copied and pasted into a document from another source, suggests that there was an original document where the maintenance instruction came from. In terms of the value or serious purpose of the request, and despite the Commissioner&#8217;s questioning of the value or serious purpose of the request, the Tribunal considers that there is value and a serious purpose to the request, in that the Appellant is seeking transparency and accountability from LBRUT in relation to how it conducts its affairs in relation to the listed status of the building concerned. Even if the Appellant is taken to be opposed to the council&#8217;s decision to change the usage of this building from a health suite to a group exercise studio, his motives appear to the Tribunal to be related to securing transparency and accountability from LBRUT. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">92.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The request itself was focused and targeted, and the Tribunal does not consider that the request was overly burdensome to LBRUT. If anything, the fact that LBRUT responded to the request demonstrates that it did not find the request to be particularly burdensome, and it was a later decision to place reliance upon section 14(1) FOIA, having initially provided what information it considered fell within the scope of the request, and then having determined that it did not hold any &#8216;project management&#8217; documentation, citing that this was a maintenance instruction. For the same reasons, the Tribunal does not consider that this request, even against the backdrop of other requests or complaints would be capable of causing any of LBRUT&#8217;s staff harassment or distress. Looking at the four broad themes holistically, the Tribunal does not consider that the high bar for vexatiousness was met in this instance. The Tribunal therefore concludes that the Commissioner&#8217;s Decision Notice, in relation to this request, was not in accordance with the law. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">93.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The question remains, however, as to whether LBRUT holds any &#8216;project management&#8217; documentation. The Tribunal does not consider that the words &#8216;project management&#8217; should be confined to any engagement with contractors or external suppliers, and it should be given a wider interpretation, which includes any engagement with internal resources such as LBRUT&#8217;s Facilities Management Team. In this instance, the works were carried out by this team and a &#8216;maintenance instruction&#8217; was given. It is therefore the Tribunal&#8217;s view that this information is held for the purposes of FOIA and is within scope of the request. The document containing the maintenance instruction should therefore have been disclosed to the Appellant in response to his request and should be provided to him, subject to any redactions required under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40/2" uk:canonical="2000 c. 36 s. 40" uk:origin="TNA" uk:type="legislation">section 40(2)</ref> FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_8_5">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:11pt">Request 3 (ICO Ref: IC305377-Y5Q5 / Appeal Reference: </span><span style="font-weight:bold;font-family:Arial;font-size:11pt">FT/EA/2025/0013)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_94">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">94.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">This request of 28</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> February 2024 was for the </span><span style="font-style:italic;font-size:11pt">&#8220;full anonymised results of this residents&#8217; consultation on the future group exercise studio at the Pools on the Park that was open between 01/02/24 and 28/02/24&#8221;</span><span style="font-size:11pt">. In responding to this request on 6</span><span style="vertical-align:super;font-size:11pt">th</span><span style="font-size:11pt"> March 2024, LBRUT stated that this was not a &#8216;consultation exercise&#8217; but was </span><span style="font-style:italic;font-size:11pt">&#8220;engaging users and non-users on their views on programming the group exercise studio&#8221;</span><span style="font-size:11pt">. LBRUT went on to explain that it was working on the analysis report and that the results would be made publicly available once signed off. It therefore initially relied upon the qualified exemption contained within section 22(1) FOIA, in that it intended to publish this information at some future date. LBRUT subsequently changed its position at the investigation stage with the Commissioner, thereafter asserting that the request was vexatious under section 14(1) FOIA. The Commissioner determined that LBRUT was entitled to rely upon section 14(1) FOIA for the reasons identified in his Decision Notice which are summarised at paragraphs 74 to 81 above. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_95">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">95.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">This was a clear and targeted request for information, seeking the full anonymised results of the consultation exercise carried out. In making this request, the Appellant clearly recognised that he would not be provided with the personal data of any individuals who took part in the process. He was particular to request the full results which were obtained by LBRUT, and in his evidence, he explained that he had previous experience of LBRUT not providing the full results when he had previously been assured that he would be provided with them in relation to another consultation. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_96">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">96.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">Having regard to the four broad themes identified in </span><span style="font-style:italic;font-weight:bold;font-size:11pt">Dransfield</span><span style="font-size:11pt">, the Tribunal considers that there is some value and serious purpose to this request, namely the need for transparency and accountability in relation to LBRUT. The motive of the Appellant is clearly to scrutinise how LBRUT may have considered the views of the Pools on the Park users and stakeholders, in addition to financial factors, when making its decision on to change the usage of the health suite. As the request is target to information which would have been readily available to LBRUT, having carried out this &#8216;engagement&#8217; exercise, the Tribunal is satisfied that complying with this request would not have been very onerous, particularly when it was recorded in digital form, and extracting the anonymised data would have been a relatively simple exercise. The Tribunal has of course had the benefit of viewing this material in the CLOSED bundle. Equally, it is highly unlikely, in the Tribunal&#8217;s view, that even when considering the context of this request, which was one of a number of other requests that had been made by this point, that any of LBRUT&#8217;s staff would have felt harassed or been caused distress by it. Having regard to this request in the round, the Tribunal concludes that the high bar required to find a request vexatious has not been reached in this instance. The Tribunal therefore finds that the Commissioner&#8217;s decision in respect of this request was not in accordance with the law. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_97">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">97.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">As with the other requests, however, LBRUT sought to rely upon section 22(1) FOIA in the alternative. LBRUT confirmed that it intended to publish an analysis report at some future date, which it subsequently did in May 2024. However, that was not the information which the Appellant had requested in this request. He had been specific to request the full, anonymised results of the &#8216;engagement exercise&#8217;, or as he put it the consultation exercise. It is not important what the exercise was called, but it was clear what the Appellant was seeking. Given that LBRUT intended to publish an analysis report in the future, it is clear that it never intended to publish the full results of the exercise. For this reason, the Tribunal concludes that LBRUT was not entitled to rely upon section 22(1) FOIA to withhold the information. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_98">
+	    <num style="font-family:'Book Antiqua';font-size:11pt;margin-left:0.5in;text-indent:-0.25in">98.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11pt">The appeal is allowed to the extent set out above. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua';font-size:11pt">Signed:</span><marker name="tab"/><span style="font-family:'Book Antiqua';font-size:11pt">Judge Armstrong-Holmes</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua';font-size:11pt">Date: </span><marker name="tab"/><marker name="tab"/><docDate date="2026-05-18" refersTo="#decision"><span style="font-family:'Book Antiqua';font-size:11pt">18</span><span style="vertical-align:super;font-size:11pt;font-family:'Book Antiqua'">th</span><span style="font-family:'Book Antiqua';font-size:11pt"> May 2026</span></docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

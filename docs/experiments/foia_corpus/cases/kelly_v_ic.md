@@ -2,8 +2,8 @@
 
 citation: [2026] UKFTT 353 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/353
-exemptions: []
-verified: no
+exemptions: s12(1)
+verified: yes
 
 <!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
      Gold rules against cache/ukftt_grc_2026_353_reasoning.txt. The pipeline skips
@@ -13,7 +13,7 @@ verified: no
 
 <!-- RAW kept sections from ukftt/grc/2026/353/data.xml (everything before the tribunal's
      own reasoning) — used as-is; trim only if context length forces it.
-     Withheld headings: (none) -->
+     Withheld headings: Findings and reasons -->
 
 ### (preamble)
 
@@ -81,45 +81,24 @@ verified: no
 
 26. Regulation 4(3) sets out the costs which can be taken into account when complying with section 1(1) of FOIA for the purposes of the appropriate limit. They are: (a) determining whether it holds the information, (b) locating the information, or a document which may contain the information, (c) retrieving the information, or a document which may contain the information, and (d) extracting the information from a document containing it.
 
-### Findings and reasons
-
-27. The issue for determination in this appeal is whether the Commissioner’s decision to uphold the GDC’s application of section 12(1) of FOIA was correct. Section 40 of FOIA was not relied on by the GDC and consideration of section 40 did not form part of the Commissioner’s decision notice challenged in this appeal. Section 40 is therefore not within the scope of this appeal.
-
-28. Section 12(1) , if it applies, it is not subject to a public interest balance. We recognise that there is significant and legitimate public interest underlying the reasons for the appellant’s request; however, it is simply not material to the issue we must determine in this appeal.
-
-29. The appellant complains that the GDC failed to carry out a sampling exercise to support its estimate that reviewing records to comply with his request would take over 554 hours. We recognise that the Commissioner’s guidance says that such an exercise would normally be expected. It is not however a requirement. In our view the GDC has considered this request in some depth, particularly following the Commissioner’s first decision. We find that it is more likely than not that because of the GDC’s consideration, it was able to reach a realistic estimate of the time it would take to review the information. We find that we can place weight on that estimate. The appellant has not pointed us to anything which would suggest that the GDC’s estimate is unreasonable or otherwise wrong. Although he has now said that the request should be limited to just the CRM, we accept the reasons given which demonstrate why this would not be effective and would not identify all information within scope of the request.
-
-30. Given the nature of the review required, we find that the GDC’s estimate that it would take 5 to 10 minutes per case is not unreasonable. The Commissioner considered that even taking the lower estimate and assuming that the review was in fact twice as efficient, i.e. taking only 2.5 minutes per case, the time would still far exceed the appropriate limit. Limiting the request to two years from December 2022 to December 2024 would significantly reduce the time required. Even so, the DSC opened an average of 750 cases per year during that period. Using the lower GDC estimate of 5 minutes per case, that would amount to 125 hours. Assuming that it would only take 2.5 minutes per case, that still amounts to over 62 hours. This is still nearly three and a half times the appropriate limit. We do not accept that a time of less than 2.5 minutes per record is likely to be realistic or reasonable.
-
-31. For these reasons, we find that section 12(1) is engaged and that the Commissioner was correct to confirm the GDC’s reliance on section 12(1) of FOIA.
-
-32. In respect of section 16, we find that the GDC provided a detailed explanation of the difficulties in complying with the appellant’s request. The GDC carried out additional searches and disclosed some information that was not within the scope of the appellant’s original request. In addition, the GDC identified how the appellant could narrow the scope of his request and identified potential issues that might arise if he did so. We find that the Commissioner was correct to find that the GDC had complied with its obligations under section 16 of FOIA.
-
-33. It follows therefore that the Commissioner’s decision is upheld and the appellant’s appeal is dismissed.
-
-Signed J K Swaney Date 6 March 2026
-
-Judge J K Swaney
-
-Judge of the First-tier Tribunal
-
 ## Disputed information
 
-TODO
+Complaints data held by the General Dental Council (GDC) about Bute Dental Care Limited or registered dental professionals working there, lodged with the Dental Complaints Service between 30 December 2014 and 30 December 2024. The dispute is whether s12(1) correctly exempts the GDC from complying with the request because a manual review of its records to locate this information would exceed the £450 / 18-hour appropriate cost limit.
 
 ## Oracle facts
 
-Request, ConfirmOrDeny, HoldsInfo, RefusalNotice
+Request, RefusalNotice, CostExceedsLimit
 
 ## Gold
 
 withhold
 
-<!-- header disposition hint: appeal is (not detected) -->
+<!-- header disposition hint: appeal dismissed -->
 
-<!-- label-draft notes (gpt-4.1): The decision provides no explicit findings as the reasoning is withheld; as such only procedural atoms are stated, based on the tribunal's heading and case context. -->
+<!-- label-draft notes (gpt-4.1): The tribunal finds at [29]-[31] that the GDC's estimate is realistic, the cost limit is exceeded, and s12(1) is engaged. The decision notice is upheld and the appeal dismissed ([33]). The public interest test is not reached ([28]). -->
+<!-- ConfirmOrDeny excluded: the Commissioner found (para 15(xi)) that the GDC failed to comply with its obligation to confirm or deny, so ConfirmOrDeny does not hold. HoldsInfo excluded: the tribunal made no finding that information is held; GDC could not identify any within scope via a cost-proportionate search. -->
 
 ## Gold rules
 
-engaged: 
+engaged: s12_cost
 pi: na

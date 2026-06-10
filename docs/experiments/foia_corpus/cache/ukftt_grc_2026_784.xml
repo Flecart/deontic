@@ -1,0 +1,827 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/784"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/784"/>
+	  <FRBRdate date="2026-06-02" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="784"/>
+	  <FRBRname value="Roger Wood v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/784"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/784"/>
+	  <FRBRdate date="2026-06-02" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/784/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/784/data.xml"/>
+	  <FRBRdate date="2026-06-02T10:50:40" name="transform"/>
+	  <FRBRdate date="2026-06-02T12:29:26" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-21" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-02" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="roger-wood" href="" showAs="ROGER Wood"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="The Information commissioner"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-tribunal-judge-sophie-buckley" href="/judge-tribunal-judge-sophie-buckley" showAs="TRIBUNAL Judge SOPHIE BUckley"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>784</uk:number>
+	<uk:cite>[2026] UKFTT 784 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.1</uk:parser>
+	<uk:hash>cb97499fd3782e6e9e5ce25024c0f03e567afc137d8759ea67e57fd64a4ae366</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { text-align: left; margin-left: 0.58in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation2 { text-align: left; margin-left: 1in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation3 { text-align: left; margin-left: 1.25in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .EndnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Lucida Grande'; font-size: 9pt; }
+#judgment .Revision { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .NormalWeb { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .NumNormal { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .EndnoteTextChar { font-family: 'Book Antiqua'; }
+#judgment .EndnoteReference { vertical-align: super; }
+#judgment .PageNumber { }
+#judgment .BalloonTextChar { font-family: 'Lucida Grande'; font-size: 9pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .NumNormalChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p class="Style2" style="text-align:justify">NCN: <neutralCitation>[2026] UKFTT 00784 (GRC)</neutralCitation><marker name="tab"/>Case Reference: FT/EA/2025/0402</p>
+      <p class="Style1"><courtType refersTo="#ukftt-grc">First-tier Tribunal</courtType></p>
+      <p class="Style1"><courtType refersTo="#ukftt-grc">General Regulatory Chamber</courtType></p>
+      <p class="Style1"><docJurisdiction refersTo="#jurisdiction-informationrights">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold">Decided without a hearing</span></p>
+      <p style="text-align:right"><span style="font-weight:bold">Decision given on: </span><docDate date="2026-06-02" refersTo="#decision" style="font-weight:bold">2 June 2026</docDate></p>
+      <p class="Style4">Before</p>
+      <p class="Style5"><judge refersTo="#judge-tribunal-judge-sophie-buckley">TRIBUNAL Judge SOPHIE BUckley</judge></p>
+      <p class="Style5">TRIBUNAL MEMBER MARION SAUNDERS</p>
+      <p class="Style5">TRIBUNAL MEMBER EMMA YATES</p>
+      <p class="Style4">Between</p>
+      <p class="Style5"><party as="#appellant" refersTo="#roger-wood">ROGER Wood</party></p>
+      <p class="Style6"><role refersTo="#appellant">Appellant</role></p>
+      <p class="Style4">and</p>
+      <p class="Style5" style="margin-left:0.25in"><party as="#respondent" refersTo="#the-information-commissioner">The Information commissioner</party></p>
+      <p class="Style6"><role refersTo="#respondent">Respondent</role></p>
+      <p class="Style1">Decision: <span style="font-weight:normal">The appeal is dismissed </span></p>
+      <p><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold">Introduction</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">This is an appeal against the Commissioner&#8217;s decision notice IC-388879-Q2R3 of 22 October 2025 which held that the London Borough of Lambeth (&#8216;the Council&#8217;) was entitled to refuse to confirm or deny whether it held the requested information on the basis of regulation 13(5A)(a) (personal data) of the Environmental Information Regulations 2004 (EIR). </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold">Factual background to the appeal</span></heading>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In 2021 the Council issued an enforcement notice against the owner of the Property for installing a driveway without planning permission in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8/section/172" uk:canonical="1990 c. 8 s. 172" uk:origin="TNA" uk:type="legislation">section 172</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1990/8" uk:canonical="1990 c. 8" uk:origin="TNA" uk:type="legislation">Town and Country Planning Act 1990</ref> (TCPA). Thereafter the Council refused a retrospective planning application in respect of the Property.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Failure to comply with an enforcement notice may result in prosecution. Mr Wood wishes to know whether the Council has written to the owner of the Property about legal proceedings.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Council&#8217;s enforcement activities concerning the Property generated a lot of correspondence between Mr Wood and the Council. On 22 November 2021 Mr Wood informed the Council that the boundary wall of the Property had been partly demolished by a vehicle crashing into it that day. Further, Mr Wood informed the Council that following his enquires to it regarding the enforcement matter, in August 2024 his vehicle was damaged and on 11 April 2025, his property was subjected to arson. The latter is being investigated by the Metropolitan Police.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Between 1 April 2025 and 9 July 2025 Mr Wood made several information requests to the Council concerning the enforcement matter regarding the Property, and two requests under the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> (DPA), one formal complaint and eight Members&#8217; Enquiries. In addition Mr Wood contacted the Local Government and Social Care Ombudsman (the Ombudsman) and his local MP about the Council&#8217;s enforcement activities in respect of the Property.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold">Request and response</span></heading>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Mr. Wood has made a number of requests for information. The requests about which he complained to the Commissioner and which are therefore within our jurisdiction are those requests in which he has sought confirmation as to whether or not communications were sent to the owner or occupier of &#8216;address A&#8217; between 19 March 2025 and 11 April 2025 regarding a planning enforcement case. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Mr Wood had previously made a subject access request. His request of 22 April 2025 read as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8220;Further to my original request, I would like to formally request copies of all communications&#8212;including letters, emails, internal memos or records of phone calls&#8212; between Lambeth Council and the owner or occupier of [&#8220;address A&#8221; redacted], between 1st March 2025 and 11th April 2025, which relate to the planning enforcement case reference [reference number redacted].</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">In particular, I am requesting disclosure of any communications that: Refer to me by name [complainant&#8217;s name redacted], </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">Refer to my property at [&#8220;address B&#8221; redacted], or </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">Make any reference to my involvement in the planning breach report or subsequent enforcement action.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">On 7 May 2025 the Council provided Mr Wood with a response to his previous subject access request. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">On 7 May 2025 Mr Wood wrote to the Council as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8220;I am writing in response to the refusal to disclose communications between Lambeth Council and the owner of [address A], specifically between 19th March and 11th April 2025, which I requested under the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">Your reply stated that these communications could not be disclosed as doing so would infringe the rights and freedoms of third parties. However, this response is inconsistent with previous FOI disclosures already made by the council. In the past, you have provided me with redacted copies of letters sent to [address A], specifically relating to enforcement activity linked to planning reference [number redacted]. Those documents were supplied in line with FOIA provisions, demonstrating that it is entirely possible for the council to redact third-party personal data while still complying with its legal obligation to disclose information.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">This raises the following critical question:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">What has changed in the council&#8217;s legal interpretation of FOIA that now prevents similar redacted disclosure?</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">My current FOI request is very narrowly focused. I am seeking:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">Any correspondence between the council and [address A redacted] between 19 March and 11 April 2025,</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8226; Specifically in relation to planning enforcement case [reference number redacted],</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8226; And particularly any content that references me personally, either by name [complainant&#8217;s name redacted] or address [address B redacted]</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">This period is of significant public interest as it directly precedes the attempted arson attack&#8230;which is now the subject of a CID investigation. Whether or not my name, address, or identity was disclosed in council correspondence during this period is of crucial importance in understanding potential safeguarding failures and the council&#8217;s treatment of whistleblowers.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">I therefore request that you either:</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num>1.</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">Provide the correspondence with appropriate redactions, as you have previously done,</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num>2.</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">Or clearly justify why the FOIA standard previously applied is now being denied in this case.&#8221;</p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Mr. Wood wrote to the Council on 8 May 2025 as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8220;For the sake of absolute clarity, I am writing to confirm that my current Freedom of Information request is simply seeking the same type of information previously provided to me by Lambeth Council under FOI in relation to the ongoing planning enforcement dispute at [address A redacted]. Previous FOI response attached for reference.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">To reiterate:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">I am asking whether there was any written communication &#8212; including emails, letters, notices, or internal records of correspondence between the council and the homeowner of [address A redacted] between 19th March 2025 and 11th April 2025, specifically in relation to planning enforcement case [reference number redacted].</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">If such correspondence exists, I am requesting:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8226; Confirmation of its existence, and</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8226; A copy (with redactions if required), consistent with the council&#8217;s previous FOI disclosures.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Mr Wood wrote to the Council on 20 May as follows: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8220;I am writing to follow up on my email dated 8<span style="vertical-align:super;font-size:smaller">th</span> May 2025, in which I sought confirmation of any written communication between Lambeth Council and the owner of [address A redacted] between 19th March and 11th April 2025, in relation to enforcement case Ref: [number redacted].</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">As yet, I have received no response or acknowledgment.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">To be absolutely clear, I am not requesting the personal data of third parties. I am requesting:</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8226; Confirmation of whether such communication exists;</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8226; And, if so, a copy of it (with redactions as appropriate), consistent with previous FOI responses issued by Lambeth Council.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">On 23 May 2025 the Council responded to this correspondence, asserting that the information provided to Mr Wood in November 2024 should have been withheld under section 40 FOIA and refusing to provide the requested information.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">On 10 June 2025, the Council informed Mr Wood that a number of his requests should be dealt with under EIR and relied on regulation 13 to refuse to confirm or deny whether it held information within the scope of those requests. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold">Decision notice</span></heading>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner concluded that the requested information, if held, was likely to be information on measures covered by regulation 2(1)(c) because it was information relating to a planning matter. He therefore dealt with the matter under the EIR. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner concluded that confirming whether or not information was held would disclose personal data because confirming whether or not it had written to the owner/occupier of address A about the planning enforcement case between a particular set of enforcement dates would involve the disclosure of personal data of that individual, namely whether that individual had received a letter from the Council about a planning enforcement matter. The Commissioner considered that whether the individual had received such a letter is a matter of biographical significance for them. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner accepted that Mr Wood had a legitimate interest in understanding the specific actions the Council might have taken about a planning enforcement matter concerning a neighbouring property. He accepted that the Council confirming whether or not it held the requested information was necessary in order to meet that legitimate interest. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commission accepted that property owners would not reasonably expect such specific details about complaints made about their property to be routinely disclosed under EIR. He recognised that there were particular and sensitive circumstances to this request which meant that the reasonable expectations of non-disclosure were even greater, because confirmation or denial could lead to inferences being drawn about that individual and alleged arson. The Commissioner accepted that this could have a harmful impact on the individual. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner said that he had significant sympathy with Mr Wood&#8217;s position. He accepted that confirmation or denial would contribute to transparency for Mr Wood on this issue, which is one which has a direct impact on his safety and well-being. The Commissioner said that co-ordination between the Council and the police is not one that should be facilitated by disclosure to the world at large under EIR. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner concluded that confirmation or denial would not be lawful and that the Council correctly relied on section 13(5A)(a) FOIA. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold">The grounds of appeal</span></heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.25in">The grounds of appeal are, in summary: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.54in">20.1.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in">Mr Wood did not request personal data and the Commissioner was wrong to conclude that the fact of whether a letter had been sent discloses personal data. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.54in">20.2.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in">The public interest balance under regulation 13(2A) EIR favours disclosure</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in;text-indent:-0.54in">20.3.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in">The Commissioner failed to properly consider the background to the request. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold">The Commissioner&#8217;s response</span></heading>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner submitted that the focus of regulation 13(5A)(a) is on whether confirming or denying whether the information is held can be achieved without contravening any of the data protection principles. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner said that the EIR requests contain the full address of the owner of the Property and the associated planning enforcement reference so that, together with information known to others including those who live in the vicinity of the Property, the owner can be identified. The Commissioner maintains that confirming or denying whether such correspondence is held risks revealing, to the world under the EIR, if the owner of the Property received correspondence from the Council about a planning enforcement matter contrary to their reasonable expectations of privacy.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner said that he considers that the presumption in favour of disclosure in regulation 12(2) EIR does not apply when handling a request for personal data.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner submitted that any arguments in support of a public interest in the relevant confirmation or denial were not applicable because regulation 13(5A)(a) is an absolute exception and so is not subject to a public interest test.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.25in">To the extent that Mr Wood challenges the Commissioner&#8217;s assessment of the legitimate interests in confirming or denying whether the requested information is held and balancing them against the rights and freedoms of the data subject (the owner of the Property) for the purposes of Article 6(1)(f) UK GDPR, the Commissioner noted: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.73in">25.1.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in">The Commissioner accepted that Mr Wood was pursuing a legitimate interest in understanding the specific actions the Council may have taken about a planning enforcement action concerning a neighbouring property. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.73in">25.2.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in">The Commissioner said that he had carefully considered Mr Wood&#8217;s submissions and the sensitive context to his request. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.73in">25.3.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in">The Commissioner accepted that confirming or denying was necessary. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.73in">25.4.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in">The Commissioner noted that the Council had advised the appellant that his details were held in confidence, which should allay Mr Wood&#8217;s concerns that the Council had disclosed his name, address or identity to the owner of the Property. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.73in">25.5.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in">The Commissioner noted that Mr Wood had used less privacy intrusive means of holding the Council to account by submitting a formal complaint to the Council and reporting the Council to the Ombudsman and his MP. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner submitted that in balancing the legitimate interests and the data subject&#8217;s interest&#8217;s or fundamental rights and freedoms for the purposes of Article 6(1)(f) UK GDPR, he considered factors relevant to the circumstances of this case and that the weight given to those factors in favour of proving confirmation or denial was fully appropriate: significant, but not such as to outweigh the harm to the data subject&#8217;s interests and privacy rights caused by providing confirmation or denial to the world under the EIR.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner submitted that there is no presumption that the openness and transparency of the activities of public authorities should take priority over personal privacy.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner submitted that if the tribunal disagrees that providing confirmation or denial would be lawful, it must go on to consider whether such processing would be fair and transparent. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading><span style="font-weight:bold">Legal framework</span></heading>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The relevant provisions of the EIR are regulations 12 and 13(1) </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading><span style="font-style:italic">Reg 5 Duty to make available environmental information on request</span></heading>
+	  <paragraph eId="lvl_8_1">
+	    <num style="font-size:11pt">(1)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">Subject to paragraph (3) and in accordance with paragraphs (2), (4), (5) and (6) and the remaining provisions of this Part and Part 3 of these Regulations, a public authority that holds environmental information shall make it available on request.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading><span style="font-style:italic">Reg 12 Exceptions to the duty to disclose environmental information</span></heading>
+	  <paragraph eId="lvl_9_1">
+	    <num style="font-size:11pt">(1)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if&#8212;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_9_2">
+	    <num style="font-size:11pt">(a)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">an exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_9_3">
+	    <num style="font-size:11pt">(b)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_9_4">
+	    <num style="font-size:11pt">(2)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">A public authority shall apply a presumption in favour of disclosure.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_9_5">
+	    <num style="font-size:11pt">(3)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">To the extent that the information requested includes personal data of which the applicant is not the data subject, the personal data shall not be disclosed otherwise than in accordance with regulation 13.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_9_6">
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">&#8230;</span></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_10">
+	  <heading><span style="font-style:italic">Regulation 13 Personal data</span></heading>
+	  <paragraph eId="lvl_10_1">
+	    <num style="font-size:11pt">(1)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">To the extent that the information requested includes personal data of which the applicant is not the data subject, a public authority must not disclose the personal data if&#8212; </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_10_2">
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">(a)the first condition is satisfied, or</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_10_3">
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">(b)the second or third condition is satisfied and, in all the circumstances of the case, the public interest in not disclosing the information outweighs the public interest in disclosing it.</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="lvl_10_4">
+	    <num style="font-size:11pt">(2A)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">The first condition is that the disclosure of the information to a member of the public otherwise than under these Regulations&#8212; </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_10_5">
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">(a)would contravene any of the data protection principles, or&#8230;</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_10_6">
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">&#8230;</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="lvl_10_7">
+	    <num style="font-size:11pt">(5A)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">For the purposes of this regulation a public authority may respond to a request by neither confirming nor denying whether such information exists and is held by the public authority, whether or not it holds such information, to the extent that&#8212; </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_10_8">
+	    <num style="font-size:11pt;margin-left:0.75in;text-indent:-0.25in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.75in;text-indent:0.12in"><span style="font-size:11pt">the condition in paragraph (5B)(a) is satisfied, or</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_10_9">
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">&#8230;</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="lvl_10_10">
+	    <num style="font-size:11pt">(5B)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">The conditions mentioned in paragraph (5A) are&#8212; </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_10_11">
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">(a)giving a member of the public the confirmation or denial&#8212;</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="lvl_10_12">
+	    <num style="font-size:11pt">(i)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">would (apart from these Regulations) contravene any of the data protection principles, or</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_10_13">
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-size:11pt">&#8230;</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <intro>
+	      <p style="margin-left:0.25in">Personal data is defined in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/2" uk:canonical="2018 c. 12 s. 3" uk:origin="TNA" uk:type="legislation">s 3(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> (DPA) as:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.59in"><span style="font-size:11pt">Any information relating to an identified or identifiable living individual </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p style="margin-left:0.25in">&#8216;Identifiable&#8217; means a living individual who can be identified, directly or indirectly. It must be possible to identify an individual using all the information that is reasonably likely to be used, including information that would be sought out by a motivated inquirer. Identifying a pool that contains or may contain a person is insufficient. It is not sufficient to say that a person is reasonably likely to be covered by the data (<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">NHS Business Services Authority v Information Commissioner and Spivak</span><span style="font-weight:bold"/><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2021/192" uk:canonical="[2021] UKUT 192 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKUT 192 (AAC)</ref>). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <intro>
+	      <p style="margin-left:0.25in">Article 5(1) UKGDPR states that personal data must be processed &#8216;lawfully and fairly&#8217;. In order to be lawful, one of the lawful bases of processing in article 6(1) GDPR must apply. The only potentially relevant basis here is article 6(1)(f):</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.59in"><span style="font-size:11pt">Processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which requires protection of personal data, in particular where the data subject is a child.   </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <intro>
+	      <p style="margin-left:0.25in">The case law on article 6(1)(f)&#8217;s predecessor established that it required three questions to be answered, which we consider are still appropriate if reworded as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p style="margin-left:0.5in">Is the data controller or a third party pursuing a legitimate interest or interests?</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">2.</num>
+	      <content>
+		<p style="margin-left:0.5in">Is the processing involved necessary for the purposes of those interests?</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">3.</num>
+	      <content>
+		<p style="margin-left:0.5in">Are the above interests overridden by the interests or fundamental rights and freedoms of the data subject?</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading><span style="font-weight:bold">The task of the Tribunal</span></heading>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The tribunal&#8217;s remit is governed by s.58 FOIA. This requires the tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved exercising discretion, whether she should have exercised it differently. The tribunal may receive evidence that was not before the Commissioner and may make different findings of fact from the Commissioner.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading><span style="font-weight:bold">The issues </span></heading>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.25in">The issues we have to determine are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.73in">35.1.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.98in">Would confirming or denying that the requested information was held disclose personal data? </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.98in;text-indent:-0.73in">35.2.</num>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:0.98in">Would confirming or denying that the requested information was held breach any of the data protection principles:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.93in;text-indent:-0.35in">35.2.1.</num>
+		<intro>
+		  <p class="ListParagraph" style="margin-left:1.93in;text-indent:0.4in">Are the conditions in 6(1)(f) met i.e. </p>
+		</intro>
+		<subparagraph>
+		  <num style="margin-left:2.46in;text-indent:-0.75in">35.2.1.1.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:2.46in;text-indent:0.25in">Is the data controller or the third party or parties to whom the data is disclosed pursuing a legitimate interest or interests?</p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:2.46in;text-indent:-0.75in">35.2.1.2.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:2.46in;text-indent:0.25in">Is the processing involved necessary for the purposes of those interests?</p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="margin-left:2.46in;text-indent:-0.75in">35.2.1.3.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:2.46in;text-indent:0.25in">Are the above interests overridden by the interests or fundamental rights and freedoms of the data subject?</p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_13">
+	  <heading><span style="font-weight:bold">Evidence and submissions</span></heading>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">We have read an open and a closed bundle of documents, which we have taken account of where relevant. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_14">
+	  <heading><span style="font-weight:bold">Discussion and conclusions</span></heading>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">It is not in dispute that the requested information is environmental information. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">We have to consider what information would be revealed either by confirming that the information was held or by denying that the information was held. In this appeal it is a confirmation, rather than a denial, that would reveal personal information. If the Council confirmed that the requested information was held, that would reveal that it had communicated in writing with the owner about the enforcement case. An enforcement notice had been issued against the owner in 2021 and retrospective planning permission had been refused. It is an offence not to comply with an enforcement notice. A reasonable inference, if communication had taken place in the relevant period, is that the Council was at least considering taking further action against the owner, which could include prosecution for failure to comply or the use of the authority&#8217;s default powers to carry out the steps required in the enforcement notice. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">The owner is identifiable from the wording of the request. The information that would be revealed by a confirmation that the information was held, as set out in the previous paragraph, has the owner as its focus. It relates to and is obviously about the owner. We find that it is the personal information of the owner. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">We accept that there is a general legitimate interest in ensuring that the Council takes appropriate steps in enforcing planning law. We do not accept that disclosure of this particular information is reasonably necessary for the purposes of that legitimate interest. There are other ways of holding the Council to account including formal complaints to the Council and to the Ombudsman. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">We accept that Mr Wood has an individual legitimate interest in understanding the actions the Council may have taken about a planning enforcement matter concerning a neighbouring property. We find that disclosure is reasonably necessary for the purposes of that legitimate interest, because it would enable Mr Wood to understand whether or not the Council was taking steps to ensure that the enforcement notice was effective. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">Mr Wood also has a separate individual legitimate interest in understanding the circumstances in the period leading up to the arson attack on his property on 11 April 2025. Disclosure of the requested information would not tell Mr Wood who was responsible for the arson attack, but we accept that it would help him to understand whether there was any correspondence from the Council just before the attack. We accept that disclosure is reasonably necessary for that purpose. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in"> We accept that there is a general legitimate interest in the police having access to any relevant evidence to support their investigation. We do not accept that disclosure is reasonably necessary for the purpose of the legitimate interest. A complaint has been made to the police. The police have powers to obtain relevant evidence from the Council for the purposes of their investigation and could obtain any such correspondence if they thought it relevant. It is not reasonably necessary to disclose any such correspondence to the world for the purposes of the criminal investigation. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">Having concluded that disclosure is reasonably necessary for the purposes of some of the legitimate interests, we have considered whether those interests are outweighed by the fundamental rights and freedoms of the owner. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">Criminal offence data is treated as particularly sensitive by the UK GDPR. This is not criminal offence data, but confirmation would lead to a reasonable inference that the Council was at least considering taking further action against the owner, which could include prosecution for failure to comply or the use of the authority&#8217;s default powers to carry out the steps required in the enforcement notice. For those reasons we take the view that there is a particularly strong legitimate expectation that this information would not be made public. We do not have any evidence of the views of the owner, but we find that a reasonable person would be likely to suffer some upset if the Council made public that they were at the early stages of considering taking further action which could include prosecution for failure to comply or the use of the authority&#8217;s default powers to carry out the steps required in the enforcement notice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">Given the lack of a more general public legitimate interest in disclosure, taking into account the ability of the police, if they wished, to obtain any such information in the course of their investigation and taking account of the sensitivity of the personal information and the other matters set out above, in our view the legitimate interests in disclosure are overridden by the interests or fundamental rights and freedoms of the data subject.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">For those reasons the public authority was entitled to neither confirm nor deny that the information was held and the appeal is dismissed. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="Style7" style="margin-left:0in">Signed Sophie Buckley <marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>Date: <docDate date="2026-05-21" refersTo="#decision">21 May 2026</docDate></p>
+	    <p class="Style7" style="margin-left:0in">Judge of the First-tier Tribunal</p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

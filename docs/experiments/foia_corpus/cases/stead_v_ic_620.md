@@ -2,12 +2,9 @@
 
 citation: [2026] UKFTT 620 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/620
-exemptions: ['s27(1)(a)', 's27(1)(b)', 's40(2)']
-verified: no
+exemptions: s27(1)(a), s27(1)(b), s40(2)
+verified: yes
 
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2026_620_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
 
 ## Background
 
@@ -81,19 +78,15 @@ a. An agreed bundle of open documents. b. A closed bundle of documents containin
 
 ## Disputed information
 
-TODO
+Two documents withheld entirely under s27(1)(a) and (b), relating to meetings between the IPO and other countries or international organisations about the proposed copyright and database exception for text and data mining. Also withheld under s40(2): names and job titles of junior civil servants, and names and job positions of individuals from third-party (non-governmental) organisations whose details appeared in the requested materials.
 
 ## Oracle facts
 
-Request, HoldsInfo, ConfirmOrDeny, RefusalNotice, PrejudiceInternationalRelations, ThirdPartyPersonalData, ContraveneDPPrinciples
+Request, HoldsInfo, ConfirmOrDeny, RefusalNotice, PrejudiceInternationalRelations, ThirdPartyPersonalData, ContraveneDPPrinciples, PiMaintainOutweighs
 
 ## Gold
 
 withhold
-
-<!-- header disposition hint: appeal is (not detected) -->
-
-<!-- label-draft notes (gpt-4.1): The tribunal found the exemptions in sections 27(1)(a) and (b) engaged as disclosure would be likely to prejudice international relations (paras 23–24, 29–30) and that the public interest favours maintaining the exemption (paras 24, 27–28). The tribunal also found s40(2) was engaged because disclosure of junior civil servant and external individuals' names would contravene data protection principles (paras 31–32). -->
 
 ## Gold rules
 
