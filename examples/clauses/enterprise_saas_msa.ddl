@@ -188,11 +188,16 @@ superiority: use_permitted > no_use_default, conf_employees_v > conf_no_disclose
 # CLI checks (run after uncommenting a scenario's facts: or copy facts: line)
 #
 #   deontic check examples/clauses/enterprise_saas_msa.ddl
+#   deontic query examples/clauses/enterprise_saas_msa.ddl PayFees SuspendAccess \
+#       --assume CustomerParty,FeesDue,PaymentOverdue
+#     → Customer: O(PayFees) · Vendor: O(SuspendAccess)  (per-bearer default)
+#   deontic query examples/clauses/enterprise_saas_msa.ddl SuspendAccess --bearer Vendor
 #   deontic query examples/clauses/enterprise_saas_msa.ddl SuspendAccess RestoreAccess --trace
-#   deontic query examples/clauses/enterprise_saas_msa.ddl ClaimServiceCredits MeetUptimeTarget
-#   deontic abduce examples/clauses/enterprise_saas_msa.ddl 'P(DiscloseConfidentialInfo)' \
-#       --assume EmployeeNeedToKnow,EmployeeUnderNDA
-#     (large atom set — use --assume to pin carve-out paths; LegalCompulsion alone also suffices)
+#   deontic abduce examples/clauses/enterprise_saas_msa.ddl \
+#       'P@Customer(DiscloseConfidentialInfo)' --all
+#     → { EmployeeNeedToKnow, EmployeeUnderNDA } or { LegalCompulsionRequired }
+#   deontic abduce examples/clauses/enterprise_saas_msa.ddl 'P(DiscloseConfidentialInfo)' --all
+#     (aggregate: both parties must be permitted — same configs here)
 #   deontic abduce examples/clauses/enterprise_saas_msa.ddl 'P(SolicitVendorEmployee)' --all
 #   deontic query examples/clauses/enterprise_saas_msa.ddl ExceedLiabilityCap IndemnifyCustomer
 #

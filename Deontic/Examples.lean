@@ -72,21 +72,21 @@ def ex4Theory : Theory := { ex3Theory with
 #eval do
   IO.println "=== Example 1A: license + publish + remove ==="
   let ext := computeExtension ex1Theory
-  IO.println (renderQueryResults ["use", "publish", "comment"] ext)
+  IO.println (renderQueryResults ex1Theory ["use", "publish", "comment"] ext none)
   IO.println s!"  violation: {ext.hasViolation}"
   IO.println s!"  unresolved: {ext.unresolvedConflicts.length}"
 
 #eval do
   IO.println "=== Example 1B: license + publish (no removal) ==="
   let ext := computeExtension ex1TheoryB
-  IO.println (renderQueryResults ["use", "publish", "comment"] ext)
+  IO.println (renderQueryResults ex1TheoryB ["use", "publish", "comment"] ext none)
   IO.println s!"  violation: {ext.hasViolation}"
   IO.println s!"  unresolved: {ext.unresolvedConflicts.length}"
 
 #eval do
   IO.println "=== Example 1C: license + commission ==="
   let ext := computeExtension ex1TheoryC
-  IO.println (renderQueryResults ["use", "publish", "comment"] ext)
+  IO.println (renderQueryResults ex1TheoryC ["use", "publish", "comment"] ext none)
   IO.println s!"  violation: {ext.hasViolation}"
   if ext.hasUnresolvedConflicts then
     IO.println (renderUnresolvedConflicts ext)
@@ -94,12 +94,12 @@ def ex4Theory : Theory := { ex3Theory with
 #eval do
   IO.println "=== Example 3: ExpressionDissatisfaction + InformationCall ==="
   let ext := computeExtension ex3Theory
-  IO.println (renderQueryResults ["complaint"] ext)
+  IO.println (renderQueryResults ex3Theory ["complaint"] ext none)
 
 #eval do
   IO.println "=== Example 4: + AdviseComplaint ==="
   let ext := computeExtension ex4Theory
-  IO.println (renderQueryResults ["complaint"] ext)
+  IO.println (renderQueryResults ex4Theory ["complaint"] ext none)
 
 -- ── Abduction: which facts make a goal hold? ──────────────────────────────────
 -- NDA confidentiality clause (cf. examples/other.ddl): default prohibition on
@@ -118,16 +118,18 @@ def ndaTheory : Theory where
   superiority := [("rperm", "rprohibit")]
 
 -- Goal shorthands
-private def gP   (a : Atom) : Condition := ⟨true,  true, .P, .pos a⟩
-private def gF   (a : Atom) : Condition := ⟨true,  true, .O, .neg a⟩  -- F(a) = O(~a)
-private def gNotO (a : Atom) : Condition := ⟨false, true, .O, .pos a⟩ -- ¬ O(a)
+private def gP   (a : Atom) : Condition := ⟨true,  true, .P, .pos a, none⟩
+private def gF   (a : Atom) : Condition := ⟨true,  true, .O, .neg a, none⟩  -- F(a) = O(~a)
+private def gNotO (a : Atom) : Condition := ⟨false, true, .O, .pos a, none⟩ -- ¬ O(a)
 
 -- Goal/condition token parsing
-#guard (parseCondition "P(Disclose)").toOption == some ⟨true,  true, .P, .pos "Disclose"⟩
-#guard (parseCondition "F(Disclose)").toOption == some ⟨true,  true, .O, .neg "Disclose"⟩
-#guard (parseCondition "O(~use)").toOption     == some ⟨true,  true, .O, .neg "use"⟩
-#guard (parseCondition "!C(Notify)").toOption  == some ⟨false, true, .C, .pos "Notify"⟩
-#guard (parseCondition "~complaint").toOption  == some ⟨true,  true, .C, .neg "complaint"⟩
+#guard (parseCondition "P(Disclose)").toOption == some ⟨true,  true, .P, .pos "Disclose", none⟩
+#guard (parseCondition "P@Customer(Disclose)").toOption ==
+  some ⟨true, true, .P, .pos "Disclose", some "Customer"⟩
+#guard (parseCondition "F(Disclose)").toOption == some ⟨true,  true, .O, .neg "Disclose", none⟩
+#guard (parseCondition "O(~use)").toOption     == some ⟨true,  true, .O, .neg "use", none⟩
+#guard (parseCondition "!C(Notify)").toOption  == some ⟨false, true, .C, .pos "Notify", none⟩
+#guard (parseCondition "~complaint").toOption  == some ⟨true,  true, .C, .neg "complaint", none⟩
 #guard (parseAssumption "NeedToKnow").toOption == some (.factPos "NeedToKnow")
 #guard (parseAssumption "~Knows").toOption     == some (.factNeg "Knows")
 #guard (parseAssumption "-Knows").toOption     == some (.absent  "Knows")
@@ -153,7 +155,7 @@ private def gNotO (a : Atom) : Condition := ⟨false, true, .O, .pos a⟩ -- ¬ 
 #guard (abduce ndaTheory [] [gP "Disclose", gNotO "Protect"]).minimal == []
 
 -- License: an obligation to `use` is reachable only by asserting `commission`.
-#guard (abduce ex1Theory [] [⟨true, true, .O, .pos "use"⟩]).minimal == [[.pos "commission"]]
+#guard (abduce ex1Theory [] [⟨true, true, .O, .pos "use", none⟩]).minimal == [[.pos "commission"]]
 
 -- Relevance restriction: only carve-out facts feed P(Disclose); `Director` gates
 -- the constitutive def1 (not rperm's plain antecedent) so it is *not* abducibly
@@ -162,7 +164,7 @@ private def gNotO (a : Atom) : Condition := ⟨false, true, .O, .pos a⟩ -- ¬ 
   ["Representative", "NeedToKnow", "TransactionPurpose"]
 -- When the goal literal is itself an abducible fact, asserting it must remain in
 -- the search space (its own fact-status is read directly, not via any rule head).
-#guard (abduce ndaTheory [] [⟨true, true, .C, .pos "NeedToKnow"⟩]).minimal == [[.pos "NeedToKnow"]]
+#guard (abduce ndaTheory [] [⟨true, true, .C, .pos "NeedToKnow", none⟩]).minimal == [[.pos "NeedToKnow"]]
 
 -- Multi-bearer + an unattributed prescriptive rule: bearer-`none` must not spuriously
 -- satisfy `P(x)` while attributed bearers still forbid the act (cf. enterprise MSA).
@@ -177,13 +179,17 @@ private def bilateralNdaTheory : Theory where
   superiority := [("perm_v", "no_v"), ("perm_c", "no_c")]
 #guard (abduce bilateralNdaTheory [] [gP "Disclose"]).minimal == [[.pos "NeedToKnow"]]
 #guard (abduce bilateralNdaTheory [] [gP "Disclose"]).minimal.contains [] == false
+#guard (abduce bilateralNdaTheory [] [⟨true, true, .P, .pos "Disclose", some "Customer"⟩]).minimal ==
+  [[.pos "NeedToKnow"]]
+#guard (normativeStatusForBearer (computeExtension bilateralNdaTheory) "Disclose" (some "Customer")) ==
+  "F(Disclose)"
 
 #eval do
   IO.println "=== Abduction: configurations that ALLOW Disclose ==="
   IO.println (renderAbduceResult (abduce ndaTheory [] [gP "Disclose"]) true 8)
   IO.println ""
   IO.println "=== Abduction: configurations that REQUIRE use (license) ==="
-  IO.println (renderAbduceResult (abduce ex1Theory [] [⟨true, true, .O, .pos "use"⟩]) true 8)
+  IO.println (renderAbduceResult (abduce ex1Theory [] [⟨true, true, .O, .pos "use", none⟩]) true 8)
 
 -- ── Atom descriptions / provenance ────────────────────────────────────────────
 
@@ -267,6 +273,45 @@ def bearerTheory : Theory where
 
 -- A strong permission inherits the bearer of the obligation it comes from.
 #guard (computeExtension bearerTheory).derivation.has ⟨true, .Ps, some "Vendor", .pos "a"⟩
+
+-- `overrides` by atom: defeater + superiority over every rule concluding the atom.
+#guard match Deontic.Parser.parse
+    "atom a: x\natom base: b\natom aggr: g\nbase_r: a =>O base\naggr_r: b =>O aggr overrides base" with
+  | .ok thy =>
+    thy.rules.any (·.label == "aggr_r_ovr_base") &&
+      thy.superiority.contains ("aggr_r_ovr_base", "base_r")
+  | .error _ => false
+
+-- `overrides` by rule label: defeat only the named rule (same effect when one rule per atom).
+#guard match Deontic.Parser.parse
+    "atom a: x\natom base: b\natom aggr: g\nbase_r: a =>O base\naggr_r: b =>O aggr overrides base_r" with
+  | .ok thy =>
+    thy.rules.any (·.label == "aggr_r_ovr_base_r") &&
+      thy.superiority == [("aggr_r_ovr_base_r", "base_r")]
+  | .error _ => false
+
+-- Rule-label override: only the targeted rule is defeated, not another rule on the same atom.
+private def ruleOverrideTheory : Theory :=
+  match Deontic.Parser.parse
+    "atom a: x\natom p: p\nbase1: a =>O p\nbase2: a =>O p\naggr: a =>O p overrides base1" with
+  | .ok thy => thy
+  | .error _ => { facts := [], rules := [], superiority := [] }
+#guard ruleOverrideTheory.superiority == [("aggr_ovr_base1", "base1")]
+#guard ruleOverrideTheory.superiority.all (·.2 != "base2")
+
+-- F/P antecedents parse as deontic literals (not plain atoms).
+#guard match Deontic.Parser.parse "atom a: x\natom b: y\nr: F(a) =>O ~b" with
+  | .ok thy =>
+    match thy.rules.head? with
+    | some r => r.antecedent == [.deontic ⟨.F, .pos "a"⟩]
+    | none => false
+  | .error _ => false
+#guard match Deontic.Parser.parse "atom a: x\natom b: y\nr: P(a) ~>O b" with
+  | .ok thy =>
+    match thy.rules.head? with
+    | some r => r.antecedent == [.deontic ⟨.P, .pos "a"⟩]
+    | none => false
+  | .error _ => false
 
 -- The parser reads `@Party` off a prescriptive arrow and rejects it on a
 -- constitutive one.

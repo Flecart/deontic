@@ -45,7 +45,8 @@ Prescriptive arrows carry `O`; constitutive arrows omit it.
 - **Precondition block** — `A, B { … }` prepends `A, B` to every rule inside, so
   shared elements are written once. Keep the prohibition *outside* the block.
 - **`overrides X`** suffix → the rule's conclusion supersedes `X` (lex specialis;
-  `X` becomes not-obligated). Use for an aggravated penalty over a base one.
+  `X` becomes not-obligated). `X` may be a **rule label** (`overrides pena_624`)
+  or an **atom** (`overrides ReclusioneFurto` — every rule concluding it).
 
 A decomposed offence then reads:
 `Elem1, Elem2, Mens { tipico: =>O@Judge Punishable ; pena: O(Punishable) =>O@Judge Penalty overrides BasePenalty }`.

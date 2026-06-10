@@ -35,7 +35,7 @@ pass=0; fail=0
 expect_status() {  # FILE ATOM ASSUME EXPECTED DESC
   local out got
   out=$("$DEO" query "$1" "$2" --assume "$3" 2>/dev/null)
-  got=$(printf '%s\n' "$out" | grep -E "^[[:space:]]*$2 : " | sed -E 's/.* : //; s/\(.*//')
+  got=$(printf '%s\n' "$out" | grep -E "^[[:space:]]*$2[[:space:]]+:" | sed -E 's/.* : //; s/\(.*//')
   if [ "$got" = "$4" ]; then pass=$((pass+1)); printf 'ok   %-54s %s(%s)\n' "$5" "$4" "$2"
   else fail=$((fail+1)); printf 'FAIL %-54s want %s got %s  [%s]\n' "$5" "$4" "${got:-none}" "$2"; fi
 }

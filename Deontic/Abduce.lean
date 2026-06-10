@@ -1,6 +1,7 @@
 import Deontic.Theory
 import Deontic.ProofTags
 import Deontic.Extension
+import Deontic.Query
 
 namespace Deontic
 
@@ -36,12 +37,15 @@ structure Condition where
   positive : Bool
   modality : Modality
   lit      : Lit
+  /-- `none` = aggregate over all bearers; `some p` = directed goal for party `p`. -/
+  bearer   : Option String := none
   deriving Repr, BEq
 
 instance : ToString Condition where
   toString c :=
     let sign := if c.positive then "+∂" else "-∂"
-    let body := s!"{sign}_{c.modality} {c.lit}"
+    let who  := match c.bearer with | some p => s!"@{p}" | none => ""
+    let body := s!"{sign}_{c.modality}{who} {c.lit}"
     if c.holds then body else s!"¬({body})"
 
 /-- A fact configuration: the literals asserted as facts in a candidate world. -/
@@ -88,30 +92,48 @@ private def litOfString (s : String) : Except String Lit :=
   else if s.isEmpty then .error "empty literal"
   else .ok (.pos s)
 
+private def modPrefixes : List (String × Modality × Bool) :=
+  [("Ps", Modality.Ps, false), ("Pw", .Pw, false), ("O", .O, false), ("F", .O, true),
+   ("P", .P, false), ("C", .C, false)]
+
 /-- Parse a goal/condition token.
 
 Accepted forms (optional leading `!` means "must NOT hold"):
-  `O(x)` `F(x)` `P(x)` `Ps(x)` `Pw(x)` `C(x)`   — modal status of `x`
-  `x` / `~x`                                     — `x` holds as a (derived) fact, i.e. `C(x)` / `C(~x)`
-`F(x)` is sugar for `O(~x)`. Atoms inside may themselves be negated, e.g. `O(~use)`. -/
+  `O(x)` `F(x)` `P(x)` …           — aggregate over bearers (any party)
+  `O@Party(x)` `P@Customer(x)` …   — directed goal for one bearer
+  `x` / `~x`                        — `C(x)` / `C(~x)`
+`F(x)` is sugar for `O(~x)`. Atoms inside may be negated, e.g. `O@Vendor(~use)`. -/
 def parseCondition (raw : String) : Except String Condition := do
   let s0 := trimS raw
   let (holds, s) := if s0.startsWith "!" then (false, trimS (s0.drop 1).toString) else (true, s0)
   if s.isEmpty then .error "empty condition"
-  let prefixes := [("Ps(", Modality.Ps, false), ("Pw(", .Pw, false),
-                   ("O(", .O, false), ("F(", .O, true),
-                   ("P(", .P, false), ("C(", .C, false)]
-  match prefixes.find? (fun (p, _, _) => s.startsWith p) with
+  match modPrefixes.find? (fun (p, _, _) => s.startsWith p) with
   | some (p, mod, isF) =>
-    if !s.endsWith ")" then .error s!"missing ')' in '{raw}'"
-    let inner := trimS ((s.drop p.length).dropEnd 1).toString
-    let lit ← litOfString inner
-    .ok ⟨holds, true, mod, if isF then lit.compl else lit⟩
+    let rest := (s.drop p.length).toString
+    let (bearer, innerS) ←
+      if rest.startsWith "@" then
+        let after := (rest.drop 1).toString
+        match after.splitOn "(" with
+        | party :: innerParts =>
+          let party := trimS party
+          if party.isEmpty then .error s!"missing bearer after '@' in '{raw}'"
+          let inner := innerParts.foldl (fun acc s => if acc.isEmpty then s else acc ++ "(" ++ s) ""
+          if !inner.endsWith ")" then .error s!"missing ')' in '{raw}'"
+          pure (some party, trimS (inner.dropEnd 1).toString)
+        | [] => .error s!"missing '(' after bearer in '{raw}'"
+      else if !rest.startsWith "(" then
+        .error s!"expected '(' or '@Party(' after modality in '{raw}'"
+      else if !rest.endsWith ")" then
+        .error s!"missing ')' in '{raw}'"
+      else
+        pure (none, trimS ((rest.drop 1).dropEnd 1).toString)
+    let lit ← litOfString innerS
+    .ok ⟨holds, true, mod, if isF then lit.compl else lit, bearer⟩
   | none =>
     if s.any (fun c => c == '(' || c == ')') then
       .error s!"unknown modal operator in '{raw}' (expected O/F/P/Ps/Pw/C)"
     let lit ← litOfString s
-    .ok ⟨holds, true, .C, lit⟩
+    .ok ⟨holds, true, .C, lit, none⟩
 
 /-- Parse an assumption token: `a` (true), `~a` (false), or `-a` (must stay absent). -/
 def parseAssumption (raw : String) : Except String Assumption := do
@@ -225,30 +247,41 @@ private def bySize (cs : List Config) : List Config :=
 
 -- ── The search ──────────────────────────────────────────────────────────────────
 
-/-- A directed act is forbidden when *some* bearer is obliged either the act or its
-complement (same priority as `normativeStatus`: O beats P). -/
-private def actForbidden (ext : Extension) (q : Lit) : Bool :=
-  ext.derivation.hasPositiveAny .O q || ext.derivation.hasPositiveAny .O q.compl
-
-/-- Bearer-existential check for a single abduction condition. Permission goals use
-normative priority so a spurious bearer-`none` weak permission (from vacuous `−∂_O`
-in the unattributed slice) cannot satisfy `P(x)` while attributed bearers still forbid
-the act. Obligation and constitutive goals stay tag-existential over bearers. -/
-private def conditionHolds (ext : Extension) (c : Condition) : Bool :=
+/-- Whether a goal condition holds. `bearer = none` on the condition is the
+aggregate view (any party; O beats P). `bearer = some p` is directed. -/
+def conditionHolds (ext : Extension) (c : Condition) : Bool :=
   let present :=
-    if c.modality == .O || c.modality == .C then
-      ext.derivation.hasPositiveAny c.modality c.lit
-    else if ext.isUnresolvedAtom c.lit.atom then
-      false
-    else if actForbidden ext c.lit then
-      false
-    else match c.modality with
-      | .Ps => ext.derivation.hasPositiveAny .Ps c.lit
-      | .Pw => ext.derivation.hasPositiveAny .Pw c.lit
-      | .P  => ext.derivation.hasPositiveAny .Ps c.lit ||
-               ext.derivation.hasPositiveAny .P c.lit ||
-               ext.derivation.hasPositiveAny .Pw c.lit
-      | _ => false
+    match c.bearer with
+    | some b =>
+      if c.modality == .O || c.modality == .C then
+        ext.derivation.hasPositiveForBearer (some b) c.modality c.lit
+      else if ext.isUnresolvedAtomForBearer c.lit.atom (some b) then
+        false
+      else if actForbiddenForBearer ext c.lit (some b) then
+        false
+      else match c.modality with
+        | .Ps => ext.derivation.hasPositiveForBearer (some b) .Ps c.lit
+        | .Pw => ext.derivation.hasPositiveForBearer (some b) .Pw c.lit
+        | .P  =>
+          let d := ext.derivation
+          d.hasPositiveForBearer (some b) .Ps c.lit ||
+          d.hasPositiveForBearer (some b) .P c.lit ||
+          d.hasPositiveForBearer (some b) .Pw c.lit
+        | _ => false
+    | none =>
+      if c.modality == .O || c.modality == .C then
+        ext.derivation.hasPositiveAny c.modality c.lit
+      else if ext.isUnresolvedAtom c.lit.atom then
+        false
+      else if actForbiddenAggregate ext c.lit then
+        false
+      else match c.modality with
+        | .Ps => ext.derivation.hasPositiveAny .Ps c.lit
+        | .Pw => ext.derivation.hasPositiveAny .Pw c.lit
+        | .P  =>
+          let d := ext.derivation
+          d.hasPositiveAny .Ps c.lit || d.hasPositiveAny .P c.lit || d.hasPositiveAny .Pw c.lit
+        | _ => false
   if c.holds then present else !present
 
 def satisfies (ext : Extension) (conds : List Condition) : Bool :=

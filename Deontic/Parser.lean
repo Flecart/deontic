@@ -159,22 +159,48 @@ private partial def expandOneof (toks : List String) : List (List String) :=
       (splitTopCommas inner).flatMap fun g => expandOneof (pre ++ g ++ afterBracket)
     | _ => [toks]          -- malformed `oneof` without `[…]`; leave untouched
 
--- `… overrides X` desugars (per expanded rule R) to a DEFEATER that blocks X,
--- gated on R's PLAIN-FACT antecedents only (deontic `O(…)` literals are dropped
--- so the defeater is active no later than the rule it overrides — defusing the
--- frozen-snapshot ordering hazard). The defeater is later made superior to every
--- rule concluding X.  `overrides` ⇒ the base penalty becomes not-obligated (the
--- base rule stays in force, just out-prioritised), NOT forbidden.
-private def mkOverrideDefeater (r : Rule) (target : String) : Rule × (String × String) :=
-  let ovrLabel := r.label ++ "_ovr_" ++ target
+-- `… overrides X` desugars (per expanded rule R) to a DEFEATER that blocks the
+-- overridden obligation, gated on R's PLAIN-FACT antecedents only (deontic `O(…)`
+-- literals are dropped so the defeater is active no later than the rule it
+-- overrides — defusing the frozen-snapshot ordering hazard). `X` may be:
+--   • a rule label (`overrides pena_624`) — defeat that rule only; or
+--   • an atom name (`overrides ReclusioneFurto`) — defeat every rule concluding it.
+-- Effect: the overridden obligation becomes not-obligated (`P`), NOT forbidden.
+private def mkOverrideDefeater (r : Rule) (atom : String) (suffix : String) : Rule :=
+  let ovrLabel := r.label ++ "_ovr_" ++ suffix
   let plainAnt := r.antecedent.filter isPlainLit
-  (⟨ovrLabel, .defeater, .prescriptive, plainAnt, [Lit.neg target], r.bearer⟩, (ovrLabel, target))
+  ⟨ovrLabel, .defeater, .prescriptive, plainAnt, [Lit.neg atom], r.bearer⟩
+
+-- Resolve an `overrides` target once every rule label is known.
+private def resolveOverrideTarget (tgt : String) (rules : List Rule) : Except String (String × List String) :=
+  match rules.find? (·.label == tgt) with
+  | some r =>
+    match r.conclusion.head? with
+    | some (.pos a) => .ok (a, [r.label])
+    | some (.neg a) =>
+      .error s!"overrides '{tgt}': rule '{tgt}' concludes a prohibition (~{a}); overrides needs a positive-atom conclusion"
+    | none => .error s!"overrides '{tgt}': rule '{tgt}' has an empty conclusion"
+  | none =>
+    let losers := rules.filterMap fun s =>
+      if s.conclusion.head? == some (Lit.pos tgt) then some s.label else none
+    .ok (tgt, losers)
+
+private def applyOverrides (rules : List Rule) (pending : List (String × String))
+    : Except String (List Rule × SuperiorityRel) :=
+  pending.foldlM (init := (rules, ([] : SuperiorityRel))) fun (outRules, ovrSup) (aggrLabel, tgt) => do
+    let aggr ← match outRules.find? (·.label == aggrLabel) with
+      | some r => pure r
+      | none => throw s!"overrides: aggravating rule '{aggrLabel}' not found"
+    let (atom, losers) ← resolveOverrideTarget tgt outRules
+    if losers.isEmpty then
+      throw s!"overrides '{tgt}': no rule concludes atom '{atom}'"
+    let dft := mkOverrideDefeater aggr atom tgt
+    pure (outRules ++ [dft], losers.map (dft.label, ·) ++ ovrSup)
 
 -- Parse one rule line (already prefixed with any active block preconditions),
 -- expanding `oneof` and `overrides`. Returns the concrete rules, the label-map
 -- entry (base label → expanded variant labels, for superiority rewriting), and
--- the (overrideDefeaterLabel, targetAtom) pairs whose superiority is resolved
--- once every rule is known.
+-- pending `(aggravatingRuleLabel, overrideTarget)` pairs resolved in `applyOverrides`.
 private def parseRuleLine (label : String) (precondToks : List String) (toks : List String)
     : Except String (List Rule × (String × List String) × List (String × String)) := do
   let ruleToks := toks.takeWhile (· != "overrides")
@@ -198,9 +224,7 @@ private def parseRuleLine (label : String) (precondToks : List String) (toks : L
       outRules := outRules ++ [rule]
       labels   := labels ++ [vlabel]
       for tgt in ovrToks do
-        let (dft, pair) := mkOverrideDefeater rule tgt
-        outRules := outRules ++ [dft]
-        ovrs     := ovrs ++ [pair]
+        ovrs := ovrs ++ [(vlabel, tgt)]
     .ok (outRules, (label, labels), ovrs)
 
 -- ── Superiority line parser ───────────────────────────────────────────────────
@@ -292,7 +316,7 @@ def parse (src : String) : Except String Theory := do
   -- Sugar bookkeeping:
   let mut precondStack : List (List String) := []        -- active block preconditions
   let mut labelMap     : List (String × List String) := []  -- base label → variant labels
-  let mut ovrTargets   : List (String × String) := []    -- (overrideDefeater, targetAtom)
+  let mut ovrTargets   : List (String × String) := []    -- (aggravatingRule, overrideTarget)
 
   for rawLine in lines do
     let rawTrim := rawLine.trimAscii.toString
@@ -346,13 +370,8 @@ def parse (src : String) : Except String Theory := do
     (labelMap.find? (·.1 == l)).map (·.2) |>.getD [l]
   let expandedSup := rawSup.flatMap fun (l, r) =>
     (lookupLabels l).flatMap fun a => (lookupLabels r).map fun b => (a, b)
-  -- `overrides`: each generated defeater is made superior to every rule that
-  -- concludes the overridden atom.
-  let ovrSup := ovrTargets.flatMap fun (ovrLabel, tgt) =>
-    rules.filterMap fun s =>
-      if s.conclusion.head? == some (Lit.pos tgt) && s.label != ovrLabel
-      then some (ovrLabel, s.label) else none
+  let (finalRules, ovrSup) ← applyOverrides rules ovrTargets
 
-  .ok ⟨facts, rules, expandedSup ++ ovrSup, atoms, imports⟩
+  .ok ⟨facts, finalRules, expandedSup ++ ovrSup, atoms, imports⟩
 
 end Deontic.Parser
