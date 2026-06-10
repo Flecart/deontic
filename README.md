@@ -28,6 +28,25 @@ lake build deontic
 
 # Machine-readable output for pipelines
 ./.lake/build/bin/deontic query examples/ex1_license.ddl publish --json
+
+# WHY did that derive? Proof certificate: applicable rules per side + defeats
+./.lake/build/bin/deontic query examples/ex1_license.ddl publish --why
+#  publish@Licensee : O(publish)
+#    rules for O(publish):
+#      • r4: commission  =>O@Licensee  publish
+#    rules for O(~publish):
+#      • r2: =>O@Licensee  ~publish * remove   [defeated by r4]
+
+# Multi-party contract: per-bearer status (MSA)
+./.lake/build/bin/deontic query examples/clauses/enterprise_saas_msa.ddl PayFees SuspendAccess \
+  --assume CustomerParty,FeesDue,PaymentOverdue
+#  PayFees       : O(PayFees)        — Customer's duty (only party with a pay rule)
+#  SuspendAccess : O(SuspendAccess)  — Vendor's duty
+./.lake/build/bin/deontic query examples/clauses/enterprise_saas_msa.ddl PayFees --bearer Customer
+
+# Directed abduction: facts that make *Customer* permitted to disclose
+./.lake/build/bin/deontic abduce examples/clauses/enterprise_saas_msa.ddl \
+  'P@Customer(DiscloseConfidentialInfo)' --all
 ```
 
 ## What it does
@@ -44,9 +63,33 @@ lake build deontic
 | Abduction ("what-if") | Which **fact configurations** make a goal hold — `abduce 'P(Disclose)'` |
 | Sugar: `oneof[…]` | `oneof[Violence, Threat]` → a rule per disjunct (parse-time) |
 | Sugar: precondition block | `A, B { r1: … ; r2: … }` prepends shared antecedents |
-| Sugar: `overrides` | `… =>O Pena2 overrides Pena1` — lex specialis (Pena1 → not-obligated) |
+| Sugar: `overrides` | `… =>O Pena2 overrides pena_624` or `… overrides Pena1` — lex specialis |
 
 The three sugars are pure parse-time desugarings (see [architecture](docs/architecture.md#syntactic-sugar-parse-time-desugaring)); the proof calculus is untouched.
+
+## Bearers in `query` / `check` / `abduce`
+
+Prescriptive rules name the **duty-bearer** with `@Party` (`=>O@Customer PayFees`). The
+engine derives tags once per bearer (`+∂_O@Vendor …`); opposite duties borne by
+*different* parties coexist without deadlock.
+
+**`query` and `check`** (default) print **per-bearer** status for each atom — one
+line when only one party has a rule on that act, otherwise an indented breakdown.
+Use **`--bearer Customer`** to pin a single party; **`--trace`** dumps every raw
+tag; **`--json`** adds a `byBearer` map alongside aggregate `status`;
+**`--why`** (`query`) prints the proof certificate instead — per atom and
+bearer, the *applicable* rules concluding it and its complement, each annotated
+with the superiority defeats that decided the outcome (`--why --json` for
+pipelines; `deontic_py`'s `Deontic.why()` returns it typed).
+
+**`abduce`** goals accept an optional bearer qualifier:
+
+| Goal | Meaning |
+|------|---------|
+| `P(Disclose)` | facts under which the act is permitted (aggregate: no party forbids, some party permits) |
+| `P@Customer(Disclose)` | facts under which **Customer** may disclose |
+| `O@Vendor(SuspendAccess)` | facts under which **Vendor** is obliged to suspend |
+| `O(SuspendAccess)` | facts under which **some** party is obliged (existential) |
 
 ## Abduction: which facts make a goal hold?
 
@@ -110,6 +153,7 @@ cycles are errors too. (Selective `from … import a, b` isn't implemented yet.)
 | Path | Scenario |
 |------|----------|
 | `examples/codice_penale/` | **The Italian penal code in DDL** — offences decomposed into adjudicable elements; the flagship. Start at its `README.md` / `PRINCIPLES.md` |
+| `examples/foia/` | UK Freedom of Information Act 2000 pilot — s1 duties vs absolute/qualified exemptions; evaluated on real tribunal cases in `docs/experiments/foia_corpus/` |
 | `examples/ex1_license.ddl` | License contract (Governatori §4): commission, use, publish |
 | `examples/clauses/` | Single contract clauses, exercised via the `abduce` reverse search |
 | `examples/imports/` | Reusing a shared definitions module (`import` / `from … import *`) |

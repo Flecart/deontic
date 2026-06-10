@@ -24,8 +24,9 @@ law). Keep that lens.
 lake build deontic                 # build the CLI
 lake build Deontic.Examples        # elaborates the #guard tests + #eval demos
 ./.lake/build/bin/deontic check  <file.ddl> [--json|--assume t,...]
-./.lake/build/bin/deontic query  <file.ddl> <atom>... [--trace|--json|--assume t,...]
+./.lake/build/bin/deontic query  <file.ddl> <atom>... [--bearer Party|--trace|--why|--json|--assume t,...]
 ./.lake/build/bin/deontic abduce <file.ddl> <goal>... [--all|--assume t,...|--json]
+  # goals: P(X) aggregate · P@Customer(X) directed · O@Vendor(X) · F(X) · O(X)
 ./.lake/build/bin/deontic atoms  <file.ddl> [--json|--resolve]
 ```
 
@@ -69,6 +70,12 @@ later than its target (this is why `overrides` gates on plain facts).
   (naming, comment density, `private` helpers) before adding. `ProofConditions`
   faithfully implements a published calculus — don't rewrite it for new features;
   the sugar and bearers are deliberately *parse-time / scoping* layers around it.
+- **For experiments, optimize for ease of the experiment, not repo consistency.**
+  Much of the repo is vibecoded; existing patterns are not authoritative design
+  precedent, and a past run's choice should not constrain the current run. Pick
+  whatever format/tooling makes the experiment simplest and most reliable now.
+  (The engine library above is the exception — there, idiom and the published
+  calculus do bind.)
 - **Small, verified increments.** Build after each meaningful change; verify with
   a real CLI run *and* a `#guard`/`tests.sh`, not just "it compiles." When you
   claim something works, you've run it.
@@ -105,7 +112,8 @@ later than its target (this is why `overrides` gates on plain facts).
 `Deontic/` — the library (`Basic` → `Theory` → `Applicability`/`ProofConditions`
 → `Extension`/`Conflict` → `Query`/`Abduce` → `Pretty`; `Parser` standalone;
 `Examples` holds tests). `Main.lean` — the CLI. `examples/` — `.ddl` theories
-(`codice_penale/` = the big one; `clauses/` = single contract clauses with
+(`codice_penale/` = the big one; `foia/` = UK FOIA 2000 + real-case eval in
+`docs/experiments/foia_corpus/`; `clauses/` = single contract clauses with
 sources; `imports/` = shared-module reuse; `deprecated/` = pre-grounding, won't
 load). `prompts/` — LLM workflow prompts. `docs/architecture.md` — design depth.
 

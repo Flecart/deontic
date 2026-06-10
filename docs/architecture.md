@@ -144,7 +144,14 @@ The reasoner prints `[JUDGE: …]` and suggests adding `r > s` or `s > r`. This 
 ## Abduction (`Abduce.lean`)
 
 `check`/`query` run **forward** (facts → tagged literals); optional `--assume`
-overlays the file's `facts:` (same tokens as `abduce`). `abduce` runs **backward**: given a *goal* (a conjunction of tagged-literal conditions, each required to be present or absent) it returns the fact configurations that make the goal hold — "what would have to be true for `Disclose` to be permitted?". See the [README](../README.md#abduction-which-facts-make-a-goal-hold) for the goal/assumption token syntax.
+overlays the file's `facts:` (same tokens as `abduce`). Default output is
+**per-bearer** normative status (`normativeStatusForBearer` in `Query.lean`):
+for each atom, one line per party that owns a prescriptive rule concluding that
+act (or a single line when only one party does). `--bearer Party` filters to one
+slice; `--json` includes a `byBearer` map. `abduce` runs **backward**: given a
+*goal* it returns fact configurations that make the goal hold. Goals may name a
+bearer (`P@Customer(Disclose)`) or leave it aggregate (`P(Disclose)` — no party
+forbids and some party permits). See the [README](../README.md#bearers-in-query--check--abduce).
 
 It is satisfiability-flavoured but not a SAT call. The search ranges only over the **abducible** atoms — those appearing as plain literals in rule antecedents, since only those change which rules fire — trying each present (in a tested polarity) or absent; the theory's own `facts:` line is ignored, as facts are what we solve for. Each configuration is evaluated with the same `computeExtension`, and the result is the subset-**minimal** satisfying configurations (the least you must assert; every superset also works). Assumptions pin atoms beforehand, both narrowing the question and shrinking the space, which is otherwise bounded by a configuration cap.
 
@@ -193,13 +200,14 @@ untouched. They were added to make large authored theories (see
   written once. Rules that should *not* inherit them (e.g. the prohibition) stay
   outside the block.
 - **`overrides X`** suffix on a rule (after the conclusion; `overrides X, Y` for
-  several) → generates a **defeater** `~>O ~X`, gated on the rule's *plain-fact*
+  several) → generates a **defeater** `~>O ~A`, gated on the rule's *plain-fact*
   antecedents only (deontic `O(…)` literals dropped, so it activates no later
   than the rule it overrides — sidestepping the frozen-snapshot ordering
-  hazard), and makes it superior to every rule concluding `X`. Effect: `X`
-  becomes *not-obligated* (`P`), **not** forbidden (`F`) — the overridden rule
-  stays in force, just out-prioritised. This is *lex specialis*: an aggravated
-  penalty supersedes the base one (e.g. `Ergastolo overrides Reclusione21`).
+  hazard), and makes it superior to the defeated rule(s). `X` is either a **rule
+  label** (`overrides pena_624` — that rule only) or an **atom** (`overrides
+  ReclusioneFurto` — every rule whose conclusion head is that atom). Effect: the
+  overridden obligation becomes *not-obligated* (`P`), **not** forbidden (`F`).
+  Lex specialis: `Ergastolo overrides pena_624` or `… overrides Reclusione21`.
 
 ## CLI
 
@@ -211,15 +219,18 @@ lake build deontic
 
 | Command | Purpose |
 |---------|---------|
-| `check` | Full extension (all tagged literals) + warnings |
-| `query` | Per-atom status; optional `--trace`, `--json` |
+| `check` | Per-atom **per-bearer** summary (default); `--trace` dumps all tags |
+| `query` | Per-atom status by bearer; `--bearer Party` pins one party |
 | `abduce` | Backward search: fact configurations that make a goal hold |
 | `atoms` | Print each atom's description + provenance (`--json`, `--resolve`) |
 
 Flags:
 
-- `--json` — machine-readable output (`hasViolation`, `unresolvedConflicts`, per-atom `status` / `tags`)
-- `--trace` — show derived tags behind each query answer
+- `--json` — machine-readable output (`hasViolation`, `unresolvedConflicts`, per-atom `status`, `byBearer`, `tags`)
+- `--trace` — show every derived tag (`query`; also `check`)
+- `--why` — proof certificate (`query`): per atom and bearer, the *applicable* rules concluding it (`forO`) and its complement (`againstO`), each annotated with the superiority defeats; computed by `whyForBearer` (`Query.lean`) on the same bearer-scoped views the proof conditions consulted, so it shows exactly what decided the outcome. Combine with `--json` for pipelines.
+- `--bearer Party` — report only that bearer (`query` / `check`)
+- Abduction goals: `O@Party(a)` / `P@Customer(a)` for directed search; bare `O(a)` / `P(a)` aggregate over bearers
 
 ## Module dependency graph
 
@@ -274,7 +285,7 @@ flowchart BT
 - **Theory generation**: LLM or retrieval produces candidate `.ddl` from natural language; the reasoner validates and returns tags, violations, and judge prompts.
 - **Superiority curation**: Human or meta-reasoner edits `superiority:` lines in response to `[JUDGE: …]` output.
 - **Embeddings / RAG**: Facts and rule bodies link to source spans in statutes or contracts; not yet in this repo.
-- **Proof certificates**: Export the derivation `P` and rule instances that fired for explainability.
+- **Proof certificates**: partially done — `query --why` exports the applicable rule instances and defeats per atom (see *CLI* above); exporting the full derivation trace remains open.
 
 See the root [README](../README.md) for project motivation and quick start.
 
