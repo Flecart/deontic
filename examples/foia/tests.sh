@@ -45,6 +45,38 @@ expect "s31(3) NCND needs its PI balance" 'ConfirmOrDeny *: O\(ConfirmOrDeny\)' 
 expect "withholding triggers s17 notice"  'RefusalNotice *: O\(RefusalNotice\)' RefusalNotice -- Request,HoldsInfo,AccessibleOtherMeans
 expect "no withholding, no s17 duty"      'RefusalNotice *: P(w)?\(RefusalNotice\)' RefusalNotice -- Request,HoldsInfo
 
+# Full Part II — absolute exemptions
+expect "s23 security bodies absolute"     'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,SecurityBodyInfo
+expect "s32 court records absolute"       'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,CourtRecordInfo
+expect "s34 parliamentary absolute"       'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,ParliamentaryPrivilege
+expect "s37 sovereign absolute"           'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,RoyalSovereignCommunications
+expect "s41 confidence absolute"          'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,ActionableBreachConfidence
+expect "s44 statutory bar absolute"       'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,StatutoryProhibition
+
+# Full Part II — qualified exemptions need the PI balance
+expect "s24 engaged + PI maintain"        'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,SafeguardNationalSecurity,PiMaintainOutweighs
+expect "s24 engaged, PI favours disclosure" 'Disclose *: O\(Disclose\)' Disclose -- Request,HoldsInfo,SafeguardNationalSecurity
+expect "s30 investigations + PI"          'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,CriminalInvestigationInfo,PiMaintainOutweighs
+expect "s35 policy + PI"                  'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,GovernmentPolicyInfo,PiMaintainOutweighs
+expect "s36 qualified-person opinion + PI" 'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,QualifiedPersonOpinionPrejudice,PiMaintainOutweighs
+expect "s38 health-safety + PI"           'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,EndangerHealthSafety,PiMaintainOutweighs
+expect "s22 future publication + PI"      'Disclose *: F\(Disclose\)' Disclose -- Request,HoldsInfo,IntendedFuturePublication,PiMaintainOutweighs
+
+# Part I duty blockers: the duty never arises (P, not F)
+expect "s14 vexatious blocks disclose"    'Disclose *: P(w)?\(Disclose\)' Disclose -- Request,HoldsInfo,VexatiousRequest
+expect "s14 vexatious blocks confirm"     'ConfirmOrDeny *: P(w)?\(ConfirmOrDeny\)' ConfirmOrDeny -- Request,VexatiousRequest
+expect "s12 cost limit blocks disclose"   'Disclose *: P(w)?\(Disclose\)' Disclose -- Request,HoldsInfo,CostExceedsLimit
+expect "s9 unpaid fee blocks disclose"    'Disclose *: P(w)?\(Disclose\)' Disclose -- Request,HoldsInfo,FeesNoticeUnpaid
+
+# Full NCND set
+expect "s23 NCND absolute"                'ConfirmOrDeny *: F\(ConfirmOrDeny\)' ConfirmOrDeny -- Request,ConfirmWouldRevealSecurityBodyInfo
+expect "s24 NCND needs its PI balance"    'ConfirmOrDeny *: O\(ConfirmOrDeny\)' ConfirmOrDeny -- Request,NcndRequiredNationalSecurity
+expect "s30 NCND + PI"                    'ConfirmOrDeny *: F\(ConfirmOrDeny\)' ConfirmOrDeny -- Request,ConfirmWouldRevealInvestigationInfo,PiNcndMaintainOutweighs
+
+# Administrative duties fire on any request
+expect "s10 timeliness duty"              'RespondInTime *: O\(RespondInTime\)' RespondInTime -- Request
+expect "s16 advice duty"                  'AdviseAssist *: O\(AdviseAssist\)' AdviseAssist -- Request
+
 echo "----"
 echo "$pass passed, $fail failed"
 [ "$fail" -eq 0 ]

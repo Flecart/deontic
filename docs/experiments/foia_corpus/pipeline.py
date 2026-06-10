@@ -51,19 +51,49 @@ DECISION_ATOM = "Disclose"
 BEARER = "Authority"
 PI_ATOM = "PiMaintainOutweighs"
 
-# Exemption rule label -> the atoms of its *own* test (the PI atom excluded:
-# engagement and the s2(2)(b) balance are separate limbs). Mirrors foia.ddl.
+# Rule label -> the atoms of its *own* test (the PI atom excluded: engagement
+# and the s2(2)(b) balance are separate limbs). Mirrors foia.ddl. Includes the
+# Part I duty blockers (s9/s12/s14) so rule-selection is scoreable for
+# procedural outcomes too.
 ENGAGEMENT: dict[str, list[str]] = {
     "s21_exempt": ["AccessibleOtherMeans"],
+    "s22_exempt": ["IntendedFuturePublication"],
+    "s22a_exempt": ["OngoingResearchProgramme"],
+    "s23_exempt": ["SecurityBodyInfo"],
+    "s24_exempt": ["SafeguardNationalSecurity"],
+    "s26_exempt": ["PrejudiceDefence"],
+    "s27_exempt": ["PrejudiceInternationalRelations"],
+    "s28_exempt": ["PrejudiceUkRelations"],
+    "s29_exempt": ["PrejudiceEconomy"],
+    "s30_exempt": ["CriminalInvestigationInfo"],
+    "s31_exempt": ["PrejudiceLawEnforcement"],
+    "s32_exempt": ["CourtRecordInfo"],
+    "s33_exempt": ["PrejudiceAuditFunctions"],
+    "s34_exempt": ["ParliamentaryPrivilege"],
+    "s35_exempt": ["GovernmentPolicyInfo"],
+    "s36_exempt": ["QualifiedPersonOpinionPrejudice"],
+    "s37_royal_exempt": ["RoyalSovereignCommunications"],
+    "s37_other_exempt": ["RoyalOtherOrHonours"],
+    "s38_exempt": ["EndangerHealthSafety"],
+    "s39_exempt": ["EnvironmentalInfo"],
     "s40_1_exempt": ["ApplicantOwnData"],
     "s40_2_exempt": ["ThirdPartyPersonalData", "ContraveneDPPrinciples"],
-    "s31_exempt": ["PrejudiceLawEnforcement"],
+    "s41_exempt": ["ActionableBreachConfidence"],
     "s42_exempt": ["LegalPrivilege"],
     "s43_1_exempt": ["TradeSecret"],
     "s43_2_exempt": ["PrejudiceCommercialInterests"],
+    "s44_exempt": ["StatutoryProhibition"],
+    "s12_cost": ["CostExceedsLimit"],
+    "s14_vex": ["VexatiousRequest"],
+    "s14_rep": ["RepeatedRequest"],
+    "s9_fees": ["FeesNoticeUnpaid"],
 }
 # Short codes the llm arm answers with (avoids leaking rule-label spelling).
 EXEMPTION_CODES = {label.removesuffix("_exempt"): label for label in ENGAGEMENT}
+# Administrative-duty conclusions: real provisions (s10/s16) but never
+# evidenced in case backgrounds — excluded from the facts-agreement universe
+# so they don't inflate agreement with trivial mutual omissions.
+NON_GROUNDABLE = {DECISION_ATOM, "RespondInTime", "AdviseAssist"}
 
 
 # ── case files ──────────────────────────────────────────────────────────────
@@ -115,8 +145,14 @@ def engine_result(d: Deontic, facts: list[str], verbose: bool) -> dict:
                   for r in rep.for_o + rep.against_o if r.defeated_by]
         print(f"    engine why     : {rep.status}; winning {win}"
               + (f"; defeated {'; '.join(beaten)}" if beaten else ""))
+    # O = duty stands -> disclose. F = prohibition derived -> withhold.
+    # P/Ps/Pw = the duty was BLOCKED (s9/s12/s14 defeater): the authority is
+    # not obliged, so a refusal is upheld -> withhold.
+    disposition = {"O": "disclose", "F": "withhold",
+                   "P": "withhold", "Ps": "withhold", "Pw": "withhold",
+                   }.get(code, f"unclear({code})")
     return {
-        "disposition": {"O": "disclose", "F": "withhold"}.get(code, f"unclear({code})"),
+        "disposition": disposition,
         "engaged": engaged,
         "pi": "maintain" if PI_ATOM in facts else "disclose",
     }
@@ -258,17 +294,45 @@ LLM_SYSTEM = """\
 You are the First-tier Tribunal deciding a UK Freedom of Information Act 2000
 appeal. Based on the factual background, decide:
 
-1. which exemptions are ENGAGED (their own test is met), from these codes:
-   s21 (accessible by other means), s31 (prejudice to law enforcement),
-   s40_1 (applicant's own personal data), s40_2 (third-party personal data
-   whose disclosure would contravene the DP principles), s42 (legal
-   professional privilege), s43_1 (trade secret), s43_2 (prejudice to
-   commercial interests);
+1. which exemptions or duty-blockers are ENGAGED (their own test is met), from
+   these codes:
+   s21 (information accessible to the applicant by other means),
+   s22 (held for intended future publication, reasonable to withhold until then),
+   s22a (ongoing research programme pre-publication),
+   s23 (supplied by or relates to the security bodies),
+   s24 (withholding required to safeguard national security),
+   s26 (prejudice to defence or armed forces),
+   s27 (prejudice to international relations, or confidential foreign-state info),
+   s28 (prejudice to relations between UK administrations),
+   s29 (prejudice to the UK economy or an administration's finances),
+   s30 (held for a criminal investigation/proceedings, or confidential sources),
+   s31 (prejudice to law enforcement),
+   s32 (held only as a court/inquiry/arbitration record),
+   s33 (prejudice to the authority's audit functions over other bodies),
+   s34 (parliamentary privilege),
+   s35 (government policy formulation, ministerial communications, law officers),
+   s36 (qualified person's reasonable opinion: prejudice to effective conduct
+        of public affairs / inhibition of free and frank advice),
+   s37_royal (communications with the Sovereign, heir, or second in line),
+   s37_other (other royal communications, or honours),
+   s38 (endanger any individual's health or safety),
+   s39 (environmental information, handled under the environmental regime),
+   s40_1 (applicant's own personal data),
+   s40_2 (third-party personal data whose disclosure would contravene the
+          data-protection principles),
+   s41 (actionable breach of confidence over information obtained from another),
+   s42 (legal professional privilege),
+   s43_1 (trade secret),
+   s43_2 (prejudice to commercial interests),
+   s44 (disclosure prohibited by another enactment or contempt of court),
+   s12_cost (cost of compliance exceeds the appropriate limit),
+   s14_vex (vexatious request), s14_rep (repeated request),
+   s9_fees (fees notice unpaid);
 2. for a qualified exemption, the section 2(2)(b) public-interest balance:
    "maintain" (PI in maintaining the exemption outweighs disclosure),
    "disclose", or "na" if no qualified exemption is engaged;
 3. the disposition: must the authority disclose the disputed information, or
-   may it withhold it?
+   may it withhold (or decline to comply with) the request?
 
 Reply with ONLY a JSON object:
 {"engaged": ["s43_2", ...], "pi": "maintain" | "disclose" | "na",
@@ -288,8 +352,9 @@ def run_ground_arm(d: Deontic, case: dict, model: str, verbose: bool,
     `seed` shuffles the atom order before batching (composition is otherwise
     dictionary order); report it with results.
     """
-    # The decision atom is the question, not a fact a fact-finder may assert.
-    entries = [e for e in d.atoms(str(DDL)) if e.atom != DECISION_ATOM]
+    # The decision atom is the question; admin-duty conclusions are never
+    # evidenced in backgrounds — neither is groundable.
+    entries = [e for e in d.atoms(str(DDL)) if e.atom not in NON_GROUNDABLE]
     if seed is not None:
         import random
         random.Random(seed).shuffle(entries)

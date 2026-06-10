@@ -1,8 +1,14 @@
-# Freedom of Information Act 2000 — pilot formalization (Parts I–II slice)
+# Freedom of Information Act 2000 — full Parts I–II formalization
 # ---------------------------------------------------------------------------
 # Scope: the s1 access duties, the s2 absolute/qualified exemption layer, the
-# s17 refusal notice, NCND, and five exemptions (s21, s31, s40, s42, s43) —
-# the pilot subset of docs/experiments/foia_corpus/INDEX.md.
+# s17 refusal notice, the s10/s16 administrative duties, the Part I duty
+# blockers (s9 fees, s12 cost limit, s14 vexatious/repeated — DEFEATERS: they
+# remove the obligation rather than forbid the act, so the status becomes
+# "not obliged" P, not F), every Part II exemption s21–s44, and NCND for the
+# litigated set (s23, s24, s30, s31, s40; the other duty-to-confirm
+# exclusions exist in the statute but are folded — add per-case when needed).
+# s36's absolute variant (Commons/Lords-held information) and s40's second and
+# third conditions are deliberately out of scope at this altitude.
 #
 # Division of labour (the grounding-vs-deduction split):
 #   * GROUNDING atoms — open-textured predicates a tribunal (or LLM fact-finder)
@@ -54,27 +60,94 @@ atom LegalPrivilege: a claim to legal professional privilege could be maintained
 atom TradeSecret: the disputed information itself constitutes a trade secret — technical or commercial information (a formula, process, customer list, pricing method) whose value depends on its secrecy. Narrow: FALSE for ordinarily commercially-sensitive material, which belongs to the separate commercial-prejudice atom (PrejudiceCommercialInterests) | quote: Information is exempt information if it constitutes a trade secret | uri: examples/foia/sources/foia_2000.md#L92
 atom PrejudiceCommercialInterests: disclosure of the disputed information would, or would be likely to, prejudice the commercial interests of any person, including the authority itself — harm to someone's ability to participate competitively in commercial activity. TRUE only where the background shows a causative link between THIS disclosure (judged at the time of the authority's response) and prejudice that is real, actual or of substance — e.g. revealing a live negotiating position. FALSE where the material is already public, obvious from released parts, or basic biography of public figures; speculative or asserted-but-unevidenced harm is insufficient | quote: would, or would be likely to, prejudice the commercial interests of any person | uri: examples/foia/sources/foia_2000.md#L94-L96
 
+atom IntendedFuturePublication: when the request was made, the authority (or someone else) already held the disputed information with a view to publishing it at some future date — whether or not a date was set — and in all the circumstances it is reasonable to withhold it until that publication. FALSE if the intention to publish arose only after the request, or no genuine publication plan exists | quote: held by the public authority with a view to its publication ... at some future date (whether determined or not) | uri: examples/foia/sources/foia_2000.md#L138-L144
+atom OngoingResearchProgramme: the disputed information was obtained in the course of, or derives from, a programme of research that is still continuing with a view to publishing a report, and disclosing it before publication would be likely to prejudice the programme, its participants, or the authority holding it | quote: a programme of research ... continuing with a view to the publication | uri: examples/foia/sources/foia_2000.md#L146-L151
+atom SecurityBodyInfo: the disputed information was directly or indirectly supplied by, or relates to, one of the national security bodies (the Security Service, the Secret Intelligence Service, GCHQ, the special forces, the security tribunals, the National Crime Agency and related bodies). The connection to such a body is enough — no harm test applies | quote: directly or indirectly supplied to the public authority by, or relates to | uri: examples/foia/sources/foia_2000.md#L153-L159
+atom ConfirmWouldRevealSecurityBodyInfo: merely confirming or denying that the information is held would itself reveal something supplied by or relating to those national security bodies | quote: s23(5) excludes the duty to confirm or deny | uri: examples/foia/sources/foia_2000.md#L153-L159
+atom SafeguardNationalSecurity: withholding the disputed information is required — reasonably necessary, not merely convenient — for the purpose of safeguarding national security | quote: required for the purpose of safeguarding national security | uri: examples/foia/sources/foia_2000.md#L161-L166
+atom NcndRequiredNationalSecurity: refusing even to confirm or deny that the information is held is itself required for the purpose of safeguarding national security | quote: s24(2) excludes the duty to confirm or deny if required for that purpose | uri: examples/foia/sources/foia_2000.md#L161-L166
+atom PrejudiceDefence: disclosure of the disputed information would, or would be likely to, prejudice the defence of the British Islands or any colony, or the capability, effectiveness or security of the armed forces. TRUE only on a shown causative link to prejudice that is real and of substance; FALSE on bare assertion | quote: prejudice (a) the defence of the British Islands | uri: examples/foia/sources/foia_2000.md#L168-L172
+atom PrejudiceInternationalRelations: disclosure of the disputed information would, or would be likely to, prejudice relations between the United Kingdom and another state, an international organisation or court, or the United Kingdom's interests abroad — or the information is confidential information obtained from another state or international organisation or court | quote: prejudice (a) relations between the United Kingdom and any other State | uri: examples/foia/sources/foia_2000.md#L174-L180
+atom PrejudiceUkRelations: disclosure of the disputed information would, or would be likely to, prejudice relations between any two administrations within the United Kingdom (the UK government, the Scottish Ministers, the Welsh government, the Northern Ireland executive) | quote: prejudice relations between any administration in the United Kingdom and any other such administration | uri: examples/foia/sources/foia_2000.md#L182-L186
+atom PrejudiceEconomy: disclosure of the disputed information would, or would be likely to, prejudice the economic interests of the United Kingdom or part of it, or the financial interests of a UK administration | quote: prejudice (a) the economic interests of the United Kingdom | uri: examples/foia/sources/foia_2000.md#L188-L192
+atom CriminalInvestigationInfo: the disputed information has at any time been held for the purposes of a criminal investigation the authority has a duty to conduct (towards deciding whether someone should be charged), for criminal proceedings the authority conducts, or it relates to the obtaining of information from confidential sources for such purposes. The class matters, not harm: TRUE even if the investigation is closed | quote: any investigation which the public authority has a duty to conduct | uri: examples/foia/sources/foia_2000.md#L194-L200
+atom ConfirmWouldRevealInvestigationInfo: merely confirming or denying that such investigation or proceedings information is held would itself reveal something about the investigation, the proceedings, or the confidential sources | quote: s30(3) excludes the duty to confirm or deny | uri: examples/foia/sources/foia_2000.md#L194-L200
+atom CourtRecordInfo: the authority holds the disputed information ONLY because it is contained in a document filed with or placed in the custody of a court, served in proceedings, or created by a court or its staff for proceedings (likewise for statutory inquiries and arbitrations). FALSE if the authority also holds it for its own purposes outside the litigation file | quote: held ... only by virtue of being contained in (a) any document filed with | uri: examples/foia/sources/foia_2000.md#L202-L207
+atom PrejudiceAuditFunctions: the authority has functions of auditing other public authorities' accounts or examining their economy, efficiency and effectiveness, and disclosure of the disputed information would, or would be likely to, prejudice the exercise of those audit functions | quote: prejudice the exercise of any of the authority's functions | uri: examples/foia/sources/foia_2000.md#L209-L215
+atom ParliamentaryPrivilege: withholding the disputed information is required to avoid infringing the privileges of the House of Commons or the House of Lords (their exclusive cognisance over their own proceedings) | quote: required for the purpose of avoiding an infringement of the privileges of either House | uri: examples/foia/sources/foia_2000.md#L217-L220
+atom GovernmentPolicyInfo: the disputed information is held by a government department (or the Welsh government) and relates to the formulation or development of government policy, communications between Ministers, the provision of advice by the government's Law Officers, or the operation of a Ministerial private office. The class matters, not harm — but information no longer bearing on live policy weighs less in the public-interest balance | quote: relates to (a) the formulation or development of government policy | uri: examples/foia/sources/foia_2000.md#L222-L227
+atom QualifiedPersonOpinionPrejudice: a qualified person (a minister or other statutorily designated senior officer) has given a reasonable opinion that disclosure of the disputed information would, or would be likely to, prejudice collective ministerial responsibility, inhibit the free and frank provision of advice or exchange of views for deliberation, or otherwise prejudice the effective conduct of public affairs. Requires BOTH the opinion to exist AND it to be a reasonable one | quote: in the reasonable opinion of a qualified person | uri: examples/foia/sources/foia_2000.md#L229-L237
+atom RoyalSovereignCommunications: the disputed information relates to communications with the Sovereign, with the heir to the Throne, or with the person second in line to the Throne (or with people acting on their behalf) | quote: communications with the Sovereign, (aa) communications with the heir | uri: examples/foia/sources/foia_2000.md#L239-L245
+atom RoyalOtherOrHonours: the disputed information relates to communications with members of the Royal Family or Royal Household other than the Sovereign, heir, and second in line — or relates to the conferring by the Crown of any honour or dignity | quote: communications with other members of the Royal Family or Household | uri: examples/foia/sources/foia_2000.md#L239-L245
+atom EndangerHealthSafety: disclosure of the disputed information would, or would be likely to, endanger the physical or mental health, or the safety, of any individual. TRUE only on a shown causative link to real endangerment of identifiable people; FALSE on bare assertion | quote: endanger the physical or mental health of any individual | uri: examples/foia/sources/foia_2000.md#L247-L251
+atom EnvironmentalInfo: the disputed information is environmental information — about the state of air, water, land, ecosystems, emissions, or measures and activities affecting them — which the authority must handle under the separate environmental information regime instead (or would have to but for one of that regime's own exceptions) | quote: obliged by environmental information regulations to make the information available | uri: examples/foia/sources/foia_2000.md#L253-L258
+atom ActionableBreachConfidence: the disputed information was obtained by the authority FROM ANOTHER PERSON, and disclosing it to the public would constitute a breach of confidence on which that person (or someone else) could successfully sue — the information has the necessary quality of confidence, was imparted in circumstances importing an obligation of confidence, disclosure would be unauthorised and detrimental, and no public-interest defence to the breach claim would succeed. FALSE for information the authority generated itself | quote: obtained by the public authority from any other person | uri: examples/foia/sources/foia_2000.md#L260-L266
+atom StatutoryProhibition: disclosing the disputed information other than under this access regime is prohibited by or under another enactment, is incompatible with an assimilated (retained EU) obligation, or would constitute or be punishable as a contempt of court | quote: prohibited by or under any enactment | uri: examples/foia/sources/foia_2000.md#L268-L271
+
+# Part I duty blockers (the duty never arises — defeaters, not prohibitions).
+atom CostExceedsLimit: the authority estimates that locating, retrieving and extracting the requested information would cost more than the statutory appropriate limit (a fixed money cap on staff time; the estimate must be reasonable and evidence-based) | quote: the cost of complying with the request would exceed the appropriate limit | uri: examples/foia/sources/foia_2000.md#L117-L121
+atom VexatiousRequest: the request is vexatious — judged objectively, it imposes a burden, harassment or distress on the authority that is disproportionate to any value or serious purpose the request has. The REQUEST is vexatious, not the requester; a well-founded request does not become vexatious through persistence alone | quote: not oblige a public authority to comply ... if the request is vexatious | uri: examples/foia/sources/foia_2000.md#L123-L126
+atom RepeatedRequest: the same person previously made an identical or substantially similar request which the authority complied with, and no reasonable interval has elapsed since | quote: a subsequent identical or substantially similar request | uri: examples/foia/sources/foia_2000.md#L128-L130
+atom FeesNoticeUnpaid: the authority gave the applicant a written fees notice for complying with the request and the fee was not paid within three months | quote: not obliged to comply with section 1(1) unless the fee is paid | uri: examples/foia/sources/foia_2000.md#L102-L110
+
+# Administrative duties (s10, s16) — conclusions, not grounding atoms.
+atom RespondInTime: the authority responds to the request promptly and at the latest by the twentieth working day after receipt | quote: promptly and in any event not later than the twentieth working day | uri: examples/foia/sources/foia_2000.md#L112-L115
+atom AdviseAssist: the authority provides the applicant such advice and assistance with making or pursuing the request as it is reasonable to expect | quote: duty of a public authority to provide advice and assistance | uri: examples/foia/sources/foia_2000.md#L132-L136
+
 # The two public-interest balances (s2(2)(b) for disclosure, s2(1)(b) for NCND).
 atom PiMaintainOutweighs: in all the circumstances AT THE TIME OF THE AUTHORITY'S RESPONSE, the public interest in maintaining the engaged qualified exemption outweighs the public interest in disclosing the disputed information. Weigh the ACTUAL harm this disclosure risks against the ACTUAL benefit of disclosing THIS material: a generic transparency interest weighs little if the specific material sheds little light on the matter of public debate. Where the engaged exemption is legal professional privilege, the inherent interest in keeping legal advice confidential is very strong and only exceptional countervailing factors displace it. Only meaningful when some qualified exemption is engaged | quote: the public interest in maintaining the exemption outweighs the public interest in disclosing | uri: examples/foia/sources/foia_2000.md#L29-L33
 atom PiNcndMaintainOutweighs: the same balance applied to the duty to confirm or deny: the public interest in not even revealing WHETHER the information is held outweighs the public interest in knowing that. Only meaningful when confirming or denying would itself cause the relevant harm | quote: maintaining the exclusion of the duty to confirm or deny outweighs | uri: examples/foia/sources/foia_2000.md#L23-L27
 
 # ---------------------------------------------------------------------------
-# s1 duties — borne by the public authority
+# s1 duties — borne by the public authority; s10/s16 administrative duties
 # ---------------------------------------------------------------------------
 duty_confirm:  Request  =>O@Authority  ConfirmOrDeny
 duty_disclose: Request, HoldsInfo  =>O@Authority  Disclose
+duty_timely:   Request  =>O@Authority  RespondInTime
+duty_advise:   Request  =>O@Authority  AdviseAssist
+
+# ---------------------------------------------------------------------------
+# Part I duty blockers (s9, s12, s14) — defeaters: the s1 duty never arises,
+# the act is merely not-obligated (P), not forbidden (F)
+# ---------------------------------------------------------------------------
+s12_cost:     CostExceedsLimit  ~>O@Authority  ~Disclose
+s14_vex:      VexatiousRequest  ~>O@Authority  ~Disclose
+s14_vex_ncnd: VexatiousRequest  ~>O@Authority  ~ConfirmOrDeny
+s14_rep:      RepeatedRequest  ~>O@Authority  ~Disclose
+s9_fees:      FeesNoticeUnpaid  ~>O@Authority  ~Disclose
+s9_fees_ncnd: FeesNoticeUnpaid  ~>O@Authority  ~ConfirmOrDeny
 
 # ---------------------------------------------------------------------------
 # Absolute exemptions (s2(3)) — engagement alone defeats the duty
 # ---------------------------------------------------------------------------
 s21_exempt:   AccessibleOtherMeans  =>O@Authority  ~Disclose
+s23_exempt:   SecurityBodyInfo  =>O@Authority  ~Disclose
+s32_exempt:   CourtRecordInfo  =>O@Authority  ~Disclose
+s34_exempt:   ParliamentaryPrivilege  =>O@Authority  ~Disclose
+s37_royal_exempt: RoyalSovereignCommunications  =>O@Authority  ~Disclose
 s40_1_exempt: ApplicantOwnData  =>O@Authority  ~Disclose
 s40_2_exempt: ThirdPartyPersonalData, ContraveneDPPrinciples  =>O@Authority  ~Disclose
+s41_exempt:   ActionableBreachConfidence  =>O@Authority  ~Disclose
+s44_exempt:   StatutoryProhibition  =>O@Authority  ~Disclose
 
 # ---------------------------------------------------------------------------
 # Qualified exemptions — engagement AND the s2(2)(b) balance
 # ---------------------------------------------------------------------------
+s22_exempt:   IntendedFuturePublication, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s22a_exempt:  OngoingResearchProgramme, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s24_exempt:   SafeguardNationalSecurity, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s26_exempt:   PrejudiceDefence, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s27_exempt:   PrejudiceInternationalRelations, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s28_exempt:   PrejudiceUkRelations, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s29_exempt:   PrejudiceEconomy, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s30_exempt:   CriminalInvestigationInfo, PiMaintainOutweighs  =>O@Authority  ~Disclose
 s31_exempt:   PrejudiceLawEnforcement, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s33_exempt:   PrejudiceAuditFunctions, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s35_exempt:   GovernmentPolicyInfo, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s36_exempt:   QualifiedPersonOpinionPrejudice, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s37_other_exempt: RoyalOtherOrHonours, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s38_exempt:   EndangerHealthSafety, PiMaintainOutweighs  =>O@Authority  ~Disclose
+s39_exempt:   EnvironmentalInfo, PiMaintainOutweighs  =>O@Authority  ~Disclose
 s42_exempt:   LegalPrivilege, PiMaintainOutweighs  =>O@Authority  ~Disclose
 s43_1_exempt: TradeSecret, PiMaintainOutweighs  =>O@Authority  ~Disclose
 s43_2_exempt: PrejudiceCommercialInterests, PiMaintainOutweighs  =>O@Authority  ~Disclose
@@ -82,6 +155,9 @@ s43_2_exempt: PrejudiceCommercialInterests, PiMaintainOutweighs  =>O@Authority  
 # ---------------------------------------------------------------------------
 # NCND — exclusions of the duty to confirm or deny, stacking on an exemption
 # ---------------------------------------------------------------------------
+s23_ncnd:    ConfirmWouldRevealSecurityBodyInfo  =>O@Authority  ~ConfirmOrDeny
+s24_ncnd:    NcndRequiredNationalSecurity, PiNcndMaintainOutweighs  =>O@Authority  ~ConfirmOrDeny
+s30_ncnd:    ConfirmWouldRevealInvestigationInfo, PiNcndMaintainOutweighs  =>O@Authority  ~ConfirmOrDeny
 s40_5a_ncnd: ApplicantOwnData  =>O@Authority  ~ConfirmOrDeny
 s31_3_ncnd:  ConfirmPrejudiceLawEnforcement, PiNcndMaintainOutweighs  =>O@Authority  ~ConfirmOrDeny
 
@@ -93,9 +169,9 @@ s17_notice: Request, O(~Disclose)  =>O@Authority  RefusalNotice
 
 # ---------------------------------------------------------------------------
 # s2 superiority — an engaged exemption defeats the s1 duty; NCND exclusions
-# defeat the duty to confirm or deny.
+# defeat the duty to confirm or deny; Part I blockers defeat both.
 # ---------------------------------------------------------------------------
-superiority: s21_exempt > duty_disclose, s40_1_exempt > duty_disclose, s40_2_exempt > duty_disclose, s31_exempt > duty_disclose, s42_exempt > duty_disclose, s43_1_exempt > duty_disclose, s43_2_exempt > duty_disclose, s40_5a_ncnd > duty_confirm, s31_3_ncnd > duty_confirm
+superiority: s21_exempt > duty_disclose, s23_exempt > duty_disclose, s32_exempt > duty_disclose, s34_exempt > duty_disclose, s37_royal_exempt > duty_disclose, s40_1_exempt > duty_disclose, s40_2_exempt > duty_disclose, s41_exempt > duty_disclose, s44_exempt > duty_disclose, s22_exempt > duty_disclose, s22a_exempt > duty_disclose, s24_exempt > duty_disclose, s26_exempt > duty_disclose, s27_exempt > duty_disclose, s28_exempt > duty_disclose, s29_exempt > duty_disclose, s30_exempt > duty_disclose, s31_exempt > duty_disclose, s33_exempt > duty_disclose, s35_exempt > duty_disclose, s36_exempt > duty_disclose, s37_other_exempt > duty_disclose, s38_exempt > duty_disclose, s39_exempt > duty_disclose, s42_exempt > duty_disclose, s43_1_exempt > duty_disclose, s43_2_exempt > duty_disclose, s23_ncnd > duty_confirm, s24_ncnd > duty_confirm, s30_ncnd > duty_confirm, s40_5a_ncnd > duty_confirm, s31_3_ncnd > duty_confirm, s12_cost > duty_disclose, s14_vex > duty_disclose, s14_vex_ncnd > duty_confirm, s14_rep > duty_disclose, s9_fees > duty_disclose, s9_fees_ncnd > duty_confirm
 
 # ---------------------------------------------------------------------------
 # CLI smoke checks (see also tests.sh):
