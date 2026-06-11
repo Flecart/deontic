@@ -83,6 +83,39 @@ Cost: 202 OpenAI calls, ~1.37M prompt tokens for the two model arms.
    exemptions the tribunal explicitly bypassed, and missing procedural
    blockers when an exemption is also in play.
 
+## Error anatomy of the ground arm (replay analysis, 2026-06-11)
+
+Replayed from `runs/run_20260611_111806_oracle-ground-llm.jsonl` (the strict
+verified-only run: ground 92/120) with no new LLM calls — for every
+ground-arm disposition miss, each erroneous atom was flipped back to its
+oracle value singly and the engine re-run:
+
+- **20 of 28 misses (71%) are repairable by flipping ONE atom.** The formal
+  layer degrades discontinuously: a single wrong leaf flips the verdict.
+  Conversely, disposition *hits* tolerated up to 5 atom errors (47 hits had
+  zero errors, 45 had 1–5 harmless ones) — per-atom accuracy averaged over
+  the whole universe (97.2%) is the wrong statistic; only decision-critical
+  atoms matter.
+- **21 of 28 misses involve the public-interest balance atom**
+  (`PiMaintainOutweighs` / `PiNcndMaintainOutweighs`), missed or spuriously
+  asserted. The PI atom is not a fact to extract — it *is* the case's
+  holding, and the grounding interface asks for it stripped of decision
+  framing, batched with other atoms. This is the single highest-leverage
+  defect: a dedicated full-context PI call (or per-exemption PI atoms) would
+  attack most of the 28 misses at once.
+- Error-count distribution per case — hits: {0: 47, 1: 22, 2: 17, 3: 4,
+  4: 1, 5: 1}; misses: {1: 5, 2: 11, 3: 7, 4: 4, 6: 1}.
+
+Mechanistic reading: ground-vs-llm = (value of correct deductive structure)
+− (compounding cost of grounding noise) − (forgone correlated priors, e.g.
+DN deference). With per-atom accuracy p and k decision-critical atoms,
+case-level accuracy scales like p^k — at p≈0.97, k≈8 this predicts ~0.78,
+matching the observed 76.7%. The cross-domain dose-response (tax 6 atoms:
+parity; EIR 18: engine wins; FOIA 43: holistic wins) is the same curve. The
+actionable levers are exactly the ones that raise p on critical atoms:
+per-atom self-consistency voting, abstention semantics (unknown ≠ false),
+and a dedicated PI-balance call.
+
 ## Caveats
 
 - Single run at default temperature; ±2–3 instance noise observed across

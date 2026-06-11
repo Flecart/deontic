@@ -1,0 +1,448 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1002"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1002"/>
+	  <FRBRdate date="2025-08-15" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1002"/>
+	  <FRBRname value="Haley Dixon v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1002"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1002"/>
+	  <FRBRdate date="2025-08-15" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1002/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1002/data.xml"/>
+	  <FRBRdate date="2025-08-20T08:33:16" name="transform"/>
+	  <FRBRdate date="2025-08-20T09:12:53" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1002</uk:number>
+	<uk:cite>[2025] UKFTT 1002 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>4dac8435bebe89ce7cb200d6df445ddd76054a910fd7b16e1417dac8dbb5cb07</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; }
+#judgment .Heading1 { text-align: left; font-size: 20pt; color: #0F4761; }
+#judgment .Heading2 { text-align: left; font-size: 16pt; color: #0F4761; }
+#judgment .Heading3 { text-align: left; font-size: 14pt; color: #0F4761; }
+#judgment .Heading4 { text-align: left; font-style: italic; color: #0F4761; }
+#judgment .Heading5 { text-align: left; color: #0F4761; }
+#judgment .Heading6 { text-align: left; font-style: italic; color: #595959; }
+#judgment .Heading7 { text-align: left; color: #595959; }
+#judgment .Heading8 { text-align: left; font-style: italic; color: #272727; }
+#judgment .Heading9 { text-align: left; color: #272727; }
+#judgment .Title { text-align: left; font-size: 28pt; }
+#judgment .Subtitle { text-align: left; margin-left: 0.64in; font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; color: #404040; }
+#judgment .ListParagraph { text-align: left; margin-left: 0.5in; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; color: #0F4761; }
+#judgment .Default { font-family: 'Book Antiqua'; color: #000000; }
+#judgment .Footer { font-family: 'Times New Roman'; }
+#judgment .NormalWeb { text-align: left; font-family: 'Times New Roman'; }
+#judgment .Revision { font-family: 'Times New Roman'; }
+#judgment .CommentText { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Header { font-family: 'Times New Roman'; }
+#judgment .p1 { text-align: left; margin-left: 0in; font-family: Helvetica; font-size: 8.5pt; color: #000000; }
+#judgment .Heading1Char { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2Char { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3Char { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4Char { font-style: italic; color: #0F4761; }
+#judgment .Heading5Char { color: #0F4761; }
+#judgment .Heading6Char { font-style: italic; color: #595959; }
+#judgment .Heading7Char { color: #595959; }
+#judgment .Heading8Char { font-style: italic; color: #272727; }
+#judgment .Heading9Char { color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; color: #0F4761; }
+#judgment .IntenseQuoteChar { font-style: italic; color: #0F4761; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #0F4761; }
+#judgment .FooterChar { font-family: 'Times New Roman'; }
+#judgment .PageNumber { }
+#judgment .Strong { font-weight: bold; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #467886; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center;margin-left:0in;text-indent:0in"><img src="image1.emf.png" style="width:124.5pt;height:84pt"/></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua';color:#000000">[2025] UKFTT 01002 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Appeal Number: EA/2023/0393.</span></p>
+      <p class="Default"><courtType refersTo="#ukftt-grc"><span style="font-family:Arial"/><span style="font-weight:bold;font-family:Arial">First-Tier Tribunal </span></courtType></p>
+      <p class="Default"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:Arial">(General Regulatory Chamber) </courtType></p>
+      <p class="Default"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:Arial">Information Rights </docJurisdiction></p>
+      <p class="Default"><span style="font-weight:bold;font-family:Arial">Between:</span></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:Arial">HAYLEY DIXON</span></p>
+      <p class="Default" style="text-align:right"><span style="font-weight:bold;font-family:Arial">Appellant: </span></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:Arial">and</span></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:Arial">THE INFORMATION COMMISSIONER</span></p>
+      <p class="Default" style="text-align:right"><span style="font-weight:bold;font-family:Arial">First Respondent:</span></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:Arial">and </span></p>
+      <p class="Default" style="text-align:center"><span style="font-weight:bold;font-family:Arial">NHS ENGLAND</span></p>
+      <p class="Default" style="text-align:right"><span style="font-weight:bold;font-family:Arial">Second Respondent</span></p>
+      <p class="Default"><span style="font-weight:bold;font-family:Arial;color:#000000">Date and type of Hearing: </span><span style="font-family:Arial;color:#000000">On CVP: 3 April 2024, 16 January 2025 and 5 February 2025 and deliberations thereon, 9 April 2024, 30 July 2024, 11 February 2025 and 8 May 2025 and 15 August 2025.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Panel: </span><span style="font-family:'Book Antiqua';color:#000000">Brian Kennedy KC,</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua';color:#000000">&amp; Specialist members</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua';color:#000000">Suzanne Cosgrave &amp; Kate Grimley Evans.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Date of this Open Decision</span><span style="font-family:'Book Antiqua';color:#000000"> &#8211; 15 August 2025.</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">Representatives:</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Appellant: Clare Overman &amp; Beth Grossman of Counsel.</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the First Respondent: Aliya Al-Yassin of Counsel by way of written Response dated 04 December 2023.</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Second Respondent: Leo Davidson of Counsel.</span></p>
+      <p style="margin-left:0.39in;text-indent:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Result: </span><span style="font-family:'Book Antiqua';color:#000000">The Tribunal allow this Appeal in part,</span><span style="font-family:'Book Antiqua'"> finding the Commissioner&#8217;s decision in relation to section 36 FOIA, while correct, had erroneously concluded that no issue was raised by the requester (now Appellant) in relation to section 40 FOIA (one of the Appellant&#8217;s grounds of appeal). The Tribunal find the Commissioner had not appreciated that there was information within the scope of the request for which section 36 was not claimed but section 40 was.</span><span style="font-family:'Book Antiqua';color:#000000">  The Tribunal issue this substituted decision. </span></p>
+      <p style="margin-left:0.39in;text-indent:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Substituted Decision</span><span style="font-family:'Book Antiqua';color:#000000">:</span></p>
+      <blockContainer>
+	<num style="font-family:Arial;margin-left:0.64in;text-indent:-0.25in">a)</num>
+	<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Book Antiqua';color:#000000">The</span><span style="font-family:'Book Antiqua'"> application of section 36 to the withheld information is upheld. No steps are required. </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:Arial;margin-left:0.64in;text-indent:-0.25in">b)</num>
+	<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Book Antiqua'">The application of section 40 in respect of the redacted individual (identified in the Closed annex to this decision) in this withheld information is not upheld except for the small amount of information identified in the Closed annex.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:Arial;margin-left:0.64in;text-indent:-0.25in">c)</num>
+	<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Book Antiqua'">Where no other exemption is relied upon, the Tribunal directs this information must be disclosed within 35 days of the date upon which the Tribunal&#8217;s decision is promulgated. </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:Arial;margin-left:0.64in;text-indent:-0.25in">d)</num>
+	<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Book Antiqua'">In relation to the application of section 40 to all other individuals (which has not been disputed by the Appellant) the Tribunal makes no ruling. No steps are required.</span></p>
+      </blockContainer>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Factual and procedural background: </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">NHSE maintains guidance on delivering same-sex accommodation in hospitals, dating to 2019 (&#8220;the 2019 Guidance&#8221;) [A60]-[A80]. Annex B of the 2019 Guidance addresses &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">trans people and gender variant children</span><span style="font-family:'Book Antiqua'">&#8221; [A72]-[A74].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">In September 2021, NHSE commenced a review of the 2019 Guidance, including the provision in Annex B for trans people and gender variant children, to ensure that it remained appropriate. NHSE invited a large number of organisations to contribute to that review, including Mermaids, Stonewall, Gendered Intelligence and the LGBT Foundation [A142]-[A143].</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">On 9 September 2022 the Appellant submitted a request under FOIA to NHSE in the following terms (&#8220;the Request&#8221;) [A87]: </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Under the Freedom of Information Act please can you provide me with any correspondence either to, from or between NHS England employees Ruth May, Chief Nursing Officer, Jane Robinson, Clinical Improvement Project Lead and Dr Michael Brady, National Advisor for LGBT Health which include the following terms: &#8226; Mermaids &#8226; Stonewall &#8226; Gendered Intelligence &#8226; LGBT Foundation. Please include all correspondence which mentions these organisations, includes the above terms, or is to or from workers for these organisations and the three named NHS employees between 1.01.2021 and today, 09.09.2022.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">On 1 February 2023, NHSE responded. It disclosed a substantial amount of information in response to the request, but (so far as is relevant to this appeal) relied on section 36 FOIA (prejudice to the effective conduct of public affairs) and section 40(2) (personal information) to withhold other information [A88]-[A179]. The Appellant requested an internal review on 3 February 2023. The Appellant referred the matter to the Information Commissioner (&#8220;the Commissioner&#8221;) on 17 April 2023. NHSE responded to the Internal Review request on 8 June 2023 relying on s36(2) FOIA to withhold the information. During the course of the Commissioner&#8217;s investigation further information was identified by NHSE and disclosed, on 20 June 2023 See: [A192]-[A204] and 14 July 2023 [A205]- [A368]. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">On 14 August 2023 the  Commissioner issued his Decision Notice (&#8220;DN&#8221;) dated 14 August 2023 (IC-228151-N0D3), wherein he reached the conclusion that on the balance of probabilities, NHS England had supplied all of the information it held at the time of the request which falls within the scope of the Request and further also upheld NHS England&#8217;s reliance on s.36(2)(b)(ii) of FOIA in respect of the withheld information. The Commissioner also agreed that on balance the public interest weighed in favour of maintaining the exemption. The Appellant appealed [A10]-[A16] and the matter was heard by this Tribunal at what became a preliminary hearing on 3 April 2024. Mr Giancarlo Laura (&#8220;Mr Laura&#8221;) gave oral evidence, further to his witness statement dated 16 January 2024 [A406]-[A411]. The Tribunal considered that it would advance the overriding objective to adjourn the hearing with further case management directions, Open Directions dated 9 April 2024 [OB/B33] (pdf 934) and Closed Directions dated 9 April 2024 [CB/B2] (pdf 719). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">Further searches were conducted as detailed in the Second witness statement of Mr Laura, dated 1 May 2024 [A510]-[A516] (=[B40]-[B46]). On 30 April 2024, Amanda Pritchard, the Chief Executive of NHSE and its qualified person for the purposes of section 36 FOIA, gave an opinion that disclosure of certain of the information retrieved would cause prejudice to public affairs See: [E137]-[E144]. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">Paragraphs 4-8 of the 9 April 2024 Open Directions provided for further searches to be conducted by NHSE, and for various documents to be filed and served. Those searches led to the following inclusions in the Open Bundle: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.89in"><span style="font-family:'Book Antiqua'">The second witness statement of Giancarlo Laura, dated 1 May 2024, is at [OB/A510-A516] (pdf 517-523) (= [OB/B40-B46] (pdf 941-947)). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.25in">b.</num>
+	    <intro>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.89in"><span style="font-family:'Book Antiqua'">The exhibit to that second witness statement (Exhibit GL/1) starts at [OB/A517] (pdf 524), and contains: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(i)</num>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Book Antiqua'">A letter from Dr Brady, and the results of his searches, at [OB/A518- A534] (pdf 525-541);</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(ii)</num>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Book Antiqua'">A letter from Ms May, and the results of her searches, at [OB/A535-A539] (pdf 542-546); and </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iii)</num>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Book Antiqua'">A letter from another individual, and the results of their searches, at [OB/A540-A564] (pdf 547-571).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(iv)</num>
+	      <content>
+		<p class="NormalWeb" style="text-align:justify;margin-left:1.5in;text-indent:0.5in"><span style="font-family:'Book Antiqua'">A further page accidentally omitted, disclosed to the Appellant on 10 May 2024 [OB/A565] (pdf 572).</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">On 10 and 14 June 2024, NHSE re-disclosed but with limited circulation certain documents, having removed redactions of personal data &#8211; </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;in order to provide clarity for the purposes of the proceedings</span><span style="font-family:'Book Antiqua'">&#8221; and so they are not listed here. NHSE provided an exhibit &#8220;GL/1&#8221; to Mr Laura&#8217;s second witness statement, including various WhatsApp messages, and 8 &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">covering emails</span><span style="font-family:'Book Antiqua'">&#8221; [A824]-[A894] which had been omitted previously, in error.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">Paragraph 9 of the Open Directions directed that a schedule of documents be provided. That Schedule appears in the Open Bundle an [OB/A507-A509] (pdf 514-516) (=[OB/B37-B39] (pdf 938-940)). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in;text-indent:0in"><span style="font-family:'Book Antiqua'">Paragraph 10 of the Open Directions provided a mechanism for the Appellant to challenge NHSE&#8217;s compliance with paragraphs 4-9. On 14 June 2024. The Appellant confirmed she was satisfied with the searches undertaken, and that she did &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">not intend to make any written representations pursuant to paragraph 10 of the April order</span><span style="font-family:'Book Antiqua'">&#8221; [OB/C399] (pdf 1775).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in;text-indent:0in"><span style="font-family:'Book Antiqua'">Paragraphs 4-8 of the Open Directions provided for further searches to be conducted by NHSE, and for various documents to be filed and served. Those searches led to the following inclusions in the Open Bundle: </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p><span style="font-family:'Book Antiqua'">i)A second witness statement of Giancarlo Laura, dated 1 May 2024, is at [OB/A510-A516] (pdf 517-523) (= [OB/B40-B46] (pdf 941-947)). </span></p>
+	    <p><span style="font-family:'Book Antiqua'">ii)An exhibit to that second witness statement (Exhibit GL/1) starts at [OB/A517] (pdf 524), and contains:</span></p>
+	    <p><span style="font-family:'Book Antiqua'">iii)A letter from Dr Brady, and the results of his searches, at [OB/A518- A534] (pdf 525-541); </span></p>
+	    <p><span style="font-family:'Book Antiqua'">iv)A letter from Ms. May, and the results of her searches, at [OB/A535- A539] (pdf 542-546); and a letter from the third NHSE individual, and the results of their searches, at [OB/A540-A564] (pdf 547-571). </span></p>
+	    <p><span style="font-family:'Book Antiqua'">v)A further page accidentally omitted, disclosed to the Appellant on 10 May 2024 [OB/A565] (pdf 572). </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">On 10 June 2024, NHSE re-disclosed certain documents, having removed redactions of personal data in order to provide clarity for the purposes of the proceedings, from [OB/A566] (pdf 573) (=[OB/B131] (pdf 1032)). These data remain &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">withheld</span><span style="font-family:'Book Antiqua'">&#8221; for the purposes of FOIA and subject to the implied undertaking. These documents comprise three categories:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">i)Documents which had been provided to the Appellant on 1 February 2023, now unredacted in relation to a previously redacted NHSE employee: [OB/A568-A659] (pdf 575-666) ([OB/B133-B224] (pdf 1034-1125)). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">ii)Documents which had been provided to the Appellant on 14 July 2023, now unredacted in relation to a previously redacted NHSE employee: [OB/A660-A822] (pdf 667-829) (=[OB/B225-B387] (pdf 1126-1288)). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:left;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">iii)An email dated 17 March 2022 [OB/A823] (pdf 830) (=[OB/B388] (pdf 1289)). </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Book Antiqua'">On 14 June 2024, NHSE made further disclosures including:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">i)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.36in"><span style="font-family:'Book Antiqua'">NHSE re-disclosed Exhibit GL/1, but with the name of an NHSE employee unredacted (for the purposes of the proceedings only) [OB/A824-A870] (pdf 831-877) (=[OB/C328-C374] (pdf 1704-1750)). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">ii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.36in"><span style="font-family:'Book Antiqua'">NHSE also disclosed seven out of eight (8) cover emails, at [OB/A871- A894] (pdf 878-901) (=[OB/C375-C] (pdf 1034-1125)). NHSE has since confirmed that it does not seek to maintain any exemption in respect of emails 1-4 and 6. It does maintain that Emails 7 and 8 are exempt under section 36, and to the extent that any such information has been disclosed for the purposes of these proceedings, it remains &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">withheld</span><span style="font-family:'Book Antiqua'">&#8221; for the purposes of FOIA. (Email 5 has always been, and remains, redacted. See NHSE&#8217;s email on 13 December 2024 [OB/C522-C524] (pdf 1898-1900). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">iii)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.36in"><span style="font-family:'Book Antiqua'">Paragraph 9 of the Open Directions directed that a schedule of documents be provided. That Schedule appears in the Open Bundle an [OB/A507-A509] (pdf 514-516) (=[OB/B37-B39] (pdf 938-940)). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">iv)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.36in"><span style="font-family:'Book Antiqua'">Paragraph 10 of the Open Directions provided a mechanism for Ms Dixon to challenge NHSE&#8217;s compliance with paragraphs 4-9. On 14 June 2024, the Appellant confirmed she was satisfied with the searches undertaken, and that she did &#8220;not intend to make any written representations pursuant to paragraph 10 of the April order&#8221; [OB/C399] (pdf 1775).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">v)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.36in"><span style="font-family:'Book Antiqua'">also, in the Open Bundle is NHSE&#8217;s Submission in Response to the Open Directions dated 20 August 2024. This Submission is dated 11 September 2024 and appears at [OB/A499-A505] (pdf 506-512). </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">In the Open Bundle is the NHSE&#8217;s Submission the Response to the Open Directions dated 20 August 2024 is dated 11 September 2024 and appears at [OB/A499-A505] (pdf 506-512) which provides full detail in paragraph 4 of the chronology regarding identification of the withheld documents and relevant chronology of their disclosure.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">On 13 December 2024, NHSE correspondence with the Appellant explains 5 of the 8 emails (see above) have been disclosed to her under FOIA and so to the world at large on the basis that NHSE did not seek to maintain any exemption in respect of those emails. [para 1 (iii) C523]. These are Emails 1- 4 and 6. Emails 5, 7 and 8 remain withheld and therefore disputed. NHSE maintained that emails 7 and 8 are exempted under section 36 and email 5 has always been, and remains, redacted. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">The Tribunal appreciate and acknowledge the change of circumstances since the Commissioners investigation and Decision Notice (&#8220;DN&#8221;). The course and sequence of events in the appeal have resulted in extensive further disclosure and a significant narrowing of the issues between the parties resulting in a simplified list of outstanding issues for Tribunal to consider.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">Notably, the Appellant now takes no material issue with the Public Authority&#8217;s searches and where appropriate and relating to other data subjects, </span><span style="font-family:'Book Antiqua';color:#000000">does not challenge NHSE&#8217;s reliance on the exemptions under s.40 or s.41 FOIA. NHSE maintains that </span><span style="font-family:'Book Antiqua'">s40 does apply to other individuals who are named, and whose roles/contact details are included, within the withheld information &#8211; that information has been redacted since the earliest stages of the Appeal and are now accepted by the Appellant as not required/within scope of the request.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <heading style="margin-left:0.39in;text-indent:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Discussion and Conclusions:</span></heading>
+	  <paragraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.64in;text-indent:0in"><span style="font-weight:bold;font-family:'Book Antiqua'">Section 36 &#8211; engagement:</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<paragraph eId="para_18">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">The Tribunal find the Qualified Person&#8217;s Opinion (&#8220;QPO&#8221;) was sought on a similar, narrower request of 6 Jan 2023 and given on 10 January 2023. A QPO was sought again 26 May 2023 and granted 5 June 2023. The only extant QPO at the time of the response to the Freedom of Information (&#8220;FOI&#8221;) request was the one given on 10 January 2023. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">The Tribunal Panel discussed whether the QPO was a substantively reasonable one, applying Malnick (IC v Malnick and ACOBA <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/72" uk:canonical="[2018] UKUT 72 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 72 (AAC)</ref>; [2018] AACR 29 at [56]).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">The application of an earlier QPO (originally provided for an earlier request with a narrower scope) was one which the Panel found difficult. The Panel observed that it would generally be undesirable to have a blanket QPO or QPO&#8217;s which were being redeployed for new requests. As the scope of the earlier request was narrower, there was a question as to whether the QPO was valid for a wider request. In this case there was a significant overlap in scope and effectively the same application of section 36 (b) (ii). A QPO was sought again on 26 May 2023 and given on 5 June 2023 and was consistent with the original QPO. Whilst considering the validity of the QPO, the Tribunal had in mind the fact that exemptions may be adduced late, even after Tribunal proceedings have commenced (Birkett v. Defra</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/1606" uk:canonical="[2011] EWCA Civ 1606" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 1606</ref> GIA/2098/2010). The Panel reminded itself that the question for the Tribunal was whether the QPO was substantively reasonable and not whether it was procedurally reasonable.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">The Panel concluded that the opinion was reasonable in the Malnick sense. We agreed with the analysis in paragraph 29 of the Skeleton argument from NHSE dated 9 January 2025 that: &#8216;</span><span style="font-style:italic;font-family:'Book Antiqua'">Ms. Pritchard was entitled to reach the view that premature disclosure of the relevant information would be likely to cause prejudice to an ongoing deliberative process on a highly sensitive topic.&#8217;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">The Panel considered that the time at which the Public Interest Balance Test (&#8220;PIBT&#8221;) fell to be assessed was the time of refusal (and not the time of the internal review), following the Upper Tribunal in the case of Montague (Montague v IC DIT <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/104" uk:canonical="[2022] UKUT 104 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 104 (AAC)</ref> at [47] &#8211; [90]).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">The Panel concluded that the Commissioner had considered the relevant arguments on both sides of the PIBT and had been correct to decide that the PIBT fell in favour of non-disclosure. The Tribunal did take into account that the integrity of the process had been called into question and that there was a public interest in whether or not the process had been carried out correctly. However, the Tribunal concluded that the arguments regarding the chilling effect and the safe space were particularly strong given the sensitive nature of the subject matter.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="margin-left:0.39in;text-indent:0in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Effect of our decision on section 36:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">Everything which is withheld on the basis of section 36 in the closed bundle may continue to be withheld. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">There is no need to apply section 40 separately where s.36 already applies as everything is withheld already. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">We concluded that where section 36 is engaged, it is engaged for the entire email chain and any attachments, so no separate analysis is required. We reached this conclusion on the basis that section 36 (b) (ii) protects the process and needs to be applied in a holistic manner.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="margin-left:0in;text-indent:0in"><span style="font-weight:bold;font-family:'Book Antiqua'">Section 40 analysis:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">We only analysed the application of section 40 where section 36 had not been applied. This meant we looked at the section 40 redactions for the following items in the updated closed bundle (160125): - Email 1 (pdf page 99) , Email 2 (pdf page114), Email 3 (pdf page 175), Email 4 (pdf page 202) and Email 6 (pdf page 266).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">Most section 40 redactions had been accepted by the Appellant as valid. The redactions relating to one individual were still disputed at the time of the final hearing. The identity of that individual had been disclosed only to the Appellant (for the purposes of the proceedings only and not under FOIA).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua'">The Tribunal looked at whether the information redacted under section 40(2) was personal data. We concluded that the name of an individual was personal data and that a small reference to health information was personal data. However, we had regard to that fact that the concept of personal data is construed broadly (including the recent case of Ashley (Ashley v The Commissioners for His Majesty&#8217;s Revenue and Customs [2025] EWHC 134 (KB)). We felt that where the information was just identifying this person as the sender or receiver of an email which was entirely professional and revealed nothing about the individual personally, the information in an email could not be viewed as personal data. However, in case we are wrong on that, we treated all the information subject to section 40 redactions as personal data and then applied the legitimate interest test to it. Our conclusion was that (with the exception of a small incidental personal reference) the information which was claimed to be the personal data of one individual should be disclosed. We have provided the detailed reasons we came to this conclusion in a closed decision as an annex to this Open Decision as to do otherwise might inadvertently disclose the identity of an individual and frustrate any potential appeal. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Effect of Section 40 Analysis</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Book Antiqua'">Where no other exemption has been applied, section 40 redactions should be unredacted and disclosed under FOIA.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0in"><span style="font-family:'Book Antiqua'">Brian Kennedy KC                                                   15 August 2025.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
