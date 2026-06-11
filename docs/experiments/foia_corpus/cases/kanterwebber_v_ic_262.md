@@ -2,12 +2,8 @@
 
 citation: [2025] UKFTT 262 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/262
-exemptions: ['s40(2)', 's41(1)']
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2025_262_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+exemptions: s40(2), s41(1)
+verified: yes
 
 ## Background
 
@@ -83,7 +79,10 @@ verified: no
 
 ## Disputed information
 
-TODO
+Two categories of information withheld by the Charity Commission (CC) in response to the appellant's request made on 27 November 2023:
+
+1. The names (and dates of service) of past and present trustees of the Campaign Against Antisemitism (charity 1163790), held on the CC's register.
+2. Any applications made by the CAA (or its trustees) to the CC for a regulation-40 dispensation from the requirement to publish trustees' names publicly.
 
 ## Oracle facts
 

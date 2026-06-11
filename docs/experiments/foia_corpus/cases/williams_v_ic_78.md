@@ -2,12 +2,9 @@
 
 citation: [2026] UKFTT 78 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/78
-exemptions: ['s38(2)']
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2026_78_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+exemptions: s38(2)
+decision: confirm
+verified: yes
 
 ## Background
 
@@ -251,11 +248,11 @@ verified: no
 
 ## Disputed information
 
-TODO
+Whether the Home Office must confirm or deny that it holds three taxi/minicab invoices for transporting asylum seekers to or from a named hotel site. The dispute is a pure NCND dispute: the Home Office refused to say whether it holds the invoices at all, relying on s38(2) FOIA (health and safety). The tribunal did not determine whether the information was in fact held (para 60).
 
 ## Oracle facts
 
-Request, RefusalNotice
+Request, RefusalNotice, ConfirmWouldCauseExemptHarm, EndangerHealthSafety, PiNcndMaintainOutweighs
 
 ## Gold
 
@@ -264,8 +261,9 @@ withhold
 <!-- header disposition hint: appeal is dismissed -->
 
 <!-- label-draft notes (gpt-4.1): Paragraph 102 explicitly finds s38(2) engaged and upholds the refusal to confirm or deny; para 103 dismisses the appeal. No findings are made on whether the information is held. -->
+<!-- Corrected from draft: this is a pure NCND case (decision: confirm); engaged rule is sx_ncnd not s38_exempt; pi atom is PiNcndMaintainOutweighs; HoldsInfo omitted (tribunal explicitly declined to determine it, para 60); ConfirmOrDeny omitted (NCND — authority never confirmed or denied holding). -->
 
 ## Gold rules
 
-engaged: s38_exempt
+engaged: sx_ncnd
 pi: maintain

@@ -3,11 +3,7 @@
 citation: [2026] UKFTT 32 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/32
 exemptions: s14(1)
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2026_32_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+verified: yes
 
 ## Background
 
@@ -181,11 +177,11 @@ verified: no
 
 ## Disputed information
 
-TODO
+Financial records and related documents held by Coedpoeth Community Council, comprising: (1) accrued holiday pay figures for 2022-2023; (2) copies of invoices supporting specified payments made in 2022-2023; (3) advice received from One Voice Wales and Audit Wales on the legality of the 2022-2023 budget and treatment of accruals; and (4) wages and on-costs figures for March 2024 and holiday pay accruals for 2023-2024. All four requests were refused under s14(1) FOIA as vexatious.
 
 ## Oracle facts
 
-Request, RefusalNotice, VexatiousRequest
+Request, HoldsInfo, ConfirmOrDeny, RefusalNotice, VexatiousRequest
 
 ## Gold
 

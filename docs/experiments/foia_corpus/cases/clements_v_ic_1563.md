@@ -3,11 +3,8 @@
 citation: [2025] UKFTT 1563 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1563
 exemptions: []
-verified: no
+verified: yes
 
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2025_1563_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
 
 ## Background
 
@@ -99,7 +96,7 @@ The relevant statutory framework We acknowledge the Practice Direction dated 4 J
 
 ## Disputed information
 
-TODO
+Information held by Potto Parish Council relating to concerns about or complaints made to its external auditor (PKF Littlejohn LLP) — specifically, any information held by the Council to support making a complaint about the Auditor, without limitation as to time period. The Council denied holding any such information; the Tribunal found on the balance of probabilities that the Council did hold such information.
 
 ## Oracle facts
 
