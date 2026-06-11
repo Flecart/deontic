@@ -2,18 +2,14 @@
 
 citation: [2025] UKFTT 1462 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1462
-exemptions: []
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2025_1462_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+exemptions: reg 12(5)(b), reg 12(5)(f), reg 12(4)(e), reg 12(4)(a)
+verified: yes
 
 ## Background
 
 <!-- RAW kept sections from ukftt/grc/2025/1462/data.xml (everything before the tribunal's
      own reasoning) — used as-is; trim only if context length forces it.
-     Withheld headings: (none) -->
+     Withheld headings: The timing issue, Reg 12(5)(b), Reg 12(5)(f), Reg 12(4)(a), Disposal, Postscript -->
 
 ### (preamble)
 
@@ -79,69 +75,23 @@ The Tribunal unanimously determines as follows:
 
 21. As to reg 12(4)(a), relevant only (at least as the appeal was argued before us) to Request 6, the Commissioner’s case was that the Council had conducted adequate searches sufficient to entitle him to find, on the balance of probabilities, that no further information within scope of the request was held. In the Response (para 58), he did acknowledge that the email account of the Case Officer, Mr Treen, had not been searched, but observed that ‘… it seemed unlikely that further information within the scope of the request would be held.’
 
-### The timing issue
-
-22. We are in no doubt that Mr Hunter’s first point is well made. The reasoning in O’Hanlon is (if we may say so) persuasive. In any event, it is, as the parties agree, binding upon us. As the Commissioner rightly does not dispute, his analysis in the DN is at variance with O’Hanlon . Was his error, as he maintains, immaterial? We are quite satisfied that it was not. The interval in time between the dates of the response and the reconsideration was certainly quite short, but that is not the touchstone. What matters is whether there was any material development in the meantime. As Mr Hunter points out, there was a highly material change of circumstances during the interval in that, on 29 February 2024 the Council served the Enforcement Notice. At that point, so far as enforcement action was concerned, the die was cast. The material date (8 April 2024) was six weeks after that. By then, as we will seek to demonstrate, the arguments in favour of maintaining the exceptions under regs 12(5)(b) and 12(5)(f) had become much weaker, if they retained any residual force at all.
-
-### Reg 12(5)(b)
-
-23. The relevant documents (those sought by Requests 1, 2 and 4) would certainly have been material to the decision to serve the Enforcement Notice and a case could certainly be made that disclosure under EIR before that decision would have been potentially damaging to public interests. But we find it hard to see how their disclosure after enforcement proceedings were begun would have been liable to prejudice, to any extent, the course of justice, the prospect of the Appellant receiving a fair hearing or the ability of the Council to conduct a fair inquiry. To the contrary, once the decision had been taken to institute enforcement proceedings, it seems to us that prejudice of the sort which reg 12(5)(b) seeks to guard against would be much more likely to result from suppression, not disclosure, of documents within the categories requested. In the circumstances, we are not persuaded that, as at the material date, the exception was engaged.
-
-24. Moreover, even if it was, we regard the Appellant’s case on the public interest balancing test as compelling. There was, self-evidently, a powerful public interest in enforcement being carried out fairly. The enforcement proceedings put him in significant jeopardy. The case against him was based on material much of which he had not seen and could only speculate about. We accept that access to relevant, or potentially relevant, documents is likely to be a highly material factor in assessing the fairness of the process. There is, as we understand it, no built-in right to disclosure of documents under planning enforcement procedures. (On this aspect, we accept what Mr Hunter tells us (skeleton, para 29), having no reason to question it.)
-
-25. We also see considerable force in two further points advanced by Mr Hunter. First, the fact that the relevant date falls some weeks after the initiation of enforcement proceedings greatly diminishes (arguably defeats entirely) the customary argument about the public interest in allowing a public authority a ‘safe space’ for determination of important questions regarding the exercise of its powers. Secondly, the Openness of Local Government Bodies Regulations 2014 give effect to a clear legislative policy of ensuring that relevant local government decisions, the reasons for those decisions and the documentary materials of which they are based are placed in the public domain ‘as soon as reasonably practicable’, save where the information is properly judged to be confidential (see regs 7, 8 and 9)). We agree with Mr Hunter that the objective underlying the 2014 Regulations could not be easily reconciled with restrictive decision-making in relation to disclosure of the very documents on which the reasoning published under those regulations is based.
-
-26. The statutory presumption in favour of disclosure also operates to the Appellant’s advantage.
-
-27. For all of these reasons, we are satisfied that the Commissioner’s determination in relation to reg 12(5)(b) was not in accordance with the law.
-
-### Reg 12(5)(f)
-
-28. It was not in question that the three requirements under sub-paras (i)-(iii) of reg 12(5)(f) were satisfied. The dispute before us was as to the public interest balance test and the date on which it was to be applied.
-
-29. For the reasons already given, which the Commissioner no longer challenges, we find that he was wrong to address the application of the exception and the public interest balance test as at the date of the response rather than the later reconsideration decision.
-
-30. We also consider that the Commissioner erred more generally in applying the public interest balancing test. We are unpersuaded, having regard to the evidentiary material which we have seen, that suitable redaction of materials containing or recording third party complaints would have been ineffective to prevent identification of the complainants. We find in the Commissioner’s case nothing to substantiate his bare assertion to the contrary. In any event, if and to the extent that such a risk arose, Mr Hunter’s pragmatic proposal to substitute for disclosure a short gist or summary as appropriate would meet the justice of the case by fairly balancing the competing interests.
-
-31. In the circumstances, we find that the Commissioner’s determination under reg 12(5)(f) was made in error of law.
-
-### Reg 12(4)(a)
-
-32. We are also persuaded that the Commissioner was wrong to hold that the Council did not hold information within the scope of Request 6 in addition to that already disclosed. We have two reasons. In the first place, the ruling here is again infected by the error relating to the date as at which the exception should be applied (see above). It follows that the Commissioner’s inquiry did not extend to the full period which ought to have been covered. Secondly and in any event, there was, in our judgment, no warrant for the finding that it was not necessary to search the email account of Mr Treen, the Case Officer. No sound evidential basis was offered for the assumption that such a search would have yielded no relevant information and we see force and common sense in Mr Hunter’s observation (Reply, para 15) that the Case Officer’s account would have been a natural place to look for information relating to the Request.
-
-### Disposal
-
-33. For all of the reasons we have given, we are satisfied that the Commissioner’s decision was made in error of law. Should we, nonetheless, stay this appeal to allow for the possibility of an appeal against the O’Hanlon decision being allowed to proceed? We are very clear that the right answer to that is no. There is nothing before us to suggest that there is any current application for permission to appeal (at Upper Tribunal or Court of Appeal level) and we think it unlikely that an effective appeal will eventuate. Moreover, even if one did, it would be open to the Commissioner to apply for a stay of the FTT proceedings at that stage, if so advised. As matters now stand, the overriding objective argues powerfully in favour of proceeding with the litigation with a view to seeing an end to an over-long, costly and painful saga.
-
-34. It follows that we must allow the appeal.
-
-35. We refer to the substituted Decision Notice set out in the Decision above. Sub-paras (1)-(3) can, we think, be left to speak for themselves. Sub-para (4)(a) requires the Council to conduct further searches in respect of the specified Requests. The main reason is that the Commissioner and, it seems, the Council misdirected themselves as to the date by reference to which the l awfulness of the Response is to be assessed. But the requirement to carry out a thorough but proportionate search is not limited to that six-week period and, in light of our Decision and any advice which it may receive, the Council may well become aware of other information within scope of the Requests.
-
-36. The Council’s disclosure obligations under sub-para (4)(b) of the substituted Decision Notice should be carefully noted. Particular attention is drawn to the two provisos. As to the first, for the avoidance of doubt, it will not be open to the Council to cite any new exemption in respect of any information which was held on or before 16 February 2024. The Council will need to be clear in stipulating, in respect of any and every exception relied upon, the relevant Request and the date when the relevant information was first held. As to the second proviso, any redacted information should be accompanied by a brief explanation as to why redaction is said to be necessary. And where the Council contends that redaction will not be sufficient (and accordingly a summary or gist is provided instead), the Council should give grounds for that contention.
-
-37. Finally, we should say for completeness that while EIR, reg 12(4)(e) (internal communications) was not debated before us, if it had been we would have held that the Council’s reliance on that exception also failed in that it was based on the timing misconception which afflicted its case under regs 12(5)(b) and 12(5)(f).
-
-### Postscript
-
-38. We regret the long and costly history of this dispute and hope that in the light of our decision the parties will now make it a priority to dispose of what is left of it as swiftly and economically as possible. (Signed) Anthony Snelson Judge of the First-tier Tribunal Dated: 1 December 2025
-
 ## Disputed information
 
-TODO
+Environmental information held by Stratford-upon-Avon District Council relating to a long-running planning enforcement dispute at the Appellant's property at Tamworth-in-Arden: (1) notes and photographs from officer visits to the property; (2) notes of discussions between Council officers concerning the property; (4) draft enforcement notices or committee reports authorising the enforcement notice; (5) the complaint alleging breach of planning control (Request 3 was dropped; Request 6 is addressed below). For Request 6: the officer report or reasoned explanation for the refusal of the Appellant's 2009 certificate of lawfulness application. The Council had initially relied on reg 12(5)(b) for Requests 1, 2, 4 and 5; reg 12(5)(f) for Request 5; and reg 12(4)(a) (no information held) for Request 6.
 
 ## Oracle facts
 
-Request, IsEnvironmentalInfo, HoldsInfo, RefusalNotice
+Request, IsEnvironmentalInfo, HoldsInfo, RefusalNotice, AdverseVolunteerInterests
 
 ## Gold
 
-withhold
+disclose
 
-<!-- header disposition hint: appeal is (not detected) -->
+<!-- header disposition hint: appeal allowed -->
 
-<!-- label-draft notes (gpt-4.1): The Tribunal's reasoning states that a request was made, the information requested is environmental information held by the authority, and a refusal notice citing an exception was issued (see reasoning, paragraphs 3–5). The decision does not identify any engaged exemption or reach a public interest balance. -->
+<!-- label-draft notes (gpt-4.1): The tribunal found reg 12(5)(b) was not engaged as of the material date (para 23), and if it had been, the public interest in disclosure outweighed withholding (paras 24–27). It rejected the reliance on reg 12(5)(f) on the public interest balance in similar vein (paras 28–31). The authority was found to hold more information than it had admitted (reg 12(4)(a), para 32). Reg 12(4)(e) was not debated, but would also have failed (para 37). The appeal was allowed and disclosure ordered (paras 34–36). -->
 
 ## Gold rules
 
-engaged: 
-pi: na
+engaged: r12_5f_exc
+pi: disclose

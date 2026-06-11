@@ -2,18 +2,14 @@
 
 citation: [2026] UKFTT 490 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/490
-exemptions: r13
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2026_490_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+exemptions: EIR reg 12(4)(a)
+verified: yes
 
 ## Background
 
 <!-- RAW kept sections from ukftt/grc/2026/490/data.xml (everything before the tribunal's
      own reasoning) — used as-is; trim only if context length forces it.
-     Withheld headings: (none) -->
+     Withheld headings: Conclusions, Disposal -->
 
 ### (preamble)
 
@@ -61,21 +57,13 @@ Reasons
 
 16. The Commissioner resists the appeal, observing that the solicitors might have secured Mr Calderbank’s contact details by a variety of means. Among others, as was pointed out in the DN, para, 19, the solicitors might have identified his name from the original planning documents, which were passed to them pursuant to their instructions to act as the Council’s claims handler. Armed with the name, it would not have been a difficult matter for the solicitors, experienced claims handlers, to trace his address.
 
-### Conclusions
-
-17. We agree with the Commissioner. We find it more likely than not that the Council did not hold any recorded information within the scope of the request at any time. We find it all the more improbable that any relevant recorded information was held at the time of the request, over 11 years after the alleged data breach occurred.
-
-### Disposal
-
-18. For the reasons stated, although we accept that the appeal is sincerely meant, we dismiss it. Anthony Snelson Judge of the First-tier Tribunal Dated: 20 March 2026
-
 ## Disputed information
 
-TODO
+Whether the Council held any recorded information showing how the solicitors (Forbes) came to be given Mr Calderbank's personal contact details — specifically, whether the Council had shared those details with the solicitors in connection with handling claims arising from the 2008 road traffic accident on the A6.
 
 ## Oracle facts
 
-Request, IsEnvironmentalInfo, HoldsInfo, RefusalNotice, ThirdPartyPersonalData, ContraveneDPPrinciples
+Request, IsEnvironmentalInfo, RefusalNotice
 
 ## Gold
 
@@ -83,9 +71,9 @@ withhold
 
 <!-- header disposition hint: appeal is (not detected) -->
 
-<!-- label-draft notes (gpt-4.1): The tribunal found the information was third party personal data and that disclosure would contravene the data protection principles (see paragraphs 17–21). The public authority responded with a refusal notice citing r13 (see paragraph 8), and the tribunal upheld the withholding on that basis (paragraph 22). The public interest balance was not reached as r13 is absolute. -->
+<!-- label-draft notes: reg 12(4)(a) is the sole basis — tribunal found (para 17) it was more likely than not that the Council did not hold any recorded information within scope at any time; appeal dismissed (para 18). reg 12(4)(a) is a threshold/not-held exception not in the engaged-rule vocabulary (r12_4b–r13_exc), so engaged is empty. HoldsInfo is FALSE (not held), so omitted. pi: na — no public interest balance is required when the information is not held. -->
 
 ## Gold rules
 
-engaged: r13_exc
+engaged:
 pi: na

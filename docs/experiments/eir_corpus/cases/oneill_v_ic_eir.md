@@ -3,11 +3,7 @@
 citation: [2025] UKFTT 1479 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1479
 exemptions: reg 12(4)(b)
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2025_1479_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+verified: yes
 
 ## Background
 
@@ -125,7 +121,7 @@ Relevant case law We acknowledge the Practice Direction dated 4 June 2024 ( http
 
 ## Disputed information
 
-TODO
+Information held by Causeway Coast & Glens Borough Council relating to a Planning Enforcement Notice served under the Planning Act (Northern Ireland) 2011 in respect of a specific property. The disputed information concerns: what steps the Council took to identify the property owner before serving the Notice; whether the Notice was served under s.133 of the Act; whether the employee (a Council officer) had registered his estate in the property with the Council; and whether the Notice had been complied with. The Council refused the request entirely under reg 12(4)(b) (manifestly unreasonable); following its internal review it disclosed the information it held, but the enforcement-related element had been withheld during the original refusal on the basis that enforcement action was then live.
 
 ## Oracle facts
 
