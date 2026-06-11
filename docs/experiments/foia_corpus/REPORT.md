@@ -52,8 +52,8 @@ Cost: 202 OpenAI calls, ~1.37M prompt tokens for the two model arms.
    structural case. The deduction layer is not the bottleneck.
 
 2. **Grounding is the bottleneck — and errors compound through conjunctive
-   rules.** The ground arm judges individual atoms at 96.9% accuracy, yet
-   exact engagement-set match is only 61.9% and disposition 75.0%. With ~43
+   rules.** The ground arm judges individual atoms at 97.0% accuracy, yet
+   exact engagement-set match is only 63.4% and disposition 78.2%. With ~43
    atoms per case, 97% per-atom accuracy still yields ≈1.3 wrong atoms per
    case, and a single false positive (a stray `PiMaintainOutweighs`, a
    spurious prejudice finding) flips the engine's disposition. The engine is
@@ -67,7 +67,7 @@ Cost: 202 OpenAI calls, ~1.37M prompt tokens for the two model arms.
    buys at equal or worse outcome accuracy: every ground-arm verdict carries a
    proof certificate (which rule fired, what it defeated, which facts it
    consumed) and its errors are *attributable* to named atoms — the llm arm's
-   72/84 comes with prose.
+   83/101 comes with prose.
 
 4. **Both model arms degrade sharply on disclose-gold cases** (ground 65.4%,
    llm 69.2%, vs 83–97% on withhold-gold). llm-only's 82.2% overall is only
@@ -77,7 +77,7 @@ Cost: 202 OpenAI calls, ~1.37M prompt tokens for the two model arms.
    adjudicator is right 73% of the time by construction. The planned `dn`
    baseline arm would quantify this exactly.
 
-5. **Rule selection is hard for everyone** (engaged: ground 61.9%, llm 64.3%
+5. **Rule selection is hard for everyone** (engaged: ground 63.4%, llm 67.3%
    — exact set match). Common confusions in the logs: asserting the PI atom
    for absolute exemptions, engaging s21 off a published *summary*, engaging
    exemptions the tribunal explicitly bypassed, and missing procedural
@@ -106,7 +106,7 @@ Cost: 202 OpenAI calls, ~1.37M prompt tokens for the two model arms.
   the 500-case scale-up.
 - The **`dn` baseline arm** to price the deference channel.
 - The **atoms-per-call (K) sweep** and **--precedents** ablation now have a
-  corpus with enough power: 84 instances × 43 atoms ≈ 3,600 per-atom
+  corpus with enough power: 101 instances × 43 atoms ≈ 4,300 per-atom
   judgments per configuration.
 - The grounding-precision threshold (finding 3) is the paper's central
   testable claim: the engine's value on *outcomes* is gated on per-atom
