@@ -76,6 +76,13 @@ its formal theory:
 | FOIA 2000 | 120 | 120/120 disp, 120/120 engaged, 54/54 pi | 92/120 (76.7%) | 100/120 (83.3%) | 5013/5160 (97.2%) |
 | EIR 2004 | 17 | 17/17, 17/17, 6/6 | 15/17 (88.2%) | 14/17 (82.4%) | 317/323 (98.1%) |
 | FA09 Sch 55 | 6 | 6/6, 6/6 | 4/6 | 6/6 | 34/36 |
+| ERA 1996 (employment) | 3 | 3/3, 3/3 | 2/3 | 2/3 | 14/15 |
+
+Employment (first wave, n=3 — holmes/milrine/chand): oracle perfect again;
+ground matched llm on disposition and beat it on engaged-rules (2/3 vs 1/3 —
+on milrine the llm called the outcome right but asserted fair_block while the
+tribunal found the s98 defence failed; the ground arm got both right). EAT
+seed list yields ~50% usable cases (remedy-only / status-only appeals skip).
 
 FOIA per-class: ground 82.1%/63.9% (withhold/disclose-gold), llm 88.1%/72.2%;
 always-withhold baseline 70.0%. The dose-response ordering (EIR: engine wins;
