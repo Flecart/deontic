@@ -122,13 +122,9 @@ class EngineGate:
             return await _run()
 
 
-async def gather(aws: Awaitable[T], /, *more: Awaitable[T]) -> list[T]:
-    """``asyncio.gather`` wrapper — schedules every awaitable at once."""
-    if more:
-        return list(await asyncio.gather(aws, *more))
-    if isinstance(aws, tuple):
-        return list(await asyncio.gather(*aws))
-    return list(await asyncio.gather(aws))
+async def run_all(*aws: Awaitable[T]) -> list[T]:
+    """Schedule every awaitable at once; return results in submission order."""
+    return list(await asyncio.gather(*aws))
 
 
 def parse_json_reply(text: str) -> dict:

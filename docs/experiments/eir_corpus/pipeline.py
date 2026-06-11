@@ -32,19 +32,26 @@ OpenAI arms need OPENAI_API_KEY and `pip install openai`.
 from __future__ import annotations
 
 import argparse
-import datetime
-import json
+import asyncio
 import os
 import re
 import sys
-import threading
-import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
+EXPERIMENTS = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
+sys.path.insert(0, str(EXPERIMENTS))
 
+from corpus_async import (  # noqa: E402
+    AsyncLLM,
+    EngineGate,
+    RunLog,
+    add_concurrency_arg,
+    concurrency_error,
+    parse_json_reply,
+    run_all,
+)
 from deontic_py import Deontic, status_code  # noqa: E402
 
 DDL = REPO / "examples" / "eir" / "eir.ddl"
@@ -134,8 +141,7 @@ def engine_result(d: Deontic, facts: list[str], verbose: bool,
     atom = DECISION_ATOM if decision != "confirm" else "ConfirmOrDeny"
     pi_atom = PI_ATOM if decision != "confirm" else PI_NCND_ATOM
     engagement = ENGAGEMENT if decision != "confirm" else NCND_ENGAGEMENT
-    with _engine_lock:
-        rep = d.why(str(DDL), [atom], assume=facts)[atom][BEARER]
+    rep = d.why(str(DDL), [atom], assume=facts)[atom][BEARER]
     code = status_code(rep.status)
     engaged = [lbl for lbl, atoms in engagement.items()
                if all(a in facts for a in atoms)]
@@ -203,85 +209,6 @@ def precedent_lines(atom: str, case_name: str,
     return "".join(f"\n    precedent (from another case): {n}" for n in notes)
 
 
-# ── run log (JSONL: every LLM call + every arm result, for post-hoc
-#    analysis of WHY a fact was asserted/missed; see view_run.py) ────────────
-
-_log_file: Path | None = None
-_log_lock = threading.Lock()
-_engine_lock = threading.Lock()
-_concurrency = 1
-_api_semaphore: threading.Semaphore | None = None
-
-
-def configure_runtime(concurrency: int) -> None:
-    """Set max in-flight OpenAI calls (1 = sequential, the default)."""
-    global _concurrency, _api_semaphore
-    _concurrency = max(1, concurrency)
-    _api_semaphore = (threading.Semaphore(_concurrency)
-                      if _concurrency > 1 else None)
-
-
-def start_run(tag: str) -> Path:
-    """Open a fresh JSONL run log; every subsequent log_event appends to it."""
-    global _log_file
-    RUNS_DIR.mkdir(exist_ok=True)
-    stamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    _log_file = RUNS_DIR / f"run_{stamp}_{tag}.jsonl"
-    return _log_file
-
-
-def log_event(record: dict) -> None:
-    if _log_file is None:
-        return
-    record = {"ts": datetime.datetime.now().isoformat(timespec="seconds"),
-              **record}
-    with _log_lock:
-        with _log_file.open("a") as fh:
-            fh.write(json.dumps(record, ensure_ascii=False) + "\n")
-
-
-# ── OpenAI side ─────────────────────────────────────────────────────────────
-
-def call_openai(model: str, system: str, user: str,
-                meta: dict | None = None) -> str:
-    from openai import OpenAI  # lazy: only the API arms need it
-
-    def _call() -> str:
-        t0 = time.time()
-        resp = OpenAI().chat.completions.create(
-            model=model,
-            messages=[{"role": "system", "content": system},
-                      {"role": "user", "content": user}],
-        )
-        reply = resp.choices[0].message.content or ""
-        usage = getattr(resp, "usage", None)
-        log_event({
-            "type": "llm_call",
-            **(meta or {}),
-            "model": model,
-            "system": system,
-            "user": user,
-            "reply": reply,
-            "seconds": round(time.time() - t0, 2),
-            "prompt_tokens": getattr(usage, "prompt_tokens", None),
-            "completion_tokens": getattr(usage, "completion_tokens", None),
-        })
-        return reply
-
-    if _api_semaphore is not None:
-        with _api_semaphore:
-            return _call()
-    return _call()
-
-
-def parse_json_reply(text: str) -> dict:
-    """Tolerate code fences / prose around the JSON object."""
-    m = re.search(r"\{.*\}", text, re.DOTALL)
-    if not m:
-        raise ValueError(f"no JSON object in model reply:\n{text}")
-    return json.loads(m.group(0))
-
-
 GROUND_SYSTEM = """\
 You are the fact-finder in a UK Freedom of Information Act 2000 appeal.
 You are given (a) a dictionary of atoms, each with the exact meaning that
@@ -343,9 +270,10 @@ Reply with ONLY a JSON object:
  "disposition": "disclose" | "withhold", "reasoning": "<brief>"}"""
 
 
-def run_ground_arm(d: Deontic, case: dict, model: str, verbose: bool,
-                   atoms_per_call: int = 0, seed: int | None = None,
-                   precedents: dict | None = None) -> dict:
+async def run_ground_arm(engine: EngineGate, llm: AsyncLLM, d: Deontic,
+                         case: dict, verbose: bool,
+                         atoms_per_call: int = 0, seed: int | None = None,
+                         precedents: dict | None = None) -> dict:
     """Ground atoms from the background, in batches of `atoms_per_call`
     dictionary entries per API call (0 = all in one call, the default).
 
@@ -369,7 +297,7 @@ def run_ground_arm(d: Deontic, case: dict, model: str, verbose: bool,
     facts: list[str] = []
     dropped: list[str] = []
 
-    def ground_batch(n: int, batch: list) -> tuple[int, list[str], list[str], str]:
+    async def ground_batch(n: int, batch: list) -> tuple[int, list[str], list[str], str]:
         dictionary = "\n".join(
             f"- {e.atom}: {e.description}"
             + (precedent_lines(e.atom, case["name"], precedents)
@@ -380,46 +308,26 @@ def run_ground_arm(d: Deontic, case: dict, model: str, verbose: bool,
                 f"ATOM DICTIONARY (judge ONLY these atoms):\n{dictionary}\n\n")
         meta = {"case": case["name"], "arm": "ground", "batch": n,
                 "batches": len(batches), "batch_atoms": sorted(e.atom for e in batch)}
-        reply = parse_json_reply(call_openai(model, GROUND_SYSTEM, user, meta))
+        reply = parse_json_reply(await llm.chat(GROUND_SYSTEM, user, meta))
         batch_atoms = {e.atom for e in batch}
         got = [f for f in reply.get("facts", []) if f in batch_atoms]
         bad = [f for f in reply.get("facts", []) if f not in batch_atoms]
         return n, got, bad, reply.get("reasoning", "")
 
-    if _concurrency > 1 and len(batches) > 1:
-        batch_out: dict[int, tuple[list[str], list[str], str]] = {}
-        workers = min(_concurrency, len(batches))
-        with ThreadPoolExecutor(max_workers=workers) as pool:
-            futs = [pool.submit(ground_batch, n, batch)
-                    for n, batch in enumerate(batches, 1)]
-            for fut in as_completed(futs):
-                n, got, bad, reasoning = fut.result()
-                batch_out[n] = (got, bad, reasoning)
-        for n in range(1, len(batches) + 1):
-            got, bad, reasoning = batch_out[n]
-            facts += got
-            dropped += bad
-            if verbose and len(batches) > 1:
-                print(f"    batch {n}/{len(batches)} ({len(batches[n - 1])} atoms) "
-                      f"-> {', '.join(got) or '(none)'}")
-            if verbose and len(batches) == 1:
-                print(f"    grounded facts : {', '.join(got) or '(none)'}")
-                print(f"    reasoning      : {reasoning}")
-    else:
-        for n, batch in enumerate(batches, 1):
-            n, got, bad, reasoning = ground_batch(n, batch)
-            facts += got
-            dropped += bad
-            if verbose and len(batches) > 1:
-                print(f"    batch {n}/{len(batches)} ({len(batch)} atoms) "
-                      f"-> {', '.join(got) or '(none)'}")
-            if verbose and len(batches) == 1:
-                print(f"    grounded facts : {', '.join(got) or '(none)'}")
-                print(f"    reasoning      : {reasoning}")
+    for n, got, bad, reasoning in await run_all(
+            *(ground_batch(n, batch) for n, batch in enumerate(batches, 1))):
+        facts += got
+        dropped += bad
+        if verbose and len(batches) > 1:
+            print(f"    batch {n}/{len(batches)} ({len(batches[n - 1])} atoms) "
+                  f"-> {', '.join(got) or '(none)'}")
+        if verbose and len(batches) == 1:
+            print(f"    grounded facts : {', '.join(got) or '(none)'}")
+            print(f"    reasoning      : {reasoning}")
     if verbose and dropped:
         print(f"    dropped out-of-batch/unknown: {', '.join(dropped)}")
 
-    res = engine_result(d, facts, verbose, case["decision"])
+    res = await engine.call(engine_result, d, facts, verbose, case["decision"])
     # Per-atom grounding accuracy against the verified oracle facts — the
     # sensitive endpoint for the batch-size experiment (|universe| judgments
     # per case instead of one disposition).
@@ -431,11 +339,11 @@ def run_ground_arm(d: Deontic, case: dict, model: str, verbose: bool,
     return res
 
 
-def run_llm_arm(case: dict, model: str, verbose: bool) -> dict:
+async def run_llm_arm(llm: AsyncLLM, case: dict, verbose: bool) -> dict:
     user = (f"CASE BACKGROUND:\n{case['background']}\n\n"
             f"DISPUTED INFORMATION:\n{case['disputed']}")
     meta = {"case": case["name"], "arm": "llm"}
-    reply = parse_json_reply(call_openai(model, LLM_SYSTEM, user, meta))
+    reply = parse_json_reply(await llm.chat(LLM_SYSTEM, user, meta))
     if verbose:
         print(f"    reasoning      : {reply.get('reasoning', '')}")
     engaged = [EXEMPTION_CODES[c] for c in reply.get("engaged", [])
@@ -468,17 +376,19 @@ def fmt_dim(name: str, hit: bool | None, pred) -> str:
     return f"  [{mark}] {name:<12} -> {shown or '(none)'}"
 
 
-def execute_arm(d: Deontic, case: dict, arm: str, model: str, verbose: bool,
-                atoms_per_call: int, seed: int | None,
-                precedents: dict | None) -> dict:
+async def execute_arm(engine: EngineGate, llm: AsyncLLM, d: Deontic,
+                      case: dict, arm: str, verbose: bool,
+                      atoms_per_call: int, seed: int | None,
+                      precedents: dict | None) -> dict:
     """Run one arm for one case; returns pred dict (raises on bad arm name)."""
     if arm == "oracle":
-        return engine_result(d, case["oracle_facts"], verbose, case["decision"])
+        return await engine.call(engine_result, d, case["oracle_facts"],
+                                 verbose, case["decision"])
     if arm == "ground":
-        return run_ground_arm(d, case, model, verbose, atoms_per_call, seed,
-                              precedents)
+        return await run_ground_arm(engine, llm, d, case, verbose,
+                                    atoms_per_call, seed, precedents)
     if arm == "llm":
-        return run_llm_arm(case, model, verbose)
+        return await run_llm_arm(llm, case, verbose)
     raise ValueError(f"unknown arm '{arm}'")
 
 
@@ -499,7 +409,7 @@ def print_arm_result(case: dict, arm: str, pred: dict, hits: dict,
 
 # ── main ────────────────────────────────────────────────────────────────────
 
-def main() -> int:
+async def amain() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--case", action="append",
@@ -521,14 +431,12 @@ def main() -> int:
                     help="run cases whose labels a human has not verified")
     ap.add_argument("-v", "--verbose", action="store_true",
                     help="show grounded facts, why-certificates, model reasoning")
-    ap.add_argument("--concurrency", type=int, default=1, metavar="N",
-                    help="max simultaneous OpenAI API calls (default: 1)")
+    add_concurrency_arg(ap)
     args = ap.parse_args()
 
-    if args.concurrency < 1:
-        print("error: --concurrency must be >= 1", file=sys.stderr)
+    if err := concurrency_error(args.concurrency):
+        print(err, file=sys.stderr)
         return 2
-    configure_runtime(args.concurrency)
 
     arms = [a.strip() for a in args.arms.split(",") if a.strip()]
     if {"ground", "llm"} & set(arms) and not os.environ.get("OPENAI_API_KEY"):
@@ -541,13 +449,16 @@ def main() -> int:
 
     precedents = load_precedents() if args.precedents else None
 
-    log = start_run("-".join(arms))
-    log_event({"type": "run_meta", "argv": sys.argv[1:], "arms": arms,
-               "model": args.model, "atoms_per_call": args.atoms_per_call,
-               "seed": args.seed, "precedents": bool(precedents),
-               "concurrency": args.concurrency,
-               "cases": [p.stem for p in paths]})
-    print(f"log: {log.relative_to(REPO)}")
+    log = RunLog(RUNS_DIR)
+    log_path = log.start("-".join(arms))
+    llm = AsyncLLM(args.model, log, concurrency=args.concurrency)
+    engine = EngineGate(d, cached=True)
+    await log.event({"type": "run_meta", "argv": sys.argv[1:], "arms": arms,
+                     "model": args.model, "atoms_per_call": args.atoms_per_call,
+                     "seed": args.seed, "precedents": bool(precedents),
+                     "concurrency": args.concurrency,
+                     "cases": [p.stem for p in paths]})
+    print(f"log: {log_path.relative_to(REPO)}")
     if args.concurrency > 1:
         print(f"concurrency: {args.concurrency} simultaneous OpenAI calls")
 
@@ -555,7 +466,6 @@ def main() -> int:
     facts_scores: list[tuple[int, int]] = []  # ground arm: (agree, total)
     arm_order = {a: i for i, a in enumerate(arms)}
     runnable: list[tuple[dict, str]] = []  # (case, arm)
-    cases: list[dict] = []
 
     for path in paths:
         case = load_case(path)
@@ -563,30 +473,20 @@ def main() -> int:
             print(f"\n=== {case['name']}: SKIPPED (verified: no — check labels "
                   "against the reasoning file, or pass --allow-unverified)")
             continue
-        cases.append(case)
         for arm in arms:
             if arm not in arm_order:
                 print(f"  unknown arm '{arm}', skipping")
                 continue
             runnable.append((case, arm))
 
-    def run_task(case: dict, arm: str) -> tuple[dict, str, dict, dict]:
-        pred = execute_arm(d, case, arm, args.model, args.verbose,
-                           args.atoms_per_call, args.seed, precedents)
+    async def run_task(case: dict, arm: str) -> tuple[dict, str, dict, dict]:
+        pred = await execute_arm(engine, llm, d, case, arm, args.verbose,
+                                 args.atoms_per_call, args.seed, precedents)
         hits = score(pred, case["gold"])
         return case, arm, pred, hits
 
-    completed: list[tuple[dict, str, dict, dict]] = []
-    parallel = (_concurrency > 1 and len(runnable) > 1)
-    if parallel:
-        with ThreadPoolExecutor(max_workers=_concurrency) as pool:
-            futs = [pool.submit(run_task, case, arm) for case, arm in runnable]
-            for fut in as_completed(futs):
-                completed.append(fut.result())
-        completed.sort(key=lambda r: (r[0]["name"], arm_order[r[1]]))
-    else:
-        for case, arm in runnable:
-            completed.append(run_task(case, arm))
+    completed = await run_all(*(run_task(case, arm) for case, arm in runnable))
+    completed.sort(key=lambda r: (r[0]["name"], arm_order[r[1]]))
 
     shown_case: str | None = None
     for case, arm, pred, hits in completed:
@@ -598,11 +498,11 @@ def main() -> int:
             print(f"    gold: {g['disposition']}; engaged "
                   f"{', '.join(g['engaged']) or '(none)'}; pi {g['pi']}")
         g = case["gold"]
-        log_event({"type": "arm_result", "case": case["name"], "arm": arm,
-                   "pred": {k: v for k, v in pred.items()
-                            if k != "facts_agreement"},
-                   "gold": g, "hits": hits,
-                   "facts_agreement": pred.get("facts_agreement")})
+        await log.event({"type": "arm_result", "case": case["name"], "arm": arm,
+                         "pred": {k: v for k, v in pred.items()
+                                  if k != "facts_agreement"},
+                         "gold": g, "hits": hits,
+                         "facts_agreement": pred.get("facts_agreement")})
         print_arm_result(case, arm, pred, hits, facts_scores)
         rows.append((arm, hits))
 
@@ -625,6 +525,10 @@ def main() -> int:
         print(f"  (ground arm: atoms_per_call={args.atoms_per_call or 'all'}, "
               f"seed={args.seed})")
     return 0 if all(v for _, h in rows for v in h.values() if v is not None) else 1
+
+
+def main() -> int:
+    return asyncio.run(amain())
 
 
 if __name__ == "__main__":
