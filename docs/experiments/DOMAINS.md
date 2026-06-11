@@ -44,3 +44,23 @@ labelling with verified gold → three-arm eval → REPORT.md. Each gets its own
 - Confirm UKIPO/FOS/ET bulk access terms (the Open-Justice-Licence question
   recurs per source).
 - US FOIA: pick the court slice (D.D.C. dominates) and check RECAP coverage.
+
+## First per-domain eval results (gpt-4.1, single runs)
+
+| domain | n | oracle disp. | ground disp. | llm disp. | ground facts |
+|---|---|---|---|---|---|
+| FOIA 2000 | 101 | 97.0% | 78.2% | 82.2% | 97.0% (43 atoms) |
+| EIR 2004 | 16 | 16/16 | **15/16** | 13/16 | 299/304 = 98.4% (18 atoms) |
+| FA09 Sch 55 | 7 | 7/7 | 6/7 | 6/7 | 41/42 (6 atoms) |
+
+Cross-domain pattern — now a three-point dose-response on the groundable-atom
+universe size: at 6 atoms (tax) the engine arm matches holistic judgment
+(6/7 vs 6/7); at 18 atoms (EIR) the engine arm WINS (15/16 vs 13/16 — the
+structured PI-presumption layer pays off while per-atom accuracy stays 98%);
+at 43 atoms (FOIA) per-atom noise compounds through conjunctive rule bodies
+and holistic judgment wins on outcomes (78% vs 82%). The implied claim: the
+formal layer beats holistic judgment exactly while grounding error stays
+below the compounding threshold set by rule-body width — and its auditability
+(proof certificates, attributable errors) is constant regardless. Caveats:
+single runs, small n for EIR/tax, EIR/tax labels drafted by the evaluated
+model family (agent-verified).
