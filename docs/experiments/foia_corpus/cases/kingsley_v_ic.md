@@ -3,7 +3,7 @@
 citation: [2025] UKFTT 1364 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1364
 exemptions: s38(1)(a), s12
-verified: no
+verified: yes
 
 <!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
      Gold rules against cache/ukftt_grc_2025_1364_reasoning.txt. The pipeline skips

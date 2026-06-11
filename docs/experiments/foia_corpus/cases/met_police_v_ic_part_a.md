@@ -51,5 +51,5 @@ withhold
 
 ## Gold rules
 
-engaged: s31_exempt s40_2_exempt
+engaged: s31_exempt, s40_2_exempt
 pi: maintain
