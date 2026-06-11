@@ -20,6 +20,8 @@ class ModelSpec:
     model_id: str
     # reasoning models (o-series) reject temperature / need different params
     reasoning: bool = False
+    # hybrid-reasoning models that think by default; suppress via OpenRouter
+    no_think: bool = False
 
 
 PROVIDERS = {
@@ -39,6 +41,7 @@ REGISTRY: dict[str, ModelSpec] = {
     "gpt-5.4":           ModelSpec("gpt-5.4",           "openai", "gpt-5.4", reasoning=True),
     "gpt-5.4-mini":      ModelSpec("gpt-5.4-mini",      "openai", "gpt-5.4-mini", reasoning=True),
     "qwen3.6":           ModelSpec("qwen3.6",           "openrouter", "qwen/qwen3.6-35b-a3b"),
+    "qwen3.6-plus":      ModelSpec("qwen3.6-plus",      "openrouter", "qwen/qwen3.6-plus", no_think=True),
     "deepseek-v4-flash": ModelSpec("deepseek-v4-flash", "openrouter", "deepseek/deepseek-v4-flash"),
     # OpenRouter (provider/model ids)
     "llama-3.3-70b":     ModelSpec("llama-3.3-70b",     "openrouter", "meta-llama/llama-3.3-70b-instruct"),

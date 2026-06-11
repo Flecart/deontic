@@ -21,6 +21,8 @@ def _create(client, spec, messages, tools=None, temperature=0.0):
         kwargs["tool_choice"] = "auto"
     if not spec.reasoning:          # o-series reject custom temperature
         kwargs["temperature"] = temperature
+    if spec.no_think:               # OpenRouter hybrid-reasoning models
+        kwargs["extra_body"] = {"reasoning": {"enabled": False}}
     return client.chat.completions.create(**kwargs)
 
 
