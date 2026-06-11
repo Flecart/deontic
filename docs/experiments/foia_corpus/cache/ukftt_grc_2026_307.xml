@@ -1,0 +1,659 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/307"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/307"/>
+	  <FRBRdate date="2026-03-09" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="307"/>
+	  <FRBRname value="Antony Williams v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/307"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/307"/>
+	  <FRBRdate date="2026-03-09" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/307/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/307/data.xml"/>
+	  <FRBRdate date="2026-03-26T10:49:47" name="transform"/>
+	  <FRBRdate date="2026-03-26T11:17:40" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-03-09" refersTo="#decision" source="#"/>
+	<eventRef date="2026-03-24" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="antony-williams" href="" showAs="ANTONY WILLIAMS"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="british-broadcasting-corporation" href="" showAs="BRITISH BROADCASTING CORPORATION"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>307</uk:number>
+	<uk:cite>[2026] UKFTT 307 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.6.1</uk:parser>
+	<uk:hash>0c5ac2a07852468ef7d6cbca620c2c584d5463f8fe944ae037a5466cf171579c</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { text-align: left; margin-left: 0.58in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation2 { text-align: left; margin-left: 1in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation3 { text-align: left; margin-left: 1.25in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .EndnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Lucida Grande'; font-size: 9pt; }
+#judgment .NormalWeb { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .CommentSubject { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .EndnoteTextChar { font-family: 'Book Antiqua'; }
+#judgment .EndnoteReference { vertical-align: super; }
+#judgment .PageNumber { }
+#judgment .BalloonTextChar { font-family: 'Lucida Grande'; font-size: 9pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Book Antiqua'; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Book Antiqua'; }
+#judgment .FootnoteReference { vertical-align: super; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p><span style="font-weight:bold">NCN: </span><neutralCitation style="font-weight:bold">[2026] UKFTT 00307 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold">Case Reference: FT/EA/2025/0290</span></p>
+      <p><courtType refersTo="#ukftt-grc" style="font-weight:bold">First-tier Tribunal</courtType></p>
+      <p><courtType refersTo="#ukftt-grc" style="font-weight:bold">General Regulatory Chamber </courtType></p>
+      <p><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold">Decided without a hearing </span></p>
+      <p style="text-align:right"><span style="font-weight:bold">Decision given on: </span><docDate date="2026-03-09" refersTo="#decision" style="font-weight:bold">09 March 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase">JUDGE SOPhiE BUckley</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase">MEMBER DAVe SIVERS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase">MEMBER ANNE CHAFER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#antony-williams" style="font-weight:bold;text-transform:uppercase">antony williams</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;text-transform:uppercase;margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0.75in;text-indent:0.12in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;text-transform:uppercase">The Information commissioner</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;text-transform:uppercase;margin-left:0.75in;text-indent:-0.25in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0.75in;text-indent:0.12in"><party as="#respondent" refersTo="#british-broadcasting-corporation" style="font-weight:bold;text-transform:uppercase">british broadcastinG corporation</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid">Respondents</role></p>
+      <p><span style="font-weight:bold;font-family:Arial">Decision: </span><span style="font-family:Arial">The appeal is dismissed.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">REASONS &#8211; AMENDED UNDER RULE 40</span></p>
+      <p><span style="font-weight:bold">Introduction</span></p>
+      <blockContainer>
+	<num style="font-size:11pt">1.</num>
+	<p class="ListParagraph" style="margin-left:0.25in">This is an appeal against the Commissioner&#8217;s decision notice IC-358656-N6J0 of 24 July 2025 which held that the British Broadcasting Corporation (BBC) was entitled to rely on section 38(1)(b) (health and safety) and 40 (personal information) of the Freedom of Information Act 2000 (FOIA) to withhold the requested information.</p>
+      </blockContainer>
+      <p><span style="font-weight:bold">Factual background to the appeal</span></p>
+      <blockContainer>
+	<num>2.</num>
+	<p class="ListParagraph" style="margin-left:0.25in">Broadcasting House is the BBC&#8217;s headquarters, located in central London. As a site of national importance, it frequently faces security challenges, which have been increasing in the past decade. Approximately 6000 staff members work within Broadcasting House. </p>
+      </blockContainer>
+      <blockContainer>
+	<num>3.</num>
+	<p class="ListParagraph" style="margin-left:0.25in">Within Broadcasting House, there is a caf&#233; called the &#8220;Media Caf&#233;&#8221;. The Media Caf&#233; was originally intended to be accessible to the public. However, the Media Caf&#233; is now accessible only to BBC staff. The BBC says that access restrictions on the Caf&#233; were first imposed in 2017, following a security incident in which a group of intruders managed to gain access to Broadcasting House by appearing to be visiting the Caf&#233;. At that time, the BBC says that it sought Westminster City Council&#8217;s permission to close access to the Media Caf&#233; by one particular entrance (in circumstances where the BBC previously had a legal arrangement with Westminster City Council which provided for a public right of way into the Caf&#233;). Following continued increases in the security risk to Broadcasting House, the BBC says that it later applied to close public access to the Caf&#233; entirely. WCC granted that request in November 2024.</p>
+      </blockContainer>
+      <blockContainer>
+	<num>4.</num>
+	<p class="ListParagraph" style="margin-left:0.25in">Mr. Williams says that the BBC has made false statements to Westminster City Council in relation to its intentions regarding public access to a caf&#233; within Broadcasting House. He says that the BBC&#8217;s stated position in 2017, i.e. that it did not intend to close all public access to the Media Caf&#233; was false. He says that the BBC always intended to close public access entirely. </p>
+      </blockContainer>
+      <blockContainer>
+	<num>5.</num>
+	<p class="ListParagraph" style="margin-left:0.25in">This appeal concerns information in documents covering security features and procedures to protect BBC New Broadcasting House from physical and cyber security threats. Those documents are: </p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.6in;text-indent:-0.3in">a.</num>
+	<p class="ListParagraph" style="margin-left:0.6in">A Security Risk Assessment of New Broadcasting House dated 07/08 March 2017.</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.6in;text-indent:-0.3in">b.</num>
+	<p class="ListParagraph" style="margin-left:0.6in">Recommendations from a Security Risk Assessment Group on 13 March 2017.</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.6in;text-indent:-0.3in">c.</num>
+	<p class="ListParagraph" style="margin-left:0.6in">Advice to the Executive Board on the background to the Security incident and proposed mitigations to avoid similar risks in future dated 22 March 2017.</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.6in;text-indent:-0.3in">d.</num>
+	<p class="ListParagraph" style="margin-left:0.6in">Minutes of the BBC Audit and Risk Committee dated 22 June 2017.</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.6in;text-indent:-0.3in">e.</num>
+	<p class="ListParagraph" style="margin-left:0.6in">BBC Board Report dated September 2017.</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.6in;text-indent:-0.3in">f.</num>
+	<p class="ListParagraph" style="margin-left:0.6in">Security Breach Action Plans.</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.6in;text-indent:-0.3in">g.</num>
+	<p class="ListParagraph" style="margin-left:0.6in">Security Breach Timetables.</p>
+      </blockContainer>
+      <blockContainer>
+	<num>6.</num>
+	<p class="ListParagraph" style="margin-left:0.25in">The withheld information in those documents broadly relates to the following: </p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.5in;text-indent:-0.25in">a.</num>
+	<p class="ListParagraph" style="margin-left:0.5in">The location of specific BBC services within Broadcasting House.</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.5in;text-indent:-0.25in">b.</num>
+	<p class="ListParagraph" style="margin-left:0.5in">Current security measures and protocols in place at Broadcasting House.</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.5in;text-indent:-0.25in">c.</num>
+	<p class="ListParagraph" style="margin-left:0.5in">Security recommendations and implementation decisions, including security recommendations following the 2017 incident, and the BBC&#8217;s decisions on whether or not to implement those recommendations.</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="margin-left:0.5in;text-indent:-0.25in">d.</num>
+	<p class="ListParagraph" style="margin-left:0.5in">Information about staff training and protocols. </p>
+      </blockContainer>
+      <p><span style="font-weight:bold">Request and response</span></p>
+      <blockContainer>
+	<num>7.</num>
+	<p class="ListParagraph" style="margin-left:0.25in">Mr. Williams made the following request for information on 29 August 2024:</p>
+      </blockContainer>
+      <p class="ListParagraph" style="margin-left:0.79in">&#8220;Please provide all recorded information held that was generated by the Director General&#8217;s Office in relation to the 2017 security incident that led to the removal of public access the Media Cafe, or in relation to any decisions during 2017 to remove public access to that area. </p>
+      <p class="ListParagraph" style="margin-left:0.79in">Again, I believe there is plausible possibility of wrongdoing in relation to this, with regards to the false statements made in the December 2017 deed with Westminster City Council committing to continued public access to this area, and request that public interest tests take this into account, per the code of practice?&#8221;</p>
+      <blockContainer>
+	<num>8.</num>
+	<p class="ListParagraph" style="margin-left:0.25in">The BBC asked for clarification, and Mr. Williams clarified on 6 September 2024 that he sought: </p>
+      </blockContainer>
+      <p class="ListParagraph" style="margin-left:0.79in">&#8220;All internal records within the BBC, excluding correspondence (emails or paper correspondence), used to support the BBC&#8217;s decision to temporarily close the media caf&#233; at Broadcasting House in March 2017 and September 2017.</p>
+      <p class="ListParagraph" style="margin-left:0.79in">Given the explicit reference to the 2017 security incident, and the involvement of the Director General's Office as a factor that led to that decision, I interpret this to include any information generated by the Director General's Office in relation to the security incident.&#8221;</p>
+      <blockContainer>
+	<num>9.</num>
+	<p class="ListParagraph" style="margin-left:0.25in">The BBC substantively responded to the request on 6 December 2024 providing some information and refusing to provide some redacted information relying on sections 38(1) and 40(2). The BBC upheld its position on internal appeal. </p>
+      </blockContainer>
+      <blockContainer>
+	<num>10.</num>
+	<p class="ListParagraph" style="margin-left:0.25in">In the course of the Commissioner&#8217;s investigation the BBC disclosed some further information to Mr. Wiliams. </p>
+      </blockContainer>
+      <p><span style="font-weight:bold">Decision notice</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In a decision notice dated 24 July 2025. the Commissioner concluded that the BBC was entitled to rely on sections 38(1)(b) and 40(2) or 42 to withhold information. The Commissioner held that the BBC had breached section 17(3) FOIA. No steps were required. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-style:italic;font-weight:bold">Section 38 &#8211; health and safety</span></heading>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner found that there was a causal link between the disclosure of the information and the likelihood of endangerment to the safety of individuals, because the withheld information relates to physical security and building integrity and is a current and ongoing concern.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner was satisfied that the risk of endangerment to health and safety was not based on mere assumption or belief and that the risk was logical and substantially more than remote. He accepted that endangerment was placed in the &#8216;would be likely to occur&#8217; category.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Whilst the information is from 2017, the Commissioner said that its contents and breadth of coverage were still relevant and the Commissioner was persuaded that there was a real possibility of the harm envisaged occurring.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In particular, the Commissioner was satisfied that disclosure could increase the risk to, and vulnerability of, the site, thereby endangering the safety of employees and the public.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner recognised that there was a public interest in understanding the circumstances and reasons for changes to public access. He declined to determine whether or not the BBC was guilty of wrongdoing. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner recognised the public interest in transparency and accountability, and noted that the BBC had some provided information in scope of the request along with further disclosure during the Commissioners investigation. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner noted the BBC&#8217;s arguments that Broadcasting House is a high profile location, regularly hosting prominent staff and visitors. It is the focus of demonstrations and public attention. In this context, the safety and security of individuals remain paramount. The BBC plays a critical role in the government&#8217;s response during crisis situation, with a responsibility to continue broadcasting throughout national emergencies. This heightens the imperative to maintain the confidentiality of security arrangements. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In the circumstances, the Commissioner concluded that there was a strong public interest in protecting those at risk of harm and ensuring the responsible use of information. He concluded that the public interest balance favoured maintaining the exemption. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold">Grounds of Appeal</span></heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Grounds of Appeal are that the Commissioner got the public interest balance wrong, in essence because the established facts give rise to a plausible suspicion of wrongdoing, which the Commissioner refused to engage with. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold">The Commissioner&#8217;s response</span></heading>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner submitted that regardless of whether or not the withheld information probably shows wrongdoing has occurred in respect of a deed between Westminster Council and the BBC, which the BBC allegedly breached, this is not enough to outweigh the very weighty public interest in maintaining the safety of BBC staff and on set audiences from the risk of harm that disclosure would be likely to cause. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner noted the importance of maintaining the exemption is strong, and submitted that the suspicion of wrongdoing is not a very weighty countervailing consideration to outweigh the risk to the safety of BBC staff, visitors and on set audiences. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold">Response from the BBC</span></heading>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The BBC noted that the grounds of appeal do not challenge the engagement of section 38 and submitted in any event that section 38 is engaged. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.25in">The BBC submitted that the information could be used as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in">Threats have previously been directed towards staff members in specific departments; and if the physical locations of those departments were made known, there would be a significant and real chance of that information being used in a targeted attack.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in">Detailed information about the security measures and protocols in place at Broadcasting House would assist threat actors in identifying vulnerabilities and circumventing those measures.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in">Threat actors would benefit from knowledge of specific recommendations which were and were not implemented by the BBC, as these identify known vulnerabilities in security.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.5in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in">Information about staff training and protocols would enable a threat actor to anticipate staff responses and thereby circumvent security measures.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The BBC submitted that use of the information for the purposes of a targeted attack is a real and serious likelihood because there have been a high number of security incidents in recent years. It submitted that infiltration of Broadcasting House by malefactors would endanger the public more generally for reasons given in the closed bundle. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In relation to the public interest the BBC submitted that there is a clear and strong public interest in maintaining the exemption and very weighty countervailing considerations would be required to outweigh the likely endangerment that would arise from disclosure. The BBC submitted that the public interest in disclosure in this case was particularly strong because there is both likely endangerment to staff and to the public at large. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The BBC acknowledged the important general public interest in accountability and transparency and the general public interest in understanding the extent of and rationale for restrictions to public access to Broadcasting House. The BBC submitted that that public interest is largely served by the information already disclosed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In relation to the suspicion of wrongdoing, the BBC does not accept that there is any prima facie evidence of wrongdoing. It submitted that the statements made by the BBC to Westminster City Council in 2017 to the effect that public access would ultimately be resumed were entirely in line with the BBC&#8217;s intentions at the time, as evidenced by contemporaneous documents. Further, the BBC submitted that, in any event, a suspicion of wrongdoing could not outweigh the heavy public interest in non-disclosure. A great deal of transparency has already been achieved and the redacted information has no relevance to the suspicions. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold">Mr Williams&#8217; reply</span></heading>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Mr. Williams submitted that it seems unlikely that every redaction is of equal safety concern, and that so many minor pieces of information, from 2017 could still, if disclosed, lead to a very significant and or weighty change of a situation that is dangerous. Mr. Williams submitted that known vulnerabilities presumably would have been addressed. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Mr. Williams submitted that the BBC&#8217;s approach is not in line with their willingness to otherwise disclose information in these topics, for example making public the location of specific BBC services within Broadcasting House, briefing the media on specific security measures and including concern about fire exits in their section 106 application to Westminster City Council. Mr. William submitted that the BBC take an absolutist approach on section 38 that it is engaged with anything tangentially touching on security. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">He submitted that there is only a minor and theoretical possibility of endangerment and challenges the submission that there are no borderline cases where the additional public interest in disclosure would affect the balance. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Mr. Williams highlighted that the BBC applied to Westminster Council after Mr. Williams raised his concerns about wrongdoing and after the Council had told the BBC that they would commence legal enforcement action against the BBC. He submitted that the BBC could have but did not make an application to the Council in 2017 and instead removed public access while telling the Council that they had merely changed the entrance. He submitted that they knowingly made a misleading statement in a planning application which is fraud. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Mr Williams submitted that BBC have offered no explanation for the inconsistency between their March 2017 decision to permanently close the Media Caf&#233; to the public and their September 2017 planning application to Westminster City Council (WCC), which affirmed continued public access. The author notes that the processes were six months apart, both involved senior management, and both engaged the BBC at the highest level. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Mr. Williams submitted that the evidence suggests the BBC made a single, settled decision in March 2017 to remove public access on a long-term basis and that the BBC entered into the December 2017 agreement and did not comply with its terms. He says that the BBC provided misleading explanations to subsequent enforcement enquiries and that they moved to legal compliance when the Council rejected their temporary closure explanations. The author rejects the BBC&#8217;s assertion that no circumstances point to wrongdoing and maintains that there is a public interest in understanding the BBC&#8217;s conduct in a formal regulatory process.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-weight:bold">Legal framework</span></p>
+	    <p><span style="font-style:italic;font-weight:bold">Section 38 &#8211; health and safety</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in">Section 38(1) FOIA provides that information is exempt information if its disclosure would or would be likely to:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.5in;text-indent:-0.25in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in">Endanger the physical or mental health of any individual, or</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.5in;text-indent:-0.25in">(b)</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.12in">Endanger the safety of any individual. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Section 38 is a qualified exemption and so the tribunal must go on to consider if the public interest in maintaining the exemption outweighs the public interest in disclosure. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold">The Task of the Tribunal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The tribunal&#8217;s remit is governed by s 58 FOIA. This requires the tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved exercising discretion, whether he should have exercised it differently. The tribunal may receive evidence that was not before the Commissioner and may make different findings of fact from the Commissioner.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-weight:bold">Issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The issues we have to determine are:</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold">Section 38 &#8211; health and safety</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in">Whether disclosure would be likely to endanger the physical or mental health of any individual. This entails:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.69in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in">Identifying the applicable interest within the exemption.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.69in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in">Considering the nature of the danger (identifying a causal relationship and that it passes a de minimis threshold)</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.69in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in">Determining the likelihood of danger (more probable than not or a real and significant risk of endangerment)</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in">In all the circumstances of the case, whether the public interest in maintaining the exemption outweighs the public interest in disclosing the information. This includes:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.69in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in">Identifying what actual harm or prejudice the proposed disclosure would or would be likely to cause, focussing on the public interests expressed in the particular exemption in issue. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.69in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in">Identifying what actual benefits the proposed disclosure would or would be likely to cause. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p><span style="font-weight:bold">Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">We read an open and a closed bundle of documents. It was necessary to withhold the closed bundles from Mr. Williams, otherwise the purpose of the appeal would be defeated. The open and closed bundles include a witness statement from Mark Fewster, Safety, Security &amp; Resilience Specialist at the BBC dated 23 September 2025. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p><span style="font-weight:bold">Discussion and conclusions</span></p>
+	    <p><span style="text-decoration-line:underline;text-decoration-style:solid">Is the exemption engaged? </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The tribunal considers that the applicable interest in the exemption is the protection of physical or mental health. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">The endangerment or harm relied on by the BBC is a danger to the physical health of BBC staff or others in or around Broadcasting House. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num>44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We have reviewed the withheld information in detail and taken account of the evidence of Mark Fewster, who has significant experience security both at the BBC and working for the BBC while employed by Mitie. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num>45.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.39in">The information contains:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.6in;text-indent:-0.3in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.6in">Exact locations of particular BBC services in relation to which threats have been made. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.6in;text-indent:-0.3in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.6in">Details of security measures and protocols at Broadcasting House that remain in place. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.6in;text-indent:-0.3in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.6in">Details of security recommendations that have not been implemented by the BBC. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.6in;text-indent:-0.3in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.6in">Details of staff training and protocols. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num>46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Mr. Fewster has provided detailed and convincing explanations of how this information could be used by individuals with criminal intent. Taking account of the evidence of the general level of threat of attack and the specific examples of incidents and threats, we accept that the BBC has shown a causative link between disclosure of this information and a real and significant risk of endangerment. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num>47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Having looked at the withheld material, we do not accept that the BBC has taken an &#8216;absolutist&#8217; or blanket approach. We accept that the BBC have identified and disclosed any material that does not carry the identified risk of misuse.  We do not accept that the fact that the BBC has, on other occasions, seen fit to disclose more limited information about security undermines our conclusion on the risks of disclosing this information. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num>48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">We accept that the locations of certain departments within the BBC might be ascertainable from other information in the public domain. In our view an official confirmation direct from the BBC, combined with the other security information contained in the withheld information, would be likely to be of use to a malefactor. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num>49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">On this basis we find that the exemption is engaged. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p><span style="text-decoration-line:underline;text-decoration-style:solid">The public interest in withholding the information </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num>50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Although the likelihood of the release of this information leading to an incident where individuals are harmed is not high, if such an incident occurred the consequences are very serious. Further, the BBC has emergency broadcasting obligations which is a critical public service. A risk to its security carries a risk to its ability to maintain broadcast operations and is a risk to public safety more generally. Again, whilst the risk of this is not high, the consequences would be extremely serious.  Taking all that into account, in our view there is a very strong public interest in maintaining the exemption. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p><span style="text-decoration-line:underline;text-decoration-style:solid">The public interest in disclosure</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num>51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We have reviewed the withheld information carefully. There is nothing in the information which sheds light on any of the wrongdoing alleged by Mr. Williams whether by confirming it or refuting it. Any parts of the document that relate to the issues raised by Mr. Williams have been disclosed to him. On that basis, the alleged wrongdoing adds nothing to the general public interest in transparency. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num>52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">On that basis we do not need to decide if there is a plausible suspicion of wrongdoing. We do, in any event,  disagree with Mr. Williams that the documents in the bundle show that the BBC had made a decision to remove public access permanently in March 2017.  Having reviewed the documents in the open bundle and having taken account of the evidence provided by Mr. Fewster, we do not accept that there is a plausible suspicion that the BBC made false statements to Westminster Council in 2017. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num>53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">We accept that there is a general public interest in disclosure to ensure transparency and accountability in relation the security measures taken by the BBC. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p><span style="text-decoration-line:underline;text-decoration-style:solid">Conclusions on the public interest balance</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_54">
+	  <num>54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.39in">Having considered all the factors set out above, the public interest in disclosure is outweighed by the very strong public interest in maintaining the exemption. The appeal is dismissed. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p>Signed:<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>Date:</p>
+	  </content>
+	</level>
+	<level eId="lvl_17">
+	  <heading>Judge Buckley<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>26 February 2026</heading>
+	  <paragraph eId="lvl_17_1">
+	    <content>
+	      <p style="text-align:right;margin-left:0.5in">Amended on <docDate date="2026-03-24" refersTo="#decision">24 March 2026</docDate></p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

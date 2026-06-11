@@ -1,0 +1,899 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/216"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/216"/>
+	  <FRBRdate date="2026-02-16" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="216"/>
+	  <FRBRname value="Louis Backwell v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/216"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/216"/>
+	  <FRBRdate date="2026-02-16" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/216/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/216/data.xml"/>
+	  <FRBRdate date="2026-02-17T11:42:24" name="transform"/>
+	  <FRBRdate date="2026-02-17T12:29:38" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-16" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="louis-backwell" href="" showAs="LOUIS BACKWELL"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>216</uk:number>
+	<uk:cite>[2026] UKFTT 216 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.4.0</uk:parser>
+	<uk:hash>3e59584feb79dc6465a624c64ab6cc045874e9d24d340ea2a77c1ab8fe4a77f9</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading { font-family: 'Liberation Sans'; font-size: 14pt; }
+#judgment .BodyText { font-size: 12pt; }
+#judgment .List { font-size: 12pt; }
+#judgment .Caption { font-style: italic; font-size: 12pt; }
+#judgment .Index { font-size: 12pt; }
+#judgment .HeaderandFooter { font-size: 12pt; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .TableContents { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:95.6pt;height:61.6pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00216 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0242</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-family:'Book Antiqua'">Information Rights</docJurisdiction></p>
+      <p style="text-align:right">Heard By Cloud Video Platform</p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-02-16" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">16 February 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HEALD </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER YATES</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER COSGRAVE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#louis-backwell" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">LOUIS BACKWELL</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">: </span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: the Appellant appeared in person </span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent: no attendance </span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">1.</num>
+	<p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">the appeal is allowed.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">2.</num>
+	<p style="text-indent:0.5in"><span style="font-family:'Book Antiqua'">the Respondent shall send a copy of this decision to The Department for Energy Security and Net Zero.</span></p>
+      </blockContainer>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Substituted Decision Notice: </span><span style="font-family:'Book Antiqua'">Within 35 days of being sent this Decision, the Department for Energy Security and Net Zero shall respond to the Appellant's request for information of 24 August 2024 by disclosing pages A3CB to A9CB of the closed bundle save that it may redact section 6 on page A9CB headed </span><span style="font-style:italic;font-family:'Book Antiqua'">"Timetable"</span><span style="font-family:'Book Antiqua'">. </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This appeal is brought by reg 18 Environmental Information Regulations 2004 and <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/57" uk:canonical="2000 c. 36 s. 57" uk:origin="TNA" uk:type="legislation">section 57</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>.  It relates to a decision notice issued by the Information Commissioner on 5 June 2025 with reference number IC-350501-T5Y4 and it concerns a request for information made to the Department for Energy Security and Net Zero on 27 August 2024 that asked:- </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Thank you for your response re subject. In it you have stated that ETSU R 97 would benefit from targeted updates (which i fully support) and that you have contracted Noise Consultants Ltd to do the work on updating the guidance.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">I would be grateful if you could provide me with the scope of work that was issued in the competitive tendering process that you will be assessing the contractors work against.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">What follows is a summary of the submissions, evidence and the law. It does not seek to provide every step of the reasoning. The absence of a reference to any specific submission or evidence does not mean it has not been considered.  In this decision page numbers indicated by their inclusion in brackets refer to pages of the Bundle and/or the Closed Bundle and the following definitions are adopted:-</p>
+	    <table uk:widths="3.94in 1.46in">
+	      <tr>
+		<td style="border-top-width:0.5pt;border-bottom-width:0.5pt;border-left-width:0.5pt;border-top-style:solid;border-bottom-style:solid;border-left-style:solid;border-top-color:#000000;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">Environmental Information Regulations 2004</span></p>
+		</td>
+		<td style="border:0.5pt solid #000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">EIR</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the public interest balance test in reg 12(1)(b) EIR</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the PIBT</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">The Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">2009 Rules</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the Appellant's request for information</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the Request</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">The Information Commissioner</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the IC</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">The IC's decision notice</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the DN</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">The Department for Energy Security and Net Zero referred to as DESNZ by the IC</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the Department</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">The 1996 Assessment and Rating of Noise From Wind Farms known as ETSU-R-97</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">ETSU</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">Williams Sale Partnership</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">WSP</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">report by WSP in February 2023 called </span><span style="font-style:italic;font-family:'Book Antiqua'">"Report for UK government: a review of noise guidance for onshore wind turbines"</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">the 2023 Report</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border-bottom-width:0.5pt;border-left-width:0.5pt;border-bottom-style:solid;border-left-style:solid;border-bottom-color:#000000;border-left-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">Noise Consultancy Limited</span></p>
+		</td>
+		<td style="border-right-width:0.5pt;border-bottom-width:0.5pt;border-right-style:solid;border-bottom-style:solid;border-right-color:#000000;border-bottom-color:#000000">
+		  <p class="TableContents"><span style="font-family:'Book Antiqua'">NCL</span></p>
+		</td>
+	      </tr>
+	    </table>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Evidence and matters considered</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We heard from the Appellant.  We had a bundle of 301 pdf pages and a closed bundle consisting of the disputed material held pursuant to rule 14(6) 2009 Rules.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Background (summary)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The UK Government has issued noise guidance for onshore wind farms.  At the date of the Request ETSU from 1996 was the relevant guidance.  In 2001 WSP was asked to consider if ETSU should be updated.  WSP provided the 2023 Report which in summary said that ETSU would benefit from being updated.  The Department carried out a procurement exercise to procure a consortium to be led by NCL which was to be tasked with carrying out the update to the ETSU guidance and the Request seeks a copy of the scope of works issued in the procurement process.  The Appellant said:-</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span/><span style="font-style:italic">&#8220;I believe that the [scope] should be public now as it has serious implications to wind farms in the planning pipeline that could affect thousands of people. There is no clear indication for what wider material is being referred to and no clear case for why policy options should not be open; previously many organisations, public and private, were involved in this work, so why the secrecy now? The public will not have the ability to influence NCL's work if it is done professionally.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">It was of assistance to us to have the Appellant at the hearing.  Al</span>though not a relevant consideration he explained that he was not against on-shore wind and his interest was only to ensure they were not placed too close to people's homes especially where no financial benefit would accrue to the home owner.  He rejected the Department's assertion (if it was intended to apply to him) that he was part of small vocal group of an anti-onshore wind farm lobbyists and we accepted that. <span style="color:#000000"> He clearly had relevant k</span>nowledge of on-shore wind farms and turbines. This had come in part from his role as an environmental health officer for public authorities where he had dealt with noise nuisance.  He added that his experience also came from his role as a community councillor and hearing from people with concern about turbines.  He has a diploma in noise control from the Institute of Acoustics. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Role of the Tribunal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">The Appeal is brought by reg 18 EIR and <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/57/1" uk:canonical="2000 c. 36 s. 57" uk:origin="TNA" uk:type="legislation">section 57(1)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> which provides that "</span><span style="font-style:italic;color:#000000">Where a decision notice has been served, the complainant or the public authority may appeal to the Tribunal against the notice.&#8221;  </span><span/><span style="color:#000000">The Tribunal's role by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/58" uk:canonical="2000 c. 36 s. 58" uk:origin="TNA" uk:type="legislation">Section 58</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> is that:-</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(1)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#000000">If on an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/57" uk:canonical="2000 c. 36 s. 57" uk:origin="TNA" uk:type="legislation">section 57</ref> the Tribunal considers&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;color:#000000">(a)that the notice against which the appeal is brought is not in accordance with the law, or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;color:#000000">(b)to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;color:#000000">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#000000">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">The Tribunal exercises a full merits appellate jurisdiction and stands in the shoes of the IC and decides which (if any) exceptions apply but it is not the role of the Tribunal to conduct a procedural review of the Information Commissioner&#8217;s decision making process or to correct the drafting of a decision notice.  In</span><span style="font-style:italic;color:#000000"> Forstater v Information Commissioner and others <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2023/303" uk:canonical="[2023] UKUT 303 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKUT 303 (AAC)</ref> the UT at para 40 said:-</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;color:#000000">1)...the FTT is required under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/58" uk:canonical="2000 c. 36 s. 58" uk:origin="TNA" uk:type="legislation">section 58</ref> of FOIA to decide independently whether the Information Commissioner&#8217;s decision was in accordance with the law. In doing so the FTT &#8220;must apply the law afresh to the request taking account of the issues presented at the hearing or identified by the First-tier Tribunal..."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#000000">the &#8220;ordinary presumption&#8221; is that it is for an appellant to prove their case. The burden will rest with the appellant except where statute expressly or impliedly provides otherwise:...Neither FOIA nor the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2008 contain any express provision about the burden of proof and neither by implication remove the &#8216;ordinary presumption&#8217; either; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(3)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;color:#000000">however, the concept of the burden of proof is of secondary importance in tribunal proceedings which involve a full merits review, since to apply strict burdens of proof may prevent the tribunal from properly discharging its responsibility to decide the facts for itself and/or exercise any discretion afresh:..."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Law</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">EIR</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Reg 5 EIR states <span style="font-style:italic">"</span><span style="font-style:italic;color:#1E1E1E">Subject to paragraph (3) and in accordance with paragraphs (2), (4), (5) and (6) and the remaining provisions of this Part and Part 3 of these Regulations, a public authority that holds environmental information shall make it available on request"</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;color:#1E1E1E">Reg 12(4)(d) EIR</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">There are exceptions to this obligation.  Relevant to this appeal is the exception at reg 12(4)(d) EIR whereby a public authority may refuse to disclose information to the extent that <span style="font-style:italic;color:#1E1E1E">"the request relates to material which is still in the course of completion, to unfinished documents or to incomplete data". </span><span style="color:#1E1E1E">This is a class-based exception meaning that engagement of the exception is not necessarily linked to there being any identified adverse effect from the requested disclosure. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#1E1E1E">In this appeal there has been focus on two elements in particular from reg 12(4)(d) namely t</span>he words<span style="font-style:italic"> "relates to" </span>and<span style="font-style:italic"> "</span><span style="font-style:italic;color:#1E1E1E">material which is still in the course of completion" </span><span style="color:#1E1E1E">about which the Tribunal was </span>referred to <span style="font-style:italic">Highways England Company Ltd v Information Commissioner and Henry Manisty <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/423" uk:canonical="[2018] UKUT 423 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 423 (AAC)</ref>).  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">PIBT</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">This exception is subject to the PIBT in reg 12(1)(b) EIR that <span style="font-style:italic;color:#1E1E1E">"in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information."</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The relevant date for considering the PIBT in the EIR context was considered by the Upper Tribunal in </span><span style="font-style:italic;color:#000000">O'Hanlon -v- the Information Commissioner and the Health and safety Executive [2025] UKUT 66 AAC. </span><span style="color:#000000"> It held that</span><span style="font-style:italic;color:#000000"/><span style="color:#000000">the correct time for considering both the engagement of an exception and the public interest test was at the conclusion of the internal review.</span><span style="font-style:italic;color:#000000"/><span style="color:#000000">In this case that would be on or about the 5 December 2024.  In our view there would be no impact on our decision if the date was when the Department first responded on 22 October 2024. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On the<span style="color:#000000"> PIBT the Upper Tribunal in </span><span style="font-style:italic;color:#000000">Vesco -v- the Information Commissioner &amp; the Government Legal Department [2019] UKUT 247 AAC</span><span style="color:#000000"> said:- </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">"</span><span style="font-style:italic;color:#000000">18...Clearly the statutory context in this case includes the backdrop of the Directive and Aarhus discussed above, and the policy behind recovery of environmental information. Once the public interests in disclosing and withholding the information have been identified, then a balancing exercise must be carried out. If relevant factors are ignored, or irrelevant ones are wrongly taken into account, then the decision about where the balance lies may be open to challenge...If the public interest in disclosing is stronger than the public interest in withholding the information, then the information should be disclosed." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The presumption</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">By reg 12(2)  a public authority is to apply a presumption in favour of disclosure.  <span style="color:#000000">It was held in </span><span style="font-style:italic;color:#000000">Vesco -v- the Information Commissioner &amp; the Government Legal Department [2019] UKUT 247 AAC</span><span style="color:#000000"> that:-</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">19.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;color:#000000">The third stage</span><span style="font-style:italic;color:#000000">. If application of the first two stages has not resulted in disclosure, a public authority should go on to consider the presumption in favour of disclosure under Regulation 12(2) of the EIRs.  It was &#8220;common ground&#8221;... that the presumption serves two purposes: (1) to provide the default position in the event that the interests are equally balanced and (2) to inform any decision that may be taken under the regulations."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Request to appeal overview</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Department replied to the Request on 22 October 2024 and refused to provide the information sought relying on reg 12(4)(d) EIR and saying that the PIBT favoured non-disclosure.  A link to some public information was provided and the Appellant was informed that the Department hoped to publish updated guidance in the spring of 2025.  The Appellant asked for a review (74).  In the outcome dated 5 December 2024 (75) the Department maintained its position but provided a copy of the 2023 Report and said (76):- </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"Your request is for the scope of work which forms part of the full specification of the contract between the Department and Noise Consultancy Limited (NCL). The full specification relates to material currently in the course of completion by NCL and disclosing the information is likely to have an adverse effect on the integrity of the work NCL is undertaking. The scope includes policy options being considered by NCL, and releasing this information in a piecemeal fashion could prejudice the outcomes of the ETSU update".</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Department repeated that it aimed to publish updated guidance <span style="font-style:italic">"in Spring 2025" </span>and that it had decided that (75)  "<span style="font-style:italic">...there was a public interest in ensuring the scope of works relating to planned ETSU-R-97 updates were published as part of wider material at an appropriate stage in the process, rather than in a piecemeal fashion."</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">A complaint was made to the IC on 11 December 2024 (88).  The decision in the DN, which followed the IC's consideration of the complaint, was that the Department had <span style="font-style:italic">"correctly applied regulation 12(4)(d) and that the public interest favours maintaining the exception."</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">This appeal from the DN is dated 29 June 2025 (34).  The outcome sought is for<span style="font-style:italic"> "the provision of the full scope of work that was awarded to Noise Consultants Limited to myself and the wider public" </span>The IC provided a response on 14 August 2025 (54). The Department has not been made a party to the appeal.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The issue </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The issues for the Tribunal are to consider:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">if the reg 12(4)(d) EIR exception is engaged?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">if it is, does the PIBT on balance favour disclosure or maintenance of the exception and what is the effect of the EIR's presumption of disclosure? </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">and therefore whether, as regards these questions, the DN was in accordance with the law and <span style="color:#000000">to the extent that the DN involved an exercise of discretion whether the IC exercised it correctly?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">The Closed Material</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">We reviewed the bundle of closed material.  This consisted of the disputed material of 7 pages, an index and a cover sheet.  The document itself referred to a number of other web pages containing for example the 2023 Report accessible by a hyperlink in the footnotes. As the IC says in the DN (11) </span><span style="font-style:italic;color:#000000">"32...the Full Specification annexed to the contract was prepared by DESNZ and sets out the specific scope of work which DESNZ has (and has not) asked NCL to undertake to update the ETSU guidance."  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Engagement</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Department's view in summary is that (67):-</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"The scope of work within the specification document sets out the work which the Department has asked the consultancy to undertake...The material in this instance which is currently in the course of completion by Noise Consultants Limited is the targeted update of the ETSU-R-97 guidance. The ETSU-R-97 guidance document is used by planning decision-makers when reaching decisions on proposed wind farm developments in relation to noise..."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC in the DN and the response to the appeal concluded by reference to his own Guidance and <span style="font-style:italic">Highways England </span>that (11) "...<span style="font-style:italic">even though the Full Specification document itself is complete, it &#8216;relates to&#8217; the revising of the ETSU guidance which is still ongoing. " </span>The DN said:<span style="font-style:italic">-</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"37...The guidance is therefore still being revised (on the basis of the choices DESNZ made in the Specification), the guidance has not yet been finished and published, and DESNZ plans to publicly consult about it in the near future. So it does not appear to the Commissioner that a &#8216;natural break in private thinking&#8217; about the ETSU guidance has occurred at this stage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">38.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">On this basis the Commissioner accepts that the withheld information &#8216;relates to&#8217; information which is &#8216;still in the course of completion&#8217;. The Full Specification relates to the creation of the updated ETSU guidance document that is actively being worked on. As noted above, DESNZ has told the Commissioner that it is not aiming to publish the updated guidance until Autumn 2025."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC in its response to the appeal also said (60):-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"18.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The Commissioner maintains that he was correct to conclude in his Decision Notice that the withheld information is still in the course of completion and to accept DESNZ&#8217;s reasoning, namely that the Full Specification whilst in itself is complete &#8211; &#8220;relates to&#8221; and is being used to inform the final updated ETSU guidance, the development of which is still ongoing and which will be subject to public consultation."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">"19.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">As communicated in the internal review response &#8220;The scope includes policy options being considered by NCL, and releasing this information in a piecemeal fashion could prejudice the outcomes of the ETSU update"</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"> The Appellant in the appeal said (42):-</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"The appeal is lodged on the basis that the case for engaging exception 12(4)(d) is not clear cut; indeed, it appears to be incorrectly engaged especially when taking into account an example from the Commissioner&#8217;s website. The Commissioner refers to this example in its Decision Notice (Decision Point 37) but does not quote it in full thereby bypassing its significance in not supporting the use of the exception and instead relies on a seemingly less fitting example supporting the use of the exception (Decision point 35)."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">and for example (51):-  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"While the requested information relates to work in the course of completion, it does not itself require further development and is a separate, independent, and complete piece of work in its own right to the extent that it was issued, as part of a formal tender process, to external organisations interested in bidding for the contract to actually update wind turbine noise guidance. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Further, regardless of whether DESNZ wanted to release the requested information, there had been a natural break in private thinking, that is to say, a government convened sterling committee had made a decision on which aspects of the noise guidance would and would not be updated and had documented as such and put it out to tender; DESNZ refer to this formal tender document as the &#8216;full specification&#8217;. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Further a high-level specification has already been released into the public domain, with an overview of the scope of services required for the contract." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Engagement-decision</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We reviewed the disputed information in the closed bundle.  We agree that the information requested and the then on-going updating of the ETSU guidance were interlinked.  We also agree that the information requested "<span style="font-style:italic">sets out which WSP recommendations we want NCL to consider during the course of their work to update the guidance document".  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Therefore the disputed material in the context of this exception does, in our view, <span style="font-style:italic">"relate to"</span> material then in the course of completion namely the updated ETSU guidance.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#1E1E1E">For this reason it is our decision that the exception is engaged. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The PIBT</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">By reg 12(1)(b) EIR the exception relied upon is subject to the PIBT (tested at the date of the response to the internal review) that <span style="font-style:italic;color:#1E1E1E">"in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information."</span> We<span style="font-style:italic"/>considered what was said on the PIBT by the parties and, f<span style="color:#232323">or the reasons that follow, we concluded that the PIBT favoured disclosure. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Public interest reasons for disclosure</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The public interest reasons in favour of disclosure include the desirability for there to be openness and transparency about decision making and the use of public funds as it serves to promote accountability, trust in government and enhances effective public understanding and participation.  In addition:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Article 1 of the Aarhus Convention which was implemented in the EIR said its objective was:-  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"In order to contribute to the protection of the right of every person of present and future generations to live in an environment adequate to his or her health and well-being, each Party shall guarantee the rights of access to information, public participation in decision-making, and access to justice in environmental matters in accordance with the provisions of this Convention." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic"/>reg 12(2) EIR requires a public authority when considering the use of exceptions to apply a presumption in favour of disclosure. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">More specifically to this appeal the public interest reasons in favour of disclosure are said to include because:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">there is a <span style="font-style:italic">"considerable level"</span> of public interest in noise from wind-turbines and how much should allowed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(</span>b<span style="font-style:italic">) </span>of the Appellant's submission that (14) on-shore wind farm development could affect <span style="font-style:italic">"thousands of"</span><span/><span style="color:#000000">and could have </span><span style="font-style:italic;color:#000000">"real world people"</span><span style="color:#000000"> impacts. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">wind-turbine noise is considered by many to be a public health and well-being issue. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">when the Department described people concerned as </span><span style="font-style:italic;color:#000000">&#8220;a small but vocal group of anti-onshore wind lobbyists&#8221; </span><span style="color:#000000">it suggests that the Department is not taking this issue seriously and if this was a reference to the Appellant it demonstrated bias against him as the requester. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(e)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">it is in the public interest for the public to have the ability to engage in the process and influence NCL's work (</span><span style="font-style:italic;color:#000000">"positively or negatively"</span><span style="color:#000000">) and without disclosure they will not be able to do.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(f)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">it is in the public interest for the public to see if all technical issues are being considered in the development of the new guidance and the Appellant said that there were/are many technically competent people, him included, who could make a valuable contribution to the debate. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(g)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">there is a public interest in the procurement activities of public authorities being transparent </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(h)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">it is not in the public interest for the Department to exclude the public from this process not least because of the </span>potential for a large volume of complaints if later an issue arises that had not been addressed.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Public interest reasons against disclosure</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">These were said to include:-</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">because (68) <span style="font-style:italic">"there is also a public interest in ensuring that the scope of works which relates to the planned updates to ETSU-R-97 is published as part of the wider material at an appropriate stage in the process" </span>and to avoid there being (13) <span style="font-style:italic">"piecemeal release of information".</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">because (76) <span style="font-style:italic">"...disclosing the information is likely to have an adverse effect on the integrity of the work NCL is undertaking. The scope includes policy options being considered by NCL, and releasing this information in a piecemeal fashion could prejudice the outcomes of the ETSU update. The Department aims to publish updated guidance in Spring 2025."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic"/>to ensure (13) "<span style="font-style:italic">the development of government policy is not damaged by the premature disclosure of information which would adversely impact the effective development of that policy." </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic"/>because on-shore wind farms and noise from them<span style="font-style:italic"> (16)"is a sensitive topic" </span>therefore officials need to be able to publish updated information <span style="font-style:italic">"responsibly."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(e)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic"/>because disclosure of the details in the Full Specification<span style="font-style:italic"> "... may also distract public debate away from the substantive issues, such as noise levels, and cause unnecessary alarm."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(f)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic"/>to avoid the risk of<span style="font-style:italic"> "speculation and incorrect conclusions" </span>as a result of there being any differences<span style="font-style:italic"> "between WSP recommendations and the Specification selected by DESNZ. " </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(g)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">to avoid (13) the risk of <span style="font-style:italic">"an increase in queries and lobbying from stakeholders seeking to influence the guidance update."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(</span>h<span style="font-style:italic">) </span>to prevent<span style="font-style:italic"> "a detrimental impact on the effective development of the policy resulting in less robust, well-considered or effective guidance, which could have an impact on the future development of onshore wind."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(</span>i<span style="font-style:italic">) </span>to provide a safe space for the public authority <span style="font-style:italic">"to fully consider their policy options and formulate new policy"without being hindered by external comment."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(</span>j<span style="font-style:italic">) </span>because (14) <span style="font-style:italic">"the public interest is met by the settled intention to publish and consult on the updated guidance in the near future, and considers that it is reasonable, in all the circumstances of the request, that the information should be withheld until that date."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(</span>k<span style="font-style:italic">) </span>because the accepted public interest in noise from on-shore wind turbines is partly met by the information already in the public domain such as the 2023 Report and because the Department (14)<span style="font-style:italic"> "...has further stated that it has always had a settled intention to publish the updated guidance once the policy is no longer evolving and the updated guidance has been finalised by NCL".</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(</span>l<span style="font-style:italic">) </span>to avoid the ETSU updating (16) "...<span style="font-style:italic">taking significantly longer to complete or being more burdensome on Ministers, officials and NCL. This is because more advice, explanation and assurance could be required thus compromising the effectiveness and efficiency of the updating process, resulting in less objective guidance in relation to onshore wind turbines due to lobbying from differing interested parties."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(m)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic"/>because<span style="font-style:italic"> (15) "...disclosure of the Full Specification/scope of work setting out exactly which recommendations from the WSP Report have and have not been taken forward by DESNZ would increase the likelihood of lobbying by stakeholders and/or the number of queries from interested parties making it more difficult and time-consuming to finalise the guidance. Further, resource would be taken up responding to requests to officials running the updated guidance process or in dealing with targeted public scrutiny on the policy decisions made by DESNZ with regard to the guidance update. NCL and DESNZ will be diverted in having to deal with explaining matters of concern and correcting potentially inaccurate reports and conclusions reached by the public and media."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC in the DN (16) when considering the PIBT balance said that having seen the disputed material he did not consider <span style="font-style:italic">"...that disclosing the Full Specification would significantly enhance the public debate on updated ETSU guidance and wind farms, especially when the updated ETSU guidance has not yet been finalised." </span>In addition, as regards the Appellant's submission that without disclosure the public could not influence NCL's work, the IC said that the Department case was:- </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"that it intends to publicly consult on the updated guidance once it has been finalised, subject to views from Ministers. This means the public is likely to be able to provide views on the proposed changes to the guidance prior to publication. Withholding the Full Specification now will not therefore impact upon public participation. The public consultation will therefore go some way to satisfying the public interest that disclosure would otherwise serve."</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">PIBT- decision</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Our deliberations were informed by the presumption in reg 12(2) EIR which had also been considered by the parties.  We agreed with much of what had been said both for and against the PIBT favouring disclosure or maintenance of the exception. Our view appears below.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">in the context of EIR we were not persuaded by the argument that it was in the public interest to avoid the risk of <span style="font-style:italic">"an increase in queries and lobbying from stakeholders seeking to influence the guidance update."  </span>EIR is not usually concerned with the identity of or motive of a requester and it is the legislation that places a burden on public authorities which, by reg 12(2) EIR must operate on a presumption of disclosure.  We were also uncertain in any event (in the absence of closed evidence) why the disclosure of this material would have this impact or even why influence on the development of guidance from stakeholders was perceived to be a negative concept.  It does not appear to have occurred to those responding to the Request that some queries, some lobbying and some influence might inform the process and outcome positively.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">we understood from the Department's view-point why they preferred, for good project management reasons, not to be required to published the information requested when asked and instead wait for the new guidance to be ready. However, in the EIR context, we did not agree that doing so in this case was against the public interest.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">we did not give much weight to the concern that disclosure at this stage posed a risk to the "<span style="font-style:italic">integrity" </span>of the work or might "<span style="font-style:italic">prejudice the outcomes" </span>of the new ETSU update or might result in "<span style="font-style:italic">less robust, well-considered or effective guidance". </span>Firstly there was no evidence on how this might occur. Additionally we considered it very unlikely that the people engaged in this serious task would allow disclosure of this information to have the feared effects including, it is impliedly suggested, that the outcome of the review would be less well considered and less effective. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">it is said that disclosure could result in "<span style="font-style:italic">an impact on the future development of onshore wind." </span>We were not persuaded, on what we were told, that there was a clear (enough) causal link between disclosure of the disputed material and some impact for on-shore wind use more generally &#8211; what-ever it is suggested that may be. Therefore, while we recognised the concern being expressed we gave it little weight. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(e)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">we agree that it is in the public interest to ensure that the development of government policy is not damaged and for officials to act responsibly and for unnecessary alarm to be avoided. However what we were not convinced of, and so gave less weight to, was that disclosure in this case carried a real risk of these types of outcomes.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(f)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">we gave some but not much weight to the "safe space" concern and had regard to <span style="color:#000000">decision of the Upper Tribunal i</span><span style="font-style:italic;color:#000000">n Davies v IC and The Cabinet Office <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2019/185" uk:canonical="[2019] UKUT 185 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKUT 185 (AAC)</ref> </span><span style="color:#000000">where it referred to "...</span><span style="font-style:italic">the courage and independence that has been the hallmark of our civil servants since the Northcote-Trevelyan reforms..." </span>and said:-</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;color:#000000">"They and other organisations engage with, or must be assumed to have engaged with, public authorities in the full knowledge that Parliament has passed the FOIA and the Secretary of State has made the EIR. Participants in such boards cannot expect to be able to bend the rules.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(g)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">it is suggested that external comment (that would result from disclosure) might hinder the work being done to review the ETSU guidance.  We agree that it might have this effect not least because those dealing with the work might be diverted onto answering questions of concern and correcting inaccuracies and that this could operate against the public interest unless those questions positively informed the ETSU review.  In our view this is partly balanced by the possibility that non- disclosure might itself lead to further enquiries (as it has done already) just as much as disclosure might.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(h)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">we also agree that were disclosure to mean that updating ETSU would take much longer that too could be against the public interest. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(i)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">we also accept that the public interest is partly met by what has already been published such as the 2023 Report noting that what was requested might demonstrate if there was any difference between what the 2023 Report recommended and what was being asked of those tasked with the ETSU review. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(j)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">the impression we gained was that at least part of the Department's reasons for resisting the Request was because it is <span style="font-style:italic">"a sensitive topic" </span>and to avoid speculation and questions being asked <span style="text-decoration-line:underline;text-decoration-style:solid">if </span>there are any differences between the 2023 Report's recommendation and the specification selected by the Department.  We accept that it may not be in the public interest for those charged with seeking to draft new guidance to be diverted away from that task by seeking to answer such challenges.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(k)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">we also accept that the promise to "<span style="font-style:italic">publish and consult on the updated guidance in the near future" </span>does operate to diminish the public interest in disclosure when requested.  However against this it might also be argued that waiting to disclose until the new draft guidance is "finalised" could have the effect of diminishing the ability of anyone at that later stage to question or influence the process.   We were also aware that the actual assurance given was that the Department <span style="font-style:italic">"...intends to publicly consult on the updated guidance once it has been finalised, </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">subject to views from Ministers</span><span style="font-style:italic">...." </span>Therefore while we agree with the IC that<span style="font-style:italic"> "This means the public is likely to be able to provide views on the proposed changes to the guidance prior to publication Withholding the Full Specification now will not therefore impact upon public participation. The public consultation will therefore go some way to satisfying the public interest that disclosure would otherwise serve" </span>it is clear that this may but also may not occur. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">In balancing th</span>ese arguments we kept in mind the EIR presumption.  Our conclusion was that, on balance, it was in the public interest for this information to be disclosed.  This is principally because the issues raised by the Appellant are of considerable public interest and, for some, concern.  Those tasked with the review understandably may wish to be "left alone" to get on with their work without being diverted onto dealing with EIR requests or questions generally and being allowed to do so is in the public interest. However that is balanced by the desirability for there to be openness and transparency about decision making and the possibility at least that more openness may lead to challenges and questions which may themselves result in better decisions.  Our view is further bolstered by <span style="font-style:italic">Vesco </span>and the absence of a legally binding obligation on the Department to publish the disputed material, as and when the new ETSU guidance is ready. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;color:#000000">Decision</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">Accordingly we have concluded that the DN was not in accordance with the law because although the exception was engaged the PIBT favoured disclosure.  The appeal is allowed.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">In the substituted Decision Notice the Department is not required to disclose the entire document because in our view section 6 headed </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">"timetable "</span><span style="font-family:'Book Antiqua';color:#000000"> on page A9CB contains material that could be subject to the exception at reg 12 (5)(e) EIR 2004. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Signed</span><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Judge Heald </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Date 10 February </span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">2026</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

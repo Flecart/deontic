@@ -3,11 +3,7 @@
 citation: [2026] UKFTT 579 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/579
 exemptions: ['s12(1)']
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2026_579_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+verified: yes
 
 ## Background
 

@@ -1,0 +1,1179 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/826"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/826"/>
+	  <FRBRdate date="2026-06-09" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="826"/>
+	  <FRBRname value="Dr. Robert James Abrahart v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/826"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/826"/>
+	  <FRBRdate date="2026-06-09" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/826/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/826/data.xml"/>
+	  <FRBRdate date="2026-06-09T14:40:44" name="transform"/>
+	  <FRBRdate date="2026-06-09T15:22:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-21" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-06-02" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-09" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="dr-robert-james-abrahart" href="" showAs="DR. ROBERT JAMES ABRAHART"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="department-for-education" href="" showAs="DEPARTMENT FOR EDUCATION"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>826</uk:number>
+	<uk:cite>[2026] UKFTT 826 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.1</uk:parser>
+	<uk:hash>f8b97174d37812fddbb1d5eec23ddaa9f975309f0131f20abdc895f92d1cf304</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.25in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Default { font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .NumNormal { text-align: justify; margin-left: 0.38in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .NumNormalChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00826 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0418</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: 9 March 2026 &amp; </span><docDate date="2026-05-21" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">21 May 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-06-09" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">09 June 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE SAWARD</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER GASSTON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER YATES</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#dr-robert-james-abrahart" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">Dr. ROBERT JAMES ABRAHART</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#department-for-education" style="font-weight:bold;font-family:'Book Antiqua'">DEPARTMENT FOR EDUCATION</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: In person (unrepresented)</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the First Respondent: Did not attend</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Second Respondent: Did not attend</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Allowed.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Substituted Decision Notice: </span></p>
+      <p><span style="font-family:'Book Antiqua'">Organisation: Department for Education</span></p>
+      <p><span style="font-family:'Book Antiqua'">Complainant: Dr. Robert James Abrahart</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">       The Substitute Decision &#8211; IC-401829-R1Z6</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.25in">1.</num>
+	<p class="ListParagraph" style="margin-left:0.3in"><span style="font-family:'Book Antiqua';color:#000000">The public authority was not entitled to rely on section 17(6) of the Freedom of Information Act 2000 (&#8220;FOIA&#8221;) to excuse the notification requirement within section 17(5).</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.25in">2.</num>
+	<p class="ListParagraph" style="margin-left:0.3in"><span style="font-family:'Book Antiqua';color:#000000">The request was not vexatious within section 14 of FOIA. </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.25in">3.</num>
+	<p class="ListParagraph" style="margin-left:0.3in"><span style="font-family:'Book Antiqua';color:#000000">The public authority is required to comply with section 1(1) FOIA and must respond to the request for information within 35 days of promulgation of this decision, and either supply the information sought or serve a notice under section 17(1) FOIA including the grounds it relies on other than section 14(1).</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.25in">4.</num>
+	<p class="ListParagraph" style="margin-left:0.3in"><span style="font-family:'Book Antiqua';color:#000000">Failure to comply may result in the Tribunal making written certification of this fact to the Upper Tribunal, in accordance with rule 7A of the First-tier Tribunal (General Regulatory Chamber) Rules and may be dealt with as a contempt of court. </span></p>
+      </blockContainer>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold">Background</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) provides for a general right of access to information held by public authorities. That right is subject to exceptions and exemptions. It makes provision for its enforcement by the Information Commissioner (&#8220;the Commissioner&#8221;) and for a right of appeal from a decision of the Commissioner to the General Regulatory Chamber of the First-tier Tribunal (&#8220;the Tribunal&#8221;). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:TimesNewRomanPSMT">This appeal is against a Decision Notice </span><span style="font-family:TimesNewRomanPS-BoldMT">dated 27 October 2025 </span><span style="font-family:TimesNewRomanPSMT">(&#8220;the Decision Notice&#8221;). It concerns the Appellant&#8217;s request for information dated 20 May 2025 (&#8220;the Request&#8221;) made to the Department for Education (&#8220;DfE&#8221;). When the DfE did not respond, the Appellant complained on 9 July 2025 to the Commissioner who allocated the reference </span><span style="font-family:TimesNewRomanPS-BoldMT">IC-401829-R1Z6. In the Decision Notice the Commissioner decided that the Request </span><span style="font-family:TimesNewRomanPSMT">was vexatious under section 14(1) of FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_2">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Preliminary matters</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:TimesNewRomanPSMT">The Appellant&#8217;s N</span>otice of Appeal dated 7 November 2025 concerns his Request of                   20 May 2025 only. No appeal is brought against the Commissioner&#8217;s decision on complaint<span style="font-family:TimesNewRomanPSMT"> reference </span><span style="font-family:TimesNewRomanPS-BoldMT">IC-384903-D6V9 concerning an earlier request made by the Appellant on 28 March 2025, which is also addressed in the same Decision Notice. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The hearing opened on 9 March 2026. At that time the DfE was not a party to the proceedings. The Appellant was the only party to attend the hearing as the Commissioner had indicated that he wished to rely upon his written submissions. The Appellant presented his case and helpfully answered questions from the Tribunal. Upon commencing deliberations, the Tribunal panel concluded that insufficient evidence had been supplied by the Commissioner upon which to fairly and justly reach a determination. Clarification was required to facilitate our findings. In particular, it was unclear how and why the Request was considered vexatious in the context of previous requests. The Appellant indicated that the requests were completely different. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">Accordingly, the Tribunal exercised its discretion to direct the DfE to be added to the proceedings as Second Respondent. Case Management Directions were issued requiring the DfE to respond to the appeal and clarify its position. It did so on 27 March 2026.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Appellant took the opportunity to reply and produced 18 exhibits. As the Appellant wished to be heard in reply to the DfE&#8217;s response, the hearing re-opened on 21 May 2026. Both Respondents had informed the Tribunal in advance that they would not attend. As before, the Tribunal was satisfied it was in the interests of justice to proceed with only the Appellant present.  The Appellant&#8217;s submissions on this occasion were limited to the DfE&#8217;s response. Again, the Tribunal put questions to the Appellant on his position.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">As there is no &#8216;closed&#8217; bundle, all our reasons are set out within this single, open decision.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_3">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">The Request </span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Request under appeal was made to the DfE in the terms below, reference to &#8220;OfS&#8221; being abbreviation for the Office for Students:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">I am writing to request information under the Freedom of Information Act.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic">Redacted extract from [REDACTED]&#8217;s Review.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">I request a copy of the redacted extract from the [REDACTED]&#8217;s serious incident review that is referenced in the Department for Education&#8217;s letter dated 6 January 2025, signed by the Minister of Skills. This letter was issued in response to a Regulation 28/Prevention of Future Deaths Report following a recent inquest.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The relevant section of the ministerial letter states:</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;We would like to thank you again for your Report and a redacted extract from [REDACTED]&#8217;s review. We believe that working with OfS and the higher education sector to learn lessons and take strong action in response is the best way to stop further tragedies from occurring.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The full letter is publicly available at: </span><a class="Hyperlink" href="https://www.judiciary.uk/wp-content/uplo" style="font-style:italic">https://www.judiciary.uk/wp-content/uplo</a><span style="font-style:italic">...</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">I am requesting a copy of the specific redacted extract from [REDACTED]&#8217;s review referenced in that letter. If further redactions are necessary under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> (e.g. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/40" uk:canonical="" uk:origin="TNA" uk:type="legislation">Sections 40</ref> or 41), please provide the document with those redactions applied, along with an explanation of the applicable exemptions.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Correspondence Between DfE and the Office for Students</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">I also request copies of any correspondence or documentation shared between the Department for Education and the Office for Students (OfS) relating to the sharing of the Regulation 28 Report referenced in the same letter.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">This includes:</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">a)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic">Any covering letters, emails, or notes accompanying the transmission of the Report to OfS;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">b)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic">Any documents shared alongside the Report, including the redacted extract from [REDACTED]&#8217;s review if it was also shared with OfS.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">c)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic"> And any internal DfE communications referring to the decision to share the Report and/or the extract with OfS</span>.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_1_4">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Decision Notice</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The first request, which is not under appeal, sought details of senior staff involved in matters related to the duty of care in higher education. With reference to this and the appealed Request, the Commissioner noted that DfE had previously relied on section 14(1) of FOIA (vexatious requests) to refuse similar requests. The DfE was now relying on section 17(6) as basis for not responding to the two requests.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Commissioner decided that the requests were vexatious and that DfE was entitled to rely upon section 17(6) of FOIA to not provide a response. The Commissioner did not require further steps.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The reasons in the Decision Notice record how the DfE had explained that the requester had submitted a significant number of requests on the subject area of the duty of care of students in higher education. DfE had stated that it previously provided the requester with all the information it could, and it only relied on exemptions when appropriate. DfE had explained that the number and frequency of the requests, along with their often-repetitive nature has caused cumulative burden and &#8220;vexatiousness by drift&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Commissioner states that he has already issued decisions concerning the application of section 14 FOIA to several of the Appellant&#8217;s requests made to the DfE. In complaint references IC-353447-X6G7, IC-353461-X8C1, and IC-375980-K8P9, the Commissioner found that DfE was entitled to rely on section 14(1) to refuse those requests.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Commissioner noted that the Appellant continued to submit further requests to DfE despite explaining in its replies to him that it will not respond to further FOIA requests on the subject. In the circumstances, the Commissioner agreed that it was unreasonable to expect DfE to issue a further refusal notice. Continuing to issue further notices would, in the Commissioner&#8217;s view, only serve to prolong the correspondence whilst diverting DfE&#8217;s staff away from core functions.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_5">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Grounds of Appeal</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The grounds of appeal are summarised as follows:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.1</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.25in">The Request sought:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">a)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in">a redacted extract from a serious incident review referenced in the DfE&#8217;s letter of 6 January 2025; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">b)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in">correspondence between the DfE and OfS relating to the sharing of the Regulation 28 Report.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_1_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">14.2</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">The Appellant received no correspondence whatsoever from the Commissioner between submitting the complaint on 9 July 2025 and the issue of the Decision Notice on 27 October 2025. He was not informed that his complaint had been accepted or told that an investigation had been opened. He was not invited to make representations or asked for clarification, context or evidence. Nor was he treated as a party to a statutory process under section 50 FOIA.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">14.3</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">The Decision Notice contains no reference to representations from the Appellant as none were sought. There is no record of a standalone investigation being opened, no section 50 notice and no communication indicating the Request was examined in its own right. A Decision Notice cannot be issued in respect of a request that has never been investigated and the complainant never heard.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">14.4</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">Issuing a Decision Notice in those circumstances is <span style="font-style:italic">ultra vires</span> and a breach of the requirement to investigate within section 50 FOIA and the common-law duty of procedural fairness.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">14.5</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">The sequence of events strongly suggests to the Appellant that his Request was incorporated into another unrelated matter rather than processed through a lawful section 50 procedure.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.6</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.25in">The Decision Notice was issued without justification and cannot stand.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The outcome sought by the Appellant is to quash the Decision Notice insofar as it relates to the Request of 20 May 2025 and to issue further directions as the Tribunal considers appropriate for the complaint to proceed.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span/><span style="font-weight:bold">Commissioner&#8217;s Response</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Commissioner adopts the findings in his Decision Notice. </p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_12">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">DfE&#8217;s Response</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">After the DfE was joined to the proceedings following the first day of the hearing, the DfE responded to say (in summary):</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.1</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-family:Arial;color:#000000">The broader context of this case is the Appellant&#8217;s campaign for a stronger governmental response to university student suicides, notably through a petition to Parliament to impose a statutory duty of care on higher education institutions towards their students. The petition was debated by Parliament in June 2023. The Government response was that higher education providers already have a general duty of care not to cause harm to their students by the university&#8217;s own actions. Since then, campaigners, including the Appellant, have sent FOIA requests to DfE for legal and policy information that was used in developing the government&#8217;s position on this duty of care, amongst other matters. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.2</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-family:Arial;color:#000000">The Appellant has made at least 31 FOIA requests, which are summarised in an annexed table. There is a theme whereby the Appellant repeatedly seeks information related to the government&#8217;s response to student suicides. A significant focus is on how the government formulated its position on the common law duty of care on higher education providers towards students. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.3</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-family:Arial;color:#000000">In addition to his 31 requests, the Appellant has produced further correspondence in appealing the outcome of his requests; making at least four Subject Access Requests to DfE; and directing Ministerial correspondence on this issue. The Appellant has met with Ministers to discuss this topic on more than one occasion. The Appellant has appealed the outcome of his FOIA requests to the Commissioner on at least eight occasions, and has sought to appeal the outcome of six decisions to the Tribunal across five separate sets of proceedings (references FT/EA/2025/0247; FT/EA/2025/0265; FT/EA/2025/0294; FT/EA/2025/0407; FT/EA/2025/0418). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.4</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-family:Arial;color:#000000">In the context of the significant burden that the Appellant&#8217;s repetitive and duplicative FOIA requests, DfE issued a refusal notice on 6 March 2025 in response to the Appellant&#8217;s 22</span><span style="vertical-align:super;font-size:smaller;font-family:Arial;color:#000000">nd</span><span style="font-family:Arial;color:#000000">, 23</span><span style="vertical-align:super;font-size:smaller;font-family:Arial;color:#000000">rd</span><span style="font-family:Arial;color:#000000"> and 24</span><span style="vertical-align:super;font-size:smaller;font-family:Arial;color:#000000">th</span><span style="font-family:Arial;color:#000000"> requests in the following terms:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.79in">&#8220;<span style="font-style:italic">We must also stress that as we have now comprehensively addressed your concern and due to the need to protect departmental resources, we will not be able to respond to substantially similar requests on the same topics made before a reasonable amount of time has passed, by you or any campaigners you work with.&#8221; </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.5</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">DfE refers back to this refusal notice as justification not to engage in further FOIA requests. This appeal concerns the 29<span style="vertical-align:super;font-size:smaller">th</span> FOIA request. The DfE did not respond to the request or the Appellant&#8217;s chaser email of 19 June 2025.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.6</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">DfE understands the appeal to be that the Commissioner breached section 50 FOIA and its common law duties of fairness. He does not appear to take issue with the underlying DfE decision, solely the conduct of the Commissioner in its investigation.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.7</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">The DFE considers it was entitled to refuse to respond to the request in light of its refusal of 6 March 2025 because<span style="font-family:Arial;color:#000000"> the request is vexatious by seeking disclosure of material related to other requests (namely material related to student suicide and the government response to it). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.8</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">The refusal notice was made under section 14, as DfE considered the cumulative burden of the Appellant&#8217;s repeated requests to be vexatious by drift.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.9</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-family:Arial;color:#000000">The nature of the 29th request is &#8220;slightly different&#8221; as it seeks information in relation to a specific DfE action rather than general governmental policy development. But it still seeks information relevant to how government responds to the tragic loss of student life to suicide by seeking correspondence between DfE and OfS on that topic. It also came within short succession of other requests.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.10</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.09in">The requests themselves are vexatious. They are large in volume, overlap, and disrupt DfE&#8217;s activities by tying the department up in responding to so many overlapping requests. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.11</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.09in">Notwithstanding its position, the DfE notes that the request in this appeal relates to a letter in the public domain between the Minister for Skills and H.M. Area Coroner for Oxfordshire. Both the letter and the Coroner&#8217;s Regulation 28 Prevention of Future Deaths Report are available in the public domain in redacted form. The Report appears to rely on a serious incident review completed by the University of Oxford. It was not produced or owned by the DfE although it was shared with DfE in confidence and is exempt from disclosure under section 41 FOIA (confidential information). The information should more properly be requested from the University. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.12</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.09in"><span style="font-family:Arial;color:#000000">The author of the serious incident review considers there is significant risk that disclosure could destabilise the mental health of third parties who could be identified even with contact details redacted. As a result, DfE considers that the review documents are exempt under section 38(1)(a) FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.13</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.09in"><span style="font-family:Arial;color:#000000">DfE highlights that it withheld the serious incident review from another requester (unrelated to the Appellant or his co-campaigners) on the basis of these two exemptions in early 2025, after undertaking the required public interest tests. After an internal review, DfE upheld the decision to withhold the information. The requester accepted the position and did not appeal to the Commissioner.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_26">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Appellant&#8217;s Replies</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In reply to the Commissioner, the Appellant makes the following points:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">18.1</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">The Appellant reiterates points made previously. He adds that the Decision Notice makes no findings of fact, no examination of the wording or purpose of the Request, no assessment of burden, and no analysis of whether it was in any way similar to earlier requests cited.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">18.2</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">The Decision Notice says that DfE &#8220;later confirmed&#8221; its refusal notice of 6 March 2025 also applied to the Request of 20 May 2025. A refusal notice cannot apply to a future, as yet un-made request.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">18.3</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">Section 14(1) requires a request-specific assessment, which did not occur. The Decision notice proceeds on the unexamined assumption that the earlier refusal of 6 March 2025 was lawfully made and relevant to the Request.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">18.4</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">The Appellant finds the timing of the Decision Notice notable. It was issued on the same day that the DfE filed substantial material in his other appeals. The Decision Notice was included by DfE within those appeals as part of a &#8220;vexatiousness matrix&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">18.5</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">All the Commissioner&#8217;s reasoning rests on unverified assertions attributed to DfE.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In reply to the DfE, the Appellant submits (in summary):</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_32">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">19.1</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.79in">The assertion of repetition and burden is unsupported. The DfE&#8217;s submission does not: (i) identify duplication; (ii) undertake any comparison of requests or the information sought; or (iii) provide any evidential basis for the burden asserted. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_33">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">19.2</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.79in">The Appellant further submits that the legal authorities and guidance do not assist its case. They require a structured, request specific and evidence-based assessment of vexatiousness. The submission provides none. It does not:                 (i) demonstrate burden (ii) identify any improper motive (iii) establish harassment or distress (iv) engage with the value or serious purpose of the request under appeal (v) provide any coherent evidential basis for reliance on concepts such as &#8220;drift&#8221; or repetition.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_1_34">
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">19.3</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.79in">In all those circumstances, the Appellant considers that the requirements of section 14(1) FOIA are not met.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_35">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Legal Framework</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in">Section 1 FOIA provides a right of access to recorded information held by public authorities. It provides:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">General right of access to information held by public authorities</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-style:italic;font-family:'Book Antiqua'">Any person making a request for information to a public authority is entitled&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-style:italic;font-family:'Book Antiqua'">to be informed in writing by the public authority whether it holds information of the description specified in the request, and </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_1_36">
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">if that is the case, to have that information communicated to him. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">That right is subject to several exemptions, one of which is section 14. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">Section 14(1) of FOIA provides that section 1(1) does not oblige a public authority to comply with a request for information if the request is vexatious. Section 14(2) provides that a public authority is not required to comply with repeat requests in certain circumstances. In particular, it is not obliged to comply with a subsequent identical or substantially similar request from that person unless a reasonable interval has elapsed between compliance with the previous request and the making of the current request.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">When a public authority relies on section 14, the obligations under section 17 to give notice of refusal differ from the section 17 obligations when a public authority relies on an exemption in Part II relating to the duty to confirm or deny or a claim that the information is exempt information. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11.5pt">Where a request is vexatious, a public authority is not obliged to comply with section 1(1)(a) or (b). It is not obliged to confirm or deny if it holds any information. Nor is it obliged to issue a substantive refusal notice under section 17(1) or 17(3) setting out the reasons for refusal. If section 17(6) applies, the public authority is not obliged to issue any refusal notice. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11.5pt">Section 17(6) is engaged where: (a) the public authority relies on a claim that section 14 applies, (b) it has given the applicant a notice in relation to a previous request for information stating that it is relying on such a claim, and (c) it would in all the circumstances be unreasonable to expect the authority to serve a further notice.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">An applicant who is dissatisfied with the public authority&#8217;s response to their FOIA request may make an application (a complaint) to the Commissioner under section 50. Section 50(4) provides-</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_1_37">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.79in;text-indent:-0.54in">&#8220;Where the Commissioner decides that the public authority-                                                                                          </p>
+	    </content>
+	  </level>
+	  <paragraph eId="lvl_1_38">
+	    <num style="font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.79in">has failed to communicate information, or to provide confirmation or denial, in a case where it is required to do so by section 1(1), or                                                                      (b) has failed to comply with any of the requirements of sections 11 and 17,   </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="NumberedReasons" style="margin-left:0.39in;text-indent:-0.39in">         the decision notice must specify the steps which must be taken by the authority for   complying with that requirement and the period within which they must be taken.&#8221;</heading>
+	  <level eId="lvl_2_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Role of the Tribunal</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The role of the Tribunal is governed by section 58 FOIA. This requires the Tribunal to consider whether the Commissioner&#8217;s Decision Notice is in accordance with the law, or, where the Commissioner&#8217;s decision involved an exercise of discretion, whether he should have exercised it differently. The Tribunal may review any finding of fact on which the Decision Notice was based (section 58(2)). This means that we may review all the evidence provided to us (even if that evidence was not before the Commissioner) and make our own decision on the merits.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial;color:#000000">In </span><span style="font-style:italic;font-family:Arial;color:#000000">Information Commissioner v Malnick and ACOBA </span><span style="font-family:Arial;color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/72" uk:canonical="[2018] UKUT 72 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 72 (AAC)</ref> at [46] and [90], the Upper Tribunal held that under section 58 the Tribunal exercises a full merits jurisdiction, standing in the shoes of the Commissioner</span><span style="font-family:Arial;font-size:11.5pt;color:#000000">.</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_2">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.3in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Issues</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">Much of the Appellant&#8217;s case had focussed on challenging the veracity of the Commissioner&#8217;s investigative process. The Commissioner has broad discretion to investigate as he sees fit. It is beyond the scope of this decision to explore the adequacy of the Commissioner&#8217;s investigation. The Commissioner made a decision as required by section 50(2) FOIA and served notice of his decision on the Appellant under section 50(3).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">By the time of the re-opened hearing on 21 May 2026, the Appellant confirmed that things had &#8220;moved beyond&#8221; section 50 FOI and his focus was on challenging the Decision Notice. We do not address arguments over procedural deficiencies further.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial">The main issue for the Tribunal is whether the Commissioner&#8217;s decision was wrong or whether the Commissioner ought to have exercised any use of discretion differently. </span>There are two distinct questions for the Tribunal to decide with reference to section 50(4):</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.12in">was the <span style="font-family:Arial">Request vexatious within section 14?</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.12in"><span style="font-family:Arial">did section 17(6) apply to excuse the notification requirement?</span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_5">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Documents</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal received an open bundle of 113 pages and skeleton argument from the Appellant. Following the first day of the hearing, the Tribunal received the DfE&#8217;s response and an Authorities bundle along with the Appellant&#8217;s reply and exhibits.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_6">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Evidence heard</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Appellant submitted that the Commissioner invites the Tribunal to uphold the Decision Notice without producing request-specific documents or primary evidence demonstrating that section 14(1) was lawfully applied. Without such material, it is argued that the Tribunal is effectively asked to rely on conclusions drawn from previous refusals and other decisions relating to different requests.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">When the hearing opened on 9 March 2026, the Appellant confirmed that in the simplest of terms his appeal alleges: (a) a failure by the Commissioner to investigate his complaint, and (b) a failure by the Commissioner to give reasons in his Decision Notice as to why his request for information was vexatious.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Appellant expressed concern that his Request has been treated as vexatious without analysis. In the Decision Notice he has been unable to identify the evidence relied upon or reasoning. His key points are: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(i)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in">the Request was never analysed. The Decision Notice does not examine what was asked for or explain why it is vexatious.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(ii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in">the 6 March 2025 refusal letter is in the bundle. The letter refused different types of requests. Two requests were made under section 16 FOIA seeking advice and assistance and one was made under section 1 FOIA concerning four dates.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(iii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in;text-indent:0.12in">the Decision Notice assumes that the earlier decision of 6 March 2025 was correct and it was carried forward to the later Request.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(iv)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in">the Request was treated as though it was about the duty of care towards students, but it was never about the duty of care or policy.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(v)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in">there is no record in the bundle of the enquiries undertaken with DfE. There was no investigation at all.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(vi)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in">the Decision Notice does not say how the conclusion was reached.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in">When the hearing re-opened on 21 May 2026, Dr Abrahart added the following points:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(vii)</num>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:1in;text-indent:0.12in">the appeal raises a simple but important point. It arose from:                                              (a) H.M. Coroner&#8217;s &#8216;prevention of future deaths report&#8217; of 8 November 2024 (i.e. the Regulation 28 Report), that raised matters of concern to DfE, and </p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1in;text-indent:0.5in">the DfE&#8217;s Minister of Skills reply of 6 January 2025 to the Regulation 28 Report, which publicly referred to a redacted extract of serious incident review and the Coroner&#8217;s concerns being raised with the OfS.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:1in">These references revealed the existence of additional recorded information. The Request sought access to those records. It was triggered by later Government events. It was specifically not an attempt to re-open previous requests. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(viii)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in;text-indent:0.25in">DfE treated the Request as effectively barred due to a previous Decision Notice for previous requests. Two of those requests were not requests for information. They sought assistance on the drafting of possible future requests. Another one was a clarification request about missing dates in a disclosure. The Request was entirely different in character and challenge from anything before. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(ix)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in">DfE&#8217;s response says the Request was refused because of earlier requests made by the Appellant on earlier matters that allows prevention of disclosure. FOIA contains no such principle. Clearly public administration continues over time. New events occur, new records are created and new Government actions taken. New acts generate new rights of access under FOIA.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">(x)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in">The issue before the Tribunal is not whether previous requests pursuant to a related subject matter were vexatious. The issue is whether those earlier requests and refusal notices can lawfully justify refusing this later Request regarding later events and later records. The Appellant submits that it cannot, and the Request should be considered on its own merits.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_2_7">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Discussion and Conclusions</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">Plainly, it is possible that an earlier decision of a public authority that a Request was vexatious can also capture future requests. Where, as in this case, a public authority relies upon section 17(6) FOIA, it obviates the need to issue a refusal notice with reasons. The Tribunal found it necessary to direct for more information to understand the facts that led the Commissioner to reach his decision. This was part of our inquisitorial function to enable us to reach a determination under section 58 FOIA. To do so, the Tribunal joined the DfE to the proceedings. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">Having relied upon section 14 previously in relation to an earlier request, the DfE was not required to respond to this Request if it relies on section 14 again and it would in all the circumstances be unreasonable to expect it to serve further notice (section 17(6)). In this regard, section 17(6) does not distinguish between section 14(1) or 14(2). Either can be applicable to rely on section 17(6).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">As recently set out by the Upper Tribunal in <span style="font-style:italic;font-weight:bold">Kennaugh v Information Commissioner</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2026/123" uk:canonical="[2026] UKUT 123 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2026">[2026] UKUT 123 (AAC)</ref>, an authority need not be correct about its reliance on section 14 in order to properly rely on section 17(6). However, where it relies on section 14 to relieve itself of the obligations under section 1, it must be correct that section 14 applies [37]. The Upper Tribunal went on to confirm that &#8220;section 17(6) does not require a finding that the request was vexatious.&#8221; [40]</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in">With that in mind, we start with consideration of section 17(6).</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">      Section 17(6)</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In reference to section 17(6)(a) and the requirement that a public authority is relying upon a claim that section 14 applies, it is stated at paragraph 16 of the Decision Notice:</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_8">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">&#8220;In relation to the first condition</span><span/><span style="font-style:italic">DFE had relied upon a position that previous request from the complainant of 6 February 2025, 15 February 2025 and 2 March 2025 were vexatious. The Commissioner investigated DfE&#8217;s handling of these requests in IC-375980-K8P9 and he was satisfied that DfE was justified in refusing the requests under section 14 FOIA.&#8221;</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">It is clear from paragraph 9 of the Decision Notice that the DfE confirmed to the Commissioner that it considered its previous section 14 refusal notice applied to the Request. Thus, the DfE was relying on section 14 and the first condition in section 17(6)(a) was met.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">It is an undisputed matter of fact that on 6 March 2025, the DfE informed the Appellant that their previous requests were vexatious under section 14(1) FOIA. Therefore, the DfE had notified the Appellant in relation to a previous request that it relied on section 14. The second condition in section 17(6)(b) is met.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The third condition in section 17(6)(c) is met if it would in all the circumstances be unreasonable to expect the authority to serve a further notice relying upon section 14 in relation to the current request. The Commissioner&#8217;s guidance is that subparagraph (c) requires the public authority to have previously warned the requester that it will not respond to any further vexatious requests on the same or similar topics. The DfE&#8217;s notification of 6 March 2025 added:</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_9">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in">&#8220;<span style="font-style:italic">We must also stress that as we have now comprehensively addressed your concern and due to the need to protect departmental resources, we will not be able to respond to substantially similar requests on the same topics made before a reasonable amount of time has passed, by you or any campaigners you work with.&#8221;</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">This text was a clear warning that the DfE would not respond to further requests if they were essentially repeat requests. There is a dispute of fact as to whether the Request is substantially similar to previous requests and whether it is in fact the same topic.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Commissioner&#8217;s reasons were brief on the third condition. He accepted the DfE&#8217;s position that despite its warning, the Appellant continued to submit further requests that he considers to be on the subject. The Commissioner considered that it would only serve to prolong the correspondence whilst diverting DfE staff away from their core functions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Appellant accepted that the Request flowed from the same desire to obtain information to save student lives, but firmly disputed that the requests were similar to those made before. From the Appellant&#8217;s oral evidence, the Request was different from those refused previously because it concerned events that had occurred since the subject matter of those requests. The Appellant highlighted that the DfE&#8217;s letter to the Appellant warned only that further requests on the same topic would not be answered. The Appellant believes this was not the same topic.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In the DfE Response filed by the Government Legal Department, it describes the Request as &#8220;slightly different&#8221; from previous requests by seeking information in relation to a specific DFE action rather than general governmental policy development. It is maintained that the Request was still seeking information relevant to how the government responds to the tragic loss of student life by seeking correspondence between DfE and OfS on that topic. In consequence, the DfE asserts that the Request &#8220;fits the general theme of the Appellant&#8217;s requests&#8221;.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In its Response to the Tribunal, the DfE identified the subject matter of the previous requests, but it did not elaborate further on the differences. The Tribunal&#8217;s Case Management Directions of 10 March 2026 had explicitly required the DfE to file a response including clarification on the differences between the information previously requested and the Request and to provide documentation considered relevant. Direction (3) was framed in these terms:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic;font-family:Arial">&#8220;By no later than </span><span style="font-style:italic;font-weight:bold;font-family:Arial">5pm on 27 March 2026</span><span style="font-style:italic;font-family:Arial"> the Second Respondent </span><span style="font-style:italic;color:#000000">must provide the Tribunal and the other parties with a response to the appeal which is compliant with Rule 23 of the 2009 Rules, that includes the following:</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(a)</num>
+		    <content>
+		      <p style="margin-left:0.75in;text-indent:0.12in"><span style="font-style:italic;font-family:'Book Antiqua'">if it continues to rely upon <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;), a specific response on why the Second Respondent considers the Appellant&#8217;s request for information of 20 May 2025 to be vexatious, and clarification of the subsection in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> relied upon.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(b)</num>
+		    <content>
+		      <p style="margin-left:0.75in;text-indent:0.12in"><span style="font-style:italic;font-family:'Book Antiqua'">a description (or copy) of the information requested that led to the Second Respondent notifying the Appellant on 6 March 2025 that his previous requests were vexatious, and clarification of the difference/s between the information requested then compared with the request of 20 May 2025. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(c)</num>
+		    <content>
+		      <p style="margin-left:0.75in;text-indent:0.12in"><span style="font-style:italic;font-family:'Book Antiqua'">copies of any documentation that the Second Respondent considers relevant.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The absence of details from the Respondents to show that the Request is &#8220;substantially similar&#8221;, as the DfE put it (adopting the wording from <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/2" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(2)</ref>), leads us to believe that a comparison was probably not conducted. That reflects how the Decision Notice is framed, simply referring to the DfE&#8217;s stance that it will not respond to further FOIA requests from the Appellant &#8220;on this subject&#8221;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The available evidence leads the Tribunal to believe that the DfE did not give any consideration to this specific Request either in terms of how similar it was to the previous ones and whether it was vexatious. We have been supplied with no analysis taken by DfE at the time. Instead, the approach taken by the DfE was to treat the Request as vexatious simply by reason of the Appellant&#8217;s previous requests being found to be vexatious. There had to be some consideration of what the individual Request was for and whether it was vexatious even if that conclusion was subsequently found to be wrong. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In all the circumstances it was not unreasonable to expect the DfE to serve a further notice under section 17(5) in relation to the current Request. The third condition in section 17(6)(c) is not met. Therefore, section 17(6) FOIA was not engaged and the DfE was not entitled to rely upon it as reason not to give notice of refusal to the Appellant of its reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In reaching this view, we reminded ourselves that section 17 does not have a substantive content and that reliance on section 17(6) to justify not responding to the Request does not have any bearing on the DfE&#8217;s duty to comply with the substantive provisions of section 1. Whether the procedural requirements of section 17 are met is not the same question of whether there has been compliance with the substantive duty to communicate information pursuant to section 1(1) (<span style="font-style:italic">Kennaugh,</span> at [36] to [38]).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">We turn to the substantive issue of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_10">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14</ref></span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">There was plainly scope pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/2" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(2)</ref> for DfE to not comply with the Request <span style="font-style:italic">if</span> it was identical or substantially similar to one made before, and a reasonable interval had not elapsed. Nowhere within the Decision Notice does it specify that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/2" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(2)</ref> (repeated requests) was engaged. Indeed, the Decision Notice explicitly refers only to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> (vexatious requests).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Commissioner relies solely upon the reasoning within his Decision Notice. The reasons focus on earlier requests and the Commissioner&#8217;s own involvement in the Appellant&#8217;s previous complaints. It is evident from this reasoning that the Commissioner addressed the procedural matter of section 17(6) without considering whether there was compliance with the substantive duty of section 1(1) FOIA. There was no analysis as to whether it was correct that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> applies to the Request.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">FOIA does not define what is meant by &#8216;vexatious&#8217;. It is apparent from the wording of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> that it is the request that must be vexatious, not the Appellant. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-size:11.5pt">The Upper Tribunal gave guidance in </span><span style="font-style:italic;font-weight:bold;font-size:11.5pt">Information Commissioner v Devon County Council and Dransfield </span><span style="font-size:11.5pt"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/440" uk:canonical="[2012] UKUT 440 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 440 (AAC)</ref>, as upheld and clarified by the Court of Appeal in </span><span style="font-style:italic;font-weight:bold;font-size:11.5pt">Dransfield v Information Commissioner and Devon County Council </span><span style="font-size:11.5pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref>. As noted by Arden LJ in the Court of Appeal</span><span style="font-style:italic;font-size:11.5pt">, </span><span style="font-size:11.5pt">the hurdle of showing a request is vexatious is a high one:  </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_11">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-size:11.5pt">&#8220;&#8230;</span><span style="font-style:italic;font-size:11.5pt">the starting point is that vexatiousness primarily involves making a request which has no reasonable foundation, that is, no reasonable foundation for thinking that the information sought would be of value to the requester, or to the public or any section of the public. Parliament has chosen a strong word which therefore means that the hurdle of satisfying it is a high one, and that is consistent with the constitutional nature of the right. The decision maker should consider all the relevant circumstances in order to reach a balanced conclusion as to whether a request is vexatious</span><span style="font-size:11.5pt">&#8221; [68].</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Upper Tribunal&#8217;s decision in <span style="font-style:italic">Dransfield</span><span style="font-style:italic;font-weight:bold"/>provides more detailed guidance that was not challenged in the Court of Appeal. The ultimate question is: &#8220;<span style="font-style:italic">is the request vexatious in the sense of being a manifestly unjustified, inappropriate or improper use of FOIA?</span>&#8221; [43]. In the context of reviewing the Commissioner&#8217;s Guidance, the Upper Tribunal highlighted &#8220;<span style="font-style:italic">the importance of adopting a holistic and broad approach to the determination of whether a request is vexatious or not, emphasising the attributes of manifest unreasonableness, irresponsibility and, especially where there is a previous course of dealings, the lack of proportionality that typically characterise vexatious requests</span>&#8221; [45]. Arden LJ in the Court of Appeal also emphasised that a &#8220;<span style="font-style:italic">rounded approach</span>&#8221; is required [69]. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">Overall, the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> is to &#8220;<span style="font-style:italic">protect the resources (in the broadest sense of that word) of the public authority from being squandered on disproportionate use of FOIA</span>&#8221; (Upper Tribunal at [10]). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In <span style="font-style:italic;font-weight:bold">Craven v ICO &amp; Department for Energy and Climate Change </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref> the Court of Appeal accepted &#8220;<span style="font-style:italic">there is no warrant for reading <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> FOIA as subject to some express or implied qualification that a request cannot be vexatious in part because of, or solely because of, the costs of complying with the current request.</span>&#8221; [85]. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">This has subsequently been confirmed in <span style="font-style:italic;font-weight:bold">Cabinet Office v Information Commissioner and Ashton </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/208" uk:canonical="[2018] UKUT 208 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 208 (AAC)</ref>, in which the Upper Tribunal stated, having considered the relevant case law: </p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_12">
+	    <heading class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">&#8220;The law is thus absolutely clear. The application of section 14 of FOIA requires a holistic assessment of all the circumstances. Section 14 may be invoked on the grounds of resources alone to show that a request is vexatious. A substantial public interest underlying the request for information does not necessarily trump a resources argument. As Mr Armitage put it in the Commissioner&#8217;s written response to the appeal (at &#167;18):</span></heading>
+	    <paragraph>
+	      <num style="font-family:Symbol;margin-left:0.75in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">In deciding whether a request is vexatious within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref>, the public authority must consider all the relevant circumstances in order to reach a balanced conclusion as to whether a request is vexatious. </span></p>
+	      </content>
+	    </paragraph>
+	    <paragraph>
+	      <num style="font-style:italic;font-family:Symbol;margin-left:0.75in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p style="margin-left:0.75in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The burden which compliance with the request will impose on the resources of a public authority is a relevant consideration in such an assessment. </span></p>
+	      </content>
+	    </paragraph>
+	    <paragraph>
+	      <num style="font-family:Symbol;margin-left:0.75in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p style="margin-left:0.75in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">In some cases, the burden of complying with the request will be sufficient, in itself, to justify characterising that request as vexatious, and such a conclusion is not precluded if there is a clear public interest in the information requested. Rather, the public interest in the subject matter of a request is a consideration that itself needs to be balanced against the resource implications of the request, and any other relevant factors, in a holistic determination of whether a request is vexatious.&#8221;</span><span style="font-family:'Book Antiqua';color:#000000"> [27]</span></p>
+	      </content>
+	    </paragraph>
+	  </level>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">We are not constrained by considering the issues in <span style="font-style:italic">Dransfield</span> as a formulaic approach or checklist, but we use them as a helpful steer. The text quoted in italics below is taken from the Upper Tribunal&#8217;s decision in <span style="font-style:italic">Dransfield </span>with the paragraph numbers therefrom given in square brackets.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_13">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.3in"><span style="font-style:italic;font-weight:bold">Burden</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_64">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">In terms of the burden imposed on the public authority by the Request<span style="font-size:11.5pt">, this was a neatly focussed Request. It was not difficult to understand. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">65.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-size:11.5pt">W</span>e note that the DfE received another request for the same serious incident review from someone else who the DfE acknowledges was unconnected with the Appellant. At the hearing, the Appellant appeared genuinely surprised that another request for the same information had been made and noted that it was unclear if the other request was made before or after his own. The other requester was given a refusal notice, which relied upon exemptions within section 41 and section 38(1)(a) FOIA. The DfE explains in straightforward terms why those exemptions were engaged. It would not have been onerous to issue a refusal notice in those terms. The fact that another requester was given a refusal notice demonstrates that the Request for the serious incident review, was not in itself vexatious.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">66.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">Of course, requests must be considered in context, and previous dealings may be relevant. We bear in mind that the burden may be inextricably linked with a previous course of dealings between the parties. At [29] the Upper Tribunal said: &#8220;&#8230;<span style="font-style:italic">the context and history of the previous request, in terms of the previous course of dealings between the individual requester and the public authority in question, must be considered in assessing whether it is properly to be characterised as vexatious. In particular, the number, breadth, pattern and duration of previous requests may be a telling factor</span>&#8221;.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">67.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">Context is an important factor here. The Appellant challenges the accuracy of the table of requests supplied by the DfE, on the basis that some were requests for assistance under section 16 FOIA or for clarification. Nevertheless, the Appellant had clearly made a significant number of requests with the Request recorded by DfE as the 29<span style="vertical-align:super;font-size:smaller">th </span>request. At the hearing, the Appellant recognised that when he had begun to make requests to the DfE he had made too many too soon. He said that he had consciously moderated his conduct to space them out over time. In doing so, the Appellant had sought to reduce the burden of his requests. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">68.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">The DfE submits that many on the requests were overlapping. As mentioned above, the submissions do not provide details or supporting information, such as earlier decision notices, to enable us to reach a view despite the Tribunal&#8217;s Directions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">69.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">The DfE&#8217;s Response to the Tribunal refers to &#8220;vexatiousness by drift&#8221; to describe a series of subsequent information requests which amounts to conduct that becomes disproportionate to the aim of the original request. It submits that the cumulative load of similar requests has resulted in requests on this topic becoming vexatious by drift. To support this view, the DfE relies on <span style="font-style:italic;font-weight:bold">Alan Maiden v Information Commissioner</span> (ET/2016/0117) that further responses would have been futile and represented a fruitless expenditure of time and money. As another First-tier Tribunal decision, it is not binding upon us, but we do not disagree with the principle expressed. In this instance, we have no sound reason to believe that a response to the Request would be &#8216;futile&#8217; or waste of public time and expenditure. There is insufficient evidence to support the argument of &#8216;vexatiousness by drift&#8217;.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">70.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">We recognise that there has been a pattern of requests which flow from the same theme of the Government&#8217;s response to student suicides in higher education. We also note that the Government response has been given to the petition that was raised in Parliament. We take account of all those matters. Even so, the DfE response seemingly attempts to wrap this Request up among the others without examining whether there are differences.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">71.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">There is insufficient evidence supplied to cause us to conclude that the Request was repetitive. The Request had not been made by the Appellant before, and the Appellant insists that the Request is not similar to those he made before and says it is on a different topic. As the DfE was not represented at the hearing, the Appellant&#8217;s oral evidence was not contradicted.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">72.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">In its Response, the DfE offered to make closed submissions. The Tribunal had already given the DfE opportunity to explain the differences between the requests and to supply relevant documentation. Indeed, it was directed to do so. The DfE also had opportunity to appear at the hearing and elaborate upon its position but chose not to do so. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">73.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">Having considered all the arguments presented, we find that the Request, taken in context, was not unduly burdensome.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_14">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.3in"><span style="font-style:italic;font-weight:bold">Motive and purpose</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_74">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">74.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">Although FOIA is motive-blind, the Upper Tribunal observed that &#8220;<span style="font-style:italic">what may seem like an entirely reasonable and benign request may be found to be vexatious in the wider context of the course of dealings between the individual and the relevant public authority</span>&#8221;. [34]</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">Having heard from the Appellant, it is clear to the Tribunal that his strong motivation is to save student lives. From what we can tell that aim has not waivered through his requests. To further that aim, the Appellant seeks transparency around Government decision-making. That motivation comes from a tragic background. The overarching purpose is of the most serious kind &#8211; to reduce student suicides in higher education. The &#8216;serious incident review&#8217; sought is referenced in a Ministerial letter dated 6 January 2025 in response to the Coroner&#8217;s Regulation 28 Report following an inquest into the death of a student. We are satisfied that the Request was founded on proper motive and intent.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_15">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.3in"><span style="font-style:italic;font-weight:bold">Harassment or distress</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_76">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">76.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">There is no suggestion that the Request caused any harassment or distress to the DfE&#8217;s staff. The DfE acknowledged that the Appellant has remained polite and civil in all his requests.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_16">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.3in"><span style="font-style:italic;font-weight:bold">Conclusion on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_77">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">77.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">We find as a matter of fact and law, that the high threshold for the Request to be considered vexatious, was not met. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14(1)</ref> did not apply.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_2_17">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Overall conclusion</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_78">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">78.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">The Commissioner was wrong to decide that <span style="font-family:Arial">the Request was vexatious and the</span> DfE was entitled to rely upon section 17(6) FOIA as a basis for refusing to provide a response to the Request.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">79.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">The Commissioner&#8217;s role under section 50 was not only to consider whether DfE had complied with the procedural requirements of section 17, but also whether it had complied with the substantive duty to communicate information pursuant to section 1(1), which is a distinct matter.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num style="font-family:'Book Antiqua';margin-left:0.55in;text-indent:-0.25in">80.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-family:Arial">The DfE was not entitled to rely upon <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA. It follows that DfE was obliged to comply with section 1(1) FOIA.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p><span style="font-family:TimesNewRomanPSMT;font-size:11.5pt;color:#FFFFFF">The Appellant </span><span style="font-family:TimesNewRomanPSMT;color:#FFFFFF">respectfully </span><span style="font-family:TimesNewRomanPSMT;font-size:13.5pt;color:#FFFFFF">asks the </span><span style="font-family:TimesNewRomanPSMT;font-size:11.5pt;color:#FFFFFF">Tribunal </span><span style="font-family:TimesNewRomanPSMT;font-size:14pt;color:#FFFFFF">to </span><span style="font-family:TimesNewRomanPSMT;font-size:12.5pt;color:#FFFFFF">want </span><span style="font-family:TimesNewRomanPSMT;font-size:14pt;color:#FFFFFF">the </span><span style="font-family:TimesNewRomanPSMT;font-size:12.5pt;color:#FFFFFF">tribunal </span><span style="font-family:TimesNewRomanPSMT;font-size:14pt;color:#FFFFFF">to </span><span style="font-family:TimesNewRomanPSMT;font-size:12.5pt;color:#FFFFFF">make.</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed:  </span><span style="font-weight:bold;font-family:'Book Antiqua'">Judge Saward</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date: </span><docDate date="2026-06-02" refersTo="#decision" style="font-family:'Book Antiqua'">2 June 2026</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

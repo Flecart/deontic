@@ -1,0 +1,756 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/262"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/262"/>
+	  <FRBRdate date="2026-01-13" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="262"/>
+	  <FRBRname value="Rabbi Gabriel Kanter-Webber v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/262"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/262"/>
+	  <FRBRdate date="2026-01-13" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/262/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/262/data.xml"/>
+	  <FRBRdate date="2026-01-13T15:12:56" name="transform"/>
+	  <FRBRdate date="2026-01-13T15:42:02" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-01-27" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-01-12" refersTo="#decision" source="#"/>
+	<eventRef date="2026-01-13" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="rabbi-gabriel-kanter-webber" href="" showAs="RABBI GABRIEL KANTER-WEBBER"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-tribunal-judge-mornington" href="/judge-tribunal-judge-mornington" showAs="TRIBUNAL JUDGE MORNINGTON"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>262</uk:number>
+	<uk:cite>[2025] UKFTT 262 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.4.0</uk:parser>
+	<uk:hash>4002249b0b076e9fb6e25bb3a3edbf5bfd15b50dc2ad75a34d470def5795a897</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .legds { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua'">[2025] UKFTT 00262 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2024/0332</span></p>
+      <p><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Determined on the papers</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">: </span><docDate date="2025-01-27" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">27 January 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-01-13" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">13 January 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-tribunal-judge-mornington" style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">TRIBUNAL JUDGE MORNINGTON</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">TRIBUNAL MEMBER COSGRAVE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">TRIBUNAL MEMBER PALMER-DUNK</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#rabbi-gabriel-kanter-webber" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#0D0D0D">Rabbi gabriel kanter-webber</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#0D0D0D">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Amended under rule 40 of The Tribunal Procedure (First-tier Tribunal)(General Regulatory Chamber Rules) 2009.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#0D0D0D">Decision: </span><span style="font-family:'Book Antiqua';color:#0D0D0D">The appeal is Dismissed.</span></p>
+      <p style="margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">The Appeal was decided without a hearing as agreed by the parties and allowed by the Tribunal by rule 32(1) Tribunal Procedure (First -Tier Tribunal) (General Regulatory Chamber) Rules 2009</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Background to Appeal</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This Appeal dated 16 October 2024 and made by Rabbi Gabriel Kanter-Webber (the &#8220;Appellant&#8221;) arises following a request for information (the &#8220;Request&#8221;) made by the Appellant to the Charity Commission (&#8220;CC&#8221;)&#160;on 27 November 2023 in the following terms:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Please can you provide me with the following information in an electronic format: </span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">1.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">The names of past and present trustees of the Campaign Against Antisemitism [CAA] (charity </span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">1163790), along with their dates of service.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">A copy of any applications made by the charity, or its trustees, for regulation 40 exemption from the need to publish the names of its trustees.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">CC responded on 11 December 2023 to confirm that s40(2) and s41(1) of FOIA applied to the remainder of the information held by CC and therefore CC were not able to provide the Appellant with all of the requested information. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On the same date, the Appellant requested an internal review of CC&#8217;s handling of the request on the basis that there is always public interest in charity trustees being identified and charity trustees must expect their identities to be known to the public. Moreover, the Appellant claimed that there is a strong public interest in transparency as to the process by which the charity became exempt from publishing the identities of the trustees. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 7 March 2024, CC responded having undertaken the requested internal review. CC upheld their previous response that the exemptions provided at s40(2) and s41(1) FOIA applied, and therefore the requested information held by CC would not be disclosed. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant complained to the Information Commissioner on 29 April 2024 and invited the IC to issue a decision notice requiring the CC to disclose the requested information. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Reasons for Commissioner&#8217;s Decision</span></heading>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In a Decision Notice (&#8220;DN&#8221;) dated 2 August 2024, the Information Commissioner (&#8220;IC&#8221;) held that:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;The Commissioner&#8217;s decision is that the requested information is exempt under section 40(2) and section 41(1). The Commissioner does not require further steps.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In summary, The Commissioner&#8217;s reasons for the Decision were that the requested information contains personal data which is exempt by virtue of s 40(2) FOIA. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC determined that although there was a legitimate interest being pursued by the Appellant in that he is concerned that senior members of CC have political affiliations which are not compatible with its charity status and the appropriateness of a financial arrangement between this charity and another and the salary of the charity&#8217;s Chief Executive. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">However, the Commissioner does not consider that the disclosure of the requested names is necessary to meet this legitimate interest. This is because the CC does not need to confirm the names of current or past trustees as the Appellant asserts, and the IC accepts, that there is information about individuals&#8217; affiliation with the charity in the public domain. However, the IC considers that there is no information that confirms past or present trustees in the public domain. Accordingly, if the Appellant has used the information about individuals already in the public domain to make or substantiate the allegations against the charity, they can be brought to the CC directly via their complaints process. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC accepts that there is a legitimate interest in transparency and accountability, in relation to the charity and the CC, but does not accept that the legitimate interest outweighs the rights and freedoms of the individuals whose data is being requested, particularly given that CC has granted a dispensation from publicly naming the trustees and disclosure of the information would be beyond the expectations of the individuals and would cause them distress. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC recognises that the charity has attracted controversy, and that CC has real concerns in relation to trustees' safety should the information be disclosed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC decided there was no lawful basis for disclosure under Article 6 UK GDPR.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC considered that the application by the charity to the CC for dispensation from publishing the names of its trustees is not trivial nor in the public domain and accordingly, has the necessary quality of confidence. The IC was satisfied that the information was imparted in circumstances of an obligation of confidence. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Commissioner considers there would be damage to both the CC  and the data subject(s) to whom the application relates, were the information to be disclosed and that were the CC to breach this confidence and disclose the requested information, it&#8217;s likely that the Charity would be able to bring against it an actionable breach of confidence.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC determined that the public interest lies in preserving the confidentiality, given the alternative methods that are available to the complainant to pursue their concerns, and the information that the Charity Commission has already placed in the public domain. The IC decided that if the complainant believes the trustee dispensation has been granted erroneously, they can raise a complaint with the CC. Furthermore, the Charity Commission has explained its trustee dispensation process on its website which goes some way to meeting the public interest in the requested information.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appeal and Responses</span></heading>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The appeal relates to the application of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant originally appealed the Decision Notice on the following grounds: </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">The CC took too long to respond to the Appellant&#8217;s request for an internal review;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(b)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">The exemptions were wrongly applied by the IC in that: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">The charity&#8217;s chief executive&#8217;s name and address is already in the public domain. If there were to be harm suffered by release of trustees&#8217; names, one would expect the chief executive to have suffered harm.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">Most other Jewish charities disclose names of trustees without any harm being suffered. There is no evidence to show that there is a unique or higher risk to CAA than other Jewish charities. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.38in"><span style="font-family:'Book Antiqua'"> There is a public interest in identifying trustees as CAA is extremely active and controversial </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_3_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(c)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">The IC argument that a complaint to the CC is enough is flawed in that: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">(i)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">It fails to regard the decision of Parliament that a complaints process is insufficient and that the register of charities and trustees must be available to the public, at least in the vast majority of cases and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">(ii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">It fails to recognise that some causes of complaint against a charity may only become known if trustees&#8217; names are published and their misconduct can then be affiliated to a specific charity.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">(iii)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in;text-indent:0.38in"/>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_3_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">The public interest argument also defeats the application of s41 FOIA</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC responded to the appeal to state that the Decision Notice was correct and that the appeal should be dismissed. Despite any previous decisions and general assertions regarding the publication of trustees&#8217; names, the IC contends that the question for the Tribunal is whether the names of the trustees on the facts of this case should be disclosed to the public. The IC maintains that the disclosure of the necessary information is not necessary to meet the legitimate interests in this case. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Moreover, the IC says it was correct to conclude that disclosure would contravene the Data Protection principle set out in Article 5(1)(a) of the UK General Data Protection Regulations (UKGDPR) and that the condition under Article 6(1)(f) UKGDRP is not met. Accordingly, the s40(2) exemption was engaged. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In response to the Appellant&#8217;s arguments in relation to s41 FOIA, the Commissioner maintains that he was correct to conclude in his DN that the public interest in disclosure does not outweigh the public interest in maintaining confidentiality given that a complaint can be raised with the Charity Commission should someone believe that the trustee dispensation had been granted when it should not have been and given the information on the Charity Commission&#8217;s website concerning the trustee dispensation process</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Documents</span></heading>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal was provided with an 80-page bundle and a closed bundle of documents </span><span style="font-family:'Book Antiqua';color:#000000">which included the withheld material</span><span style="font-family:'Book Antiqua'">.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Applicable Law </span></heading>
+	  <paragraph eId="para_22">
+	    <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The relevant provisions of FOIA are as follows: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-weight:bold;font-family:'Book Antiqua';margin-left:1.17in;text-indent:-0.78in">1</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.17in"><span style="font-weight:bold;font-family:'Book Antiqua'">General right of access to information held by public authorities.</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(1)</num>
+		<intro>
+		  <p style="text-align:justify;margin-left:1.17in"><span style="font-family:'Book Antiqua'">Any person making a request for information to a public authority is entitled&#8212;</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">to be informed in writing by the public authority whether it holds information of the description specified in the request, and</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in;text-indent:0.61in"><span style="font-family:'Book Antiqua'">if that is the case, to have that information communicated to him.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-weight:bold;font-family:'Book Antiqua'">40</num>
+	    <intro>
+	      <p class="Heading3" style="text-align:justify;text-indent:0.89in"><span style="font-style:normal;font-weight:bold;font-family:'Book Antiqua'">Personal information.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1E1E1E">(2)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#1E1E1E">Any information to which a request for information relates is also exempt </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">information if - </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';color:#1E1E1E">(a)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in;text-indent:0.61in"><span style="font-family:'Book Antiqua';color:#1E1E1E">it constitutes personal data which does not fall within subsection </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">(1), and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';color:#1E1E1E">(b)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in;text-indent:0.61in"><span style="font-family:'Book Antiqua';color:#000000">[</span><span style="font-family:'Book Antiqua';color:#1E1E1E">the first, second or third</span><span style="font-family:'Book Antiqua';color:#000000">]</span><span style="font-family:'Book Antiqua';color:#1E1E1E"> condition below is satisfied.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1E1E1E">(3A)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#1E1E1E">The first condition is that the disclosure of the information to a member of </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">the public otherwise than under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref>&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';color:#1E1E1E">(a)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.79in;text-indent:0.61in"><span style="font-family:'Book Antiqua';color:#1E1E1E">would contravene any of the data protection principles,</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-weight:bold;font-family:'Book Antiqua';color:#1E1E1E">41</num>
+	      <content>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#1E1E1E">Information provided in confidence.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1E1E1E">(1)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#1E1E1E">Information is exempt information if&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';color:#1E1E1E;margin-left:1.29in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.29in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#1E1E1E">it was obtained by the public authority from any other person (including another public authority), and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';color:#1E1E1E;margin-left:1.29in;text-indent:-0.25in">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.29in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#1E1E1E">the disclosure of the information to the public (otherwise than under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref>) by the public authority holding it would constitute a breach of confidence actionable by that or any other person.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p style="text-align:justify"><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">58</span><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Determination of appeals</span><span style="font-family:'Book Antiqua'">.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(1)</num>
+	      <intro>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><span style="font-family:'Book Antiqua'">If on an appeal under section 57 the Tribunal considers&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(a)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">that the notice against which the appeal is brought is not in accordance with the law, or</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<intro>
+		  <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently,</span></p>
+		</intro>
+		<subparagraph>
+		  <content>
+		    <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal.</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(2)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The relevant provisions of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> are:</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_5_1">
+	    <num style="font-weight:bold;font-family:'Book Antiqua'">3</num>
+	    <intro>
+	      <p class="Heading3" style="text-align:justify;text-indent:0.5in"><span style="font-style:normal;font-weight:bold;font-family:'Book Antiqua'">Terms relating to the processing of personal data</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.04in;text-indent:-0.25in">(1)</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:1.04in;text-indent:0.12in">.....</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1E1E1E;margin-left:1.04in;text-indent:-0.25in">(2)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.04in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#1E1E1E">&#8220;Personal data&#8221; means any information relating to an identified or identifiable living individual (subject to subsection (14)(c)).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1E1E1E;margin-left:1.04in;text-indent:-0.25in">(3)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.04in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#1E1E1E">&#8220;Identifiable living individual&#8221; means a living individual who can be identified, directly or indirectly, in particular by reference to&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';color:#1E1E1E;margin-left:1.54in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.54in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#1E1E1E">an identifier such as a name, an identification number, location data or an online identifier,</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The relevant provisions of the UK General Data Protection Regulations are:</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Article 5 </span><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Principles relating to processing of personal data </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">1.</num>
+		<intro>
+		  <p style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Personal data shall be:</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-family:'Book Antiqua';color:#1E1E1E">(a)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.61in"><span style="font-family:'Book Antiqua';color:#1E1E1E">processed lawfully, fairly and in a transparent manner in relation to </span><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">the data subject (&#8216;lawfulness, fairness and transparency&#8217;)</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#1E1E1E">Article 6</span><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua';color:#1E1E1E">Lawfulness of processing</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="font-family:'Book Antiqua';color:#1E1E1E">1.</num>
+		  <intro>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#1E1E1E">Processing shall be lawful only if and to the extent that at least one </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">of the following applies: </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua'">(f)</num>
+		    <content>
+		      <p style="text-align:justify;margin-left:1.18in;text-indent:0.71in"><span style="font-family:'Book Antiqua';color:#1E1E1E">processing is necessary for the purposes of the legitimate interests </span><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">pursued by the controller or by a third party, except where such </span><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">interests are overridden by the interests or fundamental rights and </span><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">freedoms of the data subject which require protection of personal </span><marker name="tab"/><span style="font-family:'Book Antiqua';color:#1E1E1E">data, in particular where the data subject is a child.</span></p>
+		    </content>
+		  </subparagraph>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion and Conclusions </span></heading>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In accordance with section 58 FOIA, the issue for the Tribunal to decide upon is whether the IC&#8217;s Decision Notice was in accordance with the law and whether the IC was correct in finding that the Charity Commission was entitled to rely on section 40(2) FOIA </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Under section 58(2) FOIA, the Tribunal is able to review any finding of fact upon which the Decision Notice was based, consider all of the evidence before it and reach its own decision. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal has considered two bundles of documents, and the relevant law and will consider each stage of the appeal below. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Part 1 of the Request &#8211; the request for names of Trustees</span></heading>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC considered that the information requested in relation to the names of the trustees of CAA was exempt information under s40(2) FOIA in that the requested information contained personal data.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Does the exemption under section 40(2) FOIA apply?</span></heading>
+	  <paragraph eId="para_29">
+	    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Under s40(2) FOIA, information is exempt from disclosure if it contains personal data and when one of the conditions listed in s40(3A), (3B) or 40(4A) is satisfied.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Does the withheld information contain personal data?</span></heading>
+	  <paragraph eId="para_30">
+	    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">There is no alternative but to answer &#8216;yes&#8217; to this question. As set out earlier in this decision, s3(2) DPA 2018 defines personal data as &#8220;any information relating to an identified or identifiable living individual&#8221;. It is unquestionably the case that a person's name is an identifying feature and clearly identifies a person. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Is one of the conditions listed in s40(3A), (3B) or 40(4A) satisfied?</span></heading>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';color:#1E1E1E;margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The condition under Section 40(3A)(a) </span><span style="font-family:'Book Antiqua';color:#1E1E1E">is that the disclosure of the withheld information to a member of the public would contravene any of the data protection principles.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The relevant Data Protection Principle in this case can be found in Article 5(1)(a) UK GDPR which provides that personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Article 6 (1) UK GDPR provides that processing shall only be lawful if one of the conditions listed in the Article applies. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Article 6(1)(f) is the condition most applicable in this case and provides that processing of personal data shall only be lawful if the processing is necessary for the purposes of the legitimate interests pursued by the Applicant except where such interests are overridden by the interests or fundamental rights of the data subjects (i.e. the charity&#8217;s trustees) which require protection of personal data.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In </span><span style="font-style:italic;font-family:'Book Antiqua'">South Lanarkshire Council v Scottish Information Commissioner </span><span style="font-family:'Book Antiqua'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/55" uk:canonical="[2013] UKSC 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 55</ref>; <ref href="#" uk:canonical="[2013] 1 WLR 2421" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] 1 WLR 2421</ref> Lady Hale DP observed (at paragraph 18) that the proper interpretation and application of condition 6 required three discrete questions to be answered: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Is the data controller or the third party or parties to whom the data are disclosed pursuing a legitimate interest or interests? (&#8220;Legitimate interests test&#8221;)</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Is the processing involved necessary for the purposes of those interests? (&#8220;Necessity test&#8221;)</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Is the processing unwarranted in this case by reason of prejudice to the rights and freedoms or legitimate interests of the data subject? (&#8220;Balancing test&#8221;)</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Is the Appellant pursuing a legitimate interest or interests?</span></heading>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal and indeed the IC accept that the Appellant has a legitimate interest in the withheld information and in knowing the names of the trustees of CAA. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';color:#212529;margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#212529">The Tribunal accepts that there is a legitimate interest in holding any charity and its trustees to account in terms of transparency and in understanding the processes of the CC in handling regulatory complaints.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Is the processing involved necessary for the purposes of those interests?</span></heading>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';color:#212529;margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#212529">The Tribunal does not accept that the processing and disclosure of the withheld information is necessary to meet the Appellant's legitimate interests. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';color:#212529;margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#212529">If, as the Appellant avers, the purpose of the disclosure of the withheld information is to understand the transparency of the process, then the Appellant may find this information on the CC website, and within the CC&#8217;s published policies, guidance and annual report. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_12_1">
+	    <num style="font-family:'Book Antiqua';color:#212529;margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#212529">It is not necessary to have the names of CAA trustees to understand the process and in any event, the CC&#8217;s website makes it clear that personal data is not required to make a complaint. If, as is clearly the case, the Appellant is dissatisfied with this position and the dispensation granted by the CC, then he is permitted to make use of the CC complaints procedure. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';color:#212529;margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#212529">The Tribunal considers that the current request under FOIA is unnecessary to achieve the Appellant&#8217;s desired outcome. There is nothing to be gained in making the FOIA request as, even if the Appellant were to obtain the withheld information (which he will not, given the dispensation granted by the CC), his next steps would be to make a complaint to the CC. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';color:#212529;margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#212529">The Appellant is able to make such complaint to the CC at this stage and will be no further along in the process by having made the FOIA request which forms the basis of this appeal. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';color:#212529;margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#212529">The Tribunal does not consider that the &#8220;Necessity test&#8221; has been met and accordingly, it is unnecessary to consider the &#8220;Balancing test&#8221;. Accordingly, processing of the withheld information in relation to the names of the trustees of CAA is not lawful as there is no gateway to make it so. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_13">
+	  <heading style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#212529">Part 2 of the Request &#8211; request for disclosure of any applications</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'"> made by the CAA to CC for exemption to publishing the names of its trustees</span></heading>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC considers that the information requested in this part of the request is exempt under s.41(1) FOIA in that disclosure would constitute a breach of confidence. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">s.41(1) FOIA is an absolute exemption, its application is not subject to the public interest balancing test. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The action of CAA in sending the application for exemption to the CC is clearly information imparted in confidence particularly since the very nature of the application is to keep the contained information confidential. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The withheld information has been considered by the Tribunal and does have the necessary quality of confidence in that it is not already in the public domain and is not trivial. In the Tribunal&#8217;s view, disclosure of the withheld information is likely to cause harm to the CAA and its trustees for reasons set out in closed material provided by the Respondent to the Tribunal which have been accepted by the Tribunal, and crucially, that there would be no defence available to the CC for any breach of confidence in disclosing the withheld information. It is for these reasons that s.41(1) is engaged.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Accordingly, the Tribunal considers that the information requested in Part 2 of the Appellant&#8217;s request is exempt by virtue of s41(1) FOIA. However, although the Tribunal is satisfied that s41(1) FOIA applies in this case, the Tribunal does not agree that its application is appropriate for the reasons given at paragraph 35 of the DN. The Tribunal has set out its reasons at paragraph 49 of its closed decision. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Having considered all of the circumstances, the Tribunal finds that the Information Commissioner&#8217;s decision was correct in law and dismisses the appeal. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Judge Mornington </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:  18 February 2025</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Amended: </span><docDate date="2026-01-12" refersTo="#decision" style="font-family:'Book Antiqua'">12 January 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

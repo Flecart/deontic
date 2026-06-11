@@ -1,0 +1,702 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/188"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/188"/>
+	  <FRBRdate date="2026-02-05" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="188"/>
+	  <FRBRname value="John Mitchell v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/188"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/188"/>
+	  <FRBRdate date="2026-02-05" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/188/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/188/data.xml"/>
+	  <FRBRdate date="2026-02-05T13:56:05" name="transform"/>
+	  <FRBRdate date="2026-02-05T14:31:45" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-01-21" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-02-03" refersTo="#decision" source="#"/>
+	<eventRef date="2026-02-05" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="john-mitchell" href="" showAs="JOHN MITCHELL"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>188</uk:number>
+	<uk:cite>[2026] UKFTT 188 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.4.0</uk:parser>
+	<uk:hash>909626c0f8cf4fed08ea54b93d7b459d01013c466e64889141ff06c03e9816df</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FootnoteTextChar { }
+#judgment .FootnoteTextChar1 { }
+#judgment .cf01 { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00188 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"/><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: EA/2021/0352</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-01-21" refersTo="#hearing" style="font-weight:bold;font-family:Arial">21 January 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-02-05" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">05 February 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE REBECCA WORTH</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER MIRIAM SCOTT</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER EMMA YATES</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#john-mitchell" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">John MITCHELL</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">The Appellant attended, by telephone, as a litigant in person</span></p>
+      <p><span style="font-family:'Book Antiqua'">The Respondent did not attend and was not represented</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is dismissed.</span></p>
+      <p style="margin-left:3.44in;text-indent:-3.44in"><span style="font-weight:bold;font-family:'Book Antiqua'">Definitions:</span><marker name="tab"/><span style="font-family:'Book Antiqua'">&#8220;Bundle&#8221;</span><marker name="tab"/><span style="font-family:'Book Antiqua'">the bundle provided by the ICO for this appeal</span></p>
+      <p style="margin-left:3.44in;text-indent:-3.44in"><marker name="tab"/><span style="font-family:'Book Antiqua'">&#8220;DN&#8221;</span><marker name="tab"/><span style="font-family:'Book Antiqua'">the Decision Notice which is the subject of this appeal, namely IC-104822-X3C9 dated 23 November 2021</span></p>
+      <p style="margin-left:3.44in;text-indent:-3.44in"><marker name="tab"/><span style="font-family:'Book Antiqua'">&#8220;EIR&#8221;</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Environmental Information Regulations 2004 (SI 2004/3391)</span></p>
+      <p style="margin-left:3.44in;text-indent:-3.44in"><marker name="tab"/><span style="font-family:'Book Antiqua'">&#8220;FOIA&#8221;</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Freedom of Information Act 2000</span></p>
+      <p style="margin-left:3.44in;text-indent:-3.44in"><marker name="tab"/><span style="font-family:'Book Antiqua'">&#8220;ICO&#8221;</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The Information Commissioner&#8217;s Office</span></p>
+      <p style="margin-left:3.44in;text-indent:-3.44in"><marker name="tab"/><span style="font-family:'Book Antiqua'">&#8220;PA&#8221;</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The Public Authority (as defined by Schedule 1 of FOIA)</span></p>
+      <p style="margin-left:3.44in;text-indent:-1.69in"><span style="font-family:'Book Antiqua'">&#8220;the Requester&#8221;</span><marker name="tab"/><span style="font-family:'Book Antiqua'">the person who applied for information &#8211; referred to in FOIA, section 1 as the applicant</span></p>
+      <p style="margin-left:3.44in;text-indent:-3.44in"><marker name="tab"/><span style="font-family:'Book Antiqua'">&#8220;the Rules&#8221;</span><marker name="tab"/><span style="font-family:'Book Antiqua'">The Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009 (SI 2010/43), as amended</span><authorialNote class="footnote" marker="1">
+	  <p style="text-align:justify;text-indent:0.5in"><span/><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:10pt;color:#0563C1">https://www.gov.uk/government/publications/general-regulatory-chamber-tribunal-procedure-rules</span></p>
+	  <p class="FootnoteText"/>
+	</authorialNote></p>
+      <p style="margin-left:3.44in;text-indent:-3.44in"><marker name="tab"/><span style="font-family:'Book Antiqua'">&#8220;the Trust&#8221;</span><marker name="tab"/><span style="font-family:'Book Antiqua'">the University Hospitals Plymouth NHS Foundation Trust</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">Mr Mitchell is very concerned about air pollution in Plymouth and that it is poisoning people living in Plymouth and causing deaths to residents of Plymouth. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">He has sought information about his concerns from various public bodies. This appeal is one of six that this Panel considered. We are aware that Mr Mitchell has, over the course of a few years, lodged a number of other appeals in this Tribunal against other decisions of the ICO. We were listed to hear these appeals over a period of 2 days (21 and 22 January 2026), such time including Panel Deliberation but not including preparation.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">The law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">3.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.79in">As far as is relevant, the EIR provides:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-family:'Book Antiqua';color:#3D3D3D">5.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#3D3D3D">&#8212;&#160;Duty to make available environmental information on request</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';color:#1F1F1F">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua';color:#1F1F1F">Subject to paragraph (3) and in accordance with paragraphs (2), (4), (5) and (6) and the remaining provisions of this Part and </span><a href="https://uk.practicallaw.thomsonreuters.com/Document/I446047F0E45311DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;vr=3.0&amp;rs=PLUK1.0&amp;contextData=(sc.DocLink)" style="font-family:'Book Antiqua';color:#006FC4">Part 3</a><span style="font-family:'Book Antiqua';color:#1F1F1F"> of these Regulations, a public authority that holds environmental information shall make it available on request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.58in;text-indent:-0.43in"><span style="font-family:'Book Antiqua';color:#1F1F1F">&#8230;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-family:'Book Antiqua';color:#3D3D3D">12.</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.15in;text-indent:0.35in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#3D3D3D">&#8212;&#160;Exceptions to the duty to disclose environmental information</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';color:#1F1F1F">(1)</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua';color:#1F1F1F">Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if&#8211;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1F1F1F">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua';color:#1F1F1F">an exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';color:#1F1F1F">(b)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua';color:#1F1F1F">in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';color:#1F1F1F">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua';color:#1F1F1F">A public authority shall apply a presumption in favour of disclosure.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';color:#1F1F1F">(3)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua';color:#1F1F1F">To the extent that the information requested includes personal data of which the applicant is not the data </span><span style="font-family:'Book Antiqua'">subject, the personal data shall not be disclosed otherwise than in accordance with </span><a href="https://uk.practicallaw.thomsonreuters.com/Document/I009DD030E45011DA8D70A0E70A78ED65/View/FullText.html?originationContext=document&amp;transitionType=DocumentItem&amp;vr=3.0&amp;rs=PLUK1.0&amp;contextData=(sc.DocLink)" style="font-family:'Book Antiqua'">regulation 13</a><span style="font-family:'Book Antiqua'">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(4)</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">For the purposes of paragraph (1)(a), a public authority may refuse to disclose information to the extent that&#8211;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:2.03in"><span style="font-family:'Book Antiqua'">it does not hold that information when an applican</span><span style="font-family:'Book Antiqua';color:#1F1F1F">t&#8217;s request is received;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:2.03in;text-indent:-0.46in"><span style="font-family:'Book Antiqua';color:#1F1F1F">&#8230;.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">4.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.79in">To challenge a PA&#8217;s decision, a Requester uses the FOIA regime (see regulation 18 of the EIR) which means that the first challenge is for the Requester to apply to the ICO for a Decision Notice (FOIA, section 50). If either side (the Requester or the PA) wishes to challenge the ICO&#8217;s Decision Notice, they are entitled to appeal to this Tribunal (FOIA, section 57). This Tribunal&#8217;s powers are found in FOIA, section 58 which provides:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-weight:bold;font-family:'Book Antiqua'">Determination of appeals</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.96in;text-indent:-0.78in"><span style="font-family:'Book Antiqua'">58(1)</span><marker name="tab"/><span style="font-family:'Book Antiqua'">If on an appeal under section 57 the Tribunal considers&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:2.35in;text-indent:-0.39in">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2.35in"><span style="font-family:'Book Antiqua'">that the notice against which the appeal is brought is not in accordance with the law, or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:2.35in;text-indent:-0.39in">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:2.35in"><span style="font-family:'Book Antiqua'">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently,</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:1.96in"><span style="font-family:'Book Antiqua'">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(2)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.96in"><span style="font-family:'Book Antiqua'">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The principles of FOIA and EIR are so closely related that any reasons and legal principles that are found in cases and authorities which on FOIA will apply to EIR unless it is clear that they are distinguishable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">In determining whether information is, or is not, held, we apply the normal civil standard of proof which is the balance of probabilities (see <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Preston v ICO and Chief Constable of West Yorkshire Police</span> [2022] UKUT 344 and <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Bromley v IC and Environment Agency</span> [2007] UKIT EA_2006_0072 (31 August 2007).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The House of Lords case of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Common Scottish Agency v Scottish Information Commissioner</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/47" uk:canonical="[2008] UKHL 47" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 47</ref> considered what &#8220;held&#8221; means in the Scottish equivalent of FOIA. From that case, we can see that a PA is not required to create information, but only to provide information already held (subject, of course, to the application of any exemptions).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The case of <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Bromley v IC and Environment Agency</span> [2007] UKIT EA_2006_0072 (31 August 2007) also enables the Tribunal to consider that, whilst there can seldom be absolute certainty that information does not remain undiscovered somewhere within a PA&#8217;s records, but the Tribunal&#8217;s task is to consider whether it is likely that the PA was, at the time of the request, holding relevant information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">9.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.79in">In considering the scope of a request under FOIA, the First-tier Tribunal held in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Department for Culture, Media and Sport v IC (<ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>)</span> [2010] UKFTT EA_2009_0038:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">In general the scope of a Freedom of Information Act request (which is what gives rise to and defines the obligations of a public authority under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref>) must be determined by an objective reading of the request itself in light of any relevant background facts. In this case the parties expressly agreed the scope of the request (see paragraph 9 above; only (b) of the agreement is relevant for the purposes of the appeal but it must obviously be read with (a)) and the Tribunal&#8217;s task is to interpret the words of that agreement against the relevant background set out above.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">10.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.79in">By a request made on 10 March 2021, Mr Mitchell wrote to the Trust and requested information. His request (as found at paragraph 4 of the DN) was for provision of:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.43in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.43in">The full UHP annual statistics &#8211; neighbourhood specific for Deaths linked to air pollution in Plymouth from Jan 2014 to March 2021.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.43in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.43in">The number of medical autopsies for the same period of time conducted for deaths linked to air pollution.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The Trust responded on 18 March 2021 stating it does not hold the information sought. This was confirmed by internal review on 05 May 2021.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">12.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The DN found that the Trust did not hold the information (noting this &#8220;may be surprising&#8221; see paragraph 27 of the DN); it further concluded that the information, if held, would be subject to the EIR.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Grounds of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">13.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.79in">By Notice of Appeal dated 27 November 2021, Mr Mitchell appealed to this Tribunal against the DN. His Grounds of Appeal are at page A10 of the Bundle for EA/2021/0352 and set out:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.04in">He made the same request to many other PAs.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.04in">The source information held by the Trust is shared with all of those PAs.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Response</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">14.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">In a Response dated 15<span style="vertical-align:super;font-size:smaller">th</span> May 2022 (Bundle pages A19 toA31) the ICO resists the appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Appellant Reply</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">15.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">By reply sent on 06 June 2022 at 21:17, Mr Mitchell reiterated that he does not believe the Trust when it says that it does not hold the information requested.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Mode of hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">16.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The Tribunal was satisfied that it was fair and just to conduct the hearing using Cloud Video Platform (CVP), all parties were able to join remotely. The ICO decided not to participate, Mr Mitchell joined by telephone. Over the course of the hearing, breaks were taken when needed and Mr Mitchell was given the opportunity to present his case.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Evidence and submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">17.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The bundles for all 6 appeals total over 5000 pages; there are pages duplicated within those. It seems that neither party has assisted the Tribunal to receive a bundle for each appeal which focusses on the issue for that appeal; or, as an alternative, a combined bundle which dealt with all appeals.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in"><span class="cf01" style="font-family:'Book Antiqua';font-size:12pt">Mr Mitchell expressed his frustration with the way in which the bundles had been prepared and presented but stated that he was happy to continue rather than adjourn for him to prepare his own bundles for the listed matters.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in"><span class="cf01" style="font-family:'Book Antiqua';font-size:12pt">The Tribunal took the view that it should not confine itself only to the documents in a specific bundle for each appeal when it was clear that a document found in one of the bundles was relevant to a different appeal (for example because it was a Ruling or Direction that named the other appeal). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">20.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.79in"><span class="cf01" style="font-family:'Book Antiqua';font-size:12pt">For this appeal, t</span>he Tribunal was provided with:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">An Open Bundle comprising of 66 pages; an additional documents bundle of 33 pages.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">A separate bundle, comprising 2541 pages, consisting of various emails and other documents regarding all the appeals for our consideration &#8211; EA/2021/0247, EA/2021/0280, EA/2021/0281, EA/2021/0283 and EA/2021/0352 (i.e. this appeal).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">21.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">Submissions from the party attending the hearing, namely Mr Mitchell.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">22.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.79in">Mr Mitchell provided additional information by emails (which may appear in the 2541 emails bundle, but Mr Mitchell was unable to direct us to the specific page). During the hearing, we were able to refer to emails sent as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">On 12 February 2025 at 10:32 to the GRC and 3 individuals at the ICO; this had 4 attachments.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">On 08 January 2026 at 18:11 to the GRC and 7 individuals at the ICO; this had 4 attachments (including the joining instructions for the CVP hearing).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">On 16 February 2025 at 12:14:25 GMT to the GRC and 6 individuals at the ICO and also sent to 2 addresses which appear to be Devon and Cornwall Police; this had 9 attachments.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The gist of an email which had been received by the GRC.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">Attachments from an email sent to the GRC, the attachments being titled:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">Correspondence_OSR_and_PHE_re_deaths_related_to_air_pollution_FOI_response.pdf</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">20210916 Plymouth mortality enquiry_1.0.docx</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in">20FOI1092 Response letter.pdf</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iv.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">20FOI092 Attachment One &#8211; CTPAs Numbers by Month.xlsx</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">v.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">20FOI151 Response letter.pdf</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">23.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.79in">After the hearing and without any accompanying GRC5 requesting to file additional information, Mr Mitchell sent 2 emails which were forwarded to the Panel. They were:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">One sent on 21 January 2026 at 15:25 to the GRC only, including comments not seen by the ICO and an email which have been sent to at least one person at the ICO and to the GRC on 12 November 2025 at 09:18:23 GMT. It had 3 attachments, but it seems the attachments were not sent with the email to the ICO. Those attachments are titled:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">OP.MR/01/03/DT IBA Collection I4 290917.pdf</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">Section_106_Agreement_-_FINAL.pdf</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in">63091defraairqualityguide9web.pdf</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">A second sent on 21 January 2026 at 15:37 to the GRC only and seemed to forward an email which had been sent to the Upper Tribunal (the ICO not, apparently, copied in). It also had attachments:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">App letter 1201202925</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">UA 2025 001672 GIA PTA refusal TWM.pdf</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in">Mitchell, John &#8211; EA.2023.0296 &#8211; PTA Decision.pdf</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iv.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">Tp_2018_07_19_kitchlu_tpa-2018-0039_sdc1.pdf</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">v.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">151 250325 GRC FTT Decision.pdf</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The email (not seen by the ICO) indicated that this was information and attachments sent so that the Panel did not need to find them in the bundles provided for the appeals we had been hearing. With respect to Mr Mitchell, that was not helpful. If he had specific pages in the bundles to bring to our attention; he should have done so during the hearing; he was given plenty of opportunities to do so, including having 3 breaks, one for 5 minutes at around 11 a.m.; another for 30 minutes at 11:45 a.m. (which Mr Mitchell had quite properly asked for) and another for 45 minutes at 1:15 p.m. By the time of each of those breaks, Mr Mitchell was aware of the need to direct the Panel to pages within the bundles and those breaks enabled him to find pages if he had not done so ahead of the hearing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">25.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The Panel did consider the emails sent after the hearing, albeit with some hesitancy as it was clear that the ICO had not been copied into the email with the wording set out above and it was not clear whether (and, if so, when) the attachments had been sent to the ICO. We summarise the contents as being:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.04in">Information about the underlying issue of environmental damage and air pollution in Plymouth.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.04in">A copy of a decision by a different Judge in the GRC who struck out appeal number EA/2022/0296 and refused permission to appeal against that strike out.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.04in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.04in">A copy of the Upper Tribunal Judge Wikeley&#8217;s refusal of permission to appeal alongside his certification that the application by Mr Mitchell was totally without merit.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">Whilst the underlying issue is relevant, the information about it did not assist us to determine whether the information sought through this request and in this appeal was or was not held by the EA.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">The hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">27.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The Judge explained at the start of the hearing that the time allocated was for the Panel to hear submissions from Mr Mitchell and for the Panel&#8217;s deliberations to enable a decision to be made. The Judge sought to keep Mr Mitchell focused on the actual issues that the Panel could determine, but allowed Mr Mitchell to speak at length about the environmental concerns. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">The Tribunal observed with considerable concern the Appellant's conduct and approach throughout these proceedings. The Appellant demonstrated a persistent disregard for the authority of the Tribunal and the presiding judge, as well as for directions and decisions previously made by the judiciary in this matter.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">Furthermore, the Appellant appeared inadequately prepared for the hearing. When requested to direct the Tribunal to relevant documents within the Bundle (or any other bundle that had been provided for one of these appeals) to substantiate his submissions, the Appellant refused to do so, instead asserting that this task was too difficult for him and expecting the panel to locate the evidence independently. This approach materially hindered the Tribunal's ability to consider the Appellant's case efficiently and thoroughly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">30.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">Mr Mitchell was invited to draw the Panel&#8217;s attention to particular parts of the Bundle (or any other bundle that had been provided for one of these appeals) which supported his contention that this information was held by the Trust.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">31.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">Mr Mitchell believes that each appeal should have been given a day; however, the Panel was satisfied that having these 6 appeals heard together, with submissions on day 1 and deliberations at the end of day 1 and into day 2 was fair, just and proportionate and within the overriding objective.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Consideration</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">32.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">In his submissions for this appeal, Mr Mitchell explained that there is a key word in his request: &#8220;linked&#8221;. He says that, because other bodies estimate the numbers of deaths which are linked to air pollution (such numbers appear in newspapers and are stated by campaign groups), the source for those estimates must come, at least in part from the Trust. He gave an explanation as to the amount of different data sources which he has used to conclude that air pollution is killing people in Plymouth. He therefore argues that, as the Trust&#8217;s information (numbers) must be part of the estimated figures for deaths linked to air pollution, the Trust must hold the information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">Any cause of death is recorded on a Death Certificate. We accept that Death Certificates are not held by the Trust under FOIA &#8211; if they are in possession of them, then that is because they hold them on behalf of the Coroner. In any event, Death Certificates are publicly available via the General Registry Office.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">34.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">As a Panel, we find that &#8220;linked&#8221; does not mean that a check is made to see if any Death Certificate records &#8220;air pollution&#8221; as a cause of death, and it appears that is now what Mr Mitchell seeks. Further, we find that whilst some of the Trust&#8217;s information may have been used for a different person or body to make an estimate of how many deaths are caused by air pollution, this does not equate to the Trust being able to answer this request of Mr Mitchell&#8217;s.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">35.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">Whilst the Trust may hold information which could inform a mathematician or statistician to model an estimate of deaths, it is not reasonable to conclude that the Trust is therefore able to identify information which would meet the requirement of this request by Mr Mitchell. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">36.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">From the documents provided in the bundles, and which Mr Mitchell was invited to refer us to, we are unable to conclude that the Trust holds information which meets the terms of this request. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">37.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.79in">We, therefore, cannot conclude that the DN was wrong in law or discretion and we dismiss the appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Judge Worth</span><marker name="tab"/><marker name="tab"/><docDate date="2026-02-03" refersTo="#decision" style="font-family:'Book Antiqua'">03 February 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

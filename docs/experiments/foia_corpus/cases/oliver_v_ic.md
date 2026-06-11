@@ -2,8 +2,8 @@
 
 citation: [2026] UKFTT 556 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/556
-exemptions: []
-verified: no
+exemptions: s14(1)
+verified: yes
 
 <!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
      Gold rules against cache/ukftt_grc_2026_556_reasoning.txt. The pipeline skips
@@ -177,11 +177,11 @@ Before we start this decision, we wish to apologise unreservedly for the time ta
 
 ## Disputed information
 
-TODO
+Two FOIA/EIR requests made by the Appellant to Derbyshire County Council on 13 and 20 February 2024, concerning traffic regulation orders (TROs), lay-by signage (diagram 801), parking restrictions on the A632 and A616, and associated costs and procedural documentation. The Council refused both requests under s14(1) FOIA (vexatious) and regulation 12(4)(b) EIR (manifestly unreasonable); the dispute is whether the Council was entitled to refuse on vexatious grounds.
 
 ## Oracle facts
 
-TODO
+Request, HoldsInfo, ConfirmOrDeny, RefusalNotice, VexatiousRequest
 
 ## Gold
 
@@ -189,9 +189,9 @@ withhold
 
 <!-- header disposition hint: appeal is refused -->
 
-<!-- label-draft notes (gpt-4.1): No reasoning sections were provided, so no findings are stated. No facts can be transcribed. -->
+<!-- label-draft notes: Paras 78–86 — Tribunal finds requests imposed disproportionate and unjustified burden satisfying the s14(1) vexatious test; para 101 — overall circumstances support s14(1); para 102 — requests manifestly unreasonable under reg 12(4)(b) EIR with public interest balance in favour of maintaining the exception. No substantive exemption engaged; s14_vex is the operative rule; pi=na (s14 cases have no s2(2)(b) balance). AI draft label of s43_2_exempt was incorrect. -->
 
 ## Gold rules
 
-engaged: 
+engaged: s14_vex
 pi: na
