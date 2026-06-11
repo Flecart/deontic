@@ -2,8 +2,8 @@
 
 citation: [2025] UKFTT 1237 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1237
-exemptions: []
-verified: no
+exemptions: s31(1)(d)
+verified: yes
 
 <!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
      Gold rules against cache/ukftt_grc_2025_1237_reasoning.txt. The pipeline skips
@@ -127,11 +127,11 @@ verified: no
 
 ## Disputed information
 
-TODO
+Statistical data held by HMRC about its use of the Serial Tax Avoidance Regime (STAR) under Schedule 18 Finance Act 2016 for tax years 2017–2023: specifically, the number of warning notices issued and recipients, the number of persons whose information was published, the number and total value of restriction of relief notices, and the number, recipients and total value of penalties issued under paragraph 30.
 
 ## Oracle facts
 
-Request, HoldsInfo, ConfirmOrDeny, RefusalNotice
+Request, HoldsInfo, ConfirmOrDeny, RefusalNotice, PrejudiceLawEnforcement, PiMaintainOutweighs
 
 ## Gold
 
@@ -139,9 +139,9 @@ withhold
 
 <!-- header disposition hint: appeal is dismissed -->
 
-<!-- label-draft notes (gpt-4.1): The reasoning confirms a request was made, information is held, the authority confirmed holding via exemption-based refusal (see paras 3–8). The tribunal does not find that any exemption is engaged and does not address the public interest, but it upholds the withholding of the information (see final paragraphs). -->
+<!-- label-draft notes: GPT-4.1 draft incorrectly labelled s43_2_exempt (commercial interests). The case turns entirely on s31(1)(d) FOIA (prejudice to the assessment or collection of tax). Tribunal found exemption engaged (para 61, reasoning file) and PIBT favours maintenance (para 68). PrejudiceLawEnforcement atom includes s31(1)(d) per its description (prejudice to assessment or collection of tax). -->
 
 ## Gold rules
 
-engaged: 
-pi: na
+engaged: s31_exempt
+pi: maintain

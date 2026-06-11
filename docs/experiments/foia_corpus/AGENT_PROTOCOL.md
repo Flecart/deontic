@@ -82,11 +82,11 @@ path (like ukftt/grc/2026/845), its title, and a candidate stratum.
 6. Write a concise ## Disputed information section (what exact information is
    in dispute; for NCND cases say the dispute is whether to confirm or deny).
 
-6. "verified:" header — "yes" ONLY if every label is directly supported by an
+7. "verified:" header — "yes" ONLY if every label is directly supported by an
    explicit statement in the reasoning file; otherwise "no" plus an HTML
    comment in the file explaining the doubt.
 
-7. Validate: .venv/bin/python docs/experiments/foia_corpus/pipeline.py --case <stem> --arms oracle
+8. Validate: .venv/bin/python docs/experiments/foia_corpus/pipeline.py --case <stem> --arms oracle
    Oracle must score OK on disposition and engaged (consistency of your labels
    with the formal theory). Upheld s12/s14 yield engine status P(Disclose) =
    not obliged, which maps to withhold — that is correct. If MISS: re-check
@@ -94,6 +94,6 @@ path (like ukftt/grc/2026/845), its title, and a candidate stratum.
    limitation (e.g. pure NCND dispute scored on the Disclose atom), keep the
    case, set verified: no, and say so in your note.
 
-8. FINAL REPORT — your last message must END with exactly one line:
+9. FINAL REPORT — your last message must END with exactly one line:
    "OK <stem> | <citation> | gold=<g> | engaged=<labels or none> | pi=<p> | outcome=<dismissed/allowed/part> | verified=<yes/no> | <one-clause note>"
    or "SKIP <case-path> | <reason>"
