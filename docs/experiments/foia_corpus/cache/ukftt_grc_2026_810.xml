@@ -1,0 +1,423 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/810"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/810"/>
+	  <FRBRdate date="2026-06-04" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="810"/>
+	  <FRBRname value="Dillon Crawford v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/810"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/810"/>
+	  <FRBRdate date="2026-06-04" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/810/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/810/data.xml"/>
+	  <FRBRdate date="2026-06-04T12:37:01" name="transform"/>
+	  <FRBRdate date="2026-06-04T13:37:07" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-29" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-04" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="dillon-crawford" href="" showAs="dillon crawford"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>810</uk:number>
+	<uk:cite>[2026] UKFTT 810 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.1</uk:parser>
+	<uk:hash>58e59a259693b60f16d01fb7372d7340d9214262e218f7f3adc680f05bb4c842</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { text-align: left; margin-left: 0.58in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation2 { text-align: left; margin-left: 1in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation3 { text-align: left; margin-left: 1.25in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FooterChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p class="Style1">NCN: <neutralCitation>[2026] UKFTT 00810 (GRC)</neutralCitation></p>
+      <p class="Style1"><courtType refersTo="#ukftt-grc">First-tier Tribunal</courtType></p>
+      <p class="Style1"><courtType refersTo="#ukftt-grc">(General Regulatory Chamber) </courtType></p>
+      <p class="Style1"><docJurisdiction refersTo="#jurisdiction-informationrights">Information Rights </docJurisdiction></p>
+      <p class="Style2">Appeal Reference:  FT/EA/2025/0410</p>
+      <p class="Style1">Determined without a hearing on 9 April 2026</p>
+      <p>Decision given on: <docDate date="2026-06-04" refersTo="#decision">04 June 2026</docDate></p>
+      <p class="Style4">Before</p>
+      <p class="Style5">Judge ANTHONY SNELSON </p>
+      <p style="text-align:center"><span style="font-weight:bold">TRIBUNAL MEMBER SUZANNE COSGRAVE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">TRIBUNAL MEMBER JO MURPHY</span></p>
+      <p class="Style4">Between</p>
+      <p class="Style5"><party as="#appellant" refersTo="#dillon-crawford">dillon crawford</party></p>
+      <p class="Style6"><role refersTo="#appellant">Appellant</role></p>
+      <p class="Style4">and</p>
+      <p class="Style5"><party as="#respondent" refersTo="#the-information-commissioner">THE INFORMATION COMMISSIONER</party></p>
+      <p class="Style6"><role refersTo="#respondent">Respondent</role></p>
+      <p class="Style3">Decision</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p>The unanimous decision of the Tribunal is that:</p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_2">
+	  <num>(1)</num>
+	  <content>
+	    <p style="margin-left:0.5in">The information sought by the Appellant&#8217;s request was not held by the relevant public authority at the time of the request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num>(2)</num>
+	  <content>
+	    <p style="margin-left:0.5in">Accordingly, the appeal is dismissed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Style3">Reasons </p>
+	    <p><span style="font-style:italic">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">On 2 February 2025 the Appellant, Mr Dillon Crawford, wrote to the Home Office requesting information in these terms:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Please provide a breakdown of the costs associated with the issuing of: </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">A 10-year passport for an adult British citizen </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">A 5-year passport for a child British citizen.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">The Home Office responded on 12 March 2025, stating:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">A breakdown of the cost of providing each service type is not held. However, we do hold an estimate of the total costs apportioned by unit for the service types you request for the financial year 2022/23. This information is available to you in Table A2 (page 33) at [link to webpage] </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Revenue generated from passport fees contribute to the recovery of the costs provided for under <ref href="http://www.legislation.gov.uk/id/ukpga/2016/19/section/86/5" uk:canonical="2016 c. 19 s. 86" uk:origin="TNA" uk:type="legislation">section 86(5)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2016/19" uk:canonical="2016 c. 19" uk:origin="TNA" uk:type="legislation">Immigration Act 2016</ref>. These include: </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">&#8226; Direct costs, such as staffing, key suppliers, delivery couriers, and customer contact centres </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">&#8226; Indirect costs, such as estates, IT systems, and related functions including the processing of British passport holders at the UK border. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">&#8226; FCDO consular protection costs; to provide consular assistance to British citizens overseas.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">Mr Crawford challenged the Home Office&#8217;s answer on a number of grounds but, following an internal review completed on 9 April 2025, it confirmed its stance, observing:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">I should explain that public authorities do not have to create new information in response to a request. The Information Commissioner&#8217;s Office (ICO) guidance confirms that &#8216;the FOIA only applies to any recorded information which you already held at the time of a request.&#8217; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">The Home Office does not currently hold a breakdown of passport-related costs equivalent to the 2011 response to which you refer in your request for an internal review. Policies and work practices have changed since 2011 and a response originally provided 14 years ago does not commit us to making the same response today. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">I can confirm that reasonable searches have been carried out for the information described and we have determined that the information is not held by the Home Office.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">The original response did not provide advice under section 16 on how to refine your request because the refusal is based on the fact that the information is not held. Links were provided in the original response to signpost you to information that you might find helpful. I understand the relevant business unit are in the process of developing a new cost model for the financial year 2024/25 however, it is not clear at this stage what information the cost model will finally contain. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">I am satisfied that the original response to your request was correct in confirming that the Home Office does not hold the information requested.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p style="margin-left:0.5in">On 22 April 2025 Mr Crawford complained to the Respondent (&#8216;the Commissioner&#8217;) about the way in which the Home Office had dealt with his requests. A detailed investigation followed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p style="margin-left:0.5in">By a Decision Notice dated 4 November 2025 (&#8216;the DN&#8217;), the Commissioner determined, on a balance of probabilities, that the Department did not hold the information requested and found separately, rejecting a subsidiary complaint of Mr Crawford, that the Home Office had complied with its advice and assistance obligations under FOIA, s16.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">By his notice of appeal dated 4 December 2025 Mr Crawford challenged the Commissioner&#8217;s decision, raising four grounds:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(1)</num>
+	    <content>
+	      <p style="margin-left:0.98in">Inadequate investigation and misapplication of the balance of probabilities test. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(2)</num>
+	    <content>
+	      <p style="margin-left:0.98in">Implausibility of the &#8216;not held&#8217; conclusion and narrow interpretation of the request. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(3)</num>
+	    <content>
+	      <p style="margin-left:0.98in">Failure to record the admitted breach of section 10 FOIA.<authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"> The obligation to comply with s1(1) promptly and, in any event, not later than the 20<span style="vertical-align:super;font-size:smaller">th</span> day following receipt of the request.</p>
+		</authorialNote></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(4)</num>
+	    <content>
+	      <p style="margin-left:0.98in">Cumulative error of approach.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p style="margin-left:0.5in">By a response dated 4 December 2025 the Commissioner resisted the appeal, essentially on the grounds set out in the Decision Notice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The appeal came before us for consideration on the papers. Both parties had expressed themselves content with that procedure and we were satisfied that it was just and proper to decide the matter without a hearing.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="font-style:italic">The applicable law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p style="margin-left:0.5in">By the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8216;FOIA&#8217;) <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/1/1" uk:canonical="2000 c. 36 s. 1" uk:origin="TNA" uk:type="legislation">s1(1)</ref> a person making a request for information to a public authority is entitled to be told in writing by the public authority whether it holds information of the description specified in the request and, if so, to have the information communicated to him/her.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p style="margin-left:0.5in">For the purposes of FOIA, &#8216;information&#8217; means information recorded in any form (s84). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p style="margin-left:0.5in">A request for a public authority to generate an explanation or a commentary is not a request for information within the scope of the freedom of information legislation (<span style="font-style:italic">Betts v Information Commissioner </span>(EA/2007/0109), FTT 18 May 2018, paras 33, 68). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p style="margin-left:0.5in">Information is &#8216;held&#8217; by a public authority if it is held by it otherwise than on behalf of another person, or it is held by another person on behalf of the authority (FOIA, s3(2)). Whether particular information is &#8216;held&#8217; by a public authority is essentially a question of fact (<span style="font-style:italic">University of Newcastle upon Tyne v ICO and BUAV </span>[2011] UKUT 185 AAC, [41]) and falls to be decided on a balance of probabilities (<span style="font-style:italic">Bromley v Information Commissioner and Environment Agency </span>EA/2006/0072).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">The appeal is brought pursuant to FOIA, s57.  The Tribunal&#8217;s powers in determining the appeal are delineated in s58 as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.23in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p style="margin-left:1.23in;text-indent:0.12in"><span style="font-weight:bold;font-size:10pt">If on an appeal under section 57 the Tribunal considers &#8211; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.38in;text-indent:-0.39in">(a)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">that the notice against which the appeal is brought is not in accordance with the law; or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.38in;text-indent:-0.39in">(b)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently, </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner, and in any other case the Tribunal shall dismiss the appeal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:0.98in">(2)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.38in"><span style="font-weight:bold;font-size:10pt">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p><span style="font-style:italic">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p style="margin-left:0.5in">We start by reminding ourselves that requests under FOIA are to be interpreted broadly and pragmatically. Pedantry is to be avoided. The public authority must focus on the essence of what is asked for, eschewing technicalities. We will address the appeal in that spirit.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p style="margin-left:0.5in">We find no substance in Ground (1). There is nothing to lend support to the notion that the Commissioner misapplied the balance of probabilities test.  Nor is there anything in the complaint that the Home Office carried out an inadequate search. On the contrary, that argument seems entirely misplaced. The Home Office must be assumed to know what classes of recorded information it holds. If it asserts that it does not hold costs statistics of the kind sought, the appeal is likely to turn on the Tribunal&#8217;s assessment of the correctness of that assertion (considered next, under Ground (2)), not on the quality of the search conducted. In any event, there is no reason to doubt that suitable checks were made before the response was issued.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p style="margin-left:0.5in">Like Ground (1), Ground (2) is double-pronged. First, it is said that the Home Office&#8217;s claim not to hold the information requested is implausible and should not be believed. We  cannot agree. Mr Crawford justifies this part of his appeal on the basis that statistics of the kind sought were provided in 2011 pursuant to an earlier request relating to passport costs incurred. The inference that similar information must be held relating to costs incurred 14 years later is quite unwarranted. There could be any number of reasons why the way in which statistics are collected in any large organisation will be liable to change over time. We see no reason to disbelieve or doubt the plea of &#8216;not held&#8217; here. The plea is inherently plausible and the challenge is undermined by the fact that the Home Office has freely supplied similar information in the past. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The second point taken under Ground (2) is that the Home Office and/or the Commissioner has/have applied an unduly narrow interpretation to the request. Mindful as we are of the need to interpret any request generously, we cannot agree. Our duty does not extend to re-writing Mr Crawford&#8217;s unambiguous request or deeming his request to have been wider than it was. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p style="margin-left:0.5in">Ground (3) also fails. Mr Crawford&#8217;s complaint that the Home Office failed to comply with FOIA, s10 does not, as he asserts, engage s50(4), which requires the Commissioner to specify in his DN any steps which need to be taken by the public authority in a case where it has failed to comply with the requirements of <span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/1" uk:canonical="2000 c. 36 s. 1" uk:origin="TNA" uk:type="legislation">s1</ref> or <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/1" uk:canonical="2000 c. 36 s. 1" uk:origin="TNA" uk:type="legislation">s1</ref>1 or 17</span>. Accordingly, the DN did not contain the error of law complained of. That said, we think it right to place on record here that the Home Office was in breach of the obligation to respond to the request within the statutory time limit and, in that failure, departed from the standard rightly expected of it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p style="margin-left:0.5in">Ground (4) does no more than collect and repeat Grounds (1), (2) and (3), all of which we have rejected. As such, Ground (4) inevitably fails.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p style="margin-left:0.5in">We have stood back to survey the appeal in the round, in light of all the assembled material. Doing so only confirms us in our view that it is without merit. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-style:italic">Outcome and postscript</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p style="margin-left:0.5in">For all the reasons given, the appeal is dismissed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">Finally, we would add that Mr Crawford has had the benefit of advice from the Home Office that it is working on a new costs model which will deliver &#8216;per item&#8217; figures for new passports, and that the Department will willingly publish that information once it is available. </p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="Style7" style="margin-left:1in;text-indent:0.5in">(Signed)<marker name="tab"/> Anthony Snelson</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Style7" style="margin-left:2.56in">Judge of the First-tier Tribunal</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Style7" style="margin-left:2.56in">Dated: <docDate date="2026-05-29" refersTo="#decision">29 May 2026</docDate></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

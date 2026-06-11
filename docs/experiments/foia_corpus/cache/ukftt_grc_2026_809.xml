@@ -1,0 +1,735 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/809"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/809"/>
+	  <FRBRdate date="2026-06-04" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="809"/>
+	  <FRBRname value="Michael Richardson v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/809"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/809"/>
+	  <FRBRdate date="2026-06-04" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/809/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/809/data.xml"/>
+	  <FRBRdate date="2026-06-04T12:08:03" name="transform"/>
+	  <FRBRdate date="2026-06-04T12:41:21" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-29" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-04" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="michael-richardson" href="" showAs="MICHAEL RICHARDSON"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>809</uk:number>
+	<uk:cite>[2026] UKFTT 809 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.1</uk:parser>
+	<uk:hash>ead71110f0f86b57fefe609a0000af616a8858a6aedd456768619eb612574ed9</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { text-align: left; margin-left: 0.58in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation2 { text-align: left; margin-left: 1in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation3 { text-align: left; margin-left: 1.25in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FooterChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p class="Style1">NCN: <neutralCitation>[2026] UKFTT 00809 (GRC)</neutralCitation></p>
+      <p class="Style1"><courtType refersTo="#ukftt-grc">First-tier Tribunal</courtType></p>
+      <p class="Style1"><courtType refersTo="#ukftt-grc">(General Regulatory Chamber) </courtType></p>
+      <p class="Style1"><docJurisdiction refersTo="#jurisdiction-informationrights">Information Rights </docJurisdiction></p>
+      <p class="Style2">Appeal Reference:  FT/EA/2025/0457</p>
+      <p class="Style1" style="text-align:right">Decision given on: <docDate date="2026-06-04" refersTo="#decision">04 June 2026</docDate></p>
+      <p class="Style1" style="text-align:left">Determined without a hearing on 9 April 2026</p>
+      <p class="Style4">Before</p>
+      <p class="Style5">Judge ANTHONY SNELSON </p>
+      <p style="text-align:center"><span style="font-weight:bold">TRIBUNAL MEMBER SUZANNE COSGRAVE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">TRIBUNAL MEMBER JO MURPHY</span></p>
+      <p class="Style4">Between</p>
+      <p class="Style5"><party as="#appellant" refersTo="#michael-richardson">MICHAEL RICHARDSON</party></p>
+      <p class="Style6"><role refersTo="#appellant">Appellant</role></p>
+      <p class="Style4">and</p>
+      <p class="Style5"><party as="#respondent" refersTo="#the-information-commissioner">THE INFORMATION COMMISSIONER</party></p>
+      <p class="Style6"><role refersTo="#respondent">Respondent</role></p>
+      <p class="Style3">Decision</p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p>On considering the written representations of the parties,</p>
+	    <p>The Tribunal unanimously determines that:</p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_2">
+	  <num>(1)</num>
+	  <content>
+	    <p style="margin-left:0.5in">The information sought by the Appellant&#8217;s request, in so far as it has not been disclosed, was not held by the relevant public authority at the time of the request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num>(2)</num>
+	  <content>
+	    <p style="margin-left:0.5in">Accordingly, the appeal is dismissed.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="Style3">Reasons </p>
+	    <p><span style="font-style:italic">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">On 31 January 2025 the Appellant, to whom we will refer by name, wrote to the British Museum (&#8216;the Museum&#8217;) requesting information under the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8216;FOIA&#8217;)<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"> To which all section numbers mentioned below refer.</p>
+	      </authorialNote> in the following terms:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">This Freedom of Information Request is for the acquisition records of all objects identified as from the ancient Maya city of Pusilha in Belize. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">The 2001 Annual Report of the Pusilha Archaeology Project cites archaeologist Norman Hammond's review of the Pusilha ceramic collection at the British Museum in 1970 that the collection was in &#8220;disarray.&#8221; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">An examination of the current online catalogue of the Museum's Pusilha collection suggests that fifty-five years later there is still a degree of disarray present in the collection. Multiple ceramic objects have two contradictory findspots listed. I draw your attention to AM1928,Q.36; AM1928,Q.37; AM1928,Q.39; and AM1928,Q.40 which all identify Pusilha and an unspecified location near Xunantunich. AM1929,Q.149.a-f identifies Pusilha and Xunantunich. Further, AM1928,Q.63 identifies Pusilha and Santa Rita. Obviously, these objects could not have been found at two different locations thus this request for information on the acquisition of all the objects in the Pusilha collection.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">The Museum responded on 3 March 2025, as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Under s1 of the FOIA we confirm that this information is not held by the Museum, and we would explain as follows. When the material was registered in 2008, the pieces were all allocated &#8216;Q&#8217; registration numbers. The &#8216;Q&#8217; stands for &#8216;query&#8217; and is given to collections which had not been registered when they first came in. Object finds documentation from historic expeditions does not always translate readily into today&#8217;s museum documentation practice, and therefore some investigation and interpretation of labelling can be necessary when coming to this retrospectively. The documentation for this case does not contain a comprehensive inventory of every find, and no such inventory was compiled at the site of the expeditions. In the case of the Pusilha material from the British Museum expeditions, there was an attempt to determine which expedition the pieces came from and attach the year of of that expedition to the registration number. The year would have been determined by recognizable mentions, or photographs, in the reports or by labels adhered to the pieces. Inevitably, we may have got the year wrong in some instances. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">The reason for the items you have cited identifying both Pusilha and an unspecified location near Xuanantunich is because on both the 1928 and 1929 expeditions, the members of the expedition did not confine themselves simply to the site of Pusilha. Some of them went further afield, in Cayo district, to investigate some mounds close to Xuanantunich and brought back some specimens from there. When the material was registered, Museum staff had reason to believe that some of it could have come from these mounds rather than Pusilha. There may have been labels to support this, so we put both options on the database record. Both locations should have been queried, but the Museum notes that there are instances where both locations have been listed without a question mark and intends to address this. For Am1928,Q.63, the reason two different locations have been given is because they had two conflicting labels attached to them, so we had to put both options on the database. We have explained this in the notes and queried both locations on the database entry. The same applies to Am1929,Q.149.a-f, but we may not have sufficiently queried the locations in this case.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">On 10 March 2025, Mr Richardson wrote to the Museum requesting an internal review. His letter included the following:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">My Freedom of Information Request was for the acquisition records of all objects identified as from the ancient Maya city of Pusilha in Belize. Thus far the only information made available to the public about the acquisition of the Pusilha collection is from the Museum catalogue which identifies 566 objects and an additional 52 exhibits of human remains. British Museum Expedition member Thomas Gann wrote in his book Adventures and Discoveries in Central America about Pusilha that an &#8220;immense quantity&#8221; of ceramics were removed from Pottery Cave at the site. Further, the Museum catalogue does not list three zoomorphic stone altars that the Museum reportedly removed and the Alcalde of San Benito Poite Village believes that more than the eight stelae listed in the Museum catalogue were removed.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Unless the Museum is unaware of an immense quantity of ceramics in its storerooms, the Museum has failed to identify records of the ceramics, for example how many boxes there are. Similarly, records concerning the altars and stelae have been withheld. The Museum must have some kind of documentation of the contents of its storerooms and the earliest such documentation could be considered acquisition records in the absence of formal registration records and documents of title.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">The Museum has apparently taken a very narrow view of what is an acquisition record and thus failed to meet the FOIA requirement to declare whether information is held or not. Acquisition records could include such things as:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">1.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Expedition Reports</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">2.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Receipts</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">3.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Bills of lading or other shipping documents</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">4.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Customs declarations</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">5.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Inventories</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">6.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Packing lists</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">7.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Registration forms</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">8.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Relevant curator notes or field notes</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">9.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Documents of origin</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">10.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Title documents</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">The purpose of my FOIA request was to learn what was held by the Museum from Pusilha and how the objects were legally acquired. Instead, I know nothing more than the Museum catalogue entries. Information has been withheld under the claim that no acquisition records exist.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p style="margin-left:0.5in">On 7 April 2025, the Museum replied to Mr Richardson&#8217;s review request, maintaining the position taken in its original response.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p style="margin-left:0.5in">On 7 May 2025 Mr Richardson complained to the Respondent (&#8216;the Commissioner&#8217;) about the way in which the Museum had dealt with his requests. He challenged the assertion that documentary material within the scope of the request could not be found and stated in any event that he believed that the Museum held more information than it had acknowledged. An investigation followed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">On 3 November 2025, responding to questions from the Commissioner, Mr Richardson expanded on the information and arguments already presented in his correspondence with the Museum. His letter included:</p>
+	  </intro>
+	  <subparagraph>
+	    <num>1)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">The ownership of objects held by the British Museum from the ancient city of Pusilha is in dispute. The village of San Benito Poite (located at the site of Pusilha) has made a repatriation demand for what it sees as unlawfully removed property.&#160; An accounting of the Museum holdings is needed.&#160; Please see attached &#8220;Resolution&#8221; exhibit. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">2)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">The British Museum catalogue fails to include all of the Pusilha holdings, including at least fifty wooden crates of ceramics and an unknown number of carved stone monuments. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">3)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">The fifty crates of ceramics were reported to me by a professional archaeologist who has seen them in a Museum storeroom. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">4)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">The reported cache of ceramics is consistent with a statement on the ceramic finds at Pusilha by Thomas Gann who was present when the ceramics were crated.&#160; Gann reported in his book Discoveries and Adventures in Central America, &#8220;we brought out an immense quantity of pottery from the cave beside the northern terraces.&#8221; Please see attached &#8220;Gann&#8221; exhibit. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">5)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">The fifty crates are also consistent with the 1928 British Museum Expedition to British Honduras Report which describes &#8220;Great numbers of potsherds&#8221; and a &#8220;vast number of potsherds&#8221; found in different layers in Cave 1.&#160; Please see attached &#8220;Report&#8221; exhibit. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">6)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">To date, the British Museum has not even confirmed the existence of the fifty crates of ceramics nor accounted for any unregistered carved stone monuments. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">I find it difficult to believe that the Museum holds so many objects without any records.&#160; No acquisition records, no inventory, no curator records, no storage records, nothing at all.&#160; How does the Museum account for the space occupied by the Pusilha collection holdings?&#160; At a bare minimum, the crates of ceramics should be numbered or otherwise identified, yet the museum claims it has no information to share about the acquisitions.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">The exhibits appear to verify Mr Richardson&#8217;s remarks.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">In a letter of 17 November 2025 the Museum provided answers to 12 questions posed by the Commissioner, in these terms:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">1.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">What searches have been carried out to check no information was held within the scope of the request and why would these searches have been likely to retrieve any relevant information?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">We interpreted the request in the first instance as a request for specific accession-related records (e.g. the accession registers, donation and purchase books and the Trustee records). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Upon receiving the requestor&#8217;s request for internal review, we broadened the search for any documentation that provides information on the acquisition of the object as defined by the requestor below: </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">1.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Expedition Reports </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">2.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Receipts </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">3.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Bills of lading or other shipping documents </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">4.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Customs declarations </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">5.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Inventories </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">6.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Packing lists </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">7.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Registration forms </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">8.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Relevant curator notes or field notes </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">9.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Documents of origin </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">10.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Title documents </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">We searched through all the Trustees&#8217; records and associated documentations relating to this subject in both the Central Archive and the curatorial Department of Africa, Oceania and Americas (AOA). This included two boxes of records from Belize in the period 1925-1946, as the objects the requester was enquiring about originate from Belize and would likely have been discovered within that period. A search in AOA was conducted of the correspondence relating to the Pusilha material. The search was conducted in the departmental &#8220;ethnographical documents&#8221; files, acquisition records and donation books which would if held contain all the correspondence including searching for packing lists, reports, and correspondence on the matter any other documentation that related to shipping the material. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Some information that the requester might be interested in is available in the expedition reports which are publicly available on JSTOR which the Museum would not deem to be classified as acquisition records. We have also received a previous decision notice from the ICO which confirmed that such reports are publicly accessible so therefore these were not provided. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">2.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">Please describe thoroughly any searches of relevant paper/electronic records and include details of any staff consultations.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">As indicated in Q1 above all relevant staff were consulted within the Central Archive team and the Department of Africa, Oceania and the Americas and searches were made of the Central Archive and files held by curators in the Department of Africa, Oceania and the Americas. Within Central Archives thorough searches of all Trustee records on this subject were conducted, as well as thorough searches of the two boxes of records from Belize 1925-1946. A curator in the Department of Africa, Oceania and the Americas was consulted on why certain information is not held. The curator explained that, where objects were categorised as &#8216;Q&#8217; for query, this meant that acquisition information was not recorded at the time of receipt of the object by the Museum, which we explained in our response to the applicant. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">3.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">If searches included electronic data, which search terms were used and please explain whether the search included information held locally on personal computers used by key officials (including laptop computers) and on networked resources and emails.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Not applicable &#8211; the requested information is historical and precedes electronic data. No correspondence on this matter was ever digitised. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">4.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">If no or inadequate searches were done at the time, please rectify this now and let me know what you have done.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Not applicable &#8211; the initial searches were thorough. As outlined in question 1 above the Museum conducted a thorough search and when the requestor broadened their definition of acquisition records, we subsequently broadened our search and revisited the files mentioned. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">5.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">If the information were held would it be held as manual or electronic records</span><span style="font-weight:bold;font-size:10pt">? </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Manual. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">6.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">Was any recorded information ever held relevant to the scope of the complainant&#8217;s request but deleted/destroyed?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">No, information has never been held. We have no record of the information being held or destroyed. In previous responses to the requestor it has been highlighted that when objects have been recorded with &#8220;Q&#8221; numbers this reflects the fact that the Museum hold no records on them. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:0.98in">7.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.12in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">If recorded information was held but is no longer held, when did the British Museum cease to retain this information? </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Not applicable, the information in question has never been held but, even if it had been, the museum does not dispose of official acquisition records. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:0.98in">8.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.12in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">Does the British Museum have a record of the document&#8217;s destruction? </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">No. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">9.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">What does the British Museum&#8217;s formal records management policy say about the retention and deletion of records of this type? If there is no relevant policy, can the British Museum describe the way in which it has handled comparable records of a similar age?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">The requested information is not and has never been held by the Museum. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Object acquisition records are kept permanently by the British Museum for both collections documentation and historical reference. This request relates to the acquisition of objects between 1925 and 1946, and historical records of acquisition vary in scope, completeness and content. In responding to this request we identified references in our historical archive to the fact that object lists from this expedition were not received and therefore contemporary records of their acquisition were not created. When the material was registered by the Museum in 2008 it was marked with &#8216;Q&#8217; for query, meaning that acquisition of the records was not recorded at the time of receipt, which we explained in our response to the applicant. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">10.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">If the information is electronic data which has been deleted, might copies have been made and held in other locations?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Not applicable. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">11.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">Is there a business purpose for which the requested information should be held? If so what is this purpose?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">The Museum retains information about the acquisition and origins of objects in the collection where this is held, for the purpose of documenting the collection. At the time that the objects were acquired, there may not have been an expectation for each individual object to be registered in detail, although there may be reference to them in reports which are publicly available. For example, mass accumulations of archaeological mound debris, largely in the form of voluminous unmatched pottery sherds, cannot be registered individually as identifiable specific objects can. Much of the Pusilha material is categorised as such. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">12.</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:10pt">Are there any statutory requirements upon the British Museum to retain the requested information?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Yes &#8211; If this information was held the Museum would be required to retain this under the Public Records Act. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">The Museum is subject to the Public Records Act and is a designated place of deposit for its own records, meaning that we have obligations under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> to identify, select and permanently preserve records of historical significance and make them available to the public once they are twenty years old. It is open to the Museum to determine which records we identify and select for permanent retention, which we do with reference to The National Archive&#8217;s Record Collection Policy. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">Records from the 1920&#8217;s in relation to the expedition have been permanently preserved in the British Museum Archives, but do not as far as we can identify include specific records of acquisition of the objects in question. We believe, as mentioned, these were not created at the time. However, historical files are available for public inspection in our Reading Rooms and we have on several occasions invited the applicant or a nominated representative to inspect any historical records we hold to help with his research. We have also provided a list of researchers that can be appointed to do this on his behalf, as we understand that travel to the Bloomsbury site in London may be difficult.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p style="margin-left:0.49in">By a Decision Notice dated 28 November 2025 (&#8216;the DN&#8217;), the Commissioner determined, on a balance of probabilities, that the Museum did not hold the disputed information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p style="margin-left:0.49in">By his notice of appeal dated 12 December 2025 Mr Richardson challenged the Commissioner&#8217;s decision as &#8216;unreasonable&#8217; and stated that the outcome he was seeking was disclosure of &#8216;all information, including storeroom inventories, listing or detailing acquisitions held by the British Museum from Pusilha that are not registered in the Museum catalogue, regardless whether the Museum considers the information to be acquisition records or not.&#8217;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p style="margin-left:0.49in">By a response dated 28 January 2026 the Commissioner resisted the appeal, essentially on the grounds set out in the DN.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p style="margin-left:0.49in">The appeal came before us for consideration on the papers. Both parties had expressed themselves content with that procedure and we were satisfied that it was just and proportionate to decide the matter without a hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p style="margin-left:0.49in">We had before us a bundle of 160 pages together with Mr Richardson&#8217;s nine-page, undated &#8216;Appellant&#8217;s Argument&#8217;, containing well-presented submissions in support of the appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="font-style:italic">The applicable law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p style="margin-left:0.49in">By FOIA s1(1) a person making a request for information to a public authority is entitled to be told in writing by the public authority whether it holds information of the description specified in the request and, if so, to have the information communicated to him/her. &#8216;Information&#8217; means information recorded in any form (s84). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <content>
+	    <p style="margin-left:0.49in">Requests for information under FOIA must be read objectively, in light of the words used and all relevant facts and circumstances (<span style="font-style:italic">Daedalus Ltd v ICO and Arts Council of England, </span>FTT 21 May 2010). Given the underlying purpose of promoting transparency, literalism and pedantry are to be avoided (<span style="font-style:italic">Alcock v ICO and Chief Constable of Staffordshire Police, </span>IT 3 January 2007). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p style="margin-left:0.49in">Information is &#8216;held&#8217; by a public authority if it is held by it otherwise than on behalf of another person, or it is held by another person on behalf of the authority (FOIA, s3(2)). Whether particular information is &#8216;held&#8217; by a public authority is essentially a question of fact (<span style="font-style:italic">University of Newcastle upon Tyne v ICO and BUAV </span>[2011] UKUT 185 AAC, [41]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p style="margin-left:0.49in">Any question as to whether requested information is &#8216;held&#8217; is to be decided on a balance of probabilities (<span style="font-style:italic">Bromley v Information Commissioner and Environment Agency </span>EA/2006/0072).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <intro>
+	    <p style="margin-left:0.49in">The appeal is brought pursuant to FOIA, s57.  The Tribunal&#8217;s powers in determining the appeal are delineated in s58 as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.23in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p style="margin-left:1.23in;text-indent:0.12in"><span/><span style="font-weight:bold;font-size:10pt">If on an appeal under section 57 the Tribunal considers &#8211; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.38in;text-indent:-0.39in">(a)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">that the notice against which the appeal is brought is not in accordance with the law; or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.38in;text-indent:-0.39in">(b)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently, </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner, and in any other case the Tribunal shall dismiss the appeal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:0.98in">(2)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.38in"><span style="font-weight:bold;font-size:10pt">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p><span style="font-style:italic">The rival cases</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p style="margin-left:0.49in">We have had regard to all submissions advanced before us. Here we offer a bare summary of what seem to be the main points on each side.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p style="margin-left:0.49in">Mr Richardson submitted in the first place that an unreasonably narrow interpretation had been applied to his request and, specifically, his reference to &#8216;acquisition records&#8217;. Second, he contended that it was much more likely than not that the Museum held a written record of the items taken from Pusilha over and above those listed in the current online catalogue, particularly given the period (nearly a century) over which the artefacts have been held and the best practice standards on record-keeping generally observed in the UK museums sector. Third, that likelihood was, said Mr Richardson, all the clearer given the reports of the 1929 and 1931 expeditions (the former published, the latter not), which documented the high artistic quality of many of the items acquired and the ample opportunity to document them at the time of their removal. Fourth, although eschewing any allegation of bad faith, he remarked that the unresolved demand for the return of Pusilha artefacts to San Benito Poite could constitute a motive for withholding the requested information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p style="margin-left:0.49in">The Commissioner&#8217;s case was consistent with the DN. He had directed himself in accordance with the law. Proper and proportionate searches appeared to have been carried out. There was no reason to suspect that the Museum was seeking to mislead Mr Richardson. The appeal did not turn on whether the information <span style="font-style:italic">ought</span> to be held. On a balance of probabilities, it was not, as a matter of fact, held.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-style:italic">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p style="margin-left:0.49in">Although attractively argued, the appeal is not, in our judgment, made out. We have a number of reasons. First, we must address Mr Richardson&#8217;s complaint that an unduly narrow interpretation was given to the request (by the Museum and/or the Commissioner). In our view, the ordinary meaning of the expression &#8216;acquisition records&#8217; is records of acquisitions and, absent context arguing otherwise, the natural inference is that the request was directed to records made at or around the time of the acquisitions. Mr Richardson&#8217;s attempt (as we understood him) to interpret his own request as extending to any recorded information about the Pusilha artefacts, <span style="font-style:italic">whenever created</span>, must be rejected. A list created in, say, 1950 or 1970 of items acquired in 1929 or 1933 would not, we think, be an &#8216;acquisition record&#8217;, although it would be a record of things that had been acquired many years earlier. That said, the Museum&#8217;s initial interpretation of the request was, we think, inappropriately narrow in another respect, by confining it to a needlessly small class of &#8216;accession-related&#8217; (presumably acquisition-related) records. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p style="margin-left:0.49in">But whether or not our reflections in the last paragraph are justified, nothing turns on them in any event because Mr Richardson has the clear (final) position of the Museum that (a) it held <span style="font-style:italic">and to this day holds</span> no acquisition record (however that expression is interpreted) in respect of the Pusilha artefacts (apart from any listed in the online catalogue) and (b) the answer at (a) extends to <span style="font-style:italic">any</span> relevant document including the 10 categories listed in the Museum&#8217;s letter of 17 November 2025 responding to the first of the Commissioner&#8217;s 12 questions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p style="margin-left:0.49in">Second, we are not persuaded that the plea of &#8216;not held&#8217; is inherently implausible. It may well be that, in the 1920&#8217;s and 1930&#8217;s, the Museum did not operate record-keeping systems in accordance with what is nowadays seen as best practice in museum administration. But &#8216;best practice&#8217; changes: in those days it may not have been &#8216;standard&#8217; in every case to produce a full inventory immediately or soon after any acquisition. We do not have any evidence on which to base a confident assessment about that. Even if it would have been routine promptly to create a full record, any number of supervening events may have caused the task to be put to one side. The moment may have been lost forever as new priorities crowded in. Then again, it is possible that relevant records were generated at some point which have since been lost or destroyed. Much stranger things have happened. These thoughts illustrate a simple fact: we are set loose on a sea of speculation without even one evidentiary star to steer by. The only thing we can say with confidence is that, in our judgment, the Museum&#8217;s denial that the requested information is far from implausible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p style="margin-left:0.49in">Third, there was no inconsistency in the Museum&#8217;s response to the request for information, or anything else from which an intention to mislead might fairly be inferred. Mr Richardson makes no such charge and, if anything, the circumstances tend to the contrary. In particular, if the Museum had the nefarious aim of suppressing public knowledge about the Pusilha artefacts, would it not think to strip the online catalogue of information about it? In addition, the Museum&#8217;s voluntary extension of the search to 10 classes of document following the request for review argues against a purpose to withhold or mislead. The same point can be made about the Museum&#8217;s repeated invitations to Mr Richardson to inspect the historical records it holds (see its answer to the Commissioner&#8217;s question 12, quoted above).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p style="margin-left:0.49in">Fourth, if the question becomes simply whether the response to the request was based not on design but on some sort of error, we see no reason to doubt that the Museum carried out the searches on which it relies. Moreover, we are satisfied that those searches were adequate and proportionate. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-style:italic">Outcome</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <intro>
+	    <p style="margin-left:0.49in">For the reasons stated, we agree with the Commissioner. His determination was in accordance with the law.  The appeal is dismissed.  Finally, we wish to say emphatically that the result in this appeal should not on any account be seen as implying any view on the part of the Tribunal about the merits of the underlying question as to whether the artefacts should be returned.</p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="Style7" style="margin-left:1in;text-indent:0.5in">(Signed)<marker name="tab"/> Anthony Snelson</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Style7" style="margin-left:2.56in">Judge of the First-tier Tribunal</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Style7" style="margin-left:2.56in">Dated: <docDate date="2026-05-29" refersTo="#decision">29 May 2026</docDate></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
