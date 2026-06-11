@@ -10,7 +10,10 @@ path (like ukftt/grc/2026/845), its title, and a candidate stratum.
    cases share a surname, append the FCL number (e.g. greenwood_v_ic_835).
    Read the printed KEEP/HIDE section split carefully.
 
-2. UNSUITABILITY CHECK — delete cases/<stem>.md and STOP with final report
+2. UNSUITABILITY CHECK — delete the case file with an ABSOLUTE path
+   (rm -f /home/flecart/Desktop/work/deontic/docs/experiments/foia_corpus/cases/<stem>.md
+   ), then VERIFY with ls that it is gone (agents routinely
+   claim deletion that never happened), and STOP with final report
    "SKIP <case-path> | <reason>" if: the decision is not a FOIA disposition
    (pure EIR 2004, pure DPA/GDPR, pensions regulation, procedure-only:
    strike-out, costs, time extension), or there is no clean withhold/disclose

@@ -1,0 +1,927 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/599"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/599"/>
+	  <FRBRdate date="2026-04-23" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="599"/>
+	  <FRBRname value="Andrew White v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/599"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/599"/>
+	  <FRBRdate date="2026-04-23" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/599/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/599/data.xml"/>
+	  <FRBRdate date="2026-04-23T10:56:12" name="transform"/>
+	  <FRBRdate date="2026-04-23T12:28:30" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-03-09" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-16" refersTo="#decision" source="#"/>
+	<eventRef date="2026-04-23" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="andrew-white" href="" showAs="ANDREW WHITE"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>599</uk:number>
+	<uk:cite>[2026] UKFTT 599 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>699bd899f5a62d248d7ab09d1862d52d55ba44be69eedf87be49b7caf10f6853</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legp1paratext { font-size: 12pt; }
+#judgment .legp2paratext { font-size: 12pt; }
+#judgment .xmsonormal { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .legp1no { }
+#judgment .legds { }
+#judgment .apple-converted-space { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua';color:#000000">[2026] UKFTT 00599 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0363</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard </span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">on: </span><docDate date="2026-03-09" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">9 March 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-23" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">23 April 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">JUDGE MATON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER PEPPERELL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER SCOTT</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#andrew-white" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">ANDREW WHITE</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">:</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Appellant: in person</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Respondent: did not attend and was not represented</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal </span><span style="font-family:'Book Antiqua';color:#000000">is allowed in part.</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Substituted decision notice:  </span><span style="font-family:'Book Antiqua';color:#000000">It is ordered that</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua';color:#000000">the Council must, no later than 35 days after the date of this decision, disclose the Certificate (as defined in this decision) having redacted the name and electronic signature of an individual surveyor which appear in the Certificate.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In this decision the following terms have the following meanings:</p>
+	    <table class="TableGrid" uk:widths="1.77in 4.43in">
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Certificate</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the final certificate issued in relation to the Property under <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55/section/51" uk:canonical="1984 c. 55 s. 51" uk:origin="TNA" uk:type="legislation">s51</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1984/55" uk:canonical="1984 c. 55" uk:origin="TNA" uk:type="legislation">Building Act 1984</ref>;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Commissioner</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the Information Commissioner;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Council</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the council of the London Borough of Croydon;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Decision Notice</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the notice dated 9 September 2025, number IC-361512-G7G5, setting out the decision of the Commissioner in this matter;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">DPA</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref>;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">EIR</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the Environmental Information Regulations 2004;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Property</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the property identified in the Request;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Request</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the request submitted by the Appellant dated 12 September 2024, which is the subject of the Decision Notice;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Rules</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009</p>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This is an appeal against the decision of the Commissioner as set out in the Decision Notice.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">History and procedural matters</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal received and considered an open bundle of documents; a separate private bundle of documents containing personal information regarding the Appellant and a closed bundle which were the subject of an application by the Commissioner under Rule 14, and a skeleton argument prepared by the Appellant dated 2 March 2026. The Tribunal has had regard to all evidence and submissions in these documents, whether or not these are referred to in this decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">The Commissioner&#8217;s Rule 14 application had not been dealt with by the time of the hearing, and I have dealt with it in directions since the hearing. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Appellant is aware that the only closed material is the Certificate which is the subject of his Request. The Commissioner has provided no closed evidence or submissions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal notes the requirement, as expressed in <span style="font-style:italic">Barrett v Information Commissioner and Financial Ombudsman Service </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2024/107" uk:canonical="[2024] UKUT 107 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] UKUT 107 (AAC)</ref>, to minimise the fullest extent possible the disadvantages in the Appellant&#8217;s position as not being party to the closed material, and in the Tribunal&#8217;s view it has done so in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Appellant attended an oral hearing by Cloud Video Platform. The Commissioner does not routinely attend appeal hearings, and did not attend on this occasion.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">By Rule 36, a hearing can proceed in the absence of a party if the Tribunal is satisfied that the party had notice of the hearing and that it is in the interests of justice to proceed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal is satisfied that these requirements were met in this case, and that this was a fair and just way to decide the Appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On a 12 September 2024 the Appellant made the Request to the Council which was in the following terms:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.54in"><span style="font-style:italic">I am writing to formally request a copy of the Final Certificate issued by Stroma Building Control, in relation to the works carried out under Initial Notice [number] at [the Property], with an Application Completion Date of 8th October 2020.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 6 January 2025 the Council responded to the Request, stating that it would withhold the Certificate, citing regulations 12(5)(d) and 13 EIR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On the same day, the Appellant responded to the Council requesting an internal review of its refusal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 6 February 2025 the Council responded to the Appellant&#8217;s internal review request, stating that it would uphold its initial refusal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On the same day, the Appellant complained to the Commissioner.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner carried out an investigation and issued the Decision Notice on 9 September 2025. The Commissioner upheld the Council's refusal on the basis of regulation 13 EIR and did not consider regulation 12(5)(d).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant appealed to the Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In his notice of appeal, the Appellant raises seven separate grounds which may be summarised as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">neither the Council nor the Commissioner considered the Appellant&#8217;s disability, in breach of the public sector equality duty (the duty on public authorities to have due regard to certain matters relating to protected characteristics, pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149" uk:canonical="2010 c. 15 s. 149" uk:origin="TNA" uk:type="legislation">s149</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref>);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the Commissioner wrongly treated information relating to companies as personal data;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the Commissioner did not consider the possibility of disclosure with redactions;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the Commissioner did not carry out a structured analysis under Article 6(1)(f) UK GDPR;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">having referred to a separate decision notice in relation to a request to the Council for very similar information, the Commissioner did not take into account factors which distinguish this case from that case;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the Commissioner did not consider ongoing environmental harm;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the Commissioner did not apply specific provisions of the EIR which the Appellant says operate in his favour.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant&#8217;s skeleton argument expands on some of these arguments.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner submits that the Decision Notice is correct for the reasons given in it. In summary these were:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">that his &#8220;established position is that this type of information about a private property Constitutes the personal data of its owner or occupier&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">that in this case, the Property is occupied by at least some individuals, and therefore the Certificate constitutes personal data;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">that the Council provides access to building control and planning information via statutory registers, and so the disclosure of the Certificate in this case is not necessary.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Relevant law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Request was considered pursuant to the EIR. There was no dispute that this was the correct regime. The Tribunal agrees that the EIR is correct regime as the Requested Information falls within limbs (a), (b) and (c) of the definition of &#8220;environmental information&#8221; in regulation 2 EIR.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Regulation 5 EIR provides as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Duty to make available environmental information on request</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">5.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">&#8212;(1)&#160;Subject to paragraph (3) and in accordance with paragraphs (2), (4), (5) and (6) and the remaining provisions of this Part and Part 3 of these Regulations, a public authority that holds environmental information shall make it available on request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Information shall be made available under paragraph (1) as soon as possible and no later than 20 working days after the date of receipt of the request.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Regulation 2 EIR defines terms used in the EIR. It provides that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;environmental information&#8221; [means] any information in written, visual, aural, electronic or any other material form on&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">the state of the elements of the environment, such as air and atmosphere, water, soil, land, landscape and natural sites including wetlands, coastal and marine areas, biological diversity and its components, including genetically modified organisms, and the interaction among these elements;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">factors, such as substances, energy, noise, radiation or waste, including radioactive waste, emissions, discharges and other releases into the environment, affecting or likely to affect the elements of the environment referred to in (a);</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">measures (including administrative measures), such as policies, legislation, plans, programmes, environmental agreements, and activities affecting or likely to affect the elements and factors referred to in (a) and (b) as well as measures or activities designed to protect those elements;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">[&#8230;]</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The general disclosure requirement in regulation 5 is subject to a number of exemptions. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">So far as material for this appeal, regulation 12 EIR provides: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">12.</num>
+	    <content>
+	      <p class="legp1paratext" style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8212;(1)&#160;Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if&#8212; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	    <intro>
+	      <p class="legclearfix" style="margin-left:0.49in;text-indent:0.4in"><span style="font-style:italic;font-family:'Book Antiqua'">an exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p class="legclearfix" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+	  <intro>
+	    <p class="legp2paratext" style="text-align:justify;margin-left:0.1in;text-indent:0.8in"><span style="font-style:italic;font-family:'Book Antiqua'">A public authority shall apply a presumption in favour of disclosure. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(3)</num>
+	    <content>
+	      <p class="legp2paratext" style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Book Antiqua'">To the extent that the information requested includes personal data of which the applicant is not the data subject, the personal data shall not be disclosed otherwise than in accordance with regulation 13. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legp2paratext" style="text-align:justify;margin-left:0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">[&#8230;]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(5)</num>
+	    <content>
+	      <p class="legp2paratext" style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Book Antiqua'">For the purposes of paragraph (1)(a), a public authority may refuse to disclose information to the extent that its disclosure would adversely affect&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legp2paratext" style="text-align:justify;margin-left:0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">[&#8230;]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(d)</num>
+	    <content>
+	      <p class="legp2paratext" style="text-align:justify;margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Book Antiqua'">the confidentiality of the proceedings of that or any other public authority where such confidentiality is provided by law.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">So far as material for this appeal, regulation 13 EIR provides for an exemption as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">13.</num>
+	    <content>
+	      <p class="legp1paratext" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">(1)&#160;To the extent that the information requested includes personal data of which the applicant is not the data subject, a public authority must not disclose the personal data if&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	    <intro>
+	      <p class="legclearfix" style="margin-left:0.39in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">the first condition is satisfied, or</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p class="legclearfix" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">the second or third condition is satisfied and, in all the circumstances of the case, the public interest in not disclosing the information outweighs the public interest in disclosing it.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(2A)</num>
+	    <content>
+	      <p class="legp2paratext" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">The first condition is that the disclosure of the information to a member of the public otherwise than under these Regulations&#8212;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	    <intro>
+	      <p class="legclearfix" style="margin-left:0.39in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">would contravene any of the data protection principles, or</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p class="legclearfix" style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">would do so if the exemptions in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/24/1" uk:canonical="2018 c. 12 s. 24" uk:origin="TNA" uk:type="legislation">section 24(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> (manual unstructured data held by public authorities) were disregarded.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="text-indent:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">[&#8230;]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">&#8220;Personal data&#8221; in the EIR has the same meaning as in Parts 5 to 7 DPA. Section 3(2) DPA provides that &#8220;personal data&#8221; means &#8220;any information relating to an identified or identifiable living individual&#8221; to which Part 2, Part 3 or Part 4 DPA applies. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">&#8220;The data protection principles&#8221; in the EIR means the principles set out in Article 5 of the United Kingdom General Data Protection Regulation and in sections 34(1) and 85(1) DPA.  The principle directly relevant in this Appeal is the first data protection principle, the requirement that the processing of personal data be lawful, fair and transparent. That principle is expanded in s86 and Schedule 9 DPA.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The processing of personal data is lawful only if and to the extent that at least one of the conditions in Schedule 9 DPA is met. The only such condition potentially relevant for the purposes of this Appeal is that in paragraph 6 of Schedule 9 (the equivalent provision to Article 6(1)(f) UKGDPR, to which the Appellant refers), that the processing is necessary for the purposes of legitimate interests pursued by a third party or parties to whom the data is disclosed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In </span><span style="font-style:italic;font-family:'Book Antiqua'">South Lanarkshire Council v Scottish Information Commissioner </span><span style="font-family:'Book Antiqua'"><ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/55" uk:canonical="[2013] UKSC 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 55</ref> (&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">South Lanarkshire&#8221;</span><span style="font-family:'Book Antiqua'">), the UK Supreme Court stated at [18] in the context of the predecessor provision, condition 6 in Schedule 2 to the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/29" uk:canonical="1998 c. 29" uk:origin="TNA" uk:type="legislation">Data Protection Act 1998</ref>, that this test involved three steps: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in">i<span style="font-family:'Book Antiqua'">s the data controller or the third party or parties to whom the data are disclosed pursuing a legitimate interest or interests?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">is the processing involved necessary for the purposes of those interests?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">is the processing unwarranted in this case by reason of prejudice to the rights and freedoms or legitimate interests of the data subject?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal has not identified any other relevant exemptions in its deliberations.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Evidence and submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Property is described in the Decision Notice as a three-storey block of eight self-contained residential units.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant is the owner and resident of a property which adjoins the Property. He believes that construction works at the Property have not been carried out appropriately, and that as a result his own property is suffering damage. He has had the matter investigated by structural engineers, who have provided a report which supports these concerns.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant submits that disclosure of the Certificate will show what works were signed off by the building inspector, which will help the Appellant to understand the background to the situation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant is registered as severely sight impaired with the Council, and submits that he cannot safely or reliably investigate external structural conditions by sight, and relies on documents and professional evidence to understand risks affecting his home.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner submits that his Decision Notice was correct; in particular, that the Certificate is personal data and, while he accepts that the Appellant has a legitimate interest in the disclosure of the Certificate, the Commissioner does not accept that disclosure would be necessary to further that interest.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion</span></p>
+	    <p style="text-align:justify;text-indent:0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Regulation 13</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In order to decide whether the regulation 13 exemption applies, the Tribunal must decide the following issues:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">whether the Certificate constitutes personal data;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">if it does, whether the Appellant has a legitimate interest (or interests) in its disclosure;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">whether disclosure is necessary to further any such interests;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">whether the Appellant's interest in disclosure outweighs the interests of the data subjects; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">whether processing any such personal data is fair and transparent.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant&#8217;s submissions regarding the Council and the Commissioner reportedly failing to comply with the public sector equality duty do not assist his case. The Tribunal&#8217;s role is to consider whether the Commissioner&#8217;s decision contains an error of law. Whether or not the Commissioner had due regard to the matters set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15/section/149" uk:canonical="2010 c. 15 s. 149" uk:origin="TNA" uk:type="legislation">section 149</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref> is not within the scope of the Tribunal&#8217;s decision. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">Is the Certificate personal data?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant submits that the Certificate is not personal data, on the basis that the Property is owned by a company, and the development was carried out by another company, the latter of which is in liquidation; and that no living individual is identified or identifiable from the Certificate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Commissioner submits that information which is indirectly linked to a person can still be personal data if it identifies or impacts the individual, and that this can apply to property related data.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Decision Notice makes reference another of the Commissioner&#8217;s decision notices, which was the subject of the Tribunal&#8217;s decision in <span style="font-style:italic">Whiteside v Information Commissioner </span>[2025] UKFTT 00442 (GRC), in relation to the withholding by the Council of a building control final certificate in relation to a private property (unconnected to this appeal). In <span style="font-style:italic">Whiteside</span> the Tribunal found that, because the certificate related to a residential property and included details of the building including information about individual residences, this constituted personal data of the living individual(s) who can be identified.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Commissioner&#8217;s position comes close to an argument that building control certificates of this type will always be personal data. The Tribunal does not necessarily agree, but it is not necessary to decide this point for the purposes of this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal is not bound by decisions of the First-tier Tribunal in previous cases, but is bound to apply the same law as it applies from time to time.  Each case must be considered on its own facts.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant says that he is content for the Certificate to be disclosed without any names, signatures or contact details of any individuals.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The connection between the Certificate and any living individual maybe tenuous, but remoteness is not an element of the test for whether information is personal data. Rather the test is whether the data relates to a living individual, in the sense that they can be identified, directly or indirectly, from the data.  In <span style="font-style:italic">Whiteside</span> the Tribunal set out how living individuals residing in a particular property could be identified in connection with a building control certificate (at [21]) and the Tribunal accepts that the same principles apply in this case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">To put it in context, a building control certificate may (or may not, depending upon the circumstances) have an effect on the value or marketability of a property or an interest in it. Where a property is a residential property in which a person has an interest, the potential for an impact on an individual from its disclosure will be clear. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal finds that the Certificate does constitute personal data of those who live at the property.  The Certificate also contains the name and signature of a surveyor employed by the company which produced it, and this is considered separately at <span style="color:#000000">paragraphs [58-60] below</span>.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">Legitimate interest</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Commissioner accepts that the Appellant has a legitimate interest, for the purposes of the data protection principles, in the disclosure of the Certificate. The Tribunal agrees. The Appellant has a private interest as the owner of a neighbouring property which may be affected by the efficacy of works at the Property, and there is also a public interest in the performance of building control functions.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">Necessity</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Commissioner submits that the Decision Notice is correct in that disclosure of the Certificate is not necessary to further the Appellant&#8217;s interest in disclosure. The Commissioner explicitly applies the reasons in his separate decision notice number IC-302534-T2H1, which was considered in <span style="font-style:italic">Whiteside</span>.  In that case, the Tribunal found that disclosure was not necessary because of the availability of information regarding building control on statutory registers, and because of the availability of complaints procedures and/or judicial review to pursue alleged failures.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Commissioner&#8217;s response to this appeal is regrettably thin on this point, and declines to expand on the Decision Notice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant submits that the relevant statutory registers do not provide copies of building control certificates, and that he has not been able to obtain equivalent information.  The Tribunal does not have detailed evidence regarding the Council&#8217;s complaints procedures (and the Council is not party to this appeal), but accepts the Appellant&#8217;s evidence that this route is not appropriate.  Judicial review would inevitably entail significantly greater cost and delay than a FOIA request.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Accordingly, the Tribunal does not accept that there are other appropriate routes to the same information, and does accept that disclosure of the Certificate would be necessary to further legitimate interests of the Appellant.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">Balancing of interests</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Having concluded in the Decision Notice that disclosure was not necessary, the Commissioner did not go on to consider the balancing of interests, and declines to do so in his response.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal considers that the relevant privacy interests are those of the owners and occupiers of the Property for the time being (to the extent that these are living individuals).  Having reviewed the Certificate in closed material, the Tribunal notes that there is very little information regarding individual residences within the certificate.  In <span style="font-style:italic">Whiteside</span>, the Tribunal said that &#8220;[t]he information within a Final Certificate for a residential block of flats will include details of the building in which the individual residences are comprised and information about the residences themselves. That will include details of the layout of the building, albeit in limited detail&#8221;.  This implies a greater level of detail that is available about the Property from the Certificate, and the Tribunal considers that any loss of privacy as a result of disclosure of the Certificate would be minimal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On the other hand, the benefit to the Appellant of having potentially relevant information to explore and, he will hope, resolve structural issues relating to his property is significant. It is also the case, as noted by the Tribunal in <span style="font-style:italic">Whiteside</span>, that there is a general public interest in transparency regarding building control.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal expects that the Certificate, or at least information confirming its material contents, ought to be available to any potential purchaser of the property, or of an interest in the property, as part of a conveyancing process.  Although disclosure under EIR constitutes disclosure to the world, and so without any framework of confidentiality, it is not the case that the Certificate is an item of information in respect of which a data subject would be likely to have a reasonable expectation that it would never be disclosed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">For these reasons, the Tribunal finds that the interests of any data subjects are outweighed by the interests of the Appellant in disclosure.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">Fairness and transparency</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Having decided that disclosure of the Certificate in response to the Request would be lawful, the Tribunal does not consider that there are any issues of fairness or transparency which would mean that disclosure would be in breach of the data protection principles.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">Surveyor&#8217;s details</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As noted above, the Certificate contains the name and an electronic signature of an individual surveyor. This is clearly personal data of that individual.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant submits that the Commissioner did not consider the possibility of disclosure of the Certificate subject to redactions for identifying information, and the Commissioner submits that redactions are irrelevant given that, in his view, the Certificate as a whole is exempt from disclosure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In relation specifically to the surveyor&#8217;s name and signature, the Tribunal considers that this information is exempt on regulation 13 EIR, as it would not be lawful for the Council to disclose it. This is on the basis that the Appellant does not have a legitimate interest in this information (the Certificate having been prepared by this individual on behalf of a named company, the name of which the Appellant already knows).  Accordingly, the Tribunal does not go to consider the other aspects of the relevant tests.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Confidentiality of proceedings</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Decision Notice notes that the Council also seeks to rely on regulation 12(5)(d) EIR, regarding confidentiality of proceedings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Decision Notice does not consider this exemption, and the Commissioner declines to do so in his response to the appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal is not in a position to decide this issue in these circumstances, but notes that it has seen no evidence which would support the application of this exemption. The Tribunal is sceptical that it can be applied in this case.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Conclusion and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal notes the Commissioner&#8217;s submission to the effect that information of this kind is regularly withheld under exemptions from disclosure relating to personal data. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal does not dispute that such exemptions may be applicable in relevant cases. However, for the reasons given in this decision, the Tribunal considers that in this case the exemption in regulation 13 EIR does not apply. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Accordingly, the Tribunal considers that the Decision Notice was wrong in law, and makes the order set out in the substituted decision notice above.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Judge Maton</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-04-16" refersTo="#decision" style="font-family:'Book Antiqua'">16 April 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
