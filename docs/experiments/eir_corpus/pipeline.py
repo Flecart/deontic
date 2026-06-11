@@ -368,7 +368,8 @@ def run_ground_arm(d: Deontic, case: dict, model: str, verbose: bool,
     known = {e.atom for e in entries}
     facts: list[str] = []
     dropped: list[str] = []
-    for n, batch in enumerate(batches, 1):
+
+    def ground_batch(n: int, batch: list) -> tuple[int, list[str], list[str], str]:
         dictionary = "\n".join(
             f"- {e.atom}: {e.description}"
             + (precedent_lines(e.atom, case["name"], precedents)
@@ -382,14 +383,39 @@ def run_ground_arm(d: Deontic, case: dict, model: str, verbose: bool,
         reply = parse_json_reply(call_openai(model, GROUND_SYSTEM, user, meta))
         batch_atoms = {e.atom for e in batch}
         got = [f for f in reply.get("facts", []) if f in batch_atoms]
-        dropped += [f for f in reply.get("facts", []) if f not in batch_atoms]
-        facts += got
-        if verbose and len(batches) > 1:
-            print(f"    batch {n}/{len(batches)} ({len(batch)} atoms) "
-                  f"-> {', '.join(got) or '(none)'}")
-        if verbose and len(batches) == 1:
-            print(f"    grounded facts : {', '.join(got) or '(none)'}")
-            print(f"    reasoning      : {reply.get('reasoning', '')}")
+        bad = [f for f in reply.get("facts", []) if f not in batch_atoms]
+        return n, got, bad, reply.get("reasoning", "")
+
+    if _concurrency > 1 and len(batches) > 1:
+        batch_out: dict[int, tuple[list[str], list[str], str]] = {}
+        workers = min(_concurrency, len(batches))
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futs = [pool.submit(ground_batch, n, batch)
+                    for n, batch in enumerate(batches, 1)]
+            for fut in as_completed(futs):
+                n, got, bad, reasoning = fut.result()
+                batch_out[n] = (got, bad, reasoning)
+        for n in range(1, len(batches) + 1):
+            got, bad, reasoning = batch_out[n]
+            facts += got
+            dropped += bad
+            if verbose and len(batches) > 1:
+                print(f"    batch {n}/{len(batches)} ({len(batches[n - 1])} atoms) "
+                      f"-> {', '.join(got) or '(none)'}")
+            if verbose and len(batches) == 1:
+                print(f"    grounded facts : {', '.join(got) or '(none)'}")
+                print(f"    reasoning      : {reasoning}")
+    else:
+        for n, batch in enumerate(batches, 1):
+            n, got, bad, reasoning = ground_batch(n, batch)
+            facts += got
+            dropped += bad
+            if verbose and len(batches) > 1:
+                print(f"    batch {n}/{len(batches)} ({len(batch)} atoms) "
+                      f"-> {', '.join(got) or '(none)'}")
+            if verbose and len(batches) == 1:
+                print(f"    grounded facts : {', '.join(got) or '(none)'}")
+                print(f"    reasoning      : {reasoning}")
     if verbose and dropped:
         print(f"    dropped out-of-batch/unknown: {', '.join(dropped)}")
 
@@ -442,6 +468,35 @@ def fmt_dim(name: str, hit: bool | None, pred) -> str:
     return f"  [{mark}] {name:<12} -> {shown or '(none)'}"
 
 
+def execute_arm(d: Deontic, case: dict, arm: str, model: str, verbose: bool,
+                atoms_per_call: int, seed: int | None,
+                precedents: dict | None) -> dict:
+    """Run one arm for one case; returns pred dict (raises on bad arm name)."""
+    if arm == "oracle":
+        return engine_result(d, case["oracle_facts"], verbose, case["decision"])
+    if arm == "ground":
+        return run_ground_arm(d, case, model, verbose, atoms_per_call, seed,
+                              precedents)
+    if arm == "llm":
+        return run_llm_arm(case, model, verbose)
+    raise ValueError(f"unknown arm '{arm}'")
+
+
+def print_arm_result(case: dict, arm: str, pred: dict, hits: dict,
+                     facts_scores: list[tuple[int, int]]) -> None:
+    g = case["gold"]
+    print(f"  {arm}:")
+    for dim in DIMS:
+        print(fmt_dim(dim, hits[dim], pred[dim]))
+    if "facts_agreement" in pred:
+        agree, total, missed, extra = pred["facts_agreement"]
+        facts_scores.append((agree, total))
+        detail = "".join(
+            [f"; missed {', '.join(missed)}" if missed else "",
+             f"; extra {', '.join(extra)}" if extra else ""])
+        print(f"  [    ] facts vs oracle -> {agree}/{total}{detail}")
+
+
 # ── main ────────────────────────────────────────────────────────────────────
 
 def main() -> int:
@@ -466,7 +521,14 @@ def main() -> int:
                     help="run cases whose labels a human has not verified")
     ap.add_argument("-v", "--verbose", action="store_true",
                     help="show grounded facts, why-certificates, model reasoning")
+    ap.add_argument("--concurrency", type=int, default=1, metavar="N",
+                    help="max simultaneous OpenAI API calls (default: 1)")
     args = ap.parse_args()
+
+    if args.concurrency < 1:
+        print("error: --concurrency must be >= 1", file=sys.stderr)
+        return 2
+    configure_runtime(args.concurrency)
 
     arms = [a.strip() for a in args.arms.split(",") if a.strip()]
     if {"ground", "llm"} & set(arms) and not os.environ.get("OPENAI_API_KEY"):
@@ -483,51 +545,66 @@ def main() -> int:
     log_event({"type": "run_meta", "argv": sys.argv[1:], "arms": arms,
                "model": args.model, "atoms_per_call": args.atoms_per_call,
                "seed": args.seed, "precedents": bool(precedents),
+               "concurrency": args.concurrency,
                "cases": [p.stem for p in paths]})
     print(f"log: {log.relative_to(REPO)}")
+    if args.concurrency > 1:
+        print(f"concurrency: {args.concurrency} simultaneous OpenAI calls")
 
     rows: list[tuple[str, dict]] = []  # (arm, hits)
     facts_scores: list[tuple[int, int]] = []  # ground arm: (agree, total)
+    arm_order = {a: i for i, a in enumerate(arms)}
+    runnable: list[tuple[dict, str]] = []  # (case, arm)
+    cases: list[dict] = []
+
     for path in paths:
         case = load_case(path)
         if not case["verified"] and not args.allow_unverified:
             print(f"\n=== {case['name']}: SKIPPED (verified: no — check labels "
                   "against the reasoning file, or pass --allow-unverified)")
             continue
-        g = case["gold"]
-        print(f"\n=== {case['name']}  ({case['citation']})"
-              + ("" if case["verified"] else "  [UNVERIFIED LABELS]"))
-        print(f"    gold: {g['disposition']}; engaged "
-              f"{', '.join(g['engaged']) or '(none)'}; pi {g['pi']}")
+        cases.append(case)
         for arm in arms:
-            if arm == "oracle":
-                pred = engine_result(d, case["oracle_facts"], args.verbose,
-                                     case["decision"])
-            elif arm == "ground":
-                pred = run_ground_arm(d, case, args.model, args.verbose,
-                                      args.atoms_per_call, args.seed,
-                                      precedents)
-            elif arm == "llm":
-                pred = run_llm_arm(case, args.model, args.verbose)
-            else:
-                print(f"  unknown arm '{arm}', skipping"); continue
-            hits = score(pred, g)
-            log_event({"type": "arm_result", "case": case["name"], "arm": arm,
-                       "pred": {k: v for k, v in pred.items()
-                                if k != "facts_agreement"},
-                       "gold": g, "hits": hits,
-                       "facts_agreement": pred.get("facts_agreement")})
-            print(f"  {arm}:")
-            for dim in DIMS:
-                print(fmt_dim(dim, hits[dim], pred[dim]))
-            if "facts_agreement" in pred:
-                agree, total, missed, extra = pred["facts_agreement"]
-                facts_scores.append((agree, total))
-                detail = "".join(
-                    [f"; missed {', '.join(missed)}" if missed else "",
-                     f"; extra {', '.join(extra)}" if extra else ""])
-                print(f"  [    ] facts vs oracle -> {agree}/{total}{detail}")
-            rows.append((arm, hits))
+            if arm not in arm_order:
+                print(f"  unknown arm '{arm}', skipping")
+                continue
+            runnable.append((case, arm))
+
+    def run_task(case: dict, arm: str) -> tuple[dict, str, dict, dict]:
+        pred = execute_arm(d, case, arm, args.model, args.verbose,
+                           args.atoms_per_call, args.seed, precedents)
+        hits = score(pred, case["gold"])
+        return case, arm, pred, hits
+
+    completed: list[tuple[dict, str, dict, dict]] = []
+    parallel = (_concurrency > 1 and len(runnable) > 1)
+    if parallel:
+        with ThreadPoolExecutor(max_workers=_concurrency) as pool:
+            futs = [pool.submit(run_task, case, arm) for case, arm in runnable]
+            for fut in as_completed(futs):
+                completed.append(fut.result())
+        completed.sort(key=lambda r: (r[0]["name"], arm_order[r[1]]))
+    else:
+        for case, arm in runnable:
+            completed.append(run_task(case, arm))
+
+    shown_case: str | None = None
+    for case, arm, pred, hits in completed:
+        if case["name"] != shown_case:
+            shown_case = case["name"]
+            g = case["gold"]
+            print(f"\n=== {case['name']}  ({case['citation']})"
+                  + ("" if case["verified"] else "  [UNVERIFIED LABELS]"))
+            print(f"    gold: {g['disposition']}; engaged "
+                  f"{', '.join(g['engaged']) or '(none)'}; pi {g['pi']}")
+        g = case["gold"]
+        log_event({"type": "arm_result", "case": case["name"], "arm": arm,
+                   "pred": {k: v for k, v in pred.items()
+                            if k != "facts_agreement"},
+                   "gold": g, "hits": hits,
+                   "facts_agreement": pred.get("facts_agreement")})
+        print_arm_result(case, arm, pred, hits, facts_scores)
+        rows.append((arm, hits))
 
     print("\n--- summary (per dimension) ---")
     for arm in arms:
