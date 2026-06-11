@@ -1,0 +1,786 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1464"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1464"/>
+	  <FRBRdate date="2025-12-03" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1464"/>
+	  <FRBRname value="William Dixon v Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1464"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1464"/>
+	  <FRBRdate date="2025-12-03" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1464/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1464/data.xml"/>
+	  <FRBRdate date="2025-12-03T13:24:23" name="transform"/>
+	  <FRBRdate date="2025-12-03T13:51:17" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-11-25" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-12-01" refersTo="#decision" source="#"/>
+	<eventRef date="2025-12-03" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="william-dixon" href="" showAs="WILLIAM DIXON"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="university-of-durham" href="" showAs="UNIVERSITY OF DURHAM"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1464</uk:number>
+	<uk:cite>[2025] UKFTT 1464 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.1.0</uk:parser>
+	<uk:hash>4849af05ef4ecbad8287dbbc9368a580e4658802215247891f4fedb563e08c8c</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua'">[2025] UKFTT 01464 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0216</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2025-11-25" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">25 November 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2025-12-03" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">3 December 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HARRIS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER YATES</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#william-dixon" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">William Dixon</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#university-of-durham" style="font-weight:bold;font-family:'Book Antiqua'">UNIVERSITY OF DURHAM</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Did not attend</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the First Respondent: Did not attend</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Second Respondent: Sara Clasper</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Background to the appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The appeal concerns a Decision Notice (the &#8220;Decision Notice&#8221;) issued by the Information Commissioner (&#8220;IC&#8221;) dated 5 June 2025, references IC-344117-K7H1 and IC 344118-F9Z2. The Decision Notice was in relation to two separate requests for information made by the Appellant, William Dixon, in relation to the availability and allocation of accommodation for first year students who started at Durham University (&#8220;the University&#8221;) in the 2023-24 and 2024-5 academic years and information relating to stock purchases for all university bars. The University aggregated these two requests with five other requests made to it. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 17 September 2024, Mr Dixon wrote to the University with the following request for information:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;The below applies for both the 2023-24 academic year and 2024- 25 academic year to date. </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">1.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">The number of first year entrants who started at Durham University at the start of Michaelmas term. If this is not available, explain why, and instead provide the most similar equivalent statistic that the University holds. </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">The number of first year entrants who were allocated college accommodation.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">3.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">The number of first year entrants who were eligible for a guaranteed offer of accommodation.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">4.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">The number of those residing within college, who do not fall into the above categories.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">5.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">The total number of beds within college. This may include blocks of accommodation which have been closed but could still be used to house students.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 24 September 2024, Mr Dixon wrote to the University and requested the following information:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;1.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">The bars that Durham University buys stock for through the University&#8217;s bar supplier in the past academic year</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">On a per bar basis, what has been purchased in the past year.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">a.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">This could include copies of the invoices paid by the University&#8217;s bar supplier or documents which could indicate an itemised list of what each bar or college has ordered over the past academic year. </span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">B. I ask that this is broken down by each bar (or each college, if the information is recorded in this way) for the past academic year.</span><span/><span style="font-style:italic;font-family:'Book Antiqua'">If it is broken down differently, explain why and provide that information.  Ie. If the data is stored in a standard inventory or procurement system, I am happy to receive a data export in CSV, ge, if Excel, or another common file format. </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">c.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Take this as a request for the recorded information in the document, as per the FOI act. If this is likely to breech cost limits, explain why, and instead provide the information in a more convenient format that will not breech cost limits.   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">d.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">Please note that redacting documents is not to be factored in estimating compliance costs under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">Section 12</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>. i. If the scope of this request risks exceeding the cost limits under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">Section 12</ref>, please provide advice on how I might refine or narrow the request to bring it within the limits, as per your obligations under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref>&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 14 October 2024, the University responded to both requests on the one response. It aggregated the cost of complying with these two requests and five others received between 16 September 2024 and 7 October 2024. The University relied on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12/2" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">section 12(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) to refuse them. It provided a breakdown of the seven requests it wished to aggregate, the date received, and the internal reference allocated to each request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 12 November 2024, the University provided the outcome of its internal review in a combined response and upheld its original position as the cost of complying with the request would exceed &#163;480 and 18 hours.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Dixon contacted the IC on 13 November 2024 to complain about the way his request for information had been handled as he believed that the University should not have aggregated the seven requests together to calculate the costs as the requests were not for <span style="font-style:italic">&#8220;the same or similar information</span>&#8221; and that the University had misinterpreted the IC&#8217;s guidance on aggregating requests. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 5 June 2025, the IC issued the Decision Notice. In this he determined that the University was entitled to aggregate the requests and that the<span style="font-family:'Book Antiqua'"> University had demonstrated that it would exceed the cost limit to confirm what information is held under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12/2" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">section 12(2)</ref> of FOIA. The IC did not require the University to take any further steps.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Times New Roman'">Abbreviations used in this decision</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;Decision Notice&#8221; means the IC&#8217;s decision dated 5 June 2025, references IC-344117-K7H1 and IC 344118-F9Z2 </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">&#8220;FOIA&#8221; means the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>. All references to sections are references to sections of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref></span><span style="font-family:'Book Antiqua'"> unless otherwise specified </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;IC&#8221; means the Information Commissioner, the First Respondent </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;The University&#8221; means the University of Durham, the Second Respondent</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Times New Roman'">&#8220;UT&#8221; means the Upper Tribunal, Administrative App</span><span style="font-family:'Book Antiqua'">eals Chamber </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Procedural matters concerning the hearing  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The hearing took place by Cloud Video Platform (CVP) with the consent of the parties. The Tribunal was satisfied that it was fair and just to conduct the hearing in this way.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant did not attend the hearing. When contacted by a member of Tribunal staff on the morning of the hearing he communicated that he did not wish to participate in the hearing and would not attend. The Tribunal considered that he had been given an opportunity to attend and that it was fair and in the interests of justice to continue with the hearing in his absence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC notified the Tribunal in advance of the hearing that it would not be attending or represented. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The University attended and was represented by Ms Clasper, with Mr Andrew Ladd attending as a witness.</span><span style="font-family:'Times New Roman'">&#160;</span><span style="font-family:'Book Antiqua'">The University asked to apply for the case to be struck out, but withdrew this upon being advised that an opportunity would need to be given to the Appellant to respond to such an application. Ms Clasper confirmed that the University did not wish to make any further oral submissions in addition to those set out in the hearing bundle, although Mr Ladd made an observation about the correctness of the University&#8217;s approach to aggregating Mr Dixon&#8217;s requests.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal considered a bundle of documents (110 pages).</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant appealed against the IC&#8217;s Decision Notice by form GRC1 dated 5 June 2025. In summary he raised the following points:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The University and thus the IC was wrong to aggregate the requests and to determine that the requesters were acting in concert because they had previously written for Palatinate Student Newspaper (&#8220;Palatinate&#8221;). He argues that the requests were not sent from Palatinate associated email addresses and he had used his<span style="font-family:'Book Antiqua'"> personal email account. He noted that the Palatinate has about 70 editors with significant turnover.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He challenged the fairness of the University relying on the fact that Palatinate requests had accounted for 20% of the requests recei<span style="font-family:'Book Antiqua'">ved by the University in the period concerned and that over 400 requests have been received from Palatinate since 2021.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">He argued that he was not sure how allocation of accommodation data is similar to the data on bar sales within the University and said that these were &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">very separate&#8221;.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The IC&#8217;s response to the appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC filed a response to the appeal dated 11 July 2025. In relation to the Appellant&#8217;s grounds of appeal, in summary it made the<span style="font-family:'Book Antiqua'"> following points:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">In their submissions to the IC of 11 March 2025 the University provided a cost estimate conducted for one of the requests aggregated (reference 2024/031), resulting in an estimated cost of compliance of 18 hours 30 minutes for this single request, exceeding the appropriate limit of 18 hours. This estimate is accepted by the Appellant.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">Determining whether requests are sufficiently similar to aggregate is a question of judgement. On the matter of aggregation, the Tribunal commented in</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'"> John Slater v IC &amp; DWP </span><span style="font-family:'Book Antiqua'">EA/2019/0118: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1.58in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Whether, however, the information to which the requests related was to any extent the same or similar is, in our view, a simple matter of examining the terms, and the context of, the requests themselves. It is, in essence, a question of recognition. It is easier to say if something is the same, or similar, when one can see it all, in context, rather than trying to prescribe what will or will not be the same or similar</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1.14in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.14in"><span style="font-family:'Book Antiqua'">the requests all relate to information on the University, its accommodation and bars and the IC maintains his finding that they are of a sufficiently similar nature to aggregate, noting the University&#8217;s submission that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">The requests were aggregated because they relate to a common theme of College data, which would need to be requested from the same sources within the University and to alleviate the burden on these areas from the high volume of requests from Palatinate members.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">Accordingly, the IC maintains that the aggregation was lawful.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The University&#8217;s response to the appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The University filed a response to the appeal dated 10 July 2025. This made the following points, in summary:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The University was entitled to rely upon <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12/2" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">section 12(2)</ref> of FOIA in aggregating the requests received from the Appellant along with five other requests received in a short timeframe as they were related to similar information and were part of a campaign (connected to the Palatinate Student Newspaper).  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">It would exceed the cost limit to confirm what information is held and that it was entitled to refuse the requests.  The University complied with its duty under section 16 of the FOIA by providing advice and assistance.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The University agrees that the Appellant submitted information requests under FOIA and the University relied upon <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12/2" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">section 12(2)</ref> of FOIA to refuse the requests. It is agreed that the Appellant complained to the IC and the IC concluded that the University were entitled to rely upon the exemption stated. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">Also in the bundle was the University&#8217;s response to the IC dated 11 March 2025, submitted as part of the IC&#8217;s investigation, which explained more about the University&#8217;s position. In summary this raised the following points: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The University noted that the requests in scope of the aggregation were received from 16 September 2024 to 7 October 2024 concerning student accommodation in college or bar supplies. These requests all concerned college data for the same or similar period.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The University provided a breakdown of the costs of complying with one of the requests aggregated with the Appellant&#8217;s two requests (for bar prices at centrally managed college bars for two academic years) as follows:</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">&#8220;1.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic">Hatfield, St Cuthbert&#8217;s, John Snow, South and Stephenson Colleges &#8211; these bars operate using the University&#8217;s preferred EPOS and having consulted with an Operations Directorate Systems and Administration Coordinator, we don&#8217;t believe there is a standard pricing report, therefore we would need to download sales reports, cleanse data to remove unrequested information and aggregate into a single Excel document. 1 hour.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in;text-indent:0.25in"><span style="font-style:italic">University College, Hild &amp; Bede, Grey, Collingwood, Trevelyan, St Mary&#8217;s, Ustinov, Josephine Butler, St Aidan&#8217;s and Van Mildert. These colleges use standalone till systems with very limited reporting functionality. Receiving the requested information would not be straight forward. A Community Operations Manager (Food &amp; Beverage) who completes the process of updating pricing has confirmed that the process would involve:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic">Coordinating with local managers to schedule a suitable time for data retrieval (30 minutes) </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic">Local managers confirming availability and updating calendars (10 managers x 10 minutes 1 hour 40 minutes</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic">Physically visiting each site to access the till system, in line with manager availability and therefore not necessarily in one go (10 sites x 20 minutes = 3 hours 20 minutes). May be more time if local managers are needed for any aspect of the data retrieval or providing context.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic">Downloading and converting the current year&#8217;s sales reports into a workable format, cleansing the data and aggregating into a single document (10 sites x 30 minutes = 5 hours)</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic">Retrieving 2023-24 data using retrospective stock reports in PDF format, assuming these reports are still available, transferring to excel, cleansing data and aggregating into a single document (10 sites x 45 minutes =7 hours 30 minutes + final aggregation +30 minutes)</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic">Total 18 hours and 30 minutes.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.75in"><span style="font-style:italic">Our deputy Director of Catering in the Operations Directorate has confirmed the above is the quickest way of gathering the information.&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Legal framework</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Section 1 (1) FOIA provides:</p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"Any person making a request for information to a public authority is entitled-  </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">to be informed in writing by the public authority whether it holds information of the description specified in the request, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">if that is the case, to have that information communicated to him." </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Section 1(2) FOIA provides: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">"Subsection (1) has effect subject to the following provisions of this section and to the provisions of sections 2, 9, 12 and 14."</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">Section 12</ref> FOIA provides:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Section 1 (1) does not oblige a public authority to comply with a request for information if the authority estimates that the cost of complying with the request would exceed the appropriate limit</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">Subsection (1) does not exempt the public authority from its obligation to comply with paragraph (a) of section 1 (1) unless the estimated cost of complying with that paragraph alone would exceed the appropriate limit&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">By regulation 3 of the Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 2004 (the Fees Regulations), the 'appropriate limit' for the University is &#163;450. The cost of staff time is estimated at &#163;25 per hour meaning a request would exceed the appropriate limit if complying would take more than 18 hours. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Regulation 4 of the Fees Regulations provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Estimating the cost of complying with a request - general  </span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">1.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">This regulation has effect in any case in which a public authority proposes to estimate whether the cost of complying with a relevant request would exceed the appropriate limit.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		  <intro>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">In a case in which this regulation has effect, a public authority may, for the purpose of its estimate, take account only of the costs it reasonably expects to incur in relation to the request in- </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">determining whether it holds the information, </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">locating the information, or a document which may contain the information. </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic"> retrieving the information, or a document which may contain the information, and  </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">extracting the information from a document containing it.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">3.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">To the extent to which any of the costs which a public authority takes into account are attributable to the  time  which  persons  undertaking  any  of  the  activities mentioned in paragraph (3) on behalf of the authority are expected to spend on those activities, those costs are to be estimated at a rate of &#163;25 per person per hour</span>.&#8221; </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12/4" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">Section 12(4)</ref> FOIA provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in">&#8220;<span style="font-style:italic">The Secretary of State may by regulations provide that, in such circumstances as may be prescribed, where two or more requests for information are made to a public authority &#8211;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">by one person, or </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">by different persons who appear to the public authority to be acting in concert or in pursuance of a campaign, the estimated cost of complying with any of the requests is to be taken to be the estimated total cost of complying with all of them.&#8221; </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Regulation 5 of the Fees Regulations states: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <intro>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">In circumstances in which this regulation applies, where two or more requests for information to which <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/1/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 1(1)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the 2000 Act</ref> would, apart from the appropriate limit, to any extent apply, are made to a public authority &#8211; </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">by one person, or </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">by different persons who appear to the public authority to be acting in concert or in pursuance of a campaign, the estimated cost of complying with any of the requests is to be taken to be the total costs which may be taken into account by the authority, under regulation 4, of complying with all of them. </span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+		  <intro>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">This regulation applies in circumstances in which &#8211; a. </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">the two or more requests referred to in paragraph (1) relate, to any extent, to the same or similar information, and </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="margin-left:1in;text-indent:-0.25in">d.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic;font-family:'Times New Roman';color:#000000"> those requests are received by the public authority within any period of</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman';color:#000000"/><span style="font-style:italic;font-family:'Times New Roman';color:#000000">sixty</span><span style="font-family:'Times New Roman'"/><span style="font-style:italic;font-family:'Times New Roman';color:#000000">consecutive working days. &#8220;</span></p>
+		    </content>
+		  </subparagraph>
+		  <wrapUp>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'"/><span style="font-weight:bold;font-family:'Book Antiqua'">The Role of the Tribunal&#160;&#160;&#160;</span></p>
+		  </wrapUp>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal&#8217;s remit is governed by s.58 FOIA. This requires the Tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the IC&#8217;s decision involved exercising discretion, he should have exercised it differently. If we are satisfied that the IC&#8217;s decision notice is in error of law or involves an inappropriate exercise of discretion, then we will allow the appeal and may substitute a decision notice for that of the IC. The Tribunal may receive evidence that was not before the IC and may make different findings of fact from the IC.&#160;&#160;&#160;&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Issues</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The issues before the Tribunal are:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">Was the Council (and thus the IC) entitled to aggregate the Appellant&#8217;s requests for information with other requests for the purposes of determining whether <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">section 12</ref> of FOIA applies?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">Was the Council entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">section 12</ref> of FOIA to refuse the Appellant&#8217;s requests in aggregation with the other requests?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The first question is whether the Council was entitled to aggregate the Appellant&#8217;s requests with other similar requests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal&#8217;s starting point is regulation 5 of the Fees Regulations. We are satisfied that as a matter of fact that there were seven requests within a 60-day period.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Having reviewed the text of all the requests which were aggregated together, we find that all of them were concerned with either student accommodation in college or with college facilities such as college bars. We were persuaded by the University&#8217;s argument that while not identical <span style="font-family:'Book Antiqua'">the requests were similar because they relate to a common theme of College data, which would need to be requested from the same sources within the University.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">As to the question of whether the individuals making the requests were acting in concert, we were not persuaded by the Appellant&#8217;s arguments that the fact that there were numerous individuals acting as editors of Palatinate and that they did not make the requests from Palatinate email addresses means that they were not acting in concert. The test is whether the persons appear to the public authority to be acting in concert or as part of a campaign.  The Tribunal was persuaded by the evidence of Mr Ladd that there was a significant pattern of similar requests being made by persons working for Palatinate over a protracted period of time. In the context of this, we are satisfied that it appeared to the University that these individuals were acting for a common purpose, which was the publication of a single student newspaper, and thus acting in concert to that end. This is a subjective test, in that it is what appears to the University to be the case that determines it, rather than any objective standard or test.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">We are therefore satisfied that under Regulation 5 of the Fees Regulations that the University was entitled to aggregate the seven requests together.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">This being the case, then we turn to consider whether the University was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12/2" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">section 12(2)</ref> to refuse to comply with the Appellant&#8217;s requests. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">We consider that the University has clearly set out in its response to the IC dated 11 March 2025 what it reasonably estimates the cost of complying with one of the requests in relation to college bars would be in accordance with Regulation 4 of the Fees Regulations. We find that there are substantial similarities between this request and the second of the Appellant&#8217;s requests and that it is reasonable to assume that similar enquiries would be required to answer them. Regulation 5(1)(b) of the Fees Regulations provides that if the other tests set out in Regulation 5 are met then the estimated cost of complying with any of the requests is to be taken to be the total costs which may be taken into account by the authority, under regulation 4, of complying with all of them. The fact that the estimate for a single request by itself exceeds both the cost and time thresholds is sufficient to satisfy the Tribunal that the aggregated costs of all seven requests will also exceed both the cost and time thresholds. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">For these reasons we find that the Council was both entitled to aggregate the seven requests and that it was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/12/2" uk:canonical="2000 c. 36 s. 12" uk:origin="TNA" uk:type="legislation">Section 12(2)</ref> of FOIA to refuse the Appellant&#8217;s request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">We note that in the Decision Notice, the IC found that the University had complied with its section 16 obligation to offer advice and assistance. The University stated in its initial response dated 14 October 2024: &#8220;</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;In line with our obligations under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 16</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref>, we are required to provide advice and assistance to help you refine your request so that it may fall within the cost limit. The university may be able to disclose some of the requested information if you are prepared to narrow the scope of your request. However, we cannot confirm at this stage if this would bring your request under the appropriate limit, or that another exemption will not apply In this case the university may be able to disclose some of the requested information if you are prepared to narrow the scope of your request. The scope of the request could be more limited by, for example, reducing the time period over which the information is being requested or by the information requested being more limited in its granularity or detail. However, we cannot confirm at this stage if this would bring your request under the appropriate limit, or that another exemption will not apply.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The University also stated in its response to the internal review that <span style="font-style:italic">&#8220;&#8230;it is noted that requests often ask for information over a long timeframe (5 years) or lack focus and require clarification. It may be there is a limit to the assistance that can be given, however I consider that a review of the request pattern as a whole and provision of guidance would be worth-while. In this case the university may be able to disclose some of the requested information if the request can be narrowed, such as reducing the time period or increasing the granularity of the request.&#8221;  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">There is no evidence that Mr Dixon chose to take that advice and seek to narrow the scope of the information sought. We therefore agree with the IC&#8217;s conclusion that the University complied with its obligation under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> of FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Accordingly, we conclude that the Decision Notice was issued in accordance with the law and dismiss the appeal. </span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Signed: </span><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Judge Harris</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Date: </span><docDate date="2025-12-01" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">1 December 2025</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,800 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1436"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1436"/>
+	  <FRBRdate date="2025-12-01" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1436"/>
+	  <FRBRname value="Niall Armes v Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1436"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1436"/>
+	  <FRBRdate date="2025-12-01" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1436/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1436/data.xml"/>
+	  <FRBRdate date="2025-12-01T12:10:06" name="transform"/>
+	  <FRBRdate date="2025-12-01T12:59:52" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-11-13" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-11-27" refersTo="#decision" source="#"/>
+	<eventRef date="2025-12-01" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="niall-armes" href="" showAs="NIALL ARMES"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1436</uk:number>
+	<uk:cite>[2025] UKFTT 1436 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.1.0</uk:parser>
+	<uk:hash>d9e34b5299834d99e5d285ac14b99a888e0ce9029f685ac8c9c17f772159ac63</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { text-align: left; margin-left: 0.58in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation2 { text-align: left; margin-left: 1in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation3 { text-align: left; margin-left: 1.25in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .CommentText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .CommentSubject { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .BalloonText { text-align: justify; font-family: Arial; font-size: 9pt; }
+#judgment .legclearfix { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Book Antiqua'; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Book Antiqua'; }
+#judgment .BalloonTextChar { font-family: Arial; font-size: 9pt; }
+#judgment .legds { }
+#judgment .FooterChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid #000000; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:95.55pt;height:61.6pt"/></p>
+      <p style="text-align:left"><span style="font-family:Arial;font-size:11pt;color:#000000">Neutral citation number: </span><neutralCitation style="font-family:Arial;font-size:11pt;color:#000000">[2025] UKFTT 01436 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:Arial;font-size:11pt"> Case Reference: FT/EA/2025/0227</span></p>
+      <p style="text-align:left;margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:Arial;font-size:11pt">First-tier Tribunal </courtType></p>
+      <p style="text-align:left;margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:Arial;font-size:11pt">General Regulatory Chamber</courtType></p>
+      <p style="text-align:left;margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:Arial;font-size:11pt">Information Rights </docJurisdiction></p>
+      <p class="Style1" style="text-align:right"><span style="font-family:Arial;font-size:11pt">Heard by: Cloud Video Platform / Heard at:</span></p>
+      <p class="Style1" style="text-align:right"><span style="font-family:Arial;font-size:11pt">Heard on: </span><docDate date="2025-11-13" refersTo="#hearing" style="font-family:Arial;font-size:11pt">13 November 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Decision given on: </span><docDate date="2025-12-01" refersTo="#decision" style="font-weight:bold;font-family:Arial;font-size:11pt">1 December 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">JUDGE HAZEL OLIVER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">MEMBER AIMEE GASSTON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">MEMBER KATE GRIMLEY-EVANS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#niall-armes" style="font-weight:bold;text-transform:uppercase;font-family:Arial;font-size:11pt">NIALL ARMES</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;font-size:11pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#information-commissioner" style="font-weight:bold;font-family:Arial;font-size:11pt">INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;font-size:11pt">Respondent</role></p>
+      <p style="text-align:left"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;font-size:11pt">Representation</span><span style="font-weight:bold;font-family:Arial;font-size:11pt">:</span></p>
+      <p style="text-align:left"><span style="font-family:Arial;font-size:11pt">For the Appellant: In person</span></p>
+      <p style="text-align:left"><span style="font-family:Arial;font-size:11pt">For the Respondent: Did not attend</span></p>
+      <p style="text-align:left"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Decision: </span><span style="font-family:Arial;font-size:11pt">The appeal is Dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">Mode of hearing</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:Arial;font-size:11pt">1.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The proceedings were held by video (CVP).  All parties joined remotely. The Tribunal was satisfied that it was fair and just to conduct the hearing in this way.  </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">Background to Appeal</span></heading>
+	  <paragraph eId="para_2">
+	    <num style="font-family:Arial;font-size:11pt">2.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">This appeal is against a decision of the Information Commissioner (the &#8220;Commissioner&#8221;) dated 30 May 2025 (IC-347636-V7N7, the &#8220;Decision Notice&#8221;).  The appeal relates to the application of the Environmental Information Regulations 2004 (&#8220;EIR&#8221;).  It concerns information about planning applications at a specific site requested from Braintree District Council (the &#8220;Council&#8221;).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:Arial;font-size:11pt">3.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant had submitted previous requests for information to the Council about planning matters relating to the same property. He had been provided with some information in response to these requests, and some information had been withheld under various exceptions. The Appellant lives at Helions Farm. He sold surrounding agricultural land more than 20 years ago, and separately sold a farmhouse and barn complex. The underlying issue relates to various planning permissions for the barn complex. The Appellant says there has been unlawful development, and matters have been concealed by the Council before they granted new planning permission.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:Arial;font-size:11pt">4.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">On 1 July 2024, the Appellant wrote to the Council and requested the following information (the &#8220;Request&#8221;):</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.3in;text-indent:-0.3in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8220;I am making a FOI request for documents in possession of the council pertinent to planning application 22/01341/FUL, recently decided by council officers.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.3in;text-indent:-0.3in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">I have previously made several freedoms of information requests in relation to this planning application and it&#8217;s processing by the council. These include those of your reference 6846 and 5850. In both these instances the council refused to provide a variety of documents citing various Regulations, including for example Regulation 12(5)(b) &#8211; Adversely affect the course of justice, as well as Regulation 12(4)(d) Drafts and material still in course of completion.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.3in;text-indent:-0.3in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">As the planning matter is now decided by the council it would appear that this is now the appropriate time to release these documents which were withheld on account of the above cited regulations. This case and the circumstances around it need to be aired in order to determine whether justice has been served in relation to the decision-making process. There is no better time.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.3in;text-indent:-0.3in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">In addition, I seek all further documents, Email exchanges, internal notes and correspondences which have occurred since the last request was made on the 23rd May 2023 until today which pertain to this case. These would reasonably include:</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.3in;text-indent:-0.3in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">All communications, written, electronic or otherwise between any council officer of representative and the applicants on this permission or their representatives. This will include correspondence with [names redacted] or any of their representatives or legal counsel. It will include the case officer, head of planning Chris Paggi, any counsel representing the council, or any other employee or officer of the council.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.3in;text-indent:-0.3in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">I also require any documents, notes, letters, and correspondences written or electronic occurring within the council and between council employees and officers, and as necessary consultants, solicitors or other agents.</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.3in;text-indent:-0.3in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">I also request information pertaining to any actual or threatened legal action between the applicants or their representatives and the council including individual council officers and employees.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:Arial;font-size:11pt">5.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Council initially responded on 29 July 2024 and split their response into two parts. Part 1 was a response with any new information held between 23 May 2023 and 1 July 2024. Part 2 was a re-assessment of previously withheld information.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:Arial;font-size:11pt">6.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">On 23 August 2024 the Council responded to Part 1, disclosing some information and withholding the remaining under the following exceptions: 12(4)(e) (internal communications), 12(5)(b) (course of justice) and 12(5)(f) EIR (adversely affect the interest of the someone who supplied the information, erroneously referred to in the Council&#8217;s response as a personal data exemption)).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:Arial;font-size:11pt">7.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">On 16 September 2024 the Council responded to Part 2, stating that regulations 13 (personal data), 12(4)(d) (drafts and materials still in course of completion), 12(4)(e), 12(5)(b), and 12(5)(f) were still engaged despite the passage of time.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:Arial;font-size:11pt">8.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant requested reconsideration of the decision. The Council failed to provide a response, and the Appellant complained to the Commissioner on 28 November 2024.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:Arial;font-size:11pt">9.</num>
+	    <intro>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Commissioner investigated the matter and obtained representations from the Council. During this investigation, the Council said it was no longer relying on regulation 12(5)(f) EIR. The Council also provided a full set of information within scope of the Request, showing where items had been withheld and which exceptions had been applied. The Commissioner decided:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.39in">a.</num>
+	      <content>
+		<p style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">The exceptions in regulations 12(4)(d), 12(4)(e), 12(5)(b) and 13 were engaged.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.39in">b.</num>
+	      <content>
+		<p style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">The Council was entitled to withhold the withheld information because the public interest in disclosure was outweighed by the public interest in maintaining the exceptions, and disclosure of personal data would not be lawful for the purposes of regulation 13.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">The Appeal and Responses</span></heading>
+	  <paragraph eId="para_10">
+	    <num style="font-family:Arial;font-size:11pt">10.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant appealed on 16 June 2025.  His grounds of appeal are that the public interest tests were not applied correctly by the Commissioner. He says that there is reasonable suspicion of bias or predetermination by the Council in relation to the planning decision. He suggests that the Commissioner was overly influenced by council officers, and he did not have an opportunity to make a fair counter argument.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:Arial;font-size:11pt">11.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Commissioner&#8217;s response maintains that the Decision Notice was correct, and any feeling of unfairness can be rectified by the full merits appeal.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">Applicable law</span></heading>
+	  <paragraph eId="para_12">
+	    <num style="font-family:Arial;font-size:11pt">12.</num>
+	    <intro>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The relevant provisions of the Environmental Information Regulations 2004 (&#8220;EIR&#8221;) are as follows.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p style="margin-left:0.98in;text-indent:-0.98in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">2(1)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8220;environmental information&#8221; has the same meaning as in Article 2(1) of the Directive, namely any information in written, visual, aural, electronic or any other material form on&#8212; </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt">(a)</num>
+		<content>
+		  <p style="margin-left:0.98in"><span style="font-style:italic;font-family:Arial;font-size:11pt">the state of the elements of the environment, such as air and atmosphere, water, soil, land, landscape and natural sites including wetlands, coastal and marine areas, biological diversity and its components, including genetically modified organisms, and the interaction among these elements; </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt">(b)</num>
+		<content>
+		  <p style="margin-left:0.98in"><span style="font-style:italic;font-family:Arial;font-size:11pt">factors, such as substances, energy, noise, radiation or waste, including radioactive waste, emissions, discharges and other releases into the environment, affecting or likely to affect the elements of the environment referred to in (a); </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt">(c)</num>
+		<content>
+		  <p style="margin-left:0.98in"><span style="font-style:italic;font-family:Arial;font-size:11pt">measures (including administrative measures), such as policies, legislation, plans, programmes, environmental agreements, and activities affecting or likely to affect the elements and factors referred to in (a) and (b) as well as measures or activities designed to protect those elements; </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.98in;text-indent:-0.98in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">5(1)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;a public authority that holds environmental information shall make it available on request.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">12(1)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if &#8211;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt;margin-left:1.25in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p style="margin-left:1.25in;text-indent:0.12in"><span style="font-style:italic;font-family:Arial;font-size:11pt">An exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt;margin-left:1.25in;text-indent:-0.25in">(b)</num>
+		<content>
+		  <p style="margin-left:1.25in;text-indent:0.12in"><span style="font-style:italic;font-family:Arial;font-size:11pt">In all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">12(2)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">A public authority shall apply a presumption in favour of disclosure.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">12(3)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">To the extent that the information requested includes personal data of which the applicant is not the data subject, the personal data shall not be disclosed otherwise than in accordance with regulation 13.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">12(4)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">For the purposes of paragraph (1)(a), a public authority may refuse to disclose information to the extent that&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<intro>
+		  <p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-style:italic;font-family:Arial;font-size:11pt">(d)</num>
+		  <content>
+		    <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-style:italic;font-family:Arial;font-size:11pt">the request relates to material which is still in the course of completion, to unfinished documents or to incomplete data; or</span></p>
+		  </content>
+		</subparagraph>
+		<subparagraph>
+		  <num style="font-style:italic;font-family:Arial;font-size:11pt">(e)</num>
+		  <content>
+		    <p style="margin-left:1in"><span style="font-style:italic;font-family:Arial;font-size:11pt">the request involves the disclosure of internal communications.</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">12(5)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">For the purposes of paragraph (1)(a), a public authority may refuse to disclose information to the extent that its disclosure would adversely affect -</span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt">(b)</num>
+		<content>
+		  <p style="margin-left:1in"><span style="font-style:italic;font-family:Arial;font-size:11pt">the course of justice, the ability of a person to receive a fair trial or the ability of a public authority to conduct an inquiry of a criminal or disciplinary nature.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">13(1)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">To the extent that the information requested includes personal data of which the applicant is not the data subject, a public authority must not disclose the personal data if&#8212; (a) the first condition is satisfied&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">13(2A) </span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">The first condition is that the disclosure of the information to a member of the public otherwise than under these Regulations&#8212; (a) would contravene any of the data protection principles&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:Arial;font-size:11pt">13.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">Requests for environmental information are expressly excluded from the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/39" uk:canonical="2000 c. 36 s. 39" uk:origin="TNA" uk:type="legislation">section 39</ref> and must be dealt with under EIR, and it is well established that &#8220;environmental information&#8221; is to be given a broad meaning in accordance with the purpose of the underlying Directive 2004/4/EC.  We are satisfied that this request falls within EIR as it relates to planning applications for specific land.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:Arial;font-size:11pt">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Regulation 12(4)(d) (material in the course of completion).</span><span style="font-family:Arial;font-size:11pt"> This is a class-based exception, meaning it is engaged automatically for information that consists of material in the course of completion without the need to show that disclosure would cause harm. It is still subject to the public interest balancing test.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:Arial;font-size:11pt">15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Regulation 12(4)(e) (internal communications).</span><span style="font-family:Arial;font-size:11pt">  This is also a class-based exception, meaning it is engaged automatically for information that consists of internal communications without the need to show that disclosure would cause harm.  It is still subject to the public interest balancing test.  The concept of &#8220;internal communications&#8221; is broad, and covers information intended to be communicated to others.  The purpose of the exception is to preserve the public authority&#8217;s private thinking space, which is particularly relevant when a matter is live.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:Arial;font-size:11pt">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Regulation 12(5)(b) (the course of justice). </span><span style="font-family:Arial;font-size:11pt">Legal professional privilege (&#8220;LPP&#8221;) protects the confidentiality of legal communications.  It has two parts &#8211; legal advice privilege, and litigation privilege.  Legal advice privilege concerns confidential communications between lawyer and client.  It applies to communications between a client and their legal adviser, acting in a professional capacity, for the dominant purpose of seeking or giving legal advice or assistance in a relevant legal context (</span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Three Rivers District Council v Governor and Company of the Bank of England (no 6)</span><span style="font-family:Arial;font-size:11pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2004/48" uk:canonical="[2004] UKHL 48" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2004">[2004] UKHL 48</ref>).</span><span style="font-family:'Source Sans Pro';font-size:13.5pt;color:#3D3D3D;background-color:#FFFFFF"/><span style="font-family:Arial;font-size:11pt">Legal&#160;advice&#160;privilege&#160;also extends to wider communication of privileged advice, such as internally to a client&#8217;s Board of Directors (</span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Civil Aviation Authority v R (Jet2.com Ltd)</span><span style="font-style:italic;font-family:Arial;font-size:11pt"/><span style="font-family:Arial;font-size:11pt"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2020/35" uk:canonical="[2020] EWCA Civ 35" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2020">[2020] EWCA Civ 35</ref>). Unlike under the exemption for privileged material in FOIA, LPP is not specifically covered by an exception under EIR.  However, it is well established that disclosure of material which is subject to LPP can be refused under Regulation 12(5)(b) EIR on the basis of an adverse effect on the course of justice.  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:Arial;font-size:11pt">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">Regulation 12(5)(b) is subject to the public interest balancing test.  It has been accepted in numerous cases that there is a strong public interest built into legal privilege, based on the interest in public bodies being able to receive frank legal advice in order to assist them to make appropriate decisions.  This was confirmed by the High Court in </span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">DBERR v O&#8217;Brien and IC</span><span style="font-family:Arial;font-size:11pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ewhc/qb/2009/164" uk:canonical="[2009] EWHC 164 (QB)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2009">[2009] EWHC 164 (QB)</ref> in relation to the equivalent exemption in FOIA &#8211; &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">The in-built public interest in withholding information to which legal professional privilege applies is acknowledged to command significant weight. Accordingly, the proper approach for the Tribunal was to acknowledge and</span><span style="font-family:Arial;font-size:11pt"/><span style="font-style:italic;font-family:Arial;font-size:11pt">give effect to the significant weight to be afforded to the exemption in any event; ascertain whether there were particular or further factors in the instant case which pointed to non-disclosure and then consider whether the features supporting disclosure (including the underlying public interests which favoured disclosure) were of equal weight at the very least.&#8221; </span><span style="font-family:Arial;font-size:11pt">(Wyn Williams J at paragraph 53). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:Arial;font-size:11pt">18.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">According to the Upper Tribunal decision in </span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">O&#8217;Hanlon v Information Commissioner &amp; Health and Safety Executive</span><span style="font-family:Arial;font-size:11pt"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/66" uk:canonical="[2025] UKUT 66 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKUT 66 (AAC)</ref>, the public interest balance is to be assessed as at the date on which a decision as to disclosure is being made. A reconsidered response is a decision for this purpose.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:Arial;font-size:11pt">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Regulation 13 (personal data).</span><span style="font-family:Arial;font-size:11pt"> The data protection principles are those set out in Article 5(1) of the UK General Data Protection Regulation (&#8220;UK GDPR&#8221;), and section 34(1) DPA.  The first data protection principle under Article 5(1)(a) UK GDPR is that personal data shall be: &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">processed lawfully, fairly and in a transparent manner in relation to the data subject</span><span style="font-family:Arial;font-size:11pt">&#8221;.  To be lawful, the processing must meet one of the conditions for lawful processing listed in Article 6(1) UK GDPR.  These include where &#8220;the data subject has given consent to the processing of his or her personal data for one or more specific purposes&#8221; (Article 6(1)(a)).  It also includes where </span><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8220;processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child</span><span style="font-family:Arial;font-size:11pt">.&#8221; (Article 6(1)(f)).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:Arial;font-size:11pt">20.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The balancing of interests test under section 6(1)(f) involves consideration of three questions (as set out by Lady Hale DP in South Lanarkshire Council v Scottish Information Commissioner <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/55" uk:canonical="[2013] UKSC 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 55</ref>):</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">Is the data controller or third party or parties to whom the data are disclosed pursuing a legitimate interest or interests?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">Is the processing involved necessary for the purposes of those interests?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">Is the processing unwarranted in this case by reason of prejudice to the rights and freedoms or legitimate interests of the data subject?</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:Arial;font-size:11pt">The wording of question (c) is taken from the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/29" uk:canonical="1998 c. 29" uk:origin="TNA" uk:type="legislation">Data Protection Act 1998</ref>, which is now replaced by the DPA and UK GDPR.  This should now reflect the words used in the UK GDPR &#8211; whether such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data.</span></p>
+	    <p><span style="font-weight:bold;font-family:Arial;font-size:11pt">Issues </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-family:Arial;font-size:11pt">21.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant is challenging the Commissioner&#8217;s application of the public interest test. The issues are:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">a.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">For the information withheld under the exceptions in Regulations 12(4)(d), 12(4)(e) and 12(5)(b), does the public interest in maintaining the exception outweigh the public interest in disclosing the information?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">b.</num>
+	    <intro>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">For the information withheld under Regulation 13:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.89in;text-indent:-0.2in">i.</num>
+	      <content>
+		<p style="margin-left:0.89in"><span style="font-family:Arial;font-size:11pt">Is the data controller or third party or parties to whom the data are disclosed pursuing a legitimate interest or interests?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.89in;text-indent:-0.2in">ii.</num>
+	      <content>
+		<p style="margin-left:0.89in;text-indent:0.05in"><span style="font-family:Arial;font-size:11pt">Is the processing involved necessary for the purposes of those interests?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.89in;text-indent:-0.2in">iii.</num>
+	      <content>
+		<p style="margin-left:0.89in;text-indent:0.18in"><span style="font-family:Arial;font-size:11pt">Are those interests overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data?</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:Arial;font-size:11pt">22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">By way of evidence and submissions we had the following, all of which we have taken into account in making our decision:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">An agreed bundle of open documents.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">b.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">A closed bundle of documents containing all of the information within the scope of the Request, which shows how exceptions have been applied to this information.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">c.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">Written submissions from the Appellant.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">d.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">Oral submissions from the Appellant at the hearing.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:Arial;font-size:11pt">Evidence and key facts</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num style="font-family:Arial;font-size:11pt">23.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The underlying planning matter has a long and complex history. The Appellant says that the Commissioner failed to evaluate the detailed background information he had provided, which is very relevant to the balance of the public interest. We spent some time during the hearing discussing this background and relevant items of written evidence.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:Arial;font-size:11pt">24.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The context is a long-standing dispute about development on land next to the Appellant&#8217;s property. He originally sold this land over 20 years ago. Part of the land was then sold on to another party. There has been development of this land over a number of years. The Appellant&#8217;s overall concern is that there has been development in breach of planning conditions, and he believes there may have been bias and predetermination by the Council when they granted a new planning permission which allowed this development.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:Arial;font-size:11pt">25.</num>
+	  <intro>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">Some of the key events and documents are as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">a.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">The Appellant was concerned that there was a new build rather than conversion taking place on the land, which was in breach of the original planning consent. He believed there should be a new planning application before this could take place. He also says that the site is in the countryside, and the Council has a policy that new builds are not permitted on this type of land.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">b.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">The Council denied that there was any breach of planning consent. We have seen a letter from the planning development manager dated 15 July 2020 which sets out the Council&#8217;s position that the development is lawful. A subsequent email to the Appellant says they will not be entering into any further correspondence on these issues, and this is repeated in a letter dated 9 February 2021.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">c.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">On 19 April 2021 the Appellant&#8217;s solicitors sent a lengthy letter to the Council setting out reasons why the latest planning application should be refused, based on prior planning permissions not having been lawfully implemented. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">d.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">On 14 July 2021 the Council wrote to the planning permission applicants (the owners of the developments) stating that recent developments were unauthorised (we have only seen one of these letters, but it seems to be undisputed that the Council wrote to both applicants). The letter proposes a way forward of withdrawing the present planning application, drawing up accurate plans of the present state of the complex, and re-submitting an application to grant permission for these works retrospectively and prospectively for any necessary residential development. We have also seen an email from a planning officer to a colleague about the planning matter dated 31 August 2021, which says &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">We sought Counsel advice on Helions Hall and unfortunately it transpired that site does not have a lawful planning permission</span><span style="font-family:Arial;font-size:11pt">&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">e.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">This information was not communicated to the Appellant. He found out about the Council&#8217;s new position when he received documents in response to an earlier information request. The Council had told the Appellant on 7 July 2021 that they had received Counsel&#8217;s advice and would be writing formally with the Council&#8217;s position after discussion with the planning development manager. The Appellant&#8217;s solicitors chased for a response on 6 August and 14 September 2021. The Appellant&#8217;s solicitors wrote with concerns about this and other matters on 25 January 2023.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">f.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">On 3 February 2023, Helions Bumpstead Parish Council wrote to the Council expressing concern that they had not been told about the letters to the applicants in July 2021 which said there was no valid extant consent for development on the site. This letter says, &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">The HBPC also think it is important that the Braintree District Council issue a formal notice to all former and present consultees, and the wider general public, that there is no present valid consent for the Site, in order to make it clear that the application raises important issues related to development of three dwellings in the countryside contrary to local plan policies, and that the application will be judged on planning merit and not treated as an administrative exercise</span><span style="font-family:Arial;font-size:11pt">.&#8221; Slightly more than an hour later, the planning officer asks two Councillors whether they want the planning application to be considered at Planning Committee. The attached briefing does not appear to reference the latest letter from the Parish Council. The Appellant says that he has never seen a signed version of the decision to use delegated powers rather than take the matter to the Planning Committee.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">g.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">The Appellant drew our attention to some items of correspondence from representatives for the applicants which he says show a &#8220;cosy&#8221; relationship with the Council. These include various requests to meet and to see Counsel&#8217;s opinion, although there is no evidence that a meeting did take place (and we note a later email complaining about failure to meet causing months of delay). The Appellant also referred to an email about moving matters forward &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">with minimal risk to both parties</span><span style="font-family:Arial;font-size:11pt">&#8221; which he says suggests the Council would have been concerned about legal action from the applicants.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">h.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">The Council did grant the new planning consents. This involves a new build in the countryside.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:Arial;font-size:11pt">Discussion and Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_26">
+	  <num style="font-family:Arial;font-size:11pt">26.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant has made a number of criticisms of the Commissioner&#8217;s approach and thoroughness in this matter. As explained at the start of the hearing, we are re-deciding the matter based on all of the evidence presented to us, including the withheld information in the closed bundle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:Arial;font-size:11pt">27.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We start with the public interest test for Regulations 12(4)(d), 12(4)(e) and 12(5)(b). The Appellant relies on the same public interest arguments for each exception. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:Arial;font-size:11pt">28.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We have assessed these interests at the time when part 2 of the Request was responded to, which is 16 September 2024. As there was no reconsideration of the Council&#8217;s decision, we do not consider that there is any later decision which would change this timing in accordance with </span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">O&#8217;Hanlon</span><span style="font-family:Arial;font-size:11pt">. We also do not consider that any additional period of up to 40 days for reconsideration would make a difference to our decision, as the time limit for any planning appeal did not expire until January 2025. The Appellant has suggested that the public interest should be assessed at the time of the Commissioner&#8217;s decision, but that is not the correct test. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:Arial;font-size:11pt">29.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">The public interests relied on by the Appellant.</span><span style="font-family:Arial;font-size:11pt"> The Appellant&#8217;s overall position is that there is suspicion of predetermination and/or bias by the Council in making the final planning decision. He is seeking further evidence to support this, which could form the basis of a challenge through judicial review. He says that there is a high bar to show there is sufficient evidence for a full trial to proceed, which is why the information is needed. He also says that there is a reasonable basis for concerns about wrongdoing, and so this is a matter of public concern.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:Arial;font-size:11pt">30.</num>
+	  <intro>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant points to various matters that suggest wrongdoing by the Council:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">a.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">Concealment &#8211; as the Council maintained the development was lawful and then did not reveal that they had changed their position after receiving Counsel&#8217;s advice, despite chasing from his solicitors. We agree that the evidence shows the Council maintained one position for a considerable period of time, changed their view after receiving Counsel&#8217;s advice, and the Appellant was not kept informed about the change of position.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">b.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">&#8220;Cosy&#8221; relationship with the applicants &#8211; based on the disclosed correspondence with their representative. We agree that this shows requests for meetings and for a copy of Counsel&#8217;s advice, but we disagree that this shows an inappropriately &#8220;cosy&#8221; relationship. The evidence suggests that there was no meeting, and we have seen no evidence that Counsel&#8217;s opinion was provided to the applicants. We also do not agree that a reference to &#8220;risk&#8221; to both parties in this correspondence indicates that the Council was being threatened with legal action and/or concerned about this possibility to the extent that they would have behaved inappropriately.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">c.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">Ignoring of Parish Council objections &#8211; as these do not appear to have been referred to in advance of the decision to use delegated powers. We agree that the briefing we have seen does not appear to reference the February 2023 letter from the Parish Council.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">d.</num>
+	    <content>
+	      <p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">Planning permission was given for a new build in the countryside against usual policy. The panel does not have detailed knowledge of planning policy in the area, but we have no reason to doubt the Appellant&#8217;s position that this was against the Council&#8217;s usual position. This was also a concern raised by the Parish Council.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:Arial;font-size:11pt">31.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We have considered the Appellant&#8217;s concerns about how the Council dealt with this matter and why he believes there may have been wrongdoing, including the more detailed information in his original complaint to the Commissioner. We do not agree with all of the Appellant&#8217;s points. We do, however, accept that there is some evidence which would lead to an enhanced public interest in understanding how this matter unfolded and why the Council made certain decisions &#8211; including the decision to grant planning permission in this case. As stated in the Appellant&#8217;s written submissions, there is a general public interest in transparency, accountability and environmental participation in relation to planning decisions. This general public interest is enhanced in this case because there is some cause for concern about what happened and why.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:Arial;font-size:11pt">32.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant also refers to the need for full disclosure for the purposes of a judicial review application. The EIR involves disclosure to the world at large, and its purpose is not to provide individuals with information to assist with legal disputes. Court proceedings have their own mechanisms for disclosure of relevant information, and there is a pre-action protocol for judicial review which covers requests for information and documents at the pre-action stage. We do accept that judicial review of a planning decision may be in the public interest, and so there is some overlap with the public interests in transparency and accountability. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:Arial;font-size:11pt">33.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We find that there is potentially a strong public interest in disclosure in this case, but this largely depends on what is contained in the withheld material. We have therefore looked at the material in the closed bundle on this basis, in light of the Appellant&#8217;s concerns about wrongdoing. We have assessed for each exception whether the information we have seen indicates a strong public interest that it should be disclosed, and whether this is outweighed by the public interest in maintaining each exception. If the withheld information supports the Appellant&#8217;s suspicions of wrongdoing, this would strengthen the public interest in disclosure.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:Arial;font-size:11pt">34.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Regulation 12(4)(d) (material in the course of completion) - does the public interest in maintaining the exception outweigh the public interest in disclosing the information?</span><span style="font-family:Arial;font-size:11pt"> We have considered the balance of the public interest and find that the public interest in maintaining the exception outweighs the public interest in disclosing the information, meaning that the Council was entitled to withhold the information that is covered by this exception.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:Arial;font-size:11pt">35.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Council&#8217;s representations to the Commissioner say that the withheld information is drafts of Council decision reports and delegated decision notices. They say it is standard procedure for planning officers to draft reports and pass them to their senior officer and Head of Service, &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">to enable colleagues to test their thought processes which ensures that any final decisions taken are robust</span><span style="font-family:Arial;font-size:11pt">&#8221;. We agree with the Council&#8217;s position that the purpose of this exception is to provide authorities with a safe space to exchange views and test decisions without being subject to public scrutiny. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:Arial;font-size:11pt">36.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">This is a class-based exception, so there is no need to show particular prejudice in this case. However, the circumstances are relevant to the strength of the public interest in withholding the information. We understand that the planning application was still live at the time of the Council&#8217;s response to the Request (as it was within the time limit for an appeal), and there was also the possibility of a judicial review. Disclosure at that time could have led to additional arguments for the Council to deal with, despite the fact that final versions of these documents had been published. We also agree with the Council that there would be a genuine risk of a &#8220;chilling effect&#8221; on planning officers, who would feel less able to be candid and frank in drafts if these might be published to the public &#8211; particularly in a more contentious planning matter such as this one where there might be legal challenges from all sides. It is strongly in the public interest for planning officers to be as open as possible in draft reports, to ensure the best decision-making. The public interest is largely served by publication of the final documents, which give the actual reasons relied on for the Council&#8217;s decisions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:Arial;font-size:11pt">37.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We have looked at the withheld information. There are only three documents, and we are satisfied that final versions of these documents were published later. The Appellant said at the hearing that these would maybe provide &#8220;colour&#8221; to a planning judge looking at the matter, such as by showing a major change of direction. We have considered the withheld information in light of this and the Appellant&#8217;s arguments about potential wrongdoing, and have applied the presumption of disclosure. Having done so, we are satisfied that the public interest in maintaining this exception, which is based on ensuring that there is a safe space for exchanging views and testing draft decisions, is sufficient to outweigh the public interest in disclosure of these documents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:Arial;font-size:11pt">38.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Regulation 12(4)(e) (internal communications) - does the public interest in maintaining the exception outweigh the public interest in disclosing the information?</span><span style="font-family:Arial;font-size:11pt"> We have considered the balance of the public interest and find that the public interest in maintaining the exception outweighs the public interest in disclosing the information, meaning that the Council was entitled to withhold the information that is covered by this exception.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:Arial;font-size:11pt">39.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Council&#8217;s representations to the Commissioner confirm that they had removed a number of redactions relating to internal communications, due to the passage of time. It is clear from the closed bundle that many internal communications were disclosed to the Appellant. The Council explain that the withheld information was &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">email discussions between colleagues as to the approach to take with regards the corrective planning application, how to handle the case, concerns and the thought processes regards the decision making</span><span style="font-family:Arial;font-size:11pt">&#8221;. The Council say that the process of planning officers taking advice from senior officers and Heads of Service should be a protected space. We agree that the purpose of this exception is to create a protected space for reflection and internal discussions, in order to ensure that the best possible decisions are made by a public authority.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:Arial;font-size:11pt">40.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">Again, this is a class-based exception, but the circumstances are relevant to the strength of the public interest in withholding the information. The possibility of a planning appeal and/or judicial review at the time of the Council&#8217;s response to the Request made it particularly important that officers were able to continue having open and frank discussions, and this would have been damaged if internal communications were disclosed publicly. The Council also made the point to the Commissioner that the property as a whole was a work in progress, and disclosure could inhibit future internal conversations about the site. Again, it is strongly in the public interest for planning officers to be as open as possible in their internal discussions with senior members of staff, to ensure the best decision-making.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:Arial;font-size:11pt">41.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We have looked at the withheld information. There are only a few items that have actually been withheld, and most of these are redactions from wider communications that have been disclosed. The Appellant said at the hearing that these might indicate that predetermination or bias were in play. We have considered the withheld information in light of the Appellant&#8217;s arguments about potential wrongdoing, and have applied the presumption of disclosure. Having done so, we are satisfied that the public interest in maintaining this exception, which is based on ensuring that there is a protected space for internal discussions, is sufficient to outweigh the public interest in disclosure of these documents.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:Arial;font-size:11pt">42.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Regulation 12(5)(b) (course of justice) - does the public interest in maintaining the exception outweigh the public interest in disclosing the information?</span><span style="font-family:Arial;font-size:11pt"> We have considered the balance of the public interest and find that the public interest in maintaining the exception outweighs the public interest in disclosing the information, meaning that the Council was entitled to withhold the information that is covered by this exception.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:Arial;font-size:11pt">43.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Council&#8217;s representations to the Commissioner say that all of the information withheld is requests for legal advice, and the legal advice given by a professional barrister to the Council in relation to the planning permissions and how to correct the situation to minimise legal risk. This is in the context of the complex history of the matter and the ongoing concerns of the Appellant, the applicants, the Parish Council, and others with an interest in the matter.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:Arial;font-size:11pt">44.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The starting point is the strong public interest built into legal privilege, based on the interest in public bodies being able to receive frank legal advice in order to assist them to make appropriate decisions. As set out in </span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">DBERR</span><span style="font-family:Arial;font-size:11pt">, this needs to be given significant weight. The weight is added to in this case by the fact that, at the time of the request, both a planning appeal and judicial review were a possibility (and judicial review remains possible even now). Disclosure of privileged legal advice would significantly undermine the level playing field between the Council and any potential legal challenger, by giving one-sided insight into legal advice on risks. It is clearly not in the public interest for the Council to be legally disadvantaged in this way.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:Arial;font-size:11pt">45.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">Although this exception has significant weight, which has been added to by the particular circumstances of this case, it is still possible for public interest in disclosure to equal or outweigh it - for example, if there is clear evidence of wrongdoing. We have considered the withheld material in light of the Appellant&#8217;s arguments about potential wrongdoing, and have applied the presumption of disclosure. Having done so, we are satisfied that the public interest in maintaining this exception clearly outweighs the public interest in disclosure.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:Arial;font-size:11pt">46.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Regulation 13 (personal data).</span><span style="font-family:Arial;font-size:11pt"> This exception accounts for the majority of the redactions in the information that has been disclosed. We asked the Appellant about this at the hearing. He confirmed he was not seeking personal details such as emails or home addresses, or names of junior council officers. He also confirmed he was not seeking information about the personal life situations of the applicants. However, he argued that there might be information that was uncomfortable to the applicants but relevant to whether there had been predetermination or bias. The Council&#8217;s representations to the Commissioner confirm that they had redacted some of the details provided by the applicants, including pictures showing the inside of their home as part of the ecological survey, and information on how they planned to use the property. We have considered the parts of the test in turn.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:Arial;font-size:11pt">47.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-family:Arial;font-size:11pt">Is the data controller or third party or parties to whom the data are disclosed pursuing a legitimate interest or interests?</span><span style="font-family:Arial;font-size:11pt"> We accept that there could be a legitimate interest in some of the personal data about the applicants and/or others who submitted objections or representations to the Council about this matter. This would further the openness and transparency of planning decisions generally, and this decision in particular in light of its complex history.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:Arial;font-size:11pt">48.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-family:Arial;font-size:11pt">Is the processing involved necessary for the purposes of those interests?</span><span style="font-family:Arial;font-size:11pt"> We accept that it is necessary in that it would be the only way to provide the full details of these matters.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:Arial;font-size:11pt">49.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-family:Arial;font-size:11pt">Are these interests overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data?</span><span style="font-family:Arial;font-size:11pt"> We find that they are. The withheld information is clearly personal to the applicants. We accept that there is a clear expectation of property owners (and those responding to consultations on planning) that personal details will be kept confidential and not disclosed to the world at large under EIR. As pointed out by the Council in their representations to the Commissioner, in this case, the applicants provided an unusual amount of personal information due to the need to unpick what had been done previously. We also note the Council&#8217;s representations that these additional details go beyond what is necessary for the public to understand the decision-making process. For example, the details discussed with the applicants were then factored into the relevant published plans.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:Arial;font-size:11pt">50.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We therefore find it would not be lawful to disclose this personal data under EIR, and the Council was entitled to withhold the information that is covered by this exception.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:Arial;font-size:11pt">51.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We have the advantage of being able to see the closed bundle in its entirety. Overall, we find that the Council appears to have disclosed the majority of the information within the scope of the Request, and has applied exceptions in an appropriately narrow and targeted way. In summary, having considered each of the categories of withheld information, we find that the Council was entitled to withhold all of this information under the exceptions relied on.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:Arial;font-size:11pt">52.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We dismiss the appeal.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p class="Style7" style="margin-left:0in"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Signed:</span><span style="font-family:Arial;font-size:11pt">  Judge Hazel Oliver </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:Arial;font-size:11pt">Date:</span><span style="font-family:Arial;font-size:11pt"/><docDate date="2025-11-27" refersTo="#decision" style="font-family:Arial;font-size:11pt">27 November 2025</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1326 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1283"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1283"/>
+	  <FRBRdate date="2025-11-03" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1283"/>
+	  <FRBRname value="Anna Harrison v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1283"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1283"/>
+	  <FRBRdate date="2025-11-03" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1283/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1283/data.xml"/>
+	  <FRBRdate date="2025-11-03T09:44:01" name="transform"/>
+	  <FRBRdate date="2025-11-03T10:16:08" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-06-10" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-10-30" refersTo="#decision" source="#"/>
+	<eventRef date="2025-11-03" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="anna-harrison" href="" showAs="ANNA HARRISON"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1283</uk:number>
+	<uk:cite>[2025] UKFTT 1283 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>df49c9d098874bcbbe69a83338ad0bd00e5055c70251d2b1ce4cc8d121afaf47</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { margin-left: 0.08in; font-weight: bold; font-family: Arial; font-size: 11pt; }
+#judgment .Heading2 { margin-left: 0.08in; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 14pt; }
+#judgment .Heading3 { margin-left: 0.21in; font-weight: bold; font-family: Cambria; font-size: 11pt; }
+#judgment .Heading4 { margin-left: 0.57in; font-style: italic; font-weight: bold; font-family: Cambria; font-size: 11pt; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .bodytexttax1 { font-size: 12pt; }
+#judgment .BodyText { margin-left: 0.33in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .TableParagraph { font-size: 11pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .PlainText { font-family: Consolas; font-size: 10.5pt; }
+#judgment .leglisttextstandard { font-size: 12pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .legp2paratext { font-size: 12pt; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .Numbered { text-align: justify; font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .Bulletpoint { text-align: justify; margin-left: 0.39in; font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .Draftingnumberedparas { text-align: justify; margin-left: 0.49in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .legds { }
+#judgment .FootnoteReference { text-transform: none; font-variant: normal; vertical-align: super; color: initial; }
+#judgment .BodyTextChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 11pt; }
+#judgment .Heading2Char { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 14pt; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .PlainTextChar { font-family: Consolas; font-size: 10.5pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 11pt; }
+#judgment .Heading4Char { font-style: italic; font-weight: bold; font-family: Cambria; font-size: 11pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .legsubstitution { }
+#judgment .legchangedelimiter { }
+#judgment .legaddition { }
+#judgment .Strong { font-weight: bold; }
+#judgment .legp1no { }
+#judgment .FootnoteTextChar { }
+#judgment .UnresolvedMention1 { color: #605E5C; background-color: initial; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .judgment-bodynumber { }
+#judgment .judgment-bodycopy-link-tooltip { }
+#judgment .judgmenthidden { }
+#judgment .visually-hidden { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:95.55pt;height:61.6pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2025] UKFTT 01283 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"/><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: FT/EA/2024/0239</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">General Regulatory Chamber</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua'">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2025-06-10" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">10 June 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2025-11-03" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">03 November 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE STEPHEN ROPER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER RAZ EDWARDS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER PAUL TAYLOR</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#anna-harrison" style="font-weight:bold;font-family:'Book Antiqua'">ANNA HARRISON</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner"><span style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION </span><span style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">COMMISSIONER</span></party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Sam Dunning, of UK-China Transparency</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent: did not appear and was not represented</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Allowed in part</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Substituted Decision Notice:</span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">The Tribunal&#8217;s Decision Notice in case reference FT/EA/2024/0239, set out below, is substituted for the Information Commissioner&#8217;s Decision Notice reference</span><span style="font-family:'Book Antiqua';color:#000000"> IC-284985-V2B4, dated 22 May 2024</span><span style="font-family:'Book Antiqua'">, with regard to the request for information made to </span><span style="font-family:'Book Antiqua';color:#000000">King&#8217;s College London</span><span style="font-family:'Book Antiqua'"> by Anna Harrison dated 11 August 2023.</span></p>
+      <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Substituted Decision Notice</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">1.</num>
+	<p style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Except as provided in paragraphs 2 and 3 below:</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">(a)</num>
+	<p style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">King&#8217;s College London (the &#8220;College&#8221;) is entitled to rely on section 40(2) of the Freedom of Information Act 2000 (the &#8220;Act&#8221;) in respect of the information it withheld in reliance on that section;</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">(b)</num>
+	<p style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the College is entitled to rely on section 41(1) of the Act in respect of the information it withheld in reliance on that section;</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">(c)</num>
+	<p style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the College is entitled to rely on section 43(2) of the Act in respect of the information it withheld in reliance on that section.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">2.</num>
+	<p style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The College is not entitled to rely on section 41(1) of the Act or section 43(2) of the Act to withhold the following information:</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">(a)</num>
+	<p style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">a copy of the Gift Agreement entered into by the College and Dr Lau Ming-wai in 2011; and</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">(b)</num>
+	<p style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">a copy of the Donation Agreement entered into by the College and Dr Lau in 2020 (including the &#8216;Confirmation Paper&#8217; appended to it).</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">3.</num>
+	<p style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The College is not entitled to rely on section 40(2) of the Act to withhold Dr Lau&#8217;s name or the details of the donations in the above agreements.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">4.</num>
+	<p style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The College must disclose the information specified in paragraph 2 above, subject to any redactions of personal data pursuant to section 40(2) of the Act (save as provided in paragraph 3 above).  The College must do this within 35 days of this decision being sent to it in accordance with the directions below, or (if there is an application to appeal this decision) within 28 days after being notified of an unsuccessful outcome to such application or any resulting appeal.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">5.</num>
+	<p style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The College breached section 10(1) of the Act by failing to disclose information to which the requestor was entitled within 20 working days following the date of receipt of the request.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">6.</num>
+	<p style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The College breached section 17(1) of the Act by failing to issue a refusal notice within 20 working days following the date of receipt of the request.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">7.</num>
+	<p style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Failure to comply with this decision may result in the Tribunal making written certification of this fact pursuant to section 61 of the Act and may be dealt with as a contempt of court.</span></p>
+      </blockContainer>
+      <p class="Default" style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua';color:initial">Directions</span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">The Information Commissioner is directed to send a copy of this decision to King&#8217;s College London within 14 days of its promulgation.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt;color:#000000">Preliminary matters</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua'">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">In this </span><span style="font-family:'Book Antiqua'">decision</span><span style="font-family:'Book Antiqua';color:#000000">, we use the </span><span style="font-family:'Book Antiqua'">following</span><span style="font-family:'Book Antiqua';color:#000000"> terms to denote the meanings shown:</span></p>
+	      <table class="TableGrid" uk:widths="1.97in 4.33in">
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Agreements:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">The Gift Agreement and the Donation Agreement.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Appellant:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">Anna Harrison.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">College:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">The Council of King&#8217;s College London.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Commissioner:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The Information Commissioner (the Respondent).</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Decision Notice:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The Decision Notice of the Commissioner dated 22 May 2024, reference IC-284985-V2B4, relating to the Request.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Disclosed Information:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The aspects of the Requested Information which were disclosed by the College in response to the Request.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua'">Donation Agreement:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The </span><span style="font-family:'Book Antiqua'">Donation Agreement entered into by the College and Dr Lau Ming-wai in 2020, as referred to in paragraph 50.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Duty to Disclose:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The duty of a public authority to communicate requested information which it holds, pursuant to section 1(1)(b) (set out in paragraph 24).</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">FOIA:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The </span><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua'">Gift Agreement:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The </span><span style="font-family:'Book Antiqua'">Gift Agreement entered into by the College and Dr Lau Ming-wai in 2011, as referred to in paragraph 50.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Legitimate Interests Basis:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The basis for lawful processing of personal data specified in Article 6(1)(f), as set out in paragraph 34.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Legitimate Interests Test:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The three-part test for establishing the Legitimate Interests Basis, referred to in paragraph 36.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Public Interest Test:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua'">The test, pursuant to section 2(2)(b) (set out in paragraph 27), as to whether, in all the circumstances of the case, the public interest in maintaining the exemption to the Duty to Disclose outweighs the public interest in disclosing the information.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Request:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The request for information made to the College by the Appellant dated </span><span style="font-family:'Book Antiqua'">11 August 2023,</span><span style="font-family:'Book Antiqua';color:#000000"> as set out in paragraph 6.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Withheld Information:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The information held by the College within the scope of items (a), (c), (d) and (e) of the Request which was withheld by the College </span><span style="font-family:'Book Antiqua'">and which was included in the closed bundle</span><span style="font-family:'Book Antiqua';color:#000000">.</span></p>
+		  </td>
+		</tr>
+	      </table>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua'">2.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Unless the context otherwise requires (or as otherwise expressly stated), references in this </span><span style="font-family:'Book Antiqua';color:#000000">decision</span><span style="font-family:'Book Antiqua'">:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">to numbered paragraphs are references to paragraphs of this decision so numbered;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">to any section are references to the applicable section of FOIA;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">to the Commissioner&#8217;s &#8220;investigation&#8221; mean the Commissioner&#8217;s investigation, for the purposes of section 50, of the Appellant&#8217;s complaint relating to the College&#8217;s response to the Request.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt;color:#000000">Introduction</span></heading>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua'">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">This was an appeal against the Decision Notice, which (in summary) concluded that the College could rely on section 41(1) and section 43(2) to withhold the information which it had withheld in reliance on those sections.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua'">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We should note that, during the course of the appeal proceedings, questions were raised regarding the correct identity of the appellant.  The appeal was initially lodged in the name of UK-China Transparency (a charitable incorporated organisation) but the Commissioner commented in his response to the appeal that UK-China Transparency did not submit the Request.  As part of the case management of the appeal, submissions were sought by the parties regarding the correct appellant.  Subsequently, Case Management Directions dated 20 March 2025 recorded that the correct Appellant was Anna Harrison and that she had authorised UK-China Transparency to act on her behalf.  As we note in paragraph 21, a director of UK-China Transparency represented the Appellant in the oral hearing.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua'">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We considered whether it was necessary for us to provide a closed decision.  We concluded that it would not be necessary, on the basis that the reasoning behind this decision can be sufficiently understood without us needing to disclose any sensitive aspects of the material in the closed bundle.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt;color:#000000">Background to the Appeal</span></p>
+	    <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The Request</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua'">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">On 11 August 2023, the Appellant contacted the College via email and requested information in the following terms:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">This is an FOI request about the Lau China Institute.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">It has been reported that the Lau China Institute was set up following a donation from Dr Lau Ming-wai, who is based in Hong Kong. Please provide</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">emails sent in 2011 and 2012 between KCL staff responsible for administering this donation and Dr Lau,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">any due diligence conducted by KCL on Dr Lau,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">c)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">a list of Dr Lau's visits to the Institute,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">d)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">any agreement or MoU signed in relation to this gift,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">e)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">details of any requests Dr Lau made in respect of his gift or has made since,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">f)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">details of any further donations by Dr Lau, or any other 'ongoing support' as mentioned here (https://www.kcl.ac.uk/lci/assets/ming-wai-lau-summary-report-final-2020.pdf)</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">g)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">information as to how Dr Lau's donation is held by KCL. Is it invested? Is it in an endowment?</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua'">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The College responded on 23 November 2023 (after some correspondence regarding clarification of aspects of the Request).  It disclosed the amounts pledged by Dr Lau Ming-wai, including the date of the donations and a brief description of the funds, which we address in more detail in paragraph 48. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua'">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Appellant requested an internal review in respect of the College&#8217;s handling of the Request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua'">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The College provided the outcome of its internal review on 28 December 2023.  In addition to the previously disclosed information, it disclosed its standard terms and conditions for donations, its donations acceptance policy and details relating to how the donations were held.  The College withheld the remaining information which it held within the scope of the Request, citing section 40(2) (personal information), section 41(1) (information provided in confidence) and section 43(2) (commercial interests).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua'">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Appellant (via UK-China Transparency) contacted the Commissioner on 25 January 2024 to complain about the College&#8217;s response to the Request.  The Commissioner subsequently issued the Decision Notice.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The Decision Notice</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua'">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Commissioner recorded that the Appellant&#8217;s complaint was concerned with the College&#8217;s response to items (a), (c), (d) and (e) of the Request, but that there was some acceptance from the Appellant that data privacy might &#8220;rule out&#8221; a response regarding item (c).  The Commissioner considered that the scope of his investigation was to focus on the College&#8217;s reliance on section 41(1), section 43(2) and section 40(2) in respect of the Request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua'">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In the Decision Notice, the Commissioner decided that (in essence):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">section 41(1) was engaged in respect of the information held by the College within the scope of items (a), (c) and (e) of the Request; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">section 43(2) was engaged in respect of the information held by the College within the scope of items (a), (c), (d) and (e) of the Request and (in respect of the Public Interest Test) the public interest favoured withholding the relevant Requested Information.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua'">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Decision Notice recorded that, as the Commissioner had concluded that the relevant Requested Information had been correctly withheld by the College under section 41 and section 43, he had not gone on to consider the application of section 40(2) to the Requested Information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua'">14.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Decision Notice also recorded the Commissioner&#8217;s findings that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the College had breached section 1(1)(b) and section 10(1) regarding the timescales within which it provided the Disclosed Information to the Appellant; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the College had breached section 17(1) by later relying on new exemptions in its response to the Request.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua'">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Decision Notice did not require the College to take any further steps.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt;color:#000000">The appeal</span></p>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The grounds of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua'">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In summary, the material aspects of the Appellant&#8217;s grounds of appeal were as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">Whilst the Disclosed Information included the College&#8217;s standard terms and conditions for donations for a donation agreement, the standard terms and conditions specified that the purpose of the donation was as set out in a schedule to the donation agreement,</span><span style="font-weight:bold;font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua'">which was missing from the Disclosed Information.  Therefore the purpose for which the donation was to be used had not been disclosed, contrary to the statement to that effect in paragraph 56 of the Decision Notice.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">Likewise, it was reasonable to assume that the Commissioner was not referring to the &#8216;purpose&#8217; of the donation when he was considering the issue of &#8220;commercially sensitive information&#8221; &#8211; and the Decision Notice did not further address the concept of &#8220;commercially sensitive information&#8221;.  There is a difference between information which is &#8216;commercially sensitive&#8217; and information which ought not to be disclosed because it would prejudice commercial interests.  The Commissioner erred in accepting the College&#8217;s view that the relevant Requested Information was &#8220;commercially sensitive&#8221; and then deciding that it should not be disclosed because its disclosure would harm a person&#8217;s commercial interests.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:TimesNewRomanPSMT;margin-left:0.79in;text-indent:-0.39in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">In not disclosing the schedule to the donation agreement, the whole agreement had not been disclosed.  If the basis of that non-disclosure was because the donation agreement contains confidential information, the definition of &#8216;confidential information&#8217; within the donation agreement was important.  The standard terms and conditions to the donation agreement define &#8216;confidential information&#8217; as information &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">belonging to a party relating to its business, academic, scientific or other activities</span><span style="font-family:'Book Antiqua'">&#8221;.  This definition gave a &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">proper scope to the idea of confidentiality</span><span style="font-family:'Book Antiqua'">&#8221; and is narrower than the &#8216;default&#8217; approach which was adopted by the Commissioner in the Decision Notice.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The Tribunal&#8217;s powers and role</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua'">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The powers of the Tribunal in determining the appeal are set out in section 58, as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">If on an appeal under section 57 the Tribunal considers&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">that the notice against which the appeal is brought is not in accordance with the law, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently,</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">On such an appeal, the Tribunal may Review any finding of fact on which the notice in question was based.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua'">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In summary, therefore, the Tribunal&#8217;s remit for the purposes of the appeal was to consider whether the Decision Notice was in accordance with the law.  In reaching its decision, the Tribunal may review any findings of fact on which the Decision Notice was based and the Tribunal may come to a different decision regarding those facts.  Essentially, the Tribunal is empowered to undertake a &#8216;full merits review&#8217; of the appeal before it (so far as the Decision Notice is concerned).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Mode of hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua'">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The proceedings were held by the cloud video platform.  The Tribunal panel and the Appellant&#8217;s representative joined remotely.  The Tribunal was satisfied that it was fair and just to conduct the hearing in this way.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua'">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">At one point during the hearing, the Judge temporarily lost his connection to the video link.  The hearing continued from the point when the connection had been lost and the Tribunal was satisfied that nothing had been missed.  There were no other interruptions of note during the hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua'">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Appellant was represented by Sam Dunning, a director of UK-China Transparency (the Appellant herself did not appear).  The Commissioner did not appear and was not represented.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The evidence and submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua'">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal read and took account of an open bundle of evidence and pleadings, as well as a closed bundle.  The closed bundle contained information within the scope of items (a), (c), (d) and (e) of the Request which had been withheld by the College.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua'">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">All of the contents of the bundles were taken into account, as well as the oral submissions provided by Mr Denning during the hearing, even if not directly referred to in this decision.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt">The </span><span style="font-weight:bold;font-family:'Book Antiqua'">relevant statutory framework</span><authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"><span style="font-family:'Book Antiqua'"> We </span><span style="font-family:'Book Antiqua'">acknowledge the Practice Direction dated 4 June 2024 (</span><a class="Hyperlink" href="https://www.judiciary.uk/guidance-and-resources/practice-direction-from-the-senior-president-of-tribunals-reasons-for-decisions/" style="font-family:'Book Antiqua'">https://www.judiciary.uk/guidance-and-resources/practice-direction-from-the-senior-president-of-tribunals-reasons-for-decisions/</a><span style="font-family:'Book Antiqua'">) and particularly paragraph 9, which refers to the First-tier Tribunal not needing to specifically refer to relevant authorities.  We include references to the applicable legislative framework, to provide relevant context, but (apart from the reference to the Legitimate Interests Test) have accordingly not referred to the applicable case law.</span></p>
+	      </authorialNote><span style="font-weight:bold;font-family:'Book Antiqua'"> and legal principles</span></p>
+	    <p><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">General principles</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua'">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">Section</span><span style="font-family:'Book Antiqua'"> 1(1) provides individuals with a general right of access to information held by public authorities.  It provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">Any person making a request for information to a public authority is entitled&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">to be informed in writing by the public authority whether it holds information of the description specified in the request, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">if that is the case, to have that information communicated to him.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua'">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In essence, under section 1(1), a person who has requested information from a public authority is entitled to be informed in writing whether it holds that information.  If the public authority does hold the requested information, that person is entitled to have that information communicated to them.  However, those entitlements are subject to the other provisions of FOIA, including some exemptions and qualifications which may apply even if the requested information is held by the public authority.  Section 1(2) provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">Subsection (1) has effect subject to the following provisions of this section and to the provisions of sections 2, 9, 12 and 14.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua'">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Accordingly, section 1(1) does not provide an unconditional right to be told whether or not a public authority holds any information, nor an unconditional right of&#160;access&#160;to any information which a public authority does hold.  The rights contained in that section are subject to certain other provisions of FOIA, including section 2.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua'">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Section 2(2) addresses potential exemptions to the Duty to Disclose.  That section provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">In respect of any information which is exempt information by virtue of any provision of Part II, section 1(1)(b) does not apply if or to the extent that&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">the information is exempt information by virtue of a provision conferring absolute exemption, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">in all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing the information.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua'">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The effect of the above is that some exemptions which are set out in Part II of FOIA are absolute and some are subject to the Public Interest Test.  Section 2(3) explicitly lists which of those exemptions are absolute (and, pursuant to that section, no other exclusions are absolute).  So far as is relevant for current purposes, section 40(2) is included in that list, so far as relating to cases where the first condition referred to in that section is satisfied, and section 41 is included in that list.  Section 43(2) is not included in that list.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua'">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Accordingly, in summary:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the exemption to the Duty to Disclose in section&#160;40(2) is an absolute exemption only in cases where that first condition is satisfied, otherwise the exemption is subject to the Public Interest Test;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the exemption to the Duty to Disclose in section 41 is an absolute exemption; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the exemption to the Duty to Disclose in section 43(2) is subject to the Public Interest Test.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Section 10 - Time for compliance with request</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua'">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">So far as is relevant for current purposes, section 10 provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">(1)&#8230; a public authority must comply with section 1(1) promptly and in any event not later than the twentieth working day following the date of receipt.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Section 17 &#8211; Refusal of request</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua'">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">So far as is relevant for current purposes, section 17 provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">A public authority which, in relation to any request for information, is to any extent relying on a claim&#8230; that information is exempt information must, within the time for complying with section 1(1), give the applicant a notice which&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">states that fact,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">specifies the exemption in question, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">states (if that would not otherwise be apparent) why the exemption applies.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Section 40 &#8211; personal information</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua'">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">So far as is relevant, section 40 provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;&#8230;</span><span style="font-style:italic;font-family:'Book Antiqua'">(2) Any information to which a request for information relates is also exempt information if&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">it constitutes personal data which&#160;does&#160;not fall within subsection (1), and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">the first, second or third&#160;condition below is satisfied.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">(3A) The first condition is that the disclosure of the information to a member of the public otherwise than under&#160;</span><a href="http://www.legislation.gov.uk/id/ukpga/2000/36" style="font-style:italic;font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref></a><span style="font-style:italic;font-family:'Book Antiqua'">&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.64in;text-indent:0.12in"><span style="font-style:italic;font-family:'Book Antiqua'">would contravene any of the data protection principles&#8230;</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua'">33.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Section 40(7) sets out applicable definitions for the purposes of section 40, by reference to other legislation, the applicable parts of which are as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">Section 3(2) of the DPA defines &#8220;personal data&#8221; as &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">any information relating to an identified or identifiable living individual</span><span style="font-family:'Book Antiqua'">&#8221;.  The &#8220;processing&#8221; of such information includes &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">disclosure by transmission, dissemination or otherwise making available</span><span style="font-family:'Book Antiqua'">&#8221; (</span><a href="http://www.legislation.gov.uk/id/ukpga/2018/16/section/3/4" style="font-family:'Book Antiqua'">section 3(4)</a><span style="font-family:'Book Antiqua'">(d) of the DPA) and so includes disclosure under FOIA.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">The &#8220;data protection principles&#8221; are those set out in Article 5(1) and section 34(1) of the DPA.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">The first data protection principle, in Article 5(1)(a), is that personal data shall be: &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">processed lawfully, fairly and in a transparent manner in relation to the data subject</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">A &#8220;data subject&#8221; is defined in </span><a href="http://www.legislation.gov.uk/id/ukpga/2018/16/section/3" style="font-family:'Book Antiqua'">section 3</a><span style="font-family:'Book Antiqua'"> of the DPA and means &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">the identified or identifiable living individual to whom personal data relates</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua'">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">To be lawful, the processing must meet one of the bases for lawful processing set out in Article 6(1).   One such basis is where &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data, in particular where the data subject is a child</span><span style="font-family:'Book Antiqua'">&#8221; (Article 6(1)(f)).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua'">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Article 6(1) goes on to include an exception to the Legitimate Interests Basis, stating that it does not apply to processing carried out by public authorities in the performance of their tasks.  However, section 40(8) provides that such exception is to be omitted for the purposes of section 40, meaning that the Legitimate Interests Basis can be taken into account in determining whether the first data protection principle would be contravened by the disclosure of information by a public authority under FOIA.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The Legitimate Interests Test</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua'">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Legitimate Interests Basis is the only basis for lawful processing listed in Article 6(1) which contains a built-in balance between the rights of a data subject and the need to process the personal data in question.  There is a test which must be undertaken in order to determine whether or not the Legitimate Interests Basis can apply in any relevant scenario.  This test involves consideration of three questions, as set out by Lady Hale in the Supreme Court&#8217;s judgment in the case of </span><span style="font-style:italic;font-family:'Book Antiqua'">South Lanarkshire Council v Scottish Information Commissioner</span><authorialNote class="footnote" marker="2">
+		<p class="FootnoteText"><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/55" uk:canonical="[2013] UKSC 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 55</ref>, paragraph 18</span></p>
+	      </authorialNote><span style="font-family:'Book Antiqua'">:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;(i)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">Is the data controller or third party or parties to whom the data are disclosed pursuing a legitimate interest or interests?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(ii)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">Is the processing involved necessary for the purposes of those interests?</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(iii)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">Is the processing unwarranted in this case by reason of prejudice to the rights and freedoms or legitimate interests of the data subject?</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua'">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The wording of question (iii) is taken from the </span><a href="http://www.legislation.gov.uk/id/ukpga/1998/29" style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/1998/29" uk:canonical="1998 c. 29" uk:origin="TNA" uk:type="legislation">Data Protection Act 1998</ref></a><span style="font-family:'Book Antiqua'">, which has been superseded by the DPA and the UK GDPR.  Accordingly, that question should now reflect the wording used in the UK GDPR such that the third question should now be: &#8216;Are those interests overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data?&#8217;. This last limb of the Legitimate Interests Test specifically addresses the balance between the rights of a data subject and the need to process the personal data in question.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua'">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">It may be helpful to make it clear that the relevant test here (the Legitimate Interests Test) is different from the Public Interest Test; the Legitimate Interests Test applies only in respect of the assessment of the lawfulness of processing of personal data for the purposes of the Legitimate Interests Basis.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua'">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The question in the first limb of the Legitimate Interests Test must be satisfied before the second limb can be considered.  Likewise, the question in the second limb of the Legitimate Interests Test must be satisfied before the third limb (the </span><span style="font-family:'Book Antiqua';color:#000000">Balancing Test)</span><span style="font-family:'Book Antiqua'"> can be considered.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua'">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">For the purposes of the second limb of the Legitimate Interests Test, case law has established that the term &#8220;necessary&#8221; means something which is more than desirable but less than indispensable or absolute necessity.  Therefore the test is one of &#8220;reasonable necessity&#8221;. The test of reasonable necessity itself involves the consideration of alternative measures &#8211; consequently, the relevant processing of the personal data in question is not necessary if the legitimate interest being pursued could be achieved by something less (so the processing must be the &#8220;least restrictive&#8221; means of achieving the legitimate interest in question).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Section 41(1) &#8211; information provided in confidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua'">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Section 41(1) provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">Information is exempt information if&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">it was obtained by the public authority from any other person (including another public authority), and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">the disclosure of the information to the public (otherwise than under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/29" uk:canonical="1998 c. 29" uk:origin="TNA" uk:type="legislation">this Act</ref>) by the public authority holding it would constitute a breach of confidence actionable by that or any other person.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Section 43(2) &#8211; commercial interests</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua'">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Section 43(2) provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">Information is exempt information if its disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/29" uk:canonical="1998 c. 29" uk:origin="TNA" uk:type="legislation">this Act</ref> would, or would be likely to, prejudice the commercial interests of any person (including the public authority holding it).</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion and findings</span></p>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Scope of the appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua'">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">At the start of the hearing, Mr Dunning confirmed his view as to the scope of the appeal, with regard to which aspects of the Requested Information were outstanding.  He explained that the appeal was only concerned with item (d) of the Request &#8211; namely, any agreement (or MOU/memorandum of understanding) entered into by Dr Lau Ming-wai regarding donations to the College.  As we explain below, the relevant aspects of the Withheld Information, to which the appeal relates, are therefore the Agreements.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua'">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Accordingly, the focus of the Appellant&#8217;s appeal &#8211; and Mr Denning&#8217;s submissions during the hearing - related to the findings of the Decision Notice in respect of the ability of the College to withhold the Agreements.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua'">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">As we noted in paragraph 12, the Decision Notice concluded that section 43(2) was engaged in respect of the Agreements and that the public interest favoured maintaining that exemption.  The Decision Notice did not conclude that section 41(1) was engaged in respect of the Agreements.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua'">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Therefore the relevant issue which we needed to determine in the appeal was whether the Decision Notice was correct to conclude that the College could rely on section 43(2) to withhold the Agreements.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Whether section 43(2) is engaged in respect of the Agreements</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua'">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We start by recording our finding that it was public knowledge, prior to the date of the Request, that Dr Lau Ming-wai was a donor to the College and that his donation had established the Lau China Institute.  The Request referred to it being reported that the Lau China Institute was set up following a donation from Dr Lau and it included a link to a report which had been published online by the College which referred to that.  It appears that the report is no longer available via that link, but a copy of it was included in the open bundle.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua'">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Also, in its response to the Request, the College confirmed that Dr Lau was a donor, as well as disclosing details of the amounts he had donated and when.  The College disclosed that Dr Lau had donated &#163;6,000,000 on 1st September 2011 and two donations of &#163;1,000,000 and &#163;4,000,000 on 24th August 2020.  It stated that the &#8216;fund description&#8217; was &#8220;Lau China Institute Discretionary Fund&#8221; in respect of the &#163;1,000,000 donation and was &#8220;The Lau China Institute&#8221; in respect of the other two donations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua'">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We now turn briefly to the nature of the relevant aspects of the Withheld Information to which the appeal relates (namely, the Agreements).  In correspondence with the Commissioner in respect of his investigation, the College described the relevant Withheld Information as &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">granular information regarding the details of individual gift agreement as contained in the contract, gift agreement&#8230;</span><span style="font-family:'Book Antiqua'">&#8221; (i.e. referring to two separate &#8216;gift agreements&#8217;).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua'">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In his response to the appeal, the Commissioner explained that the relevant Withheld Information comprised a Gift Agreement relating to the disclosed donation of &#163;6,000,000 in 2011 and a Donation Agreement relating to the disclosed donations of &#163;1,000,000 and &#163;4,000,000 in 2020.  The Commissioner stated that the Donation Agreement attached the standard terms and conditions which had already been disclosed to the Appellant and contained the schedule referred to by the Appellant in his grounds of appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua'">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Commissioner also stated in his response to the appeal that the Donation Agreement referred to an additional document as part of the agreement, which was not obtained by him during his investigation.  He stated that the additional document had, however, been obtained by him following receipt of the appeal (which was included in the closed bundle) and that, having reviewed it, his position was &#8220;the same&#8221; in respect of that additional document.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua'">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We find that such additional document (referred to in the Donation Agreement as a &#8216;Confirmation Paper&#8217;) is an integral part of the Donation Agreement.  This is because it was referred to as part of the section of the Donation Agreement which specified the conditions on the use and purpose of the relevant donations, and it was appended to the Donation Agreement.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua'">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Turning to the exemption in question, section 43(2) uses the terms &#8216;would&#8217; and &#8216;would be likely to&#8217; prejudice the commercial interests of a person.  This means that the prejudice in question is more probable than not, or that there is a real and significant risk of it happening.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua'">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">For such exemption to apply, there must be some causative link between the potential disclosure of the relevant information and the prejudice to the commercial interests of a person (which may include the public authority in question - in this case, the College).  The prejudice must also be real, actual or of substance and it must relate to the interests protected by the exemption.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua'">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">As recorded in paragraph 38 of the Decision Notice, the College&#8217;s position (also set out in correspondence with the Commissioner in respect of his investigation) was that disclosure of the Agreements (and other relevant Requested Information) &#8220;</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">could</span><span style="font-style:italic;font-family:'Book Antiqua'"> harm [the College&#8217;s] commercial interests</span><span style="font-family:'Book Antiqua'">&#8221; (emphasis added).  Later in the same correspondence, however, the College stated that disclosure of the Agreements &#8220;</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">would be likely to</span><span style="font-style:italic;font-family:'Book Antiqua'"> prejudice [the College&#8217;s] commercial interests</span><span style="font-family:'Book Antiqua'">&#8221; (emphasis added).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua'">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">As we have noted, information is exempt under section 43(2) if its disclosure would, or would be likely to, prejudice the commercial interests of a person.  The test, therefore, is not whether disclosure of information </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">could</span><span style="font-family:'Book Antiqua'"> prejudice a person&#8217;s commercial interests, as initially cited by the College in respect of the Commissioner&#8217;s investigation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua'">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Despite the College&#8217;s initial characterisation in its correspondence with the Commissioner that disclosure of the Agreements </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">could</span><span style="font-family:'Book Antiqua'"> harm its commercial interests, we find that the College&#8217;s position was that such disclosure </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">would be likely to</span><span style="font-family:'Book Antiqua'"> harm its commercial interests.  Indeed, that was the position stated by the College in the outcome of its internal review on 28 December 2023 regarding the Request.  Likewise, the Commissioner&#8217;s view in the Decision Notice was that disclosure of the Agreements would be likely to prejudice the College&#8217;s commercial interests.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua'">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Decision Notice recorded the College&#8217;s view that, if it became known that the College, as a result of any FOIA request, was required to reveal granular information regarding a donor and agreements with that donor then &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">it would send a message to all existing or prospective donors that the University was not able to protect their privacy</span><span style="font-family:'Book Antiqua'">&#8221;.  Consequently the College argued that potential donors would be likely to conclude that any dealings that they may have with it would not be on a confidential basis, which would in turn be likely to deter them from making donations and encourage them instead to support other causes or institutions.  Likewise, the College also argued that existing donors would be less likely to donate again, &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">contrary to the normal pattern of giving</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua'">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The reasons referred to in the preceding paragraph formed the basis of the College&#8217;s view that disclosure of the Agreements would be likely to prejudice its commercial interests.  The Commissioner concluded, in the Decision Notice, that such disclosure would be likely to prejudice the College&#8217;s commercial interests for the same reasons.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua'">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Commissioner stated, in paragraph 48 of the Decision Notice, that the College had provided a clear link between disclosure of the Agreements and a real and significant prejudice to its commercial interests.  However, the Decision Notice did not elaborate on why the Commissioner considered that to be the case, other than stating that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">it is an established fact that donations are a significant part of a university&#8217;s revenue</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua'">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We accept that the receipt of donations is a commercial activity for universities and that there is competition amongst higher education institutions in seeking to secure donations (as well as regarding attracting students).  We also recognise the importance of higher education institutions needing to secure donations, to support their research, teaching and other activities (and which in turn may assist in attracting students).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua'">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">However, we disagree with the Commissioner that there is a clear link between disclosure of the Agreements and a real and significant prejudice to the College&#8217;s commercial interests, for the following reasons.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua'">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The College has publicly disclosed not only that Dr Lau is a donor but also how much he donated, both in September 2011 and in August 2020.  We cannot reconcile that with the College&#8217;s stated concerns that disclosure of the Agreements would suggest to donors that the College was unable to protect their privacy.  Likewise, we also do not agree with the College&#8217;s arguments regarding existing or potential donors being deterred from making donations to the College in the future.  This is because those arguments are also based on the College&#8217;s concerns that disclosure of the Agreements would suggest that the College is unable to protect donor&#8217;s privacy, when the College has already disclosed details of the donor and the amounts of his donations. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua'">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We accept that there may be a need to protect the privacy of donors, but we consider that those concerns are relevant only where there has been an anonymous donation and/or the identity of a donor is not public knowledge.  In this case, we are required to consider the Request, which relates only to Dr Lau and in circumstances where not only is his identity as a donor publicly known but also the specific amounts of his donations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua'">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Commissioner submitted that a distinction should be drawn between the standard terms and conditions which had been disclosed and the contents of the Agreements.  The Commissioner contended that &#8220;more granular information&#8221; is contained within the Agreements than the standard terms and conditions and that disclosure of Agreements would not be within donors&#8217; expectations, with the resulting prejudice to the College&#8217;s commercial interests being likely.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua'">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We do not agree with those submissions, for the following reasons.  First, the Commissioner did not address what he considered was the &#8216;more granular information&#8217; within the Agreements which would be likely to cause the prejudice to the College&#8217;s commercial interests.  Having assessed the contents of the Agreements, we do not see what parts of those would be likely to cause such prejudice.  As we have noted, the details of the donor and the amounts of the donations are already known.  Whilst the specific terms of the Agreements (including the &#8216;Confirmation Paper&#8217; forming part of the Donation Agreement) regarding the use and purpose of the relevant donations have not been disclosed, it is already public knowledge that the donations were to be used for the establishment of the Institute and the furtherance of its aims and activities.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua'">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Secondly, as we have noted, the standard terms and conditions to the Donation Agreement were disclosed to the Appellant in response to the Request.  Consequently  we consider that most of the &#8216;granular information&#8217; of the Donation Agreement was disclosed in any event.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua'">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Thirdly, the Agreements both contain clauses to the effect that the College could disclose the name of the donor and the amount of the donation.  The Gift Agreement provided: &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">The Donor agrees to allow the College to publish his name and the value of their Gift, in various publications and press releases.</span><span style="font-family:'Book Antiqua'">&#8221;.  The standard terms and conditions for the Donation Agreement also included a clause which stated that the College could publicise the donation.  That clause stated that this was &#8220;unless specified otherwise&#8221; and was subject to the other terms and conditions. There was no express specified term to the contrary and the only other potentially relevant clause in the terms and conditions was the clause regarding confidentiality.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua'">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">That clause regarding confidentiality in the Donation Agreement used the defined term of &#8216;confidential information&#8217;, which (as the Appellant pointed out in his grounds of appeal) meant information &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">belonging to a party relating to its business, academic, scientific or other activities</span><span style="font-family:'Book Antiqua'">&#8221;.  In our view, there was nothing in the confidentiality clause which would negate the right of the College to publicise details of the donation.  Accordingly, we consider that the College&#8217;s right to publicise details of the donation  could extend to the terms and conditions upon which the donation was made (therefore the Donation Agreement). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua'">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In any event, however, it was clear from both Agreements that there may be publicity regarding the donations.  In contrast, there was no evidence to support the Commissioner&#8217;s view that disclosure of the Agreements would not be within donors&#8217; expectations.  That view appears to us to have been based on conjecture and without due consideration of the provisions of the Agreements.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua'">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Fourthly, the standard terms and conditions for the Donation Agreement also contain a clause which expressly states: &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">The Donor acknowledges that the College is subject to the requirements of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>&#8230;</span><span style="font-family:'Book Antiqua'">&#8221;.  Accordingly, Dr Lau was put on notice of the potential disclosure of information pursuant to FOIA.  Therefore, linked to the third point, we do not accept the Commissioner&#8217;s view that disclosure of the Agreements would not be within donors&#8217; expectations, in the absence of any evidence to the contrary.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua'">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Consequently, we do not accept the Commissioner&#8217;s arguments that disclosure of the Agreements would, or would be likely to, prejudice the College&#8217;s commercial interests.  We consider that the Commissioner has not demonstrated that such prejudice would occur, nor that there is a real and significant risk of it occurring.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua'">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We therefore find that disclosure of the Agreements would not, and would not be likely to, prejudice the commercial interests of the College - and accordingly that section 43(2) is not engaged in respect of the Agreements.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua'">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">As we have found that section 43(2) is not engaged in respect of the Agreements, it is not necessary for us to go on to consider the associated Public Interest Test.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Whether section 41(1) is engaged in respect of the Agreements</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Book Antiqua'">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Whilst the College did not cite section 41(1) in respect of the Agreements and the Decision Notice did not find that section 41(1) was engaged in respect of the Agreements, we nevertheless considered this for completeness.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua'">76.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">It is only necessary for us to comment briefly on this point.  We find that section 41(1) is not engaged in respect of the Agreements.  This is because the Agreements are not information which was obtained by the College from any other person, but had evidently been prepared by the College itself.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_19">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Whether section 40(2) is engaged in respect of the Agreements</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Book Antiqua'">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We only briefly address the question of section 40(2), as it was not a material issue in the appeal, for the reasons we have given.  However, it is relevant to disclosure of the Agreements following our findings that neither section 41(1) nor section 43(2) is engaged in respect of them.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Book Antiqua'">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">As we have noted, the College has already disclosed the name of the donor and the amount of the donations.  Given that, and for the other reasons we have referred to, we consider that Dr Lau can have no reasonable expectation of privacy in respect of that information.  However, we consider that any other personal data of Dr Lau (including his address and signature) can be withheld under section 40(2) and accordingly can be redacted by the College in making disclosure of the Agreements.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Book Antiqua'">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Agreements also contain personal data of third parties.  We had limited evidence and submissions before us from the Commissioner and the College in this regard, although the Appellant did not dispute the application of section 40(2) to the relevant Requested Information.  We consider that the relevant third parties would have a reasonable expectation of privacy with regard to their personal data contained within the Agreements and we find that section 40(2) is engaged in respect of such personal data.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Book Antiqua'">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Our findings above regarding section 40(2) are on the basis that disclosure of the relevant personal data would contravene the first data protection principle, such that the first condition referred to in that section is satisfied.  Accordingly, it is an absolute exemption and there is no applicable Public Interest Test.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_20">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Other matters</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Book Antiqua'">81.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">As we have noted, the Decision Notice recorded the Commissioner&#8217;s findings that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the College had breached section 1(1)(b) and section 10(1) regarding the timescales within which it provided the Disclosed Information to the Appellant; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the College had breached section 17(1) by later relying on new exemptions in its response to the Request. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Book Antiqua'">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We agree with the Commissioner&#8217;s finding that the College had breached section 1(1)(b) and section 10(1), given its delay in providing the Disclosed Information to the Appellant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Book Antiqua'">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">However, we do not agree with the Commissioner&#8217;s finding that the College had breached section 17(1) by later relying on new exemptions which it had not mentioned earlier.  Case law has established that section 17(1) does not prevent late reliance on exemptions by a public authority.  It follows that a public authority cannot have breached section 17(1) where its response pursuant to that section sets out the exemptions which it is relying on at the time of that response.  This is different to the position where a public authority does not issue a refusal notice within the timeframes required by section 17(1), as happened in the current instance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Book Antiqua'">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Consequently, we find that the Commissioner erred in stating in the Decision Notice that the College had breached section 17(1) by later relying on exemptions it had not included in its refusal notice.  Rather, we find that the College breached section 17(1) by failing to issue a refusal notice within 20 working days following the date of receipt of the Request.  This finding is immaterial, however, given the scope of the appeal which we outlined.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_21">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Final conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Book Antiqua'">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">For all of the reasons we have given, we find that </span><span style="font-family:'Book Antiqua'">the Decision Notice involved an error of law in concluding that the College is entitled to rely on section 43(2) to refuse to disclose the Agreements.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Book Antiqua'">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We also find that the Decision Notice involved an error of law in concluding that the College had breached section 17(1) by later relying on exemptions it had not included in its refusal notice.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-family:'Book Antiqua'">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">We </span><span style="font-family:'Book Antiqua'">therefore</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua'">allow</span><span style="font-family:'Book Antiqua';color:#000000"> the appeal in part and we make the Substituted Decision Notice as set out above.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed:</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Stephen Roper</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date: </span><docDate date="2025-10-30" refersTo="#decision" style="font-family:'Book Antiqua'">30 October 2025</docDate></p>
+      <p style="text-align:justify"><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Judge of the First-tier Tribunal</span></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

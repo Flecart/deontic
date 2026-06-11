@@ -1,0 +1,658 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1434"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1434"/>
+	  <FRBRdate date="2025-11-28" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1434"/>
+	  <FRBRname value="Taimur Khan v Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1434"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1434"/>
+	  <FRBRdate date="2025-11-28" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1434/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1434/data.xml"/>
+	  <FRBRdate date="2025-11-28T15:25:13" name="transform"/>
+	  <FRBRdate date="2025-11-28T15:41:41" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-11-27" refersTo="#decision" source="#"/>
+	<eventRef date="2025-11-28" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="taimur-khan" href="" showAs="TAIMUR KHAN"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="leeds-city-council" href="" showAs="LEEDS CITY COUNCIL"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1434</uk:number>
+	<uk:cite>[2025] UKFTT 1434 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.1.0</uk:parser>
+	<uk:hash>5e0f7420a9e1fddf144bd33fa0d9f10fc35457ac7e694c11e800d8acc093e43f</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2025] UKFTT 01434 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"/><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: FT/EA/2025/0208</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decided without a hearing</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2025-11-28" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">28 November 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HARRIS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER CHAFER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER YATES</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#taimur-khan" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">TAIMUR KHAN</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#leeds-city-council" style="font-weight:bold;font-family:'Book Antiqua'">LEEDS CITY COUNCIL</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is dismissed.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Background to the appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The appeal concerns a Decision Notice (&#8220;the Decision Notice&#8221;) issued by the Information Commissioner (&#8220;the IC&#8221;) dated 30 May 2025, reference IC-355038-Q4R8. The Decision Notice was in connection with a request for information made to Leeds City Council (&#8220;the Council&#8221;) concerning the work carried out by PwC in relation to SEND improvements.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Appellant wrote to the Council on 7 November 2024 to request the following information: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;the full and final report from PwC for the work they carried out for SEND improvement.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council responded on 8 January 2025. It refused to provide the report citing section 43(2) (commercial interests) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) as its basis for doing so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 9 January 2025, the Appellant contacted the IC to complain about the way his request for information had been handled.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The IC informed the Council on 17 January 2025 that this case had been accepted for investigation without an internal review.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 30 May 2025, the IC issued the Decision Notice, in which it determined that the Council was entitled to withhold the entire report under section 43(2). The IC therefore did not go on to consider the Council&#8217;s application of the exemptions under sections 41 (information provided in confidence), 40(2) (personal data), 42 (legal professional privilege) and 21 (information reasonably accessible to the applicant by other means) of FOIA.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Abbreviations used in this decision</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">&#8220;The Council&#8221; means Leeds City Council, the Second Respondent</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;the Decision Notice&#8221; means the IC&#8217;s decision dated </span><span class="normaltextrun">30 May 2025, reference </span>IC-355038-Q4R8</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">&#8220;FOIA&#8221; means the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>. All references to sections are references to sections of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref> unless otherwise specified</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="eop">&#8220;PwC&#8221; means PriceWaterhouseCoopers LLP, who produced the withheld report.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="eop">&#8220;SEND&#8221; means special educational needs and disabilities.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">&#8220;UT&#8221; means the Upper Tribunal, Administrative Appeals Chamber</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.1in"><span style="font-weight:bold">Procedural matters relating to the determination of this appeal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The parties opted for paper determination of the appeal. The Tribunal is satisfied that it can properly determine the issues without a hearing within rule 32(1)(b) of the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009 (as amended). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal considered an open bundle of documents (475 pages).  In this decision we refer to page numbers of documents in the open bundle with the prefix OB. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal also considered a closed bundle of withheld documents (110 pages). This consisted of the disputed information which was being withheld.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Prior to the hearing an application under rule 14 of the Tribunal Rules had been made as regards the withheld material. An order was made that disclosure of the information contained in the closed bundle would defeat the purpose of the appeal and so it was held by the Tribunal under Rule 14(6).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Having considered all the evidence, the Tribunal&#8217;s view was that the reasons for its decision could be properly set out in an open decision and therefore did not prepare a separate closed decision. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant appealed the Decision Notice to the Tribunal on 30 May 2025. He gave the following grounds for appeal:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The IC accepted the Council&#8217;s arguments too readily. The report was commissioned with public funds and contains findings and recommendations on improving a statutory public service (SEND/EHCP provision). The IC has accepted that some of the methodology may be commercially sensitive but failed to require the Council to consider partial redaction rather than withholding the entire document. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The public interest test was applied incorrectly. The IC acknowledged &#8220;very significant impact&#8221; on the lives of disabled children and families accessing EHCPs and SEND services but still concluded the public interest did not outweigh the commercial sensitivity. Mr Khan disagreed. The Council has been significantly delayed in meeting statutory EHCP deadlines. This report could help families understand failures, systemic causes, and the basis for reform, enhancing accountability and improving trust. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The prejudice to PwC is speculative the IC agreed that the prejudice only meets the lower threshold ("would be likely to") and that similar information is already public or could be inferred by competitors. In that context, the public interest in full or partial disclosure should override a low- probability commercial concern. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Extensive public reporting is not a substitute for primary evidence. While the Council has published Executive Board reports and Scrutiny Inquiry findings, these are summaries. They do not provide the same insight into the diagnostic process and independent consultancy review that the PwC report offers. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Given national scrutiny of SEND services and recent legal challenges to EHCP delays, transparency is essential. Redacting genuinely sensitive sections while releasing the rest of the report is a proportionate and lawful approach under FOIA.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The IC&#8217;s response to the Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The IC filed a detailed response to the Appeal dated 18 July 2025. In response to the Appellant&#8217;s grounds of appeal he made the following points:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Appellant does not appear to challenge the IC&#8217;s decision that the requested information is commercial in nature and the harm envisaged related to commercial interests of both the Council and PwC.</span><span/><span style="font-family:'Book Antiqua'">To fall within section 43(2) FOIA, the information must be &#8220;still current and commercially important&#8221; and &#8220;not widely known&#8221; (Department of Health v Information Commissioner EA/2008/0018).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">In considering the nature of the prejudice, the IC submits that whilst the chance of prejudice needs to be significant and weighty, the extent of the prejudice does not need to be. It is sufficient that "some commercial disadvantage&#8221; is likely to be suffered (</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Newham LBC v Information Commissioner</span><span style="font-family:'Book Antiqua'"> EA/2011/0288 at [41]).  The IC remained satisfied that a causal relationship exists between disclosure of the report (the whole report, rather than partially redacted as the Appellant submits) and the prejudice described to PwC.  The IC was not so satisfied that the Council had demonstrated a causal relationship between the disclosure of the report and the prejudice to the Council&#8217;s own commercial interests.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">In considering the likelihood of the commercial prejudice occurring, the IC was not satisfied that the prejudice occurring is as strong as the Council suggested and concluded that there is a real and significant risk, therefore the chance of prejudice occurring met the lower threshold of &#8220;would be likely to&#8221; prejudice.  The IC submits that he was correct to accept that disclosure would be likely to prejudice commercial interests and that the exemption under section 43(2) was therefore engaged.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">In relation to the public interest, the IC accepts that there is a general public interest in disclosure to enable the public to understand and challenge the decisions and actions taken by public authorities, facilitate accountability and transparency in the spending of public money, and ensure that public authorities are providing value for money. The IC factored this in when he considered the balance of the public interest. Having accepted that disclosure of the requested information in this case would be likely to prejudice the commercial interests of PwC, this will accordingly add weight to the public interest in maintaining the exemption. Having considered all the factors, the IC considered that in the circumstances of this case, the public interest in the exemption being maintained outweighs that in the report being disclosed.  The public interest factors advanced by the Appellant are, in the IC&#8217;s view, insufficient to outweigh the strong public interest in maintaining the exemption on the facts of this case. On the evidence before him the IC submits that he was entirely correct to have due regard to the representations made to him by the Council regarding the public interest in maintaining the exemption at section 43(2) FOIA. In short, the IC made the right decision when he found that balance of the public interest favoured maintaining the exemption.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Council&#8217;s response to the Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council filed a response to the appeal dated 2 July 2025. It opposed the appeal and invited the Tribunal to consider other exemptions if it considered that section 43(2) did not apply to the report in its entirety. It attached a copy of its response dated 28 February 2025 which, in summary, gave the following reasons why it considered that section 43(2) applied:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The contract between the Council and PwC made it clear that pricing and details of the outcome of the project were deemed Commercially Sensitive Information. If it were published, the methodology used, frameworks for analysis and recommendations for change would become available to PwC&#8217;s competitors through publication.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Publication of the report would prejudice PwC&#8217;s commercial interests by diminishing their future market opportunities to provide similar service to other councils with similar SEND service challenges.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council does not have the capacity, resources or funding to manage the engagement that would be likely to arise from the sharing of the final report, and this would require refocusing resources away from case management</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Accordingly, it believes that the report&#8217;s disclosure would have a prejudicial effect.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">In dealing with the question of public interest, the Council identified the following factors in favour of disclosing the information:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.13in">i.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua'">There is a strong public interest in openness in the Council&#8217;s affairs. The Council have expended public funds on the procurement of research and consultancy services to address a need in Leeds for SEND improvement.  Therefore, there is a strong public interest in ensuring transparency and accountability for publicly spent money. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.13in">ii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">Where the public has a clear understanding of the outputs from the research, this would provide assurance about the Council&#8217;s ability to spend public money wisely, set against a backdrop of the SEND area being an area requiring significant funding and improvement.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.13in">iii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">In terms of public interest, the Council believes that the number of reports which have already been published by it help members of the public understand the reasons behind the Council&#8217;s decisions and the outcomes which have been reached.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council identified the following factors in favour of maintaining the exemption:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.13in">i.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua'">There is already a considerable amount of information already in the public domain through reports considered at the Council&#8217;s Executive Board and Scrutiny Boards. These have had prior approval at a political and senior management level. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.13in">ii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">The Council has a strong public interest in protecting the legitimate commercial interests of bidders for public sector contracts and not exposing them to unfair practices by potential rival bidders.  There is also a strong public interest in maintaining the integrity of public sector procurement exercises, and in prospective bidders not being discouraged by fear that they will not be on a level playing field with their competitors because of disclosures made in response to FOIA requests.  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.13in">iii.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:0.25in"><span style="font-family:'Book Antiqua'">If the Council&#8217;s reputation with external consultants and other commercial providers were to be adversely affected following the disclosure of this report, this could result in the less effective use of public money to undertake similar research of this kind in the future. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.13in">iv.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua'">There is undoubtedly a public interest in allowing public authorities to withhold information which, if disclosed, would negatively affect their ability to meet their statutory obligations in respect of the delivery of the service. As previously advised, this would be likely to result in the inability to recruit or retain educational psychologists set against a national shortage of these qualified professionals and this would be likely to have a significant adverse impact on service delivery.   </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.13in">v.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.5in"><span style="font-family:'Book Antiqua'">It is not in the public&#8217;s interest to place additional demands on an area of the Council that is already commissioning additional resources at a cost to the council to meet their statutory obligations. The Council does not have capacity to manage the engagement that would be likely to arise from the sharing of the final report.  </span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">In considering the balance between these interests, the Council noted that there is always a presumption in favour of disclosure. However, the Council has taken the view based on the arguments provided above that the public interest in maintaining the exemption outweighs the public interest in disclosure. The Council believes that it has met its obligations in relation to transparency and openness in the use of public funds, and that the withholding of this report does not shackle the right of the public to information under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref>. The Council believes that the areas for improvement and actions taken to rectify any weaknesses identified in SEND provision have been appropriately shared with the public, and that the non-disclosure of advice and recommendations within the report, as not fully implemented, should be maintained.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Appellant&#8217;s reply to the Responses</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Following the Responses of the Council and IC, the Appellant filed a reply dated 3 August 2025. In summary he made the following points</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council&#8217;s interests are financial and not commercial. Commercial activities must relate to activities involving competitive participation in buying, selling, or provision of goods or services in a marketplace.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The only commercial interest the respondents have identified speculates that PwC would charge other councils for work which Leeds Council has already paid them three quarters of million pounds of taxpayer money to deliver.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">In the absence of any evidence or reasoning from either respondent to support the bare assertion that prejudice would occur the Appellant is unwilling to agree that even the lower &#8216;would be likely&#8217; bar is met.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Appellant disagrees that the lower threshold that disclosure &#8216;would be likely&#8217; to cause commercial prejudice to this interest is met, but even if it was the public interest is overwhelmingly in favour of disclosure. The Council&#8217;s financial interests do not feature at all when balancing the public interest.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The depth of public concern is clearly evidenced by over 600 signatures collected on a public petition explicitly demanding the release of the report. The substantial local support represented by these signatures is a concrete indication that public confidence in the council has eroded significantly and that transparency is urgently required to restore trust.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Appellant summarised his arguments in relation to the public interest in a table, which appears at pages OB A70 and A71. This shows that he considers the only factor in favour of maintaining the exemption is PwC&#8217;s commercial interests</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Legal framework</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 43(2) of FOIA provides:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Information is exempt information if its disclosure under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref>, would, or would be likely to prejudice the commercial interests of any person (including the public authority holding it)&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">&#8216;Commercial interests&#8217; should be interpreted broadly. The IC&#8217;s Guidance states that a commercial interest relates to a person&#8217;s ability to participate competitively in a commercial activity. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The exemption is prejudice based. &#8216;Would or would be likely to&#8217; means that the prejudice is more probable than not or that there is a real and significant risk of prejudice. The public authority must show that there is some causative link between the potential disclosure and the prejudice and that the prejudice is real, actual or of substance. The harm must relate to the interests protected by the exemption. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 43 is a qualified exemption, so that the public interest test has to be applied. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In considering the factors that militate against disclosure the primary focus should be on the particular interest which the exemption is designed to protect.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">APPGER v ICO&#160;[</span>2013] UKUT 0560 (AAC) the Upper Tribunal&#160;gave guidance on how the balancing exercise required by section 2(2)(b) of FOIA should be carried out:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;&#8230; when assessing competing public interests under FOIA the correct approach is to identify the actual harm or prejudice that the proposed disclosure would (or would be likely to or may) cause and the actual benefits its disclosure would (or would be likely to or may) confer or promote. This &#8230; requires an appropriately detailed identification of, proof, explanation and examination of both (a) the harm or prejudice, and (b) benefits that the proposed disclosure of the relevant material in respect of which the exemption is claimed would (or would be likely to or may) cause or promote.&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The role of the tribunal</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal&#8217;s remit is governed by section 58 FOIA. This requires the Tribunal to consider whether the decision made by the IC is in accordance with the law or, where the IC&#8217;s decision involved exercising discretion, whether he should have exercised it differently. The Tribunal may receive evidence that was not before the IC and may make different findings of fact from the IC.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Issues</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The issues for the Tribunal to determine are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Would disclosure be likely to prejudice the commercial interests of any person?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">If so, does the public interest in maintaining the particular exemption outweigh the public interest in disclosing the information?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Prejudice</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The first point to consider here is whether there are any commercial interests of any person. Such interests do not have to be the interests of the public authority in question (here the Council).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We disagreed with the Appellant&#8217;s analysis that there is a distinction to be drawn between commercial and financial interests. The authority relied on appears to be simply legal argument which was not accepted by the judge in that case. In any event, the wording of section 43(2) relates only to commercial interests, not to financial interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"> We were satisfied that the interests which were identified by the Council as being at risk from disclosure in relation to PwC were &#8220;commercial interests&#8221; because they related to the person&#8217;s ability to participate competitively in a commercial activity, whether to make a profit or simply to cover costs or remain solvent. We considered that the Council had identified some clear commercial interests in relation to PwC but we note that it is sufficient to demonstrate that there are commercial interests of any person in play, so we considered this part of the test was met whether or not any commercial interests on the part of the Council were identified. We note that the table in the Appellant&#8217;s reply at OB page 70 indicated that the Appellant agreed that there were commercial interests of PwC.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The next question is whether the actual harm which the public authority alleges would, or would be likely to occur if the withheld information was disclosed has to relate to the applicable interests within the relevant exemption. Here those applicable interests are the commercial interests of PwC and we consider that as such these fall squarely within the exemption in section 43(2).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Next, the Council has to be able to demonstrate that there is a causal relationship between the potential disclosure of the information being withheld and the exemption which it is designed to protect and that the resultant prejudice will be real, actual, or of substance. We were satisfied that, as the Council argued, publication of the report would prejudice PwC&#8217;s commercial interests by diminishing their future market opportunities to provide similar service to other councils with similar SEND service challenges. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Finally, we considered whether the prejudice would (in that that it would more likely than not) or would be likely (in that there was a real and significant risk of it happening) to result in the prejudice envisaged. We agreed with the IC that there is already information in the public domain from which other councils can learn in relation to SEND improvements, so the Council had not demonstrated that there would more likely than not be a significant reduction in demand for PwC&#8217;s services. However, if the report was published this might result in fewer councils needing to consult PwC as they could draw on the work done for the Council rather than paying for it separately.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On balance of probabilities, the Tribunal was satisfied and agreed with the IC that prejudice to the commercial interests of any person would be likely to be caused if the withheld material was disclosed. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Public interest </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We considered the arguments raised by the parties in relation to the factors weighing in favour of disclosure and factors weighing in favour of maintaining the exemption. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We accept that there is a clear public interest in the provision of statutory services for children with SEND by the Council. However, we note that some of the points on which the Appellant relies to argue for the strength of public interest, such as a call for disclosure of the report in July 2025 and the petition of 600 names appear to post-date the Council&#8217;s response to the information request, so we have not taken these into account, following&#160;<a class="Hyperlink" href="https://assets.publishing.service.gov.uk/media/6273a6ec8fa8f57a41d53ee9/UA_2020_000324_000325_GIA.pdf">Montague v Information Commissioner (&#8216;IC&#8217;) and the Department of International Trade (&#8216;DiT&#8217;) <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/104" uk:canonical="[2022] UKUT 104 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 104 (AAC)</ref></a>. In that case, a three-judge panel of the UT decided that the public interest balance must be assessed on the basis of how matters stood at the time of an authority&#8217;s decision on a request. This is the time when an authority is required to respond in accordance with the requirements and statutory timeframes in Part I of FOIA.&#160;&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We note that there is a large amount of material which is publicly available, including but not limited to material published in connection with the inquiry conducted by the Council&#8217;s Children and Families Scrutiny Board into EHCPs. We agree with the IC that this goes a long way towards meeting the public interest in transparency regarding improvements that the Council has identified should be made to the EHCP process and plans for implementing these changes. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In conducting the balancing exercise between factors for and against disclosure, we gave particular weight to the negative impact of disclosure on the report in terms of service delivery, particularly in the context of the recruitment and retention of educational psychologists, who play a crucial role in identifying and delivering services to children and young people with SEND. We also noted and agreed with the Council&#8217;s argument that publication of the report would be likely to generate a large volume of enquiries from parents and others working with SEND children. Such enquiries would be likely to necessitate the diversion of funding from service delivery to dealing with them, which in turn would be likely to have a further negative impact on the Council&#8217;s ability to deliver improvements to SEND services. Similar considerations apply to enquiries from other councils if the report was published in full.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">For these reasons, and taking into account all the circumstances of the case, we considered that the public interest in maintaining the exemption outweighed the public interest in disclosure, which meant we agree with the IC that the Council was correct to rely on section 43(2) in relation to the entirety of the PwC report.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Because we were satisfied that the Council was entitled to rely on section 43(2) to withhold the entire PwC report, we did not need to go on to consider any of the other exemptions raised by the Council.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We concluded that the Decision Notice was issued in accordance with the law and accordingly dismiss the appeal. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Signed: </span><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Judge Harris</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Date: </span><docDate date="2025-11-27" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">27 November 2025</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>
