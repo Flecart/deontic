@@ -18,10 +18,15 @@
     { "include": "#sections" },
     { "include": "#atom-decl" },
     { "include": "#rule-label" },
+    { "include": "#block-close" },
+    { "include": "#block-open" },
     { "include": "#provenance-keys" },
+    { "include": "#oneof" },
+    { "include": "#overrides" },
     { "include": "#arrows" },
     { "include": "#deontic" },
     { "include": "#operators" },
+    { "include": "#brackets" },
     { "include": "#punctuation" }
   ],
   "repository": {
@@ -36,9 +41,25 @@
       "name": "comment.line.number-sign.ddl"
     },
     "imports": {
-      "comment": "Module imports: `import <path> [as <alias>]` / `from <path> import *`.",
-      "match": "\\b(import|from|as)\\b",
-      "name": "keyword.control.import.ddl"
+      "comment": "Module imports at line start only — avoids highlighting `as`/`from` inside atom descriptions.",
+      "patterns": [
+        {
+          "comment": "`import <path> [as <alias>]`",
+          "match": "^\\s*(import)\\s+\\S+(?:\\s+(as)\\s+\\S+)?",
+          "captures": {
+            "1": { "name": "keyword.control.import.ddl" },
+            "2": { "name": "keyword.control.import.ddl" }
+          }
+        },
+        {
+          "comment": "`from <path> import *`",
+          "match": "^\\s*(from)\\s+\\S+\\s+(import)\\s+\\*",
+          "captures": {
+            "1": { "name": "keyword.control.import.ddl" },
+            "2": { "name": "keyword.control.import.ddl" }
+          }
+        }
+      ]
     },
     "sections": {
       "comment": "Top-level sections that introduce facts or the superiority relation.",
@@ -62,15 +83,38 @@
         "1": { "name": "entity.name.function.label.ddl" }
       }
     },
+    "block-open": {
+      "comment": "Precondition block opener: literals … {",
+      "match": "\\{\\s*$",
+      "name": "punctuation.section.block.begin.ddl"
+    },
+    "block-close": {
+      "comment": "Precondition block closer.",
+      "match": "^\\s*\\}",
+      "name": "punctuation.section.block.end.ddl"
+    },
     "provenance-keys": {
       "comment": "Provenance field keys inside an atom declaration.",
       "match": "\\b(uri|quote)\\b(?=\\s*:)",
       "name": "keyword.other.provenance.ddl"
     },
+    "oneof": {
+      "comment": "Disjunctive antecedent sugar: oneof[a, b, c]",
+      "match": "\\boneof\\b",
+      "name": "keyword.control.oneof.ddl"
+    },
+    "overrides": {
+      "comment": "Override suffix after a rule conclusion: overrides Target [, …]",
+      "match": "\\boverrides\\b",
+      "name": "keyword.control.overrides.ddl"
+    },
     "arrows": {
-      "comment": "Rule arrows: strict ->/->O, defeasible =>/=>O, defeater ~>/~>O (longest first).",
-      "match": "(->O|=>O|~>O|->|=>|~>)",
-      "name": "keyword.operator.arrow.ddl"
+      "comment": "Rule arrows with optional @Bearer (prescriptive only). Longest first.",
+      "match": "(->O|=>O|~>O|->|=>|~>)(@[A-Za-z_][A-Za-z0-9_]*)?",
+      "captures": {
+        "1": { "name": "keyword.operator.arrow.ddl" },
+        "2": { "name": "entity.name.tag.bearer.ddl" }
+      }
     },
     "deontic": {
       "comment": "Deontic operators applied to a literal: O() F() P() Pw() Ps() C(). Longest first.",
@@ -81,6 +125,11 @@
       "comment": "Negation ~atom, compensatory chain *, superiority >.",
       "match": "(~(?=[A-Za-z_])|\\*|>)",
       "name": "keyword.operator.ddl"
+    },
+    "brackets": {
+      "comment": "Brackets in oneof[…] disjunctions.",
+      "match": "[\\[\\]]",
+      "name": "punctuation.section.brackets.ddl"
     },
     "punctuation": {
       "comment": "The provenance separator between description and provenance segments.",

@@ -5,9 +5,11 @@ consumed by the [`deontic`](../../README.md) reasoner.
 
 Highlights comments, the `facts:` / `superiority:` sections, `atom`
 declarations with `quote:` / `uri:` provenance (and `#Lx-Ly` line selectors),
-module `import` / `from … import *`, rule labels, the arrows
-(`->`, `->O`, `=>`, `=>O`, `~>`, `~>O`), deontic operators (`O() F() P() Pw()
-Ps() C()`), and the `~` `*` `>` operators.
+module `import` / `from … import *` (line-anchored so `as`/`from` in
+descriptions stay plain), rule labels, precondition blocks (`{` `}`),
+`oneof[…]` disjunctions, `overrides` suffixes, the arrows (`->`, `->O`,
+`=>`, `=>O`, `~>`, `~>O`) with optional `@Bearer`, deontic operators
+(`O() F() P() Pw() Ps() C()`), and the `~` `*` `>` operators.
 
 It is **grammar-only** (a TextMate grammar): no build step, no runtime, nothing
 to keep alive. That is deliberate — see *Maintaining the grammar* below.
@@ -22,7 +24,7 @@ editor's extensions directory, then reload the window
 
 ```bash
 # VS Code
-ln -s "$PWD/editors/vscode-ddl" ~/.vscode/extensions/ddl-syntax-0.1.0
+ln -s "$PWD/editors/vscode-ddl" ~/.vscode/extensions/ddl-syntax-0.1.1
 # VSCodium:        ~/.vscode-oss/extensions/...
 # Cursor/Windsurf: ~/.cursor/extensions/...  (same layout)
 ```
@@ -31,8 +33,8 @@ ln -s "$PWD/editors/vscode-ddl" ~/.vscode/extensions/ddl-syntax-0.1.0
 
 ```bash
 cd editors/vscode-ddl
-npx @vscode/vsce package           # -> ddl-syntax-0.1.0.vsix
-code --install-extension ddl-syntax-0.1.0.vsix
+npx @vscode/vsce package           # -> ddl-syntax-0.1.1.vsix
+code --install-extension ddl-syntax-0.1.1.vsix
 ```
 
 (`code` → `codium` / `cursor` for those editors.)
@@ -78,14 +80,18 @@ maintenance:
   |-----------|---------|-------|
   | comment | `# note` | `comment.line.number-sign` |
   | line selector | `#L3-L6` | `constant.numeric.line-selector` |
-  | import keywords | `import` `from` `as` | `keyword.control.import` |
+  | import keywords | `import` `from` `as` (import lines only) | `keyword.control.import` |
   | sections | `facts` `superiority` | `keyword.control.section` |
   | atom keyword / name | `atom Disclose` | `keyword.control.atom` / `entity.name.type.atom` |
   | rule label | `r1:` | `entity.name.function.label` |
+  | block braces | `{` `}` | `punctuation.section.block` |
+  | oneof | `oneof` | `keyword.control.oneof` |
+  | overrides | `overrides` | `keyword.control.overrides` |
   | provenance keys | `uri` `quote` | `keyword.other.provenance` |
-  | arrows | `=>O` `~>` … | `keyword.operator.arrow` |
+  | arrows / bearer | `=>O` `~>` `@Vendor` … | `keyword.operator.arrow` / `entity.name.tag.bearer` |
   | deontic ops | `O(` `F(` `P(` … | `support.function.deontic` |
   | operators | `~` `*` `>` | `keyword.operator` |
+  | oneof brackets | `[` `]` | `punctuation.section.brackets` |
   | provenance separator | `\|` | `punctuation.separator.provenance` |
 
 - **To add a token:** add a named rule to `repository`, then add an `include`
