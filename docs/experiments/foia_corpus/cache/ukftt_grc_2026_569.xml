@@ -1,0 +1,453 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/569"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/569"/>
+	  <FRBRdate date="2026-04-15" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="569"/>
+	  <FRBRname value="Anthony Gallagher v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/569"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/569"/>
+	  <FRBRdate date="2026-04-15" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/569/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/569/data.xml"/>
+	  <FRBRdate date="2026-04-15T15:12:28" name="transform"/>
+	  <FRBRdate date="2026-04-15T15:51:42" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-12-11" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-12" refersTo="#decision" source="#"/>
+	<eventRef date="2026-04-15" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="anthony-gallagher" href="" showAs="ANTHONY GALLAGHER"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>569</uk:number>
+	<uk:cite>[2026] UKFTT 569 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>170e786fc0526c698d31a5bb22f889278082ad5b211a270f2352d53e7494f0f3</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .p1 { font-family: Helvetica; font-size: 8.5pt; color: #000000; }
+#judgment .p2 { font-family: Times; font-size: 8.5pt; color: #FFFFFF; }
+#judgment .p3 { font-family: Times; font-size: 8pt; color: #FFFFFF; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .s1 { font-family: Times; font-size: 8pt; }
+#judgment .s2 { font-family: Times; font-size: 8pt; }
+#judgment .s3 { font-family: Times; font-size: 8pt; }
+#judgment .s4 { font-family: Times; font-size: 8pt; }
+#judgment .s5 { font-family: Times; font-size: 6.5pt; }
+#judgment .s6 { font-family: Times; font-size: 9pt; }
+#judgment .s7 { font-family: Times; font-size: 6.5pt; }
+#judgment .s8 { font-family: Times; font-size: 7.5pt; }
+#judgment .s9 { font-family: Times; font-size: 8pt; }
+#judgment .s10 { font-family: Times; font-size: 9pt; }
+#judgment .s11 { font-family: Times; font-size: 8.5pt; }
+#judgment .s12 { font-family: Times; font-size: 8.5pt; }
+#judgment .s13 { font-family: Times; font-size: 8pt; }
+#judgment .s14 { font-family: Times; font-size: 7.5pt; }
+#judgment .s15 { font-family: Times; font-size: 8.5pt; }
+#judgment .s16 { font-family: Times; font-size: 8.5pt; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00569 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2024/0398</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Heard on: </span><docDate date="2025-12-11" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">11 December 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-15" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">15 April 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">JUDGE WATTON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER MURPHY</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER SIVERS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#anthony-gallagher" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">ANTHONY GALLAGHER</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">The Appellant in person.</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Respondent: no appearance</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Decision: </span><span style="font-family:'Book Antiqua';color:#000000">The appeal is dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">Mr Gallagher requested information about a planning condition from Hart District Council (&#8220;the Council&#8221;). The Council sent Mr Gallagher some information. However, Mr Gallagher was not satisfied that the Council had provided him with <span style="font-weight:bold">all</span> the relevant information it held.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In his decision notice IC-307121-T4L5 the Commissioner decided on the balance of probabilities that the Council had disclosed all the information it held that fell within the scope of the request. Mr Gallagher brought this appeal against that decision.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Background</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 23 February 2024 Mr Gallagher made his request in the following terms:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Please could you provide all information that HDC hold regarding the creation, progress and discharge of Condition 35 to 14/00504/MAJOR (reference 23/01658/CON).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">I can access the information available on the planning portal so this information does not need to be supplied.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council responded on 6 March 2024, attaching six pages of information. The covering email stated that the request had been handled under the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;). Mr Gallagher replied to the Council on the same day expressing concerns that information appeared to be missing. Later the same day he requested an internal review on the basis that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;I have reason to believe that all information has not been disclosed.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council responded to the internal review request on 11 April 2024. The Council determined that the information sought was environmental information and so the request should be dealt with under the Environmental Information Regulations 2004 (&#8220;EIR&#8221;). Three additional pages of information were attached and the email included a link to other publicly available information. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 12 April Mr Gallagher sent a further email requesting clarification as to the nature of the Council&#8217;s response and stating he did not believe the search terms used covered all information he sought. Mr Gallagher also cited correspondence with the Council which led him to believe that there was correspondence between the Council and others that was relevant to the request and had not been disclosed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Mr Gallagher filed his complaint with the Commissioner on 15 May 2024. The Commissioner corresponded with both Mr Gallagher and the council during his investigation. During the investigation further information was disclosed to Mr Gallagher, on 20 May 2024 and 1 July 2024. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The decision notice was issued on 10 September 2024. The Commissioner acknowledged that the &#8216;drip-feeding&#8217; of information may have contributed to Mr Gallagher&#8217;s scepticism that no further information was held. However, the Commissioner held that it was more likely than not that all information within scope had now been provided.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Procedural history</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 7 October 2024 Mr Gallagher filed the appeal to this Tribunal. On 11 September 2025 the appeal was dismissed without an oral hearing. On 13 October 2025 the Appellant applied for permission to appeal that decision to the Upper Tribunal. On 23 October 2025 Judge Hazel Oliver set aside the decision of 11 September 2025 on the grounds that the Appellant had applied for there to be an oral hearing. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Legal framework</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.1in"><span style="font-style:italic;font-family:'Book Antiqua'">Jurisdiction of the Tribunal</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Regulation 18 of the EIR states that the appeals provisions of FOIA (Part V) apply for the EIR, with exceptions that are not relevant here. Section 58(1) of FOIA provides that the Tribunal shall allow the appeal or substitute the notice if one of two conditions are met.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The decision notice is not in accordance with the law; or</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">If the decision notice involved an exercise of discretion by the Commissioner, the Commissioner ought to have exercised his discretion differently.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">If the Tribunal does not consider that at least one of the conditions is met, then it shall dismiss the appeal. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Section 58(2) allows the Tribunal to review any finding of fact on which the decision notice was based.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Requests for information under the EIR</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Regulation 5(1) requires a public authority that holds environmental information to make it available on request. It was not disputed that the information sought by Mr Gallagher constituted environmental information as defined by Regulation 2.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Whether material is &#8216;held&#8217; is a question to be determined by the Tribunal as a matter of fact, using the ordinary meaning of the word:  </span><a href="https://www.bailii.org/uk/cases/UKUT/AAC/2011/185.html"><span style="font-style:italic;font-family:'Book Antiqua'">University of Newcastle upon Tyne v Information Commissioner and BUAV</span><span style="font-family:'Book Antiqua'">&#160;<ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2011/185" uk:canonical="[2011] UKUT 185 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKUT 185 (AAC)</ref></span></a><span style="font-family:'Book Antiqua'">. The search for the information must be reasonable, which is also a question of fact for the Tribunal.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Issue for the Tribunal</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">The issue we must determine is therefore whether, on the balance of probabilities, more information within the scope of the request is held.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">In EIR cases there is also a public interest test under regulation 12(1)(b).</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The hearing, evidence and documents</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner emailed the Tribunal on 13 November to say it would not attend the hearing. The Tribunal decided to proceed in the absence of the Commissioner. The Appellant did not object to proceeding without the Commissioner. The Tribunal heard from Mr Gallagher and he was asked questions by the panel.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The parties provided a 108-page bundle which we have read, including: the Mr Gallagher&#8217;s Notice of Appeal; additional grounds of appeal; the Commissioner&#8217;s response; and Mr Gallagher&#8217;s reply.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Findings of fact</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council says it has released all the information relevant to Mr Gallagher&#8217;s request. The information in this case was released in a piecemeal fashion and we understand why Mr Gallagher is unwilling to take them at their word. Mr Gallagher&#8217;s main points were that:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Searches conducted were inadequate, as demonstrated by information being released after he had requested an internal review and complained to the Commissioner. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council&#8217;s response to the Commissioner&#8217;s email of 5 September was vague and/or misleading. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The decision notice ignored the piecemeal release of information and focused on trivial matters.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The decision notice took the Council&#8217;s responses at face value, when the repeated failure to disclose relevant documents shows that the Council&#8217;s assertions should not be trusted.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council&#8217;s own policies require them to hold documents for longer periods, and not to destroy them.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">It is important to start from the position that the standard of proof is the balance of probabilities, which means more likely than not. Public authorities hold vast amounts of information. We are not required to be certain that there is no further information to be disclosed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Mr Gallagher is clearly correct that the Council did not initially disclose all the information within the scope of his request. We also agree with him that the initial searches undertaken must therefore necessarily have been inadequate. However, we find that it is more likely than not that all the information in scope has since been disclosed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The correspondence from the Commissioner to the Council in relation to the possible missing information was both detailed and precise. For example, on 2 September 2024 the Council responded to queries from the Commissioner confirming what searches it had undertaken and in what terms. On 5 September 2024 the Commissioner clarified this in relation to three specific instances. While we understand Mr Gallagher&#8217;s reluctance to take the Council&#8217;s statements at face value, we find that we can be satisfied on the balance of probabilities that no further information was held, in the context where detailed questioning has been undertaken by the Commissioner as to the nature, content and extent of searches.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We consider that the extent of the searches set out in the Council&#8217;s response to the Commissioner on 2 September was adequate. Mr Gallagher was asked whether any other search terms should have been used. He said that he did not think so, but he was surprised there was not much information from Microsoft Teams as the Council extensively uses it for instant messaging. We could not find any additional support for this statement, but even if Mr Gallagher is right that Teams is used a lot by the Council it does not necessarily follow that information in the scope of the request would be discussed on it, or still retained. The response to the Commissioner dated 2 September 2024 specifically stated that Teams records had been searched and that records were kept for two years.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">There is also a difference between information a public authority </span><span style="font-style:italic;font-family:'Book Antiqua'">does</span><span style="font-family:'Book Antiqua'"> hold, and information it </span><span style="font-style:italic;font-family:'Book Antiqua'">ought </span><span style="font-family:'Book Antiqua'">to hold but does not. Mr Gallagher told us in the hearing that he suspected some of the information had been destroyed, though the Council&#8217;s own policies state it should be held for five </span><span style="font-family:'Book Antiqua';color:#000000">years or more. If that is true then Mr Gallagher can pursue that complaint through other forums. It is not part of this Tribunal&#8217;s jurisdiction. We make no findings as to whether the Council in this case has failed to retain information that it should have but that is one possible explanation for why the Council does not hold the information Mr Gallagher expects it to.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">Having considered those factors, we are satisfied on the balance of probabilities that the Council has now disclosed all information within the scope of Mr Gallagher&#8217;s request.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">Regulation 12(1)(b) mandates that we consider whether in all the circumstances of the case, the public interest in maintaining the exemption outweighs the public interest in disclosing it. We find there is no public interest in disclosing information that on the balance of probabilities, the Council does not hold. The public interest is therefore in maintaining the exemption on the basis that the information is not held.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Additional issues raised in the grounds of appeal</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In section 8 of his appeal form Mr Gallagher wrote: </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;The substitute notice should include the breaches of Regulations 11(3), 11(4), 11(5), 5(1) and maybe 9(1).&#8221;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Regulation 11 (3), (4) and (5) (representations and reconsideration)</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Mr Gallagher says that the Council have breached Regulation 11 of the EIR because no internal review was conducted. He argues that because the request was dealt with under FOIA initially that the response on 11 April 2024 did not constitute an internal review at all. We disagree with this submission. The internal review process is designed precisely so these issues can be picked up. Moreover, we do not consider that there is any material legal difference under FOIA or the EIR as to whether the information is held or not.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Regulation 5 (1) &#8211; duty to make environmental information available on request</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">This is covered by our decision on the issues above. We find, on the balance of probabilities, that the Council has made the information it holds available. We therefore find there is no breach of regulation 5 (1). The decision notice held that there was a breach of Regulation 5 (2) in that the Council failed to provide all the information within the 20 working days.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Regulation 9 (1) &#8211; advice and assistance</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We find that there has been no breach of regulation 9(1). The Council was not reasonably required to provide Mr Gallagher with additional advice and assistance. Mr Gallagher was evidently highly capable both in formulating his request and responding to the Council when he considered the response to be inadequate. There was nothing before the Council that could have reasonably indicated Mr Gallagher needed additional advice or assistance. The failures lay in the Council&#8217;s response to Mr Gallagher&#8217;s clear requests, which have now been rectified through the complaint process to the Commissioner.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">It is regrettable that it took so long to provide Mr Gallagher with the information he sought. However, we find that on the balance of probabilities there is no further information held by the Council that would be relevant to Mr Gallagher&#8217;s request. The appeal is dismissed.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua';color:#000000">Date:</span></heading>
+	  <level eId="lvl_2_1">
+	    <content>
+	      <p style="text-align:justify;margin-left:0.39in;text-indent:0.39in"><span style="font-family:'Book Antiqua';color:#000000">Judge Watton</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-04-12" refersTo="#decision" style="font-family:'Book Antiqua';color:#000000">12 April 2026</docDate></p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

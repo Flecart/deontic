@@ -1,0 +1,1305 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/556"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/556"/>
+	  <FRBRdate date="2026-04-14" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="556"/>
+	  <FRBRname value="Reg Oliver v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/556"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/556"/>
+	  <FRBRdate date="2026-04-14" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/556/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/556/data.xml"/>
+	  <FRBRdate date="2026-04-22T15:15:45" name="transform"/>
+	  <FRBRdate date="2026-04-22T15:34:55" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-10-01" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-06" refersTo="#decision" source="#"/>
+	<eventRef date="2026-04-14" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="reg-oliver" href="" showAs="REG OLIVER"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>556</uk:number>
+	<uk:cite>[2026] UKFTT 556 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>686ac5d12777fed89a5d422659bfb0660fbe84092419eb6b80de1bee8484b8f4</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: Aptos; }
+#judgment .Heading1 { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2 { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3 { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4 { font-style: italic; color: #0F4761; }
+#judgment .Heading5 { color: #0F4761; }
+#judgment .Heading6 { font-style: italic; color: #595959; }
+#judgment .Heading7 { color: #595959; }
+#judgment .Heading8 { font-style: italic; color: #272727; }
+#judgment .Heading9 { color: #272727; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .Quote { text-align: center; font-style: italic; color: #404040; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; color: #0F4761; }
+#judgment .p2 { font-family: Helvetica; font-size: 9pt; color: #000000; }
+#judgment .NormalWeb { font-family: 'Times New Roman'; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; }
+#judgment .Body { font-family: 'Times New Roman'; color: #000000; }
+#judgment .legclearfix { font-family: 'Times New Roman'; color: #000000; }
+#judgment .Revision { }
+#judgment .Heading1Char { font-size: 20pt; color: #0F4761; }
+#judgment .Heading2Char { font-size: 16pt; color: #0F4761; }
+#judgment .Heading3Char { font-size: 14pt; color: #0F4761; }
+#judgment .Heading4Char { font-style: italic; color: #0F4761; }
+#judgment .Heading5Char { color: #0F4761; }
+#judgment .Heading6Char { font-style: italic; color: #595959; }
+#judgment .Heading7Char { color: #595959; }
+#judgment .Heading8Char { font-style: italic; color: #272727; }
+#judgment .Heading9Char { color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .QuoteChar { font-style: italic; color: #404040; }
+#judgment .IntenseEmphasis { font-style: italic; color: #0F4761; }
+#judgment .IntenseQuoteChar { font-style: italic; color: #0F4761; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #0F4761; }
+#judgment .s1 { font-family: Helvetica; font-size: 9pt; }
+#judgment .ListParagraphChar { }
+#judgment .PageNumber { }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; }
+#judgment .apple-converted-space { }
+#judgment .Strong { font-weight: bold; }
+#judgment .Emphasis { font-style: italic; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00556 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0070</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decided on the papers</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on </span><docDate date="2025-10-01" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">1 October 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-14" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">14 April 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE KIAI </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER YATES</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER GRIMLEY EVANS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#reg-oliver" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">REG OLIVER</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">First Respondent</role></p>
+      <p style="margin-left:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua';color:#000000">The appeal is</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">refused</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span><span style="font-family:'Book Antiqua';color:#000000"> Decision Notice IC 314824 V7P6, dated 17 December 2024 is upheld. No steps are required.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Before we start this decision, we wish to apologise unreservedly for the time taken to issue it. Owing to unexpected personal difficulties affecting the judge responsible for drafting the judgment, the written reasons could not be finalised within the usual timeframe. We regret any delay and appreciate the courtesy and forbearance shown by all concerned.  </span></p>
+	    <p style="margin-left:0.11in;text-indent:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Summary</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This</span><span style="font-family:'Book Antiqua'"> appeal concerns two requests made by the Appellant to Derbyshire County Council on 13 and 20 February 2024. The Council refused the requests under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8216;FOIA&#8217;) and regulation 12(4)(b) of the Environmental Information Regulations 2004 (&#8216;EIR&#8217;) The Information Commissioner (&#8216;the Commissioner&#8217;) upheld that refusal. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We have considered the matter afresh on the papers. We fully recognise that the Appellant brings these issues forward with genuine conviction and with a sustained wish to achieve clarity. Nothing in this decision reflects adversely on the Appellant&#8217;s motives. The outcome turns on the limits of the information access regime and on the cumulative effect that the two requests had in their established context. We conclude that the Commissioner&#8217;s decision was in accordance with the law.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">General Background</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">There has been correspondence between the Appellant and the Council for several years about traffic regulation orders (&#8216;TROs&#8217;) signage including diagram 801 and the status of lay-by and access road areas. The record shows a substantial number of earlier information requests on these themes. In June 2022 the Council designated the Appellant a persistent complainant. We note this history only to understand context and proportionality.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">During earlier exchanges the Council provided the 2016 Consolidation Order and explained that provisions for the A616 were captured within that order with previous orders revoked. The Council also explained that diagram 801 was treated as an informatory sign and that a sign had been replaced in 2022 on the A616 for driver information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The two requests of 13 and 20 February 2024 were refused under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of FOIA and regulation 12(4)(b) EIR. Following an investigation the Commissioner issued Decision Notice IC 314824 V7P6 (&#8216;DN&#8217;) on 17 December 2024 upholding the refusal and requiring no steps.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Requests</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">On 13 February 2024, the Appellant wrote to the Council and requested information in the following terms: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">&#8216;<span style="font-style:italic">I request the following information on regulations and not what is considered as being correct. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">1/Regulation that combines a service road with a lay-by and I refer to the National Highways TROs which state &#8211; main highway, and any lay-by, service road or bus stop, all being individual areas. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;color:#000000">2/ Which lines "are required" on any rural lay-by.? Give way lines, or a single broken white line to 1-0-1-0 in TSRGD.?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;color:#000000">3/ The cost of the TRO and all lines of various restrictions on the A632 lay-by since 2010 in individual sections. (deployment)?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;color:#000000">4/ Confirm that the TPT advised the Council to remove the required regulation 801 sign from the above location and the reason.?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;color:#000000">5/ The Council having now acepted [sic] that the restrictions are "unlawful" when will the required regulation 801 sign be reinstated and the unlawful lines removed.?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;color:#000000">6/ Confirmation that the TRO for the A632 states. The A632 and also the A632 LAY-BY seperate [sic] to the main A632 and NOT part of the highway.?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;color:#000000">7/ Can yo [sic] confirm that the Council held a meeting prior to the above TRO to dicuss [sic]  if it would be unlawful?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;color:#000000">8/ Can you confirm that the A632 location is in NEDDC and not the Borough and therefore defective and again unenforceable.?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;color:#000000">9/ Supply a copy of the TRO for the A616 (and not the village) and the reason for reinstating of the required 801 signs but UNLAWFUL restrictions still not being removed.?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;color:#000000">10/ Can you confirm that the County, Borough or area Councils have NO powers of restrictions on properties in isolation and is "OUTSIDE" of their operations.,as [sic]  in your park smarter document,.?&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 20 February 2024, the Appellant wrote further to the Council and requested the following information: </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">&#8216;I request confirmation on the following.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Local traffic orders (proceedures) </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">[sic] </span><span style="font-style:italic;font-family:'Book Antiqua';color:#262626"> SI 1999/614.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';color:#262626">8.12</num>
+	    <content>
+	      <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Primary object of parking conrol </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">[sic]</span><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">. "Road network" free flow of</span><span style="font-style:italic;font-family:'Book Antiqua';color:#FFFFFF"/><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">traffic.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';color:#262626">10.6</num>
+	    <content>
+	      <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Meet all requirements of law.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Section B. Any roads or areas to be excluded. (on application of powers</span><span style="font-style:italic;font-family:'Book Antiqua';color:#FFFFFF"/><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">and TROs)</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';color:#262626">10.3</num>
+	    <content>
+	      <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Must have a duty under law to act fairly.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';color:#262626">1.10</num>
+	    <content>
+	      <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Must have clear understanding of what the law requires.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';color:#262626">5.2</num>
+	    <content>
+	      <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Restrictions that do not comply with regulations.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">13/9 A map for "public and contractors", (Not claimed as the power of</span><span style="font-style:italic;font-family:'Book Antiqua';color:#FFFFFF"/><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">control) accurate and up to date.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Lines conform to those required under regulations that conform to 1-0-1-0 in schedule 6 of TRSGD on rural lay-bys.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">That the 2004 TMA is complied with in all areas of the TMA (traffic</span><span style="font-style:italic;font-family:'Book Antiqua';color:#FFFFFF"/><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">management act).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">The House of Commons document which states that parking</span><span style="font-style:italic;font-family:'Book Antiqua';color:#FFFFFF"/><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">restrictions can only be used on "specific roads" and not used as</span><span style="font-style:italic;font-family:'Book Antiqua';color:#FFFFFF"/><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">general parking enforcement.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Supply a copy of the TRO for the A616 and the date of publication.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">When will the unlawful restrictions be removed from the A616.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Can you confirm or otherwise all of the above is complied with by the</span><span style="font-style:italic;font-family:'Book Antiqua';color:#FFFFFF"/><span style="font-style:italic;font-family:'Book Antiqua';color:#262626">Council and all restrictions by the Council are lawful&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 12 March 2024, the Council <span style="font-family:'Segoe UI';color:#000000">refused the request for information pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8216;FOIA&#8217;) on the basis that it is vexatious. The Council stated that the request lacked proper justification, given that the matters raised had already been addressed on numerous previous occasions through earlier responses.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Council contended that the volume, frequency, and overlapping nature of the requester&#8217;s enquiries placed an unjustified burden upon the authority and its officers. It further relied upon the pattern and tone of the requesters correspondence, which it asserted demonstrated an underlying grievance rather than a genuine need for further disclosure.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Council recorded that since 2017 the requester has submitted 36 access to information requests, many of which concerned the same or substantially similar subject matter. These included issues relating to a Penalty Charge Notice issued in September 2017, TROs affecting the A632 and the A616, matters concerning service roads, lay-bys, parking restrictions, and the conduct of Civil Enforcement Officers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Council maintained that the requesters correspondence has been persistent, repetitive, and on occasion confrontational, containing challenges to the competence and integrity of officers. The authority maintained that responding to such correspondence has caused disproportionate disruption and burden.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Council noted that it had frequently provided explanations and contextual information that it was not obliged to disclose under either the FOIA or the EIR. It confirmed that future responses would be limited strictly to information that it was required to provide under the statutory scheme.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"> On 16 April 2024, the Council disclosed a &#8220;2016 Consolidation Order&#8221; which it stated had previously been provided. The Council stated &#8216;<span style="font-style:italic">The TRO for the A616 was incorporated into the Consolidation Order and the existing TRO would have been revoked at that time. The Council hold no further documents, other than have been provided, relating to the TRO for the A616&#8217;. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">It explained that details of current restrictions were available on its public website under parking restrictions, where the relevant area may be located via the search function. A further copy of the map showing the existing TRO for the limited waiting bays on the A616 at Barlborough, between the M1 Junction 30 roundabout and the A619, was provided.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Council reiterated that there was no legal requirement for the erection or removal of a sign numbered 801. Such signs were provided solely for driver information and are not subject to regulation. The 801 sign on the A616 lay-by was replaced in 2022 for informational purposes only.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">In respect of the separate request referenced EIR/5051 concerning regulations, the Council acknowledged that although the response to EIR/5000 explained that the information sought did not fall within the scope of the FOIA or the EIR, and the Appellant had been directed to the highways hub, the Council failed to upload a formal response to the WhatDoTheyKnow platform. The missing response had now been issued to complete the request. The Council offered its apology for this oversight.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Following an internal review, the Council wrote to the Appellant on 17 June 2024 and explained that it considered the requests to be vexatious. It also explained that no further information was held beyond that already provided in response to earlier requests. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Appellant complained to the Commissioner on 24 June 2024.  He complained about the way his requested had been handled. He also stated that the Council held further information beyond the &#8216;2016 Consolidation Order&#8217; which had been disclosed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Commissioner indicated that in light of the fact the Council had made a decision to treat the requests as vexatious on 17 June 2024, the Commissioner&#8217;s decision would be focused on this issue only. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Decision Notice (17 December 2024)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial;color:#000000">The Commissioner</span><span style="font-family:'Segoe UI';color:#000000"> noted that there is no material difference between a request that is vexatious under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA and a request that is manifestly unreasonable on vexatious grounds under regulation 12(4)(b) of the EIR. He therefore considered the extent to which the requests could be considered vexatious. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Council submitted to the Commissioner that the 2 requests form part of what it considers to be a long running grievance arising from a penalty charge notice issued to the Appellant in 2017 and the subsequent appeal to the Traffic Penalty Tribunal which upheld the penalty charge notice.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Council stated that between 2017 and June 2022 it received approximately 35 information requests from the Appellant with further requests submitted from 2022 onwards. Many of those requests related to the same section of road where the penalty charge was issued, particular Council officers involved in the earlier appeal and the validity of the Councils TROs.</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000">To illustrate the pattern, the Council provided examples of 5 information requests submitted between February 2020 and March 2021 all concerning these topics and confirmed that responses and internal reviews had been provided in each case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">In addition to the formal requests the Council described receiving a high volume of correspondence and complaints from the Appellant raising similar matters. Some of this correspondence included strongly expressed concerns about the conduct of Council officers including one who appeared at the Traffic Penalty Tribunal hearing. The Council explained that since 2022 the Appellant&#8217;s relationship with the Council has been managed under its persistent complainant process.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">Overall, the Council stated that the frequent and overlapping nature of the requests had reached a point where they had become an improper use of the formal access to information procedure. It considered that responding would impose a significant burden not justified by any meaningful public interest. The Council said it had already sought over several years to provide relevant recorded information or explanations in order to draw matters to a conclusion but that this had not succeeded.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Commissioner noted from the Appellant&#8217;s own explanations that the requests are closely connected with concerns about the lawfulness of TROs signage and wider matters including allegations about the conduct of specific Council officers in earlier proceedings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">He concluded that the 2 requests are intrinsically linked to the same substantive issues raised by the Appellant since 2017 following the unsuccessful penalty charge appeal and f</span><span class="NumberedReasonsChar" style="font-family:'Book Antiqua'">ound&#160;no</span><span style="font-family:'Segoe UI';color:#000000"> compelling evidence that the Council had failed to engage or to provide recorded information where it was held.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Commissioner referred to several earlier decision notices concerning the Appellant which reinforced this conclusion. In IC 38863 G2D9, issued in December 2020 he found that the Council had disclosed all information relating to specified TROs. In IC 56675 Q7P3, issued in August 2021 he found that the Council was entitled to refuse traffic regulation order mapping data on cost grounds and had provided reasonable advice and assistance. In IC 162308 C7J5, he found that the Council did not hold additional mapping portal information sought by the Appellant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">He noted that there was no evidence that the Appellant had been prevented from using appropriate routes of appeal or complaint. The Appellant had been directed to relevant channels both within the Council and externally including the police where matters concerned potential civil claims.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">Taking all of the above into account the Commissioner concluded that the requests appeared to have been made in order to continue engagement on issues the Council considered to have been fully addressed. He found no evidence of a compelling public interest that would justify the burden of further responses and no evidence that the Council or its officers had acted improperly or failed to respond to earlier requests.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">For the aspects of the requests that sought environmental information the Commissioner acknowledged the presumption in favour of disclosure under 12(2) EIR. However, he concluded that in the particular context the requests did not appear to have been made to obtain information for wider public benefit but rather to continue the underlying dispute and to place further burden on the authority. In these circumstances the public interest in maintaining the exception outweighed that in disclosure.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Commissioner therefore concluded that the Council was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of the FOIA and regulation 12(4)(b) of the EIR. He required no further steps</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#000000">Grounds of Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <intro>
+	    <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant&#8217;s grounds of appeal, dated 3 January 2025 submit: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(i)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.5in"><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Book Antiqua';color:#000000">Incorrect and Misleading Information</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Since 2017, the Council has repeatedly provided information that is wrong, misleading, or incomplete in response to his FOIA and EIR requests concerning parking and traffic regulation matters, particularly relating to lay-by restrictions on the A632 and A616. The Appellant maintains that relevant regulations and statutory documents have been withheld or suppressed.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(ii)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.5in"><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Book Antiqua';color:#000000">Improper Reliance on Mapping Portal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Council has incorrectly asserted that its mapping portal constitutes the operative legal instrument, whereas in his view the controlling TROs are the written documents, which he states have not been properly disclosed.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(iii)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.5in"><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Book Antiqua';color:#000000">Alleged Improper Conduct in Tribunal Proceedings</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On two previous parking appeals, the Council knowingly provided incorrect and misleading evidence, amounting, in his view, to perjury and fraud.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(iv)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.5in"><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Book Antiqua';color:#000000">Defective and Unenforceable TROs</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The TROs relevant to the A632 and the 2016 Consolidation Order are defective or incomplete, rendering associated restrictions unlawful and unenforceable. The Appellant claims that Schedule 2 was removed from the 2016 Order, leaving lay-by restrictions unrecorded.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(v)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Unlawful PCNs</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant relies on a Notice to Owner cancellation in 2022 which recorded the word &#8220;UNLAWFUL&#8221; in the grounds of challenge. He interprets this as confirmation that all PCNs issued at the location since 2010 were unlawful.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(vi)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.5in"><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Book Antiqua';color:#000000">Council&#8217;s Characterisation of His Conduct</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant disputes the Council&#8217;s assertion that he has used abusive language or acted vexatiously, noting that the Council has not provided evidence to substantiate these claims.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(vii)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.5in"><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Book Antiqua';color:#000000">Volume of Supporting Evidence</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant states that he holds extensive documents, accumulated over 7 years, which he says demonstrate the Council&#8217;s wrongdoing. He indicates that only a small sample has been provided so far but that additional material can be supplied if required.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num class="Strong" style="font-style:italic;font-family:'Book Antiqua'">(viii)</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in;text-indent:0.5in"><span class="Strong" style="font-style:italic;font-weight:normal;font-family:'Book Antiqua';color:#000000">General Allegation of Impropriety</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">He asserts that the Council&#8217;s responses to the ICO were accepted at face value but were, in his view, &#8220;corrupt in detail&#8221;, and that the ICO decision was consequently flawed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant attached various documents to his grounds of appeal. These are not detailed here but have been considered by the panel. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">The Commissioner&#8217;s Response</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner maintains the DN. He submits that, having regard to the binding authorities of</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Dransfield v Information Commissioner &amp; Devon County Council</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">and</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Craven v Information Commissioner and DECC</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref>, the request was manifestly unreasonable, noting the Upper Tribunal&#8217;s finding in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Craven</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">(at &#167;7) that &#8220;manifestly unreasonable&#8221; in regulation 12(4)(b) is to be read as synonymous with &#8220;vexatious&#8221; under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA. The Commissioner further states that he conducted a public-interest assessment (DN &#167;28) and concluded that the public interest in maintaining regulation 12(4)(b) outweighs the public interest in disclosure. He acknowledges the presumption in favour of disclosure required by regulation 12(2) EIR and consistent with</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Book Antiqua';color:#000000">Vesco v Information Commissioner</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">(SGIA/44/2019, &#167;19), confirms that he took that presumption into account; however, he considers that, on the facts of this case, the balance of the public interest favours the maintenance of the exception and that regulation 12(4)(b) was correctly applied.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Appellant&#8217;s reply to the Commissioner&#8217;s response</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <intro>
+	    <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant states that since 2013, he has engaged extensively with traffic and parking regulation issues, raising concerns about Derbyshire County Council&#8217;s use of powers and the accuracy of its responses to FOIA/EIR requests. He explains that this has generated many requests in trying to extricate the correct information on various regulations and also the vast amounts of public finances wasted on many projects. By way of example, he first cites the A632 lay-by, said to have become a lay-by in 1984, where the Council maintained for approximately ten years that parking restrictions were lawful; he states that in December 2023, following a driver&#8217;s challenge, the Council accepted the restrictions were unlawful and cancelled the PCN, which he says followed a period of suppressed information. Secondly, he refers to seven mobile camera sites constructed at a total cost of &#163;21,000; in response to his enquiry the Council asserted that all seven remained operational, whereas he says two were not, including one site which, after he raised safety concerns with the head of road policing, was abandoned in favour of another location approximately 100 metres away that required no construction or further cost. He indicates that these are merely two examples among many, asserts that the Council&#8217;s actions are supported by its policing partners, and states that his focus is confined to traffic/parking and financial issues in light of more than 30 years&#8217; experience in the transport sector. He reiterates that the Council are adept at suppressing information requested. He does not criticise the Commissioner but contends that the Commissioner has been misled by incorrect and misleading information supplied by the Council, which he characterises as corrupt and wasteful of public funds. He offers to supply further documentation from the Council if required.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Legal Framework</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span class="PageNumber" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">EIR</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">Information which is within the scope of the EIR is exempt from disclosure under FOIA. Section 39(1) of FOIA provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';font-size:12pt">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">Information is exempt information if the public authority holding it&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">is obliged by environmental information regulations to make the information available to</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">the public in accordance with the regulations, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">would be so obliged but for any exemption contained in the regulations.</span><span style="font-family:'Book Antiqua';font-size:12pt">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">Accordingly, requests for environmental information held by a public authority must be dealt with under the EIR rather than FOIA.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">The term &#8216;environmental information&#8217; is defined in regulation 2(1) of the EIR as:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="p2" style="margin-left:1in"><span style="font-family:'Book Antiqua';font-size:12pt">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">&#8230;any information in written, visual, aural, electronic or any other material form on&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">the state of the elements of the environment, such as air and atmosphere, water, soil, land,</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">landscape and natural sites including wetlands, coastal and marine areas, biological diversity</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">and its components, including genetically modified organisms, and the interaction among these</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">elements;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">factors, such as substances, energy, noise, radiation or waste, including radioactive waste, emissions, discharges and other releases into the environment, affecting or likely to affect the elements of the environment referred to in (a);</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">measures (including administrative measures), such as policies, legislation, plans, programmes, environmental agreements, and activities affecting or likely to affect the elements and factors referred to in (a) and (b) as well as measures or activities designed to protect those elements;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(d)</num>
+		  <content>
+		    <p class="p2" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">reports on the implementation of environmental legislation;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(e)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">cost-benefit and other economic analyses and assumptions used within the framework of the</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">measures and activities referred to in (c); and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(f)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">the state of human health and safety, including the contamination of the food chain, where</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">relevant, conditions of human life, cultural sites and built structures inasmuch as they are or</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">may be affected by the state of the elements of the environment referred to in (a) or, through</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">those elements, by any of the matters referred to in (b) and (c);</span><span style="font-family:'Book Antiqua';font-size:12pt">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">Regulation 5(1) of the EIR provides individuals with a general right of access to environmental information held by public authorities. It provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="p2" style="margin-left:1in"><span style="font-family:'Book Antiqua';font-size:12pt">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">&#8230;a public authority that holds environmental information shall make it available on request.</span><span style="font-family:'Book Antiqua';font-size:12pt">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">However, that entitlement is subject to the other provisions of the EIR, including some exceptions and qualifications which may apply even if the requested environmental information is held by the public authority. The opening wording of regulation 5(1) of the EIR (that is, the wording immediately preceding the extract quoted above) provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="p2" style="margin-left:1in"><span style="font-family:'Book Antiqua';font-size:12pt">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">Subject to paragraph (3) and in accordance with paragraphs (2), (4), (5) and (6) and the</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">remaining provisions of this Part and Part 3 of these Regulations&#8230;</span><span style="font-family:'Book Antiqua';font-size:12pt">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">Regulation 5(1) of the EIR does not therefore provide an unconditional right of access to any environmental information which a public authority holds. The right is subject to certain other provisions of the EIR. Part 3 of the EIR, referred to above, contains various exceptions to the duty to disclose environmental information which has been requested.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">Within Part 3 of the EIR, regulation 12 is applicable for the purposes of the Appeals. So far as is relevant, regulation 12 of the EIR provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <intro>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">environmental information requested if&#8212;</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		    <content>
+		      <p class="p2" style="margin-left:1.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">an exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		    <content>
+		      <p class="p2" style="text-align:justify;margin-left:1.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">in all the circumstances of the case, the public interest in maintaining the exception</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">outweighs the public interest in disclosing the information.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(4)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">For the purposes of paragraph (1)(a), a public authority may refuse to disclose information</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">to the extent that&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="p2" style="margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="p2" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">the request for information is manifestly unreasonable;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="p2" style="margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">&#8230;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(d)</num>
+		  <content>
+		    <p class="p2" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">the request relates to material which is still in the course of completion to unfinished documents or to incomplete data&#8230;&#8221;</span><span style="font-family:'Book Antiqua';font-size:12pt">.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">In summary, a public authority may refuse to disclose environmental information which is requested under the EIR if the request is &#8216;manifestly unreasonable&#8217; and if, in the circumstances at the time of the refusal, the Public Interest Test favours withholding the information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">The term &#8216;manifestly unreasonable&#8217; is not defined in the EIR, but has been interpreted by case law, to which we refer below. As we will explain, &#8216;manifestly unreasonable&#8217; in the EIR essentially means the same as &#8216;vexatious&#8217; in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of FOIA. That section provides: &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">Section 1(1) does not oblige a public authority to comply with a request for</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">information if the request is vexatious.</span><span style="font-family:'Book Antiqua';font-size:12pt">&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">Regulation 12(1) of the EIR is subject to regulation 12(2) of the EIR, which provides: &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">A</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">public authority shall apply a presumption in favour of disclosure</span><span style="font-family:'Book Antiqua';font-size:12pt">&#8221;.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">Therefore, even where there is a potential exception to disclosure of environmental information which is requested under the EIR, that exception (and the application of the Public Interest Test) is subject to a presumption in favour of disclosure of the information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">So far as is relevant for current purposes, regulation 4 of the EIR provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">Subject to paragraph (3), a public authority shall in respect of environmental information</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">that it holds&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">progressively make the information available to the public by electronic means which are</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">easily accessible; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">take reasonable steps to organize the information relevant to its functions with a view to the</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">active and systematic dissemination to the public of the information.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(3)</num>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">Paragraph (1) shall not extend to making available or disseminating information which a</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">public authority would be entitled to refuse to disclose under regulation 12.</span><span style="font-family:'Book Antiqua';font-size:12pt">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">Therefore regulation 4(1) of the EIR places a duty on public authorities to progressively publish the environmental information which it holds, other than information which, if it were requested, the public authority would be entitled to withhold pursuant to any applicable exception in regulation 12 of the EIR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">The environmental information which is to be disseminated pursuant to regulation 4(1) of the EIR is specified in regulation 4(4) of the EIR, as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;(4)</num>
+		  <content>
+		    <p class="p2" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">The information under paragraph (1) shall include at least&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="p2" style="margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">(a)the information referred to in Article 7(2) of the Directive; and</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="p2" style="text-align:justify;margin-left:1in"><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">(b)facts and analyses of facts which the public authority considers relevant and important in</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">framing major environmental policy proposals.</span><span style="font-family:'Book Antiqua';font-size:12pt">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">The &#8216;Directive&#8217; referred to is the European Directive 2003/4/EC, which was implemented by the EIR. The information referred to in Article 7(2) of that Directive (and hence the information which must be disseminated pursuant to regulation 4(1) of the EIR) includes policies, plans and procedures relating to the environment, reports on the state of the environment, environmental impact studies and data taken from monitoring activities and risk assessments which affect or are likely to affect the environment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <intro>
+	    <p class="p2" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';font-size:12pt">We turn now to case law regarding the term &#8216;manifestly unreasonable&#8217; in regulation 12(4)(b) of the EIR. As set out above, the term is not defined in the EIR. In FOIA, there is a parallel term of &#8216;vexatious&#8217; and the courts have established that &#8216;manifestly unreasonable&#8217; for the purposes of the EIR shares the meaning of that term. In the case of </span><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">Craven v Information Commissioner and Department for Energy and Climate Change</span><span style="font-family:'Book Antiqua';font-size:12pt"> ([2012] UKUT 442), Upper Tribunal Judge Wikeley stated (at paragraph 30) that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="p2" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua';font-size:12pt">"</span><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">... in deciding whether a request is "manifestly unreasonable" under the EIR, a tribunal should</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">have regard to the same types of considerations as apply to the determination of whether a</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">request is "vexatious" within FOIA. The conceptual structure for decision-making is different,</span><span class="s1" style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">but the outcome will surely be the same, whichever route is adopted. Insofar as a request is for</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">environmental information, it therefore follows that the meaning of the expression "manifestly</span><span style="font-family:'Book Antiqua';font-size:12pt"/><span style="font-style:italic;font-family:'Book Antiqua';font-size:12pt">unreasonable" is essentially the same as "vexatious"&#8230;</span><span style="font-family:'Book Antiqua';font-size:12pt">&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span class="PageNumber" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">FOIA</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">The relevant provisions of FOIA are as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';margin-left:1.57in;text-indent:-0.78in">1.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.57in;border-style:none"><span class="PageNumber" style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">General right of access to information held by public authorities</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(1)</num>
+	      <intro>
+		<p class="Body" style="text-align:justify;margin-left:1.57in"><span style="font-style:italic;font-family:'Book Antiqua'">Any person making a request for information to a public authority is entitled&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		<content>
+		  <p class="Body" style="text-align:justify;margin-left:1.97in"><span style="font-style:italic;font-family:'Book Antiqua'">to be informed in writing by the public authority whether it holds information of the description specified in the request, and</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p class="Body" style="text-align:justify;margin-left:1.18in;text-indent:0.71in"><span style="font-style:italic;font-family:'Book Antiqua'">if that is the case, to have that information communicated to him.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">14.</num>
+	    <intro>
+	      <p class="Body" style="text-align:justify;margin-left:0.39in;text-indent:0.5in"><marker name="tab"/><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Vexatious or repeated requests</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(1)</num>
+	      <content>
+		<p class="Body" style="text-align:justify;margin-left:1.56in"><span style="font-style:italic;font-family:'Book Antiqua'">Section 1(1) does not oblige a public authority to comply with a request for information if the request is vexatious.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+	      <content>
+		<p class="Body" style="text-align:justify;margin-left:1.55in"><span style="font-style:italic;font-family:'Book Antiqua'">Where a public authority has previously complied with a request for information which was made by any person, it is not obliged to comply with a subsequent identical or substantially similar request from that person unless a reasonable interval has elapsed between compliance with the previous request and the making of the current request.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;border-style:none"><span class="PageNumber">There is no further guidance on the meaning of &#8220;vexatious&#8221; in the legislation. The leading guidance is contained in the Upper Tribunal (&#8220;UT&#8221;) decision in </span><span style="font-style:italic">Information Commissioner v Dransfield <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/440" uk:canonical="[2012] UKUT 440 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 440 (AAC)</ref></span><span class="PageNumber">, as upheld and clarified in the Court of Appeal </span><span style="font-style:italic">(&#8220;CA&#8221;) in Dransfield v Information Commissioner and another &amp; Craven v Information Commissioner and another <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref> (CA)</span><span class="PageNumber">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;border-style:none"><span class="PageNumber">As noted by Arden LJ in her judgment in the CA in </span><span class="PageNumber" style="font-style:italic">Dransfield</span><span class="PageNumber">, the hurdle of showing a request is vexatious is a high one: </span><span style="font-style:italic">&#8220;&#8230;the starting point is that vexatiousness primarily involves making a request which has no reasonable foundation, that is, no reasonable foundation for thinking that the information sought would be of value to the requester, or to the public or any section of the public. Parliament has chosen a strong word which therefore means that the hurdle of satisfying it is a high one, and that is consistent with the constitutional nature of the right. The decision maker should consider all the relevant circumstances in order to reach a balanced conclusion as to whether a request is vexatious.&#8221; (para 68).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;border-style:none"><span class="PageNumber">Judge Wikeley&#8217;s decision in the UT </span><span class="PageNumber" style="font-style:italic">Dransfield</span><span class="PageNumber"> sets out more detailed guidance that was not challenged in the CA. The ultimate question is, &#8220;</span><span class="PageNumber" style="font-style:italic">is the request vexatious in the sense of being a manifestly unjustified, inappropriate or improper use of FOIA?&#8221;</span><span class="PageNumber"> (para 43). It is important to adopt a &#8220;</span><span class="PageNumber" style="font-style:italic">holistic and broad</span><span class="PageNumber">&#8221; approach, emphasising &#8220;manifest unreasonableness, irresponsibility and, especially where there is a previous course of dealings, the lack of proportionality that typically characterise vexatious requests.&#8221; (para 45). Arden LJ in the CA also emphasised that a &#8220;</span><span class="PageNumber" style="font-style:italic">rounded approach</span><span class="PageNumber">&#8221; is required (para 69), and all evidence which may shed light on whether a request is vexatious should be considered.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;border-style:none"><span class="PageNumber">The UT set out four non-exhaustive broad issues which can be helpful in assessing whether a request is vexatious: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">a.</num>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Book Antiqua'">The burden imposed on the public authority by the request.</span><span style="font-family:'Book Antiqua'"> This may be inextricably linked with the previous course of dealings between the parties. &#8220;&#8230;the context and history of the previous request, in terms of the previous course of dealings between the individual requester and the public authority in question, must be considered in assessing whether it is properly to be characterised as vexatious. In particular, the number, breadth, pattern and duration of previous requests may be a telling factor.&#8221; (para 29).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">b.</num>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Book Antiqua'">The motive of the requester.</span><span style="font-family:'Book Antiqua'"> Although FOIA is motive-blind, &#8220;what may seem like an entirely reasonable and benign request may be found to be vexatious in the wider context of the course of dealings between the individual and the relevant public authority.&#8221; (para 34). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">c.</num>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Book Antiqua'">The value or serious purpose</span><span style="font-family:'Book Antiqua'">. Lack of objective value cannot provide a basis for refusal on its own, but is part of the balancing exercise &#8211; &#8220;does the request have a value or serious purpose in terms of the objective public interest in the information sought?&#8221; (para 38). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">d.</num>
+	    <content>
+	      <p class="legclearfix" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-weight:bold;font-family:'Book Antiqua'">Any harassment of, or distress caused to, the public authority&#8217;s staff</span><span style="font-family:'Book Antiqua'">. This is not necessary in order for a request to be vexatious, but &#8220;vexatiousness may be evidenced by obsessive conduct that harasses or distresses staff, uses intemperate language, makes wide-ranging and unsubstantiated allegations of criminal behaviour or is in any other respects extremely offensive.&#8221; (para 39). Overall, the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> is to &#8220;protect the resources (in the broadest sense of that word) of the public authority from being squandered on disproportionate use of FOIA&#8221; (UT para 10), subject always to the high standard of vexatiousness being met.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <intro>
+	    <p class="legclearfix" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14(1)</ref> does not require evidence of improper motive. The statutory test is concerned with the</span><span class="apple-converted-space" style="font-family:'Book Antiqua'">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua'">effect</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua'">&#160;</span><span style="font-family:'Book Antiqua'">of the requests and the proportionality of requiring a response.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The role of the tribunal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">The tribunal&#8217;s remit is governed by section 58 FOIA. This requires the tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved exercising discretion, whether he should have exercised it differently. The tribunal may receive evidence that was not before the Commissioner and may make different findings of fact from the Commissioner. </span><span style="font-family:'Book Antiqua';color:#000000">The Tribunal conducts a</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">full merits review</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">of the Commissioner&#8217;s decision, but within the limited statutory question of whether FOIA Part I was complied with.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span style="font-family:'Book Antiqua'">The burden of proof in satisfying the Tribunal that the Commissioner&#8217;s decision was wrong in law or involved an inappropriate exercise of discretion rests with the Appellant. The relevant standard of proof is the balance of probabilities.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Issues and Evidence</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Evidence</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span class="PageNumber" style="font-family:'Book Antiqua'">By way of evidence and submissions we considered a bundle consisting of 215 electronic pages. The Tribunal has considered all of this material carefully but does not consider it necessary to refer to all, or indeed most of it, in this judgement. The case was decided on the papers as agreed by the parties.  </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.1in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Scope of Hearing</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span style="font-family:'Book Antiqua';color:#000000">The Appellant&#8217;s present requests form part of a longer course of dealings originating in a Penalty Charge Notice issued in 2017 and the ensuing Traffic Penalty Tribunal determination. That history explains why he places particular weight on the validity and interpretation of traffic measures and signage at the relevant locations.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span style="font-family:'Book Antiqua';color:#000000">A significant strand of his concern is that he has not, in his view, received the &#8220;actual&#8221; written TRO for the A616 and a formal publication date. The Council&#8217;s position is that the A616 arrangements are contained within the 2016 Consolidation Order and that no further A616 TRO documents are held beyond those already provided or signposted. In April 2024, the Council pointed the Appellant to the Consolidation Order and supplied the A616 Barlborough map extract; it also explained that the &#8220;801&#8221; sign is informatory and not legally required and apologised for a process oversight on posting a response to the public portal, which it then corrected.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span style="font-family:'Book Antiqua';color:#000000">The Council&#8217;s refusal of 12 March 2024, and the internal review on 17 June 2024, set out its view that the Appellant&#8217;s requests now overlap substantially with earlier themes and have become resource-intensive to manage. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span style="font-family:'Book Antiqua';color:#000000">The Appellant has also expressed frustration about communication barriers, including instances where he says his emails were blocked. The Commissioner advised that this did not prevent him from exercising his information rights, which could still be pursued by written requests sent by post if necessary.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span style="font-family:'Book Antiqua';color:#000000">We take these matters into account as background. However, our jurisdiction is confined to whether the FOIA/EIR legislation has been complied with. The Tribunal will consider whether, as at the date of the DN, the Commissioner was entitled to conclude that the Council could rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA and/or regulation 12(4)(b) EIR in relation to the request. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;border-style:none"><span style="font-family:'Book Antiqua';color:#000000">Other matters are not for determination in this appeal. By way of guidance, these include: the legality or merits of particular parking or traffic restrictions, TROs, or individual PCNs; broader concerns about the conduct of the Council or the police, save to the limited extent that material may help illuminate whether the request was vexatious or manifestly unreasonable; operational choices (for example, the siting or use of mobile camera equipment) and associated value-for-money points; complaints about service standards or correspondence handling, except insofar as they shed light on the context of the request; disputes about the accuracy of information held because FOIA/EIR provide a right of access to recorded information, not a right to have it proved correct; events or material arising after the date of the request or the DN, as well as new or reformulated requests or requests for explanations rather than recorded information; and remedies such as findings of civil or criminal liability, general declarations about conduct, or compensation, which are outside the Tribunal&#8217;s powers in this jurisdiction.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Our task is therefore much narrower than the Appellant understandably wishes it to be. We must confine ourselves to the specific questions raised by the requests that are the subject of the Commissioner&#8217;s DN, and to the Commissioner&#8217;s assessment of those requests. The Tribunal&#8217;s jurisdiction in a FOIA/EIR appeal is</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">appellate</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">over the Commissioner&#8217;s DN. It does not exercise an original jurisdiction to direct how the public authority should handle the Appellant&#8217;s underlying complaint, nor does it sit as a general supervisory body over the authority&#8217;s substantive functions beyond FOIA/EIR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Nothing in this decision should be taken as expressing any view on the merits of the underlying dispute or the conduct of other bodies. It reflects only the statutory limits within which the Tribunal must operate.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-indent:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Discussion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has considered the suggested list of factors set out in&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Dransfield</span><span style="font-family:'Book Antiqua';color:#000000">&#160;and the overall circumstances of the case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_2">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">i.</num>
+	  <content>
+	    <p style="text-indent:1in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The burden imposed on the public authority</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In assessing the burden imposed on the public authority, the Tribunal has considered not only the individual requests under appeal but also the wider factual context, including the history of dealings between the Appellant and the Council. The Appellant submits that the requests were neither vexatious nor unreasonable because they were made in the public interest to expose what he considers to be unlawful traffic regulation, misleading information, and systemic failure by the Council. He further contends that repetition was justified because earlier responses were incomplete or misleading, and that any burden is outweighed by the importance of the issues raised. The Tribunal has considered those submissions carefully but does not accept that they displace the conclusion reached on burden.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal is satisfied that the requests under appeal did not arise in isolation. Since at least 2017, the Appellant has submitted a substantial number of information requests, together with associated correspondence, internal review requests and complaints to the Commissioner, concerning broadly the same subject matter. This includes TROs, parking restrictions and signage affecting the A632 and A616, the status of lay-bys and service roads, and the conduct of individual officers. By June 2022 the Council had identified approximately 35 such requests from the Appellant, with further requests continuing thereafter.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">A significant element of the burden arises from overlap and duplication. By way of example, the Appellant submitted a request on 13 February 2024 (B44). Before the Council had issued any substantive response, he submitted a further request on 20 February 2024 (B45), which repeated and expanded upon the same underlying subject matter, including parking regulations, TROs, lay-bys, signage and associated costs. The Council did not respond to the earlier request until 12 March 2024 (B46&#8211;B48), with a supplementary response on 16 April 2024 (B49&#8211;B50). Submitting overlapping requests while an earlier request remained under active consideration increased duplication and administrative burden. This sequencing was relied upon by the Council and accepted by the Commissioner as part of the relevant factual context.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal recognises that the Appellant may contend that the two February requests were framed differently. However, the Tribunal&#8217;s finding does not depend on identical wording. Both requests concerned the same regulatory framework and dispute, and the later request required the authority to re-engage with materially the same subject matter before the earlier request had been answered. Viewed objectively, the practical effect was an increased burden on the authority, which the Tribunal is entitled to take into account when assessing proportionality under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA and regulation 12(4)(b) EIR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has noted the Appellant&#8217;s submission that repetition was justified because earlier responses were said to be incomplete or misleading. The Tribunal accepts that applicants are entitled to challenge responses through internal review and, if necessary, by complaint to the Commissioner. However, the evidence shows that the Council repeatedly provided information and explanations, including copies of relevant TROs and consolidation material, confirmations where information was not held, and signposting to publicly available sources. We find that continued disagreement/dissatisfaction with those responses does not justify an open-ended series of further and overlapping requests on the same issues.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The nature and tone of some of the correspondence also contributes to the burden. A number of communications contain repeated allegations of serious wrongdoing by named officers, including allegations of perjury and fraud. While the Tribunal makes no findings on the merits of those allegations, their presence necessitated legal oversight, senior officer involvement and careful handling beyond routine FOIA processing, thereby increasing the resource impact on the authority.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal accepts that there can be a public interest in transparency concerning traffic regulation and enforcement. However, the requests under appeal seek largely the same information that has already been disclosed or signposted, rather than genuinely new information of wider public value. Any incremental public interest is therefore limited.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The burden identified is cumulative. It arises not from one request, nor even from the two requests under appeal viewed in isolation, but from a sustained pattern of repeated requests, overlapping correspondence, internal reviews and complaints over many years, focused on issues arising in relation to the same underlying dispute. In those circumstances, continued compliance would divert a disproportionate amount of limited administrative and legal resources away from the Council&#8217;s wider statutory functions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">86.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Having expressly considered the Appellant&#8217;s grounds of appeal, the Tribunal concludes that the requests imposed a disproportionate and unjustified burden on the public authority. That conclusion satisfies the burden limb of the&#160;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Dransfield</span><span style="font-family:'Book Antiqua';color:#000000">&#160;analysis and supports the application of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA and regulation 12(4)(b) EIR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">ii.</num>
+	  <content>
+	    <p style="text-indent:1in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The motive of the requester</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">The Act</ref> does not turn on subjective motive, and the Tribunal makes no adverse finding as to the Appellant&#8217;s intentions, which it accepts are sincerely held. It is nevertheless appropriate to consider the overall course of dealings when assessing proportionality.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The correspondence reveals a continuing difference of view about the validity and interpretation of TROs and related enforcement. We find that on occasions, the statutory information regimes have been used to pursue that disagreement rather than to obtain further recorded information. The Appellant was signposted to alternative forums, including the Ombudsman, for any merits-based challenge. While the Tribunal accepts that the Appellant seeks clarity, the pattern of correspondence indicates that requests have been used to press for engagement on matters of legal interpretation, which are more appropriately pursued elsewhere. This provides objective support for the application of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">iii.</num>
+	  <content>
+	    <p style="text-indent:1in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Value or serious purpose of the request</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">89.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal accepts the Appellant&#8217;s submission that TROs are public instruments and that there is a genuine public interest in access to them. It also accepts that clarity regarding the status of the A616 order is important to the Appellant. However, much of the more recent correspondence seeks explanation, interpretation and debate about legal effect, signage practice and procedural history, rather than recorded information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">90.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Council&#8217;s position is that the A616 order was incorporated into the 2016 Consolidation Order and that no further documents are held beyond those already provided or identified. In that context, while the Tribunal does not doubt the Appellant&#8217;s wish for clarity, the incremental public value of requiring further responses through the statutory regimes is limited and does not outweigh the resource impact described above.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_5">
+	  <num style="font-weight:bold;font-family:'Book Antiqua'">iv.</num>
+	  <content>
+	    <p style="text-indent:1in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Any harassing or distressing effect on staff</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">91.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">A finding of harassment is not required for <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref>, but the effect of correspondence on staff may be relevant. The Tribunal does not criticise the Appellant&#8217;s intentions and accepts that his communications are motivated by a desire to have his concerns understood.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">92.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Nevertheless, the materials show that the tone and frequency of some communications have been experienced by staff as pressurising and, at times, personal. References to corruption, perjury, fraud and serious misconduct by named individuals increased the strain on those handling the correspondence. Any consideration of tone is undertaken solely for its objective impact on resources and does not involve any adverse finding as to intention. On that limited footing, the evidence provides further, though not decisive, support for the conclusion that the overall pattern of contact has placed strain on staff resources and has been difficult to manage within the statutory framework.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Role of public interest in FOIA and EIR</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">93.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">For <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA, public interest does not operate as a freestanding balancing test. It is relevant to the assessment of value or serious purpose and to proportionality when standing back. By contrast, where the EIR applies, the Tribunal must conduct an express public-interest balancing exercise under regulation 12(1)(b), taking into account the presumption in favour of disclosure under regulation 12(2).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">94.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal has carefully considered the Appellant&#8217;s submission that his requests serve a wider public interest. The Appellant contends that the requests were necessary to expose what he believes to be unlawful traffic regulation, defective TROs, misleading information provided by the Council, and improper conduct by public officials. He further maintains that repetition of requests was justified because earlier responses were said to be incomplete or incorrect.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal does not accept that these arguments displace the conclusion reached on burden. While there is a general public interest in transparency and accountability in the making and enforcement of traffic regulation, that interest is not unlimited. The Tribunal must assess the public interest in the context of the specific information requested and the factual history of the case. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">96.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal notes that the public interest advanced by the Appellant is closely bound up with his firmly held belief that the Council has acted unlawfully. The Tribunal makes no finding on the merits of those allegations; however, importantly, we find that it is not the function of FOIA or EIR to provide a continuing mechanism for re-litigating underlying disputes or grievances once the relevant information has been supplied and the issues have been considered by the appropriate statutory bodies (noting that the Appellant does not accept they have been provided). Where requests are pursued in order to sustain ongoing challenge to matters already examined and determined, the weight to be attached to the asserted public interest is correspondingly reduced.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">97.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Accordingly, the Tribunal finds that the public interest relied upon by the Appellant, while genuinely and strongly asserted, does not carry sufficient weight to outweigh the significant and ongoing burden imposed on the public authority, given the modest additional value of further responses and the significant and continuing resource impact on the public authority. The balance of the public interest therefore favours the maintenance of the refusal under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of FOIA and regulation 12(4)(b) of the EIR.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-family:'Book Antiqua'">v.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in;text-indent:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The overall circumstances of the case</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">98.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Standing back and considering the matter in the round, the Tribunal finds that the cumulative picture is of an extended course of dealings in which the Council has provided or signposted the information within the scope of the statutory regimes, while continuing to receive requests seeking further explanation, interpretation and debate about matters already addressed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">99.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal is satisfied that the more recent requests, including those under appeal, form part of that broader pattern. They reflect an ongoing effort to obtain reassurance and clarification about the status and effect of TROs and related enforcement. While the Tribunal accepts that the Appellant seeks clarity and regards these matters as important, much of the engagement has gone beyond the identification or disclosure of recorded information and into areas of interpretation and legal effect, which the statutory information regimes are not designed to resolve.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">100.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Viewed objectively, the cumulative impact of the requests and associated correspondence has been to place a substantial demand on the Council&#8217;s resources. This has been heightened by the frequency and sequencing of communications, including the submission of overlapping requests before earlier requests had been fully responded to, and by the need for careful handling and oversight of responses. The Tribunal also takes into account the pressure experienced by staff responsible for managing the correspondence, as evidenced by the materials before it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">101.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0.12in"><span style="font-family:'Book Antiqua';color:#000000">Weighing these matters together, the Tribunal concludes that the effect of the requests under appeal has been disproportionate. The additional value of requiring further engagement through FOIA or the EIR is limited, whereas the demands placed on the authority are significant and ongoing. The overall circumstances therefore support the application of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA. The Tribunal&#8217;s characterisation of an improper use of the statutory process aligns with the </span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Dransfield</span><span style="font-family:'Book Antiqua';color:#000000"> framework.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">102.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.12in;border-style:none"><span style="font-family:'Segoe UI';color:#000000">For the same reasons, and to the extent that the requests seek environmental information, the Tribunal is satisfied that they are manifestly unreasonable for the purposes of regulation 12(4)(b) of the EIR. Having applied the required public-interest balancing exercise, and taking into account the presumption in favour of disclosure, the Tribunal concludes that, on the particular facts of this case, the public interest in maintaining the exception outweighs the public interest in disclosure, </span>because the incremental value of further responses is modest when set against the demonstrated burden and disruptive effect. As indicated above we find the public interest is limited.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">103.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.12in;border-style:none"><span style="font-family:'Segoe UI';color:#000000">If the Tribunal is wrong about that assessment and there is a compelling public interest, it notes that even a compelling public interest does not necessarily override other factors. In an appropriate case, the balance may be tipped by disproportionate burden and misuse of the statutory process:&#160;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">Cabinet Office v IC and Ashton</span><span style="font-family:'Segoe UI';color:#000000">&#160;<ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/208" uk:canonical="[2018] UKUT 208 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 208 (AAC)</ref>;&#160;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">Home Office v IC and Cruelty Free International</span><span style="font-family:'Segoe UI';color:#000000">&#160;<ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2019/299" uk:canonical="[2019] UKUT 299 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKUT 299 (AAC)</ref>. </span>We find this to be the case: the compelling public interest (if there is one) does not trump the other factors already set out above.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">104.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.12in;border-style:none"><span style="font-family:'Segoe UI';color:#000000">We reach this conclusion mindful of the Appellant&#8217;s persistence and of the importance he attaches to the issues. Nothing in this decision should be read as diminishing the seriousness of his concerns. Our task is confined to whether, in the context and at the time, the requests were a manifestly disproportionate use of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">105.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.12in;border-style:none"><span style="font-family:'Segoe UI';color:#000000">For completeness, the Council has indicated that it may rely on section 17(6) in response to further requests of the same character. That is a matter for the Council in any future correspondence and does not require determination here. Our conclusion is confined to the present appeal and rests on the reasons set out above.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.39in"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;text-indent:0.39in"><span style="font-family:'Apple Chancery'">Judge Kiai</span><span style="font-family:'Book Antiqua'"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-04-06" refersTo="#decision" style="font-style:italic;font-family:'Book Antiqua'">6 April 2026</docDate></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

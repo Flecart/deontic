@@ -1,0 +1,197 @@
+# Reg Oliver v The Information Commissioner
+
+citation: [2026] UKFTT 556 (GRC)
+url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/556
+exemptions: []
+verified: no
+
+<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
+     Gold rules against cache/ukftt_grc_2026_556_reasoning.txt. The pipeline skips
+     unverified cases unless --allow-unverified. -->
+
+## Background
+
+<!-- RAW kept sections from ukftt/grc/2026/556/data.xml (everything before the tribunal's
+     own reasoning) — used as-is; trim only if context length forces it.
+     Withheld headings: (none) -->
+
+### (preamble)
+
+Before we start this decision, we wish to apologise unreservedly for the time taken to issue it. Owing to unexpected personal difficulties affecting the judge responsible for drafting the judgment, the written reasons could not be finalised within the usual timeframe. We regret any delay and appreciate the courtesy and forbearance shown by all concerned.
+
+### Summary
+
+1. This appeal concerns two requests made by the Appellant to Derbyshire County Council on 13 and 20 February 2024. The Council refused the requests under section 14(1) of the Freedom of Information Act 2000 (‘FOIA’) and regulation 12(4)(b) of the Environmental Information Regulations 2004 (‘EIR’) The Information Commissioner (‘the Commissioner’) upheld that refusal.
+
+2. We have considered the matter afresh on the papers. We fully recognise that the Appellant brings these issues forward with genuine conviction and with a sustained wish to achieve clarity. Nothing in this decision reflects adversely on the Appellant’s motives. The outcome turns on the limits of the information access regime and on the cumulative effect that the two requests had in their established context. We conclude that the Commissioner’s decision was in accordance with the law. General Background
+
+3. There has been correspondence between the Appellant and the Council for several years about traffic regulation orders (‘TROs’) signage including diagram 801 and the status of lay-by and access road areas. The record shows a substantial number of earlier information requests on these themes. In June 2022 the Council designated the Appellant a persistent complainant. We note this history only to understand context and proportionality.
+
+4. During earlier exchanges the Council provided the 2016 Consolidation Order and explained that provisions for the A616 were captured within that order with previous orders revoked. The Council also explained that diagram 801 was treated as an informatory sign and that a sign had been replaced in 2022 on the A616 for driver information.
+
+5. The two requests of 13 and 20 February 2024 were refused under section 14(1) of FOIA and regulation 12(4)(b) EIR. Following an investigation the Commissioner issued Decision Notice IC 314824 V7P6 (‘DN’) on 17 December 2024 upholding the refusal and requiring no steps. Requests
+
+6. On 13 February 2024, the Appellant wrote to the Council and requested information in the following terms: ‘ I request the following information on regulations and not what is considered as being correct. 1/Regulation that combines a service road with a lay-by and I refer to the National Highways TROs which state – main highway, and any lay-by, service road or bus stop, all being individual areas. 2/ Which lines "are required" on any rural lay-by.? Give way lines, or a single broken white line to 1-0-1-0 in TSRGD.? 3/ The cost of the TRO and all lines of various restrictions on the A632 lay-by since 2010 in individual sections. (deployment)? 4/ Confirm that the TPT advised the Council to remove the required regulation 801 sign from the above location and the reason.? 5/ The Council having now acepted [sic] that the restrictions are "unlawful" when will the required regulation 801 sign be reinstated and the unlawful lines removed.? 6/ Confirmation that the TRO for the A632 states. The A632 and also the A632 LAY-BY seperate [sic] to the main A632 and NOT part of the highway.? 7/ Can yo [sic] confirm that the Council held a meeting prior to the above TRO to dicuss [sic] if it would be unlawful? 8/ Can you confirm that the A632 location is in NEDDC and not the Borough and therefore defective and again unenforceable.? 9/ Supply a copy of the TRO for the A616 (and not the village) and the reason for reinstating of the required 801 signs but UNLAWFUL restrictions still not being removed.? 10/ Can you confirm that the County, Borough or area Councils have NO powers of restrictions on properties in isolation and is "OUTSIDE" of their operations.,as [sic] in your park smarter document,.?’
+
+7. On 20 February 2024, the Appellant wrote further to the Council and requested the following information: ‘I request confirmation on the following. Local traffic orders (proceedures) [sic] SI 1999/614. 8.12 Primary object of parking conrol [sic] . "Road network" free flow of traffic. 10.6 Meet all requirements of law. Section B. Any roads or areas to be excluded. (on application of powers and TROs) 10.3 Must have a duty under law to act fairly. 1.10 Must have clear understanding of what the law requires. 5.2 Restrictions that do not comply with regulations. 13/9 A map for "public and contractors", (Not claimed as the power of control) accurate and up to date. Lines conform to those required under regulations that conform to 1-0-1-0 in schedule 6 of TRSGD on rural lay-bys. That the 2004 TMA is complied with in all areas of the TMA (traffic management act). The House of Commons document which states that parking restrictions can only be used on "specific roads" and not used as general parking enforcement. Supply a copy of the TRO for the A616 and the date of publication. When will the unlawful restrictions be removed from the A616. Can you confirm or otherwise all of the above is complied with by the Council and all restrictions by the Council are lawful’.
+
+8. On 12 March 2024, the Council refused the request for information pursuant to section 14(1) of the Freedom of Information Act 2000 (‘FOIA’) on the basis that it is vexatious. The Council stated that the request lacked proper justification, given that the matters raised had already been addressed on numerous previous occasions through earlier responses.
+
+9. The Council contended that the volume, frequency, and overlapping nature of the requester’s enquiries placed an unjustified burden upon the authority and its officers. It further relied upon the pattern and tone of the requesters correspondence, which it asserted demonstrated an underlying grievance rather than a genuine need for further disclosure.
+
+10. The Council recorded that since 2017 the requester has submitted 36 access to information requests, many of which concerned the same or substantially similar subject matter. These included issues relating to a Penalty Charge Notice issued in September 2017, TROs affecting the A632 and the A616, matters concerning service roads, lay-bys, parking restrictions, and the conduct of Civil Enforcement Officers.
+
+11. The Council maintained that the requesters correspondence has been persistent, repetitive, and on occasion confrontational, containing challenges to the competence and integrity of officers. The authority maintained that responding to such correspondence has caused disproportionate disruption and burden.
+
+12. The Council noted that it had frequently provided explanations and contextual information that it was not obliged to disclose under either the FOIA or the EIR. It confirmed that future responses would be limited strictly to information that it was required to provide under the statutory scheme.
+
+13. On 16 April 2024, the Council disclosed a “2016 Consolidation Order” which it stated had previously been provided. The Council stated ‘ The TRO for the A616 was incorporated into the Consolidation Order and the existing TRO would have been revoked at that time. The Council hold no further documents, other than have been provided, relating to the TRO for the A616’.
+
+14. It explained that details of current restrictions were available on its public website under parking restrictions, where the relevant area may be located via the search function. A further copy of the map showing the existing TRO for the limited waiting bays on the A616 at Barlborough, between the M1 Junction 30 roundabout and the A619, was provided.
+
+15. The Council reiterated that there was no legal requirement for the erection or removal of a sign numbered 801. Such signs were provided solely for driver information and are not subject to regulation. The 801 sign on the A616 lay-by was replaced in 2022 for informational purposes only.
+
+16. In respect of the separate request referenced EIR/5051 concerning regulations, the Council acknowledged that although the response to EIR/5000 explained that the information sought did not fall within the scope of the FOIA or the EIR, and the Appellant had been directed to the highways hub, the Council failed to upload a formal response to the WhatDoTheyKnow platform. The missing response had now been issued to complete the request. The Council offered its apology for this oversight.
+
+17. Following an internal review, the Council wrote to the Appellant on 17 June 2024 and explained that it considered the requests to be vexatious. It also explained that no further information was held beyond that already provided in response to earlier requests.
+
+18. The Appellant complained to the Commissioner on 24 June 2024. He complained about the way his requested had been handled. He also stated that the Council held further information beyond the ‘2016 Consolidation Order’ which had been disclosed.
+
+19. The Commissioner indicated that in light of the fact the Council had made a decision to treat the requests as vexatious on 17 June 2024, the Commissioner’s decision would be focused on this issue only. Decision Notice (17 December 2024)
+
+20. The Commissioner noted that there is no material difference between a request that is vexatious under section 14(1) FOIA and a request that is manifestly unreasonable on vexatious grounds under regulation 12(4)(b) of the EIR. He therefore considered the extent to which the requests could be considered vexatious.
+
+21. The Council submitted to the Commissioner that the 2 requests form part of what it considers to be a long running grievance arising from a penalty charge notice issued to the Appellant in 2017 and the subsequent appeal to the Traffic Penalty Tribunal which upheld the penalty charge notice.
+
+22. The Council stated that between 2017 and June 2022 it received approximately 35 information requests from the Appellant with further requests submitted from 2022 onwards. Many of those requests related to the same section of road where the penalty charge was issued, particular Council officers involved in the earlier appeal and the validity of the Councils TROs. To illustrate the pattern, the Council provided examples of 5 information requests submitted between February 2020 and March 2021 all concerning these topics and confirmed that responses and internal reviews had been provided in each case.
+
+23. In addition to the formal requests the Council described receiving a high volume of correspondence and complaints from the Appellant raising similar matters. Some of this correspondence included strongly expressed concerns about the conduct of Council officers including one who appeared at the Traffic Penalty Tribunal hearing. The Council explained that since 2022 the Appellant’s relationship with the Council has been managed under its persistent complainant process.
+
+24. Overall, the Council stated that the frequent and overlapping nature of the requests had reached a point where they had become an improper use of the formal access to information procedure. It considered that responding would impose a significant burden not justified by any meaningful public interest. The Council said it had already sought over several years to provide relevant recorded information or explanations in order to draw matters to a conclusion but that this had not succeeded.
+
+25. The Commissioner noted from the Appellant’s own explanations that the requests are closely connected with concerns about the lawfulness of TROs signage and wider matters including allegations about the conduct of specific Council officers in earlier proceedings.
+
+26. He concluded that the 2 requests are intrinsically linked to the same substantive issues raised by the Appellant since 2017 following the unsuccessful penalty charge appeal and f ound no compelling evidence that the Council had failed to engage or to provide recorded information where it was held.
+
+27. The Commissioner referred to several earlier decision notices concerning the Appellant which reinforced this conclusion. In IC 38863 G2D9, issued in December 2020 he found that the Council had disclosed all information relating to specified TROs. In IC 56675 Q7P3, issued in August 2021 he found that the Council was entitled to refuse traffic regulation order mapping data on cost grounds and had provided reasonable advice and assistance. In IC 162308 C7J5, he found that the Council did not hold additional mapping portal information sought by the Appellant.
+
+28. He noted that there was no evidence that the Appellant had been prevented from using appropriate routes of appeal or complaint. The Appellant had been directed to relevant channels both within the Council and externally including the police where matters concerned potential civil claims.
+
+29. Taking all of the above into account the Commissioner concluded that the requests appeared to have been made in order to continue engagement on issues the Council considered to have been fully addressed. He found no evidence of a compelling public interest that would justify the burden of further responses and no evidence that the Council or its officers had acted improperly or failed to respond to earlier requests.
+
+30. For the aspects of the requests that sought environmental information the Commissioner acknowledged the presumption in favour of disclosure under 12(2) EIR. However, he concluded that in the particular context the requests did not appear to have been made to obtain information for wider public benefit but rather to continue the underlying dispute and to place further burden on the authority. In these circumstances the public interest in maintaining the exception outweighed that in disclosure.
+
+31. The Commissioner therefore concluded that the Council was entitled to rely on section 14(1) of the FOIA and regulation 12(4)(b) of the EIR. He required no further steps Grounds of Appeal
+
+32. The Appellant’s grounds of appeal, dated 3 January 2025 submit: (i) Incorrect and Misleading Information
+
+33. Since 2017, the Council has repeatedly provided information that is wrong, misleading, or incomplete in response to his FOIA and EIR requests concerning parking and traffic regulation matters, particularly relating to lay-by restrictions on the A632 and A616. The Appellant maintains that relevant regulations and statutory documents have been withheld or suppressed. (ii) Improper Reliance on Mapping Portal
+
+34. The Council has incorrectly asserted that its mapping portal constitutes the operative legal instrument, whereas in his view the controlling TROs are the written documents, which he states have not been properly disclosed. (iii) Alleged Improper Conduct in Tribunal Proceedings
+
+35. On two previous parking appeals, the Council knowingly provided incorrect and misleading evidence, amounting, in his view, to perjury and fraud. (iv) Defective and Unenforceable TROs
+
+36. The TROs relevant to the A632 and the 2016 Consolidation Order are defective or incomplete, rendering associated restrictions unlawful and unenforceable. The Appellant claims that Schedule 2 was removed from the 2016 Order, leaving lay-by restrictions unrecorded. (v) Unlawful PCNs
+
+37. The Appellant relies on a Notice to Owner cancellation in 2022 which recorded the word “UNLAWFUL” in the grounds of challenge. He interprets this as confirmation that all PCNs issued at the location since 2010 were unlawful. (vi) Council’s Characterisation of His Conduct
+
+38. The Appellant disputes the Council’s assertion that he has used abusive language or acted vexatiously, noting that the Council has not provided evidence to substantiate these claims. (vii) Volume of Supporting Evidence
+
+39. The Appellant states that he holds extensive documents, accumulated over 7 years, which he says demonstrate the Council’s wrongdoing. He indicates that only a small sample has been provided so far but that additional material can be supplied if required. (viii) General Allegation of Impropriety
+
+40. He asserts that the Council’s responses to the ICO were accepted at face value but were, in his view, “corrupt in detail”, and that the ICO decision was consequently flawed.
+
+41. The Appellant attached various documents to his grounds of appeal. These are not detailed here but have been considered by the panel. The Commissioner’s Response
+
+42. The Commissioner maintains the DN. He submits that, having regard to the binding authorities of Dransfield v Information Commissioner & Devon County Council and Craven v Information Commissioner and DECC [2015] EWCA Civ 454 , the request was manifestly unreasonable, noting the Upper Tribunal’s finding in Craven (at §7) that “manifestly unreasonable” in regulation 12(4)(b) is to be read as synonymous with “vexatious” under section 14(1) FOIA. The Commissioner further states that he conducted a public-interest assessment (DN §28) and concluded that the public interest in maintaining regulation 12(4)(b) outweighs the public interest in disclosure. He acknowledges the presumption in favour of disclosure required by regulation 12(2) EIR and consistent with Vesco v Information Commissioner (SGIA/44/2019, §19), confirms that he took that presumption into account; however, he considers that, on the facts of this case, the balance of the public interest favours the maintenance of the exception and that regulation 12(4)(b) was correctly applied. Appellant’s reply to the Commissioner’s response
+
+43. The Appellant states that since 2013, he has engaged extensively with traffic and parking regulation issues, raising concerns about Derbyshire County Council’s use of powers and the accuracy of its responses to FOIA/EIR requests. He explains that this has generated many requests in trying to extricate the correct information on various regulations and also the vast amounts of public finances wasted on many projects. By way of example, he first cites the A632 lay-by, said to have become a lay-by in 1984, where the Council maintained for approximately ten years that parking restrictions were lawful; he states that in December 2023, following a driver’s challenge, the Council accepted the restrictions were unlawful and cancelled the PCN, which he says followed a period of suppressed information. Secondly, he refers to seven mobile camera sites constructed at a total cost of £21,000; in response to his enquiry the Council asserted that all seven remained operational, whereas he says two were not, including one site which, after he raised safety concerns with the head of road policing, was abandoned in favour of another location approximately 100 metres away that required no construction or further cost. He indicates that these are merely two examples among many, asserts that the Council’s actions are supported by its policing partners, and states that his focus is confined to traffic/parking and financial issues in light of more than 30 years’ experience in the transport sector. He reiterates that the Council are adept at suppressing information requested. He does not criticise the Commissioner but contends that the Commissioner has been misled by incorrect and misleading information supplied by the Council, which he characterises as corrupt and wasteful of public funds. He offers to supply further documentation from the Council if required. Legal Framework EIR
+
+44. Information which is within the scope of the EIR is exempt from disclosure under FOIA. Section 39(1) of FOIA provides: “ Information is exempt information if the public authority holding it— (a) is obliged by environmental information regulations to make the information available to the public in accordance with the regulations, or (b) would be so obliged but for any exemption contained in the regulations. ”.
+
+45. Accordingly, requests for environmental information held by a public authority must be dealt with under the EIR rather than FOIA.
+
+46. The term ‘environmental information’ is defined in regulation 2(1) of the EIR as: “ …any information in written, visual, aural, electronic or any other material form on— (a) the state of the elements of the environment, such as air and atmosphere, water, soil, land, landscape and natural sites including wetlands, coastal and marine areas, biological diversity and its components, including genetically modified organisms, and the interaction among these elements; (b) factors, such as substances, energy, noise, radiation or waste, including radioactive waste, emissions, discharges and other releases into the environment, affecting or likely to affect the elements of the environment referred to in (a); (c) measures (including administrative measures), such as policies, legislation, plans, programmes, environmental agreements, and activities affecting or likely to affect the elements and factors referred to in (a) and (b) as well as measures or activities designed to protect those elements; (d) reports on the implementation of environmental legislation; (e) cost-benefit and other economic analyses and assumptions used within the framework of the measures and activities referred to in (c); and (f) the state of human health and safety, including the contamination of the food chain, where relevant, conditions of human life, cultural sites and built structures inasmuch as they are or may be affected by the state of the elements of the environment referred to in (a) or, through those elements, by any of the matters referred to in (b) and (c); ”.
+
+47. Regulation 5(1) of the EIR provides individuals with a general right of access to environmental information held by public authorities. It provides: “ …a public authority that holds environmental information shall make it available on request. ”.
+
+48. However, that entitlement is subject to the other provisions of the EIR, including some exceptions and qualifications which may apply even if the requested environmental information is held by the public authority. The opening wording of regulation 5(1) of the EIR (that is, the wording immediately preceding the extract quoted above) provides: “ Subject to paragraph (3) and in accordance with paragraphs (2), (4), (5) and (6) and the remaining provisions of this Part and Part 3 of these Regulations… ”.
+
+49. Regulation 5(1) of the EIR does not therefore provide an unconditional right of access to any environmental information which a public authority holds. The right is subject to certain other provisions of the EIR. Part 3 of the EIR, referred to above, contains various exceptions to the duty to disclose environmental information which has been requested.
+
+50. Within Part 3 of the EIR, regulation 12 is applicable for the purposes of the Appeals. So far as is relevant, regulation 12 of the EIR provides: “(1) Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if— (a) an exception to disclosure applies under paragraphs (4) or (5); and (b) in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information. (4) For the purposes of paragraph (1)(a), a public authority may refuse to disclose information to the extent that— … (b) the request for information is manifestly unreasonable; … (d) the request relates to material which is still in the course of completion to unfinished documents or to incomplete data…” .
+
+51. In summary, a public authority may refuse to disclose environmental information which is requested under the EIR if the request is ‘manifestly unreasonable’ and if, in the circumstances at the time of the refusal, the Public Interest Test favours withholding the information.
+
+52. The term ‘manifestly unreasonable’ is not defined in the EIR, but has been interpreted by case law, to which we refer below. As we will explain, ‘manifestly unreasonable’ in the EIR essentially means the same as ‘vexatious’ in section 14(1) of FOIA. That section provides: “ Section 1(1) does not oblige a public authority to comply with a request for information if the request is vexatious. ”.
+
+53. Regulation 12(1) of the EIR is subject to regulation 12(2) of the EIR, which provides: “ A public authority shall apply a presumption in favour of disclosure ”.
+
+54. Therefore, even where there is a potential exception to disclosure of environmental information which is requested under the EIR, that exception (and the application of the Public Interest Test) is subject to a presumption in favour of disclosure of the information.
+
+55. So far as is relevant for current purposes, regulation 4 of the EIR provides: “(1) Subject to paragraph (3), a public authority shall in respect of environmental information that it holds— (a) progressively make the information available to the public by electronic means which are easily accessible; and (b) take reasonable steps to organize the information relevant to its functions with a view to the active and systematic dissemination to the public of the information. (3) Paragraph (1) shall not extend to making available or disseminating information which a public authority would be entitled to refuse to disclose under regulation 12. ”.
+
+56. Therefore regulation 4(1) of the EIR places a duty on public authorities to progressively publish the environmental information which it holds, other than information which, if it were requested, the public authority would be entitled to withhold pursuant to any applicable exception in regulation 12 of the EIR.
+
+57. The environmental information which is to be disseminated pursuant to regulation 4(1) of the EIR is specified in regulation 4(4) of the EIR, as follows: “(4) The information under paragraph (1) shall include at least— (a)the information referred to in Article 7(2) of the Directive; and (b)facts and analyses of facts which the public authority considers relevant and important in framing major environmental policy proposals. ”.
+
+58. The ‘Directive’ referred to is the European Directive 2003/4/EC, which was implemented by the EIR. The information referred to in Article 7(2) of that Directive (and hence the information which must be disseminated pursuant to regulation 4(1) of the EIR) includes policies, plans and procedures relating to the environment, reports on the state of the environment, environmental impact studies and data taken from monitoring activities and risk assessments which affect or are likely to affect the environment.
+
+59. We turn now to case law regarding the term ‘manifestly unreasonable’ in regulation 12(4)(b) of the EIR. As set out above, the term is not defined in the EIR. In FOIA, there is a parallel term of ‘vexatious’ and the courts have established that ‘manifestly unreasonable’ for the purposes of the EIR shares the meaning of that term. In the case of Craven v Information Commissioner and Department for Energy and Climate Change ([2012] UKUT 442), Upper Tribunal Judge Wikeley stated (at paragraph 30) that: " ... in deciding whether a request is "manifestly unreasonable" under the EIR, a tribunal should have regard to the same types of considerations as apply to the determination of whether a request is "vexatious" within FOIA. The conceptual structure for decision-making is different, but the outcome will surely be the same, whichever route is adopted. Insofar as a request is for environmental information, it therefore follows that the meaning of the expression "manifestly unreasonable" is essentially the same as "vexatious"… ”. FOIA
+
+60. The relevant provisions of FOIA are as follows: 1. General right of access to information held by public authorities (1) Any person making a request for information to a public authority is entitled— (a) to be informed in writing by the public authority whether it holds information of the description specified in the request, and (b) if that is the case, to have that information communicated to him. 14. Vexatious or repeated requests (1) Section 1(1) does not oblige a public authority to comply with a request for information if the request is vexatious. (2) Where a public authority has previously complied with a request for information which was made by any person, it is not obliged to comply with a subsequent identical or substantially similar request from that person unless a reasonable interval has elapsed between compliance with the previous request and the making of the current request.
+
+61. There is no further guidance on the meaning of “vexatious” in the legislation. The leading guidance is contained in the Upper Tribunal (“UT”) decision in Information Commissioner v Dransfield [2012] UKUT 440 (AAC) , as upheld and clarified in the Court of Appeal (“CA”) in Dransfield v Information Commissioner and another & Craven v Information Commissioner and another [2015] EWCA Civ 454 (CA) .
+
+62. As noted by Arden LJ in her judgment in the CA in Dransfield , the hurdle of showing a request is vexatious is a high one: “…the starting point is that vexatiousness primarily involves making a request which has no reasonable foundation, that is, no reasonable foundation for thinking that the information sought would be of value to the requester, or to the public or any section of the public. Parliament has chosen a strong word which therefore means that the hurdle of satisfying it is a high one, and that is consistent with the constitutional nature of the right. The decision maker should consider all the relevant circumstances in order to reach a balanced conclusion as to whether a request is vexatious.” (para 68).
+
+63. Judge Wikeley’s decision in the UT Dransfield sets out more detailed guidance that was not challenged in the CA. The ultimate question is, “ is the request vexatious in the sense of being a manifestly unjustified, inappropriate or improper use of FOIA?” (para 43). It is important to adopt a “ holistic and broad ” approach, emphasising “manifest unreasonableness, irresponsibility and, especially where there is a previous course of dealings, the lack of proportionality that typically characterise vexatious requests.” (para 45). Arden LJ in the CA also emphasised that a “ rounded approach ” is required (para 69), and all evidence which may shed light on whether a request is vexatious should be considered.
+
+64. The UT set out four non-exhaustive broad issues which can be helpful in assessing whether a request is vexatious: a. The burden imposed on the public authority by the request. This may be inextricably linked with the previous course of dealings between the parties. “…the context and history of the previous request, in terms of the previous course of dealings between the individual requester and the public authority in question, must be considered in assessing whether it is properly to be characterised as vexatious. In particular, the number, breadth, pattern and duration of previous requests may be a telling factor.” (para 29). b. The motive of the requester. Although FOIA is motive-blind, “what may seem like an entirely reasonable and benign request may be found to be vexatious in the wider context of the course of dealings between the individual and the relevant public authority.” (para 34). c. The value or serious purpose . Lack of objective value cannot provide a basis for refusal on its own, but is part of the balancing exercise – “does the request have a value or serious purpose in terms of the objective public interest in the information sought?” (para 38). d. Any harassment of, or distress caused to, the public authority’s staff . This is not necessary in order for a request to be vexatious, but “vexatiousness may be evidenced by obsessive conduct that harasses or distresses staff, uses intemperate language, makes wide-ranging and unsubstantiated allegations of criminal behaviour or is in any other respects extremely offensive.” (para 39). Overall, the purpose of section 14 is to “protect the resources (in the broadest sense of that word) of the public authority from being squandered on disproportionate use of FOIA” (UT para 10), subject always to the high standard of vexatiousness being met.
+
+65. Section 14(1) does not require evidence of improper motive. The statutory test is concerned with the effect of the requests and the proportionality of requiring a response. The role of the tribunal
+
+66. The tribunal’s remit is governed by section 58 FOIA. This requires the tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner’s decision involved exercising discretion, whether he should have exercised it differently. The tribunal may receive evidence that was not before the Commissioner and may make different findings of fact from the Commissioner. The Tribunal conducts a full merits review of the Commissioner’s decision, but within the limited statutory question of whether FOIA Part I was complied with.
+
+67. The burden of proof in satisfying the Tribunal that the Commissioner’s decision was wrong in law or involved an inappropriate exercise of discretion rests with the Appellant. The relevant standard of proof is the balance of probabilities. Issues and Evidence Evidence
+
+68. By way of evidence and submissions we considered a bundle consisting of 215 electronic pages. The Tribunal has considered all of this material carefully but does not consider it necessary to refer to all, or indeed most of it, in this judgement. The case was decided on the papers as agreed by the parties. Scope of Hearing
+
+69. The Appellant’s present requests form part of a longer course of dealings originating in a Penalty Charge Notice issued in 2017 and the ensuing Traffic Penalty Tribunal determination. That history explains why he places particular weight on the validity and interpretation of traffic measures and signage at the relevant locations.
+
+70. A significant strand of his concern is that he has not, in his view, received the “actual” written TRO for the A616 and a formal publication date. The Council’s position is that the A616 arrangements are contained within the 2016 Consolidation Order and that no further A616 TRO documents are held beyond those already provided or signposted. In April 2024, the Council pointed the Appellant to the Consolidation Order and supplied the A616 Barlborough map extract; it also explained that the “801” sign is informatory and not legally required and apologised for a process oversight on posting a response to the public portal, which it then corrected.
+
+71. The Council’s refusal of 12 March 2024, and the internal review on 17 June 2024, set out its view that the Appellant’s requests now overlap substantially with earlier themes and have become resource-intensive to manage.
+
+72. The Appellant has also expressed frustration about communication barriers, including instances where he says his emails were blocked. The Commissioner advised that this did not prevent him from exercising his information rights, which could still be pursued by written requests sent by post if necessary.
+
+73. We take these matters into account as background. However, our jurisdiction is confined to whether the FOIA/EIR legislation has been complied with. The Tribunal will consider whether, as at the date of the DN, the Commissioner was entitled to conclude that the Council could rely on section 14(1) FOIA and/or regulation 12(4)(b) EIR in relation to the request.
+
+74. Other matters are not for determination in this appeal. By way of guidance, these include: the legality or merits of particular parking or traffic restrictions, TROs, or individual PCNs; broader concerns about the conduct of the Council or the police, save to the limited extent that material may help illuminate whether the request was vexatious or manifestly unreasonable; operational choices (for example, the siting or use of mobile camera equipment) and associated value-for-money points; complaints about service standards or correspondence handling, except insofar as they shed light on the context of the request; disputes about the accuracy of information held because FOIA/EIR provide a right of access to recorded information, not a right to have it proved correct; events or material arising after the date of the request or the DN, as well as new or reformulated requests or requests for explanations rather than recorded information; and remedies such as findings of civil or criminal liability, general declarations about conduct, or compensation, which are outside the Tribunal’s powers in this jurisdiction.
+
+75. Our task is therefore much narrower than the Appellant understandably wishes it to be. We must confine ourselves to the specific questions raised by the requests that are the subject of the Commissioner’s DN, and to the Commissioner’s assessment of those requests. The Tribunal’s jurisdiction in a FOIA/EIR appeal is appellate over the Commissioner’s DN. It does not exercise an original jurisdiction to direct how the public authority should handle the Appellant’s underlying complaint, nor does it sit as a general supervisory body over the authority’s substantive functions beyond FOIA/EIR.
+
+76. Nothing in this decision should be taken as expressing any view on the merits of the underlying dispute or the conduct of other bodies. It reflects only the statutory limits within which the Tribunal must operate.
+
+<!-- MANUAL CUT: tribunal’s own analysis (Discussion, paras 77–105) moved to cache/ukftt_grc_2026_556_reasoning.txt — decision has no standalone Discussion heading; "Discussion" appears inline at the end of para 76 text in the XML. -->
+
+## Disputed information
+
+TODO
+
+## Oracle facts
+
+TODO
+
+## Gold
+
+withhold
+
+<!-- header disposition hint: appeal is refused -->
+
+<!-- label-draft notes (gpt-4.1): No reasoning sections were provided, so no findings are stated. No facts can be transcribed. -->
+
+## Gold rules
+
+engaged: 
+pi: na

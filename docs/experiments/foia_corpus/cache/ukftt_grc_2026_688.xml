@@ -1,0 +1,883 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/688"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/688"/>
+	  <FRBRdate date="2026-05-18" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="688"/>
+	  <FRBRname value="Theophilus Marshall Osemele v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/688"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/688"/>
+	  <FRBRdate date="2026-05-18" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/688/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/688/data.xml"/>
+	  <FRBRdate date="2026-05-18T10:59:32" name="transform"/>
+	  <FRBRdate date="2026-05-18T11:32:26" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-07" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-05-18" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="theophilus-marshall-osemele" href="" showAs="THEOPHILUS MARSHALL OSEMELE"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="applicant" href="" showAs="Applicant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>688</uk:number>
+	<uk:cite>[2026] UKFTT 688 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.8.0</uk:parser>
+	<uk:hash>5c05c9c731a6a5e401fe164b89f31de0ce02744eec9962090da15478fdf0bdf1</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00688 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2026/0073/GDPR</span></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> FT/EA/2026/0079/GDPR</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform </span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-05-07" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">7 May 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-05-18" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">18 May 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HARRIS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#applicant" refersTo="#theophilus-marshall-osemele" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">THEOPHILUS MARSHALL OSEMELE</party></p>
+      <p style="text-align:right"><role refersTo="#applicant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Applicant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p style="text-align:center;margin-left:0.25in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:&#160;&#160;</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Applicant:&#160;Mr Osemele, representing himself</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent:&#160;Jack Jennett</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">Application reference FT/EA/2026/0073/GDPR is struck out under Rule 8(2)(a) because the Tribunal does not have jurisdiction to deal with it and under Rule 8(3)(c) because there is no reasonable prospect of it succeeding.&#160;</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">Application reference FT/EA/2026/0079/GDPR is struck out under Rule 8(2)(a) because the Tribunal does not have jurisdiction to deal with it and under Rule 8(3)(c) because there is no reasonable prospect of it succeeding.&#160;</span></p>
+      </blockContainer>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">These proceedings concern two applications (the &#8220;Applications&#8221;) under <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166/2" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> (&#8220;DPA 2018&#8221;) for orders to progress the Applicant&#8217;s complaints against Fife Council (&#8220;the Council&#8221;) concerning the handling of his personal data.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Applicant submitted his first complaint to the Information Commissioner (&#8220;IC&#8221;) on 1 June 2025.  This was dealt with under reference IC-390709-W8H5 (the &#8220;First Complaint&#8221;). This complaint is the subject of Application FT/EA/2026/0073/GDPR (the &#8220;First Application&#8221;)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Two further complaints were submitted to the IC on 17 November 2025 and were dealt with under references IC-448520-J7W1 (&#8220;the Second Complaint&#8221;) and IC-448695-R0C0 (&#8220;the Third Complaint&#8221;) respectively. These two complaints are the subject of Application FT/EA/2026/0079/GDPR. (the &#8220;Second Application&#8221;)</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The First Complaint</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This complaint concerned alleging that the Council had failed to comply with the Applicant&#8217;s rectification request and had unlawfully disclosed information about the Applicant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 11 February 2026, the IC&#8217;s case officer wrote to the Applicant. It was explained that the Council did not hold information concerning the relevant circumstances and that it had adequately explained why this was the case and why the Council decided that no further action was warranted. The case officer further explained that the definition of inaccurate concerned data where was shown to be incorrect or misleading as to a matter of fact, and where the information was essentially factual and not the subject of dispute. The information in question was considered to be opinions, which were subjective in nature, reflecting the observations of the person who made them, and were not considered to be inaccurate for the purposes of data protection legislation. Further, in respect of the information that had been shared by the Council, the case officer explained that the Council had provided a valid lawful basis for the disclosure, in that it was necessary for the performance of a task. Therefore, the case officer, having considered all of the material submitted, and for the reasons given above, concluded that there was no indication of an infringement of data protection legislation by the Council and that no further action would be taken on the complaint, although a record would be  retained for monitoring purposes</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"> The Applicant called the ICO&#8217;s helpline on 11 and 12 February 2026 to express his dissatisfaction with the complaint outcome, and the case officer advised him that he could request a review of the complaint. At the Applicant&#8217;s request, he was provided with a copy of his original complaint and the ICO&#8217;s head office address. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The Second Complaint</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This concerned the Council&#8217;s processing and disclosure of the Applicant&#8217;s personal data.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 9 March 2026, following a telephone call with the Applicant, the IC&#8217;s case officer emailed the Applicant requesting a copy of the Council&#8217;s final response. The Applicant provided further correspondence on the same day.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 10 March 2026, the case officer explained that the information that the Applicant had provided related to a previous complaint of the Applicant and clarified the request for the Council&#8217;s response specifically concerning the complaint made to the Council on 30 July 2025. The Applicant replied the same day, confirming that, upon further checking, he could not locate any additional response from the Council and attached the correspondence he had received.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Later that day, the case officer wrote to the Applicant advising that the matter remained outstanding and that the Council had been instructed to investigate the complaint made on 30 July 2025 and to address the erasure request within 28 days. The Council was informed that it would be expected to provide evidence of compliance if it considered that a response had already been issued to the Applicant. Once further information had been received, the IC would determine the appropriate course of action. The Applicant was advised that, should the Council fail to respond within the specified timeframe, or should he remain dissatisfied upon receipt of the Council&#8217;s reply, he should notify the IC so that next steps can be discussed.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The Third Complaint</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This concerned a Data Subject Access Request which the Applicant submitted to the Council on 28 September 2025.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 12 March 2026, the IC&#8217;s case officer requested the Applicant to confirm whether the Council had issued a response to his DSAR dated 28 September 2025.  The Applicant responded on the same day and confirmed that the Council had failed to provide him with service user statements and minutes of meetings.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 13 March 2026, the case officer informed the Applicant that, based on the information provided, the Council had not complied with its obligations under the legislation as a result of failing to respond to the complaint made on 28 September 2025 and failing to respond within the statutory timeframe. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On the same day, the case officer wrote to the Council and instructed it to: (i) review and respond to the Applicant&#8217;s formal complaint of 28 September 2025;  (ii)  complete  the  Applicant&#8217;s  SAR  without  further  delay;  and  (iii)  where  any information is withheld under an exemption, provide a full explanation of the exemption relied upon. The Council was asked to provide a full response within 28 days. The case officer also requested that the Council undertake an internal investigation to establish why the complaint and SAR were not addressed within the required statutory timeframes, and to provide both the Applicant and the IC with a copy of its findings. The case officer stated that once the Council&#8217;s response was received, the IC would consider whether any further regulatory action was required.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Applications</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">The First Application (FT/EA/2026/0073)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Applicant initially applied to the Tribunal by way of form GRC1 dated 17 February 2026. This was allocated case number FT/EA/2026/0073/GDPR. The Applicant subsequently withdrew the form GRC1 and submitted in its place a form GRC3 dated 8 April 2026.  In that form, the Applicant requested the Tribunal to make an order essentially in the following terms:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">For the IC to instruct the Council to update its records regarding the information in question;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">  For the IC to restrict the Council from sharing the relevant information as to do so is no longer necessary and to withdraw information already shared;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">For the IC to take regulatory action against the Council for data protection breaches; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">For the IC to inform the Applicant how to recover an alleged &#163;30,000 loss;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">For the Tribunal to order the Council to pay compensation to the Applicant.    </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">In his grounds for the Application in the form GRC1, the Applicant stated that he was appealing against the IC&#8217;s failure to direct or instruct the Council to act in accordance with its policy and data protection legislation. In summary, the key points were as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC failed to direct the Council to update its records following recent developments;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC failed to prohibit the Council from further onward sharing of the information in question;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC failed to address the Applicant&#8217;s complaint on the grounds that there is no indication that there has been an infringement of the legislation by the Council, and was thus not willing to progress the Applicant&#8217;s complaint further.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Second Application FT/EA/2026/0079/GDPR.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Subsequently, the Applicant applied to the Tribunal by way of form GRC3 dated 18 February 2026. This was allocated case number FT/EA/2026/0079/GDPR. He stated that the outcome he was seeking was as follows: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">I need the court to order the ICO to provide answers the two complaint that I made, with the references stated below,</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">IC-448520-J7W1; </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">IC-448695-R0C0</span><span style="font-family:'Book Antiqua'">&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In his grounds for the Application, the Applicant explained the context of the two complaints and stated that the IC had not responded to either of his complaints at the time of making the Application.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold">Strike-out Application for the First Application (SO1)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC applied by way of form GRC5 dated 8 April 2026 to strike out the First Application on the basis that there is no reasonable prospect of it succeeding under Rule 8(3)(c) (&#8220;SO1&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The reasons which the IC gave for striking out the First Application were set out in its Response. In summary, these were as follows:&#160;</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The Tribunal cannot order the relief sought by the Applicant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The Tribunal has no power to award compensation; this is a matter for the civil courts.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC accepts there was a delay in providing the Applicant with an outcome to the First Complaint and apologises for this oversight. However, the IC has taken appropriate steps to investigate and respond to the Applicant&#8217;s complaint, providing an outcome on 11 February 2026.  Accordingly, the IC has taken steps to comply with the procedural requirements set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166/1" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166(1)</ref> of the DPA 2018, and there is therefore no basis for the Tribunal to make an order under <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166/2" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166(2)</ref> of the DPA 2018. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The Tribunal can only make orders which affect the IC, not the Council.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">It is clear that the Applicant disagrees with the outcome reached by the IC on this complaint. However, as set out above, <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166</ref> of the DPA 2018 does not provide a mechanism by which Applicants can challenge the substantive outcome of a complaint. The relief available from the Tribunal on an application under <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166</ref> of the DPA18 only applies where it is satisfied that the IC has failed in some procedural respect to comply with the requirements of <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166/1" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166(1)</ref> of the DPA 2018, limited solely to those orders that are set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166/2" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166(2)</ref>.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">If the Applicant wishes to seek an order of compliance against the controller for breach of his data rights, the correct route for him to do so is by way of separate civil proceedings in the County Court or High Court under section 167 of the DPA 2018</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Applicant commented on his reasons for opposing the strike out of the First Application in his skeleton argument for the hearing of these two applications. I am satisfied that the Applicant has had an opportunity to make representations on the proposed striking out under rule 8(4) as he has also had the opportunity to make oral submissions at the hearing.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Strike-out Application for the Second Application (SO2)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC applied by way of form GRC5 dated 20 March 2026 to strike out the Second Application on the basis that there is no reasonable prospect of it succeeding under Rule 8(3)(c) (&#8220;SO2&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The reasons which the IC gave for striking out the application were set out in its Response to the Second Application. In summary, these were as follows:&#160;</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';color:#010302;margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC accepts that there was an initial delay in providing the Applicant with outcomes to his complaints.  However, the IC has since provided the Applicant with an outcome on 13 March 2026 under case reference IC-448695-R0C0 and 10 March 2026 under case reference IC-448520-J7W1 The Applicant has been advised that, should he remain dissatisfied with the Council&#8217;s response or if his concerns remain unaddressed, the case officer will review the matter to determine whether further action is required.   </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';color:#010302;margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Accordingly, it is respectfully submitted that the IC has now taken steps to comply with the procedural requirements set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166/1" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166(1)</ref> of the DPA 2018, and there is therefore no basis for the Tribunal to make an order under <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166/2" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166(2)</ref> DPA 2018.   </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">I directed that the Applicant should provide representations in relation to SO2 by 13 April 2026 under Rule 8(4).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Applicant provided a Reply to the Response in the Second Application dated 1 April 2026, which deals with the strike-out application as well as the substantive response, so I am satisfied that the Applicant has had an opportunity to make representations on the proposed striking out under rule 8(4). The points made by the Applicant, in summary, were as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC should be seeking an extension of time from the Tribunal for them to do something and come out with a conclusive outcome or decision. If the IC is unwilling to do so, the Tribunal should order the IC to:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.62in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.62in">take appropriate procedural steps to manage the Applicant&#8217;s complaint and provide a conclusive outcome within a reasonable time</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.62in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.62in">investigate the Applicant&#8217;s complaints in line with the laws and provide an outcome based on the investigation (DPA 2018 and <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;)). </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.62in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.62in">act in line with its duty to investigate both criminal and civil offences under DPA 2018 and FOIA.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In relation to the Second Complaint, the Applicant maintains that the Council has not addressed his complaint and requires the Tribunal to order the IC to instruct the Council to produce the requested information. The IC needs to investigate the Applicant&#8217;s view that the Council intentionally altered a public record with respect to personal data. He complains that the IC is not willing to investigate the Applicant&#8217;s complaint and take appropriate action against those involved. He therefore considers the IC has not remedied the procedural defects in its handling of the complaint. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">What the IC is calling an outcome on the Third Complaint &#8220;<span style="font-style:italic">is not an outcome but a weak and questionable step to address the Applicant&#8217;s complaint</span>&#8221;. The IC has not investigated the individuals concerned for alleged involvement in altering and blocking a data record or the DSAR. The IC is expected to investigate and initiate regulatory action against them, not instruct the Council to carry out an internal investigation. The application should not be struck out pending conclusion of such investigation and regulatory action.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Further, in relation to the Third Complaint, the Applicant argues that the information provided by the Council in response to his DSAR is not what he requested. He wishes the information he has requested to be provided to him before the Tribunal decides his Application.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Legal framework</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Section 165 DPA 2018 sets out the right of data subjects to complain to the IC about infringement of their rights under the data protection legislation. Under <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166</ref> DPA 2018 a data subject can make an application to this Tribunal for an order as follows:&#160;</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Orders to progress complaints</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(1)</num>
+		  <intro>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">This section applies where, after a data subject makes a complaint under section 165 or Article 77 of the UK GDPR, the Commissioner -</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">fails to take appropriate steps to respond to the complaint,</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">fails to provide the complainant with information about progress on the complaint, or of the outcome of the complaint, before the end of the period of 3 months beginning when the Commissioner received the complaint, or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">if the Commissioner's consideration of the complaint is not concluded during that period, fails to provide the complainant with such information during a subsequent period of 3 months.</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+		  <intro>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The Tribunal may, on an application by the data subject, make an order requiring the Commissioner -</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">to take appropriate steps to respond to the complaint, or</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">to inform the complainant of progress on the complaint, or of the outcome of the complaint, within a period specified in the order.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal can only make an order under <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166/2" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166(2)</ref> if one of the conditions at <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166/1" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166(1)</ref>(a), (b) or (c) is met. There have been a number of appeal decisions which have considered the scope of <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166</ref>. It is clearly established that the Tribunal&#8217;s powers are limited to procedural issues, rather than the merits or substantive outcome of a complaint.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Section 165 deals with the complainant&#8217;s right to make a complaint and states that:&#160;</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;(4)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">If the Commissioner receives a complaint under subsection (2), the Commissioner must&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(a)take appropriate steps to respond to the complaint,</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(b)inform the complainant of the outcome of the complaint,</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(c)inform the complainant of the rights under <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/166" uk:canonical="2018 c. 12 s. 166" uk:origin="TNA" uk:type="legislation">section 166</ref>, and</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(d)if asked to do so by the complainant, provide the complainant with further information about how to pursue the complaint.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(5)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic">The reference in subsection (4)(a) to taking appropriate steps in response to a complaint includes&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(a)investigating the subject matter of the complaint, to the extent appropriate, and</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">(b)informing the complainant about progress on the complaint, including about whether further investigation or co-ordination with&#160; foreign designated authority is necessary.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In the case of <span style="text-decoration-line:underline;text-decoration-style:solid">Killock v Information Commissioner</span> <ref href="#" uk:canonical="[2022] 1 WLR 2241" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] 1 WLR 2241</ref>, the Upper Tribunal at paragraph 74 stated - "<span style="font-style:italic">&#8230;It is plain from the statutory words that, on an application under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref>, the Tribunal will not be concerned and has no power to deal with the merits of the complaint or its outcome. We reach this conclusion on the plain and ordinary meaning of the statutory language but it is supported by the Explanatory Notes to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> which regard the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> remedy as reflecting the provisions of article 78(2) which are procedural. Any attempt by a party to divert a tribunal from the procedural failings listed in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> towards a decision on the merits of the complaint must be firmly resisted by tribunals."</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mostyn J in the High Court in <span style="text-decoration-line:underline;text-decoration-style:solid">R (Delo) v Information Commissioner </span><ref href="#" uk:canonical="[2023] 1 WLR 1327" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] 1 WLR 1327</ref>, paragraph 57 - "<span style="font-style:italic">The treatment of such complaints by the commissioner, as before, remains within his exclusive discretion. He decides the scale of an investigation of a complaint to the extent that he thinks appropriate. He decides therefore whether an investigation is to be short, narrow and light or whether it is to be long, wide and heavy. He decides what weight, if any, to give to the ability of a data subject to apply to a court against a data controller or processor under article 79. And then he decides whether he shall, or shall not, reach a conclusive determination...</span>&#8221;.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mostyn J&#8217;s decision in <span style="text-decoration-line:underline;text-decoration-style:solid">Delo</span> was upheld by the Court of Appeal (<ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2023/1141" uk:canonical="[2023] EWCA Civ 1141" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] EWCA Civ 1141</ref>) &#8211; &#8220;<span style="font-style:italic">For the reasons I have given I would uphold the conclusion of the judge at [85] that the legislative scheme requires the Commissioner to receive and consider a complaint and then provides the Commissioner with a broad discretion as to whether to conduct a further investigation and, if so, to what extent. I would further hold, in agreement with the judge, that having done that much the Commissioner is entitled to conclude that it is unnecessary to determine whether there has been an infringement but sufficient to reach and express a view about the likelihood that this is so and to take no further action. By doing so the Commissioner discharges his duty to inform the complainant of the outcome of their complaint</span>.&#8221; (paragraph 80, Warby LJ).&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The decision of the Upper Tribunal in <span style="text-decoration-line:underline;text-decoration-style:solid">Cortes v Information Commissioner</span> (UA-2023-001298-GDPA) which applied both <span style="text-decoration-line:underline;text-decoration-style:solid">Killock</span> and <span style="text-decoration-line:underline;text-decoration-style:solid">Delo</span> confirmed that the nature of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> is that of a limited procedural provision only. &#8220;<span style="font-style:italic">The Tribunal is tasked with specifying appropriate &#8220;steps to respond&#8221; and not with assessing the appropriateness of a response that has already been given (which would raise substantial regulatory questions susceptible only to the supervision of the High Court)&#8230;.As such, the fallacy in the Applicant&#8217;s central argument is laid bare. If Professor Engelman is correct, then any data subject who is dissatisfied with the outcome of their complaint to the Commissioner could simply allege that it was reached after an inadequate investigation, and thereby launch a collateral attack on the outcome itself with the aim of the complaint decision being re-made with a different outcome. Such a scenario would be inconsistent with the purport of Article 78.2, the heading and text of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> and the thrust of the decisions and reasoning in both Killock and Veale and R (on the application of Delo). It would also make a nonsense of the jurisdictional demarcation line between the FTT under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> and the High Court on an application for judicial review.&#8221;</span> (paragraph 33).&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The case of <span style="text-decoration-line:underline;text-decoration-style:solid">Dr Michael Guy Smith v Information Commissioner</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2025/74" uk:canonical="[2025] UKUT 74 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKUT 74 (AAC)</ref>, noted at paragraph 60 that &#8220;<span style="font-style:italic">it is for the Tribunal to decide, applying an objective test, if an &#8220;appropriate step&#8221; has been omitted, but observe that, in practice, that is unlikely to be the case where an &#8216;outcome&#8217; has been produced. That is for two main reasons: first, because <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> is a procedural provision and, as the principal mechanisms for enforcing rights or challenging the Commissioner are either claims against the data controller or judicial review of the Commissioner, <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> should not be used to obtain &#8216;by the back door&#8217; a remedy normally only available in those proceedings; secondly, because, if the Commissioner has already produced an outcome then, given the very wide discretion that the Commissioner has, both as to what and how to investigate and as to outcome, the scope for the Tribunal to say that an appropriate step has been omitted is limited.&#8221; I</span>n considering this the Tribunal must, as set out in paragraph 85 of <span style="text-decoration-line:underline;text-decoration-style:solid">Killick </span><span style="font-style:italic">&#8220;when deciding objectively whether any (further) appropriate step needs to be taken by the Commissioner, take into account and give weight to the views of the Commissioner as an expert regulator.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Paragraph 85 of <span style="text-decoration-line:underline;text-decoration-style:solid">Killick</span> reads as follows: &#8220;<span style="font-style:italic">However, in considering appropriateness, the Tribunal will be bound to take into consideration and give weight to the views of the Commissioner as an expert regulator. The GRC is a specialist tribunal and may deploy (as in Platts) its non-legal members appointed to the Tribunal for their expertise. It is nevertheless our view that, in the sphere of complaints, the Commissioner has the institutional competence and is in the best position to decide what investigations she should undertake into any particular issue, and how she should conduct those investigations. As Mr Milford emphasised, her decisions about these matters will be informed not only by the nature of the complaint itself but also by a range of other factors such as her own regulatory priorities, other investigations in the same subject area and her judgment on how to deploy her limited resources most effectively. Any decision of a Tribunal which fails to recognise the wider regulatory context of a complaint and to demonstrate respect for the special position of the Commissioner may be susceptible to appeal in this Chamber.&#8221;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Procedural matters concerning the hearing</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The hearing of the strike-out application was heard by Cloud Video Platform (CVP). I am satisfied that it was fair and just to proceed in this way.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal considered a hearing bundle (237 pages) and authorities bundle prepared by the Respondent (205 pages). The Tribunal also had the benefit of skeleton arguments from both parties. The Applicant&#8217;s skeleton argument was accompanied by 26 annexes, which appear in the hearing bundle at pages 125-237.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Evidence and submissions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Osemele, in his skeleton argument and at the hearing, in made a number of points in relation to the IC&#8217;s handling of his complaint. The skeleton argument also contained a number of criticisms of the Council, which are not relevant to this application, because an application under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> is only concerned with the handling of a complaint by the IC. The key points raised in the skeleton argument were:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC's decision was based on an incorrect interpretation of the law, flawed by the consideration of irrelevant facts and with little consideration of the relevant facts.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC incorrectly applied the GDPR accuracy principles, Article 15 of the GDPR and <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/1" uk:canonical="2000 c. 36 s. 1" uk:origin="TNA" uk:type="legislation">Section 1</ref>, which obliges the Council to provide the service user&#8217;s statements and feedback as part of a Data Subject Access Request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC did not investigate the Applicant&#8217;s complaint at all. Its lack of procedural action was not proportionate despite documentary evidence from authorities.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">   The Applicant is not asking the Tribunal to alter the conclusion of the IC; his position was that there are procedural flaws in handling his complaints and the need for the IC to take procedural steps to remedy those flaws. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC has either misinterpreted Article 15 of the GDPR or has not paid attention to it at all. Since this reason was provided to the Applicant, the IC has not taken any step to address or progress with the complaint. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC has failed to take appropriate steps to regulate the provisions of the GDPR and <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of information Act 2000</ref>, which provides the Applicant with the rights to access to personal information.  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC has failed and is unwilling to ensure that the Council provides the information the Applicant seeks or face regulatory actions. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'"> The IC failed to commence an investigation against those involved in the falsification of information or make a statement why investigation is not necessary.  The IC has not taken appropriate steps to investigate and respond to the Applicant&#8217;s complaints surrounding the use of false and outdated information to continuously cause reputational damage.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC has not complied with the procedural requirements set out in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166(1)</ref> of the DPA 2018, </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">j.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The First-tier Tribunal (General Regulatory Chamber) has the jurisdiction to hear data protection cases across the United Kingdom, specifically regarding appeals against decisions made by the IC.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">k.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">Even though it took the IC over 6 months to contact the Applicant, the IC is yet to provide acceptable statements or instructions concerning the Council's refusal to update its record following recent developments. The IC permitted the Council not to update its record and to continue disclosing the information in question causing prejudice to the Applicant.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">l.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC's judgement over the Applicant&#8217;s complaint is illegal and irrational, leading to continuous reputational damage to the Applicant. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">m.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The Applicant opposes the strike out application because that the IC is yet to take appropriate steps to address complaints against the Council by prohibiting it from onward disclosure of the disputed information. The Applicant found the reasons given to him by the IC for not prohibiting the Council from doing so to be illegal. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">n.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The Applicant has requested that Council should be restricted to disclose only up to date and relevant information about the Applicant, however the IC is yet to start taking the appropriate step. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">o.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">The IC has failed to take appropriate steps to ensure that the accuracy principle is protected and effectively regulated. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">p.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">It is illegal for the IC to consider a clearly false information to be an opinion.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">At the hearing, the Applicant provided further context to his Applications. He made the following additional points:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">As the regulator, the IC is supposed to ensure that the Council provides the information sought, but it has failed to do so.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC is supposed to ensure that the Council updates its records, but it has not.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC should have taken appropriate steps to address contradictory information in the responses from the Council.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Jennett, for the IC, in his skeleton argument and at the hearing, made the following additional points in relation to the First Application:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The First Application should be struck out for want of jurisdiction.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The First Application appears to reference Articles 5(1)(d) and (e) of the UKGDPR, rather than any of the procedural matters in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref>. These have been addressed by the outcome and are challenges to the merits of the outcome. This is therefore a <span style="font-style:italic">&#8220;a substance-based application brought &#8216;by the back door&#8217; as a procedural complaint/seeking to use the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> process to achieve a different outcome&#8221;</span>, against which the Upper Tribunal warned in <span style="text-decoration-line:underline;text-decoration-style:solid">Killock</span> and <span style="text-decoration-line:underline;text-decoration-style:solid">Smith</span>.   </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The orders sought on the First Application for compliance by the Council and/or compensation are not orders that the Tribunal can grant; these are matters for the civil courts under sections 167 and 168 of DPA 2018. He argued, following the case of <span style="text-decoration-line:underline;text-decoration-style:solid">Harron v IC &amp; RMBC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2024/275" uk:canonical="[2024] UKUT 275 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2024">[2024] UKUT 275 (AAC)</ref> paragraph 31, that the Tribunal has constitutive jurisdiction as this is an application, due to the Tribunal having jurisdiction under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> broadly, but not the adjudicative jurisdiction as it cannot, regardless of its view, make the orders sought. Transfer is not an option as no other court or tribunal has jurisdiction under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> at first instance.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Issues in relation to the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> or criminal offences are not within the Tribunal&#8217;s jurisdiction under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref>.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He also made the following points in relation to both the First and Second Applications</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Both Applications have no reasonable prospects of success. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Both Applications are flawed in that they are substance based, alleging errors of law and procedural fairness, and that the Orders sought are not within the jurisdiction of the Tribunal.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The Applicant has received full outcomes in relation to each of his complaints, the subject of proceedings under the First and Second Applications, which addressed the entirety of his complaints. Whilst in the Second Application, the outcome came after the application was made, one has now been provided, together with an outcome having been provided prior to the application being made in relation to the First Application. Accordingly, in respect of both Applications, the Tribunal is unable to exercise its powers and make an order for the purposes of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166/2" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166(2)</ref>. In providing all decisions, the case officers have considered all the material available to them and made enquiries where it was felt appropriate to do so. The Applicant appears to accept that he has received an outcome in relation to his complaints but disagrees with the outcomes provided.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The outcomes provided constitute an outcome for the purposes of the IC&#8217;s statutory duties. Further, they explicitly state the case officer&#8217;s views, discharging the IC's obligations to the extent required in <span style="text-decoration-line:underline;text-decoration-style:solid">Delo</span>. The decision on regulatory action thereafter is a discretionary matter for the IC separate from the Applicant&#8217;s complaints.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">In accordance with <span style="text-decoration-line:underline;text-decoration-style:solid">Smith</span> none of the limited circumstances arise whereby, once an outcome has been provided e.g. the outcome provided is partial. It is clear that the Applicant is seeking to use the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> process in order to achieve a different outcome. This is contradictory to &#167;87 of <span style="text-decoration-line:underline;text-decoration-style:solid">Killock</span>.   To the extent that the Applicant seeks to criticise the extent of any investigation/regulatory action, this is a regulatory decision for the IC and should not be interfered with by the Tribunal (&#167;76 <span style="text-decoration-line:underline;text-decoration-style:solid">Killock</span>).</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC submits that he has provided a statutory compliant outcome addressing all matters raised by the Applicant and in doing so has exercised his regulatory judgement. Once this is complete, the authorities are clear that there is limited scope for interference by the Tribunal with the outcome that has been provided by the IC and none of the exceptional circumstances, that permit the reopening of an outcome are engaged in this case. Accordingly, the IC submits that the merits of the Applicant&#8217;s grounds are fanciful and, in any event, not fit to be considered at a substantive hearing (see <span style="text-decoration-line:underline;text-decoration-style:solid">Fairford v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2014/329" uk:canonical="[2014] UKUT 329 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKUT 329 (AAC)</ref> at [41]).  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="paragraph" style="text-align:justify;margin-left:0.49in"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">The first question is whether the IC provided an outcome to each of the Applicant&#8217;s complaints. I find that the IC provided the Applicant with a response to the First Complaint on 1 June 2025, the Second Complaint on 10 March 2026 and the Third Complaint on 13 March 2026. I consider that each of these responses was in fact an outcome to the respective complaint, because they provided an answer to all outstanding issues, responded to each of the points made in the complaint and demonstrated that the IC had given consideration to whether there were other appropriate steps which could be taken to progress the Applicant&#8217;s complaint. This is sufficient in my view to demonstrate that the IC has complied with the requirements of section 165(4). The fact that the Applicant does not agree with these outcomes does not render them wrong in law.  Challenge to the legality of these outcomes is a matter for the Administrative Court on judicial review, not for this Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">It appears to me therefore that there are no further appropriate steps which the IC ought reasonably to take to progress any of the three complaints.</span><span class="normaltextrun" style="font-family:'Times New Roman'">&#8239;</span><span class="normaltextrun"> In making this decision I have given significant weight to the view of the IC as the expert regulator that there are no further appropriate steps he should have taken.&#160;&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Although the Applicant argued that this was not his intention, I find that the outcomes sought by the Applicant, particularly in relation to the First Application, but also to some extent the Second Application are, in effect, challenging the substantive outcome of the complaints to the IC. This is because the outcomes sought contemplate a different outcome to the one which has in fact been provided. The Tribunal does not have power under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> to consider the merits or substantive outcome of a complaint. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 166</ref> is limited to narrow procedural issues and there is no further procedural failing in respect of which the Tribunal can make a decision.<span style="font-family:'Times New Roman'">&#160;&#160;&#160;</span>In an application under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref>, the Tribunal has no power to direct the IC to investigate, in a particular way or at all, to take regulatory enforcement action to secure compliance with a request or determine whether or not there has been a breach of the UK GDPR. The IC is not a court or ombudsman and I find that orders for compliance or compensation need to be sought through civil action, not through this Tribunal. Accordingly, I find that the Tribunal does not have the power to grant the outcomes sought.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Because I consider that, in each instance there was an outcome determining the complaint and that there were no further appropriate steps which should be taken, I find the First, Second and Third complaints have already been determined and therefore the Tribunal has no jurisdiction over them.&#160; I am also satisfied that there is no reasonable prospect of the First or Second Applications, or any part of them, succeeding because the outcomes sought by the Applicant are not things which are within the Tribunal&#8217;s power to grant.<span style="font-family:'Times New Roman'">&#8239;</span>There is no other court or Tribunal who would be able to deal with a <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/166" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 166</ref> application at first instance, so there is no prospect of transfer to another forum.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Proceedings in both the First Application and the Second Application are therefore struck out under Rule 8(2)(a) because the Tribunal does not have jurisdiction to deal with them and under Rule 8(3)(c) because there is no reasonable prospect of them succeeding.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed: </span><span style="font-style:italic;font-family:'Book Antiqua'">Judge Harris</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date: </span><docDate date="2026-05-07" refersTo="#decision" style="font-family:'Book Antiqua'">7 May 2026</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

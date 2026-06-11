@@ -1,0 +1,641 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/584"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/584"/>
+	  <FRBRdate date="2026-04-20" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="584"/>
+	  <FRBRname value="Mark Armstrong v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/584"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/584"/>
+	  <FRBRdate date="2026-04-20" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/584/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/584/data.xml"/>
+	  <FRBRdate date="2026-04-20T09:32:54" name="transform"/>
+	  <FRBRdate date="2026-04-20T10:05:45" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-04-13" refersTo="#decision" source="#"/>
+	<eventRef date="2026-04-20" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="mark-armstrong" href="" showAs="MARK ARMSTRONG"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>584</uk:number>
+	<uk:cite>[2026] UKFTT 584 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>1344fbdce2b2f7222bea9b16120cf1ddcdee192d80a095b8ac37c5813693c418</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legp1paratext { font-size: 12pt; }
+#judgment .legp2paratext { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .legds { }
+#judgment .legp1no { }
+#judgment .apple-converted-space { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00584 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0409</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decided without a hearing</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-20" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">20 April 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE </span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MATON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER DE WAAL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER TAYLOR</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#mark-armstrong" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">Mark armstrong</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Respondent</role></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Dismissed.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In this decision the following terms have the following meanings:</p>
+	    <table class="TableGrid" uk:widths="1.77in 4.43in">
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Commissioner</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the Information Commissioner;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Decision Notice</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the notice dated 4 November 2025 number IC-381514-F8W0, setting out the decision of the Commissioner in this matter;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">FOIA</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Request</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the request submitted by the Appellant dated 7 January 2025;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Requested Information</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the information which was within the scope of the Request;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Response</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the response to the Request issued by Humberside Police on 4 February 2025.</p>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Any reference to a section of an Act is a reference to FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This is an appeal against the decision of the Commissioner as set out in the Decision Notice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal received and considered a bundle of documents.  The parties consented to the appeal being decided without a hearing, and the Tribunal is satisfied that this was a fair and just way to decide this appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 7 January 2025, the Appellant sent the Request to Humberside Police, in the following terms:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.1in;text-indent:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">Dear Humberside Police,</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.1in;text-indent:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">Below are numerous ICO references number in which a decision notice was issued. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">With regard to each ICO reference number provided below, the ICO found that the Humberside Police had violated my information rights under the FOIA and the DPA. I also have numerous other on going section 50 complaints against the Humberside Police regarding the same issues.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">As a result the ICO recently issued the Humberside Police with practice recommendations and also carried out audits.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">The College of Policing has also issued APP&#8217;s in relation to how FOIA requests and SA requests should be handled by the Humberside Police.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">The Humberside Police recently provided me with your own internal policies and procedures regarding the unsatisfactory delivery of services which I read with interest. However, the policy was unclear regarding who a member of the public should submit a [sic] official complaint to regarding the unsatisfactory delivery of services to. Namely the appropriate department and the appropriate person.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Under the FOIA, section 1 (1), please provide me with all the information you hold regarding these issues.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">For example, Humberside Police PSD policy regarding unsatisfactory delivery of service by the Humberside Police FOI and Data protection departments.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Any Humberside Police internal policy with regard to the college of policing APP&#8217;s in relation to FOI and DPA.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">This was followed by a list of ICO decision notice numbers, by reference to years.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 4 February 2025, Humberside Police responded, refusing the Request on the basis that the information was reasonably accessible by other means.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On the same day, the Appellant requested an internal review. He argued that he did not believe that Humberside Police had disclosed all of the information it held within the scope of the Request. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 27 June 2025 Humberside Police wrote to the Appellant to inform him that it would no longer provide him with internal reviews of his FOIA requests. It did not provide a specific response to his request for an internal review regarding the Request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 24 April 2025 the Appellant complained to the Commissioner. The Commissioner carried out an investigation and issued the Decision Notice on 4 November 2025. The Commissioner concluded that Humberside Police had correctly refused the Request and on the balance of probabilities did not hold any further recorded information within scope. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant appealed to the Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant's grounds of appeal are briefly stated. These are:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">&#8220;Fundamental breach of section 1(1)-failure to confirm or deny and provide information&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">&#8220;Failure to conduct a lawful internal review&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">&#8220;Breach of duty &#8211; failure to provide advice and assistance&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">&#8220;Inadequate searches for information&#8221;; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">&#8220;Unreasonable and inconsistent conduct&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">It is not clear whether the Appellant is referring here to the actions of the Commissioner or of Humberside Police.  The Tribunal infers from the context that it is the latter.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant has provided no arguments in support of these grounds and has made little effort to substantiate them.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In his response, the Commissioner submits that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The response confirmed that Humberside Police held the relevant information and correctly applied the relevant exemption;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">An internal review is not a statutory requirement, and the Decision Notice correctly signposted the reader to the statutory code of practice;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The duty in s16 to provide advice and assistance was not engaged by the Request;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">The searches conducted by Humberside Police were appropriate; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">The question of unreasonable and inconsistent conduct falls outside the Tribunal's jurisdiction in this appeal.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Relevant law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The relevant provisions of FOIA for the purposes of this appeal are as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num class="legds" style="font-family:'Book Antiqua';font-style:italic">1</num>
+	    <content>
+	      <p class="Heading4" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Book Antiqua';color:#000000">General right of access to information held by public authorities.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(1)</num>
+	    <intro>
+	      <p class="legclearfix" style="margin-left:0.5in;text-indent:0in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">Any person making a request for information to a public authority is entitled&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(a)</num>
+	      <content>
+		<p class="legclearfix" style="margin-left:0.75in;text-indent:0.25in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">to be informed in writing by the public authority whether it holds information of the description specified in the request, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(b)</num>
+	      <content>
+		<p class="legclearfix" style="margin-left:0.75in;text-indent:0.25in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">if that is the case, to have that information communicated to him.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="legclearfix" style="margin-left:0.75in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">[...]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num class="legds" style="font-family:'Book Antiqua';font-style:italic">2</num>
+	    <content>
+	      <p class="Heading4" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Book Antiqua';color:#000000">Effect of the exemptions in Part II.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="margin-left:0.5in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">[...]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(2)</num>
+	    <intro>
+	      <p class="legclearfix" style="margin-left:0.5in;text-indent:0in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">In respect of any information which is exempt information by virtue of any provision of Part II, section 1(1)(b) does not apply if or to the extent that&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(a)</num>
+	      <content>
+		<p class="legclearfix" style="margin-left:0.75in;text-indent:0.25in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">the information is exempt information by virtue of a provision conferring absolute exemption,</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="legclearfix" style="margin-left:0.75in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">[...]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(3)</num>
+	    <intro>
+	      <p class="legclearfix" style="margin-left:0.5in;text-indent:0in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">For the purposes of this section, the following provisions of Part II (and no others) are to be regarded as conferring absolute exemption-</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(a)</num>
+	      <content>
+		<p class="legclearfix" style="margin-left:0.75in;text-indent:0.25in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">section 21</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.75in"><span style="font-style:italic;font-family:'Book Antiqua'">[...]</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">16</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">Advice and assistance</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(1)</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in;text-indent:0in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">It shall be the duty of a public authority to provide advice and assistance, so far as it would be reasonable to expect the authority to do so, to persons who propose to make, or have made, requests for information to it.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(2)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">Any public authority which, in relation to the provision of advice or assistance in any case, conforms with the code of practice under section 45 is to be taken to comply with the duty imposed by subsection (1) in relation to that case.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">The current statutory code of practice was issued on 4 July 2018.  This covers matters including the provision of advice and assistance, and the conduct of internal reviews.  As set out in the code of practice, such reviews are a matter of best practice, and are not a statutory requirement. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">Section 21 provides that information is exempt if it is reasonably accessible to the requester by other means.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal's jurisdiction in this appeal is to determine whether the Decision Notice is in accordance with the law, and whether the Commissioner ought to have exercised his discretion differently (see s58(1)).  It is not the Tribunal&#8217;s role to conduct a judicial review of the Commissioner&#8217;s decision, or of the decision of the public authority which received the Request.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Evidence and discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua';color:#000000">The evidence seen by the Tribunal shows that the Appellant has a long history of making information requests to Humberside Police.  The letter containing the Request refers to 40 separate decision notices of the Commissioner in relation to FOIA and subject access requests in which the Appellant says that the Commissioner &#8220;found that the Humberside Police had violated [his] information rights&#8221;, and states that he has &#8220;numerous other section 50 complaints against the Humberside Police regarding the same issues&#8221;.  The letter says that as a result, the Commissioner has issued Humberside Police with practise recommendations and carried out audits, and the College of Policing has issued guidance on how requests should be handled.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">After reciting this history, the Appellant requests all information which Humberside Police holds regarding &#8220;these issues&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">There is the potential for some ambiguity in the Request. The Appellant&#8217;s reference to &#8220;these issues&#8221; could be a reference to the preceding paragraph of the Request, relating to how complaints regarding service delivery should be submitted, or it could be a reference to all of the preceding text in the letter.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In the Tribunal&#8217;s view, the Commissioner&#8217;s reading of the Request, as relating to the Appellant&#8217;s queries regarding service delivery complaints, is the correct one. The reference to &#8220;these issues&#8221; immediately follows an acknowledgement of some information having been received, and a statement that certain other information has not been received.  The most straightforward reading of this is that the relevant paragraph is a reference to what the Appellant believes is missing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">This would also be consistent with the Appellant&#8217;s internal review request which refers only to this narrow class of information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Response:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">confirms that Humberside Police holds the Requested Information;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">informs the Appellant that complaints can be made by contacting its Professional Standards Department, or the Commissioner, and gives contact details for each;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">confirms the existence of relevant College of Policing Authorised Professional Practice (APP) guidance, and provides a link to a website hosting this guidance.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As part of his investigation, the Commissioner liaised with Humberside Police regarding the background to the Response.   In a letter dated 28 October 2025 Humberside Police described the searches it had carried out before responding to the Request and gave the Commissioner further information regarding the background to the Request. The Appellant will have seen this letter as part of the Tribunal bundle.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Based on the evidence it has seen, the Tribunal is satisfied that the searches carried out by Humberside Police were appropriate, and, on the balance of probabilities, Humberside Police did not at the relevant time hold any further information which fell within scope of the Request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">It appears that, since the Response was issued, the web address provided in the Response has become redundant, and the evidence before the Tribunal does not confirm definitively what information was available at that address at the time of the Response.  However, in the absence of any evidence from the Appellant on this point, and having considered the correspondence between Humberside Police and the Commissioner, the Tribunal is satisfied on the balance of probabilities that the information to which Humberside Police referred the Appellant was reasonably available by means other than the Request, and accordingly that the section 21 exemption was correctly applied by Humberside Police.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Regarding the Appellant&#8217;s claim that Humberside Police breached the section 16 duty to provide him with advice and assistance, the Commissioner notes that the Decision Notice does not include a finding on this point. He also submits that the Response adequately addresses the various matters raised in the statutory code of practice regarding advice and assistance and that section 16 is not relevant to this appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal accepts the Commissioner&#8217;s submissions on this ground, with one exception. As noted above, there is the potential for ambiguity in the Request regarding the scope of the Requested Information. It is arguable that Humberside Police could have sought to clarify this. However, the Tribunal agrees that the reading of the Request which was given to it by Humberside Police and by the Commissioner was the correct one, and the Appellant has not disputed this. Accordingly, the Tribunal does not accept that Humberside Police breached its duty to provide advice and assistance.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Turning to the Appellant&#8217;s grounds of appeal:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Humberside Police did not fail to confirm or deny whether it held the Requested Information;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">On the question of whether Humberside Police should have conducted an internal review there was no error of law or discretion by the Commissioner in the Decision Notice;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Humberside Police did not breach its duty to provide advice and assistance;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The searches carried out by Humberside Police were appropriate;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The question of &#8220;unreasonable and inconsistent conduct&#8221; is not within the Tribunal&#8217;s jurisdiction in this appeal.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Conclusion and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">For the reasons set out above, the Tribunal is not persuaded that the Decision Notice contained an error of law, or that the Commissioner ought to have exercised his discretion differently and accordingly dismisses the appeal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Judge Maton</span><marker name="tab"/><docDate date="2026-04-13" refersTo="#decision" style="font-family:'Book Antiqua'">13 April 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

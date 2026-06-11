@@ -1,0 +1,923 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/338"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/338"/>
+	  <FRBRdate date="2026-03-09" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="338"/>
+	  <FRBRname value="Paul Nicholas Arthur v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/338"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/338"/>
+	  <FRBRdate date="2026-03-09" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/338/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/338/data.xml"/>
+	  <FRBRdate date="2026-03-09T12:21:08" name="transform"/>
+	  <FRBRdate date="2026-03-09T13:05:18" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-20" refersTo="#decision" source="#"/>
+	<eventRef date="2026-03-09" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="paul-nicholas-arthur" href="" showAs="PAUL NICHOLAS ARTHUR"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>338</uk:number>
+	<uk:cite>[2026] UKFTT 338 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.5.0</uk:parser>
+	<uk:hash>ede2a6f8e0e7701df2454be599cd8e0fcb2e98a4a8c20e7f2abc227484fe8895</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6 { font-size: 12pt; color: #1F3763; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .p1 { font-family: 'Book Antiqua'; font-size: 9pt; color: #000000; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .Body { font-size: 12pt; color: #000000; }
+#judgment .p2 { font-family: Times; font-size: 11pt; color: #FFFFFF; }
+#judgment .p3 { font-family: Times; font-size: 11pt; color: #FFFFFF; }
+#judgment .p4 { font-family: Times; font-size: 10.5pt; color: #FFFFFF; }
+#judgment .p5 { font-family: Times; font-size: 10.5pt; color: #FFFFFF; }
+#judgment .p6 { font-family: Times; font-size: 11.5pt; color: #FFFFFF; }
+#judgment .p7 { font-family: Times; font-size: 11pt; color: #FFFFFF; }
+#judgment .p8 { font-family: Times; font-size: 10.5pt; color: #FFFFFF; }
+#judgment .p9 { font-family: Times; font-size: 11pt; color: #FFFFFF; }
+#judgment .p10 { font-family: Times; font-size: 11.5pt; color: #FFFFFF; }
+#judgment .p11 { font-family: Times; font-size: 11pt; color: #FFFFFF; }
+#judgment .p12 { font-family: Times; font-size: 10.5pt; color: #FFFFFF; }
+#judgment .p13 { font-family: Times; font-size: 11.5pt; color: #FFFFFF; }
+#judgment .p14 { font-family: Times; font-size: 10.5pt; color: #FFFFFF; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .s1 { font-family: Arial; font-size: 9pt; }
+#judgment .s2 { color: #1C1C1D; }
+#judgment .apple-converted-space { }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .Strong { font-weight: bold; }
+#judgment .s3 { font-family: Times; font-size: 10.5pt; }
+#judgment .s4 { font-family: Times; font-size: 11pt; }
+#judgment .s5 { font-family: Times; font-size: 10.5pt; }
+#judgment .s6 { font-family: Times; font-size: 10.5pt; }
+#judgment .s7 { font-family: Times; font-size: 11pt; }
+#judgment .s8 { font-family: Times; font-size: 10pt; }
+#judgment .s9 { font-family: Times; font-size: 11.5pt; }
+#judgment .s10 { font-family: Times; font-size: 9pt; }
+#judgment .s11 { font-family: Times; font-size: 10.5pt; }
+#judgment .s12 { font-family: Times; font-size: 10pt; }
+#judgment .s13 { font-family: Times; font-size: 10pt; }
+#judgment .s14 { font-family: Times; font-size: 11.5pt; }
+#judgment .s15 { font-family: Times; font-size: 9pt; }
+#judgment .s16 { font-family: Times; font-size: 10.5pt; }
+#judgment .s17 { font-family: Times; font-size: 12pt; }
+#judgment .s18 { font-family: Times; font-size: 11pt; }
+#judgment .s19 { font-family: Times; font-size: 9.5pt; }
+#judgment .s20 { font-family: Times; font-size: 11.5pt; }
+#judgment .s21 { font-family: Times; font-size: 10pt; }
+#judgment .s22 { font-family: Times; font-size: 9pt; }
+#judgment .s23 { font-family: Times; font-size: 11pt; }
+#judgment .s24 { font-family: Times; font-size: 11pt; }
+#judgment .s25 { font-family: Times; font-size: 9pt; }
+#judgment .s26 { font-family: Times; font-size: 10.5pt; }
+#judgment .s27 { font-family: Times; font-size: 9.5pt; }
+#judgment .s28 { font-family: Times; font-size: 10.5pt; }
+#judgment .s29 { font-family: Times; font-size: 12pt; }
+#judgment .s30 { font-family: Times; font-size: 11.5pt; }
+#judgment .s31 { font-family: Times; font-size: 8.5pt; }
+#judgment .s32 { font-family: Times; font-size: 11pt; }
+#judgment .s33 { font-family: Times; font-size: 8.5pt; }
+#judgment .s34 { font-family: Times; font-size: 8.5pt; }
+#judgment .s35 { font-family: Times; font-size: 9pt; }
+#judgment .s36 { font-family: Times; font-size: 10pt; }
+#judgment .s37 { font-family: Times; font-size: 10pt; }
+#judgment .s38 { font-family: Times; font-size: 9.5pt; }
+#judgment .s39 { font-family: Times; font-size: 12pt; }
+#judgment .s40 { font-family: Times; font-size: 9pt; }
+#judgment .s41 { font-family: Times; font-size: 11pt; }
+#judgment .s42 { font-family: Times; font-size: 9pt; }
+#judgment .s43 { font-family: Times; font-size: 10pt; }
+#judgment .s44 { font-family: Times; font-size: 8.5pt; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .Heading6Char { font-size: 12pt; color: #1F3763; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00338 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0122</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decided without a hearing</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: 9</span><span style="font-weight:bold;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th </span><span style="font-weight:bold;font-family:'Book Antiqua'">September 2025</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-03-09" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">09 March 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE KIAI</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER SAUNDERS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER EDWARDS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#paul-nicholas-arthur" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">PAUL NICHOLAS ARTHUR</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Respondent</role></p>
+      <p style="margin-left:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua';color:#000000">The appeal is</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-family:'Book Antiqua';color:#000000">allowed</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">on Ground 1 (aggregation). </span></p>
+      <p style="text-align:justify;margin-left:0.39in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Substituted Decision Notice:</span><span style="font-family:'Book Antiqua';color:#000000"> For the reasons set out below: </span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">a)</num>
+	<p class="ListParagraph" style="text-align:justify;margin-left:0.64in"><span style="font-family:'Book Antiqua';color:#000000">The FCDO was not entitled to aggregate the requests under section 12(4) and to consequently rely on section 12(1) based on aggregated costs.  </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.64in;text-indent:-0.25in">b)</num>
+	<p class="ListParagraph" style="margin-left:0.64in"><span style="font-family:'Book Antiqua';color:#000000">The FCDO is required to take the following steps within 35 calendar days of the date that this decision is sent to the parties by the Tribunal:</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.5in">i.</num>
+	<p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">The FCDO is required to issue a fresh response to the request, </span>determining the application of section 12(1)<span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">separately</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span>for Request 1. Without aggregation under section 12(4);</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="text-decoration-line:line-through;margin-left:1in;text-indent:-0.5in">ii.</num>
+	<p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua';color:#000000">Where section 12(1) is maintained, the FCDO is required to identify the</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">evidence-based estimate relied on</span><span style="font-family:'Book Antiqua';color:#000000">.</span></p>
+      </blockContainer>
+      <p style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">For the avoidance of doubt, nothing in this decision prevents the FCDO from relying on section 12(1) (or any other exemption)</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">for an individual request</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">,</span><span style="font-family:'Book Antiqua';color:#000000"> provided that it does so on the basis of a realistic and cogently evidenced estimate tied to that request alone, and not on an aggregated footing.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="margin-left:0.11in;text-indent:0.39in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Summary</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">This</span> Decision relates to an Appeal brought by Paul Nicholas Arthur<span style="font-family:'Book Antiqua';color:#000000"> against a decision notice (&#8220;DN&#8221;) issued by the Information Commissioner (&#8220;the Commissioner&#8221;) on 28 February 2025 upholding the FCDO&#8217;s reliance on section 12 FOIA to refuse two requests made by the Appellant on 21 November 2023. In doing so, the Commissioner accepted that the FCDO was entitled, under section 12(4) FOIA, to aggregate the estimated costs of complying with both requests.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">For the reasons that follow, the Tribunal allows the appeal on the aggregation point. On the facts before us, the two requests were</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">not</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">&#8220;the same or similar&#8221; within the meaning of section 12(4) FOIA and should not have been aggregated. We remit the matter to the Commissioner for a fresh determination of section 12(1) (cost limit)</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">without aggregation</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">,</span><span style="font-family:'Book Antiqua';color:#000000"> and for any further steps as may be necessary.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Request</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 21 November 2023, the Appellant submitted 2 requests to the Foreign Commonwealth and Development office (&#8216;FCDO&#8217;) &#8211; in separate correspondence:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">&#8216;<span style="font-style:italic">I am requesting under the terms of the FOIA any documentation indicating the extent of FCDO funding of The Centre of [for] Information Resilience for either of the last 2 financial years up until 5</span><span style="font-style:italic;vertical-align:super;font-size:smaller">th</span><span style="font-style:italic"> April 2023 or for the calender [sic] years 2021 and 2022, whichever the Foreign Office prefers&#8221; </span>[referred to as &#8216;Request 1&#8217; in this decision]</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in">And</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">&#8216;I am requesting under the terms of the FOIA all correspondence (including transcripts of emails) sent from the FCDO to The Centre for Information Resilience from 1</span><span style="font-style:italic;vertical-align:super;font-size:smaller">st</span><span style="font-style:italic"> January 2021&#8221; </span>[referred to as &#8216;Request 2&#8217; in this decision]<span style="font-style:italic">.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 6 February 2024, the FCDO responded to the request. It confirmed that it held information within the scope of each request but refused to comply with these on the basis of section 12 (cost limit) of FOIA. The FCDO provided advice and assistance in relation to how each request could be refined to bring them within the cost limit:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">In relation to &#8216;Request 1&#8217; the FCDO advised the complainant to reduce the timeframe for the request and focus on the amount of funding provided. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">In relation to &#8216;Request 2&#8217;, the FCDO advised shortening the time frame to 3 months and specifying the subject matter. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 27 February 2024, the Appellant sought internal review. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">He asserted that although the FCDO aggregated the two requests, they were distinct and should be treated separately: &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">The first relates to funding and the second to correspondence&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Appellant explained that the requests had already been refined at the FCDO&#8217;s suggestion, specifically by removing the year 2020 from the alternative calendar-year formulation and leaving the FCDO free to choose either two specific financial years or two specific calendar years. The Appellant submitted that this was a reasonable refinement and that it was inherently improbable that it would take 24 hours for the FCDO to ascertain the total amount of funding provided over either of those standard accounting periods. He noted that government bodies typically report financial data on an annual basis&#8212;whether by financial year or calendar year&#8212;and that accounting in six-month periods is unusual.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">The Appellant further stated that he was advised to &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">focus on the amount of funding provided</span><span style="font-family:'Segoe UI';color:#000000">&#8221; and observed that this is precisely what FOIA Request 1 sought. In his view, the idea that the FCDO&#8217;s financial systems were so disorganised that retrieving total annual or biennial funding figures would exceed the cost limit was implausible.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Segoe UI';color:#000000">Regarding Request 2 (correspondence), the Appellant expressed doubt that correspondence between the FCDO and the CIR was not stored separately or otherwise readily accessible. While he considered it unlikely that there was a large volume of correspondence, he was willing to narrow the scope to correspondence relating to what the CIR described as &#8220;disinformation&#8221;. The Appellant maintained that it was inconceivable that locating correspondence with a single organisation&#8212;other than major multilateral institutions such as the EU, NATO or the UN&#8212;would require more than 24 hours.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 29 July, the FCDO upheld its original position following an internal review. It confirmed that it had aggregated the estimated cost of complying with both requests under section 12(4) FOIA, as each related to the Centre for Information Resilience.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The FCDO explained that, although it could identify payments made to the organisation and could therefore answer part of Request 1, the supporting documentation was not held centrally. It gave the same explanation for Request 2, noting that relevant correspondence was similarly dispersed. The FCDO stated that funding to the Centre for Information Resilience was delivered through several programmes administered by different internal departments, and compliance would require multiple teams to search and compile information from numerous data sources.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The internal review upheld the application of section 12 FOIA. It added that some information about payments to the Centre for Information Resilience between January 2021 and May 2022, as well as information about the organisation&#8217;s work for the FCDO, was already publicly available.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Complaint to the ICO and the Council&#8217;s amendment</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 22 August 2024, the Appellant contacted the ICO to complain that the FCDO&#8217;s handling of his requests. In particular:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He disputed the FCDO&#8217;s decision to aggregate the requests;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He disputed the FCDO&#8217;s decision to refuse both requests on the basis of s.12(1) of FOIA;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">In relation to Request 1, he argued that that the FCDO&#8217;s finance department already holds the information requested centrally and that it can be easily obtained at minimal cost;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">In relation to Request 2, he submitted that it seemed likely the FCDO would maintain a central file of correspondence with the CIR, if only for reasons of administrative efficiency, and therefore this could be used to find the correspondence sought with ease. He submitted that the Internal Review implied the CDPO had not carried out a preliminary examination of the files in order to determine how much correspondence may fall withing the scope of the request.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Decision Notice (28 February 2025)</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ICO came to the following conclusions. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">&#8216;Complaint A&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant submitted that s.12(4) allows for the aggregation of the &#8216;same or similar&#8217; requests, but he considered the two requests to be discrete. He submitted that Request 1 relates to the funding of the CIR whereas Request 2 related to the operations of that organisation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The FCDO argued that as both requests sought information regarding its relationship with the CIR, the test for aggregating the requests was met. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The ICO favoured the FCDO&#8217;s findings on this point as both requests sought information about its relationship with the CIR, &#8216;<span style="font-style:italic">whilst the information being sought is not the same information in the Commissioner&#8217;s view it does have a clear commonality or similarity given that both requests seek details of the FCDO&#8217;s engagement &#8211; either payments to or correspondence with &#8211; one specific organisation&#8217;.  </span>The ICO was therefore satisfied that the FCDO was entitled to aggregate the costs of complying with both requests when determining whether the cost of compliance exceeded the cost limit. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in">&#8216;<span style="font-style:italic;font-weight:bold">Complaint B&#8217;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant submitted that the FCDO would be able to respond to both requests &#8211; whether the costs for compliance were aggregated or not &#8211; within the cost limit. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In relation to Request 1, the Appellant submitted that the FCDO&#8217;s finance department would hold centralised records of the payments made and therefore information sought by the request would be easy to locate. He therefore rejected the findings of the internal review that complying with the request would &#8216;<span style="font-style:italic">require multiple departments to sift, identify and compile relevant documentation and correspondence with a wide range from a wide range of data sources&#8217;</span>.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In relation to Request 2, the Appellant submitted that it was likely the FCDO would maintain a central file of correspondence with the CIR, if only for reasons of administrative efficiency and this could be used to find the correspondence sought. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant argued that the internal review suggested that the FCDO had not carried out a preliminary examination of the relevant files to determine how much correspondence may fall within scope. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The FCDO told the ICO that a sample search by a member of the Afghanistan team&#8212;who manages one CIR-funded project&#8212;identified around 390 emails with the organisation. It noted that several other staff involved in the same project would likely hold similar volumes, and that approximately 20 projects across different teams fund the CIR. On this basis, each relevant individual would need to search their own emails and shared workspaces to identify correspondence with the organisation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The FCDO therefore estimated that up to 400 emails per project could exist, equating to as many as 8,000 emails over the 23-month period, all of which would need review to determine which fell within scope.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">It explained that CIR-related correspondence is held within individual email accounts and team-specific shared areas, with no business need to store all such material centrally. This differs from its finance system, which centrally records all payments.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">While payment information is centrally held, the FCDO stated that each funding team retains its own associated correspondence. Beyond payment data, there is no operational need for central storage, and teams can only access their own shared areas.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In respect of Request 1, <span style="font-family:'Segoe UI';color:#000000">the ICO accepts that although the FCDO&#8217;s finance department holds a central record of payments to the CIR, the request is broader. It seeks &#8220;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">documentation indicating the extent of FCDO funding&#8221;,</span><span style="font-family:'Segoe UI';color:#000000"> which may include analysis, discussion or other material concerning the level of such funding. This information may not be held centrally.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">The ICO considers it plausible that departments commissioning the CIR hold documentation relating to funding decisions, and that this material would fall within scope. Consequently, processing Request 1 would require each funding team to search its own records for relevant information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">Based on the FCDO&#8217;s sample exercise, the ICO accepts its estimate that approximately 8,000 emails relating to CIR-funded projects are likely to exist across around 20 teams. To comply with the request, the FCDO would need to locate and review all such emails&#8212;held both in shared areas and individual inboxes&#8212;to identify those containing information on the extent of CIR funding.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">Given the dispersed locations of this material, the ICO recognises that locating and gathering it would be time-consuming. Although the FCDO provided no precise figure, the ICO is satisfied that the volume of material means the work would exceed the 24-hour cost limit.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">The ICO notes that even if locating the emails were straightforward, reviewing 8,000 emails to determine which fall within scope would clearly be onerous. Reviewing each email would take substantially more than 24 hours&#8212;approximately 66 hours at 30 seconds per email, or 33 hours at 15 seconds&#8212;before even accounting for collation time. Section 12(1) therefore applies.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In respect of Request 2, the ICO<span style="font-family:'Segoe UI';color:#000000"> accepts that the FCDO does not hold a single repository of all correspondence with the CIR, and that it would need first to gather the same 8,000 emails and then identify those sent by the FCDO to the CIR. While filtering tools might reduce the time needed to review this correspondence (unlike Request 1), the ICO is satisfied that the costs of the two requests can be aggregated. As the aggregated cost would exceed the limit, section 12(1) can also be relied upon to refuse Request 2.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;color:#000000">Grounds of Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 22 March 2025 November 2025, the Appellant appealed against the decision on the following grounds:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">&#8216;&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">First, I challenge the IC&#8217;s decision to allow the FCDO&#8217;s decision to aggregate the 2 quite separate requests &#8211; FOI2023/23623, which was about funding, and FOI2023/23624, which was about correspondence. The fact that both FOIA requests relate to the FCDO and the Centre for Information Resilience (CIR) does not of itself make them &#8216;similar&#8217; one concerns finance, the other activities in what sense are they &#8216;similar&#8217;? I take it as self-evidence that they are not, and neither the FCDO nor the IC quote any Tribunal or Court Decision holding that 2 separate FOIA requests can be considered &#8216;similar&#8217; purely on the grounds that the FOIA requests refer to the same organisations. The subject matter of the requests is not similar at all. Would an FOIA request asking for levels of funding to Oxfam be considered &#8216;similar&#8217; to an FOIA request asking what information had been obtained by [illegible] from Oxfam about its priorities in delivering flood relief to Pakistan? I think not&#8230;..</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">[I] wish to disaggregate the 2 requests and appeal against only one of the 2. I wish to appeal only against the decision of the FC pertaining to FOIA request FOI2023/23623 relating to FCDO funding of the CIR&#8230;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">My request refers to &#8216;the extent of FCDO funding&#8217; of the CIR. The &#8216;extent of funding&#8217; clearly refers to the full amount of that funding; which one would expect to be expressed in pounds and pence. That is the &#8216;plain words meaning&#8217; of my FOIA request&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">The Foreign Office, however in an effort to resist disclosure, has conjured up an Alice in Wonderland interpretation of my words&#8230;.the key paragraphs of the Decision Notice are 27-29. A key sentence is: &#8216;that is to say, the Commissioner understands that request not only to be seeking a list of payments made to the CIR but also information about the extent of such funding&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">I observe, first, that this is false, it is false because I never asked for a list of (individual) payments. Reference to such a list was made by the FCDO as a way of fobbing me off. I repeat that I only asked about the &#8216;extent of FCDO funding&#8217;&#8230;.there is no &#8216;also&#8217; about it. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">Now we come to the Alice in Wonderland aspect of the FCDO&#8217;s reasoning&#8230;at the bottom of para 27 appears to suggest that &#8216;information about the extent of such funding&#8217; might include &#8216;information discussing or analysing the level of funding provided to CIR&#8217;, which in the Commissioner&#8217;s view &#8216;would fall within the scope of the request&#8217; (para 27 . </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">This is nonsense. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">If I had wanted to ask for information about analysis or discussions around the extent of the FCDO&#8217;s funding of CIR I could have done so, but I didn&#8217;t. As para 4 of the decision notice demonstrates, I asked only about the &#8216;Extent of FCDO funding&#8217;, and </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">not</span><span style="font-style:italic"> about the extent of discussions around that funding&#8230;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">The DN goes on to suggest that according to this interpretation of the wording of my request, which, in the Commissioner&#8217;s view includes &#8216;documentation concerning funding decisions in relation to the CIR&#8217; (para 28), &#8216;The FCDO would have to get various departments who funded the organisation over the time period to search for any relevant information&#8217; (para 28). He goes on &#8230;para 29 to suggest that this could involve 8000 emails which could involve 66 hours of work (para 31) and so justify resistance to disclosure under s.12(1) of FOIA. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">If I had asked for this additional information about &#8216;information discussing or analysing the level of fundraising provided to CIR&#8217; (para 27`) then these estimates about 8,000 emails and many hours of work might very well be valid but I didn&#8217;t ask for any such information, just as I didn&#8217;t ask for a list of individual payments by the FCDO to the CIR, I asked only for information indicating the extent of FCDO funding during the periods referred to in para 4 of the Decision Notice ie the total amount of such funding during those periods. I suggest that the interpretation of my words which the IC has accepted &#8230;para 27 is both c</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">ontrived and wholly unwarranted and ofends [sic] against the plain words meaning' interpretative rule that [illegible] in the courts of England and Wales. This is laid-out clearly by Lord Neuberger in</span><span class="apple-converted-space" style="font-style:italic;font-family:'Segoe UI';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Segoe UI';color:#000000">Arnold v Britton</span><span class="apple-converted-space" style="font-style:italic;font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-style:italic;font-family:'Segoe UI';color:#000000">in the context of contracts but has also been applied in relation to the wording of legislation and any wording which gives rise to legal effect.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Segoe UI';color:#000000">Even without this jurisprudence, I believe it would be clear that neither the FCDO nor the IC would be entitled to contrive a meaning to my words which they clearly do not carry.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Segoe UI';color:#000000">So what exactly is the cost of complying with disclosure of the information that I actually requested? Very little. Crucially, the IC admits in para. 26 that there is a central repository of payments made to the CIR, as there would need to be if the FCDO were to conduct an annual audit of funds dispersed. The time it would take to access the total extent of funding for the specified periods would be literally seconds for the central financial comptroller. Information relating to those payments and correspondence (para. 26) is not what I asked for, and is, accordingly, irrelevant, and cannot be used as the basis for costings under section 12(1) FOIA that are invoked to resist disclosure&#8217;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">ICO&#8217;s Response</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In its response dated 16 April 2025, the ICO submits <span style="font-family:'Segoe UI';color:#000000">that the Appellant&#8217;s request was made in the following terms:</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Segoe UI';color:#000000">&#8220;any documentation indicating the extent of FCDO funding of the Centre for Information Resilience&#8230;&#8221;</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000">for the specified periods. The ICO maintains that FOIA requests must be interpreted objectively. On this basis, he considers that the words &#8220;any documentation&#8221; were clear and not limited merely to the total amount of funding. If the Appellant intended to confine the request more narrowly, the ICO submits that a fresh, more specific request would have been required.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">The ICO further submits that, for the reasons set out in the DN, the two requests were properly aggregated under section 12(4) FOIA and that the Appellant&#8217;s Grounds disclose no basis to disturb that finding.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">In relation to section 12(1), the Appellant contends that compliance would require very little time, as the total funding could be retrieved within seconds from central finance records. The ICO finds, however, that a public authority&#8217;s estimate must reflect how information is actually held, referring to</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Segoe UI';color:#000000">Kirkham v IC</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/126" uk:canonical="[2018] UKUT 126 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 126 (AAC)</ref>, which confirms that an estimate must be sensible and sufficiently precise for determining whether the cost limit would be exceeded. A reasonable estimate is one that is &#8220;sensible, realistic and supported by cogent evidence&#8221;, as described in</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Segoe UI';color:#000000">Randall v IC and MHRA</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000">(EA/2006/0004).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI';color:#000000">The ICO maintains that the FCDO&#8217;s account of how relevant information is held, and its sampling exercise&#8212;set out at paragraphs 23&#8211;26 of the DN &#8212;demonstrate that compliance would exceed the statutory cost limit. He remains satisfied that the FCDO&#8217;s description of the work required is credible and consistent with how its records are kept. Citing</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Segoe UI';color:#000000">Clyne v IC and Lambeth </span><span style="font-family:'Segoe UI';color:#000000">(EA/2011/0190) and</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span class="Emphasis" style="font-family:'Segoe UI';color:#000000">Oates v IC and ARB</span><span class="apple-converted-space" style="font-family:'Segoe UI';color:#000000">&#160;</span><span style="font-family:'Segoe UI';color:#000000">(EA/2011/0138), the Commissioner submits that there is no evidence the FCDO attempted to mislead, and therefore the DN should be upheld.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Legal Framework</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">A person who seeks information from a public authority is entitled to be informed whether that authority holds the requested information (section 1(1)(a) FOIA). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">If the information is held, the requester is further entitled to have it communicated to them (section 1(1)(b) FOIA).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">However, where the cost of complying would exceed the appropriate limit, a public authority is not required to comply. S.12 FOIA states: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Section 1(1) does not oblige a public authority to comply with a request for</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">information if the authority estimates that the cost of complying with the</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">request would exceed the appropriate limit.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Subsection (1) does not exempt the public authority from its obligation to</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">comply with paragraph (a) of section 1(1) unless the estimated cost of</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">complying with that paragraph alone would exceed the appropriate limit.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(3)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">In subsections (1) and (2) &#8220;the appropriate limit&#8221; means such amount as may</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">be prescribed, and different amounts may be prescribed in relation to different</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">cases.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(4)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The [Secretary of State] may by regulations provide that, in such</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">circumstances as may be prescribed, where two or more requests for</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">information are made to a public authority&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.61in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">by one person, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.61in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">by different persons who appear to the public authority to be acting in</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">concert or in pursuance of a campaign,</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">the estimated cost of complying with any of the requests is to be taken to be</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">the estimated total cost of complying with all of them.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(5)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The Secretary of State may by regulations make provision for the purposes of</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">this section as to the cost to be estimated and as to the manner in which they</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">are to be estimated</span><span style="font-family:'Book Antiqua';color:#000000">.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The regulations made pursuant to sections 12(4) and 12(5) FOIA&#8212;namely, the Freedom of Information and Data Protection (Appropriate Limits and Fees) Regulations 2004 (&#8220;the Fees Regulations&#8221;)&#8212;set out the relevant provisions concerning the &#8220;appropriate limit&#8221; and specify the categories of cost that may be considered when calculating that limit:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">a.</num>
+	    <content>
+	      <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">Regulation 3 of the Fees Regulations, read in conjunction with Schedule 1 FOIA, provides that &#8216;the appropriate limit&#8217;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua';color:#000000">for the purposes of section 12(1)</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-family:'Book Antiqua';color:#000000">FOIA is &#163;600 for central government departments (reg.3(2)), and &#163;450 in the</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.79in"><span style="font-family:'Book Antiqua';color:#000000">case of any other public authority (reg.3(3)).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">b.</num>
+	    <content>
+	      <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua';color:#000000">Not all costs which may be incurred in complying with the request may be taken into account. Regulation 4 of the Fees Regulations sets out the activities which can be taken into account when estimating the cost of compliance with s.1(1) FOIA for the purposes of the appropriate limit, together with the estimated cost for the time spent in undertaking those activities:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;(3)</num>
+		    <intro>
+		      <p style="text-align:justify;margin-left:1.08in;text-indent:0.42in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">In a case in which this regulation has effect, a public authority may, for</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">the purpose of its estimate, take account only of the costs it</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">reasonably expects to incur in relation to the request in-</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		      <content>
+			<p style="margin-left:1.47in;text-indent:0.03in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">determining whether it holds the information,</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		      <content>
+			<p style="margin-left:1.47in;text-indent:0.03in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">locating the information, or a document which may contain the</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">information,</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p style="margin-left:1.47in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">(c)retrieving the information, or a document which may contain</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">the information, and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-style:italic;font-family:'Book Antiqua'">(d)</num>
+		      <content>
+			<p style="margin-left:1.47in;text-indent:0.03in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">extracting the information from a document containing it.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">(4)</num>
+		    <content>
+		      <p style="margin-left:1.08in;text-indent:0.42in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">To the extent to which any of the costs which a public authority takes</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">into account are attributable to the time which persons undertaking</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">any of the activities mentioned in paragraph (3) on behalf of the</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">authority are expected to spend on those activities, those costs are to</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">be estimated at a rate of &#163;25 per person per hour.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">When a public authority is estimating whether the appropriate limit is likely to be exceeded, it can include the costs of complying with two or more requests if the conditions laid out in regulation 5 of the Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 2004 (&#8220;the Fees Regulations&#8221;) can be satisfied.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Section 12(4) of FOIA states:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">&#8220;The Secretary of State may by regulations provide that, in such circumstances as may be prescribed, where two or more requests for information are made to a public</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">authority &#8211;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">by one person, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">by different persons who appear to the public authority to be acting in</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">concert or in pursuance of a campaign, the estimated cost of complying</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">with any of the requests is to be taken to be the estimated total cost of</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">complying with all of them.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Regulation 5 of the Fees Regulations states:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">In circumstances in which this regulation applies, where two or more requests for</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">information to which section 1(1) of the 2000 Act would, apart from the appropriate</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">limit, to any extent apply, are made to a public authority &#8211;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">by one person, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">by different persons who appear to the public authority to be acting in</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">concern or in pursuance of a campaign, the estimated cost of complying with</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">any of the requests is to be taken to be the total costs which may be taken into</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">account by the authority, under regulation 4, of complying with all of them.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">This regulation applies in circumstances in which &#8211;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">the two or more requests referred to in paragraph (1) relate, to any extent,</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">to the same or similar information, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">those requests are received by the public authority within any period of sixty</span><span style="font-family:'Book Antiqua';color:#000000"/><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">consecutive working days.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The Tribunal's Role</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">By section 58 FOIA the Tribunal&#8217;s role is to consider whether the DN is in accordance with the law or where the ICO&#8217;s decision involved exercising discretion, whether it should have exercised it differently. It is a full merits jurisdiction. The tribunal may receive evidence that was not before the ICO and may make different findings of fact from the ICO. If the Tribunal determines the DN was not in accordance with the law or that a discretion should have been exercised differently it can allow the appeal and/or substitute a different Notice that could have been served by the ICO.&#160; Unless these apply the Tribunal shall dismiss the Appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">For the purposes of determining this appeal, we have considered those documents contained within the open bundle consisting of 77 (electronic) pages.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Discussion and Conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal is asked to determine as a preliminary issue whether the FCDO was entitled, on the facts, to aggregate the estimated costs of the two requests under s. 12(4) FOIA. If so, we are invited to consider whether s.12(1) was applicable.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Given our conclusion on aggregation, we do not make final findings on s.12(1).</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p style="margin-left:0.5in;text-indent:0.5in"><span style="font-style:italic;font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Should the requests have been aggregated? </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The Appellant submits that the two requests are discrete in nature: Request 1 concerns funding totals (extent of FCDO funding of CIR over specified periods); Request 2 concerns</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">correspondence sent</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">from the FCDO to CIR over a wider period. He argues that funding data and outward correspondence are qualitatively different categories of information, compiled and held for different purposes, and not &#8220;the same or similar&#8221; within section 12(4).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The FCDO and the ICO submit that both requests concern the FCDO&#8217;s engagement with the same organisation (CIR). On that footing, they argue that the requests share sufficient commonality to be &#8220;similar&#8221; for aggregation purposes. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We accept that both requests relate to the FCDO&#8217;s dealings with the</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">same third-party entity</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">(CIR). However, the statutory test is not whether two requests relate to the same</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">organisation</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">or share a general</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">subject</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span><span style="font-family:'Book Antiqua';color:#000000"> It is whether the requests are for the</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">same or similar information</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">On a fair and objective reading, </span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">Request 1</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">is directed to</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">funding information</span><span style="font-family:'Book Antiqua';color:#000000">&#8212;in essence, information indicating the total extent of funding provided by the FCDO to CIR over specified standard accounting periods. Even if there were a legitimate debate as to whether the words &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">any documentation indicating the extent</span><span style="font-family:'Book Antiqua';color:#000000">&#8221; extends beyond totals to include associated explanatory material (as asserted in the ICO&#8217;s response, dated 16 April 2025), the core character of the information sought is</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">financial/funding-extent information</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In contrast, Request 2 is directed to</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">outgoing correspondence</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">over a longer period, irrespective of whether such correspondence concerns funding, policy, operational issues, or otherwise, and regardless of whether it contains financial data. It is</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">transactional/documentary communications</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">nature</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">and</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">character</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">of these information sets are materially different. Funding extent information is likely to be derived from finance systems and associated records of payments; outward correspondence is likely to reside in email accounts and team repositories and encompass a broad range of topics. That both sets of information involve the same external counterparty (CIR) does not render them &#8220;similar&#8221; within the meaning of section 12(4). The overlap is</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">contextual</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">rather than</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">informational</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We place some weight on the FCDO&#8217;s own explanations. The FCDO stated that payments are centrally recorded in finance systems (albeit that some supporting documentation may be dispersed), whereas correspondence is not centrally held but distributed across individual accounts and shared areas. That description underscores the essential difference between</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">what</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">is being sought in each request. Similarity in</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">how</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">the records might be searched, or the fact that teams connected with CIR would need to be consulted, is not determinative: section 12(4) focuses on the</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">requested information</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">, </span><span style="font-family:'Book Antiqua';color:#000000">not the</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">search task</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We therefore reject the proposition that requests are &#8220;similar&#8221; for section 12(4) merely because they &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">seek details of the FCDO&#8217;s engagement&#8212;either payments to or correspondence with&#8212;one specific organisation</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;. That formulation collapses the statutory requirement into a broad &#8220;same topic/organisation&#8221; test, which is not what Parliament enacted. If that were sufficient, almost any pair of requests touching on the same third party would be treated as &#8220;similar&#8221;, contrary to the ordinary meaning of the language and the need to construe section 12(4) as a</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">narrow exception</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">to the general right of access.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Nothing in the materials before us demonstrates a</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">material informational overlap</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">between the two requests. Nor is there evidence (nor is it suggested) that the Appellant orchestrated the two requests so as to subdivide what is, in reality, a single informational inquiry. To the contrary, the record shows two separately framed requests made in separate correspondence, for different classes of information, over different periods, to different practical effect. Indeed the Appellant only wishes to appeal one.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">In the ICO&#8217;s response dated 16 April 2025, he submits that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">the words &#8220;any documentation&#8217; were clear and not limited merely to the total amount of funding. If the Appellant intended to confine the request more narrowly, the ICO submits that a fresh, ore specific request would have been required&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">However, the Appellant explicitly stated &#8211; </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">before the Internal Review</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000"> &#8211; </span><span style="font-family:'Book Antiqua';color:#000000">in his representations dated 27 February 2024, that &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">The first [request] relates to funding and the second to correspondence&#8221;. </span><span style="font-family:'Book Antiqua';color:#000000">He went on to clarify &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">It was suggested I &#8230;.&#8217;focus on the amount of funding provided&#8217;. Well as to the latter, the amount of funding is exactly what I requested in FOIA request 22623&#8217;</span><span style="font-family:'Book Antiqua';color:#000000">. So even if it was not clear from the outset that the Appellant was requesting the amount of funding provided, this was clarified by the Appellant &#8211; before the Internal Review. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We therefore conclude that the FCDO was</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">not</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">entitled to aggregate the estimated costs of complying with the two requests under section 12(4) FOIA. The Commissioner erred in law in upholding that approach.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Was s.12(1) applicable?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Because the aggregation was impermissible, the cost-limit analysis must be conducted</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">separately</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">for each request. The DN&#8217;s reliance on a combined estimate, and on sampling/estimates predicated on aggregated searching (e.g. global counts of emails across projects) cannot sustain refusal of either request absent a proper,</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">disaggregated</span><span class="apple-converted-space" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">estimate for each.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">We make no final determination on whether section 12(1) is available in respect of either request when considered</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">individually</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span><span style="font-family:'Book Antiqua';color:#000000"> The Appellant stated in the Grounds of Appeal that he only wishes to appeal against Request 1, in those circumstances, the FCDO should consider Request 1 afresh.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Without deciding the point, we observe that the parties&#8217; submissions disclose an</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">evident divergence</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">as to the proper objective reading of &#8220;any documentation indicating the extent of FCDO funding&#8221; in Request 1. The FCDO, on remittal, may consider whether clarification under section 16 FOIA would assist in focusing that request (for example, whether the Appellant is content to confine it to</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">total monetary amounts</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span style="font-family:'Book Antiqua';color:#000000">for specified periods). Any such clarification should be recorded and factored into the cost estimate for Request 1</span><span class="apple-converted-space" style="font-family:'Book Antiqua';color:#000000">&#160;</span><span class="Strong" style="font-weight:normal;font-family:'Book Antiqua';color:#000000">alone</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'SAVOYE LET PLAIN:1.0';font-size:16pt">Judge Kiai </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-02-20" refersTo="#decision" style="font-style:italic;font-family:'SAVOYE LET PLAIN:1.0';font-size:16pt">20 February 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,1785 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/433"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/433"/>
+	  <FRBRdate date="2026-03-24" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="433"/>
+	  <FRBRname value="Song of the Wild Swan Limited v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/433"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/433"/>
+	  <FRBRdate date="2026-03-24" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/433/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/433/data.xml"/>
+	  <FRBRdate date="2026-03-24T15:02:35" name="transform"/>
+	  <FRBRdate date="2026-03-24T15:59:48" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2024-09-22" refersTo="#decision" source="#"/>
+	<eventRef date="2026-03-11" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-03-20" refersTo="#decision" source="#"/>
+	<eventRef date="2026-03-24" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="song-of-the-wild-swan-limited" href="" showAs="SONG OF THE WILD SWAN LIMITED"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>433</uk:number>
+	<uk:cite>[2026] UKFTT 433 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.6.1</uk:parser>
+	<uk:hash>83c72d4b789a582629b82a83fe3c274cb8ac8ec3cce9cb72a5c9e07f5878e2fa</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .eop { }
+#judgment .normaltextrun { }
+#judgment .judgment-bodynumber { }
+#judgment .visually-hidden { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <table uk:widths="2.23in 2.23in 2.23in">
+	<tr>
+	  <td>
+	    <p class="Header" style="margin-left:-0.08in"/>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:center"/>
+	  </td>
+	  <td>
+	    <p class="Header" style="text-align:right;margin-right:-0.08in"/>
+	  </td>
+	</tr>
+      </table>
+    </coverPage>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00433 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0231</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">FT/EA/2025/0243</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">FT/EA/2025/0260</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-03-11" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">11 March 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-03-24" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">24 March 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HARRIS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER CHAFER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER SHAW</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#song-of-the-wild-swan-limited" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">SONG OF THE WILD SWAN LIMITED</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.39in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Mr Orde Levinson</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent:  The Information Commissioner did not attend and was not represented.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeals are Dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Background to the appeals</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">These appeals concern three Decision Notices&#160;of the Information Commissioner (&#8220;the IC&#8221;)&#160;in connection with requests for information&#160;made by the Appellant to Oxford County Council (the &#8220;Council&#8221;) concerning the determination of business rates by the Council when a site has multiple occupants. These were as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun" style="font-family:'Segoe UI'">A Decision Notice dated 2 June 2025, reference IC-348011-S4Z7 (the &#8220;First Decision&#8221;);</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun" style="font-family:'Segoe UI'">A Decision Notice dated 19 June 2025, reference IC-351219-Q2M0 (the &#8220;Second Decision&#8221;); and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun" style="font-family:'Segoe UI'">A Decision Notice dated 10 July 2025, reference IC-377115-N9Y7 (the &#8220;Third Decision&#8221;).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">The Tribunal ordered on 22 August 2025 that these appeals should be consolidated and heard together.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold">Background to the appeals and chronology</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">On 15 July 2024, the Appellant made the following request to the Council (&#8220;the First Request&#8221;):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">&#8220;1.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">[DID] The CEO Ms Green positively request that I be declared vexatious in line with OCC policy   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">[Do]Mr Kearns for recovery team and Brates for administration team work in the same or close vicinity office and are in constant touch with each other  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">3.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">Is that the General Revenues Administration email address brates@oxford.gov.uk </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">4.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">Is it a fact that the recovery team and admin team are small - as you had to put more staff in there - and are not more than 4 people   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">5.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">Is it correct that when Mr Dobson was emailed in this regard [about gallery rates it was] sent by the Brates Revenue admin team who draft bills.   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">6.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">It is the Brates admin team who determines to whom business rates liability applies.   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">7.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">YOU refuse as do Brates to explain how they ie Brates Admin team determines to whom business rates liability applies. This failure is serious and unreasonable and unacceptable by OCC and I formally ask you to remedy within 7 days. The intentionally and deliberately withholding information has a major impact on this matter I believe and to the detriment of OCC.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">8.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">You have said and believe to be true OCC do not follow it and do not need to CPS code of conduct regarding the process of criminal charges. [Please confirm in writing]  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">9.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">You refuse to state what is the OCC codes/procedure for this ie criminal charge procedure and investigation under caution in place of not following CPS guidance. This failure is serious and unreasonable and unacceptable by OCC and I formally ask you to remedy within 7 days. If you dont and dont [sic] provide a procedure I will presume as intended OCC does not have one and allows its officers to do what they like subjectively- you implied that already in your dealing with a complaint in this regard.  </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">10.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">You refuse to explain the apparent dicotomy [sic] between your friendliness to me in communication while at same time behind my back asking for me to be declared vexatious. This failure is serious and unreasonable and unacceptable by OCC and I formally ask you to remedy within 7 days&#8221;.  </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">The Council responded that it did not consider this was a valid FOIA request and recommended that the Appellant submitted a request clearly describing the recorded information being sought from the Council. The Appellant challenged this, and focused on points 6 and 7 as being valid requests. The Council provided advise on how to reword the questions to get the information sought and confirmed that the case was closed. The Appellant subsequently complained to the IC about the handling of this request and this complaint was dealt with under reference IC-340521-C8P1.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">On 22 September 2024, the Appellant wrote to the Council and requested information in the following terms (the &#8220;Second Request&#8221;):  </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">&#8220;a)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">who is the OCC specified officer under the ECC Act [Economic Crime and Corporate Transparency Act] of 2023?   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">b)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">who is the &#8216;link officer&#8217; who acts as a single point of contact for Ombudsman enquiries and casework as specified by the Local Administration laws   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">c)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">who is the authorised officer for the purposes of the administration and enforcement of any Act, regulations or local laws which relate to the functions and powers of the Council see 224(1) amended by No. 125/1993 s. 26(2). (1)   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">d)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">who is designated officer under the Public Interest (whistleblower protection) sections 1 e and 7 1 and 2   </span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">e)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-style:italic">For items sent by SWS to OCC via Customer services as requested are they read by Customer services or not before onward information to parties as [name redacted] alleges is done by Customer services. Of if they are forwarded without reading.&#8221; </span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">The Council responded on 21 October 2024. It provided a response to parts a, d, and e of the request, cited section 40(2) (personal information) to withhold information for part b, and requested clarification for part c of the request.  The Appellant requested an internal review on the same day. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">Within their internal review request, the Appellant made no complaint about the responses to points b and d, advised that they were unable to provide clarification for part c, and asked further questions about parts a and e of the request.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">Following the internal review, the Council applied section 14(1) of FOIA to refuse the Second Request on 18 November 2024. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">On 25 November 2024, the Appellant wrote to the Council and requested information in the following terms (the &#8220;Third Request&#8221;):</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Your reply does not answer the FOI in that while it does indicate that</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-style:italic">Brates are decided on whom is the occupant (ie not the lease) it does</span><span style="font-style:italic;font-family:'Times New Roman'"/><span style="font-style:italic">not answer it if there are more than 1 occupant with different legal entities.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-style:italic">How OCC determines to whom business rates liability applies was the FOI and so it must include how you determine, if its occupancy as you say it is, what if there are more than one occupant with different legal entities. I would imagine this has happened before and you probably have a policy and or guidance on this.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-style:italic">We notice that you do not supply the name of the officer who is making these decisions and we ask that you supply the officer who made it and the officer who makes the review.&#8221;    </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">The Council responded on 3 December 2024, stating that it had already provided the requested information in response to previous requests and that it was applying section 14(1) of FOIA to refuse the request as vexatious.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">The Appellant replied to the Council on 6 December 2024 saying that the Third Request had in fact been a request for a further internal review of the Council&#8217;s response to the Second Request after its internal review dated 18 November 2024.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">The Appellant contacted the IC on 15 December 2024 to complain about the refusal of the Third Request, stating that it was a clarification of the Second Request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">On 2 April 2025, the IC wrote to the Appellant upholding its service complaint on reference IC-359521-C8P1 in relation to the First Request. It stated that it was setting up a new case in relation to paragraphs 6 and 7 of the First Request, which subsequently was dealt with under </span><span class="normaltextrun" style="font-family:'Segoe UI'">reference IC-377115-N9Y7.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">On 17 April 2025, the IC wrote to the Council to request that the Council provide the Appellant with a response to points 6 and 7 of the First Request. The Council responded to the IC on 23 April stating that it believed it had already disclosed this information to the complainant, but was checking the position.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">On 7 May 2025 the Council provided the Appellant with a response to points 6 and 7 of the First Request. This provided information in response to the request, referred to previous requests in which the information had been provided, and directed the complainant as to where to find further information regarding business rates.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">On 7 May 2025 the Appellant requested an internal review of the Council&#8217;s response to the First Request as they stated that the question regarding the determination of business rates liability had not been answered.   </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">On 22 May 2025 the Council provided its internal review response to the First Request stating that it was now applying section 14 of FOIA to the request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">On 2 June 2025, the IC issued the First Decision. In it he decided that the Council was entitled to refuse to comply with the Second Request under section 14(1).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">On 19 June 2025, the IC issued the Second Decision. In it he decided that the Third Request was vexatious and that the Council was entitled to rely on section 14(1) to refuse it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">On 10 July 2025, the IC issued the Third Decision. In it he decided that the First Request was vexatious and that the Council was entitled to rely on section 14(1) to refuse it.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold;font-family:'Segoe UI'">Abbreviations used in this decision</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">&#8220;The Council&#8221; means Oxford City Council</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;the&#160;Decisions&#8221; means the First Decision, Second Decision</span><span class="eop" style="font-family:'Segoe UI'">&#160;and Third Decision taken together</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="eop" style="font-family:'Segoe UI'">&#8220;DN&#8221; means &#8220;Decision Notice&#8221;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;First Appeal&#8221; means the appeal against the First Decision, concerned with the Second Request</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;First Decision&#8221;&#160;and &#8220;First Decision Notice&#8221; mean the IC&#8217;s decision dated&#160;2 June 2025, reference IC-348011-S4Z7 (the &#8220;First Decision&#8221;).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;First Request&#8221; means the Appellant&#8217;s request dated 15 July 2024</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;PA&#8221; means public authority, here the Council</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;Second Appeal&#8221; means the appeal of the Second Decision, concerned with the Third Request</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;Second Decision&#8221; and &#8220;Second Decision Notice&#8221; mean the IC&#8217;s Decision Notice dated 19 June 2025, reference IC-351219-Q2M0 (the &#8220;Second Decision&#8221;).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;Second Request&#8221; means the Appellant&#8217;s request dated </span><docDate date="2024-09-22" refersTo="#decision" style="font-family:'Segoe UI'">22 September 2024</docDate></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;Third Appeal&#8221; means the appeal of the Third Decision, concerned with the First Request</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;Third Decision&#8221; and &#8220;Third Decision Notice&#8221; mean the IC&#8217;s Decision Notice dated 10 July 2025, reference IC-377115-N9Y7 (the &#8220;Third Decision&#8221;).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;Third Request&#8221; means the Appellant&#8217;s request dated 25 November 2024.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">&#8220;FOIA&#8221; means the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>. All references to sections are references to sections of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref> unless otherwise specified</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-family:'Segoe UI'">&#8220;IC&#8221; means the Information Commissioner, the Respondent</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">&#8220;UT&#8221; means the Upper Tribunal, Administrative Appeals Chamber</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold">Procedural matters concerning the hearing</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Segoe UI';color:#000000;background-color:#FFFFFF">The hearing was conducted by Cloud Video Platform. The Tribunal was satisfied that it was fair and just to conduct the hearing in this way.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Segoe UI'">The Tribunal considered a bundle of documents (582&#160;pages). We refer to this in this decision by the initials OB. The Appellant also submitted a supplementary bundle (150 pages), a list of authorities (3 pages), a closed bundle in relation to the ongoing dispute with the Council (43 pages) and an aide memoire (22 pages) in advance of the hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="eop" style="font-family:'Segoe UI'">The IC decided not to attend the hearing. The Council declined to join the proceedings so also was not present. The Appellant stated in his updated submission dated 29 September 2025 (OB p216) that &#8220;</span><span class="eop" style="font-style:italic;font-family:'Segoe UI'">It is my understanding that if a party declines to be present at a hearing the court will give sole emphasis to evidence under oath and accept that over any other &#8220;argument&#8221;.</span><span class="eop" style="font-family:'Segoe UI'"> This is not correct. Evidence in the Tribunal is not generally given under oath and when forming its decision, the Tribunal will consider all the material which it is before it, as well as any oral evidence and/or submissions given at the hearing. The fact that one party elects not to attend does not automatically affect the weight which the Tribunal places on any piece of evidence or any submission; the placing of such weight is, in any event, a matter for the Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold;font-family:'Segoe UI'">The First Appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The Appellant appealed the First Decision (concerning the Second Request) to the Tribunal by way of form GRC1 dated 19 June 2025 (&#8220;the First Appeal&#8221;). In summary, the reasons for appeal took issue with the IC&#8217;s decision and set out the following grounds:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC failed to consider or improperly ignored case law concerning section 14(1) of FOIA.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The decision maker at the IC was not fit to decide this matter and it was not proper for him to do so. It also alleges that he was seriously biased against the Appellant.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The way in which the IC set out the Appellant&#8217;s view in the DN was incorrect and misleading in that it did not include sufficient information about the history and context of the Second Request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC failed to investigate the Council&#8217;s claims or the IC set out the Council's view in the DN in a way which was incorrect and biased.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The IC responded briefly to the First Appeal submitting that in all the circumstances of the case the Second Request was vexatious and standing by the First Decision Notice. If the Tribunal concluded the request was not vexatious, the IC invited the Tribunal to order a fresh response from the Council not relying on section 14(1).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The Appellant replied to this that the IC had not set out its grounds for opposing the appeal and was in breach of Rule 23.  It stated that it opposed sending the matter back to the Council for a fresh response, saying that to do so would be </span><span style="font-style:italic;font-family:'Segoe UI'">&#8220;unreasonable and disproportionate and an expression of the bias of the IC&#8221;</span><span style="font-family:'Segoe UI'">.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Segoe UI'">The Second Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The Appellant appealed the Second Decision (concerning the Third Request) by way of form GRC1 dated 30 June 2026.In summary, the reasons for the appeal set out the following grounds:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC in the Second Decision Notice:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in"><span style="font-family:'Segoe UI'">Exercises its power wrongly and misdirects itself in law, ignoring relevant case law on the purpose of section 14(1);</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Segoe UI'">Failed to consider relevant matters, particularly the history and context of the Request;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in"><span style="font-family:'Segoe UI'">Failed to give proper or any reasons or made totally inaccurate statements;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iv.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Segoe UI'">Failed to hear an affected party (the Appellant) and failed to deal with their view at all or reasonably or justly;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">v.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in"><span style="font-family:'Segoe UI'">Overheard or misheard or invented &#8220;positions&#8221; of the Council;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">vi.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Segoe UI'">Failed to follow the IC&#8217;s own guidance;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">vii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in"><span style="font-family:'Segoe UI'">Based its reasons on inaccurate facts.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">viii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.38in"><span style="font-family:'Segoe UI'">Failed to consider the application of sections 10(1) and 17 of FOIA.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The Council changing its position at review stage from answering the request to relying on section 14(1) is contrary to case law.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The decision maker at the IC was not fit to decide this matter and it was inappropriate and improper for him to do so. It also alleges that he was seriously biased against the Appellant.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC has not balanced at all the purpose or value of the request to every business rates occupier in the UK.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC has not evaluated the detrimental effect on the Council of responding. Simply saying it had no policy would have obviated the need for an appeal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC is biased and has not evaluated the facts in a balanced way.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The IC responded briefly to the Second Appeal submitting that in all the circumstances of the case the Third Request was vexatious and standing by the Second Decision Notice. If the Tribunal concluded the request was not vexatious, the IC invited the Tribunal to order a fresh response from the Council not relying on section 14(1).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The Appellant replied to this that the IC had not set out its grounds for opposing the appeal and was in breach of Rule 23.  It again stated that it opposed sending the matter back to the Council for a fresh response, saying that to do so would be </span><span style="font-style:italic;font-family:'Segoe UI'">&#8220;unreasonable and disproportionate and an expression of the bias of the IC&#8221;</span><span style="font-family:'Segoe UI'">. It also alleged that the Council was in contempt of court.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Segoe UI'">The Third Appeal</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The Appellant appealed the Third Decision by way of form GRC1 dated 12 July 2025. The reasons for appeal, in summary, set out the following grounds:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC failed to ensure that the request has been dealt with in accordance with Part I of FOIA. The IC failed to take into account case law and its own guidance in applying section 14(1).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC had &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">failed at law to see properly or at all</span><span style="font-family:'Segoe UI'">&#8221; and reference in the DN that the Council had misdirected itself to:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in"><span style="font-family:'Segoe UI'">refuse to issue a section 10 notice;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in"><span style="font-family:'Segoe UI'">fail to comply with its duty under section 16;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in"><span style="font-family:'Segoe UI'">fail to refer to section 17 in refusing the request.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC failed to examine properly or at all the information available and the arguments presented. The IC left out important points or added irrelevant ones in its summary of the facts in the Decision Notice.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC did not deal with the Council&#8217;s change of position to rely on section 14(1).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC did not apply itself to the fact that the fundamental principle of section 14(1) is to protect the finances of the Council. It ignored or improperly applied case law and its own guidance in doing so.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC did not apply itself to whether the request was &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">manifestly unjustified, inappropriate or improper use of the FOI as per the AC decision in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI'">Dransfield</span><span style="font-family:'Segoe UI'">&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The Council&#8217;s conduct in failing to respond was the cause of the requests and the IC failed to take this into account.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC (and Council) have treated the requester as vexatious not the request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC has not taken into account the public interest in the requests.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">j.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-family:'Segoe UI'">The IC is biased against the Appellant.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The IC responded briefly to the Third Appeal submitting that in all the circumstances of the case the First Request was vexatious and standing by the Third Decision Notice. If the Tribunal concluded the request was not vexatious, the IC invited the Tribunal to order a fresh response from the Council not relying on section 14(1).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The Appellant replied to this that the IC had not set out its grounds for opposing the appeal and was in breach of Rule 23.  It again stated that it opposed sending the matter back to the Council for a fresh response, saying that to do so would be </span><span style="font-style:italic;font-family:'Segoe UI'">&#8220;unreasonable and disproportionate and an expression of the bias of the IC&#8221;</span><span style="font-family:'Segoe UI'">. It also alleged that the Council was in contempt of court.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Segoe UI'">Other applications by the Appellant</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="eop" style="font-family:'Segoe UI'">By way of a form GRC5 dated 2 March 2026, the Appellant made applications to be dealt with at the hearing for the following orders:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="eop" style="font-family:'Segoe UI'">An order for costs against the Council;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="eop" style="font-family:'Segoe UI'">That the Council be held in contempt of court or alternatively transferred to another body for consideration of this;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="eop" style="font-family:'Segoe UI'">A declaration that the Council has breached FOIA section 77;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="eop" style="font-family:'Segoe UI'">A declaration that the Council &#8220;</span><span class="eop" style="font-style:italic;font-family:'Segoe UI'">be considered a cavalier public authority in its approach and its conduct to these appeals and appellant per UT decisions</span><span class="eop" style="font-family:'Segoe UI'">&#8221;; and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="eop" style="font-family:'Segoe UI'">That the IC be ordered to give reasons for excluding any documents submitted by the parties from the hearing bundle and/or authorities bundle.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The Tribunal explained at the hearing that it has no power to order costs against a non-party under Rule 10(1)(b) and cannot order costs against the Council because it is not a party to these proceedings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">We explained that the Tribunal cannot itself find a person in contempt of court as it can only certify a contempt to the Upper Tribunal. In order to do this, the Tribunal must be satisfied (1) that the person is guilty of any act or omission in relation to proceedings before the Tribunal which, if those proceedings were proceedings before a court having power to commit for contempt, would be capable of constituting a contempt of court and (2) if so, that the Tribunal should exercise its discretion to do so. We noted that the Appellant would need to pursue this as separate proceedings commenced by a form GRC4.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">We explained that proceedings under section 77 of FOIA are criminal proceedings which can only be brought by the IC or the Director of Public Prosecutions, so fall outside the jurisdiction of the Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">We reminded the Appellant that the sole issue before the Tribunal was whether or not the Council was entitled to refuse to comply with his requests because they were vexatious. The Tribunal has no power to consider the wider business of the Council and the Council is not party to these proceedings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">We explained that it is not the role of the IC to help a party to prepare its case or to locate cases on which they intend to rely. We explored with the Appellant whether there was any material he wished to be placed before the Tribunal which had not been and he confirmed there was not.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Segoe UI'">Legal framework</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">Section 14(1)&#160;of FOIA&#160;provides:&#8221;</span><span style="font-style:italic;font-family:'Segoe UI'">&#160;Section 1(1) does not oblige a public authority to comply with a request for information if the request is vexatious.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">There is no further guidance on the meaning of &#8220;vexatious&#8221; in the legislation. The leading guidance is contained in the Upper Tribunal (&#8220;UT&#8221;) decision in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI'">Information Commissioner v Dransfield</span><span style="font-family:'Segoe UI'"> [2012]&#160;UKUT&#160;440 (AAC), as upheld and clarified in the Court of Appeal (&#8220;CA&#8221;) in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI'">Dransfield v Information Commissioner and another &amp; Craven v Information Commissioner and another</span><span style="font-family:'Segoe UI'"> [2015]&#160;EWCA&#160;Civ&#160;454 (CA).&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">As noted by Arden LJ in her judgment in the CA in </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI'">Dransfield</span><span style="font-family:'Segoe UI'">, the hurdle of showing a request is vexatious is a high one:&#160;</span><span style="font-style:italic;font-family:'Segoe UI'">&#8220;&#8230;the starting point is that vexatiousness primarily involves making a request which has no reasonable foundation, that is, no reasonable foundation for thinking that the information sought would be of value to the requester, or to the public or any section of the public. Parliament has chosen a strong word which therefore&#160;means that the hurdle of satisfying it is a high one, and that is consistent with the constitutional nature of the right. The decision maker should consider all the relevant circumstances&#160;in order to&#160;reach a balanced conclusion as to whether a request is vexatious</span><span style="font-family:'Segoe UI'">.&#8221; (para 68).&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">Judge&#160;Wikeley&#8217;s&#160;decision in the UT decision on&#160;</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Segoe UI'">Dransfield</span><span style="font-family:'Segoe UI'">&#160;sets out more detailed guidance that was not challenged in the CA. The ultimate question is, &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">is the request vexatious in the sense of being a manifestly unjustified, inappropriate or improper use of FOIA</span><span style="font-family:'Segoe UI'">?&#8221; (para 43). It is important to adopt a &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">holistic and broad</span><span style="font-family:'Segoe UI'">&#8221; approach, emphasising &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">manifest unreasonableness, irresponsibility and, especially where there is a previous course of dealings, the lack of proportionality that typically characterise vexatious requests</span><span style="font-family:'Segoe UI'">.&#8221; (para 45). Arden LJ in the CA also emphasised that a &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">rounded approach</span><span style="font-family:'Segoe UI'">&#8221; is&#160;required&#160;(para 69), and all evidence which may shed light on whether a request is vexatious should be considered.&#160;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">The UT set out four non-exhaustive broad issues which can be helpful in assessing whether a request is vexatious:&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold;font-family:'Segoe UI'">The burden imposed on the public authority by the request</span><span style="font-family:'Segoe UI'">. This may be inextricably linked with the&#160;previous&#160;course of dealings between the parties. &#8220;&#8230;</span><span style="font-style:italic;font-family:'Segoe UI'">the context and history of the&#160;previous&#160;request, in terms of the&#160;previous&#160;course of dealings between the individual requester and the public authority in question, must be considered in assessing whether it is properly to be characterised as vexatious. In particular, the number, breadth,&#160;pattern&#160;and duration of&#160;previous&#160;requests may be a telling factor</span><span style="font-family:'Segoe UI'">.&#8221; (para 29).&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold;font-family:'Segoe UI'">The motive of the requester</span><span style="font-family:'Segoe UI'">. Although FOIA is motive-blind, &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">what may seem like an entirely reasonable and benign request may be found to be vexatious in the wider context of the course of dealings between the individual and the relevant public authority</span><span style="font-family:'Segoe UI'">.&#8221; (para 34).&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold;font-family:'Segoe UI'">The value or serious purpose</span><span style="font-family:'Segoe UI'">. Lack of objective value cannot provide a basis for refusal on its own, but is part of the balancing exercise &#8211; &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">does the request have a value or serious purpose in terms of the objective public interest in the information sought?</span><span style="font-family:'Segoe UI'">&#8221; (para 38).&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-weight:bold;font-family:'Segoe UI'">Any harassment of, or distress caused to, the public authority&#8217;s staff</span><span style="font-family:'Segoe UI'">. This is not necessary&#160;in order for&#160;a request to be vexatious, but &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">vexatiousness may be evidenced by obsessive conduct that harasses or distresses staff, uses intemperate language, makes wide-ranging and unsubstantiated allegations of criminal behaviour or is in any other respects extremely offensive</span><span style="font-family:'Segoe UI'">.&#8221; (para 39).&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Segoe UI'">Overall, the purpose of section 14 is to &#8220;</span><span style="font-style:italic;font-family:'Segoe UI'">protect the resources (in the broadest sense of that word) of the public authority from being squandered on disproportionate use of FOIA</span><span style="font-family:'Segoe UI'">&#8221; (UT para 10), subject always to the high standard of vexatiousness being met.&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="paragraph" style="text-align:justify;margin-left:0.49in"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">The Role of the Tribunal&#160;&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Segoe UI'">The Tribunal&#8217;s remit is governed by&#160;section&#160;58 FOIA. This requires the Tribunal to consider whether the decision made by the Commissioner is&#160;in accordance with&#160;the law or, where the IC&#8217;s decision involved exercising discretion, he should have exercised it differently. If we are satisfied that the IC&#8217;s decision notice is in error of law or involves an inappropriate exercise of&#160;discretion&#160;then we will allow the appeal&#160;and may substitute a decision notice for that of the IC. The Tribunal may receive evidence that was not before the IC and may make different findings of fact from the IC.&#160;&#160;&#160;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="paragraph" style="text-align:justify;margin-left:0.49in"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">Evidence and submissions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Segoe UI'">We heard submissions and evidence from the Appellant. In the written aide memoire it submitted before the hearing and its oral submissions it raised the following additional points, in summary:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun" style="font-family:'Segoe UI'">There is no burden on the Council in responding to the requests; if there is a burden, it is entirely self-inflicted.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun">The Council has provided no evidence of distress to any person or evidence of offensive communication by the Appellant.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun">The fact that the Appellant is in a dispute with the Council strengthens its position because it calls the Council&#8217;s conduct into question. There would have been no issue had the Council answered its questions reasonably and promptly.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun">The Council and IC have treated Mr Levinson, the requester, as vexatious and imposed a blanket refusal to respond to his requests on the basis of section 14(1) FOIA. This is unjustified and unlawful. He stated that the focus of the Council&#8217;s refusals was to block information that damages their claim for &#163;15,000 against the Appellant for business rates.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun">The IC has failed to deal in its Decisions with failure to comply with sections 1, 10 and 16 of FOIA; the Appellant argues that the finding under section 14(1) does not remove the IC&#8217;s obligation to deal with these breaches.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun">There is a clear public interest in relation to knowing how business rates are calculated and attributed, not only for the Appellant but for the general public. There is also a serious purpose in holding the Council to account.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun">The four limbs of the test in the UT&#8217;s decision in </span><span class="normaltextrun" style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span><span class="normaltextrun"> are not met by the Council.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span class="normaltextrun">The motive of the Council was to attack Mr Levinson and not provide information. He stated that the Council&#8217;s intention </span><span class="normaltextrun" style="font-style:italic">&#8220;was solely to cause offence, damage, vent anger for daring to challenge the liability orders and daring not to pay on demand huge sums of monies</span><span class="normaltextrun">&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun">If the responses provided by the Council are insufficient, the Appellant is entitled to make further requests for the information under FOIA.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="paragraph" style="text-align:justify;margin-left:0.49in"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">The issues</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span class="normaltextrun" style="font-family:'Segoe UI'">The key issue which the Tribunal needs to decide in each of the three Appeals is whether the Council was entitled to rely on section 14(1) of FOIA to refuse to respond to the request.</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold;font-family:'Segoe UI'">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Kennedy v Charity Commission</span>&#160;[2014] 2 WLT 808, Lord Sumption, with whom Lord Neuberger and Lord Clarke agreed, said as follows, at para 153:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;The <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> &#8230; introduced a new regime governing the disclosure of information held by public authorities. It created a prima facie right to the disclosure of all such information, save in so far as that right was qualified by the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> or the information in question was exempt. The qualifications and exemptions embody a careful balance between the public interest considerations militating for and against disclosure. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">The Act</ref> contains an administrative framework for striking that balance in cases where it is not determined by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> itself. The whole scheme operates under judicial supervision, through a system of statutory appeals.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">It is important to remind ourselves of those observations. FOIA creates a prima facie right to disclosure of information held by public authorities, save in so far as that right is qualified by the terms of FOIA or the information in question is exempt. Further, we remind ourselves that the qualifications and exemptions embody a careful balance between the public interest considerations militating for and against disclosure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The purpose of section 14 is &#8220;<span style="font-style:italic">to protect the resources (in the broadest sense of that word) of the authority from being squandered on disproportionate use of FOIA</span>.&#8221; (UT, <span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>, para 10). In order to achieve this purpose, as the Court of Appeal noted (CA, <span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>, para 68), Parliament has chosen to use a strong word, and therefore the hurdle of satisfying it is high.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 14 must not be interpreted in a way that in effect introduces a &#8216;public interest&#8217; threshold that all requestors have to pass. If no exemption is engaged, there is a right to disclosure of information held by public authorities whether or not there is any public interest in disclosure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Nor should section 14 be interpreted in such a way that it operates as a &#8216;catch all&#8217; exemption. It should not be used to avoid the need to consider whether the authority is entitled to rely on an exemption to withhold the information, even where it might appear obvious to the authority, the IC or the Tribunal that the requested information ought to be withheld either in the public interest or for some other reason. Parliament has chosen which exemptions to include and determined how those exemptions operate in order to embody the &#8216;careful balance&#8217; identified above.&#160;Section 14 is not designed to avoid the need to consider the application of individual exemptions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Although the four broad issues or themes identified by the Upper Tribunal in&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>&#160;are not exhaustive and are not intended to create a formulaic checklist, they are a helpful tool to structure our discussion, although some elements do not fit neatly under one heading. In adopting this structure, we have taken a holistic approach, and we bear in mind that we are considering whether or not the requests were vexatious in the sense of being a manifestly unjustified, inappropriate or improper use of FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Although not the order in which the Appeals were lodged, we deal below with the requests in the chronological order in which they were made.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold;font-family:'Segoe UI'">The First Request (Third Appeal) &#8211; IC377115-N9Y7</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The burden imposed on the public authority by the request.&#160;&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Council&#8217;s submission, summarised by the IC at paragraph 19 of the DN, was as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in">&#8220;<span style="font-style:italic">The Council states that, including Internal Review and Subject Access requests, the complainant has emailed the Council over 300 times in the period April 2024 up until now [10 July 2025]. Many of these emails have been long, complex and difficult to understand. The Council considers that, as well as the significant burden on Council resources of managing this communication, which includes identifying any questions that could be considered FOI requests, the content of the complainant&#8217;s requests is largely the same or similar in nature in that it concerns process issues regarding a Council investigation into the complainant&#8217;s non-payment of business rates, the handling of their FOI requests and Customer Service processes</span>.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In its grounds of appeal, the Appellant disputes the volume of emails as being wrong in number, context and/or history and states that the IC has not investigated this properly. The Appellant says that the communications were &#8220;<span style="font-style:italic">self-inflicted and reasonable and necessary</span>&#8221;. It says that the communications were all as a result of the Council&#8217;s conduct, and it was the &#8220;<span style="font-style:italic">prime and sole cause</span>&#8221; of these communications. It stated that the IC &#8220;<span style="font-style:italic">completely ignored the aggressive, threatening, abusive behaviour of the PA. Inter alia its attempts to destroy appellant and or its tenant and or its failure to be transparent and or accountable and or its own invitations including by the CEO that it would respond to an enquiry regarding business rates allocation and failed miserably to do so</span>&#8221;. (OB A197)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">It also commented that what the Council did was &#8220;<span style="font-style:italic">simply not reply as this case show and wilfully and or maliciously try to create as much distress and or irritation to the appellant and or its tenants including but not limited to false and malicious accusations and or threats</span>&#8221;. (OB A195)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant explains that the dispute in question concerned a claim by the Council against it for &#163;15,000 in business rates and how these should be apportioned, in relation to which the Appellant states that it &#8220;won&#8221;.(OB A198) Mr Levinson confirmed at the hearing that the dispute with the Council also involved criminal proceedings against him, which are ongoing</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC in paragraphs 23 to 25, noted the number of emails with multiple requests and follow up correspondence, as well as the length of time over which the requests were made, their volume and frequency and the amount of time the Council has spent addressing them. He concluded that the Council had provided appropriate responses and that the type of the requests demonstrates &#8220;<span style="font-style:italic">a pattern of behaviour amounting to an unreasonable level of persistence.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We found as a matter of fact that there had been a significant history of correspondence between the Appellant and the Council prior to the First Request being submitted, based on the evidence in both the main bundle and the supplemental bundle. This began in February 2023, when the Council sent a bill for business rates for the year 2023/4 to the Appellant. The Council followed this up with a letter on 4 April 2023, then obtained a summons on 30 June and a Liability Order in late July 2023. The Council attended the property on 7 November 2023, as it had been unable to contact the charge payer and emailed Mr Levinson on 14 November 2023 asking him to call to discuss the outstanding balance. Mr Levinson responded the following day saying that he did not understand the outstanding balance and there were several further emails concerning this. Mr Levinson emailed the Council asking how the business rates had been calculated on 15 November 2023. Mr Levinson stated that he sent 20 emails chasing a reply to this email from 15 November 2023 onwards, but never received a reply.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">When asked specifically about the history of correspondence with the Council in the hearing, Mr Levinson said that he made several complaints to the Council about its conduct in the following months, including complaints about the CEO and other individuals. He also made complaints to the Local Government Ombudsman (&#8220;the Ombudsman&#8221;), of which one was upheld with a symbolic award of &#163;200 for distress and frustration caused by faults in the Council&#8217;s investigation into Mr Levinson, and the rest are still ongoing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 12 June 2024, the Council emailed Mr Levinson stating <span style="font-style:italic">&#8220;In the last 11 weeks the Council has received over 40 emails from you relating to the matters we are trying to resolve. This level of correspondence, and various channels through which you are directing it, is complicating correspondence, causing a significant impact of the capacity of officers and detracting from the process of concluding the investigations</span>.&#8221; It stated that the Council had a procedure for managing vexatious customers to deal with &#8220;<span style="font-style:italic">unreasonable and unreasonably persistent citizens, where such persistence is having a significant impact on the Council and its officers</span>&#8221;. The behaviour complained of included the frequency of contact, insisting on the complaints being dealt with incompatibly with the Council&#8217;s complaints policy and making unjustified complaints about staff dealing with the issues. It required the Appellant to channel all correspondence through a Single Point of Contact (&#8220;SPOC&#8221;) for a period of two months. The Appellant responded by sending a further six emails on 12 June 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 24 June 2024, the Council emailed Mr Levinson stating &#8220;all departments have had communications reviewed and all departments have raised the significant impact.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The appendices to the letter sent by the Council to the IC on 29 April 2025 (OB414) list at page OB420-22 a further 40 emails sent by Mr Levinson to the Council between 12 June 2024 and 8 July 2024, marking an escalation in correspondence. Two days after the First Request, on 17 July 2024, Mr Levinson was issued with a restriction notice limiting the way in which he was permitted to communicate with the Council. This was in place throughout the period when the Second and Third Requests were made by the Appellant, being reviewed and renewed on 24 October 2024 for a further three-month period.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We consider that this evidence provides a clear snapshot of the state of communication between the Appellant and the Council at the time of the First and subsequent Re<marker name="tab"/>quests. While we have some sympathy with Mr Levinson&#8217;s frustration that he felt he was not getting the answers he wanted, we consider that on balance of probabilities we were satisfied this volume of correspondence in relation to the issue of business rates placed an unreasonable burden on the Council in the period running up to and including the First Request.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The motive of the requester.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant commented in the grounds of appeal that &#8220;<span style="font-style:italic">these are not disputes in the sense the ICO mean them ie unwarranted or unreasonable. They are legitimate questions posed to the PA and necessary as to its conduct in a matter of grave public importance ie its aggression and or approach to claim business rates, its procedure, its pressure, its threats and its refusal to meet or discuss or even apologise for substantive errors.&#8221;(OB p198)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">When asked specifically about what his motive was for the requests made in the First Request at the hearing, Mr Levinson explained that his motive for each numbered request was as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request 1 was made because the CEO had previously indicated that if he did not receive a reply to his request for information he could revert to her, and he did not believe that she had subsequently recommended the use of the SPOC procedure.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request 2 was trying to find the correct person with whom he could communicate about his business rates issues.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request 3 was checking whether the email address he had been using was correct, as he had not had a reply.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request 4 was trying to find out how these teams worked, as again he had not had a reply.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request 5 was because the Council had told the Appellant it did not use email but only sent things by post.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request 6 was trying to find out whether it is the admin team that determine business rates.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request 7 was because the previous responses had said there was a major impact, but did not clarify to whom this applies</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request 8 was asking why the Council had said they do not follow the CPS code of conduct.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">i.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request 9 relates to the criminal charges brought against Mr Levinson</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">j.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request 10 highlights that the person who was friendly with Mr Levinson also supported the imposition of a SPOC arrangement.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Levinson stated in the hearing that he had made the First Request to support his dispute with the Council, as he was disputing the business rates owed by the Appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Taking all this together, we concluded that the Appellant&#8217;s motive in seeking the information set out in the First Request was to obtain information to assist him in his dispute with the Council. Whilst we can understand that the Appellant was frustrated in not getting the answers which he wanted and trying to use the FOI mechanism to achieve this, when considered in the context of his course of dealings with the Council, we consider that this weighs in favour of the request being vexatious.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The value or serious purpose.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC summarises the Council&#8217;s submission at paragraph 20 of the DN as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Given that the requests, as well as the complainant&#8217;s other communications to the Council, are focused on the way the Council has handled its interactions with the complainant, the Council does not consider there to be any public interest in the requests.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant commented in the grounds of appeal that the IC had not balanced <span style="font-style:italic">&#8220;the value of the request not just to claimant but to every premise and business rates occupier in the UK that consists of multiple different occupiers. Who pays the rate.&#8221;(OB p198)</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We&#160;concluded that whilst the information sought was clearly of value to the Appellant, there was no wider public interest in the specific information sought by the First Request. The general public would not be assisted, for example, by knowing names of Council officers or the size of Council teams.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Any harassment of, or distress caused to, the public authority&#8217;s staff.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC summarises the Council&#8217;s submission at paragraph 20 of the DN as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;It is the Council&#8217;s view that these requests have caused disruption and distress to various council officers through the questions asked in the requests and the complaints made about Council officers in various teams</span>.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In its grounds of appeal at paragraph L, the Appellant states that &#8220;<span style="font-style:italic">the PA failed to give any evidence or to show of any irritation or distress&#8221;.&#160;</span>Rather it contends that the Council is trying to irritate and distress the Appellant. It comments on paragraph 19 of the DN as follows &#8220;<span style="font-style:italic">the false allegation in para 19 is used by the ICO as fact, the allegation that it is all down to a council investigation into complainant&#8217;s non payment of business rates is false, fake and an inappropriate slur on the character of claimant&#8217;s director.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The&#160;UT&#160;decision in&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>&#160;makes it clear that this element&#160;is not necessary&#160;in order for&#160;a request to be vexatious.&#160;On balance of&#160;probabilities,&#160;we consider there is insufficient evidence to&#160;demonstrate&#160;that there has been harassment of or distress to the Council&#8217;s staff.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In summary, we consider that three of the four limbs in the test&#160;in&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>&#160;are met, and that&#160;accordingly&#160;the Council&#160;was entitled to&#160;rely on the First Request being vexatious and/or manifestly unreasonable to refuse to&#160;comply with&#160;it. This means that the Council is able to rely&#160;on section 14(1) of FOIA&#160;to refuse the request on the basis it was vexatious.&#160;&#160;We therefore consider&#160;that the IC&#8217;s Third Decision Notice finding that the Council could so rely was&#160;made&#160;in accordance with&#160;the law.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold;font-family:'Segoe UI'">The Second Request (the First Appeal) &#8211; reference IC-348011-S4Z7</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The burden imposed on the public authority by the request.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">&#160;The Decision Notice at paragraphs 13 and 15 summarises the&#160;Council&#8217;s submission as to the volume of correspondence it received from the Appellant in relation to a dispute between the Appellant and the Council beginning in April 2024&#160;(this is disputed as inaccurate by the Appellant):&#160;</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;13.</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">The Council stated that between April 2024 and April 2025, the complainant sent over 300 pieces of correspondence which relate, in some way, to the dispute. Between April 2024 and 21 October 2024, they submitted 10 information requests. These requests have been answered subject to exemptions&#8230;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">15.</num>
+		  <intro>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">To demonstrate the volume of correspondence the Council provide the following information:</span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">That 40 emails were sent by the complainant to eight different officers within the Council over an 11-week period. Following this, on 12 June 2024, the Council requested the complainant to direct all their correspondence to a single email address in order that it could be properly dealt with. </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">Six responses to that request were received from the complainant on the same day and, up to the 23 June 2024, the Council received a further 21 related emails from the complainant.</span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">Between 24 June 2024 and 8 July 2024, the complainant responded to a further email from the Council 13 times. Of these emails, one had 10 attachments and another 14.&#8221;</span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Decision Notice summarises the burden on the Council, based on its submissions, at paragraphs 16 and 17. It describes that &#8220;<span style="font-style:italic">these emails are often very long and/or are difficult to understand and continue to raise points from earlier correspondence. These either relate to the dispute, are continued accusations of wrongdoing against named members of staff, or are other general complaints including those already addressed by the Council.</span>&#8221; The Council also submitted to the IC that this level of correspondence puts it under a considerable burden given the disproportionate amount of time and resources being used to manage correspondence from a single individual.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant in the grounds of appeal at paragraph 36.4.2 states <span style="font-style:italic">&#8220;There are not over 300 pieces of correspondence</span>&#8221; and that these do not accord with the numbers in the spreadsheet sent to the ICO which the Appellant obtained through an SAR. It states that &#8220;<span style="font-style:italic">they were all responses as a result of actions of the PA</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">At paragraph 36.4.11, the Appellant describes the figures set out in paragraph 15 of the DN as &#8220;<span style="font-style:italic">both inaccurate and unsubstantiated</span>&#8221;. It states at 36.4.14 that the single point of contact address provided was fake <span style="font-style:italic">&#8220;so of course an email had to be written to her</span>&#8221; about that.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">At paragraph 40 the Appellant comments on &#8220;<span style="font-style:italic">the use of fake statistics to generate an inappropriate impression and wrong on facts DN</span>&#8221; and complains that &#8220;<span style="font-style:italic">these unexamined and misleading statistics are a stain on the way the ICO claim to investigate and deal with requests especially section 14(1)&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">At paragraph 41.1.2 the Appellant states &#8220;<span style="font-style:italic">It is the council&#8217;s conduct which has resulted in the correspondence when all it had to do from the start is explain how it calculates business rates given its outrageous claim of &#163;15,000&#8230;It is submitted that despite all evidence and despite offers to meet the PA simply does not want to let go of the &#163;15,000 odd claim&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">At paragraphs 24 to 26 of the Decision Notice, the IC noted the length of time over which requests had been made, the number of requests, the frequency of other correspondence and the amount of time spent by the Council addressing various complaints and requests which have already been addressed. He expressed the view that the high volume of emails being sent by the complainant &#8220;<span style="font-style:italic">demonstrates a pattern of behaviour which shows an unreasonable level of persistence</span>.&#8221; He comments that responding to the request would be likely to generate further requests and correspondence, given the ongoing dispute and the complainant&#8217;s unhappiness with how this is being handled. He concluded in paragraph 27 that &#8220;<span style="font-style:italic">it is not appropriate for finite public resources to be further expended in this way</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">85.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In light of this, and in light in of our findings about the history and context of correspondence between the Council and Appellant above, we were satisfied on balance of probabilities that this request placed an unreasonable burden on the Council</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The motive of the requester.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">86.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Council&#8217;s position was summarised by the IC at paragraph 14 of the DN which characterised the request as &#8220;<span style="font-style:italic">an attempt to obtain information that may support the complainant&#8217;s dispute with the Council. The correspondence includes accusations about various Council officers&#8217; wrongdoing as well as questions which were unclear and never clarified.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant in the grounds of appeal states at paragraph 36.2 that &#8220;<span style="font-style:italic">the FOI request is a material request for information in order to examine </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">transparency and accountability</span><span style="font-style:italic"> in and the conduct of OCC. It is correct that OCC has been admitted at times wrong and or inappropriate regarding not a </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">dispute with OCC but an attempt by OCC</span><span style="font-style:italic"> to (as some have said perhaps fraudulent ie using false claims and instruments) unlawfully if not inappropriately try and gain monies from business ratepayers, while refusing to explain their procedure or amounts or how these are allocated or calculated.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">At paragraph 50, the Appellant says &#8220;<span style="font-style:italic">there is nothing unreasonable in trying to discover who is legally responsible for &#163;15,000 in rates which OCC claims and has still not answered&#8230;the reason it is not answered is that it&#8217;s a total fabrication for rates and OCC knows it</span>&#8221;. It adds at paragraph 50 that &#8220;<span style="font-style:italic">it is legitimate right to ask for further information and transparency on how the figure is reached and applied.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">89.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">When asked about his motive for the Second Request in the hearing, Mr Levinson explained the following:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request a was made because he considered he was getting nowhere with his attempt to get answers and wanted to try contacting the responsible person under the ECC as an independent person who might be able to help.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request b was made in the context of the Appellant&#8217;s referral to the Ombudsman in September 2024 and wanting to find the link officer with whom to liaise about that.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request c was later withdrawn by the Appellant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request d was trying to find the person to speak to to get the dispute with the Council resolved.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Request e was an attempt to find out how widely allegations about the Appellant were being circulated.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">90.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As with the First Request, we concluded overall that the Appellant&#8217;s motive in seeking the information set out in the Second Request was to obtain information to assist him in his dispute with the Council. Whilst we can understand that the Appellant was frustrated in not getting the answers which he wanted and trying to use the FOI mechanism to help him progress the dispute and his complaints, when considered in the context of his course of dealings with the Council, we consider that this weighs in favour of the request being vexatious.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;font-weight:bold">The value or serious purpose.&#160;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_91">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">91.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In paragraph 20 of the Decision Notice, the IC summarises the Council&#8217;s position in relation to the value of the request as follows:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in">&#8220;<span style="font-style:italic">the Council believes that all the above shows that there is no serious value or purpose to the request because the overall pattern of behaviour by the complainant appears not be a genuine attempt to access recorded information, but is an attempt to prolong correspondence in relation to the dispute, or to continue to keep open matters which have already been addressed.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">92.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant in the grounds of appeal states that this assessment is &#8220;<span style="font-style:italic">just nonsense and false</span>&#8221; at paragraph 41.1.5. It states &#8220;<span style="font-style:italic">It is claimant and a tenant who repeatedly asked for a meeting with OCC to sort out matters and stated same in communication which was always refused. It is OCC who wished to prolong matters (and their hand in till is the expression of business rates till) by refusing to explain how they calculate business rates and apportion it etc while upping the stakes from refusing a meeting to claims of vexatious and worse&#8230;what should have been done by any reasonable PA is explain the process of levying business rates. Instead this PA embarked on a wild and unlawful goose chase to try and get some &#163;15,000 of rates etc</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">93.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC stated in paragraph 23 of the DN that it had considered the public interest argument put forward by the complainant, that there is wide public interest in knowing if the <ref href="http://www.legislation.gov.uk/id/ukpga/2023/56" uk:canonical="2023 c. 56" uk:origin="TNA" uk:type="legislation">Economic Crime and Corporate Transparency Act 2023</ref> applies to the Council. He concluded that &#8220;<span style="font-style:italic">the request in question here, however, is not primarily concerned with the ECC, which is only mentioned in one part of the request. Compliance with this request would therefore do very little to serve any public interest in this matter</span>.&#8221; The Appellant states at ground 7 that this paragraph is &#8220;<span style="font-style:italic">confusing and self contradictory&#8230;and a support for the position of claimant&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">94.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As with the First Request, we concluded that whilst the information sought was clearly of value to the Appellant, there was no wider public interest in the specific information sought by the Second Request. The general public would not be assisted, for example, by knowing how the SPOC arrangement was operated with respect to the Appellant.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Any harassment of, or distress caused to, the public authority&#8217;s staff.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">At paragraph 19 of the Decision Notice, the IC summarises the impact on the Council&#8217;s staff submitted by the Council as &#8220;<span style="font-style:italic">It is concerned that these continued allegations [of wrongdoing] are having a negative effect on these named members of staff who are the subject of repeated accusations, stating that this has, and is continuing to cause distress and worry to those individuals.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">96.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the grounds of appeal, the Appellant at paragraph 36.4.11 refers to an internal communication at the Council dated 17 July 2024 (two days after the First Request) which he said stated &#8220;<span style="font-style:italic">I do not believe that this individual will cause any issues in your areas. However, I&#8217;m giving you the information so you are able to determine whether you need to pass this information to others in your areas.&#8221; </span>It says at 36.4.12 that this counters the allegation of negative effects on staff as the Council has admitted this will cause no issues and &#8220;<span style="font-style:italic">it also shows that the level of correspondence increase is self-inflicted and that it is the PA that is spending time in contacting people NOT appellant as claimed</span>&#8221;. When questioned about the email dated 17 July 2024 in the hearing, Mr Levinson said that he had written to all the recipients of this email because he did not want further allegations about him to be spread within the Council.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">97.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">At paragraph 41.1.4 the Appellant says &#8220;<span style="font-style:italic">At no stage did OCC state named members were being having [sic] a &#8216;negative effect&#8217;. No caution of any sort to claimant. On the contrary it seems OCC were gleefully happy with harassing claimant. And perpetuating unlawfully this harassment. Why else prolong it as they have way beyond any reasonable or lawful time.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">98.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The&#160;UT&#160;decision in&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>&#160;makes it clear that this element&#160;is not necessary&#160;in order for&#160;a request to be vexatious.&#160;On balance of&#160;probabilities,&#160;we consider there is insufficient evidence to&#160;demonstrate&#160;that there has been harassment of or distress to the Council&#8217;s staff.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">99.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In summary, we consider that three of the four limbs in the test&#160;in&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>&#160;are met, and that&#160;accordingly&#160;the Council&#160;was entitled to&#160;rely&#160;on the First Request being vexatious and/or manifestly unreasonable to refuse to&#160;comply with&#160;it. This means that the Council is able to rely&#160;on section 14(1) of FOIA&#160;to refuse the request on the basis it was vexatious.&#160;&#160;We therefore consider&#160;that the IC&#8217;s First Decision Notice finding that the Council could so rely was&#160;made&#160;in accordance with&#160;the law.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="font-weight:bold;font-family:'Segoe UI'">The Third Request (the Second Appeal) &#8211; reference IC-351219-Q2M0</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">The burden imposed on the public authority by the request.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">100.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">&#160;The IC summarised the Council&#8217;s submission as to the burden of the request at paragraphs 12 to 19. These cross-referred to the findings in the Second Decision (see above) rather than setting out the detail exhaustively. It noted at paragraph 16 that between April 2024 and November 2024, the complainant had sent eight known information requests and associated follow up correspondence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">101.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The Appellant at paragraph 71.2 of the grounds of appeal says &#8220;<span style="font-style:italic">the alleged high volume (and what is the yardstick here? The ICO does not say) such as it is self inflicted by the PA in not responding at all (as in this case) or properly and being reminded &#8211; or ordered to reply as in this case by the ICO&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">102.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">At paragraph 71.9 it states &#8220;<span style="font-style:italic">FOI requests have come about only as result of the PA refusing to disclose at all as this case shows, and then the FOI revealing that they were entirely wrong at law to go by leases and not occupation as this case shows.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">103.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">At paragraph 75(d) it says &#8220;<span style="font-style:italic">It is irrelevant the number but the content of the requests that are important. And the number may be related to the number of evasions of transparency and lack of accountability by the PA.&#8221;</span> It goes on to deny that the Council spent any or much time in requests as it avoided answering them.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">104.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The IC said at paragraph 24 of the DN &#8220;<span style="font-style:italic">From the information available to him, including examples of correspondence sent to the Council from the complainant which demonstrate frequent and repeated requests for the same or similar information, the Commissioner is of the view that the types of requests being submitted demonstrate a pattern of behaviour which shows an unreasonable level of persistence.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">105.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The IC said at paragraphs 25-26 &#8220;<span style="font-style:italic">responding to this request would likely generate further related requests and correspondence, thereby placing an extra burden on the resources of the Council&#8230;the Commissioner&#8217;s view is that it is not appropriate for finite public resources to be expended in this way.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">106.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">In light of this, and in light in of our findings about the history and context of correspondence between the Council and Appellant above, we were satisfied on balance of probabilities that this request placed an unreasonable burden on the Council</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.39in"><span style="font-style:italic;font-weight:bold">The motive of the requester.&#160;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">107.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The IC summarised the Council&#8217;s view at paragraph 16 of the DN, saying &#8220;<span style="font-style:italic">the Council is of the opinion that all these requests and follow up correspondence are being submitted in an effort to obtain information that may support the complainant&#8217;s case against the Council, rather than a genuine desire to obtain recorded information</span>.&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_108">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">108.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">He said at paragraph 18 and 19 &#8220;<span style="font-style:italic">the Council stated that, in its opinion, the complainant&#8217;s request to know the names of officers handling their FOI request and internal reviews are a tactic to obtain names of new recipients to target rather than wanting reassurance that a process has been correctly followed. The Council&#8217;s view is that no FOI response would satisfy the complainant because, in its opinion, they continue to submit multiple FOI requests and follow up correspondence linked to the same substantive matter of the dispute between them and the Council as a way of keeping the correspondence going, rather than to obtain recorded information.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">109.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">In its grounds of appeal the Appellant says at paragraph 71.3 <span style="font-style:italic">&#8220;it was necessary given the Hen&#8217;s teeth approach of the PA to information to FOI&#8217;s to obtain necessary and important information which the PA...refused to disclose until FOI&#8217;s were made&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">110.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">At paragraph 71.13 the Appellant states the &#8220;<span style="font-style:italic">FOI request is a material request for information in order to examine </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">transparency and accountability</span><span style="font-style:italic"> in and the conduct of OCC. It is correct that OCC has been admitted at times wrong and or inappropriate regarding </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">not a</span><span style="font-style:italic"/><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">dispute with OCC but an attempt by OCC</span><span style="font-style:italic"> to (as some have said perhaps fraudulent ie using false claims and instruments) unlawfully if not inappropriately try and gain monies from business ratepayers, while refusing to explain their procedure or amounts or how these are allocated or calculated.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_111">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">111.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The Appellant at paragraph 76 (b) stated, in relation to the IC&#8217;s finding of persistence that the Appellant was saying to the Council that it thought its figures were wrong and that it wanted to meet to discuss. &#8220;<span style="font-style:italic">But the PA refused and so we had to under threat &#8211; serious threats make applications to find out how the PA determines rates etc. And the PA context and history shows its aggression and cavalier attitude to the FOI and SAR laws. It appears unhappy that it was caught out with its inappropriate actions&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">112.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The IC noted the Council&#8217;s representations about the ongoing dispute and the Appellant&#8217;s unhappiness with it and considered that the requests were the manifestation of a private grievance by the Appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">113.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">When asked specifically about his motive for the Third Request in the hearing, Mr Levinson said that the Council had written back to his previous request with a generic answer which did not answer his specific question about what happens where there is more than one occupant. He asked for the name of the officer, because he said that he understood that the review should be undertaken by a different person not someone involved in the SPOC arrangement and wanted to verify this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">114.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">As with the First and Second Requests, we considered that the Appellant&#8217;s motive in seeking the information set out in the Third Request was to obtain information to assist him in his dispute with the Council. Whilst we can understand that the Appellant was frustrated in not getting the answers which he wanted and trying to use the FOI mechanism to help him progress the dispute and his complaints, and we also have sympathy with his assertion that the appeal could have been avoided had the Council provided this information at the outset, when considered in the context of his course of dealings with the Council, we consider that this weighs in favour of the request being vexatious.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;font-weight:bold">The value or serious purpose.&#160;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_115">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">115.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The Appellant referred at paragraph 73 to &#8220;<span style="font-style:italic">the value of the request not just to claimant but to every premise and business rates occupier in the UK that consists of multiple different occupiers. Who pays the rate.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">116.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">It stated at paragraph 77(d) &#8220;<span style="font-style:italic">If complainant is unhappy at unjustified rate demands, at unjustified acts of liability orders, of unjustified acts etc well so would anyone be in the UK</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">117.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The IC at paragraph 25 of the DN stated &#8220;<span style="font-style:italic">The Commissioner does not consider it to be the purpose of FOIA to facilitate private grievances except where these align with broader public interests. In this case he is satisfied that disclosing the information would serve no broader purpose</span>.&#8221; The Appellant states that this is &#8220;<span style="font-style:italic">nonsense</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">118.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Again, as with the other two requests, we need to look at the value of the specific information sought to the wider public. We concluded that whilst the information sought was clearly of value to the Appellant, there was limited wider public interest in the specific information sought by the Third Request. The general public would not be assisted, for example, by knowing the very particular information requested in this case or the name of the person dealing with the Appellant&#8217;s information requests.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;font-weight:bold">Any harassment of, or distress caused to, the public authority&#8217;s staff.&#160;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_119">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">119.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">In the grounds of appeal, the Appellant at paragraph 71.11 refers to an internal communication at the Council which it said stated &#8220;<span style="font-style:italic">I do not believe that this individual will cause any issues in your areas. However, I&#8217;m giving you the information so you are able to determine whether you need to pass this information to others in your areas.&#8221; </span>It goes on to say &#8220;<span style="font-style:italic">This shows the tactics of the PA not mentioned by the ICO ie that it involved third parties not appellant and that it raised the stakes and that there was no stress on PA persons at all but rather the creation of massive false defamatory at times remarks about appellant &#8211; all designed we submit to avoid transparency and accountability</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">120.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">As before, the&#160;UT&#160;decision in&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>&#160;makes it clear that this element&#160;is not necessary&#160;in order for&#160;a request to be vexatious.&#160;On balance of&#160;probabilities,&#160;we consider there is insufficient evidence to&#160;demonstrate&#160;that there has been harassment of or distress to the Council&#8217;s staff.&#160;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">121.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">In summary, we consider that three of the four limbs in the test&#160;in&#160;<span style="text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>&#160;are met, and that&#160;accordingly&#160;the Council&#160;was entitled to&#160;rely&#160;on the Third Request being vexatious and/or manifestly unreasonable to refuse to&#160;comply with&#160;it. This means that the Council is able to rely&#160;on section 14(1) of FOIA&#160;to refuse the request on the basis it was vexatious.&#160;&#160;We therefore consider&#160;that the IC&#8217;s Second Decision Notice finding that the Council could so rely was&#160;made&#160;in accordance with&#160;the law.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Other points raised by the Appellant</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">122.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We deal briefly with the other points raised by the Appellant either in writing or at the hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">123.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The Appellant again applied for the Council to be joined as a party to the appeal, as it considered that this would facilitate resolving the issues between them. We decided not to do so, taking into account the fact that the Council declined to participate and that joining them would, contrary to the overriding objective, result in avoidable delay to the proceedings in circumstances where the Tribunal considered it had sufficient evidence to determine the matter properly.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">124.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in"><span style="font-family:'Segoe UI'">In relation to the Appellant&#8217;s arguments that the Council failed to comply with its obligations under sections 1 and 10 of FOIA by not confirming whether the information was held or providing a response within the statutory timescale, we consider that the effect of section 14(1) is that the public authority is not required to comply with section 1 if the request is vexatious. Having found that all three requests were vexatious above, we consider that the Council was not required to comply with sections 1 or 10. There appears to be some evidence that the Council complied with its obligations under section 16 to provide advice and assistance, so we are not satisfied that there was a clear breach. We also consider that section 17(6) operates so that, having refused one request on the basis of it being vexatious, the Council is not required to provide further notice of decisions on subsequent requests it resists for the same reason.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">125.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The Appellant asserted that the IC ought to have investigated the issues further before issuing the Decision Notices. We note that the IC has a wide discretion to investigate as he sees fit, and that any challenge to how the IC investigated is a matter for judicial review, not this Tribunal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_126">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">126.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The Appellant argues that the Council was not allowed to change the basis on which it sought to refuse the request to vexatious based on the case of <span style="text-decoration-line:underline;text-decoration-style:solid">IC v Home Office</span> [2011] UKUT 17 AAC. It states that the only justifiable grounds for changing are not met by the Council. Having considered the case raised by the Appellant, the Tribunal agrees with and endorses the IC&#8217;s findings at paragraphs 28 and 29 of the DN that a public authority can apply different and/or additional exemption(s) at review stage. Different exemptions can be applied even after the case has been appealed to the Tribunal &#8211; see <span style="text-decoration-line:underline;text-decoration-style:solid">Birkett v The Department for the Environment, Food and Rural Affairs</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2011/1606" uk:canonical="[2011] EWCA Civ 1606" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] EWCA Civ 1606</ref> (21 December 2011) &#8211; so we do not consider it improper in the circumstances of this case to change the exemption relied upon at review stage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_127">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">127.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">There were allegations of bias raised against both the IC and the Council, but these were largely unparticularised so we do not consider these are made out on the material before the Tribunal. Mr Levinson accepted during the hearing that when someone appears to be incorrect or wrong, he feels he has no option but to complain.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Post-hearing evidence </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">128.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">After the decision in this case was made, but before it was promulgated, the Appellant emailed the Tribunal, copied to the IC, with three additional documents which he had received in response to a FOI request from the Council, relating to a request made before the hearing. The documents were: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">A response dated 18 March 2026 to a FOIA request about the number of disputes the Council had had with business rate payers over the past four years; </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">A response dated 18 March 2026 to a FOIA request about the number of persons pursued by the Council for fraud in relation to business rates over the past four years. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">A copy of a Decision Notice issued by the IC in a different matter dated 26 June 2012 to which he had referred in his list of cases, which he says shows that the IC did an appendix of information and knew what to do. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">129.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">In relation to the two responses to FOIA requests, the Appellant argued that this was relevant because it goes to: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">&#8220;a)</num>
+		  <intro>
+		    <p class="NumberedReasons" style="margin-left:0.79in;text-indent:0.42in"><span style="font-style:italic">the arguments of the failure of the ICO to do a proper job and analyse at all let </span><marker name="tab"/><marker name="tab"/><span style="font-style:italic">alone properly the allegations of the PA. </span></p>
+		  </intro>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">b)</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">the arguments of the PA that the amount of requests etc etc were so much that they had to refuse under 14 (1) yet here they are &#8216;behaving&#8217; and replying to the FOI&#8217;s and not trying to block them or use the section 14 14 (1) by drift etc </span></p>
+		    </content>
+		  </subparagraph>
+		  <subparagraph>
+		    <num style="font-style:italic;font-family:'Book Antiqua'">c)</num>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:1in;text-indent:0.5in"><span style="font-style:italic">it supports my argument that their use of the section 14 (1) was without merit ie if it had some merit it would apply more strongly now since this is &#8216;more&#8217; foi&#8217;s&#8221;. </span></p>
+		    </content>
+		  </subparagraph>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_130">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">130.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The Tribunal considered this information and these submissions but decided that they made no difference to its conclusions so did not change its decision.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Segoe UI'">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_131">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">131.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in"><span style="font-family:'Segoe UI'">For the reasons set out above, we are satisfied on balance of probabilities that the First, Second and Third Requests were vexatious and that the IC&#8217;s conclusion that the Council was entitled to rely on section 14(1) of FOIA to refuse to comply with them was in accordance with the law.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_132">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">132.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in"><span style="font-family:'Segoe UI'">We therefore dismiss all three appeals.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Signed: </span><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Judge Harris</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">Date: </span><docDate date="2026-03-20" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">20 March 2026</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

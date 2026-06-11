@@ -1,0 +1,156 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/579"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/579"/>
+	  <FRBRdate date="2026-04-15" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="579"/>
+	  <FRBRname value="Peter Swain v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/579"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/579"/>
+	  <FRBRdate date="2026-04-15" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/579/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/579/data.xml"/>
+	  <FRBRdate date="2026-04-16T08:05:11" name="transform"/>
+	  <FRBRdate date="2026-04-16T08:53:18" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-19" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-15" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="peter-swain" href="" showAs="Peter Swain"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="The Information Commissioner"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>579</uk:number>
+	<uk:cite>[2026] UKFTT 579 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>8536dcae23ad5a404b2b0e1c84cf81811bf0ec592a65983f88bbc6e94b913b80</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Strong { font-weight: bold; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .eop { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00579 (GRC)</neutralCitation></p>
+      <p class="Heading3" style="text-align:right"><span style="font-weight:bold;font-family:Arial"/><span class="Strong" style="font-style:normal;font-family:'Segoe UI'">Appeal Number: FT/EA/2025/0416</span></p>
+      <p><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-02-19" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">19 February 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-15" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">15 April 2026</docDate></p>
+      <p class="paragraph"><span style="font-weight:bold;font-family:'Book Antiqua'">Before&#160;</span></p>
+      <p class="paragraph"><span style="font-weight:bold;font-family:'Book Antiqua'">Judge Brian Kennedy KC&#160;</span></p>
+      <p class="paragraph"><span style="font-weight:bold;font-family:'Book Antiqua'">Specialist Member Marion Saunders&#160;</span></p>
+      <p class="paragraph"><span style="font-weight:bold;font-family:'Book Antiqua'">Specialist Member Kerry Pepperell&#160;</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Between:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#peter-swain" style="font-family:'Book Antiqua'">Peter Swain</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-information-commissioner" style="font-family:'Book Antiqua'">The Information Commissioner</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;font-family:'Book Antiqua'">Respondent</role></p>
+      <p class="Heading1" style="text-align:center"><span class="Strong" style="font-weight:bold;font-family:'Segoe UI'">DECISION NOTICE</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="paragraph"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision:</span><span style="font-family:'Book Antiqua'"> The Tribunal allows the appeal. The Commissioner's Decision Notice IC378755P4D6 dated 6 November 2025 is set aside. </span></p>
+	    <p class="paragraph"><span style="font-weight:bold;font-family:'Book Antiqua'">Substituted Decision Notice:</span><span style="font-family:'Book Antiqua'"> The Tribunal substitutes a decision that the Public Authority, in this case the Health and Safety Executive (&#8220;the HSE&#8221;) was entitled to refuse the request under section 12(1) of the Freedom of Information Act. No further steps are required of the HSE.</span></p>
+	    <p class="NormalWeb"><span style="font-weight:bold;font-family:'Book Antiqua'">.</span></p>
+	    <p class="Heading1" style="text-align:center"><span class="Strong" style="font-weight:bold;font-family:'Segoe UI'">REASONS FOR DECISION</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Introduction:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[1] This is an appeal under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/57" uk:canonical="2000 c. 36 s. 57" uk:origin="TNA" uk:type="legislation">section 57</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (FOIA). The Commissioner upheld the Health and Safety Executive&#8217;s (HSE&#8217;s) reliance on section 14(1) (vexatious request). The issue for the Tribunal is whether section 14(1) was properly engaged, or whether section 12(1) (cost of compliance) provides the correct basis for refusal.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Background:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[2] The Appellant is an occupational hygienist working in the offshore oil and gas sector. He has raised complaints with HSE since 2021 alleging bullying, harassment and discrimination in the context of regulatory interactions involving third</span><span style="font-family:'Cambria Math'">&#8209;</span><span style="font-family:'Book Antiqua'">party duty holders. The Open Bundle contains the Appellant&#8217;s correspondence and an HSE &#8216;Complaints Overview&#8217; prepared by HSE, but no underlying investigation records.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">The Request:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[3] On 1 October 2024 the Appellant made a sixteen</span><span style="font-family:'Cambria Math'">&#8209;</span><span style="font-family:'Book Antiqua'">item request. Items 1&#8211;15 were treated under FOIA; item 16 as a subject access request. Some items asked for explanations or hypothetical clarification and therefore did not obviously seek recorded information.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">The Commissioner&#8217;s Decision:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[4] In the Decision Notice IC</span><span style="font-family:'Cambria Math'">&#8209;</span><span style="font-family:'Book Antiqua'">378755</span><span style="font-family:'Cambria Math'">&#8209;</span><span style="font-family:'Book Antiqua'">P4D6 dated 6 November 2025, the Commissioner upheld HSE&#8217;s reliance on section 14(1) and recorded that section 12(1) would also be engaged on the evidence of burden. The DN also noted that parts of the request did not clearly seek recorded information.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">The Law:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[5] Section 14(1) FOIA permits refusal of a vexatious request. The leading authority, Dransfield v Information Commissioner &amp; Devon CC* <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref>, confirms that the assessment is holistic and context</span><span style="font-family:'Cambria Math'">&#8209;</span><span style="font-family:'Book Antiqua'">sensitive, considering (among other indicators) burden, motive, serious purpose/value, and any harassment or improper use of process. The focus is on the request, not the requester, and the threshold is a high one.</span></p>
+	    <p><span style="font-family:'Book Antiqua'">[</span></p>
+	    <p><span style="font-family:'Book Antiqua'">[6] Section 12(1) FOIA permits refusal where the reasonable cost of locating, retrieving and extracting the information would exceed the appropriate limit. For HSE the applicable limit equates to 18 hours (at &#163;25 per hour). Section 16 imposes a duty to provide reasonable advice and assistance.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Findings of Fact:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[7] HSE&#8217;s own submissions to the Commissioner state that answering items 8 and 11 would require manually reviewing 2,036 offshore cases covering a five</span><span style="font-family:'Cambria Math'">&#8209;</span><span style="font-family:'Book Antiqua'">year period, at an estimated total of about 716.6 hours. The requestor&#8217;s first FOI to HSE was treated as such; there is no evidence of multiple prior FOI requests to HSE. (see Section B.1, pp. B28&#8211;B33; item 8 at B29; item 11 at B30)</span></p>
+	    <p><span style="font-family:'Book Antiqua'">[8] Some items within the request were framed as accusations, requests for explanation or hypothetical scenarios rather than requests for recorded information.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[9] The Bundle contains an HSE &#8216;Complaints Overview&#8217; summarising its internal handling of earlier complaints, but no underlying Stage 1/Stage 2 investigation reports, interview notes, witness statements, HR records or similar materials. Although both parties referred to an Ombudsman complaint (with differing positions as to its status), no Ombudsman correspondence or decision was provided. Accordingly, there was no independent adjudication or contemporaneous record before the Tribunal on those matters.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Analysis: section 14(1):</span></p>
+	    <p><span style="font-family:'Book Antiqua'">[</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[10] The Commissioner&#8217;s DN indicates this was the Appellant&#8217;s first FOI request to HSE. The Tribunal accepts that burden is a recognised Dransfield indicator, but burden alone will rarely justify a finding of vexatiousness, particularly absent evidence of inappropriate motive, harassing conduct or misuse of process.</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[11] HSE invited the Tribunal to consider the history of its dealings with the Appellant and referred to complaints having been investigated or &#8216;exhausted&#8217;. However, beyond a redacted overview, no underlying complaint files or independent determinations were provided. In the absence of primary material, the Tribunal cannot place weight on assertions of a settled historic pattern of conduct by the Appellant, nor can it rely on untested characterisations of past interactions.</span></p>
+	    <p><span style="font-family:'Book Antiqua'">[</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">12] On the totality of the evidence before us, the high threshold for section 14(1) is not met. The Appellant&#8217;s concerns appear sincerely held; there is no evidential basis to find improper motive, harassment or abuse of FOIA. The reliance on past conduct is not supported by the material filed. Section 14(1) was not the correct ground of refusal.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Analysis: section 12(1) and section 16:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[13] By contrast, the evidence clearly demonstrates that complying with items 8 and 11 alone would exceed the appropriate limit by a very substantial margin. The estimate of c.716.6 hours to review 2,036 cases is unchallenged on the face of the materials and far exceeds the 18</span><span style="font-family:'Cambria Math'">&#8209;</span><span style="font-family:'Book Antiqua'">hour statutory ceiling. Once section 12(1) is engaged, no public</span><span style="font-family:'Cambria Math'">&#8209;</span><span style="font-family:'Book Antiqua'">interest test applies. (see Section B.1, pp. B28&#8211;B33; item 8 at B29; item 11 at B30)</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[14] The Tribunal also observes that HSE acknowledged, during the ICO investigation, that it could have given better advice and assistance to the requester as to how the request might be refined. On the evidence, HSE fell short of its section 16 duty. That shortcoming does not alter the operation of section 12(1) in this appeal but is noted for future compliance.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Conclusion:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">[15] The appeal is allowed. The Commissioner&#8217;s Decision Notice is set aside. The Tribunal substitutes a decision that HSE was entitled to refuse the request under section 12(1) FOIA. No further steps are required of HSE.</span></p>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Right of Appeal:</span></p>
+	    <p><span style="font-family:'Book Antiqua'">[16] Any party may apply for permission to appeal to the Upper Tribunal on a point of law within 28 days of this decision.</span></p>
+	    <p><span style="font-family:'Book Antiqua'">Brian Kennedy KC                                                                       23 February 2026.</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
