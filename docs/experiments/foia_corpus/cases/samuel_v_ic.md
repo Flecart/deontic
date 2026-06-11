@@ -2,12 +2,11 @@
 
 citation: [2026] UKFTT 528 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/528
-exemptions: s43(2)
-verified: no
+exemptions: s14(1)
+verified: yes
 
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2026_528_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+<!-- verified: labels cross-checked against reasoning paras 24–79 in cache/ukftt_grc_2026_528_reasoning.txt.
+     s14(1) upheld on motive and value factors (Dransfield); burden and harassment not found; appeal dismissed. -->
 
 ## Background
 
@@ -67,21 +66,17 @@ verified: no
 
 ## Disputed information
 
-TODO
+Statistical information held by Kisharon Noé School: (1) numbers of pupil referrals to social services broken down by academic year (September 2019 to April 2024), local authority and referral type, including referrals related to sexual or sexualised behaviour; (2) numbers of parents banned from school premises for the same periods; (3) numbers of pupils, parents or ex-parents reported to the police and outcomes of those reports; (4) annual legal fees expenditure from 2019/20; (5) annual mediation expenditure from 2019/20.
 
 ## Oracle facts
 
-Request, HoldsInfo, ConfirmOrDeny, RefusalNotice
+Request, HoldsInfo, ConfirmOrDeny, RefusalNotice, VexatiousRequest
 
 ## Gold
 
 withhold
 
-<!-- header disposition hint: appeal is (not detected) -->
-
-<!-- label-draft notes (gpt-4.1): The tribunal found (at paras 21-26) that the disputed information was held and that the authority relied on s43(2) (commercial interests). It found the exemption engaged (para 23) and that the public interest balance favoured maintaining the exemption (paras 24-26), dismissing the appeal. -->
-
 ## Gold rules
 
-engaged: s43_2_exempt
-pi: maintain
+engaged: s14_vex
+pi: na
