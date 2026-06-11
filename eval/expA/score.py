@@ -55,7 +55,7 @@ def main():
     aacc = defaultdict(lambda: [0, 0])
     peratom = defaultdict(lambda: [0, 0])
     for r in rows:
-        if not r["arm"].startswith("ground_") or not r["pred_assignment"]:
+        if not r["arm"].startswith(("ground_", "staged_")) or not r["pred_assignment"]:
             continue
         for a in GROUNDABLE:
             ok = int(r["pred_assignment"][a] == r["gold_assignment"][a])

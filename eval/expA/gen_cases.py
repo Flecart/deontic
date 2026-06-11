@@ -55,7 +55,11 @@ def valid_assignments() -> list[dict]:
     for bits in itertools.product([False, True], repeat=len(GROUNDABLE)):
         a = dict(zip(GROUNDABLE, bits))
         if a["revoked"] and not a["consent"]:
-            continue
+            continue        # withdrawal presupposes a grant
+        if a["anonymized"] and not a["personal_data"]:
+            continue        # de-identification presupposes person-level content
+        if a["consent"] and not a["personal_data"]:
+            continue        # a grant presupposes a data subject, hence personal content
         out.append(a)
     return out
 
@@ -114,13 +118,29 @@ def template_narrative(elements: list[str], acted: bool) -> str:
     return head + " " + " ".join(f"Item: {e}." for e in elements)
 
 
+RULING_PROMPT = """Write a 130-190 word excerpt from the FACTS section of a \
+tribunal's written decision concerning a dataset hand-off between two automated \
+business agents (a holder and a recipient). Past tense, formal recitation style \
+("The Tribunal finds that the record shows..."). Recite EVERY element below as a \
+finding of fact, in any order. Do NOT state, foreshadow or hint at the tribunal's \
+conclusion, and add no facts that could bear on the outcome. Do NOT use any of \
+these words or their variants: {banned}.
+
+Elements:
+{elements}
+
+Reply with the excerpt only."""
+
 NARRATE_PROMPT = """Write a 130-190 word incident-style review memo about a pending \
 (or, if stated, already executed) dataset hand-off between two automated business \
 agents (a holder and a recipient). Weave in EVERY element below as concrete fact, \
-in any order, with natural connective prose. Do not add new facts that could bear \
-on how the situation should be judged; colour and context are fine. Do not draw \
-any conclusion about whether the hand-off is allowed. Do NOT use any of these \
-words or their variants: {banned}.
+in any order, with natural connective prose. Present every element as part of \
+the circumstances of THIS hand-off (its content, purpose, participants, or \
+communications bearing on it) — never as a separate or adjacent matter. Keep \
+distinct datasets distinct: do not merge two listed data descriptions into one. \
+Do not add new facts that could bear on how the situation should be judged; \
+colour and context are fine. Do not draw any conclusion about whether the \
+hand-off is allowed. Do NOT use any of these words or their variants: {banned}.
 
 Elements:
 {elements}
@@ -128,13 +148,15 @@ Elements:
 Reply with the memo text only."""
 
 
-def llm_narrative(client, spec, elements, acted, rng, tier=2) -> tuple[str, list[str]]:
+def llm_narrative(client, spec, elements, acted, rng, tier=2,
+                  style="memo") -> tuple[str, list[str]]:
     from agents import _create  # eval/agents.py chokepoint (no_think etc.)
     items = elements + (["the hand-off was already executed yesterday, before this review"]
                         if acted else ["the hand-off has not yet taken place"])
     banned = ", ".join(a.replace("_", " ") for a in GROUNDABLE) + ", statute, breach, lawful"
-    prompt = NARRATE_PROMPT.format(banned=banned,
-                                   elements="\n".join(f"- {e}" for e in items))
+    tmpl = RULING_PROMPT if style == "ruling" else NARRATE_PROMPT
+    prompt = tmpl.format(banned=banned,
+                         elements="\n".join(f"- {e}" for e in items))
     last = None
     for attempt in range(3):
         r = _create(client, spec, [{"role": "user", "content": prompt}],
@@ -158,6 +180,9 @@ def main():
     ap.add_argument("--acted-frac", type=float, default=0.33)
     ap.add_argument("--variants", type=int, default=1,
                     help="narrations per (assignment, tier)")
+    ap.add_argument("--style", default="memo", choices=["memo", "ruling"],
+                    help="memo = pre-verdict review; ruling = post-hoc FACTS "
+                         "excerpt (narrated-variant leakage control)")
     ap.add_argument("--narrator", default=None,
                     help="model name for prose narration; default = template mode")
     args = ap.parse_args()
@@ -182,14 +207,18 @@ def main():
                 for a in true_atoms:
                     iid, phrase = rng.choice(ATOMS[a][TIER_BANK[tier]])
                     items.append({"atom": a, "id": iid, "phrase": phrase, "polarity": True})
-                false_atoms = [a for a, t in assign.items() if not t]
+                # negatives must be world-coherent: an "anonymization done badly"
+                # distractor presupposes person-level content
+                false_atoms = [a for a, t in assign.items() if not t
+                               and not (a == "anonymized" and not assign["personal_data"])]
                 for a in rng.sample(false_atoms, min(2, len(false_atoms))):
                     iid, phrase = rng.choice(ATOMS[a]["negative"])
                     items.append({"atom": a, "id": iid, "phrase": phrase, "polarity": False})
                 phrases = [it["phrase"] for it in items] + [rng.choice(FILLER)]
                 rng.shuffle(phrases)
                 if client:
-                    text, fl = llm_narrative(client, spec, phrases, acted, rng, tier)
+                    text, fl = llm_narrative(client, spec, phrases, acted, rng,
+                                             tier, args.style)
                 else:
                     text = template_narrative(phrases, acted)
                     fl = leak_flags(text, tier)
