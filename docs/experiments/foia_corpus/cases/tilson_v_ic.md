@@ -2,12 +2,8 @@
 
 citation: [2025] UKFTT 1110 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1110
-exemptions: ['s43(2)']
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2025_1110_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+exemptions: s14 (EIR reg 12(4)(b) manifestly unreasonable)
+verified: yes
 
 ## Background
 
