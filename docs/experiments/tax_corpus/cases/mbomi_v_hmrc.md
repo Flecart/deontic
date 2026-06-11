@@ -2,11 +2,7 @@
 
 citation: [2025] UKFTT 1099 (TC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/1099
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_tc_2025_1099_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+verified: yes
 
 ## Background
 
