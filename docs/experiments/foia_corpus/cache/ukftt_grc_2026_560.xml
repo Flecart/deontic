@@ -1,0 +1,908 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/560"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/560"/>
+	  <FRBRdate date="2026-04-15" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="560"/>
+	  <FRBRname value="Liam Harron v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/560"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/560"/>
+	  <FRBRdate date="2026-04-15" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/560/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/560/data.xml"/>
+	  <FRBRdate date="2026-04-15T16:01:20" name="transform"/>
+	  <FRBRdate date="2026-04-16T08:33:04" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-03-23" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-09" refersTo="#decision" source="#"/>
+	<eventRef date="2026-04-15" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>560</uk:number>
+	<uk:cite>[2026] UKFTT 560 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>ab6da9e92c8728257c54784df65fbfd2957baa9a64c0ff06b8aefb43c0c467e3</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legp1paratext { font-size: 12pt; }
+#judgment .legp2paratext { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #2F5496; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .legds { }
+#judgment .legp1no { }
+#judgment .apple-converted-space { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-family:'Book Antiqua'">[2026] UKFTT 00560 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0221</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-03-23" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">23 March 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-15" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">15 April 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE </span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MATON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER DE WAAL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER TAYLOR</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">LIAM HARRON</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">ROTHERHAM METROPOLITAN BOROUGH COUNCIL</span></p>
+      </blockContainer>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Respondent(s)</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">: </span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Appellant: in person.</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Second Respondent: Jorren Knibbe, Counsel, instructed by Anthony Collins.</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">The First Respondent did not appear and was not represented.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Allowed in part.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In this Decision the following terms have the following meanings:</p>
+	    <table class="TableGrid" uk:widths="1.77in 4.43in">
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Commissioner</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the Information Commissioner;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Council</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Rotherham Metropolitan Borough Council;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Decision Notice</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the notice dated 29 May 2025, number IC-347517-V3X1, setting out the decision of the Commissioner in this matter;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">FOIA</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Letter 1</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the Letter sent to the leader of the Council;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Letter 2</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">the Letter sent to an officer of the Council;</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Letters</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the two letters sent by the Appellant dated 18 January 2024 which are the subject of the Decision Notice;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">SRN</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">the single refusal notice issued to the Appellant by the Council dated 23 September 2021;</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">Voices</p>
+		</td>
+		<td style="border:none">
+		  <p class="NumberedReasons" style="margin-left:0.5in">a publication entitled &#8220;Voices of Despair, Voices of Hope&#8221;, compiled in part by the Appellant.</p>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">All references to a section of an Act are to FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This is an appeal against the decision of the Commissioner as set out in the Decision Notice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal received and considered a bundle of documents, a skeleton argument prepared by Mr Knibbe on behalf of the Council dated 17 March 2026 and an authorities bundle submitted with that skeleton. The Appellant and the Council attended an oral hearing by Cloud Video Platform. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On the day of the hearing, the Appellant sent to the Tribunal an email attaching: a short statement from the witness T dated 23 March 2026 in response to the Council&#8217;s skeleton argument; further copies of two documents which had been included in the open bundle for the appeal; and the decision of the Upper Tribunal in <span style="font-style:italic">Liam Harron v Rotherham Metropolitan Borough Council</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2026/48" uk:canonical="[2026] UKUT 48 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2026">[2026] UKUT 48 (AAC)</ref>, given on 16 March 2026.  To the extent that these had not previously been before the Tribunal in this appeal I consider that it is in the interests of fairness and justice that the Tribunal takes these documents into account, and it has done so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Commissioner does not routinely attend appeal hearings.  By rule 36 of the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009, a hearing can proceed in the absence of a party if the Tribunal is satisfied that the party had notice of the hearing and that it is in the interests of justice to proceed. The Tribunal is satisfied that these requirements were met in this case, and that this was a fair and just way to decide the Appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant and the Council have a long history of corresponding regarding the Council's handling of matters relating to child sexual exploitation. This has included a substantial number of FOIA requests by the Appellant, some of which have resulted in complaints to the Commissioner and appeals to the First-tier Tribunal and the Upper Tribunal.   The Council&#8217;s handling of previous requests has in some cases been criticised by the Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Within this correspondence, there is a particular history regarding Voices.  The early background to this correspondence was considered by the First-tier Tribunal in </span><span style="font-style:italic;font-family:'Book Antiqua'">Liam Harron v Information Commissioner</span><span style="font-family:'Book Antiqua'"> (FT/EA/2018/0086), and is set out in that decision at [13]-[27].  At its heart is the apparent decision by the Council not to distribute some 1500 copies of Voices, having previously indicated that it would do so.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council issued a single refusal notice to the Appellant on 16 February 2017, having received, on its evidence, six FOIA requests from the Appellant in the preceding 17 months.  That single refusal notice has since been withdrawn and replaced with further single refusal notices. The most recent of these is the SRN, which is dated 23 September 2021.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 18 January 2024, the Appellant sent the Letters. Each of the Letters contained 40 separate questions. The questions covered a range of matters relating to the Council&#8217;s handling of events relating to child sexual exploitation in its area.  Some, but not all, of the questions related expressly to Voices.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council did not respond to the Letters.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On 5 November 2024 the Commissioner approached the Council about the lack of response to the Letters.  It is unclear how the Commissioner came to be aware of this correspondence, but that is not material to this appeal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Commissioner carried out an investigation and issued the Decision Notice on 29 May 2025.  The Commissioner decided that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">the Letters, as FOIA requests, were vexatious;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">the Council was entitled to rely on the SRN to decline to respond.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant appealed to the Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Relevant law</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The relevant provisions of FOIA for the purposes of this appeal are as follows:</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_3">
+	  <num class="legds" style="font-family:'Book Antiqua';font-style:italic">1</num>
+	  <content>
+	    <p class="Heading4" style="margin-left:0.1in;text-indent:0.79in"><span class="legds" style="font-family:'Book Antiqua';color:#000000">General right of access to information held by public authorities.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(1)</num>
+	  <intro>
+	    <p class="legclearfix" style="margin-left:0.1in;text-indent:0.79in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">Any person making a request for information to a public authority is entitled&#8212;</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(a)</num>
+	    <content>
+	      <p class="legclearfix" style="text-indent:0.5in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">to be informed in writing by the public authority whether it holds information of the </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">description specified in the request, and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">(b)</num>
+	    <content>
+	      <p class="legclearfix" style="text-indent:0.5in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">if that is the case, to have that information communicated to him.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="legclearfix" style="margin-left:0.1in;text-indent:0.39in"><span class="legds" style="font-style:italic;font-family:'Book Antiqua';color:#1E1E1E">[...]</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">14 Vexatious or repeated requests</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.75in;text-indent:-0.25in">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.75in;text-indent:0.12in"><span style="font-style:italic;font-family:'Book Antiqua'">Section 1(1) does not oblige a public authority to comply with a request for information if the request is vexatious.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.1in;text-indent:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">[...]</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-style:italic;font-family:'Book Antiqua'">17</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-style:italic;font-family:'Book Antiqua'">Refusal of request</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="legclearfix" style="margin-left:0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">[&#8230;]</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_6">
+	  <num style="font-style:italic;font-family:'Book Antiqua'">(5)</num>
+	  <content>
+	    <p class="legclearfix" style="margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Book Antiqua'">A public authority which, in relation to any request for information, is relying on a claim that section 12 or 14 applies must, within the time for complying with section 1(1), give the applicant a notice stating that fact.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_7">
+	  <num style="font-style:italic;font-family:'Book Antiqua'">(6)</num>
+	  <content>
+	    <p class="legclearfix" style="margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Book Antiqua'">Subsection (5) does not apply where&#8212;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_8">
+	  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	  <intro>
+	    <p class="legclearfix" style="margin-left:0.49in;text-indent:0.3in"><span style="font-style:italic;font-family:'Book Antiqua'">the public authority is relying on a claim that section 14 applies,</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="legclearfix" style="margin-left:1.18in"><span style="font-style:italic;font-family:'Book Antiqua'">the authority has given the applicant a notice, in relation to a previous request for information, stating that it is relying on such a claim, and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+	    <content>
+	      <p class="legclearfix" style="margin-left:1.18in"><span style="font-style:italic;font-family:'Book Antiqua'">it would in all the circumstances be unreasonable to expect the authority to serve a further notice under subsection (5) in relation to the current request.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="legclearfix" style="margin-left:0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">[...]</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_81">
+	  <num style="font-style:italic;font-family:'Book Antiqua'">81</num>
+	  <content>
+	    <p class="legclearfix" style="margin-left:0.49in;text-indent:0.01in"><span style="font-style:italic;font-family:'Book Antiqua'">Interpretation</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="legclearfix" style="margin-left:0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">In <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">this Act</ref>, unless the context otherwise requires:</span></p>
+	    <p class="legclearfix" style="margin-left:0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">[...]</span></p>
+	    <p class="legclearfix" style="margin-left:0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;information&#8221; (subject to sections 51(8) and 75(2)) means information recorded in any </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">form;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">&#8220;Vexatious&#8221; is not defined in FOIA.  The leading decision on the application of the test for vexatiousness is that of the Upper Tribunal in </span><span style="font-style:italic;font-family:'Book Antiqua'">Information Commissioner v</span><span style="font-family:'Book Antiqua'"/><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield and Devon County Council </span><span style="font-family:'Book Antiqua'"><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/440" uk:canonical="[2012] UKUT 440 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 440 (AAC)</ref>, as considered by the Court of Appeal (</span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield v Information Commissioner and Devon County Council </span><span style="font-family:'Book Antiqua'"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref>).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Whether a request is vexatious is to be determined on the facts of the relevant case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In the decision of the Upper Tribunal, Judge Wikeley said at [28] that</span><span style="font-family:'Source Sans Pro';font-size:13.5pt;color:#1F1F1F;background-color:#FFFFFF">, </span><span style="font-family:'Book Antiqua'">when applying the test:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.49in"><span style="font-style:italic;font-family:'Book Antiqua'">It may be helpful to consider the question of whether a request is truly vexatious by considering four broad issues or themes &#8211; (1) the burden (on the public authority and its staff); (2) the motive (of the requester); (3) the value or serious purpose (of the request) and (4) any harassment or distress (of and to staff). However, these four considerations and the discussion that follows are not intended to be exhaustive, nor are they meant to create an alternative formulaic check-list. It is important to remember that Parliament has expressly declined to define the term &#8220;vexatious&#8221;. Thus the observations that follow should not be taken as imposing any prescriptive and all encompassing definition upon an inherently flexible concept which can take many different forms.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Giving the judgment of the Court of Appeal, Arden LJ said at [68] that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">the [Upper Tribunal] was right not to attempt to provide any comprehensive or exhaustive definition [of &#8220;vexatious&#8221;]. It would be better to allow the meaning of the phrase to be winnowed out in cases that arise. However, for my own part, in the context of&#160;FOIA, I consider that the emphasis should be on an objective standard and that the starting point is that vexatiousness primarily involves making a request which has no reasonable foundation, that is, no reasonable foundation for thinking that the information sought would be of value to the requester, or to the public or any section of the public. Parliament has chosen a strong word which therefore means that the hurdle of satisfying it is a high one, and that is consistent with the constitutional nature of the right. The decision maker should consider all the relevant circumstances in order to reach a balanced conclusion as to whether a request is vexatious. If it happens that a relevant motive can be discerned with a sufficient degree of assurance, it may be evidence from which vexatiousness can be inferred. If a requester pursues his rights against an authority out of vengeance for some other decision of its, it may be said that his actions were improperly motivated but it may also be that his request was without any reasonable foundation. But this could not be said, however vengeful the requester, if the request was aimed at the disclosure of important information which ought to be made publicly available.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant&#8217;s grounds of appeal raise three purported errors of law in the Commissioner&#8217;s decision:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">that the SRN does not apply to a number of the questions set out in the Letters;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">that the Decision Notice does not address issues arising from one particular document referred to in the Letters;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">that the Decision Notice does not address some of the questions as "completely legitimate" FOIA requests.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In submissions at the hearing, the Appellant focused not on these arguments but on his dealings with the Council, the Council&#8217;s approach to its dealings with him and his evidence about related events.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">He said that he did not want to focus on Voices because in his view this should not be the subject of the hearing.  He said that the Letters were not intended as FOIA requests, but were intended to open a conversation with the individuals to whom they were addressed; he also said they were, at the time, intended to &#8220;build a chronology&#8221; for his separate Tribunal case numbered 2023/0169.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In submissions, the Appellant said that he wished only to focus on 10 specific questions, which were those numbered 2, 9, 11, 19, 21, 26, 28, 34, 35 and 38 in Letter 1.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council&#8217;s primary case is that the Letters did not constitute FOIA requests at all.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In the alternative, the Council submits that the Letters, if they were FOIA requests, can be refused in their entirety as being vexatious.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In evidence which was not challenged by the Appellant the Council says that the Appellant has made more than 50 FOIA requests to it since September 2015.  The Tribunal has not seen comprehensive details of all of these requests, but has seen a summary provided by the Council.  This summary indicates that a number of the Appellant&#8217;s requests related directly to Voices, or to previous requests regarding Voices, while other requests did not.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Mr Knibbe made specific submissions on each of the 10 questions which the Appellant wanted to pursue at the hearing. Mr Knibbe said that the questions formed part of a campaign by the Appellant which entirely stemmed from the Council's decision not to distribute Voices. He said that the number of the questions indicated that the Appellant was &#8220;looking for dirt&#8221; or seeking to &#8220;establish blameworthiness&#8221; on the part of the Council or its members or officers.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Mr Knibbe made specific reference to the facts of the appeal in </span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield</span><span style="font-family:'Book Antiqua'">, and submitted that there were significant parallels between those facts and the facts of this case. Further, he submitted that the volume of the Appellant&#8217;s requests was of a greater order of magnitude from that in </span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield</span><span style="font-family:'Book Antiqua'">. The Appellant submitted that, over the relevant period of time, he had made less than one request every two months on average.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Turning to the themes identified by the Upper Tribunal in </span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield</span><span style="font-family:'Book Antiqua'">, Mr Knibbe submitted that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the Letters are the latest in a &#8220;torrent&#8221; of requests which have caused very significant disruption to the Council, which needs to be seen in the context of the previous course of dealings between the parties;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the Appellant&#8217;s motive is a grudge against the Council, arising from its decision regarding the distribution of Voices;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">the Letters do not have a value or serious purpose, in that they relate to the Council&#8217;s decision regarding Voices rather than seeking answers of importance to victims of child sexual exploitation;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">in their tone and nature the letters are inherently vexatious.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council submits that, if the Letters were FOIA requests, it was entitled to decline to respond having issued the SRN. The SRN states that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">This letter is a Single Refusal Notice for any future requests on subject matter that relates to the document / publication &#8216;Voices of Despair, Voices of Hope&#8217; and associated lines of enquiries </span><span style="font-family:'Book Antiqua'">[sic]</span><span style="font-style:italic;font-family:'Book Antiqua'"> that are rooted in the document / publication &#8216;Voices of Despair, Voices of Hope&#8217;. This includes, but not limited to, information held on the following: </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">The publication / document &#8216;Voices of Despair, Voices of Hope&#8217; itself</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">any operational and strategic matters regarding &#8216;Voices of Despair, Voices of Hope&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="text-align:justify;margin-left:0.39in;text-indent:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">all information held by the Council, including, but not limited to, minutes, documents, </span><marker name="tab"/><span style="font-style:italic;font-family:'Book Antiqua'">emails, call recordings, texts, relating to &#8216;Voices of Despair, Voices of Hope&#8217;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify;margin-left:0.5in"><span style="font-style:italic;font-family:'Book Antiqua'">The Council has provided all information it holds on these matters and has worked openly and honestly, over an extended period of time, to assist you in these matters.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner resists the appeal in part. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">He says that he now considers that 14 specific questions in the Letters do not constitute FOIA requests, as they are not requests for recorded information. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In a somewhat ambiguous submission regarding reliance on the SRN, the Commissioner says that 11 of the questions which he agrees are FOIA requests  &#8220;may not&#8221; relate to Voices, and that &#8220;to the extent that it is determined that some of the requests do not fall within the scope of [the SRN]&#8221;, the Decision Notice was incorrect in finding that the Council could rely on s17(6). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to these 11 questions the Commissioner reserves his position on whether they are vexatious and says that he will review this it in light of the Council&#8217;s response to the appeal.  The Tribunal has not seen any further submissions from the Commissioner on this point. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to the remaining questions, the Commissioner resists the appeal and submits that the Decision Notice was correct as to vexatiousness and reliance on s17(6).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In two previous appeals the Tribunal has found that refusals by the Council of FOIA requests by the Appellant on the basis of vexatiousness were flawed. Those cases were decided on their own facts, and this case, which relates to different requests, must be decided on its own facts as well.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In order to decide this appeal, the Tribunal must decide the following questions:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Do the Letters constitute or contain FOIA requests?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">If they do, was the Commissioner correct to decide that they were vexatious?</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">If so, was the Commissioner correct to conclude that the Council could rely on s17(6) to decline to respond?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Each of the parties has made submissions on specific numbered questions in the Letters, in support of their differing views about these questions in the context of the appeal. For the reasons set out below, the Tribunal has not conducted a question-by-question analysis treating the Letters as containing 80 separate potential FOIA requests. In the Tribunal&#8217;s view, for the reasons explained below, each Letter is to be treated as an FOIA request, although some of the questions in each of the Letters fall outside of FOIA and are therefore not &#8220;part of&#8221; a request for the purposes of FOIA, although they form parts of the same documents.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-style:italic;font-family:'Book Antiqua'">Were the Letters, or did the Letters contain, FOIA requests?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant says that he did not intend that the Letters should be FOIA requests, although he does not submit that they should not be treated as such. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council submits that it was entitled to treat each Letter as correspondence with an individual in an attempt to engage that individual in debate, and in the circumstances was not &#8220;required to trawl through&#8221; the Letters to identify FOIA requests.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal does not accept this submission. It amounts to saying that a public authority can ignore FOIA requests if they are contained within correspondence which the authority subjectively considers to be of a different context. That cannot be the case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal does agree with the Council that a number of the questions in the Letters do not fall within FOIA, as they are about opinions, beliefs or memories held by individuals.  Examples include &#8220;What is your opinion of [Voices]? (Letter 1, question 3) and &#8220;Do you agree with my assessment that up until 28 April 2015 every aspect of [the Council's] involvement with [Voices] had gone exceedingly well?&#8221; (Letter 2, question 22).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">By s84 FOIA, subject to two exceptions which are not relevant for this purpose, &#8220;information&#8221; means &#8220;information recorded in any form&#8221;.  Accordingly, to be a request falling within FOIA, a request must be for recorded information. For this reason, some of the questions do not fall within FOIA.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">Further, one of the questions (Letter 2, question 40) was a request that the Council provide certain information to the Tribunal, presumably in connection with the Appellant's separate appeal in case number</span><span style="font-family:'Book Antiqua'"> 2023/0169.  Th</span><span style="font-family:'Book Antiqua';color:#000000">is is not a request for information falling within s1.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua';color:#000000">The remaining questions in the Letters did constitute FOIA requests. They were requests which met all of the requirements in s1.  If the Council did not hold information in relation to one or more of these questions, then that is one legitimate basis on which it could have responded. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic;font-family:'Book Antiqua'">Were the requests vexatious?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant&#8217;s submissions set the Letters in the context of his overall dealings with the Council. He criticises the Council for its failure to respond properly to previous FOIA requests. More broadly he characterises its approach as &#8220;gaslighting&#8221; and abusive, and says that it is defending itself by criticising and attacking him.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council's submissions on vexatiousness focus tightly on the relevant law and in particular the decisions in </span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield </span><span style="font-family:'Book Antiqua'">and in </span><span style="font-style:italic;font-family:'Book Antiqua'">CP v Information Commissioner</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2016/0427" uk:canonical="[2016] UKUT 0427 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKUT 0427 (AAC)</ref>.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Following these authorities, which set out the established law on this question, the Tribunal has considered the &#8220;themes&#8221; referred to in </span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield</span><span style="font-family:'Book Antiqua'">, and has considered the Letters in the round in light of all the relevant circumstances.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In relation to motive, the Appellant&#8217;s concerns in this matter cannot neatly be subdivided into those which relate to Voices, those which relate to specific actions of the Council, and those which relate more broadly to his underlying concerns regarding the Council&#8217;s actions. The Tribunal does not accept that the Appellant was solely motivated by a personal grudge against the Council, or by his concerns regarding Voices, but finds that his concerns regarding its decision not to distribute Voices were part of his motivation in sending the Letters.  Some of the questions related expressly to Voices, a matter which has been covered extensively in correspondence between the parties in the past.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Regarding the value or serious purpose of the requests there is again no straightforward classification which can be applied across the questions in the Letters.  Some relate narrowly to matters regarding Voices, while others are broader. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council bases its submissions on this point on challenging whether any victim of child sexual exploitation could be interested in the subject matter of the questions. This is not the relevant test.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant, supported by T&#8217;s witness evidence, submits that the Letters have value in his campaign for transparency on the part of the Council more generally.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'"> The Council emphasises the burden on it in responding to the Letters, but provides almost no evidence to support this. When asked about this at the hearing, Mr Knibbe seemed to say that even providing such evidence would be an unreasonable burden to place on the Council.  This is disappointing, especially given that the Council has managed to put together a 14-page table itemising each of the 80 questions across the two Letters and categorising each question by reference to five classes depending on how the Council submits that each question should be treated. It ought to have been possible for the Council to give an indication of how much time it would have taken properly to respond to the Letters, but it has not done so, or seemingly tried to.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to whether the Letters are harassing or distressing, the Council points to the tone of some of the questions as being harassing in nature.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">It is not necessary, or even appropriate, for the Tribunal to decide in favour of one party or another on each of these themes separately. Rather, the Tribunal must consider the Letters as a whole, in their relevant context. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The starting point is to consider whether there is a reasonable foundation for thinking that the information sought would be of value to the Appellant, or to the public or any section of the public (per Arden LJ in </span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield </span><span style="font-family:'Book Antiqua'">at [68]</span><span style="font-style:italic;font-family:'Book Antiqua'">).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal has found that the Appellant was motivated to send the Letters in part, but not entirely, by a desire to pursue his ongoing concerns regarding the Council&#8217;s decision not to distribute Voices.  This decision was taken more than eight years before the Letters were sent, and has been the subject of a long series of FOIA requests and appeals by the Appellant since then, resulting in the issuing and reissuing of single refusal notices by the Council.  To this extent, while his concerns regarding this decision are reasonable, the continued pursuit of them in this way is disproportionate to their value.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">To the extent that the Appellant's motive was wider concerns regarding the Council&#8217;s transparency, this is entirely legitimate; but to the extent that the Letters were motivated by such concerns, their focus on the minutiae of events relating mainly to dealings between the Appellant and the Council means that they are disproportionate to their value in achieving this aim as well.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The history of correspondence between the parties is relevant (</span><span style="font-style:italic;font-family:'Book Antiqua'">Dransfield</span><span style="font-family:'Book Antiqua'">, Upper Tribunal, at [29]). The Tribunal notes the extensive correspondence sent by the Appellant to the Council on related issues over the past decade. The Appellant has pursued a long and determined campaign for transparency and accountability on the part of the Council, and a very substantial part of this campaign has related to one specific decision regarding the distribution of Voices.  The Appellant is fully aware of the single refusal notices which the Council has issued but has continued to correspond on the same issue with the Council and those who act on its behalf.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The tone and contents of the Letters are also relevant. The Tribunal does not accept the Council&#8217;s submissions that seeking to establish &#8220;blame&#8221; is necessarily to be criticised.  Rather, if a member of the public considers that public authorities might be worthy of blame, then FOIA is an important mechanism for them to seek to establish this. Nevertheless, looking at the critical tone of the Letters, in the context of previous correspondence, the Tribunal does accept that the Letters are properly seen as aggressive.  For example, Letter 2 begins with the question &#8220;Do you agree that the feedback you sent me on 15 September 2015 made no sense whatsoever?&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">For these reasons, the Tribunal concludes that the requests in the Letters were vexatious.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">As set out above, the Tribunal has not carried out a question-by-question analysis. The Tribunal considers that the Letters in their entirety, to the extent that they were FOIA requests, were vexatious in line with the guidance given by the Upper Tribunal and Court of Appeal.  The tone, content and scope of the Letters, seen in the context of the history of correspondence between the parties, renders them so.  On this basis, it is not possible or appropriate to extract individual questions from the Letters and say that these were not vexatious.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">It may be that the Appellant could have asked some of these questions in a different way, using a different format, and that these would not have been vexatious requests. But this is speculation.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-style:italic;font-family:'Book Antiqua'">Was the Council correct to rely on s17(6)?</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">On the basis that the Letters were vexatious, the Council can only rely on s17(6) to decline to respond if their subject matter falls within the scope of the SRN, such that s17(6)(b) applies, and if it would in the circumstances have been unreasonable to expect the Council to have served a further notice (s17(6)(c)).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The scope of the SRN is set out at [30] above.  It is clumsily worded, referring to &#8220;subject matter that relates to [Voices] and associated lines of enquiries [sic] that are rooted in [Voices]&#8221;.  Nevertheless, there are some questions in the Letters which clearly fall within this. Examples include &#8220;When and how, as Leader of [the Council], did you receive information about the &#8220;evaluation&#8221; that Jean Imray received on 23 July 2015 of [Voices]? (Letter 1, question 19) and &#8220;Was it agreed at the DLT Meeting on 9 March 2015, that [the Council] would order 1500 copies of [Voices] and circulate a copy to every Social Workers [sic]?&#8221; (Letter 2, question 10).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In the Council&#8217;s submission, 28 of the questions in Letter 1 and 38 of those in Letter 2 either relate expressly to or are &#8220;rooted in&#8221; Voices.  The Appellant did not make any submissions in the same terms, but it is clear that some, although not all, of the questions on which he chose to focus his appeal do relate expressly to Voices.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">As with other aspects of this appeal, it is not possible to say that every part of the Letters in their entirety either does or does not explicitly fall within the scope of the SRN.  Examples of individual questions which, if taken on their own, do not, include: &#8220;At what date after 19 October [2020] did [the Council] change the policy about members of the public asking questions at Cabinet meetings and at Council meetings?&#8221; (Letter 1, question 38) and &#8220;Can you provide an approximate number of Social Workers employed by [the Council] in March 2015?&#8221; (Letter 2, question 11).  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">However, having decided that, taken as a whole, each Letter was an FOIA request and was at least in part motivated by the Appellant's concerns regarding Voices, it follows that, in the Tribunal&#8217;s view, the Letters fell within the scope of the SRN and therefore within section 17(6)(b). </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Would it have been unreasonable in all the circumstances to expect the Council to serve a further notice in relation to the Letters?  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Again, the mixed nature of the questions in the Letters is relevant. It follows from what the Tribunal has said above that some of the questions could have been asked in isolation, unrelated to Voices.  If they had been, then they would not have fallen within the scope of the SRN.  Because of this, the Tribunal finds that, given the mixed nature of the questions in the Letters, it would not have been unreasonable to have expected the Council to give a further notice under s17(5).  On this basis the Letters do not fall within the scope of section 17(6)(c), and accordingly the Decision Notice was wrong on this point.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Conclusion and decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The matters which are of underlying concern to the Appellant, the sexual abuse and exploitation of children, are of the utmost seriousness.  The promotion of transparency and accountability regarding these matters is an important and valuable task.  The Tribunal is conscious of this in making its decision.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">This appeal is not about the Appellant&#8217;s campaign for transparency regarding the Council&#8217;s handling of child sexual exploitation. The Tribunal makes no comment on that in this decision.  This appeal is about the Commissioner&#8217;s decision regarding two specific FOIA requests made by the Appellant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal has found that the Commissioner was correct to treat the Letters as vexatious requests, but incorrect - as the Commissioner to some extent acknowledges - to decide that the Council was not required to notify the Appellant of its decision on these requests.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In the circumstances, the Tribunal does not make an order requiring further action from the Council or the Commissioner, as the Appellant has had a full response to his requests through the appeal process.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_18">
+	  <content>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Judge Maton</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-04-09" refersTo="#decision" style="font-family:'Book Antiqua'">9 April 2026</docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

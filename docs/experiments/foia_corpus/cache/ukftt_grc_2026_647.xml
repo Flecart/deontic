@@ -1,0 +1,793 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/647"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/647"/>
+	  <FRBRdate date="2026-04-30" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="647"/>
+	  <FRBRname value="Philip Meadowcroft v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/647"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/647"/>
+	  <FRBRdate date="2026-04-30" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/647/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/647/data.xml"/>
+	  <FRBRdate date="2026-04-30T14:40:29" name="transform"/>
+	  <FRBRdate date="2026-04-30T15:20:46" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-04-14" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-30" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="philip-meadowcroft" href="" showAs="PHILIP MEADOWCROFT"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="The Information commissioner"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>647</uk:number>
+	<uk:cite>[2026] UKFTT 647 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>41d99e9209e459c19e081a1909052950b080ed39f8a9451a09d60f11f2f700f5</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { margin-left: 0.58in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation2 { margin-left: 1in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation3 { margin-left: 1.25in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .EndnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .BalloonText { text-align: justify; font-size: 9pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .Default { font-family: 'Calibri, sans-serif'; font-size: 12pt; color: #000000; }
+#judgment .msonormal0 { font-size: 12pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.45in; font-size: 12pt; }
+#judgment .EndnoteTextChar { font-family: 'Book Antiqua'; }
+#judgment .EndnoteReference { vertical-align: super; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .BalloonTextChar { font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .normaltextrun { }
+#judgment .s5 { font-style: normal; font-weight: normal; font-family: QGGZBC+Calibri; font-size: 11pt; color: #000000; }
+#judgment .s7 { font-style: normal; font-weight: normal; font-family: Helvetica; font-size: 11pt; color: #000000; }
+#judgment .s1 { font-style: normal; font-weight: bold; font-family: ERFAPA+Calibri-Bold; font-size: 11pt; color: #000000; }
+#judgment .s6 { font-style: normal; font-weight: normal; font-family: QGGZBC+Calibri; font-size: 11pt; color: #000000; }
+#judgment .s2 { font-style: normal; font-weight: bold; font-family: ERFAPA+Calibri-Bold; font-size: 11pt; color: #000000; }
+#judgment .s4 { font-style: normal; font-weight: normal; font-family: Helvetica; font-size: 11pt; color: #000000; }
+#judgment .ListParagraphChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00647 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: FT/EA/2025/0447</span></p>
+      <p style="text-align:justify"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal</courtType></p>
+      <p style="text-align:justify"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="text-align:justify"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua'">Information Rights</docJurisdiction></p>
+      <p class="Style1" style="text-align:right"><span style="color:#000000">Heard by CVP</span></p>
+      <p class="Style1" style="text-align:right"><span style="color:#000000">Heard on </span><docDate date="2026-04-14" refersTo="#hearing" style="color:#000000">14 April 2026</docDate></p>
+      <p class="Style1" style="text-align:right"><span style="color:#000000">Decision given on: 30 April 20256</span></p>
+      <p class="Style4">Before</p>
+      <p class="Style5">Judge SOPHIE BUckley</p>
+      <p class="Style5">MEMBER MirIAM SCOTT</p>
+      <p class="Style5">MEMBER SUSAN WOLF</p>
+      <p class="Style4">Between</p>
+      <p class="Style4"><party as="#appellant" refersTo="#philip-meadowcroft">PHILIP MEADOWCROFT</party></p>
+      <p class="Style6"><role refersTo="#appellant">Appellant</role></p>
+      <p class="Style4">and</p>
+      <p class="Style5" style="margin-left:0.25in"><party as="#respondent" refersTo="#the-information-commissioner">The Information commissioner</party></p>
+      <p class="Style6"><role refersTo="#respondent">Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation:</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the Appellant: In person</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the Respondent: Did not appear</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is dismissed.</span></p>
+      <p><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="margin-left:-0.2in"><span style="font-weight:bold;font-family:'Book Antiqua'">Introduction </span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.49in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">This is an appeal against the Commissioner&#8217;s decision notice IC-380327-N7J1 of 10 November 2025 which held that Wokingham Borough Council (the Council) was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (FOIA).</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="margin-left:-0.2in"><span style="font-weight:bold;font-family:'Book Antiqua'">Background to the appeal </span></heading>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.49in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">Mr Meadowcroft gives the following background in his skeleton argument: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">&#8220;4.</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">The reasons for request were driven by&#160;my concern that &#8220;Disclaimed Audits&#8221;&#160;had been issued by the auditors Ernst &amp; Young for the latest three consecutive financial years 2021/2022, 2022/2023, and 2023/2024 and I wanted to know why.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#160;5.A &#8220;Disclaimed Audit&#8221; means that the auditors are unable to express any opinion on whether the financial statements in the accounts were accurate or reliable.&#160;&#160;&#160; This usually arises when records are missing or insufficient evidence is provided.&#160; This is the most serious opinion an auditor can give.&#160;&#160; It was widely known that there was a fundamental disagreement between WBC and Carter Jonas over the valuation of WBC&#8217;s large property portfolio (funded by two &#163;100m tranches) and this was a significant factor in causing the disclaimed audits.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-weight:bold;font-family:'Book Antiqua'">Request, Decision Notice, and appeal</span></p>
+	    <p style="margin-left:-0.3in"><span class="Hyperlink" style="font-style:italic;font-weight:bold;text-decoration-line:none;font-family:'Book Antiqua';color:initial">The request and the response</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">3.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Mr Meadowcroft made a request to the Council on 5 January 2025 for: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:1in"><span style="font-family:'Book Antiqua'">&#8220;All the correspondence from January 1 2023 to date between Wokingham Borough Council and Carter Jonas with regard to the valuation of Wokingham Borough Council assets.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">On 3 February 2025 the Council responded to the request and relied on sections 22, 41, 42 and 43 FOIA to withhold the information. On internal review the Council changed its position and informed the appellant on 2 April 2025 that it relied on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> FOIA (vexatious requests) to refuse the request. The Council relied on the burden of complying with the request which it estimated to be 460 hours, 40 minutes. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The Council searched for &#8216;@CarterJonas.co.uk&#8217; in the relevant time period using Microsoft Purview, which returned 5528 emails. The Council estimated that it would take 10 seconds per email to determine if the emails fell within the scope of the request. The Council was unable to determine how many emails would be filtered out. The Council estimated that it would take 3 minutes per email to consider whether any exemptions applied and a further 2 minutes to makes any redactions. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The decision notice</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In a decision notice dated 10 November 2025 the Commissioner decided that the Council was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> FOIA to refuse to comply with the request. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The Commissioner accepted that the Council would have to review a large number of emails and attachments in order to determine if it was relevant to the request. He considered that 30 seconds was a more reasonable estimate of the time it would take to review each email for relevance. He considered that the estimate of three minutes per email was a reasonable average estimate. He based his overall estimate on the assumption that 50% of the emails would fall withing the scope of the request, i.e. 2764 emails which would give a total of 138.2 hours. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The Commissioner concluded that this figure, even if it included the initial process of considering if the emails were relevant, was well in excess of the appropriate time limit allowed for under section 12 (costs exceed the appropriate limit) of the FOIA and did not include considering whether the additional estimated two minutes per email for redaction of the withheld information was reasonable. He was satisfied that the request was for a substantial volume of material. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">9.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The Commissioner accepted, given the content and nature of the information requested, there were likely to be parts of it that engaged the exemptions raised by the Council (sections 43, 42, 49 and 36). He accepted that such information was likely to be dispersed throughout the information that was in scope. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In the light of the above he concluded that complying with the request would be burdensome. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In balancing the burden of compliance against the purpose and value of the request, the Commissioner noted that a large backlog had built up in relation to local audit, which the Government had addressed by setting a statutory backstop dates for the publication of audits, with the consequence that many local bodies will receive modified or disclaimed audit opinions due to circumstances largely outside their control and which do not signify issues in their financial accounts. The Commissioner took account of a policy paper published by the Government on 27 November 2024 entitled &#8216;Addressing the local audit backlog: modified or disclaimed audit opinions&#8217;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">12.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in">The Commissioner noted that the Council informed the Commissioner that the disclaimed audits  occurred during the period of Covid and were reported in the local news. He noted that the Council had confirmed that there were regular updates to the Audit committee in relation to these matters and it had advised the complainant to refer to those documents.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Whilst it is beyond the Commissioner&#8217;s remit to make a judgement regarding the reason for the disclaimed audits in this case, he is mindful that it has affected a significant number of local authorities in England, often outside of their control.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner accepted that as a resident of the Borough, the appellant had a personal interest in the information as it related to the &#8216;disclaimed audits&#8217;.. However, he said there was no reason to indicate that this was due to the Council&#8217;s own failings. The Commissioner was also mindful that the Council had provided a small amount of information relevant to the request, and directed the appellant to the updates to its Audit committee in relation to this issue. In the Commissioner&#8217;s view therefore, the value and purpose of the request was not sufficient to outweigh the burden that compliance with the request would place on the Council.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Notice of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">15.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in">In essence, the grounds of appeal are that the Commissioner was wrong to conclude that the request was vexatious. In particular the appellant submitted: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.69in">15.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.89in">The Council had overstated the number of emails which amounted to an average of 5 emails a day. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.69in">15.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.89in">The public interest in disclosure outweighs the administrative burden. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.69in">15.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.89in">The Policy Paper referred to by the Commissioner does not have the force of law and should not have influenced the Commissioner. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The Commissioner&#8217;s response</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The Commissioner stood by his findings in the decision notice. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="margin-left:-0.25in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Mr Meadowcroft&#8217;s reply </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In his reply Mr. Meadowcroft explains that his request arose because Council officers and the council&#8217;s professional property advisers (Carter Jonas) disagreed fundamentally in the valuation of council assets in a portfolio funded by two &#163;100m tranches. He said that the failure to agree these valuations became a significant factor in the issue of Disclaimed Audits by Ernst &amp; Young for three consecutive years 21/22, 22/23, and 23/24.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In relation to burden Mr. Meadowcroft submitted that the use of Microsoft Purview could significantly reduce the amount of time officials need to assemble and prepare the data. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Mr Meadowcroft said that he had only submitted two FOI requests: a request covering a wider time period and the present refined request. He submitted that the number of requests can hardly be considered to have gone beyond the &#8216;tipping point&#8217;. He said that the present request was raised in 2025 after helpful guidance and signposting from the Commissioner following the previous 2024 request, and this does not show an obsessive and long term pursuit of creating a burden on the Council. He said that it was a single clearly focussed request. He submitted that the oppressive burden could be reduced to &#8216;mere minutes&#8217; by using Microsoft Purview. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Mr. Meadowcroft pointed out that he was not a frequent FOI requestor or a &#8216;social warrier&#8217; in the habit of sending discourteous emails as Mr. Dransfield had been described. He said that he observed due process and appropriate good manners have prevailed. He has not suggested any wrongdoing or failing by the Council. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">He said that the Commissioner has misled himself by taking the view that the Policy Paper has in effect relieved all councils in England from publicly releasing data from Disclaimed Audits of 2021/2022, 2022/23, and 2023/24 which the Minister sought to disregard. He said that the Policy Paper has not been formalised into a Statutory Instrument or an Act of Parliament and therefore does not have the force of law.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-weight:bold;font-family:'Book Antiqua'">Legal framework</span></p>
+	    <p style="margin-left:-0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">S 14(1)</ref> Vexatious requests</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">FOIA does not define what is meant by &#8216;vexatious&#8217;. It is apparent from the wording of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref> that it is the request that must be vexatious, not the Appellant. The Upper Tribunal gave guidance in&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Information Commissioner v Devon County Council and Dransfield</span>&#160;<ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/440" uk:canonical="[2012] UKUT 440 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 440 (AAC)</ref>, as upheld and clarified by the Court of Appeal in&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dransfield v Information Commissioner and Devon County Council</span><span style="font-style:italic;font-weight:bold"/><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref>. As noted by Arden LJ in the Court of Appeal<span style="font-style:italic">,</span>&#160;the hurdle of showing a request is vexatious is a high one:&#160;</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;&#8230;the starting point is that vexatiousness primarily involves making a request which has no reasonable foundation, that is, no reasonable foundation for thinking that the information sought would be of value to the requester, or to the public or any section of the public. Parliament has chosen a strong word which therefore means that the hurdle of satisfying it is a high one, and that is consistent with the constitutional nature of the right. The decision maker should consider all the relevant circumstances in order to reach a balanced conclusion as to whether a request is vexatious&#8221; [68].</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Nothing in the above paragraph is inconsistent with the Upper Tribunal&#8217;s decision which similarly emphasised (a) the need to ensure a holistic approach was taken and (b) that the value of the request was an important but not the only factor.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The lack of a reasonable foundation to a request is only the starting point to an analysis which must consider all the relevant circumstances. Public interest cannot act as a &#8216;trump card&#8217;. Rather, the public interest in the subject matter of a request is a consideration that itself needs to be balanced against the resource implications of the request, and any other relevant factors, in a holistic determination of whether a request is vexatious. (see <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">CP v Information Commissioner </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2016/427" uk:canonical="[2016] UKUT 427 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKUT 427 (AAC)</ref>).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The Upper Tribunal&#8217;s decision in&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dransfield </span>provides more detailed guidance that was not challenged in the Court of Appeal. The ultimate question is, &#8220;is the request vexatious in the sense of being a manifestly unjustified, inappropriate or improper use of FOIA?&#8221; [43]. In the context of reviewing the Commissioner&#8217;s Guidance, the Upper Tribunal highlighted &#8220;the importance of adopting a holistic and broad approach to the determination of whether a request is vexatious or not, emphasising the attributes of manifest unreasonableness, irresponsibility and, especially where there is a previous course of dealings, the lack of proportionality that typically characterise vexatious requests&#8221; [45]. Arden LJ in the Court of Appeal also emphasised that a &#8220;rounded approach&#8221; is required [69].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Overall, the purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> is to &#8220;protect the resources (in the broadest sense of that word) of the public authority from being squandered on disproportionate use of FOIA&#8221; (Upper Tribunal at [10]).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Craven v ICO &amp; Department for Energy and Climate Change <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref></span><span style="font-style:italic;font-weight:bold"/>the Court of Appeal accepted &#8220;there is no warrant for reading <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> FOIA as subject to some express or implied qualification that a request cannot be vexatious in part because of, or solely because of, the costs of complying with the current request.&#8221;[85].</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">This has subsequently been confirmed in&#160;<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Cabinet Office v Information Commissioner and Ashton</span><span style="font-style:italic;font-weight:bold"/><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/208" uk:canonical="[2018] UKUT 208 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 208 (AAC)</ref>, in which the Upper Tribunal stated, having considered the relevant case law:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-style:italic">&#8220;</span><span style="font-family:'Book Antiqua'">The law is thus absolutely clear. The application of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> of FOIA requires a holistic assessment of all the circumstances. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">Section 14</ref> may be invoked on the grounds of resources alone to show that a request is vexatious. A substantial public interest underlying the request for information does not necessarily trump a resources argument. As Mr Armitage put it in the Commissioner&#8217;s written response to the appeal (at &#167;18)</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Book Antiqua'">&#8226; In deciding whether a request is vexatious within the meaning of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14/1" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14(1)</ref>, the public authority must consider all the relevant circumstances in order to reach a balanced conclusion as to whether a request is vexatious.&#160;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Book Antiqua'">&#8226; The burden which compliance with the request will impose on the resources of a public authority is a relevant consideration in such an assessment.&#160;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in"><span style="font-family:'Book Antiqua'">&#8226; In some cases, the burden of complying with the request will be sufficient, in itself, to justify characterising that request as vexatious, and such a conclusion is not precluded if there is a clear public interest in the information requested. Rather, the public interest in the subject matter of a request is a consideration that itself needs to be balanced against the resource implications of the request, and any other relevant factors, in a holistic determination of whether a request is vexatious.&#8221; [27]</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The role of the tribunal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The tribunal&#8217;s remit is governed by section 58 FOIA. This requires the tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved exercising discretion, whether he should have exercised it differently. The tribunal may receive <span style="font-family:Arial">evidence that was not before the Commissioner and may make different findings of fact from the Commissioner.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-weight:bold;font-family:'Book Antiqua'">Evidence and submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">We had before us and took account of where relevant an open and a closed bundle. It is necessary to withhold the closed bundle to avoid defeating the purpose of the proceedings. We heard oral submissions from Mr. Meadowcroft and read a skeleton argument. We were also referred to a report from the audit committee.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">In his skeleton argument Mr. Meadowcroft sets out the rationale for his request, as set out in &#8216;background to the appeal&#8217; above. He was asked by the panel in the hearing whether there was anything in the bundle that supported his assertion that it was &#8216;widely known&#8217; that </span>there was a fundamental disagreement between the Council and Carter Jonas over the valuation of the Council&#8217;s large property portfolio (funded by two &#163;100m tranches) and this was a significant factor in causing the disclaimed audits. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In response he said that there was nothing in the bundle, but he read a section out from the Wokingham Borough Council Audit Update January 2024, prepared by Ernst and Young. The appellant was permitted to rely on this extract on the basis that the tribunal would read the full update, which was available on the Council&#8217;s website. We located that document and took it into account.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">The extract that the appellant read out was as follows: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">&#8220;We had good engagement from officers in responding to the audit queries and samples being raised. As a result our audit work is well progressed with 82% of the work completed and in review. However, we have not been able to complete the audit in this time period mainly due to two key factors:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:Arial">1.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:Arial">Lack of valuation information requested and required to complete our procedures within the areas of Other Land and Buildings and Investment Properties, despite ongoing discussions with the valuers and the Estates team throughout October to December. We had requested the information by 4 December, as we had appropriately experienced team members allocated to complete that work. We received some information to support the fieldwork on 18 December which, on review, is incomplete. The majority of the outstanding information is providing evidence to support the valuers&#8217; judgements. This is a subjective area and can be difficult and complex to provide evidence for and is further complicated as the key valuer at Carter Jonas has left.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Arial">2.</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:Arial">Several areas of the audit (seven from a total of 30 areas of audit ) where we were unable to obtain all of the evidence to complete our testing in the December period.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">We have included a table in the appendix to this paper setting out the areas of the audit and progress to date. Until the audit is complete, we continue to challenge audit evidence and note that further matters may arise that may affect the form and nature of our audit opinion.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">We have explained to officers that, as a result, we have been unable to complete the fieldwork within the time and resources planned and are now in a position where there is no further resource available to complete the audit, due to our prioritisation of work on the prior page.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"> The panel pointed out that the extract did not mention any &#8216;fundamental disagreement&#8221; between Carter Jonas and the Council. His reply was that he had been told this by the leader of the Council. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Mr Meadowcroft was asked, given that it was public knowledge that there had been a disagreement between Carter Jonas and the Council on valuations and that this had contributed, in part to the disclaimed audits, what was the value in disclosing the correspondence in which that disagreement took place. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">His reply was that the value of the correspondence was in &#8220;seeing how we got to a position&#8221; where one party says an asset is worth one amount and one party says it is worth another amount. He said that there had been considerable spending by Councils on significant assets in times of low interest rates, which had decreased in value since Covid. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">Mr. Meadowcroft submitted that in presenting its evidence to the Commissioner, the Council had been &#8220;</span><span style="font-family:Arial;color:#000000">exceptionally disingenuous by applying the concept of asset valuation (only as far as I can see due to the heavy redactions of complete pages  by the Information Commissioner) to relatively minor issues (one of which dates from 2022 prior to the start date in my request) rather than to the major property investment asset valuations which&#160;are believed to be responsible, in part, for the disclaimed audit opinions.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">He said that he was only interested in &#8216;big ticket&#8217; items. When asked if he had thought about asking only for correspondence related to valuation of assets above a certain value or had had any discussions about potentially narrowing the request down, he said that he had not. He was asked what he meant by &#8216;big ticket&#8217; items and he said in the hearing that he was interested in assets above &#163;10 million, although he revised this following the hearing to assets above &#163;610,000.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">When asked why he had not made a narrower request he said that he had been afraid that he would miss something and that he wanted to &#8216;go on a fishing expedition&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">He submitted that the public has a right to know what has happened to their council tax money. He reiterated that the policy paper relied on by the Commissioner had, in his view, no relevance to the request. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">He was asked to explain how Microsoft Purview would be able to reduce the burden of the request. He was not able to do so, other than asserting that the search would be able to &#8216;go further&#8217;. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="margin-left:-0.2in"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion and conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Kennedy v Charity Commission</span> <ref href="#" uk:canonical="[2014] 2 WLR 808" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] 2 WLR 808</ref>, Lord Sumption, with whom Lord Neuberger and Lord Clarke agreed, said as follows, at para 153: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.98in"><span style="font-weight:bold">&#8220;</span>The <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> &#8230; introduced a new regime governing the disclosure of information held by public authorities. It created a <span style="font-style:italic">prima facie</span> right to the disclosure of all such information, save in so far as that right was qualified by the terms of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> or the information in question was exempt.  The qualifications and exemptions embody a careful balance between the public interest considerations militating for and against disclosure. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">The Act</ref> contains an administrative framework for striking that balance in cases where it is not determined by <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">the Act</ref> itself. The whole scheme operates under judicial supervision, through a system of statutory appeals.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">It is important to remind ourselves of those observations.  FOIA creates a prima facie<span style="font-style:italic"/>right to disclosure of information held by public authorities, save in so far as that right is qualified by the terms of FOIA or the information in question is exempt. Further, we remind ourselves that the qualifications and exemptions embody a careful balance between the public interest considerations militating for and against disclosure. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The purpose of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> is &#8220;to protect the resources (in the broadest sense of that word) of the authority from being squandered on disproportionate use of FOIA.&#8221; (UT, <span style="font-style:italic">Dransfield, </span>para 10). In order to achieve this purpose, as the Court of Appeal noted (CA, <span style="font-style:italic">Dransfield, </span>para 68),<span style="font-style:italic"/>Parliament has chosen to use a strong word, and therefore the hurdle of satisfying it is high. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Burden</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">This is a wide ranging request. It asks for all correspondence in a 25 month period between the Council and Carter Jonas with regard to the valuation of Wokingham Borough Council assets. Although Mr. Meadowcroft&#8217;s interest was related to the disclaimed audits and therefore in &#8216;big ticket&#8217; assets, his request plainly includes all correspondence relating to the valuation of all Council assets. The Council therefore cannot be criticised for including correspondence on the valuation of small assets, because they are within the scope of the request. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Although Mr. Meadowcroft said in oral submissions that there had been no communication with the Council about narrowing the request, the Council wrote to him on 5 March 2025, before relying on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref> as follows: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;I appreciate that you have already narrowed down your request from the one submitted last year which contained a request that was similar in nature. From conversations that I have already have, the service has indicated that there may be a lot of information held within the remit of your request. Are there any particulars or speci&#64257;cs that you are specifics seeking within the communications, so that when I meet with the service again, if there is a large amount of information, I can help to focus and target the more priority information that you are seeking?&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">There is no response from Mr. Meadowcroft included in the bundle and therefore the Council was obliged to provide all the information in the scope of the widely drawn request. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">We have considered whether the public authority&#8217;s estimate of the burden of complying with the request is reasonable. Although Mr. Meadowcroft submits that the relevant emails could be identified within minutes using Microsoft Purview, he was unable to explain that assertion at the hearing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">However, the tribunal takes the view that it is highly unlikely that &#8216;@carterjonas.co.uk&#8217; is the most focussed search that could be carried out using Microsoft Purview. For example, the tribunal considers that the Council could have searched for emails containing valuation specific keywords such as &#8220;valuation OR valued OR assets OR property&#8221; for example.  The tribunal takes the view that this would have produced significantly fewer results. This would reduce significantly the time that would be needed for the initial filter of 10 seconds per email, using the Council&#8217;s estimate. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">We note that the two lead officers involved in the audit together sent approximately 1500 emails in the relevant period. We consider that this is a useful guide to a conservative estimate of the number of emails that might be produced by a more focussed search. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Assuming that the initial search produced approximately 1500 emails, we accept that those emails would need to be reviewed in order to determine if they were in scope. We accept that 10 seconds per email (the Council&#8217;s estimate) is a reasonable estimate, which amounts to approximately 4 hours 10 minutes for the initial filter. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Of those emails, again taking a conservative approach, we assume that approximately 50% of those emails would be in scope. That leaves approximately  750 emails. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Given the nature of the information requested, we accept that there is likely to be material that will need to be reviewed in order to determine whether it is exempt under at least sections 44 and 40(2). Whilst some of the emails will be short and will not require reviewing for the application of exemptions, some contain attachments which will take a significant amount of time in excess of three minutes to review. Overall, we accept that three minutes per email is a reasonable average amount. 750 emails would take 37.5 hours to review. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Taking this conservative approach, and assuming that a more focussed search would produce significantly fewer results, the Council would still need to spend in excess of 41 hours responding to the request. In the context of the pressure on a Council&#8217;s resources, spending in excess of 41 hours responding to an information request represents an extremely significant burden on the Council. Spending an extra two minutes per email to make to redactions would take another 25 hours. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">On that basis, although the Council could have carried out a more focussed search, we find that the burden would have remained extremely significant because of the breadth of the request. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Whilst the section 12 limit does not apply, it provides a useful comparison, because it indicates the maximum amount of time that parliament considered it appropriate to spend on the matters included in that section, however high the public interest in the requested information. The tribunal notes that 42 hours is over three times the section 12 limit, and with redaction time added in it is over five times the appropriate limit. As a cross check, this confirms our view that this is an extremely significant burden. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Harassment and distress/motive</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">There is no suggestion in this case that there is any harassment or distress caused by the request and Mr. Meadowcroft has conducted himself in polite and appropriate manner throughout. There is also no suggestion of an inappropriate motive. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="margin-left:-0.25in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Value or public interest</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Weighed against the extremely significant burden on the Council in answering the request is the value of the request or the public interest in the requested information. We accept that there is a public interest in transparency and a particular public interest in transparency in relation to the spending of public money. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">We are not persuaded that there is any real public interest in disclosure of the correspondence for the purposes of transparency in relation the reasons for the disclaimed audit. There is a clear explanation in the Audit Update to the Council for why there were two disclaimed audits. The Audit Update by Ernst and Young begins by setting out the national context: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;We have reported proposed changes to the financial and audit reporting timetables being developed by the Department of Levelling Up, Housing and Communities (DLUHC) at previous meetings, namely that audits up to the 2022/23 financial year would need to be concluded - where practicable to do so - by a backstop date of 31 March 2024. If not deemed practically possible, auditors would be required to issue a modified audit report. Most modifications would be to disclaim audits under Ministerial Direction.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">We now understand the Government&#8217;s intention is to move the backstop date from 31 March 2024 to 30 September 2024 to ensure there is sufficient time to complete the necessary consultation, enact the required legislation and for auditors to work through the issuance of modified opinions.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">The FRC reported in December 2023 that 411 local government body audits were not completed by the publishing date of 30 November 2022. They also reported that the backlog of earlier audits was also concerning, with 220 audits from earlier years incomplete at the same date. That meant a total of over 630 audits were not complete at the publishing date. That number had risen to 918 outstanding audits by the end of September 2023. Only 1% of 202 2/23 audits were delivered by 30 September 2023. Based on our knowledge of the local government sector, we anticipate that approximately 20% of 2021/22 and earlier local government and approximately 50% of local government 2022/23 audits may be disclaimed under Ministerial Direction.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Ernst and Young then set out their response: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;As set out in the letter from Stephen Reid, Partner, UK Head of Public Sector Audit dated 6 December 2023, EY is currently focusing its capacity on:</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8226; Maximising the completion of historic audits &#8211; working to close open audits where audit work is substantially complete and with a high likelihood of issuing an opinion in a short period of time. The Wokingham BC audit was included in this category pre Christmas, however as explained above, we have not received adequate information to be able to complete the audit within the resources allocated at that time and given the position regarding the IAS 19 assurances, we do not anticipate being able to conclude the audit prior to the backstop date.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8226; Planning for 2023/24 audits &#8211; Where capacity allows, we will seek to commence planning for 2023/24; focusing on the most recent set of financial statements and supporting the reset for those audits we retain under the new PSAA contract to report on a timely basis.</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:left;margin-left:0.25in">Ernst and Young then explain the implications for the 2021/22 financial statements and the 2022/2023 audits: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:left;margin-left:0.79in"><span style="font-weight:bold">&#8220;Implications for the audit of the 2021/22 financial statements</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:left;margin-left:0.79in">The implication is that we are likely to issue a disclaimed audit opinion under the proposed changes in regulations, as communicated by the Minister for Local Government, Simon Hoare, in his letter of 9 January 2024 to the Select Committee of the Department for Levelling Up, Housing and Communities. We understand that the Department expects to issue a consultation in February that will set out the basis on which the disclaimer would be given, namely that the audit could not be completed before the backstop date.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:left;margin-left:0.79in"><span style="font-weight:bold">Implications for the 2022/2023 audit</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">As set out in our letter dated 6 December 2023, mentioned above, we are prioritising our limited resources to progress audits where there is a high likelihood of issuing an opinion in a short period of time (early 2024).</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">As there are no anticipated changes to value for money reporting requirements, auditors&#8217; exception reporting responsibilities and statutory powers for 2022/23, we will focus on the completion of our value for money reporting for 2022/23. We are likely to issue a disclaimed audit opinion for t he 2022/23 financial statements.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">The value for money work usually leverages certain elements of our audit of the financial statements &#8211; as this is unable to go ahead at this time, we will need to perform certain aspects that would traditionally have been performed during the financial statements audit, such as agreeing the financial statements to the trial balance, completing the disclosure checklist and our cash and cash equivalents work (this is not an exhaustive list). In the context of the reset of the local government sector, these additional procedures aim to provide some additional assurance to members.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:left;margin-left:0.79in">We currently anticipate working to conclude the value for money work, with interim reporting to the Audit Committee by the end of April.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:left;margin-left:0.25in">The update continues with a section specifically on the status of the 2021/22 audit which includes the section read out by the appellant during the hearing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">63.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:left;margin-left:0.25in">The tribunal&#8217;s view is that this public document provides detailed information about the reasons why the audits have been disclaimed and the role of both the national context and the outstanding valuation evidence and the reasons why that evidence is outstanding. This is just one public audit document and there will be others, including audit committee minutes, other audit updates and annual reports of the auditors. The fact that the leader of the Council had informed Mr. Meadowcroft that there had been a dispute between Carter Jonas and the Council in relation to the valuation of assets does not, in our view, materially add to the value of disclosure of this correspondence for the purposes of transparency in relation to the disclaimed audits. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">64.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:left;margin-left:0.25in">Mr. Meadowcroft was unable to explain to us what the disclosure of the correspondence would add to transparency in relation to the disclaimed audits. When asked, he made reference instead to an unrelated issue. He referred to the fact that there had been considerable spending by Councils on significant assets in times of low interest rates, which had decreased in value since Covid, and said that the correspondence would show &#8216;how we had got to a position&#8217; where there is a disagreement about the value of assets. Whilst there is, as we acknowledge above, a general public interest in transparency in relation how public money is spent, we are not persuaded that the disclosure of correspondence in which there is a disagreement about the valuation of council assets will be of particular value in increasing public understanding on this issue. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">65.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:left;margin-left:0.25in">Overall whilst we accept that there is some value in disclosure of the requested correspondence, looked at holistically and taking into account the extremely significant burden on the Council&#8217;s limited resources, we conclude that this request is a manifestly disproportionate and unjustified use of FOIA. The Council was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/14" uk:canonical="2000 c. 36 s. 14" uk:origin="TNA" uk:type="legislation">section 14</ref>. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Sophie Buckley</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-04-30" refersTo="#decision" style="font-family:'Book Antiqua'">30 April 2026</docDate></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
