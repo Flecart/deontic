@@ -1,0 +1,898 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/984"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/984"/>
+	  <FRBRdate date="2025-08-14" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="984"/>
+	  <FRBRname value="Garett Hargan v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/984"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/984"/>
+	  <FRBRdate date="2025-08-14" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/984/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/984/data.xml"/>
+	  <FRBRdate date="2025-08-14T07:42:11" name="transform"/>
+	  <FRBRdate date="2025-08-14T08:32:05" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-08-13" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="garett-hargan" href="" showAs="GARETT HARGAN"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>984</uk:number>
+	<uk:cite>[2025] UKFTT 984 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>a5cb870f9b85f0ab464e3f6bbbc10be53eb92001997fabd9b96745f6116eb5f7</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { margin-left: 0.08in; font-weight: bold; font-family: Arial; font-size: 11pt; }
+#judgment .Heading2 { margin-left: 0.08in; font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 14pt; }
+#judgment .Heading3 { margin-left: 0.21in; font-weight: bold; font-family: Cambria; font-size: 11pt; }
+#judgment .Heading4 { margin-left: 0.57in; font-style: italic; font-weight: bold; font-family: Cambria; font-size: 11pt; }
+#judgment .Heading5 { font-size: 12pt; color: #2F5496; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .bodytexttax1 { font-size: 12pt; }
+#judgment .BodyText { margin-left: 0.33in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .TableParagraph { font-size: 11pt; }
+#judgment .ParaLevel1 { text-align: justify; margin-left: 0.5in; font-size: 12pt; }
+#judgment .ParaLevel2 { text-align: justify; margin-left: 0.98in; font-size: 12pt; }
+#judgment .ParaLevel3 { text-align: justify; margin-left: 1.48in; font-size: 12pt; }
+#judgment .ParaLevel4 { text-align: justify; margin-left: 1.97in; font-size: 12pt; }
+#judgment .ParaLevel5 { text-align: justify; margin-left: 2.46in; font-size: 12pt; }
+#judgment .ParaLevel6 { text-align: justify; margin-left: 2.95in; font-size: 12pt; }
+#judgment .ParaLevel7 { text-align: justify; margin-left: 3.45in; font-size: 12pt; }
+#judgment .ParaLevel8 { text-align: justify; margin-left: 3.94in; font-size: 12pt; }
+#judgment .ParaLevel9 { text-align: justify; margin-left: 4.43in; font-size: 12pt; }
+#judgment .PlainText { font-family: Consolas; font-size: 10.5pt; }
+#judgment .leglisttextstandard { font-size: 12pt; }
+#judgment .Default { font-family: Arial; font-size: 12pt; color: #000000; }
+#judgment .FootnoteText { font-size: 10pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .legp2paratext { font-size: 12pt; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .Numbered { text-align: justify; font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .Bulletpoint { text-align: justify; margin-left: 0.39in; font-family: 'Century Schoolbook'; font-size: 12pt; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .Draftingnumberedparas { text-align: justify; margin-left: 0.49in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .legds { }
+#judgment .FootnoteReference { text-transform: none; font-variant: normal; vertical-align: super; color: initial; }
+#judgment .BodyTextChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: Arial; font-size: 11pt; }
+#judgment .Heading2Char { font-weight: bold; font-family: 'Calibri, sans-serif'; font-size: 14pt; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .PlainTextChar { font-family: Consolas; font-size: 10.5pt; }
+#judgment .Heading3Char { font-weight: bold; font-family: Cambria; font-size: 11pt; }
+#judgment .Heading4Char { font-style: italic; font-weight: bold; font-family: Cambria; font-size: 11pt; }
+#judgment .HeaderChar { font-size: 12pt; }
+#judgment .FooterChar { font-size: 12pt; }
+#judgment .legsubstitution { }
+#judgment .legchangedelimiter { }
+#judgment .legaddition { }
+#judgment .Strong { font-weight: bold; }
+#judgment .legp1no { }
+#judgment .FootnoteTextChar { }
+#judgment .UnresolvedMention1 { color: #605E5C; background-color: initial; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .Heading5Char { font-size: 12pt; color: #2F5496; }
+#judgment .judgment-bodynumber { }
+#judgment .judgment-bodycopy-link-tooltip { }
+#judgment .visually-hidden { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:95.55pt;height:61.6pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua'">[2025] UKFTT 00984 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2024/0320</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">General Regulatory Chamber</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua'">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decided without a hearing</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: 14 Aug. 25</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE STEPHEN ROPER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER KATE GRIMLEY-EVANS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER STEPHEN SHAW</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#garett-hargan" style="font-weight:bold;font-family:'Book Antiqua'">GARETT HARGAN</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner"><span style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION </span><span style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">COMMISSIONER</span></party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondent</role></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Preliminary matters</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua'">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">In this </span><span style="font-family:'Book Antiqua'">decision</span><span style="font-family:'Book Antiqua';color:#000000">, we use the following terms to denote the meanings shown:</span></p>
+	      <table class="TableGrid" uk:widths="1.97in 4.33in">
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Appellant:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">Garett Hargan.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Authority:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">The Police Service of Northern Ireland.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Commissioner:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The Information Commissioner (the Respondent).</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Decision Notice:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The Decision Notice of the Commissioner dated 25 July 2024, reference </span><span style="font-family:'Book Antiqua'">IC-291290-P0C9</span><span style="font-family:'Book Antiqua';color:#000000">, relating to the Request.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Duty to Inform:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The&#160;duty of a public authority to confirm whether or not it holds information which is requested, pursuant to section 1(1)(a) (set out in paragraph 21).</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">FOIA:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The </span><span style="font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Public Interest Test:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The test as to whether, in all the circumstances of the case, the&#160;public&#160;interest in maintaining the exclusion of the Duty to Inform outweighs the public interest in disclosing whether the public authority holds the information, pursuant to section 2(1)(b) (set out in paragraph 24).</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Request:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The request for information made to the Authority by the Appellant dated 14 December 2023, as set out in paragraph 6.</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">Requested Information:</span></p>
+		  </td>
+		  <td style="border:none">
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-family:'Book Antiqua';color:#000000">The information which was requested by way of the Request.</span></p>
+		  </td>
+		</tr>
+	      </table>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua'">2.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Unless the context otherwise requires (or as otherwise expressly stated), references in this </span><span style="font-family:'Book Antiqua';color:#000000">decision</span><span style="font-family:'Book Antiqua'">:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">to numbered paragraphs are references to paragraphs of this decision so numbered;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">to any section are references to the applicable section of FOIA;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">to the Commissioner&#8217;s &#8220;investigation&#8221; mean the Commissioner&#8217;s investigation, for the purposes of section 50, of the Appellant&#8217;s complaint relating to the Authority&#8217;s response to the Request.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua'">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Nothing we say in this decision should be taken as an indication as to whether or not any of the Requested Information is held by the Authority.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Introduction</span></heading>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua'">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">This was an appeal against the Decision Notice, which (in summary) decided that the Authority could rely on section 23(5) and section 24(2) to refuse to confirm or deny whether it held the Requested Information.  The Decision Notice did not require the Authority to take any steps.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Background to the Appeal</span></heading>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua'">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The background to the appeal is as follows.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The Request</span></heading>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua'">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">On </span><span style="font-family:'Book Antiqua';color:#000000">14 December 2023</span><authorialNote class="footnote" marker="1">
+		  <p class="FootnoteText"><span style="font-family:'Book Antiqua'"> The Decision Notice erroneously recorded this as </span><span style="font-family:'Book Antiqua';color:#000000">14 December 2024.</span></p>
+		</authorialNote><span style="font-family:'Book Antiqua';color:#000000">,</span><span style="font-family:'Book Antiqua'"> the Appellant contacted the Authority and requested information in the following terms:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">Can the PSNI confirm if its officers/leadership has ever visited Israel for training or</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">vice versa with Israeli officers and/or IDF personnel and/or government officials</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">visiting Northern Ireland to train and/or share knowledge and/or share intelligence?</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">Has the PSNI has [sic] shared knowledge/intelligence with Israel's police service, the IDF</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">or the government of Israel over the past 10 years?</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">If so, can you share any information about the nature of these interactions?</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua'">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Authority responded on 8 February 2024, after contacting the Appellant on 17 January 2024 stating that it needed to extend the timescale for a response pursuant to section 10(3).  It</span><span style="font-family:'Book Antiqua';color:#343338;background-color:#FFFFFF"/><span style="font-family:'Book Antiqua'">refused to confirm or deny whether it held the Requested Information, citing section 23(5) (information supplied by, or relating to, bodies dealing with security matters), section 24(2) (national security), section 27(4) (international relations), section 31(3) (law enforcement), section 38(2) (health and safety) and section 40(5B)(a)(i) (personal information).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua'">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Appellant contacted the Authority on 9 February 2024, requesting an internal review.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua'">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Authority responded on 27 February 2024, upholding its previous decision.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua'">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Appellant contacted the Commissioner on 28 February 2024 to complain about the Authority&#8217;s response to the Request.  The Commissioner subsequently issued the Decision Notice.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="text-align:justify"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The Decision Notice</span></heading>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua'">11.</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In the Decision Notice, the Commissioner concluded (in summary) that:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">section 23(5) and section 24(2) were engaged in respect of the Requested Information;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the public interest favoured maintaining those exemptions;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">accordingly, the Authority could rely on section 23(5) and section 24(2) to refuse to confirm or deny whether it holds the Requested Information.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua'">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We should comment that paragraph 2 of the Decision Notice stated that the Authority could </span><span style="font-style:italic;font-family:'Book Antiqua'">withhold</span><span style="font-family:'Book Antiqua'"> the Requested Information pursuant to section 23(5) and section 24(2), which was an error in terminology given that the Authority did not confirm or deny whether it holds the Requested Information.  It is clear from the remainder of the Decision Notice that it was addressing the entitlement of the Authority to refuse to confirm or deny whether it holds the Requested Information.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">The appeal</span></p>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The grounds of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua'">13.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The material points of the Appellant&#8217;s grounds of appeal set out his views that (in summary):</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the Requested Information was already in the public domain;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the information in the public domain stated that the Authority was working on various projects involving the Israeli ministry;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the ongoing conflict in Gaza was not a reason to withhold the Requested Information;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the Authority should not be allowed to shield itself from scrutiny if it is involved in a partnership with a government which is accused of having war criminals, and of being an apartheid state;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">e.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">these were matters of profound significance and therefore the public interest outweighed the need to protect the Authority from scrutiny.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua'">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Similar to our earlier comments in respect of the erroneous terminology used in the Decision Notice, we should also point out that whilst the Appellant&#8217;s grounds of appeal referred to the Authority withholding the Requested Information, the Authority did not confirm or deny whether it holds the Requested Information.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">The Tribunal&#8217;s powers and role</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua'">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The powers of the Tribunal in determining this appeal are set out in section 58, as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">If on an appeal under section 57 the Tribunal considers&#8212;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">that the notice against which the appeal is brought is not in accordance with the law, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently,</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua'">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner; and in any other case the Tribunal shall dismiss the appeal.</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(2)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">On such an appeal, the Tribunal may Review any finding of fact on which the notice in question was based.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua'">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In summary, therefore, the Tribunal&#8217;s remit for the purposes of this appeal was to consider whether the Decision Notice was in accordance with the law.  In reaching its decision, the Tribunal may review any findings of fact on which the Decision Notice was based and the Tribunal may come to a different decision regarding those facts.  Essentially, the Tribunal is empowered to undertake a &#8216;full merits review&#8217; of the appeal before it (so far as the Decision Notice is concerned).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">Mode of hearing</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua'">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The parties consented to the appeal being determined by the Tribunal without an oral hearing.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua'">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Tribunal considered that the appeal was suitable for determination on the papers in accordance with Rule 32 of the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009 and was satisfied that it was fair and just to conduct the appeal in this way.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The evidence and submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua'">19.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">The Tribunal read and took account of an open bundle of evidence and pleadings.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua'">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">All of the contents of the bundle, including all the submissions of the parties, were read and taken into account, even if not directly referred to in this decision.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">The relevant statutory framework</span><authorialNote class="footnote" marker="2">
+		<p class="FootnoteText"><span style="font-family:'Book Antiqua'"> We acknowledge the Practice Direction dated 4 June 2024 (</span><a class="Hyperlink" href="https://www.judiciary.uk/guidance-and-resources/practice-direction-from-the-senior-president-of-tribunals-reasons-for-decisions/" style="font-family:'Book Antiqua'">https://www.judiciary.uk/guidance-and-resources/practice-direction-from-the-senior-president-of-tribunals-reasons-for-decisions/</a><span style="font-family:'Book Antiqua'">) and particularly paragraph 9, which refers to the First-tier Tribunal not needing to specifically refer to relevant authorities.  We include references to the applicable legislative framework, to provide relevant context, but have accordingly not </span><span style="font-family:'Book Antiqua'">set out </span><span style="font-family:'Book Antiqua'">any </span><span style="font-family:'Book Antiqua'">detail</span><span style="font-family:'Book Antiqua'">ed </span><span style="font-family:'Book Antiqua'">references to, or </span><span style="font-family:'Book Antiqua'">analysis</span><span style="font-family:'Book Antiqua'"> of</span><span style="font-family:'Book Antiqua'">,</span><span style="font-family:'Book Antiqua'"> applicable case law.</span></p>
+	      </authorialNote></p>
+	    <p><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">General principles</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua'">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">Section</span><span style="font-family:'Book Antiqua'"> 1(1) provides individuals with a general right of access to information held by public authorities.  It provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">Any person making a request for information to a public authority is entitled&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">to be informed in writing by the public authority whether it holds information of the description specified in the request, and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">if that is the case, to have that information communicated to him.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua'">22.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">In essence, under section 1(1), a person who has requested information from a public authority is entitled to be informed in writing whether it holds that information.  If the public authority does hold the requested information, that person is entitled to have that information communicated to them.  However, these entitlements are subject to the other provisions of FOIA, including some exemptions and qualifications which may apply even if the requested information is held by the public authority.  Section 1(2) provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Subsection (1) has effect subject to the following provisions of this section and to the provisions of sections 2, 9, 12 and 14.</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua'">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">It is therefore important to note that section 1(1) does not provide an unconditional right of access to any information which a public authority does hold, nor an unconditional right even to be told if the information is held by the public authority.  </span><span style="font-family:'Book Antiqua'">The rights contained in that section are subject to certain other provisions of FOIA, including section 2.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Exemptions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua'">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">Section 2(1) addresses potential exemptions from to the Duty to Inform.  That section provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">Where any provision of Part II states that the duty to confirm or deny does not arise in relation to any information, the effect of the provision is that where either&#8212;</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">the provision confers absolute exemption, or</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">in all the circumstances of the case, the public interest in maintaining the exclusion of the duty to confirm or deny outweighs the public interest in disclosing whether the public authority holds the information,</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-style:italic;font-family:'Book Antiqua';color:#000000">section 1(1)(a) does not apply.</span><span style="font-family:'Book Antiqua';color:#000000">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua'">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">Accordingly, where there is an applicable exemption in Part II of FOIA then it negates the Duty to Inform.  This means that the public authority is permitted to neither confirm nor deny that it holds the requested information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua'">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">Pursuant to the provisions of section 2(1), some of the exemptions to the Duty to Inform set out in Part II of FOIA are absolute and some are subject to the Public Interest Test.  </span><span style="font-family:'Book Antiqua'">Section 2(3) explicitly lists which of those exemptions are absolute (and, pursuant to that section, no other exemptions are absolute).  For the purposes of the appeal, the relevant exemptions (as referred to in the Decision Notice) are section 23(5) and section 24(2).  Section 23 is included in that list.  Section 24 is not included in that list.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua'">27.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Accordingly, in summary:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the exemption to the Duty to Inform in section&#160;23(5) is an absolute exemption;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">the exemption to the Duty to Inform in section 24(2) is subject to the Public Interest Test.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Section 23 - information supplied by, or relating to, bodies dealing with security matters</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua'">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Section 23(5) provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">The duty to confirm or deny does not arise if, or to the extent that, compliance with section 1(1)(a) would involve the disclosure of any information (whether or not already recorded) which was directly or indirectly supplied to the public authority by, or relates to, any of the bodies specified in subsection (3).</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua'">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The bodies specified in section 23(3) include:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;(a)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">the Security Service,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">the Secret Intelligence Service,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(c)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">the Government Communications Headquarters,</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(d)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">the special forces,&#8230;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(k)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">the National Criminal Intelligence Service,&#8230;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(m)</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic;font-family:'Book Antiqua'">the Serious Organised Crime Agency.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Section 24 &#8211; national security</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua'">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Section 24(2) provides:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">&#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">The duty to confirm or deny does not arise if, or to the extent that, exemption from section 1(1)(a) is required for the purpose of safeguarding national security.</span><span style="font-family:'Book Antiqua'">&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion and findings</span></p>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Outline of relevant issues</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua'">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In accordance with the remit of the Tribunal to which we have referred, the fundamental issues which we needed to determine in the appeal were whether the Commissioner was correct to conclude, in the Decision Notice, that the Authority could rely on section 23(5) and/or section 24(2) to neither confirm nor deny whether it holds the Requested Information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua'">32.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">That therefore means:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">a.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">we needed to determine whether section 23(5) was engaged in respect of the Requested Information;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">b.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">if we determined that it was engaged, then (as the exemption in that section is an absolute exemption) the Authority would be entitled to refuse to confirm or deny whether it holds the Requested Information - and therefore we would not need to consider whether section 24(2) was engaged;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">c.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">if we determined that section 23(5) was not engaged, then we needed to determine whether section 24(2) was engaged in respect of the Requested Information;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.39in">d.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">if we determined that section 24(2) was engaged, then (as the exemption in that section is subject to the Public Interest Test) we would need to determine whether, in all the circumstances, the public interest in maintaining the exclusion of the Duty to Inform outweighs the public interest in disclosing whether or not the Authority holds the Requested Information.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Preliminary points</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua'">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Before we turn to the above issues, we make some other relevant observations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua'">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">As we have noted, the Appellant&#8217;s grounds of appeal addressed matters relating to the public interest in </span><span style="font-style:italic;font-family:'Book Antiqua'">disclosing</span><span style="font-family:'Book Antiqua'"> the Requested Information and (for current purposes) it would be more accurate to refer to the public interest in confirming or denying whether the Authority holds the Requested Information.  However, as we have also noted, the Public Interest Test is only applicable in respect of section 24(2) and not section 23(5) (the latter being an absolute exemption to which the Public Interest Test does not apply).  Accordingly, the Appellant&#8217;s arguments in respect of the public interest are only relevant if we determine that section 24(2) is engaged in respect of the Requested Information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua'">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The bundle contained correspondence between the Authority and the Commissioner relating to the Commissioner&#8217;s investigation and aspects of that correspondence were redacted.  We did not have a closed bundle showing unredacted versions of that correspondence, but we concluded that it was not necessary for us to see the unredacted correspondence for the reasons we refer to below.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua'">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We concluded that it was appropriate, with regard to the relevant issues we address below, to consider the Requested Information holistically (rather than separately considering each individual component of the Request).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_16">
+	  <content>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Book Antiqua'">Whether section 23(5) was engaged</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua'">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">It may be helpful to reiterate the provisions of section 23(5).  That section provides an exemption from confirming or denying whether information is held if doing so would involve the disclosure of any information which was directly or indirectly supplied by, or relates to, certain specified bodies.  The bodies so specified (in section 23(3)) include the Security Service, the Secret Intelligence Service, the Government Communications Headquarters, the special forces and the Serious Organised Crime Agency.  For convenience, we refer below to the relevant bodies specified in section 23(3) as the &#8216;security bodies&#8217; and any one of them a &#8216;security body&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua'">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In order for some exemptions in FOIA to be engaged, there must be some prejudice to the matters referred to in the specific exemptions.  These are known as &#8216;prejudice-based&#8217; exemptions.  Other exemptions apply only to a particular category or class of information, which are known as &#8216;class-based&#8217; exemptions.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua'">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Section 23(5) is a class-based exemption.  This means that (unlike the case with &#8216;prejudice-based&#8217; exemptions) there is no need to establish any prejudice for it to be engaged.  Section 23(5) will therefore be engaged if confirmation or denial that the Requested Information is held would have the result described in that section &#8211; namely, that it would involve the disclosure of any information which was directly or indirectly supplied by, or relates to, any of the security bodies.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua'">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Authority stated during the Commissioner&#8217;s investigation that if the Requested Information was held by it, then it would be directly or indirectly supplied by one of the security bodies.  The correspondence in the bundle did not itself reveal what the security body in question was, because of the redactions which were applied.  However, the Decision Notice recorded that the Authority had confirmed that the Requested Information (if it was held) would likely to be directly supplied to it by the Government Communications Headquarters (which is listed in limb (c) of section 23(3)).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua'">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">As we have noted, we considered that it was not necessary for us to see the unredacted version of that correspondence.  In part, this was because it was evident from the redacted correspondence that one of the security bodies in section 23(3) was being referred to and in part because the Commissioner had (as noted in the preceding paragraph) referred to the relevant body in the Decision Notice.  Further, it was also clear from the correspondence that the Authority had stated that the Requested Information, if it was held, would be supplied by a security body.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua'">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We find that this was sufficient to demonstrate that the Requested Information, if it was held by the Authority, would be directly or indirectly supplied by one of the security bodies.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua'">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">The Appellant&#8217;s position, as we have noted, was that some information was already in the public domain.  He referred to articles published in 2021 regarding the involvement of the Authority in certain project work.  The Authority accepted that the articles contained official comments from it.  However, the Authority&#8217;s comments within the articles only confirmed its involvement in the EU project Horizon 2020 and did not specify any countries which it was working with.  Importantly, the Authority&#8217;s comments did not include any acknowledgement or denial that any of the Requested Information was held by it.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua'">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Case law has clearly established</span><authorialNote class="footnote" marker="3">
+		<p class="FootnoteText"><span style="font-family:'Book Antiqua'"> See, for example, the comments from the Upper Tribunal in </span><span style="font-style:italic;font-family:'Book Antiqua'">Commissioner of the Police of the Metropolis v Information Commissioner &amp; Rosenbaum</span><span style="font-family:'Book Antiqua'"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2021/5" uk:canonical="[2021] UKUT 5 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] UKUT 5 (AAC)</ref> regarding the relevant legal principles.</span></p>
+	      </authorialNote><span style="font-family:'Book Antiqua'"> that section 23(5) requires consideration of whether answering &#8216;yes&#8217; or &#8216;no&#8217; to whether the information requested is held engages any of the limbs of section 23 and that the purpose of section 23(5) is a &#8220;protective concept&#8221;, to stop interferences being drawn on the existence or types of information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua'">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We find that it is clear that should the Authority have confirmed whether or not it holds the Requested Information, this would have meant saying &#8216;yes&#8217; or &#8216;no&#8217; with regard to whether it held information supplied by a security body - and consequently that this engaged section 23(5).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua'">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">In respect of the Appellant&#8217;s arguments that relevant information was in the public domain, an important principle behind the exclusion of the Duty to Inform in section 23(5) is that a public authority can avoid giving any official confirmation (by way of either confirmation or denial) regarding any such publicly available information.  Being able to neither confirm nor deny whether a public authority holds any given information relating to any security body can avoid inferences being drawn with regard to other information which may be in the public domain.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua'">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">Case law has also clearly established</span><authorialNote class="footnote" marker="4">
+		<p class="FootnoteText"><span style="font-family:'Book Antiqua'"/><span style="font-family:'Book Antiqua'">As above</span><span style="font-family:'Book Antiqua'">.</span></p>
+	      </authorialNote><span style="font-family:'Book Antiqua'"> that the purpose of section 23 is to ensure that FOIA is not to be used to obtain information from or about the activities of the security bodies, such that even &#8220;perfectly harmless disclosure&#8221; should only be made on the initiative or with the consent of the security body in question.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua'">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">There was no such consent or initiative of any security body in the current instance.  Also, for the reasons we have referred to, we consider that the existence of the conflict in Gaza is not relevant to whether or not the exemption in section 23(5) is engaged.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua'">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">As we have noted, given our conclusion that section 23(5) was engaged (and it being an absolute exemption), the Authority was entitled to refuse to confirm or deny whether it holds the Requested Information and we therefore do not need to go on to consider whether section 24(2) was engaged.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua'">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua'">We would just observe, though, that section 23(5) and section 24(2) are to be considered independently on their own merits and they are not mutually exclusive.  Whilst section 23(5) may be engaged on the basis that confirmation or denial would involve the disclosure of any information supplied by (or relating to) a security body, it is possible that confirmation or denial with regard to the same information may also undermine national security and therefore also engage section 24(2).  As we have noted, the Commissioner concluded in the Decision Notice that both section 23(5) and section 24(2) were engaged.  Although that is permissible legally, the scope of the exemption under section 23(5) is not to be construed or applied by reference to any other exemptions, including section 24(2).  Consequently, we are able to conclude that section 23(5) is engaged &#8211; and therefore that the Authority was entitled to refuse to confirm or deny whether it holds the Requested Information - without needing to also address the application of section 24(2).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_17">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Final conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua'">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">For all of the reasons we have given, we find that </span><span style="font-family:'Book Antiqua'">the Decision Notice was correct to conclude that the Authority could rely on section 23(5) to refuse to confirm or deny whether it holds the Requested Information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua'">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.39in"><span style="font-family:'Book Antiqua';color:#000000">We therefore dismiss the appeal.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed:</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Stephen Roper</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date: </span><docDate date="2025-08-13" refersTo="#decision" style="font-family:'Book Antiqua'">13 August 2025</docDate></p>
+      <p style="text-align:justify"><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Judge of the First-tier Tribunal</span></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

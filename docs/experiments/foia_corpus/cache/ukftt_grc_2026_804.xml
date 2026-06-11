@@ -1,0 +1,932 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/804"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/804"/>
+	  <FRBRdate date="2026-06-02" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="804"/>
+	  <FRBRname value="G Boswell v The Information commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/804"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/804"/>
+	  <FRBRdate date="2026-06-02" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/804/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/804/data.xml"/>
+	  <FRBRdate date="2026-06-02T09:47:22" name="transform"/>
+	  <FRBRdate date="2026-06-02T11:07:11" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-05-08" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-05-27" refersTo="#decision" source="#"/>
+	<eventRef date="2026-06-02" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="g-boswell" href="" showAs="G BOSWELL"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="The Information commissioner"/>
+	<TLCPerson eId="office-for-national-statistics" href="" showAs="OFFICE FOR NATIONAL STATISTICS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>804</uk:number>
+	<uk:cite>[2026] UKFTT 804 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.9.1</uk:parser>
+	<uk:hash>0f1203d2b5ac694af0baee61b7b444d5077a01ca367b37b0b7e6ddf7c3cf8b81</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<style xmlns="http://www.w3.org/1999/xhtml">
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { margin-left: 0.58in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation2 { margin-left: 1in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation3 { margin-left: 1.25in; margin-right: 0.26in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .EndnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .BalloonText { text-align: justify; font-size: 9pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .Default { font-family: 'Calibri, sans-serif'; font-size: 12pt; color: #000000; }
+#judgment .msonormal0 { font-size: 12pt; }
+#judgment .EndnoteTextChar { font-family: 'Book Antiqua'; }
+#judgment .EndnoteReference { vertical-align: super; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .BalloonTextChar { font-size: 9pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .normaltextrun { }
+#judgment .s5 { font-style: normal; font-weight: normal; font-family: QGGZBC+Calibri; font-size: 11pt; color: #000000; }
+#judgment .s7 { font-style: normal; font-weight: normal; font-family: Helvetica; font-size: 11pt; color: #000000; }
+#judgment .s1 { font-style: normal; font-weight: bold; font-family: ERFAPA+Calibri-Bold; font-size: 11pt; color: #000000; }
+#judgment .s6 { font-style: normal; font-weight: normal; font-family: QGGZBC+Calibri; font-size: 11pt; color: #000000; }
+#judgment .s2 { font-style: normal; font-weight: bold; font-family: ERFAPA+Calibri-Bold; font-size: 11pt; color: #000000; }
+#judgment .s4 { font-style: normal; font-weight: normal; font-family: Helvetica; font-size: 11pt; color: #000000; }
+</style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00804 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Case Reference: FT/EA/2025/0288</span></p>
+      <p style="text-align:justify"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal</courtType></p>
+      <p style="text-align:justify"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="text-align:justify"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua'">Information Rights</docJurisdiction></p>
+      <p class="Style1" style="text-align:right"><span style="color:#000000">Heard: By Cloud Video Platform</span></p>
+      <p class="Style1" style="text-align:right"><span style="color:#000000">Heard on: </span><docDate date="2026-05-08" refersTo="#hearing" style="color:#000000">8 May 2026</docDate></p>
+      <p class="Style1" style="text-align:right"><span style="color:#000000">Decision given on: </span><docDate date="2026-06-02" refersTo="#decision" style="color:#000000">02 June 2026</docDate></p>
+      <p class="Style4">Before</p>
+      <p class="Style5">Judge SOPHIE BUckley</p>
+      <p class="Style5">MEMBER kerry pepperell</p>
+      <p class="Style5">MEMBER naomi matthews</p>
+      <p class="Style4">Between</p>
+      <p class="Style4"><party as="#appellant" refersTo="#g-boswell">G BOSWELL</party></p>
+      <p class="Style6"><role refersTo="#appellant">Appellant</role></p>
+      <p class="Style4">and</p>
+      <blockContainer>
+	<num style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(1)</num>
+	<p class="Style5" style="margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#the-information-commissioner">The Information commissioner</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">(2)</num>
+	<p class="Style5" style="margin-left:0.5in;text-indent:0.12in"><party as="#respondent" refersTo="#office-for-national-statistics">OFFICE FOR NATIONAL STATISTICS</party></p>
+      </blockContainer>
+      <p class="Style6"><role refersTo="#respondent">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation:</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the Appellant: In person</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the First Respondent: Did not appear</span></p>
+      <p class="Style1" style="text-align:left"><span style="font-weight:normal">For the Second Respondent: Did not appear</span></p>
+      <p class="Style1"><span style="color:#000000">Decision: </span><span style="font-weight:normal;color:#000000">The appeal is allowed</span></p>
+      <p class="Style1"><span style="color:#000000">Substitute decision notice: </span>IC-207287-P1Y3</p>
+      <p class="Style1"><span style="font-weight:normal;color:#000000">Organisation: Office for National Statistics</span></p>
+      <p class="Style1"><span style="font-weight:normal;color:#000000">Complainant: Mr Gregory Joseph Boswell</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	<p class="Style1" style="margin-left:0.5in"><span style="font-weight:normal">The part of the decision notice dealing with the requests made on 27 May 2022 and 1 June 2022 is dealt with in the tribunal&#8217;s decision in EA/2023/0178 (remitted). </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	<p class="Style1" style="margin-left:0.5in"><span style="font-weight:normal">In relation to the request made on 25 May 2022 the</span><span/><span style="font-weight:normal">public authority was not entitled to rely on section 41 of the Freedom of Information Act 2000 (FOIA) to refuse to comply with the request.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The tribunal does not require the public authority to take any steps in relation to the request made on 25 May 2022. </span></p>
+      </blockContainer>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading style="margin-left:-0.2in"><span style="font-weight:bold;font-family:'Book Antiqua'">Introduction </span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">This appeal relates to a request for information made on 25 May 2022. This is an appeal against the Commissioner&#8217;s decision notice IC-378621-D9V6 of 16 June 2025 which held that the Office for National Statistics (ONS) was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (FOIA) and that the ONS held no further information within the scope of the request. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The request for information dated 25 May 2022 was the subject of a decision by this tribunal in EA/2023/0178 (Boswell v Information Commissioner and ONS [2024] UKFTT 0779 (GRC)) sent to the parties on 4 September 2024 (&#8216;the initial decision&#8217;). In the initial decision the tribunal held that ONS was not entitled to rely on section 14 FOIA (vexatious requests) in relation to the request on 25 May 2022 and ordered ONS to provide a fresh response. Mr Boswell complained about the response to the Commissioner and this is his appeal against the resulting decision notice. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The decision in EA/2023/0178 was appealed to the Upper Tribunal on other grounds in relation to two other requests for information on 27 May and 1 June 2022.  That appeal was successful and the remitted appeal was heard at the same time as this appeal. A separate decision has been issued in EA/2023/0178 (remitted). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">By a letter dated 7 November 2025 to Mr Boswell, ONS said that Mr Boswell had, through disclosure in the employment tribunal proceedings referred to below, been provided with all the material held within the scope of the request in issue in this appeal, subject to some minor personal data redactions to protect individual identities. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="margin-left:-0.2in"><span style="font-weight:bold;font-family:'Book Antiqua'">Employment tribunal proceedings</span></heading>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.45in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">There are ongoing employment tribunal proceedings brought by Mr Boswell against ONS which arise out of the same factual background as this appeal. The factual matters set out under &#8216;background&#8217; below represent the factual context as this tribunal understands it based on the documentation in the bundle. They are not findings of fact made on the balance of probabilities after hearing evidence from relevant witnesses of fact. They will not bind any employment tribunal, which will make its own findings of fact based on the evidence before it. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="margin-left:-0.2in"><span style="font-weight:bold;font-family:'Book Antiqua'">Background to the appeal </span></heading>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.49in">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">On 8 June 2020 ONS Deputy National Statistician Iain Bell sent the following email: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8220;Subject: Weekly Message &#8211; Monday 8 June 2020</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">Following the abhorrent killing of George Floyd, there have rightly been a string of protests about bringing an end to systemic racism in America, here and in many other countries. I know it has affected us all and many are feeling raw and upset.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">Over the weekend, I took the advice in [redacted]&#8217;s blog to educate myself. I listened to Radio 1 Xtra Talks special programme https://www.bbc.co.uk/programmes/m000k3yt. This really brought home to me personally how much of an issue of ongoing racism and injustice there is here in the UK. I&#8217;ve also read more about my white privilege and how that looks and feels to others.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">But me reading and listening doesn&#8217;t change anything, and change is needed to put an end to racism.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">It&#8217;s also clear to me that change is needed in PPP. We have no Black and Minority Ethnic members of the SCS. Below SCS, we don&#8217;t reflect the communities we work in and this matters, because our role is to shine a light on today&#8217;s society and we can&#8217;t do that well if we don&#8217;t reflect that society and hear the voices and the challenges.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">For myself, it worries me how often we have caused offence in the development of the Census question on ethnicity. I know it means as a leader I have much more to learn and do.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">So, I&#8217;d welcome your thoughts but my initial ones are as follows;</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">1)</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">We need to start this conversation and I&#8217;d like to meet with Black and Minority Ethnic members and hear your views on what we can do differently and better</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">2)</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">We have a vital role to play in shining a light on today&#8217;s society. But too often the collation of these statistics is done with only White People in the virtual room. I want to discuss how we do this in such a way that ensures we do provide the insights necessary for different communities.</p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-family:'Book Antiqua'">3)</num>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in;text-indent:0.21in">For too long, we have hid behind small samples as being why we cannot provide information. Yet we must be able to develop sampling and analysis strategies which overcome this. We have an opportunity in the design of the COVID-19 Infection Study to do this. We must take this opportunity properly.</p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">You will have many more ideas, I&#8217;m keen to hear them, so do let us know if you want to join the discussion.</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">Black Lives Matter!&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.49in">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">That email read as follows: </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.49in">8.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.3in">A number of employees, including Mr Boswell on 10 June 2020, sent emails to Mr Bell in response. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="ListParagraph" style="margin-left:-0.2in"><span style="text-decoration-line:underline;text-decoration-style:solid">The original request</span></heading>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">9.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">Mr Boswell made a request on 25 May 2022 which, as refined, is the request in issue in this appeal. It was described by Mr Boswell as &#8216;a mix of FOI/SAR&#8217;. The original request was for: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p style="margin-left:0.79in"><span style="font-family:'Book Antiqua'">&#8220;Copies of every email received by Iain Bell (at any of his email addresses, including those of his secretaries) in response to his &#8220;Black Lives Matter!&#8221; email of the 8th of June 2020. I would also be interested in any of Iain&#8217;s replies to these messages, and any ensuing correspondence.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading style="margin-left:-0.3in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The fresh response and the refined request</span></heading>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">10.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">ONS provided a fresh response, as ordered in the substituted decision notice sent to the parties 4 September 2024. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">11.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">ONS wrote to Mr Boswell on 16 September 2024 as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.79in">&#8220;Further to the Information Tribunal&#8217;s judgment of 4th September, and in particular paragraphs 249 and 275.</p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <intro>
+		      <p class="ListParagraph" style="margin-left:0.79in">Noting the Tribunals comments, we write to inquire as to whether, in relation to your FOI request for</p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="ListParagraph" style="margin-left:1.18in">&#8220;Copies of every email received by Iain Bell in response to Iain&#8217;s email of 8 June 2020 signed off &#8216;Black Lives Matter&#8217;, including any replies and ensuing correspondence&#8221;</p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="ListParagraph" style="margin-left:0.79in">you would be content to limit the scope of the request to emails received up to and including the 2nd July 2020?&#8221;</p>
+		    </wrapUp>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">12.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">On 17 September 2024 Mr Boswell confirmed to ONS that he was content with the refinement. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">13.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">On 4 October 2024 ONS provided a response to the refined request, disclosing some emails with redactions made under section 40(2). ONS withheld a further 12 emails under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41(1)</ref> FOIA. In its internal review, ONS identified further relevant information within the scope of the request and disclosed that information with personal data redacted. ONS maintained its reliance on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref>. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="margin-left:-0.3in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The decision notice under appeal</span></heading>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">14.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">In a decision notice dated 16 June 2025 (IC-378621-D9V6) the Commissioner decided that ONS was entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> and that it held no further information within the scope of the request on the balance of probabilities. The Commissioner held that ONS breached sections 1(1), 10(1) and 17(1) FOIA because it did not communicate all the non-exempt information that it holds or issue a section 40(2) refusal notice within 20 working days of the request. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">15.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner accepted that information provided in emails to Iain Bell which contained information that could be categorised as individuals&#8217; personal views and opinions on a subject not directly connected to ONS&#8217; functions. The Commissioner accepted that the information was provided voluntarily by staff in a private capacity and not in a professional capacity. For those reasons the Commissioner accepted that the information as obtained from another person. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner was satisfied that the information had the necessary quality of confidence because it was not accessible to the public and was not public knowledge. He was satisfied that ONS obtained the information in circumstances which would have created an expectation in the confiders that the information would be kept confidential and would not be widely shared. The Commissioner noted Mr Boswell&#8217;s argument about a videoconference that Iain Bell gave, but said that he understood that Iain Bell discussed information in the emails broadly, did not name anyone and none of the information was shared outside ONS.  The Commissioner said that Mr Boswell&#8217;s statement to the Commissioner that he would have been happy for Iain Bell to share his views more widely within the office did not change the implicit expectation of confidence at the point at which ONS responded to the request. Further the Commissioner noted that FOIA disclosure is disclosure to the world and that Mr Boswell&#8217;s own data would also be exempt under section 40(2). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">17.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner said that in the context of breach of confidence for misuse of private information, the question of whether disclosure would involve an actionable breach of confidence, involves striking a balance between two competing fundamental rights in the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">Human Rights Act 1998</ref>: article 8(1) [right to respect for private and family life] and article 10(1) [freedom of expression]. If the balance comes down in favour of article 10(1), ONS would be able to justify disclosing the private information on public interest grounds.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">18.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner said that disclosing the information would not reveal evidence of misconduct or illegality and as such, the article 10(1) public interest argument carried little weight. He considered that the individuals involved provided this sensitive information to ONS with the expectation that it would be treated confidentiality which added weight to the public interest in maintaining people&#8217;s right to respect for private life. He considered that the individuals who provided it could be distressed were the information to be disclosed. He said that disclosure could deter them sharing their views with senior managers in the future on matters they felt strongly about. Having considered both sides the Commissioner concluded that the balancing exercise came down in favour of the article 8(1) right to response for private life. On that basis he concluded that disclosure would equate to an actionable breach of confidence and <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41(1)</ref>(b) was engaged.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">19.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner accepted that ONS had carried out satisfactory searches for relevant information and had addressed and explained the points Mr Boswell had raised. He concluded that ONS did not hold any further information on the balance of probabilities. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading style="margin-left:-0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">Notice of appeal</span></heading>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">20.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.25in">In essence, the grounds of appeal are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.64in">20.1.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.89in">That ONS should not have withheld entire emails under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> but should have redacted any confidential information. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.64in">20.2.</num>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:0.89in">That the Commissioner was wrong to conclude that the information was obtained &#8216;from any other person&#8217;. </p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.38in;text-indent:-0.49in">20.2.1.</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1.38in;text-indent:0.26in">Mr Boswell submitted that even the more personal contents of the emails were explicitly solicited by Iain Bell for the purposes of &#8216;driving and inspiring change&#8217; at ONS. He said that <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Dillan Patrick Egan v IC </span>[2022] UKFTT 00529 (GRC) (<span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Egan</span>) holds that information was provided by another person because employees were acting in accordance with their obligations as registered health professionals as opposed to the particular obligations of their jobs. He argued that this could not be applied to employees responding to a work email in the course of their employment with ONS and in accordance with their professional duties there and there alone. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.64in">20.3.</num>
+	      <intro>
+		<p class="ListParagraph" style="margin-left:0.89in">That the Commissioner was wrong to conclude that release would amount to a breach of confidence. </p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.38in;text-indent:-0.49in">20.3.1.</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1.38in;text-indent:0.26in">Mr Boswell submitted that the information, an off the cuff opinion regarding current events by a nameless civil servant, of the kind that billions of people voluntarily upload to their social media accounts every day, could well be described as trivial. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.38in;text-indent:-0.49in">20.3.2.</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1.38in;text-indent:0.26in">He conceded that a highly personal account of racist abuse would have the necessary quality of confidence but mere personal opinions on racism would not. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.38in;text-indent:-0.49in">20.3.3.</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1.38in;text-indent:0.26in">He argued that there was an implicit expectation that the emails would be shared. Iain Bell was asking for feedback about racism at ONS or in wider society, in order to fight racism in his role as a senior manager. Mr Boswell questioned how he could be expected to do that if he couldn&#8217;t discuss the feedback he received with his colleagues. Mr Boswell noted that, contra to the Commissioner&#8217;s guidance, ONS has not sought the views of  the relevant staff. If ONS had sought the views of the BAME network, Mr Boswell submitted that it has no mandate to speak on behalf of BAME people. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.38in;text-indent:-0.49in">20.3.4.</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1.38in;text-indent:0.26in">He submitted that there is no assertion, only speculation of psychological harm. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.38in;text-indent:-0.49in">20.3.5.</num>
+		<content>
+		  <p class="ListParagraph" style="margin-left:1.38in;text-indent:0.26in">In relation to the right to freedom of expression, Mr Boswell submitted that he is seeking evidence which bears on his claim, now going to the employment tribunal, that Iain Bell, when publicly summarising the emails in question, was wrong to declare that some of the views in his inbox were shocking and uneducated. Mr Boswell said that Iain Bell&#8217;s position was that he was on possession of emails more shocking an uneducated that Mr Boswell&#8217;s and therefore not discriminating against Mr Boswell&#8217;s legitimate view. He submitted that he did not accept the release of a handful of work emails, containing opinions about current events and their impact on the workplace has very little to do with the author&#8217;s right to a private life and, at the least, must be assessed on a case by case basis. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.89in;text-indent:-0.64in">20.4.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.89in">That the Commissioner was wrong to conclude that ONS did not hold further information, on the basis that Mr Boswell has concerns about the exhaustiveness of ONS&#8217;s search.  </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading style="margin-left:-0.3in"><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">The Commissioner&#8217;s response</span></heading>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">21.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner said that he had determined that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41(1)</ref> FOIA had been correctly applied to the 12 email responses withheld in full, accordingly the Commissioner did not consider ONS were obliged to consider partial disclosure/redaction in relation to this information.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">22.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner said, noting <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Egan,</span><span style="text-decoration-line:underline;text-decoration-style:solid"/>that his view was that the withheld responses were not provided by the employees while acting solely on the court of their employment, but voluntarily and outside of day-to-day roles and duties. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">23.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner maintains that the criteria of &#8216;trivial and not otherwise accessible&#8217; are clearly met. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">24.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">He submitted that given the contents of Iain Bell&#8217;s email it is clear that objectively there would be an implicit expectation of confidence on the part of confiders. Specifically that any response provided voluntarily would have been treated sensitively and responsibly by ONS and not disseminated into the public domain.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">25.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner considered that disclosure of the 12 withheld email responses would cause detriment to the confiders due to the resultant loss of privacy. The disclosure of the responses including the personal accounts and candid opinions to the world without prior consent, in circumstances where confidentiality had been implied, would be of detriment to the confiders.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">26.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.25in">The Commissioner submitted that he was correct to determine that in balancing the Article 8 ECHR rights to respect for privacy of the individuals concerned against the public interest in disclosure he reached the right conclusion. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-weight:bold;font-family:'Book Antiqua'">Legal framework</span></p>
+	    <p style="margin-left:-0.3in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">Section 41</ref></span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">Section 41</ref> provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">&#8220;(1)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">Information is exempt information if &#8211;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">(a)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">it was obtained by the public authority from any other person (including another public authority), and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:'Book Antiqua'">(b)</num>
+		  <content>
+		    <p style="margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">the disclosure of the information to the public (otherwise than under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/42" uk:canonical="1998 c. 42" uk:origin="TNA" uk:type="legislation">this Act</ref>) by the public authority holding it would constitute a breach of confidence actionable by that or any other person.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">28.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in">The starting point for assessing whether there is an actionable breach of confidence is the three-fold test in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Coco v AN Clark (Engineers) Ltd </span><ref href="#" uk:canonical="[1969] RPC 41" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1969">[1969] RPC 41</ref>, read in the light of the developing case law on privacy:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.38in;text-indent:-0.59in">28.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.38in">Does the information have the necessary quality of confidence?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.38in;text-indent:-0.59in">28.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.38in">Was it imparted in circumstances importing an obligation of confidence? </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.38in;text-indent:-0.59in">28.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:1.38in">Is there an unauthorised use to the detriment of the party communicating it? </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The common law of confidence has developed in the light of Articles 8 and 10 of the European Convention on Human Rights to provide, in effect, that the misuse of &#8216;private&#8217; information can also give rise to an actionable breach of confidence. If an individual objectively has a reasonable expectation of privacy in relation to the information, it may amount to an actionable breach of confidence if the balancing exercise between article 8 and article 10 rights comes down in favour of article 8. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">Section 41</ref> is an absolute exemption, but a public interest defence is available to a breach of confidence claim. Accordingly there is an inbuilt balancing of the public interest in determining whether or not there is an actionable breach of confidence. The burden is on the person seeking disclosure to show that the public interest justifies interference with the right to confidence. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">The role of the tribunal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The tribunal&#8217;s remit is governed by section 58 FOIA. This requires the tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved exercising discretion, whether he should have exercised it differently. The tribunal may receive <span style="font-family:Arial">evidence that was not before the Commissioner and may make different findings of fact from the Commissioner.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-weight:bold;font-family:'Book Antiqua'">Evidence </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">32.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">We had before us and took account of where relevant: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">32.1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">The open bundle </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">32.2.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">An updated open bundle in EA/2023/0178</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">32.3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">The appellant&#8217;s supplementary bundle dated 13 March 2026 </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">32.4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">Various video and audio recordings listed in the index to that supplementary bundle plus an audio recording from the initial hearing resubmitted by email dated 7 May 2025. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">32.5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">A closed hearing bundle (open to the Commissioner and the second respondent) provided by the Commissioner</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">32.6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">The appellant&#8217;s additional bundle dated 1 May 2026</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:0.79in;text-indent:-0.54in">32.7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">A closed bundle (open to all parties) dated 1 May 2026 provided by the appellant</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="margin-left:-0.3in"><span style="font-weight:bold;font-family:'Book Antiqua'">Mr Boswell&#8217;s skeleton argument and oral submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.5in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">Mr Boswell provided a detailed skeleton argument on the morning of the hearing which the tribunal adjourned to read. It set out his submissions in detail. He fleshed out those submissions in oral argument. We have taken account of those arguments and include them, where appropriate, in our discussion and conclusions below. </span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="margin-left:-0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion and conclusions</span></p>
+	    <p style="margin-left:-0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Was the information obtained by ONS &#8216;from any other person&#8217;</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">34.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">Under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> the public authority constitutes one legal person. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">Section 41</ref> requires that the information in question was obtained from another person, i.e. another legal person or another natural person. Although the tribunal is not bound by previous decisions of the First-tier Tribunal, we agree that in determining whether information obtained from individuals employed by the public authority, the question is whether those individuals were acting as employees i.e. acting in the course of their employment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">So, for example, in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Egan</span><span style="font-weight:bold;font-family:Arial">, </span><span style="font-family:Arial">a health authority was conducting an investigation into patient safety. The tribunal said that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> would not apply to employees who disclose information in the course of their employment while acting in their capacity as an employee. The tribunal found in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Egan</span><span style="font-family:Arial">, on the facts of that case, that the individuals interviewed were not providing information while acting solely in the course of their employment: &#8220;They were providing personal statements including opinions as part of an investigation into patient safety, in accordance with their obligations as registered health professionals.&#8221; [51]. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">36.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">We do not understand the tribunal in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:Arial">Egan</span><span style="font-family:Arial"> to have taken the view that personal judgments or opinions provided by employees acting in the course of their employment would be provided &#8216;from another person&#8217;. There are many occasions on which employees are invited or required, as part of their job, to provide personal judgments or opinions. The issue is whether the individual is acting as an employee or acting in the course of their employment, not whether they are providing personal judgments or opinions. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">In this appeal the individuals had no separate professional role or duty. They were emailed by Iain Bell, </span>ONS Deputy National Statistician, <span style="font-family:Arial">in the usual &#8216;weekly message&#8217; that they received in their capacity as employees. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">38.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">The email from Iain Bell related to a work issue: the question of change in the PPP (the Population and Public Policy Team) an internal team within ONS. The email highlights organisational issues that need change, including the number of Black and Minority Ethnic members of workforce and the causing of offence in the development of the Census question on ethnicity. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">39.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">Having set out that work context, the email seeks &#8216;thoughts&#8217; from the employees, clearly, by implication, on how to improve the work issues set out above. Iain Bell sets out a number of his initial ideas for improving the operation of ONS, including understanding how Black and Minority Ethnic members of the workforce can be better involved in discussions and </span>developing sampling and analysis strategies for the COVID-19 Infection Study so more information can be provided.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">40.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The email ends with the following: &#8220;<span style="font-family:Arial">You will have many more ideas, I&#8217;m keen to hear them, so do let us know if you want to join the discussion.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">41.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">The email was accordingly a work email, sent by a senior member of staff to his employees, seeking their views on how changes could be made to the way ONS operates. As part of the context for why Iain Bell saw change as needed, he acknowledged the upset caused by the George Floyd murder and referred to reading he had personally done about white privilege. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">42.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">ONS has identified a number of emails that were sent in response up to and including the 2nd July 2020. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">43.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">ONS said that some of the emails responded to the invitation of discussion with the intention to improve ONS&#8217;s working culture and production of statistics such as suggestions for how the production of statistics by ethnicity could be improved. Those emails were released, because ONS recognised that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41/1" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">s.41(1)</ref>(a) was not engaged in relation to these emails. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">These emails included short emails indicating a willingness to be involved in discussion, and fuller emails including for example the following, with personal data redacted: </span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">&#8220;It is really good to hear that ONS is taking the issues up.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">[redacted], I have been so impressed with the communications I have received from strangers, showing enlightenment and concern about institutional racism.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">[redacted], and part of the requirements in achieving the registered title, [redacted], included the ability to challenge any discriminatory comments or behaviour in the course of my work. With this heightened training in aspects of Equality, I was disappointed that not everyone had the same requirements in their respective &#64257;elds.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">- [redacted], I have raised a number of concerns about the wording and ordering of questions and available responses, [redacted]. These have included </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">: people if varying skin colours (including white) being slightly offended (or even refusing to answer) the ' ethnicity 'question. If we read out the available responses, Number one is White. The selection of responses and variations of 'ethnicities ' from there are inadequate at times, and people often question their value.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">- It does seem unfair to try to &#64257;t people into categories which they may not de&#64257;ne themselves as.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">- the passport questions also touch on some people's sensitivities for an in&#64257;nite number of reasons (Windrush, Brexit, etc come to mind). It would be more sensitive to have an explanation given to people before throwing that type of question at them, as our agenda could be confused with immigration matters, which could alienate people.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">- I &#64257;rmly believe that we lose potential respondents because our letters do not have a multi- lingual section. Even one sentence from each of the most spoken languages in the UK (Explaining that we welcome responses and can provide translation if necessary) could &#64257;t on the back of our one sided letters. We are too reliant upon people responding to letters, to miss this point, in my view. When we have, at times, national issues going on, such as Brexit and Windrush, we could do with indicating our absolute interest in responses from everyone.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">Many migrants can speak English very well, but reading it is sometimes not too great. (In my opinion we could pick up more responses I could be wrong, but it seems any gesture to be inclusive helps make us less white &#8211; privileged in approach.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">I hope you get some great ideas and achievable from people now that awareness has been aroused by the current climax in race- awareness. One hopes it is a silver lining after an awful series of events, including the potential impact of protest in not socially distanced crowds.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in"><span style="font-family:Arial">Many thanks for asking for peoples views.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">ONS took the view that other emails sent in response were written by their authors &#8220;in their capacity as individuals, not ONS members of staff&#8221;. It said that the authors described their &#8220;personal thoughts, feelings, and experiences on the topic of racism, following events that occurred outside of, and unrelated to, ONS and its function&#8221;. ONS said that &#8220;Emails conveying personal experiences of and views on racism were not solicited by Iain&#8217;s email and were not focussed on work matters&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">We have carefully considered the content of each of those emails. They must be viewed in the context that all of them were, by definition, sent in response to </span>Iain Bell&#8217;s &#8216;weekly message&#8217; which was sent to employees and explicitly solicited ideas and discussion from those employees. Some of the emails engaged in the discussion on a wider basis than perhaps anticipated by Iain Bell, by questioning some of the assumptions in Iain Bell&#8217;s letter rather than focussing on practical ideas for change. So, for example, some focussed on whether racism (in society or in ONS) was as extensive as Iain Bell&#8217;s email or current media coverage suggested; some highlighted that racism also affected white non-British; and some questioned the focus on &#8216;inclusion&#8217; and the effectiveness or otherwise of using the more emotive words used by Iain Bell. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">This widening of the discussion does not alter the fact that those employees were giving their views as employees, as requested by Iain Bell, to contribute to a discussion, in the course of their employment, about how to improve the organisation by which they were employed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">It is true that a limited number of the employees include personal stories in their emails. They included those personal stories in response to an email from the deputy director of ONS soliciting views on how best to tackle racism within ONS. People do tell personal stories at work to illustrate or illuminate work issues. That does not mean, in our view, that they are not acting in the course of their employment when doing so. That information might be personal information which might be exempt under section 40, but it is not &#8216;provided by another person&#8217; such that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref> applies. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">49.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial">For those reasons we conclude that the information was not provided by another person and ONS was not entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref>. </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Does ONS hold any further information within the scope of the request?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Mr Boswell has identified two emails which he says fall within the scope of the request but were not located by ONS. He argued that this shows that the search was not adequate and that they are likely to hold further information within the scope of the request. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">The searches that were carried out by ONS are set out in the internal review as follows: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8220;The original searches included an interrogation of Iain Bell&#8217;s archived mailbox. Archived mailboxes are held on a SharePoint system and are not easily interrogated (e.g. searches only apply to subject lines of emails). This archive has a folder entitled &#8216;BLM emails&#8217;, which contained the majority of the information in scope of the request. All emails included in this folder in the date range requested were considered for release and all but 12 were provided.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">I have conducted a further search of the archive as part of this review using relevant keywords that could reasonably locate &#8216;ensuing correspondence&#8217;. I have been able to locate 1 further exchange of emails, which has been released accompanying this review.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">&#8230;</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">You mentioned that you wish for us to extend our search to include the mailboxes of Iain Bell&#8217;s secretaries. Both of the individuals mentioned have left the ONS (1 in early 2021 and the other in early 2022) and their mailboxes have not been retained. ONS mailbox retention policies apply to senior leadership or those involved in events that are of significant public interest, such as the COVID-19 inquiry.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">As part of this review, I have extended our searches to check whether any replies were received by the current staff members whose emails were located in Iain Bell&#8217;s mailbox. We had confirmation from all but 1 individual that no response from Iain was received. The remaining 1 individual did receive a reply from Iain, which has been released accompanying this review. You have suggested that our searches appear incomplete to you, as you could not locate the email you sent personally to Iain Bell. Your email in question was one of the emails withheld under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">s.41</ref> of FOIA. Our searches therefore did locate the information you believe is missing. I appreciate that you are entitled to this email under the Right of Subject Access under the UK GDPR. If you would like to receive a copy of this email through this route, please let us know and we will action this for you.</p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:0.79in">I have found that our original searches could have been more comprehensive to include the further actions mentioned above. Following this review, we have conducted all reasonable searches to locate the requested information and consider it for release.&#8221;</p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In our view, that is a reasonable and comprehensive search which would be likely to locate the information held within the scope of the request.  As ONS did not know who had sent emails, it was reasonable to focus on the email inboxes of those who would have received the emails. As well as that search, ONS has also now searched for the purposes of the employment litigation, in relation to which the emails in scope are relevant, and has not found any additional emails in scope. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">We accept that one of the emails relied on by Mr Boswell (dated 8 June 2020) falls within the scope of the request and had not been located by ONS. However, we do not infer from the failure to locate that email that their searches were unreasonable or, on the balance of probabilities, that there are further emails that have not been located.  That email might not have been located because it was, for example, deleted at the time, whether in error or otherwise. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In relation to the other email, this is an email to Iain Bell from the Assistant Private Secretary dated 10 June 2020 entitled &#8216;Black Lives Matter Discussion 26 June 9.00am. &#8211; All Directors have accepted. The email contains a list entitled Expressed an interest in attending&#8217; and a list entitled &#8216;Respondent but did not express interest&#8217;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">In our view this email is not in scope of the request. The request asks for emails received by Iain Bell in responses to his email of 8 June, any for Iain&#8217;s replies to these messages and &#8216;any ensuing correspondence&#8217;. In our view a list of those who had or had not expressed an interest in attending a follow up meeting provided to Iain Bell by his support staff does not fall within &#8216;ensuing correspondence&#8217;. It would have been reasonable for ONS to take that view of the scope of the request. For that reason, its existence does not lead us to conclude either that the searches were inadequate or that ONS holds further information within scope on the balance of probabilities. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">We do not place any weight on the fact that the email that was sent by Mr Boswell has different formatting to the other emails held under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/41" uk:canonical="2000 c. 36 s. 41" uk:origin="TNA" uk:type="legislation">section 41</ref>. We agree that that may mean that it was recorded from a different source but we do not accept that this supports any inference about the reasonableness of the search or further information held by ONS. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">57.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.25in">In conclusion we find that ONS holds no further information within the scope of the request. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Next steps</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Mr Boswell no longer requires the correspondence for the purposes of his grievance appeal. As set out in the initial decision, we are not satisfied that there is any wider public interest in publication of those letters. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">Mr Boswell has brought parallel proceedings in the employment tribunal. The correspondence requested in DPR 189 is relevant to those proceedings. Parties in employment tribunal proceedings are required to conduct a reasonable search for all relevant documents they have in their possession or control even if they do not support their case. ONS have carried out that search and provided the emails located to Mr Boswell in those proceedings. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in">We accept the position of ONS that all the emails in scope of DPR 189 have been provided to Mr Boswell as part of the employment tribunal proceedings.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.25in;text-indent:-0.55in">61.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.25in"><span style="font-family:Arial;color:#212121">At the end of the hearing the tribunal asked Mr Boswell if he had any further use for the information which went beyond the uses outlined in May-June 2022, to which he answered no. Following the hearing, he sent in an email in which he clarified that if further searches were conducted, and information was uncovered which went beyond the current employment disclosure, then that information would be very useful for the purposes of that Tribunal.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.55in">62.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.3in">We have concluded above that for the purposes of FOIA the searches were adequate and no further information is held. The question of whether ONS have complied with their duties of disclosure in the employment tribunal is an issue that can be raised with and determined by the employment tribunal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.3in;text-indent:-0.55in">63.</num>
+	  <intro>
+	    <p class="ListParagraph" style="margin-left:0.3in">For those reasons we do not require the public authority to take any steps in relation to DPR 189. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p>Signed<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Sophie Buckley</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><docDate date="2026-05-27" refersTo="#decision" style="font-family:'Book Antiqua'">27 May 2026</docDate></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
