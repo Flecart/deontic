@@ -23,10 +23,11 @@ Cases live in cases/*.md (background = found facts only, no tribunal
 conclusions). The theory is examples/foia/foia.ddl. Run from anywhere:
 
   python docs/experiments/foia_corpus/pipeline.py                      # oracle only
-  python docs/experiments/foia_corpus/pipeline.py --arms oracle,ground,llm \
-      --model gpt-4.1 -v
+  python docs/experiments/eir_corpus/pipeline.py --arms oracle,ground,llm \
+      --model gpt-4.1 --concurrency 100 -v
 
 OpenAI arms need OPENAI_API_KEY and `pip install openai`.
+`--concurrency` caps simultaneous OpenAI calls (default 1 = sequential).
 """
 from __future__ import annotations
 
@@ -36,7 +37,9 @@ import json
 import os
 import re
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
@@ -131,7 +134,8 @@ def engine_result(d: Deontic, facts: list[str], verbose: bool,
     atom = DECISION_ATOM if decision != "confirm" else "ConfirmOrDeny"
     pi_atom = PI_ATOM if decision != "confirm" else PI_NCND_ATOM
     engagement = ENGAGEMENT if decision != "confirm" else NCND_ENGAGEMENT
-    rep = d.why(str(DDL), [atom], assume=facts)[atom][BEARER]
+    with _engine_lock:
+        rep = d.why(str(DDL), [atom], assume=facts)[atom][BEARER]
     code = status_code(rep.status)
     engaged = [lbl for lbl, atoms in engagement.items()
                if all(a in facts for a in atoms)]
@@ -203,6 +207,18 @@ def precedent_lines(atom: str, case_name: str,
 #    analysis of WHY a fact was asserted/missed; see view_run.py) ────────────
 
 _log_file: Path | None = None
+_log_lock = threading.Lock()
+_engine_lock = threading.Lock()
+_concurrency = 1
+_api_semaphore: threading.Semaphore | None = None
+
+
+def configure_runtime(concurrency: int) -> None:
+    """Set max in-flight OpenAI calls (1 = sequential, the default)."""
+    global _concurrency, _api_semaphore
+    _concurrency = max(1, concurrency)
+    _api_semaphore = (threading.Semaphore(_concurrency)
+                      if _concurrency > 1 else None)
 
 
 def start_run(tag: str) -> Path:
@@ -219,8 +235,9 @@ def log_event(record: dict) -> None:
         return
     record = {"ts": datetime.datetime.now().isoformat(timespec="seconds"),
               **record}
-    with _log_file.open("a") as fh:
-        fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+    with _log_lock:
+        with _log_file.open("a") as fh:
+            fh.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 
 # ── OpenAI side ─────────────────────────────────────────────────────────────
@@ -229,26 +246,32 @@ def call_openai(model: str, system: str, user: str,
                 meta: dict | None = None) -> str:
     from openai import OpenAI  # lazy: only the API arms need it
 
-    t0 = time.time()
-    resp = OpenAI().chat.completions.create(
-        model=model,
-        messages=[{"role": "system", "content": system},
-                  {"role": "user", "content": user}],
-    )
-    reply = resp.choices[0].message.content or ""
-    usage = getattr(resp, "usage", None)
-    log_event({
-        "type": "llm_call",
-        **(meta or {}),
-        "model": model,
-        "system": system,
-        "user": user,
-        "reply": reply,
-        "seconds": round(time.time() - t0, 2),
-        "prompt_tokens": getattr(usage, "prompt_tokens", None),
-        "completion_tokens": getattr(usage, "completion_tokens", None),
-    })
-    return reply
+    def _call() -> str:
+        t0 = time.time()
+        resp = OpenAI().chat.completions.create(
+            model=model,
+            messages=[{"role": "system", "content": system},
+                      {"role": "user", "content": user}],
+        )
+        reply = resp.choices[0].message.content or ""
+        usage = getattr(resp, "usage", None)
+        log_event({
+            "type": "llm_call",
+            **(meta or {}),
+            "model": model,
+            "system": system,
+            "user": user,
+            "reply": reply,
+            "seconds": round(time.time() - t0, 2),
+            "prompt_tokens": getattr(usage, "prompt_tokens", None),
+            "completion_tokens": getattr(usage, "completion_tokens", None),
+        })
+        return reply
+
+    if _api_semaphore is not None:
+        with _api_semaphore:
+            return _call()
+    return _call()
 
 
 def parse_json_reply(text: str) -> dict:

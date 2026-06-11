@@ -53,6 +53,17 @@ export interface CaseResult {
   calls: LlmCall[];
 }
 
+export interface ArmScores {
+  cases: number;
+  scores: {
+    disposition: string | null;
+    engaged: string | null;
+    pi: string | null;
+    facts: string | null;
+  };
+  failure_cases: number;
+}
+
 export interface RunDetail {
   name: string;
   mtime: number;
@@ -72,6 +83,7 @@ export interface RunDetail {
       facts: string | null;
     };
     failure_cases: number;
+    by_arm?: Record<string, ArmScores>;
   };
   cases: CaseResult[];
 }

@@ -64,3 +64,21 @@ below the compounding threshold set by rule-body width — and its auditability
 (proof certificates, attributable errors) is constant regardless. Caveats:
 single runs, small n for EIR/tax, EIR/tax labels drafted by the evaluated
 model family (agent-verified).
+
+## Strict quality run (2026-06-11, verified instances only, gpt-4.1)
+
+Unverified instances skipped (not scored). ORACLE IS PERFECT across all
+domains and all dimensions — every verified gold label is consistent with
+its formal theory:
+
+| domain | n | oracle | ground disp. | llm disp. | ground facts |
+|---|---|---|---|---|---|
+| FOIA 2000 | 120 | 120/120 disp, 120/120 engaged, 54/54 pi | 92/120 (76.7%) | 100/120 (83.3%) | 5013/5160 (97.2%) |
+| EIR 2004 | 17 | 17/17, 17/17, 6/6 | 15/17 (88.2%) | 14/17 (82.4%) | 317/323 (98.1%) |
+| FA09 Sch 55 | 6 | 6/6, 6/6 | 4/6 | 6/6 | 34/36 |
+
+FOIA per-class: ground 82.1%/63.9% (withhold/disclose-gold), llm 88.1%/72.2%;
+always-withhold baseline 70.0%. The dose-response ordering (EIR: engine wins;
+FOIA: holistic wins) replicates; tax flipped to llm at this tiny n (ground
+4/6 vs 6/7 in the previous run — small-n variance, both runs single-shot).
+240 calls / ~1.64M prompt tokens for the FOIA arms.

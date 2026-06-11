@@ -160,10 +160,27 @@ def summarize_label_run(path: Path, events: list[dict], meta: dict) -> dict:
     }
 
 
-def summarize_eval_run(path: Path, events: list[dict], meta: dict) -> dict:
-    calls = [e for e in events if e.get("type") == "llm_call"]
-    results = [e for e in events if e.get("type") == "arm_result"]
+def _arm_order(meta: dict, arms_seen: set[str]) -> list[str]:
+    preferred = ["oracle", "ground", "llm"]
+    from_meta = [a for a in meta.get("arms", []) if a in arms_seen]
+    rest = sorted(arms_seen - set(from_meta) - set(preferred))
+    ordered = [a for a in preferred if a in arms_seen]
+    for a in from_meta:
+        if a not in ordered:
+            ordered.append(a)
+    ordered.extend(rest)
+    return ordered
 
+
+def _score_line(vals: list[bool | None]) -> str | None:
+    scored = [v for v in vals if v is not None]
+    if not scored:
+        return None
+    ok = sum(1 for v in scored if v)
+    return f"{ok}/{len(scored)}"
+
+
+def _summarize_arm_results(arm_results: list[dict]) -> dict:
     dim_scores: dict[str, list[bool | None]] = {
         "disposition": [],
         "engaged": [],
@@ -172,9 +189,7 @@ def summarize_eval_run(path: Path, events: list[dict], meta: dict) -> dict:
     facts_agree = 0
     facts_total = 0
     failure_count = 0
-
-    cases = []
-    for r in results:
+    for r in arm_results:
         hits = r.get("hits", {})
         for dim in dim_scores:
             dim_scores[dim].append(hits.get(dim))
@@ -186,6 +201,37 @@ def summarize_eval_run(path: Path, events: list[dict], meta: dict) -> dict:
         fact_fails = bool(fa and (fa[2] or fa[3])) if fa else False
         if missed_dims or fact_fails:
             failure_count += 1
+    return {
+        "cases": len(arm_results),
+        "scores": {
+            "disposition": _score_line(dim_scores["disposition"]),
+            "engaged": _score_line(dim_scores["engaged"]),
+            "pi": _score_line(dim_scores["pi"]),
+            "facts": f"{facts_agree}/{facts_total}" if facts_total else None,
+        },
+        "failure_cases": failure_count,
+    }
+
+
+def summarize_eval_run(path: Path, events: list[dict], meta: dict) -> dict:
+    calls = [e for e in events if e.get("type") == "llm_call"]
+    results = [e for e in events if e.get("type") == "arm_result"]
+
+    by_arm_raw: dict[str, list[dict]] = {}
+    for r in results:
+        by_arm_raw.setdefault(r["arm"], []).append(r)
+
+    arms_seen = set(by_arm_raw)
+    by_arm = {
+        arm: _summarize_arm_results(by_arm_raw[arm])
+        for arm in _arm_order(meta, arms_seen)
+    }
+    overall = _summarize_arm_results(results)
+
+    cases = []
+    for r in results:
+        hits = r.get("hits", {})
+        fa = r.get("facts_agreement")
         case_id = r["case"]
         arm = r["arm"]
         cases.append(
@@ -207,14 +253,6 @@ def summarize_eval_run(path: Path, events: list[dict], meta: dict) -> dict:
             }
         )
 
-    def score_line(dim: str) -> str | None:
-        vals = dim_scores[dim]
-        scored = [v for v in vals if v is not None]
-        if not scored:
-            return None
-        ok = sum(1 for v in scored if v)
-        return f"{ok}/{len(scored)}"
-
     return {
         "name": path.name,
         "mtime": path.stat().st_mtime,
@@ -227,13 +265,9 @@ def summarize_eval_run(path: Path, events: list[dict], meta: dict) -> dict:
             "prompt_tokens": sum(c.get("prompt_tokens") or 0 for c in calls),
             "completion_tokens": sum(c.get("completion_tokens") or 0 for c in calls),
             "seconds": round(sum(c.get("seconds") or 0 for c in calls), 2),
-            "scores": {
-                "disposition": score_line("disposition"),
-                "engaged": score_line("engaged"),
-                "pi": score_line("pi"),
-                "facts": f"{facts_agree}/{facts_total}" if facts_total else None,
-            },
-            "failure_cases": failure_count,
+            "scores": overall["scores"],
+            "failure_cases": overall["failure_cases"],
+            "by_arm": by_arm,
         },
         "cases": cases,
     }
@@ -317,9 +351,9 @@ class Handler(BaseHTTPRequestHandler):
 
         if path.startswith("/api/experiments/"):
             rest = path.removeprefix("/api/experiments/")
-            parts = rest.split("/", 2)
+            parts = rest.split("/")
 
-            if len(parts) == 1 and parts[0]:
+            if len(parts) == 2 and parts[0] and parts[1] == "runs":
                 exp_id = parts[0]
                 if experiment_dir(exp_id) is None:
                     self._send(404, {"error": f"experiment not found: {exp_id}"})

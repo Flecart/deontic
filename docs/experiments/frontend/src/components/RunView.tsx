@@ -53,6 +53,17 @@ function fmtValue(v: unknown): string {
   return String(v ?? "—");
 }
 
+function fmtScore(score: string | null | undefined): string {
+  if (!score) return "—";
+  const m = /^(\d+)\/(\d+)$/.exec(score);
+  if (!m) return score;
+  const ok = Number(m[1]);
+  const total = Number(m[2]);
+  if (total === 0) return score;
+  const pct = Math.round((ok / total) * 100);
+  return `${score} (${pct}%)`;
+}
+
 function callLabel(call: LlmCall, index: number): string {
   const batch =
     call.batch != null && call.batches != null
@@ -61,8 +72,18 @@ function callLabel(call: LlmCall, index: number): string {
   return `Call ${index + 1} · ${batch} · ${call.seconds?.toFixed(1) ?? "?"}s`;
 }
 
+function caseKey(c: CaseResult): string {
+  return `${c.id}\0${c.arm}`;
+}
+
+function defaultCaseKey(cases: CaseResult[]): string | null {
+  if (!cases.length) return null;
+  const withCalls = cases.find((c) => c.calls.length > 0);
+  return caseKey(withCalls ?? cases[0]);
+}
+
 export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
-  const [activeCase, setActiveCase] = useState<string | null>(null);
+  const [activeCaseKey, setActiveCaseKey] = useState<string | null>(null);
   const [activeCallIdx, setActiveCallIdx] = useState(0);
 
   const visibleCases = useMemo(() => {
@@ -72,22 +93,22 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
 
   useEffect(() => {
     if (!visibleCases.length) {
-      setActiveCase(null);
+      setActiveCaseKey(null);
       return;
     }
-    if (!activeCase || !visibleCases.some((c) => c.id === activeCase)) {
-      setActiveCase(visibleCases[0].id);
+    if (!activeCaseKey || !visibleCases.some((c) => caseKey(c) === activeCaseKey)) {
+      setActiveCaseKey(defaultCaseKey(visibleCases));
     }
-  }, [visibleCases, activeCase]);
+  }, [visibleCases, activeCaseKey]);
 
   const selectedCase = useMemo(
-    () => visibleCases.find((c) => c.id === activeCase) ?? null,
-    [visibleCases, activeCase]
+    () => visibleCases.find((c) => caseKey(c) === activeCaseKey) ?? null,
+    [visibleCases, activeCaseKey]
   );
 
   useEffect(() => {
     setActiveCallIdx(0);
-  }, [activeCase]);
+  }, [activeCaseKey]);
 
   const selectedCall = selectedCase?.calls[activeCallIdx] ?? null;
 
@@ -106,6 +127,8 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
 
   const meta = run.meta;
   const scores = run.summary.scores;
+  const byArm = run.summary.by_arm ?? {};
+  const armRows = Object.entries(byArm);
   const isLabel = run.kind === "label";
 
   return (
@@ -198,6 +221,51 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
         </Card.Body>
       </Card>
 
+      {!isLabel && armRows.length > 0 ? (
+        <Card className="run-view-section">
+          <Card.Header>
+            <h2>Scores by arm</h2>
+            <p className="main-subtle">
+              Per-arm precision — oracle (verified facts → engine), ground (LLM facts →
+              engine), llm (holistic, no engine).
+            </p>
+          </Card.Header>
+          <Card.Body>
+            <div className="execution-table arm-scores-table">
+              <div className="execution-table-header">
+                <span>Arm</span>
+                <span>Cases</span>
+                <span>Disposition</span>
+                <span>Engaged</span>
+                <span>PI</span>
+                <span>Facts</span>
+                <span>Failures</span>
+              </div>
+              {armRows.map(([arm, row]) => (
+                <div key={arm} className="execution-table-row">
+                  <span className="arm-name">{arm}</span>
+                  <span>{row.cases}</span>
+                  <span>{fmtScore(row.scores.disposition)}</span>
+                  <span>{fmtScore(row.scores.engaged)}</span>
+                  <span>{fmtScore(row.scores.pi)}</span>
+                  <span>{fmtScore(row.scores.facts)}</span>
+                  <span>{row.failure_cases}</span>
+                </div>
+              ))}
+              <div className="execution-table-row execution-table-row--total">
+                <span className="arm-name">All</span>
+                <span>{run.summary.arm_results}</span>
+                <span>{fmtScore(scores.disposition)}</span>
+                <span>{fmtScore(scores.engaged)}</span>
+                <span>{fmtScore(scores.pi)}</span>
+                <span>{fmtScore(scores.facts)}</span>
+                <span>{run.summary.failure_cases}</span>
+              </div>
+            </div>
+          </Card.Body>
+        </Card>
+      ) : null}
+
       <div className="run-view-grid">
         <Card className="run-view-section">
           <Card.Header>
@@ -209,16 +277,17 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
                 {visibleCases.map((c) => {
                   const failed = !isLabel && caseHasFailure(c);
                   const labelGold = c.label?.gold;
+                  const key = caseKey(c);
                   return (
                     <button
-                      key={`${c.id}-${c.arm}`}
+                      key={key}
                       type="button"
                       className={
                         "case-row" +
-                        (c.id === activeCase ? " case-row--active" : "") +
+                        (key === activeCaseKey ? " case-row--active" : "") +
                         (isLabel ? "" : failed ? " case-row--fail" : " case-row--pass")
                       }
-                      onClick={() => setActiveCase(c.id)}
+                      onClick={() => setActiveCaseKey(key)}
                     >
                       <span className="case-row-name">{c.id}</span>
                       <span className="case-row-arm">{c.arm}</span>
@@ -443,7 +512,11 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
               </div>
             ) : null
           ) : (
-            <p>No LLM calls logged for the selected case.</p>
+            <p>
+              {selectedCase?.arm === "oracle"
+                ? "Oracle arm uses hand-verified facts — no LLM call logged."
+                : "No LLM calls logged for the selected case."}
+            </p>
           )}
         </Card.Body>
       </Card>
