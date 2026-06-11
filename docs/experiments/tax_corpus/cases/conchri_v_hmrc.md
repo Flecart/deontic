@@ -3,17 +3,17 @@
 citation: [2025] UKFTT 600 (TC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/600
 exemptions: []
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_tc_2025_600_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+verified: yes
 
 ## Background
 
 <!-- RAW kept sections from ukftt/tc/2025/600/data.xml (everything before the tribunal's
      own reasoning) — used as-is; trim only if context length forces it.
-     Withheld headings: (none) -->
+     Withheld headings: (none)
+     MANUAL CUT: document has no XML section headings; the entire decision landed in
+     (preamble). The tribunal's own analysis ("Discussion and Conclusion", paras 43–57,
+     plus "Right to apply for permission to appeal", para 58) has been manually removed
+     from this section and appended to cache/ukftt_tc_2025_600_reasoning.txt. -->
 
 ### (preamble)
 

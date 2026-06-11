@@ -1,0 +1,689 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1462"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1462"/>
+	  <FRBRdate date="2025-12-01" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1462"/>
+	  <FRBRname value="John Clayton-Wright v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1462"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1462"/>
+	  <FRBRdate date="2025-12-01" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1462/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1462/data.xml"/>
+	  <FRBRdate date="2025-12-03T13:12:01" name="transform"/>
+	  <FRBRdate date="2025-12-03T14:23:37" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-12-01" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="john-clayton-wright" href="" showAs="JOHN CLAYTON-WRIGHT"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1462</uk:number>
+	<uk:cite>[2025] UKFTT 1462 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.1.0</uk:parser>
+	<uk:hash>e8bcb274ee570302dfba644f2107cb80b7bb5f32a4d545142fa28e5ca08ac605</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { text-align: left; margin-left: 0.58in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation2 { text-align: left; margin-left: 1in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation3 { text-align: left; margin-left: 1.25in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .legclearfixlegp2container { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .leglisttextstandardleglevel3 { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .leglisttextstandardleglevel4 { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .legclearfixlegp3container { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .legclearfixlegp4container { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .legp1paratext { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .legclearfix { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .legp2paratext { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FootnoteReference { vertical-align: super; }
+#judgment .FooterChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .legdslegrhslegp2text { }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .legdsleglhslegp2no { }
+#judgment .legdsleglhslegp3no { }
+#judgment .legdslegrhslegp3text { }
+#judgment .legchangedelimiter { }
+#judgment .legsubstitution { }
+#judgment .legdsleglhslegp4no { }
+#judgment .legdslegrhslegp4text { }
+#judgment .legds { }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.change1.png" style="width:82.5pt;height:70.5pt"/></p>
+      <p class="Style1">NCN: <neutralCitation>[2025] UKFTT 01462 (GRC)</neutralCitation></p>
+      <p class="Style1"><courtType refersTo="#ukftt-grc">First-tier Tribunal</courtType></p>
+      <p class="Style1"><courtType refersTo="#ukftt-grc">(General Regulatory Chamber) </courtType></p>
+      <p class="Style1"><docJurisdiction refersTo="#jurisdiction-informationrights">Information Rights </docJurisdiction></p>
+      <p class="Style2">Appeal Reference:  FT/EA/2025/0044</p>
+      <p class="Style1">Heard by CVP on 30 October 2025</p>
+      <p class="Style4">Before</p>
+      <p class="Style5">Judge ANTHONY SNELSON </p>
+      <p style="text-align:center"><span style="font-weight:bold">TRIBUNAL MEMBER DR AIMEE GASSTON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">TRIBUNAL MEMBER JO MURPHY</span></p>
+      <p class="Style4">Between</p>
+      <p class="Style5"><party as="#appellant" refersTo="#john-clayton-wright">JOHN CLAYTON-WRIGHT</party></p>
+      <p class="Style6"><role refersTo="#appellant" style="text-decoration-line:none">Appellant</role></p>
+      <p class="Style4">and</p>
+      <p class="Style5"><party as="#respondent" refersTo="#the-information-commissioner">THE INFORMATION COMMISSIONER</party></p>
+      <p class="Style6"><role refersTo="#respondent" style="text-decoration-line:none">Respondent</role></p>
+      <p class="Style3"><span style="text-decoration-line:none">Decision</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p>On hearing Mr J Hunter, counsel, on behalf of the Appellant and the Respondent having elected not to participate in the appeal hearing;</p>
+	    <p>And the Appellant having pursued appeals in relation to various determinations  given by the Respondent in a Decision Notice dated 9 December 2024 (&#8216;the Decision Notice&#8217;) arising out of five of the six numbered requests for information under the Environmental Information Regulations 2004 (&#8216;EIR&#8217;) delivered to the Stratford on Avon District Council (&#8216;the Council&#8217;) on 26 January 2024,<authorialNote class="footnote" marker="1">
+		<p class="FootnoteText"> Hereafter referred to as &#8216;Request (1), Request (2)&#8217; etc.</p>
+	      </authorialNote></p>
+	    <p>The Tribunal unanimously determines as follows:</p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num>1.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The appeal is allowed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num>2.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">A substituted Decision Notice is given in the following terms:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(1)</num>
+	    <content>
+	      <p style="margin-left:1in">The decision that the Council was entitled to rely (in respect of Requests  (1), (2) and (4)) on the exception under EIR, regs 12(5)(b) was not in accordance with the law;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(2)</num>
+	    <content>
+	      <p style="margin-left:1in">The decision that the Council was entitled to rely (in respect of Request (5)) on the exception under EIR, reg 12(5)(f) was not in accordance with the law;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(3)</num>
+	    <content>
+	      <p style="margin-left:1in">The decision that the Council was entitled to rely (in respect of Request (6)) on the exception under EIR, reg 12(4)(a) on the basis that it had disclosed all information held by it within the scope of that Request, was not in accordance with the law;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:1in;text-indent:-0.5in">(4)</num>
+	    <intro>
+	      <p style="margin-left:1in">No later than 28 days after promulgation of the Tribunal&#8217;s Decision herein, the Council shall:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:1.25in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p style="margin-left:1.25in;text-indent:0.12in">conduct a thorough but proportionate search for all recorded information within the scope of Requests (1), (2), (4), (5) and (6)<authorialNote class="footnote" marker="2">
+		    <p class="FootnoteText"><span> </span>The Requests and their numbering are explained in the accompanying reasons.</p>
+		  </authorialNote> held by it no later than 8 April 2024 and not already disclosed to the Appellant (under EIR or otherwise) since 29 February 2024; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:1.25in;text-indent:-0.25in">(b)</num>
+	      <intro>
+		<p style="margin-left:1.25in;text-indent:0.12in">disclose to the Appellant all information uncovered by the searches referred to under (a) above and not already disclosed to him (under EIR or otherwise) since 29 February 2024 or, if and to the extent applicable, give notice of any and every ground under EIR relied upon for refusing disclosure, PROVIDED THAT:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:1.77in;text-indent:-0.39in">(i)</num>
+		<content>
+		  <p style="margin-left:1.77in">the right to cite new grounds under EIR for refusal to disclose under (b) above applies <span style="text-decoration-line:underline;text-decoration-style:solid">only</span> to information first held by the Council between 16 February and 8 April 2024;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:1.77in;text-indent:-0.39in">(ii)</num>
+		<content>
+		  <p style="margin-left:1.77in;text-indent:0.11in">any information disclosable under (b) above in relation to Request 5 may be presented in redacted form to the extent necessary to prevent identification of relevant individuals or, where redaction will not be effective for that purpose, in the form of a gist or summary.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="Style3"><span style="text-decoration-line:none">Reasons</span></p>
+	    <p><span style="font-weight:bold">Introduction</span></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_3">
+	  <num>1.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The background to this litigation is a long-running planning enforcement dispute between the Appellant and Stratford-upon-Avon District Council (&#8216;the Council&#8217;) concerning the use of his property at Tamworth-in-Arden (&#8216;the Property&#8217;).  The origins of that dispute seem to date back to about 2007. Eventually the Council issued an enforcement notice but, on 14 October 2024, following a public enquiry, the Inspector allowed the appeal and quashed the notice.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="lvl_4">
+	  <num>2.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">The dispute with the Council provoked a number of requests for information   by the Appellant in and after 2019.  We are concerned only with his request of 26 January 2024, by which he sought information under the Environmental Information Regulations 2004 (&#8216;EIR&#8217;) which, he believed, would assist him in making an application for a certificate of lawfulness, under the following heads:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(1)</num>
+	    <content>
+	      <p style="margin-left:0.98in">Notes and photographs from visits by a named Council officer to the Property;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(2)</num>
+	    <content>
+	      <p style="margin-left:0.98in">Notes of discussions between various Council officers concerning the Property;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(3)</num>
+	    <content>
+	      <p style="margin-left:0.98in">Records showing the &#8216;domestic curtilage&#8217; of the Property, referred to in correspondence involving a named Council officer in 2007 and 2008;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(4)</num>
+	    <content>
+	      <p style="margin-left:0.98in">Any draft enforcement notices or reports to committee seeking authorisation to serve such a notice in respect of the Property;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(5)</num>
+	    <content>
+	      <p style="margin-left:0.98in">The complaint (if necessary, suitably redacted) alleging breach of planning control at the Property;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(6)</num>
+	    <content>
+	      <p style="margin-left:0.98in">The officer report or any other reasoned explanation as to why the Appellant&#8217;s application for a certificate of lawfulness made in 2009 had been refused.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num>3.</num>
+	  <content>
+	    <p style="margin-left:0.5in">Request (3) fell away at an early stage and we are not asked to make any determination about it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num>4.</num>
+	  <content>
+	    <p style="margin-left:0.5in">On 16 February 2024 the Council responded, confirming that it held information within the scope of all six requests but refusing to give any disclosure. In summary, under Requests (1), (2), (4) and (5) it relied on the exception under EIR, reg 12(5)(b) (prejudice to the course of justice).<authorialNote class="footnote" marker="3">
+		<p class="FootnoteText"> Under Requests (2) and (4) the Council also prayed in aid reg 12(4)(e) (internal communications), but that exception was not addressed by the Commissioner in his Decision Notice or in his written case and was not pressed on behalf of the Appellant before us. <span> </span></p>
+	      </authorialNote> Under Request (5) it cited EIR, reg 12(5)(f) (interests of the provider of the information). Under Request (6) it contended that a report had been disclosed as an attachment to an email of 29 January 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num>5.</num>
+	  <content>
+	    <p style="margin-left:0.5in">On 20 February 2024, through his solicitor, the Appellant raised numerous challenges to the Council&#8217;s response.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num>6.</num>
+	  <content>
+	    <p style="margin-left:0.5in">On 8 April 2024, following what it called an &#8216;internal review&#8217;, the Council maintained the stance taken in its initial response, offering somewhat expanded grounds for doing so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num>7.</num>
+	  <content>
+	    <p style="margin-left:0.5in">In communications of 15 and 16 May 2024 the Appellant then complained to the Commissioner about the way in which the Request had been handled. An investigation followed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num>8.</num>
+	  <content>
+	    <p style="margin-left:0.5in">In the course of the investigation, the Council disclosed to the Appellant many documents within scope of the Request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num>9.</num>
+	  <content>
+	    <p style="margin-left:0.5in">By a decision notice dated 9 December 2024 (&#8216;the DN&#8217;) the Commissioner determined that, <span style="font-style:italic">at the time of the request</span> [emphasis added], the Council had properly applied EIR regs 12(5)(b) and 12(5)(f) and the balance of the public interest favoured maintaining the exceptions and that, on the evidence presented, and having regard to the searches carries out, the Council did not hold any further information within the scope of Request (6). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num>10.</num>
+	  <content>
+	    <p style="margin-left:0.5in">By a notice of appeal dated 6 January 2025, the Appellant challenged the Commissioner&#8217;s adjudication.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num>11.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The Commissioner resisted the appeal in a Response dated 14 February 2025.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num>12.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The appeal came before us in the form of a public hearing held by Cloud Video Platform, with half a day allocated. We were satisfied that it was just and in keeping with the overriding objective to adopt that procedure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num>13.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The Appellant was represented by Mr John Hunter, counsel. The Commissioner did not appear, preferring to rely on his written case.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num>14.</num>
+	  <content>
+	    <p style="margin-left:0.5in">A substantial bundle of documents was before us. We also had the benefit of Mr Hunter&#8217;s skeleton argument and a letter from the Commissioner of 24 October 2025.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="font-weight:bold">The Applicable Law</span></p>
+	    <p><span style="font-style:italic">EIR</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num>15.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">EIR, reg 5 includes:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(1)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.02in"><span style="font-weight:bold;font-size:10pt">Subject to &#8230; and in accordance with &#8230; a public authority that holds environmental information shall make it available on request.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">EIR, reg 12 makes provision for exceptions to the duty to disclose environmental information. It includes:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:0.98in">(1)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.38in"><span style="font-weight:bold;font-size:10pt">Subject to paragraphs (2) &#8230; a public authority may refuse to disclose environmental information requested if &#8211; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.38in;text-indent:-0.39in">(a)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">in exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.38in;text-indent:-0.39in">(b)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.38in;text-indent:-0.39in">(2)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">A public authority shall apply a presumption in favour of disclosure.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.38in;text-indent:-0.39in">(3)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:0.98in">(4)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.38in"><span style="font-weight:bold;font-size:10pt">For the purposes of paragraph (1)(a), a public authority may refuse to disclose information to the extent that &#8211; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(a)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">it does not hold that information when an applicant&#8217;s request is received;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:0.98in">(5)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.38in"><span style="font-weight:bold;font-size:10pt">For the purposes of paragraph (1)(a), a public authority may refuse to disclose information to the extent that its disclosure would adversely affect &#8211; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt">(b)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">the course of justice, the ability of a person to receive a fair trial or the ability of a public authority to conduct an inquiry of a criminal or disciplinary nature;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p><marker name="tab"/><span class="legds" style="font-weight:bold;font-family:Arial;font-size:10pt;color:#1E1E1E">&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num class="legds" style="font-weight:bold;font-family:Arial;font-size:10pt;color:#1E1E1E">(f)</num>
+	    <intro>
+	      <p style="margin-left:1.38in"><span class="legds" style="font-weight:bold;font-family:Arial;font-size:10pt;color:#1E1E1E">the interests of the person who provided the information where that person &#8211;  </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num class="legds" style="font-weight:bold;font-family:Arial;font-size:10pt;color:#1E1E1E">(i)</num>
+	      <content>
+		<p style="margin-left:1.77in"><span class="legds" style="font-weight:bold;font-family:Arial;font-size:10pt;color:#1E1E1E">was not under, and could not have been under, any legal obligation to supply it to that or any other public authority;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legds" style="font-weight:bold;font-family:Arial;font-size:10pt;color:#1E1E1E">(ii)</num>
+	      <content>
+		<p style="margin-left:1.77in"><span class="legds" style="font-weight:bold;font-family:Arial;font-size:10pt;color:#1E1E1E">did not supply it in circumstances such that that or any other public authority is entitled apart from these Regulations to disclose it; and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-weight:bold;font-size:10pt;color:#1E1E1E;margin-left:1.77in;text-indent:-0.39in">(iii)</num>
+	      <content>
+		<p style="margin-left:1.77in;text-indent:0.23in"><span class="legds" style="font-weight:bold;font-family:Arial;font-size:10pt;color:#1E1E1E">has not consented to its disclosure &#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p><span style="font-style:italic">The Tribunal&#8217;s powers</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">The appeal is brought pursuant to the Freedom of Information Act (&#8216;FOIA&#8217;), s57.  The Tribunal&#8217;s powers in determining the appeal are delineated in s58 as follows:  </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1in;text-indent:-0.02in">(1)</num>
+	    <content>
+	      <p style="margin-left:1in;text-indent:0.36in"><span style="font-weight:bold;font-size:10pt">If on an appeal under section 57 the Tribunal consider &#8211; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1in;text-indent:-0.02in">(a)</num>
+	    <content>
+	      <p style="margin-left:1in;text-indent:0.36in"><span style="font-weight:bold;font-size:10pt">that the notice against which the appeal is brought is not in accordance with </span><marker name="tab"/><span style="font-weight:bold;font-size:10pt">the law; or</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:1.38in;text-indent:-0.39in">(b)</num>
+	    <content>
+	      <p style="margin-left:1.38in"><span style="font-weight:bold;font-size:10pt">to the extent that the notice involved an exercise of discretion by the Commissioner, that he ought to have exercised his discretion differently, </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p style="margin-left:0.98in"><span style="font-weight:bold;font-size:10pt">the Tribunal shall allow the appeal or substitute such other notice as could have been served by the Commissioner, and in any other case the Tribunal shall dismiss the appeal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold;font-size:10pt;margin-left:0.98in">(2)</num>
+	    <content>
+	      <p style="margin-left:0.98in;text-indent:0.38in"><span style="font-weight:bold;font-size:10pt">On such an appeal, the Tribunal may review any finding of fact on which the notice in question was based.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p><span style="font-weight:bold">The Rival Cases</span></p>
+	    <p><span style="font-style:italic">The Appellant&#8217;s case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">Mr Hunter advanced the following main arguments.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(1)</num>
+	    <content>
+	      <p style="margin-left:0.98in">The Commissioner&#8217;s reasoning was flawed because he had wrongly considered the applicability of the exceptions cited and the public interest balancing test as at the date of the response (16 February 2024) rather than at the date of reconsideration (8 April 2024). On a proper reading of EIR, the latter was the relevant date, as binding authority at Upper Tribunal level has recently confirmed (see <span style="font-style:italic">O&#8217;Hanlon v ICO and HSE </span>[2024] UKUT 66 (ACC)). </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(2)</num>
+	    <content>
+	      <p style="margin-left:0.98in">Once the correct date was taken, it became inevitable, for the purposes of reg 12(5)(b), that, if the exception was engaged at all, the Appellant must in any event win on the public interest balancing test.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(3)</num>
+	    <content>
+	      <p style="margin-left:0.98in">In relation to reg 12(5)(f), the Commissioner had repeated the error as to the date by reference to which the exception was to be considered and, in any event, arrived at an unsustainable conclusion on the public interest balancing test as a result of a failure properly to weigh competing interests and, in particular, to consider means by which the essence of the information requested could be conveyed to the Appellant without risk of prejudice to the complainants.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.98in;text-indent:-0.49in">(4)</num>
+	    <content>
+	      <p style="margin-left:0.98in">In addressing Request 6, the Commissioner had arrived at the view that the Council did not hold further relevant information when the evidence (as to searches conducted and information uncovered) did not warrant that finding.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-style:italic">The Commissioner&#8217;s case</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p style="margin-left:0.5in">Until days before the hearing of the appeal, the Commissioner stoutly maintained that his approach in relation to reg 12(5)(b) was correct, being in line with the judgment of the Upper Tribunal in the well-known FOIA case of <span style="font-style:italic">Montague v ICO </span>[2022] UKUT 104 (ACC). That changed on 24 October 2025, when he wrote to the Tribunal, acknowledging that, on the current state of the law following <span style="font-style:italic">O&#8217;Hanlon</span>, the relevant date for the purposes of considering engagement of EIR exceptions and the public interest balancing test is the date of reconsideration. But he went on to make two further points. First, he resisted the contention on behalf of the Appellant that, if the <span style="font-style:italic">O&#8217;Hanlon</span> reasoning had been applied, he would have arrived at a different outcome and would have been right to do so. Second, he stated that he was seeking permission to appeal against the <span style="font-style:italic">O&#8217;Hanlon </span>decision and that, if the Tribunal was against him on his first submission, it should stay the proceedings to await the outcome of the permission to appeal application.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The letter of 24 October 2025 added nothing to the balance of the Commissioner&#8217;s written case as set out in the DN and Response. What follows is drawn from those two documents. As to reg 12(5)(f), he maintained that the provision was engaged in that disclosure would be likely to prejudice the interests of those alleging breaches of planning control by compromising the confidentiality of their communications and revealing their identities and that redaction would not be a reliable measure to counteract such prejudice. Moreover, the public interest balancing test came down in favour of maintaining the exception (notwithstanding the statutory presumption in favour of disclosure), one key factor being the complainants&#8217; expectation of confidentiality and the importance of ensuring in future cases that the Council could count on being provided with information by interested third parties in planning enforcement disputes.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p style="margin-left:0.5in">As to reg 12(4)(a), relevant only (at least as the appeal was argued before us) to Request 6, the Commissioner&#8217;s case was that the Council had conducted adequate searches sufficient to entitle him to find, on the balance of probabilities, that no further information within scope of the request was held. In the Response (para 58), he did acknowledge that the email account of the Case Officer, Mr Treen, had not been searched, but observed that &#8216;&#8230; it seemed unlikely that further information within the scope of the request would be held.&#8217; </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-weight:bold">Analysis </span></p>
+	    <p class="ListParagraph" style="margin-left:0in"><span style="font-style:italic">The timing issue</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p style="margin-left:0.5in">We are in no doubt that Mr Hunter&#8217;s first point is well made. The reasoning in <span style="font-style:italic">O&#8217;Hanlon </span>is (if we may say so) persuasive. In any event, it is, as the parties agree, binding upon us. As the Commissioner rightly does not dispute, his analysis in the DN is at variance with <span style="font-style:italic">O&#8217;Hanlon</span>. Was his error, as he maintains, immaterial? We are quite satisfied that it was not. The interval in time between the dates of the response and the reconsideration was certainly quite short, but that is not the touchstone. What matters is whether there was any material development in the meantime. As Mr Hunter points out, there was a highly material change of circumstances during the interval in that, on 29 February 2024 the Council served the Enforcement Notice. At that point, so far as enforcement action was concerned, the die was cast. The material date (8 April 2024) was six weeks after that. By then, as we will seek to demonstrate, the arguments in favour of maintaining the exceptions under regs 12(5)(b) and 12(5)(f) had become much weaker, if they retained any residual force at all.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-style:italic">Reg 12(5)(b)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The relevant documents (those sought by Requests 1, 2 and 4) would certainly have been material to the decision to serve the Enforcement Notice and a case could certainly be made that disclosure under EIR before that decision would have been potentially damaging to public interests. But we find it hard to see how their disclosure after enforcement proceedings were begun would have been liable to prejudice, to any extent, the course of justice, the prospect of the Appellant receiving a fair hearing or the ability of the Council to conduct a fair inquiry. To the contrary, once the decision had been taken to institute enforcement proceedings, it seems to us that prejudice of the sort which reg 12(5)(b) seeks to guard against would be much more likely to result from suppression, not disclosure, of documents within the categories requested. In the circumstances, we are not persuaded that, as at the material date, the exception was engaged. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p style="margin-left:0.5in">Moreover, even if it was, we regard the Appellant&#8217;s case on the public interest balancing test as compelling. There was, self-evidently, a powerful public interest in enforcement being carried out fairly. The enforcement proceedings put him in significant jeopardy. The case against him was based on material much of which he had not seen and could only speculate about. We accept that access to relevant, or potentially relevant, documents is likely to be a highly material factor in assessing the fairness of the process. There is, as we understand it, no built-in right to disclosure of documents under planning enforcement procedures. (On this aspect, we accept what Mr Hunter tells us (skeleton, para 29), having no reason to question it.) </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p style="margin-left:0.5in">We also see considerable force in two further points advanced by Mr Hunter. First, the fact that the relevant date falls some weeks after the initiation of enforcement proceedings greatly diminishes (arguably defeats entirely) the customary argument about the public interest in allowing a public authority a &#8216;safe space&#8217; for determination of important questions regarding the exercise of its powers. Secondly, the Openness of Local Government Bodies Regulations 2014 give effect to a clear legislative policy of ensuring that relevant local government decisions, the reasons for those decisions and the documentary materials of which they are based are placed in the public domain &#8216;as soon as reasonably practicable&#8217;,  save where the information is properly judged to be confidential (see regs 7, 8 and 9)). We agree with Mr Hunter that the objective underlying the 2014 Regulations could not be easily reconciled with restrictive decision-making in relation to disclosure of the very documents on which the reasoning published under those regulations is based.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The statutory presumption in favour of disclosure also operates to the Appellant&#8217;s advantage.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p style="margin-left:0.5in">For all of these reasons, we are satisfied that the Commissioner&#8217;s determination in relation to reg 12(5)(b) was not in accordance with the law.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p><span style="font-style:italic">Reg 12(5)(f)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p style="margin-left:0.5in">It was not in question that the three requirements under sub-paras (i)-(iii) of reg 12(5)(f) were satisfied. The dispute before us was as to the public interest balance test and the date on which it was to be applied. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p style="margin-left:0.5in">For the reasons already given, which the Commissioner no longer challenges, we find that he was wrong to address the application of the exception and the public interest balance test as at the date of the response rather than the later reconsideration decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p style="margin-left:0.5in">We also consider that the Commissioner erred more generally in applying the public interest balancing test. We are unpersuaded, having regard to the evidentiary material which we have seen, that suitable redaction of materials containing or recording third party complaints would have been ineffective to prevent identification of the complainants. We find in the Commissioner&#8217;s case nothing to substantiate his bare assertion to the contrary. In any event, if and to the extent that such a risk arose, Mr Hunter&#8217;s pragmatic proposal to substitute for disclosure a short gist or summary as appropriate would meet the justice of the case by fairly balancing the competing interests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p style="margin-left:0.5in">In the circumstances, we find that the Commissioner&#8217;s determination under reg 12(5)(f) was made in error of law.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p><span style="font-style:italic">Reg 12(4)(a)</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p style="margin-left:0.5in">We are also persuaded that the Commissioner was wrong to hold that the Council did not hold information within the scope of Request 6 in addition to that already disclosed. We have two reasons. In the first place, the ruling here is again infected by the error relating to the date as at which the exception should be applied (see above). It follows that the Commissioner&#8217;s inquiry did not extend to the full period which ought to have been covered. Secondly and in any event, there was, in our judgment, no warrant for the finding that it was not necessary to search the email account of Mr Treen, the Case Officer. No sound evidential basis was offered for the assumption that such a search would have yielded no relevant information and we see force and common sense in Mr Hunter&#8217;s observation (Reply, para 15) that the Case Officer&#8217;s account would have been a natural place to look for information relating to the Request.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p><span style="font-weight:bold">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p style="margin-left:0.5in">For all of the reasons we have given, we are satisfied that the Commissioner&#8217;s decision was made in error of law. Should we, nonetheless, stay this appeal to allow for the possibility of an appeal against the <span style="font-style:italic">O&#8217;Hanlon </span>decision being allowed to proceed? We are very clear that the right answer to that is no.  There is nothing before us to suggest that there is any current application for permission to appeal (at Upper Tribunal or Court of Appeal level) and we think it unlikely that an effective appeal will eventuate. Moreover, even if one did, it would be open to the Commissioner to apply for a stay of the FTT proceedings at that stage, if so advised. As matters now stand, the overriding objective argues powerfully in favour of proceeding with the litigation with a view to seeing an end to an over-long, costly and painful saga.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p style="margin-left:0.5in">It follows that we must allow the appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p style="margin-left:0.5in">We refer to the substituted Decision Notice set out in the Decision above. Sub-paras (1)-(3) can, we think, be left to speak for themselves. Sub-para (4)(a) requires the Council to conduct further searches in respect of the specified Requests. The main reason is that the Commissioner and, it seems, the Council misdirected themselves as to the date by reference to which the l awfulness of the Response is to be assessed. But the requirement to carry out a thorough but proportionate search is not limited to that six-week period and, in light of our Decision and any advice which it may receive, the Council may well become aware of other information within scope of the Requests.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <content>
+	    <p style="margin-left:0.5in">The Council&#8217;s disclosure obligations under sub-para (4)(b) of the substituted Decision Notice should be carefully noted. Particular attention is drawn to the two provisos. As to the first, for the avoidance of doubt, it will not be open to the Council to cite any new exemption in respect of any information which was held on or before 16 February 2024. The Council will need to be clear in stipulating, in respect of any and every exception relied upon, the relevant Request and the date when the relevant information was first held. As to the second proviso, any redacted information should be accompanied by a brief explanation as to why redaction is said to be necessary. And where the Council contends that redaction will not be sufficient (and accordingly a summary or gist is provided instead), the Council should give grounds for that contention.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p style="margin-left:0.5in">Finally, we should say for completeness that while EIR, reg 12(4)(e) (internal communications) was not debated before us, if it had been we would have held that the Council&#8217;s reliance on that exception also failed in that it was based on the timing misconception which afflicted its case under regs 12(5)(b) and 12(5)(f).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p><span style="font-weight:bold">Postscript</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <intro>
+	    <p style="margin-left:0.5in">We regret the long and costly history of this dispute and hope that in the light of our decision the parties will now make it a priority to dispose of what is left of it as swiftly and economically as possible.</p>
+	  </intro>
+	  <subparagraph>
+	    <intro>
+	      <p class="Style7" style="margin-left:2.56in">(Signed)      <marker name="tab"/>Anthony Snelson</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Style7" style="margin-left:3.06in;text-indent:0.44in">Judge of the First-tier Tribunal</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Style7" style="margin-left:3.06in;text-indent:0.44in">Dated: <docDate date="2025-12-01" refersTo="#decision">1 December 2025</docDate></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

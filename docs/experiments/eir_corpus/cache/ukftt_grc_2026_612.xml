@@ -1,0 +1,468 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/612"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/612"/>
+	  <FRBRdate date="2026-04-23" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="612"/>
+	  <FRBRname value="Wayne Michaels v Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/612"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/612"/>
+	  <FRBRdate date="2026-04-23" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/612/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/612/data.xml"/>
+	  <FRBRdate date="2026-04-23T14:09:38" name="transform"/>
+	  <FRBRdate date="2026-04-23T14:40:41" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-04-16" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-23" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="wayne-michaels" href="" showAs="Wayne Michaels"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="Information Commissioner"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>612</uk:number>
+	<uk:cite>[2026] UKFTT 612 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>cf03fedf44a66244b91d2422faafa57b582b0dab81bdb6d20274bfe1d872ee53</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .p1 { font-size: 10.5pt; color: #000000; }
+#judgment .p2 { font-size: 8pt; color: #000000; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Strong { font-weight: bold; }
+#judgment .Emphasis { font-style: italic; }
+#judgment .FollowedHyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #954F72; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">[2026] UKFTT 00612 (GRC)</neutralCitation></p>
+      <p class="Heading3" style="text-align:right"><span style="font-weight:bold;font-family:Arial;font-size:14pt"> </span><span class="Strong" style="font-style:normal;font-family:'Segoe UI';font-size:14pt">Appeal Number: FT/EA/2025/0458 &amp; FT/EA/2026/0028.</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt;color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Heard on: </span><docDate date="2026-04-16" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt;color:#000000">16 April 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Decision given on: </span><docDate date="2026-04-23" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">23 April 2026</docDate></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Before: Judge Brian Kennedy KC with:</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Specialist Panel members Jo Murphy and Stephen Shaw.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Between:</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#wayne-michaels" style="font-family:'Book Antiqua';font-size:14pt">Wayne Michaels</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#information-commissioner" style="font-family:'Book Antiqua';font-size:14pt">Information Commissioner</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Respondent</role></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Hearing: </span><span style="font-family:'Book Antiqua';font-size:14pt">On the Papers.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Decision: </span><span style="font-family:'Book Antiqua';font-size:14pt">The appeals are </span><span style="font-family:'Book Antiqua';font-size:14pt;color:#000000">Dismissed.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Introduction:</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">These are two linked appeals brought by Mr Wayne Michaels (&#8220;the Appellant&#8221;) against separate Decision Notices issued by the Information Commissioner under the Environmental Information Regulations 2004 (&#8220;the EIR&#8221;).</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">Both appeals concern requests made to Bracknell Forest Borough Council (&#8220;the Council&#8221;) for environmental information arising out of a planning enforcement investigation into substantial land raising at the Royal County of Berkshire Polo Club, Winkfield.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The appeals were case-managed together and effectively consolidated and determined without an oral hearing, the appellant having agreed form outside the jurisdiction, directly on telephone communication with the Tribunal Panel on 16 April 2026 that the Tribunal could proceed to determine the appeals on the papers (rather than incur a wasted day). Bearing in mind the Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009 &#8211; and </span><span style="font-family:'Book Antiqua';color:#000000">the overriding objective and parties' obligation to co-operate with the tribunal</span><span style="font-family:'Book Antiqua'">, the Tribunal would in any event have taken this course of our own volition in the circumstances where the Appellant was outside the UK.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The central theme common to both appeals is whether environmental information connected with a live (and later evolving) planning enforcement process was lawfully withheld under EIR exceptions, particularly regulation 12(4)(e) (internal communications) and regulation 12(5)(d) (confidentiality of proceedings).</span></p>
+      </blockContainer>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Chronology:</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Polo Club obtained planning permissions in 2012 and 2017 for the formation of polo pitches involving permitted land raising within defined parameters.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">From at least 2022 onwards, Mr Michaels raised concerns with the Council that large quantities of soil had been imported to the site, allegedly well beyond what was authorised, resulting in raised land levels, altered drainage and surface water flooding affecting neighbouring land.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">In January 2025, Mr Michaels made an EIR request seeking: (a) the full commissioned land survey report; and (b) reports, documents and correspondence produced by the Council&#8217;s planning and enforcement teams relating to the matter.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council initially refused disclosure under the Freedom of Information Act 2000, but on internal review treated the request under the EIR and relied on regulations 12(4)(e) and 12(5)(d).</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Following a complaint under regulation 18 EIR, the Commissioner issued Decision Notice IC-374817-T7G5 dated 10 December 2025. The Commissioner: (a) found, on the balance of probabilities, that no further survey information was held beyond that disclosed;</span><br/><span style="font-family:'Book Antiqua'">(b) upheld reliance on regulation 12(4)(e) for internal communications;</span><br/><span style="font-family:'Book Antiqua'">(c)   upheld reliance on regulation 12(5)(d) for remaining withheld material; and</span><br/><span style="font-family:'Book Antiqua'">(d)    ordered limited disclosure of communications with third parties.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Mr Michaels appealed that Decision Notice, giving rise to appeal FT/EA/2025/0458.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In July 2025, Mr Michaels made a further EIR request seeking data and findings quantifying the extent of land raising and planning breaches.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council again refused disclosure, relying solely on regulation 12(5)(d), on the basis that the enforcement investigation was ongoing.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Commissioner issued a second Decision Notice, IC-429659-M0P7 dated 11 December 2025, upholding the Council&#8217;s reliance on regulation 12(5)(d).</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Mr Michaels appealed that Decision Notice, giving rise to appeal FT/EA/2026/0028.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In December 2025, the Council served an Enforcement Notice under section 172 of the Town and Country Planning Act 1990, alleging unauthorised deposit of material resulting in increased flood risk.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Subsequently, the Polo Club submitted a retrospective planning application. In February 2026, the Council withdrew the Enforcement Notice on a procedural basis pending determination of that application, expressly reserving the right to re-serve enforcement.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">During 2026, further substantial quantities of materials (documents &amp; photographs) were placed before the Tribunal concerning alleged flooding, contamination risks, and the scale of land raising, including figures suggesting approximately 500,000 cubic metres of imported soil.</span></p>
+      </blockContainer>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Relevant Legal Framework:</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Regulation 5(1) EIR imposes a duty on public authorities to make environmental information available on request.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">&#8220;Environmental information&#8221; is defined widely in regulation 2(1) EIR and includes information relating to land, water, waste, emissions, flood risk and human health.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Regulation 12 EIR permits refusal of disclosure only where a specific exception applies and in all the circumstances the public interest in maintaining the exception outweighs the public interest in disclosure.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Regulation 12(2) provides that exceptions must be interpreted restrictively and establishes a presumption in favour of disclosure.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Regulation 12(4)(e) permits refusal where disclosure would involve internal communications.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Regulation 12(5)(d) permits refusal where disclosure would adversely affect the confidentiality of the proceedings of a public authority, where such confidentiality is provided by law.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	<p style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Where it is disputed whether information is held, the applicable standard is the civil standard of proof, namely the balance of probabilities.</span></p>
+      </blockContainer>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Issues for the Tribunal:</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">Across the two appeals, the issues for the Tribunal may be summarised as follows: (a) whether the Commissioner was correct to conclude that no further survey or survey-related information was held by the Council;</span><br/><span style="font-family:'Book Antiqua'">(b) whether regulation 12(4)(e) was correctly applied to internal communications and, if so, whether the public interest favoured maintaining that exception;</span><br/><span style="font-family:'Book Antiqua'">(c) whether regulation 12(5)(d) was engaged in relation to planning enforcement material;</span><br/><span style="font-family:'Book Antiqua'">(d) whether any confidentiality relied upon was &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">provided by law</span><span style="font-family:'Book Antiqua'">&#8221; within the meaning of regulation 12(5)(d);</span><br/><span style="font-family:'Book Antiqua'">(e) whether the Commissioner properly applied the public interest test, including the presumption in favour of disclosure; and</span><br/><span style="font-family:'Book Antiqua'">(f) the relevance, if any, of subsequent developments in the enforcement and planning process to the lawfulness of the refusals.</span></p>
+      </blockContainer>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Appellant&#8217;s Submissions (Summary):</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant submits that the Commissioner erred in law and in the public interest assessment.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">He contends that the Council&#8217;s assurances as to the non-existence of further survey information were inadequately tested, given references to available and ongoing extracts, raw survey data and contractor communications.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to regulation 12(4)(e), he argues that the Commissioner relied on generic &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">safe space</span><span style="font-family:'Book Antiqua'">&#8221; reasoning without a content-specific assessment or consideration of partial disclosure.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to regulation 12(5)(d), the Appellant argues that: (a) planning enforcement investigations are not inherently confidential;</span><br/><span style="font-family:'Book Antiqua'">(b) no statutory or established common-law duty of confidentiality was identified;</span><br/><span style="font-family:'Book Antiqua'">(c) factual environmental data should be distinguished from deliberative material; and</span><br/><span style="font-family:'Book Antiqua'">(d) disclosure would not, on the evidence, more probably than not undermine any protected proceedings.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">He places significant weight on ongoing flooding, alleged contaminated infill, and the scale of land raising as strengthening the public interest in transparency.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">He also relies on subsequent events, including the enforcement notice and remedial planning application, as undermining any claim to continuing confidentiality.</span></p>
+      </blockContainer>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Commissioner&#8217;s Submissions (Summary):</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Commissioner resists both appeals and relies substantially on the reasoning in the Decision Notices.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">He submits that he was entitled to accept the Council&#8217;s explanations as to what information was held and that the balance of probabilities test was correctly applied.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">He maintains that regulation 12(4)(e) is a class-based exception and that the public interest favoured maintaining a protected space for internal communications during a live enforcement investigation.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to regulation 12(5)(d), the Commissioner submits that: </span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua'">(a)</num>
+	<p style="margin-left:0.5in;text-indent:0.5in"><span style="font-family:'Book Antiqua'">the planning enforcement investigation constituted &#8220;proceedings&#8221;;</span><br/><span style="font-family:'Book Antiqua'">(b) confidentiality arose from common-law principles and the statutory context of section 172 TCPA;</span><br/><span style="font-family:'Book Antiqua'">(c) disclosure would have adversely affected those proceedings; and</span><br/><span style="font-family:'Book Antiqua'">(d) the public interest favoured maintaining confidentiality while enforcement remained live.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	<p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">He submits that subsequent developments do not render the original Decisions unlawful and do not retrospectively displace valid reliance on the EIR exceptions.</span></p>
+      </blockContainer>
+      <p style="text-align:center;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">Decision and Reasons</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal wishes to make clear at the outset that it accepts the Appellant&#8217;s concerns as genuine, sincerely and properly held while carefully and competently articulated. The issues raised - relating to alleged large-scale land raising, altered drainage patterns and flood risk together with significant pollution and health hazards&#8212;plainly engage matters of significant environmental and public interest within the scope and purpose of the Environmental Information Regulations 2004 (&#8220;the EIR&#8221;).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">T</span><span style="font-family:'Book Antiqua'">he Tribunal equally recognises that transparency in environmental decision-making is an important safeguard, capable of promoting accountability and public confidence. These considerations carried substantial weight in the Tribunal&#8217;s assessment of the competing public interests in both appeals.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">However, the Tribunal emphasises that the EIR regime does not mandate disclosure at any cost or at any time. The Regulations expressly permit information to be withheld where disclosure would undermine the effective functioning of regulatory and enforcement processes, provided that the statutory tests are met and the public interest balance is properly and carefully undertaken.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In essence, the Tribunal is asked to determine whether the Commissioner lawfully upheld the Council&#8217;s refusal to disclose environmental information relating to a large-scale planning enforcement investigation, in circumstances involving alleged ongoing flooding, land alteration and potential contamination, and whether the strong statutory presumption in favour of disclosure was displaced on a lawful and evidence-based basis.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Information Held:</span></heading>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In appeal FT/EA/2025/0458, the Tribunal is satisfied, applying the civil standard of proof, that the Council did not hold any further survey material beyond that already disclosed. We have carefully studied the closed material in our possession which confirms that the commissioned land survey consisted of a single drawing and did not generate additional reports, analysis or underlying datasets.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Commissioner was entitled to accept the Council&#8217;s explanation as to what information was held, and the Tribunal is satisfied and finds that even despite the absence of any material evidence to the contrary, there is no evidential basis for concluding that further survey information existed but was withheld.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Regulation 12(4)(e): Internal Communications:</span></heading>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal agrees that regulation 12(4)(e) was engaged in respect of internal communications between officers and elected members. The closed material consists almost exclusively of communications concerned with evaluating allegations of breach, assessing compliance with planning permissions, and determining the appropriate regulatory response.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal considers that, during an active enforcement investigation, there is a strong and legitimate public interest in maintaining a protected space for internal deliberation. Effective enforcement depends upon the ability of public authorities to assess evidence, debate options and test conclusions candidly and rigorously before formal decisions are taken.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal is satisfied that disclosure of such material at that stage would have risked inhibiting frank internal discussion and distorting the enforcement process. The Commissioner was therefore entitled to conclude that the public interest in maintaining this exception outweighed the public interest in disclosure.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Regulation 12(5)(d): Confidentiality of Proceedings:</span></heading>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">In both appeals, the Tribunal is satisfied that regulation 12(5)(d) was engaged. The withheld information related directly to a live planning enforcement process, including consideration of whether a breach had occurred and what statutory enforcement action, if any, should be pursued.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal accepts that such enforcement activity constitutes &#8220;proceedings&#8221; within the meaning of regulation 12(5)(d), and that confidentiality is provided by law, arising from the statutory framework governing planning enforcement and well-established public law principles protecting investigatory and decisional integrity.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal is satisfied that disclosure at the time of the requests would have been likely to prejudice those proceedings by revealing evaluative reasoning, tentative assessments, and enforcement strategy before the local authority had reached a settled and legally robust position. (see also </span>&#167;&#167;<span style="font-family:'Book Antiqua'"> 58 &amp; 59 below).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Public Interest Balance:</span></heading>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal has carefully weighed the competing public interests. On one side lies a strong public interest in transparency, particularly where environmental harm is alleged, and community concern is acute. On the other lies the more compelling public interest in ensuring that planning enforcement authorities are able to carry out their statutory functions effectively, lawfully and without premature interference.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal considers that premature disclosure of enforcement-sensitive material would have carried a real risk of frustrating or distorting the enforcement process. Such an outcome would not serve the public interest in environmental protection but would instead undermine the capacity of regulators to address alleged breaches properly and decisively.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">I</span><span style="font-family:'Book Antiqua'">n those circumstances, the Tribunal is satisfied that the public interest in maintaining confidentiality decisively and conclusively outweighed the public interest in disclosure at the relevant time. The presumption in favour of disclosure in regulation 12(2) does not materially alter that conclusion.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Closed Material:</span></heading>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal has examined the closed material with care. Having done so, it is satisfied that the Commissioner&#8217;s conclusions were not only justified on the balance of probabilities but were strongly supported by the underlying evidence.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">Nothing in the closed material suggests that the Council approached the matter casually, defensively or without due regard to the seriousness of the environmental concerns raised. On the contrary, it demonstrates a careful and structured approach to evidence-gathering, evaluation and decision-making.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Standard of Proof and Discretion:</span></heading>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal is satisfied that the Commissioner was well within the proper exercise of his discretion in upholding the Council&#8217;s reliance on regulations 12(4)(e) and 12(5)(d). The decisions under appeal are supported on the balance of probabilities and, in substance in our unanimous opinion would meet a higher evidential threshold.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Subsequent Events:</span></heading>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal has not taken account of subsequent developments, including the service and later withdrawal of the Enforcement Notice or the submission of a retrospective planning application. The correct temporal focus for assessing the lawfulness of the refusals is the date of the internal review responses, and later events cannot retrospectively invalidate decisions that were lawful when taken.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Discussion:</span></heading>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">These are appeals under regulation 18 of the Environmental Information Regulations 2004 against two Decision Notices issued by the Information Commissioner in relation to information requested from Bracknell Forest Borough Council concerning a planning enforcement investigation.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal&#8217;s role is supervisory. It is not concerned with the merits of the underlying planning dispute, nor with whether disclosure would be desirable, but whether the Commissioner erred in law or reached conclusions not reasonably open to him.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to regulation 12(4)(e), it was not disputed that the information comprised internal communications. The Tribunal is satisfied that the Commissioner lawfully identified and weighed the relevant public interest factors, including the existence of a live enforcement investigation and the timing of the requests. Enforcement requires a high degree of confidentiality. No error of law is disclosed in the Commissioner&#8217;s conclusion that the public interest favoured maintaining the exception.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to regulation 12(5)(d), the Tribunal is satisfied that the Commissioner was entitled to treat the planning enforcement investigation as &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">proceedings</span><span style="font-family:'Book Antiqua'">&#8221; for the purposes of the Regulation, to conclude that confidentiality was provided by law during the investigative stage, and to find that disclosure would more probably than not adversely affect that confidentiality. The Appellant&#8217;s arguments amount to disagreement with that evaluative judgment rather than demonstration of legal error.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p class="NormalWeb" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">In respect of the alleged non-existence of further survey information (FT/EA/2025/0458), the Tribunal finds that the Commissioner applied the correct test and was entitled, on the balance of probabilities, to accept the Council&#8217;s evidence as to the information held. Although the appellant advances a cogent narrative as to why one might expect further survey or analytical material to exist, that narrative rests on inference rather than evidence. The Commissioner has in our unanimous opinion correctly directed himself to the balance-of-probabilities test, considered the searches undertaken, and was entitled to accept the public authority&#8217;s explanation that no further material was held at the relevant times. The Tribunal&#8217;s role is supervisory, and it is not satisfied that the Commissioner&#8217;s conclusion was one not reasonably open to him. The Tribunal accepted that reasonable minds may differ, but that the Commissioner&#8217;s position was legally available.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Tribunal is further satisfied that the Commissioner properly directed himself to the presumption in favour of disclosure under regulation 12(2) and applied it as part of the overall balancing exercise. There is no error of law here either.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <content>
+	      <p class="NormalWeb" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Matters arising after the issuance of the Decision Notices do not retrospectively render those decisions unlawful.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">Conclusion:</span></heading>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">For all the above reasons, both appeals are dismissed.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <content>
+	    <p><span style="font-family:'Book Antiqua'">Brian Kennedy KC                                                              20 April 2026.</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
