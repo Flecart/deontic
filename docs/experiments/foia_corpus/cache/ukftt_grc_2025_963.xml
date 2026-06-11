@@ -1,0 +1,682 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/963"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/963"/>
+	  <FRBRdate date="2025-08-13" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="963"/>
+	  <FRBRname value="Shibu Gangadharan v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/963"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/963"/>
+	  <FRBRdate date="2025-08-13" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/963/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/963/data.xml"/>
+	  <FRBRdate date="2025-08-15T14:12:53" name="transform"/>
+	  <FRBRdate date="2025-08-15T14:37:14" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-07-23" refersTo="#decision" source="#"/>
+	<eventRef date="2025-08-13" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="shibu-gangadharan" href="" showAs="SHIBU GANGADHARAN"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="oxford-spires-academy" href="" showAs="OXFORD SPIRES ACADEMY"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>963</uk:number>
+	<uk:cite>[2025] UKFTT 963 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>dcde614b19a6e2ba88c01cbf722d07c3eba41c1161f308f7387ba0f8232317ce</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .legclearfix { font-size: 12pt; }
+#judgment .legrhs { font-size: 12pt; }
+#judgment .Default { font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .legds { }
+#judgment .apple-converted-space { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">NCN: </span><neutralCitation style="font-family:'Book Antiqua';color:#000000">[2025] UKFTT 00963 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000"> Case Reference: EA/2023/0175</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Heard on: 23 July 2025 remitted from the Upper Tribunal</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Decision given on: </span><docDate date="2025-08-13" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">13 August 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">JUDGE  J FINDLAY </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER DR AIM&#201;E GASSTON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER  DR PHEBE MANN </span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#shibu-gangadharan" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">SHIBU GANGADHARAN</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p class="ListParagraph" style="text-align:right;margin-left:0in"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">First Respondent</role></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#oxford-spires-academy" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">OXFORD SPIRES ACADEMY</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Second Respondent</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">:</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Appellant: No attendance</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the First Respondent: Joseph Lavery, Counsel</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">Observer: Clare Nicholson, Information Commissioner&#8217;s Office</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Second Respondent: Claudia Hyde, Counsel</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">Observer: Eleri Griffiths,</span><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000"/><span style="font-family:'Book Antiqua';color:#000000">Browne Jacobson</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Decision: </span><span style="font-family:'Book Antiqua';color:#000000">The appeal is allowed. The Oxford Spires Academy (the School), the Second Respondent, was not entitled to rely on s.40(2) of the Freedom of Information Act 2000 (FOIA) to withhold the requested information in Request 4. The information requested has now been provided by the School. </span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">The data in the Closed Bundle (CB) is out of scope and s.40(2) of the FOIA does not apply to the CB.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Substituted Decision Notice - </span><span style="font-weight:bold">IC-179205-F3M4</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">Organisation: Oxford Spires Academy (the School)</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">Complainant: Shibu Gangadharan</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the reasons set out below in this Decision:</span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">On 6 March 2025 the School filed Exhibit 1 providing a breakdown of grade attainment in 2019, 2020 and 2021 in the subjects Business Studies, English Language, English Literature, Maths, Chemistry and Religious Studies with ethnicity data for comparison purposes grouped into &#8220;All ethnicities&#8221;, &#8220;White British&#8221;, &#8220;Non-White British&#8221;, &#8220;White&#8221; and &#8220;Non-White.&#8221;</span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">The information in Exhibit 1 answers Request 4 as reasonably interpreted by the School.</span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">The information contained in Exhibit 1 was available to the School on the date of the internal review on 22 July 2022. The School provided the underlying data in the CB to Anthem Schools Trust which prepared Exhibit 1.</span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">The Commissioner and the School agree that s.40(2) of the FOIA is not engaged in relation to the information in Exhibit 1 at this point in time as it is not personal data. </span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">The underlying data supporting Exhibit 1 and in the CB is personal data but is not within the scope of Request 4 and s.40(2) of the FOIA is not engaged.</span></p>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua';color:#000000">The School is not required to take any steps as the Appellant has been sent Exhibit 1 which contains the information requested in Request 4.</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt;color:#000000">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <level eId="lvl_1_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;color:#000000">Procedure</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Appellant did not join the hearing. The Tribunal Clerk telephoned him twice and sent an email to his known email address but received no response. Notice of the hearing with the link to the CVP hearing and the Open Bundle (OP) was sent to the Appellant on 8 May 2025. The Appellant already had the Original Open Bundle (OOP) from the previous appeal. The Appellant was asked by the School, in an email dated 4 July 2025, to confirm his attendance, give details of any representative and confirm whether he considered that the information provided by the School was sufficient for his purposes in relation to Request 4. The Appellant did not respond. In an email, dated 19 February 2025, the Appellant confirmed that he was not intending to file a further submission and was content for the Tribunal to determine the appeal with the evidence provided.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal was satisfied that the Appellant had been notified of the hearing and it was in the interests of justice to proceed in his absence, taking into account the provisions of rules 2 and 36 of The Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in">In reaching its decision the Tribunal took into account all the evidence before it  including the Original Open Bundle (OOB), the Open Bundle (OB) and CB and made findings on the balance of probabilities. </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;color:#000000">Background and Request</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">This appeal is brought under s.57 of the FOIA against the decision of the Information Commissioner (the Commissioner), the First Respondent, dated 3 March 2023 (the Decision Notice) with reference IC-179205-F3M4 which is a matter of public record.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">The appeal was determined and dismissed on 20 October 2023 on the papers. The Tribunal&#8217;s Decision, issued on 31 October 2023, was set aside by Upper Tribunal Judge (UTJ) Stout in a decision issued on 9 August 2024 on the grounds that the Tribunal failed to deal with the whole of the Appellant&#8217;s Request 4 and on the grounds that the Tribunal failed to apply its mind to the questions of whether the information requested was personal data capable of serving the legitimate interest of the Appellant and/or failure to take account of relevant factors as to how the data requested might serve the Appellant&#8217;s legitimate interest and/or failure to provide adequate reasons for its decision. UTJ Stout remitted the appeal for re-hearing in respect of Request 4.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">Request 4 was made by the Appellant on 14 July 2022 and was as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;Fisher Family trust (FTT) can be used as a benchmark to see what would be expected by a cohort of students in terms of results. Under the Freedom of information Act (2000), please provide data FFT vs CAG for the percentage of Caucasian students vs percentage of non-Caucasian/BAME students achieving level 7, level 8 and level 9 independently for the subjects, Business Studies, English Language, English Literature, Maths, Chemistry and Religious Education. Please include FFT reference data.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000;background-color:#FFFFFF">The</span><span class="apple-converted-space" style="color:#000000;background-color:#FFFFFF">&#160;</span><span style="color:#000000">Fischer Family Trust</span><span class="apple-converted-space" style="color:#000000;background-color:#FFFFFF">&#160;</span><span style="color:#000000;background-color:#FFFFFF">(not the Fisher Family Trust as stated in the Appellant&#8217;s Request 4) (FFT) processes the National Pupil Database for the Department of Education and provides data and analyses to all schools in England and Wales.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">On </span>22 July 2022, the School responded and stated that it would not provide the information requested as it would enable the Appellant to identify individual students. It withheld the information under s.40(2) of the FOIA.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-family:Arial">Following an internal review the School wrote to the Appellant on 19 October 2022 maintaining its original position in respect of s.40(2) of FOIA in relation to the Appellant&#8217;s other three Requests.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial">On 3 July 2022, the Appellant made a complaint to the Commissioner and in September and October 2022. </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="ListParagraph" style="text-align:justify;margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Decision Notice</span></heading>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial">On 3 March 2023 the Commissioner issued the Decision Notice finding as follows:</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The requested information constituted the personal data of the students. They would  be identifiable  to  the  Appellant  and  others  with  knowledge  of  the  School because it could be linked to other information they hold.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_2_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'"> It would not be lawful to disclose the information under Article 5(1)(a) GDPR i.e. there would be no lawful basis for doing so under Article 6(1)) because, though disclosure would serve a legitimate interest by increasing knowledge about how the School awarded grades in 2020, it would not be necessary as it would only partially provide this knowledge and there are alternative sources of information.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:Arial">On 26 March 2023, the Appellant appealed the Commissioner&#8217;s Decision Notice.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Preliminary Matters</span></heading>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The Tribunal raised the issue of s.1(3) of the FOIA which states:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span class="legds" style="font-family:Arial;color:#1E1E1E">1(3)Where a public authority&#8212;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span class="legds" style="font-family:Arial;color:#1E1E1E">(a)reasonably requires further information in order to identify and locate the information requested, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span class="legds" style="font-family:Arial;color:#1E1E1E">(b)has informed the applicant of that requirement,</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">the authority is not obliged to comply with subsection (1) unless it is supplied with that further information. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">Section 1(1) provides that a person making a request for information to a public authority is entitled to be informed by the public authority whether it holds information of the description specified in the request and to have that information communicated to them.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The School undertook an Internal Review on 22 July 2022. The Appellant requested a further Internal Review on 27 July 2022. The School is part of Anthem Schools Trust. A further Internal Review was undertaken by Anthem Schools Trust&#8217;s Head of Legal and Data Protection Officer in relation to Requests 1-3 only on 19 October 2022. In relation to Request 4 the reviewer wrote:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;color:#000000">&#8220;In regards to the information under bullet point 4 I am unclear exactly what data you wish to see. I can interpret your request here in two different ways. I have checked with the school who on further reading are also unclear. Perhaps you could provide us with a table for us to complete to demonstrate the specific data you are requesting here.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:&#225;&#191;~&quot;">The School did</span><span style="color:#000000"/><span style="font-family:&#225;&#191;~&quot;">not receive a response from the Appellant who provided no further clarity with regard to Request 4.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-family:&#225;&#191;~&quot;">The Tribunal found that although no decision was made under </span><span style="color:#000000">s.1(3) of the FOIA </span><span style="font-family:&#225;&#191;~&quot;">so the matter is arguably outstanding, the Commissioner and the School have not indicated any wish to rely on that provision, and the issue has been overtaken by the appeal proceedings. For these reasons, the Tribunal concluded it would be unjust to the Appellant to make a finding on the issue taking into account that he had received no notice of this matter, was not in attendance and not represented. </span></p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_3_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-family:&#225;&#191;~&quot;">Grounds of Appeal</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant&#8217;s grounds of appeal are as set out in the Tribunal&#8217;s Decision dated 20 October 2023 and to the UT. The Appellant was given the opportunity to file a further submission and chose not to do so. He stated that he was content for the Tribunal to determine the remitted appeal on the basis of the evidence already submitted by him.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The main thrust of the Appellant&#8217;s submission throughout has been that the Commissioner&#8217;s Decision Notice was in error because the requested information did not constitute personal data and the disclosure of the information was necessary for the purposes of his legitimate interest in transparency as to whether ethnicity may have affected grading.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In an email dated 18 March 2024 to the UT the Appellant proposed in relation to Requests 1-3 that instead of providing specific ethnicities students should be batched as two gross groups of &#8220;White&#8221; and &#8220;Non-White.&#8221; He proposed that if exact exam marks for individuals was an issue he proposed an overall exam percentage would suffice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the email dated 18 March 2024 the Appellant submits that he did not wish to modify Request 4 and refers to the School having provided the statistical data for grades above level 4, 5, 6 and 7 and the School having manipulated the data to its advantage to misleadingly showing &#8220;Non-Whites&#8221;: achieving a higher Centre Assessment Grade (CAG) than FFT. This was because the School grouped those achieving level 7 or above in one group. In relation to his daughter, he stated that she achieved level 9 in her exams but was downgraded to level 7 so although she was downgraded she fell into the level 7 and above group which falsely showed &#8220;Non-Whites&#8221; performing better than the FFT. So if the School downgraded all &#8220;Non-Whites&#8221; from level 8 or 9 to level 7 it would show &#8220;Non-Whites&#8221; performed well. </p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_3_2">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">The Commissioner&#8217;s Response</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Commissioner&#8217;s position is that Request 4 should be construed &#8220;objectively&#8221; without reference to the motivation and intention of the Appellant following <span style="font-style:italic">Dedalus Ltd v IC and Arts Council of England</span> EA/2010/0001, 21 May 2010. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Exhibit 1 satisfies the terms of Request 4 objectively construed and there is no live dispute about the scope of disclosable information. Exhibit 1 provides data for FTT and CAG results broken down by the categories of &#8216;All White&#8217; and &#8216;All Non-White&#8217; and broken down by the percentage of students achieving 7+, 8+ and level 9 grades. From this information it is possible to calculate the percentage of students achieving each particular level and for all of the requested subjects.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Decision Notice was correct for the reasons provided and set out in the Tribunal&#8217;s Decision issued on 31 October 2023. </p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_3_3">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">The School&#8217;s Response</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The School&#8217;s position is that the School endeavoured to interpret Request 4 as best it could and that the information provided in Exhibit 1 goes above and beyond what was requested. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As the Appellant has not provided confirmation that Exhibit 1 provides the information requested, the School submits that to the extent that Exhibit 1 does not satisfy Request 4 the School is not required to provide underlying data as the exemption set out in s. 40(2) of the FOIA applies. The School correctly applied s.40(2) of the FOIA.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">S.40(2) of the FOIA provides that information is exempt from disclosure if it is the personal data of an individual other than the requester and where one of the conditions listed in s.40(3A)(3B) or s.40(4A) is satisfied.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The School submits that the relevant conditions are contained in s.40(3A)(a). This applies where the disclosure of the information to any member of the public would contravene any of the principles relating to the processing of personal data, as set out in Article 5 of the General Data Protection Regulations. (UK GDPR). S.3(2) of the Data Protection Act defines personal data as: &#8221;any information relating to an identified or identifiable living individual.&#8221; While the names of the data subjects (other students) are not involved in this instance, the School is of the view that the data, combined with information the Appellant could obtain from his daughter, could identify individual students. The School then considered whether disclosure would contravene any of the data protection principles. With consideration given to Article 5(1)(a) read with Article 6(1)(f) of the UK GDPR in the context of a request for information under the FOIA, the School is of the view that the legitimate interest test is not met as it is assumed that the Appellant will compare the results of students who completed their GCSEs in the same year as his daughter as he is dissatisfied with the final grades awarded to her. The School acknowledges that the Commissioner found there was a legitimate interest.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The School has withheld the data where it determined that disclosure would constitute a breach of data protection legislation and never wished to conceal data where it would be unnecessary to do so.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_3_4">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold;font-family:&#225;&#191;~&quot;">Issues </span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">This appeal, in relation to Request 4, is remitted to the Tribunal to determine whether the Commissioner&#8217;s Decision Notice was in accordance with the law, or whether any applicable exercise of discretion by the Commissioner in respect of the Decision Notice should have been exercised differently. In reaching its decision, the Tribunal may review any findings of fact on which the Decision Notice was based and the Tribunal may come to a different decision regarding those facts.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The School filed a written submission and Exhibit 1 being a spreadsheet setting out the key benchmarks from 4+ including the breakdown by 7+/8+/9+ for the subjects of English Language, English Literature, Maths, Religious Studies, Business Studies and Chemistry in the years 2019, 2020 and 2021. The ethnicity data for comparison is grouped into &#8220;All ethnicities&#8221;, &#8220;White British&#8221;, &#8220;Non-White British&#8221;, &#8220;White&#8221; and &#8220;Non-White.&#8221; Page 3 of Exhibit 1 sets out the ethnicity definitions and groupings. The underlying data used to produce Exhibit 1 is included in the CB.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The Commissioner sent an email to the Appellant on 17 July 2025 asking him to  confirm if he considered Exhibit 1 satisfied Request 4. The Appellant failed to respond.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The Commissioner submits that Exhibit 1 provides data for FTT and Actual CAG results broken down by categories including &#8216;All White&#8217; and &#8216;All Non-White&#8217; broken down by the percentage of students achieving 7+, 8+ and level 9 grades for all of the requested subjects. The Commissioner submits that from this information it is possible to calculate the percentage of students achieving each particular level.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">Notwithstanding that Exhibit 1 satisfies the terms of Request 4, objectively construed, the Commissioner submits that s.40(2) was properly applicable at the relevant time when the internal review was undertaken.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The School sent its submission and Exhibit 1 to the Appellant on 4 July 2025 with an email asking the Appellant to confirm whether he considered Exhibit 1 to satisfy Request 4. The Appellant did not respond.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the absence of a response from the Appellant to the Commissioner and the School and in the absence of confirmation from the Appellant that he considers Exhibit 1 satisfies Request 4, the Tribunal proceeded to determine the remitted appeal on the basis that the Appellant wished to pursue his appeal.  </p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_3_5">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold;color:#000000">Conclusion</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The Commissioner&#8217;s Decision Notice records that the School correctly applied s.40(2) of the FOIA and that the School had provided as much information as possible in order to meet the legitimate interests identified while protecting the personal data of the students involved and that there were no less intrusive means of achieving the legitimate aims identified.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The Tribunal considered that the Commissioner exercised his discretion inappropriately in accepting the School&#8217;s assertion that it had provided as much information as possible. The School has produced a document, Exhibit 1, which meets the needs of the Appellant while protecting the personal data of the students involved having used the personal data as building blocks. Exhibit 1 shows that  the School was able to provide disclosure in a non-intrusive way which did not breach data protection law. The Tribunal is satisfied that a document containing the information set out in Exhibit 1 could have been produced in 2022. Such a document would not have engaged s.40(2) of the FOIA as no individuals are directly or indirectly identifiable from the percentile figures contained in it. In other words, the percentile figures are successfully anonymised. The Commissioner and the School accept that s.40(2) of the FOIA is not engaged in relation to Exhibit 1 in 2025 and it follows that the same document had it been produced in 2022 would not have engaged s.40(2) of the FOIA. The Tribunal found the argument put to it, that the effect of the passage of time on the memory of those connected with the School transforms the data from personal data into non-personal data, was not compelling.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The Tribunal found that the size of the cohort of students for the subjects included in Request 4 was as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">Business Studies </span><marker name="tab"/><span style="color:#000000">105</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">English Language </span><marker name="tab"/><span style="color:#000000">203</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">English Literature</span><marker name="tab"/><span style="color:#000000">203</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">Maths </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="color:#000000">203</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">Chemistry </span><marker name="tab"/><marker name="tab"/><span style="color:#000000">54</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="color:#000000">Religious Studies </span><marker name="tab"/><span style="color:#000000">197</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The School&#8217;s recorded specific ethnic groups and numbers are as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">ABAN Asian or Asian British-Bangladeshi<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>10</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">AIND Asian or Asian British-Indian<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>1</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">AOTH Asian or Asian British-Any Other Asian Background<marker name="tab"/>6</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">APKN Asian or Asian British-Pakistani<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>24</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">BAFR Black or Black British-African<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>14</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">BCRB Black or Black British-Caribbean<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>3</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">BOTH Black or Black British-Any Other Background<marker name="tab"/><marker name="tab"/>2</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">MOTH Any Other Mixed Background<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>11</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.51in">MWAS White and Pakistani<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>6</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">MWBA Mixed White and Asian<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>5</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">MWBC Mixed White and Black Caribbean<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>11</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">NOBT Information not Obtained<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>1</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">OOTH Any other Ethnic Group<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>8</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">WOTH White Any Other Background<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>21</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">WIRI White Irish<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>2</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">WBRI White British<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>74</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in">REFU Refused<marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/>4</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal found that the terms in Request 4 to &#8220;Caucasian Students&#8221; and non-Caucasian/BAME students&#8221; are not clear terms for example, some Caucasian students are also ethnic minority students.. The School did seek clarification from the Appellant but this was not given. The Tribunal found that the School did not keep records of students according to the categories of &#8220;Caucasian Students&#8221; and &#8220;Non-Caucasian/BAME Students.&#8221;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal found that taking into account the Appellant&#8217;s use of and reference to the terms &#8220;Whites&#8221; and Non-Whites&#8221; it was reasonable for the School to use the information in its possession by using these terms to provide the information requested. This is particularly so, given that the School did not hold information and data in the categories specified by the Appellant. The School provided to Anthem an analysis of &#8220;White British&#8221; students compared to all other ethnic groups. Anthem then used the information to formulate Exhibit 1. Students who had refused to provide their ethnicity were not included in the data set. It was reasonable for the School to consider the context and background of Request 4 when interpreting the language and terms used by the Appellant in Request 4.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal found that the School in using the information it did hold to answer Request 4 in the form of Exhibit 1 followed the UK Government&#8217;s guidance on the categorisation of ethnicity groups. Page 3 of Exhibit 1 shows the ethnicity codes which were used in the analysis to produce the numbers for <span style="color:#000000">&#8220;All White&#8221; and &#8220;All Non-White&#8221; students.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Commissioner&#8217;s position is that to the extent that Exhibit 1 does not satisfy the Appellant&#8217;s Request 4, the School is not required to provide underlying data as the exemption in s.40(2) of FOIA applies. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The Tribunal found that underlying information in the CB is out of scope. The Tribunal found that s.40(2) of FOIA was not engaged in relation to the information and data which appears in the CB for this reason. The CB contains the underlying data from which the percentages in Exhibit 1 were calculated. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">The Tribunal scrutinised the CB in closed session. </span><span style="font-size:11.5pt">Ms Hyde, Counsel for the School,  explained that the data contained in the CB was the underlying data from which the percentages in Exhibit 1 were calculated. The data in question was a detailed explanation of the results received by the entire cohort, broken down by grade achieved and ethnic background. That data was collated in respect of the academic years 2019, 2020 and 2021, and in relation to English Language, English Literature, Maths, Chemistry and Religious Studies. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Ms Hyde outlined the concerns about the risk of &#8220;jigsaw identification&#8221;, where the grades, coupled with information held by the Appellant, could be used to identify what a given student received for their grade. Ms Hyde provided, as example, that information such as the knowledge and memory of the Appellant&#8217;s daughter was the principal source, but that this process could also take place as a result of the Appellant&#8217;s memory from attending school events, such as parents&#8217; evenings, or from other documents that parents typically hold, such as class photographs and class lists. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Ms Hyde explained that the risk of &#8220;jigsaw identification&#8221; was particularly pronounced in relation to the smaller cohorts. For instance, in relation to the cohort taking Chemistry GCSE in 2020, there were low numbers of students of particular ethnicities, such that there was a significant risk that they could be identified. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In relation to larger cohorts, Ms Hyde considered the example of the Maths GCSE cohort in 2020. With Maths being a compulsory subject at GCSE, this would be the largest or one of the largest cohorts. Nonetheless, there were also low numbers of students of particular ethnicities. The risk of &#8220;jigsaw identification&#8221; was obvious for those small groups. However, the risk remained for the larger groups: some students may choose to share their grades with their classmates, and the grades of other students of the same ethnic background could be deduced by process of elimination. Ms Hyde submitted that the risk of identification was clear.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In open session, Ms Hyde invited the Tribunal to consider that although in relation to &#8220;jigsaw identification&#8221;, there was an argument that information about class peers may fade with time and the risk of identification was higher in 2022, there was still a real risk in relation to the data in the CB. This issue was not expanded; however, the Tribunal is not required to make any findings due to the finding that all the information in the CB was out of scope. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Lavery, Counsel for the Commissioner,  submitted that the information in the CB did not form part of Request 4, which was the sole matter to be determined by the Tribunal. Request 4 dealt only with the aggregate percentages, which were provided in Exhibit 1 and repeated in the CB and the contents of the CB were not necessary for dealing with Request 4. The Tribunal agreed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal was satisfied that the aggregate percentages in Exhibit 1 did not constitute personal data. <span style="font-family:Arial">The definition of personal data in <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/2" uk:canonical="2018 c. 12 s. 3" uk:origin="TNA" uk:type="legislation">s.3(2)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> (DPA) states: &#8220;Personal data&#8221; means any information relating to an identified or identifiable living individual. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">An identifiable living individual is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of the individual.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Information will relate to a person if it is about them, linked to them, has biographical significance for them, is used to inform decisions affecting them or has them as its main focus.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal was satisfied that the information in Exhibit 1 refers only to percentages and <span style="color:#000000">&#8220;All White&#8221; and &#8220;All Non-White&#8221; students was not personal data as defined. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="color:#000000">Accordingly, the Tribunal allows the appeal and substitutes for the Commissioner&#8217;s Decision Notice </span>IC-179205-F3M4 the Substituted Decision Notice above.</p>
+	    </content>
+	  </paragraph>
+	</level>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Signed: </span><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua';color:#000000">J Findlay</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Date: </span><docDate date="2025-07-23" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">23 July 2025</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>
