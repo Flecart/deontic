@@ -65,7 +65,13 @@ path (like ukftt/grc/2026/845), its title, and a candidate stratum.
      and oracle facts. Never label a part-allowed case as one instance whose
      engaged absolute exemptions contradict gold=disclose.
 
-5. Write a concise ## Disputed information section (what exact information is
+5. SCOPE RULE: gold, engaged rules, and oracle facts describe the DISPUTED
+   information ONLY. Material whose withholding was conceded, not contested,
+   or resolved separately is out of scope — do not list its exemptions as
+   engaged or its atoms as oracle facts (split into parts when two disputed
+   bodies have different outcomes).
+
+6. Write a concise ## Disputed information section (what exact information is
    in dispute; for NCND cases say the dispute is whether to confirm or deny).
 
 6. "verified:" header — "yes" ONLY if every label is directly supported by an
