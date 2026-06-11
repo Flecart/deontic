@@ -3,7 +3,7 @@
 citation: [2025] UKFTT 1045 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1045
 exemptions: s40(2), s36(2)(b)(i), s36(2)(b)(ii), s36(2)(c), s41
-verified: no
+verified: yes
 
 <!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
      Gold rules against cache/ukftt_grc_2025_1045_reasoning.txt. The pipeline skips
@@ -169,5 +169,5 @@ withhold
 
 ## Gold rules
 
-engaged: s40_2_exempt s36_exempt s41_exempt
+engaged: s40_2_exempt, s36_exempt, s41_exempt
 pi: na
