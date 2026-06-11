@@ -1,0 +1,1138 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/542"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/542"/>
+	  <FRBRdate date="2026-04-13" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="542"/>
+	  <FRBRname value="Christine Wyatt v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/542"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/542"/>
+	  <FRBRdate date="2026-04-13" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/542/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/542/data.xml"/>
+	  <FRBRdate date="2026-04-13T12:19:16" name="transform"/>
+	  <FRBRdate date="2026-04-13T13:52:41" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-03-06" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-06" refersTo="#decision" source="#"/>
+	<eventRef date="2026-04-13" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>542</uk:number>
+	<uk:cite>[2026] UKFTT 542 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.0</uk:parser>
+	<uk:hash>72fb4d00c9b5ee5dbc25da78d9d775c69715e3d0d0c222c6ea3cea7daf0d0319</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Bodytexttax2 { text-align: justify; margin-left: 0.79in; font-size: 12pt; }
+#judgment .Bodytexttax4 { text-align: justify; margin-left: 1.5in; font-size: 12pt; }
+#judgment .Bodytexttax1 { text-align: justify; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .scxw99550665 { }
+#judgment .Strong { font-weight: bold; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua'">[2026] UKFTT 00542 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'"> Case Reference: FT/EA/2025/0095 and</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">FT/EA/2025/0100</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2026-03-06" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">6 March 2026</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-13" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">13 April 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">JUDGE A. MARKS CBE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER DR. P. MANN</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">MEMBER P. TAYLOR</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">MRS. CHRISTINE WYATT</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Appellant</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER (1)</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE COUNTY COUNCIL OF THE CITY AND COUNTY OF CARDIFF (2)</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua';color:#000000">Respondents</span></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant</span><span style="font-family:'Book Antiqua';color:#000000">: Represented herself and was accompanied by Mr. J. Sparkes</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the First Respondent: </span><span style="font-family:'Book Antiqua';color:#000000">Unrepresented and not in attendance</span></p>
+      <p><span style="font-family:'Book Antiqua';color:#000000">For the Second Respondent: Ms. H. Roddick (Counsel) and Ms. K. Ariyadasa (Solicitor)</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The </span><span style="font-family:'Book Antiqua';color:#000000">appeal is allowed and a substitute decision notice set out below.</span></p>
+      <p class="paragraph" style="text-align:center"><span class="normaltextrun" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Substitute Decision Notice:</span></p>
+      <p class="paragraph"><span class="normaltextrun" style="font-family:'Book Antiqua'">To:&#160;</span><span style="font-family:'Book Antiqua'"/><span class="normaltextrun" style="font-family:'Book Antiqua'">Information Governance</span><span class="scxw99550665" style="font-family:'Book Antiqua'">&#160;</span><br/><span class="normaltextrun" style="font-family:'Book Antiqua'">City of Cardiff Council</span></p>
+      <p class="paragraph"><span class="normaltextrun" style="font-family:'Book Antiqua'">County Hall</span><span class="scxw99550665" style="font-family:'Book Antiqua'">&#160;</span><br/><span class="normaltextrun" style="font-family:'Book Antiqua'">CARDIFF</span><span class="scxw99550665" style="font-family:'Book Antiqua'">&#160;</span><br/><span class="normaltextrun" style="font-family:'Book Antiqua'">CF10 4UW</span></p>
+      <p class="paragraph" style="text-align:justify"><span class="normaltextrun" style="font-family:'Book Antiqua'">email:&#160;foi@cardiff.gov.uk</span></p>
+      <p class="paragraph" style="text-align:justify"><span class="normaltextrun" style="font-family:'Book Antiqua'">Ref. FOI21025 and FOI21392- </span></p>
+      <p class="paragraph"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">Re.&#160;ICO Decision Notices&#160;</span><span style="font-weight:bold;font-family:'Book Antiqua'">IC-324837-K2B5 and IC-357000-M8D7</span><span style="font-family:'Book Antiqua'"/><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">and dated 6 February 2025 - Mrs Christine Wyatt</span></p>
+      <p class="paragraph"><span class="normaltextrun" style="font-family:'Book Antiqua'">Cardiff Council must, by no later than 4pm on the date 35 working days after promulgation of this First-tier Tribunal decision reference FT/EA/2025/0095 and FT/EA/2025/0100 (or, if later, until the outcome of any appeal of that decision),&#160;provide to the Appellant, Mrs Christine Wyatt, the Closed Bundles of material previously provided to the Tribunal under GRC Rule 14&#160;with&#160;the&#160;redaction&#160;only&#160;of the names and other personal details of individuals.</span></p>
+      <p class="paragraph"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">A failure to&#160;comply with&#160;this Substitute Decision Notice could lead to contempt proceedings.</span></p>
+      <p><span style="font-family:'Book Antiqua'">No further directions are necessary.</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Dated:</span><span style="font-family:'Book Antiqua'">&#160;&#160;&#160;&#160; </span><span style="font-weight:bold;font-family:'Book Antiqua'">April 2026</span></p>
+      <p><span style="font-weight:bold">&#8203;</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Judge A. Marks CBE&#160;</span><br/><span style="font-style:italic;font-weight:bold;font-family:'Book Antiqua'">(Recorder sitting as a Judge of the First Tier Tribunal)</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <paragraph eId="para_1">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">This appeal is against the Commissioner&#8217;s Decision Notices (IC-324837-K2B5 and IC-357000-M8D7), both dated 6 February 2025. The Decision Notices held that the Second Respondent ("the Council") was entitled to rely upon Regulation 12(4)(b) (manifestly unreasonable exception) of the Environmental Information Regulations ("EIR") to refuse to comply with the Appellant&#8217;s requests for information.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in">The Tribunal convened an oral hearing which was held remotely using HMCTS&#8217;s Cloud Video Platform.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;color:#26282A">Brief factual background</span></heading>
+	  <paragraph eId="para_3">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">In 1922, Maindy Park in Cardiff was gifted by the Marquis of Bute to the Council subject to restrictive covenants to use the land only as a park, open space, recreation or playground. In 1966, Maindy Park was registered as a charity ("the Trust") of which the Council is the sole trustee. The Trust's objects reflect the 1922 covenants.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">Maindy Park includes a velodrome, the last remaining structure of the 1958 Commonwealth Games hosted by Wales. Other major events have taken place there over the years, and world class cyclists have trained there. Several other recreational facilities have been constructed on the site, attracting many participants all year round from the local community and beyond.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">Adjacent to Maindy Park is Cathays High School. As local education authority, the Council has been considering expansion of the school on Maindy Park. Such use of the land appears to be incompatible with the Trust's objects.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council has therefore been corresponding with the Charity Commission about a possible "land swap" whereby part of Maindy Park would be released from the Trust with an alternative site within Council ownership instead being designated for recreational use by Cardiff residents.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council's land swap proposal has proved controversial, stimulating the establishment of a local campaign group called "Save Maindy Park" ("SMP") of which the Appellant ("CW") is a member.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold;font-family:'Book Antiqua'">The information requests and responses</span></heading>
+	  <paragraph eId="para_8">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Commissioner's Decision Notices ("DNs") respond to CW's complaints about the Council's handling of her two information requests set out below:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.79in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">First request dated 1 March 2024 ("Request 1")</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;At full council on 25/1/24 the written question response from councillor Dan DE'ath, ref W1 stated the councils external solicitors acting for the trust sent a partial reply to the Charity Commission on the 27/11/23 following a request from them for further information in respect of the Maindy Park land swap application.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">Please can you provide a copy of the partial reply sent by the external solicitors acting for the trust.&#8221;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Second request dated 2 May 2024 ("Request 2")</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">"At the full council on the 25/1/24 Councillor D'eath stated that a partial response had been sent to the Charity Commission on the 27/11/23 following 2 requests for further information in respect of the Maindy Park land swap application.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">In a letter dated 25/4/24 from the Council leader Huw Thomas he states that the Council has responded to all the Charity Commissions requests for further information to date on the Maindy Park land swap, and that this information was provided over 7 weeks ago to the Charity Commission.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">Please can you provide copies of all communications sent to the Charity Commission between 27/11/23 and 20/3/24 from the Council, Council acting as trustee, Geldards and Geldards acting as trustee." </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in">The Council replied to Request 1 on 17 May 2024 and Request 2 on 13 June 2024. In each case, the Council refused to provide the requested information, citing <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> ("FOIA") (prejudice to the effective conduct of public affairs). </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">The internal review and response</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">CW asked the Council to carry out an internal review of their refusal to disclose the information sought by Requests 1 and 2. In neither case was any outcome of such internal review provided.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">Complaint to the Commissioner</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">On 10 August 2024, CW complained to the Commissioner about the Council's refusal of her requests. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">CW challenged the Council's view that her requests "were likely to cause a disproportionate cost and burden". She argued that as the Council had already provided the requested documents to the Commissioner, any cost would be minimal and certainly insufficient to engage the exception.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">During his investigation, the Commissioner asked the Council to reconsider Requests 1 and 2 under EIR (rather than FOIA) because he considered the information requested to be environmental.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Council therefore reconsidered and on 10 January 2025 issued a fresh response to Requests 1 and 2. The Council again refused to provide the requested information, this time under the following exceptions: EIR 12(4)(b) (manifestly unreasonable); EIR 12(4)(d) (material in the course of completion); EIR 12(5)(b) (course of justice); and EIR 12(5)(d) (confidentiality of proceedings).</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">The Decision Notices</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Commissioner issued his two Decision Notices ("DN") on 6 February 2025. The Commissioner was provided with the requested information<span style="color:#000000"> as well as </span>further submissions by both CW and the Council.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Each DN concluded that the Council was entitled to refuse Requests 1 and 2 under EIR 12(4)(b) on the basis that they were manifestly unreasonable.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Commissioner applied guidance that: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the exception is engaged where a request is vexatious or where the cost of compliance would be excessive, and found this case fell within the former category;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <intro>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">although recognising that CW was pursuing a serious purpose and that there was significant public interest in transparency about the proposed land swap and the Council&#8217;s dealings with the Charity Commission, the Commissioner considered:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in">that the value of further disclosure was reduced because a substantial amount of information was already in the public domain; and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in">the Charity Commission was providing independent scrutiny that would itself be published.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Commissioner further concluded that the cumulative burden created by the relatively large number of related requests had become disproportionate to their value and that complying with Requests 1 and 2 would likely prompt further requests.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Applying the public interest test, the Commissioner accepted that there was strong public interest in disclosure but held that this was outweighed by the public interest in protecting the Council&#8217;s limited resources from unreasonable requests. He found that the presumption in favour of disclosure under EIR did not displace the exception.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="NumberedReasons" style="margin-left:0.25in;text-indent:-0.25in"><span style="font-weight:bold">Appeal to the Tribunal </span></heading>
+	  <paragraph eId="para_20">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">On 25 February 2025, CW appealed each DN to the Tribunal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">CW submits that each DN was legally wrong in concluding that EIR 12(4)(b) applies and that the Commissioner ought to have exercised his discretion differently when weighing the public interest balance.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">In support of her appeal, CW submitted various documents (all included in the Open Bundles), which the Tribunal has read and considered.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">CW invites the Tribunal to set aside each DN and require the Council to disclose the requested information.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-size:13pt">The Law</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Section 1(1) FOIA: General Right of access to information held by public authorities </span></p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><marker name="tab"/><marker name="tab"/><span style="font-style:italic">Any person making a request for information held to a public authority is entitled &#8211; </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:'Book Antiqua';margin-left:1.03in;text-indent:-0.25in">(a)</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.03in;text-indent:0.12in"><span style="font-style:italic">To be informed in writing by the public authority whether it holds information of the description specified in the request, and </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.03in;text-indent:-0.25in">(b)</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.03in;text-indent:0.12in"><span style="font-style:italic">If that is the case, to have that information communicated to him.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">EIR 2:  definition of "environmental information"</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">EIR 2(1) defines 'environmental information" as including information on <span style="font-style:italic">"the state of the elements of the environment such as&#8230;soil, land, landscape&#8230;and factors&#8230; such as energy, noise&#8230;affecting or likely to affect the elements of the environment&#8230;" </span>and<span style="font-style:italic"> "measures&#8230;such as activities affecting or likely to affect the [above] elements and factors"</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold">EIR 5: access to environmental information held by public authorities</span></heading>
+	  <paragraph eId="para_25">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">EIR 5(1) sets out a specific duty by public authorities to make environmental information available on request and EIR 5(2) provides this shall be "<span style="font-style:italic">as soon as possible and no later than 20 working days after&#8230;receipt of the request"</span>.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold">EIR 12: exceptions to the duty to disclose environmental information</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">There are exceptions to public authorities&#8217; duty to make environmental information available. Those pertinent to this appeal are set out in EIR 12, the relevant parts of which provide:</p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p style="margin-left:0.39in">"<span style="font-style:italic">12 (1) Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if &#8211;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic">(a)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.69in;text-indent:0.1in"><span style="font-style:italic">an exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic">(b)</num>
+		<content>
+		  <p style="text-align:justify;margin-left:0.69in;text-indent:0.1in"><span style="font-style:italic">in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">(2)</num>
+	      <content>
+		<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">A public authority shall apply a presumption in favour of disclosure.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.39in">&#8230;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-style:italic">(4)</num>
+	      <intro>
+		<p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">For the purposes of paragraph (1)(a), a public authority may refuse to disclose information to the extent that &#8211;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic">(a)</num>
+		<content>
+		  <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">...</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic">(b)</num>
+		<content>
+		  <p style="margin-left:0.39in;text-indent:0.11in"><span style="font-style:italic">the request for information is manifestly unreasonable;..".</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">In assessing what is <span style="font-style:italic">"manifestly unreasonable&#8217;</span>" under EIR 12(4)(b), we are bound by. the decision of the Upper Tribunal in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Craven v Information Commissioner and DECC <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/442" uk:canonical="[2012] UKUT 442 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 442 (AAC)</ref></span> where Judge Wikeley said at para. 30:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.79in"><span style="font-style:italic">"...the meaning of the expression &#8220;manifestly unreasonable&#8221; is essentially the same as &#8220;vexatious&#8221;."</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">In <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Information Commissioner v Devon County Council &amp; Dransfield <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2012/440" uk:canonical="[2012] UKUT 440 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 440 (AAC)</ref> ("Dransfield"),</span>, the Upper Tribunal identified four key issues were relevant when deciding whether a request is vexatious: (1) the burden (on the public authority and its staff); (2) the motive (of the requester); (3) the value or serious purpose (of the request); and (4) any harassment or distress (of and to staff). However, the Upper Tribunal said these four considerations were not exhaustive nor created a formulaic checklist: a holistic and broad approach was needed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Court of Appeal in <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Dransfield v Information Commissioner <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/454" uk:canonical="[2015] EWCA Civ 454" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 454</ref> </span>emphasised <span style="font-style:italic">&#8220;</span>... the high standard set by vexatiousness...."</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Under EIR 12(1)(b) a public authority is permitted to withhold information under the exceptions in EIR 12(4) and 12(5) <span style="font-weight:bold">only</span> if the public interest in maintaining the exception outweighs the public interest in disclosing the information.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">The role of the Tribunal</span></heading>
+	  <paragraph eId="para_31">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Section 57 FOIA entitles either the requester or the relevant public authority to appeal to this Tribunal against the Commissioner&#8217;s decision notice.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Under s. 58 FOIA, if the Tribunal considers that the decision notice was either wrong in law or, to the extent that the notice involved an exercise of discretion by the Commissioner he ought to have exercised it differently, the Tribunal shall either allow the appeal (or substitute the decision notice) or dismiss the appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Tribunal can also review any finding of fact on which the decision notice was based.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading><span style="font-weight:bold">The burden of proof</span></heading>
+	  <paragraph eId="para_34">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The burden of proof rests with CW, as appellant, in satisfying the Tribunal that the Commissioner&#8217;s decision was legally wrong or involved an inappropriate exercise of discretion. </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:13pt">Written Evidence</span></heading>
+	  <paragraph eId="para_35">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The parties had submitted written evidence to the Tribunal prior to the hearing, comprising two Open Bundles: 656 pages (including indices) in respect of Request 1 and 681 pages (including indices) in respect of Request 2. The panel additionally had access to two Closed Bundles, one in respect of each Request 1 and 2.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">CW has not seen the Closed Bundles which have been withheld from her and the public in accordance with GRC Rule 14(6) and the Tribunal&#8217;s Practice Direction on Closed Material. However, the panel has seen and considered those materials.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Closed Bundle in respect of Request 1 comprises the following copies: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"> an email from Geldards to the Charity Commission dated 27 November 2023;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">a lease of the Maindy Centre dated 30 November 2016; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">a Charity Commission Enquiry Form dated 23 December 2021.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Closed Bundle in respect of Request 2 contains the following copies:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.65in;text-indent:0.12in"> an email from Geldards to the Charity Commission dated 1 March 2024; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.65in;text-indent:0.12in"> the Maindy Park Trust's Accounts 2023.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">In the Open Bundles are witness statements from four Council employees. The panel heard oral evidence from three of them. </p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold;font-size:13pt">Oral Evidence</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_8_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold">Summary of oral evidence on behalf of the Appellant</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_40">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">CW challenges the Council's refusal to disclose the requested information on the following basis.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Council failed to provide the Commissioner with proper, evidence-based justification for treating her requests as burdensome: no quantitative data was supplied to demonstrate cost or workload impact, despite the Commissioner requesting it. Publicly available data shows the Council had long-standing difficulties complying with FOIA/EIR time limits well before the Maindy Park requests. Significant delays in responding to her requests led to CW's repeated chasers and follow-up requests. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">CW's requests pursued a serious purpose, grounded in substantial public-interest concerns about the Council&#8217;s stewardship of Maindy Park, a charitable trust. These concerns&#8212;including unauthorised leasing, use, and disposal of charity land&#8212;align with Charity Commission warnings to local authorities on these topics. Both the Charity Commission and Audit Wales acknowledged these as matters of genuine community concern.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Transparency about the Council&#8217;s communications with the Charity Commission is crucial, particularly as regulatory casework is not routinely published and key governance issues came to light only through evidence supplied by the community. Although the Commissioner accepted that the requests had public value, it appears that the Council&#8217;s assertions about diminished value and alternative scrutiny mechanisms were accepted without sufficient verification.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Reliance on EIR 12(4)(b) is unfounded and unsupported by evidence. CW&#8217;s requests represent a very small proportion of the Council&#8217;s overall FOIA/EIR workload and were framed narrowly to minimise the burden of responding to them. The requests are specific, proportionate, and justified by a strong public interest in accountability and transparency.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_8_2">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold">Summary of oral evidence on behalf of the Council</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_45">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Council&#8217;s witnesses focused on: <span class="Strong" style="font-weight:normal;font-family:'Segoe UI'">(1) operational burden</span> (driven by volume, frequency, internal coordination and legal review), and <span class="Strong" style="font-weight:normal;font-family:'Segoe UI'">(2) sensitivity/timing</span> (because the Charity Commission process was ongoing and the material was said to include confidential/privileged communications).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Taken together, the Council&#8217;s evidence was that it generally meets statutory FOIA/EIR performance targets but asserted that CW&#8217;s pattern of frequent, repetitive and follow-on requests about Maindy Park&#8212;42 requests since November 2021, including Requests 1 and 2&#8212;has created a disproportionate cumulative burden across the Council, particularly Legal Services, requiring repeated senior legal scrutiny and diverting resources from other core functions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Information Request Manager considered that disclosure would not satisfy CW but would likely generate further requests, while Requests 1 and 2 were themselves complex and resource intensive, requiring Monitoring Officer involvement and legal meetings. His personal involvement in CW's requests had diverted him from important record management projects.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Monitoring Officer approved refusal under multiple EIR exceptions, viewing Requests 1 and 2 as manifestly unreasonable due to their aggregated burden, the live and sensitive nature of the Charity Commission process, risks of misinterpretation of the information, and the inclusion of confidential and legally privileged material, notwithstanding the Council&#8217;s general commitment to transparency and prior disclosures.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Principal Solicitor considered that non-disclosure was justified while the Charity Commission&#8217;s statutory process was ongoing. This would in due course have resulted in public disclosure, but as the Council's application for approval of the proposed land swap ceased to be actively pursued, it was ultimately neither determined nor withdrawn.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_8_3">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold;font-size:13pt">Submissions</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_8_4">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Submissions on behalf of the Council</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_50">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Council's evidence justifies treating Requests 1 and 2 as manifestly unreasonable/vexatious under EIR 12(4)(b) (alongside other exceptions originally relied on by the Council).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in"><span style="color:#000000">There are two limbs to the Council's reliance on EIR 12(4)(b): first, the number of requests is manifestly unreasonable; and secondly, the ongoing statutory process with the Charity Commission made disclosure of the requested information manifestly unreasonable.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Council had initially relied on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">s.36</ref> FOIA, supported by a Qualified Person&#8217;s Opinion explaining that disclosure would prejudice the effective conduct of public affairs because the correspondence was under live consideration by the Charity Commission; disclosure would inhibit full and frank engagement with the regulator; and it would likely trigger further requests causing significant diversion of limited resources. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">When the Commissioner required reconsideration under EIR, those same considerations applied. The Council argued that EIR 12(4)(b) requires consideration of all the circumstances; critically, at the time of Requests 1 and 2 a statutory Charity Commission process was ongoing, justifying treating these requests differently from CW&#8217;s earlier requests.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_54">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">CW&#8217;s attempt to categorise her requests separately should be rejected: the requests were all connected; all arose after the formation of the SMP campaign group; and all related to Maindy Park. It was therefore reasonable to consider the requests cumulatively and to conclude, in line with ICO guidance on vexatiousness, that their context, history and burden rendered them unreasonable, particularly as some were complex and required extensive cross-departmental input.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Tribunal was reminded to assess the Commissioner&#8217;s DNs at the time they were made, not with hindsight, and to find that the Commissioner correctly applied the presumption in favour of disclosure and the public interest test, committing no error of law or discretion.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Alternatively, the Council relied on further EIR exceptions: EIR 12(4)(d) because Request 1 concerned material still in the course of completion during an ongoing regulatory process; EIR 12(5)(b) because the information was subject to legal advice privilege and disclosure would prejudice the course of justice; and EIR 12(5)(d) because the correspondence formed part of confidential regulatory proceedings requiring a protected space for full and frank communications.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_8_5">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Submissions on behalf of the Appellant, CW</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_57">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Council failed to substantiate its reliance on EIR regulation 12(4)(b) because it produced no evidence quantifying the time or resources spent dealing with CW&#8217;s requests. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Council achieved a 90% performance rate in responding to FOIA/EIR requests before CW&#8217;s requests and maintained or slightly improved that rate after 2021, showing no cogent evidence of service impairment.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_59">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Council&#8217;s claims of legal professional privilege were unsustainable and reliance on the ongoing nature of the Charity Commission process was misplaced, particularly as that application has since been closed, removing any risk of prejudice to a live process. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Significant public interest factors include the misuse of charitable land as a school car park, the grant of a long lease without authorisation, and the Council&#8217;s stated intention to use the land for school expansion contrary to restrictive covenants requiring recreational use for the benefit of the community.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Council was not required to assume the role of sole trustee and its actions as such have damaged public trust and confidence in the charitable sector. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The Council&#8217;s true concern was potential challenge by beneficiaries of the Trust to the Charity Commission: the fear of such scrutiny could not lawfully justify refusal under EIR 12(4)(b).</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold;font-size:13pt;color:#000000">Discussion</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold;color:#000000">Findings of fact</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_63">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The panel first considered the relevant facts of this case. Based on all the evidence provided, the panel made the following findings of fact on the balance of probabilities. Those findings shown underlined below are disputed, and the panel&#8217;s reasoning for each such finding is set out beneath the underlined text.</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">The information which the Council &#8216;holds&#8217; within the scope of Requests 1 and 2 is summarised in paragraph 36 above.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:0.65in;text-indent:0.12in"><span style="text-decoration-line:underline;text-decoration-style:solid">The Council correctly treats as connected all CW's information requests as shown on the spreadsheet:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in">while CW challenges the "lumping together" of all her requests, the panel considers it reasonable to do so on the basis that they all relate to Maindy Park (whether the expansion of the school; tourism, attractions and the new velodrome; and the Trust affecting the land as well as the Council's stewardship of it); and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in">on CW's own account, she submitted all her requests on behalf of the campaign group, SMP.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.65in;text-indent:0.12in">The spreadsheet shows 42 requests (including Requests 1 and 2) from CW between 9 December 2021 and 2 May 2024. During that nearly 29-month period, CW's requests averaged one-and-a-half per month.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.65in;text-indent:0.12in">During the relevant period, the Council received around 1500 FOIA/EIR requests annually. Of these, CW's requests amounted to less than 1%.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(e)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.65in;text-indent:0.12in">Requests 1 and 2 were the only two of CW's 42 requests which received responses refusing disclosure based on EIR 12(4)(b).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(f)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">The spreadsheet shows since Request 2 a further nine requests (the last dated 16 April 2025). Of these all but two were "granted in full". Of the two refused, one (also about correspondence with the Charity Commission) was refused under EIR 12(4)(b), the other s.43 FOIA.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(g)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">The Council's percentage of responses to FOIA/EIR requests has been unchanged (at around 90%) since CW started submitting her information requests.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(h)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">No harassment, irritation or distress has been caused to staff by CW's requests or responding to them.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(i)</num>
+	      <intro>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="text-decoration-line:underline;text-decoration-style:solid;color:#000000">The Council has not demonstrated any disproportionate or unjustified burden arising from Requests 1 and 2 or from CW&#8217;s requests generally:</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in"><span style="color:#000000">No evidence was produced of the cost of staff time or other quantified resource impact, and no such data had been collated by the Council. The DNs made the same finding.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in"><span style="color:#000000">Of the four Council witnesses, three provided no evidence of distraction of resources or disruption to other services, notwithstanding general assertions of significant disruption.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.25in"><span style="color:#000000">The remaining witness, the Council's Information Requests Manager, referred to his own reduced capacity to manage record</span><span style="font-family:'Cambria Math';color:#000000">&#8209;</span><span style="color:#000000">centre projects due to time spent on CW&#8217;s requests, but this impact was unquantified and the panel considered such stretching of his capacity was likely to have been exacerbated by the Council&#8217;s chosen method of handling of the requests, particularly Requests 1 and 2. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iv.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in;text-indent:0.12in"><span style="color:#000000">Moreover, the witness accepted in oral evidence that FOIA/EIR performance levels were unaffected and that any burden fell on the Council generally rather than the FOIA team specifically. </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">v.</num>
+		<content>
+		  <p class="NumberedReasons" style="text-align:left;margin-left:1.5in"><span style="color:#000000">Evidence was adduced from other service areas, including witnesses from legal, governance or property teams, but none of this evidence showed that they or their teams had borne any disproportionate or unjustified burden.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(j)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">While at the date of the DNs the Charity Commission's consideration of the proposed Maindy Park land swap was ongoing, the case has since been closed without a determination.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(k)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">There is no publication of any report or other information in the public domain about the Charity Commission's consideration of Maindy Park.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(l)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">The Council's plans for Maindy Park generated considerable opposition from the local community, with 4000 people signing a petition; over 500 objecting to the school expansion; and over 90% objecting to the land swap.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(m)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in"><span style="color:#000000">There was a serious purpose to CW's requests including Requests 1 and 2 and, as admitted by the Council, some serious past failings on their part as regards the Trust.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="Bodytexttax1" style="text-align:left"><span style="font-weight:bold;font-family:'Book Antiqua'">Is there an error of law in the Commissioner&#8217;s Decision Notices?</span></heading>
+	  <paragraph eId="para_64">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Having made its findings of fact, the panel considered whether the DNs were in accordance with the law. The panel noted that it was bound by <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Craven</span> which confirms that &#8220;manifestly unreasonable&#8221; under EIR 12(4)(b) is essentially equivalent to &#8220;vexatious&#8221; under s.14 FOIA.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_9_1">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Relevant principles</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_65">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Drawing on ICO guidance, the panel identified the following relevant principles: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the threshold for establishing vexatiousness (and thus manifest unreasonableness) is a high one, and at least as high under EIR given the presumption of disclosure;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">while a large volume of requests may indicate a tipping point, authorities should keep evidence logs and cannot rely on numbers alone;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the authority&#8217;s own handling of earlier requests, including errors, delays or unclear responses, may undermine a vexatiousness argument; follow-up requests must be assessed in context;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">a single focused request is less likely to be vexatious absent other factors;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(e)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the value or serious purpose of a request is material, particularly where issues have not already been fully scrutinised; and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(f)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">critically, manifest unreasonableness concerns the nature and impact of the request, not the requester, and not any harm which might arise from disclosure.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_9_2">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">The nature of Requests 1 and 2</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_66">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The panel found that in respect of Requests 1 and 2:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">they were tightly focused, clearly defined by date and type, and would not have required extensive searches;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the complexity in responding arose largely from the Council&#8217;s chosen handling process, including senior sign-off and legal involvement, rather than from the requests themselves;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">further, the Council&#8217;s initial treatment of the requests under FOIA rather than EIR materially increased the workload, a consequence not attributable to the requester or the nature of the requests.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_9_3">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">CW&#8217;s requests overall</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_67">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">Although the overall number of CW&#8217;s requests might initially suggest vexatiousness, closer analysis shows that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">most of CW's requests were answered in full, with few refusals;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">many were follow-up requests, in several cases prompted by omissions, inaccuracies, delays or failures in the Council&#8217;s earlier responses;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">in that context, the panel did not consider such follow-ups unreasonable, still less manifestly unreasonable; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">there is a risk of double-counting requests when assessing volume if legitimate follow-up requests are included.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_9_4">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Which requests are &#8220;manifestly unreasonable&#8221;?</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_68">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The panel considered that Requests 1 and 2:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">could not plausibly be regarded as manifestly unreasonable in themselves, given their narrow scope and the fact that the time spent responding to them was largely a product of the Council&#8217;s chosen approach;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">nor was it persuasive to treat them as a &#8220;tipping point&#8221;, since only requests seeking Charity Commission correspondence were labelled vexatious; the majority of CW&#8217;s other requests were granted in full; and with the exception of one (which again sought copy correspondence with the Charity Commission) no subsequent  requests were treated as manifestly unreasonable despite the alleged collective burden of responding.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_9_5">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">The Council&#8217;s handling of CW&#8217;s requests</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_69">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The panel found that the Council&#8217;s reliance on FOIA concepts applicable to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">s. 36</ref> &#8212;particularly prejudice, confidentiality and ongoing processes&#8212;continued even after the Commissioner directed reconsideration under EIR, though such considerations are irrelevant to EIR 12(4)(b).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">This approach led to escalation within the Council before responding to CW's requests, including extensive senior and legal involvement. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The witness evidence indicated that the Council&#8217;s concern was primarily with the timing and sensitivity of disclosure of the information sought by Requests 1 and 2 during an ongoing Charity Commission process, rather than with the burden of responding to the requests.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">The panel rejects the Council&#8217;s late argument that an ongoing statutory process could itself render disclosure manifestly unreasonable, considering that this would impermissibly import a FOIA-style prejudice test into EIR 12(4)(b).</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_9_6">
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Conclusion on EIR 12(4)(b)</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_73">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Applying <span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Dransfield</span>, the panel concluded that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(a)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">the Council had repeatedly asserted but failed to evidence any disproportionate or unjustified burden, and had itself adopted an unduly burdensome methodology for handling CW&#8217;s requests;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(b)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">CW&#8217;s motive was found to be a legitimate public interest aim of holding the Council to account as sole trustee of charitable land;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(c)</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:0.65in;text-indent:0.12in">the requests had a serious purpose;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(d)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">neither harassment nor distress to staff was alleged or evidenced; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:0.65in;text-indent:-0.25in">(e)</num>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.65in;text-indent:0.12in">taking a holistic approach and bearing in mind the presumption in favour of disclosure under EIR, the high threshold for EIR 12(4)(b) was not met and that the Commissioner erred in law in finding the exception engaged.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <level eId="lvl_9_7">
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.25in"><span style="font-weight:bold">Other EIR exceptions</span></p>
+	    </content>
+	  </level>
+	  <paragraph eId="para_74">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">In accordance with its <span style="font-style:italic">Malnick</span> duty, the panel briefly considered the Council&#8217;s alternative reliance on EIR 12(4)(d), 12(5)(b) and 12(5)(d), and concluded that none were engaged: the correspondence sought was complete rather than draft material; legal professional privilege did not apply to letters sent to a third-party regulator; and no statutory or common law basis for confidentiality of the Charity Commission proceedings had been established.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="NumberedReasons" style="text-align:left;margin-left:0.5in"><span style="font-weight:bold;font-size:13pt">Outcome</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	    <content>
+	      <p class="NumberedReasons" style="text-align:left;margin-left:0.5in;text-indent:0in">As none of the relied-upon exceptions was engaged, the appeal is allowed and a substitute decision issued.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_9_8">
+	    <content>
+	      <p class="Bodytexttax1"><span style="font-family:'Book Antiqua'">Signed:   </span><img src="image2.emf" style="width:167pt;height:43pt"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">Date:  </span><docDate date="2026-04-06" refersTo="#decision" style="font-family:'Book Antiqua'">6 April 2026</docDate></p>
+	    </content>
+	  </level>
+	</level>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-family:'Book Antiqua'">Judge A. Marks CBE</span><br/><span style="font-family:'Book Antiqua'">(First-tier Tribunal Judge)</span></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

@@ -51,6 +51,8 @@ atom AdverseEnvironmentProtection: disclosure would (more probably than not) adv
 atom ThirdPartyPersonalData: the disputed information constitutes personal data of identifiable living individuals other than the applicant — it relates to them and is biographical in a significant sense. TRUE even for senior officials or public figures; their seniority affects the separate question whether disclosure would contravene the data-protection principles (the ContraveneDPPrinciples atom), not this one | quote: a public authority must not disclose the personal data | uri: examples/eir/sources/eir_2004.md#L59-L66
 atom ContraveneDPPrinciples: disclosing the third-party personal data to a member of the public would contravene a data-protection principle — chiefly the requirement that processing be lawful and fair: public disclosure of personal data is lawful only when it is necessary for a legitimate interest pursued by the requester or the public, and that interest is not overridden by the data subjects' own interests, rights and freedoms. Apply three steps: (i) is there a legitimate interest in disclosure; (ii) is disclosing THIS material NECESSARY for that interest — necessity fails (and this atom is TRUE) if a less intrusive means, such as an already-published summary, already serves the interest; (iii) if necessary, do the data subjects' rights and reasonable expectations override the interest. FALSE where the legitimate interest genuinely requires this very material and outweighs the subjects' rights (e.g. data the subjects already made public themselves) | quote: the first condition is satisfied | uri: examples/eir/sources/eir_2004.md#L59-L66
 
+atom ApplicantOwnData: the disputed information is personal data of which THE APPLICANT THEMSELVES is the data subject - information about the very person who made the request (the subject-access route applies instead of the environmental regime). FALSE when the data is about other people | quote: a public authority must not disclose the personal data | uri: examples/eir/sources/eir_2004.md#L59-L66
+
 # The reg 12(1)(b) balance, shaped by the reg 12(2) presumption.
 atom PiMaintainOutweighs: in all the circumstances at the time of the authority's response, the public interest in maintaining the engaged exception OUTWEIGHS the public interest in disclosing the disputed information. The presumption in favour of disclosure applies: if the competing interests are evenly balanced, this atom is FALSE and the information must be disclosed. Weigh the actual harm of THIS disclosure against the actual benefit of THIS material | quote: A public authority shall apply a presumption in favour of disclosure | uri: examples/eir/sources/eir_2004.md#L28-L36
 
@@ -58,6 +60,9 @@ atom PiMaintainOutweighs: in all the circumstances at the time of the authority'
 # Reg 5(1) duty; reg 14 refusal notice
 # ---------------------------------------------------------------------------
 duty_disclose: Request, IsEnvironmentalInfo, HoldsInfo  =>O@Authority  Disclose
+# reg 5(3): the duty does not apply to the applicant's own personal data -
+# a duty blocker (defeater), not a prohibition.
+r5_3_block:    ApplicantOwnData  ~>O@Authority  ~Disclose
 reg14_notice:  Request, O(~Disclose)  =>O@Authority  RefusalNotice
 
 # ---------------------------------------------------------------------------
@@ -77,4 +82,4 @@ r12_5f_exc: AdverseVolunteerInterests, PiMaintainOutweighs  =>O@Authority  ~Disc
 r12_5g_exc: AdverseEnvironmentProtection, PiMaintainOutweighs  =>O@Authority  ~Disclose
 r13_exc:    ThirdPartyPersonalData, ContraveneDPPrinciples  =>O@Authority  ~Disclose
 
-superiority: r12_4b_exc > duty_disclose, r12_4c_exc > duty_disclose, r12_4d_exc > duty_disclose, r12_4e_exc > duty_disclose, r12_5a_exc > duty_disclose, r12_5b_exc > duty_disclose, r12_5c_exc > duty_disclose, r12_5d_exc > duty_disclose, r12_5e_exc > duty_disclose, r12_5f_exc > duty_disclose, r12_5g_exc > duty_disclose, r13_exc > duty_disclose
+superiority: r5_3_block > duty_disclose, r12_4b_exc > duty_disclose, r12_4c_exc > duty_disclose, r12_4d_exc > duty_disclose, r12_4e_exc > duty_disclose, r12_5a_exc > duty_disclose, r12_5b_exc > duty_disclose, r12_5c_exc > duty_disclose, r12_5d_exc > duty_disclose, r12_5e_exc > duty_disclose, r12_5f_exc > duty_disclose, r12_5g_exc > duty_disclose, r13_exc > duty_disclose

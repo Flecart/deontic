@@ -68,6 +68,7 @@ ENGAGEMENT: dict[str, list[str]] = {
     "r12_5f_exc": ["AdverseVolunteerInterests"],
     "r12_5g_exc": ["AdverseEnvironmentProtection"],
     "r13_exc": ["ThirdPartyPersonalData", "ContraveneDPPrinciples"],
+    "r5_3_block": ["ApplicantOwnData"],
 }
 # NCND rules (decision: confirm cases) — same shape, ConfirmOrDeny side.
 NCND_ENGAGEMENT: dict[str, list[str]] = {}
@@ -306,7 +307,9 @@ Regulations 2004 appeal. Based on the factual background, decide:
    r12_5f (would adversely affect the interests of a voluntary supplier),
    r12_5g (would adversely affect protection of the environment),
    r13 (third-party personal data whose disclosure would contravene the
-        data-protection principles);
+        data-protection principles),
+   r5_3 (the requested information is the applicant's OWN personal data -
+        the environmental duty does not apply);
 2. the regulation 12(1)(b) public-interest balance for the decisive engaged
    exception, remembering the regulation 12(2) PRESUMPTION in favour of
    disclosure (equipoise means disclose): "maintain", "disclose", or "na";

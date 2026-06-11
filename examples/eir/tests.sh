@@ -31,6 +31,9 @@ expect "12(5)(b) + PI maintains"         'Disclose *: F\(Disclose\)' Disclose --
 expect "12(5)(e) commercial + PI"        'Disclose *: F\(Disclose\)' Disclose -- Request,IsEnvironmentalInfo,HoldsInfo,AdverseCommercialConfidentiality,PiMaintainOutweighs
 expect "12(5)(g) env protection + PI"    'Disclose *: F\(Disclose\)' Disclose -- Request,IsEnvironmentalInfo,HoldsInfo,AdverseEnvironmentProtection,PiMaintainOutweighs
 
+# reg 5(3): applicant's own data blocks the duty (P, not F)
+expect "reg5(3) own data blocks duty"    'Disclose *: P(w)?\(Disclose\)' Disclose -- Request,IsEnvironmentalInfo,HoldsInfo,ApplicantOwnData
+
 # reg 13 first condition needs no PI balance
 expect "reg13 personal data first condition" 'Disclose *: F\(Disclose\)' Disclose -- Request,IsEnvironmentalInfo,HoldsInfo,ThirdPartyPersonalData,ContraveneDPPrinciples
 expect "reg13 needs DP contravention"    'Disclose *: O\(Disclose\)' Disclose -- Request,IsEnvironmentalInfo,HoldsInfo,ThirdPartyPersonalData
