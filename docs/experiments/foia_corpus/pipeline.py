@@ -136,7 +136,8 @@ def load_case(path: Path) -> dict:
         "disputed": sections.get("disputed information", "").strip(),
         "oracle_facts": _csv(sections.get("oracle facts", "")),
         "gold": {
-            "disposition": sections.get("gold", "").strip().split()[0],
+            # malformed/empty Gold -> "?" so one bad file can't kill a run
+            "disposition": (sections.get("gold", "").strip().split() or ["?"])[0],
             "engaged": _csv(rules.get("engaged", "")),
             "pi": rules.get("pi", "na").strip(),
         },
