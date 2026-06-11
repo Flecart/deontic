@@ -1,0 +1,1268 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1047"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1047"/>
+	  <FRBRdate date="2025-09-04" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1047"/>
+	  <FRBRname value="Cabinet Office v Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1047"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1047"/>
+	  <FRBRdate date="2025-09-04" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1047/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1047/data.xml"/>
+	  <FRBRdate date="2025-09-04T09:35:22" name="transform"/>
+	  <FRBRdate date="2025-09-04T10:40:45" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2023-10-04" refersTo="#decision" source="#"/>
+	<eventRef date="2025-07-11" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-08-28" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCPerson eId="cabinet-office" href="" showAs="CABINET OFFICE"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="stop-uk-lies-and-corruption" href="" showAs="STOP UK LIES AND CORRUPTION"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1047</uk:number>
+	<uk:cite>[2025] UKFTT 1047 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>6e4dc68cd4e034b70ca2dda8ef5d083353e4a932c5e040558cdcc0dba2cf7a72</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.55in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua'">[2025] UKFTT 01047 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2024/0429</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2025-07-11" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">11 July 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: 04 Sept 2025</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p class="paragraph" style="text-align:center"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HARRIS&#160;</span></p>
+      <p class="paragraph" style="text-align:center"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">MEMBER GAPLEVSKAJA</span></p>
+      <p class="paragraph" style="text-align:center"><span class="normaltextrun" style="font-weight:bold;font-family:'Book Antiqua'">MEMBER PEPPERELL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#cabinet-office" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000;background-color:#FFFFFF">CABINET OFFICE</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1)</num>
+	<p class="paragraph" style="text-align:center;margin-left:0.5in"><party as="#respondent" refersTo="#information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2)</num>
+	<p class="paragraph" style="text-align:center;margin-left:0.5in"><party as="#respondent" refersTo="#stop-uk-lies-and-corruption" style="font-weight:bold;font-family:'Book Antiqua'">STOP UK LIES AND CORRUPTION</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p class="paragraph"><span class="normaltextrun" style="font-family:'Book Antiqua'">For the Appellant: Tom Tabori and Samuel Moss</span></p>
+      <p class="paragraph"><span class="normaltextrun" style="font-family:'Book Antiqua'">For the Respondent: Joseph Lavery</span></p>
+      <p class="paragraph"><span class="normaltextrun" style="font-family:'Book Antiqua'">For the Second Respondent: The Second Respondent did not attend</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is Dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Background to the appeal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This appeal is against a decision of the Information Commissioner (the &#8220;IC&#8221;) dated 19 September 2024, reference IC-295816-Q7Z7. This was in connection with a request for information made to the Cabinet Office (the &#8220;CO&#8221;) made by Ms Hart on behalf of Stop UK Lies and Corruption (&#8220;SUKLC&#8221;) about the Network North Project (&#8220;NNP&#8221;).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The NNP is a &#163;36 billion plan to improve the UK&#8217;s transport infrastructure using funds freed up by the cancellation of Phase 2 of the High Speed 2 (&#8220;HS2&#8221;) railway line. On 4 October 2023, in a Command Paper titled &#8220;Network North: Transforming British Transport&#8221;, the Department for Transport announced its plan to improve the country&#8217;s transport, under which the funding from not proceeding beyond Phase 1 of HS2 was proposed to be used to change the approach to transport infrastructure in line with three priorities identified in the paper. The then Prime Minister&#8217;s foreword to the Command Paper states: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">&#8220;We will complete Phase 1 of HS2 between Birmingham and London, with a rescoped Euston station. But every pound that we save from not proceeding with further phases of the scheme will instead be reinvested in hundreds of transport projects across the country, benefitting far more people, in far more places, far more quickly. Every penny of the &#163;19.8 billion committed to the Northern leg of HS2 will be reinvested in the North; every penny of the &#163;9.6 billion committed to the Midlands leg will be reinvested in the Midlands; and the full &#163;6.5 billion saved through our rescoped approach at Euston will be spread across every other region in the country.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Ms Hart on behalf of SUKLC made the following request to the CO on 20 December 2023: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">&#8220;I am writing to formally invoke the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> and seek access to information held within the Cabinet Office pertaining to the allocation of funds for the "Network North" project. This request specifically encompasses any associated decisions to redirect funds originally designated for the North towards projects in London.   In recognition of fiscal constraints and to expedite a timely response, I wish to refine the scope of this request as follows:   </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">1 All pertinent documents, including but not limited to memos, reports, and official statements, which directly pertain to the determination of fund allocation for the "Network North" project. I am particularly interested in documents elucidating the explanations, justifications, and criteria underpinning the decision-making process.    </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">2 Comprehensive details concerning the global budget allocated for the "Network North" project, presented without an intricate breakdown, with the aim of comprehending the magnitude of funding allocation.    </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">3 Any internal evaluations or impact studies that are explicitly linked to the decision-making process concerning the allocation of funds for the "Network North&#8221; project.  These should elucidate the potential repercussions on transportation projects in the North&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO wrote to SUKLC on 23 January 2024, confirming that it held the relevant information but was withholding it on the basis of the exemptions in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/21/1" uk:canonical="2000 c. 36 s. 21" uk:origin="TNA" uk:type="legislation">sections 21(1)</ref> and 35(1)(a) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>. As the latter is a qualified exemption, the CO&#8217;s response addressed the public interest balance, stating:   </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in">&#8220;<span style="font-style:italic">Given how recent this decision is and the many ongoing discussions and decisions around implementation, including working through delivery schedules and phasing of spend with delivery partners and within the Government&#8217;s overall fiscal plan, and the development of Network North policies, premature release of internal discussions could have a particularly negative impact. It is essential that the Cabinet Office can work freely with the Department for Transport and others to formulate these policies</span>.&#8221; </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Ms Hart on behalf of SUKLC sought an internal review on 23 January 2024. The CO responded on 27 March 2024, maintaining its original position.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Ms Hart on behalf of SUKLC contacted the IC on 20 March 2024 to complain about the CO&#8217;s handling of SUKLC&#8217;s request.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 19 September 2024 the IC issued a Decision Notice (the &#8220;Decision Notice&#8221;) in which it determined that: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The request falls under the Environmental Information Regulations (&#8220;the EIR&#8221;);</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">Regulation 12(4)(e) (internal communications) of the EIR is engaged, but the public interest favours disclosure because:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">The IC regarded the NNP as a &#8220;<span style="font-style:italic">recent decision, where key information had already been published to explain how funds had been allocated</span>&#8221; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">The information withheld was &#8220;<span style="font-style:italic">not particularly sensitive</span>&#8221; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <intro>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in">The &#8216;chilling effect&#8217; arguments advanced by the CO did not merit &#8220;much weight&#8221; given: </p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:2in;text-indent:-0.25in">1.</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:2in">The timing of the request;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:2in;text-indent:-0.25in">2.</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:2in">Information had already been published about the NNP;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:2in;text-indent:-0.25in">3.</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:2in">The withheld information was not particularly sensitive; and  </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua';margin-left:2in;text-indent:-0.25in">4.</num>
+		<content>
+		  <p class="NumberedReasons" style="margin-left:2in">The NNP is a high-profile project. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iv.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">There were conflicting media reports in the public domain about whether money was being redirected from the North to London, so the withheld information would inform public interest.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">The CO breached EIR regulations 14 and 11, because: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">Its refusal notice did not cite the exception on which it came to rely; and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">The CO took more than 40 working days to provide the outcome of its internal review. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Decision Notice required the CO within 30 days to disclose the withheld information (ie all of the information in the four PDF documents that the CO sent to the IC, labelled as the withheld information), subject to any appropriate redactions for personal data. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">Abbreviations used in this decision </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">&#8220;CO&#8221; means the Cabinet Office, the Appellant </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">&#8220;CP&#8221; means the Command Paper published on <docDate date="2023-10-04" refersTo="#decision">4 October 2023</docDate></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">&#8220;EIR&#8221; means the Environmental Information Regulations 2004 </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">&#8220;FOIA&#8221; means the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">&#8220;IC&#8221; means the Information Commissioner, the First Respondent </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">&#8220;NNP&#8221; means the Network North Project </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">&#8220;PM&#8221; means Prime Minister</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">&#8220;SUKLC&#8221; means Stop UK Lies and Corruption, the Second Respondent</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in">&#8220;UT&#8221; means the Upper Tribunal, Administrative Appeals Chamber </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">Procedural matters relating to the determination of this appeal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The hearing was held remotely by cloud video platform (CVP).<span style="font-family:'Times New Roman'">&#8239;</span> The Tribunal was satisfied that it was fair and just to conduct the hearing in this way.<span style="font-family:'Times New Roman'">&#8239;</span> There was an OPEN session attended by all the parties present and a CLOSED session which was attended only by the IC, CO and their representatives.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">The Appeal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO appealed the IC&#8217;s decision to the Tribunal on 17 October 2024. The grounds of appeal set out in its form GRC1 were as follows: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC misapplied the public interest test, under section 35(1)(a) of FOIA and/or Regulation 12(4)(e) EIR, thereby wrongly concluding that the public interest balance favoured disclosure of the withheld information. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC should have concluded that the public interest balance favoured maintaining those exemptions and the withheld information should be exempt from disclosure. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO filed amended grounds of appeal dated 30 October 2024, in which it stated that the IC had wrongly concluded that the public interest test favoured release of the withheld information. It was common ground that regulation 12(4)(e) was engaged, but the CO said that the IC should have found otherwise for three reasons: </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC, in summary, either has misunderstood what the Request was for or the stage of the policy that was subject of the internal communications in question, which was ongoing and not complete. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC was wrong to consider the withheld information not to be particularly sensitive. If the IC considered all the information in the internal communications to be mirrored by the published information, then he would not have found reg 12(4)(e) engaged in the first place. It accordingly behoved the IC to state how such information was published undermined the public interest. The fact of some information falling within the request having been published is either a factor favouring non-disclosure or a neutral factor. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC did not give the correct weight to chilling effect arguments presented. Its reliance on NNP being a high profile and high value project which affects a large number of people is flawed because this is not a determinative, blanket factor dispositive of the public interest test. The IC should have gone on to find that the specific disclosure interest at the heart of the request had already been met and did not weigh in favour of disclosing the withheld material. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">The IC&#8217;s Response </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC responded to the grounds of appeal on 24 December 2024. He denied the three points raised in the CO&#8217;s amended grounds of appeal and made the following points: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">&#8220;First, the DN is clear regarding the Commissioner&#8217;s understanding of the stage of policy development (DN 37-41) and maintains that he attributed the correct public interest weight in considering this point. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">As to the second point, the Commissioner maintains his position as stated in the DN, though notes that the Appellant intends to develop its case in evidence and further submissions in due course. The Commissioner will review his position on receipt of the further evidence and submissions referred to by the Appellant.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">The Appellant&#8217;s third argument, the Commissioner maintains that he attributed the correct weight to the factors considered.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.3in"><span style="font-weight:bold">SUKLC&#8217;s Submissions </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Ms Hart was joined as the Second Respondent on 24 April 2025. The Tribunal&#8217;s record was later amended to clarify that Ms Hart represented SUKLC rather than being a party in her personal capacity, so we refer to SUKLC throughout this decision.  SUKLC made submissions by email dated 3 May 2025. In relation to the CO&#8217;s appeal, SUKLC made the following points: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.3in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.3in">The CO overstates the sensitivity of the withheld documents. The key decisions had already been made and publicly announced by the time of the request. As such, the &#8220;safe space&#8221; and &#8220;chilling effect&#8221; arguments are significantly weakened</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.3in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.3in">The CO has not pointed to any specific content that would cause tangible harm if disclosed. General concerns about reduced candour are insufficient to meet the evidential standard required under law. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.3in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.3in">The CO&#8217;s statements about the status of policy formulation are contradictory and the policy had been settled before the request. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.3in;text-indent:-0.25in">d.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1.3in">Three leading rulings from the UK&#8217;s higher courts decisively favour transparency: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.8in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.8in"><span style="text-decoration-line:underline;text-decoration-style:solid">Evans v Attorney General</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2015/21" uk:canonical="[2015] UKSC 21" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKSC 21</ref>: The Supreme Court upheld the release of internal government correspondence with Prince Charles, despite its constitutional sensitivity. The principle established is clear: transparency in government communications is fundamental to public accountability. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.8in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.8in;text-indent:0.12in"><span style="text-decoration-line:underline;text-decoration-style:solid">Common Services Agency v Scottish IC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukhl/2008/47" uk:canonical="[2008] UKHL 47" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2008">[2008] UKHL 47</ref>: The House of Lords held that redaction or anonymisation should be preferred over wholesale refusal. The Cabinet Office has failed to consider or apply this approach. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.8in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.8in;text-indent:0.25in"><span style="text-decoration-line:underline;text-decoration-style:solid">Cox v IC and Home Office</span> [2018] UKUT 119 (AAC): The Upper Tribunal affirmed that transparency is especially compelling where high-value or controversial policies are involved. It stressed the public's right to examine how decisions are made, not just what the outcomes are. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.3in;text-indent:-0.25in">e.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1.3in">Together, these rulings nullify the CO&#8217;s reliance on vague or categorical objections. None support withholding the documents in question. </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:2in;text-indent:-0.25in">1.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:2in">The CO has advanced only hypothetical risks&#8212;such as diminished candour or reluctance to offer frank advice&#8212;without identifying any specific content likely to cause harm. Its witness statement fails to specify which passages pose risk, how, or to whom. As the Upper Tribunal has held in a number of cases, generalised or speculative claims cannot satisfy the threshold for withholding under Regulation 12(4)(e). </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.3in;text-indent:-0.25in">f.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1.3in">The CO also failed to consider partial disclosure or redaction, contrary to Common Services Agency, further weakening its position. </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:2in;text-indent:-0.25in">2.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:2in">The CO has misrepresented the request; in fact, it sought transparency on whether funds designated for the North were redirected to London&#8212;not to accuse, but to understand. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.3in;text-indent:-0.25in">g.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.3in">The CO has continued to rely on FOIA exemptions (e.g. Section 35) even after the IC confirmed that the request falls under the EIR.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1.3in;text-indent:-0.25in">h.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1.3in">The CO&#8217;s position appears to suggest that transparency is only required if misconduct is suspected. This is a fundamental misunderstanding of FOIA and the EIR, which are designed to promote proactive accountability regardless of wrongdoing. As Cox and Evans both confirm, the public has a legitimate interest in scrutinising decisions involving major public funds. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">SUKLC concluded by inviting the Tribunal to uphold the Decision Notice in full. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Legal Framework </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">It is common ground that this is environmental information which falls to be considered under the EIR. The relevant provisions of EIR 12 are as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">12(1) Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(a)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">an exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-style:italic;font-family:'Book Antiqua'">(b)</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">12(2)  A public authority shall apply a presumption in favour of disclosure.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">12(4) &#8230;a public authority may refuse to disclose information to the extent that &#8211; (e) the request involves the disclosure of internal communications.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Requests for environmental information are expressly excluded from the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/39" uk:canonical="2000 c. 36 s. 39" uk:origin="TNA" uk:type="legislation">section 39</ref> and must be dealt with under EIR, and it is well established that &#8220;environmental information&#8221; is to be given a broad meaning in accordance with the purpose of the underlying Directive 2004/4/EC. We are satisfied that this request falls within EIR.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Regulation 12(4)(e)(internal communications) is a class-based exception, meaning it is engaged automatically for information that consists of internal communications without the need for to show that disclosure would cause harm. It is still subject to the public interest balancing test. The concept of &#8220;internal communications&#8221; is broad, and covers information intended to be communicated to others. The purpose of the exception is to preserve the public authority&#8217;s private thinking space, which is particularly relevant when a matter is live. The starting point, however, is that in Regulation 12(2) there is an explicit statutory presumption in favour of disclosure.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC&#8217;s guidance on the application of Regulation 12(4)(e) in relation to the public interest test states:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">&#8220;public interest arguments should focus on the protection of internal deliberation and decision-making processes&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">Arguments should always relate to the content and sensitivity of the information, and the circumstances of the request. There is no automatic public interest in withholding information just because it falls within this exception. Neither should there be a blanket policy of non-disclosure for a particular type of internal document.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">Arguments about protecting internal deliberation and decision-making often relate to preserving a safe space in which to debate issues away from external scrutiny, and preventing a &#8216;chilling effect&#8217; on the exchange of free and frank views in future. Their weight will vary from case to case, depending on the timing of the request and the content and context of the particular information in question&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">The need for a safe space is strongest when the issue is still live. Once you have made a decision the argument will carry little weight. The timing of the request is therefore an important factor. This was confirmed by the Information Tribunal in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">DBERR v Information Commissioner and Friends of the Earth</span><span style="font-style:italic"> (EA/2007/0072, 29 April 2008) which stated:</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic">&#8220;This public interest is strongest at the early stages of policy formulation and development. The weight of this interest will diminish over time as policy becomes more certain and a decision as to policy is made public.&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">The Role of the Tribunal    </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal&#8217;s remit is governed by s.58 FOIA. This requires the Tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the IC&#8217;s decision involved exercising discretion, he should have exercised it differently. If we are satisfied that the IC&#8217;s decision notice is in error of law or involves an inappropriate exercise of discretion then we will allow the appeal and may substitute a decision notice for that of the IC. The Tribunal may receive evidence that was not before the IC and may make different findings of fact from the IC.    </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">The evidence    </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal considered an OPEN bundle of documents (701 pages) and an authorities bundle (382 pages). The Tribunal had the benefit of skeleton arguments from the CO and IC and written submissions and supplemental submissions from Ms Hart on behalf of SUKLC responding to the grounds of appeal, to the CO&#8217;s skeleton argument and the additional material disclosed on the day of the hearing.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">There was an additional bundle of material (38 pages) which had been disclosed to SUKLC which was received by the Tribunal on the morning of the hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The Tribunal also considered a CLOSED bundle of withheld documents (224 pages).  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Prior to the hearing an application under rule 14 of the Tribunal Rules had been made as regards the withheld material. In accordance with our duty under <span style="text-decoration-line:underline;text-decoration-style:solid">Browning</span> we considered whether it was necessary to withhold the information in the closed bundles from the appellant. We were satisfied that it was necessary to withhold the information from anyone other than the CO, IC and Tribunal in order to avoid defeating the purposes of the proceedings.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We heard OPEN and CLOSED evidence from Mr Mark Davies, director in the Economic and Domestic Affairs Secretariat (EDS) at the Cabinet Office with responsibility for strategy and analysis. Mr Davies was cross-examined by Mr Lavery.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In his OPEN witness statement, Mr Davies made the following general points about the prejudicial impact of disclosure of the withheld material:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">NNP policies were very much subject to live discussion in January 2024 and disclosure would have undermined the processes of advice to ministers and ministerial decisions.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">There is a strong public interest in ensuring the highest possible quality policy development, including ministerial deliberations. Concerns about premature disclosure of papers mean that early disclosure could undermine the integrity of policy decisions.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The more sensitive and difficult the issue, the more likely that candour of official advice would be essential to the decision-making as well as to presenting the most comprehensive picture to ministers; and thus the greater the likely downsides if there were any tendency away from the candour inherent in the existing system.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Public disclosure of advice to ministers in the midst of controversy and public debate would have serious consequences not only for the development of NPP policies, but for wider policy work. The practical effect of the disclosure of the NNP information would be that policy advice would be prepared with potential public release in mind, as would Ministerial responses to those submissions.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In his OPEN oral evidence, Mr Davies stated that NNP was a highly sensitive issue and if the withheld material was made public while it was happening, this would have changed the manner of presentation of advice put together by civil servants on the issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We also heard OPEN and CLOSED evidence from Ms Kathryn Davies, director in the Economic and Domestic Affairs Secretariat (EDS) at the Cabinet Office with responsibility for economic affairs. Ms Davies was cross-examined by Mr Lavery. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In her OPEN witness statement, Ms Davies made the following general points about the prejudicial impact of the disclosure of the withheld material.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Key details in relation to central limbs of the NNP were still in formulation. Policy options under the NNP were still being formulated and reviewed through discussions between the Cabinet Office, No. 10, DfT, DLUHC and His Majesty&#8217;s Treasury.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Civil servants and Ministers were considering how best to deliver the different transport projects committed to under the NNP. This included consideration of factors such as value for money, delivery partners, and what would be required in the way of legislation. It also involved listening to local government and transport bodies, developing and approving business cases, and progressing the different projects in line with the necessary consultative steps and other relevant legal and fiscal duties.</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Release of the information requested would have led to the release of commercially and politically sensitive information which would have cut across ongoing negotiations between Government departments and delivery partners including local authorities. It would have also made it impossible for officials to provide full and frank advice to ministers including the Prime Minister, on outstanding policy decisions such as the design of Northern Powerhouse Rail and Euston station.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Being cognisant of the possibility of internal policy discussions being made public in the near future would have had an impact on the work of civil servants and ministers, which could lead to an increase in informal, unrecorded discussions and briefings, less frank and honest assessments or lower quality formal advice.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In her OPEN oral evidence, Ms Davies noted that the Government had committed to a number of projects at a high level, but that there was a lot of ironing out of detail to go after the initial announcement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The following agreed gist of the CLOSED session was prepared by counsel for the Appellant and First Respondent and approved by the Tribunal:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in">&#8220;Mr Lavery cross-examined Mr Davies and Ms Davies on the following matters:  </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:Symbol;margin-left:0.8in;text-indent:-0.25in">&#8226;</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.8in">Whether the withheld documents contain references to policies in respect of which there was ongoing policy-making, including the extent to which those policies had been announced in the Command Paper;   </p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-family:Symbol;margin-left:0.8in;text-indent:-0.25in">&#8226;</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.8in">Whether the withheld documents contain material which was sensitive or would result in prejudice to the Government, including the extent to which the material reflected information which was already in the public domain and/or was outdated.</p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in">Mr Tabori re-examined Mr Davies and Ms Davies on the following matters:  </p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-family:Symbol;margin-left:0.8in;text-indent:-0.25in">&#8226;</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.8in">The extent to which the withheld documents reflected and referred to policies in respect of which there was ongoing policy-making, including by reference to outstanding decisions about the content of policies.   </p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We discuss other matters pertaining to the CLOSED hearing in the CLOSED annex to this decision.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">Issues </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">It was common ground that this is a decision which engages regulation 12(4)(e) of the EIR and that the EIR not FOIA applies in this instance. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The remaining issue still in dispute between the parties is whether the public interest balancing exercise weighs in favour of maintaining this exception or disclosing the withheld material. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO gave the same three reasons set out in its amended grounds of appeal why it said that that the IC was wrong to determine that the public interest was in favour of disclosure, which were addressed by the CO and IC in their oral and written submissions and by Ms Hart in her written submissions <span class="normaltextrun" style="color:#000000">on behalf of SUKLC</span>. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">The IC misunderstood the stage of policy development of the NNP </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO&#8217;s said its initial response to SUKLC&#8217;s response addressed the public interest balance, as set out in paragraph 5 above.  The CO argued that the IC has plainly focused on the first few words and not the subsequent ones and the fact that, notwithstanding the initial recent decision contained in the Command Paper, extensive, delicate decision and policy-making was ongoing and to come. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">It argued that the current case can be distinguished from <span style="text-decoration-line:underline;text-decoration-style:solid">Department of Health v Information Commissioner</span> (EA/2018/0001 and 0002, 22 February 2019) (&#8220;<span style="text-decoration-line:underline;text-decoration-style:solid">DoH&#8221;</span>) where the public authority did not claim that policy development was still in progress in relation to any of the initiatives included in the policy. In the instant case, the CO when it responded to SUKLC strongly emphasised the ongoing nature of policy-making that were the subject of the internal communications, stating &#8220;<span style="font-style:italic">We are in the early stages of planning next steps, including delivery timelines, for many of these schemes and are working closely with delivery partners to do this so need time to continue working through these details. All schemes will be subject to the development and approval of business cases and will undergo all formal governance, in line with relevant fiscal and legal duties. We will be able to share further detail on these schemes in due course</span>.&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">It reiterated that either the IC has misunderstood what the Request was for or the stage of the policy that was subject of the internal communications in question.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">It argued that SUKLC relies on the IC&#8217;s mistaken position. The cases relied upon by SUKLC are not factually on point. The general importance of transparency is not in dispute; the balance on the specifics of this case is.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">It submitted that, in light of <span style="text-decoration-line:underline;text-decoration-style:solid">Department for Education and Skills v IC and Evening Standard</span> [EA/2006/0006] (&#8220;<span style="text-decoration-line:underline;text-decoration-style:solid">DFES&#8221;)</span>, had both been properly understood, the IC would have weighed the public interest in withholding the requested information differently.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In response the IC stated that Decision Notice properly read, makes clear that the IC had regard to the fact that discussions around implementation were ongoing at the time of the CO&#8217;s response, although the NNP itself and a substantial number of projects thereunder had been formulated and presented to Parliament, and so no longer required a safe space for development (see <span style="text-decoration-line:underline;text-decoration-style:solid">DFES</span> principle (v)). Where projects are in the process of implementation, the safe space argument cannot not apply to pre-announcement discussions around formulation of the overarching policy. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Lavery for the IC referred to the IC&#8217;s guidance set out at AB 25 which stated &#8220;<span style="font-style:italic">The term &#8216;development&#8217; of policy includes the process of reviewing, improving or adjusting existing policy. Not every decision or alteration made after an original policy is settled will amount to the development of that policy. If a policy is a plan to achieve a particular outcome in the real world, the development of that policy is likely to involve a review of its intended outcomes, or a significant change to the original plan. By contrast, minor adjustments made to adapt to changing circumstances, avoid unintended consequences, or better achieve the original goals might more accurately be seen as decisions on implementation. In this context, the policy can be seen as a framework of &#8216;rules&#8217; put in place to achieve a particular objective. This framework sets in stone some fundamental details, but also inevitably leaves more detailed decisions to be made by those implementing the plan, thus giving some inbuilt flexibility on how it can be delivered. Any such adjustment or decision that can be made within this inbuilt flexibility- ie without altering the original objectives or rules &#8211; is likely to be an implementation decision rather than policy development</span>.&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Lavery argued that the IC sees the information withheld in this case as squarely in implementation territory. The CP was deciding the strategic framework and rules on funding going to broad areas. While some details continued to be ironed out once the CP was published these were within the framework it set out and thus within the implementation. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He referred to <span style="text-decoration-line:underline;text-decoration-style:solid">DoH</span> and particularly paragraph 66 which stated &#8220;<span style="font-style:italic">the Department does not claim that policy development was still in progress in relation to any of the initiatives included in the plan</span>.&#8221; He argued that the <span style="text-decoration-line:underline;text-decoration-style:solid">DoH</span> case was analogous to the current case, where there is an umbrella policy announcement at a high level, with sub-policies and ongoing work beneath it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He noted that the CO has not in its grounds of appeal identified any policy development which is still in progress, but only formulated policies which are in the process of implementation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Ms Hart stated that the CO&#8217;s argument that disclosure would prejudice policy formulation is contradicted by its own public conduct. She relied on the Command Paper and funding announcements between October and December 2023. She also noted that the CO in its initial response described NNP as a recent decision, which suggests it was not a policy under development. She said that as established in rulings such as <span style="text-decoration-line:underline;text-decoration-style:solid">DFES</span>, the &#8220;safe space&#8221; argument collapses once a policy has been decided and announced. No evidence is offered by the Appellant that the specific withheld documents relate to undecided elements such as Euston or Northern Powerhouse Rail.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">The IC wrongly regarded the information as not particularly sensitive </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO referred to its response to the request which said <span style="font-style:italic">&#8220;Internal documents such as &#8216;memos, reports, and official statements&#8217; within the CO are highly sensitive, incomplete/unfinished internal communication setting out a range risk, such as policy decisions, legal risks potential and unannounced schemes. It is essential for the Civil servants to freely have conversations and provide Ministers with advice (including legal advice) in relation to the policy development to manage the HS2 and development of Network North.</span>&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO said it was not clear from the Decision Notice what published information the IC had regard to in forming its view that the information was not particularly sensitive. If the IC considered all the information in the internal communications to be mirrored by the published information, then he would not have found reg 12(4)(e) engaged in the first place. The CO submits that the relevance of the fact that some information falling within scope of the Request had already been published is either (i) a factor favouring non-disclosure, due to extent to which the general public interest in transparency in relation to a large scale policy has already been met, or (ii) at least, a neutral factor, with no bearing on the public interest in disclosure of that which has not been published. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO relied on the OPEN and CLOSED witness statements, from Mark Davies [OB/41-60] [CB/1-20] and Kathryn Davies [OB/ 61-76] [CB/21-36] of the CO, which manifestly demonstrate that the withheld information is sensitive. Two statements are filed because each witness has the ability to provide relevant evidence from their distinct expertise, each statement provides an OPEN overview of the prejudicial impact of disclosure of the withheld material at the date of the Response on 23 January 2024 and a CLOSED analysis of how that prejudice exists in relation each document within the Withheld Information. Reg 12(4)(e) is broad. There is no limit on the type of prejudice which could be relied upon and was it &#8220;<span style="font-style:italic">not limited to the need for &#8216;safe space&#8217; for &#8216;policy formulation and development</span>&#8221;: <span style="text-decoration-line:underline;text-decoration-style:solid">Amin v IC and DECC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2015/527" uk:canonical="[2015] UKUT 527 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 527 (AAC)</ref>, &#167;102. It is sufficient that disclosure &#8220;<span style="font-style:italic">would in some way prejudice the effective conduct of public affairs &#8230; [t]he only limitation [being] &#8230; that the prejudice must be related to the fact that the communications are internal ones</span>&#8221;. The CO&#8217;s evidence demonstrates a particularly wide range of forms of the prejudice encompassed by reg 12(4)(e).   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC in response argued that the CO&#8217;s evidence largely consists of assertions of sensitivity/chilling effects without explanation or substance. No weight should be placed on those assertions. Particularly, the assertions that civil servants  would  &#8220;<span style="font-style:italic">self-censor</span>&#8221;  or  <span style="font-style:italic">&#8220;omit information on the basis of how they assume ensuing public debate may evolve&#8221;</span> first,  runs  directly  contrary  to <span style="text-decoration-line:underline;text-decoration-style:solid"> DFES</span>  principle  (vii)  and, secondly, is a phenomenon which has not been empirically observed since the introduction of FOIA/the EIR. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He also stated that, to the extent the IC considered published information, the evaluation of the sensitivity of withheld information is a contextual analysis which must take into account the public authority&#8217;s treatment of similar information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In his oral submissions, Mr Lavery stated that in relation to the documents which pre-date the CP, the information contained in them is no longer live and there is little sensitivity in out-of-date drafts. A substantial amount of the withheld information has been made public through the CP and other policy announcements, which cannot be regarded as sensitive, because the Government was content to publish this information and did so.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Lavery argued that where the Government had disclosed information about NNP, all that information had been made public and this is a material consideration when determining the sensitivity of the information in the withheld documents.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">The IC under-weighted the chilling effect argument </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Both parties in their submissions took us to the case of <span style="text-decoration-line:underline;text-decoration-style:solid">DFES</span>. As a first instance decision of an earlier iteration of this Tribunal it is persuasive but not binding on the current case and concerned section 35 FOIA, although it was approved by the UT in <span style="text-decoration-line:underline;text-decoration-style:solid">CO v IC and Morland</span> [2018] AACR28. At paragraph 75 this sets out ten principles to guide decisions on disclosures. The CO relied particularly on principle (iv) which stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.55in">&#8220;<span style="font-style:italic">The timing of a request is of paramount importance to the decision. We fully accept&#8230;that disclosure of discussions of policy options, whilst policy is in the process of formulation, is highly unlikely to be in the public interests unless, for example, it would expose wrongdoing within government. Ministers and officials are entitled to time and space, in some instances to considerable time and space, to hammer out policy by exploring safe and radical options alike, without the threat of lurid headlines depicting that which has been merely broached as agreed policy. We note that many of the most emphatic pronouncements on the need for confidentiality to which we were referred, are predicated on the risk of premature publicity.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO submitted that IC&#8217;s reliance on &#8220;<span style="font-style:italic">the nature of the Network North project, a &#8220;a high-profile and high-value project &#8230; which affects a large number of people</span>&#8221; was flawed and this factor incapable of bearing the weight attributed to it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The fact that the subject matter is high- profile, high-value, and affecting a large number of people is not a determinative, blanket factor dispositive of the public interest test. Given that the exception has been found engaged, so to treat would be to re-write the EIR and render that exception nugatory.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO said that Ms Hart&#8217;s request helpfully identified the matter that was most important in relation to the disclosure interest, stating: &#8220;<span style="font-style:italic">This request specifically encompasses any associated decisions to redirect funds originally designated for the North towards projects in London.&#8221; This effectively was the perceived potential &#8220;wrongdoing</span>&#8221; that, applying the <span style="text-decoration-line:underline;text-decoration-style:solid">DFES</span> case, might have justified disclosure of internal communications discussing policy options. Yet, as correctly noted by the IC, in this case there was no such &#8216;wrongdoing&#8217;. The IC should have gone on to then find that the specific disclosure interest at the heart of the Request had (i) already been met and (ii) did not exist as a factor weighing in favour of disclosure of the withheld information. Instead, unfortunately, the IC did not recognise that significance to his finding.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">He instead proceeded to state: &#8220;<span style="font-style:italic">In this case, the withheld information will inform public debate, in the Commissioner&#8217;s  view</span>&#8221; without saying how. This reasoning contradicted his own finding of no redirection of funding and the fact that no one has suggested a &#8220;suspicion of spin&#8221; much less adduced reasonable grounds for the same. It also asserted another blanket factor that could be deployed in any case, irrespective of the nature and content of the withheld information, the extent of information already available, and the timing of the request in relation to the policy-making to which the internal communications relate.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"> The CO said that SUKLC clarifies that the Request was not founded on perceived wrongdoing that she felt must be revealed, but general desire to &#8220;understand&#8221;. If so, applying <span style="text-decoration-line:underline;text-decoration-style:solid">DFES</span>, the interest in disclosure is weaker still. The general transparency interest does not override the important public interest considerations protected by reg 12(4)(e), engaged in this case and, on the specific facts of this, carrying great weight for reasons set out in the CO&#8217;s witness statements.    </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The CO concluded that as it stands, the IC has not entered a sustainable response to this third point in the appeal.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC said that the Decision Notice did not find the fact that the subject matter is high-profile, high-value, and affecting a large number of people is not a determinative, blanket factor dispositive of the public interest test. The high-profile of the NNP was one factor among many that the IC took into account when evaluating the chilling effect argument, which in turn was one factor among many that the IC took into account when striking the public interest balance. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC argued that the factual position is that there is no compelling evidence that disclosure would have a chilling effect on debate.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC also stated that he found there was no wrongdoing so that was not a factor weighing in favour of disclosure. The discussion at paragraph 47 of the Decision Notice did not address chilling effects but considered the separate factor of whether disclosure will inform a live public debate.  The request did not contain any allegation of wrongdoing and the Decision Notice did not reach any conclusion as to wrongdoing. The IC says he merely noted that there were conflicting media reports, and therefore disclosure of the withheld information would contribute to that public debate. That is a factor favouring disclosure.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Ms Hart on behalf of SUKLC stated that the &#8220;chilling effect&#8221; argument is speculative and unsupported. She said that as repeatedly held by the Tribunal and UT, authorities must not rely on generalised assertions about a chilling effect. No passage in the withheld documents is identified as especially candid or risky. No evidence is provided that any official has withheld views due to FOIA or EIR disclosures in the past. The Tribunal has consistently rejected class-based, hypothetical harms under Regulation 12(4)(e). </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-weight:bold">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The only outstanding issue for the Tribunal to determine was whether the public interest balancing exercise weighs in favour of maintaining this exception or disclosing the withheld material at the date of the CO&#8217;s response to SUKLC on 23 January 2024.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">What we need to determine is where the balance of the public interest lies, and whether it weighs in favour of disclosure or maintaining the exception under Regulation 12(4)(e). In doing so, we have had regard to the EIR which sets out the policy framework applicable to this particular exception.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Our starting point is Regulation 12(2) which means that there is a presumption in favour of disclosure. Standing in the shoes of the IC and considering the matter afresh, we then have to weigh the various factors in play.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Most of the authorities in relation to the application of the public interest balancing test are ones which relate to exemptions under FOIA. Although the starting point for EIR12 is a presumption of disclosure, which is different from FOIA, we are satisfied that broadly the same approach is appropriate here.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">The case of </span><span class="normaltextrun" style="text-decoration-line:underline;text-decoration-style:solid">All Party Parliamentary Group on Extraordinary Rendition (APPGER) v IC &amp; Foreign and Commonwealth Office</span><span class="normaltextrun"> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2013/560" uk:canonical="[2013] UKUT 560 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKUT 560 (AAC)</ref> gives guidance on how the balancing exercise required by s 2(2)(b) of FOIA should be carried out:&#160;&#160;</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="paragraph" style="text-align:justify;margin-left:0.49in"><span class="normaltextrun" style="font-style:italic;font-family:'Book Antiqua'">&#8220;&#8230; when assessing competing public interests under FOIA the correct approach is to identify the actual harm or prejudice that the proposed disclosure would (or would be likely to or may) cause and the actual benefits its disclosure would (or would be likely to or may) confer or promote. This &#8230; requires an appropriately detailed identification of, proof, explanation and examination of both (a) the harm or prejudice, and (b) benefits that the proposed disclosure of the relevant material in respect of which the exemption is claimed would (or would be likely to or may) cause or promote.&#8221;&#160;&#160;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">However, EIR regulation 12(4) does not require the person seeking to rely on the exemption to show prejudice or an adverse effect, so we are have considered only the factors for and against disclosure in this instance in carrying out the balancing exercise.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun">The balancing of public interest is on the basis of how matters stood at the time of the public authority&#8217;s response to a request (see </span><span class="normaltextrun" style="text-decoration-line:underline;text-decoration-style:solid">Montague</span><span class="normaltextrun"> above)</span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic;font-weight:bold">Factors against disclosure/in favour of maintaining the exception</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Paragraph 30 of the Decision Notice records that against disclosure the CO indicated to SUKLC that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">the withheld information comprises highly sensitive, unfinished internal communications, setting out risks and unannounced schemes;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">it&#8217;s essential that civil servants freely have conversations and provide advice to Ministers;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">the documents are still being used to formulate and develop live government policy and officials need a safe space away from public scrutiny to do so; and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">&#8220;officials would be reluctant to provide free and frank advice&#8230;if they felt that this information would be routinely placed into the public domain ahead of any final decisions.&#8221;</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In relation to the need for safe space, once a decision is made, then the argument will carry little weight. The case of <span style="text-decoration-line:underline;text-decoration-style:solid">DBERR v Information Commissioner and Friends of the Earth</span> (EA/2007/0072, 29 April 2008) stated &#8220;<span style="font-style:italic">This public interest is strongest at the early stages of policy formulation and development. The weight of this interest will diminish over time as policy becomes more certain and a decision as to policy is made public.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">However, where an issue is still under active consideration, the public interest does not always favour maintaining the exception, regardless of the sensitivity of the information. The <span style="text-decoration-line:underline;text-decoration-style:solid">DoH</span> case states &#8220;<span style="font-style:italic">The Tribunal considered that the department&#8217;s argument came close to suggesting that where policy formulation or development was still live at the relevant time, the public interest balance must always come down in favour of non-disclosure in the absence of something akin to wrongdoing within government. It rejected the argument</span>.&#8221; (Paragraphs 113 to 117). This approach was upheld by the UT in <span style="text-decoration-line:underline;text-decoration-style:solid">Department of Health and Social Care v Information Commissioner</span>, GIA/1552 and 1553/2019, [2020] UKUT 299 29 October 2020, Paragraph 59) The IC&#8217;s guidance points out that if this argument were to be accepted, if there is live policy development going on, this may mean a lot of non-sensitive information being withheld without any good cause.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC&#8217;s guidance also points out that a safe space may be needed after a decision has been made to properly promote, explain and defend the key points, but that this only lasts for a short time and once an initial announcement has been made, there is likely to be increased public interest in scrutinising and debating the details of the decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Applying this to the current case, we agreed with the IC that the withheld documents comprised internal documents not shared outside government, but considered that the key question was in relation to whether or not disclosure at 23 January 2024 would be premature because the communications were part of policy development as opposed to policy implementation.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We discuss the detail of the withheld documents, the harm which disclosing them would cause and the factors in favour of maintaining the exemption in relation to them in the CLOSED annex to this decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">80.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On balance of probabilities we are satisfied that the CP marks the publication of a decision and statement of high level policy that the northern part of the HS2 rail link was to be scrapped and the money reallocated to other infrastructure projects. The CP gave broad details of how funding was to be allocated across regions and to specific projects. We consider that this is supported by the language of the CP itself, which refers to government having taken a decision.  Part Four of the CP states &#8220;<span style="font-style:italic">That is why we have chosen to take the hard-headed decision on delivering Phase 1 to secure critical new rail capacity. We have also grasped the nettle by not proceeding with further phases of HS2. Both will allow us to reset the balance in our transport investment, freeing up &#163;36 billion to deliver a truly unprecedented new settlement to level up right across the country.</span>&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">It goes on to say <span style="font-style:italic">&#8220;We will now proceed with the steps necessary to take these decisions forward. That will include reflecting on the existing package of legislation before Parliament, on which we will set out next steps to the House in the usual way. It will include the necessary consultative steps and business case development, in line with our relevant legal and fiscal duties. And we will listen to local government and transport bodies about what this means for them, including further guidance and indicative allocations for local authorities and city regions. This will allow us to confirm an achievable, affordable plan to deliver this programme over the coming years and beyond, in addition to the &#163;12 billion of capital investment that the Department for Transport is already undertaking each year to deliver transport priorities outside of the HS2 programme</span>&#8221;. We consider that this is strong evidence that the debate and development arising from the high-level decision announced in the CP is not itself policy formulation, but rather the steps necessary to take the decision forward, or in other words development and delivery. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">There is no issue of wrongdoing on the facts of this case, and Ms Hart has made it clear that she did not allege any <span class="normaltextrun" style="color:#000000">on behalf of SUKLC</span>. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We are satisfied that while there may have been live discussion about these next steps, the issues set out in the CP reflected a decision that had been made, which limits the weight to be placed on the need for a safe space to discuss the detail of that decision once the decision is in the public domain. We therefore placed less weight on the CO&#8217;s argument that documents relating to the finalisation and publication of the CP, which, in practice means all those which pre-date the CP, require a safe space to deal with the formulation of policy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">We also considered the chilling effect arguments raised by the CO.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="text-decoration-line:underline;text-decoration-style:solid">In Davies v Information Commissioner and the Cabinet Office</span> GIA/2757/2017 [2019] UKUT 185, 11 June 2019 the Upper Tribunal stated at paragraph 25 that: <span style="font-style:italic">&#8220;There is a substantial body of case law which establishes that assertions of a &#8220;chilling effect&#8221; on provision of advice, exchange of views or effective conduct of affairs are to be treated with some caution.</span> &#8220;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">86.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC&#8217;s guidance explains that there are two main reasons for such caution. Firstly, since FOIA and EIR were introduced in 2005, public officials now recognise that it is not possible to guarantee the confidentiality of their advice or deliberations. Secondly, civil servants and other public officials are expected to be impartial and robust when giving advice, and not easily deterred from expressing their views by the possibility of future disclosure. The guidance also suggests that chilling effect arguments do not automatically carry much weight. The weight accorded to such arguments instead depends on the circumstances of each case, including the timing of the request; whether the issue is still live; and the content and sensitivity of the information in question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In this case, we noted that the response to the request was made in January 2024, which was after the CP had been published. The matters set out in the CP were accordingly not live, although the implementation or delivery of them may have been.  Accordingly, we were not persuaded that the matters set out in the withheld documents were ones where the issue was still live. We set out our comments in relation to the content and sensitivity of each withheld document in the CLOSED decision.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">88.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The final issue raised by the CO was the commercial interests raised in the withheld material. For the reasons set out in the CLOSED decision, we were not satisfied that much weight should be given to these arguments, because there was insufficient specific evidence that disclosure of the commercial interests would have a negative effect on internal discussions and decision making.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.55in"><span style="font-style:italic;font-weight:bold">Factors in favour of disclosure</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">89.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The IC&#8217;s guidance on Regulation 12(4)(e) recognises that there will always be some public interest in disclosure to promote transparency and accountability of public authorities; greater public awareness and understanding of environmental matters; the free exchange of views; and more effective public participation in environmental decision-making.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">90.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">However, the weight of such interest will depend on the facts and circumstances of the particular case. Other relevant factors could include:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">transparency about the influence of lobbyists;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">accountability for spending public money;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">the number of people affected by a proposal;</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">any reasonable suspicion of wrongdoing; or</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">any potential conflict of interest.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">91.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">There may also be an argument that disclosure would encourage better advice and more robust, well considered decision-making in future.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">92.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">In the current case, Paragraph 29 of the Decision Notice quoted the CO as telling SUKLC that disclosure &#8220;<span style="font-style:italic">may facilitate transparency and strengthen the accountability of government, by allowing the public to see how decisions have been made and potentially contribute to the policy-making process, particularly in the context of a high-profile and high value project such as&#8230;Network North, which affects a large number of people.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">93.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Ms Hart in her submissions <span class="normaltextrun" style="color:#000000">on behalf of SUKLC</span> identified a number of factors which she says strongly favour disclosure. These were as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">NNP affects tens of billions of pounds and has significant regional implications. The public has a right to understand the policy rationale and distribution logic. Such significant public expenditure demands transparency, scrutiny, and justification, especially when regional fairness is questioned. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:Symbol;margin-left:1in;text-indent:-0.25in">&#8226;</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Disclosure supports public confidence and enhances democratic engagement. The Decision Notice rightly emphasises this at paragraphs 45&#8211;48.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">94.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"> On balance of probabilities, starting from the presumption of disclosure in Regulation 12(2), we were persuaded that the balance of public interest weighed in favour of disclosure. This is because NNP is a massive project which involves very large sums and has a huge effect on the day-to-day life of a large number of people, many of whom have already felt its impact in practical terms. The public interest in accountability and transparency in light of the information published in the CP is significant, and we accorded this a lot of weight. We considered that this carried more weight than the arguments about safe space and chilling effect because the CP had been published, so the high-level policy and strategy were public, increasing public interest in being able to scrutinise it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Overall, we were satisfied that the IC had weighed up the correct factors in coming to its decision and given appropriate weight to the factors for and against disclosure. We agreed with the IC&#8217;s conclusion and that it was in accordance with the law and, to the extent that it involved the exercise of discretion, that he should not have exercised his discretion differently. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">96.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">For these reasons we dismiss the appeal. </p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed:</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Judge Harris</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Date: </span><docDate date="2025-08-28" refersTo="#decision" style="font-family:'Book Antiqua'">28 August 2025</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

@@ -1,0 +1,780 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1023"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1023"/>
+	  <FRBRdate date="2025-08-27" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1023"/>
+	  <FRBRname value="Julian Cheyne v Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1023"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1023"/>
+	  <FRBRdate date="2025-08-27" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1023/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1023/data.xml"/>
+	  <FRBRdate date="2025-10-22T10:15:26" name="transform"/>
+	  <FRBRdate date="2025-10-22T10:41:39" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-08-21" refersTo="#decision" source="#"/>
+	<eventRef date="2025-08-27" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="julian-cheyne" href="" showAs="JULIAN CHEYNE"/>
+	<TLCPerson eId="information-commissioner" href="" showAs="INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="london-councils" href="" showAs="LONDON COUNCILS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1023</uk:number>
+	<uk:cite>[2025] UKFTT 1023 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>9ba45d4f901b7c0b9ff240cfea30d47efe289f6be6f8de38be8a90b78ea22229</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Normal { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 18pt; }
+#judgment .Heading2 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 16pt; }
+#judgment .Heading3 { text-align: justify; font-style: italic; font-weight: bold; font-family: 'Book Antiqua'; font-size: 14pt; }
+#judgment .Heading4 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading5 { text-align: justify; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading6 { text-align: justify; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading7 { text-align: justify; font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .MessageHeader { text-align: justify; margin-left: 0.79in; font-family: Arial; font-size: 12pt; }
+#judgment .BodyText { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style7 { text-align: justify; margin-left: 2.56in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .ListParagraph { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .FootnoteText { text-align: justify; font-family: 'Book Antiqua'; font-size: 8pt; }
+#judgment .quotation { text-align: justify; margin-left: 0.59in; margin-right: 0.86in; font-family: 'Book Antiqua'; font-size: 11pt; }
+#judgment .Legislation1 { text-align: left; margin-left: 0.58in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation2 { text-align: left; margin-left: 1in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Legislation3 { text-align: left; margin-left: 1.25in; margin-right: 0.26in; font-size: 11pt; }
+#judgment .Style1 { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style2 { text-align: right; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style3 { text-align: center; font-weight: bold; text-decoration-line: underline; text-decoration-style: solid; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .instructions { text-align: center; font-style: italic; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .Style4 { text-align: center; font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style5 { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Style6 { text-align: right; text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .CommentText { text-align: justify; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .CommentSubject { text-align: justify; font-weight: bold; font-family: 'Book Antiqua'; font-size: 10pt; }
+#judgment .BalloonText { text-align: justify; font-family: Arial; font-size: 9pt; }
+#judgment .legclearfix { text-align: left; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Book Antiqua'; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Book Antiqua'; }
+#judgment .BalloonTextChar { font-family: Arial; font-size: 9pt; }
+#judgment .legds { }
+#judgment .FooterChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid #000000; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:95.55pt;height:61.6pt"/></p>
+      <p style="text-align:left"><span style="font-family:Arial;font-size:11pt">Neutral citation number: </span><neutralCitation style="font-family:Arial;font-size:11pt">[2025] UKFTT 01023 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:Arial;font-size:11pt"> Case References: FT/EA/2024/0444</span></p>
+      <p style="text-align:right"><span style="font-family:Arial;font-size:11pt">FT/EA/2025/0057</span></p>
+      <p style="text-align:left;margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:Arial;font-size:11pt">First-tier Tribunal </courtType></p>
+      <p style="text-align:left;margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:Arial;font-size:11pt">General Regulatory Chamber</courtType></p>
+      <p style="text-align:left;margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:Arial;font-size:11pt">Information Rights </docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Decided without a hearing  </span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Decision given on: </span><docDate date="2025-08-27" refersTo="#decision" style="font-weight:bold;font-family:Arial;font-size:11pt">27 August 2025</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">JUDGE HAZEL OLIVER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">MEMBER KERRY PEPPERELL</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">MEMBER DAVE SIVERS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#julian-cheyne" style="font-weight:bold;text-transform:uppercase;font-family:Arial;font-size:11pt">JULIAN CHEYNE</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;font-size:11pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:11pt">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:Arial;font-size:11pt;text-indent:-0.3in">(1)</num>
+	<p style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#information-commissioner" style="font-weight:bold;font-family:Arial;font-size:11pt">INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:Arial;font-size:11pt;text-indent:-0.3in">(2)</num>
+	<p style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#london-councils" style="font-weight:bold;font-family:Arial;font-size:11pt">LONDON COUNCILS</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:Arial;font-size:11pt">Respondents</role></p>
+      <p style="text-align:left"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Decision: </span><span style="font-family:Arial;font-size:11pt">The appeals are Dismissed</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:Arial;font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">Background to Appeals</span></heading>
+	  <paragraph eId="para_1">
+	    <num style="font-family:Arial;font-size:11pt">1.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">These appeals are against two decisions of the Information Commissioner (the &#8220;Commissioner&#8221;) dated 17 October 2024 (IC-303234-W7G5, &#8220;Decision Notice 1&#8221;, appeal reference FT/EA/2024/0444) and 20 December 2024 (IC-317209-Q0D5, &#8220;Decision Notice 2&#8221;, appeal reference FT/EA/2025/0057).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-family:Arial;font-size:11pt">2.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The appeals relate to the application of the Environmental Information Regulations 2004 (&#8220;EIR&#8221;). They concern information requested from London Councils about a proposed new secure children&#8217;s home in London. The appeals have been joined to be heard together.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num style="font-family:Arial;font-size:11pt">3.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">London Councils is the collective of London local government, the 32 London Boroughs and the City of London Corporation. A team within London Councils is leading on a project to deliver a secure children&#8217;s home in London. Such homes are used on welfare grounds where no other type of care placement can keep the child safe. There is currently no service of this kind within London. One suitable site has been identified. The site is the Thames Water Depot on Lea Bridge Road. It is designated as Metropolitan Open Land (&#8220;MOL&#8221;), which requires an exceptional case to allow development on the site. Any planning application will require the applicant to provide a Sequential Test Assessment, to show that there is not another preferable site for the development.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num style="font-family:Arial;font-size:11pt">4.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The parties opted for paper determination of the appeals. The Tribunal is satisfied that it can properly determine the issues without a hearing within rule 32(1)(b) of The Tribunal Procedure (First-tier Tribunal) (General Regulatory Chamber) Rules 2009 (as amended). </span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">Request 1</span></heading>
+	  <paragraph eId="para_5">
+	    <num style="font-family:Arial;font-size:11pt">5.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">On 24 January 2024, the Appellant wrote to London Councils and requested the following information (&#8220;Request 1&#8221;):</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:Arial;font-size:11pt">&#8220;1.</num>
+		    <content>
+		      <p style="margin-left:0.3in"><span style="font-style:italic;font-family:Arial;font-size:11pt">Please provide information regarding all the sites investigated for the proposed Pan London Secure Children's Home &#8230; and the reasons for their acceptance &#8230; or rejection.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:Arial;font-size:11pt">2.</num>
+		    <content>
+		      <p style="margin-left:0.3in"><span style="font-style:italic;font-family:Arial;font-size:11pt">Please provide information regarding the criteria of suitability for the sites adopted for this search.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:Arial;font-size:11pt">3.</num>
+		    <content>
+		      <p style="margin-left:0.3in"><span style="font-style:italic;font-family:Arial;font-size:11pt">Please provide information regarding any limitations which might apply or did apply when conducting the search for sites, such as for example ownership of a site, and whether consideration was given to acquiring sites for this project&#8221;.</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num style="font-family:Arial;font-size:11pt">6.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">London Councils responded on 21 February 2024. It provided a website link for parts two and three of Request 1, which set out the criteria used for site selection. For the first part of Request 1, it withheld information under regulation 12(4)(d) EIR on the basis that &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">the information relates to unfinished documents</span><span style="font-family:Arial;font-size:11pt">&#8221;, and the public interest in withholding the information outweighed the public interest in disclosure. London Councils also explained, &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">The information requested is being compiled as part of a sequential assessment confirming the Thames Water Depot on Lea Bridge Road as the only suitable site for the Pan London Secure Children's Home. We can confirm that, as part of the site selection process for the proposed development, around 450 sites within London were identified initially, of which 70 were longlisted for further consideration and assessment. The final sequential assessment, which will be included as part of the full planning application, will contain details about the sites that have been reviewed in accordance with the site selection criteria referred to in the second part of this request</span><span style="font-family:Arial;font-size:11pt">.&#8221;</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num style="font-family:Arial;font-size:11pt">7.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant requested an internal review on 22 February 2024.  London Councils responded on 25 April 2024 and maintained its position.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num style="font-family:Arial;font-size:11pt">8.</num>
+	    <intro>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant complained to the Commissioner on 25 April 2024. The Commissioner decided that</span><span style="font-family:Verdana"/><span style="font-family:Arial;font-size:11pt">regulation 12(4)(d) is engaged and the public interest favours withholding the information:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.39in">a.</num>
+	      <content>
+		<p style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">The requested information relates to &#8220;material which is still in the course of completion&#8221; and &#8220;unfinished documents&#8221;. This applies to the sequential assessment, and the requested information is not a separate, independent and complete piece of work in its own right.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.39in">b.</num>
+	      <intro>
+		<p style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">The public interest favours withholding the information.</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:Arial;font-size:11pt;margin-left:0.98in;text-indent:-0.2in">i.</num>
+		<content>
+		  <p style="margin-left:0.98in"><span style="font-family:Arial;font-size:11pt">The Appellant has concerns about the implications of the proposed development and a desire for time to check information about considered sites, and there is a public interest in transparency around planning decisions. However, the public interest in disclosure of pre-application planning information is limited because the pre-application process is not designed to enable interested parties to comment on proposals, and the planning application process provides this opportunity.</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:Arial;font-size:11pt;margin-left:0.98in;text-indent:-0.2in">ii.</num>
+		<content>
+		  <p style="margin-left:0.98in;text-indent:0.05in"><span style="font-family:Arial;font-size:11pt">Disclosure before a planning application had been submitted would have increased the likelihood of disruption to the process, and London Council&#8217;s arguments about the need for safe space to develop the application had weight given the timing and the unfinished nature of the document.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">Request 2</span></heading>
+	  <paragraph eId="para_9">
+	    <num style="font-family:Arial;font-size:11pt">9.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">On 5 March 2024, the Appellant wrote to London Councils and requested the following information (&#8220;Request 2&#8221;):</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:Arial;font-size:11pt">&#8220;1.</num>
+		    <content>
+		      <p style="margin-left:0.3in"><span style="font-style:italic;font-family:Arial;font-size:11pt">Please supply information regarding how 'affordable', in terms of the criteria for the project proposed at the Thames Water Depot in Lea Bridge Road, has been assessed. Please provide any report prepared for the project showing how it is considered to be affordable.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:Arial;font-size:11pt">2.</num>
+		    <content>
+		      <p style="margin-left:0.3in"><span style="font-style:italic;font-family:Arial;font-size:11pt">Given that the land at the Thames Water Depot, where the project is planned to be sited, was purchased by the Education Funding Agency (EFA) please state how that purchase is taken into account in the understanding of 'affordable' in terms of the criteria for the project.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-style:italic;font-family:Arial;font-size:11pt">3.</num>
+		    <content>
+		      <p style="margin-left:0.3in"><span style="font-style:italic;font-family:Arial;font-size:11pt">Given that approximately half of the land purchased by the EFA will not be used by the project how does that affect the understanding of the project being 'affordable'?&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num style="font-family:Arial;font-size:11pt">10.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">London Councils responded on 4 April 2024. It provided the following explanation - </span><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8220;During the site selection process for the proposed secure children&#8217;s home, &#8216;affordable&#8217; meant that the site value was affordable. If a site met other criteria, the site selection process considered the extent to which that site could be purchased or leased at a cost that would represent the best value for money</span><span style="font-family:Arial;font-size:11pt">&#8221;.  For the request for &#8220;any report&#8221; in the second sentence of part 1 of Request 2, it withheld information under regulation 12(4)(d) EIR on the basis that it relates to material that is still being completed, and the public interest in withholding the information outweighed the public interest in disclosure.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num style="font-family:Arial;font-size:11pt">11.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant requested an internal review on 4 April 2024.  London Councils responded on 3 June 2024 and maintained its position.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num style="font-family:Arial;font-size:11pt">12.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant complained to the Commissioner on 28 June 2024. The Commissioner decided that</span><span style="font-family:Verdana"/><span style="font-family:Arial;font-size:11pt">regulation 12(4)(d) is engaged and the public interest favours withholding the information. The Commissioner relied on the comments and analysis from Decision Notice 1.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">The Appeals and Responses</span></heading>
+	  <paragraph eId="para_13">
+	    <num style="font-family:Arial;font-size:11pt">13.</num>
+	    <intro>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant appealed Decision Notice 1 on 12 November 2024 (&#8220;Appeal 1&#8221;).  His grounds of appeal are:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.39in">a.</num>
+	      <content>
+		<p style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">The requested information is not unfinished work. The choice of site had already been decided, and this is not altered by the information being included in a Sequential Assessment. The request relates to a concluded decision process.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.39in">b.</num>
+	      <content>
+		<p style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">The request is for information which is completed, not the planning application as a whole. It does not impinge on further internal decisions or discussions, and does not have any chilling effect.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.39in">c.</num>
+	      <content>
+		<p style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">The Commissioner did not give proper weight to the public interest. The decision will involve a considerable amount of research when being checked by the public, who will be disadvantaged by having to do this in a very limited consultation window.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num style="font-family:Arial;font-size:11pt">14.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Commissioner&#8217;s response maintains that Decision Notice 1 was correct. The requested information is contained in and relates to the draft Sequential Test Assessment, and he was entitled to accept London Councils&#8217; submissions that the information was still being modified. The Commissioner also says he was entitled to give weight to London Councils&#8217; safe space arguments, given the timing and unfinished nature of the document.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num style="font-family:Arial;font-size:11pt">15.</num>
+	    <intro>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">London Councils was joined as a party to the proceedings.  London Councils&#8217; response opposes the appeal. </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">a.</num>
+	      <content>
+		<p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">It maintains that the draft Sequential Test Assessment is an unfinished document in the form of a working draft, which will be corrected, updated and extended (and is probably already out of date). This is not inconsistent with a public announcement that there is only one viable site &#8211; this remains technically provisional, and the status of the site as MOL also requires a particularly robust analysis meaning supporting analysis was still being undertaken. The conclusion is not the same thing as the analysis that supports the conclusion.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">b.</num>
+	      <content>
+		<p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">The public interest in disclosure is reduced by significant pre-application consultation that has already taken place, and release of the final version of the information with the planning application is the formal mechanism for factoring in the concerns of local people. London Councils and its project partners are entitled to a safe space in which to prepare a planning application, which is highly controversial but also very strongly in the public interest. Disclosure of incomplete and out of date information would impinge on that safe space and cause delays and difficulties in delivering the project, which would be contrary to the public interest.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">c.</num>
+	      <content>
+		<p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">London Councils alternatively relies on regulation 12(5)(d) (confidentiality of proceedings) for the entirety of the information, and says that the public interests of all applicable exemptions should be aggregated.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num style="font-family:Arial;font-size:11pt">16.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant appealed Decision Notice 2 on 16 January 2025 (&#8220;Appeal 2&#8221;).  The Appellant clarifies that the request is about the affordability of the site (not the project as a whole). His grounds of appeal are that this request stands on its own merits. The promoters chose to make a claim about affordability in the public domain, and it is reasonable for members of the public to ask questions about such claims. He also complains about the process followed by the Commissioner, including a comment that his ultimate interest was to oppose the possible planning application.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num style="font-family:Arial;font-size:11pt">17.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Commissioner&#8217;s response maintains that Decision Notice 2 was correct. As with Decision Notice 1, the requested information is contained in and relates to the draft Sequential Test Assessment, and he was entitled to accept London Councils&#8217; submissions that the information was still being modified. The grounds of appeal contain insufficient public interest arguments for disclosure. The Commissioner also says that the appeal only concerns the first part of the request, and other matters raised by the Appellant are outside the Tribunal&#8217;s jurisdiction. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-family:Arial;font-size:11pt">18.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">London Councils was also joined as a party to these proceedings.  London Councils&#8217; response opposes the appeal, and relies on the same grounds as in Appeal 1. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-family:Arial;font-size:11pt">19.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant submitted a joint reply to both responses and we address relevant points in our discussion below.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">Applicable law</span></heading>
+	  <paragraph eId="lvl_5_1">
+	    <num style="font-family:Arial;font-size:11pt">13.</num>
+	    <intro>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The relevant provisions of the Environmental Information Regulations 2004 (&#8220;EIR&#8221;) are as follows.</span></p>
+	    </intro>
+	    <subparagraph>
+	      <intro>
+		<p style="margin-left:0.98in;text-indent:-0.98in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">2(1)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8220;environmental information&#8221; has the same meaning as in Article 2(1) of the Directive, namely any information in written, visual, aural, electronic or any other material form on&#8212; </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt">(a)</num>
+		<content>
+		  <p style="margin-left:0.98in"><span style="font-style:italic;font-family:Arial;font-size:11pt">the state of the elements of the environment, such as air and atmosphere, water, soil, land, landscape and natural sites including wetlands, coastal and marine areas, biological diversity and its components, including genetically modified organisms, and the interaction among these elements; </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt">(b)</num>
+		<content>
+		  <p style="margin-left:0.98in"><span style="font-style:italic;font-family:Arial;font-size:11pt">factors, such as substances, energy, noise, radiation or waste, including radioactive waste, emissions, discharges and other releases into the environment, affecting or likely to affect the elements of the environment referred to in (a); </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt">(c)</num>
+		<content>
+		  <p style="margin-left:0.98in"><span style="font-style:italic;font-family:Arial;font-size:11pt">measures (including administrative measures), such as policies, legislation, plans, programmes, environmental agreements, and activities affecting or likely to affect the elements and factors referred to in (a) and (b) as well as measures or activities designed to protect those elements; </span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:0.98in;text-indent:-0.98in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">5(1)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;a public authority that holds environmental information shall make it available on request.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">12(1)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if&#8211;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt">(a)</num>
+		<content>
+		  <p style="margin-left:1in"><span style="font-style:italic;font-family:Arial;font-size:11pt">an exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-style:italic;font-family:Arial;font-size:11pt">(b)</num>
+		<content>
+		  <p style="margin-left:1in"><span style="font-style:italic;font-family:Arial;font-size:11pt">in all the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">12(2)&#160;</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">A public authority shall apply a presumption in favour of disclosure.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">12(4)</span><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;a public authority may refuse to disclose information to the extent that &#8211;</span></p>
+	      </intro>
+	      <subparagraph>
+		<intro>
+		  <p style="margin-left:1in;text-indent:-1in"><marker name="tab"/><marker name="tab"/><span style="font-style:italic;font-family:Arial;font-size:11pt">&#8230;..</span></p>
+		</intro>
+		<subparagraph>
+		  <num style="font-style:italic;font-family:Arial;font-size:11pt;margin-left:1.25in;text-indent:-0.25in">(d)</num>
+		  <content>
+		    <p class="ListParagraph" style="margin-left:1.25in;text-indent:0.12in"><span style="font-style:italic;font-family:Arial;font-size:11pt">the request relates to material which is still in the course of completion, to unfinished documents or to incomplete data;</span></p>
+		  </content>
+		</subparagraph>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_5_2">
+	    <num style="font-family:Arial;font-size:11pt">14.</num>
+	    <content>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">Requests for environmental information are expressly excluded from the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/39" uk:canonical="2000 c. 36 s. 39" uk:origin="TNA" uk:type="legislation">section 39</ref> and must be dealt with under EIR, and it is well established that &#8220;environmental information&#8221; is to be given a broad meaning in accordance with the purpose of the underlying Directive 2004/4/EC.  We are satisfied that these requests fall within EIR.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_5_3">
+	    <num style="font-family:Arial;font-size:11pt">15.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Upper Tribunal considered the regulation 12(4)(d) exception in </span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Highways England Company Ltd v Information Commissioner &amp; Henry Manisty </span><span style="font-family:Arial;font-size:11pt">[2018] UKUT</span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt"/><span style="font-family:Arial;font-size:11pt">423 (AAC). Key points on when the exception will be engaged are as follows:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Symbol;font-size:11pt;margin-left:0.5in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">&#8220;Material&#8221; means a physical item. It includes information that is not held in documents and is not data (such as photographs, films and audio recordings). It can also include documents that are finished and data that is complete.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;font-size:11pt;margin-left:0.5in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">The exception is not limited to information </span><span style="font-style:italic;font-family:Arial;font-size:11pt">in</span><span style="font-family:Arial;font-size:11pt"> such material. It is engaged if the request </span><span style="font-style:italic;font-family:Arial;font-size:11pt">relates to</span><span style="font-family:Arial;font-size:11pt"> that material &#8211; meaning the information may be held elsewhere, prior to being included later.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;font-size:11pt;margin-left:0.5in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">&#8220;Relates to&#8221; is an expression in everyday use, to be applied consistently with its context.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;font-size:11pt;margin-left:0.5in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">The exception must not be engaged so widely as to be incompatible with the restrictive approach required by EU law. But it must not be engaged so narrowly that it defeats its purpose of allowing public authorities to think in private.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;font-size:11pt;margin-left:0.5in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">The exception is not engaged where a piece of work &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">may fairly be said to be complete in itself</span><span style="font-family:Arial;font-size:11pt">&#8221;. Relevant factors include: whether there has been a natural break in the public authority&#8217;s thinking, such that it is moving from one stage of a project to another; whether the public authority is ready to go public about progress so far; and the fact the project/exercise/process in continuing. &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">Everything depends on the circumstances</span><span style="font-family:Arial;font-size:11pt">&#8221;.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Symbol;font-size:11pt;margin-left:0.5in;text-indent:-0.25in">&#8226;</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:Arial;font-size:11pt">The way the public authority has treated the material is relevant but not decisive &#8211; the scope of the exception depends on the substance, not the description or form in which the material is stored or presented.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_5_4">
+	    <num style="font-family:Arial;font-size:11pt">16.</num>
+	    <content>
+	      <p class="ListParagraph" style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">In EIR cases, the time at which to consider the public interest test is the time that the public authority provided its internal review decision &#8211; </span><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Patricia O'Hanlon v Information Commissioner and Health and Safety Executive </span><span style="font-family:Arial;font-size:11pt">UA-2023-00436-GIA. (The Commissioner says he is seeking permission to appeal this decision but it is currently binding on the Tribunal).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">Issues and evidence</span></heading>
+	  <paragraph eId="lvl_6_1">
+	    <num style="font-family:Arial;font-size:11pt">17.</num>
+	    <intro>
+	      <p class="ListParagraph" style="margin-left:2.75in"><span style="font-family:Arial;font-size:11pt">The issues are:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">a.</num>
+	      <content>
+		<p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">Is regulation 12(4)(d) engaged, on the basis that the requests relate to material which is still in the course of completion and/or unfinished documents?</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">b.</num>
+	      <content>
+		<p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">If so, in all the circumstances of the case, does the public interest in maintaining the exception outweigh the public interest in disclosing the information?</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_6_2">
+	    <num style="font-family:Arial;font-size:11pt">18.</num>
+	    <intro>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">By way of evidence and submissions we had the following, all of which we have taken into account in making our decision:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">An agreed bundle of open documents.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">A bundle of additional documents that had been omitted from the agreed bundle.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">c.</num>
+	      <content>
+		<p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">A closed bundle of documents containing the withheld information and a confidential annex to London Councils&#8217; response in Appeal 1 (setting out examples of sensitive information in the Sequential Test Assessment).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">d.</num>
+	      <content>
+		<p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">A witness statement from Queensley Uzomba on behalf of London Councils (contained in the open bundle).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.59in;text-indent:-0.3in">e.</num>
+	      <content>
+		<p style="margin-left:0.59in"><span style="font-family:Arial;font-size:11pt">Final written submissions from the Information Commissioner and the Appellant, and a statement by the Appellant about correspondence in the bundle between the Commissioner and London Councils.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading><span style="font-weight:bold;font-family:Arial;font-size:11pt">Witness Evidence</span></heading>
+	  <paragraph eId="lvl_7_1">
+	    <num style="font-family:Arial;font-size:11pt">19.</num>
+	    <intro>
+	      <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We had a detailed witness statement from Queensley Uzomba, Strategic Programme Manager at London Councils, dated 30 May 2025. She is responsible for the delivery of the Pan London Secure Children&#8217;s Home Project on behalf of London local authorities, which aims to deliver a new secure children&#8217;s home (&#8220;SCH&#8221;) in London. Her role began in September 2022, which is when London Councils took over as the lead delivery organisation for the SCH project. The key points from the statement are:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.3in">a.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">The proposed site for the SCH is the Thames Water Depot on Lea Bridge Road in the London Borough of Waltham Forest, which will be the Local Planning Authority (&#8220;LPA&#8221;). This site was identified before London Councils took over as lead delivery organisation. The decision to take the site forward for detailed site investigations and pre planning application activities had already been made.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.3in">b.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">A confidential draft of the Sequential Test Assessment (&#8220;STA&#8221;) was emailed to her for review and comment by an external party. The draft STA was developed by external commercial planning consultants. A confidential draft of the STA was created for the purposes of seeking confidential and paid for pre-application advice from the LPA about the SCH proposals.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.3in">c.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">In December 2023 the landowner (the Ministry of Housing, Communities and Local Government) and the Secretary of State and the Department for Education (who currently manage the site), formally approved the allocation of the site for the SCH project, subject to a successful planning application. The first round of a public consultation exercise was launched in January 2024.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.3in">d.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">At the time of writing the statement, a planning application for permission to build the SCH on the proposed site has not been submitted.</span><span style="font-family:'Aptos Display'"/><span style="font-family:Arial;font-size:11pt">Ms Uzomba says that, strictly speaking, this means that the site selection is provisional, and the site selection process with corresponding detailed analysis is in the course of completion.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.3in">e.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">The information withheld from the Appellant, for both appeals, is version 7 of the draft STA, dated January 2023, marked &#8216;confidential&#8217; and marked &#8216;draft&#8217;.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.3in">f.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">An STA for the site&#8217;s previous planning application (which was to build two schools) included additional sites at the request of the LPA. Ms Uzomba says this gives a sense of the scale of changes that are possible by the time the STA has been finalised in a format that is appropriate for review by the public. </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.3in">g.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">The SCH project is delayed with no new target date, although delivery remains a key priority.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.3in">h.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">London Councils experienced an increase in information requests and press/media enquiries when proposals for the site went public, putting pressure on limited resources. Ms Uzomba says that if the information is released while in the course of completion, the effort involved in responding to and/or correcting subsequent misunderstanding and misinterpretation would have a detrimental effect on the successful delivery of the SCH project and London Councils&#8217; core activities. She says that</span><span style="font-family:'Aptos Display'"/><span style="font-family:Arial;font-size:11pt">London Councils, London local authorities and the wider project team need a safe space to develop and submit a strong planning application for this much-needed facility, without being hindered and distracted by excessive levels of external comment or media involvement.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.3in">i.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">Ms Uzomba also says that the withheld information was issued to her in confidence. If this ends up in the public domain before it has been finalised and provided as part of the future planning application, this will likely lead to significant damage to the relationship between London Councils and the other organisations involved in the project &#8211; including the external commercial planning consultants who will continue to rely on the evolving draft of the STA in their confidential pre application discussions.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:Arial;font-size:11pt;margin-left:0.69in;text-indent:-0.3in">j.</num>
+	      <content>
+		<p class="ListParagraph" style="margin-left:0.69in"><span style="font-family:Arial;font-size:11pt">In relation to public consultation, Ms Uzomba says, &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">Due to the contentiousness of the future planning application and the proposed development, it is my understanding that the LPA will likely accept comments on the planning application up until the date the application is reported to the planning committee &#8211; so giving the public longer than the statutory 30-day period to submit their comments</span><span style="font-family:Arial;font-size:11pt">&#8221;.</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <content>
+	    <p><span style="font-weight:bold;font-family:Arial;font-size:11pt">Discussion and Conclusions</span></p>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Decision Notice 1</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_20">
+	  <num style="font-family:Arial;font-size:11pt">20.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Is regulation 12(4)(d) engaged, on the basis that the request relates to material which is still in the course of completion and/or unfinished documents?</span><span style="font-family:Arial;font-size:11pt"> We find that it is engaged. Request 1 is for information about all sites investigated for the project and the reasons for acceptance/rejection. This information is contained in the Sequential Test Assessment. This is a document that was still in the course of completion at the time when London Councils provided its internal review decision, and was (and remains) unfinished.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:Arial;font-size:11pt">21.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">This is a class-based exemption, meaning it is engaged if the relevant conditions are met without the need to consider adverse effect on the public authority. We are satisfied on the evidence provided by London Councils that the Sequential Test Assessment was in the course of completion in April 2024. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:Arial;font-size:11pt">22.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We have considered the points made by the Appellant as to why the exemption is not engaged.  His main overall point is that Request 1 relates to a concluded decision process - the choice of site had already been decided, and this is not altered by the information being included in the Sequential Test Assessment. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:Arial;font-size:11pt">23.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We have considered what information is held by London Councils within the scope of the request. As explained by Ms Uzomba in her witness statement, the Sequential Test Assessment was developed by external commercial planning consultants. The selection process began in 2021, when another public authority was leading on the project. The criteria for the selection of the site were developed and the consultants were commissioned to consolidate site information. The Lea Bridge Road site was identified as the only one that was potentially suitable. This all happened before London Councils took on its role in the project in September 2022 (as set out in London Councils&#8217; response to the First Appeal and confirmed in the witness statement). A confidential draft of the Sequential Test Assessment was emailed to Ms Uzomba after London Councils took over as the lead delivery organisation. Due to this chain of events, London Councils only held the requested information in the form of the Sequential Test Assessment. They did not hold the information separately in another finalised document. This is not a situation where London Councils held the requested information separately and have then included it in another unfinished document.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:Arial;font-size:11pt">24.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Sequential Test Assessment is a document that is submitted with a formal planning application, to show how a particular site has been chosen for development. The document is marked &#8220;confidential&#8221; and &#8220;draft&#8221;. Although this is not decisive, this supports London Council&#8217;s position that this document was something that would be refined, amended and discussed with the LPA before a final version was submitted with the planning application.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:Arial;font-size:11pt">25.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">In his reply to the responses of the Commissioner and London Councils, the Appellant described the choice of site as a &#8220;finished piece of work&#8221;, and makes the point that the choice of site had been made public. In his response to the final submissions from the Information Commissioner, the Appellant repeatedly makes the point that the choice of site was a decided matter (meaning there could be a planning application), it had been identified as the only suitable site, and was a separate completed task. We understand the points he is making. However, we have found that London Councils did not hold the requested information anywhere except in the Sequential Test Assessment. We find that this was in the course of completion and an unfinished document at the relevant time. London Councils did not hold any separate finished piece of work showing the sites that were investigated. Request 1 therefore relates to material that was in the course of completion and unfinished. We also note that this request asked for the reasons for acceptance or rejection of various sites, which were matters that may well have changed during pre-planning discussions with the LPA before the Sequential Test Assessment was finalised. We accept Ms Uzomba&#8217;s evidence that discussions with the LPA might even require the assessment to consider other sites, as had happened before with a previous planning application for the same site.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:Arial;font-size:11pt">26.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant also refers in his appeal to the Commissioner&#8217;s guidance on this exception - "</span><span style="font-style:italic;font-family:Arial;font-size:11pt">Data is unlikely to be considered as incomplete if you are already relying on it in your decision-making processes, even if you intend to add to, check the accuracy of, or modify that data at some point in the future</span><span style="font-family:Arial;font-size:11pt">." The Appellant says it is plain that London Councils have relied on this information in their decision-making process, and therefore it is not incomplete. However, this section of the guidance only relates to &#8220;incomplete data&#8221;. This is one of the parts of the regulation 12(4)(d) exception, but is not the part relied on by London Councils.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:Arial;font-size:11pt">27.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">If so, in all the circumstances of the case, does the public interest in maintaining the exception outweigh the public interest in disclosing the information?</span><span style="font-family:Arial;font-size:11pt"> We find that it does, and so London Councils was entitled to rely on this exception to withhold the information contained in the draft Sequential Test Assessment. We have considered the public interest in April 2024, when London Councils provided its internal review decision. At this time, it was expected that a formal planning application would be submitted within the next few months. The Commissioner has suggested that we could stay proceedings if consideration at this stage rather than at the time of the response would make a material difference to the outcome, but we can confirm that it would not make a material difference. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:Arial;font-size:11pt">28.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant says that the public interest in disclosure is strong. He says that the site decision will involve a considerable amount of research when being checked by members of the public for whom time during the planning process is limited, and the public will be disadvantaged by having to undertake that research in a very limited consultation window. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:Arial;font-size:11pt">29.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">There is undoubtedly public interest in the requested information. The choice of this particular site for a secure children&#8217;s home is a controversial issue. The siting of such homes generally is a matter of particular public concern and interest, as explained in paragraph 20 of London Councils&#8217; response to the appeal. This is given as a reason for engaging in extensive pre-application consultation, but it is also a reason why the public may want to see and understand the reasons for selecting a certain site as early as possible. There was some confusion with this particular site in relation to whether or not it was available for use by a local community group who had been fundraising for a park and swimming ponds. The site is also designated as MOL. All of these factors enhance the general public interest in transparency on planning matters and how this site had been selected.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:Arial;font-size:11pt">30.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We agree with the Commissioner, however, that this public interest is reduced by the mechanism for public engagement later in the planning process. This is not a case where the public will be denied access to the requested information at all if the planned development of the site goes ahead. The requested information will be published as part of the final Sequential Test Assessment when a planning application is made. This will be subject to a statutory consultation period, during which the public will have an opportunity to view all of the information and make representations.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:Arial;font-size:11pt">31.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We also agree with the Commissioner that there are strong public interest reasons for upholding the integrity of the planning process. There is a statutory mechanism for consultation on planning matters that would be undermined by disclosure of uncompleted material at an earlier stage. This is true of planning applications in general. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:Arial;font-size:11pt">32.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">London Councils argues that it and its project partners are entitled to a safe space in which to prepare this planning application, especially with this particular application which is highly controversial but also very strongly in the public interest. We agree that disclosure of incomplete information would impinge on that safe space and potentially cause delays and difficulties in delivering the project, and this would be contrary to the public interest. The pre-application process allows a public authority to develop plans in discussion with the local planning authority. This would be disrupted if the details of proposed plans were subject to public scrutiny before they have been finalised. This is particularly true for a more controversial potential planning application, as in this case - where there may be multiple questions and representations from members of the public, as well as media comment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:Arial;font-size:11pt">33.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant makes the point that the statutory consultation period is only 21 days (not the 30 days suggested by Ms Uzomba), and this is not sufficient time to research all the details of site selection. It is correct that the statutory consultation period is limited. This may enhance the public interest in earlier disclosure in a more complex planning application. However, more complex and controversial planning applications are also likely to accept comments for a longer period. Ms Uzomba says this would be likely to happen in this case.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:Arial;font-size:11pt">34.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">Having considered all of these factors, we therefore find that the public interest in maintaining the exception does outweigh the public interest in disclosing the information. We have taken into account the presumption in favour of disclosure in EIR cases. The public interest in preserving a safe space in the context of a potential planning application is strong, and the public interests in disclosure are limited because the planning process provides for disclosure once a formal planning application has been submitted.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Decision Notice 2</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num style="font-family:Arial;font-size:11pt">35.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Is regulation 12(4)(d) engaged, on the basis that the request relates to material which is still in the course of completion and/or unfinished documents?</span><span style="font-family:Arial;font-size:11pt"> We find that it is engaged. As with Request 1, the requested information (</span><span style="font-style:italic;font-family:Arial;font-size:11pt">any report prepared for the project showing how it is considered to be affordable</span><span style="font-family:Arial;font-size:11pt">) is held by London Councils in the form of the draft Sequential Test Assessment. This is the only &#8220;report&#8221; held by London Councils which shows affordability The same reasoning applies as for Request 1. </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:Arial;font-size:11pt">36.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">If so, in all the circumstances of the case, does the public interest in maintaining the exception outweigh the public interest in disclosing the information?</span><span style="font-family:Arial;font-size:11pt"> We find that it does, and so London Councils was entitled to rely on this exception to withhold the information contained in the draft Sequential Test Assessment. Again, the same reasoning applies as for Request 1. The time for assessing the public interest for this request is June 2024, as this is when London Councils provided its internal review decision. However, we do not find that this changes the public interest balance. It was still anticipated at this time that a formal planning application would be submitted shortly (the Appellant says that he had expected this to happen at the end of July).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Other matters</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_37">
+	  <num style="font-family:Arial;font-size:11pt">37.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">In its responses to the appeals, London Councils alternatively relies on the exception in regulation 12(5)(d) EIR. We have not considered this exception because we have found the requested information could be withheld under regulation 12(4)(d).</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:Arial;font-size:11pt">38.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">In Appeal 2, the Appellant has raised a number of additional points about the process followed by the Information Commissioner in making his decision, including a suggestion that the case should be closed informally and comments made by a particular case worker. These matters do not come within the Tribunal&#8217;s jurisdiction and so we make no findings on these points.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:Arial;font-size:11pt">39.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">The Appellant also produced a statement in response to some documents in the bundle that he had seen for the first time &#8211; various correspondence between London Councils and the Commissioner in December 2024 (during the Commissioner&#8217;s investigation). The Appellant says, &#8220;</span><span style="font-style:italic;font-family:Arial;font-size:11pt">I was particularly concerned at the documents referred to above as they made a number of assertions and assumptions which I found to be potentially prejudicial and inaccurate</span><span style="font-family:Arial;font-size:11pt">&#8221;. This correspondence relates to Decision Notice 2. During the Commissioner&#8217;s investigation, London Councils was seeking to rely on the additional exception of manifestly unreasonable requests. The Appellant has sought to correct some of the matters in that correspondence relating to the test for whether a request is manifestly unreasonable. However, London Councils are not relying on this exception in this appeal. This means that we have not taken these parts of the correspondence into account in making our decision, and we make no finding on these points.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p><span style="font-style:italic;font-weight:bold;font-family:Arial;font-size:11pt">Conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="font-family:Arial;font-size:11pt">40.</num>
+	  <content>
+	    <p style="margin-left:0in;text-indent:0.3in"><span style="font-family:Arial;font-size:11pt">We dismiss both of the appeals for the reasons explained above.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p class="Style7" style="margin-left:0in"><span style="font-weight:bold;font-family:Arial;font-size:11pt">Signed:</span><span style="font-family:Arial;font-size:11pt"> Judge Hazel Oliver </span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-weight:bold;font-family:Arial;font-size:11pt">Date:</span><span style="font-family:Arial;font-size:11pt"/><docDate date="2025-08-21" refersTo="#decision" style="font-family:Arial;font-size:11pt">21 August 2025</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>

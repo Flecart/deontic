@@ -1,0 +1,1861 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1046"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2025/1046"/>
+	  <FRBRdate date="2025-09-24" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1046"/>
+	  <FRBRname value="Ed Ryland v The Information Commissioner &amp; Anor"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1046"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1046"/>
+	  <FRBRdate date="2025-09-24" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1046/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1046/data.xml"/>
+	  <FRBRdate date="2025-09-24T12:19:53" name="transform"/>
+	  <FRBRdate date="2025-09-24T14:41:16" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-07-07" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-09-24" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="ed-ryland" href="" showAs="ED RYLAND"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCPerson eId="channel-4-television-corporation" href="" showAs="CHANNEL 4 TELEVISION CORPORATION"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1046</uk:number>
+	<uk:cite>[2025] UKFTT 1046 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>547eda71658d6a2a03523530b43119a35935302c61f920d74efbe94ad6090503</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Revision { font-size: 12pt; }
+#judgment .paragraph { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .normaltextrun { }
+#judgment .eop { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:96.24pt;height:62.02pt"/></p>
+      <p><span style="font-family:'Book Antiqua'">Neutral citation number: </span><neutralCitation style="font-family:'Book Antiqua'">[2025] UKFTT 01046 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-family:'Book Antiqua'"> Case Reference: FT/EA/2024/0218</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard by Cloud Video Platform</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Heard on: </span><docDate date="2025-07-07" refersTo="#hearing" style="font-weight:bold;font-family:'Book Antiqua'">7 July 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: 04 Sept 2025</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Amended under the slip Rule 40 on 24 September 2025</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE HARRIS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">MEMBER CHAFER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">JUDGE DWYER</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#ed-ryland" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua'">ED RYLANd</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(1)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua'">THE INFORMATION COMMISSIONER</party></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-weight:bold;font-family:'Book Antiqua';text-indent:-0.3in">(2)</num>
+	<p class="ListParagraph" style="text-align:center;margin-left:0in;text-indent:0.08in"><party as="#respondent" refersTo="#channel-4-television-corporation" style="font-weight:bold;font-family:'Book Antiqua'">CHANNEL 4 TELEVISION CORPORATION</party></p>
+      </blockContainer>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Representation</span><span style="font-weight:bold;font-family:'Book Antiqua'">:</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Appellant: Mr Ryland, representing himself</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Respondent: The IC was not represented</span></p>
+      <p><span style="font-family:'Book Antiqua'">For the Second Respondent: Jonathan Scherbel-Ball and Hope Williams</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Decision: </span><span style="font-family:'Book Antiqua'">The appeal is allowed in part</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Substituted Decision Notice: </span>IC-267484-L9X5</p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Public Authority: Channel 4 Television Corporation (C4)</span></p>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	<p class="NumberedReasons" style="margin-left:0.5in">C4 was correct in stating that section 36(2)(b)(i) and section 36(2)(b)(ii) of FOIA are engaged and the public interest favours maintaining these exemptions, with some specific exceptions which are dealt with in the CLOSED decision on this appeal.</p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	<p class="NumberedReasons" style="margin-left:0.5in"><span class="normaltextrun" style="color:#000000;background-color:#FFFFFF">C4 was entitled to rely on section 40(2) to withhold personal data, save that the names and, where relevant, email addresses of senior C4 staff should be disclosed.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	<p class="NumberedReasons" style="margin-left:0.5in">Section 12 of FOIA is engaged and C4 was entitled to rely on it. </p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	<p class="NumberedReasons" style="margin-left:0.5in">On the balance of probabilities C4 does hold further information within the scope of the Second Request. </p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">C4 must within 35 days of promulgation of this decision, inform the Appellant, Mr Ryland, whether or not it holds any further information responsive to the Second Request set out in his email dated 19 August 2023, namely &#8220;</span><span style="font-style:italic;font-family:'Book Antiqua'">Can you also provide any correspondence &#8211; internal or external &#8211; from Alex Mahon regarding the use of NDAs or confidentiality clauses at Channel 4?</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">If C4 does hold such information, within 35 days of promulgation of this decision it must:</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	<p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">Provide this information to the Appellant; or</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	<p class="ListParagraph" style="margin-left:1in"><span style="font-family:'Book Antiqua'">If C4 relies on a claim that any of the information is exempt from disclosure, send the Appellant a notice which states that fact, specifies the information in question and states why the exemption applies.</span></p>
+      </blockContainer>
+      <blockContainer>
+	<num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	<p class="ListParagraph" style="margin-left:0.5in"><span style="font-family:'Book Antiqua'">The fresh response will be subject to the rights given under section 50 of the Freedom of Information Act 2000 to make a new complaint to the Information Commissioner.</span></p>
+      </blockContainer>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua';font-size:14pt">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Background to the appeal </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This appeal is against a decision of the Information Commissioner (the &#8220;IC&#8221;) dated 14 May 2024, reference IC-267484-L9X5. This was in connection with a request for information made to Channel 4 Television Corporation (&#8220;C4&#8221;) by the Appellant, Mr Ed Ryland concerning 61 settlement agreements entered into by C4 with departing employees between 2017 and 2022. The 61 Agreements have subsequently been disclosed to the Appellant under a separate FOIA request which is not in issue in these proceedings. The Appellant argues that these amount to Non-Disclosure Agreements (&#8220;NDAs&#8221;) because they contain generic confidentiality and non-disparagement clauses of the sort found in any employment or commercial  relationship. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Ryland wrote to C4 on 19 August 2023 to request the following information:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;A Times article last year revealed that 61 NDAs had been issued to departing staff in the first 5 years of Alex Mahon&#8217;s tenure as CEO. C4 and Alex Mahon have both claimed in various arenas that Channel 4 never uses NDAs to cover up wrongdoing. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Could you please tell me under the FOIA, how many of the 61 NDAs identified in the Times article were connected to allegations of wrongdoing made by the individuals bound by the clauses</span>? (&#8220;the First Request&#8221;) </p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Can you also provide any correspondence &#8211; internal or external &#8211; from Alex Mahon regarding the use of NDAs or confidentiality clauses at Channel 4?&#8221;</span> (&#8220;the Second Request&#8221;) </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">C4 wrote to Mr Ryland on 19 September 2023. It communicated that in respect of the First Request, the agreements referred to in The Times&#8217; article were settlement agreements with departing employees leaving C4. The agreements did not prevent or inhibit the calling out of wrongdoing. In respect of the Second Request, C4 relied on s.36(2)(b)(i) and (ii) and s.36(2)(c) FOIA to withhold the requested information. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Ryland sought to clarify his request on 28 September 2023 in the following terms: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;I thought it might be helpful to provide further clarity on what is meant by &#8216;connected to allegations of wrongdoing&#8217; in this request. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">The request is for how many of the 61 NDAs referenced in the Times article impose any limitations or restrictions on what individuals who made allegations of wrongdoing can say about those allegations of wrongdoing, or the wrongdoing they have alleged. That applies even if they are not prevented from making a whistleblowing disclosure in the public interest. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">As per the example from the Times, I would consider that to fall within the rubric of &#8216;connected to&#8217;, as the individual was prevented by the NDA from commenting on a racial grievance against senior management.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Following an internal review, C4 wrote to Mr Ryland on 17 October 2023. In respect of the First Request, C4 reiterated that its standard form settlement agreements have typically contained confidentiality clauses, but these &#8220;have not and must not be used to prevent or inhibit the calling out of wrongdoing&#8221;. C4 also explained that if the Appellant&#8217;s request was for the motivation of the settlement agreements, the costs of answering would substantially exceed the &#8220;appropriate limit&#8221;  (costs  threshold)  as prescribed by the Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulation 2004 (the &#8220;Fees Regulations&#8221;). In respect of the Second Request, C4 explained that Mr Baker, the Qualified Person (&#8220;QP&#8221;), had reviewed his initial decision and maintained reliance on s.36(2)(b)(i) and (ii) FOIA, but decided it was no longer necessary to also rely on s.36(2)(c) FOIA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">Mr Ryland contacted the IC on 28 October 2023 to complain about the way his request for information had been handled. In his complaint, he made the following clarification, of which the IC informed C4: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;My request was not for how many of these contracts prevent the individuals from calling out wrongdoing in all circumstances. As per my clarification, it was for how many have clauses that in any way inhibit what individuals can say about a grievance or allegations of wrongdoing&#8221;. </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">C4 wrote to Mr Ryland on 8 February 2024 explaining that the passage of time since the Second Request meant it was now able to provide some information which the Appellant was seeking (&#8220;the Released Information&#8221;). The Released Information was correspondence with external parties about C4&#8217;s use of confidentiality clauses, with redactions of third-party personal data and information outside the scope of the request. On 9 and 13 May 2024, C4 provided further versions of the Released Information with fewer redactions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in">On 14 May 2024, the IC issued a Decision Notice (the &#8220;Decision Notice&#8221;) in which it determined that: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">C4 was correct in stating that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">sections 36(2)</ref>(b)(i) and (ii) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref> (&#8220;FOIA&#8221;) are engaged and that the public interest favours maintaining these exemptions. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">On the balance of probabilities, C4 does not hold any further information within the scope of the request. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">C4 was entitled to rely on section 40(2) to withhold personal data. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Decision Notice did not require C4 to take any steps. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Abbreviations used in this decision  </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;Additional Information&#8221; means the information identified by C4 during its searches after reinstatement of the appeal, including a large volume of further material which may fall within the scope of the Second Request.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.25in;text-indent:0.14in">&#8220;C4&#8221; means Channel 4 Television Corporation, the Second Respondent </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;Decision Notice&#8221; means the decision notice dated 14 May 2024, reference IC-267484-L9X5   </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;DPA&#8221; means the <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;Fees Regulations&#8221; means the Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulation 2004</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;First Request&#8221; means the first part of Mr Ryland&#8217;s request dated 19 August 2023 and &#8220;Second Request&#8221; means the second part of that request</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;FOIA&#8221; means the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">Freedom of Information Act 2000</ref>. References to &#8220;section&#8221; in this decision mean sections of FOIA unless otherwise stated. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;IC&#8221; means the Information Commissioner, the First Respondent  </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;NDA&#8221; means Non-Disclosure Agreement </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;QP&#8221; means Qualified Person </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;Released Information&#8221; means the information released by C4 to Mr Ryland on 8 February and 9 and 13 May 2024</p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;UK GDPR&#8221; means the UK General Data Protection Regulation  </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in">&#8220;UT&#8221; means the Upper Tribunal, Administrative Appeals Chamber. </p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Procedural matters relating to the determination of this appeal  </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The hearing was held remotely by cloud video platform (CVP).  The Tribunal was satisfied that it was fair and just to conduct the hearing in this way.  There was an OPEN session attended by all the parties and a CLOSED session which was attended only by C4 and their representatives.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">At a case management hearing on 6 June 2025 before Judge Saward, the Judge determined that the case should proceed to substantive hearing on the basis of the information before the Commissioner when he made his decision only, rather than the Additional Information. At this hearing therefore, the only submissions we heard on the Additional Information were procedural ones.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The Appeal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Ryland appealed the IC&#8217;s decision to the Tribunal on 9 June 2024. He gave the following grounds for appeal: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC erred in making a finding that no further information falls within the scope of this request in this case. He also said that the IC materially misunderstands the request, in that what Mr Ryland seeks is information on how many of the settlement agreements are &#8216;connected to&#8217; allegations of wrongdoing or &#8216;impose any limits or restrictions on what individuals who made allegations of wrongdoing can say about those allegations of wrongdoing&#8217;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC erred in finding <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref> applies in this case. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC erred in concluding that information contained in Alex Mahon&#8217;s correspondence is &#8216;information outside the scope of the request&#8217; and in not identifying further information falling under this part of the request. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The IC erred in failing to identify procedural faults by C4 in providing information outside the statutory timeframe. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">It does not appear that the IC saw the documents covered by this request other than some of Alex Mahon&#8217;s &#8216;external emails&#8217;.  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The relief sought by Mr Ryland was that he would like the Decision Notice set aside and a new Decision Notice ordering C4 to provide all the requested information correctly. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">C4&#8217;s response to the Appeal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4 initially responded to the Appeal by way of a response dated 12 July 2024 opposing the Appeal. It made the following points in relation to the grounds of appeal: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">C4&#8217;s settlement agreements contain a range of provisions including confidentiality clauses and non-disparagement clauses; none of these should be construed as preventing or inhibiting speaking up about wrongdoing. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">Mr Ryland&#8217;s arguments about <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref> are misconceived because: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">They do not engage with the question of whether the Qualified Person&#8217;s opinion was a reasonable one. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">The issue of the use of confidentiality clauses is a live and current one within C4, so releasing internal emails from the CEO about this issue would undermine and inhibit C4&#8217;s ability to engage in the free and frank provision of advice and the exchange of views for the purpose of deliberation with a key decision maker. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in">It is not correct that the IC did not see the internal correspondence being withheld under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref>. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">There is an overwhelming public interest in maintaining the safe space for discussion of these issues because they are important and sensitive. </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <intro>
+	      <p class="NumberedReasons" style="margin-left:1in">The ground relating to additional information not having been located as part of C4&#8217;s search should be dismissed because: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">i.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">The possibility that there may be information which has not been found does not mean a reasonable search has not been conducted.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">ii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">The IC has seen the withheld information. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iii.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.25in">The search conducted was reasonable and appropriate including searching in the CEO&#8217;s sent items folder using certain key words. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">iv.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">Correspondence to the CEO is not within scope of the request. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">v.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in">C4 is entitled to withhold elements of correspondence from its CEO that do not relate to the use of NDAs or confidentiality clauses by C4. In the alternative, C4 is entitled to rely on <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36(2)</ref>(b) and/or 40(2) to withhold this information. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua';margin-left:1.5in;text-indent:-0.12in">vi.</num>
+	      <content>
+		<p class="NumberedReasons" style="margin-left:1.5in;text-indent:0.12in">C4&#8217;s late disclosure of a particular email shows its continuing good faith review and regard for obligations under FOIA. </p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4 also noted that Mr Ryland does not appear to be challenging the Decision Notice&#8217;s findings that C4 was entitled to withhold third party personal data under section 40(2). </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The IC&#8217;s response to the Appeal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC responded to the Appeal by a Response dated 19 July 2024 and noted that he relies on the Decision Notice as setting out his findings and the reasons for those findings.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He submitted that Mr Ryland has not discharged the burden of proving that the IC erred in law in respect of his conclusions relating to <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">sections 36(2)</ref>(b) and 40(2) in relation to the January 2019 internal email chain.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">However, the IC also conceded that C4 may hold further information relevant to both parts of Mr Ryland&#8217;s requests that fall to be disclosed to him subject to any exemptions. The IC acknowledged that the Tribunal may allow the part of the appeal in respect of the IC&#8217;s finding that on balance of probabilities, C4 does not hold any further information within the scope of the entire request.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The IC&#8217;s Response adopted a different interpretation of the First Request to that which C4 had previously understood from the DN, essentially requiring C4 to ascertain whether each of the 61 Agreements was causally connected to an allegation of wrongdoing by the departed employee.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">C4&#8217;s supplementary response to the Appeal </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4 responded further to the Appeal by a supplemental response dated 23 August 2024 in relation to the first ground of appeal only, in light of the IC&#8217;s interpretation of the First Request. It made the following points: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">It is not correct for the IC to say that C4 can review the settlement agreements itself to see if they are connected to any allegation of wrongdoing or grievance made by the departing employee. The information is not held in the settlement agreements themselves. Further, C4 may not hold in written form information about whether any individual had in fact made a complaint of wrongdoing prior to their departure and may not be able to say with certainty whether this had happened. This means C4 may not hold the information required to address this request. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">This information is not contained in the terms of the 61 settlement agreements and would require a manual review of the personnel file of each individual. This would exceed the costs threshold set out in Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 20024, which equates to 18 hours of work (the &#8220;Appropriate Limit&#8221;). Accordingly, C4 relies on s.12 FOIA because the cost of complying with the request exceeds the Appropriate Limit. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Mr Ryland&#8217;s Replies </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Ryland initially replied to both the IC and C4 in a single Reply on 17 September 2024. As well as repeating his previous position, Mr Ryland made the following points: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The Tribunal must determine how many of the settlement agreements contain confidentiality clauses that restrict speech regarding allegations of wrongdoing. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He has not addressed the question of the reasonableness of the QP&#8217;s opinion as he has not seen it. The public interest in transparency outweighs the QP&#8217;s position. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">His request was intended to cover all correspondence to and from Alex Mahon. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On 29 September 2024, Mr Ryland applied to withdraw his appeal, and the Tribunal consented to this. Subsequently on 6 October 2024 Mr Ryland applied to reinstate the appeal, which application was granted on 25 April 2025.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He made a further supplemental Reply on 24 April 2025, noting that in the meantime he had received a considerable amount of additional material including the terms of the 61 settlement agreements and making submissions about this. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4&#8217;s skeleton argument notes that in preparing for the appeal after its reinstatement, it ran further searches for material potentially responsive to the Second Request. These searches revealed the Additional Information, which is a potentially signi&#64257;cant volume of further material which may fall within the scope of the Second Request. This Additional Information is relevant to the directions which the Tribunal will need to consider flowing from its decision on this appeal.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Legal framework </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Section 1</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Section 1 FOIA creates a duty to disclose information held by public authorities. It provides that any person making a request for information to a public authority is entitled: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">To be informed in writing by the public authority whether it holds information of the description specified in the request, and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">If that is the case, to have that information communicated to him. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">That duty exists whether that information is accurate or not; if it is held it is subject to the regime in FOIA albeit the accuracy of the information may be relevant to any balance of the public interests.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The duty to disclose information held by public authorities is subject to exemptions. There are two types of exemption: absolute and qualified. An exemption will be &#8220;qualified&#8221; where, if the exemption is engaged, the relevant public interests must be balanced to determine whether the public interest in maintaining the exemption outweighs the public interest in disclosure pursuant to section 2 FOIA. An absolute exemption will not require the balancing of the public interests. <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">Section 36</ref> provides a qualified exemption so we must balance the public interest in considering it.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Following the cases of <span style="text-decoration-line:underline;text-decoration-style:solid">R (Evans) v Attorney General</span> [2015]UKSC 21 and <span style="text-decoration-line:underline;text-decoration-style:solid">Montague v The Information Commissioner and Department for International Trade</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/104" uk:canonical="[2022] UKUT 104 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 104 (AAC)</ref> and [2023]EWCA Civ 1278 it is clear that the Tribunal should apply the public interest balance at the date of refusal, not at the date of an internal review, and thus not at any later date such as where there is a later reliance on additional or different exemptions. However, events or developments taking place after that time can be taken into account insofar as they inform the historical position at the time of the request or they inform the Tribunal&#8217;s discretion as to what steps, if any, a public authority should take when deciding to issue a substituted decision notice.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Interpreting a FOIA request</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4 says in its skeleton that the law on interpreting the meaning and scope of an FOI request is well-settled. The interpretation of a request for information &#8220;<span style="font-style:italic">depends on the objective meaning of the words used, read in their context and in the light of relevant background facts</span>&#8221; &#8211; I<span style="text-decoration-line:underline;text-decoration-style:solid">ndependent Parliamentary Standards Authority v Leapman </span><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/388" uk:canonical="[2015] EWCA Civ 388" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] EWCA Civ 388</ref>; <ref href="#" uk:canonical="[2015] 1 WLR 2879" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] 1 WLR 2879</ref> at [57] per Richards LJ.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In <span style="text-decoration-line:underline;text-decoration-style:solid">Dedalus Limited v IC and Arts Council of England </span>(EA/2010/0001), 25 May 2010, the Tribunal explained: <span style="font-style:italic">&#8220;we agree&#8230;that a subjective reading of a request for information, looking at the motivation and intention of the requestor, would be incorrect. To reject the objective reading of a request would not be in keeping with the &#8220;motive blind&#8221; approach the Tribunal is satisfied is the correct one</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The entitlement under FOIA is to be provided with information not documents &#8211; see <span style="text-decoration-line:underline;text-decoration-style:solid">Carins v Information Commissioner and DVLA (</span>EA/2009/0119 and 0102), 2 September 2010 at [25]. As in <span style="text-decoration-line:underline;text-decoration-style:solid">Carins</span>, this can include an entitlement to extracts of a broader document where the extract (but not the broader document itself) contains relevant information within the scope of a request. This is also consistent with the Cabinet Office&#8217;s Code of Practice, see paragraph 1.6 which provides: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in">&#8220;<span style="font-style:italic"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36" uk:canonical="2000 c. 36" uk:origin="TNA" uk:type="legislation">The Act</ref> provides a right to information. Disclosing existing documents will often be the most straightforward way of providing information. However, in other cases it may be appropriate to extract the relevant information for disclosure and put in a single document rather than redact the existing document that contains it</span>.&#8221;  </p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">   We agree with C4&#8217;s summary of the law on this point and adopt it.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Section 12</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Under section 12(1) FOIA a public authority is not obliged to comply with a request for information where: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;the authority estimates that the costs of complying with the request would exceed the appropriate limit. &#8220; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Subsection (1) does not exempt the public authority from its obligation to inform the requestor whether it holds the requested information unless the estimated cost of complying with that obligation alone would exceed the appropriate limit. C4 submits that the relevant appropriate limit, prescribed by the Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 2004 (&#8216;the Regulations&#8217;) is &#163;450, which equates to 18 hours work at &#163;25 per hour. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In making its estimate, a public authority may only take account of the costs it reasonably expects to incur in relation to the request in:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">determining whether it holds the information, </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">locating it, or a document which may contain the information, </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">retrieving it, or a document which may contain the information, and </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">extracting it from a document containing it. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The estimate must be sensible, realistic, and supported by cogent evidence <span style="text-decoration-line:underline;text-decoration-style:solid">(Commissioner of Police for the Metropolis v IC and Mackenzie</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2014/479" uk:canonical="[2014] UKUT 479 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKUT 479 (AAC)</ref> at [14].)  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The test is not a purely objective one of what costs it would be reasonable to incur or reasonable to expect to incur. It is a test that is subjective to the authority but qualified by an objective element. It allows the IC and the Tribunal to remove from the estimate any amount that the authority could not reasonably expect to incur either on account of the nature of the activity to which the cost relates or its amount. (<span style="text-decoration-line:underline;text-decoration-style:solid">Reuben Kirkham v Information Commissioner</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/126" uk:canonical="[2018] UKUT 126 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 126 (AAC)</ref>). </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">Section 36</ref></span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">Section 36(2)</ref>(b) FOIA provides a qualified exemption from the duty to disclose information which is held, where in the reasonable opinion of the relevant qualified person, disclosure of the information would, or would be likely to, inhibit (i) the free and frank provision of advice, or (ii) the free and frank exchange of views for the purpose of deliberation. This is a qualified exemption, so  it  is  subject  to  the  public  interest  test  in  s.2(2)(b)  FOIA.  As the IC&#8217;s guidance on these exemptions explains, they are concerned with &#8220;<span style="font-style:italic">the processes that may be inhibited, rather than what is in the information. The issue is whether disclosure would inhibit the processes of providing advice of exchanging views. To engage the exemption, the information requested does not necessarily have to contain views and advice that are in themselves notably free and frank. On the other hand, if the information only consists of relatively neutral statements, then it may not be reasonable to think that its disclosure could inhibit the provision of advice or the exchange of views</span>.&#8221; </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36(2)</ref>(b)(ii) is a prejudice-based exemption, the reasonable opinion must consider the question of whether disclosure would or would be likely to inhibit the free and frank exchange of views for the purposes of deliberation. In considering the factors that militate against disclosure the primary focus should be on the particular interest which the exemption is designed to protect.  </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The question of what amounts to a &#8220;reasonable opinion&#8221; was considered by the Tribunal at paragraphs 54 and 60 in <span style="text-decoration-line:underline;text-decoration-style:solid">Guardian Newspapers Limited and Heather Brooke v Information Commissioner and British Broadcasting Corporation</span> (EA 2006/0011 and EA/2006/0013). These paragraphs were endorsed by the Upper Tribunal in <span style="text-decoration-line:underline;text-decoration-style:solid">Information Commissioner v Malnick and ACBA <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/72" uk:canonical="[2018] UKUT 72 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 72 (AAC)</ref></span> (GIA/447/2017), where it held that &#8220;reasonable&#8221; in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36(2)</ref> &#8220;means substantively reasonable and not procedurally reasonable&#8221;.  In <span style="text-decoration-line:underline;text-decoration-style:solid">Malnick</span>, the Upper Tribunal gave the following pointers as to the approach to be adopted:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">&#8220;The starting point must be that the proper approach to deciding whether the QP&#8217;s opinion is reasonable is informed by the nature of the exercise to be performed by the QP and the structure of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref>.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">In particular, it is clear that Parliament has chosen to confer responsibility on the QP for making the primary (albeit initial) judgment as to prejudice. Only those persons listed in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/5" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36(5)</ref> may be QPs. They are all people who hold senior roles in their public authorities and so are well placed to make that judgment, which requires knowledge of the workings of the authority, the possible consequences of disclosure and the ways in which prejudice may occur. It follows that, although the opinion of the QP is not conclusive as to prejudice (save, by virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/7" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36(7)</ref>, in relation to the Houses of Parliament), it is to be afforded a measure of respect. As Lloyd Jones LJ held in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Department for Work and Pensions v Information Commissioner </span><span style="font-style:italic"><ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/758" uk:canonical="[2016] EWCA Civ 758" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 758</ref> (at paragraph 55): &#8220;It is clearly important that appropriate consideration should be given to the opinion of the qualified person at some point in the process of balancing competing public interests under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref>. No doubt the weight which is given to this consideration will reflect the tribunal&#8217;s own assessment of the matters to which the opinion relates.&#8221;&#8230;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">a decision whether information is exempt under that section involves two stages: first, there is the threshold in <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref> of whether there is a reasonable opinion of the QP that any of the listed prejudice or inhibition (&#8220;prejudice&#8221;) would or would be likely to occur; second, which only arises if the threshold is passed, whether in all the circumstances of the case the public interest in maintaining the exemption outweighs the public interest in disclosing it. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">The QP is not called on to consider the public interest for and against disclosure. Regardless of the strength of the public interest in disclosure, the QP is concerned only with the occurrence or likely occurrence of prejudice. The threshold question under <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36(2)</ref> does not require the Commissioner or the F-tT to determine whether prejudice will or is likely to occur, that being a matter for the QP. The threshold question is concerned only with whether the opinion of the QP as to prejudice is reasonable. The public interest is only relevant at the second stage, once the threshold has been crossed. That matter is decided by the public authority (and, following a complaint, by the Commissioner and on appeal thereafter by the tribunal). </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic"> Given the clear structural separation of the two stages, it would be an error for a tribunal to consider matters of public interest at the threshold stage&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">So if the threshold test of the reasonableness of the QP&#8217;s opinion is met, only then will the Tribunal go on to decide whether the public interest weighs in favour of disclosure or maintaining the exemption.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As C4 notes in its skeleton argument, there is a body of case law that recognises the importance of caution when considering a generalised and unspecific &#8220;chilling effect&#8221; argument that disclosure of discussions would inhibit free and frank discussions which would impact the quality of advice and decision making &#8211; see <span style="text-decoration-line:underline;text-decoration-style:solid">Davies v IC and the Cabinet Office</span><span style="font-weight:bold"/>[2020] AACR 2, 11 June 2019 at [25]- [26]. This is because there is no absolute guarantee of confidentiality for public authorities in all circumstances and public officials are expected to be impartial and robust when giving advice and not easily deterred by possible future disclosure. In Davies, the Upper Tribunal at [28] emphasised that the correct approach when assessing the competing public interests under FOIA includes assessing the actual harm or prejudice which weighs against disclosure, which required detailed identification, proof, explanation and examination of the likely harm or prejudice.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The case of <span style="text-decoration-line:underline;text-decoration-style:solid">All Party Parliamentary Group on Extraordinary Rendition (APPGER) v IC &amp; Foreign and Commonwealth Office</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2013/560" uk:canonical="[2013] UKUT 560 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKUT 560 (AAC)</ref> gives guidance on how the balancing exercise required by s 2(2)(b) of FOIA should be carried out:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;&#8230; when assessing competing public interests under FOIA the correct approach is to identify the actual harm or prejudice that the proposed disclosure would (or would be likely to or may) cause and the actual benefits its disclosure would (or would be likely to or may) confer or promote. This &#8230; requires an appropriately detailed identification of, proof, explanation and examination of both (a) the harm or prejudice, and (b) benefits that the proposed disclosure of the relevant material in respect of which the exemption is claimed would (or would be likely to or may) cause or promote.&#8221;  </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The balancing of public interest is on the basis of how matters stood at the time of the public authority&#8217;s response to a request under FOIA (see <span style="text-decoration-line:underline;text-decoration-style:solid">Montague</span> above)</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Section 40</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Sections 40(2) and (3A) FOIA when read together provide an absolute exemption from disclosure under FOIA in respect of information which constitutes personal data of a third party and whose disclosure to a member of the public other than under FOIA would contravene any of the data protection principles.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">&#8220;Personal data&#8221; means any information relating to an identified or identifiable living individual (<ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/2" uk:canonical="2018 c. 12 s. 3" uk:origin="TNA" uk:type="legislation">s3(2)</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2018/12" uk:canonical="2018 c. 12" uk:origin="TNA" uk:type="legislation">Data Protection Act 2018</ref> (&#8220;DPA&#8221;)). An identifiable living individual means a living individual who can be identified, directly or indirectly, in particular by reference to: </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">an identifier such as a name, an identification number, location data or an online identifier (<ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/3" uk:canonical="2018 c. 12 s. 3" uk:origin="TNA" uk:type="legislation">s3(3)</ref>(a) DPA); or </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of the individual (<ref href="http://www.legislation.gov.uk/id/ukpga/2018/12/section/3/3" uk:canonical="2018 c. 12 s. 3" uk:origin="TNA" uk:type="legislation">s3(3)</ref>(b) DPA). </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">If the information does comprise third party personal data, the Tribunal must consider whether its disclosure other than under FOIA would contravene any of the data protection principles. The &#64257;rst data protection principle is the key relevant provision and is set out at Art. 5(1)(a) of the UK GDPR. It provides that personal data shall be &#8220;processed lawfully, fairly and in a transparent manner in relation to the data subject&#8221;. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The factors which may be relevant to fairness include the possible consequences of disclosure on the individual, the reasonable expectations of the individual both at the time the information was collected and the time of the request, the nature of the information, the circumstances in which it was collected and whether it is in the public domain. Any interests in the public having access to the information and the balance between these and the rights and freedoms of the individual data subjects may also be relevant. (see <span style="text-decoration-line:underline;text-decoration-style:solid">DH v IC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2016/0139" uk:canonical="[2016] UKUT 0139 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKUT 0139 (AAC)</ref>)</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Article 6 (1) of UK GDPR provides that processing shall be lawful only if and to the extent that at least one of six identified conditions is met. The most relevant one for this appeal is (f) which states <span style="font-style:italic">&#8220;processing is necessary for the purposes of the legitimate interests pursued by the controller or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Accordingly, the questions which should be answered following <span style="text-decoration-line:underline;text-decoration-style:solid">Page v IC</span> [2023] UKFTT (GRC), a case which is not binding on this Tribunal but helpful, to determine necessity are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Is the data controller or a third party pursuing a legitimate interest or interests?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Is the processing involved necessary for the purposes of their interests?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Are the above interests overridden by the interests or fundamental rights and freedoms of the data subject?</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">As summarised by C4 in its skeleton, when considering whether processing is &#8220;necessary&#8221; for the purposes of a legitimate interest or interests, &#8220;necessary&#8221; means &#8220;reasonably&#8221; rather than absolutely or strictly necessary. A measure will not be necessary if the legitimate aim can be achieved by a lesser measure<span style="text-decoration-line:underline;text-decoration-style:solid">: South Lanarkshire Council v Scottish IC</span> <ref href="https://caselaw.nationalarchives.gov.uk/uksc/2013/55" uk:canonical="[2013] UKSC 55" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] UKSC 55</ref>; [2013] 1 WLR. The measure must be the &#8220;least restrictive&#8221; means of achieving the legitimate aim in question: <span style="text-decoration-line:underline;text-decoration-style:solid">Goldsmith International Business School v IC and Home O</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">&#64256;</span><span style="text-decoration-line:underline;text-decoration-style:solid">ice</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2014/563" uk:canonical="[2014] UKUT 563 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2014">[2014] UKUT 563 (AAC)</ref>. The balancing exercise to be carried out when assessing whether disclosure of personal data is lawful is di<span style="font-family:'Times New Roman'">&#64256;</span>erent from the balancing exercise to be carried out when conducting the public interest test under s.2(1)(b) FOIA. It is the data protection regime which applies and the general transparency values which underpin FOIA do not automatically create a legitimate interest in disclosure in data protection law: <span style="text-decoration-line:underline;text-decoration-style:solid">Cox v IC and Home O</span><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman'">&#64256;</span><span style="text-decoration-line:underline;text-decoration-style:solid">ice </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2018/119" uk:canonical="[2018] UKUT 119 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 119 (AAC)</ref> at [42].  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The Role of the Tribunal  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal&#8217;s remit is governed by s.58 FOIA. This requires the Tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the IC&#8217;s decision involved exercising discretion, he should have exercised it differently. If we are satisfied that the IC&#8217;s decision notice is in error of law or involves an inappropriate exercise of discretion then we will allow the appeal and may substitute a decision notice for that of the IC. The Tribunal may receive evidence that was not before the IC and may make different findings of fact from the IC.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The evidence  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal considered an OPEN bundle of documents (1912 pages).  Mr Ryland also submitted an additional bundle with his skeleton argument (58 pages). The Tribunal had the benefit of skeleton arguments from Mr Ryland and C4.   The Tribunal also had sight of an authorities bundle, which was forwarded to the panel during the course of the hearing (679 pages). Mr Ryland submitted a number of emails and submissions both before and after the hearing which we have also taken into account.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal also considered a CLOSED bundle of withheld documents (75 pages). The gist provided to the Appellant of what was in the closed bundle indicated that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;This closed bundle comprises information potentially within the scope of the Request, namely correspondence &#8211; internal or external &#8211; from Alex Mahon regarding the use of NDAs or confidentiality clauses at Channel 4. The emails are colour coded to identify</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(i)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">specifically emails from Alex Mahon regarding Channel 4&#8217;s use of NDAs or confidentiality clauses;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(ii)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">emails from other individuals concerning Channel 4&#8217;s use of NDAs or confidentiality clauses;</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(iii)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">third party personal data which Channel 4 contends is exempt from disclosure under s.40(2) FOIA; and</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">(iv)</num>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in"><span style="font-style:italic">information which has already been provided to the Appellant within the scope of his request.&#8221;</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Prior to the hearing an application under rule 14 of the Tribunal Rules had been made as regards the withheld material. In accordance with our duty under <span style="text-decoration-line:underline;text-decoration-style:solid">Browning</span> we considered whether it was necessary to withhold the information in the closed bundles from the appellant. We were satisfied that it was necessary to withhold the information from Mr Ryland in order to avoid defeating the purpose of the proceedings.   </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We had an OPEN witness statement from Zelda Perkins, for Mr Ryland. Ms Perkins gave brief oral evidence in which she stated that C4 has misrepresented its own position in relation to NDAs. She expressed the view that an NDA is the same as any confidentiality clause in any form of agreement that stops an individual speaking out about anything other than intellectual property. C4 declined to cross-examine her and the Tribunal had no questions.  We found Ms Perkins&#8217; evidence to be of limited assistance to the Tribunal, as she had no first-hand knowledge of the facts and circumstances surrounding the Decision Notice, and therefore gave limited weight to her evidence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We heard OPEN evidence from Martin Baker, Chief Commercial Affairs Officer and Managing Director of Paralympics for C4. Mr Baker was the Qualified Person for the purposes of the <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref> exemption relied on by C4. Mr Baker was cross-examined by Mr Ryland. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Baker said that he has a broad portfolio and there are areas within that which include specialist legal expertise provided by teams within the organisation. He relies on the teams to advise him on things he should know and report to the CEO. He refuted any inference of dishonesty.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_61">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">61.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Baker stated that the examples of clauses appended to C4&#8217;s email dated 16 October 2024 were examples of standard form wording used in employment settlements. The purpose of these agreements was to draw a line under the dispute giving rise to the agreement&#8217;s existence and he accepted that these clauses do create constraints on both parties. He was clear that the rights arising under the <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23" uk:canonical="1998 c. 23" uk:origin="TNA" uk:type="legislation">Public Interest Disclosure Act 1998</ref> (PIDA) were inalienable, comprehensive and qualified and stated he believed that the clauses used by C4 do allow individuals to make protected disclosure.  He said that for example a claim of sexual misconduct would be covered by PIDA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_62">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">62.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Ryland took Mr Baker through a number of definitions of NDAs including:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in"><span style="font-style:italic">&#8220;a contract that contains clauses that restrict what a signatory can say, or who they can tell, about something. These can be confidentiality or gagging clauses, which prevent or limit what information can be shared, or they can be non-derogatory or non-disparagement clauses, which prevent signatories from saying anything derogatory about particular individuals or organisations.&#8221;</span> The House of Commons Women and Equalities Committee OB p652</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">&#8220;<span style="font-style:italic">in contrast to a settlement agreement, the BBC uses the term &#8216;non-disclosure agreement&#8217; or &#8216;NDA&#8217; in an employment context to describe a provision which has the effect of prohibiting employees from making derogatory or disparaging statements about their employer (or sometimes colleagues or managers). These clauses are also referred to as &#8216;gagging clauses&#8217;</span>.&#8221; Document from the BBC appended to Ms Perkins&#8217; statement OB320</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_63">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">63.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Baker said in response that C4&#8217;s position is that it does use confidentiality provisions in settlement agreements. He noted that C4 does not use gagging clauses today. As C4 is not a publicly funded body like the BBC and its approach is that sums should remain confidential because it is a commercial business operating in competition with other commercial businesses. The position has evolved over the past few years. He declined to comment on what the BBC does.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_64">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">64.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In relation to his Qualified Person opinion, Mr Baker said that he considered not only the information written by Alex Mahon, but also the chain of emails including emails to and from Dr Mahon.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_65">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">65.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Baker noted that Alex Mahon is no longer CEO of C4. C4 does not consider its employees to be civil servants as C4 is not a branch of government. He said that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref> provides qualified space for robust debate as to how to respond to challenges. This is required to enable staff to exchange views which lead to the position C4 ultimately adopts, so he considered that this is precisely what <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref> protects. He said that if this information was published, members of staff would feel inhibited from saying what they want in terms of working up an appropriate response. To suggest that there should be no space to consult with colleagues does not sit reasonably with <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref>. He saw this consultation as a rolling matter that covers both prospective and future events. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_66">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">66.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We found Mr Baker to be a straightforward and honest witness who was doing his best to assist the Tribunal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_67">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">67.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We heard brief oral OPEN evidence from Rebecca Miller, Head of Corporate Governance and Trading at C4. Mr Ryland declined to cross-examine her. In response to a question from the Tribunal she explained more about the mechanisms for searching electronically for information about the 61 settlement agreements. She said that the search functionality is to search the title or body of the documents for a specific word rather than a Boolean search. An exact search term must be inputted and if more than one is inputted at a time then this will not show up all relevant documents. It is necessary to know all the words which one wants to search or know that one document will contain all the words in the search. Some of the documents contained in files relating to agreement are old and scanned. The search function cannot pick up scanned documents because it cannot read fonts properly. These were the only search functions available at the relevant time. We also found Ms Miller in the hearing to be a straightforward witness who was doing her best to assist the Tribunal. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_68">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">68.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4 submitted a further witness statement for Ms Miller following the hearing on 10 July 2025 to correct some errors in her oral evidence. Ms Miller said &#8220;<span style="font-style:italic">I now understand that the S Drive does have Boolean search capabilities, which means it is possible in principle to search for a number of keywords at the same time using connectors such as &#8220;and/or&#8221;.&#8221;</span> She stated that the rest of her evidence was correct and explained that her mistaken understanding of how the S Drive works was based on information provided by a colleague who had carried out some dummy tests on it. However, the colleague had an incorrect understanding of how to conduct a Boolean search so their dummy testing was flawed and they had not consulted C4&#8217;s technology team in this connection.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_69">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">69.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">However, Ms Miller maintained that keywords cannot properly address the wide variety of circumstances in which an allegation of wrongdoing is recorded, whether or not a Boolean search is used. The only difference that using a Boolean search would make is that it becomes possible to search for multiple keywords at once rather than individually. It remains the case that a manual review of each of the relevant individuals&#8217; personnel file would be required to see if they had made an allegation of wrongdoing while at C4. She reported that having carried out Boolean searches these searches only identified the keywords used in generic boilerplate clauses and not specific complaints or grievances raised by the individual. It is therefore not possible to determine from the search that an individual had or had not made an allegation of wrongdoing. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_70">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">70.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Ryland made lengthy written submissions after the hearing in relation to Ms Miller&#8217;s second statement. He submitted, in summary, that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Ms Miller&#8217;s statement contains serious errors of fact and technical misapplication of basic file search functionality. In particular, he criticises the revised search strategy set out in Ms Miller&#8217;s statement as &#8220;materially deficient and inadequately scoped&#8221;. In support of this, he reports searches he carried out himself.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">C4&#8217;s application of section 12 is based on inflated and flawed estimates, unreliable methodology and non-existent documentary evidence.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">There is a consistent pattern of procedural failings and unsupported assertions that raise serious concerns about the good faith of C4&#8217;s approach.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_71">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">71.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Ryland also submitted an additional bundle of material concerning the efficacy of the Boolean searches carried out by C4 following the hearing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_72">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">72.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In response to this, C4 made further written submissions on 23 July 2025 responding to the points raised by Mr Ryland around the efficacy of these searches. In summary it made the following points:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The tests which Mr Ryland carried out were using different software and a different operating system to those done by C4. The workings of C4&#8217;s system in practice do not accord with the Microsoft 365 webpage relied on by Mr Ryland.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The singular word &#8220;grievance&#8221; was picked up by the use of a question mark wildcard, but the contract does not include the words &#8220;grievances&#8221;, &#8220;complaint&#8221; or &#8220;complaints&#8221;. It appears that the question mark wildcard behaves differently when used inside or at the end of a word.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">C4 concluded that the further search conducted after the hearing and the initial sampling exercise were conducted appropriately. The only results returned were generic boilerplate clauses, rather than information about any specific grievances. C4 therefore continues to rely on section 12 of FOIA.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_73">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">73.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Ryland made additional submissions on 1 and 2 August 2025 reiterating his concerns about the submissions made by C4. He accepted that what C4 said about searching &#8220;complaint? AND grievance?&#8221; returning both singular and plural results was correct. However, he considered C4&#8217;s most recent submissions neither challenged nor explained nor rectified any of the concerns he had identified about the searches conducted. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_74">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">74.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Whilst it is unfortunate that Ms Miller&#8217;s oral evidence contained material mistakes, the Tribunal does not consider that there is any conflicting evidence which should call into question the veracity of a statement which is supported by a statement of truth. We also note that she sought to correct these as soon as possible. On balance of probabilities, we do not accept Mr Ryland&#8217;s suggestion that she was incompetent, unprofessional or dishonest, because he has provided no evidence to support this. She has never held herself out as being an IT specialist, and indeed Mr Ryland said he declined to cross examine her because of this. However, Ms Miller was able to give the Tribunal evidence of what the systems at C4 at the relevant time were, and we give the searches she reports in the second statement more weight than Mr Ryland&#8217;s own searches, as he does not have this information about C4&#8217;s systems and how they store documents. We do not accept Mr Ryland&#8217;s assertion that Ms Miller and C4 have acted in bad faith, as in our view there is insufficient evidence to support this.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_75">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">75.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The following gist of the CLOSED session was prepared by Mr Scherbel-Ball and approved by the Tribunal, before being provided to Mr Ryland prior to the end of the OPEN session:  </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;During the Closed Session, Counsel for Channel 4 took the Panel to the Gist of the Material which had been provided in OPEN in the r.14.6 application. Counsel then took the Panel through the closed material explaining the nature of the colour coding and why certain information including third party personal data in external emails were being withheld. </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Counsel then addressed a question from the Panel on the scope of personal data in the context of group identifiability, in light of the Upper Tribunal&#8217;s decision in </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Spivack v NHS Business Authority</span><span style="font-style:italic">. Counsel explained that </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Spivack</span><span style="font-style:italic"> was a case about remoteness of identifiability in the context of medical data. Counsel explained that </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Spivack</span><span style="font-style:italic"> concerned the test of actual identification and there was no qualification for remoteness. Counsel also drew the Panel&#8217;s attention to </span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">Diver v CPS</span><span style="font-style:italic"> a decision of the High Court [2022] EWHC 2500 (KB) where the High Court ruled that reference to a small group of individuals in the context of a charging decision could amount to personal data of each of them, where jigsaw identification was possible from public data.&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_76">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">76.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">After the hearing, Mr Ryland asked for a further more detailed gist and/or transcript of the CLOSED session in order to consider and make representations on the matters raised in the final paragraph. The Tribunal determined that the final paragraph of the gist represented the relevant part of the CLOSED hearing almost in its entirety and determined that a more detailed gist would not assist Mr Ryland, but in any event such disclosure would defeat the purpose of a closed session. Mr Ryland was given a further opportunity to make any representations on the gist in writing, but said that he felt unable to do so without further detail.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_77">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">77.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We discuss other matters pertaining to the CLOSED hearing in the CLOSED annex to this decision.  </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Issues </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_78">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">78.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4 sets out five substantive issues for consideration in its skeleton and we adopt these because we consider that these capture the principal questions which the Tribunal must decide and their essence is mirrored in the issues outlined by the Appellant in his skeleton. The issues are as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="color:#010302;margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The correct interpretation of the First Request.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';color:#010302;margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Depending on the correct interpretation of the First Request, whether s.12 FOIA applies to the information which C4 may hold within the scope of the First Request.  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="color:#010302;margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">The correct interpretation of the Second Request.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Whether the opinion of C4&#8217;s Qualified Person that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">sections 36(2)</ref>(b)(i) and/or (ii) of FOIA were engaged in respect of the Second Request was a reasonable opinion.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">If the QP&#8217;s opinion was reasonable, whether in all the circumstances of the case the public interest in maintaining the exemption outweighs the public interest in disclosing the specific information which has been requested.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_79">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">79.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant adds one issue which is whether section 40(2) is engaged in relation to information in external emails to and from Dr Mahon.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_80">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">80.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Appellant raises additional issues in relation to whether C4 holds internal information, but in light of the fact that C4 accepts that at the time of the Decision Notice it did hold further information, the part of the appeal which relates to C4&#8217;s discharge of its duty under section 1 of FOIA succeeds.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The correct interpretation of the First Request.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_81">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">81.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In the Decision Notice at paragraph 22, the IC interpreted the First Request as follows: <span style="font-style:italic">&#8220;The &#64257;rst question of the request relates to whether any of the 61 settlement agreements which were identi&#64257;ed in the Times article, had any con&#64257;dentiality clauses or NDA which prevented or inhibited what individuals could say about a grievance or allegations of wrongdoing</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_82">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">82.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In his Response, the IC revised his position on the interpretation of the First Request as follows (paragraph 49) &#8220;<span style="font-style:italic">how many of the 61 agreements include provisions (NDAs/con&#64257;dentiality clauses) connected to allegations of wrongdoing (or a grievance) by seeking to prevent the outgoing Channel 4 employee from discussing any allegations of wrongdoing made by them&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_83">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">83.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Ryland&#8217;s position, set out in his skeleton, is that &#8220;<span style="font-style:italic">I believe the scope of this part of the request is clear. It requires the identification of a non-disclosure agreement, and identification of whether that agreement not to disclose is connected to any allegations of wrongdoing. &#8216;Connected to&#8217; clearly means speech around allegations of wrongdoing is prohibited. The information to be provided is a single number, between 0 and 61 with no further details beyond that</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_84">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">84.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He says that C4&#8217;s internal review states it does not hold information relating to this request as an NDA is exclusively a &#8216;standalone&#8217; document. As such Ms. Miller claims no information falls under the request as none of the agreements are &#8216;standalone&#8217;. Mr Ryland says in his skeleton that nothing in the request or subsequent submissions supports the need for there to be a causal link between the wrongdoing which is the subject of the agreement and the agreement itself. The request makes no distinction about what wrongdoing individuals may be gagged in regard to, only whether they are gagged with regards to wrongdoing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_85">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">85.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Instead, Mr Ryland says the correct, and core, question is whether any of the 61 agreements impose speech restrictions regarding allegations of wrongdoing. This can include provisions which limit speech through confidentiality and non-disparagement clauses.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_86">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">86.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In his oral submissions, Mr Ryland invited the Tribunal to consider several different alternative wordings which he said amounted to the same thing and were what he sought. These included the following:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">How many of the 61 settlement agreements are connected to an allegation of wrongdoing?</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">How many of those connected with an allegation of wrongdoing are connected with an allegation of wrongdoing by the person signing the settlement agreement?  </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_87">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">87.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4&#8217;s position is that its settlement agreements all contain standard-form con&#64257;dentiality provisions and non-disparagement provisions which could potentially restrict freedom of expression for the parties to that agreement. C4&#8217;s consistent position is that none of these clauses has been used or will be used or interpreted in any way to prevent or inhibit the calling out of wrongdoing.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_88">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">88.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">In his oral submissions Mr Scherbel-Ball took the Tribunal through the whole chronology of C4&#8217;s correspondence with Mr Ryland in trying to clarify the request and how it should be interpreted. There has clearly been a long and convoluted discussion between the parties about this issue.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_89">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">89.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The Tribunal therefore needs to determine what the correct interpretation is.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_90">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">90.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">On balance of probabilities, we accept that the correct interpretation of Mr Ryland&#8217;s request is that he seeks a numerical answer to the question of whether any of the 61 agreements contain provisions including NDAs and/or confidentiality clauses and whether those agreements not to disclose mean that speech around allegations of wrongdoing is prohibited. We have decided that there is no consistent and universal definition of NDA so for the avoidance of doubt have included confidentiality clauses as well. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_91">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">91.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">We accept that on the ordinary and natural meaning of the words used by Mr Ryland when he says &#8220;whether that agreement not to disclose is connected to any allegations of wrongdoing&#8221; that there needs to be some connection between allegations of wrongdoing and the settlement agreement, or in other words whether any of the 61 agreements impose speech restrictions regarding allegations of wrongdoing. We relied on the alternative wordings he proposed in finding that he intended C4 to make investigations about whether there was an allegation of wrongdoing which was connected with the settlement agreement. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Whether section 12 FOIA applies to the information which C4 may hold within the scope of the First Request.  </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_92">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">92.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Mr Ryland in his skeleton makes the following points:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">If Ms Miller is correct about the wording of C4&#8217;s settlement agreements not relating to any actual claims, this is inappropriate as a matter of employment law.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">He questions what efforts were made at the time to genuinely estimate costs.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_93">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">93.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He accepts that if the information is not recorded it cannot be disclosed under FOIA. But he says that all the relevant data is stored electronically on the shared S drive in one of three locations and is searchable by using keywords. He notes that the ICO guidance indicates that the PA can obtain specialist software if existing software is unable to do the job.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_94">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">94.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">He argues that C4&#8217;s estimate is <span style="font-style:italic">&#8220;entirely based on an impossibly perfectionistic approach to searching that eschews reasonable keyword searching on the basis of speculative claims about the potential uncertainty of the absolute completeness of such searche</span>s&#8221;. C4 did not offer help and advice under s.16 to indicate how the request could be narrowed.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_95">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">95.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4&#8217;s position is that if the First Request requires C4 to assess whether there is a causal link between a settlement agreement and a complaint of wrongdoing made by the departing employee, the work involved to determine this would exceed the time/cost limit provided in s.12 FOI. It relies on Ms Miller&#8217;s witness statement which sets out the detailed process which would be required to determine if there is a causal link. It makes the following points:</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_96">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">96.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4 enters into settlement agreements with departing employees for a variety of reasons, not all of which involve an allegation of wrongdoing by the employee;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_97">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">97.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">The settlement agreements do not generally on their face include an account of the circumstances and context which led to their negotiation and agreement &#8211; it cannot be assumed that all of the settlement agreements involve any allegation of wrongdoing;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_98">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">98.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">This would mean searching through other documents to ascertain the full context. This may be hampered by the fact that some complaints may have been oral and not documented, a high turnover within C4&#8217;s People Team and the fact that historic documents about departing employees have not been saved in a consistent location over time. But following <span style="text-decoration-line:underline;text-decoration-style:solid">Kirkham</span>, C4 is not required to exclude costs they would not incur if the information was stored in a more efficient way.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_99">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">99.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">C4 disagrees with the assumptions made by Mr Ryland in his supplementary reply about how the settlement agreements contain a clause settling <span style="font-style:italic">employment claims,</span> that it has software that could shortcut the search and that the search could be undertaken electronically by searching for key terms.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_100">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">100.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">C4 concludes that section 12 is engaged.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_101">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">101.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The ICO in its submissions dated 2 July 2025 raised for the first time the question of whether section 16 of FOIA, which places a duty on a public authority to provide advice and assistance to someone making an information request, including helping an applicant refine a request so that it can be answered within the cost limits, has been breached by C4. This did not form part of the appeal until this point, having not been raised by the Decision Notice, Grounds of Appeal, Responses or Replies.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_102">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">102.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Mr Ryland stated in his skeleton argument that Channel 4 did not at any point seek to facilitate such rethinking, only providing an estimate of cost in conjunction with Ms Miller&#8217;s statement shortly before the hearing. He goes on to say that the request needs no narrowing and can be answered as is. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_103">
+	  <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">103.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Mr Ryland made further submissions on the question of section 16 in his email dated 3 July 2025 which we have considered. He noted that he made a further FOIA request received by the IC on 19 December 2024 which the IC has confirmed that it is treating as a separate request. In that request Mr Rylands stated <span style="font-style:italic">&#8220;You will note this is a narrowing of a previous request in an attempt to bring that request under the s. 12 cost limit you have claimed&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_104">
+	  <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">104.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">In the Internal Review request response of Rebecca Miller dated 17 October 2023 C4 stated &#8220;<span style="font-style:italic">Accordingly, given the above, we estimate that the costs for: a) determining whether the information is held; b) locating any information, or document which may contain the information; c) retrieving the information, or document which may contain the information; and d) extracting any information from documents which may contain it, would substantially exceed the "appropriate limit" (costs threshold) as prescribed by The Freedom of Information and Data Protection (Appropriate Limit and Fees) Regulations 2004.  Please note that the costs threshold appropriate to Channel Four Television Corporation is &#163;450, with staff costs calculated at a rate of &#163;25 per hour (i.e. a total of 18 hours). We are aware that we must give you reasonable advice and assistance to refine (change or narrow) your request. We have explained why the limit would be exceeded. We would normally then explain what information, if any, may be available within the limits. However, at this juncture it is difficult to see how this request could be changed or narrowed. In saying that, the considerations would include the following: &#8226; Given the request covers a 5-year period some of the information about the matters may be no longer be held. &#8226; Information about the motivation behind settlement agreements set in the context of wrongdoing is inevitably a subjective request consequently it is not clear how we would be able to provide it. Further, if we had to provide detailed information about the nature of the context of individual settlement agreements, then we risk identifying individuals (Section 40(2) (Personal Information) would apply). &#8226; If the request were to be narrowed to cover fewer individuals eg. during a specific time period then again we may risk identifying individuals (Section 40(2) (Personal Information) could apply).&#8221; </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_105">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">105.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">In his email dated 3 July 2025 to the Tribunal, Mr Ryland stated that &#8220;<span style="font-style:italic;font-family:'Book Antiqua'">It is important to remember that, when forming this October 2023 view, Rebecca Miller did not have the benefit of any sampling exercise, so it question marks arise as to how this opinion, later relied on in further refusals, could have been made in good faith, or at least with the certainty with which Channel 4 continue to treat it. It was relied on through several endeavours by me to narrow the request &#8216;blind', get details of how the estimate was calculated to improve this narrowing, or get advice from Channel 4 as to how to narrow any search.&#8221;</span><span style="font-family:'Book Antiqua'"> He challenged the reasons set out Ms Miller&#8217;s statement as &#8220;tenuous and irrelevant&#8221; because he said that information not being held does not add to the search burden and the possibility of exemptions applying should be considered only after a cost-compliant search is completed.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_106">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">106.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">C4 in its letter to the IC dated 23 January 2024 (OB201) stated &#8220;W<span style="font-style:italic">e are aware of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23" uk:canonical="1998 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref> and the duty to provide advice and assistance to someone making an information request, including helping an applicant refine a request. We have provided information about the time it would take to carry out a detailed assessment of the background to the agreements and how this would exceed the cost threshold</span>.&#8221; Mr Scherbel-Ball took the Tribunal through the chronology of the correspondence between Mr Ryland and C4 attempting to clarify the terms of the request.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_107">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">107.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">C4 also wrote to Mr Ryland on 19 December 2024 in the following terms:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;In the context of a separate Freedom of Information request (2023/68) you made, which is subject to tribunal (EA/2024/0218), we previously explained to you in detail, to the extent we hold the information, where and how it is held. We explained that the settlement agreements do not generally include an account of the circumstances and context which led to their negotiation and agreement. This requires a manual review of the entirety of each personnel file for each individual. We explained to you that this would exceed the appropriate limit in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">s12</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23" uk:canonical="1998 c. 23" uk:origin="TNA" uk:type="legislation">the Act</ref>. For the same reasons, your current request would also require a manual review of each personnel file for each individual to identify &#8220;directly associated documents, especially those that specify the nature of the allegations being settled (e.g., formal grievances or negotiation documents)&#8221; and this would exceed the appropriate limit.&#8221;</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">In regard to your latest request we can advise that <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref> is concerned with the time taken establish the extent to which information is held, the time necessary to locate, retrieve and extract the relevant information, not the length of any response. In this regard, we refer you to our previous responses and confirm that we consider complying with your request would exceed the cost limit.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Whilst we advised previously on the aggregation of costs, we consider complying with this request alone would in itself exceed the appropriate limit. This is where for example, forensic searches of Channel 4 records are required to establish the extent to wider circumstances of each settlement.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.39in;text-indent:0.1in"><span style="font-style:italic">We have set out on several occasions, including in the above examples, our <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref> advice, acknowledging the fact that in this instance it is difficult to envisage a way in which the request could be narrowed. We point you to the advice copied above and contained within the other various correspondence we have had with you on this matter&#8221;</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;font-weight:bold">Discussion and conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_108">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">108.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Having determined above that the correct interpretation of the First Request is that this would involve searching for connections between wrongdoing and the settlement agreement, we were persuaded that this would involve the searches which Ms Miller outlined in her witness statement, because the only way that this connection could be established was by looking at the relevant files. On the evidence of Ms Miller, this is not straightforward particularly given the limitations of search functionality available in relation to these historic agreements. We gave significant weight to her evidence because we have no evidence about C4s internal systems and there is no evidence which contradicts her account or causes us to agree with Mr Ryland that she should not be believed. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_109">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">109.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We were satisfied on the basis of Ms Miller&#8217;s evidence that her estimate of the costs of complying was sensible, realistic, and supported by cogent evidence. We therefore agreed with C4 that <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 12</ref> was engaged.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_110">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">110.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">In relation to <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref>, the evidence shows that C4 did engage in correspondence with Mr Ryland about the scope of the request including in the context of cost, even if this did not result in narrowing.  We accept that Ms Miller&#8217;s witness statement is more detailed about the cost of complying with Mr Ryland&#8217;s request, but it is clear and we find that C4 did seek to discharge its duty under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 16</ref>. In light of Mr Ryland&#8217;s new FOIA request made in December 2024 which engages the same facts and matters we do not consider it would be appropriate to make further findings on <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/16" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 16</ref> at this stage.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold">The correct interpretation of the Second Request. </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_111">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">111.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">C4 says in its skeleton that two questions arise in relation to this which are:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Whether this encompasses only correspondence &#8220;from&#8221; Dr Mahon or also emails to her, including as part of a chain; and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">Whether this encompasses information about topics other than &#8220;the use of NDAs or confidentiality clauses at Channel 4&#8221; within emails discussing these matters.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_112">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">112.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Mr Ryland says that the IC accepts that the Second Request covers entire documents, which he considers catches the entire conversation or email chain. If the Tribunal considers that C4 holds further information, it should direct C4 to rectify any failure to comply with section 1 of FOIA. He accepts it is hard to say definitively if further information is held beyond that identified by C4. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_113">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">113.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">C4 contends that Mr Ryland specifically asked for emails &#8220;<span style="font-style:italic">from</span>&#8221; Dr Mahon and that no sensible objective reading of this would interpret it as meaning &#8220;<span style="font-style:italic">from and to</span>&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_114">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">114.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">On the second question, C4 says that the Second Request does not extend to correspondence which does not relate to these issues, whether contained in the same email or in a separate email within a chain. It says that this reflects the fact that the right of access under FOIA is access to &#8220;information&#8221; not documentation. It therefore submits that it is entitled to withhold parts of the correspondence from Ms Mahon which does not relate to the use of NDAs or confidentiality clauses by C4 as this falls outside the scope of the Second Request. It notes that the Additional Information identified by C4 is likely to engage a wide range of other exemptions.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_115">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">115.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">On the first question, we were persuaded by Mr Ryland that this part of his request was for &#8220;correspondence&#8221; which in its ordinary and natural meaning encompasses both communications sent from a person and communications sent to that person to which the person is replying. In the context of email, we find on balance of probabilities that Dr Mahon sent at least some emails as part of a chain which also contained the text of communications to which she was responding. We considered that in this context it would be artificially narrow to take Mr Ryland&#8217;s request for correspondence &#8220;from&#8221; Dr Mahon as only including that correspondence which she personally sent. The position would be somewhat different if the request had been for letters sent by Dr Mahon, which would not have incorporated the text of letters to which she was responding. We therefore agreed with Mr Ryland that the scope of the request did not only include emails from Dr Mahon but the entire email chain. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_116">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">116.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">On the second question, we agreed with C4 that the scope of the request was for information &#8220;<span style="font-style:italic">regarding the use of NDAs or confidentiality clauses at Channel 4&#8221;. </span>There is no obligation on C4 to provide information which is not responsive to this request and is therefore out of scope. However, we accept that there is information which would fall within this request which engages other exemptions.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_117">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">117.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We therefore concluded that the correct interpretation of the Second Request was that it requested correspondence both to and from Ms Mahon, including in emails which form part of a chain, regarding the use of NDAs or confidentiality clauses at Channel 4.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Whether in the opinion of C4&#8217;s Qualified Person that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">sections 36(2)</ref>(b)(i) and/or (ii) of FOIA were engaged in respect of the Second Request was a reasonable opinion.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_118">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">118.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Mr Ryland says that there are question marks over Mr Baker&#8217;s credibility and describes his opinion as &#8220;over-inflated&#8221;. He says that Mr Baker&#8217;s opinion is based on Channel 4&#8217;s narrow interpretation of the scope of the request and to identify speculative future harm or prejudice based on controversies and criticism C4 anticipates. It does not appear reasonable to suggest that publishing Dr Mahon&#8217;s side of exchanges would have any impact on her ability to do her job and suggesting that the publication of Dr Mahon&#8217;s considerations would put others off providing their opinions is not supported. He notes that prominent campaigners on NDAs such as Ms Perkins would actively support their correspondence being made public.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_119">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">119.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">In his oral submissions, Mr Ryland noted that he did not have sight of Mr Baker&#8217;s QP opinion until he received Mr Baker&#8217;s witness statement which meant he was not able to form a view as to its reasonableness until that point. He did not consider that C4 needed a safe space to respond to controversy about the use of NDAs and said it was unclear why they needed such a space to discuss these issues.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_120">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">120.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">C4 contends that the Tribunal must accord a measure of respect to Mr Baker who is a senior executive within C4 and well placed to make a judgment about prejudice to C4&#8217;s affairs. Whether or not the Tribunal agrees with Mr Baker&#8217;s opinion, it was a reasonable one. C4 relies on paragraphs 15-25 of Mr Baker&#8217;s statement which explain his reasoning in more detail. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_121">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">121.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">It notes that these issues were &#8220;live&#8221; when Mr Baker gave his QP opinion and continue to be so today.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Discussions and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_122">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">122.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We agreed with C4 that Mr Baker&#8217;s opinion was a reasonable one. As the IC&#8217;s guidance on these exemptions explains, &#8220;<span style="font-style:italic">The issue is whether disclosure would inhibit the processes of providing advice or exchanging views. To engage the exemption, the information requested does not necessarily have to contain views and advice that are in themselves notably free and frank. On the other hand, if the information only consists of relatively neutral statements, then it may not be reasonable to think that its disclosure could inhibit the provision of advice or the exchange of views</span>.&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_123">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">123.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We considered that Mr Baker&#8217;s QP opinion properly considered whether disclosure would or would be likely to inhibit free and frank advice and/or exchange of views for the purpose of determining how to respond to certain challenges. We gave appropriate weight to the fact that he is a senior and experienced person who was well placed to make judgments about, in the context of C4&#8217;s operations, what the possible consequences of disclosure are and what prejudice might occur as a result. On balance of probabilities we were therefore satisfied that his opinion was a reasonable one, so we proceeded to consider the public interest in disclosure.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Does the public interest in maintaining the exemption outweigh the public interest in disclosing the specific information which has been requested?</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_124">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">124.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Following the <span style="text-decoration-line:underline;text-decoration-style:solid">APPGER</span> test, the Tribunal must identify:  </p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">the actual harm or prejudice that the proposed disclosure would (or would be likely to or may) cause; and  </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">the actual benefits that the proposed disclosure of the relevant material in respect of which the exemption is claimed would (or would be likely to or may) cause or promote. </p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.1in"><span style="font-style:italic">Harm or prejudice from proposed disclosure </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_125">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">125.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The email from C4 to Mr Ryland dated 17 October 2023 (OB 154) containing the outcome of the internal review set out the QP opinion in full and this identified the following harms: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;In my opinion it is crucial that the CEO of any organisation is able to engage freely and frankly with correspondents to receive concerns, to establish facts and to candidly address any issues raised.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Disclosure of such correspondence would likely inhibit the CEO from seeking to exchange such advice and views for the purposes of establishing facts and making decisions at how best to deal with issues raised.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">I consider that disclosure would likely result in a loss of candour in such discussions and this would inevitably lead to poorer decision making and make having open discussions about employment matters extremely difficult.  </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">As stated in the initial response; I consider that were such correspondence, on extremely sensitive topics, to become subject to routine disclosure, this would likely discourage the senior executive team from freely and frankly engaging with certain employment matters, as well as from seeking advice in relation to the appropriate use of confidentiality clauses. It would also likely inhibit individuals from raising such concerns with Channel 4&#8217;s executive team.&#8221; </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_126">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">126.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The harms identified by C4 are contained in the witness statement of Mr Baker at paragraphs 15-25. The key points arising from this, in summary, are as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">When an important or contentious issue arises it is typical for C4&#8217;s CEO to seek advice from senior staff and professional advisers. This leads to deliberations and exchanges of views, with different perspectives being offered and debated. These discussions usually take place by email since speed is often of the essence.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">It is essential that C4&#8217;s CEO feels able to express themselves freely when seeking advice unencumbered by the need to filter questions or concerns, particularly in areas of controversy or where there is press interest.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">If communications of this nature were disclosed under FOIA and could be reported when they are live issues, staff would likely be inhibited from putting their views into writing, inhibiting the quality and frankness of advice and deliberation. The participants would expect such emails to be confidential and preserved under a safe space of FOIA <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">open and honest deliberations are necessary to ensure that C4 deploys and drafts confidentiality clauses appropriately and calibrates its policy in this area appropriately, including to ensure that people do feel empowered to speak up in order to safeguard C4&#8217;s staff and ensure that any established instances of poor behaviour can be identified and addressed. </p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic">Factors in favour of disclosure </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_127">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">127.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Mr Ryland argues that the public interest in knowing what is being said about the NDAs C4 claims not to use greatly outweighs C4&#8217;s need for a safe space to discuss how they can continue to operate out of line with best practice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_128">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">128.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">He also says it is hypocritical for C4 to criticise others for using NDAs in its broadcasts or portray themselves as a progressive employer &#8220;<span style="font-style:italic">when in the period in question they were gagging employees with comprehensive confidentiality and non-disparagement clauses that allow the bare legal minimum freedom of speech required by law&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_129">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">129.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The QP&#8217;s opinion on internal review at OB 160 stated: </p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;I recognise that there is a strong public interest in the issues relating to the use of stand-alone non-disclosure agreements or confidentiality clauses particularly regarding matters of harassment and discrimination.&#8221; </span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">Factors in favour of maintaining the exemption. </span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_130">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">130.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The QP&#8217;s opinion on internal review at pages 160-161 stated:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic">&#8220;However, there is a strong public interest in ensuring that individuals and their representatives can freely approach the most senior staff at Channel 4 to raise concerns and candidly discuss their experiences. Particularly at this present time, as live investigations are ongoing, it is vital that senior management are able to freely and frankly engage with employees and third parties to establish facts and in relation to such serious matters. I consider that there is an overwhelming public interest at this present time in protecting the safe space for such free and frank discussions to take place. I also note that the public interest is also served given Channel 4 has been open with its approach to this matter with the public in that we do not use NDAs with employees. Any confidentiality clauses in settlement agreements have not and must not be used to prevent or inhibit the calling out of wrongdoing. For the reasons set out above, I find the balance weighs in favour of maintaining the exemption&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_131">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">131.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">C4 says that there is a preponderant public interest in maintaining the safe space provided by the exemption for discussion of these important and sensitive issues. It argues that the Tribunal should give appropriate consideration to the opinion of the QP. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_132">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">132.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">It says that the public interest issues identified by Mr Ryland are generic and do not actually relate to the specific information which he requests in this case, namely emails from C4&#8217;s CEO on its use of confidentiality clauses. C4 relies on the copies of the settlement agreements redacted for personal data in the bundle to demonstrate that the public interest arguments advanced by Mr Ryland are not properly addressed by the information he seeks in this appeal. In particular it rejects the allegation of hypocrisy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_133">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">133.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">C4 says there is no dispute that the use of con&#64257;dentiality clauses in settlement agreements is an important issue of public policy. It is submitted that the issue is more nuanced than the evidence of Ms Perkins suggests and is primarily concerned with the misuse of con&#64257;dentiality clauses, not the use of con&#64257;dentiality clauses per se. However, these nuances reinforce the need for a safe space for deliberations on these important and sensitive issues, so that opinions and advice can be freely and frankly imparted and received. C4 maintains that Mr Ryland&#8217;s argument that all email correspondence from Alex Mahon (which he contends should also include the whole email chain) on these issues should be open for public inspection clearly demonstrates the exceptional breadth of the request and the chilling e<span style="font-family:'Times New Roman'">&#64256;</span>ect it would  have on advisers communicating with the CEO on this important issue.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-style:italic;font-weight:bold">Discussion and conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_134">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">134.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We were persuaded on balance of probabilities that the public interest weighs in favour of maintaining the exemption in relation to certain parts of the withheld material. We accept that while there is a good deal of public interest (in the sense of curiosity and/or attention) in issues surrounding NDAs, this is distinct from the question of whether it would be in the public interest to disclose the withheld material. On balance of probabilities, we considered that dealing with controversy and adverse press or publicity in circumstances concerned with settlement agreements in the sensitive context of employment disputes was a sensitive and difficult issue in respect of which it was entirely reasonable to provide a safe space for the senior management of C4 to take advice and discuss their response. We also noted the expectation of those involved in this process would be that their contributions remained confidential and that it would inhibit such contributions if the information was to be made public while the issue was still live. For these reasons, we agreed with C4 that the public interest is in favour of maintaining the exemption.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_135">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">135.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We deal with the specific information in the CLOSED bundle and which parts of it engage this exemption in the CLOSED annex to this decision.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Is section 40(2) engaged in relation to information in external emails to and from Dr Mahon.</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_136">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">136.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Mr Ryland notes that Mr Baker claims that no third parties have consented to their personal data being published under FOIA. Mr Ryland points to a conversation he had with Joeli Brearley, a prominent campaigner whose emails he believes feature in the withheld material, in which she stated that she had not been approached for her consent but would have given it.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_137">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">137.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">C4 states that it is unclear whether Mr Ryland challenges C4&#8217;s reliance on section 40(2) of FOIA as this was not mentioned in the grounds of appeal. It maintains its position that disclosure of this personal information would be unfair and unlawful and therefore contravene the first data protection principle under Article 5(1)(a) of the UK GDPR. It argues that employees who do not have a public facing role will have a reasonable expectation of privacy in their work and correspondences. Similarly, and reflecting Article 8 EHCR, third parties who are in correspondence with C4&#8217;s CEO on private and sensitive issues will have an expectation that their communications will remain private and confidential.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-style:italic;font-weight:bold">Discussion and conclusions</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_138">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">138.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We concluded that section 40 was engaged in relation to some of the information in the CLOSED bundle and that C4 was correct to withhold information which could identify individuals, including by way of &#8220;jigsaw identification&#8221;. We discuss our conclusion on this point in more detail in the CLOSED annex to this decision.</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">The Additional Information and next steps</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_139">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">139.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">The IC made submissions in an email dated 2 July 2025 about the next steps which should happen in this appeal. He stated that to the extent that the Tribunal considers that Channel 4 held further information within the scope of part 1 of the request (namely a number) at the time the request was received, it will need to substitute the Commissioner&#8217;s finding in the Decision Notice that Channel 4 held no further information within the scope of the Second Request for the purposes of section 1 FOIA. As stated above, in light of the fact that C4 accepts that at the time of the Decision Notice it did hold further information which is potentially responsive to the Second Request, the part of the appeal which relates to C4&#8217;s discharge of its duty under section 1 of FOIA succeeds. Accordingly we have found that the IC&#8217;s decision notice was not in accordance with the law and have substituted a decision notice which requires the public authority (C4) to provide all information it holds responsive to the Second Request and if there is nothing further to confirm that C4 holds no further information. The effect of issuing a substituted decision notice is that there is a fresh decision by the IC in relation to this under section 50.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_140">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">140.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Both the IC and C4 have sought to argue that the IC cannot issue a further Decision Notice in relation to the Additional Material, following the case of <span style="text-decoration-line:underline;text-decoration-style:solid">Malnick</span>, because <span style="font-style:italic">&#8220;once the Commissioner has issued a decision notice stating that the authority has complied with section 1, the Commissioner has entirely discharged her functions under <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/50" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 50</ref>. <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23" uk:canonical="1998 c. 23" uk:origin="TNA" uk:type="legislation">The Act</ref> makes no provision for the Commissioner to amend or supplement her decision or to exercise any other function</span>.&#8221;</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_141">
+	  <num style="font-style:italic;font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">141.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">However paragraph 90 of Malnick states that &#8220;<span style="font-style:italic">the F-tT exercises a full merits appellate jurisdiction and so stands in the shoes of the Commissioner and decides which (if any) exemptions apply</span><span style="font-style:italic;text-decoration-line:underline;text-decoration-style:solid">.</span><span style="font-style:italic"> If it disagrees with the Commissioner&#8217;s decision, the Commissioner&#8217;s decision was &#8220;not in accordance with the law&#8221; even though it was not vitiated by public law error.&#8221;</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_142">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">142.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Our understanding is that the Additional Information is a potentially signi&#64257;cant volume of further material which may fall within the scope of the Second Request. We consider that by issuing a fresh Decision Notice requiring disclosure from C4 in relation to the Second Request this will mean C4 is obliged to disclose material which may arise as part of the Additional Information but is responsive to that request. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_143">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">143.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">However, we consider that the circumstances of this case can be distinguished from <span style="text-decoration-line:underline;text-decoration-style:solid">Malnick</span> because of the fact that, by this decision and the issue of a substituted Decision Notice, the effect is that there is a new decision by the IC that C4 has not complied with the provisions of Section 1 in relation to the Second Request. This replaces the Decision Notice which is the subject of this appeal. There is therefore no question of the IC needing to issue a second Decision Notice (other than the substituted Decision Notice, which in law replaces the initial Decision Notice) in relation to the request in order to require C4 to disclose the Additional Information, save to the extent that it relies on exemption(s) to resist disclosure &#8211; it simply does not arise. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_144">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">144.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">Nor do we consider that further directions are required to deal with the Additional Information in the context of the current appeal; the substituted Decision Notice will cover the progress and determination of the Additional Material. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_145">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">145.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We consider that Mr Ryland is correct that once a substituted Decision Notice is issued the response to it will give right to a fresh <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/50" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 50</ref> right of appeal if he wishes to avail himself of this. </p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:0.5in"><span style="font-weight:bold">Conclusion</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_146">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">146.</num>
+	  <intro>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We conclude that the IC&#8217;s decision was in accordance with the law in that it decided that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">C4 was correct in stating that <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36(2)</ref>(b)(i) and <ref href="http://www.legislation.gov.uk/id/ukpga/2000/36/section/36/2" uk:canonical="2000 c. 36 s. 36" uk:origin="TNA" uk:type="legislation">section 36(2)</ref>(b)(ii) of FOIA are engaged and the public interest favours maintaining these exemptions: and</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b.</num>
+	    <content>
+	      <p class="NumberedReasons" style="margin-left:1in">C4 was entitled to rely on section 40(2) to withhold personal data.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_147">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">147.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">We also conclude that <ref href="http://www.legislation.gov.uk/id/ukpga/1998/23/section/12" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 12</ref> is engaged and that C4 was entitled to rely on it. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_148">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">148.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0.13in">However, we disagree with the IC&#8217;s finding that on the balance of probabilities C4 does not hold any further information within the scope of the Second Request. We therefore allow this part of the appeal and dismiss the remainder.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p style="text-align:justify"><span style="font-family:'Book Antiqua'">Signed:  Judge Harris</span><marker name="tab"/><span style="font-family:'Book Antiqua'">Date: 27 August 2025</span></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua'">Amended under the slip Rule 40 on </span><docDate date="2025-09-24" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">24 September 2025</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>
