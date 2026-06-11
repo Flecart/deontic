@@ -1,0 +1,746 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="judgment">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2026/31"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2026/31"/>
+	  <FRBRdate date="2026-02-13" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="31"/>
+	  <FRBRname value="Ernest Milrine v DHL Services Limited"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2026/31"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2026/31"/>
+	  <FRBRdate date="2026-02-13" name="judgment"/>
+	  <FRBRauthor href="#eat"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2026/31/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2026/31/data.xml"/>
+	  <FRBRdate date="2026-02-16T10:44:02" name="transform"/>
+	  <FRBRdate date="2026-02-16T11:41:01" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-02-13" refersTo="#judgment" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="eat" href="https://www.gov.uk/courts-tribunals/employment-appeal-tribunal" showAs="Employment Appeal Tribunal"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="judgment" href="#" showAs="judgment"/>
+	<TLCPerson eId="mr-ernest-milrine" href="" showAs="MR ERNEST MILRINE"/>
+	<TLCPerson eId="dhl-services-limited" href="" showAs="DHL SERVICES LIMITED"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>EAT</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>31</uk:number>
+	<uk:cite>[2026] EAT 31</uk:cite>
+	<uk:caseNumber>EA-2023-SCO-000080-JP</uk:caseNumber>
+	<uk:parser>1.4.0</uk:parser>
+	<uk:hash>69883c16fb6d3800e0d31bad8bffa9ef8a66caba204a5f64453797680c77e74a</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 11pt; font-family: 'Times New Roman'; }
+#judgment .Heading1 { font-size: 20pt; color: #365F91; }
+#judgment .Heading2 { font-size: 16pt; color: #365F91; }
+#judgment .Heading3 { font-size: 14pt; color: #365F91; }
+#judgment .Heading4 { font-style: italic; font-size: 12pt; color: #365F91; }
+#judgment .Heading5 { font-size: 12pt; color: #365F91; }
+#judgment .Heading6 { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7 { font-size: 12pt; color: #595959; }
+#judgment .Heading8 { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9 { font-size: 12pt; color: #272727; }
+#judgment .BodyText { margin-left: 0.35in; font-family: Algerian; font-size: 12pt; }
+#judgment .ListParagraph { }
+#judgment .TableParagraph { }
+#judgment .Header { }
+#judgment .Footer { }
+#judgment .NumberedList1 { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Quote { text-align: justify; margin-left: 1in; margin-right: 0.63in; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; color: #404040; }
+#judgment .QBHeading { margin-left: 0in; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QBNumberedList1 { text-align: justify; margin-left: 0.75in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .QBSubtitles { font-style: italic; }
+#judgment .Title { font-size: 28pt; }
+#judgment .Subtitle { font-size: 14pt; color: #595959; }
+#judgment .IntenseQuote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: Arial; font-size: 12pt; color: #365F91; }
+#judgment .Revision { font-family: Arial; font-size: 12pt; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .HeaderChar { }
+#judgment .FooterChar { }
+#judgment .QuoteChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; color: #404040; }
+#judgment .QBHeadingChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Heading1Char { font-size: 20pt; color: #365F91; }
+#judgment .Heading2Char { font-size: 16pt; color: #365F91; }
+#judgment .Heading3Char { font-size: 14pt; color: #365F91; }
+#judgment .Heading4Char { font-style: italic; font-size: 12pt; color: #365F91; }
+#judgment .Heading5Char { font-size: 12pt; color: #365F91; }
+#judgment .Heading6Char { font-style: italic; font-size: 12pt; color: #595959; }
+#judgment .Heading7Char { font-size: 12pt; color: #595959; }
+#judgment .Heading8Char { font-style: italic; font-size: 12pt; color: #272727; }
+#judgment .Heading9Char { font-size: 12pt; color: #272727; }
+#judgment .TitleChar { font-size: 28pt; }
+#judgment .SubtitleChar { font-size: 14pt; color: #595959; }
+#judgment .IntenseEmphasis { font-style: italic; color: #365F91; }
+#judgment .IntenseQuoteChar { font-style: italic; font-family: Arial; font-size: 12pt; color: #365F91; }
+#judgment .IntenseReference { font-weight: bold; font-variant: small-caps; color: #365F91; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <coverPage>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:8pt;color:#000000">Judgement approved by the Court for handing down</span><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:6pt">Milrine v DHL Services Limited</span></p>
+    </coverPage>
+    <header>
+      <p><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Neutral Citation Number: </span><neutralCitation style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">[2026] EAT 31</neutralCitation></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Case No: </span><docketNumber style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EA-2023-SCO-000080-JP</docketNumber></p>
+      <p><courtType refersTo="#eat" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">EMPLOYMENT APPEAL TRIBUNAL</courtType></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">52 Melville Street</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Edinburgh EH3 7HF</span></p>
+      <p style="text-align:right"><span style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Date: </span><docDate date="2026-02-13" refersTo="#judgment" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">13 February 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Before</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> :</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">JUDGE BARRY CLARKE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MR STEVEN TORRENCE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">MRS MARGOT MCARTHUR ChFCIPD</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Between :</span></p>
+      <p><marker name="tab"/><party as="#appellant" refersTo="#mr-ernest-milrine" style="font-weight:bold;font-size:12pt">MR ERNEST MILRINE</party><marker name="tab"/><role refersTo="#appellant" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:12pt">- and &#8211;</span></p>
+      <p><marker name="tab"/><party as="#respondent" refersTo="#dhl-services-limited" style="font-weight:bold;font-size:12pt">DHL SERVICES LIMITED</party><marker name="tab"/><role refersTo="#respondent" style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-size:12pt">Respondent</role></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Joseph Bryce </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by McGrade &amp; Co.) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Appellant</span></p>
+      <p style="text-align:center;text-indent:-0in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Paul Sangha </span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">(instructed by DAC Beachcroft Claims Ltd.) for the </span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Respondent</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Hearing date: 2 October 2025</span></p>
+      <p style="text-align:center"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">- - - - - - - - - - - - - - - - - - - - -</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';font-size:18pt;color:#000000">JUDGMENT</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">SUMMARY</span></p>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Unfair dismissal</span></p>
+	    <p style="text-align:justify"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The respondent dismissed the claimant for medical incapability after more than two years&#8217; absence caused by various conditions including vertigo and vestibular migraines. The internal appeal against dismissal, intended to be a rehearing, was strikingly flawed. The nominated appeal manager declined to hear the appeal. His replacement did not attend the rescheduled hearing, leaving the claimant and his union representative waiting on site. The HR business partner then placed the onus on the claimant to choose the appeal manager and propose dates, without confirming this to him in writing. When the claimant commenced Acas early conciliation &#8211; believing it to prevent continuation of his internal appeal &#8211; the respondent did not clarify matters or check his intentions. The internal appeal never took place. The Employment Tribunal dismissed the claimant&#8217;s complaint of unfair dismissal. It criticised the procedural failings at the appeal stage yet held the dismissal fair, reasoning briefly that the claimant had been offered an appeal but did not pursue it. The claimant appealed to the EAT. He contended that the ET erred in finding the dismissal to be fair while relegating its criticisms of the appeal process to mere remarks about its approach falling below standards of good industrial practice.</span></p>
+	    <p style="text-align:justify"><span style="font-style:italic;font-family:'Times New Roman';font-size:12pt;color:#000000">Held</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">: allowing the appeal, the ET failed to apply the principle established in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">West Midlands Co-Operative Society v Tipton</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[1986] ICR 192" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] ICR 192</ref> (and subsequent authorities such as </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Tarbuck v Sainsbury&#8217;s Supermarkets Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[2006] IRLR 664" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] IRLR 664</ref> and </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Mirab v Mentor Graphics (UK) Ltd</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> UKEAT/0172/17) that a defective appeal process may render a dismissal unfair. The more striking the defects at the stage of an internal appeal, the more it is incumbent upon an ET to demonstrate in its decision why it has decided that a dismissal was, overall, fair. Given the severity of the defects, and absent any finding of futility, the only proper conclusion was that the dismissal was unfair. A finding of unfair dismissal was therefore substituted.</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">JUDGE BARRY CLARKE:</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_1">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">1.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">We shall <span style="color:#000000">refer</span> to the parties as they were before the Employment Tribunal (ET), as claimant and respondent. The claimant is the appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">2.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">This appeal concerns a topic which has featured in case law from time to time over the years: the extent to which a defective internal appeal process can render unfair an initial decision to dismiss that would otherwise have been fair. This appeal has been listed with lay members, appointed for their diverse and specialist experience of the workplace, because it involves consideration of good industrial practice in respect of internal appeals against dismissal. All members of the panel have contributed to this judgment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">3.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The claimant worked for the respondent, a logistics and transportation company, as a driver of heavy goods vehicles. He started work on 14 October 2013. On 3 June 2022, the respondent dismissed him with notice for medical incapability.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_4">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">4.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">On 11 October 2022, the claimant presented his claim to the ET. He complained of unfair dismissal, disability discrimination, unpaid notice pay and unpaid holiday pay. It was subsequently agreed that the claimant was a disabled person at the material time (by reason of vertigo and vestibular migraines); before the ET, his complaint of discrimination was <span style="color:#000000">limited</span> to a contention of discrimination arising from disability for the purposes of section 15 of the <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2010/15" uk:canonical="2010 c. 15" uk:origin="TNA" uk:type="legislation">Equality Act 2010</ref></span>. The respondent otherwise resisted the complaints, contending that its decision to dismiss the claimant was neither unfair nor discriminatory and that it had paid him all the money he was due.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">5.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The matter came before a full ET (Employment Judge King sitting with members) on four days in April 2023, with an additional day in chambers. The claimant represented himself, although his <span style="color:#000000">position</span> in this appeal has been fully articulated by Mr Bryce. The respondent before the ET was represented by Mr Sangha, who has also appeared in this appeal. By a reserved judgment, the ET dismissed all the claimant&#8217;s complaints.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">6.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The claimant has appealed that judgment. Following the rule 3(10) process, his grounds of appeal have narrowed to a challenge to the ET&#8217;s ruling on the fairness of his dismissal. As our <span style="color:#000000">focus</span> is on the impact of an appeal that went awry, it is helpful to summarise the case before the ET in two parts: the process prior to the internal appeal by which the respondent dismissed the claimant; and then what happened in respect of the appeal.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">7.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The summary of the facts below is drawn from the ET&#8217;s judgment. <span style="color:#000000">Paragraph</span> numbers below correspond to paragraphs in that judgment.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The initial decision to dismiss</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_8">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">8.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The claimant became unwell in January 2020 with anxiety, depression and symptoms of vertigo. He went off sick on 12 January 2020. Thereafter, he did not return to work until his dismissal on 3 June 2022, about 2&#189; years later (paragraph 39). His NHS treatment was delayed by the pandemic lockdown (paragraph 40). The claimant self-reported his feelings of dizziness to the DVLA and, as a result, they revoked his HGV licence for one year (paragraph 44). The respondent considered whether the claimant could be assigned non-driving duties but his symptoms did not permit this (paragraph 45).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">9.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The respondent referred the claimant to occupational health. He had a telephone assessment in May 2021. The claimant was keen to return to work but, by this time, his symptoms had extended to light-headedness, tinnitus, nausea and disrupted sleep (paragraphs 45-47). The occupational health adviser recommended that no decision about the claimant&#8217;s future at work should be made until he had been seen by a specialist for diagnosis and the development of a possible care plan (paragraphs 48-49). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">10.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">Later that year, the claimant&#8217;s reported symptoms extended further to headaches and migraines. He met with his new manager, a transport team leader, for a review meeting in October 2021. The claimant said he still felt unable to perform work in any capacity due to disorientation (paragraphs 50-51). The respondent agreed to await the results of a planned NHS neurology consultation before deciding what to do (paragraph 52).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">11.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The claimant saw an NHS neurologist in February 2022. He was prescribed a new course of medication, and remained under specialist care, but there was still no clear prognosis. Following another review meeting with his manager in April 2022, he was referred for a further occupational health assessment the same month (paragraphs 53-56). The resulting report referred to a recent diagnosis of vestibular migraines and noted that he would need at least one year of controlled symptoms before the DVLA would consider reinstating his HGV licence. The occupational health adviser concluded that there was no realistic prospect of the claimant returning to driving duties for at least a year and that he was not fit to perform alternative duties, but noted that there were still treatment options left to explore including his response to new medication (paragraphs 58-60).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">12.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">There was another review meeting between the claimant and his manager in May 2022. There had still been no improvement in his health. The claimant suggested that it was too soon to gauge his response to his new medication. This was because he had spent some of the intervening period on antibiotics, which might have reduced its efficacy (paragraphs 61-64). The manager decided to arrange a formal medical capability hearing. This took place on 3 June 2022.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_13">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">13.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">At this meeting, the claimant accepted that there was nothing more that the respondent could do for him; he wanted to return to work but felt that, in his current condition, he would be a &#8220;liability&#8221;. The claimant&#8217;s manager accepted that the situation was beyond his control, but decided that it could not go on. She concluded that there was no reasonable prospect of him returning to driving duties or being fit to perform alternative duties within a reasonable timescale, while also having regard to the ongoing cost of covering his role with agency drivers (paragraphs 67-73). She decided to dismiss him with notice. She rounded up a payment in lieu from eight weeks to nine weeks as a gesture of goodwill.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">14.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The claimant expressed surprise that his manager had decided to dismiss him; he did not think she was senior enough to do so (paragraph 75). He was informed that he could appeal his dismissal by contacting the site manager, Mr Forbes (paragraph 77).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">15.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">So far, so straightforward.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The internal appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">16.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The claimant brought an internal appeal against his dismissal. As instructed, he sent it to Mr Forbes. His appeal, as it developed, was on three broad points: that he had been disadvantaged by the delay in his treatment (which was outside his control and due to the Covid-19 pandemic); that insufficient time has been given to test the efficacy of his new medication; and that his manager lacked authority to dismiss him under the terms of the collective agreement.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">17.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">On 17 June 2022, Miss Gard, the respondent&#8217;s HR business partner, wrote to the claimant. She said that she believed his team leader possessed the delegated authority needed to dismiss him. However, having taken legal advice on the collective agreement, she accepted it was a &#8220;grey area&#8221;. Miss Gard then wrote: &#8220;we would like to offer you the opportunity to re-hear the Capability Hearing&#8221;. She emphasised to him that his dismissal could be &#8220;reversed depending on the outcome of the re-hearing&#8221; (paragraphs 78-79).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">18.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">Mr Forbes declined to hear the claimant&#8217;s appeal. According to the ET, he &#8220;insisted&#8221; that the appeal should be kept within the same division as the claimant. As a result, he did not acknowledge the claimant&#8217;s letter of appeal or reply to him. He took this decision without informing or consulting the claimant, who was left in limbo. The ET judgment says that another manager, Mr Hutchinson, was nominated to fill his place (paragraph 80). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">19.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">An attempt at holding an appeal hearing, on 24 June 2022, was abandoned because the claimant lacked a trade union representative (paragraph 81). A further attempt, on 28 July 2022, was abandoned because Mr Hutchinson, the replacement decision-maker, was not available. He had sent a text message to Miss Gard to say he was unwell, but she did not receive it in time. The claimant and his trade union representative, who attended the respondent&#8217;s premises expecting the appeal to go ahead, were left &#8220;disappointed and agitated&#8221; by the aborted hearing (paragraph 82). Miss Gard suggested that a third manager, Mr Connelly, could be enlisted to deal with the matter that day, but this proposal was not pursued (paragraph 83).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">20.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">Recognising that the claimant was confused, Miss Gard told him the following: she would leave it up to him to decide who would hear the appeal &#8211; Mr Hutchison or Mr Forbes; she would leave it up to him to decide when it would take place (subject to his and his union representative&#8217;s availability); and that she intended to escalate matters above Mr Forbes if he continued to refuse to hear the appeal (paragraph 84).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">21.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The aborted appeal concluded on the basis that Miss Gard would wait to hear back from the claimant and his union when they had decided which manager they wished to hear his appeal and when they were available (paragraph 85). The claimant did not make contact with the respondent. Instead, he commenced Acas early conciliation; he genuinely believed this process prevented him from pursuing his internal appeal (paragraph 86).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The ET&#8217;s decision</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">22.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The claimant&#8217;s criticisms of the initial decision to dismiss are no longer relevant to his appeal to the EAT. We will record only briefly the two points he made:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">22.1</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">His first point was that his manager, as a mere team leader, was too junior to have taken the decision to dismiss him. He contended that this was a breach of a collective agreement that would have required a more senior person, such as the site manager, to take that decision (paragraphs 91-93). The ET considered the parties&#8217; submissions on that point (paragraphs 96-97 and 119) and concluded that the collective agreement was &#8220;historic and by now irrelevant&#8221; (paragraph 129).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">22.2</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">His second point was that the respondent had not given the process enough time. He pursued the same argument he had made before: that the NHS, under pandemic pressures, had delayed the investigation of his condition, while the intervening period of antibiotic treatment left insufficient time to assess the efficacy of his new medication (paragraphs 40, 55 and 61-62). The ET considered the parties&#8217; submissions on that point (paragraphs 106 and 117-118). It concluded that a reasonable process had been followed (paragraphs 123-127).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">23.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">There is no longer a challenge to the ET&#8217;s conclusion about the fairness of the manager&#8217;s initial decision to dismiss or to its conclusion that the decision was not discriminatory. For the purposes of this appeal, the problem is with what happened next.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">24.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">In its judgment, the ET focused almost exclusively on the procedure prior to the appeal. In fairness to the ET, this had been the focus of the parties&#8217; submissions; the claimant, representing himself, appears to have been somewhat preoccupied with the point about the collective agreement. However, the problems at the appeal stage were plainly live points before the ET, because it addressed them in the concluding section of its judgment (at paragraphs 130-132) in this way:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold">(130)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in;text-indent:0.42in"><span style="font-weight:bold;font-family:'Times New Roman'">Looking at the procedure adopted overall the Tribunal finds that the claimant was treated fairly. While the respondent did not handle the appeal according to best </span><span style="font-weight:bold;font-family:TimesNewRomanPSMT;color:#000000">practice</span><span style="font-weight:bold;font-family:'Times New Roman'"> the claimant was undeniably offered an opportunity to appeal, which he ultimately elected not to pursue because he believed that commencing Acas early conciliation meant that he could no longer go through with it.   </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold">(131)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in;text-indent:0.42in"><span style="font-weight:bold;font-family:'Times New Roman'">The Tribunal therefore finds that the respondent&#8217;s decision to dismiss the claimant was within </span><span style="font-weight:bold;font-family:TimesNewRomanPSMT;color:#000000">the</span><span style="font-weight:bold;font-family:'Times New Roman'"> range of reasonable responses and therefore fair. His claim for unfair dismissal is therefore dismissed. </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold">(132)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in;text-indent:0.42in"><span style="font-weight:bold;font-family:'Times New Roman'">The Tribunal is nevertheless critical of certain aspects of the respondent&#8217;s handling of the claimant&#8217;s dismissal; namely (1) the unsatisfactory way that it appointed Mr Forbes to hear the appeal against dismissal and then removed him without informing the claimant initially, thus leaving him uncertain about what was happening and in his own words &#8216;in limbo&#8217;, (2) its handling of the appeal hearing on 28 July 2022 when the claimant and his union representative attended unnecessarily at the respondent&#8217;s premises in circumstances where better communication would have prevented that and (3) its leaving the claimant and his union representative to revert to Miss Gard on the identity of the appeal manager and the date of the appeal hearing &#8211; the respondent should have managed this decisively in line with good industrial practice.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.25in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Evidence before the ET about the internal appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">25.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The ET&#8217;s judgment did not include a factual finding about whether the claimant had positively abandoned his appeal. It was unclear what the ET had made of the respondent&#8217;s offer to rehear the capability hearing; specifically, whether it intended a fresh capability hearing or for that matter to be considered afresh at the internal appeal. At a previous hearing, the EAT had directed the parties to agree the evidence that the ET heard on these points. Because the parties were unable to agree, the judge produced his notes, and these were in the bundle before the EAT.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">26.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The relevant exchanges in the evidence, insofar as they relate to the internal appeal, are set out in an appendix to this judgment. Four points are clear from these exchanges. The first is that, so to speak, Miss Gard believed the ball was in the claimant&#8217;s court while the claimant believed the ball was in the respondent&#8217;s court. There is reference to a parallel exchange between Miss Gard and the trade union representative, but the ET can be assumed to have considered it irrelevant as it did not mention it in its judgment. The second is that the claimant did not positively abandon his appeal and, further, that his union did not do so on his behalf. The suggestion in the evidence was that he was concerned about the passage of time and the need to contact Acas, which is consistent with what the ET found at paragraph 86 of its judgment. There was nothing in the evidence to support the respondent&#8217;s contention before the EAT that the claimant had &#8220;implicitly&#8221; abandoned his appeal. The third is that, while there was no specific enquiry into what would have happened at the appeal, the questions asked by Mr Sangha presupposed it would have been a rehearing. The fourth is that the respondent did not send anything in writing to the claimant, either to confirm who bore the responsibility for rescheduling the appeal or to check his intentions when it heard nothing further from him (save, indirectly, for the contact it received from Acas under the early conciliation procedure).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The parties&#8217; submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_27">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">27.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">No discourtesy is intended to Mr Bryce or Mr Sangha by summarising their submissions briefly:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">27.1</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">Mr Byrce focused on the respondent&#8217;s failings at the internal appeal stage, which the ET had identified in its findings in fact (and which were further demonstrated by the evidence it heard) and which it criticised in its conclusions. He contended that the ET erroneously overlooked the well-established principle, established in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">West Midlands Co-Operative Society v Tipton</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[1986] ICR 192" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] ICR 192</ref> and applied in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Mirab v Mentor Graphics (UK) Limited</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> UKEAT/0172/17, that procedural unfairness at the appeal stage can render a dismissal unfair overall. There was, he said, no clear demonstration on the face of the ET&#8217;s judgment explaining why it considered the dismissal to be fair despite the procedural failings at the appeal stage that it had identified and criticised. The impression, he contended, was that the ET had focused on the substantive fairness of the initial decision to dismiss and failed to analyse properly the impact of the subsequent mishaps. Alternatively, he contended, the ET reached a decision that was not reasonably open to it, and which could properly be categorised as perverse; the facts it found compelled the conclusion that this was an unfair dismissal.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">27.2</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">In reply, Mr Sangha asserted that the ET had correctly identified the relevant law, and that it was entitled to be critical of the appeal process while still finding the dismissal to be fair overall. Its reasoning needed to be read fairly and as a whole, following the guidance in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">DPP Law Ltd v Greenberg</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="#" uk:canonical="[2021] IRLR 1016" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] IRLR 1016</ref>. The respondent had afforded the claimant a right of appeal, and it was open to the ET, on the evidence it heard, to find in terms that the lack of an effective appeal was the fault of the claimant &#8211; because he did not get back in touch as the respondent had requested. Mr Sangha referred to the EAT&#8217;s judgment in </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Knightley v Chelsea and Westminster Hospital NHS Foundation Trust</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000"> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2022/63" uk:canonical="[2022] EAT 63" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EAT 63</ref> as making clear that a failure to offer an opportunity to appeal did not always mean that a dismissal would be rendered unfair. In short, the ET&#8217;s conclusion was properly open to it in all the circumstances. </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p style="text-align:justify"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">The legal framework</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">28.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">Section 98 of the <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">Employment Rights Act 1996</ref></span> (<span style="font-weight:bold">ERA</span>) is our starting point. It provides:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-weight:bold">(1)</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1.38in;margin-right:0.46in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">In determining for the purposes of this Part whether the dismissal of an employee is fair or unfair, it is for the employer to show&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-weight:bold">(a)</num>
+	      <content>
+		<p style="text-align:justify;margin-left:1.77in;margin-right:0.46in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">the reason (or, if more than one, the principal reason) for the dismissal, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-weight:bold;margin-left:1.77in;text-indent:-0.39in">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.77in;margin-right:0.46in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">that it is either a reason falling within subsection (2) or some other substantial reason of a kind such as to justify the dismissal of an employee holding the position which the employee held.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold">(2)</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1.38in;margin-right:0.46in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">A reason falls within this subsection if it&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-weight:bold;margin-left:1.77in;text-indent:-0.39in">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.77in;margin-right:0.46in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">relates to the capability &#8230; of the employee for performing work of the kind which he was employed by the employer to do &#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-weight:bold">(4)</num>
+	    <intro>
+	      <p style="text-align:justify;margin-left:1.38in;margin-right:0.46in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Where the employer has fulfilled the requirements of subsection (1), the determination of the question whether the dismissal is fair or unfair (having regard to the reason shown by the employer)&#8212;</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-weight:bold;margin-left:1.77in;text-indent:-0.39in">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.77in;margin-right:0.46in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">depends on whether in the circumstances (including the size and administrative resources of the employer&#8217;s undertaking) the employer acted reasonably or unreasonably in treating it as a sufficient reason for dismissing the employee, and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-weight:bold;margin-left:1.77in;text-indent:-0.39in">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.77in;margin-right:0.46in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">shall be determined in accordance with equity and the substantial merits of the case.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">29.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">As the ET properly noted, in determining whether the respondent acted reasonably or unreasonably, it could not substitute its own view as to what it would have done in the circumstances. Instead, it was required to determine the range of reasonable responses open to an employer acting reasonably in the circumstances and determine whether this respondent&#8217;s decision to dismiss this claimant fell within that range. </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">30.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The Acas Code of Practice identifies, at paragraph 4, the importance to fairness of an employer allowing &#8220;an employee to appeal against any formal decision made&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">31.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">When considering whether an employer has acted reasonably, the ET must consider the process as a whole. This includes any internal appeal. In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">West Midland Co-operative Society Ltd v Tipton</span> <ref href="#" uk:canonical="[1986] ICR 192" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1986">[1986] ICR 192</ref>, the House of Lords confirmed that a dismissal may be unfair where an employer refuses to entertain an appeal to which an employee was contractually entitled. This notion had proved controversial as the case made its way to the House of Lords; the ET and the EAT considered that the denial of the contractual right of appeal rendered the dismissal unfair, while the Court of Appeal had disagreed, focusing the question of fairness at the point when the original decision to dismiss was made. Lord Bridge expressed the conundrum in this way at paragraph 9 of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Tipton</span>:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">The appeal raises a question of considerable importance in industrial relations law. A substantial body of case law, based on decisions of the Employment Appeal Tribunal, a specialist court of great expertise in this field, supports the view that where an employer's reason for dismissing an employee has been examined in the course of an appeal under an agreed internal disciplinary procedure and that appeal has been dismissed, the Industrial Tribunal may take into account the evidence which was available for consideration by the employer on the appeal in determining whether the employer acted reasonably or unreasonably in treating his reason for dismissing the employee as sufficient. If this view is right, it would follow that the employer's denial to the employee of an opportunity to prosecute a domestic appeal to which he was contractually entitled could by itself, justify a finding of unfair dismissal. Conversely, if the Court of Appeal were right in this case, it would follow that in every case where there has been a domestic appeal the Industrial Tribunal must put on blinkers and consider only whether the employer acted reasonably in his original decision to dismiss, notwithstanding that when he rejected the employee's domestic appeal and thereby affirmed the decision to dismiss him he may have been acting quite unreasonably in the light of the further information presented to him in the course of the appeal. Mr Lee, for the respondents, did not shrink from these implications. He conceded, rightly in my view, that no relevant distinction can be drawn between a case where the employer, as here, refuses to entertain a domestic appeal and a case where, having heard an appeal, the employer dismisses it. Whatever happens in relation to or in the course of a domestic appeal procedure subsequent to the dismissal is, Mr Lee submits, irrelevant to the question of unfair dismissal, save for the limited purpose indicated by the Court of Appeal. He accepts that in order to succeed he must persuade your Lordships to overrule the series of decisions to the contrary by the Employment Appeal Tribunal.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">32.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">Lord Bridge then continued at paragraph 18. (In the passage quoted below, &#8220;question 3&#8221; refers to the test at what is now section 98(4) <span style="font-weight:bold">ERA</span>, which is whether the employer acted reasonably or unreasonably in treating its purported reason as a sufficient reason for dismissal, in accordance with equity and the substantial merits of the case.)</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">&#8230; I can see nothing in the language of the statute to exclude from consideration in answering question 3 &#8220;in accordance with equity and the substantial merits of the case&#8221; evidence relevant to show the strength or weakness for the real reason for dismissal which the employer had the opportunity to consider in the course of an appeal, pursuant to a disciplinary procedure which complies with the statutory code of practice &#8230; the original and the appellate decision by the employer, in any case where the contract of employment provides for an appeal and the right of appeal is invoked by the employee, are necessary elements in the overall process of terminating the contract of employment. To separate them and to consider only one half of the process in determining whether the employer acted reasonably or unreasonably in treating his real reason as sufficient is to introduce an unnecessary artificiality into proceedings on a claim of unfair dismissal calculated to defeat, rather than accord with the &#8220;equity and substantial merits of case&#8221; and for which the language of the statute affords no warrant.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">33.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">Two years later, in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Polkey v A E Dayton Services Ltd</span> <ref href="#" uk:canonical="[1988] ICR 142" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1988">[1988] ICR 142</ref>, the House of Lords established the now seminal principle that a procedurally unfair dismissal, even if dismissal was going to occur in any event, would sound in remedy rather than liability; the compensation to which an employee was entitled would reduce to reflect the chance that the procedural errors made a difference to the outcome.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">34.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The application of the <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Polkey</span> principle to a faulty internal appeal process was confirmed by the EAT in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Tarbuck v Sainsbury&#8217;s Supermarkets Ltd</span> <ref href="#" uk:canonical="[2006] IRLR 664" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] IRLR 664</ref>. In that case, HHJ Peter Clark departed from a previous line of authority; this was exemplified by <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Post Office v Marney</span> <ref href="#" uk:canonical="[1990] IRLR 170" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1990">[1990] IRLR 170</ref>), which had suggested that an ET should conclude that a dismissal was unfair as a result of a defective internal appeal &#8220;only if the appellate process could and should have found and demonstrated a flaw in the decision at first instance in the internal procedures of the employer&#8221;. In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Tarbuck</span>, the EAT held as follows (paragraphs 77, 78 and 80):</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">&#8230; we do not consider that </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Marney</span><span style="font-weight:bold;font-family:'Times New Roman'"> remains good law. It suggests that a defect in the appeal process will only be relevant if a properly-conducted appeal would have made a difference to the outcome. That is inconsistent with the decision of the House of Lords in </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Polkey</span><span style="font-weight:bold;font-family:'Times New Roman'"> &#8230; In our view, this makes it plain that even if a dismissal could be fair if the employee chose not to appeal, the significance of the appeal is that [it] may enable further matters to be advanced by the employee, or representations to be made, which might affect the outcome. In those circumstances, the denial of that right is capable of rendering a dismissal unfair and equally a failure to apply the appeal process fairly and fully may have the same result. If dismissal would be likely to have occurred in any event, then that will affect compensation, but not the finding of unfairness itself &#8230; In our view, it is also inconsistent with the decision of the House of Lords in [</span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Tipton</span><span style="font-weight:bold;font-family:'Times New Roman'">, where it was] held that the refusal to entertain the right of appeal could render an otherwise [fair] dismissal unfair &#8230; even if a dismissal could be fair if the employee chose not to appeal, the significance of the appeal is that it may enable further matters to be advanced by the employee, or representations to be made, which might affect the outcome. In those circumstances, the denial of that right is capable of rendering a dismissal unfair and equally a failure to apply the appeal process fairly and fully may have the same result. If dismissal would be likely to have occurred in any event, then that will affect compensation, but not the finding of unfairness itself.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">35.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Taylor v OCS Group Ltd</span> <ref href="#" uk:canonical="[2006] ICR 1602" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2006">[2006] ICR 1602</ref>, the Court of Appeal decided that it was unnecessary for ETs to seek to categorise an appeal as either a rehearing or a review before deciding whether it could cure defects arising earlier in the dismissal process. Smith LJ&#8217;s observations at paragraphs 46 and 47 reiterated the ongoing importance of the internal appeal stage when assessing the overall fairness of a dismissal:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">&#8230; In our view, it would be quite inappropriate for an ET to attempt such categorisation. What matters is not whether the internal appeal was technically a rehearing or a review but whether the disciplinary process as a whole was fair.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">&#8230; The use of the words 'rehearing' and 'review', albeit only intended by way of illustration, does create a risk that ETs will fall into the trap of deciding whether the dismissal procedure was fair or unfair by reference to their view of whether an appeal hearing was a rehearing or a mere review. This error is avoided if ETs realise that their task is to apply the statutory test. In doing that, they should consider the fairness of the whole of the disciplinary process. If they find that an early stage of the process was defective and unfair in some way, they will want to examine any subsequent proceeding with particular care. But their purpose in so doing will not be to determine whether it amounted to a rehearing or a review but to determine whether, due to the fairness or unfairness of the procedures adopted, the thoroughness or lack of it of the process and the open-mindedness (or not) of the decision-maker, the overall process was fair, notwithstanding any deficiencies at the early stage.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_36">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">36.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">HHJ Eady QC (as she then was) considered the point in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Mirab v Mentor Graphics (UK) Ltd</span> UKEAT/0172/17. In that case, the employee pursued an internal appeal against dismissal, but the ET found it to be a superficial exercise, with no independent judgment brought to bear. It decided nonetheless that the dismissal was fair. The ET directed itself that an appeal was only relevant where the original decision to dismiss was unfair. The EAT upheld the appeal and remitted the claim of unfair dismissal to the ET. At paragraphs 53 and 54 of her judgment, HHJ Eady QC held:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">&#8230; I do not think it could be said that the appeal was not relevant to fairness in this case because nothing raised by the Claimant on the internal appeal could, given the ET&#8217;s own findings, have made any difference to the outcome. To adopt such an approach would, in my judgment, be contrary to </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Tipton</span><span style="font-weight:bold;font-family:'Times New Roman'"> and </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Tarbuck</span><span style="font-weight:bold;font-family:'Times New Roman'">, and more generally to the approach laid down in </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Polkey</span><span style="font-weight:bold;font-family:'Times New Roman'">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">I reiterate, the appeal is part of the overall process in any dismissal and thus relevant to the ET&#8217;s determination of fairness. A specific part of the process might be unfair but cured by other aspects; usually the appeal itself will perform that function, but, where it is the appeal that gives rise to an unfairness in the process, that is a matter that is relevant to the ET&#8217;s assessment. I do not go so far as to say it will always, or inevitably, lead to a finding of unfair dismissal &#8211; that would be to usurp the assessment of an ET on the facts of any particular case &#8211; but it is a relevant matter and it is an error of law to simply exclude it from consideration.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">37.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">Choudhury P considered the point in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Moore v Phoenix Product Development Ltd</span> UKEAT/0070/20. In that case, the employer&#8217;s founder and former chief executive was dismissed without a right of appeal following a breakdown in the working relationship. One of the grounds of appeal was that the ET should have concluded that the absence of an appeal rendered the dismissal unfair. The EAT dismissed that ground of appeal. At paragraphs 43 to 44, Choudhury P held (his original emphasis):</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">Section 98(4)</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18" uk:canonical="1996 c. 18" uk:origin="TNA" uk:type="legislation">the 1996 Act</ref> provides that whether a dismissal is fair or unfair depends on whether, in the circumstances, including the size and administrative resources of the employer&#8217;s undertaking, the employer acts reasonably or unreasonably [in] treating it as a sufficient reason for dismissing the employee. Although an appeal will </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">normally</span><span style="font-weight:bold;font-family:'Times New Roman'"> be part of a fair procedure, that will not invariably be so, as to take that fixed approach would be to disregard the clear terms of the statute, which dictate that the circumstances are to be taken into account. Here, the relevant circumstances included the fact that the Claimant was a board-level director and employee; that the Respondent was a relatively small organisation with no higher level of management; that the Tribunal had found that the Claimant himself had brought about an &#8220;irreparable breakdown&#8221; in trust and confidence; that this was considered to be &#8220;destructive&#8221;, destabilising and a &#8220;drag-factor&#8221; for the company; that he was unrepentant about his conduct and attitude; and that he had not shown any sign that he was likely to change.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">In my judgment, it was open to the Tribunal to conclude, in these circumstances, that an appeal would have been futile &#8230; </span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">38.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">In <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Gwynedd Council v Barratt &amp; Anor</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2021/1322" uk:canonical="[2021] EWCA Civ 1322" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2021">[2021] EWCA Civ 1322</ref>, the Court of Appeal considered a case where it was suggested that an appeal would be futile. Bean LJ emphasised at paragraph 38 of the judgment that it would be going &#8220;too far&#8221; to suggest that a dismissal is unfair because of the failure to provide an internal appeal. As he put it:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">&#8230; the absence of an appeal is one of the many factors to be considered in determining fairness.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_39">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">39.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The point was considered again by Linden J in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Knightley v Chelsea &amp; Westminster Hospital NHS Foundation Trust</span> <ref href="https://caselaw.nationalarchives.gov.uk/eat/2022/63" uk:canonical="[2022] EAT 63" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] EAT 63</ref>. In that case, an employee dismissed for long-term medical incapability brought an internal appeal. The employer refused to consider the appeal against dismissal because it had been presented late (in circumstances where it had previously refused an extension of time). The ET decided that, in declining to extend the time for bringing an internal appeal, the employer had failed in its duty to make reasonable adjustments; but it also concluded that there was no likelihood, even if the appeal had been heard, that it would have changed the outcome. It found the dismissal overall to be fair. The employee appealed to the EAT, in part on the basis that, having found there to have been a discriminatory refusal to extend time for the internal appeal, the ET ought then to have found the dismissal unfair. The EAT did not disturb the ET&#8217;s conclusion. When summarising the relevant legal principles, Linden J said this:</p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">&#8230; at the fairness stage under <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(4)</ref>, the question is whether the employer acted reasonably or unreasonably in treating its reason for dismissal as a sufficient reason for dismissal. The statutory focus is on why the employer dismissed the claimant and the ET is called upon to decide whether, having regard to that reason, to the procedure which the employer followed and to the other relevant circumstances, dismissal was within the range of reasonable actions open to the employer. It is also very well established that, if a dismissal is unfair on procedural grounds, the fact that the employee would have been dismissed in any event, even if a fairer procedure was followed, goes to remedy rather than liability: see </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Polkey</span><span style="font-weight:bold;font-family:'Times New Roman'"> &#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.08in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">As far as the effect of failure to allow an opportunity to appeal against dismissal on the fairness of that dismissal is concerned, the availability of an appeal and, if so, what that appeal entailed in terms of its scope is part and parcel of the procedure relating to the dismissal and therefore relevant to an assessment of the overall fairness of the procedure which led to that dismissal: see </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Taylor v OCS Group Ltd</span><span style="font-weight:bold;font-family:'Times New Roman'"> &#8230; By the same token, the lack of an opportunity to appeal does not necessarily or automatically render a dismissal unfair. Whether it does so will depend on the circumstances of the particular case. An unreasonable failure to provide a right of appeal may mean that the dismissal is unfair but it may not: see, for example, </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Moore v Phoenix Product Development Ltd</span><span style="font-weight:bold;font-family:'Times New Roman'"> and </span><span style="font-style:italic;font-weight:bold;font-family:'Times New Roman'">Gwynedd Council v Barratt &amp; Anor</span><span style="font-weight:bold;font-family:'Times New Roman'"> &#8230; For example, it might not in a case where the case for dismissal is particularly compelling and the preceding procedural steps were thorough and left no room for sensible challenge. It would be for the ET to judge this question, applying the range of reasonable responses approach.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Analysis and conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_40">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">40.</num>
+	  <intro>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The following principles can be derived from the case law summarised above:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-size:12pt">40.1</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The starting point, and the focus throughout, must always be on the statutory test set out in <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98</ref></span><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000"> ERA</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">40.2</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">The statutory test requires an examination of the dismissal process as a whole, including the internal appeal stage (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Tipton</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">; </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Taylor</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">; </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Tarbuck</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">40.3</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">An appeal is an important and normal component of fairness (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Moore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">). This is underlined, as a matter of good employment relations, by the Acas Code of Practice.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">40.4</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">A failure by an employer to offer an appeal, or an appeal that is procedurally defective, may render unfair a dismissal which, by sole reference to the initial decision to dismiss, would otherwise have been fair. Put another way, there is no requirement that an internal appeal is only relevant where it is capable of curing an earlier defect or otherwise making a difference to the outcome (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Tarbuck</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">; </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Mirab</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">40.5</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">It is an error of law for an ET to exclude from its consideration whether a failure by an employer to offer an appeal, or an appeal that is procedurally defective, involves unreasonableness for the purposes of the statutory test. It should be part of the ET&#8217;s overall assessment (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Mirab</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">).</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">40.6</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">A failure by an employer to offer an appeal, or an appeal that is procedurally defective, does not automatically or inevitably require a finding of unfair dismissal (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Knightley</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">). It is simply one of many factors for the ET to consider (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Gwynedd Council</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">). The statutory imperative is to consider the particular circumstances of each case; in some cases, it can properly be concluded that an appeal would have been futile, such that a failure to offer an appeal would not make the dismissal unfair (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Moore</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">). </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-size:12pt">40.7</num>
+	    <content>
+	      <p style="text-align:justify;margin-left:1.18in"><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">If the ET considers that the employer acted unreasonably in failing to offer an appeal, or by conducting a procedurally defective appeal, but further considers that a proper appeal would have made little or no difference to the outcome, that should sound in remedy rather than liability (</span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Polkey</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">; </span><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt;color:#000000">Tarbuck</span><span style="font-family:'Times New Roman';font-size:12pt;color:#000000">).</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">41.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">We have considered the points made in this appeal carefully, holding in mind that the ET is the fact-finding body and that its judgment must be read fairly and as a whole. The mere fact that the EAT may have decided the case differently is not a sufficient reason to uphold an appeal if there is otherwise no error of law. Nonetheless, for reasons we now set out, we have come to the unanimous conclusion that the ET&#8217;s judgment cannot stand.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_42">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">42.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">The ET&#8217;s self-direction on the law rightly noted the application of the range of reasonable responses test derived from <ref href="http://www.legislation.gov.uk/id/ukpga/1996/18/section/98/4" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 98(4)</ref> <span style="font-weight:bold">ERA</span>. However, there was no reference in the judgment to the legal principle, established in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Tipton</span> and confirmed in case law since, that a procedurally defective appeal may (not must) render a dismissal unfair. As a result, we cannot be confident that the ET had the principle properly in mind.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">43.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">In many cases, this would not have been a problem; not every principle of law must be traced in the workings of the judgment. In this case, however, the ET had identified significant procedural defects in the internal appeal and rightly criticised them as falling short of good industrial relations practice. The mishaps at the appeal stage were plainly live matters before the ET. Moreover, there was nothing in its judgment to suggest that it considered that the internal appeal would have been futile or devoid of sensible challenge. In those circumstances, the ET needed to say more about why, notwithstanding the defects it identified, it considered the dismissal as a whole to be fair; it needed to show that it had considered the principle in <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Tipton</span> and <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Tarbuck</span> even if it did not specifically name the cases from which it is derived.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">44.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">These procedural defects were indeed substantial. The lay members in particular, with many decades of combined experience of employment relations, were of the view that they had never seen an appeal quite like it. It involved many striking features: the respondent had effectively permitted one of its managers to refuse to hear the claimant&#8217;s appeal; recognising the claimant was confused, the respondent then left the claimant to choose which manager would hear his appeal (between one who had refused and one who had been unwell) and when it would take place, but did not confirm this in writing to him; the claimant did not positively abandon his appeal but ultimately chose to commence Acas early conciliation; and, after hearing nothing from him (save, indirectly, for the contact via Acas), the respondent did not write to him to check his intentions. The appeal, which would have been by way of rehearing (because the respondent accepted that the question of authority to dismiss was a &#8220;grey area&#8221;), never took place. The respondent&#8217;s indecision about the identity of the decision-maker at the appeal stage, and the absence of written confirmation to the claimant about what he was supposed to do, fell very far short of good industrial relations practice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">45.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">We agree with Mr Bryce that the ET&#8217;s criticisms were robust enough to sustain a finding of unfairness, and so clarity was needed as to why it reached the opposite conclusion. If we say anything new in this judgment, it is this: the more striking the defects at the stage of an internal appeal, the more it is incumbent upon an ET to demonstrate in its decision why it has decided that a dismissal was, overall, fair. In this case, the ET merely noted that the claimant had been offered a right of appeal and did not pursue it because he thought that commencing Acas early conciliation precluded him from doing so; it thereby diminished the respondent&#8217;s responsibility for the confusion that had emerged and its conspicuous failure to take ownership of the arrangements and then to confirm them in writing. The ET&#8217;s analysis was insufficient to demonstrate, following the statutory test, that it properly considered all the relevant circumstances of the case when deciding whether the respondent had acted reasonably or unreasonably. The ET&#8217;s error was not one of perversity, but one of failing to take proper account of these defects in its overall assessment of fairness and instead opting merely to critique them as falling short of good practice.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">46.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">We therefore allow the appeal.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:12pt;color:#000000">Disposal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">47.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">Mr Bryce urged us, in the event that we agreed with his submissions, to substitute our own decision, under section 35(1)(a) of the <span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/1996/17" uk:canonical="1996 c. 17" uk:origin="TNA" uk:type="legislation">Employment Tribunals Act 1996</ref></span>, to the effect that the respondent unfairly dismissed the claimant. He contended that the mishaps at the appeal stage, when properly assessed as part of the dismissal process overall, were so severe that the only outcome properly open to the ET was to find the dismissal unfair. Influenced by the view of the lay members about the scale of the mishaps, and how out of kilter they were with good industrial practice, we agree with Mr Bryce. The facts do not require any further amplification for a determination of unfair dismissal to be reached: in the circumstances of the case, the respondent&#8217;s approach to the appeal took its overall decision to dismiss outside the band of approaches open to a reasonable employer.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_48">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">48.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">That leaves the question of remedy and the application of <span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Polkey</span>. We were informed that, if our judgment was to this effect, the parties would sensibly agree that an internal appeal was unlikely to result in a continuation of the claimant&#8217;s employment and that, consequently, his compensation should be limited to the basic award. The parties must confirm to the EAT within 21 days whether they have been able to resolve matters by consent. If not, we will &#8211; by separate order &#8211; direct that the case is remitted to the same ET to determine remedy.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_49">
+	  <num style="font-size:12pt;margin-left:0.75in;text-indent:-0.5in">49.</num>
+	  <content>
+	    <p class="QBNumberedList1" style="margin-left:0.75in">We thank both counsel for their helpful submissions.</p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <attachments>
+      <attachment>
+	<doc name="annex">
+	  <meta>
+	    <identification source="#tna">
+	      <FRBRWork>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/eat/2026/31/annex/1"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/eat/2026/31"/>
+		<FRBRdate date="2026-02-13" name="judgment"/>
+		<FRBRauthor href="#eat"/>
+		<FRBRcountry value="GB-UKM"/>
+	      </FRBRWork>
+	      <FRBRExpression>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2026/31/annex/1"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2026/31"/>
+		<FRBRdate date="2026-02-13" name="judgment"/>
+		<FRBRauthor href="#eat"/>
+		<FRBRlanguage language="eng"/>
+	      </FRBRExpression>
+	      <FRBRManifestation>
+		<FRBRthis value="https://caselaw.nationalarchives.gov.uk/eat/2026/31/annex/1/data.xml"/>
+		<FRBRuri value="https://caselaw.nationalarchives.gov.uk/eat/2026/31/data.xml"/>
+		<FRBRdate date="2026-02-16T10:44:02" name="transform"/>
+		<FRBRauthor href="#tna"/>
+		<FRBRformat value="application/xml"/>
+	      </FRBRManifestation>
+	    </identification>
+	  </meta>
+	  <mainBody>
+	    <p style="text-align:justify;margin-right:3.7in"><span style="font-weight:bold;font-family:'Times New Roman';font-size:16pt;color:#000000">Appendix</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:12pt">As is customary in Scotland, there were no witness statements. The evidence was given orally.</span></p>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Miss Gard&#8217;s evidence-in-chief</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:12pt">This is the exchange between Miss Gard and the respondent&#8217;s counsel, Mr Sangha. DH/Debbie is the claimant&#8217;s trade union representative. AH or Mr H is Mr Hutchinson. DF or Mr F is Mr Forbes. MC is the claimant&#8217;s line manager who took the decision to dismiss him.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">What did you discuss with C + his rep?</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">I went in and apologised that it had to be cancelled. I tried to discuss alt dates. C was agitated re time scales. I understood he would discuss dates with his rep and also discuss what manager he wanted to hear the hearing.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">Appeal or capability hearing?</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">I left it with C + his rep to come back to me with alt dates &#8211; if they were happy for AH to hear hearing or if they insisted on Mr F. I left them in conference room. His rep called me + told me she waiting for Mr M&#8217;s instructions re dates + suitability of AH/DF. Both would have been suitable in my view as they are senior managers. Both sat above MC in terms of seniority.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">What happened next?</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">We then got EC from Acas on 3/8 (R1) &#8211; very shortly after the meeting was abandoned. I had no further contact with C. DH didn&#8217;t contact me again either. I didn&#8217;t contact her either.</span></p>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Cross-examination of Miss Gard</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:12pt">This is the relevant part of the claimant&#8217;s cross-examination of Miss Gard. EC is a reference to Acas early conciliation.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q: </span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">When we broke up DH was going on holiday for 2 weeks? Onus is on you to choose the day. You can&#8217;t say it&#8217;s my fault or DH&#8217;s.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">I left meeting on understanding you and DH would contact us with details of suitability/availability + re manager you were happy with.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">Time was marching on &#8211; Acas. Purpose of this &#8211; I didn&#8217;t know where to turn + onus was on you to fix appointment.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">My understanding was you would call me with your availability.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">Debbie was on holiday + she was no longer getting involved. How was it left? You said I was a bit agitated. No wonder &#8211; time was wasted. What suggestions did you make?</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">I didn&#8217;t.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">After appeal postponed my (DH) union said she couldn&#8217;t deal because I had started EC. You left it to me and DH. You shouldn&#8217;t have done this.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">I believed you were going to come back + confirm the detail.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">I believe the company should have come back to me.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">At meeting C was agitated. But he was represented. I left it he would come back with dates and his &#8216;preference&#8217; for manager. If he wanted us to get back to him he should have said so.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">As HRBP you felt it was okay to ask C&#8217;s rep for alternative dates?</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A: </span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">Yes, he was very concerned re AH being hearing manager. I was told that they would discuss and they would get back to me.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">Mr H sent you text to say he wouldn&#8217;t be available.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">Ideally, they wouldn&#8217;t have come in at all on 28/7. But they were already in and because of discussions that took place. Because of this, I left it to them to come back to me &#8211; in those circumstances.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">Did you feel it apt to write to them to chase up their response?</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">I spoke to union rep and she told me she saw no merit in his case. Normally I would have rescheduled the meeting. Because I was waiting for C to come back to me after he spoke to his union.</span></p>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">The claimant&#8217;s evidence-in-chief</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:12pt">The claimant was representing himself, so the judge recorded his evidence-in-chief in narrative form. Claire is Miss Gard.</span></p>
+	    <p style="text-align:justify;margin-left:0.39in;margin-right:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">It was left we needed another date. With Debbie going on holiday, my initial reaction [was] to go to ACAS because of time running on. My understanding is we were rescheduling with AH as he was designated appeal manager. I understood DF no longer taking the hearing. At this time, I didn&#8217;t know Unite and Claire had a conversation and Claire thought this wasn&#8217;t going to go any further. I was unaware of that. It just finished at that. We need to fix another date. I was waiting to hear from. It was agreed that when Debbie came back from holiday, we can sort out a date but that didn&#8217;t materialise &#8211; possibly because of conversation between Claire and union rep. In August, I&#8217;m on my own + I needed to seek advice. Debbie told me Unite couldn&#8217;t represent so I went to &#8230; this was after I contacted ACAS re EC. At start, DH said she would get secretary to do ET1 and I thought they would support me. I didn&#8217;t contact R after 28/7 &#8211; I believed it was in their hands to propose a date. I was waiting for a date.</span></p>
+	    <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid;font-family:'Times New Roman';font-size:12pt">Cross-examination of the claimant</span></p>
+	    <p><span style="font-family:'Times New Roman';font-size:12pt">When the respondent&#8217;s counsel, Mr Sangha, cross-examined the claimant, this was the exchange. Claire or CG is again Miss Gard.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">Did you have a problem with AH hearing appeal or re-hearing?</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">No. But time is marching on.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">Why didn&#8217;t you contact CG after 28/7? Because you were focused on EC Acas after meeting was aborted? Is reason you didn&#8217;t go back because you moved onto EC?</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">My Unite rep was going on holiday. Before she got back, there was a conversation between Claire + union rep I didn&#8217;t know about, saying it wasn&#8217;t going further. I had until September to involve ACAS.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">Q:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">It sounds to me you were focusing on ACAS so you didn&#8217;t contact Rep re hearing.</span></p>
+	    <p style="text-align:justify;margin-left:0.79in;margin-right:0.39in;text-indent:-0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">A:</span><marker name="tab"/><span style="font-weight:bold;font-family:'Times New Roman'">No. Respondent could have got back but they didn&#8217;t want to be involved with ACAS.</span></p>
+	  </mainBody>
+	</doc>
+      </attachment>
+    </attachments>
+  </judgment>
+</akomaNtoso>
