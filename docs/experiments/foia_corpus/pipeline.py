@@ -83,6 +83,7 @@ ENGAGEMENT: dict[str, list[str]] = {
     "s43_1_exempt": ["TradeSecret"],
     "s43_2_exempt": ["PrejudiceCommercialInterests"],
     "s44_exempt": ["StatutoryProhibition"],
+    "s7_derogation": ["HeldForJournalism"],
     "s12_cost": ["CostExceedsLimit"],
     "s14_vex": ["VexatiousRequest"],
     "s14_rep": ["RepeatedRequest"],

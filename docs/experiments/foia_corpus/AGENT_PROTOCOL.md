@@ -47,7 +47,8 @@ path (like ukftt/grc/2026/845), its title, and a candidate stratum.
      s33_exempt s34_exempt s35_exempt s36_exempt s37_royal_exempt
      s37_other_exempt s38_exempt s39_exempt s40_1_exempt s40_2_exempt
      s41_exempt s42_exempt s43_1_exempt s43_2_exempt s44_exempt
-     s12_cost s14_vex s14_rep s9_fees.   Empty if none.
+     s12_cost s14_vex s14_rep s9_fees s7_derogation (Schedule 1 journalism
+     derogation — duty blocker like s12/s14).   Empty if none.
    - "pi:" = maintain | disclose | na — the s2(2)(b) balance direction for the
      decisive qualified exemption; na if never reached (absolute exemption,
      nothing engaged, or s12/s14 case — those have no s2(2)(b) balance).
