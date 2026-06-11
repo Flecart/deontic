@@ -1,0 +1,1483 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2025/499"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2025/499"/>
+	  <FRBRdate date="2025-05-01" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="499"/>
+	  <FRBRname value="Denise Howarth v The Commissioners for HMRC"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/499"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/499"/>
+	  <FRBRdate date="2025-05-01" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/499/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/499/data.xml"/>
+	  <FRBRdate date="2025-05-08T09:08:19" name="transform"/>
+	  <FRBRdate date="2025-07-19T20:27:45" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-03-31" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-05-01" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-tc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-tax" showAs="United Kingdom First-tier Tribunal (Tax)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="denise-howarth" href="" showAs="DENISE HOWARTH"/>
+	<TLCPerson eId="the-commissioners-for-his-majestys-revenue-and-customs" href="" showAs="THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-tribunal-judge-keith-gordon" href="/judge-tribunal-judge-keith-gordon" showAs="TRIBUNAL JUDGE KEITH GORDON"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-TC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>499</uk:number>
+	<uk:cite>[2025] UKFTT 499 (TC)</uk:cite>
+	<uk:parser>0.26.20</uk:parser>
+	<uk:hash>601f0bfb16a43eafdd3d66aaf50e13cd91303ea127b2344905fbe02e22f7724b</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.3.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1 { text-align: justify; font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Taxbodytext1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2 { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4 { text-align: justify; margin-left: 1.18in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2 { text-align: justify; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3 { text-align: justify; font-style: italic; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4 { text-align: justify; font-style: italic; font-weight: normal; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxquotation { text-align: justify; margin-left: 0.79in; margin-right: 0.76in; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5 { text-align: justify; margin-left: 1.58in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeading { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Quote { text-align: center; margin-left: 0.6in; margin-right: 0.6in; font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #404040; }
+#judgment .ListParagraph { text-align: left; margin-left: 0.5in; font-size: 11pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1Char { font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext1Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3Char { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4Char { font-style: italic; font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxquotationChar { font-family: 'Times New Roman'; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeadingChar { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; }
+#judgment .QuoteChar { font-style: italic; font-family: 'Times New Roman'; font-size: 12pt; color: #404040; }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0563C1; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:82.45pt;height:52.6pt"/></p>
+      <p style="text-align:left">Neutral Citation: <neutralCitation>[2025] UKFTT 00499 (TC)</neutralCitation></p>
+      <p style="text-align:right">Case Number: TC09508</p>
+      <p style="text-align:left"><courtType refersTo="#ukftt-tc" style="font-weight:bold">FIRST-TIER TRIBUNAL</courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukftt-tc" style="font-weight:bold">TAX CHAMBER</courtType></p>
+      <p style="text-align:right;margin-left:3.05in">[By remote video hearing]</p>
+      <p style="text-align:right">Appeal reference: TC/2024/03940/V</p>
+      <p><span style="font-style:italic">Keywords: Self Assessment Tax Return; Failure to submit on time; Penalties; Schedule 55; Reasonable Excuse; Electronic Communications; Late appeals</span></p>
+      <p style="text-align:right;margin-left:3.05in"><span style="font-weight:bold">Heard on: </span><docDate date="2025-03-31" refersTo="#hearing">31 March 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold">Judgment date: </span>1 May 2025</p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-tribunal-judge-keith-gordon" style="font-weight:bold">TRIBUNAL JUDGE KEITH GORDON</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold">MRS SONIA GABLE</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#denise-howarth" style="font-weight:bold">DENISE HOWARTH</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-commissioners-for-his-majestys-revenue-and-customs" style="font-weight:bold">THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Representation:</span></p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Appellant:<marker name="tab"/>The Appellant in person</p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Respondents: <marker name="tab"/>Miss Nicola Shardlow, litigator of HM Revenue and Customs&#8217; Solicitor&#8217;s Office</p>
+      <p style="text-align:center"><span style="font-weight:bold">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading class="Taxheading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The form of the hearing was V (video), conducted via Microsoft Teams. The documents to which we were referred are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">a 127-page bundle of documents;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">a 247-page bundle of authorities; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">a 34-page submission from HMRC, headed &#8220;statement of reasons&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-size:11pt">2.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Prior notice of the hearing had been published on the gov.uk website, with information about how representatives of the media or members of the public could apply to join the hearing remotely in order to observe the proceedings. As such, the hearing was held in public.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Although, at the end of the hearing, the parties agreed to a summary decision notice in accordance with rule 35(3)(a) of the Tribunal Procedure (First-tier Tribunal) (Tax Chamber) Rules 2009, Miss Shardlow notified the Tribunal within 48 hours that she would prefer to receive a full decision notice in accordance with rule 35(3)(b). We appreciate her prompt notification to the Tribunal which was expressly intended to reduce the risk of any duplication of effort at the Tribunal&#8217;s end.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Taxheading1">Overview of the case</heading>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellant appeals against penalties (totalling &#163;1,600) imposed on her in relation to the submission of her tax return for the 2020-21 tax year, which the Respondents (HMRC) say was submitted late. However, there was also a preliminary issue to be addressed as the Appellant was late in appealing against the penalties and the Tribunal had to decide whether or not to admit her appeals.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As announced to the parties at the end of the hearing, we decided:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">to admit the late appeals; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">to allow those appeals.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Taxheading1">The legislative scheme</heading>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The obligation for an individual to submit a tax return is found in the <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">Taxes Management Act 1970</ref> (TMA), <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/8" uk:canonical="1970 c. 9 s. 8" uk:origin="TNA" uk:type="legislation">section 8</ref>. So far as is relevant for the purpose of this appeal, that section reads:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">(1)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">For the purpose of establishing the amounts in which a person is chargeable to income tax and capital gains tax for a year of assessment, and the amount payable by him by way of income tax for that year, he may be required by a notice given to him by an officer of the Board&#8211;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(a)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">to make and deliver to the officer, a return containing such information as may reasonably be required in pursuance of the notice, and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(b)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">to deliver with the return such accounts, statements and documents, relating to information contained in the return, as may reasonably be so required.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">(1D) A return under this section for a year of assessment (Year 1) must be delivered&#8211;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(a)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">in the case of a non-electronic return, on or before 31st October in Year 2, and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(b)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">in the case of an electronic return, on or before 31st January in Year 2.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The exceptions to the rules in subsection (1D) are not applicable to this appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">If there has been a failure to comply with the obligation under <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/8" uk:canonical="1970 c. 9 s. 8" uk:origin="TNA" uk:type="legislation">section 8</ref>, the penalty provisions in Schedule 55 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">Finance Act 2009</ref> are potentially engaged. The provisions within Schedule 55 were summarised by the Upper Tribunal in <span style="font-style:italic">HMRC v Rogers &amp; Shaw </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2019/406" uk:canonical="[2019] UKUT 406 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2019">[2019] UKUT 406 (TCC)</ref><span style="font-style:italic"/>(<span style="font-style:italic">Rogers</span>) as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">3.</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Schedule 55 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">Finance Act 2009</ref> (&#8220;Schedule 55&#8221;) imposes penalties for the late filing of returns. Paragraph 1 of Schedule 55 provides, so far as relevant, as follows: </p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in"><span style="font-weight:bold">1 Penalty for failure to make returns etc </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(1)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">A penalty is payable by a person (&#8220;P&#8221;) where P fails to make or deliver a return, or to deliver any other document, specified in the Table below on or before the filing date. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(2)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Paragraphs 2 to 13 set out&#8212; </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">the circumstances in which a penalty is payable, and </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">subject to paragraphs 14 to 17, the amount of the penalty. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">4.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Therefore, the documents and returns whose late or non-submission are penalised are set out in the &#8220;Table&#8221;. Row 1 of that Table specifies the following document or return in relation to income tax or capital gains tax: </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(a)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.42in">Return under <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/8/1" uk:canonical="1970 c. 9 s. 8" uk:origin="TNA" uk:type="legislation">section 8(1)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">TMA 1970</ref></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">5.</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">It follows that a failure to submit a &#8220;return under <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/8/1" uk:canonical="1970 c. 9 s. 8" uk:origin="TNA" uk:type="legislation">section 8(1)</ref>(a) of <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">TMA 1970</ref>&#8221; on time or at all is capable of attracting a penalty. So far as relevant to this appeal, the following penalties apply to such a failure:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(1)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Paragraph 3 of Schedule 55 imposes a fixed &#163;100 penalty for missing the applicable filing deadline. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(2)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Paragraph 4 of Schedule 55 imposes daily penalties of &#163;10 per day where the return is more than 3 months late. Certain conditions must be satisfied before those daily penalties can be imposed, and HMRC must also make a decision to impose them. Daily penalties cannot total more than &#163;900. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(3)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Paragraph 5 of Schedule 55 imposes a further penalty if the return is more than 6 months late. That penalty is the greater of &#163;300 and 5% of any liability to tax which would have been shown in the return in question. </p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">6.</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Paragraph 23 of Schedule 55 provides for taxpayers to be excused liability for a penalty if they have a &#8220;reasonable excuse&#8221;: </p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in"><span style="font-weight:bold">23 Reasonable excuse </span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(1)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Liability to a penalty under any paragraph of this Schedule does not arise in relation to a failure to make a return if P satisfies HMRC or (on appeal) the First-tier Tribunal or Upper Tribunal that there is a reasonable excuse for the failure. </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(2)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">For the purposes of sub-paragraph (1)&#8212; </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">an insufficiency of funds is not a reasonable excuse, unless attributable to events outside P&#8217;s control, </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">where P relies on any other person to do anything, that is not a reasonable excuse unless P took reasonable care to avoid the failure, and </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(c)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">where P had a reasonable excuse for the failure but the excuse has ceased, P is to be treated as having continued to have the excuse if the failure is remedied without unreasonable delay after the excuse ceased.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In addition, it is worth mentioning the provision of paragraph 1(3) which is relevant to the present case:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">1(3) If P&#8217;s failure falls within more than one paragraph of this Schedule, P is liable to a penalty under each of those paragraphs (but this is subject to paragraph 17(3)).</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The provisions of paragraph 17(3) are not pertinent to this case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Furthermore, unlike the <span style="font-style:italic">Rogers </span>case, this case also concerns a penalty under paragraph 6. That paragraph imposes a further penalty if the return is more than 12 months late. That penalty (like the paragraph 5 penalty) is the greater of &#163;300 and 5% of any liability to tax which would have been shown in the return in question.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Not relevant to the <span style="font-style:italic">Rogers</span> case but potentially relevant to the present case is paragraph 16:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in"><span style="font-weight:bold">16 Special reduction</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(1)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">If HMRC think it right because of special circumstances, they may reduce a penalty under any paragraph of this Schedule.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(2)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">In sub-paragraph (1) &#8220;special circumstances&#8221; does not include&#8212;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">ability to pay, or</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">the fact that a potential loss of revenue from one taxpayer is balanced by a potential over-payment by another.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(3)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">In sub-paragraph (1) the reference to reducing a penalty includes a reference to&#8212;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">staying a penalty, and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">agreeing a compromise in relation to proceedings for a penalty.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Appeals against penalties are considered at paragraphs 20 to 22 which read as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in"><span style="font-weight:bold">Appeal</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">20(1) P may appeal against a decision of HMRC that a penalty is payable by P.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(2)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">P may appeal against a decision of HMRC as to the amount of a penalty payable by P.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">21(1) An appeal under paragraph 20 is to be treated in the same way as an appeal against an assessment to the tax concerned (including by the application of any provision about bringing the appeal by notice to HMRC, about HMRC review of the decision or about determination of the appeal by the First-tier Tribunal or Upper Tribunal).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(2)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Sub-paragraph (1) does not apply&#8211;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">so as to require P to pay a penalty before an appeal against the assessment of the penalty is determined, or</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">in respect of any other matter expressly provided for by <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref>.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">22(1) On an appeal under paragraph 20(1) that is notified to the tribunal, the tribunal may affirm or cancel HMRC&#8217;s decision.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The reference in paragraph 21(1) to &#8220;<span style="font-size:11pt">any provision about bringing the appeal by notice to HMRC</span>&#8221; relates to the following provisions in the TMA concerning the time limits for appeals and the procedures for late appeals.</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in"><span style="font-weight:bold">31 Appeals: right of appeal</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(1)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">An appeal may be brought against&#8211;</p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in">&#8230;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(d)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">any assessment to tax which is not a self-assessment.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in"><span style="font-weight:bold">31A Appeals: notice of appeal</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(1)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Notice of an appeal under&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/31" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31</ref>&#160;of <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> must be given&#8211;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">in writing,</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">within 30 days after the specified date,</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(c)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">to the relevant officer of the Board.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">&#8230;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(4)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">In relation to an appeal under&#160;<ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/31/1" uk:canonical="" uk:origin="TNA" uk:type="legislation">section 31(1)</ref>(d)&#160;of <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">this Act</ref> &#8230;&#8211;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">the specified date is the date on which the notice of assessment was issued, and</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">the relevant officer of the Board is the officer by whom the notice of assessment was given.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in">&#8230;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(5)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">The notice of appeal must specify the grounds of appeal</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in"><span style="font-weight:bold">49 Late notice of appeal</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(1)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">This section applies in a case where&#8211;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">notice of appeal may be given to HMRC, but</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">no notice is given before the relevant time limit.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(2)</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Notice may be given after the relevant time limit if&#8211;</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">HMRC agree, or</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">where HMRC do not agree, the tribunal gives permission.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(3)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">If the following conditions are met, HMRC shall agree to notice being given after the relevant time limit.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(4)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Condition A is that the appellant has made a request in writing to HMRC to agree to the notice being given.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(5)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Condition B is that HMRC are satisfied that there was reasonable excuse for not giving the notice before the relevant time limit.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(6)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Condition C is that HMRC are satisfied that request under subsection (4) was made without unreasonable delay after the reasonable excuse ceased.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(7)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">If a request of the kind referred to in subsection (4) is made, HMRC must notify the appellant whether or not HMRC agree to the appellant giving notice of appeal after the relevant time limit.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">(8)</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">In this section&#160;&#8220;relevant time limit&#8221;, in relation to notice of appeal, means the time before which the notice is to be given (but for this section).</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Also relevant to this case are the provisions concerning electronic communications. The primary legislation concerning such communications is found in the <ref href="http://www.legislation.gov.uk/id/ukpga/1999/16" uk:canonical="1999 c. 16" uk:origin="TNA" uk:type="legislation">Finance Act 1999</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1999/16/section/132" uk:canonical="1999 c. 16 s. 132" uk:origin="TNA" uk:type="legislation">section 132</ref>. In particular, that section permits regulations to be made governing the use of electronic communications for the delivery of information by HMRC to taxpayers and the submission of information by taxpayers to HMRC.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In 2003, the Income and Corporation Taxes (Electronic Communications) Regulations 2003 (SI 2003/282) were duly laid before Parliament. Under regulation 2, it is expressly provided that those regulations cover the submission of tax returns under TMA, <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/8" uk:canonical="1970 c. 9 s. 8" uk:origin="TNA" uk:type="legislation">section 8</ref> and the notification of penalties under the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">Finance Act 2009</ref>, Schedule 55.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Regulation 5 makes provision to ensure that, subject to certain conditions being met, delivery of information by electronic communications is treated as complying with any relevant requirement within the Finance Acts or the TMA. Those additional conditions include the procedure for notifying taxpayers via messages that are accessible on the relevant taxpayer&#8217;s personal tax account (PTA, being a secure section of HMRC&#8217;s own computer system, which is accessible solely by the taxpayer) and the requirement that the taxpayers are notified via e-mail or text message that there is such a message awaiting their attention.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="Taxheading1">The case law on late appeals</heading>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It has long been established that, when the Tribunal has to decide whether to admit a late appeal under the TMA, section 49(2)(b), it has a broader discretion than HMRC and is, therefore, not constrained to look only at the issues identified in section 49(3)&#8212;(6). See, for example, <span style="font-style:italic">R (on the application of Browallia Cal Ltd) v General Commissioners of Income Tax for the City of London</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2003/2779" uk:canonical="[2003] EWHC 2779 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2003">[2003] EWHC 2779 (Admin)</ref> and <span style="font-style:italic">R (on the application of Cook) v General Commissioners</span> <ref href="https://caselaw.nationalarchives.gov.uk/admin/ch/2007/167" uk:canonical="[2007] EWHC 167 (Admin)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2007">[2007] EWHC 167 (Admin)</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">More recently, in <span style="font-style:italic">Martland v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2018/178" uk:canonical="[2018] UKUT 178 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 178 (TCC)</ref>, the Upper Tribunal has given guidance as to how the Tribunal should exercise its discretion:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">44.</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">When the FTT is considering applications for permission to appeal out of time, therefore, it must be remembered that the starting point is that permission should not be granted unless the FTT is satisfied on balance that it should be. In considering that question, we consider the FTT can usefully follow the three-stage process set out in <span style="font-style:italic;font-family:TimesNewRoman,Italic">Denton</span>:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(1)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Establish the length of the delay. If it was very short (which would, in the absence of unusual circumstances, equate to the breach being &#8220;neither serious nor significant&#8221;), then the FTT &#8220;is unlikely to need to spend much time on the second and third stages&#8221; &#8211; though this should not be taken to mean that applications can be granted for very short delays without even moving on to a consideration of those stages.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(2)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">The reason (or reasons) why the default occurred should be established.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(3)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">The FTT can then move onto its evaluation of &#8220;all the circumstances of the case&#8221;. This will involve a balancing exercise which will essentially assess the merits of the reason(s) given for the delay and the prejudice which would be caused to both parties by granting or refusing permission.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">45.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">That balancing exercise should take into account the particular importance of the need for litigation to be conducted efficiently and at proportionate cost, and for statutory time limits to be respected. By approaching matters in this way, it can readily be seen that, to the extent they are relevant in the circumstances of the particular case, all the factors raised in <span style="font-style:italic;font-family:TimesNewRoman,Italic">Aberdeen </span>and <span style="font-style:italic;font-family:TimesNewRoman,Italic">Data Select </span>will be covered, without the need to refer back explicitly to those cases and attempt to structure the FTT&#8217;s deliberations artificially by reference to those factors. The FTT&#8217;s role is to exercise judicial discretion taking account of all relevant factors, not to follow a checklist.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">46.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">In doing so, the FTT can have regard to any obvious strength or weakness of the applicant&#8217;s case; this goes to the question of prejudice &#8211; there is obviously much greater prejudice for an applicant to lose the opportunity of putting forward a really strong case than a very weak one. It is important however that this should not descend into a detailed analysis of the underlying merits of the appeal. In <span style="font-style:italic;font-family:TimesNewRoman,Italic">Hysaj</span>, Moore-Bick LJ said this at [46]:</p>
+		<block name="embeddedStructure"><embeddedStructure>
+		    <level>
+		      <content>
+			<p class="Taxquotation" style="margin-left:1in">&#8220;If applications for extensions of time are allowed to develop into disputes about the merits of the substantive appeal, they will occupy a great deal of time and lead to the parties&#8217; incurring substantial costs. In most cases the merits of the appeal will have little to do with whether it is appropriate to grant an extension of time. Only in those cases where the court can see without much investigation that the grounds of appeal are either very strong or very weak will the merits have a significant part to play when it comes to balancing the various factors that have to be considered at stage three of the process. In most cases the court should decline to embark on an investigation of the merits and firmly discourage argument directed to them.&#8221;</p>
+		      </content>
+		    </level>
+		  </embeddedStructure></block>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in"><span style="font-style:italic;font-family:TimesNewRoman,Italic">Hysaj </span>was in fact three cases, all concerned with compliance with time limits laid down by rules of the court in the context of existing proceedings. It was therefore different in an important respect from the present appeal, which concerns an application for permission to notify an appeal out of time &#8211; permission which, if granted, founds the very jurisdiction of the FTT to consider the appeal (see [18] above). It is clear that if an applicant&#8217;s appeal is hopeless in any event, then it would not be in the interests of justice for permission to be granted so that the FTT&#8217;s time is then wasted on an appeal which is doomed to fail. However, that is rarely the case. More often, the appeal will have some merit. Where that is the case, it is important that the FTT at least considers in outline the arguments which the applicant wishes to put forward and the respondents&#8217; reply to them. This is not so that it can carry out a detailed evaluation of the case, but so that it can form a general impression of its strength or weakness to weigh in the balance. To that limited extent, an applicant should be afforded the opportunity to persuade the FTT that the merits of the appeal are on the face of it overwhelmingly in his/her favour and the respondents the corresponding opportunity to point out the weakness of the applicant&#8217;s case. In considering this point, the FTT should be very wary of taking into account evidence which is in dispute and should not do so unless there are exceptional circumstances.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-size:11pt">47.</num>
+	      <content>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">Shortage of funds (and consequent inability to instruct a professional adviser) should not, of itself, generally carry any weight in the FTT&#8217;s consideration of the reasonableness of the applicant&#8217;s explanation of the delay: see the comments of Moore-Bick LJ in <span style="font-style:italic;font-family:TimesNewRoman,Italic">Hysaj </span>referred to at [15(2)] above. Nor should the fact that the applicant is self-represented &#8211; Moore-Bick LJ went on to say (at [44]) that &#8220;being a litigant in person with no previous experience of legal proceedings is not a good reason for failing to comply with the rules&#8221;; HMRC&#8217;s appealable decisions generally include a statement of the relevant appeal rights in reasonably plain English and it is not a complicated process to notify an appeal to the FTT, even for a litigant in person.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="Taxheading1">The case law on reasonable excuse</heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In <span style="font-style:italic">Perrin v HMRC </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2018/156" uk:canonical="[2018] UKUT 156 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 156 (TCC)</ref>, another case where a tax return was submitted late, the Upper Tribunal gave the following guidance in relation to claims for reasonable excuse:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-size:11pt">81.</num>
+	      <intro>
+		<p class="Taxquotation" style="margin-left:0.79in;text-indent:0.21in">When considering a &#8220;reasonable excuse&#8221; defence, therefore, in our view the FTT can usefully approach matters in the following way:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-size:11pt">(1)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">First, establish what facts the taxpayer asserts give rise to a reasonable excuse (this may include the belief, acts or omissions of the taxpayer or any other person, the taxpayer&#8217;s own experience or relevant attributes, the situation of the taxpayer at any relevant time and any other relevant external facts).</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(2)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Second, decide which of those facts are proven.</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(3)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Third, decide whether, viewed objectively, those proven facts do indeed amount to an objectively reasonable excuse for the default and the time when that objectively reasonable excuse ceased. In doing so, it should take into account the experience and other relevant attributes of the taxpayer and the situation in which the taxpayer found himself at the relevant time or times. It might assist the FTT, in this context, to ask itself the question &#8220;was what the taxpayer did (or omitted to do or believed) objectively reasonable for this taxpayer in those circumstances?&#8221;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-size:11pt">(4)</num>
+		<content>
+		  <p class="Taxquotation" style="margin-left:1in;text-indent:0.5in">Fourth, having decided when any reasonable excuse ceased, decide whether the taxpayer remedied the failure without unreasonable delay after that time (unless, exceptionally, the failure was remedied before the reasonable excuse ceased). In doing so, the FTT should again decide the matter objectively, but taking into account the experience and other relevant attributes of the taxpayer and the situation in which the taxpayer found himself at the relevant time or times.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="Taxheading1">Findings of fact</heading>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We heard oral evidence mainly from the Appellant with some additional comments from her husband. They gave their evidence very credibly. From the oral evidence and the evidence in our bundle of documents we find the following facts:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Appellant strove to be conscientious with her tax affairs.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">To the best of her knowledge and belief, the Appellant had never been late with submitting her tax returns prior to the onset of Covid-19.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Appellant has been within the Self Assessment system since 2004.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">She started to file her tax returns online with her 2011-12 tax return when she registered for online filing in January 2013.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(5)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Appellant&#8217;s income tax affairs are relatively straightforward and only in one year has there been any tax to pay as a result of her return, and that tax liability was very small (&#163;18).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(6)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">For the 2011-12 tax year and the years up to 2018-19, the Appellant filed her tax return on time (electronically): in most years on the day before the return fell due and in two years on the due date as shown below.</p>
+		<table class="TableGrid" uk:widths="1.91in 1.93in 1.92in">
+		  <tr>
+		    <th>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-weight:bold;font-family:'Times New Roman'">Tax year</span></p>
+		    </th>
+		    <th>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-weight:bold;font-family:'Times New Roman'">Due date</span></p>
+		    </th>
+		    <th>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-weight:bold;font-family:'Times New Roman'">Actual filing date</span></p>
+		    </th>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">2011-12</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">31 January 2013</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">30 January 2013</span></p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">2012-13</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">31 January 2014</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">31 January 2014</span></p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">2013-14</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">31 January 2015</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">30 January 2015</span></p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">2014-15</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">31 January 2016</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">31 January 2016</span></p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">2015-16</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">31 January 2017</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">30 January 2017</span></p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">2016-17</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">31 January 2018</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">30 January 2018</span></p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">2017-18</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">31 January 2019</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">30 January 2019</span></p>
+		    </td>
+		  </tr>
+		  <tr>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">2018-19</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">31 January 2020</span></p>
+		    </td>
+		    <td>
+		      <p class="ListParagraph" style="margin-left:0in"><span style="font-family:'Times New Roman'">30 January 2020</span></p>
+		    </td>
+		  </tr>
+		</table>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(7)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">For the 2019-20 and 2020-21 tax years, the due dates for the returns were effectively extended by 28 days in the light of the Covid-19 pandemic. Although not strictly an extension of the due date for the return, it was clearly stated by HMRC that no penalties would be charged for any return received by midnight at the end of 28 February in the relevant year. For simplicity, this decision notice will treat the relevant 28 February as the due date and the expressions &#8220;late&#8221; and &#8220;on time&#8221; in the context of those returns are to be interpreted in that vein. (However, leaving aside this concession for the &#163;100 penalties, the rest of the penalty regime operated on the strict statutory basis that the ordinary due date of 31 January continued to have effect.)</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(8)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC&#8217;s records suggested that the Appellant had submitted her 2019-20 return one day late, on 1 March 2021. However, the Appellant had understood that her 2019-20 return was on time. The Appellant said (and we accept) that she had sat down to file the return on 28 February 2021 (the due date) and her husband did likewise in respect of his return. We therefore find that the Appellant completed the submission process on 28 February 2021, notwithstanding the fact that HMRC&#8217;s computer records indicated that the return was not submitted until 24 hours later.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(9)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC&#8217;s computer records also indicate that, on 1 March 2021, the Appellant opted in to receiving communications from HMRC electronically. The effect of this opt-in was that statutory notices would be sent by HMRC to the Appellant&#8217;s PTA. This meant that the Appellant would then be able to access her messages by logging into HMRC&#8217;s computer system using her own personalised access codes, which are the same as those which she would use to file her returns electronically. Whenever a notice is sent to a taxpayer&#8217;s PTA, HMRC then send a generic e-mail to the e-mail address that has been registered by the taxpayer with HMRC. That generic e-mail says that a message is waiting on the taxpayer&#8217;s PTA. The generic e-mail gives no indication as to the urgency of the message or any other clue as to the contents of that message.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(10)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">This was the second time that the Appellant had apparently opted in to receiving electronic communications from HMRC. The first time was on 31 January 2016. The Appellant had no recollection of opting in on either occasion and Miss Shardlow could not say whether the 2021 opt-in followed an earlier decision to opt out of receiving electronic communications. Noting the fact that the two apparent opt-ins coincided with dates on which the Appellant submitted her tax return (or, in the 2021 instance, the date which is recorded as when the Appellant submitted her tax return) and that the Appellant was unaware that she had opted in, we find that both of the opt-ins were inadvertent and that the boxes were ticked (or not unticked) by the Appellant in the course of the submission of her tax returns, without the Appellant understanding the import of her actions (let alone consciously consenting to it). We consider that, on both occasions, the Appellant was focusing on ensuring that her tax returns were properly submitted and that she would not have realised that she was also exposing herself to a wholly different way of receiving communications from HMRC. As a result, we find that the Appellant acted reasonably by not taking note of the generic e-mail notifications sent to her by HMRC and by not looking at her PTA for messages that she did not expect to find there.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(11)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">Reflecting the fact that HMRC&#8217;s computer records noted that the 2019-20 tax return was received one day late, a &#163;100 penalty for the late return was issued to the Appellant. Given that she was signed up for electronic communications, this was sent to her electronically in accordance with the process outlined at paragraph &#8206;(9) above. However, the Appellant was unaware of this and she has no recollection of receiving even the generic e-mail notification. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(12)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">We find as a fact that the Appellant did receive this generic e-mail notification (and the others that were issued in relation to her 2020-21 tax return, discussed further below). However, we find that these were directed to her spam box on her e-mail system and promptly deleted by the Appellant who had no reason to expect to receive any genuine e-mails from HMRC.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(13)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">As the 2019-20 tax return was only one day late (so far as HMRC&#8217;s records were concerned), there were no further penalties issued in relation to it and, thus, no further electronic notifications by e-mail in relation to that return. It also appears, and we duly find, that no steps were taken by HMRC to collect the &#163;100 penalty. This had three adverse consequences so far as the Appellant was concerned: first, it meant that interest then started to accrue on the &#163;100 debt; secondly, it denied the Appellant the opportunity to be aware that there was even an issue with her 2019-20 tax return so as to make a challenge to the &#163;100 penalty for that year; thirdly, and most relevantly to this appeal, it denied the Appellant the opportunity to realise that important correspondence from HMRC might be sent to her PTA and that she would be alerted to such correspondence by a rather generic e-mail.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(14)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">A notice requiring the Appellant to file a tax return for the 2020-21 tax year was sent on or shortly after 6 April 2021. This notice was also sent to the Appellant&#8217;s PTA.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(15)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">When it came to filing her tax return for the 2020-21 tax year, the Appellant (as did her husband) sat down on 28 February 2022, which was the extended filing date. It was common ground that, in the course of the evening, the Appellant had entered all of the figures, showing her sources of income, and that she accessed her computation showing that she had no tax to pay for the year (the outcome she was expecting). HMRC&#8217;s computerised records show that the Appellant had reached the final stages of the process including &#8220;save your return&#8221;, the declaration stage and the subsequent re-authentication stage which was explained to us as equivalent to relogging in.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(16)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">It was HMRC&#8217;s case and we accept that the Appellant needed to take one further step, to actually submit her return. Had she done so, the Appellant would have received a 16-digit confirmation code.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(17)</num>
+	      <intro>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">From the Appellant&#8217;s perspective, however, she had reached the end of the process as the screen gave no indication of there being a further step. Although she had received confirmation codes in earlier years, the Appellant was not unduly surprised by the lack of code on this occasion as:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(a)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">she had no reason to assume that the processes would be identical from year to year &#8211; as her husband observed, the tax returns themselves did change slightly over the course of the years;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(b)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">furthermore, she was expressly told that she had no tax to pay;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(c)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">the images on the screen indicated to her that there were no further steps to undertake and it was not possible to go further.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(18)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">Nevertheless, as a precaution, the Appellant took a screenshot to record what she believed to be a confirmation that she had completed the process. As the Appellant later advised HMRC in writing, she did so because she was concerned that the screen did not look quite right. We took this to be a further indication that the Appellant believed she had completed the process. We also considered that, whilst the screenshot did not in fact prove what the Appellant believed it to prove, it was an indication that the Appellant was acting in a way that was reasonable for a taxpayer, with basic tax affairs and who had no reason to seek professional assistance with her tax obligations, who was conscious of and intending to comply with her tax obligations.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(19)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">The Appellant told us that she was later told by HMRC (when, in 2023, she queried the penalties) of a major issue with HMRC&#8217;s computer system around 28 February 2022. The Appellant explained to us that she was unaware of any connection issues at her end and, not only did her husband successfully file his own tax return that evening, but she was able to carry out other tasks using her computer that evening after finishing her tax return. We find that, so far as the Appellant is concerned, there was a temporary blip which led to the Appellant&#8217;s computer freezing, but we make no finding as to the source or cause of this blip. Therefore, we agree with HMRC that the Appellant did not fully complete the process of submitting her return. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(20)</num>
+	      <intro>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">However, for the reasons identified in paragraphs &#8206;(17) and &#8206;(18) above, we also find that the Appellant reasonably believed:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(a)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">that she had submitted the return on time; and </p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(b)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">that her obligations in relation to the 2020-21 tax year were complete.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(21)</num>
+	      <intro>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">The absence of a complete return on HMRC&#8217;s system, however, then led to a series of notifications being sent to the Appellant&#8217;s PTA, each with a corresponding generic e-mail being sent to the Appellant&#8217;s e-mail address. There appears to have been a slight lag (of up to a week) between the dates of the notices and the actual generic e-mails (which was not examined at the hearing). The notices sent were:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(a)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">a notice of a &#163;100 penalty dated 8 March 2022 &#8211; notified 10 March 2022;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(b)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">a notice dated 31 May 2022 advising the Appellant that she had incurred 30 days&#8217; worth of &#163;10 daily penalties &#8211; notified 7 June 2022;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(c)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">a notice dated 5 July 2022 advising the Appellant that she had incurred a further 30 days&#8217; worth of &#163;10 daily penalties &#8211; notified 7 July 2022;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(d)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">a notice dated 16 August 2022 with an assessment made on the Appellant for a &#163;900 penalty (representing the maximum 90 days&#8217; worth of &#163;10 daily penalties) together with &#163;300 representing a further penalty for the return being six months late &#8211; notified 19 August 2022;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(e)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">a notice dated 14 February 2023 with an assessment made on the Appellant for &#163;300 representing a further penalty for the return being twelve months late &#8211; notified 17 February 2023.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(22)</num>
+	      <intro>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">In addition, HMRC sent the Appellant occasional statements to her PTA to advise her of her increasing indebtedness to HMRC as follows:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(a)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">a statement dated 7 April 2022, showing the 2019-20 penalty (and a year&#8217;s interest (approximately)) and the 2020-21 penalty &#8211; notified 9 April 2022;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(b)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">a statement dated 31 August 2022, showing, in addition, the &#163;900 and &#163;300 penalties and the increasing interest &#8211; notified 2 September 2022;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(c)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">a statement dated 28 February 2023, showing, in addition, the final &#163;300 penalty and the further increasing interest &#8211; notified 2 March 2023.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(23)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">However, as these were sent to the Appellant&#8217;s PTA and because the Appellant did not see the generic e-mails (other than to delete them unopened), these additional statements did not have the effect of alerting the Appellant to the fact that her 2020-21 return was still not finalised or that she was continuing to be penalised for this.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(24)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">The Appellant candidly noted that she had seen an e-mail purporting to be from HMRC which advised her that her 2020-21 tax return was late. However, the Appellant promptly deleted that e-mail because she was wary of scam e-mails and she was confident that her 2020-21 tax return had been submitted on time. As any genuine e-mail from HMRC would not have contained any information as to the status of the Appellant&#8217;s tax return, we decided that the e-mail referred to by the Appellant was indeed a malicious one and that she was right to delete it.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(25)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">As the Appellant said at the hearing, the first indication the Appellant had that anything was wrong was in the early months of 2023 when she saw that she owed over &#163;1,000 to HMRC. The source of this knowledge was a debt management letter dated 23 March 2023 which was sent in the post to the Appellant&#8217;s home. The Appellant called HMRC on 31 March 2023 and was told that the 2020-21 return was still not finalised. The Appellant made it clear on that call that she believed that her 2020-21 return was submitted on time and referred to the screenshot that she had taken to prove her point. The Appellant was advised to complete the submission process before pursuing any appeal. We take judicial notice of the fact that it is standard HMRC practice to advise taxpayers that appeals against penalties for late returns may not be made until after the return has been submitted. Our papers show that the 2020-21 tax return was finally submitted on 31 March 2023, which we find was immediately after the Appellant&#8217;s call with HMRC.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(26)</num>
+	      <intro>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">HMRC&#8217;s record of the Appellant&#8217;s call on 31 March 2023 reads as follows:</p>
+	      </intro>
+	      <subparagraph>
+		<content>
+		  <p class="Taxquotation" style="margin-left:0.79in">Penalties: T/p adamant that she submitted tax return and took a screen shot. Asked t/p to check screen shot as may be useful when making penalty appeal. Advised t/p to access online account and check 20/21 and submit SATR. Advised to call back after SATR</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(27)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">It appears and we find that the Appellant was unaware that she then had to write to appeal against the penalties themselves until after she received further statements from HMRC indicating an increasing debt during the summer of 2023 (now standing at &#163;1,770.67, including interest).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(28)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">On 24 August 2023, the Appellant called HMRC to restate her belief that her return had been submitted on time and she was then advised to make a formal appeal. That letter of appeal was recorded by HMRC as received by them on 8 September 2023. Also on 24 August 2023, the Appellant opted out of receiving electronic communications to reflect what we find to have been her intentions all along.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(29)</num>
+	      <intro>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">We did not consider whether the time to appeal should start to run from the date of the imposition of the relevant penalties or the slightly later date being when notification was given to the Appellant. (See subparagraph &#8206;(21) above.) Nor did we examine whether HMRC&#8217;s record of the appeals being received on 8 September 2023 accurately reflects the date on which the letter actually arrived at HMRC&#8217;s premises as it is likely that the Appellant would have written more promptly after her conversation with HMRC on 24 August than is suggested by the date of 8 September. Instead, for the purposes of this decision, we looked at the delays in the least favourable light from the Appellant&#8217;s perspective. On that basis, the appeals were late by the following margins:</p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(a)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">the notice of a &#163;100 penalty dated 8 March 2022 &#8211; 519 days;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(b)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">the notice of 16 August 2022 with the &#163;900 and &#163;300 penalties &#8211; 358 days;</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(c)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">the notice of 14 February 2023 with the further &#163;300 penalty &#8211; 176 days.</p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(30)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">HMRC did not acknowledge the Appellant&#8217;s appeal until 17 January 2024 (i.e. over four months later) and then rejected her appeals, saying they were too late. The Appellant responded on 24 January 2024. HMRC treated this response as having arrived on 14 February 2024. HMRC responded slightly more quickly this time (3&#189; months after receipt, on 31 May 2024) again stating that the Appellant&#8217;s appeal was too late. HMRC gave the Appellant 30 days to write to the Tribunal. The Tribunal received the written notice of appeal on 24 June 2024.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="Taxheading1">Admission of the appeals late</p>
+	    <p class="Taxheading2">HMRC&#8217;s arguments</p>
+	  </content>
+	</level>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">HMRC&#8217;s written and oral submissions correctly followed the three-stage test laid down in <span style="font-style:italic">Martland</span>. In summary:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">In the context of a 30-day statutory time limit for notifying an appeal to HMRC, delays ranging from 176 to 519 days are both serious and significant.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The only reason given by the Appellant for not appealing on time was her assertion she did not receive any penalty notifications concerning the late filing of her 2020-21 tax return. However, HMRC&#8217;s case was that the notifications were all sent to the Appellant&#8217;s PTA in accordance with the consent that she had given. It was HMRC&#8217;s case therefore that there is no good reason for failing to appeal in time.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(3)</num>
+	    <intro>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Factors militating against the admission of the late appeals (as reinforced in a number of cases referred to in HMRC&#8217;s submissions) were:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(a)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">the importance of complying with statutory time limits;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(b)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">the importance of the need for litigation to be conducted efficiently and at proportionate cost and that HMRC would be prejudiced by having to divert resources to defend an appeal which they were entitled to consider closed (even more so given the significant length of the delay); and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.79in">(c)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">the need for HMRC to be able to rely on statutory time limits for the purpose of allocating resource in administering the tax system.</p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">HMRC&#8217;s submissions acknowledged that refusal to admit the appeal would give rise to some prejudice to the Appellant as she would then be denied the opportunity to challenge the penalties. However, HMRC&#8217;s submission correctly pointed out that that is not a trump card. It was HMRC&#8217;s argument that the preceding factors outweigh the prejudice to the Appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Referring to the extract from <span style="font-style:italic">Hysaj</span> as cited in <span style="font-style:italic">Martland</span> (above), HMRC submitted that, to the limited extent that the Tribunal considers the merits of the case, they believed that the Appellant&#8217;s case was weak.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="Taxheading2">Discussion</p>
+	  </content>
+	</level>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We too applied the three-stage test from the Upper Tribunal&#8217;s decision in <span style="font-style:italic">Martland</span>. In doing so, we concluded that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The delays, in the context of a 30-day statutory appeal period, are undoubtedly serious in nature.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The delays were all caused by the Appellant being unaware of the fact that she had signed up to receive electronic notifications to her PTA and therefore she was not consciously looking out for any alerts from HMRC by e-mail.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In relation to the third stage, we took into account the seriousness of the Appellant&#8217;s delays. We also recognised that, in some way, the Appellant was the author of her own misfortune in two key respects. She had signed up to receive electronic communications from HMRC and, on at least three occasions, deleted genuine e-mails from HMRC which should have alerted her to check her PTA.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On the other hand, the Appellant clearly strove to comply with her tax obligations over a number of years. There is nothing wrong with a taxpayer &#8211; particularly one with relatively simple affairs &#8211; routinely leaving the task of submitting a tax return to the evening of the deadline (or the previous day). </p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Furthermore, we decided that signing up to the electronic notification process was unintentional and more likely to be as a result of confusion in the course of the submission process. We were reinforced in that conclusion by the fact that the Appellant appears to have done so on more than one occasion, apparently without having opted out in the interim. For this reason, we consider that the Appellant had good reason to believe that the bland e-mail messages being sent by HMRC were spam and/or phishing exercises and that it was reasonable for her to promptly delete them. As a result and particularly given the simple nature of her tax affairs, we find that the Appellant had good reason not to look at her PTA where the penalty notifications were being sent.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We also considered that the &#163;1,600 penalties (which are aggravated by the consequential interest) are a significant sum for the Appellant given her income levels and, indeed, the Appellant had explained to HMRC that she could not easily afford to pay the sums being demanded by HMRC. As a result, to refuse to admit the appeals would cause particular prejudice to the Appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In relation to HMRC&#8217;s argument that they would suffer prejudice if the appeals were admitted &#8220;in that they will have to divert resources to defend an appeal which they were entitled to consider closed&#8221;, we also note the approach taken by this Tribunal in <span style="font-style:italic">Ellis v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2023/388" uk:canonical="[2023] UKFTT 388 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2023">[2023] UKFTT 388 (TC)</ref>. That suggested a comparison should be made between the situation now being sought and that which would have existed had the original delay not occurred. On that basis, particularly given the relatively routine nature of the case, the additional resources that HMRC are required to expend are not materially different from those that would have been necessary to expend had the appeals been more timely. Thus, any prejudice to HMRC in the appeals being admitted is slight.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We also note that the only reason why HMRC could have thought that this case was &#8220;closed&#8221; was the Appellant&#8217;s inaction in response to the notices sent electronically. However, we consider that HMRC would have been able to notice that the Appellant had not accessed her PTA had they looked at the record of occasions on which the Appellant logged into the HMRC website.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Furthermore, we took into account the prompt actions taken by the Appellant as soon as she was alerted to the issue. As noted above, we concluded that it was reasonable for the Appellant to have remained unaware that she had a problem until March 2023, at which time she made contact with HMRC. We also conclude that the Appellant did not know that she had to take further steps to challenge the penalties until 24 August 2023. In particular, we considered the call log records of the conversation on 31 March 2023. Whereas the Appellant was expressly told to submit her 2020-21 return, she was not expressly told to make an appeal. Until 24 August 2023, therefore, we find that the Appellant reasonably believed that the problem had been resolved by completing the submission process, something that she had done on 31 March 2023 when she was first made aware of it. We consider any delay between 24 August and 8 September 2023, when HMRC say that they received the appeals, to be negligible.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">For the purposes of this exercise, we did not consider the merits of the Appellant&#8217;s actual appeal, other than to note that, contrary to HMRC&#8217;s categorisation of the case as &#8220;weak&#8221;, it was not obviously without merit.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Taking a step back, we decided that it was appropriate for the Appellant&#8217;s appeals to be admitted, notwithstanding the serious delays and the Appellant&#8217;s own actions that led to this situation. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="Taxheading1">Penalties for late returns</p>
+	  </content>
+	</level>
+	<paragraph eId="para_35">
+	  <num>35.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">For the reasons summarised at paragraph &#8206;21(19) and &#8206;(25) above, we concluded that the return was not submitted on 28 February 2022 but only on 31 March 2023 following the Appellant&#8217;s telephone conversation with HMRC. The Appellant had successfully completed most of the process but failed at the final submission stage which required her to re-authenticate her details.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="Taxheading2">HMRC&#8217;s arguments &#8211; reasonable excuse</p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num>36.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">HMRC&#8217;s written and oral submissions correctly followed the approach laid down by the Upper Tribunal in <span style="font-style:italic">Perrin</span>. In summary, HMRC argued as follows:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">That the Appellant&#8217;s factual assertions as to why she did not submit the return on time did not constitute a reasonable excuse because this was an &#8220;ordinary everyday&#8221; responsibility rather than an exercise in a specialist or obscure area of tax law. The Appellant&#8217;s failure should further be viewed in the light of the fact that she has been in the Self Assessment regime since 2004 and has filed online since 2013. At the hearing, Miss Shardlow submitted that the Appellant would have received a confirmation message in previous years and, therefore, the absence of a confirmation message on 28 February 2022 should have told the Appellant that her return had not been properly submitted.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">In addition, this was not a case of a single message being overlooked but, as HMRC submitted, &#8220;numerous other notices, such as daily penalty reminders, notices of penalty assessments and statements of account were sent to the Appellant before she finally acted to fully submit the outstanding return on 31 March 2023&#8221;.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(3)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Furthermore, when the Appellant submitted her 2021-22 tax return on 30 January 2023, the Appellant would have had an opportunity to look at her PTA to see the various notifications awaiting her attention. At the hearing, Miss Shardlow submitted that the Appellant had a responsibility to check her PTA for any information sent there. However, Miss Shardlow accepted that the Appellant would not have known of the fact of the late return and the penalties had she not accessed the PTA.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(4)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC relied on the fact that each penalty notice included a link advising the reader how to appeal and that such notices are generally subject to a 30-day appeal time limit.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(5)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC also relied on the fact that an outstanding debt letter would have been sent by post to the Appellant on 23 March 2023. HMRC argued that this should be deemed to have been received by reference to the provisions in the TMA, <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/115" uk:canonical="1978 c. 30 s. 115" uk:origin="TNA" uk:type="legislation">section 115</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30" uk:canonical="1978 c. 30" uk:origin="TNA" uk:type="legislation">Interpretation Act 1978</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/7" uk:canonical="1978 c. 30 s. 7" uk:origin="TNA" uk:type="legislation">section 7</ref>.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(6)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC also argued that the Appellant must have known about the penalties following her receipt of the 23 March 2023 letter.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(7)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC rely on their system notes which record the HMRC&#8217;s call handler&#8217;s summary of the calls from the Appellant on 31 March 2023 and 24 August 2023 and point out that there is no record that HMRC had advised the Appellant of a major computer system issue being experienced on 28 February 2022.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(8)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Finally, HMRC rely on the fact that guidance on how to make late appeals is widely available online and argue that the onus is on the Appellant to provide a reasonable excuse for appealing late.</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num>37.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Miss Shardlow made clear that she was not relying on the possibility that the Appellant might also have been late with the submission of her 2019-20 tax return. Her submissions were predicated on the assumption that this appeal concerned a first-time offence.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_38">
+	  <num>38.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">HMRC&#8217;s written submissions also advanced points concerning the statutory rules that determine how penalties are calculated, the proportionality of the regime and the fact that interest charges cannot be the subject of an appeal. However, as they are not pertinent to the question of reasonable excuse, we do not address them in this decision.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p class="Taxheading2">Discussion</p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num>39.</num>
+	  <intro>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In light of the guidance given by the Upper Tribunal in <span style="font-style:italic">Perrin</span> and given our findings of fact above, we decided that:</p>
+	  </intro>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">In respect of the submission of her 2020-21 tax return, the Appellant has conducted herself as someone who was conscious of and intending to comply with her tax obligations.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">We agree with HMRC that the Appellant&#8217;s tax affairs are relatively simple and that, for someone in her position, the process of submitting a tax return is not excessively complex (even if not an &#8220;everyday&#8221; obligation). However, we do not consider that that precludes the Appellant from having a reasonable excuse for any errors made by her. Furthermore, given the relative simplicity of the Appellant&#8217;s tax affairs, we do not consider that this is an area where it was unreasonable for the Appellant to proceed without professional assistance.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(3)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Appellant reasonably believed that she had completed the process of submitting her 2020-21 tax return on 28 February 2022 which was in effect the due date. In particular, although the Appellant might have expected to receive some confirmatory message from HMRC following the completion of the submission process, it was not unreasonable of her (being someone who would not have undertaken the process before for that particular year&#8217;s tax return) to conclude that, when the screen suggested that there were no further steps to take, she had in fact completed the process. Demonstrating a non-cavalier approach to her tax obligations, the Appellant took and retained a screenshot to &#8220;prove&#8221; that she had in fact completed the process should the matter ever be disputed. From the Appellant&#8217;s perspective, it was not disputed for over a year, yet the Appellant was still able to access that screenshot.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(4)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">As a result, the Appellant had a reasonable excuse for not completing the process before midnight on 28 February 2022.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(5)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Appellant was unaware of the failure to submit the return until March 2023, upon receipt of the debt letter (dated 23 March 2023), after which time she promptly called HMRC and promptly thereafter completed the submission process. We were unsure of the relevance of HMRC&#8217;s reliance on the provisions in the TMA, <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/115" uk:canonical="1978 c. 30 s. 115" uk:origin="TNA" uk:type="legislation">section 115</ref> and the <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30" uk:canonical="1978 c. 30" uk:origin="TNA" uk:type="legislation">Interpretation Act 1978</ref>, <ref href="http://www.legislation.gov.uk/id/ukpga/1978/30/section/7" uk:canonical="1978 c. 30 s. 7" uk:origin="TNA" uk:type="legislation">section 7</ref> to a debt letter as that does not constitute a statutory notice. Furthermore, we consider that issue to be irrelevant as we find that the letter was actually received by the Appellant and indeed led to the Appellant calling HMRC on 31 March 2023.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(6)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">In the meantime, the only communications sent to the Appellant that would have alerted her to the problem were sent electronically to the Appellant&#8217;s PTA, together with generic e-mails to her personal e-mail address. For the reasons discussed above, we find that, in the circumstances of the case, it was reasonable for the Appellant not to have checked her PTA and to have remained unaware of the problem until March 2023. Similarly, the fact that more than one message was sent to the Appellant&#8217;s PTA and the fact that each penalty assessment contained a link to the guidance on how to make an appeal do not assist HMRC in this case.</p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="margin-left:0.39in">(7)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Thus it was only in March 2023 that the reasonable excuse ceased. However, the Appellant then remedied the failure extremely quickly (and, thus, without unreasonable delay).</p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num>40.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In short, we consider that, for someone in the Appellant&#8217;s circumstances, she acted in an objectively reasonable way and her failure to submit the return until 31 March 2023 was also objectively reasonable.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num>41.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Accordingly, we decide that the condition in paragraph 23(1) of Schedule 55 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">Finance Act 2009</ref> is met. The circumstances identified in paragraph 23(2)(a) and (b) do not apply in this case. Thirdly, we decide that the condition in paragraph 23(3)(c) is met.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p class="Taxheading1">Special reduction</p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num>42.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We did not consider the question of special reduction in light of our decision in relation to reasonable excuse.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p class="Taxheading1">Right to apply for permission to appeal</p>
+	  </content>
+	</level>
+	<paragraph eId="para_43">
+	  <num>43.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This document contains full findings of fact and reasons for the decision. Any party dissatisfied with this decision has a right to apply for permission to appeal against it pursuant to Rule 39 of the Tribunal Procedure (First-tier Tribunal) (Tax Chamber) Rules 2009. The application must be received by this Tribunal not later than 56 days after this decision is sent to that party. The parties are referred to &#8220;Guidance to accompany a Decision from the First-tier Tribunal (Tax Chamber)&#8221; which accompanies and forms part of this decision notice.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:center"><span style="font-weight:bold">Release date: </span><docDate date="2025-05-01" refersTo="#decision"><span style="font-weight:bold">01</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> MAY 2025</span></docDate></p>
+	  </content>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

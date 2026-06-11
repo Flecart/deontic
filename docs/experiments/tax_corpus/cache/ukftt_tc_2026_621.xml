@@ -1,0 +1,942 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2026/621"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2026/621"/>
+	  <FRBRdate date="2026-04-23" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="621"/>
+	  <FRBRname value="Gerrit Wals v The Commissioners for HMRC"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/621"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/621"/>
+	  <FRBRdate date="2026-04-23" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/621/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2026/621/data.xml"/>
+	  <FRBRdate date="2026-04-24T16:03:13" name="transform"/>
+	  <FRBRdate date="2026-04-27T08:02:53" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-10-29" refersTo="#hearing" source="#"/>
+	<eventRef date="2026-04-23" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-tc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-tax" showAs="United Kingdom First-tier Tribunal (Tax)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="gerrit-wals" href="" showAs="GERRIT WALS"/>
+	<TLCPerson eId="the-commissioners-for-his-majestys-revenue-and-customs" href="" showAs="THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-tribunal-judge-nigel-popplewell" href="/judge-tribunal-judge-nigel-popplewell" showAs="TRIBUNAL JUDGE NIGEL POPPLEWELL"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-TC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>621</uk:number>
+	<uk:cite>[2026] UKFTT 621 (TC)</uk:cite>
+	<uk:parser>1.7.1</uk:parser>
+	<uk:hash>3ec6738eaa5d5aecc3169b5eed77df65f30f4ebe72369a0f10a5d3b73b33b255</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1 { text-align: justify; font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Taxbodytext1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2 { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4 { text-align: justify; margin-left: 1.18in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2 { text-align: justify; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3 { text-align: justify; font-style: italic; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4 { text-align: justify; font-style: italic; font-weight: normal; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxquotation { text-align: justify; margin-left: 0.79in; margin-right: 0.76in; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5 { text-align: justify; margin-left: 1.58in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeading { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Bodytexttax2 { text-align: justify; margin-left: 0.49in; font-size: 12pt; }
+#judgment .Bodytexttax4 { text-align: justify; margin-left: 1.5in; font-size: 12pt; }
+#judgment .Bodytexttax1 { text-align: justify; font-size: 12pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1Char { font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext1Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3Char { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4Char { font-style: italic; font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxquotationChar { font-family: 'Times New Roman'; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeadingChar { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; }
+#judgment .legdslegrhslegp2text { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:82.49pt;height:72pt"/></p>
+      <p style="text-align:left">Neutral Citation: <neutralCitation>[2026] UKFTT 00621 (TC)</neutralCitation></p>
+      <p style="text-align:right">Case Number: TC 09855</p>
+      <p style="text-align:left"><courtType refersTo="#ukftt-tc" style="font-weight:bold">FIRST-TIER TRIBUNAL</courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukftt-tc" style="font-weight:bold">TAX CHAMBER</courtType></p>
+      <p style="text-align:right;margin-left:3.05in">In public by remote video hearing</p>
+      <p style="text-align:right">Appeal reference: TC/2023/09847</p>
+      <p><span style="font-style:italic">INCOME TAX &#8211; penalties for late filing &#8211; no s8 Notice to file served on appellant &#8211; voluntary</span><span/><span style="font-style:italic">returns &#8211;</span><span/><span style="font-style:italic">filing date deemed to be date returns made &#8211; not late &#8211; appeal allowed</span></p>
+      <p style="text-align:right;margin-left:3.05in"><span style="font-weight:bold">Heard on: </span><docDate date="2025-10-29" refersTo="#hearing">29 October 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold">Judgment date: </span>23 April 2026</p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-tribunal-judge-nigel-popplewell" style="font-weight:bold">TRIBUNAL JUDGE NIGEL POPPLEWELL</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold">MISS PATRICIA GORDON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#gerrit-wals" style="font-weight:bold">GERRIT WALS</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-commissioners-for-his-majestys-revenue-and-customs" style="font-weight:bold">THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Representation:</span></p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Appellant:<marker name="tab"/>Mr James Ross of Ross &amp; Co Chartered Accountants</p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Respondents: <marker name="tab"/>Mr Jordan Ness litigator of HM Revenue and Customs&#8217; Solicitor&#8217;s Office</p>
+      <p style="text-align:center"><span style="font-weight:bold;font-size:14pt">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading><span style="font-weight:bold">PREAMBLE</span></heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="Bodytexttax1" style="margin-left:0in;text-indent:0.39in">This is a revised decision of the Tribunal following a review conducted pursuant to Rule 41 of the Tribunal Procedure (First-tier Tribunal) (Tax Chamber) Rules 2009.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="Bodytexttax1" style="margin-left:0in;text-indent:0.25in">The appellant&#8217;s appeal in this matter was heard on 29 October 2025 by way of an online video hearing by Judge Nigel Popplewell and Miss Patricia Gordon. As can be seen from the text below, HMRC considered that the appellant had been late in filing individual tax returns for tax years 2010/2011, 2011/2012, 2012/2013 and 2014/2015. They therefore visited penalty assessments on the appellant under schedule 55 <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">Finance Act 2009</ref> for each of those years. A decision notice giving full findings of facts and reasons was released on 7 November 2025 (the "<span style="font-weight:bold">Decision</span>").</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="Bodytexttax1" style="margin-left:0in;text-indent:0.25in">The Decision allowed the appeal against the penalty for the tax year 2010/2011 but dismissed the appeal against the penalties in respect of the other years.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Bodytexttax1" style="margin-left:0in;text-indent:0.25in">By notice dated 24 December 2025 the appellant&#8217;s representative, Ross &amp; Company (&#8220;<span style="font-weight:bold">the representative</span>&#8221;), applied on the appellant's behalf for permission to appeal the Decision to the Upper Tribunal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <content>
+	      <p class="Bodytexttax1" style="margin-left:0in;text-indent:0.25in">The grounds of that application were that having concluded that the appellant had never received valid notices to file for those periods, and correctly identified that the returns were therefore voluntary returns and thus treated as having been made in response to a notice given by HMRC under <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/8" uk:canonical="1970 c. 9 s. 8" uk:origin="TNA" uk:type="legislation">section 8</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">TMA 1970</ref>, the tribunal made an error of law in failing to recognise that the filing date did not arise until the date on which the returns were submitted, and were thus not filed late.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="Bodytexttax1" style="margin-left:0in;text-indent:0.25in">If that was correct, then none of the tax returns were filed late and thus the appeal should have been allowed in respect of all periods. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Bodytexttax1" style="margin-left:0in;text-indent:0.25in">In their application to appeal, the representative asked us to review our decision in light of their foregoing grounds of appeal. We therefore considered, in accordance with Rule 40(1) of the Tribunal Procedure (First-tier Tribunal) (Tax Chamber) Rules 2009, whether to review the Decision and decided to undertake a review as we were satisfied that there was an error of law in the Decision.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="Bodytexttax1" style="margin-left:0in;text-indent:0.25in"><span class="legdslegrhslegp2text">We have therefore decided, in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15/section/9/4" uk:canonical="2007 c. 15 s. 9" uk:origin="TNA" uk:type="legislation">section 9(4)</ref>(c) of the <ref href="http://www.legislation.gov.uk/id/ukpga/2007/15" uk:canonical="2007 c. 15" uk:origin="TNA" uk:type="legislation">Tribunals, Courts and Enforcement Act 2007</ref> to set aside those parts of the Decision which relate to the penalties for the periods</span>, 2011/2012, 2012/2013 and 2014/2015<span class="legdslegrhslegp2text"> and to re-decide those matters. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="Bodytexttax1" style="margin-left:0in;text-indent:0.39in">This decision has been considered in draft by the parties who have both confirmed that they are satisfied with it and with the outcome of our review.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Taxbodytext1"><span style="font-weight:bold;font-family:'Times New Roman'">INTRODUCTION</span></heading>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">This decision deals with an appeal against late filing penalties (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">the penalties</span><span style="font-family:'Times New Roman'">&#8221;) visited on the appellant under Schedule 55 <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">Finance Act 2009</ref> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'">Schedule 55</span><span style="font-family:'Times New Roman'">&#8221;) for the late filing of individual tax returns for the tax years 2010/2011, 2011/2012, 2012/2013 and 2014/2015.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">Details of the penalties which amount in total to &#163;4,500 are set out in the table in the appendix.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">For the reasons given later in this decision we have decided that the relevant returns were not made late and so Schedule 55 cannot apply. We have therefore allowed the appeal.</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Taxbodytext1"><span style="font-weight:bold;font-family:'Times New Roman'">THE LEGISLATION</span></heading>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">There was no dispute about the legislation which is summarised below:</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_1">
+	    <num>(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">Under <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/8" uk:canonical="1970 c. 9 s. 8" uk:origin="TNA" uk:type="legislation">Section 8</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">Taxes Management Act 1970</ref> (&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman'"><ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">TMA 1970</ref></span><span style="font-family:'Times New Roman'">&#8221;</span><span style="font-weight:bold;font-family:'Times New Roman'">),</span><span style="font-family:'Times New Roman'"> a taxpayer, chargeable to income tax and capital gains tax for a year of assessment, (year 1) who is required by an officer of the Board to submit a tax return, must submit that return to that officer by 31 October immediately following the year of assessment (year 2) (if filed by paper) and 31 January in year 2 (if filed on line). </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_2">
+	    <num>(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">However, this general rule is amended in certain circumstances. Under <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/8" uk:canonical="1970 c. 9 s. 8" uk:origin="TNA" uk:type="legislation">section 8</ref>(1F) TMA, if a notice to file in respect of year 1 is given after 31 July in year 2 (but on or before 31 October) a return must be delivered within three months of the date of the notice (for a paper return), or on or before 31 of January in year 2 (for an electronic return).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_3">
+	    <num>(3)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">Under <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/8" uk:canonical="1970 c. 9 s. 8" uk:origin="TNA" uk:type="legislation">section 8</ref>(1G) TMA, where the notice to file is given after 31 October in year 2, the return (whether electronic or not) must be delivered during the period of 3 months beginning with the date of the notice.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_4">
+	    <num>(4)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'"> Under <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/12" uk:canonical="1970 c. 9 s. 12" uk:origin="TNA" uk:type="legislation">section 12</ref>D <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">TMA 1970</ref>, voluntary returns (i.e. returns which are not submitted in response to a notice to file) are treated as having been made in response to such a notice which was given to the person on the same date as the return was received by HMRC.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_5">
+	    <num>(5)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">Failure to file the return on time engages the penalty regime in Schedule 55.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_6">
+	    <num>(6)</num>
+	    <intro>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">Penalties are calculated on the following basis:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(a)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.39in;text-indent:0.38in"><span style="font-family:'Times New Roman'">failure to file on time (i.e. the late filing penalty) - &#163;100 (paragraph 3).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(b)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.39in;text-indent:0.38in"><span style="font-family:'Times New Roman'">failure to file for three months (i.e. the daily penalty) - &#163;10 per day for the next 90 days (paragraph 4).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(c)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.39in;text-indent:0.38in"><span style="font-family:'Times New Roman'">failure to file for 6 months (i.e. the 6-month penalty) - 5% of payment due, or &#163;300 (whichever is the greater) (paragraph 5).  </span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(d)</num>
+	      <content>
+		<p class="Taxbodytext3" style="margin-left:0.39in;text-indent:0.38in"><span style="font-family:'Times New Roman'">failure to file for 12 months (i.e. the 12-month penalty) - 5% of payment due or &#163;300 (whichever is the greater) (paragraph 6).</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_3_7">
+	    <num>(7)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">In order to visit a penalty on a taxpayer pursuant to paragraph 4, HMRC must decide if such a penalty is due and notify the taxpayer, specifying the date from which the penalty is payable (paragraph 4).  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_8">
+	    <num>(8)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">If HMRC considers a taxpayer is liable to a penalty, it must assess the penalty and notify it to the taxpayer (paragraph 18).  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_9">
+	    <num>(9)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">A taxpayer can appeal against any decision of HMRC that a penalty is payable, and against any such decision as to the amount of the penalty (paragraph 20).  </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_10">
+	    <num>(10)</num>
+	    <intro>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in"><span style="font-family:'Times New Roman'">On an appeal, this tribunal can either affirm HMRC's decision or substitute for it another decision that HMRC had the power to make (paragraph 22).  </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in"><span style="font-weight:bold;font-family:'Times New Roman'">CASE LAW</span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The relevant case law is set out below:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in"><span style="font-style:italic;font-family:'Times New Roman'">Notification of penalty </span></p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="lvl_3_11">
+	    <num>(1)</num>
+	    <content>
+	      <p class="Bodytexttax2" style="margin-left:0in;text-indent:0.39in">In order to visit a daily &#163;10 penalty on a taxpayer under paragraph 4 of Schedule 55, HMRC must make a decision that such a penalty should be payable and give an appropriate notice to the taxpayer.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_12">
+	    <num>(2)</num>
+	    <content>
+	      <p class="Bodytexttax2" style="margin-left:0in;text-indent:0.39in">These issues were considered by the Court of Appeal in <span style="font-style:italic">Donaldson v HMRC</span> <ref href="https://caselaw.nationalarchives.gov.uk/ewca/civ/2016/761" uk:canonical="[2016] EWCA Civ 761" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] EWCA Civ 761</ref> ("<span style="font-style:italic;font-weight:bold">Donaldson</span>").</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_3_13">
+	    <num>(3)</num>
+	    <intro>
+	      <p class="Bodytexttax2" style="margin-left:0in;text-indent:0.39in">The Court of Appeal decided that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(a)</num>
+	      <content>
+		<p class="Bodytexttax4" style="margin-left:0.39in;text-indent:0.38in">the high-level policy decision taken by HMRC that all taxpayers who are more than three months&#8217; late in filing a return will receive daily penalties constituted a valid decision for the purposes of paragraph 4.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(b)</num>
+	      <content>
+		<p class="Bodytexttax4" style="margin-left:0.39in;text-indent:0.38in">a notice given before the deadline (i.e. before the end of the three-month period (and so issued prospectively) was a good notice.  In Mr Donaldson's case, his self-assessment reminder and the SA326 notice both stated that Mr Donaldson would be liable to a &#163;10 daily penalty if his return was more than three months&#8217; late and specified the date from which the penalties were payable.  This was in compliance with the statute.  </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(c)</num>
+	      <content>
+		<p class="Bodytexttax4" style="margin-left:0.39in;text-indent:0.38in">HMRC's notice of assessment did not specify, however, the period for which the daily penalties had been assessed.  On this it agreed with Mr Donaldson.  However, there is a saving provision in <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/114/1" uk:canonical="1970 c. 9 s. 114" uk:origin="TNA" uk:type="legislation">section 114(1)</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">TMA 1970</ref> which the Court of Appeal held applied to the notice.  And so, they concluded that the failure to specify the period for which the daily penalties had been assessed did not invalidate the notice.  </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">THE EVIDENCE AND THE FACTS</span></heading>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We were provided with two bundles of documents. The first, the main hearing bundle, comprised some 276 pages including authorities. The second, a supplementary bundle which ran to 19 pages, contained documents sent by HMRC to the appellant&#8217;s agent on 11 June 2025. The appellant gave oral evidence. We find his evidence to be entirely credible and reliable. From the relevant documentary and oral evidence, we find as follows:</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_1">
+	    <num>(1)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in">When the appellant came to the UK from Holland some years ago, he was advised that he should retain the services of a chartered accountant to assist with his accounts and tax affairs. He did this, and for the years in question, instructed Mr Smith, a chartered accountant, to undertake these tasks.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_2">
+	    <num>(2)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in">The appellant was conscious of his obligations towards the UK tax system and HMRC and wanted to ensure that he had no problems with them.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_3">
+	    <num>(3)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in">Both the appellant and Mr Smith were fully aware of the deadlines within which a self-assessment tax return should be submitted to HMRC. Accordingly, the appellant would submit the relevant information to Mr Smith in good time, and this would be followed up by a face-to-face meeting with Mr Smith at which that information was discussed and clarification (if needed) sought regarding expenses and other matters.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_4">
+	    <num>(4)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in">Mr Smith would prepare the appellant&#8217;s self-assessment tax return which the appellant would sign. It was Mr Smith&#8217;s responsibility to submit that return to HMRC.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_5">
+	    <num>(5)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in">It was the appellant&#8217;s evidence that once he had signed the return, he assumed that Mr Smith would submit the return on a timely basis.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_6">
+	    <num>(6)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in">On no occasion did Mr Smith mention to the appellant that he was having any difficulties with HMRC.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_7">
+	    <num>(7)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in">It was the appellant&#8217;s evidence that there was nothing which put him on notice that Mr Smith was not doing what he had been instructed to do, namely to file the relevant tax returns on a timely basis.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_8">
+	    <num>(8)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in">If the appellant received correspondence from HMRC during the course of the year, he read it and passed it on to Mr Smith for Mr Smith to deal with.  Although he could not remember doing this, he thinks it is more than likely that this was what he did when he received the late filing penalty notices from HMRC.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_9">
+	    <num>(9)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.39in">Mr Smith suffered from poor health and passed away some years ago and the appellant now instructs Mr Ross, also a chartered accountant. Since instructing Mr Ross, there have been no issues with HMRC.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_10">
+	    <num>(10)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">The appellant is paying approximately &#163;40 a month to HMRC on a voluntary basis having been advised to do so in respect of the outstanding penalties.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_11">
+	    <num>(11)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">Having heard nothing from HMRC regarding the penalties after 2016, he assumed that they had been waived or rescinded. It came as some shock to him when debt collectors started chasing him for the money.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_12">
+	    <num>(12)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">The dates on which his tax returns were actually filed are set out in the appendix.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_13">
+	    <num>(13)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">HMRC&#8217;s electronic records show that the late filing penalty of &#163;100 for 2010/2011 was issued on 14 February 2012.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_14">
+	    <num>(14)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">Those records also show that for 2011/2012 the late filing penalty of &#163;100 was issued on 12 February 2013, the daily penalty of &#163;900 was issued on 14 August 2013 as, too, was the six-month late filing penalty of &#163;300. The 12 month late filing penalty of &#163;300 was issued on 25 February 2014.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_15">
+	    <num>(15)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in"> For the tax year 2012/2013, the late filing penalty of &#163;100 was issued on 18 February 2014, the daily penalty of &#163;900 was issued on 18 August 2014, and the six-month late filing penalty of &#163;300 was issued on the same date.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_16">
+	    <num>(16)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">For 2014/2015, the late filing penalty of &#163;100 was issued on 17 February 2016, the daily penalty of &#163;900 was issued on 12 August 2016, as was the &#163;300 six-month late filing penalty.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_17">
+	    <num>(17)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">HMRC&#8217;s self-assessment notes for the appellant which record contacts between HMRC, the appellant and/or the appellant&#8217;s agent record that on 20 May 2013 (in relation to a daily penalty for 2011/2012) the appellant was told that his tax return for that year had still not been received and he was incurring &#163;10 per day of daily penalties. The note records that the taxpayer would contact the agent as soon as possible.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_18">
+	    <num>(18)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">Those notes further record that on 5 June 2013, there was a further telephone conversation between the appellant and HMRC who had a query about &#8220;his&#8221; time to pay agreement. It also records that daily penalties were discussed and that the appellant would speak to his agent.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_19">
+	    <num>(19)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">The notes further record that on 23 August 2013 there was a further conversation between HMRC and the appellant regarding late filing penalties. He was advised that the tax return for 2011/2012 was still outstanding and so penalties were due and payable. The appellant told HMRC that Mr Smith was responsible for filing his returns. HMRC advised the appellant to contact his accountant as soon as possible regarding the penalties and interest. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_20">
+	    <num>(20)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">The notes further record that on 1 August 2014 there was a telephone conversation between HMRC and the appellant&#8217;s agent who said that he would file the 2011/2012 and 2012/2013 returns as soon as possible and was having online difficulties.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_21">
+	    <num>(21)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">In a letter dated 10 March 2022, HMRC notified the appellant of the penalties and the fact that he was accruing interest as a result of late payments. A late appeal was made against those penalties by Mr Ross. HMRC did not accept the late appeal, but permission to bring the late appeal was given by Judge Rankin in his decision issued on 1 August 2024 (&#8220;<span style="font-weight:bold">Judge Rankin&#8217;s decision</span>&#8221;).</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="lvl_4_22">
+	    <num>(22)</num>
+	    <content>
+	      <p class="Taxbodytext2" style="margin-left:0in;text-indent:0.5in">In his notice of appeal, the appellant asserted that: the charges seem to relate to years where no tax liability arose and thus no tax was lost to HMRC; Mr Smith had been ill for several years and had passed away; Mr Smith would have appealed against any penalties on a timely basis; the first time the appellant received any indication of the outstanding liabilities was on 10 March 2022.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <content>
+	    <p class="Taxbodytext1"><span style="font-weight:bold">DISCUSSION</span></p>
+	    <p class="Taxbodytext1"><span style="font-style:italic">Submissions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_16">
+	  <num>16.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In summary the representative submitted that the returns were not late as they were made within three months from the date on which the deemed notice to file was given to the appellant. Accordingly, schedule 55 did not apply. </p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="Taxbodytext1"><span style="font-style:italic">Our view</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_17">
+	  <num>17.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The burden of establishing that the penalties have been validly issued and served upon the appellant and correctly calculated, rests with HMRC. They must establish this to the civil standard of proof, namely the balance of probabilities.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num>18.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As regards the service of valid notices to file, we do not think that the evidence suggested by Mr Ness comes anywhere close to establishing that such valid notices were served on the appellant. The fact that tax returns were actually received from the appellant is wholly insufficient. These returns could have been voluntary returns and not submitted in response to a notice to file.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num>19.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We find as a fact that no notices to file were actually served on the appellant in respect of any of the years in question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num>20.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/2019/1/section/87" uk:canonical="2019 c. 1 s. 87" uk:origin="TNA" uk:type="legislation">Section 87</ref> of the <ref href="http://www.legislation.gov.uk/id/ukpga/2019/1" uk:canonical="2019 c. 1" uk:origin="TNA" uk:type="legislation">Finance Act 2019</ref> introduced <ref href="http://www.legislation.gov.uk/id/ukpga/2019/1/section/12" uk:canonical="2019 c. 1 s. 12" uk:origin="TNA" uk:type="legislation">section 12</ref>D TMA which applies to returns made otherwise than pursuant to a notice to file (in other words voluntary returns). Under this section, a voluntary return is treated as having been made in response to a valid notice to file even if, as a matter of fact, no such notice was served on the appellant.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num>21.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This change in legislation has both prospective and retrospective effect subject to certain exclusions, none of which are relevant to the appellant&#8217;s circumstances.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num>22.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Under this section, a relevant notice to file is deemed to have been given to a taxpayer on the day that the relevant return was delivered.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num>23.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The date on which those returns were delivered is set out in the appendix. For 2010/2011 it was 18 April 2012; for 2011/2012 it was 31 October 2014; for 2012/2013 it was 24 October 2014, and for 2014/2015 it was 18 October 2016.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num>24.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We have found as a fact that no actual notices were served on the appellant. We therefore need to consider whether, in light of these voluntary returns, and the dates on which a notice of file is deemed to have been served on the appellant, the returns were late.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num>25.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As set out above, the general rule is that a tax return for a year of assessment (year 1) must be made on or before 31 October in year 2 (a paper return) or 31 January in year 2 (an electronic return). And the appendix, compiled by HMRC, records the lateness gauged (broadly speaking) by those dates. But that is on the basis that an actual notice to file was served on the appellant for each of the relevant years.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num>26.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Year 1 and year 2 are years of assessment and not calendar years.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num>27.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">These dates are amended where, relevantly here, a notice to file has not actually been given to the appellant on or before 31 October in year 2. In these circumstances the return (whether electronic or paper) must be delivered &#8220;during the period of 3 months beginning with the date of the notice&#8221;.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_28">
+	  <num>28.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">31 October in year 2 is 31 October 2011 for 2010/2011; 31 October 2012 for 2011/2012; 31 October 2013 for 2012/2013, and 31 October 2015 for 2014/2015.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num>29.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As can be seen from [14] above, the returns were filed (and the notices thus deemed to have been given) after these dates for each of the years in question.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num>30.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">So the date on which the returns were due to be submitted was 3 months after the date on which the notices were deemed to have been given, which in turn was the date on which each return was actually submitted.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num>31.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It was not possible, therefore, on the facts of this case, for the returns to have been submitted late, and we find that none of them were submitted late.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num>32.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Given that the returns were not submitted late, schedule 55 is of no application.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="Taxbodytext1"><span style="font-weight:bold">DECISION</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num>33.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We therefore allow the appellant&#8217;s appeal against the penalties.</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="Taxbodytext1"><span style="font-weight:bold;font-family:'Times New Roman'">RIGHT TO APPLY FOR PERMISSION TO APPEAL</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_34">
+	  <num>34.</num>
+	  <content>
+	    <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman'">This document contains full findings of fact and reasons for the decision.  Any party dissatisfied with this decision has a right to apply for permission to appeal against it pursuant to Rule 39 of the Tribunal Procedure (First-tier Tribunal) (Tax Chamber) Rules 2009.  The application must be received by this Tribunal not later than 56 days after this decision is sent to that party.  The parties are referred to &#8220;Guidance to accompany a Decision from the First-tier Tribunal (Tax Chamber)&#8221; which accompanies and forms part of this decision notice.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p style="text-align:center"><span style="font-weight:bold">Release date:</span></p>
+	    <p style="text-align:center"><docDate date="2026-04-23" refersTo="#decision">23 April 2026</docDate></p>
+	  </content>
+	</level>
+	<paragraph eId="lvl_10">
+	  <content>
+	    <p style="text-align:center"><span style="font-weight:bold">APPENDIX 1</span></p>
+	    <table class="TableGrid" uk:widths="1.48in 0.98in 0.79in 0.98in 0.96in 0.91in 0.89in">
+	      <tr>
+		<td>
+		  <p style="text-align:center"><span style="font-weight:bold">Penalty</span></p>
+		</td>
+		<td>
+		  <p style="text-align:center"><span style="font-weight:bold">Tax year</span></p>
+		</td>
+		<td>
+		  <p style="text-align:center"><span style="font-weight:bold">Amount</span></p>
+		  <p style="text-align:center"><span style="font-weight:bold">(&#163;)</span></p>
+		  <p style="text-align:center"/>
+		</td>
+		<td>
+		  <p style="text-align:center"><span style="font-weight:bold">Legislation</span></p>
+		</td>
+		<td>
+		  <p style="text-align:center"><span style="font-weight:bold">SA return due</span></p>
+		</td>
+		<td>
+		  <p style="text-align:center"><span style="font-weight:bold">Return filed</span></p>
+		</td>
+		<td>
+		  <p style="text-align:center"><span style="font-weight:bold">SA late</span></p>
+		  <p style="text-align:center"><span style="font-weight:bold">by (days)</span></p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">Late filing penalty</p>
+		  <p style="text-align:left"/>
+		  <p style="text-align:left"/>
+		</td>
+		<td>
+		  <p>2010-2011</p>
+		</td>
+		<td>
+		  <p>100.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		</td>
+		<td>
+		  <p>05/01/2012</p>
+		</td>
+		<td>
+		  <p>18/04/2012</p>
+		</td>
+		<td>
+		  <p>108</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">Late filing penalty</p>
+		  <p style="text-align:left"/>
+		  <p style="text-align:left"/>
+		</td>
+		<td>
+		  <p>2011-2012</p>
+		</td>
+		<td>
+		  <p>100.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		</td>
+		<td>
+		  <p>05/01/2013</p>
+		</td>
+		<td>
+		  <p>31/10/2014</p>
+		</td>
+		<td>
+		  <p>638</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">Daily penalty</p>
+		  <p style="text-align:left"/>
+		  <p style="text-align:left"/>
+		</td>
+		<td>
+		  <p>2011-2012</p>
+		</td>
+		<td>
+		  <p>900.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		</td>
+		<td>
+		  <p>05/01/2012</p>
+		</td>
+		<td>
+		  <p>31/10/2014</p>
+		</td>
+		<td>
+		  <p>638</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">6-month late filing penalty</p>
+		  <p style="text-align:left"/>
+		</td>
+		<td>
+		  <p>2011-2012</p>
+		</td>
+		<td>
+		  <p>300.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		</td>
+		<td>
+		  <p>05/01/2013</p>
+		</td>
+		<td>
+		  <p>31/10/2014</p>
+		</td>
+		<td>
+		  <p>638</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">12-month late filing penalty</p>
+		  <p style="text-align:left"/>
+		</td>
+		<td>
+		  <p>2011-2012</p>
+		</td>
+		<td>
+		  <p>300.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		</td>
+		<td>
+		  <p>05/01/2013</p>
+		</td>
+		<td>
+		  <p>31/10/2014</p>
+		</td>
+		<td>
+		  <p>638</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">Late filing penalty</p>
+		  <p style="text-align:left"/>
+		  <p style="text-align:left"/>
+		</td>
+		<td>
+		  <p>2012-2013</p>
+		</td>
+		<td>
+		  <p>100.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		</td>
+		<td>
+		  <p>05/01/2014</p>
+		</td>
+		<td>
+		  <p>24/10/2014</p>
+		</td>
+		<td>
+		  <p>314</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">Daily penalty</p>
+		</td>
+		<td>
+		  <p>2012-2013</p>
+		</td>
+		<td>
+		  <p>900.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		  <p/>
+		</td>
+		<td>
+		  <p>05/01/2014</p>
+		</td>
+		<td>
+		  <p>24/10/2014</p>
+		</td>
+		<td>
+		  <p>314</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">6-month late filing penalty</p>
+		  <p style="text-align:left"/>
+		</td>
+		<td>
+		  <p>2012-2013</p>
+		</td>
+		<td>
+		  <p>300.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		</td>
+		<td>
+		  <p>05/01/2014</p>
+		</td>
+		<td>
+		  <p>24/10/2014</p>
+		</td>
+		<td>
+		  <p>314</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">Late filing penalty</p>
+		</td>
+		<td>
+		  <p>2014-2015</p>
+		</td>
+		<td>
+		  <p>100.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		  <p/>
+		</td>
+		<td>
+		  <p>05/01/2016</p>
+		</td>
+		<td>
+		  <p>18/10/2016</p>
+		</td>
+		<td>
+		  <p>193</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">Daily penalty</p>
+		</td>
+		<td>
+		  <p>2014-2015</p>
+		</td>
+		<td>
+		  <p>900.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		  <p/>
+		</td>
+		<td>
+		  <p>05/01/2016</p>
+		</td>
+		<td>
+		  <p>18/10/2016</p>
+		</td>
+		<td>
+		  <p>193</p>
+		</td>
+	      </tr>
+	      <tr>
+		<td>
+		  <p style="text-align:left">6-month late filing penalty</p>
+		</td>
+		<td>
+		  <p>2014-2015</p>
+		</td>
+		<td>
+		  <p>300.00</p>
+		</td>
+		<td>
+		  <p>Sch55</p>
+		  <p>FA2009</p>
+		  <p/>
+		</td>
+		<td>
+		  <p>05/01/2016</p>
+		</td>
+		<td>
+		  <p>18/10/2016</p>
+		</td>
+		<td>
+		  <p>193</p>
+		</td>
+	      </tr>
+	    </table>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>

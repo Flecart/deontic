@@ -1,0 +1,1229 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2025/1552"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2025/1552"/>
+	  <FRBRdate date="2025-10-21" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1552"/>
+	  <FRBRname value="Dr Andrew Power v The Commissioners for HMRC"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/1552"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/1552"/>
+	  <FRBRdate date="2025-10-21" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/1552/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/1552/data.xml"/>
+	  <FRBRdate date="2025-12-16T13:20:00" name="transform"/>
+	  <FRBRdate date="2025-12-16T13:43:37" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-10-01" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-10-21" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-tc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-tax" showAs="United Kingdom First-tier Tribunal (Tax)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="dr-andrew-power" href="" showAs="DR ANDREW POWER"/>
+	<TLCPerson eId="the-commissioners-for-his-majestys-revenue-and-customs" href="" showAs="THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-tribunal-judge-matheu-smith" href="/judge-tribunal-judge-matheu-smith" showAs="TRIBUNAL JUDGE MATHEU SMITH"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-TC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1552</uk:number>
+	<uk:cite>[2025] UKFTT 1552 (TC)</uk:cite>
+	<uk:parser>1.3.0</uk:parser>
+	<uk:hash>9629d20e135efd38702d83c96ec6c46bdc57d1cce36d9de3120084f14312d2ea</uk:hash>
+	<uk:jurisdiction/>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Header { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Footer { text-align: justify; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1 { text-align: justify; font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Taxbodytext1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2 { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4 { text-align: justify; margin-left: 1.18in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2 { text-align: justify; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3 { text-align: justify; font-style: italic; font-weight: bold; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4 { text-align: justify; font-style: italic; font-weight: normal; font-variant: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxquotation { text-align: justify; margin-left: 0.79in; margin-right: 0.76in; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .BalloonText { text-align: justify; font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5 { text-align: justify; margin-left: 1.58in; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeading { text-align: center; font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .CommentText { text-align: justify; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubject { text-align: justify; font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .FooterChar { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading1Char { font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext1Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext2Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext3Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxbodytext4Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading2Char { font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading3Char { font-style: italic; font-weight: bold; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Taxheading4Char { font-style: italic; font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxquotationChar { font-family: 'Times New Roman'; }
+#judgment .BalloonTextChar { font-family: 'Segoe UI'; font-size: 9pt; }
+#judgment .Taxbodytext5Char { font-weight: normal; font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .TaxSuperHeadingChar { font-weight: bold; text-transform: uppercase; font-family: 'Times New Roman'; }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .CommentSubjectChar { font-weight: bold; font-family: 'Times New Roman'; font-size: 10pt; }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:82.45pt;height:52.6pt"/></p>
+      <p style="text-align:left">Neutral Citation: <neutralCitation>[2025] UKFTT 01552 (TC)</neutralCitation></p>
+      <p style="text-align:right">Case Number: TC09723</p>
+      <p style="text-align:left"><courtType refersTo="#ukftt-tc" style="font-weight:bold">FIRST-TIER TRIBUNAL</courtType></p>
+      <p style="text-align:left"><courtType refersTo="#ukftt-tc" style="font-weight:bold">TAX CHAMBER</courtType></p>
+      <p style="text-align:right;margin-left:3.05in">By remote video hearing</p>
+      <p style="text-align:right">Appeal reference: TC/2024/06558</p>
+      <p><span style="font-style:italic">Income tax - self Assessment tax returns &#8211; late filing penalties &#8211; late payment penalties &#8211; permission to make late appeal refused &#8211; remaining appeals dismissed</span></p>
+      <p style="text-align:right;margin-left:3.05in"><span style="font-weight:bold">Heard on: </span><docDate date="2025-10-01" refersTo="#hearing">01 October 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold">Judgment date: </span>21 October 2025</p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-tribunal-judge-matheu-smith" style="font-weight:bold">TRIBUNAL JUDGE MATHEU SMITH</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold">MEMBER JULIAN STAFFORD</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#dr-andrew-power" style="font-weight:bold">DR ANDREW POWER</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-commissioners-for-his-majestys-revenue-and-customs" style="font-weight:bold">THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Representation:</span></p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Appellant:<marker name="tab"/>Dr Power represented himself.</p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Respondents: <marker name="tab"/>Mrs Antonia Garvey, litigator, of HM Revenue and Customs&#8217; Solicitor&#8217;s Office.</p>
+      <p style="text-align:center"><span style="font-weight:bold">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading class="Taxheading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The form of the hearing was V (video).  All who attended the hearing did so remotely by video, as did the Tribunal.  The hearing was conducted using the Microsoft Teams platform.     The documents to which we were referred were: </p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">An 88-page bundle of documents prepared by HMRC which included Dr Power&#8217;s Notice of Appeal.  References in this Decision to the pages of this bundle are in the form &#8220;DB***&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">HMRC&#8217;s Statement of Reasons dated 10 April 2024.  References in this Decision to paragraph numbers in the form &#8220;[***]&#8221; are to the numbered paragraphs of this Statement of Reasons.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">A 257-page bundle of authorities prepared by HMRC.  References in this decision of this bundle are in the form &#8220;AB***&#8221;.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num style="font-size:11pt">2.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Prior notice of the hearing had been published on the gov.uk website, with information about how representatives of the media or members of the public could apply to join the hearing remotely in order to observe the proceedings.  As such, the hearing was held in public.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This appeal concerns 12 penalties which have been charged to Dr Power under Schedule 55 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">Finance Act 2009</ref> in respect of the late filing of Self-Assessment returns for the years ending 5 April 2022 and 5 April 2023 and against late payment penalties charged under Schedule 56, Finance Act 2009 in respect of the late payment of the related tax.  The relevant penalties are:</p>
+	      <table uk:widths="1.28in 0.89in 1.28in 1.28in 0.89in 0.69in">
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:left;margin-left:0.1in;text-indent:0.2in"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Tax Year ending 5 April</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Date of Penalty</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Legislation</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Description</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Amount </span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Late Appeal?</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2022</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">14/02/2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Para 3, Sch. 55 </span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Initial late filing </span><br/><span style="font-family:'Times New Roman';color:#000000">penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;100</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Yes</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2022</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">15/08/2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Para 4, Sch. 55</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Daily late filing </span><br/><span style="font-family:'Times New Roman';color:#000000">penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;900</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Yes</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2022</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">15/08/2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Para 5, Sch. 55 </span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">6 month late filing </span><br/><span style="font-family:'Times New Roman';color:#000000">penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;300</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Yes</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2022</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">13/02/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Para 6, Sch. 55 </span></p>
+		    <p style="text-align:center"/>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center;margin-left:0.1in;text-indent:0in"><span style="font-family:'Times New Roman';color:#000000">12 month late filing penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;300</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Yes</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2022</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">05/11/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:left;margin-left:0.35in;text-indent:-0.3in"><span style="font-family:'Times New Roman';color:#000000">Para 3(2), Sch. 56 </span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">30-day late </span><br/><span style="font-family:'Times New Roman';color:#000000">payment penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;113</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">No</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2022</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">05/11/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:left;margin-left:0.35in;text-indent:-0.3in"><span style="font-family:'Times New Roman';color:#000000">Para 3(3), Sch. 56 </span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">6 month late </span><br/><span style="font-family:'Times New Roman';color:#000000">payment penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;113</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">No</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2022</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">05/11/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:left;margin-left:0.35in;text-indent:-0.3in"><span style="font-family:'Times New Roman';color:#000000">Para 3(4), Sch. 56 </span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">12 month late </span><br/><span style="font-family:'Times New Roman';color:#000000">payment penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;113</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">No</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">13/02/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Para 3, Sch. 55 </span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Initial late filing </span><br/><span style="font-family:'Times New Roman';color:#000000">penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;100</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Yes</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">30/07/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Para 4, Sch. 55 </span></p>
+		    <p style="text-align:center"/>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Daily late filing </span><br/><span style="font-family:'Times New Roman';color:#000000">penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;900</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">No</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">20/08/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">Para 5, Sch. 55 </span></p>
+		    <p style="text-align:center"/>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">6 month late filing </span><br/><span style="font-family:'Times New Roman';color:#000000">penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;300</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">No</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">05/11/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:left;margin-left:0.35in;text-indent:-0.3in"><span style="font-family:'Times New Roman';color:#000000">Para 3(2), Sch. 56</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">30-day late </span><br/><span style="font-family:'Times New Roman';color:#000000">payment penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;127</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">No</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">05/11/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:left;margin-left:0.35in;text-indent:-0.3in"><span style="font-family:'Times New Roman';color:#000000">Para 3(3), Sch. 56 </span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">6 month late </span><br/><span style="font-family:'Times New Roman';color:#000000">payment penalty</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;127</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">No</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:left"><span style="font-family:'Times New Roman';color:#000000"/></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:left"><span style="font-family:'Times New Roman';color:#000000"/></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Total</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:left"><span style="font-family:'Times New Roman';color:#000000"/></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">&#163;3,493</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"/>
+		  </td>
+		</tr>
+	      </table>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Dr Power appeals all 12 penalties.  HMRC opposes that appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">HMRC also takes the position that Dr Power was late in notifying his appeals of 5 of the penalties, as indicated in the table above, and has refused to accept those late appeals.  HMRC has accepted the appeals of the other 7 penalties.  Dr Power subsequently notified this appeal to the Tribunal.  Whilst there appears to be some confusion over what has occurred, the result is that:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">In relation to 5 penalties, we need to decide whether HMRC was wrong to refuse to accept the late appeal of them.  If decide that it was, then we are asked to go on to decide Dr Power&#8217;s appeal of them; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">In relation to the other 7 penalties, we need to decide whether or not to allow Dr Power&#8217;s appeal of them.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It was obvious that there would be a large overlap between the facts relevant to both those matters and so in the relatively short time available for the hearing, and given the nature of the case, we chose to hear Dr Power&#8217;s evidence and submissions about both matters and HMRC&#8217;s submissions about both matters.  We shall first set out our findings of fact, which are largely common to both matters, before going on to apply the relevant legal tests and decide whether to give permission for the late appeals and/or to allow the appeals.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Taxheading1">Evidence and findings of fact</heading>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We have considered the contents of the bundle of documents.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Dr Power also gave evidence to us.  He was cross examined by Mrs Garvey and answered the questions we put to him.  Dr Power was not required to give sworn testimony.  We found him to be honest and forthcoming.  Inevitably given how long ago some of the events occurred he could not recall everything that had happened or why some things had happened, but this did not have a material effect on the outcome.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It became apparent that there was no material dispute between the parties as to the facts of what had happened.  In these circumstances we find the material facts to be as follows.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Dr Power had been a partner in GP practice and at that time the tax returns of the partnership and Dr Power had been dealt with by an accountant.  Dr Power retired from that partnership in 2017.  He then continued to work for the partnership, receiving a salary paid through the PAYE system.   He also received an NHS pension.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Dr Power continued to file Self Assessment returns after retiring from the partnership.  He did so himself and no longer used an accountant to advise him.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In February and March 2021 there was contact between Dr Power and HMRC.  The single page of SA Notes at DB55 is all that was before the Tribunal regarding that contact and Dr Power could recall nothing of the finer details of what occurred.  The SA Notes record some telephone contact on 23 February 2021 (Line No.15) 03 March 2021 (Line No.14) and then on 24 March 2021 the following is recorded:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.39in">Line No.12 - &#8220;Simpler for TP to provide income with P60 etc so RRS A again and pen cancelled&#8221;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.39in">Line No.13 &#8211; &#8220;Record Closed following removal request.  19/20 return withdrawn. SA832 issued.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_13">
+	    <num>13.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It is apparent that Dr Power was not required to file a Self Assessment return for 2019/20.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The SA Notes make no mention of a Self Assessment return for 2020/21 and we infer Dr Power was not required to file one.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It was Dr Power&#8217;s evidence that as a result of this contact with HMRC he understood that he no longer needed to file Self Assessment returns.  We accept that is what he thought and that he did so with good reason. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">However, the SA Notes dated 05 May 2021, Line Nos. 9 and 10, both say:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.39in">&#8220;Coding review for 21/22 identified SA Criteria.  Record activated&#8221; </p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mrs Garvey could not assist with what exactly this meant, but it was suggested, and we so find, that HMRC&#8217;s computer systems detected an issue with Dr Power&#8217;s PAYE Tax Code which triggered HMRC to send Dr Power a notice to file a Self Assessment return for 2021/22.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num>18.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Had that notice to file a Self Assessment return for 2021/22 been sent by post to Dr Power we have no reason to doubt he would have responded to it in some manner which would have likely meant the various penalties under appeal would never have been issued.  However, that notice to file was not posted to Dr Power.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num>19.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Whilst he has no recollection of doing so or why he did, Dr Power accepts that he opted into receiving paperless communications from HMRC on 12 February 2021 as is recorded in the document at DB43.  Had he not so accepted we would have found this to be the case.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As a result, instead of posting the notice to file to Dr Power, on 10 April 2022 HMRC sent an e-mail alert containing the following content:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext2" style="margin-left:0.39in">&#8220;You&#8217;ve got a new message from HMRC.  Dear Customer.  You have new message from HMRC about Self Assessment.  To view it, sign in to your HMRC online account.  For security reasons, we have not included a link with this e-mail.  Why you got this email.  You chose to get paperless notifications instead of letter by post.  This means we send you an e-mail to let you know you have a new message in your account.&#8221;</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This is a generic form of e-mail alert.  An example is at DB44.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num>22.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Whilst he could not recall receiving specific emails, Dr Power acknowledged he would have received that email alert and said he would have ignored it.   Having been told in March 2021 by HMRC that he need not file a Self Assessment return for 2019/20 and led to believe he no longer needed to file Self Assessment returns, when he received this generic e-mail alert more than a year later, he simply assumed it was of no consequence and could be safely ignored.  As Dr Power says in his Grounds for Appeal:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.39in">&#8220;i had received e-mails from hmrc but had not read these as I believed they were just general information because I was paye at this time.&#8221;.</p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num>23.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As a result of not following the instructions in that e-mail alert Dr Power was unaware of the notice to file a Self Assessment return for 2021/22.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">From the evidence before us it appears nothing material happened for almost another year.  Dr Power was not sent further e-mail alerts and we were shown no evidence of other means by which Dr Power might have become aware that he had been required to file a Self Assessment return for 2021/22.  The 31 January 2023 deadline for filing that return came and went without Dr Power filing it.  This triggered HMRC to issue the initial late filing penalty dated 14 February 2023, which is the first of the penalties under appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The manner of informing Dr Power of that initial late filing penalty was the same as for the notice to file i.e. Dr Power received the same generic e-mail telling him he had a new message from HMRC and that to view it he had to sign into his HMRC online account.  Again, whilst Dr Power could not recall receiving that specific e-mail alert, he accepted he would have received it and said he would have ignored it for the same reasons as he had ignored the previous e-mail alert.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num>26.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">With no response from Dr Power HMRC continued to issue penalties for the failure to file the 2021/22 Self Assessment return - the daily late filing penalty, 6 month late filing penalty and 12 month late filing penalty were issued during the course of 2023 and into 2024.  Also, in April 2023, HMRC sent Dr Power a notice to file a Self Assessment return for 2022/23 and on 13 February 2024 it issued the initial late filing penalty in respect of Dr Power&#8217;s failure to file that return.  In all instances the manner of informing Dr Power of the notices to file and penalties was the same &#8211; HMRC would send him the same generic e-mail alert telling him he had a new message from HMRC and that to view it he had to sign into his HMRC online account.  Dr Power accepted he would have received all those e-mail alerts and said he ignored them for the same reasons he ignored the previous email alerts.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num>27.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Dr Power finally realised something was amiss in or about April 2024.  His unchallenged evidence, which we accept, is that at that time he received a letter by post from HMRC which prompted him to call HMRC on 11 April 2024 to find out what was going on.  Mrs Garvey explained that HMRC may not have begun to chase payment of the various penalties which had been imposed by post previously as it does not do so until the total liability has passed a threshold.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The transcript of Dr Power&#8217;s call to HMRC on 11 April 2024 provides further insight into what had occurred.  Dr Power&#8217;s previous lack of awareness of the notice to file the returns is apparent.  He admits receiving and not checking &#8220;on-line things&#8221; which we take to be the e-mail alerts HMRC had sent him as he thought he was no longer in the self-assessment system.  What is also apparent is the struggle HMRC&#8217;s Adviser had to understand what had happened and why Dr Power had been required to file Self Assessment returns.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As the Adviser begins to investigate the matter they make the comment &#8220;&#8230;so I&#8217;m having a look at your tax codes because it does show that we had closed off your self-assessment from the earlier returns that you used to submit&#8230;&#8221;.  That gives credence to Dr Power&#8217;s belief that he no longer needed to file Self Assessment returns.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num>30.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Adviser then continues &#8220;But we picked up that you&#8217;ve met the criteria based on your Pay as You Earn employment so I&#8217;m having a look at you tax code from 21/22.&#8221;.  The Adviser then works their way through a number of matters trying to establish what has happened, checking things like whether Dr Power:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Earned more than &#163;100,000;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Was a member of a partnership;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Was subject to the &#8220;loan charge&#8221;;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Received any in-year repayment through Self Assessment;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(5)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Received the self-employed income support scheme grant payments during the relevant years;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(6)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Was a non-resident landlord;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(7)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Was a minister of religion;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(8)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Received taxable income from abroad;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(9)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Was in an off payroll working employment; or</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(10)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.5in">A current student loan borrower.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num>31.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Dr Power answered &#8220;no&#8221; to all of these matters.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Another barrage of questions then followed: &#8220;Thank you (&#8230;&#8230;) and the next set of questions did you or were you self-employed, this would include being a Sub contractor, a CIS and a foster carer; you or a partner, did you get Child Benefit, did you have income from letting property or land, did you have income from a Trust and further taxes due on the income, did you have income from a Trust, err I will say that one again, apologies sir, did you have income from a settlement or the estate of a deceased person and further tax is due on the income or were you a diver or a dive supervisor in the north sea.&#8221;.  Dr Power also answered &#8220;no&#8221; to all of these questions.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Eventually, through the commendable diligence of the HMRC Adviser, the reason why Dr Power had been drawn back into the Self Assessment system and sent the notices to file was discovered.  Dr Power had claimed net expenses, including professional subscriptions, of more than &#163;2,500.  He had in fact claimed &#163;6,500 of such expenses.  The Adviser went on to say &#8220;&#8230;so that&#8217;s the reason that it automatically put you back into self-assessment&#8230;&#8221;.  We agree and find that this is the reason why, having been told he no longer needed to file Self Assessment returns, Dr Power was subsequently issued with the notices to file a Self Assessment returns for 2021/22 and 2022/23.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num>34.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"> Whether Dr Power should have been claiming those expenses is another matter.  The HMRC Adviser questioned whether the expenses were still applicable to which Dr Power responded that he did not think they were that much and would have to check.  The Adviser went on to confirm that they were still included Dr Power&#8217;s tax code for 2024/25 and how he should go about changing them via his online tax account.  From the tax returns Dr Power subsequently filed it is apparent that he should not have been claiming expenses at that level.  The 2021/22 return shows allowable expenses of &#163;927 and the 2022/23 return shows allowable expenses of &#163;863.  Dr Power explained that historically &#163;6,500 had been correct level of expenses reflecting what he had to pay to The Medical Protection Society and the General Medical Council, however, these fell significantly, down to the levels shown in his 2021/22 and 2022/23.   </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num>35.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 27 November 2024 Dr Power informed HMRC via his online tax account that his tax free allowance was incorrect and should be reduced from &#163;19,070 to &#163;12,570 saying he did not wish to claim any additional expenses going forward.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mrs Garvey explained that once Dr Power had first made his claim for expenses of &#163;6,500 to be included in his tax code that claim would have been automatically rolled over by HMRC when issuing his tax code for subsequent years until such time as Dr Power notified HMRC that he no longer wished to make the claim.  This is also what Dr Power&#8217;s agent was told by HMRC on 04 November 2024.  However, it remains unclear how the expenses came to be included in Dr Power&#8217;s tax code in the first place.  When this issue was raised by Dr Power&#8217;s agent on 04 November 2024 HMRC said &#8220;[Dr Power&#8217;s] last tax return was filed for the 18/19 to claim a Job related expenses so his tax then changed after 18/19 so in 19/20 his tax code had extra 6500 allowance and that carried forward yearly&#8221;.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Returning to the call of 11 April 2024, the matter of appealing against the penalties which had been issued up to that point was briefly discussed with the Advisor explaining how an appeal could be made, the 30 day time limit for doing so and how it was possible to submit a late appeal.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num>38.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 18 April 2024 Dr Power called HMRC again and amongst the matters discussed were the penalties and appealing them.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num>39.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Dr Power explained that he then sought professional advice from Kelvin Burke &amp; Co.  The SA Notes record that the details of Dr Power&#8217;s agent were updated on 28 May 2024 following receipt of a Form 64-8.  This reflects Dr Power appointing Kelvin Burke &amp; Co. as his agent.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Unfortunately, neither Dr Power nor Kelvin Burke &amp; Co made further contact with HMRC until 04 November 2024 when Kelvin Bukre &amp; Co made contact via HMRC&#8217;s webchat service.  The material part of the transcript of that contact begins with Kelvin Burke &amp; Co asking HMRC to look into why Dr Power was being asked to complete tax returns for 2021/22, 2022/23 and 2023/24.  Presumably because of the work done by the HMRC Advisor on the call of 11 April 2024, this time the HMRC Advisor, is able to quickly explain that Dr Power had been asked to complete these tax returns because he had claimed extra personal allowance of &#163;6,500 related to expenses.  The webchat then ends.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The very next day, 05 November 2024, Dr Power&#8217;s Self Assessment returns for 2021/22 and 2022/23 were filed.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num>42.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 10 November 2024 Dr Power sought to give notice of appeal to HMRC in respect of the disputed penalties.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num>43.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Regarding why it took so long after the call of 11 April 2024 until November 2024 for the missing returns to be filed the tax paid and the appeals notified to HMRC Dr Power gave the following reasons:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">He needed to take advice from an accountant and had to obtain some further information from NHS Pensions and his employer, Henry Moore Clinic, which caused delay.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">After the call of 11 April 2024 Dr Power found the process of dealing with the matter extremely anxiety provoking and this affected his ability to deal with the problem in a timely manner.         </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This was the only aspect of Dr Power&#8217;s evidence about which we had serious reservations.  We accept that after what Dr Power learned on 11 April 2024 he found the process of dealing with the matter extremely anxiety provoking and this affected his ability to deal with the problem in a timely manner.  Nevertheless, he was able to instruct professional advisors, Kelvin Burke &amp; Co, who by 28 May 2024 had notified HMRC that they had been appointed as Dr Power&#8217;s agent.  It was more than 5 more months before they then contacted HMRC on 04 November 2024 to ask why Dr Power had to file the Self Assessment returns and were told essentially what Dr Power had been told on 11 April 2024.  Regarding the need to obtain information from NHS Pensions and his employer, it was not apparent to us what information was required that was not already known to Dr Power.  Further, we were given no explanation of why it took many months to obtain information without which the returns, or at least returns based on estimated figures, could have been filed.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Taxheading1">The late appeals</heading>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Where HMRC do not agree to accept a late appeal, section 49(2) of the&#160;Taxes&#160;Management Act 1970 provides that the Tribunal may nevertheless give permission to the taxpayer to make a late appeal to HMRC.&#160;&#160;</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As regards the appeals of the 5 penalties which HMRC which did not agree to accept, there is no question that they were late i.e. notified to HMRC after the relevant 30-day time limits had passed.  We must therefore consider whether to give permission.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The approach to be taken by the Tribunal when considering whether to give permission has recently become the subject of some controversy.  As at the time of this decision there are conflicting Upper Tribunal authorities in the form of <span style="font-style:italic">Medpro Healthcare Ltd and Kalvinder Ruprai v HMRC </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2025/00255" uk:canonical="[2025] UKUT 00255 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2025">[2025] UKUT 00255 (TCC)</ref><span style="font-style:italic"/>and the earlier <span style="font-style:italic">William Martland v HMRC&#160;</span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2018/0178" uk:canonical="[2018] UKUT 0178 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 0178 (TCC)</ref>.  The even more recent Upper Tribunal decision in <span style="font-style:italic">Tajinder Pawar v HMRC</span> [2025] UKUT 00309 released on 17 September 2025 shows the approach we should take &#8211; <span style="font-style:italic">Medpro </span>should be followed on the grounds it is the more recent decision and expressly considers the correctness of the earlier decision in <span style="font-style:italic">Martland</span>.  However, as is explained below, even if we had followed<span style="font-style:italic"> Martland</span> when considering whether to grant permission in this case we would have come to the same conclusion.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The approach to be taken can be summarised as follows, we must:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Establish the length of the delay and whether it is serious or significant;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Establish the reason for the delay;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Evaluate all the circumstances, balancing the merits of the reason(s) for the delay against the need for consistency, certainty and good administration of justice, taking into account any prejudice that would be caused to both parties by either refusing or granting permission.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="Taxheading1">Step 1 &#8211; Length of the delay</heading>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In this case the length of delay is as follows:</p>
+	      <table uk:widths="1.28in 1.58in 1.21in 1.06in 0.78in">
+		<tr>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Date of Penalty</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Deadline for appeal</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Date of Appeal</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Days Late</span></p>
+		  </td>
+		  <td style="border:0.5pt solid">
+		    <p style="text-align:center"><span style="font-weight:bold;font-family:'Times New Roman';color:#000000">Amount</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">14/02/2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">16/03/2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">10/11/2024</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">605</span></p>
+		  </td>
+		  <td style="border:0.5pt solid;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;100</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">15/08/2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">14/09/2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">10/11/2024</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">423</span></p>
+		  </td>
+		  <td style="border:0.5pt solid;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;900</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">15/08/2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">14/09/2023</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">10/11/2024</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">423</span></p>
+		  </td>
+		  <td style="border:0.5pt solid;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">13/02/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">14/03/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">10/11/2024</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">241</span></p>
+		  </td>
+		  <td style="border:0.5pt solid;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">13/02/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">14/03/2024</span></p>
+		  </td>
+		  <td style="border:0.62pt solid #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">10/11/2024</span></p>
+		  </td>
+		  <td style="border-width:0.62pt 0.5pt 0.62pt 0.62pt;border-style:solid;border-color:#000000 initial #000000 #000000;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">241</span></p>
+		  </td>
+		  <td style="border:0.5pt solid;vertical-align:middle">
+		    <p style="text-align:center"><span style="font-family:'Times New Roman';color:#000000">&#163;100</span></p>
+		  </td>
+		</tr>
+	      </table>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">These are clearly serious and significant delays in the context of 30-day deadlines.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="Taxheading1">Step 2 &#8211; Reasons for the delay</heading>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In light of the findings of fact set out above it is apparent that the reasons for the delay to fall into two periods.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Having opted into receiving paperless communications Dr Power received e-mail alerts from HMRC informing him that HMRC had sent him a message and he needed to sign in to his online HMRC account to view that message.  Between 10 April 2022 and 14 March 2024 Dr Power received 10 e-mail alerts, several of which concerned these penalties or other matters which, had they caused him to sign in to his online account, would have led him to discover the penalties.  For the reasons given in the findings of fact Dr Power ignored those e-mail alerts and remained unaware of the contents of the messages HMRC has sent him, including of the relevant penalty notifications and so he did not appeal them.  However, we find that Dr Power&#8217;s ignorance of the penalties ended on 11 April 2024 when he spoke with an HMRC Advisor &#8211; the existence of the penalties was discussed and the HMRC Advisor gave an explanation of the 30-day deadline and that late appeals could be made.  As such we find that this first period of delay ranges between 393 days and 29 days depending on the penalty.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">There is then a second period of delay of 212 days from 12 April 2024 until 10 November 2024 when the appeals were notified to HMRC.  The reasons given for the second period of delay are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">He needed to take advice from an accountant and had to obtain some further information from NHS Pensions and his employer, Henry Moore Clinic, which caused delay.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">After the call of 11 April 2024 Dr Power found the process of dealing with the matter extremely anxiety provoking and this affected his ability to deal with the problem in a timely manner.         </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="Taxheading1">Step 3 &#8211; Evaluate all the circumstances</heading>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We are required to evaluate all the circumstances, balancing the merits of the reasons Dr Power has given for the delay against the need for consistency, certainty and good administration of justice, taking into account any prejudice that would be caused to both parties by either refusing or granting permission. <span style="font-style:italic"> Medpro </span>tells us that the evaluation of all the circumstances should be carried out without giving special weight to the need for litigation to be conducted efficiently and at proportionate cost, and for statutory time limits to be respected, though these remain factors to be considered. The prejudice which would be suffered by each party if the appeal is allowed or refused is also relevant.   We are not required to undertake a detailed review of the merits of the appeal itself but we should take into account any obvious strengths or weaknesses of the appeal.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We accept that until 11 April 2024 Dr Power was not aware that he had been given notice to file Self Assessment returns for 2021/22 and 2022/23, that he was labouring under the mistaken belief that he no longer needed to file Self Assessment returns and had not seen the notifications of the penalties sent to his HMRC online account.  However, this is because he failed to act upon a total of 10 e-mail alerts he received from HMRC, and this badly undermines our view of the merits of his reasons for the first period of delay up to 11 April 2024.  We would have taken a more favourable view of the merits of the reasons for this period of delay if Dr Power had not ignored so many e-mail alerts.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Furthermore, after Dr Power spoke with an HMRC Advisor on 11 April 2024 he was aware that he had been required to file Self Assessment returns for 2021/22 and 2022/23 and that late filing penalties had been issued and yet there was then a further delay of 212 days before he notified his appeals to HMRC.   As we have explained in our findings of fact, we have serious reservations about Dr Power&#8217;s reasons for this second period of delay.  We accept he has given some reasons for delay, but we consider those reasons to be of little merit when set against such a long period of delay. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num>57.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Regarding the prejudice to the parities, on the face of it refusing permission to pursue a late appeal will deny Dr Power the chance to pursue his appeal of these 5 penalties whereas giving him permission to pursue a late appeal would be prejudicial to HMRC.  We can have regard to any obvious strength or weakness of Dr Power&#8217;s case as this goes to the question of prejudice - there is obviously much greater prejudice for Dr Power to lose the opportunity of putting forward a really strong case than a very weak one.  In the unusual circumstances of this case, as we have considered all the evidence and the parties&#8217; submissions, we consider that Dr Power would suffer little prejudice if we refused permission to appeal and we also consider that there would be little prejudice to HMRC if we were to grant permission to appeal.  Accordingly, we attach little weight either way to the issue of prejudice in this case when evaluating all the circumstances.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Without giving special weight to them, we have considered the particular importance of the need for litigation to be conducted efficiently and at proportionate cost, and for statutory time limits to be respected.  In reality these factors are of limited relevance in this case and so we have attached little weight to them.  Accordingly, they have had little bearing on the outcome of this evaluation either way.  Further, even if we had attached special weight to them, the outcome of the evaluation of all the circumstances would have been the same.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="Taxheading1">Decision</heading>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Having weighed and considered every relevant factor that has been drawn to our attention and looking at the totality of the evidence and, for the reasons set out above, we have decided that we should not give permission for Dr Power to make a late appeal of the 5 relevant penalties pursuant to <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9/section/49/2" uk:canonical="1970 c. 9 s. 49" uk:origin="TNA" uk:type="legislation">S.49(2)</ref>(b) <ref href="http://www.legislation.gov.uk/id/ukpga/1970/9" uk:canonical="1970 c. 9" uk:origin="TNA" uk:type="legislation">TMA 1970</ref>.  </p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="Taxheading1">The appeal of the other 7 Penalties</heading>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Having refused Dr Power permission to pursue a late appeal of 5 of the 12 penalties we must decide his appeal of the remaining 7 penalties.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">There is no question that Dr Power was required to file the relevant Self Assessment returns, valid notices to file having been delivered electronically to him in the manner permitted after he opted into receive paperless communications from HMRC.  There is no question that Dr Power filed the relevant returns late and paid the tax due late.  There is no question that the relevant notices of the penalties were delivered electronically to Dr Power.  The quantification of the penalties is as prescribed by law.   Accordingly, we find that the penalties were all correctly issued.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We must therefore decide whether the Appellant has a reasonable excuse for the late filing of the relevant Self-Assessment returns and for the late payment of the related tax and, if not, whether HMRC&#8217;s decision not to make a special reduction of the penalties was flawed.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="Taxheading1">Reasonable Excuse</heading>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It is for Dr Power to demonstrate that he had a reasonable excuse and how long it existed.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We considered the guidance on how to approach this issue given by the Upper Tribunal in paragraph 81 of its decision in Christine Perrin v HMRC <ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2018/0156" uk:canonical="[2018] UKUT 0156 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKUT 0156 (TCC)</ref>.  The first stage is to establish what facts the taxpayer asserts give rise to a reasonable excuse.  The second stage is to decide which of those facts are proven.  The third stage is to decide whether the proven facts amount to a reasonable excuse and, if so, when it ceased.  The fourth stage is to decide whether the taxpayer remedied the failure without unreasonable delay if the reasonable excuse ceased before the failure was remedied.  What is &#8216;reasonable&#8217; is to be determined objectively, taking into account the experience and other relevant attributes of the taxpayer and the situation in which the taxpayer found himself at the relevant time or times.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Dr Power gave the same reasons to excuse the late filing of the returns and late payments as he gave as the reasons for his late notification of the appeals.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In light of our findings of fact set out above, and taking account of his experience and other relevant attributes, we find that Dr Power initially had a reasonable excuse for the late filing of the Self Assessment returns and late payment of the tax due.  In particular, in light of:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Dr Power&#8217;s contact with HMRC in March 2021 when he was told that he no longer needed to file a Self Assessment return for 2019/20 and was led to believe he no longer needed to file Self Assessment returns;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">That he was not required to file a return for 2020/21; and </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The evidence before us that Dr Power received no other communication of any form from HMRC until he received the second generic e-mail alert on 22 February 2023, giving him no reason to think he should not have ignored that e-mail alert;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in">we consider that it was not unreasonable for him to ignore the initial and largely uninformative generic e-mail alert he received on 10 April 2022.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We are fortified in reaching that conclusion by:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The great difficulty the HMRC Adviser had on 11 April 2024 in establishing why Dr Power had been asked to file a Self Assessment return for 2021/22; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The fact that in March 2021, when Dr Power was told by HMRC that he did not need to file a Self Assessment return for 2019/20 and was led to believe that he no longer needed to file Self Assessment returns at that time, the reason why Dr Power was later drawn back into the Self Assessment system already existed - expenditure claims of &#163;6500 had been included in his PAYE tax code.  Plainly this was not readily apparent to HMRC at that time.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As HMRC encountered such difficulties, we consider it was not unreasonable for Dr Power to have failed to realise the significance of the historic expenses claims included in his tax code and that these were being automatically rolled over from year to year. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">However, a penalty cannot be cancelled on the basis of reasonable excuse unless the failure is remedied without unreasonable delay after the excuse ceased (as per paragraph 23 of Sch. 55 <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">FA 2009</ref> and paragraph 16 of Sch.56 FA 2009) and so we must consider that matter.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It is not readily apparent precisely when Dr Power&#8217;s reasonable excuse ceased, but we are certain that it did before he remedied the relevant failures.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We have already decided that it was not unreasonable for Dr Power to have ignored the e-mail alert he received on 10 April 2022.  We also find that it was not unreasonable for Dr Power to ignore the e-mail alert he received on 22 February 2023 given its generic form and being the first contact from HMRC in over 10 months.  However, we find that when the third e-mail alert was received on 08 April 2023 a reasonable taxpayer, with the experience and other relevant attributes of Dr Power, would not have ignored it, they would have signed into their HMRC online account to check why they had received yet another email alert.  In doing so that reasonable taxpayer would have discovered the notices to file the two Self Assessment returns and the initial late filing penalty in respect of the 2021/22 return.  Having discovered the relevant failures, plainly a reasonable taxpayer would have then promptly taken steps to remedy them.   Dr Power did not do that, he continued to ignore more and more e-mail alerts which he received over the following 13 months, only learning that he had been required to file Self Assessment returns for 2021/22 and 2022/23 and of the late filing penalties when he called HMRC on 11 April 2024 after receiving a letter by post.  Many more months then passed before he remedied the failures.  Accordingly, we find that Dr Power did not remedy the relevant failures without unreasonable delay once his reasonable excuse had ceased.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Some might seek to criticise our finding of when Dr Power&#8217;s reasonable excuse ceased as resting on a degree of arbitrariness, questioning why we have decided that a reasonable taxpayer would have reacted to the third e-mail alert rather than one of the others.  The answer lies in the view we have taken of the experience and other relevant attributes of Dr Power and of the situation in which he found himself at the relevant times.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In case we were wrong to take that approach, we would record that had it been necessary to do so, we would have found that at the very latest Dr Power&#8217;s reasonable excuse ceased on 11 April 2024.  After what he learned on his call to HMRC on that date he was no longer unaware that he had been required to file Self Assessment returns and that late filing penalties had been issued, and we would have found that he did not remedy the relevant failures without unreasonable delay thereafter.  Whilst Dr Power gave further reasons as to why the missing returns were not filed until 05 November 2024, more than 6 months after 11 April 2024, and the tax then paid, we find that those reasons do not excuse that further delay.  We accept that after what Dr Power learned on 11 April 2024, he found the process of dealing with the matter extremely anxiety provoking and this affected his ability to deal with the problem in a timely manner.  Nevertheless, he was able to instruct professional advisors, Kelvin Burke &amp; Co, who by 28 May 2024 had notified HMRC that they had been appointed as Dr Power&#8217;s agent.  It was more than a further 5 months before they then contacted HMRC on 04 November 2024 to ask why Dr Power had to file the Self Assessment returns, only to be told essentially what Dr Power had been told on 11 April 2024.  Dr Power says a further cause of the delay arose from the need to obtain information from NHS Pensions and his employer.  We are doubtful that was the case and it was certainly not apparent to us what information was required that was not already known to Dr Power.  Further, we do not accept that could provide a reasonable excuse for the many months of delay between the appointment of Kelvin Burke &amp; Co and when the relevant returns were filed.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We would also record here that, had we been required to decide whether Dr Power had a reasonable excuse in relation to the 5 penalties for which we have refused permission to pursue a late appeal, we would have reached the same conclusions in terms of the existence of a reasonable excuse, when it came to an end and concluded that the relevant failures were not remedied without unreasonable delay.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="Taxheading1">Special Reduction</heading>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Paragraph 16 of Schedule 55 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">Finance Act 2009</ref> gives HMRC the discretion to reduce a penalty because of &#8220;<span style="font-style:italic">special circumstances</span>&#8221;.  In this case HMRC decided that there were no such special circumstances and so no reduction was made.  </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_76">
+	    <num>76.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Where a taxpayer appeals against the amount of a penalty, paragraph 22 of Sch 55 <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">FA 2009</ref> and paragraph 15 of Sch 56 FA 2009 give us the power to substitute HMRC&#8217;s decision with another decision which HMRC had the power to make, but only if we are satisfied that HMRC&#8217;s decision was flawed<span style="font-family:Arial;font-size:11pt;color:#000000"/>when considered in the light of the principles applicable in proceedings for judicial review. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_77">
+	    <num>77.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In light of the findings of fact set out above we find that HMRC&#8217;s decision not to make a special reduction of any of the penalties was not flawed.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading class="Taxheading1">Decision</heading>
+	  <paragraph eId="para_78">
+	    <num>78.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">For all the reasons given Dr Power&#8217;s appeal is dismissed.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading class="Taxheading1">Right to apply for permission to appeal</heading>
+	  <paragraph eId="para_79">
+	    <num>79.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This document contains full findings of fact and reasons for the decision.  Any party dissatisfied with this decision has a right to apply for permission to appeal against it pursuant to Rule 39 of the Tribunal Procedure (First-tier Tribunal) (Tax Chamber) Rules 2009.  The application must be received by this Tribunal not later than 56 days after this decision is sent to that party.  The parties are referred to &#8220;Guidance to accompany a Decision from the First-tier Tribunal (Tax Chamber)&#8221; which accompanies and forms part of this decision notice.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_12_1">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">Release date: </span><docDate date="2025-10-21" refersTo="#decision"><span style="font-weight:bold">21</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">st</span><span style="font-weight:bold"> OCTOBER 2025</span></docDate></p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
