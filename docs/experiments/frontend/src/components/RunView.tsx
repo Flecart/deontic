@@ -24,26 +24,33 @@ function caseHasFailure(c: CaseResult): boolean {
   return dimMiss || factMiss;
 }
 
-function parseReplyFacts(reply: string): string[] {
+function parseReplyJson(reply: string): Record<string, unknown> {
   const m = reply.match(/\{[\s\S]*\}/);
-  if (!m) return [];
+  if (!m) return {};
   try {
-    const parsed = JSON.parse(m[0]) as { facts?: unknown };
-    return Array.isArray(parsed.facts) ? parsed.facts.map(String) : [];
+    const parsed = JSON.parse(m[0]) as unknown;
+    return parsed && typeof parsed === "object" ? (parsed as Record<string, unknown>) : {};
   } catch {
-    return [];
+    return {};
   }
 }
 
+function parseReplyFacts(reply: string): string[] {
+  const parsed = parseReplyJson(reply);
+  const facts = parsed.facts ?? parsed.oracle_facts;
+  return Array.isArray(facts) ? facts.map(String) : [];
+}
+
 function parseReplyReasoning(reply: string): string {
-  const m = reply.match(/\{[\s\S]*\}/);
-  if (!m) return reply.slice(0, 400);
-  try {
-    const parsed = JSON.parse(m[0]) as { reasoning?: unknown };
-    return typeof parsed.reasoning === "string" ? parsed.reasoning : "";
-  } catch {
-    return reply.slice(0, 400);
-  }
+  const parsed = parseReplyJson(reply);
+  if (typeof parsed.reasoning === "string") return parsed.reasoning;
+  if (typeof parsed.notes === "string") return parsed.notes;
+  return reply.slice(0, 400);
+}
+
+function fmtValue(v: unknown): string {
+  if (Array.isArray(v)) return v.join(", ");
+  return String(v ?? "—");
 }
 
 function callLabel(call: LlmCall, index: number): string {
@@ -99,6 +106,7 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
 
   const meta = run.meta;
   const scores = run.summary.scores;
+  const isLabel = run.kind === "label";
 
   return (
     <div className="run-view">
@@ -108,28 +116,42 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
             <div>
               <h1>{run.name.replace(/\.jsonl$/, "")}</h1>
               <p>
-                FOIA Phase-0 eval — oracle / ground / llm arms scored on disposition,
-                exemption engagement, PI direction, and per-atom facts.
+                {isLabel
+                  ? "Gold-label draft — model transcription from withheld tribunal reasoning."
+                  : "Eval run — oracle / ground / llm arms scored on disposition, exemption engagement, PI direction, and per-atom facts."}
               </p>
             </div>
-            <div className="metric-strip">
-              <div className="metric-pill">
-                <span className="metric-label">Disposition</span>
-                <strong>{scores.disposition ?? "—"}</strong>
+            {isLabel ? (
+              <div className="metric-strip">
+                <div className="metric-pill">
+                  <span className="metric-label">Labels</span>
+                  <strong>{run.cases.length}</strong>
+                </div>
+                <div className="metric-pill">
+                  <span className="metric-label">LLM calls</span>
+                  <strong>{run.summary.llm_calls}</strong>
+                </div>
               </div>
-              <div className="metric-pill">
-                <span className="metric-label">Engaged</span>
-                <strong>{scores.engaged ?? "—"}</strong>
+            ) : (
+              <div className="metric-strip">
+                <div className="metric-pill">
+                  <span className="metric-label">Disposition</span>
+                  <strong>{scores.disposition ?? "—"}</strong>
+                </div>
+                <div className="metric-pill">
+                  <span className="metric-label">Engaged</span>
+                  <strong>{scores.engaged ?? "—"}</strong>
+                </div>
+                <div className="metric-pill">
+                  <span className="metric-label">PI balance</span>
+                  <strong>{scores.pi ?? "—"}</strong>
+                </div>
+                <div className="metric-pill">
+                  <span className="metric-label">Facts</span>
+                  <strong>{scores.facts ?? "—"}</strong>
+                </div>
               </div>
-              <div className="metric-pill">
-                <span className="metric-label">PI balance</span>
-                <strong>{scores.pi ?? "—"}</strong>
-              </div>
-              <div className="metric-pill">
-                <span className="metric-label">Facts</span>
-                <strong>{scores.facts ?? "—"}</strong>
-              </div>
-            </div>
+            )}
           </div>
         </Card.Header>
         <Card.Body>
@@ -179,13 +201,14 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
       <div className="run-view-grid">
         <Card className="run-view-section">
           <Card.Header>
-            <h2>Cases {failuresOnly ? "(failures only)" : ""}</h2>
+            <h2>{isLabel ? "Labels" : "Cases"} {failuresOnly ? "(failures only)" : ""}</h2>
           </Card.Header>
           <Card.Body>
             {visibleCases.length ? (
               <div className="case-list">
                 {visibleCases.map((c) => {
-                  const failed = caseHasFailure(c);
+                  const failed = !isLabel && caseHasFailure(c);
+                  const labelGold = c.label?.gold;
                   return (
                     <button
                       key={`${c.id}-${c.arm}`}
@@ -193,14 +216,16 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
                       className={
                         "case-row" +
                         (c.id === activeCase ? " case-row--active" : "") +
-                        (failed ? " case-row--fail" : " case-row--pass")
+                        (isLabel ? "" : failed ? " case-row--fail" : " case-row--pass")
                       }
                       onClick={() => setActiveCase(c.id)}
                     >
                       <span className="case-row-name">{c.id}</span>
                       <span className="case-row-arm">{c.arm}</span>
                       <span className="case-row-disp">
-                        {String(c.pred.disposition ?? "?")} / {String(c.gold.disposition ?? "?")}
+                        {isLabel
+                          ? `gold: ${fmtValue(labelGold)}`
+                          : `${String(c.pred.disposition ?? "?")} / ${String(c.gold.disposition ?? "?")}`}
                       </span>
                     </button>
                   );
@@ -219,31 +244,68 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
           <Card.Body>
             {selectedCase ? (
               <>
-                <div className="execution-table">
-                  <div className="execution-table-header">
-                    <span>Dimension</span>
-                    <span>Pred</span>
-                    <span>Gold</span>
-                    <span>Hit</span>
-                  </div>
-                  {(["disposition", "engaged", "pi"] as const).map((dim) => {
-                    const mark = hitMark(selectedCase.hits[dim]);
-                    const pred = selectedCase.pred[dim];
-                    const gold = selectedCase.gold[dim];
-                    const fmt = (v: unknown) =>
-                      Array.isArray(v) ? v.join(", ") : String(v ?? "—");
-                    return (
-                      <div key={dim} className="execution-table-row">
-                        <span>{dim}</span>
-                        <span>{fmt(pred)}</span>
-                        <span>{fmt(gold)}</span>
-                        <span className={mark.className}>{mark.label}</span>
+                {isLabel && selectedCase.label ? (
+                  <div className="label-output">
+                    <div className="section-kicker">Drafted gold label</div>
+                    <ul className="summary-facts">
+                      <li>
+                        <span>Disposition</span>
+                        <strong>{fmtValue(selectedCase.label.gold)}</strong>
+                      </li>
+                      <li>
+                        <span>Engaged</span>
+                        <strong>{fmtValue(selectedCase.label.engaged)}</strong>
+                      </li>
+                      <li>
+                        <span>PI</span>
+                        <strong>{fmtValue(selectedCase.label.pi)}</strong>
+                      </li>
+                      <li>
+                        <span>Exemptions</span>
+                        <strong>{fmtValue(selectedCase.label.exemptions)}</strong>
+                      </li>
+                    </ul>
+                    {Array.isArray(selectedCase.label.oracle_facts) ? (
+                      <div className="facts-block">
+                        <div className="section-kicker">Oracle facts</div>
+                        <div className="reply-facts">
+                          {selectedCase.label.oracle_facts.map((atom) => (
+                            <span key={String(atom)} className="atom-chip atom-chip--included">
+                              {String(atom)}
+                            </span>
+                          ))}
+                        </div>
                       </div>
-                    );
-                  })}
-                </div>
+                    ) : null}
+                    {typeof selectedCase.label.notes === "string" ? (
+                      <p className="reasoning-text">{selectedCase.label.notes}</p>
+                    ) : null}
+                  </div>
+                ) : (
+                  <div className="execution-table">
+                    <div className="execution-table-header">
+                      <span>Dimension</span>
+                      <span>Pred</span>
+                      <span>Gold</span>
+                      <span>Hit</span>
+                    </div>
+                    {(["disposition", "engaged", "pi"] as const).map((dim) => {
+                      const mark = hitMark(selectedCase.hits[dim]);
+                      const pred = selectedCase.pred[dim];
+                      const gold = selectedCase.gold[dim];
+                      return (
+                        <div key={dim} className="execution-table-row">
+                          <span>{dim}</span>
+                          <span>{fmtValue(pred)}</span>
+                          <span>{fmtValue(gold)}</span>
+                          <span className={mark.className}>{mark.label}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
 
-                {selectedCase.facts_agreement ? (
+                {!isLabel && selectedCase.facts_agreement ? (
                   <div className="facts-block">
                     <div className="section-kicker">Facts agreement</div>
                     <p>
@@ -260,7 +322,7 @@ export const RunView: React.FC<RunViewProps> = ({ run, failuresOnly }) => {
                   </div>
                 ) : null}
 
-                {selectedCase.atom_failures.length > 0 && (
+                {!isLabel && selectedCase.atom_failures.length > 0 && (
                   <div className="failures-block">
                     <div className="section-kicker">Atom failures + model reasoning</div>
                     {selectedCase.atom_failures.map((f, i) => (

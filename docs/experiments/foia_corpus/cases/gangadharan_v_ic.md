@@ -3,11 +3,7 @@
 citation: [2025] UKFTT 963 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/963
 exemptions: ['s40(2)']
-verified: no
-
-<!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
-     Gold rules against cache/ukftt_grc_2025_963_reasoning.txt. The pipeline skips
-     unverified cases unless --allow-unverified. -->
+verified: yes
 
 ## Background
 
@@ -107,7 +103,7 @@ b) It would not be lawful to disclose the information under Article 5(1)(a) GDPR
 
 ## Disputed information
 
-TODO
+Aggregate percentage data requested under Request 4: comparisons of Centre Assessment Grades (CAG) against Fisher Family Trust (FFT) benchmarks, broken down by "Caucasian/White" vs "Non-Caucasian/BAME/Non-White" student ethnicity groups, for the subjects Business Studies, English Language, English Literature, Maths, Chemistry, and Religious Education, for the years 2019–2021, at the level of students achieving grades 7+, 8+, and 9. The School had withheld this under s.40(2) FOIA on the grounds it was personal data. The Tribunal found it was not personal data (successfully anonymised aggregate percentages, as exemplified by Exhibit 1) and ordered disclosure.
 
 ## Oracle facts
 

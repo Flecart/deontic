@@ -1,6 +1,13 @@
+export interface Experiment {
+  id: string;
+  label: string;
+  run_count: number;
+}
+
 export interface RunListItem {
   name: string;
   mtime: number;
+  kind: "eval" | "label" | "other";
   model?: string;
   arms?: string[];
   cases?: string[];
@@ -18,7 +25,8 @@ export interface AtomFailure {
 export interface LlmCall {
   ts: string;
   type: "llm_call";
-  case: string;
+  case?: string;
+  slug?: string;
   arm: string;
   batch?: number;
   batches?: number;
@@ -35,6 +43,8 @@ export interface LlmCall {
 export interface CaseResult {
   id: string;
   arm: string;
+  kind: "eval" | "label";
+  label?: Record<string, unknown> | null;
   pred: Record<string, unknown>;
   gold: Record<string, unknown>;
   hits: Record<string, boolean | null>;
@@ -46,6 +56,8 @@ export interface CaseResult {
 export interface RunDetail {
   name: string;
   mtime: number;
+  experiment: string;
+  kind: "eval" | "label";
   meta: Record<string, unknown>;
   summary: {
     llm_calls: number;

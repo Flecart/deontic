@@ -2,8 +2,8 @@
 
 citation: [2025] UKFTT 1093 (GRC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/grc/2025/1093
-exemptions: ['s21(1)', 's31(1)(e)', 's40(2)']
-verified: no
+exemptions: s21(1), s31(1)(e), s40(2)
+verified: yes
 
 <!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
      Gold rules against cache/ukftt_grc_2025_1093_reasoning.txt. The pipeline skips
@@ -95,11 +95,11 @@ b. A closed bundle of documents containing the withheld information.
 
 ## Disputed information
 
-TODO
+The asylum and immigration file held by the Home Office for Ahmed Ali Alid (a Moroccan national convicted of murder in the UK). The file includes: an Initial Contact and Asylum Registration questionnaire, a record of a Travel History Interview, and all other documents making up the asylum and immigration record. The information in the file that is identical to what appeared in the sentencing remarks (publicly available) is the portion covered by s21; the two named documents are the s31 subject matter; and the remaining file contents are the s40(2) subject matter. All three bodies of information were disputed — the appellant sought the entire file.
 
 ## Oracle facts
 
-Request, HoldsInfo, ConfirmOrDeny, RefusalNotice, AccessibleOtherMeans, PrejudiceLawEnforcement, ThirdPartyPersonalData, ContraveneDPPrinciples
+Request, HoldsInfo, ConfirmOrDeny, RefusalNotice, AccessibleOtherMeans, PrejudiceLawEnforcement, ThirdPartyPersonalData, ContraveneDPPrinciples, PiMaintainOutweighs
 
 ## Gold
 

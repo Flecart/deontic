@@ -1,9 +1,9 @@
 {
-  "name": "foia-run-viewer",
+  "name": "corpus-run-viewer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"cd .. && python3 app.py\" \"vite\"",
+    "dev": "concurrently \"python3 ../app.py\" \"vite\"",
     "build": "vite build",
     "preview": "vite preview"
   },

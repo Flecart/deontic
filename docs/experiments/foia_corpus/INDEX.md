@@ -123,10 +123,9 @@ statute), pilot-able with **~15**. Cases to index: pool is thousands; we need
   scaffolds a draft `cases/*.md` for human curation. Kennaugh took ~15 min
   fetch-to-green. Old pre-FCL tribunal decisions are PDF-only — add a PDF
   fallback only when a sampled case forces it.
-- **Run viewer:** [`frontend/`](frontend/) + [`app.py`](app.py) — React UI
-  (sidebar run list, score dashboard, per-case pred/gold, atom-failure
-  reasoning, prompt inspector). `cd frontend && npm run dev` →
-  http://localhost:5174
+- **Run viewer:** [`../frontend/`](../frontend/) + [`../app.py`](../app.py) —
+  shared React UI for all `*_corpus` experiments (FOIA, EIR, …). `cd
+  ../frontend && npm run dev` → http://localhost:5174
 - **Pipeline:** [`pipeline.py`](pipeline.py) — three arms (oracle facts→engine,
   LLM-grounds→engine, LLM-only) against OpenAI models, scored on **four
   dimensions**: disposition, exemption-rule engagement (gold in each case
