@@ -3,7 +3,7 @@
 citation: [2025] UKFTT 422 (TC)
 url: https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/422
 exemptions: []
-verified: no
+verified: yes
 
 <!-- verified: flip to `yes` after a human has checked Oracle facts / Gold /
      Gold rules against cache/ukftt_tc_2025_422_reasoning.txt. The pipeline skips
@@ -51,11 +51,12 @@ FilingObligationNotified, ReturnLate, PenaltyAssessedNotified
 
 ## Gold
 
-withhold
+uphold
 
-<!-- header disposition hint: appeal is (not detected) -->
-
-<!-- label-draft notes (gpt-4.1): The Tribunal found that HMRC notified the taxpayer of the obligation to file (paras 14-16), the return was filed late (18-21), penalties were validly notified (23-24), and there was no reasonable excuse (32-33). The appeal was dismissed (35). -->
+<!-- appeal dismissed — para 35: "The appeal is dismissed." Penalties stand. -->
+<!-- Consideration 1 (paras 14-16): return required — FilingObligationNotified. -->
+<!-- Consideration 2 (paras 18-24): return filed 20 Jun 2023, due 31 Jan 2023 — ReturnLate; penalties validly notified — PenaltyAssessedNotified. -->
+<!-- Consideration 3 (paras 31-33): no reasonable excuse — unfamiliarity with UK tax law not a reasonable excuse; reliance on wife and insufficiency of funds are specifically excluded categories. ReasonableExcuse = FALSE. -->
 
 ## Gold rules
 
