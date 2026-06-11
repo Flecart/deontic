@@ -1,0 +1,1054 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/544"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/grc/2026/544"/>
+	  <FRBRdate date="2026-04-13" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="544"/>
+	  <FRBRname value="Grass Cliftonville CIC v The Information Commissioner"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/544"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/544"/>
+	  <FRBRdate date="2026-04-13" name="decision"/>
+	  <FRBRauthor href="#ukftt-grc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/544/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/grc/2026/544/data.xml"/>
+	  <FRBRdate date="2026-04-13T14:42:15" name="transform"/>
+	  <FRBRdate date="2026-04-13T15:45:11" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2026-04-08" refersTo="#decision" source="#"/>
+	<eventRef date="2026-04-13" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-grc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-general-regulatory-chamber" showAs="United Kingdom First-tier Tribunal (General Regulatory Chamber)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="grass-cliftonville-cic" href="" showAs="GRASS CLIFTONVILLE CIC"/>
+	<TLCPerson eId="the-information-commissioner" href="" showAs="THE INFORMATION COMMISSIONER"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+	<TLCPerson eId="judge-tribunal-judge-shenaz-muzaffer" href="/judge-tribunal-judge-shenaz-muzaffer" showAs="TRIBUNAL JUDGE SHENAZ MUZAFFER"/>
+	<TLCConcept eId="jurisdiction-informationrights" href="/jurisdiction/informationrights" shortForm="InformationRights" showAs="Information Rights"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-GRC</uk:court>
+	<uk:year>2026</uk:year>
+	<uk:number>544</uk:number>
+	<uk:cite>[2026] UKFTT 544 (GRC)</uk:cite>
+	<uk:jurisdiction>InformationRights</uk:jurisdiction>
+	<uk:parser>1.7.0</uk:parser>
+	<uk:hash>ee2c6f6a08823062905ef27d44c15418676ae593b2578c57c9d378370893b2bb</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-family: 'Times New Roman'; font-size: 12pt; }
+#judgment .Normal { font-size: 12pt; }
+#judgment .Heading1 { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2 { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3 { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Header { font-size: 12pt; }
+#judgment .Footer { font-size: 12pt; }
+#judgment .BalloonText { font-family: Tahoma; font-size: 8pt; }
+#judgment .ListParagraph { margin-left: 0.5in; font-size: 12pt; }
+#judgment .NormalWeb { font-size: 12pt; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .CommentSubject { font-weight: bold; font-size: 10pt; }
+#judgment .NumberedReasons { text-align: justify; margin-left: 0.5in; font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .judgment-bodytext { font-size: 12pt; }
+#judgment .PageNumber { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .markedcontent { }
+#judgment .CommentReference { font-size: 8pt; }
+#judgment .CommentTextChar { }
+#judgment .CommentSubjectChar { font-weight: bold; }
+#judgment .PlaceholderText { color: #808080; }
+#judgment .ListParagraphChar { font-size: 12pt; }
+#judgment .NumberedReasonsChar { font-family: 'Book Antiqua'; font-size: 12pt; }
+#judgment .Heading1Char { font-weight: bold; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading2Char { text-decoration-line: underline; text-decoration-style: solid; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .Heading3Char { font-style: italic; font-family: 'Book Antiqua'; font-size: 12pt; color: #000000; }
+#judgment .UnresolvedMention { color: #605E5C; background-color: initial; }
+#judgment .judgment-bodynumber { }
+#judgment .judgment-bodycopy-link-tooltip { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p style="text-align:center"><img src="image1.png" style="width:74.06pt;height:64.63pt"/></p>
+      <p><span style="font-weight:bold;font-family:'Book Antiqua';color:#000000">NCN: </span><neutralCitation style="font-weight:bold;font-family:'Book Antiqua';color:#000000">[2026] UKFTT 00544 (GRC)</neutralCitation></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'"> Case References: FT/EA/2025/0245</span></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">First-tier Tribunal </courtType></p>
+      <p style="margin-right:-0.06in"><courtType refersTo="#ukftt-grc" style="font-weight:bold;font-family:'Book Antiqua'">(General Regulatory Chamber)</courtType></p>
+      <p style="margin-right:-0.06in"><docJurisdiction refersTo="#jurisdiction-informationrights" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">Information Rights</docJurisdiction></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Determined without a hearing</span></p>
+      <p style="text-align:right"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision given on: </span><docDate date="2026-04-13" refersTo="#decision" style="font-weight:bold;font-family:'Book Antiqua'">13 April 2026</docDate></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Before</span></p>
+      <p style="text-align:center"><judge refersTo="#judge-tribunal-judge-shenaz-muzaffer" style="font-weight:bold;font-family:'Book Antiqua'">TRIBUNAL JUDGE SHENAZ MUZAFFER</judge></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">TRIBUNAL MEMBER NAOMI MATTHEWS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">TRIBUNAL MEMBER MARION SAUNDERS</span></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#grass-cliftonville-cic" style="font-weight:bold;text-transform:uppercase;font-family:'Book Antiqua';color:#000000">GRASS CLIFTONVILLE CIC</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold;font-family:'Book Antiqua'">and</span></p>
+      <p class="ListParagraph" style="text-align:center;margin-left:0in"><party as="#respondent" refersTo="#the-information-commissioner" style="font-weight:bold;font-family:'Book Antiqua';color:#000000">THE INFORMATION COMMISSIONER</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="text-decoration-line:underline;text-decoration-style:solid;font-family:'Book Antiqua'">First Respondent</role></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision:  </span><span style="font-family:'Book Antiqua'">The appeal is dismissed.</span></p>
+      <p style="text-align:justify"><span style="font-weight:bold;font-family:'Book Antiqua'">REASONS</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<paragraph eId="para_1">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">1.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">This is an appeal against a decision of the Information Commissioner (&#8220;the Commissioner&#8221;) dated 05 June 2025, reference IC-351189-J5G6 (&#8220;the Decision Notice&#8221;).</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_2">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">2.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The parties opted for a paper determination of the appeal.  The Tribunal is satisfied that it can properly determine the issues without a hearing in accordance with rule 2 and rule 32(1)(b) of The Tribunal Procedure (First-tier Tribunal)(General Regulatory Chamber) Rules 2009 (as amended).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_1">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">Factual background</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_3">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">3.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in">The appeal relates to the application of the Environmental Information Regulations 2004 (&#8220;the EIR&#8221;).  The relevant Public Authority is Thanet District Council (&#8220;the Council&#8221;).</p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_2">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-weight:bold">The request and response</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_4">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">4.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">Simon Bell, on behalf of the Appellant, made the request which is the subject of this appeal on 09 October 2024 in writing as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;I am writing to request all official communications between Councillor Cedric Towning, using his official Thanet District Council (TDC) email address, and council officers or other councillors relating to complaints made against GRASS Cliftonville CIC.  Specifically, I am requesting the following:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">1.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">All of Cllr Townings email correspondence regarding complaints that led to enforcement action taken by TDC (9</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-style:italic;font-family:'Book Antiqua'"> July 2024) against GRASS Cliftonville CIC for placing advertising banners for community events on railings in various locations in Thanet during summer 2024.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">All of Cllr Townings email correspondence regarding complaints that led to planning enforcement action taken by TDC on 14</span><span style="font-style:italic;vertical-align:super;font-size:smaller;font-family:'Book Antiqua'">th</span><span style="font-style:italic;font-family:'Book Antiqua'"> August 2023 (ref:  EN/23/0202) against GRASS Cliftonville CIC regarding regeneration works undertaken at The Oval Bandstand.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">3.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">All of Cllr Townings email correspondence relating to him calling in GRASS Cliftonville CIC&#8217;s planning application F/TH/23/1614 for determination by the planning committee.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">4.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">All of Cllr Townings email correspondence to/from TDC&#8217;s generic planning email account [email address] relating to the above complaints and our organisation.</span></p>
+		  </content>
+		</paragraph>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">As a Director of GRASS Cliftonville CIC, I forfeit my rights under the General Data Protection Regulation (GDPR) and allow all email correspondence between Councillor Cedric Towning and council officers or councillors relating to this request and our organisation to be made publicly available without redactions&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_5">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">5.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Council responded to the Appellant&#8217;s request in writing on 01 November 2024, stating </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;We confirm that we hold the information that you have requested&#8221;.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_6">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">6.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to parts 1) and 2) of the request, the Council&#8217;s response was as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;The Council considers this information is exempt from disclosure under EIR, Regulation 12(5)(d), confidentiality of proceedings.  This exception relate to information that, if disclosed, would adversely affect the confidentiality of a local planning authority&#8217;s proceedings&#8230;&#8230;The Council is of the view that disclosure of this information would have an adverse effect on the confidentiality of these proceedings of planning enforcement complaints.  Disclosure of such information, despite the obligation of confidence, would damage confidentiality and result in harm to the process and would deter members of the public to raise planning concerns if they thought their details would be placed into the public domain.  It could also undermine any enforcement action if we were to disclose potential evidence.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">We maintain this on the basis that enforcement complaints is meant to occur in a &#8216;safe space&#8217; between the council and the complainant.  To share this information with the wider world undermines the process and breaches a common law duty of confidence to the complainant.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">The Council accepts that it is very important for the public to have a voice in planning matters, which is part of the general public interest in openness and transparency, however it is important for complainants have a relationship of trust with the Council and that there is a considerable public interest in ensuring that the effectiveness of the planning enforcement process is not undermined.  To this end, we maintain that to disclose this information would undermine the effectiveness of any potential enforcement action, which is contrary to the interests of justice&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_7">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">7.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">In relation to parts 3) and 4) of the request, the Council&#8217;s response was as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Response:  Please see attached.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">We do not hold any emails within the scope of the request within the generic planning email account&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_8">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">8.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">One email was provided to the Appellant, dated 07 May 2024, from Councillor Towning's (&#8220;Cllr Towning&#8221;) Thanet District Council email account to a Planning Applications Manager from the Council.  The disclosed email related to part 3) of the Appellant&#8217;s request.  One short paragraph was redacted from the email.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_9">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">9.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-family:'Book Antiqua'">The Appellant submitted a request for an internal review on 04 November 2024.  The Appellant raised a number of grounds in its request, which are summarised as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council had misapplied regulation 12(5)(d) of the EIR, as the information sought related to formal proceedings rather than private complaints, and so the cited exemption was not justified.  Additionally, the request solely sought official communications involving Cllr Towning, which did not fall within the meaning of &#8216;confidential proceedings&#8217; for the purposes of regulation 12(5)(d) of the EIR;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council had misapplied the public interest test, in that transparency about how public officials handle planning concerns is essential for fairness and accountability, which strengthens public confidence in the planning process rather than undermines it;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council had failed to present clear evidence of the likely adverse effects on the enforcement process that would be caused by the disclosure of Cllr Towning&#8217;s official communications;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">There were questions about whether the planning process was being leveraged to pressure the Appellant into accepting Cliftonville Farmers&#8217; Market back at The Oval.  The Appellant therefore believed that it was essential to review Cllr Towning&#8217;s official correspondence to ensure that the process remained fair and transparent.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_10">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">10.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant concluded his request for an internal review by stating:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Given these points, I request a comprehensive review of the decision to withhold information, particularly regarding the misapplication of Regulation 12(5)(d) and the insufficient consideration of the public interest test.  I believe disclosure would uphold public confidence in the transparency and accountability of the Council&#8217;s planning enforcement actions&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_11">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">11.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council responded to the request for an internal review on 10 December 2024, in which they stated the following:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Further to your request for a review of our response, we have now conducted such a review and the decision has been upheld in part for the following reasons:</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">We maintain the exemption for the first two parts of your request where all enforcement complaints are confidential.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">We provide an additional email as attached, however the planning team does not hold any additional information within the scope of the request.  We have been unable to obtain any official correspondence from Cllr Towning, above what has already been disclosed&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_12">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">12.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The response to the internal review included the same (redacted) email that had previously been disclosed, and two short additional emails from the same email chain.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_3">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in;margin-right:0.25in;text-indent:-0.25in"><marker name="tab"/><span style="font-weight:bold;font-family:'Book Antiqua'">The complaint and the Commissioner&#8217;s investigation</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_13">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">13.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant lodged a complaint with the Commissioner on 14 December 2024.  In particular, it stated that:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;I am dissatisfied with Thanet District Council&#8217;s (TDC) response to parts one and two of my FOI request (Ref:  EIR 8257), which were withheld under EIR Regulation 12(5)(d) citing confidentiality of proceedings.  While TDC has provided relevant correspondence for part three of my request (relating to Cllr Cedric Towning calling in a planning application), it has not disclosed any information regarding parts one and two, which relate to enforcement actions.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">I disagree with the blanket application of Regulation 12(5)(d) to withhold all information.  My request specifically targets official communications involving Cllr Towning acting in his capacity as a councillor and does not seek private complainants&#8217; details or personal data.  Reacted disclosures could adequately protect private individuals while ensuring transparency and accountability.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">Additionally, TDC&#8217;s public interest test misjudges the strong public interest in understanding how elected officials influence enforcement and planning decisions.  Transparency in such matters fosters confidence in local government and helps address concerns of potential misuse of authority.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">Finally, TDC has failed to provide evidence of how disclosing Cllr Towning&#8217;s correspondence would harm enforcement processes, as required to justify the application of this exemption.</span></p>
+		  </content>
+		</level>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">I accept part three of the Council&#8217;s response but challenge its handling of parts one and two.  I request the ICO review whether TDC has appropriately applied Regulation 12(5)(d) and sufficiently considered the public interest in disclosure&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_14">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">14.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant also stated that</span><span style="font-style:italic;font-family:'Book Antiqua'"> &#8220;I believe TDC has failed to act appropriately by withholding all relevant communications without considering partial disclosure or demonstrating harm to enforcement processes.  I request the ICO direct TDC to reassess my request, ensure proper application of the EIR, and disclose relevant correspondence with necessary redactions to protect private individuals&#8217;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_15">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">15.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant wrote to the Commissioner with expanded Grounds of Appeal on 14 December 2024, reiterating the Grounds of Appeal that were outlined in its initial request for internal review.  In addition, the Appellant raised concerns about the search process and scope, stating that the Council had failed to provide sufficient detail about its search process in relation to the generic planning email account and for part 4) of the request.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_16">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">16.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant sought the following outcomes:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;I respectfully request the ICO review TDC&#8217;s handling of parts one and two of my FOI request.  Specifically, I ask that the ICO:</span></p>
+		  </content>
+		</level>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">1.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">Assess whether TDC has correctly applied EIR Regulation 12(5)(d) to withhold all information without considering partial disclosure.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">2.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">Evaluate the adequacy of TDC&#8217;s public interest assessment.</span></p>
+		  </content>
+		</paragraph>
+		<paragraph>
+		  <num style="font-style:italic;font-family:'Book Antiqua'">3.</num>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-style:italic;font-family:'Book Antiqua'">Review the thoroughness of TDC&#8217;s search process for part four of my request&#8221;.</span></p>
+		  </content>
+		</paragraph>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_17">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">17.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner accepted the complaint for investigation on 08 January 2025.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_18">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">18.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 22 April 2025, the Commissioner wrote to the Council and asked them to review their response to consider whether their reliance on regulation 12(5)(d) of the EIR was correct.  The Council was asked to respond to a series of questions, including why the Council considered that the set of proceedings that were the focus of the request to be formal in nature, the basis on which the Council believed that the proceedings were covered by confidence provided for by law, and how disclosure of the withheld information would adversely affect the confidentiality of those proceedings.  The Council was also asked to confirm which public interest arguments in favour of disclosing the information were taken into account, and which public interest arguments in favour of maintaining the exemption were taken into account.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_19">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">19.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 13 May 2025, the Council sent a written response to the Commissioner which stated, in summary, that:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">There had not been any engagement by Cllr Towning with the FOI process, despite repeated attempts to contact him.  The matter had been referred to the Monitoring Officer as a response would have been expected;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Whilst information created by Cllr Towning in his official role as a reserve on the Planning Committee would come within the ambit of the EIR, the Planning Committee only had a limited remit in relation to certain planning enforcement matters.  No reference to the Appellant and enforcement could be found on the publicly accessible Councillor meetings portal.  No results relating to the planning enforcement action (ref EN/23/0202) were returned and so the Council had understood that the enforcement process did not involve the Planning Committee;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council had concluded that complaints received by Cllr Towning from residents of his ward would not fall within the remit of the EIR, and so it was felt that only information that Cllr Towning had subsequently passed onto the Planning Applications team would be deemed to be &#8216;held&#8217;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">A meeting was booked with the Planning Applications Manager to determine if they had received any complaints forwarded to them by Cllr Towning.  At the time of the response, that meeting had not yet taken place.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_20">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">20.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 16 May 2025, the Council wrote to the Commissioner again, indicating that the Planning Applications Manager had confirmed that the planning team did not hold any email correspondence from Cllr Towning about planning enforcement.  The Council indicated that, as far as they were aware, the planning enforcement matter came about because a member of the planning team spotted the planning violation and bought it to the attention of their team.  As such, it was possible that Cllr Towning did not hold any email correspondence either, but a response had still not been received from him.  The Council indicated that they would let the Appellant know that no further information was held.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_21">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">21.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 19 May 2025, the Commissioner wrote to the Council to ask them why the Council&#8217;s position had changed from reliance on regulation 12(5)(d) of the EIR to one of &#8220;not held&#8221;.  The Commissioner also asked the Council to respond to a series of questions regarding the searches that were conducted and the records that were held.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_22">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">22.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council responded on the same date in writing.  Their response, in summary, was as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The original note that was provided by the Planning Applications Manager to the Council&#8217;s Information Governance and Equalities Manager was initially interpreted as indicating that there was something to withhold, which was the reason for the original exemption that was applied;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">It had been expected that Cllr Towning would have engaged with the process and confirmed whether he held any relevant information.  However, despite six emails since October 2024, he had not engaged with the FOI process;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Wider context was only provided to the Information Governance and Equalities Manager by the Planning Applications Manager after the internal review stage, when it was confirmed that enforcement was triggered by planning staff who noticed a breach whilst out in the community.  It was stated that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;This means that Cllr Towning never shared any complaints with the Planning team.  We do not know if he holds any complaint information himself and not passed it on, but if he were not to pass it on, it would mean that it could never have led to any enforcement action anyway&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Information Governance and Equalities Manager indicated that, due to the miscommunications, her team believed that there was something to share when there wasn&#8217;t, in fact, anything to share;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Regarding the searches, they would have been carried out by the Planning staff.  Enforcement information was held within the Idox computer system and individual officer email accounts and shared mailboxes, and the search terms used would relate to the planning application reference number;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council would not search the email accounts of Councillors without their authorisation, as their mailboxes would contain information from their constituents;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">No information was held on personal computers, and so the searches would have been on the Idox Uniform [system] and Google Mail;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">No relevant information had been deleted or destroyed.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_23">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">23.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 16 July 2025, the Principal Enforcement Officer from the Council emailed the Commissioner and provided a screenshot with an Initial Site Report entry and a separate complainant entry, both relating to the initial complaint that led to the planning enforcement action on 14 August 2023.  In further correspondence the following day, the Council stated that it was a member of the Planning Enforcement team who initially identified the planning breach.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_24">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">24.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 23 July 2025, the Council emailed the Commissioner, referring to the provided documents, and stating that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;this means that we are correct that we do not hold any correspondence from Cllr Towning under this two parts of the initial request&#8221;.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_25">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">25.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 24 July 2025, the Commissioner contacted the Council to ask them to provide an explanation regarding the Council&#8217;s claim that the enforcement action in the case was initiated internally, as the provided documents suggested that the case was opened prior to the internal report being generated.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_26">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">26.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 30 July 2025, the Council emailed the Commissioner with a response.  The Council stated that the planning breach was first identified by a member of the public in July 2023 and that later a planning enforcement officer had also visited the site.  The request was initially refused pursuant to regulation 12(5)(d) of the EIR as it had not been made clear at the time who had made the complaint.  The information that was then provided by a Planning Applications Manager that the planning enforcement matter had been initiated by a more junior member of the team was not entirely accurate.  Full facts were then established from the Planning Enforcement Officer which aligned with the information on the documents.  It would not have been appropriate to disclose the third-party complaint in any event, as it fell outside of the scope of the request, and so the Council indicated that they should have issued a &#8216;do not hold&#8217; response instead.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_27">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">27.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Decision Notice was issued on 05 June 2025.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_4">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Decision notice</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_28">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">28.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner&#8217;s decision was that the Council was entitled to rely on regulation 12(4)(a) of the EIR as, on balance, he was satisfied that the Council did not hold any further information.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_29">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">29.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner&#8217;s analysis in his Decision Notice was confined to whether the Council was entitled to rely on regulation 12(4)(a) of the EIR, on the grounds that it did not hold the information specified at points 1) and 2) of the request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_30">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">30.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner concluded that the request should be considered under the EIR as the requested information related to information on measures and activities which are likely to affect the elements and factors of the environment.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_31">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">31.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner found that the submissions provided by the Council sufficiently explained why it did not hold the requested information.  The Commissioner stated </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;Importantly, they [the Council] also explain why it initially told the complainant that it did hold information, and why this was incorrect.  TDC&#8217;s position that regulation 12(5)(d) applied stems from an internal miscommunication.  Had this not been the case, TDC would have identified that no information was held at the time it responded to the request.  The Commissioner is satisfied that, on realising its error, TDC conducted searches which would have located relevant information, were any held&#8221;.  </span><span style="font-family:'Book Antiqua'">Based on the evidence available to him, the Commissioner found that, on the civil standard of the balance of probabilities, the Council did not hold information falling within points 1) and 2) of the request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_32">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">32.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Given that the Commissioner was satisfied that the information was not held, the Commissioner was also satisfied that regulation 12(4)(a) [of the EIR] applied and he did not require the Council to take any further steps in this case.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_5">
+	  <content>
+	    <p style="text-align:justify;text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Grounds of appeal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_33">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">33.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant lodged its appeal on 02 July 2025.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_34">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">34.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">In his reasons for the appeal, the Appellant put forward the following:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council initially acknowledged the existence of the [requested] material, refusing disclosure under regulation 12(5)(b) of the EIR (it was highlighted by the Commissioner that the initial refusal was, in fact, on the basis of regulation 12(5)(d)).  The Appellant stated </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;It was only later &#8211; once disclosure became likely &#8211; that the Council reversed its position, claiming no relevant records exist.  The ICO accepted this reversal without seeking supporting evidence.  This change of position is procedurally irregular and lacks credibility.  The Council provided no detail of how searches were conducted, who was consulted, or what systems were examined.  The ICO did not request audit trails, evidence of deletion, or statements from responsible officers.  The result is a decision that fails to apply the balance of probabilities properly and disregards clear and credible contradictory evidence&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">An email from the Council&#8217;s Planning Enforcement Officer, dated 14 August 2023, indicated that the enforcement action reference EN/23/0202 had been initiated via an external referral, not initiated internally.  As Cllr Towning was the only elected official who was known to have raised concerns about the redevelopment, it is reasonable to infer that his correspondence would have fallen within the scope of the FOI request;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">Planning Meeting notes from 02 May 2024 supported an inference that elected members were involved in prompting the enforcement investigation, which again contradicted the Council&#8217;s position that no such communications exist;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council initially did not dispute that Cllr Towning was the likely originator of the planning enforcement complaints against the Appellant.  The Council only reversed its position and claimed that Cllr Towning was not the complainant and that no relevant records existed when they were compelled to justify withholding the emails under the EIR.  The Appellant stated that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;On the balance of probabilities &#8211; particularly considering this inconsistency &#8211; the ICO should have treated the reversal with greater scepticism and sought evidence of deletion, audit trails, or sworn statements.  Its failure to do so represents a misapplication of the standard and renders the decision unsafe&#8221;;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The ICO decided to accept the Council&#8217;s assertions without requesting material evidence including confirmation of the search parameters or statements on oath from relevant officers or councillors.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_35">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">35.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant included an extensive list of information that was sought within its Grounds of Appeal, which went considerably further than the scope of the initial request.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_6">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">The response of the Commissioner</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_36">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">36.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner lodged his response on 31 July 2025.  The response, in summary, was as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner investigated the change in position by the Council, requesting an explanation and inviting the Council to provide submissions addressing several questions concerning how it had concluded that no information was held.  The Commissioner asked appropriate questions of the Council and the Council engaged with the investigation.  The Commissioner was satisfied that the searches conducted by the Council were likely to have identified information held relevant to the request;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner was satisfied that there was no evidence of an attempt to mislead the Commissioner, and nor did the Commissioner believe that there was any motive for the Council to withhold information already in its possession;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council was entitled to raise late reliance on regulation 12(4)(a) of the EIR, and the Commissioner was entitled to accept this late reliance; </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">To the extent that the Appellant challenged how the Commissioner investigated this matter, the Commissioner submitted that this was not a valid ground of appeal;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner&#8217;s view was that, if any complaints were sent to the Council by Cllr Towning, the information (if held by the Council) should have been discovered during the searches that were conducted by the Council as outlined in their response to the Commissioner&#8217;s questions;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner reviewed the evidence that was provided by the Council regarding the initiation of the enforcement action.  The evidence demonstrated that there was an external complaint made by a member of the public in July 2023.  The Commissioner considered that the evidence provided by the Council answered the Appellant&#8217;s concerns about the Council&#8217;s claim that the enforcement action was initiated internally.  The Commissioner did not consider that this evidence dislodged the decision reached in the Decision Notice;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner remained satisfied that he was correct to conclude, on the balance of probabilities, that no information was held by the Council in relation to parts 1) and 2) of the request.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_37">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">37.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Commissioner therefore concluded that, in his submission, the appeal should be dismissed.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_7">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">The Appellant&#8217;s reply to the Commissioner&#8217;s response </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_38">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">38.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Appellant lodged its reply in writing on 06 August 2025, stating as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">a)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner&#8217;s decision to accept the Council&#8217;s revised position that no information was held that was relevant to the request was unsustainable on the facts, and the Decision Notice was unsound when judged against the applicable legal standards under the EIR;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">b)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council&#8217;s shift from reliance on regulation 12(5)(d) to regulation 12(4)(a) of the EIR should have triggered a </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;far deeper investigation into the Council&#8217;s record keeping practices and the credibility of their revised position, particularly given the public interest at stake&#8221;</span><span style="font-family:'Book Antiqua'">;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">c)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The disclosure by the Council of a Uniform system screenshot and an email that identified a member of the public as the complainant fell outside </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;the temporal scope of the Commissioner&#8217;s original investigation and cannot be treated as reliable without proper scrutiny.  Neither item has been authenticated: no audit trail, metadata, or sworn witness statement has been provided&#8230;..Crucially, the Commissioner did not examine these flaws or apply evidentiary rigour before accepting this material as dispositive.  That is procedurally unsound&#8221;</span><span style="font-family:'Book Antiqua'">;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">d)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner failed to apply the balance of probabilities test correctly, and accepted </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;inconsistent and unverified assurances by TDC [the Council] without applying a critical evidentiary lens&#8221;</span><span style="font-family:'Book Antiqua'">;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">e)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council had previously not denied the Appellant&#8217;s assertion that Cllr Towning was the likely originator of the planning enforcement complaints, and only shifted their position when </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;disclosure loomed&#8221;</span><span style="font-family:'Book Antiqua'">.  The Appellant stated that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;This progression of where the complaint originated &#8211; from councillor, to officer, to member of the public &#8211; demonstrates a lack of consistency and candour.  The Commissioner accepted the Council&#8217;s final version of events without addressing or reconciling these contradictions&#8221;</span><span style="font-family:'Book Antiqua'">;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">f)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Council&#8217;s position was that it could not search the email accounts of councillors without their authorisation.  The Appellant stated that that position was incompatible with their obligations under the EIR to make all reasonable efforts to locate and retrieve the requested information.  The Appellant asserted that </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;The Commissioner appears to have accepted this refusal without scrutiny or consequence.  This sets a dangerous precedent:  that an elected official can simply opt out of transparency obligations by refusing to cooperate.  It also reflects a failure of the Council&#8217;s internal governance and records management protocols and raises serious questions about accountability in decision-making&#8221;</span><span style="font-family:'Book Antiqua'">;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">g)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Commissioner&#8217;s conclusion that there was no motive for the Council to withhold information in their possession was unfounded and procedurally incorrect, as the Commissioner made no enquiries into potential motive, undertook no contextual assessment of the history between the parties, and failed to consider evidence already presented that outlines a credible rationale for non-disclosure;</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua';margin-left:1in;text-indent:-0.25in">h)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1in"><span style="font-family:'Book Antiqua'">The Appellant concluded its reply by stating </span><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;The issue at the heart of this appeal concerns the integrity and accountability of public decision-making.  TDC&#8217;s credibility is in question due to shifting explanations, weak evidentiary disclosure, and failure to confirm basic assertions in a timely manner.  The Commissioner has taken these explanations at face value, and the Tribunal is now invited to apply a more rigorous evidential standard to protect public interest and uphold transparency under the law&#8221;.</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_8">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Legal Framework </span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_39">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">39.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">&#8220;Environmental information&#8221; is defined in regulation 2 of the EIR as follows: </span></p>
+	  </intro>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">Interpretation </span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.5in"><span style="font-weight:bold;font-family:'Book Antiqua'">2(1)</span><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">In these Regulations &#8211; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.89in;text-indent:0.29in"><span style="font-family:'Book Antiqua'">&#8230;&#8230;</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">&#8220;environmental information&#8221; has the same meaning as in Article 2(1) of the Directive, namely any information in written, visual, aural, electronic or any other material form on &#8211; </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(a)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua'">the state of the elements of the environment, such as air and atmosphere, water, soil, land, landscape and natural sites, including wetlands, coastal and marine areas, biological diversity and its components, including genetically modified organism, and the interaction among these elements;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua'">factors, such as substances, energy, noise, radiation or waste, including radioactive waste, emissions, discharges and other releases into the environment, affecting or likely to affect the elements of the environment referred to in (a);</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(c)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua'">measures (including administrative measures), such as policies, legislation, plans, programmes, environmental agreements, and activities affecting or likely to affect the elements and factors referred to in (a) and (b) as well as measures or activities designed to protect those elements;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(d)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.89in;text-indent:0.4in"><span style="font-family:'Book Antiqua'">reports on the implementation of environmental legislation;</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(e)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua'">cost-benefit and other economic analysis and assumptions used within the framework of the measures and activities referred to in (c); and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(f)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:1.97in"><span style="font-family:'Book Antiqua'">the state of human health and safety, including the contamination of the food chain, where relevant, conditions of human life, cultural sites and built structures inasmuch as they are or may be affected by the state of the elements of the environment referred to in (a) or, through those elements, by any of the matters referred to in (b) and (c).</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_40">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">40.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The duty to make environmental information available on request is found in regulation 5 of the EIR as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(1)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Subject to paragraph (3) and in accordance with paragraphs (2), (4), (5) and (6) and the remaining provisions of this Part and Part 3 of the Regulations, a public authority that holds environmental information shall make it available on request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(2)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Information shall be made available under paragraph (1) as soon as possible and no later than 20 working days after the date of receipt of the request.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-family:'Book Antiqua'">&#8230;&#8230;</span></p>
+	    </content>
+	  </subparagraph>
+	</paragraph>
+	<paragraph eId="para_41">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">41.</num>
+	  <intro>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The relevant parts of regulation 12, which outlines the exceptions to the duty to disclose environmental information, read as follows:</span></p>
+	  </intro>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(1)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">Subject to paragraphs (2), (3) and (9), a public authority may refuse to disclose environmental information requested if &#8211; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">an exception to disclosure applies under paragraphs (4) or (5); and</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(b)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.58in"><span style="font-family:'Book Antiqua'">in all the circumstances on the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(2)</num>
+	      <content>
+		<p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">A public authority shall apply a presumption in favour of disclosure.</span></p>
+	      </content>
+	    </subparagraph>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(3)</num>
+	    <content>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">To the extent that the information requested includes personal data of which the applicant is not the data subject, the personal data shall not be disclosed otherwise than in accordance with regulation 13.</span></p>
+	    </content>
+	  </subparagraph>
+	  <subparagraph>
+	    <num style="font-family:'Book Antiqua'">(4)</num>
+	    <intro>
+	      <p class="ListParagraph" style="text-align:justify;margin-left:1.18in"><span style="font-family:'Book Antiqua'">For the purposes of paragraph (1)(a), a public authority may refuse to disclose information to the extent that &#8211; </span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="font-family:'Book Antiqua'">(a)</num>
+	      <intro>
+		<p class="ListParagraph" style="text-align:justify;margin-left:1.18in;text-indent:0.32in"><span style="font-family:'Book Antiqua'">it does not hold that information when an applicant&#8217;s request is received;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="font-family:'Book Antiqua'">(b)</num>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.79in;text-indent:0.21in"><span style="font-family:'Book Antiqua'">the request for information is manifestly unreasonable</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<content>
+		  <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><marker name="tab"/><marker name="tab"/><span style="font-family:'Book Antiqua'">&#8230;&#8230;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </subparagraph>
+	</paragraph>
+	<level eId="lvl_9">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:-0.25in"><span style="font-style:italic">Regulation 12(4)(a) of the EIR</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_42">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">42.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">A public authority may therefore refuse to disclose information to the extent that it does not hold that information when the applicant&#8217;s request is received and where, in all of the circumstances of the case, the public interest in maintaining the exception outweighs the public interest in disclosing the information.</p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_43">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">43.</num>
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.5in;text-indent:0in">Whether a public authority holds material is a question of fact to be determined on the balance of probabilities (<span style="font-style:italic">Linda Bromley v the Information Commissioner and the Environment Agency (EA/2006/0072; 31 August 2007, </span>as approved in <span style="font-style:italic">Andrew Preston v the Information Commissioner and the Chief Constable of West Yorkshire Police <ref href="https://caselaw.nationalarchives.gov.uk/ukut/aac/2022/344" uk:canonical="[2022] UKUT 344 (AAC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2022">[2022] UKUT 344 (AAC)</ref>).  </span>The First-tier Tribunal held that in determining a dispute as to whether information is &#8216;held&#8217; that:</p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="NumberedReasons" style="margin-left:0.79in"><span style="font-style:italic">&#8220;There can seldom be absolute certainty that information relevant to a request does not remain undiscovered somewhere within a public authority's records. This is particularly the case with a large national organisation like the Environment Agency, whose records are inevitably spread across a number of departments in different locations.&#160; The Environment Agency properly conceded that it could not be certain that it holds no more information.  However, it argued (and was supported in the argument by the Information Commissioner) that the test to be applied was not certainty but the balance of probabilities.  This is the normal standard of proof and clearly applies to Appeals before this Tribunal in which the Information Commissioner's findings of fact are reviewed.  We think that its application requires us to consider a number of factors including the quality of the public authority's initial analysis of the request, the scope of the search that it decided to make on the basis of that analysis and the rigour and efficiency with which the search was then conducted.  Other matters may affect our assessment at each stage, including, for example, the discovery of materials elsewhere whose existence or content point to the existence of further information within the public authority which had not been brought to light.  Our task is to decide, on the basis of our review of all of these factors, whether the public authority is likely to be holding relevant information beyond that which has already been disclosed&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_44">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">44.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">Whilst the above cases relate to FOIA, the considerations are of equal applicability to the EIR.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_45">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">45.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The relevant test is therefore whether information is, on the evidence, more likely to be held than not held.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_46">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">46.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">For practical purposes, if the information is not held then the public interest test is essentially redundant.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_10">
+	  <content>
+	    <p class="NumberedReasons" style="margin-left:0.25in"><span style="font-weight:bold">The role of the Tribunal</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_47">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">47.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">By virtue of regulation 18 of the EIR, the Tribunal&#8217;s remit is governed by section 58 of FOIA. This requires the Tribunal to consider whether the decision made by the Commissioner is in accordance with the law or, where the Commissioner&#8217;s decision involved an exercise of his discretion, whether he ought to have exercised it differently. The Tribunal may receive evidence that was not before the Commissioner and may make different findings of fact from the Commissioner.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_11">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Issue</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_48">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">48.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The issue for the Tribunal to determine was whether the Commissioner was correct in holding, on the balance of probabilities, that the Council did not hold any relevant information as sought in parts 1) and 2) of the request, at the time that the request was made, and whether therefore the Council was entitled to rely on regulation 12(4)(a) of the EIR to refuse those parts of the request.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_12">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Evidence</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_49">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">49.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We read and took account of an open bundle containing 139 pages including indexes.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_13">
+	  <content>
+	    <p style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Discussions and conclusions</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_50">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">50.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Council refused to disclose the information requested in parts 1) and 2) of the request on the basis that they did not hold any relevant information at the time of receipt of the request.  The Tribunal has considered whether, on the balance of probabilities, the Commissioner was correct in concluding that the information was not held by the Council at the time of the Appellant&#8217;s request.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_51">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">51.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We have firstly considered the explanation that has been provided by the Council as to why the Appellant was initially told that the requested information was held and that the Council were relying on regulation 12(5)(d) of the EIR.  We have seen the documents and email correspondence provided by the Council and we are satisfied that their submissions adequately explain the reason for the Council&#8217;s initial erroneous position and that the Commissioner was therefore entitled to accept their explanation.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_52">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">52.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We have then considered the information that has been provided by the Council in response to questions raised by the Commissioner concerning the investigation that was conducted to identify whether the Council did, in fact, hold any information that was relevant to the request.  We are satisfied that the Commissioner was entitled to reach the conclusion that the searches were adequate and that it would have been likely that they would have located any relevant information if it had been held.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_53">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">53.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We are also satisfied that the Council was entitled to raise late reliance on regulation 12(4)(a) of the EIR and that the Commissioner was permitted to accept this late reliance.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_54">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">54.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal also accepts that the Commissioner is entitled to accept at face value the response of a public authority where there was no evidence of an attempt to mislead the Commissioner and where there is no motive for the public authority to withhold information that it actually within its possession.  We are satisfied that there is no evidence in this case to suggest that the Council has deliberately attempted to mislead the Commissioner during his investigation.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_55">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">55.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The Tribunal is therefore satisfied that the Commissioner was correct in finding that, on the balance of probabilities, the information requested in parts 1) and 2) of the request was not held by the Council at the relevant time, and that the Council was therefore entitled to rely on regulation 12(4)(a) of the EIR to refuse the request in relation to parts 1) and 2).</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_14">
+	  <content>
+	    <p style="text-align:justify;text-indent:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Previous determination date</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_56">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">56.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">The case was initially listed for a determination on the papers on 09 December 2025.  The Tribunal was concerned about the failure of Cllr Towning to respond to the repeated requests that had been made of him by the Council about communications of relevance to the request which may have been held by him.  Whilst we were satisfied that the Council had taken reasonable steps to obtain information from Cllr Towning via six emails, the Tribunal took the view that it was not appropriate to condone the actions of Cllr Towning in failing to respond to those appropriate requests by the Council.  </span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_57">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">57.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">As a result, case management directions were made on 10 December 2025, requiring Cllr Towning to respond to certain questions, in writing, about whether he held any official communications within his official Council email account between himself and council officers or other councillors relating to complaints made against the Appellant.</span></p>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_58">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">58.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">On 18 December 2025, Cllr Towning responded as follows:</span></p>
+	    <block name="embeddedStructure"><embeddedStructure>
+		<level>
+		  <content>
+		    <p class="ListParagraph" style="text-align:justify;margin-left:0.79in"><span style="font-style:italic;font-family:'Book Antiqua'">&#8220;I do not hold any official communications within my official Thanet District Council email account or indeed any other account between myself and council officers or other councillors relating to complaints made against the Appellant in this matter.  In particular I do not hold any correspondence regarding enforcement action taken by TDC on 9 July 2024 against the Appellant nor do I hold any correspondence relating to planning enforcement action being taken by TDC on 14 August 2023 against the Appellant&#8221;.</span></p>
+		  </content>
+		</level>
+	      </embeddedStructure></block>
+	  </content>
+	</paragraph>
+	<paragraph eId="para_59">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">59.</num>
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">We accept the response from Cllr Towning and his confirmation that no official communications are held by him relating to complaints made against the Appellant.  However, we do take this opportunity to strongly encourage holders of public office to assist with and to comply with reasonable requests from public authorities to enable them to fully answer appropriate EIR (or FOIA) requests, insofar as is consistent with their duties and any other legal obligations or restrictions.</span></p>
+	  </content>
+	</paragraph>
+	<level eId="lvl_15">
+	  <content>
+	    <p class="ListParagraph" style="text-align:justify;margin-left:0.25in"><span style="font-weight:bold;font-family:'Book Antiqua'">Conclusion</span></p>
+	  </content>
+	</level>
+	<paragraph eId="para_60">
+	  <num style="font-family:'Book Antiqua';margin-left:0.5in;text-indent:-0.25in">60.</num>
+	  <content>
+	    <p class="ListParagraph" style="margin-left:0.5in;text-indent:0in"><span style="font-family:'Book Antiqua'">For the reasons given above, the Tribunal dismisses the appeal.</span></p>
+	  </content>
+	</paragraph>
+      </decision>
+    </judgmentBody>
+    <conclusions>
+      <p><span style="font-family:'Book Antiqua'">Signed: </span><marker name="tab"/>Tribunal <span style="font-family:'Book Antiqua'">Judge Shenaz Muzaffer</span></p>
+      <p><span style="font-family:'Book Antiqua'">Dated:</span><marker name="tab"/><docDate date="2026-04-08" refersTo="#decision" style="font-family:'Book Antiqua'">08 April 2026</docDate></p>
+    </conclusions>
+  </judgment>
+</akomaNtoso>
