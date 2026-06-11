@@ -1,0 +1,2440 @@
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uk="https://caselaw.nationalarchives.gov.uk/akn">
+  <judgment name="decision">
+    <meta>
+      <identification source="#tna">
+	<FRBRWork>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2025/1401"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/id/ukftt/tc/2025/1401"/>
+	  <FRBRdate date="2025-11-20" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRcountry value="GB-UKM"/>
+	  <FRBRnumber value="1401"/>
+	  <FRBRname value="UPW Invest Inc v The Commissioners for HMRC"/>
+	</FRBRWork>
+	<FRBRExpression>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/1401"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/1401"/>
+	  <FRBRdate date="2025-11-20" name="decision"/>
+	  <FRBRauthor href="#ukftt-tc"/>
+	  <FRBRlanguage language="eng"/>
+	</FRBRExpression>
+	<FRBRManifestation>
+	  <FRBRthis value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/1401/data.xml"/>
+	  <FRBRuri value="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2025/1401/data.xml"/>
+	  <FRBRdate date="2025-11-25T11:54:18" name="transform"/>
+	  <FRBRdate date="2025-11-25T12:44:57" name="tna-enriched"/>
+	  <FRBRauthor href="#tna"/>
+	  <FRBRformat value="application/xml"/>
+	</FRBRManifestation>
+      </identification>
+      <lifecycle source="#">
+	<eventRef date="2025-08-28" refersTo="#hearing" source="#"/>
+	<eventRef date="2025-11-20" refersTo="#decision" source="#"/>
+      </lifecycle>
+      <references source="#tna">
+	<TLCOrganization eId="ukftt-tc" href="https://www.gov.uk/courts-tribunals/first-tier-tribunal-tax" showAs="United Kingdom First-tier Tribunal (Tax)"/>
+	<TLCOrganization eId="tna" href="https://www.nationalarchives.gov.uk/" showAs="The National Archives"/>
+	<TLCEvent eId="hearing" href="#" showAs="hearing"/>
+	<TLCEvent eId="decision" href="#" showAs="decision"/>
+	<TLCPerson eId="upw-invest-inc" href="" showAs="UPW INVEST INC."/>
+	<TLCPerson eId="the-commissioners-for-his-majestys-revenue-and-customs" href="" showAs="THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS"/>
+	<TLCRole eId="appellant" href="" showAs="Appellant"/>
+	<TLCRole eId="respondent" href="" showAs="Respondent"/>
+      </references>
+      <proprietary source="#">
+	<uk:court>UKFTT-TC</uk:court>
+	<uk:year>2025</uk:year>
+	<uk:number>1401</uk:number>
+	<uk:cite>[2025] UKFTT 1401 (TC)</uk:cite>
+	<uk:parser>0.27.1</uk:parser>
+	<uk:hash>e4460c9d5b2446452e88bf70379a4f637be92ef1e8c372ee381a9bb735b02643</uk:hash>
+	<uk:tna-enrichment-engine>7.4.0</uk:tna-enrichment-engine>
+      </proprietary>
+      <presentation source="#">
+	<html:style>
+#judgment { font-size: 12pt; font-family: 'Times New Roman'; }
+#judgment .Normal { font-family: 'Times New Roman'; }
+#judgment .Heading2 { font-size: 13pt; color: #2F5496; }
+#judgment .Heading3 { color: #1F3763; }
+#judgment .Heading4 { font-weight: bold; font-family: 'Times New Roman'; }
+#judgment .Header { font-family: 'Times New Roman'; }
+#judgment .Footer { font-family: 'Times New Roman'; }
+#judgment .Taxheading1 { font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Taxbodytext1 { text-align: justify; margin-left: 0in; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext2 { text-align: justify; margin-left: 0.39in; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext3 { text-align: justify; margin-left: 0.79in; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext4 { text-align: justify; margin-left: 1.18in; font-family: 'Times New Roman'; }
+#judgment .Taxbodytext5 { text-align: justify; margin-left: 1.58in; font-family: 'Times New Roman'; }
+#judgment .ListParagraph { margin-left: 0.5in; }
+#judgment .CommentText { font-size: 10pt; }
+#judgment .NormalWeb { font-family: 'Times New Roman'; }
+#judgment .legclearfix { font-family: 'Times New Roman'; }
+#judgment .legrhs { font-family: 'Times New Roman'; }
+#judgment .legtext { font-family: 'Times New Roman'; }
+#judgment .leglevel3 { font-family: 'Times New Roman'; }
+#judgment .leglisttextstandard { font-family: 'Times New Roman'; }
+#judgment .HeaderChar { font-family: 'Times New Roman'; }
+#judgment .FooterChar { font-family: 'Times New Roman'; }
+#judgment .Taxheading1Char { font-weight: bold; font-variant: small-caps; font-family: 'Times New Roman'; font-size: 11pt; }
+#judgment .Taxbodytext1Char { font-family: 'Times New Roman'; }
+#judgment .CommentTextChar { font-size: 10pt; }
+#judgment .Heading4Char { font-weight: bold; font-family: 'Times New Roman'; }
+#judgment .legds { }
+#judgment .legchangedelimiter { }
+#judgment .Hyperlink { text-decoration-line: underline; text-decoration-style: solid; color: #0000FF; }
+#judgment .legaddition { }
+#judgment .legterm { }
+#judgment .Heading2Char { font-size: 13pt; color: #2F5496; }
+#judgment .Heading3Char { color: #1F3763; }
+#judgment .legscheduleno { }
+#judgment .legtitleblocktitle { }
+#judgment .legp1no { }
+#judgment .TableGrid { }
+#judgment .TableGrid td { border: 0.5pt solid; }
+</html:style>
+      </presentation>
+    </meta>
+    <header>
+      <p><img src="image1.png" style="width:125.55pt;height:80.65pt"/></p>
+      <p>Neutral Citation: <neutralCitation>[2025] UKFTT 01401 (TC)</neutralCitation></p>
+      <p style="text-align:right">Case Number: TC09690</p>
+      <p><courtType refersTo="#ukftt-tc" style="font-weight:bold">FIRST-TIER TRIBUNAL</courtType></p>
+      <p><courtType refersTo="#ukftt-tc" style="font-weight:bold">TAX CHAMBER</courtType></p>
+      <p style="text-align:right;margin-left:3.05in">[By remote video hearing]</p>
+      <p style="text-align:right">Appeal reference: TC/2024/05310</p>
+      <p style="text-align:justify"><span style="font-style:italic">ANNUAL TAX ON ENVELOPED DWELLINGS &#8211; late filing penalties charged under Schedule 55 to the Finance Act 2009 &#8211; whether HMRC were correct to issue the penalties in accordance with legislation &#8211; yes &#8211; whether the Appellant has established a reasonable excuse for the defaults which have occurred &#8211; no &#8211; Appeal dismissed</span></p>
+      <p style="text-align:right;margin-left:3.05in"><span style="font-weight:bold">Heard on: </span><docDate date="2025-08-28" refersTo="#hearing">28 August 2025</docDate></p>
+      <p style="text-align:right"><span style="font-weight:bold">Judgment date: </span>20 November 2025</p>
+      <p style="text-align:center"><span style="font-weight:bold">Before</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">JUDGE NATSAI MANYARARA</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">JAMES ROBERTSON</span></p>
+      <p style="text-align:center"><span style="font-weight:bold">Between</span></p>
+      <p style="text-align:center"><party as="#appellant" refersTo="#upw-invest-inc" style="font-weight:bold">UPW INVEST INC.</party></p>
+      <p style="text-align:right"><role refersTo="#appellant" style="font-weight:bold">Appellant</role></p>
+      <p style="text-align:center"><span style="font-weight:bold">and</span></p>
+      <p style="text-align:center"><party as="#respondent" refersTo="#the-commissioners-for-his-majestys-revenue-and-customs" style="font-weight:bold">THE COMMISSIONERS FOR HIS MAJESTY&#8217;S REVENUE AND CUSTOMS</party></p>
+      <p style="text-align:right"><role refersTo="#respondent" style="font-weight:bold">Respondents</role></p>
+      <p><span style="font-weight:bold;text-decoration-line:underline;text-decoration-style:solid">Representation:</span></p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Appellant:<marker name="tab"/>Mr Richard Steel, Director</p>
+      <p style="margin-left:1.58in;text-indent:-1.58in">For the Respondents: <marker name="tab"/>Ms Hifsa Shabir, Litigator of HM Revenue and Customs&#8217; Solicitor&#8217;s Office</p>
+      <p style="text-align:center"><span style="font-weight:bold">DECISION</span></p>
+    </header>
+    <judgmentBody>
+      <decision>
+	<level eId="lvl_1">
+	  <heading class="Taxheading1">Introduction</heading>
+	  <paragraph eId="para_1">
+	    <num>1.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This appeal concerns late filing penalties, charged under Schedule 55 to the <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">Finance Act 2009</ref> (&#8220;<span style="font-weight:bold">Schedule 55</span>&#8221;), in respect of the late filing of an Annual Tax on Enveloped Dwellings (&#8220;<span style="font-weight:bold">ATED</span>&#8221;) return. Schedules 33, 34 and 35 of the <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">Finance Act 2013</ref> (&#8220;<span style="font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref></span>&#8221;) extend the penalty provisions in Schedule 55 and Schedule 56.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_2">
+	    <num>2.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellant (&#8216;UPW Invest Inc.&#8217;) appeals against penalties that HMRC have imposed in respect of the late filing of ATED returns, as required by <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29/section/159" uk:canonical="2013 c. 29 s. 159" uk:origin="TNA" uk:type="legislation">s 159</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref>. The penalties charged on the Appellant arose in respect of the years ending 31 March 2017 to 31 March 2023 (inclusive), as follows:</p>
+	      <table class="TableGrid" uk:widths="1.08in 1.42in 1.13in 1.77in 0.85in">
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-weight:bold;font-size:11pt">Tax Year</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-weight:bold;font-size:11pt">Date of Penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-weight:bold;font-size:11pt">Schedule 55</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-weight:bold;font-size:11pt">Description</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-weight:bold;font-size:11pt">Amount</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2017</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">23 December 2022</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 3</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Initial late filing penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;100</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2017</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">2 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 4</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Daily penalties</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;900</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2017</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">2 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 5</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Six-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2017</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">2 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 6</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">12-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2018</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">5 January 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 3</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Initial late filing penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;100</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2018</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">23 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 4</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Daily penalties</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;900</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2018</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">23 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 5</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Six-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2018</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">23 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 6</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">12-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2019</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">20 December 2022</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 3</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Initial late filing penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;100</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2019</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">23 January 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 4</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Daily penalties</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;900</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2019</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">23 January 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 5</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Six-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2019</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">23 January 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 6</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">12-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2020</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">20 December 2022</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 3</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Initial late filing penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;100</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2020</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">1 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 4</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Daily penalties</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;900</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2020</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">1 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 5</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Six-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2020</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">1 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 6</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">12-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2021</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">29 December 2022</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 3</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Initial late filing penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;100</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2021</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">1 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 4</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Daily penalties</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;900</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2021</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">1 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 5</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Six-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2021</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">1 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 6</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">12-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2022</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">18 January 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 3</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Initial late filing penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;100</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2022</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">23 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 4</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Daily penalties</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;900</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2022</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">23 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 5</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Six-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2022</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">23 February 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 6</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">12-month penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;300</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">31 March 2023</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">7 December 2022</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Para. 3</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">Initial late filing penalty</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-size:11pt">&#163;100</span></p>
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <p class="Taxbodytext1"/>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"/>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"/>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-weight:bold;font-size:11pt">Total</span></p>
+		  </td>
+		  <td>
+		    <p class="Taxbodytext1"><span style="font-weight:bold;font-size:11pt">&#163;9,700</span></p>
+		  </td>
+		</tr>
+	      </table>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_3">
+	    <num>3.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">With the consent of the parties, the form of the hearing was V (video).  Prior notice of the hearing had been published on the gov.uk website, with information about how representatives of the media or members of the public could apply to join the hearing remotely in order to observe the proceedings.  As such, the hearing was held in public.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_4">
+	    <num>4.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Having carefully considered the evidence and the submissions made by both parties, we dismiss this appeal. In this Decision, the legislation and case law are cited so far as relevant to the issues in dispute. Our conclusions regarding the key submissions made by the parties are set out below.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_2">
+	  <heading class="Taxheading1">Issues</heading>
+	  <paragraph eId="para_5">
+	    <num>5.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The issues under appeal are:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">firstly, whether HMRC were correct to issue the penalties in accordance with legislation; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">secondly, whether or not the Appellant has established a reasonable excuse for the defaults which have occurred. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_6">
+	    <num>6.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Two further questions arise in determining this appeal. They are, if the Appellant is in default of an obligation imposed by statute:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">what was the period of default? and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">did the Appellant have a reasonable excuse throughout the period?</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_7">
+	    <num>7.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The above matters are to be considered in light of all the circumstances of the case.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_3">
+	  <heading class="Taxheading1">Burden and standard of proof</heading>
+	  <paragraph eId="para_8">
+	    <num>8.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">There is a shifting burden of proof.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_9">
+	    <num>9.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In <span style="font-style:italic;color:#000000">Perrin v R &amp; C Comrs</span><span style="color:#000000"/><a href="https://library.croneri.co.uk/cch_uk/btc/2018-btc-513" style="color:#000000">[2018] BTC 513</a><span style="color:#000000"> (&#8216;</span><span style="font-style:italic;color:#000000">Perrin</span><span style="color:#000000">&#8217;)</span><span style="font-size:11pt;color:#000000"/><span style="color:#000000">(Judges Herrington and Poole), at [69], the Upper Tribunal (&#8216;UT&#8217;) explained the shifting burden of proof as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="ListParagraph" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;Before any question of reasonable excuse comes into play, it is important to remember that the initial burden lies on HMRC to establish that events have occurred as a result of which a penalty is, prima facie, due.  A mere assertion of the occurrence of the relevant events in a statement of case is not sufficient.  Evidence is required and unless sufficient evidence is provided to prove the relevant facts on a balance of probabilities, the penalty must be cancelled without any question of &#8220;reasonable excuse&#8221; becoming relevant.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_10">
+	    <num>10.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The factual prerequisite is therefore that HMRC have the initial burden of proof to demonstrate that the penalties are due: see also <span style="font-style:italic">Burgess &amp; Brimheath v HMRC </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2015/578" uk:canonical="[2015] UKUT 578 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKUT 578 (TCC)</ref> (in the context of a discovery assessment). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_11">
+	    <num>11.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Once this is discharged, the burden of proof is upon the Appellant to demonstrate that there is a reasonable excuse. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_12">
+	    <num>12.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The standard of proof is the ordinary civil standard; that of a balance of probabilities.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_4">
+	  <heading class="Taxheading1">Documents</heading>
+	  <paragraph eId="para_13">
+	    <num style="font-size:11pt">13.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The documents to which we were referred included: (i) the Documents Bundle consisting of 127 pages; (ii) the Legislation &amp; Authorities Bundle consisting of 166 pages; (iii) HMRC&#8217;s Statement of Reasons dated 24 December 2024; and (iv) letter from Mr Steel&#8217;s doctor, dated 13 March 2025.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_5">
+	  <heading class="Taxheading1">Background facts</heading>
+	  <paragraph eId="para_14">
+	    <num>14.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Steel is the director of the Appellant company.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_15">
+	    <num>15.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In 2014, the Appellant purchased an apartment in the United Kingdom.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_6">
+	  <heading class="Taxbodytext1"><span style="font-style:italic;font-weight:bold">2017</span></heading>
+	  <paragraph eId="para_16">
+	    <num>16.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The filing date for the ATED relief return for the year ending 31 March 2017 was 30 April 2016.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_17">
+	    <num>17.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 21 June 2022 the Appellant&#8217;s return was received. The return was submitted 2243 days late. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_18">
+	    <num style="font-size:11pt">18.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 23 December 2022, HMRC issued a notice of penalty assessment under para. 3 of Schedule 55 and in the amount of &#163;100, to the address at Lynwood House.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_19">
+	    <num style="font-size:11pt">19.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 2 February 2023, HMRC issued a notice of penalty assessment under para. 4 of Schedule 55, in the amount of &#163;900 and calculated at &#163;10 per day for 90 days, to the address at Lynwood House. On the same date, HMRC issued notices of penalty assessment under paras. 5 and 6 of Schedule 55 (in the sum of &#163;300 each).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_7">
+	  <heading class="Taxbodytext1"><span style="font-style:italic;font-weight:bold">2018</span></heading>
+	  <paragraph eId="para_20">
+	    <num>20.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The filing date for the ATED relief return for the year ending 31 March 2018 was 30 April 2017.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_21">
+	    <num>21.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 21 June 2022, the Appellant&#8217;s return was received. The return was submitted 1878 days late. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_22">
+	    <num style="font-size:11pt">22.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 5 January 2023, HMRC issued a notice of penalty assessment under para. 3 of Schedule 55 and in the amount of &#163;100, to the address at Lynwood House.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_23">
+	    <num style="font-size:11pt">23.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 22 February 2023, HMRC issued a notice of penalty assessment under para. 4 of Schedule 55, in the amount of &#163;900 and calculated at &#163;10 per day for 90 days, to the address at Lynwood House. On the same date (HMRC issued notices of penalty assessment under paras. 5 and 6 of Schedule 55 (in the sum of &#163;300 each).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_8">
+	  <heading class="Taxbodytext1"><span style="font-style:italic;font-weight:bold">2019</span></heading>
+	  <paragraph eId="para_24">
+	    <num>24.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The filing date for the ATED relief return for the year ending 31 March 2019 was 30 April 2018.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_25">
+	    <num>25.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 21 June 2022, the Appellant&#8217;s return was received. The return was submitted 1513 days late. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_26">
+	    <num style="font-size:11pt">26.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 20 December 2022, HMRC issued a notice of penalty assessment under para. 3 of Schedule 55 and in the amount of &#163;100, to the address at Lynwood House.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_27">
+	    <num style="font-size:11pt">27.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 23 January 2023, HMRC issued a notice of penalty assessment under para. 4 of Schedule 55, in the amount of &#163;900 and calculated at &#163;10 per day for 90 days, to the address at Lynwood House. On the same date, HMRC issued notices of penalty assessment under paras. 5 and 6 of Schedule 55 (in the sum of &#163;300 each).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_9">
+	  <heading class="Taxbodytext1"><span style="font-style:italic;font-weight:bold">2020</span></heading>
+	  <paragraph eId="para_28">
+	    <num>28.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The filing date for the ATED relief return for the year ending 31 March 2020 was 30 April 2019.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_29">
+	    <num>29.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 21 June 2022, the Appellant&#8217;s return was received. The return was submitted 1148 days late. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_30">
+	    <num style="font-size:11pt">30.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 20 December 2022, HMRC issued a notice of penalty assessment under para. 3 of Schedule 55 and in the amount of &#163;100, to the address at Lynwood House.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_31">
+	    <num style="font-size:11pt">31.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 1 February 2023, HMRC issued a notice of penalty assessment under para. 4 of Schedule 55, in the amount of &#163;900 and calculated at &#163;10 per day for 90 days, to the address at Lynwood House. On the same date, HMRC issued notices of penalty assessment under paras. 5 and 6 of Schedule 55 (in the sum of &#163;300 each).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_10">
+	  <heading class="Taxbodytext1"><span style="font-style:italic;font-weight:bold">2021</span></heading>
+	  <paragraph eId="para_32">
+	    <num>32.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The filing date for the ATED relief return for the year ending 31 March 2021 was 30 April 2020.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_33">
+	    <num>33.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 21 June 2022, the Appellant&#8217;s return was received. The return was submitted 782 days late. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_34">
+	    <num style="font-size:11pt">34.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 29 December 2022, HMRC issued a notice of penalty assessment under para. 3 of Schedule 55 and in the amount of &#163;100, to the address at Lynwood House.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_35">
+	    <num style="font-size:11pt">35.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 1 February 2023, HMRC issued a notice of penalty assessment under para. 4 of Schedule 55, in the amount of &#163;900 and calculated at &#163;10 per day for 90 days, to the address at Lynwood House. On the same date, HMRC issued notices of penalty assessment under paras. 5 and 6 of Schedule 55 (in the sum of &#163;300 each).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_11">
+	  <heading class="Taxbodytext1"><span style="font-style:italic;font-weight:bold">2022</span></heading>
+	  <paragraph eId="para_36">
+	    <num>36.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The filing date for the ATED relief return for the year ending 31 March 2022 was 30 April 2021.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_37">
+	    <num>37.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 18 January 2023, the Appellant&#8217;s return was received. The return was submitted 417 days late. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_38">
+	    <num style="font-size:11pt">38.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 23 February 2023, HMRC issued a notice of penalty assessment under para. 3 of Schedule 55 and in the amount of &#163;100, to the address at Lynwood House.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_39">
+	    <num style="font-size:11pt">39.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 2 February 2023, HMRC issued a notice of penalty assessment under para. 4 of Schedule 55, in the amount of &#163;900 and calculated at &#163;10 per day for 90 days, to the address at Lynwood House. On the same date, HMRC issued notices of penalty assessment under paras. 5 and 6 of Schedule 55 (in the sum of &#163;300 each).</span></p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_12">
+	  <heading class="Taxbodytext1"><span style="font-style:italic;font-weight:bold">2023</span></heading>
+	  <paragraph eId="para_40">
+	    <num>40.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The filing date for the ATED relief return for the year ending 31 March 2023 was 30 April 2022.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_41">
+	    <num>41.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 21 June 2022, the Appellant&#8217;s return was received. The return was submitted 52 days late. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_42">
+	    <num style="font-size:11pt">42.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 7 December 2022, HMRC issued a notice of penalty assessment under para. 3 of Schedule 55 and in the amount of &#163;100, to the address at Lynwood House.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_43">
+	    <num style="font-size:11pt">43.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:'Times New Roman';color:#000000">On 22 January 2023, HMRC issued a notice of penalty assessment under para. 4 of Schedule 55, in the amount of &#163;900 and calculated at &#163;10 per day for 90 days, to the address at Lynwood House. On the same date, HMRC issued notices of penalty assessment under paras. 5 and 6 of Schedule 55 (in the sum of &#163;300 each).</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_44">
+	    <num>44.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 22 January 2024, the Appellant made an appeal under para. 20 of Schedule 55 in respect of the penalties charged.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_45">
+	    <num>45.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 5 March 2024, HMRC issued their decision letter to the Appellant upholding the decision to charge the penalties. This letter also offered a statutory review or the option to appeal to the First Tier Tribunal (&#8216;FtT&#8217;)</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_46">
+	    <num>46.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 21 March 2024, the Appellant accepted an offer of a review.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_47">
+	    <num>47.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 9 April 2024, HMRC issued their review conclusion letter to the Appellant which upheld the decision to charge late filing penalties<span style="font-weight:bold">.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_48">
+	    <num>48.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 29 April 2024 the Appellant sent in another review request.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_49">
+	    <num>49.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 9 July 2024, HMRC upheld the penalties raised.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_50">
+	    <num>50.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 31 July 2024 the Appellant sent in further information.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_51">
+	    <num>51.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 20 August 2024, HMRC upheld the penalties raised.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_52">
+	    <num>52.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 13 September 2024, the Appellant lodged an appeal before the FtT.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_13">
+	  <heading class="Taxheading1">Relevant law</heading>
+	  <paragraph eId="para_53">
+	    <num>53.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In order to put the parties&#8217; respective contentions into context, we start with the relevant statutory provisions. The relevant law, so far as is material to the issues in this appeal, is as follows:</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_14">
+	  <heading class="Taxbodytext1"><span style="font-style:italic;font-weight:bold"><ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">Finance Act 2013</ref></span></heading>
+	  <paragraph eId="para_54">
+	    <num>54.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">By virtue of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29/section/159" uk:canonical="2013 c. 29 s. 159" uk:origin="TNA" uk:type="legislation">s 159</ref> of <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref>, there is an &#8220;<span style="font-weight:bold">obligation to file</span>&#8221; an ATED return. <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29/section/159" uk:canonical="2013 c. 29 s. 159" uk:origin="TNA" uk:type="legislation">Section 159</ref> provides that:</p>
+	      <table uk:widths="0.03in">
+		<tr>
+		  <td style="border-width:0.25pt;border-style:solid;border-color:initial #000000 #000000;background-color:#840028;vertical-align:middle">
+		    <p/>
+		  </td>
+		</tr>
+	      </table>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1"><marker name="tab"/><marker name="tab"/><span style="font-size:11pt">&#8220;</span><span style="font-weight:bold;font-size:11pt">159 Annual tax on enveloped dwellings return</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num style="font-size:11pt">(1)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">Where tax is charged on a person for a chargeable period with respect to a single-dwelling interest the person must deliver a return for the period with respect to the interest.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">(2)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">A return under subsection (1) must be delivered by the end of the period of 30 days beginning with first day in the period on which the person is within the charge with respect to the interest.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">(3)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">If the first day in the chargeable period on which the person is within the charge with respect to the interest (&#8220;day 1&#8221;) is a valuation date only because of section 124 (new dwellings) or section 125 (dwellings produced from other dwellings)&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:11pt">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="text-indent:0.39in"><span style="font-size:11pt">subsection (2) does not apply, and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-size:11pt">the return must be delivered by the end of the period of 90 days beginning with day 1.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <intro>
+		      <p class="Taxbodytext1"><marker name="tab"/><marker name="tab"/><span style="font-size:11pt">(3A) Where a person&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:11pt">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-size:11pt">would (apart from this subsection) be required in accordance with subsection (2) to deliver a return for a chargeable period (&#8220;the later period&#8221;) by 30 April in that period, and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-size:11pt">is also required in accordance with subsection (3) to deliver a return for the previous chargeable period by a date (&#8220;the later date&#8221;) which is later than 30 April in the later period,</span></p>
+		      </content>
+		    </subparagraph>
+		    <wrapUp>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">subsection (2) has effect as if it required the return mentioned in paragraph (a) to be delivered by the later date.</span></p>
+		    </wrapUp>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">(4)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">A return under this section must be delivered to an officer of Revenue and Customs, and is called an &#8220;annual tax on enveloped dwellings return&#8221;.</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_55">
+	    <num>55.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><ref href="http://www.legislation.gov.uk/id/ukpga/2013/29/section/159" uk:canonical="2013 c. 29 s. 159" uk:origin="TNA" uk:type="legislation">Section 159</ref>A <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref> came into effect on 1 April 2015. Where &#8220;<span style="font-weight:bold">relief</span>&#8221; is claimed, a return must be filed, as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1"><marker name="tab"/><marker name="tab"/><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#000000">&#8220;</span><span class="legaddition" style="font-weight:bold;font-family:'Times New Roman';font-size:11pt;color:#000000">159A Relief declaration returns</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(1)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="text-indent:0.39in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">&#8220;Relief declaration return&#8221; means an annual tax on enveloped dwellings return which&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="text-indent:0.39in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">states that it is a relief declaration return,</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">relates to one (and only one) of the types of relief listed in the table in subsection (9), and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(c)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">specifies which type of relief it relates to.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(2)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="text-indent:0.39in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">A relief declaration return may be made in respect of one or more single-dwelling interests.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(3)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">A relief declaration return delivered to an officer of Revenue and Customs on a particular day (&#8220;the day of the claim&#8221;) is treated as made in respect of any single-dwelling interest in relation to which the conditions in subsection (4) are met (but need not contain information which identifies the particular single-dwelling interest or interests concerned).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(4)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">The conditions are that&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">the person making the return is within the charge with respect to the single-dwelling interest on the day of the claim;</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">the day of the claim is relievable in relation to the single-dwelling interest by virtue of a provision which relates to the type of relief specified in the return (see subsection (9));</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(c)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">none of the days in the pre-claim period is a taxable day.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(5)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">The statement under subsection (1)(a) in a relief declaration return is treated as a claim for interim relief (see section 100) with respect to the single-dwelling interest (or interests) in respect of which the return is made.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(6)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">Subsection (7) applies where&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">a person has delivered to an officer of Revenue and Customs on any day a relief declaration return for a chargeable period with respect to one or more single-dwelling interests (&#8220;the existing return&#8221;), and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">there is a subsequent day (&#8220;day S&#8221;) in the same chargeable period on which the relevant conditions are met in relation to another single-dwelling interest.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(7)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="text-indent:0.39in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">The existing return is treated as also made with respect to that other single-dwelling interest.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(8)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">For the purposes of subsection (6)(b), the &#8220;relevant conditions&#8221; are the same as the conditions in subsection (4), except that for this purpose references in subsection (4) to the day of the claim are to be read as references to day S.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legaddition" style="font-size:11pt;color:#1E1E1E">(9)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legaddition" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">This table sets out the numbered types of relief to which the provisions specified in the left hand column relate&#8212;</span><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E"> &#8230;&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_56">
+	    <num>56.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This is in accordance with <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29/section/100" uk:canonical="2013 c. 29 s. 100" uk:origin="TNA" uk:type="legislation">s 100</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref>, which provides that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1"><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:11pt">&#8220;</span><span style="font-weight:bold;font-family:'Times New Roman';font-size:11pt">100 </span><span class="legds" style="font-weight:bold;font-family:'Times New Roman';font-size:11pt;color:#000000">Interim relief</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legds" style="font-size:11pt;color:#1E1E1E">(1)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">Where tax is charged for a chargeable period with respect to a single-dwelling interest, the chargeable person may claim relief before the end of the chargeable period if&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legds" style="font-size:11pt;color:#1E1E1E">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">one or more days in the period is relievable with respect to the interest (by virtue of any of sections 133 to 150),</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legds" style="font-size:11pt;color:#1E1E1E">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">one or more days in the chargeable period (after the first day in the period on which the chargeable person is within the charge with respect to the interest) are days on which the chargeable person is not within the charge with respect to the interest, or</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legds" style="font-size:11pt;color:#1E1E1E">(c)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">the taxable value of the single-dwelling interest on the first day in the chargeable period on which the chargeable person is within the charge with respect to the interest is higher than its taxable value on a later day in the chargeable period on which the chargeable person remains within the charge with respect to the interest.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="font-size:11pt;color:#1E1E1E">(2)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="text-indent:0.39in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">Relief under this section is called &#8220;interim relief&#8221;, and must be claimed&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legds" style="font-size:11pt;color:#1E1E1E">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="text-indent:0.39in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">in an annual tax on enveloped dwellings return, or</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legds" style="font-size:11pt;color:#1E1E1E">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="text-indent:0.39in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">by amending such a return.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="font-size:11pt;color:#1E1E1E">(3)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">Where interim relief is claimed under this section, section 163(1) (payment of tax by filing date for annual tax on enveloped dwellings return) has effect as if the amount of tax charged with respect to the single-dwelling interest were the sum of amounts A and B.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="font-size:11pt;color:#1E1E1E">(4)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">Amount A is the total of all the daily amounts for days in the pre-claim period on which the chargeable person is within the charge with respect to the single-dwelling interest, other than days that are relievable with respect to the single-dwelling interest.</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="font-size:11pt;color:#1E1E1E">(5)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">Amount B is zero if&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legds" style="font-size:11pt;color:#1E1E1E">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">the day of the claim is relievable with respect to the single-dwelling interest by virtue of any of sections 133 to 150, or</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legds" style="font-size:11pt;color:#1E1E1E">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">the chargeable person is not within the charge with respect to the single-dwelling interest on the day of the claim.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="font-size:11pt;color:#1E1E1E">(6)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">Otherwise, amount B is the appropriate fraction of the annual chargeable amount for the single-dwelling interest.</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">For this purpose the annual chargeable amount is determined (under section 99(4)) on the basis that the day of the claim is the relevant day.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legds" style="font-size:11pt;color:#1E1E1E">(7)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">In subsection (6) &#8220;</span><span class="legterm" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">appropriate fraction</span><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">&#8221; means&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <content>
+			<p class="Taxbodytext1"><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><img src="image2.gif" style="width:50.73pt;height:44.75pt"/></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p class="Taxbodytext1"><marker name="tab"/><marker name="tab"/><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">where&#8212;</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1.5in"><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">&#8220;X&#8221; is the number of days in the period beginning with the day of the claim and ending at the end of the chargeable period, and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1.5in"><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">&#8220;Y&#8221; is the number of days in the chargeable period.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="font-size:11pt;color:#1E1E1E">(8)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="text-indent:0.39in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">In this section&#8212;</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">&#8220;</span><span class="legterm" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">day of the claim</span><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">&#8221; means the day on which the return mentioned in subsection (2)(a), or notice of the amendment made under subsection (2)(b), is delivered to HMRC;</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <intro>
+		      <p class="Taxbodytext1"><marker name="tab"/><marker name="tab"/><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">&#8220;</span><span class="legterm" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">pre-claim period</span><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">&#8221; means the period&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:11pt">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">beginning with the first day in the chargeable period mentioned in subsection (1) on which the chargeable person is within the charge with respect to the single-dwelling interest, and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">ending with the day before the day of the claim.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds" style="font-size:11pt;color:#1E1E1E">(9)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="text-indent:0.39in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">See sections 105 and 106 for provision about the adjustment of the amount of tax charged.</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_57">
+	    <num style="font-size:11pt;color:#1E1E1E">57.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">If a person fails to file a return by the statutory due date, they are liable to a late filing penalty under Schedule 55, which was extended by Schedule 34 <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref> to cover the ATED.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_15">
+	  <heading class="Taxbodytext1"><span style="font-style:italic;font-weight:bold">Schedule 55</span></heading>
+	  <paragraph eId="para_58">
+	    <num>58.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Paragraph 1 provides that:</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_15_1">
+	    <content>
+	      <p class="Taxbodytext1" style="text-align:center"><span class="legscheduleno" style="font-weight:bold;font-family:'Times New Roman';font-size:11pt;color:#000000">SCHEDULE 55 </span><span class="legtitleblocktitle" style="font-weight:bold;font-variant:small-caps;font-family:'Times New Roman';font-size:11pt;color:#000000">Penalty for failure to make returns etc</span></p>
+	    </content>
+	  </level>
+	  <level eId="lvl_15_2">
+	    <heading class="Taxbodytext1" style="text-align:center"><span style="font-style:italic;font-family:'Times New Roman';font-size:11pt">Penalty for failure to make returns etc</span></heading>
+	    <paragraph>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.5in"><span class="legp1no" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">1</span><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">(1) A penalty is payable by a person (&#8220;P&#8221;) where P fails to make or deliver a return, or to deliver any other document, specified in the Table below on or before the filing date.</span></p>
+	      </content>
+	    </paragraph>
+	    <paragraph>
+	      <num class="legds" style="font-size:11pt;color:#1E1E1E">(2)</num>
+	      <intro>
+		<p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">Paragraphs 2 to 13 set out&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num class="legds" style="font-size:11pt;color:#1E1E1E">(a)</num>
+		<content>
+		  <p class="Taxbodytext1" style="text-indent:0.39in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">the circumstances in which a penalty is payable, and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num class="legds" style="font-size:11pt;color:#1E1E1E">(b)</num>
+		<content>
+		  <p class="Taxbodytext1" style="text-indent:0.39in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">subject to paragraphs 14 to 17, the amount of the penalty.</span></p>
+		</content>
+	      </subparagraph>
+	    </paragraph>
+	    <paragraph>
+	      <num class="legds" style="font-size:11pt;color:#1E1E1E">(3)</num>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">If P&#8217;s failure falls within more than one paragraph of this Schedule, P is liable to a penalty under each of those paragraphs (but this is subject to paragraph 17(3)).</span></p>
+	      </content>
+	    </paragraph>
+	    <paragraph>
+	      <num class="legds" style="font-size:11pt;color:#1E1E1E">(4)</num>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">In this Schedule&#8212;</span></p>
+	      </content>
+	    </paragraph>
+	    <paragraph>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">&#8220;filing date&#8221;, in relation to a return or other document, means the date by which it is required to be made or delivered to HMRC;</span></p>
+	      </content>
+	    </paragraph>
+	    <paragraph>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">&#8220;penalty date&#8221;, in relation to a return or other document, means the date on which a penalty is first payable for failing to make or deliver it (that is to say, the day after the filing date).</span></p>
+	      </content>
+	    </paragraph>
+	    <paragraph>
+	      <num class="legds" style="font-size:11pt;color:#1E1E1E">(5)</num>
+	      <intro>
+		<p class="Taxbodytext1" style="text-indent:0.39in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">In the provisions of this Schedule which follow the Table&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num class="legds" style="font-size:11pt;color:#1E1E1E">(a)</num>
+		<content>
+		  <p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">any reference to a return includes a reference to any other document specified in the Table, and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num class="legds" style="font-size:11pt;color:#1E1E1E">(b)</num>
+		<content>
+		  <p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-family:'Times New Roman';font-size:11pt;color:#1E1E1E">any reference to making a return includes a reference to delivering a return or to delivering any such document.&#8221;</span></p>
+		</content>
+	      </subparagraph>
+	    </paragraph>
+	  </level>
+	  <paragraph eId="para_59">
+	    <num>59.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Paragraph 3 provides that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1"><marker name="tab"/><marker name="tab"/><span class="legds">&#8220;3 P is liable to a penalty under this paragraph of &#163;100.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_60">
+	    <num>60.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Paragraph 4 provides that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <intro>
+		      <p class="Taxbodytext1"><marker name="tab"/><marker name="tab"/><span class="legds">&#8220;4(1) P is liable to a penalty under this paragraph if (and only if)&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legds">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds">P&#8217;s failure continues after the end of the period of 3 months beginning with the penalty date,</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legds">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds">HMRC decide that such a penalty should be payable, and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legds">(c)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds">HMRC give notice to P specifying the date from which the penalty is payable.</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds">(2)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds">The penalty under this paragraph is &#163;10 for each day that the failure continues during the period of 90 days beginning with the date specified in the notice given under sub-paragraph (1)(c).</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num class="legds">(3)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds">The date specified in the notice under sub-paragraph (1)(c)&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legds">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="text-indent:0.39in"><span class="legds">may be earlier than the date on which the notice is given, but</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legds">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds">may not be earlier than the end of the period mentioned in sub-paragraph (1)(a).</span>&#8221;</p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_61">
+	    <num>61.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Paragraph 5 provides that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span class="legds">&#8220;5(1) P is liable to a penalty under this paragraph if (and only if) P&#8217;s failure continues after the end of the period of 6 months beginning with the penalty date.</span></p>
+		    </content>
+		  </level>
+		  <paragraph>
+		    <num class="legds">(2)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds">The penalty under this paragraph is the greater of&#8212;</span></p>
+		    </intro>
+		    <subparagraph>
+		      <num class="legds">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds">5% of any liability to tax which would have been shown in the return in question, and</span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num class="legds">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds">&#163;300.&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_62">
+	    <num>62.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Paragraph 6 provides that:</p>
+	    </intro>
+	    <subparagraph>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.5in"><span class="legds" style="font-size:11pt">6(1) P is liable to a penalty under this paragraph if (and only if) P&#8217;s failure continues after the end of the period of 12 months beginning with the penalty date.</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legds" style="font-size:11pt">(2)</num>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-size:11pt">Where, by failing to make the return, P withholds information which would enable or assist HMRC to assess P&#8217;s liability to tax, the penalty under this paragraph is determined in accordance with sub-paragraphs (3) and (4).</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legds" style="font-size:11pt">(3)</num>
+	      <intro>
+		<p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-size:11pt">If the withholding of the information is deliberate and concealed, the penalty is the greater of&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num class="legds" style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-size:11pt">100% of any liability to tax which would have been shown in the return in question, and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num class="legds" style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-size:11pt">&#163;300.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legds" style="font-size:11pt">(4)</num>
+	      <intro>
+		<p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span class="legds" style="font-size:11pt">If the withholding of the information is deliberate but not concealed, the penalty is the greater of&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num class="legds" style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-size:11pt">70% of any liability to tax which would have been shown in the return in question, and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num class="legds" style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-size:11pt">&#163;300.</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num class="legds" style="font-size:11pt">(5)</num>
+	      <intro>
+		<p class="Taxbodytext1" style="text-indent:0.39in"><span class="legds" style="font-size:11pt">In any other case, the penalty under this paragraph is the greater of&#8212;</span></p>
+	      </intro>
+	      <subparagraph>
+		<num class="legds" style="font-size:11pt">(a)</num>
+		<content>
+		  <p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-size:11pt">5% of any liability to tax which would have been shown in the return in question, and</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num class="legds" style="font-size:11pt">(b)</num>
+		<content>
+		  <p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span class="legds" style="font-size:11pt">&#163;300.&#8221;</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	  </paragraph>
+	</level>
+	<level eId="lvl_16">
+	  <heading class="Taxheading1">The evidence and the key submissions</heading>
+	  <paragraph eId="para_63">
+	    <num>63.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The documents for the hearing, set out at para. 13 above, comprised pleadings and appeal correspondence. We have considered any key points of disagreement in determining the facts as set out below. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_64">
+	    <num>64.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Ms Shabir&#8217;s submissions can be summarised as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The &#8216;filing date. for an ATED return is determined by <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29/section/159" uk:canonical="2013 c. 29 s. 159" uk:origin="TNA" uk:type="legislation">s 159</ref> <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref>, which states that a return must be delivered by the end of the period of 30 days, beginning with first day of the period in which the person is within the charge with respect to the interest. As the Appellant did not submit the returns by the filing date, the Appellant was liable to penalties.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">There are no statutory requirements within <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref> which require HMRC to give notice to the person to file an ATED relief return.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_65">
+	    <num>65.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Mr Steel&#8217;s submissions can be summarised as follows:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">He has been dealing with a long-term illness, which has prevented him from actioning the ATED responsibilities (debilitating, long-term chronic fatigue).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">He was not in a good enough cognitive state to deal with changes in the law in relation to ATED.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_66">
+	    <num>66.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">At the conclusion of the appeal hearing, we reserved our decision, which we now give, with reasons.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_17">
+	  <heading class="Taxheading1">Findings of fact</heading>
+	  <paragraph eId="para_67">
+	    <num>67.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The following facts were either accepted, admitted or proved:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The Appellant purchased an apartment in the United Kingdom in 2014. At the time of purchase, the only advice that Mr Steel sought was from estate agents.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Mr Steel became ill in January 2016. He had been completing self-assessment tax returns prior to the filing dates (until 2021). He realised that he should have appointed an accountant in 2021. He instructed an accountant in 2022, after he had received a letter from HMRC in relation to corporation tax.</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The filing date for the ATED relief return for the year ending 31 March 2017 was 30 April 2016. On 21 June 2022 the Appellant&#8217;s return was received. The return was submitted 2243 days late. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The filing date for the ATED relief return for the year ending 31 March 2018 was 30 April 2017. On 21 June 2022 the Appellant&#8217;s return was received. The return was submitted 1878 days late. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(5)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The filing date for the ATED relief return for the year ending 31 March 2019 was 30 April 2018. On 21 June 2022 the Appellant&#8217;s return was received. The return was submitted 1513 days late. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(6)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The filing date for the ATED relief return for the year ending 31 March 2020 was 30 April 2019. On 21 June 2022 the Appellant&#8217;s return was received. The return was submitted 1148 days late. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(7)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The filing date for the ATED relief return for the year ending 31 March 2021 was 30 April 2020. On 21 June 2022 the Appellant&#8217;s return was received. The return was submitted 782 days late. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(8)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The filing date for the ATED relief return for the year ending 31 March 2022 was 30 April 2021. On 21 June 2022 the Appellant&#8217;s return was received. The return was submitted 417 days late. </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(9)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">The filing date for the ATED relief return for the year ending 31 March 2023 was 30 April 2022. On 21 June 2022 the Appellant&#8217;s return was received. The return was submitted 52 days late. </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_68">
+	    <num>68.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We, therefore, make these findings of fact.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_18">
+	  <heading class="Taxheading1">Discussion</heading>
+	  <paragraph eId="para_69">
+	    <num>69.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The Appellant appeals against penalties that HMRC have imposed in respect of the late filing of ATED returns. It is settled that no penalty can arise in any case where the taxpayer is not in default of an obligation imposed by statute.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_19">
+	  <heading class="Taxheading1">Is the appellant in default of an obligation imposed by statute?</heading>
+	  <paragraph eId="para_70">
+	    <num>70.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The ATED was announced by the government in its budget statement of 21 March 2012. The purpose was to introduce an annual charge on residential properties valued in excess of &#163;2 million, purchased by non-natural persons (i.e., companies, partnerships or other investment vehicles). This form of ownership is described as &#8220;enveloping&#8221;. The ATED legislation was introduced in <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref>.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_71">
+	    <num>71.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="color:#000000">ATED returns are required to be filed with HMRC if a property:</span></p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"><span style="color:#000000">is a </span><a href="https://www.gov.uk/guidance/annual-tax-on-enveloped-dwellings-the-basics" style="color:#000000">dwelling</a></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"><span style="color:#000000">is in the UK</span></p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <intro>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in"><span style="color:#000000">was valued at more than: </span></p>
+	      </intro>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(a)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in">&#163;2,000,000 (for returns from 2013 to 2014 onwards);</p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(b)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in"><span style="color:#000000">&#163;1,000,000 (for returns from 2015 to 2016 onwards);</span></p>
+		</content>
+	      </subparagraph>
+	      <subparagraph>
+		<num style="margin-left:0.79in">(c)</num>
+		<content>
+		  <p class="Taxbodytext3" style="margin-left:0.79in;text-indent:0.38in"><span style="color:#000000">&#163;500,000 (for returns from 2016 to 2017 onwards); and</span></p>
+		</content>
+	      </subparagraph>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">is owned completely or partly by a company.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_72">
+	    <num>72.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="color:#000000">The valuation threshold for liability to ATED has, therefore, been adjusted to &#163;500,000. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_73">
+	    <num>73.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">A return must be delivered by the end of the period of 30 days, beginning with the first day in the period on which the person is within the charge with respect to interest (i.e., &#8220;<span style="font-weight:bold">the filing date</span>&#8221;). </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_74">
+	    <num>74.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The &#8220;<span style="font-weight:bold">penalty date</span>&#8221; is also specified in legislation. Both the filing date and the penalty date are defined at para. 1(4) of Schedule 55.  <span style="font-family:TimesNewRomanPSMT">The penalty date is the day after the filing date.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_75">
+	    <num>75.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Section 2 of the ATED Returns Notice &#8220;When to complete an ATED return&#8221; (&#8220;<span style="font-weight:bold">the Notice</span>&#8221;) explains the concept of a &#8220;<span style="font-weight:bold">chargeable period</span>&#8221;, as follows:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt">&#8220;2.1</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">The chargeable person, section 3 of the ATED technical guidance, must submit an ATED return for any property (single-dwelling interest) that&#8217;s within the scope of ATED for the relevant chargeable period. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">An ATED chargeable period runs from 1 April to 31 March</span><span style="font-size:11pt">.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">There are reliefs available which may reduce the liability in part or to zero. However, all claims for relief shown in paragraph 9.17 must be made in a return.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_20">
+	  <heading class="Taxbodytext1"><span style="text-decoration-line:underline;text-decoration-style:solid">[Emphasis added]</span></heading>
+	  <paragraph eId="para_76">
+	    <num>76.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Section 2.2 of the Notice explains the 30-day filing requirement in relation to the chargeable period:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;Normally an ATED return must be made within 30 days of the date on which the property first comes within the charge to ATED for any chargeable period &#8211; but read 2.7.&#8221;</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">Where a single-dwelling interest is held on the first day of the chargeable period, that is 1 April, the return must be filed by 30 April in the year of charge. </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">For example, if the chargeable person owned a property by 1 April 2017, a return must be submitted by 30 April 2017</span><span style="font-size:11pt">.&#8221; </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_21">
+	  <heading class="Taxbodytext1"><span style="text-decoration-line:underline;text-decoration-style:solid">[Emphasis added]</span></heading>
+	  <paragraph eId="para_77">
+	    <num>77.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Section 2.6 (in relation to when an ATED return is due when a property is acquired part-way through a period) provides that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;Where a property is acquired part way through a chargeable period, for example, a single-dwelling interest is brought from a third party, </span><span style="text-decoration-line:underline;text-decoration-style:solid;font-size:11pt">you must file an ATED return by the end of the period of 30 days beginning with the date of acquisition or transaction</span><span style="font-size:11pt">. Also read section 7 of this notice if you acquire a property which is eligible to a relief.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_78">
+	    <num>78.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Section 11 of the Notice includes a summary of ATED return filing and payment dates. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_79">
+	    <num>79.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The section covering ATED on HMRC&#8217;s website also provides for the following:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1"><marker name="tab"/><marker name="tab"/><span style="font-size:11pt">&#8220;Normally you need to submit your return:</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">by 30 April if your property is within the scope of ATED on 1 April within 30 days of acquisition if your property comes within the scope of ATED after 1 April</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">for a newly built property, within 90 days of the earliest of the date:</span></p>
+		    </content>
+		  </level>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">your property becomes a dwelling for Council Tax purposes it is first occupied.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_80">
+	    <num>80.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Where tax is charged, a person may claim interim relief before the end of the chargeable period. Relief from ATED is detailed at <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29/section/133" uk:canonical="2013 c. 29 s. 133" uk:origin="TNA" uk:type="legislation">ss 133</ref> to 150 <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref>. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_81">
+	    <num>81.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Under <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29/section/100" uk:canonical="2013 c. 29 s. 100" uk:origin="TNA" uk:type="legislation">s 100</ref>, a person may claim relief before the end of the chargeable period. Claims for relief must be made using an ATED return, or an amendment to such a return. Under <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29/section/159" uk:canonical="2013 c. 29 s. 159" uk:origin="TNA" uk:type="legislation">s 159</ref>A <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref>, where a claim to relief reduces the charge to nil, the claim may be made in a shorter type of return called a &#8220;<span style="font-weight:bold">Relief Declaration Return</span>&#8221;. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_82">
+	    <num>82.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Relief from ATED includes relief in relation to:</p>
+	    </intro>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(1)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Property rental businesses;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(2)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Property developers;</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(3)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Property traders; and</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num style="margin-left:0.39in">(4)</num>
+	      <content>
+		<p class="Taxbodytext2" style="margin-left:0.39in;text-indent:0.38in">Financial institutions acquiring dwellings in the course of lending.</p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_83">
+	    <num>83.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">If a person fails to file a return by the statutory due date, they are liable to a late filing penalty under Schedule 55, which was extended by Schedule 34 <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref> to cover the ATED.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_84">
+	    <num>84.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:TimesNewRomanPSMT">Paragraph 3 of Schedule 55 provides for a late-filing penalty of &#163;100 in relation to, </span><span style="font-style:italic;font-family:TimesNewRomanPSMT">inter alia</span><span style="font-family:TimesNewRomanPSMT">, ATED returns. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_85">
+	    <num>85.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:TimesNewRomanPSMT">Paragraph 4, which is the key provision in this appeal, provides that: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt">&#8220;(1)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="text-indent:0.39in"><span style="font-size:11pt">P is liable to a penalty under this paragraph if (and only if) - </span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:11pt">(a)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-size:11pt">P's failure continues after the end of the period of 3 months beginning with the penalty date, </span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-size:11pt">HMRC decide that such a penalty should be payable, and </span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt">(c)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-size:11pt">HMRC give notice to P specifying the date from which the penalty is payable&#8221;. </span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">(2)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">The penalty under this paragraph is &#163;10 for each day that the failure continues during the period of 90 days beginning with the date specified in the notice given under sub-paragraph (1)(c). </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">(3)</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">The date specified in the notice under sub-paragraph (1)(c)&#8212; (a) may be earlier than the date on which the notice is given, but </span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:11pt">(b)</num>
+		      <content>
+			<p class="Taxbodytext1" style="text-indent:0.39in"><span style="font-size:11pt">may not be earlier than the end of the period mentioned in sub-paragraph (1)(a).&#8221;</span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_86">
+	    <num>86.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">One of the purposes of para. 4(1)(c) of Schedule 55 is to inform a taxpayer, in advance, of the liability to daily penalties. <span style="font-family:TimesNewRomanPSMT">Paragraph 5 provides for a further penalty of &#163;300 if the failure to file continues after the end of the period of six months, beginning with the penalty date. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_87">
+	    <num>87.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="font-family:TimesNewRomanPSMT">Paragraph 6 provides for a further penalty of &#163;300 if the failure to file continues after the end of the period of 12 months, beginning with the penalty date.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_88">
+	    <num>88.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">On 4 August 2013, guidance on ATED (&#8220;<span style="font-weight:bold">the Guidance</span>&#8221;) was published on the HMRC website and, following changes announced in the Budget on 19 March 2014, the Guidance was updated on 20 March 2014. <span style="color:#000000">We bear in mind that the HMRC&#8217;s Guidance is not an exhaustive code, or a comprehensive edict. It is trite law that guidance and kindred instruments do not have the status of law and, thus, are subservient to primary legislation and secondary legislation.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_89">
+	    <num>89.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The incontrovertible facts of this appeal are that the Appellant did not submit the ATED returns by the date specified in statute. This matter is not in issue between the parties.  Subject to considerations of &#8220;reasonable excuse&#8221; and &#8220;special circumstances&#8221; set out below, the penalties imposed are due and have been calculated correctly.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_22">
+	  <heading class="Taxheading1">Has the appellant established a reasonable excuse?</heading>
+	  <paragraph eId="para_90">
+	    <num>90.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Parliament has addressed the issue of the individual circumstances of a person by providing at para. 23, of Schedule 55, that: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt">&#8220;(1)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.39in;text-indent:0.11in"><span style="font-size:11pt">Liability to a penalty under any paragraph of this Schedule does not arise in relation to a failure to make a return if P satisfies HMRC or (on appeal) the First-tier Tribunal or Upper Tribunal that there is a reasonable excuse for the failure. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">(2)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="text-indent:0.39in"><span style="font-size:11pt">For the purposes of sub-paragraph (1)&#8212; </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">(a)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.39in;text-indent:0.11in"><span style="font-size:11pt">an insufficiency of funds is not a reasonable excuse, unless attributable to events outside P's control, </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">(b)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.39in;text-indent:0.11in"><span style="font-size:11pt">where P relies on any other person to do anything, that is not a reasonable excuse unless P took reasonable care to avoid the failure, and </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">(c)</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.39in;text-indent:0.11in"><span style="font-size:11pt">where P had a reasonable excuse for the failure but the excuse has ceased, P is to be treated as having continued to have the excuse if the failure is remedied without unreasonable delay after the excuse ceased.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_91">
+	    <num>91.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">There is no statutory definition of &#8220;<span style="font-weight:bold">reasonable excuse</span>&#8221;. Whether or not a person had a reasonable excuse is an objective test and is a matter to be considered in the light of all of the circumstances of the particular case: <span style="font-style:italic">Rowland v R &amp; C Comrs </span><a href="https://library.croneri.co.uk/cch_uk/btc/2006-spc-548">(2006) Sp C 548</a> (&#8216;<span style="font-style:italic">Rowland</span>&#8217;), at [18].  The test we adopt in determining whether the Appellant has a reasonable excuse is that set out in <span style="font-style:italic">The</span><span/><span style="font-style:italic">Clean Car Co Ltd v C&amp;E Commissioners </span>[1991] VATTR 234 (&#8216;<span style="font-style:italic">Clean Car</span>&#8217;)<span style="font-style:italic">, </span>in which Judge Medd QC said this:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;The test of whether or not there is a reasonable excuse is an objective one.&#160; In my judgment it is an objective test in this sense.&#160; One must ask oneself: was what the taxpayer did a reasonable thing for a responsible trader conscious of and intending to comply with his obligations regarding tax, but having the experience and other relevant attributes of the taxpayer and placed in the situation that the taxpayer found himself at the relevant time, a reasonable thing to do?&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_92">
+	    <num>92.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Although <span style="font-style:italic">Clean Car</span> was a VAT case, it is generally accepted that the same principles apply to a claim of reasonable excuse in direct tax cases.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_93">
+	    <num>93.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="color:#000000">In </span><span style="font-style:italic;color:#000000">Perrin</span><span style="color:#000000">, the UT set out a four-step process for the FtT to use when considering whether a person has a reasonable excuse, at [81]: </span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt">&#8220;81.</num>
+		    <intro>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">When considering a &#8220;reasonable excuse&#8221; defence, therefore, in our view the FTT can usefully approach matters in the following way: </span></p>
+		    </intro>
+		    <subparagraph>
+		      <num style="font-size:11pt">(1)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-size:11pt">First, establish what facts the taxpayer asserts give rise to a reasonable excuse (this may include the belief, acts or omissions of the taxpayer or any other person, the taxpayer&#8217;s own experience or relevant attributes, the situation of the taxpayer at any relevant time and any other relevant external facts). </span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt">(2)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-size:11pt">Second, decide which of those facts are proven. </span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt">(3)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-size:11pt">Third, decide whether, viewed objectively, those proven facts do indeed amount to an objectively reasonable excuse for the default and the time when that objectively reasonable excuse ceased. In doing so, it should take into account the experience and other relevant attributes of the taxpayer and the situation in which the taxpayer found himself at the relevant time or times. It might assist the FTT, in this context, to ask itself the question &#8220;was what the taxpayer did (or omitted to do or believed) objectively reasonable for this taxpayer in those circumstances?&#8221; </span></p>
+		      </content>
+		    </subparagraph>
+		    <subparagraph>
+		      <num style="font-size:11pt">(4)</num>
+		      <content>
+			<p class="Taxbodytext1" style="margin-left:1in;text-indent:0.5in"><span style="font-size:11pt">Fourth, having decided when any reasonable excuse ceased, decide whether the taxpayer remedied the failure without unreasonable delay after that time (unless, exceptionally, the failure was remedied before the reasonable excuse ceased). In doing so, the FTT should again decide the matter objectively, but taking into account the experience and other relevant attributes of the taxpayer and the situation in which the taxpayer found himself at the relevant time or times. </span></p>
+		      </content>
+		    </subparagraph>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_94">
+	    <num>94.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="color:#000000">The UT explained that the experience and knowledge of the particular taxpayer should be taken into account in considering whether a reasonable excuse has been established. The UT concluded that for an honestly held belief to constitute a reasonable excuse, it must also be objectively reasonable for that belief to be held. </span>The word &#8216;reasonable&#8217; imports the concept of objectivity, whilst the words &#8216;the taxpayer&#8217; recognise that the objective test should be applied to the circumstances of the actual (rather than the hypothetical) taxpayer. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_95">
+	    <num>95.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In <span style="font-style:italic">Harrison v R &amp; C Comrs</span> [2022] BTC 525, the UT viewed the four-stage approach to be guidance, rather than a set of principles to be followed.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_96">
+	    <num>96.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In <span style="font-style:italic">Barrett v HMRC </span><ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2015/329" uk:canonical="[2015] UKFTT 329 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKFTT 329 (TC)</ref>, Judge Berner said this:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;The test of reasonable excuse involves the application of an impersonal, objective, legal standard to a particular set of facts and circumstances. The test is to determine what a reasonable taxpayer in the position of the taxpayer would have done in those circumstances, and by reference to that test to determine whether the conduct of the taxpayer can be regarded as conforming to that standard.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_97">
+	    <num>97.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">And:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;The test is one of reasonableness. No higher (or lower) standard should be applied. The mere fact that something that could have been done has not been done does not of itself necessarily mean that an individual&#8217;s conduct in failing to act in a particular way is to be regarded as unreasonable. It is a question of degree having regard to all the circumstances, including the particular circumstances of the individual taxpayer. There can be no universal rule; what might be considered an unreasonable failure on the part of one taxpayer in one set of circumstances might be regarded as no unreasonable in the case of another whose circumstances are different.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_98">
+	    <num>98.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The standard by which this falls to be judged is that of a prudent and reasonable taxpayer, exercising reasonable foresight and due diligence, in the position of the taxpayer in question and <span style="color:#000000">having proper regard for their responsibilities under the Tax Acts:</span> see <span style="font-style:italic">Collis v HMRC </span><ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2011/588" uk:canonical="[2011] UKFTT 588 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2011">[2011] UKFTT 588 (TC)</ref> (&#8216;<span style="font-style:italic">Collis</span>&#8217;)<span style="font-style:italic">.</span><span/><span style="color:#000000">The decision depends upon the particular circumstances in which the failure occurred</span>. Where the person had a reasonable excuse for the failure but the excuse ceased, the person is to be treated as having continued to have the excuse if the failure is remedied without unreasonable delay after the excuse ceased.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_99">
+	    <num>99.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We proceed by firstly determining whether facts exist, which when judged objectively, amount to a reasonable excuse for the default and, accordingly, give rise to a valid defence. In this regard, we have assessed whether the facts put forward and any belief held by the Appellant are sufficient to amount to a reasonable excuse. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_100">
+	    <num>100.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In the Grounds of Appeal, Mr Steel submits, on behalf of the Appellant, that he was dealing with long-term illness, thus preventing him from dealing with its statutory requirements in respect of ATED (with which he had not been familiar at the time of purchase of the property). <span style="color:#000000">We have derived considerable benefit from hearing the oral evidence given in this appeal. Having heard the evidence, whilst we find Mr Steel to be a truthful witness, we are satisfied that the facts put forward do not amount to a reasonable excuse. We give our reasons for so finding.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_101">
+	    <num>101.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="color:#000000">Firstly, we are satisfied that despite referring to chronic health problems (which are not disputed), we find that Mr Steel&#8217;s health problems began in 2016. This was significantly after the property was purchased in 2014, and indeed after ATED was introduced in 2013. We, therefore, find that Mr Steel&#8217;s illness did not start prior to the introduction of ATED and was not a reason for him to not enquire about the tax consequences of his purchase. In any event, we find that by his own evidence, Mr Steel was able to attend to his self-assessment after his illness began.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_102">
+	    <num>102.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="color:#000000">Secondly, as set out above, the legislation was already introduced at the time that the property was purchased. Even if the property only reached the ATED threshold in 2016, we find that by his own oral evidence, Mr Steel did not feel the need to instruct tax advisers until about 2022. </span>We are satisfied that a reasonable person acquiring a property of value would make enquiries into the tax consequences of such acquisition, in light of changes in the law. We are further satisfied that the &#8220;gov.uk&#8221; website provides taxpayers with information in relation to the statutory due dates for payment of tax, and taxes that apply to various transactions. We find that it would have been prudent for Mr Steel to instruct accountants at an earlier stage. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_103">
+	    <num>103.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Thirdly, whilst ignorance of the law was not being raised as a reasonable excuse, Mr Steel stated that he had not been aware of the legislation. He added that he is usually quite &#8220;<span style="font-style:italic">switched on</span>&#8221; in relation matters such as tax liability, but that his illness made him otherwise. Whilst this may be so, we have found that his illness did not begin until 2016, by which time the property had reached the ATED threshold. We have further found that he did not instruct any tax advisers at the time of the purchase of the property, and did not carry out any investigations on the gov.uk website. The fact that Mr Steel may not have been aware of the Appellant&#8217;s duties in relation to ATED does not constitute a reasonable excuse. The onus is upon an appellant to ensure that they properly understand their obligations under the law. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_104">
+	    <num>104.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We have borne in mind the comments of the Tribunal in <span style="font-style:italic">Hesketh &amp; Anor v HMRC</span><span/><a href="https://library.croneri.co.uk/cch_uk/btc/2018-tc-06266">[2018] TC 06266</a> where Judge Mosedale held that Parliament intended all of its laws to be complied with, and that ignorance of the law was not an excuse. A<span style="color:#000000">t [93] Judge Mosedale concluded that:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt;color:#000000">&#8220;...for anything to be a reasonable excuse for a failure, it must cause the failure. Yet&#160;HMRC&#8217;s failure to tell the appellants about the change in the law did not cause their ignorance: it merely failed to change it. Mr and Mrs Hesketh were ignorant of the new filing requirement&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_105">
+	    <num>105.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In <span style="font-style:italic">Spring Capital v HMRC </span><ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2015/8" uk:canonical="[2015] UKFTT 8 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKFTT 8 (TC)</ref>, at [48], Judge Mosedale said this:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;Ignorance of the law cannot, as a matter of policy, ever amount to a reasonable excuse for failing to observe the law. This is because otherwise the law would favour those who chose to remain in ignorance of it above those persons who chose to acquaint themselves with the law in order to abide by it.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_106">
+	    <num>106.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Similarly, in <span style="font-style:italic">Lau v HMRC </span><ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2018/230" uk:canonical="[2018] UKFTT 230 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKFTT 230 (TC)</ref> (&#8216;<span style="font-style:italic">Lau</span>&#8217;), at [33], Judge Anne Scott held, at [37] to [38], that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;Parliament cannot have intended ignorance of the law to be a reasonable excuse because Parliament must have enacted the law with the intention that it would be obeyed. In all these circumstances, ignorance of the law simply cannot amount to a reasonable excuse.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_107">
+	    <num>107.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In <span style="font-style:italic">Cenlon Finance Co. Ltd v Ellwood </span>(1962) <ref href="#" uk:canonical="40 TC 176" uk:isNeutral="false" uk:origin="TNA" uk:type="case">40 TC 176</ref>, Lord Denning said this:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;&#8230;it is a mistake to say that everyone is presumed to know the law. The true proposition is that no one is to be excused from doing his duty by pleading that he did not know the law.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_108">
+	    <num>108.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Ignorance of the law cannot, therefore, amount to a reasonable excuse: see also <span style="font-style:italic">Qualaphram Ltd v HMRC </span><ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2016/100" uk:canonical="[2016] UKFTT 100 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2016">[2016] UKFTT 100 (TC)</ref>, at [121]. As held by Clauston J in <span style="font-style:italic">Holland v German Property Administrator </span><ref href="#" uk:canonical="[1936] 3 All ER 6" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1936">[1936] 3 All ER 6</ref>, at p 12:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;the eyes of the court are to be bandaged by the application of the maxim as to ignorantia legis.&#8221;</span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_109">
+	    <num>109.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Ignorance of the law cannot come to the defence of a violation of the law.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_110">
+	    <num>110.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Furthermore, whilst the default may not have been intentional, this does not amount to a reasonable excuse. In <span style="font-style:italic">Garnmoss Ltd. T/A Parham Builders v HMRC </span><ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2012/315" uk:canonical="[2012] UKFTT 315 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKFTT 315 (TC)</ref>, the tribunal held (in the context of a VAT appeal and the question of reasonable excuse) that:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt">&#8220;12.</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">What is clear is that there was a muddle and a bona fide mistake was made. We all make mistakes. This was not a blameworthy one. But <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">the Act</ref> does not provide shelter for mistakes, only for reasonable excuses. We cannot say that this confusion was a reasonable excuse.&#8221;</span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_111">
+	    <num>111.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Fourthly, we are satisfied that despite the fact that letters may have been sent out by HMRC in respect of those that may have been affected by ATED, HMRC are under no statutory duty to notify taxpayers of changes in the law. It is the case that HMRC would not have been aware of the need for the Appellant to file ATED returns until steps were taken by the Appellant. In <span style="font-style:italic">Nicholson v Morris (H M Inspector of Taxes)</span> <ref href="#" uk:canonical="51 TC 95" uk:isNeutral="false" uk:origin="TNA" uk:type="case">51 TC 95</ref>, at p. 111 Walton J said this:</p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-size:11pt">&#8220;and it is idle for any taxpayer to say to the Revenue, "Hidden somewhere in your vaults are the right answers: go thou and dig them out of the vaults." That is not a duty on the Revenue. If it were, it would be a very onerous, very costly and very expensive operation, the costs of which would of course fall entirely on the taxpayers as a body. It is the duty of every individual taxpayer to make his own return and, if challenged, to support the return he has made, or, if that return cannot be supported, to come completely clean, and if he gives no evidence whatsoever he cannot be surprised if he is finally lumbered with more than he has in fact received. It is his own fault that he is so lumbered&#8221;. </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_112">
+	    <num>112.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">As with Stamp Duty Land Tax (&#8216;SDLT&#8217;) and Inheritance Tax (&#8216;IHT&#8217;), HMRC will be unaware of the need for a taxpayer to submit ATED returns until they are received. We hold that there is no statutory requirement within <ref href="http://www.legislation.gov.uk/id/ukpga/2013/29" uk:canonical="2013 c. 29" uk:origin="TNA" uk:type="legislation">FA 2013</ref> for HMRC to give notice to a person to file an ATED return. </p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_113">
+	    <num>113.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Overall, we <span style="color:#000000">find that whilst Mr Steel may have honestly believed that he was not required to file an ATED return, having purchased a property through the Appellant, in our judgment it was not objectively reasonable for him to have failed to consider the ramifications in respect of tax. In those circumstances, the initial belief is not objectively reasonable. We have considered the timing of his illness, which we acknowledge and which not is not disputed. We are not told of any efforts by Mr Steel to inform himself of the requirements of ATED, in light of the facts that we have found. In our judgment, that is insufficient.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_114">
+	    <num>114.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Having considered all of the information before us, cumulatively, we are satisfied that the Appellant has failed to establish a reasonable excuse for the failure to file ATED returns by the statutory due date.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_23">
+	  <heading class="Taxheading1">Do any special circumstances apply?</heading>
+	  <paragraph eId="para_115">
+	    <num>115.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">Even when a taxpayer is unable to establish that they have a reasonable excuse and remains liable for one or more penalties, HMRC have the discretion to reduce those penalties if they consider that the circumstances are such that reduction would be appropriate.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_116">
+	    <num>116.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="color:#000000">The Tribunal may rely on special circumstances, but only if HMRC&#700;s decision was &#8216;flawed&#8217; when considered in the light of the principles applicable in proceedings for judicial review&#8217;</span>. That is a high test. It is in the context of that specific jurisdiction that the question of proportionality must be considered. <span style="font-family:TimesNewRomanPSMT">There are many appeals in the FtT where the question as to whether there are special circumstances justifying a reduction in the amount of a penalty has been considered. Accordingly, from time to time the FtT has made general observations about what might constitute special circumstances.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_117">
+	    <num>117.</num>
+	    <intro>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">There have been a number of cases on special circumstances, from which we derive the following principles:</p>
+	    </intro>
+	    <subparagraph>
+	      <num>(1)</num>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.39in;text-indent:0.11in"><span style="font-size:7pt"/>While &#8220;special circumstances&#8221; are not defined, the courts accept that for circumstances to be special they must be &#8220;exceptional, abnormal or unusual&#8221; (<span style="font-style:italic">Crabtree v Hinchcliffe</span><span/><a href="https://www.bailii.org/cgi-bin/redirect.cgi?path=/uk/cases/UKHL/1971/TC_47_419.html" style="color:#000000"><ref href="#" uk:canonical="[1971] 3 All ER 967" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1971">[1971] 3 All ER 967</ref></a><span style="color:#000000">) </span>or &#8220;something out of the ordinary run of events&#8221; (<span style="font-style:italic">Clarks of Hove Ltd v Bakers Union</span> <ref href="#" uk:canonical="[1979] 1 All ER 152" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1979">[1979] 1 All ER 152</ref>).</p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(2)</num>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.39in;text-indent:0.11in"><span style="font-size:7pt"/>HMRC's failure to consider special circumstances (or to have reached a flawed decision that special circumstances do not apply to a taxpayer) does not mean the decision to impose the penalty, in the first place, is flawed.&#160; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(3)</num>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.39in;text-indent:0.11in"><span style="font-size:7pt"/>Special circumstances do not have to be considered before the imposition of the penalty.&#160; HMRC can consider whether special circumstances apply at any time up to, and during, the hearing of the appeal before the tribunal.&#160; </p>
+	      </content>
+	    </subparagraph>
+	    <subparagraph>
+	      <num>(4)</num>
+	      <content>
+		<p class="Taxbodytext1" style="margin-left:0.39in;text-indent:0.11in"><span style="font-size:7pt"/>The tribunal may assess whether a special circumstances decision (if any) is flawed if it is considering an appeal against the amount of a penalty assessed on a taxpayer.&#160; </p>
+	      </content>
+	    </subparagraph>
+	  </paragraph>
+	  <paragraph eId="para_118">
+	    <num>118.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The special circumstances must apply to the individual and not be general circumstances that apply to many taxpayers: see <span style="font-style:italic">Collis</span>, at [40]<span style="color:#000000">. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_119">
+	    <num>119.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="color:#000000">As the FtT said in </span><span style="font-style:italic;color:#000000">Advanced Scaffolding (Bristol) Ltd v HMRC</span><span style="color:#000000"/><span style="font-family:TimesNewRomanPSMT"><ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2018/0744" uk:canonical="[2018] UKFTT 0744 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2018">[2018] UKFTT 0744 (TC)</ref>, at [99], there is no reason for the FtT to seek to restrict the wording of para. 16 of Schedule 55 by adding a judicial gloss to the phrase. In support of that approach the FTT referred to the observation made by Lord Reid in </span><span style="font-style:italic;font-family:TimesNewRomanPS">Crabtree v Hinchcliffe </span><span style="font-family:TimesNewRomanPSMT">at p 731D-E when considering the scope of &#8220;special circumstances&#8221; as follows:</span></p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <level>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in"><span style="font-family:TimesNewRomanPSMT;font-size:11pt">&#8220;the respondent argues that this provision has a very limited application... I can see nothing in the phraseology or in the apparent object of this provision to justify so narrow a reading of it&#8221;. </span></p>
+		    </content>
+		  </level>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_120">
+	    <num>120.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The FtT then said this, at [101] and [102]: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt">&#8220;101.</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">I appreciate that care must be taken in deriving principles based on cases dealing with different legislation. However, I can see nothing in schedule 55 which evidences any intention that the phrase &#8220;special circumstances&#8221; should be given a narrow meaning. </span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">102.</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">It is clear that, in enacting paragraph 16 of schedule 55, Parliament intended to give HMRC and, if HMRC&#8217;s decision is flawed, the Tribunal a wide discretion to reduce a penalty where there are circumstances which, in their view, make it right to do so. The only restriction is that the circumstances must be &#8220;special&#8221;. Whether this is interpreted as being out of the ordinary, uncommon, exceptional, abnormal, unusual, peculiar or distinctive does not really take the debate any further. What matters is whether HMRC (or, where appropriate, the Tribunal) consider that the circumstances are sufficiently special that it is right to reduce the amount of the penalty.&#8221; </span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_121">
+	    <num>121.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in"><span style="color:initial;background-color:#FFFFFF">In </span><span style="font-style:italic;color:initial;background-color:#FFFFFF">Bluu Solutions Ltd v Revenue &amp; Customs&#160;</span><span style="color:initial;background-color:#FFFFFF"><ref href="https://caselaw.nationalarchives.gov.uk/ukftt/tc/2015/95" uk:canonical="[2015] UKFTT 95 (TC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2015">[2015] UKFTT 95 (TC)</ref>, the FtT expressed the view that a decision by HMRC on whether or not there are special circumstances can be made at any time up to the conclusion of the tribunal hearing. However, it acknowledged</span><span style="font-style:italic;color:initial;background-color:#FFFFFF">&#160;</span><span style="color:initial;background-color:#FFFFFF">that a decision by HMRC in relation to special circumstances requires reasons, as otherwise the tribunal cannot ascertain whether the decision was flawed.</span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_122">
+	    <num>122.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">In <span style="font-style:italic">Edwards v R &amp;C Comrs</span><span/><a href="https://library.croneri.co.uk/cch_uk/btc/2019-btc-516">[2019] BTC 516</a> (&#8216;<span style="font-style:italic">Edwards</span>&#8217;), the UT considered whether the fact that significant penalties had been levied for the late filing of returns where no tax was due was a relevant circumstance that HMRC should have taken into account when considering whether there were &#8220;special circumstances&#8221; which justified a reduction in the penalties. The UT determined that the mere fact that a taxpayer has no tax to pay does not render a penalty imposed under <a href="https://library.croneri.co.uk/cch_uk/btl/fa2009-it-sch-55">Schedule 55</a> for failure to file a return on time disproportionate and, as a consequence, is not a relevant circumstance that HMRC must take into account when considering whether special circumstances justify a reduction in a penalty.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_123">
+	    <num>123.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">The UT further said this, at [84] and [85]: </p>
+	      <block name="embeddedStructure"><embeddedStructure>
+		  <paragraph>
+		    <num style="font-size:11pt">&#8220;84.</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">However, we were referred to HMRC&#8217;s guidance on the Schedule 55 <ref href="http://www.legislation.gov.uk/id/ukpga/2009/10" uk:canonical="2009 c. 10" uk:origin="TNA" uk:type="legislation">FA 2009</ref> penalty regime, as it relates to late filing penalties. It is clear from that guidance that the aim behind the Schedule 55 penalty regime is to penalise taxpayers who fail to comply with their obligations once a notice to file is issued and to incentivise them to comply with future notifications that they must file a tax return (and pay any tax due) on time. In our view, a penalty regime which seeks to incentivise taxpayers to comply with a requirement to file a return is a legitimate aim, regardless of whether it is subsequently determined that any tax is due. The purpose of the requirement to complete a tax return is so that HMRC is in a position to ascertain whether tax is due from a particular taxpayer. If the taxpayer does not comply with the requirement to file a return, then HMRC is clearly not going to be in a position to ascertain easily whether tax is in fact due. A taxpayer who does not think he should be within the self- assessment regime when he receives a notice to file because as a matter of course he will have no further tax to pay should enter into a dialogue with HMRC with a view to being removed from the requirement to file rather than take no action in response to the notice&#8230;</span></p>
+		    </content>
+		  </paragraph>
+		  <paragraph>
+		    <num style="font-size:11pt">85.</num>
+		    <content>
+		      <p class="Taxbodytext1" style="margin-left:0.5in;text-indent:0.5in"><span style="font-size:11pt">In our view, there is a reasonable relationship of proportionality between this legitimate aim and the penalty regime which seeks to realise it. The levels of penalty are fixed by Parliament and have an upper limit. In our view the regime establishes a fair balance between the public interest in ensuring that taxpayers file their returns on time and the financial burden that a taxpayer who does not comply with the statutory requirement will have to bear.&#8221; </span></p>
+		    </content>
+		  </paragraph>
+		</embeddedStructure></block>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_124">
+	    <num>124.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">It follows that the mere fact that the Appellant may not have had any tax liability does not justify a reduction in the penalty, either on the grounds of proportionality, generally, or because of the presence of special circumstances in relation to the penalty scheme. <span style="color:#000000">The amount of the penalties charged is set within the legislation. HMRC have considered the Appellant&#700;s grounds of appeal found that they do not amount to special circumstances which would merit a reduction of the penalties. Accordingly, HMRC&#700;s decision not to reduce the penalties was not flawed. </span></p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_125">
+	    <num>125.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">We have also considered the case of <span style="font-style:italic">R &amp; C Comrs v Hok Ltd </span><ref href="https://caselaw.nationalarchives.gov.uk/ukut/tcc/2012/363" uk:canonical="[2012] UKUT 363 (TCC)" uk:isNeutral="true" uk:origin="TNA" uk:type="case" uk:year="2012">[2012] UKUT 363 (TCC)</ref>; <ref href="#" uk:canonical="[2013] STC 255" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="2013">[2013] STC 255</ref> (&#8216;<span style="font-style:italic">Hok</span>&#8217;). There, the UT held that the FtT did not have power to discharge penalties on the ground that their imposition was unfair. The UT held, at [109], that the FtT has no general supervisory jurisdiction. Applying <span style="font-style:italic">Aspin v Estill </span><ref href="#" uk:canonical="[1987] STC 723" uk:isNeutral="false" uk:origin="TNA" uk:type="case" uk:year="1987">[1987] STC 723</ref>, the Tribunal found, at [116], that the jurisdiction of the FtT in cases of that nature was limited to considering the application of the tax provisions themselves. The penalties charged are proportionate and the penalty regime is proportionate to its aim. Its aim is to encourage compliance, not punish defaults. The penalty regime further includes provisions for &#8220;reasonable excuse&#8221; and &#8220;special circumstances&#8221;, which allow mitigation in appropriate cases.</p>
+	    </content>
+	  </paragraph>
+	  <paragraph eId="para_126">
+	    <num>126.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">For the reasons set out above, the appeal is dismissed. Our findings above are not a rejection of Mr Steel&#8217;s illness, but are a balanced appraisal of all of the information before us, in light of the chronology and the legislation.</p>
+	    </content>
+	  </paragraph>
+	</level>
+	<level eId="lvl_24">
+	  <heading class="Taxheading1">Right to apply for permission to appeal</heading>
+	  <paragraph eId="para_127">
+	    <num>127.</num>
+	    <content>
+	      <p class="Taxbodytext1" style="margin-left:0in;text-indent:0.39in">This document contains full findings of fact and reasons for the decision.  Any party dissatisfied with this decision has a right to apply for permission to appeal against it pursuant to Rule 39 of the Tribunal Procedure (First-tier Tribunal) (Tax Chamber) Rules 2009.  The application must be received by this Tribunal not later than 56 days after this decision is sent to that party.  The parties are referred to &#8220;Guidance to accompany a Decision from the First-tier Tribunal (Tax Chamber)&#8221; which accompanies and forms part of this decision notice.</p>
+	    </content>
+	  </paragraph>
+	  <level eId="lvl_24_1">
+	    <content>
+	      <p style="text-align:center"><span style="font-weight:bold">Release date: </span><docDate date="2025-11-20" refersTo="#decision"><span style="font-weight:bold">20</span><span style="font-weight:bold;vertical-align:super;font-size:smaller">th</span><span style="font-weight:bold"> NOVEMBER 2025</span></docDate></p>
+	    </content>
+	  </level>
+	</level>
+      </decision>
+    </judgmentBody>
+  </judgment>
+</akomaNtoso>
