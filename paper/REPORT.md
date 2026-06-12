@@ -23,7 +23,23 @@ inter-agent data-transfer statute with gold labels by construction and novelty a
 a controlled variable, we measure the generalization curve of the same norm under
 three bindings — program (drafting-time, no LLM), closed descriptions + LLM,
 open descriptions + LLM — against a holistic LLM judge and an oracle ceiling.
-[RESULTS SUMMARY PLACEHOLDER]
+Across four grounder families: the program collapses from 100% to base rate
+the moment an instance is unlisted (true-atom recall 100→0); closed
+descriptions fall 8–40 points across novelty tiers; open descriptions stay
+flat (e.g. 88.7→84.2 for gpt-4.1) and beat closed at Tier 2 for every family
+(+13 to +25 points), at an interpretation cost of ~$0.002 per case. Three
+second-order findings sharpen the thesis: extension-size sweeps show drafting
+effort buys in-distribution accuracy but essentially zero OOD coverage; the
+strongest reasoning model widens the rules-vs-standards gap (literalism makes
+enumerations more brittle, and makes unverifiable intensions ungroundable —
+repaired measurably by local evidentiary redrafts); and every verdict error
+in ~6,000 evaluation rows is a grounding error, none a deduction error, with
+the formal layer contributing zero paraphrase variance. We report honestly
+where the bill lands: converting flat atom-level accuracy into verdicts pays
+a compounding tax that naive staged grounding does not fix, so strong models'
+holistic judgments currently beat their own naive grounded pipelines at the
+verdict layer — the conversion layer, not the predicate layer, is the open
+problem.
 
 ## 1. The inversion
 
@@ -266,12 +282,14 @@ work, and we report the negative result.
 
 ### 5.3 Holistic ≈ open+engine (P3)
 
-The end-to-end judge (English statute + memo) tracks the open grounded arm
-within noise at every tier (gpt-4.1: 71/67/58 vs 75/67/62) — both are
-interpretation-limited, so the formal layer costs nothing in accuracy and
-buys the certificate, the violation/remedy semantics, and local
-repairability. Every error in 864 rows is a grounding error; none is a
-deduction error (oracle row).
+In the pilot, the end-to-end judge (English statute + memo) tracks the open
+grounded arm within noise at every tier (gpt-4.1: 71/67/58 vs 75/67/62) —
+both are interpretation-limited. At Stage 2 scale this equivalence holds for
+the two weaker families but **breaks for the two strongest** (§5.5): the
+formal layer's benefits are not free at the verdict layer under naive
+grounding. What does hold unconditionally: every error in every row of every
+run is a grounding error; none is a deduction error (oracle rows exact
+throughout).
 
 ### 5.4 Repair is local and it works at the predicate layer
 
@@ -291,16 +309,82 @@ deduction error (oracle row).
 Both repairs are one-line description edits with measured, bounded blast
 radius — the operation a holistic judge does not possess.
 
-[STAGE 2 PENDING: 288 paired memo/ruling cases × 4 grounder models
-(gpt-4.1, gpt-5.4, deepseek-v4-flash, qwen3.6-plus), capability sweep (P4),
-extension-size sweep ground_closed@K, paraphrase flip-rate, narrated-variant
-leakage control, violation/remedy on acted subset (P5).]
+### 5.5 The main run: four model families, 288 paired cases
+
+The headline replicates at scale (287 memo cases after leak exclusion; oracle
+exact on all; program 100 / 34.7 / 35.4). Tier-2 atom-level accuracy, by
+grounder:
+
+| grounder | closed | open | gap |
+|---|---|---|---|
+| deepseek-v4-flash | 61.3% | 76.2% | +14.9 |
+| gpt-4.1 | 67.9% | 84.2% | +16.3 |
+| qwen3.6-plus | 70.5% | 83.6% | +13.1 |
+| gpt-5.4 | 55.4% | 80.1% | +24.7 |
+
+Open beats closed at Tier 2 for **every** family, and the open curves are flat
+across tiers for every family (e.g. gpt-4.1: 88.7/87.7/84.2;
+gpt-5.4-with-redrafts: 82/82/82). The naive capability prediction (P4: Tier-2
+accuracy slopes up with model strength) is **not** supported — and the truth
+is better: the strongest reasoning model (gpt-5.4) has the *lowest* closed
+score and the *largest* gap. Reasoning models read enumerations most
+literally; **literalism widens the rules-vs-standards gap**. The same
+literalism punishes unverifiable intensions: gpt-5.4 grounds open `emergency`
+at 9% and `anonymized` at 10% recall (near-zero false positives everywhere) —
+the §5.2 epistemic-bar pathology, scaled up by model strength. One round of
+evidentiary redrafting lifts these to 22%/39% and flattens its atom curve at
+82% — repair is iterative, local, and measurable, but necessity-style
+intensions remain hard for literalist graders.
+
+**The verdict layer is the honest tax.** At Stage 2 scale the two strongest
+models do *better* reading the whole English statute holistically than
+through naive batched grounding (gpt-5.4: 83/73/75 holistic vs 42/38/44
+grounded-open; qwen: 87/72/78 vs 73/64/70). The pilot's "factorization costs
+nothing" does not survive scale at the verdict layer: compounding (~0.84^k)
+plus flip-set placement currently prices the factorization's auditability at
+some verdict accuracy for strong models. The conversion layer — engine-guided
+criticality, burden-of-proof defaults, precedent caching — is the open
+engineering problem, and naive per-atom staging is already ruled out (§5.2).
+
+**Leakage control (narrated-variant).** Re-rendering the same cases as
+outcome-scrubbed tribunal FACTS sections lifts *all* arms uniformly (+4.5 to
++5.6 points) — formal register is simply clearer. No holistic-specific
+genre-leakage advantage exists when narratives are outcome-free by
+construction; the FOIA-style leakage pathway requires outcome-bearing prose,
+which backward generation eliminates.
+
+**Variance decomposition.** Across paraphrase pairs, all LLM arms flip
+21–35% of verdicts; `program` and `oracle` flip **0%** by construction. The
+formal layer contributes zero variance; all variance is interpretation —
+which is what makes atom-level precedent caching (freeze an interpretation
+once made) the natural determinism mechanism.
+
+**Violation and remedy (P5).** On the 120 acted cases, grounded-closed
+attributes violation/notify-duty at 88–91%/87–93% vs holistic's 71–83%/68–78%
+(better for 3 of 4 families; program: 87/90). The deontic distinctions the
+engine computes for free — breach-without-notify-duty for r3/r6 — are
+precisely where holistic prose reasoning slips.
 
 ## 6. The economics figure
 
-[Extension-size sweep: how many enumerated instances does the closed definition
-need to match open's Tier-2 accuracy? + tokens/$ per case by arm: the cost of
-deferred binding, measured. Kaplow's trade-off as two curves.]
+Kaplow's trade-off, measured on the same statute:
+
+- **Ex-ante (drafting) cost does not buy OOD coverage.** Truncating the
+  closed enumerations to their first K categories (gpt-4.1, 288 cases):
+  K=2 → Tier-0 atom acc 83%, Tier-2 67%; K=4 → Tier-0 90%, Tier-2 69%;
+  K=full → Tier-0 92%, Tier-2 68%. Doubling and redoubling the enumeration
+  buys ~9 points in-distribution and **~1–2 points out-of-distribution**:
+  the Tier-2 curve is flat in K. No feasible amount of drafting catches the
+  e-scooter, because Tier-2 instances are outside the listed *categories*,
+  not merely the listed instances.
+- **Ex-post (interpretation) cost is collapsed.** Deferred binding costs
+  ~650–780 tokens per case per grounder (≈ $0.002 at gpt-4.1 prices,
+  ≈ $0.0002 at deepseek prices) and ~2 seconds. The interpreter whose absence
+  made open texture an obstacle now costs five orders of magnitude less than
+  the institution it replaces at this step (a human determination).
+
+Where the optimum sits on the rules–standards spectrum is set by these two
+curves; the second one just moved.
 
 ## 7. What the generator iterations teach (method, not embarrassment)
 
@@ -349,6 +433,20 @@ errors."
 
 ## 9. Conclusion
 
-[Thesis sentence. Norms factored as formal-skeleton + open atoms generalize to
-unforeseen cases where fully-specified rules cannot, while remaining verifiable
-where end-to-end LLM judgment is not.]
+Law's open-textured predicates are not an obstacle to formalization but its
+generalization mechanism: they defer concept-binding to application time.
+LLMs make that deferred binding cheap — we measure ~$0.002 per case — and a
+defeasible deontic skeleton keeps it consistent and auditable: zero deduction
+errors, zero structural variance, replayable certificates, violation and
+remedy semantics that holistic judges measurably fumble. Factored this way,
+norms generalize where fully-specified rules cannot: the no-LLM program dies
+on the first unlisted instance, enumerations decay with novelty no matter how
+long the drafter's list, and the purpose-stated intension holds flat across
+worlds its drafter never saw — for every model family we tested, with the gap
+*widening* under the most literal-minded frontier model. What is not yet
+solved is the conversion layer: turning flat predicate-level accuracy into
+verdict-level accuracy without paying the compounding tax. The architecture
+points at its own remedy — the engine knows each case's flip set, burdens of
+proof are defeasible-logic natives, and atom-level precedent caching converts
+interpretation into accreting case law — and that, not predicate
+interpretation, is where the engineering frontier now sits.
