@@ -43,3 +43,11 @@ python arms.py --cases cases.jsonl --out results.jsonl \
     --models gpt-4.1,deepseek-v4-flash
 python score.py --results results.jsonl --exclude-leaky cases.jsonl
 ```
+
+## Layout
+
+The headline run is **Stage 2** (288 paired cases × 4 grounder families):
+`cases_stage2_{memo,ruling}.jsonl`, `results_stage2_*.jsonl`,
+`RESULTS_stage2.md`, `bank_validation.jsonl` (+ `validate_banks.py`).
+Earlier stages (0/1/1b/1c micro-pilots) and the pilot-era repair experiments
+live in `archive/` (see `archive/README.md`).

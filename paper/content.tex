@@ -20,20 +20,1002 @@
 % \renewcommand{\SAM}[1]{}
 
 \begin{abstract}
-
-    Current economic forces are pushing AI towards higher autonomy. This autonomy is often opposed by greater needs for safety from the models. However, there is no clear agreed understanding of what safe ai constitutes. In this work, we propose a characterization of harmfulness from the point of view of Normative systems. We take ideas from moral philosophy, legal studies along the present works in AI safety, to propose an operationalized notion of safety for both AI to AI and AI to human interactions. In addition, we provide the following contributions: (1) a defeasible deontic logic engine for automatic legal reasoning, aiding the computation of obligations,permissions and prohibitions given certain facts (2) an alternative norms system to constitutional AI that adapts by design to new safety scenarios. In conclusion, we observe our method improving over the classical constitutional AI by \% and better generalization to newer domains by \%.
+Legal theory treats \emph{open texture} --- Hart's ``no vehicles in the park''
+--- as the reason normative text resists formalization: the predicates of a
+norm do not carry their extensions with them, so a drafter cannot enumerate at
+drafting time what ``vehicle'' will mean at application time. We invert the
+claim: open texture is law's \emph{generalization mechanism}, a deliberate
+deferral of concept-binding to application time, and the only thing it ever
+required was a competent interpreter present when the case arrives. LLMs now
+supply that interpreter at negligible cost. We contribute (i) a
+\emph{benchmark-generation pipeline} for legal analogical reasoning in which a
+defeasible deontic logic engine makes gold labels correct by construction,
+instance novelty is a controlled variable, and contamination --- unmeasurable
+on human-statute benchmarks --- is eliminated by design; (ii) an
+\emph{architecture} that factors a machine-readable norm into a formal
+defeasible skeleton (exceptions, superiority, violation vs.\ compensation ---
+computed deterministically with proof certificates) over open-textured
+predicates whose natural-language descriptions an LLM grounds case by case;
+and (iii) an \emph{economic analysis} in the rules-vs-standards tradition.
+On two statutes from different domains (inter-agent data transfer; a
+compute-commons institution) that share one deliberately fixed deontic
+skeleton --- so texture, not structure, is the variable --- 576 cases across
+three novelty tiers and four model families show the fully-specified program
+collapsing to base rate on the first unlisted instance, extensional (closed)
+definitions decaying 18--40 points with novelty, and intensional (open)
+definitions staying flat: the open$-$closed gap at the highest novelty tier
+is positive in all eight statute$\times$family comparisons ($+5$ to $+25$
+points, every bootstrap CI clear of zero; the four statute-A gaps
+pre-registered, the four statute-B gaps same-protocol replications). Sweeping enumeration size shows that ex-ante
+drafting cannot buy what ex-post interpretation sells: past a small
+gist-teaching threshold, longer enumerations buy $\sim$0 points
+out-of-distribution, while ex-post interpretation costs $\sim$\$0.002 per
+case: the optimum on Kaplow's rules--standards spectrum has moved. We discuss the implication for
+constitution-style alignment: invest in interpretable principles and ex-post
+interpretation, not in longer ex-ante enumerations.
 \end{abstract}
 
 \section{Introduction}
 
+Societies of LLM agents are beginning to transact, delegate, and share
+resources with one another, and the question of what \emph{governs} those
+interactions is open. Simulation studies show the stakes: in
+GovSim~\citep{piatti2024govsim}, ungoverned LLM agents collapse a common
+resource; emergent-convention studies~\citep{ashery2025naming} show agent
+populations develop norms, but without any formal layer that could make those
+norms auditable or enforceable. At the other extreme, mechanism-design style
+institutions~\citep{coopeval2025} hard-code the rules of interaction and offer
+no flexibility of interpretation --- yet the defining feature of an
+\emph{intelligent} multi-agent environment is that it changes: agents write
+new tools, spawn sub-environments, and produce situations the institution
+designer never enumerated. Prior work recognized this gap but proposed
+intrinsically prosocial agents as the remedy~\citep{prosocial2026}, which
+governs only the agents one trained. What is missing is an institution
+that is \emph{formal enough to verify} and \emph{open enough to generalize}.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/concept_park.pdf}
+\caption{The paper's design on Hart's own example, instantiated as the
+smallest statute in our suite (3 rules; Appendix~G). The formal skeleton is
+identical across arms; only the binding of \textsc{vehicle} varies. Run at
+miniature scale (gpt-4.1, $n=36$), the full pattern already appears: program
+and closed-list verdict accuracy fall from 100\%/83\% on listed instances to
+33\% on world-shift instances, while the open intension stays level
+(67$\to$75\%).}
+\label{fig:concept}
+\end{figure}
+
+Human law solved exactly this problem, and named its solution.
+\citet{hart1961concept}, building on \citet{waismann1945verifiability},
+observed that legal predicates are \emph{open-textured}: a statute drafted in
+the 1950s prohibits ``vehicles in the park,'' and seventy years later it
+governs e-scooters its drafters could not have imagined, because ``vehicle''
+is bound to concrete instances not at drafting time but at application time,
+by an interpreter facing the case. Four decades of AI \& Law treated this
+property as the field's principal obstacle --- you cannot formalize
+``reasonable,'' so formalization stalled at the closed-textured fragment (tax
+schedules, benefit formulas), which is where Rules-as-Code and smart contracts
+live today (Figure~\ref{fig:concept}). We argue the obstacle framing has it backwards. Open texture is
+not a defect that formalization must eliminate; it is \emph{law's
+generalization mechanism} --- a deliberate deferral of concept-binding from
+drafting time to application time. A rule that enumerates its instances
+generalizes exactly as far as its drafter foresaw. A standard that states a
+purpose defers binding, and therefore reaches instances from worlds that did
+not exist when it was written. Deferral was an obstacle for machine-readable
+norms for a mundane reason: there was nothing competent to defer \emph{to}.
+
+\citet{kaplow1992rules} makes the trade economic: rules are specified ex ante
+(cheap to apply, brittle to the unforeseen); standards acquire content ex post
+at adjudication (robust, but each application costs an interpretation). Where
+a norm should sit on that spectrum is governed by the cost of ex-post
+interpretation. LLMs collapse that cost by orders of magnitude --- from a
+tribunal hearing to a fraction of a cent --- which moves the optimum, for
+machine-readable norms, sharply toward the standard end. The question is
+whether anything is lost in the move: handing the whole norm to an LLM loses
+what made formalization attractive (determinism, auditability, verifiable
+conflict resolution). Our architecture shows nothing forces that bundle. We
+factor the norm at the joint Hart identified: a \emph{formal defeasible
+deontic skeleton} --- rules, exceptions, exceptions-to-exceptions,
+superiority, obligation/permission/prohibition, violation versus compensation
+--- computed deterministically with replayable proof certificates
+\citep{governatori2018practical}, over \emph{open-textured atoms}: opaque
+tokens whose mandatory natural-language description is their contract, and
+whose only LLM-facing task is the penumbra problem in its smallest form:
+\emph{does this fact situation fall under this described concept?}
+
+Measuring whether that factorization works requires a benchmark that does not
+exist: one that varies \emph{how a concept is defined} (extensional
+enumeration vs.\ stated intension) against \emph{how novel the instance is},
+with gold labels that are not themselves products of interpretation, on text
+that cannot have been memorized. No human-statute benchmark can deliver the
+last two properties (\S Related Work). Our central methodological
+contribution is a \emph{backward-generation pipeline} that can: a defeasible
+deontic engine computes the verdict from a sampled latent world, so gold is
+correct by construction; instances are drawn from tiered banks so novelty is
+a controlled variable; and a third-family narrator with lexical leak checks
+renders the facts, so neither the labels nor the prose can leak the answer.
+
+We organize the evaluation around four research questions:
+
+\begin{itemize}
+\item \textbf{RQ1 (Generalization).} How does the binding of a norm's
+  predicates --- compiled program, closed extensional description, open
+  intensional description --- determine accuracy as instance novelty grows?
+\item \textbf{RQ2 (Economics).} What does additional ex-ante drafting effort
+  buy, compared with ex-post interpretation, and what does interpretation
+  cost?
+\item \textbf{RQ3 (Locus).} \emph{Which} predicates are open-texture
+  sensitive, and how does model strength interact with definition style?
+\item \textbf{RQ4 (Factorization).} What does the formal deontic layer
+  guarantee, and what does it cost at the verdict layer?
+\end{itemize}
+
+\noindent\textbf{Contributions.}
+(1)~A benchmark and generation pipeline for legal analogical reasoning under
+controlled novelty, with engine-verified gold, contamination ruled out by
+construction, and an audit methodology in which independent
+disagreement-with-gold acts as a bug detector for both the world model and
+the drafted intensions themselves (\S Method). The pipeline is
+statute-agnostic; we instantiate it on two domains.
+(2)~An architecture for machine-readable norms --- defeasible deontic
+skeleton over LLM-grounded open-textured predicates --- with deterministic,
+certificate-bearing deduction (\S Method; engine in Appendix~A).
+(3)~An empirical rules-vs-standards analysis (\S Results): open definitions
+generalize flat where closed definitions and programs collapse, replicated
+across two statutes and four model families --- statute A's four
+pre-registered confirmatory gaps and statute B's four same-protocol
+replication gaps all positive (RQ1,
+Figures~\ref{fig:econ}--\ref{fig:cross}); ex-ante
+drafting buys $\sim$0 out-of-distribution accuracy past a small
+gist-teaching threshold, while ex-post interpretation costs $\sim$\$0.002
+per case (RQ2); the effect concentrates where the intension's
+\emph{verifiability}, not just its subject matter, predicts (RQ3); and the
+formal layer contributes zero deduction errors and zero paraphrase variance,
+at a verdict-layer cost for naive grounding that is real but
+domain-dependent (RQ4).
+
 \section{Related Work}
 
-\section{Method}
+\paragraph{Open texture and the phrasing of law.}
+The legal-theory lineage is the frame for this paper, not background. Open
+texture enters analytic philosophy with \citet{waismann1945verifiability} ---
+empirical concepts cannot be verified conclusively because their definitions
+do not anticipate all possible worlds --- and enters jurisprudence with
+\citet{hart1961concept}, whose core-vs-penumbra account makes application-time
+interpretation constitutive of how law works, not a defect of it.
+\citet{schauer1991playing,schauer2013open} and \citet{endicott2000vagueness}
+develop why drafters \emph{choose} their phrasing along the
+precision--adaptability frontier, and \citet{kaplow1992rules} prices that
+choice: the rules-vs-standards decision turns on the relative costs of ex-ante
+specification and ex-post interpretation. Our closed/open manipulation is the
+operationalization of this literature: the same norm phrased at the two ends
+of the spectrum. The semantic distinction we manipulate --- a concept's
+\emph{extension} (the instances it denotes) versus its \emph{intension} (the
+condition something must satisfy to fall under it) --- is the classical one
+\citep{carnap1947meaning,putnam1975meaning}; in our terms, a closed
+description publishes (a fragment of) the extension, an open description
+publishes the intension. \citet{hadfield2019incomplete} import incomplete
+contracting into alignment and conclude AI systems will need the ex-post
+gap-filling institutions human law has; we build and measure one. Closest in
+spirit, \citet{caputo2024positivist} argues from legal positivism that
+alignment should work the way law does --- rules acquiring content through
+application to cases over time; we share that thesis and supply what the
+conceptual argument lacks: a verifiable engine that separates the formal
+from the interpretive layer, and a controlled measurement of the
+rules-vs-standards crossover that the thesis predicts. The Rules-as-Code
+literature, for its part, names LLM assistance with open-textured provisions
+as a prospect that remains untested \citep{lspr2025rulesascode}. This paper
+is that test.
+
+\paragraph{Formalization and LLM+solver pipelines.}
+Defeasible deontic logic gives normative reasoning its native structure ---
+exceptions, superiority, contrary-to-duty obligations
+\citep{governatori2006violations,governatori2018practical,governatori2024oddity};
+our engine implements this proof theory in Lean~4 (Appendix~A). The pipeline
+shape ``LLM grounds facts, solver decides'' exists in monotonic variants on
+human tax law: LLM+Prolog on SARA \citep{zhang2025prolog,holzenberger2020sara},
+multi-agent statutory formalization \citep{multiagent2025statutory}.
+Rule-application benchmarks --- SARA, RuleArena \citep{rulearena2024},
+$\tau$-bench \citep{yao2024taubench}, LegalBench \citep{guha2023legalbench}
+--- measure adherence to crisp rules stated in natural language.
+\emph{Why there is no baseline to compare against:} none of these varies how
+concepts are defined (SARA's statutes were deliberately edited to be
+unambiguous --- the open-texture problem is defined away rather than studied);
+none controls instance novelty; none separates the grounding role from the
+deduction role in scoring; and all are built on public human-law text, where
+training-set contamination is unmeasurable
+\citep{magar2022contamination,sainz2023contamination} --- a validity problem
+the legal-AI evaluation literature largely does not even flag, even as legal
+LLM outputs are known to confabulate doctrine \citep{dahl2024hallucination}.
+The quantity we need --- a generalization curve over definition style $\times$
+novelty --- simply has no existing instrument; our baselines are therefore
+\emph{internal and analytic}: an oracle upper bound, a no-LLM program lower
+bound, and a holistic-LLM comparison arm, each meaningful by construction.
+The closest construction-level relative is the logic-guided compliance
+benchmark of \citet{logicguided2026}, which also synthesizes evaluation
+cases from a formal specification --- but its specifications are
+LTL-over-finite-traces compliance constraints with crisp predicates, and the
+LLM is the regulated agent rather than the interpreter; definition openness
+is again not a variable.
+
+\paragraph{LLM agent societies and machine institutions.}
+Simulated LLM societies either evolve conventions with no formal institution
+\citep{piatti2024govsim,ashery2025naming}, hard-code mechanisms with no
+interpretive flexibility \citep{coopeval2025}, or rely on agents being
+trained prosocial \citep{prosocial2026}. Courtroom simulations
+\citep{agentcourt2024} predict the verdicts of human courts holistically,
+with no replayable theory of \emph{why}. Constitutional AI
+\citep{bai2022constitutional} is, in our vocabulary, an \emph{ex-ante
+drafting} approach: a fixed list of principles applied at training time. Our
+results bear directly on it (\S RQ2 Discussion): drafting longer lists does
+not buy out-of-distribution coverage; ex-post interpretation of a stated
+intension does. We position this work as the missing layer these literatures
+point at from both sides: a verifiable normative institution whose
+open-textured predicates are interpreted at machine speed.
+
+\section{Method: A Benchmark for Analogical Rule Application}
+
+\subsection{Setting and why we chose it}
+
+The testbed is a synthetic inter-agent personal-data transfer statute
+governing when one AI agent (the \emph{holder}) may hand a dataset to another
+(the \emph{recipient}). We chose this setting deliberately, for four reasons.
+First, it is the \emph{target regime}: norms for AI agent societies, where the
+institution designer owns the vocabulary --- so authoring both the norm and
+its concept descriptions is the design point, not a simplification. Second,
+data-transfer law (GDPR-like) is naturally dense in the structures that
+distinguish defeasible deontic logic from monotonic rule encodings: default
+prohibitions, consent exceptions, revocation exceptions-to-exceptions,
+emergency overrides, and compensatory remedy chains. Third, the domain has a
+rich, realistic space of \emph{novel instance types} (biometric gait
+signatures, smart-meter traces, delegate-issued consent, zero-knowledge
+compliance attestations) in which to manufacture Hart's penumbra under lab
+conditions. Fourth, being synthetic, gold labels can be fixed by construction
+and contamination ruled out --- the validity property human-law benchmarks
+cannot offer (\S Related Work).
+
+The statute has 8 rules over 7 groundable atoms wired by a 15-pair
+superiority relation; the verdict is the deontic status of \texttt{share}
+$\in$ \{obligatory, permitted, forbidden\}, plus, for cases where the
+hand-off already happened, whether a violation occurred and whether the
+notify-then-compensate remedy is owed. One deliberately deontic detail:
+breaches of the revocation and commercial-exploitation prohibitions are
+violations \emph{without} a notification duty (no compensation chain attaches
+to them) --- a distinction the engine computes for free and a holistic judge
+must reconstruct in prose. The full statute, the defeasible-logic engine, and
+a reader's guide to the \texttt{.ddl} language are in Appendix~A.
+
+\paragraph{A second statute: the compute commons.} To separate the texture
+effect from the particulars of one domain, we instantiate the pipeline on a
+second statute: a \emph{shared-resource commons} institution --- agents
+drawing compute from a common pool, the governance problem LLM-society
+simulations pose \citep{piatti2024govsim}. Its deontic skeleton is
+deliberately \emph{isomorphic} to the first statute's (same rule shapes,
+same 15-pair superiority pattern, same world-coherence structure: a default
+permission to draw, a prohibition on over-entitlement draws with a
+report-then-restore remedy chain, grant/suspension/offset exception layers,
+an essential-workload override, and a contention prohibition gated by
+certified priority standing). Only the domain and the predicates' texture
+profile change, so any cross-statute difference isolates \emph{texture} from
+\emph{structure}. Each atom's texture type (artifact / scenario /
+epistemic-bar) was pre-registered before any LLM run (Appendix~G), making
+the per-predicate analysis of RQ3 a prediction test rather than a post-hoc
+reading. A third, deliberately minimal statute --- Hart's park ordinance
+itself, 3 rules over 2 atoms (Figure~\ref{fig:concept}) --- anchors the
+suite's difficulty floor and reproduces the pattern in miniature.
+
+\subsection{Two bindings of the same norm}
+\label{sec:bindings}
+
+Every atom carries two descriptions, identical in legal effect and differing
+only in phrasing strategy:
+
+\begin{itemize}
+\item \textbf{Closed (extensional).} A best-faith drafting-time enumeration
+  of instance categories. E.g.\ for \texttt{personal\_data}: ``\emph{the
+  content includes at least one of: a person's legal name; a residential
+  address; a government-issued identification number; \dots; an entry from a
+  person's medical record}'' (8 categories).
+\item \textbf{Open (intensional).} The purpose-stated condition. E.g.:
+  ``\emph{information relating to an identified or identifiable natural
+  person, meaning anyone who could be singled out directly or indirectly from
+  the content alone or combined with other reasonably available data}.''
+\end{itemize}
+
+The closed enumeration is additionally compiled --- with no LLM anywhere ---
+into the \textbf{program arm}: a lookup from structured record fields to
+atoms. The program is exactly the drafting-time extension, i.e.\ an
+executable smart contract. Rules and superiority are identical across
+regimes; \emph{texture is the only manipulated variable}. Gold atom truth is
+defined by the intension --- the legislator's meaning --- which is the correct
+gold standard in the target regime, where the institution designer owns the
+vocabulary (we return to the circularity worry in Limitations; the banks were
+independently validated, Appendix~E).
+
+Two membership checks govern every positive bank item, and they must not be
+conflated:
+\begin{enumerate}
+\item \textbf{Open membership} (all tiers): does the instance satisfy the
+  open intension? Every positive item at every tier must --- this is what
+  makes it gold-true.
+\item \textbf{Tier placement} (Tier 2 only): does the instance additionally
+  fall outside \emph{every} category of the closed enumeration? This is what
+  makes it novel.
+\end{enumerate}
+Tier 0 items are listed instances (satisfy both readings; known to the
+program). Tier 1 items are unlisted near-variants of listed categories (a
+passport number where ``government-issued identification number'' is listed)
+--- inside the enumeration's categories for a charitable reader, unknown to
+the program's lookup. Tier 2 items satisfy check (1) while failing every
+closed category in check (2): gait-signature profiles, smart-meter occupancy
+traces, consent issued by the subject's empowered delegate agent, attestation
+via zero-knowledge compliance proofs. Tier 2 is the e-scooter, manufactured.
+
+\subsection{Backward generation: gold by construction}
+\label{sec:generation}
+
+Forward benchmark construction (collect cases, have experts label them)
+imports interpretation into the gold standard and, on public legal text,
+cannot exclude that the model has seen the cases
+\citep{sainz2023contamination}. We generate \emph{backward}:
+
+\begin{enumerate}
+\item \textbf{Sample a latent world}: a truth assignment over the 7 atoms,
+  under world-coherence constraints (revocation presupposes a prior grant; a
+  grant presupposes a data subject; 56 coherent worlds).
+\item \textbf{Compute gold}: the engine derives the verdict from the true
+  atoms; every label is replayable via a proof certificate (\texttt{--why}).
+\item \textbf{Instantiate}: each true atom is realized with a bank item of
+  the case's tier; 1--2 false atoms receive hard-negative distractors
+  (pre-ticked consent boxes, late revocations, reversible pseudonymization).
+\item \textbf{Narrate}: a third-family model (claude-sonnet-4.6; all
+  grounders are OpenAI/DeepSeek/Qwen) renders a $\sim$160-word pre-verdict
+  review memo from the instantiated facts.
+\item \textbf{Leak-check}: narrations containing atom names, statute
+  vocabulary stems, or 5-grams of the open description (always) or the closed
+  one (at Tiers 1--2) are rejected and regenerated.
+\end{enumerate}
+
+This design grounds our leakage claims in the failure mode the contamination
+literature documents \citep{magar2022contamination,sainz2023contamination}:
+on human-statute benchmarks one cannot distinguish rule application from
+recall of the statute, its commentary, or the cases themselves --- which is
+why synthetic data generated from a formal specification with known gold is
+the instrument of choice for isolating pure LLM behaviour on open-textured
+interpretation. Lexical checks cannot exclude paraphrastic leakage; we flag
+this as a limitation, and additionally verify with an outcome-scrubbed
+re-narration control (\S RQ4) that no genre-leakage advantage exists.
+
+\paragraph{The audit loop is part of the method.} Synthetic gold is only as
+good as the latent world model, so the pipeline includes a per-atom audit
+with a sharp signature: \emph{a grounder being right where gold is wrong}.
+Three world-model defects were caught this way before the first statute's
+main run (incoherent distractor composition; emergencies narrated as
+adjacent matters and thus correctly failing the intension's necessity test;
+consent evidence in worlds without a data subject), each fixed in the
+generator and regenerated. On the second statute the same loop caught a
+defect in a \emph{drafted intension}: independent bank validation showed
+both annotator families holding that a lapsed voucher satisfies ``at some
+point granted \dots{} an entitlement covering this category'' --- and they
+were right; the intension lacked temporal scope and was redrafted before any
+grounding run. Benchmarks built without this loop ship such bugs as ``model
+errors.'' Details, including one disclosed asymmetric narration
+intervention, are in Appendices~F--G.
+
+\subsection{Arms, metrics, and validation}
+
+\textbf{Arms.} \emph{oracle} (gold atoms $\to$ engine; harness check);
+\emph{program} (closed-ID lookup $\to$ engine; no LLM);
+\emph{ground\_closed} / \emph{ground\_open} (LLM classifies the 7 atoms from
+the memo under neutral labels C1..C7 --- the regimes differ only in
+definition text --- then the engine decides); \emph{holistic} (LLM reads the
+English statute plus memo and outputs verdict/violation/remedy directly);
+\emph{ground\_closed@K} (enumerations truncated to first $K$ categories; the
+drafting-effort sweep); \emph{holistic\_closed} (holistic arm given the
+closed definitions; the pipeline-independence control). Grounders:
+gpt-4.1, gpt-5.4, deepseek-v4-flash, qwen3.6-plus --- four families, none
+the narrator's.
+
+\textbf{Metrics.} Primary: atom-level accuracy and true-atom recall by
+regime$\times$tier (the predicate layer, unaffected by verdict-class priors).
+Secondary: verdict accuracy by arm$\times$tier; violation+remedy accuracy on
+the acted subset; paraphrase flip-rate across narration variants; tokens per
+case. The four Tier-2 open$-$closed gaps are the pre-registered confirmatory
+comparisons (predictions committed by git hash before any LLM run); per-atom
+splits are exploratory.
+
+\textbf{Validation gates} (all green before any result was read): oracle
+reproduces gold on every case (576 rows); program scores 100\% at Tier 0 with
+true-atom recall exactly 100/0/0 across tiers; zero lexical leak flags in the
+headline run (one flagged case excluded; $n=287$); independent bank
+validation by two non-narrator-family annotator models (Appendix~E). Stage-2
+verdict classes are capped by world-coherence (120/102/66), so verdict tables
+carry the majority-class baseline (41.7\% at Tier 2) and headline claims stay
+at the atom level.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/generalization_economics.pdf}
+\caption{\textbf{(a)} Atom-level accuracy under instance novelty (288 paired
+cases; thin lines: four grounder families; bold: family mean). The no-LLM
+program collapses on the first unlisted instance; closed (extensional)
+definitions decay with novelty; open (intensional) definitions are flat.
+\textbf{(b)} The economics of ex-ante drafting (gpt-4.1): sweeping the closed
+enumerations from $K{=}2$ categories to the full lists buys $\sim$9 points
+in-distribution and $\sim$0 points at Tier~2, which stays below the
+zero-enumeration open intension. Ex-ante specification cannot purchase
+out-of-distribution coverage; ex-post interpretation ($\sim$\$0.002/case)
+can.}
+\label{fig:econ}
+\end{figure*}
+
+\section{Results}
+
+Headline numbers come from two runs of identical design: statute A (data
+transfer): 288 paired cases $\times$ 3 novelty tiers $\times$ 14 arms
+$\times$ 4 grounder families (4{,}032 rows; leak-excluded $n=287$); statute
+B (commons): 288 cases, same grid (4{,}032 rows; zero leak-flagged). Full
+tables in Appendices~D and~G.
+
+\subsection{RQ1: Texture determines the generalization curve}
+
+Figures~\ref{fig:econ}a and \ref{fig:cross}a are the paper's central result,
+on the two statutes. The program scores 100\% at Tier 0 and collapses the
+moment an instance is unlisted (verdict accuracy 34.7/35.4\% on A,
+35.4/35.4\% on B; true-atom recall exactly 100/0/0 on both) --- pure
+under-inclusion, the failure mode of the smart contract. Closed definitions
+decay with novelty on both statutes (family means: A 93.3$\to$63.7\%, B
+97.6$\to$70.3\%). Open definitions are flat (A 82.1$\to$81.0\%, B
+85.2$\to$82.9\%). The crossover is exactly where \citet{kaplow1992rules}
+puts it: enumeration wins in-distribution (closed $>$ open at Tier 0 for
+every family on both statutes), the intension wins out-of-distribution.
+Table~\ref{tab:gaps} gives the eight confirmatory comparisons --- all
+positive, every CI clear of zero.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lcc}
+\toprule
+ & \multicolumn{2}{c}{Tier-2 open$-$closed gap [95\% CI]} \\
+grounder & statute A (transfer) & statute B (commons) \\
+\midrule
+deepseek-v4-flash & $+14.9$ [$+11.2,+18.6$] & $+15.6$ [$+11.8,+19.6$] \\
+gpt-4.1           & $+16.3$ [$+12.6,+19.8$] & $+11.3$ [$+8.8,+14.1$] \\
+qwen3.6-plus      & $+13.1$ [$+10.1,+16.2$] & $+5.5$ [$+2.8,+8.0$] \\
+gpt-5.4           & $+24.6$ [$+20.7,+28.6$] & $+18.2$ [$+14.9,+21.6$] \\
+\bottomrule
+\end{tabular}
+\caption{Tier-2 atom-level open$-$closed accuracy gap (points), 95\% CI from
+a 2{,}000-resample case-clustered bootstrap, on both statutes. These eight
+gaps are the confirmatory comparisons (statute A's pre-registered; statute
+B's run under the same protocol with pre-registered per-atom texture
+predictions). Underlying accuracies in Appendices~D and~G.}
+\label{tab:gaps}
+\end{table}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/cross_statute.pdf}
+\caption{Replication on the commons statute (statute B; same design as
+Figure~\ref{fig:econ}). \textbf{(a)} The program collapses, closed decays,
+open holds flat. \textbf{(b)} The drafting sweep refines the expA result: a
+few \emph{diverse} categories buy a one-time ``gist dividend'' at Tier 2
+($+10.9$ points from $K{=}2$ to $K{=}4$ --- the examples teach the model the
+category's gist), after which the curve is flat ($+0.6$ to full) and remains
+11 points below the zero-enumeration intension.}
+\label{fig:cross}
+\end{figure*}
+
+\textbf{The effect is pipeline-independent.} A holistic arm given the
+\emph{closed} definitions decays across tiers exactly like the grounded
+closed arm (statute A, gpt-5.4: 93/74/62; qwen: 90/75/68 verdict accuracy;
+statute B: 94/81/61 and 92/82/72), while the same models' open-definition
+holistic holds at Tier 2 (A: 75, 78; B: 80, 76). The rules-vs-standards
+crossover is a property of \emph{how the norm binds its concepts}, not of
+whether an engine or an LLM applies the structure.
+
+\subsection{RQ2: The economics --- ex-ante drafting cannot buy what ex-post
+interpretation sells}
+
+Figures~\ref{fig:econ}b and \ref{fig:cross}b price Kaplow's trade on both
+statutes. Truncating the closed enumerations to their first $K$ categories
+(gpt-4.1, statute A): $K{=}2$ gives 82.6\% at Tier 0 and 67.4\% at Tier 2;
+$K{=}4$: 90.3/68.8; full lists: 91.7/67.9. Doubling and redoubling the
+drafter's list buys $\sim$9 points in-distribution and \emph{$\sim$0 points
+out-of-distribution}, $\sim$16 points below the zero-enumeration open
+intension (84.2\%). Statute B refines the shape: the first few
+\emph{diverse} categories buy a one-time Tier-2 ``gist dividend'' ($66.8 \to
+77.7$ from $K{=}2$ to $K{=}4$ --- with two categories the model reads the
+list literally; four heterogeneous examples teach it the category's gist,
+which generalizes), after which the curve is again flat ($77.7 \to 78.3$ at
+full) and 11 points below the intension (89.6\%). The refined claim:
+\emph{enumerations generalize exactly as far as their gist abstracts, and
+drafting past the gist threshold buys nothing out-of-distribution}. No
+feasible amount of drafting catches the e-scooter, because Tier-2 instances
+fall outside the listed \emph{categories}, not merely the listed instances.
+Meanwhile the ex-post side of the ledger has collapsed: deferred binding
+costs $\sim$650--780 tokens per case ($\approx$\$0.002 at gpt-4.1 prices)
+and $\sim$2 seconds. The optimum on the rules--standards spectrum is set by
+these two curves, and the second one just moved by orders of magnitude.
+
+\paragraph{Implication for constitution-style alignment.} Constitutional
+AI \citep{bai2022constitutional} sits at the ex-ante end of this spectrum: a
+fixed, enumerated list of principles, applied at training time, that cannot
+be re-interpreted when the deployment world shifts. Our $K$-sweep is direct
+evidence about that strategy: lengthening an ex-ante list does not purchase
+coverage of genuinely novel situations, while ex-post interpretation of a
+short stated intension does --- at negligible cost and with the
+interpretation step isolated, auditable, and locally repairable. This
+suggests constitution-like governance of AI systems should invest in
+\emph{interpretable broad principles plus an application-time interpretation
+mechanism} (with precedent accretion for determinism, cf.\ RQ4), rather than
+in ever-longer drafted enumerations --- the same conclusion
+\citet{hadfield2019incomplete} reach from contract theory, here measured.
+
+\subsection{RQ3: Open texture bites exactly where the theory says}
+
+The headline gap is an average over predicates with different texture
+profiles, and the per-atom split (Appendix~D) is theoretically informative:
+
+\textbf{Artifact vs.\ scenario predicates --- and what the replication
+corrects.} On statute A, closed enumerations of \emph{artifact-type} atoms
+collapse at Tier 2 (true-atom recall: \texttt{certified} 1.0\%,
+\texttt{personal\_data} 17.2\%, \texttt{consent} 22.6\%) --- a
+zero-knowledge compliance proof is categorically unlike any listed
+certificate --- while \emph{scenario-type} enumerations generalize by gist
+(\texttt{revoked} 75.0\%, \texttt{emergency} 50.0\%). Statute B's
+pre-registered per-atom predictions test this taxonomy: 5 of 7 hold
+(artifact atoms \texttt{allocation\_granted} 38.3\% and \texttt{over\_quota}
+46.1\% collapse; scenario atom \texttt{grant\_suspended} 72.7\% survives;
+the epistemic-bar atom behaves as predicted), but \emph{two scenario-typed
+atoms collapse anyway} (\texttt{contention} 38.0\%,
+\texttt{essential\_workload} 28.8\%). The misses are systematic: both are
+\emph{system-state} predicates whose intension asserts a fact about the
+whole world ("the pool cannot serve all entitled demand"; "the harm cannot
+reasonably be averted otherwise") rather than about an exhibited artifact or
+event. The corrected lesson: the dominant axis is not subject matter but
+\emph{verifiability at application time} --- open texture bites artifact
+extensions hardest, and unverifiable intensions hurt the open regime
+wherever they occur.
+
+\textbf{Literalism widens the gap.} The naive capability prediction --- that
+stronger models close the rules-vs-standards gap --- is \emph{not} supported,
+and the truth is more interesting: the strongest reasoning model (gpt-5.4)
+has the lowest or second-lowest closed score on both statutes (55.4\%,
+64.4\%) and the largest gap on A ($+24.6$) and second-largest on B
+($+18.2$). Reasoning models read enumerations most literally; literalism
+makes rules more brittle. The same literalism punishes unverifiable
+intensions: gpt-5.4 grounds open \texttt{emergency} at 9\% and
+\texttt{anonymized} at 10\% recall on statute A (pooled over tiers), and
+open \texttt{contention} at 11\% Tier-2 recall on statute B (near-zero false
+positives in all cases) --- intensions that demand an unobservable guarantee
+are refused by a strict reader, Kaplow's verification-cost condition visible
+per-atom, replicated across domains.
+
+\textbf{Repair is local --- and redrafting-by-example re-imports closure.}
+One round of \emph{evidentiary redrafting} (re-stating pathological
+intensions to judge described process and claim rather than unobservable
+fact) lifts statute A's gpt-5.4 recall on the two bar atoms to 22\%/39\% and
+flattens its atom curve at 82.1/81.7/81.8\%; on statute B the same operation
+lifts \texttt{essential\_workload} from 40/38/55 to 52/62/70 across tiers.
+But statute B also exposes the operation's failure mode: the
+\texttt{offset\_posted} redraft named example forms (``depositing reserve
+capacity, a confirmed top-up purchase\dots''), which raised Tier-0 recall
+62$\to$92 while \emph{cutting} Tier-2 recall 52$\to$32 --- the strict reader
+treats examples as a closed list. Evidentiary redrafting must state evidence
+\emph{kinds} (recorded, escrowed, sized-to-cover), not instance forms: the
+rules-vs-standards trade is fractal, reappearing inside the repair operation
+itself. Repair remains local, iterative, and measurable --- a one-line
+description edit with bounded blast radius, an operation a holistic judge
+does not possess (pilot-stage precedent accretion on the closed side: 18/22
+held-out misses fixed, zero in-distribution regressions; Appendix~F).
+
+\subsection{RQ4: What the formal layer buys --- and what it honestly costs}
+
+\textbf{Guarantees.} In every engine-mediated arm of every run on both
+statutes, the deduction layer is exact by construction: the oracle arm
+reproduces gold on all 1{,}152 oracle rows, so \emph{every error in every
+grounded arm is a grounding error} --- an architectural guarantee that
+isolates the layer the benchmark measures. Across paraphrase pairs, every
+LLM arm flips 19--47\% of verdicts; \emph{program} and \emph{oracle} flip
+0\%: the formal layer contributes zero variance, which is what makes
+atom-level precedent caching (freeze an interpretation once made) the
+natural determinism mechanism. On statute A's acted subset, grounded-closed
+arms attribute violation and the notify remedy at 80--91\%/87--93\% versus
+holistic's 71--83\%/68--78\% --- the breach-without-notify-duty distinction
+the engine computes for free is precisely where holistic prose reasoning
+slips (statute B: grounded 72--88\% on the report duty vs holistic
+75--85\%, with the program arm itself degrading to 75/79 --- under-inclusive
+grounding misfires the remedy chain too).
+
+\textbf{Costs --- the conversion tax.} The guarantee above is bought at the
+predicate layer; converting flat atom accuracy into verdicts pays a
+compounding tax ($\approx \bar a^{\,k}$ over the $k$ flip-relevant atoms),
+and on statute A the two strongest models do \emph{better} reading the whole
+English statute holistically than through naive batched grounding of the
+same open definitions (gpt-5.4: 83/73/75 vs 42/38/44; qwen: 87/72/78 vs
+73/64/70; Tier-2 majority baseline 41.7\%). Statute B bounds the finding:
+there, grounded-open meets or beats holistic at Tier 2 for three of four
+families (gpt-4.1 $+15.6$, qwen $+5.2$, deepseek $-4.2$, gpt-5.4 $-13.5$
+points) --- with fewer flip-relevant atoms per case the tax shrinks. The
+honest summary: the conversion tax is real, capability- and
+domain-dependent, and not yet engineered away; the \emph{conversion layer}
+--- engine-guided criticality, burden-of-proof defaults, precedent caching
+--- not the predicate layer, is where the engineering frontier sits (naive
+per-atom staged grounding is already ruled out; pilot). A control matters
+here: re-rendering cases as outcome-scrubbed tribunal FACTS lifts \emph{all}
+arms uniformly ($+4.9$ to $+5.6$), so the holistic advantage is not
+narration genre leakage.
 
 \section{Limitations}
 
-\onecolumn
+\textbf{Two statutes, one skeleton.} Results come from two domains, but the
+second statute deliberately reuses the first's deontic skeleton (to isolate
+texture from structure), so \emph{structural} variance --- deeper
+compensation chains, multi-bearer duties, different exception topologies ---
+is still unmeasured. The pipeline is statute-agnostic (any \texttt{.ddl}
+theory with described atoms and tiered banks); a further six-scenario
+expansion across structurally distinct domains is specified in the
+repository, with per-statute texture profiles stated in advance so each new
+domain is a prediction test (statute B's profile scored 5/7, and its two
+misses sharpened the taxonomy; RQ3).
+\textbf{Gold-by-intension circularity.} The same hand wrote the intensions,
+the enumerations, and the banks. Mitigations: gold \emph{is} the
+legislator's intension by design (the target regime), and two non-narrator
+annotator families independently validated all 90 bank items (84/90, 87/90
+agreement; all disagreements are strict-reader false negatives on the
+epistemic-bar atoms, none touching the artifact-type Tier-2 items that drive
+the headline gap; Appendix~E).
+\textbf{Strawman risk.} The closed baselines are not straw: closed beats
+open at Tier 0 for every family, and its scenario-type categories generalize
+(emergency 50\%, revoked 75\% at Tier 2); the collapse is selective and
+structural.
+\textbf{Leakage and shared-narrator confound.} Lexical checks cannot exclude
+paraphrastic leakage; the outcome-scrubbed control bounds genre effects but
+not all composition artifacts, which are symmetric across regimes (the gap
+is robust; absolute numbers are bounded by them). Moreover both statutes use
+the same narrator family (and the same author wrote both statutes'
+descriptions and banks), so any narrator-style or authorial artifact is
+correlated across the two runs: the replication is evidence that the texture
+effect transfers across domains, not independent evidence against narration
+confounds. A third statute with a different narrator family and, ideally, a
+second bank author is the right next control.
+\textbf{Scope.} 7 atoms per statute, 3-class verdicts, single bearer, four
+grounder families; frontier models may eventually saturate Tier 2 --- by
+design that result would itself confirm the thesis (the application-time
+interpreter got good enough).
+
+\section{Conclusion}
+
+Law's open-textured predicates are not an obstacle to formalization but its
+generalization mechanism: they defer concept-binding to application time.
+LLMs make that deferred binding cheap --- we measure $\sim$\$0.002 per case
+--- and a defeasible deontic skeleton keeps it consistent and auditable:
+zero deduction errors, zero structural variance, replayable certificates,
+violation and remedy semantics that holistic judges measurably fumble.
+Factored this way, machine-readable norms generalize where fully-specified
+rules cannot: the program dies on the first unlisted instance, enumerations
+decay with novelty once past their gist threshold no matter how long the
+drafter's list, and the purpose-stated intension holds flat across worlds
+its drafter never saw --- on both statutes, for every model family tested,
+with the gap \emph{widening} under the most literal-minded frontier model. The benchmark pipeline that establishes this
+--- engine-verified gold, controlled novelty, contamination excluded by
+construction --- is reusable for any normative domain expressible as a
+defeasible theory, and we release it with the engine and all artifacts. For
+the governance of AI agent societies the lesson is Kaplow's, updated:
+ex-ante drafting cannot buy coverage of the unforeseen, ex-post
+interpretation now can --- so write short intensions, verify the deduction,
+and let interpretation accrete into precedent. What remains open is the
+conversion layer --- turning flat predicate accuracy into verdict accuracy
+without the compounding tax --- and the architecture points at its own
+remedy: the engine knows each case's flip set, burdens of proof are
+defeasible-logic natives, and cached interpretations are case law.
 
 \bibliography{aaai2027}
+
 \appendix
-\section{Test Appendix}
+
+\section{Appendix A: The Statute and the DDL Language}
+
+\paragraph{Reading \texttt{.ddl}.} A theory is a set of \emph{atoms} (opaque
+tokens, each with a mandatory natural-language description --- the atom's
+contract), \emph{rules}, and a \emph{superiority relation}. Rules have the
+form $body \Rightarrow_{O@Bearer} head$: \texttt{=>O@Holder} introduces an
+obligation directed at the bearer \texttt{Holder} (strict arrow); the tilde
+form \texttt{\textasciitilde>O} introduces a \emph{defeasible permission}
+(the conclusion holds unless a superior rule defeats it); \texttt{\~{}share}
+is negation (an obligation \emph{not} to share, i.e.\ a prohibition);
+\texttt{*} chains compensatory obligations: $O\neg share \otimes notify
+\otimes compensate$ reads ``share is forbidden; if shared anyway, notify is
+obligatory; if notification also fails, compensate.'' \texttt{r1 > r0} means
+r1 defeats r0 when both fire. The engine implements
+Governatori-style defeasible deontic proof theory
+\citep{governatori2018practical,governatori2024oddity} in Lean~4; verdicts
+carry replayable proof certificates (\texttt{--why}).
+
+\paragraph{The statute.} Eight rules over seven groundable atoms
+(\texttt{personal\_data}, \texttt{consent}, \texttt{revoked},
+\texttt{emergency}, \texttt{anonymized}, \texttt{commercial},
+\texttt{certified}):
+
+\begin{lstlisting}
+r0: ~>O@Holder share
+r1: personal_data =>O@Holder ~share
+    * notify * compensate
+r2: consent ~>O@Holder share
+r3: revoked =>O@Holder ~share
+r4: emergency =>O@Holder share
+r5: anonymized ~>O@Holder share
+r6: commercial =>O@Holder ~share
+r7: consent, certified ~>O@Holder share
+
+superiority:
+  r1>r0, r3>r0, r6>r0, r2>r1, r5>r1,
+  r7>r1, r3>r2, r3>r7, r5>r3, r5>r6,
+  r6>r2, r7>r6, r4>r1, r4>r3, r4>r6
+\end{lstlisting}
+
+Default permission to share (r0); default prohibition for personal data with
+a two-step compensatory chain (r1); consent permits (r2) but revocation
+defeats consent (r3 $>$ r2); anonymization moots even revocation (r5 $>$ r3);
+emergencies create a duty to share that beats every prohibition layer (r4);
+commercial exploitation is separately prohibited (r6) unless the recipient is
+certified \emph{and} consent exists (r7). Breaches of r3/r6 carry no notify
+duty --- only the r1 chain does --- giving the
+violation-without-remedy distinction tested in RQ4. Verdict space: status of
+\texttt{share}; on acted cases additionally \texttt{violation} and
+\texttt{notify\_required}. The 56 coherent latent worlds arise from the
+world-coherence constraints (revocation presupposes a grant; a grant and
+de-identification presuppose person-level content).
+
+\section{Appendix B: Atom Material --- Descriptions and Instance Banks}
+
+Each atom carries: \texttt{open} (the intension; mirrors the statute and
+defines gold), \texttt{closed} (the enumeration; 3--8 categories per atom,
+mean 4.1), \texttt{closed\_items} (Tier-0 instantiations whose IDs are also
+the program arm's lookup), \texttt{tier1}/\texttt{tier2} positive banks, and
+\texttt{negative} hard non-instances (pre-ticked boxes, late revocations,
+reversible pseudonymization). Example, \texttt{personal\_data}: closed lists
+legal names, residential addresses, government IDs, personal emails/phones,
+facial photographs, payment-card numbers, medical-record entries; Tier 1
+contains passport numbers and IBAN codes (unlisted members of listed
+categories); Tier 2 contains gait-signature profiles, keystroke-timing
+profiles, smart-meter occupancy traces, speaker embeddings, scooter-trip
+logs whose endpoints pinpoint riders' homes --- each satisfying the
+``singled out directly or indirectly'' intension while matching no listed
+category. Bank items are (id, phrase) pairs; phrases are the narration
+material and may never echo descriptions (enforced by the leak check,
+Appendix~C). Full banks: \texttt{eval/expA/descriptions.py}.
+
+\section{Appendix C: Generation Pipeline Details}
+
+\textbf{Case grid.} 48 latent assignments $\times$ 3 tiers $\times$ 2
+paraphrase variants $=$ 288 cases (statute B identical: 288 cases, 114
+acted), stratified over the 56 coherent worlds; a separate 288-case
+re-narration in tribunal ruling-FACTS style serves as the genre-leakage
+control. 120 of statute A's cases are ``acted'' (the transfer already
+happened), activating violation/remedy gold.
+\textbf{Narrator isolation.} The narrator (claude-sonnet-4.6) is from a
+third model family disjoint from all four grounder families; it sees the
+instantiated facts, never the gold verdict (backward generation makes
+narrations outcome-free by construction).
+\textbf{Leak check.} A narration is rejected if it contains: any atom name;
+statute vocabulary stems; any 5-gram of any open description; any 5-gram of
+a closed description at Tiers 1--2 (Tier-0 instances echo drafted categories
+by design). One case of 288 was flagged in the headline run and excluded
+($n=287$).
+\textbf{Grounding protocol.} Grounders receive the memo plus seven
+definitions under neutral labels C1..C7 (no atom names, no statute), and
+return a boolean per label; the regimes differ only in definition text.
+Holistic arms receive the full English statute (with open or closed
+definitions) plus the memo and return verdict/violation/remedy.
+\textbf{Pre-registration.} Predictions P1--P5 were committed (git hash
+\texttt{ab71c99}) before any LLM grounding or holistic run; the four Tier-2
+gaps of Table~\ref{tab:gaps} are the confirmatory family.
+\textbf{Cost.} Grounding: $\sim$650--780 output tokens/case for
+OpenAI-family models ($\approx$\$0.002 at gpt-4.1 prices; deepseek emits
+2--3$\times$ the tokens at $\sim$1/10 the unit price); staged per-atom
+grounding is $\sim$4$\times$ dearer; holistic $\sim$870--2{,}270
+tokens/case.
+
+\section{Appendix D: Full Results Tables}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llccc}
+\toprule
+regime & grounder & tier 0 & tier 1 & tier 2 \\
+\midrule
+closed & deepseek-v4-flash & 93.8 & 78.2 & 61.3 \\
+closed & gpt-4.1           & 91.7 & 75.8 & 67.9 \\
+closed & gpt-5.4           & 95.2 & 67.8 & 55.4 \\
+closed & qwen3.6-plus      & 92.6 & 77.4 & 70.5 \\
+open   & deepseek-v4-flash & 77.8 & 76.8 & 76.2 \\
+open   & gpt-4.1           & 86.3 & 85.4 & 84.2 \\
+open   & gpt-5.4           & 80.7 & 76.5 & 80.1 \\
+open   & qwen3.6-plus      & 84.1 & 81.8 & 83.6 \\
+open$^{r}$ & gpt-5.4       & 82.1 & 81.7 & 81.8 \\
+\midrule
+program & ---              & 100.0 & 49.8 & 50.0 \\
+oracle  & ---              & 100.0 & 100.0 & 100.0 \\
+\bottomrule
+\end{tabular}
+\caption{Atom-level accuracy (\%) by regime $\times$ tier ($n=287$ cases,
+7 atoms each). open$^{r}$ = open with the two evidentiary redrafts (RQ3).}
+\label{tab:atomfull}
+\end{table}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcc|cc}
+\toprule
+ & \multicolumn{2}{c|}{closed recall (T0/T2)} &
+   \multicolumn{2}{c}{open recall (T0/T2)} \\
+atom & T0 & T2 & T0 & T2 \\
+\midrule
+certified      & 100.0 & 1.0  & 82.0 & 59.5 \\
+personal\_data & 74.1  & 17.2 & 61.2 & 67.8 \\
+consent        & 91.8  & 22.6 & 65.9 & 85.6 \\
+commercial     & 94.0  & 38.0 & 100.0 & 99.5 \\
+anonymized     & 91.9  & 45.0 & 45.0 & 38.8 \\
+emergency      & 93.1  & 50.0 & 47.5 & 38.1 \\
+revoked        & 99.1  & 75.0 & 84.8 & 69.6 \\
+\bottomrule
+\end{tabular}
+\caption{True-atom recall (\%) per atom, pooled over the four grounders,
+Tiers 0 and 2. Top rows: artifact-type atoms (closed collapses); bottom
+rows: scenario-type (closed generalizes by gist) and epistemic-bar atoms
+(\texttt{anonymized}, \texttt{emergency}: open is depressed by unverifiable
+intensions; repaired by evidentiary redrafts, RQ3).}
+\label{tab:peratom}
+\end{table}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llccc}
+\toprule
+arm & model & tier 0 & tier 1 & tier 2 \\
+\midrule
+program  & ---     & 100.0 & 34.7 & 35.4 \\
+holistic & gpt-5.4 & 83.3 & 72.6 & 75.0 \\
+holistic & qwen3.6-plus & 86.5 & 71.6 & 78.1 \\
+ground\_open & gpt-5.4 & 41.7 & 37.9 & 43.8 \\
+ground\_open & qwen3.6-plus & 72.9 & 64.2 & 69.8 \\
+ground\_closed & gpt-4.1 & 88.5 & 78.9 & 70.8 \\
+hol.\_closed & gpt-5.4 & 92.7 & 73.7 & 62.5 \\
+\bottomrule
+\end{tabular}
+\caption{Selected verdict accuracy (\%) by arm $\times$ tier (majority-class
+baseline at Tier 2: 41.7\%). The conversion tax of RQ4: strong models'
+holistic verdicts beat their own naively grounded pipelines, while
+holistic\_closed decays like grounded closed --- texture, not pipeline,
+drives generalization. Full verdict, flip-rate, violation/remedy and token
+tables: \texttt{eval/expA/RESULTS\_stage2.md}.}
+\label{tab:verdict}
+\end{table}
+
+\section{Appendix E: Independent Bank Validation}
+
+To bound the gold-by-intension circularity, two annotator models from
+non-narrator families (gpt-5.4, qwen3.6-plus) judged every positive bank
+item's membership against the open description, standalone and blind to
+tier. Agreement with the author's labels: 84/90 and 87/90. All nine
+disagreements are strict-reader \emph{false negatives} (``an ISO certificate
+does not by itself demonstrate an enforceable regime''), seven of them on the
+epistemic-bar atoms \texttt{certified}/\texttt{anonymized}, one on a
+\emph{closed-list} \texttt{consent} item, and one Tier-2 \texttt{revoked}
+item (the erasure request) --- flagged for adjudication rather than silently
+kept. No disagreement touches a Tier-2 item of the artifact-type atoms that
+drive the headline gap. The contested boundary is where the paper says it
+is. Artifacts: \texttt{eval/expA/validate\_banks.py},
+\texttt{bank\_validation.jsonl}.
+
+\section{Appendix F: The Audit Loop and Disclosed Interventions}
+
+Three world-model defects were caught between pilot and headline run, each
+with the signature \emph{grounder right, gold wrong}: (i) an ``anonymization
+done badly'' distractor attached to a non-personal dataset made the narrator
+imply quasi-identifiers gold denied; (ii) urgency items narrated as separate
+requests correctly failed the open definition's necessity test --- emergency
+banks were re-bound to the requested dataset; (iii) grounders inferred
+personhood from consent evidence, exposing a missing world constraint (a
+grant presupposes a data subject). Each was fixed in the generator and the
+affected cases regenerated before the headline run.
+
+One generation-time intervention is asymmetric and disclosed:
+\texttt{anonymized} items are injected with explicit derivation framing
+(``what leaves the holder is a transformed product derived from those
+records''), because the narrator's keep-datasets-distinct rule otherwise
+renders the transformation as a separate dataset, which grounders rightly
+deny. Without the framing, open-regime anonymized recall is 12--13\%
+(pilot); with it, 39--47\% (Stage 2). We read this as fixing narration
+fidelity to the latent world, not tuning toward the thesis --- but the lever
+exists and was applied to one atom only.
+
+Pilot-stage repair experiments (archived with the pilot artifacts):
+precedent accretion on the closed side --- appending decided Tier-2
+instances from half the Tier-2 cases --- repaired 18/22 previously-missed
+true atoms on held-out cases with 2 new breaks and zero Tier-0/1 verdict
+regressions; evidentiary redrafting on the open side lifted deepseek
+verdict accuracy 58$\to$75 (Tier 0). Both are one-line description edits
+with measured blast radius: the maintenance operation the factorization
+enables and a holistic judge lacks.
+
+\section{Appendix G: The Commons Statute (Statute B)}
+
+\paragraph{Statute.} Agents draw compute from a shared pool. Rules
+(bearer \texttt{@Drawer}; structure isomorphic to Appendix~A):
+\texttt{r0}: draws permitted by default; \texttt{r1}:
+\texttt{over\_quota} $\Rightarrow$ $O\neg draw \otimes report \otimes
+restore$ (over-entitlement draws forbidden, with a file-report-then-restore
+compensation chain); \texttt{r2}: \texttt{allocation\_granted} permits;
+\texttt{r3}: \texttt{grant\_suspended} re-prohibits (defeats r2);
+\texttt{r4}: \texttt{essential\_workload} creates a duty to draw (beats all
+prohibitions); \texttt{r5}: \texttt{offset\_posted} permits (moots
+suspension and contention); \texttt{r6}: \texttt{contention} prohibits;
+\texttt{r7}: \texttt{allocation\_granted} $\wedge$
+\texttt{priority\_certified} permits during contention. Same 15-pair
+superiority pattern as statute A. World coherence: a suspension presupposes
+a grant; a grant or an offset presupposes an over-entitlement draw (56
+coherent worlds; verdict mix identical to statute A by isomorphism:
+120/102/66).
+
+\paragraph{Pre-registered texture profile and outcome.} Stated before any
+LLM run: artifact-type \texttt{over\_quota}, \texttt{allocation\_granted},
+\texttt{priority\_certified} (closed predicted to collapse at Tier 2);
+scenario-type \texttt{grant\_suspended}, \texttt{contention},
+\texttt{essential\_workload} (closed predicted to survive by gist);
+epistemic-bar \texttt{offset\_posted}. Outcome: 5/7 as predicted; the two
+misses (\texttt{contention} 38.0\%, \texttt{essential\_workload} 28.8\%
+closed Tier-2 recall) are both system-state predicates --- see RQ3.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llccc}
+\toprule
+regime & grounder & tier 0 & tier 1 & tier 2 \\
+\midrule
+closed & deepseek-v4-flash & 96.6 & 79.3 & 58.5 \\
+closed & gpt-4.1           & 98.2 & 88.2 & 78.3 \\
+closed & gpt-5.4           & 98.4 & 84.2 & 64.4 \\
+closed & qwen3.6-plus      & 97.0 & 87.2 & 79.9 \\
+open   & deepseek-v4-flash & 79.3 & 75.1 & 74.1 \\
+open   & gpt-4.1           & 87.9 & 86.5 & 89.6 \\
+open   & gpt-5.4           & 87.8 & 82.7 & 82.6 \\
+open   & qwen3.6-plus      & 85.7 & 81.7 & 85.4 \\
+open$^{r}$ & gpt-5.4       & 90.6 & 84.1 & 79.9 \\
+\midrule
+program & ---              & 100.0 & 48.2 & 48.2 \\
+oracle  & ---              & 100.0 & 100.0 & 100.0 \\
+\bottomrule
+\end{tabular}
+\caption{Statute B atom-level accuracy (\%) by regime $\times$ tier ($n=288$
+cases, zero leak-flagged). open$^{r}$ = open with two evidentiary redrafts
+(\texttt{essential\_workload} helped, \texttt{offset\_posted}'s
+example-based redraft hurt Tier 2; RQ3). Verdict, per-atom recall,
+violation/remedy, flip-rate and token tables:
+\texttt{eval/expB/RESULTS.md}.}
+\label{tab:expb}
+\end{table}
+
+\paragraph{Bank validation and the intension-drafting catch.} Two
+non-narrator annotator families judged all 92 bank items against the open
+intensions, standalone: gpt-5.4 87/92, qwen3.6-plus 82/92. One disagreement
+was a genuine gold defect, not annotator literalism: both families held that
+a \emph{lapsed} voucher satisfies ``at some point granted \dots{} an
+entitlement covering this category of draw'' --- correctly, since the
+drafted intension lacked temporal scope. The intension was redrafted
+(``\dots{}that covers this category of draw \emph{and the period of the
+draw}'') before any grounding run; targeted re-validation: 14/14 for the
+strict annotator. The remaining disagreements are strict-reader false
+negatives concentrated on the system-state predicates, anticipating the RQ3
+grounding results. The audit loop thus catches mis-drafted intensions, not
+only world-model bugs --- on this evidence, independent membership
+validation should be a standard pre-run gate for benchmarks whose gold is
+defined by an authored intension.
