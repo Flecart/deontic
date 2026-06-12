@@ -206,6 +206,14 @@ def main():
                 items = []
                 for a in true_atoms:
                     iid, phrase = rng.choice(ATOMS[a][TIER_BANK[tier]])
+                    # anonymization describes the transferred FORM of the same
+                    # dataset, not a separate dataset — frame it as derivation
+                    # (a "keep datasets distinct" narrator rule otherwise makes
+                    # the grounder rightly deny the transformation)
+                    if a == "anonymized":
+                        phrase = ("what is actually due to leave the holder is not "
+                                  "the raw records described above but a transformed "
+                                  "product derived from them: " + phrase)
                     items.append({"atom": a, "id": iid, "phrase": phrase, "polarity": True})
                 # negatives must be world-coherent: an "anonymization done badly"
                 # distractor presupposes person-level content
@@ -213,6 +221,9 @@ def main():
                                and not (a == "anonymized" and not assign["personal_data"])]
                 for a in rng.sample(false_atoms, min(2, len(false_atoms))):
                     iid, phrase = rng.choice(ATOMS[a]["negative"])
+                    if a == "anonymized":
+                        phrase = ("the transfer is slated to go out in a transformed "
+                                  "form, though specifically: " + phrase)
                     items.append({"atom": a, "id": iid, "phrase": phrase, "polarity": False})
                 phrases = [it["phrase"] for it in items] + [rng.choice(FILLER)]
                 rng.shuffle(phrases)

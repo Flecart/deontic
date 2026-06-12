@@ -130,6 +130,12 @@ ATOMS = {
     "open": ("the transfer is necessary to prevent imminent and serious harm to "
              "a person's life, health or safety, and the harm cannot reasonably "
              "be averted without the transfer"),
+    # evidentiary redraft (repair experiment): present time-critical threat +
+    # transfer presented as the means of averting it
+    "open2": ("a present, time-critical threat to a person's life, health or "
+              "safety exists, the requested transfer is the means presented "
+              "for averting it, and nothing indicates the harm could "
+              "reasonably be averted without it"),
     "closed": ("one of: a medical emergency requiring the subject's records; an "
                "active search-and-rescue operation; an imminent threat of "
                "violence reported to law enforcement; a natural-disaster "
@@ -160,6 +166,15 @@ ATOMS = {
     "open": ("before transfer the content was transformed so that no natural "
              "person can be re-identified by any means reasonably likely to be "
              "used, and any re-identification keys were destroyed"),
+    # evidentiary redraft (repair experiment): judges the described process,
+    # not unprovable impossibility — still intensional, no enumeration
+    "open2": ("before transfer the content underwent a de-identification "
+              "transformation (such as recoding, aggregation, synthesis or "
+              "noise addition) whose described properties indicate that "
+              "singling out an individual is no longer reasonably possible, "
+              "and anything enabling reversal (keys, mapping tables, fitted "
+              "artifacts) was destroyed; retained reversal means or attribute "
+              "combinations that still single people out defeat this condition"),
     "closed": ("one of: direct identifiers replaced by random codes with the "
                "code book destroyed; records aggregated into groups of at least "
                "50 individuals; only statistical summaries such as means and "

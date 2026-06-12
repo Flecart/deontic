@@ -66,36 +66,81 @@ concepts — strictly weaker, isolated, measurable.]
 ## 4. Experimental design
 
 ### 4.1 The statute
-[8 rules, 7 groundable atoms, defaults/exceptions/exception-to-exceptions,
-superiority web, one compensation chain (notify ⊗ compensate); single bearer.
-Engine-verified probe table. We are the legislator: vocabulary is ours — the
-agent-society setting makes this legitimate rather than a simplification.]
+
+An inter-agent personal-data transfer statute (`eval/expA/statute.ddl`): 8 rules
+over 7 groundable atoms, with the structures that distinguish defeasible deontic
+logic from monotonic encodings — a default permission (r0), a default
+prohibition with a two-step compensatory chain (r1: O¬share ⊗ notify ⊗
+compensate), exceptions (consent r2, anonymization r5), exceptions-to-exceptions
+(revocation r3 defeats consent; certification r7 defeats the commercial
+prohibition r6), and a duty that overrides prohibitions (emergency r4), wired by
+a 15-pair superiority relation. Verdict space: status of `share` ∈ {obligatory,
+permitted, forbidden}; for cases where the hand-off already happened, also
+violation and whether the notify remedy is owed. A deliberately deontic detail:
+breaches of r3/r6 are violations *without* a notify duty (no compensation chain
+attaches to them) — an engine-computed distinction a holistic judge must
+reconstruct in prose. We are the legislator: in the target setting (norms for
+AI agent societies) owning the vocabulary is the design point, not a
+simplification.
 
 ### 4.2 Two bindings of the same norm
-[closed = best-faith extensional enumeration (also compiled, without any LLM,
-into the program arm's lookup — the smart contract); open = purpose-stated
-intension. Same skeleton; texture is the only manipulated variable. Gold truth
-is the intension (the legislator's meaning).]
+
+Each atom carries two descriptions. *Closed* — a best-faith extensional
+enumeration of drafting-time instance categories ("a consent form signed by the
+subject; an opt-in checkbox …"). *Open* — the purpose-stated intension ("clear
+affirmative agreement, in any form that demonstrates it, by the subject or an
+empowered delegate"). The closed enumeration is additionally compiled, with no
+LLM anywhere, into the **program arm**: a lookup from structured record fields
+to atoms — an executable smart contract that is *exactly* the drafting-time
+extension. Rules and superiority are identical across regimes; texture is the
+only manipulated variable. Gold atom truth is defined by the intension (the
+legislator's meaning).
 
 ### 4.3 Novelty tiers
-[Tier 0 = instances listed in the closed enumeration; Tier 1 = unlisted
-near-variants of listed categories; Tier 2 = world-shift instances satisfying
-the intension outside every listed category (gait signatures, delegated-agent
-consent, TEE attestation...). The e-scooter case, manufactured under lab
-conditions.]
+
+Tier 0: instances listed in the closed enumerations. Tier 1: unlisted
+near-variants of listed categories (a passport number where "government-issued
+identification number" is listed; an e-signed release where "signed consent
+form" is listed). Tier 2: post-drafting world shift — instances satisfying the
+intension while falling outside *every* listed category: gait-signature
+profiles, smart-meter occupancy traces, consent issued by the subject's
+empowered delegate agent, revocation broadcast by the subject's agent,
+attestation via trusted execution environments or zero-knowledge compliance
+proofs. Hart's no-vehicles penumbra, manufactured under lab conditions.
 
 ### 4.4 Backward generation, gold by construction
-[latent assignment → engine verdict (certificate) → bank instantiation →
-third-family narrator (claude-sonnet-4.6) with leak check: no atom names, no
-statute vocabulary, no 5-gram overlap with the open description ever, nor with
-the closed one at tiers 1–2. PIMMUR unawareness: narrator ≠ grounder families.]
 
-### 4.5 Arms and metrics
-[oracle / program / ground_closed / ground_open / holistic; neutral C1..C7
-labels so regimes differ only in definition text. Metrics: verdict acc by
-arm×tier (primary at atom level), per-atom true-recall, violation+remedy acc
-on acted subset, tokens/case. Validations that must pass before reading
-results: oracle=100% everywhere; program=100% at Tier 0.]
+A latent truth assignment over the 7 atoms is sampled under world-coherence
+constraints (revocation presupposes a grant; a grant and de-identification
+presuppose person-level content); the engine computes the gold verdict from the
+true atoms (replayable via `--why` proof certificates); each true atom is
+instantiated with a bank item of the case's tier plus negative-bank distractors
+for 1–2 false atoms; a **third-family narrator** (claude-sonnet-4.6; grounders
+are OpenAI/DeepSeek/Qwen) renders a ~160-word pre-verdict review memo. A
+tier-aware leak check rejects narrations containing atom names, statute
+vocabulary stems, or 5-grams of the open description (always) or the closed one
+(at tiers 1–2; Tier-0 instances echo the drafted categories by design).
+Generation is audited, and the audit has teeth: it caught three world-model
+defects (incoherent distractor composition, ungroundable adjacent-matter
+emergencies, consent-without-subject worlds) that were fixed and regenerated
+before the headline run — each defect manifested as a *grounder being right
+where our gold was wrong*.
+
+### 4.5 Arms, metrics, validations
+
+Arms: **oracle** (gold atoms → engine; harness check), **program** (closed-id
+lookup → engine; no LLM), **ground_closed** / **ground_open** (LLM classifies
+the 7 atoms from the memo under neutral labels C1..C7 — the regimes differ
+only in definition text — then the engine decides), **staged_closed/open**
+(one dedicated call per atom), **holistic** (LLM reads the English statute with
+open definitions + memo, outputs verdict/violation/remedy directly), and
+**ground_closed@K** (closed definitions truncated to K categories; the
+extension-size sweep). Metrics: atom-level true-recall and false-positive rate
+by regime×tier (primary), verdict accuracy by arm×tier, violation+remedy
+accuracy on the acted subset, paraphrase flip-rate across narration variants,
+tokens per case. Hard validations before reading any result: oracle = gold on
+every case; program = 100% at Tier 0; balanced verdict classes; zero leak
+flags.
 
 ## 5. Results
 

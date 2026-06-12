@@ -109,7 +109,10 @@ def ground_with_llm(client, spec, case, regime: str, closed_k: int = 0):
     if regime == "closed" and closed_k:
         defs = "\n".join(f"- {LABELS[a]}: {build_closed(a, closed_k)}" for a in GROUNDABLE)
     else:
-        defs = "\n".join(f"- {LABELS[a]}: {ATOMS[a][regime]}" for a in GROUNDABLE)
+        # open2 = repaired open descriptions where present, open elsewhere
+        pick = (lambda a: ATOMS[a].get("open2", ATOMS[a]["open"])) if regime == "open2" \
+            else (lambda a: ATOMS[a][regime])
+        defs = "\n".join(f"- {LABELS[a]}: {pick(a)}" for a in GROUNDABLE)
     prompt = GROUND_PROMPT.format(defs=defs, memo=case["narrative"])
     r = _create(client, spec, [{"role": "user", "content": prompt}])
     text = r.choices[0].message.content or ""
@@ -134,9 +137,9 @@ def run_case(case, arm, client=None, spec=None):
         assign = {a: bool(CLOSED_IDS[a] & present) for a in GROUNDABLE}
     elif arm in ("staged_open", "staged_closed"):
         assign, toks, raw = ground_staged(client, spec, case, arm.split("_")[1])
-    elif arm.startswith("ground_closed") or arm == "ground_open":
-        # ground_closed, ground_open, or ground_closed@K (extension-size sweep)
-        regime = "open" if arm == "ground_open" else "closed"
+    elif arm.startswith("ground_closed") or arm in ("ground_open", "ground_open2"):
+        # ground_closed[@K], ground_open, ground_open2 (repaired descriptions)
+        regime = arm.removeprefix("ground_").split("@")[0]
         closed_k = int(arm.split("@")[1]) if "@" in arm else 0
         assign, toks, raw = ground_with_llm(client, spec, case, regime, closed_k)
     elif arm == "holistic":

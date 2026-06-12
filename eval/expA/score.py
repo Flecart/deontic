@@ -96,6 +96,27 @@ def main():
         v, nt, n = vacc[k]
         print(f"| {k} | {pct(v, n)} | {pct(nt, n)} | {n} |")
 
+    # 3b. paraphrase flip-rate: same (assignment, tier), different narration
+    groups = defaultdict(list)
+    for r in rows:
+        base, tv = r["case_id"].rsplit("_t", 1)   # aNNN, "T_vV"
+        tier = tv.split("_v")[0]
+        key = (r["arm"], r["model"], base, tier)
+        groups[key].append(r["pred_verdict"]["share_status"])
+    multi = {k: v for k, v in groups.items() if len(v) >= 2}
+    if multi:
+        print("\n## Paraphrase flip-rate (lower = more consistent)\n")
+        flips = defaultdict(lambda: [0, 0])
+        for (arm, model, _b, _t), preds in multi.items():
+            key = f"{arm}[{model}]" if model != "-" else arm
+            flips[key][1] += 1
+            flips[key][0] += int(len(set(preds)) > 1)
+        print("| arm | flip-rate | groups |")
+        print("|---|---|---|")
+        for k in sorted(flips):
+            f, n = flips[k]
+            print(f"| {k} | {pct(f, n)} | {n} |")
+
     # 4. cost
     print("\n## Mean tokens per case (LLM arms)\n")
     tok = defaultdict(lambda: [0, 0])
