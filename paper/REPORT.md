@@ -36,10 +36,11 @@ second-order findings sharpen the thesis: extension-size sweeps show drafting
 effort buys in-distribution accuracy but essentially zero OOD coverage; the
 strongest reasoning model widens the rules-vs-standards gap (literalism makes
 enumerations more brittle, and makes unverifiable intensions ungroundable —
-repaired measurably by local evidentiary redrafts); and across all 6,396
-grounded-arm evaluation rows the deduction layer is exact by construction —
-every error is a grounding error — with the formal layer contributing zero
-paraphrase variance (program/oracle flip-rate 0% vs 21–35% for all LLM arms). We report honestly
+repaired measurably by local evidentiary redrafts); and in every
+engine-mediated arm of every run the deduction layer is exact by
+construction — every error is a grounding error — with the formal layer
+contributing zero paraphrase variance (program/oracle flip-rate 0% vs 21–35%
+for all LLM arms). We report honestly
 where the bill lands: converting flat atom-level accuracy into verdicts pays
 a compounding tax that naive staged grounding does not fix, so strong models'
 holistic judgments currently beat their own naive grounded pipelines at the
@@ -109,10 +110,10 @@ demand, isolated by the architecture, and measurable per-atom. To be precise
 about what is invariant versus what is measured: that no grounded-arm error
 is a deduction error is an *architectural guarantee* (the engine is
 deterministic and verified; the oracle arm asserting engine = gold on every
-case — 576 oracle rows across all runs — confirms the harness), not an
-empirical discovery. What the experiments measure is the grounding layer
-that this guarantee isolates; the claim does not range over the holistic
-arms, which bypass the engine.
+case confirms the harness; counting rule: rows with `arm == "oracle"` across
+`eval/expA/results_*.jsonl` — 576 rows), not an empirical discovery. What
+the experiments measure is the grounding layer that this guarantee isolates;
+the claim does not range over the holistic arms, which bypass the engine.
 
 ## 3. Related work
 
@@ -259,11 +260,14 @@ gives:
 
 ### 5.1 The generalization curve (P1, P2 — confirmed)
 
-Atom-level accuracy (all 7 atoms × 24 cases per tier):
+Atom-level accuracy (all 7 atoms × 24 cases per tier; the program's false
+atoms remain trivially correct, so its atom row floors at ~50% while its
+true-atom recall is exactly 100/0/0 and its *verdict* accuracy collapses to
+the 33% base rate):
 
 | binding | tier 0 | tier 1 | tier 2 | Δ(0→2) |
 |---|---|---|---|---|
-| program (no LLM) | 100% | 33% | 33% | −67 |
+| program (no LLM) | 100% | 50.6% | 50.6% | −49.4 |
 | closed + gpt-4.1 | 93.5% | 78.6% | 71.4% | −22.1 |
 | closed + deepseek | 95.2% | 73.8% | 61.9% | −33.3 |
 | **open + gpt-4.1** | **88.7%** | **89.3%** | **86.3%** | **−2.4** |
@@ -272,9 +276,9 @@ Atom-level accuracy (all 7 atoms × 24 cases per tier):
 The Kaplow crossover is exactly where theory puts it: enumeration wins
 in-distribution (closed > open at Tier 0 by ~5–11 points), the intension wins
 out-of-distribution (open > closed at Tier 2 by ~15–19 points), and the
-no-LLM program — the smart contract — collapses to base rate the moment any
-instance is unlisted, by pure under-inclusion (true-atom recall 0%). Both
-model families replicate the pattern.
+no-LLM program — the smart contract — fails by pure under-inclusion the
+moment any instance is unlisted: true-atom recall 0%, *verdict* accuracy at
+the 33% base rate. Both model families replicate the pattern.
 
 ### 5.2 Where errors land matters more than how many (the verdict layer)
 
@@ -469,11 +473,15 @@ lever exists, and that it was applied to one atom only.
   membership against the open description, standalone and blind to tier;
   agreement with the author's labels is 84/90 (gpt-5.4) and 87/90
   (qwen3.6-plus). All nine disagreements are strict-reader *false negatives*
-  concentrated on `certified`/`anonymized` ("an ISO certificate does not by
-  itself demonstrate an enforceable regime") — the same epistemic-bar
-  literalism documented in §5.2/§5.5 — and none concerns the Tier-2 items of
-  the atoms driving the headline gap. The banks are not idiosyncratic; the
-  contested boundary is exactly where the paper says it is.
+  ("an ISO certificate does not by itself demonstrate an enforceable
+  regime"), spanning four atoms — six on `certified`/`anonymized`, plus one
+  each on `consent` (a closed-list item) and `revoked` (one Tier-2 item, the
+  erasure request) — the same epistemic-bar literalism documented in
+  §5.2/§5.5. No disagreement touches a Tier-2 item of the *artifact-type*
+  atoms that drive the headline gap (`revoked` is scenario-type and shows
+  little closed-open gap). The banks are not idiosyncratic; the contested
+  boundary is where the paper says it is, and the one contested Tier-2 item
+  is flagged for adjudication rather than silently kept.
 - **Strawman risk (closed baseline).** The closed enumerations were authored
   as best-faith operationalizations, and the data shows they are not straw:
   closed beats open at Tier 0 and its scenario-type categories generalize to
@@ -520,3 +528,15 @@ points at its own remedy — the engine knows each case's flip set, burdens of
 proof are defeasible-logic natives, and atom-level precedent caching converts
 interpretation into accreting case law — and that, not predicate
 interpretation, is where the engineering frontier now sits.
+
+---
+
+*Review history.* This report went through two rounds of adversarial review
+by a Claude Opus 4.8 reviewer with artifact access (round 1: major revision —
+10 major / 7 minor issues; round 2, after revision: minor revision, with all
+recomputable quantities independently reproduced from the artifacts). The
+round-2 conditions (a metric-mislabel in the §5.1 table, two prose
+precision fixes) are applied in this version. Both review transcripts'
+findings are reflected in §§5, 7, 8; the experiments added in response are
+`validate_banks.py` (M1), `results_stage2_holclosed.jsonl` (M10), and the
+clustered-bootstrap CIs (M4).
