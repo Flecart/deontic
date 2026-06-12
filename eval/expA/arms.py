@@ -142,8 +142,9 @@ def run_case(case, arm, client=None, spec=None):
         regime = arm.removeprefix("ground_").split("@")[0]
         closed_k = int(arm.split("@")[1]) if "@" in arm else 0
         assign, toks, raw = ground_with_llm(client, spec, case, regime, closed_k)
-    elif arm == "holistic":
-        prompt = HOLISTIC_PROMPT.format(statute=english_statute("open"),
+    elif arm in ("holistic", "holistic_closed"):
+        regime = "closed" if arm == "holistic_closed" else "open"
+        prompt = HOLISTIC_PROMPT.format(statute=english_statute(regime),
                                         memo=case["narrative"])
         r = _create(client, spec, [{"role": "user", "content": prompt}])
         raw = r.choices[0].message.content or ""
@@ -184,7 +185,7 @@ def main():
     out = open(args.out, "w")
     n = 0
     for arm in arms:
-        llm_arm = arm.startswith(("ground_", "staged_")) or arm == "holistic"
+        llm_arm = arm.startswith(("ground_", "staged_", "holistic"))
         for mname in (model_names if llm_arm else ["-"]):
             client = spec = None
             if llm_arm:

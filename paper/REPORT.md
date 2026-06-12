@@ -27,14 +27,19 @@ Across four grounder families: the program collapses from 100% to base rate
 the moment an instance is unlisted (true-atom recall 100→0); closed
 descriptions fall 8–40 points across novelty tiers; open descriptions stay
 flat (e.g. 88.7→84.2 for gpt-4.1) and beat closed at Tier 2 for every family
-(+13 to +25 points), at an interpretation cost of ~$0.002 per case. Three
+(+13 to +25 points, all bootstrap CIs clear of zero by ≥10), at an
+interpretation cost of ~$0.002 per case. The effect is concentrated where
+open texture theory puts it: artifact-type predicates whose novel instances
+are categorically unlike any listed item; scenario-type enumerations
+(emergencies, withdrawals) generalize by gist and show little gap. Three
 second-order findings sharpen the thesis: extension-size sweeps show drafting
 effort buys in-distribution accuracy but essentially zero OOD coverage; the
 strongest reasoning model widens the rules-vs-standards gap (literalism makes
 enumerations more brittle, and makes unverifiable intensions ungroundable —
-repaired measurably by local evidentiary redrafts); and every verdict error
-in ~6,000 evaluation rows is a grounding error, none a deduction error, with
-the formal layer contributing zero paraphrase variance. We report honestly
+repaired measurably by local evidentiary redrafts); and across all 6,396
+grounded-arm evaluation rows the deduction layer is exact by construction —
+every error is a grounding error — with the formal layer contributing zero
+paraphrase variance (program/oracle flip-rate 0% vs 21–35% for all LLM arms). We report honestly
 where the bill lands: converting flat atom-level accuracy into verdicts pays
 a compounding tax that naive staged grounding does not fix, so strong models'
 holistic judgments currently beat their own naive grounded pipelines at the
@@ -100,15 +105,21 @@ The architecture splits the norm at the joint Hart identified — between its
 This resolves the conditional that makes "let an LLM interpret the law" sound
 reckless. We do not need LLMs to *judge cases* — weigh, balance, decide. We
 need them to *classify instances under described concepts*: a strictly weaker
-demand, isolated by the architecture, and measurable per-atom. The experiment
-below measures exactly that, with the deduction layer held provably fixed
-(every verdict error in 864 evaluation rows is a grounding error; zero are
-deduction errors).
+demand, isolated by the architecture, and measurable per-atom. To be precise
+about what is invariant versus what is measured: that no grounded-arm error
+is a deduction error is an *architectural guarantee* (the engine is
+deterministic and verified; the oracle arm asserting engine = gold on every
+case — 576 oracle rows across all runs — confirms the harness), not an
+empirical discovery. What the experiments measure is the grounding layer
+that this guarantee isolates; the claim does not range over the holistic
+arms, which bypass the engine.
 
 ## 3. Related work
 
 The gap this work occupies is easiest to state per cluster (full survey with
-links: `docs/RELATED.md`).
+links: `docs/RELATED.md`; the survey is single-pass from abstracts — all
+quotes and the 2026-dated arXiv identifiers must be re-verified before any
+camera-ready, as its preamble already states).
 
 **LLM + formal-engine pipelines.** The shape "LLM grounds facts, solver
 decides" now exists in several monotonic variants on human tax law: LLM+Prolog
@@ -226,15 +237,25 @@ extension-size sweep). Metrics: atom-level true-recall and false-positive rate
 by regime×tier (primary), verdict accuracy by arm×tier, violation+remedy
 accuracy on the acted subset, paraphrase flip-rate across narration variants,
 tokens per case. Hard validations before reading any result: oracle = gold on
-every case; program = 100% at Tier 0; balanced verdict classes; zero leak
-flags.
+every case; program = 100% at Tier 0; zero *lexical* leak flags (the n-gram
+check cannot rule out paraphrastic leakage — a limitation, not a guarantee).
+Verdict classes are balanced in the pilot (24/24/24); at Stage 2 the
+world-coherence constraints cap the forbidden class (120 obligatory / 102
+permitted / 66 forbidden), so Stage-2 verdict numbers are reported with the
+majority-class baseline alongside (41.7% at Tier 2) and the headline claims
+stay at the atom level, which is unaffected by verdict-class priors.
 
 ## 5. Results
 
-Predictions P1–P5 were registered before any LLM run (git history). The
-micro-pilot (Stage 1c: 72 cases × 12 arms/models = 864 rows, zero parse
-errors; all validations green — oracle 100% everywhere, program 100% at Tier
-0 with true-atom recall exactly 100/0/0) gives:
+Predictions P1–P5 were committed in this report's skeleton at `ab71c99`
+(00:46), before any LLM grounding or holistic run (the Stage-0 stub
+validation and the scenario-narration job were the only things that preceded
+it; the first grounding results were committed at `7883fce`). Each results
+subsection below names its backing artifact. The micro-pilot (Stage 1c:
+`RESULTS_stage1c.md` / `results_stage1c.jsonl`; 72 cases × 12 arms/models =
+864 rows, zero parse errors; oracle 100% everywhere, program 100% at Tier 0
+with true-atom recall exactly 100/0/0, verdict classes balanced 24/24/24)
+gives:
 
 ### 5.1 The generalization curve (P1, P2 — confirmed)
 
@@ -311,16 +332,25 @@ radius — the operation a holistic judge does not possess.
 
 ### 5.5 The main run: four model families, 288 paired cases
 
-The headline replicates at scale (287 memo cases after leak exclusion; oracle
-exact on all; program 100 / 34.7 / 35.4). Tier-2 atom-level accuracy, by
-grounder:
+Backing artifacts: `RESULTS_stage2.md` / `results_stage2_main.jsonl` (4,032
+rows; leak-excluded population of 287 cases for all numbers in this section).
+The headline replicates at scale (oracle exact on all; program 100 / 34.7 /
+35.4). Tier-2 atom-level accuracy by grounder, with the open−closed gap and
+its 95% CI from a 2,000-resample case-clustered bootstrap:
 
-| grounder | closed | open | gap |
+| grounder | closed | open | gap [95% CI] |
 |---|---|---|---|
-| deepseek-v4-flash | 61.3% | 76.2% | +14.9 |
-| gpt-4.1 | 67.9% | 84.2% | +16.3 |
-| qwen3.6-plus | 70.5% | 83.6% | +13.1 |
-| gpt-5.4 | 55.4% | 80.1% | +24.7 |
+| deepseek-v4-flash | 61.3% | 76.2% | +14.9 [+11.2, +18.6] |
+| gpt-4.1 | 67.9% | 84.2% | +16.3 [+12.6, +19.8] |
+| qwen3.6-plus | 70.5% | 83.6% | +13.1 [+10.1, +16.2] |
+| gpt-5.4 | 55.4% | 80.1% | +24.6 [+20.7, +28.6] |
+
+Every interval is clear of zero by ≥10 points. (These four gaps are the
+confirmatory comparisons; per-atom splits and the findings below are
+exploratory and presented as such.) Per §5.2, the gap is concentrated in
+artifact-type atoms; for scenario-type atoms (emergency, revoked) closed
+enumerations generalize by gist, so the headline should be read as the
+*average* of a strong artifact-type effect and a weak scenario-type one.
 
 Open beats closed at Tier 2 for **every** family, and the open curves are flat
 across tiers for every family (e.g. gpt-4.1: 88.7/87.7/84.2;
@@ -336,10 +366,18 @@ evidentiary redrafting lifts these to 22%/39% and flattens its atom curve at
 82% — repair is iterative, local, and measurable, but necessity-style
 intensions remain hard for literalist graders.
 
+**The texture effect is pipeline-independent.** A holistic arm given the
+*closed* definitions (`results_stage2_holclosed.jsonl`) decays across tiers
+exactly like the grounded closed arm — gpt-5.4: 93/73/62, qwen: 90/75/68 —
+while the same models' open-definitions holistic holds at Tier 2 (75, 78).
+The rules-vs-standards crossover is a property of how the norm binds its
+concepts, not of whether an engine or an LLM applies the structure.
+
 **The verdict layer is the honest tax.** At Stage 2 scale the two strongest
 models do *better* reading the whole English statute holistically than
-through naive batched grounding (gpt-5.4: 83/73/75 holistic vs 42/38/44
-grounded-open; qwen: 87/72/78 vs 73/64/70). The pilot's "factorization costs
+through naive batched grounding of the same open definitions (gpt-5.4:
+83/73/75 holistic vs 42/38/44 grounded-open; qwen: 87/72/78 vs 73/64/70;
+Tier-2 majority-class baseline 41.7%). The pilot's "factorization costs
 nothing" does not survive scale at the verdict layer: compounding (~0.84^k)
 plus flip-set placement currently prices the factorization's auditability at
 some verdict accuracy for strong models. The conversion layer — engine-guided
@@ -378,10 +416,12 @@ Kaplow's trade-off, measured on the same statute:
   e-scooter, because Tier-2 instances are outside the listed *categories*,
   not merely the listed instances.
 - **Ex-post (interpretation) cost is collapsed.** Deferred binding costs
-  ~650–780 tokens per case per grounder (≈ $0.002 at gpt-4.1 prices,
-  ≈ $0.0002 at deepseek prices) and ~2 seconds. The interpreter whose absence
-  made open texture an obstacle now costs five orders of magnitude less than
-  the institution it replaces at this step (a human determination).
+  ~650–780 tokens per case for the OpenAI-family grounders (≈ $0.002 at
+  gpt-4.1 prices; deepseek emits 2–3× the tokens at ~1/10 the unit price)
+  and ~2 seconds. Headline cost figures in this paper are the gpt-4.1 batched
+  arm; staged grounding is ~4× dearer. However priced, the application-time
+  interpreter whose absence made open texture an obstacle now costs a
+  fraction of a cent per binding.
 
 Where the optimum sits on the rules–standards spectrum is set by these two
 curves; the second one just moved.
@@ -402,8 +442,38 @@ worlds, *grounder–gold disagreement concentrated on one atom is a world-model
 bug detector*. Benchmarks built without this loop ship these bugs as "model
 errors."
 
+One generation-time intervention is asymmetric and must be disclosed: after
+defect (i), `anonymized` items are injected with explicit derivation framing
+("what actually leaves the holder is a transformed product derived from
+those records"), because the narrator's keep-datasets-distinct rule otherwise
+renders the transformation as a separate dataset and grounders rightly deny
+it. The with/without comparison exists across runs: without the framing,
+open-regime anonymized recall is 12–13% (Stage 1c); with it, 39–47% (Stage
+2). We read this as fixing narration fidelity to the latent world, not as
+tuning the benchmark toward the thesis — but the reader should know the
+lever exists, and that it was applied to one atom only.
+
 ## 8. Threats to validity
 
+- **Circularity of gold-by-intension.** The same hand wrote the open
+  intensions, the closed enumerations, and the bank items asserted to satisfy
+  the former and escape the latter — so "open generalizes" could in principle
+  reduce to "the grounder agrees with the author's labels." Two mitigations.
+  First, the conclusion is conditional by design: gold *is* the legislator's
+  intension (in the target setting the institution designer owns the
+  vocabulary), and what is measured is whether an LLM can track a stated
+  intension across novel instances — that, not access to mind-independent
+  truth, is what application-time binding requires. Second, we validated the
+  banks independently (`validate_banks.py`, `bank_validation.jsonl`): two
+  annotator models from non-narrator families judged every bank item's
+  membership against the open description, standalone and blind to tier;
+  agreement with the author's labels is 84/90 (gpt-5.4) and 87/90
+  (qwen3.6-plus). All nine disagreements are strict-reader *false negatives*
+  concentrated on `certified`/`anonymized` ("an ISO certificate does not by
+  itself demonstrate an enforceable regime") — the same epistemic-bar
+  literalism documented in §5.2/§5.5 — and none concerns the Tier-2 items of
+  the atoms driving the headline gap. The banks are not idiosyncratic; the
+  contested boundary is exactly where the paper says it is.
 - **Strawman risk (closed baseline).** The closed enumerations were authored
   as best-faith operationalizations, and the data shows they are not straw:
   closed beats open at Tier 0 and its scenario-type categories generalize to
