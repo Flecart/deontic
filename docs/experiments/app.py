@@ -10,7 +10,8 @@ import json
 import re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import unquote
+import sys
+from urllib.parse import parse_qs, unquote, urlparse
 
 REPO = Path(__file__).resolve().parents[2]
 EXPERIMENT_ROOTS = [
@@ -341,11 +342,57 @@ def list_corpus_runs(exp_id: str) -> list[dict]:
     return rows
 
 
-# ── Experiment A case banks ───────────────────────────────────────────────────
+# ── Experiment A ─────────────────────────────────────────────────────────────
+
+EXPA_GROUNDABLE = [
+    "personal_data", "consent", "revoked", "emergency",
+    "anonymized", "commercial", "certified",
+]
+
+_EXPA_ARMS_MOD = None
+_EXPA_CASE_INDEX: dict[str, dict] | None = None
 
 
 def expa_available() -> bool:
     return EXPA_ROOT.is_dir()
+
+
+def _expa_arms_mod():
+    global _EXPA_ARMS_MOD
+    if _EXPA_ARMS_MOD is None:
+        sys.path.insert(0, str(REPO / "eval" / "expA"))
+        import arms as expa_arms  # noqa: WPS433 — lazy import for prompt reconstruction
+
+        _EXPA_ARMS_MOD = expa_arms
+    return _EXPA_ARMS_MOD
+
+
+def expa_case_index() -> dict[str, dict]:
+    global _EXPA_CASE_INDEX
+    if _EXPA_CASE_INDEX is None:
+        idx: dict[str, dict] = {}
+        for path in EXPA_ROOT.glob("cases_*.jsonl"):
+            for c in load_events(path):
+                idx[c["case_id"]] = c
+        _EXPA_CASE_INDEX = idx
+    return _EXPA_CASE_INDEX
+
+
+def expa_llm_arms() -> list[str]:
+    arms: set[str] = set()
+    for path in EXPA_ROOT.glob("results_*.jsonl"):
+        for line in path.read_text().splitlines():
+            if not line:
+                continue
+            a = json.loads(line)["arm"]
+            if a not in ("oracle", "program"):
+                arms.add(a)
+    if arms:
+        return sorted(arms)
+    return [
+        "ground_closed", "ground_open", "ground_open2",
+        "staged_open", "staged_closed", "holistic", "holistic_closed",
+    ]
 
 
 def assignment_prefix(case_id: str) -> str:
@@ -353,10 +400,61 @@ def assignment_prefix(case_id: str) -> str:
     return parts[0] if parts else case_id
 
 
-def list_expa_banks() -> list[dict]:
+def load_expa_case(bank_name: str, case_id: str) -> dict | None:
+    bank_path = (EXPA_ROOT / bank_name).resolve()
+    if (
+        bank_path.is_file()
+        and bank_path.parent == EXPA_ROOT.resolve()
+        and bank_path.name.startswith("cases_")
+    ):
+        for c in load_events(bank_path):
+            if c.get("case_id") == case_id:
+                return c
+    return expa_case_index().get(case_id)
+
+
+def expa_prompt_calls(bank_name: str, case_id: str, arm: str) -> list[dict]:
+    case = load_expa_case(bank_name, case_id)
+    if case is None:
+        raise KeyError(case_id)
+    return _expa_arms_mod().prompt_calls(case, arm)
+
+
+def expa_calls_from_row(row: dict) -> list[dict]:
+    case = expa_case_index().get(row["case_id"])
+    if case is None:
+        return []
+    try:
+        calls = _expa_arms_mod().prompt_calls(case, row["arm"])
+    except ValueError:
+        return []
+    _expa_arms_mod().attach_replies(calls, row.get("raw", ""))
+    model = row.get("model")
+    secs = row.get("secs")
+    for call in calls:
+        if model and model != "-":
+            call["model"] = model
+        if secs is not None:
+            call["seconds"] = secs
+        call["case"] = row["case_id"]
+    return calls
+
+
+def _expa_assignment_hit(row: dict) -> bool | None:
+    pred, gold = row.get("pred_assignment"), row.get("gold_assignment")
+    if not pred or not gold:
+        return None
+    return all(pred.get(a) == gold.get(a) for a in EXPA_GROUNDABLE)
+
+
+def _expa_verdict_hit(row: dict) -> bool:
+    return row["pred_verdict"]["share_status"] == row["gold"]["share_status"]
+
+
+def list_expa_runs() -> list[dict]:
     if not expa_available():
         return []
-    rows = []
+    rows: list[dict] = []
     for path in sorted(EXPA_ROOT.glob("cases_*.jsonl")):
         cases = load_events(path)
         rows.append(
@@ -365,6 +463,27 @@ def list_expa_banks() -> list[dict]:
                 "mtime": path.stat().st_mtime,
                 "kind": "casebank",
                 "case_count": len(cases),
+            }
+        )
+    for path in sorted(EXPA_ROOT.glob("results_*.jsonl")):
+        n = sum(1 for line in path.read_text().splitlines() if line.strip())
+        arms: set[str] = set()
+        models: set[str] = set()
+        for line in path.read_text().splitlines():
+            if not line:
+                continue
+            r = json.loads(line)
+            arms.add(r["arm"])
+            if r.get("model") and r["model"] != "-":
+                models.add(r["model"])
+        rows.append(
+            {
+                "name": path.name,
+                "mtime": path.stat().st_mtime,
+                "kind": "expa_eval",
+                "model": ", ".join(sorted(models)) if models else None,
+                "arms": sorted(arms),
+                "case_count": n,
             }
         )
     rows.sort(key=lambda r: r["mtime"], reverse=True)
@@ -390,10 +509,13 @@ def summarize_casebank(path: Path) -> dict:
     return {
         "name": path.name,
         "mtime": path.stat().st_mtime,
-        "source": "casebank",
+        "source": "expA",
         "experiment": "expA",
         "kind": "casebank",
-        "meta": {"path": str(path.relative_to(REPO))},
+        "meta": {
+            "path": str(path.relative_to(REPO)),
+            "llm_arms": expa_llm_arms(),
+        },
         "summary": {
             "case_count": len(cases),
             "acted_count": acted,
@@ -402,6 +524,114 @@ def summarize_casebank(path: Path) -> dict:
             "assignment_count": len(assignments),
             "by_tier": {str(k): v for k, v in sorted(by_tier.items())},
             "by_share_status": by_share,
+        },
+        "cases": cases,
+    }
+
+
+def summarize_expa_results(path: Path) -> dict:
+    rows = load_events(path)
+    verdict_ok = 0
+    assign_ok = 0
+    assign_total = 0
+    failure_cases = 0
+    llm_calls = 0
+    prompt_tokens = 0
+    completion_tokens = 0
+    seconds = 0.0
+    by_arm_raw: dict[str, list[dict]] = {}
+    arms_seen: set[str] = set()
+    models_seen: set[str] = set()
+    cases: list[dict] = []
+
+    for row in rows:
+        arm = row["arm"]
+        arms_seen.add(arm)
+        if row.get("model") and row["model"] != "-":
+            models_seen.add(row["model"])
+        by_arm_raw.setdefault(arm, []).append(row)
+
+        vhit = _expa_verdict_hit(row)
+        ahit = _expa_assignment_hit(row)
+        verdict_ok += int(vhit)
+        if ahit is not None:
+            assign_ok += int(ahit)
+            assign_total += 1
+        if not vhit or ahit is False:
+            failure_cases += 1
+
+        calls = expa_calls_from_row(row)
+        llm_calls += len(calls)
+        seconds += row.get("secs") or 0
+        tokens = row.get("tokens") or 0
+        if len(calls) == 1 and tokens:
+            completion_tokens += tokens  # logged as total; approximate split below
+
+        cases.append(
+            {
+                "id": row["case_id"],
+                "arm": arm,
+                "kind": "expa_eval",
+                "tier": row.get("tier"),
+                "acted": row.get("acted"),
+                "model": row.get("model"),
+                "pred": row.get("pred_verdict", {}),
+                "gold": row.get("gold", {}),
+                "pred_assignment": row.get("pred_assignment"),
+                "gold_assignment": row.get("gold_assignment"),
+                "hits": {
+                    "share_status": vhit,
+                    "assignment": ahit,
+                },
+                "facts_agreement": None,
+                "atom_failures": [],
+                "calls": calls,
+                "tokens": tokens,
+                "secs": row.get("secs"),
+            }
+        )
+
+    by_arm: dict[str, dict] = {}
+    for arm, arm_rows in by_arm_raw.items():
+        v_ok = sum(1 for r in arm_rows if _expa_verdict_hit(r))
+        a_scored = [r for r in arm_rows if _expa_assignment_hit(r) is not None]
+        a_ok = sum(1 for r in a_scored if _expa_assignment_hit(r))
+        fails = sum(
+            1 for r in arm_rows
+            if not _expa_verdict_hit(r) or _expa_assignment_hit(r) is False
+        )
+        by_arm[arm] = {
+            "cases": len(arm_rows),
+            "scores": {
+                "share_status": f"{v_ok}/{len(arm_rows)}" if arm_rows else None,
+                "assignment": f"{a_ok}/{len(a_scored)}" if a_scored else None,
+            },
+            "failure_cases": fails,
+        }
+
+    return {
+        "name": path.name,
+        "mtime": path.stat().st_mtime,
+        "source": "expA",
+        "experiment": "expA",
+        "kind": "expa_eval",
+        "meta": {
+            "path": str(path.relative_to(REPO)),
+            "arms": sorted(arms_seen),
+            "models": sorted(models_seen),
+        },
+        "summary": {
+            "llm_calls": llm_calls,
+            "arm_results": len(rows),
+            "prompt_tokens": prompt_tokens,
+            "completion_tokens": completion_tokens,
+            "seconds": round(seconds, 2),
+            "scores": {
+                "share_status": f"{verdict_ok}/{len(rows)}" if rows else None,
+                "assignment": f"{assign_ok}/{assign_total}" if assign_total else None,
+            },
+            "failure_cases": failure_cases,
+            "by_arm": by_arm,
         },
         "cases": cases,
     }
@@ -588,14 +818,14 @@ def summarize_modal_run(path: Path) -> dict:
 
 def discover_sources() -> list[dict]:
     sources = discover_corpus_experiments()
-    if expa_available() and list_expa_banks():
+    if expa_available() and list_expa_runs():
         sources.insert(
             0,
             {
                 "id": "expA",
                 "label": "Experiment A",
                 "type": "casebank",
-                "run_count": len(list_expa_banks()),
+                "run_count": len(list_expa_runs()),
             },
         )
     if modal_available() and list_modal_runs():
@@ -632,10 +862,30 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
 
     def do_GET(self) -> None:
-        path = unquote(self.path.split("?", 1)[0])
+        parsed = urlparse(self.path)
+        path = unquote(parsed.path)
 
         if path == "/api/sources":
             self._send(200, {"sources": discover_sources()})
+            return
+
+        if path == "/api/sources/expA/prompts":
+            qs = parse_qs(parsed.query)
+            bank = qs.get("bank", [""])[0]
+            case_id = qs.get("case", [""])[0]
+            arm = qs.get("arm", ["ground_open"])[0]
+            if not bank or not case_id:
+                self._send(400, {"error": "bank and case query params required"})
+                return
+            try:
+                calls = expa_prompt_calls(bank, case_id, arm)
+            except KeyError:
+                self._send(404, {"error": f"case not found: {case_id}"})
+                return
+            except ValueError as e:
+                self._send(400, {"error": str(e)})
+                return
+            self._send(200, {"bank": bank, "case": case_id, "arm": arm, "calls": calls})
             return
 
         if path.startswith("/api/sources/"):
@@ -645,7 +895,7 @@ class Handler(BaseHTTPRequestHandler):
             if len(parts) == 2 and parts[1] == "runs" and parts[0]:
                 source_id = parts[0]
                 if source_id == "expA":
-                    self._send(200, {"runs": list_expa_banks()})
+                    self._send(200, {"runs": list_expa_runs()})
                     return
                 if source_id == "modal":
                     self._send(200, {"runs": list_modal_runs()})
@@ -659,15 +909,17 @@ class Handler(BaseHTTPRequestHandler):
             if len(parts) == 3 and parts[1] == "runs" and parts[0] and parts[2]:
                 source_id, run_name = parts[0], parts[2]
                 if source_id == "expA":
-                    bank_path = (EXPA_ROOT / run_name).resolve()
-                    if (
-                        not bank_path.is_file()
-                        or bank_path.parent != EXPA_ROOT.resolve()
-                        or not bank_path.name.startswith("cases_")
-                    ):
-                        self._send(404, {"error": f"case bank not found: {run_name}"})
+                    run_path = (EXPA_ROOT / run_name).resolve()
+                    if not run_path.is_file() or run_path.parent != EXPA_ROOT.resolve():
+                        self._send(404, {"error": f"run not found: {run_name}"})
                         return
-                    self._send(200, summarize_casebank(bank_path))
+                    if run_name.startswith("cases_"):
+                        self._send(200, summarize_casebank(run_path))
+                        return
+                    if run_name.startswith("results_"):
+                        self._send(200, summarize_expa_results(run_path))
+                        return
+                    self._send(404, {"error": f"unknown expA run: {run_name}"})
                     return
                 if source_id == "modal":
                     run_path = (MODAL_RESULTS / run_name).resolve()

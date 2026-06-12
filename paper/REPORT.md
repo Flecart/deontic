@@ -83,44 +83,13 @@ verifiable conflict resolution. The contribution of this paper is to show that
 nothing forces that bundle: the norm can be factored so that deferral buys
 generalization while the formal layer keeps verification.
 
-## 2. The factorization
-
-The architecture splits the norm at the joint Hart identified — between its
-*structure* and its *predicates*:
-
-- **The skeleton is formal and closed.** Rules, exceptions,
-  exceptions-to-exceptions, superiority, obligation vs permission vs
-  prohibition, violation versus compensation, directed bearers: all of it is
-  encoded in defeasible deontic logic (Governatori-style proof theory,
-  implemented in Lean 4) and computed deterministically, with replayable proof
-  certificates. LLM discretion cannot touch this layer.
-- **The predicates are open-textured.** Atoms are opaque tokens; each carries
-  a mandatory natural-language description — the atom's *contract*. The LLM's
-  entire role is the penumbra problem in its smallest form: *does this fact
-  situation fall under this described concept?* — a local classification task,
-  the thing LLMs are demonstrably good at. Errors stay local (one atom, one
-  description, one case), auditable (the certificate names exactly which atom
-  assignments drove the verdict), and reparable by editing one description or
-  accreting one precedent — never by retraining or rewriting the system.
-
-This resolves the conditional that makes "let an LLM interpret the law" sound
-reckless. We do not need LLMs to *judge cases* — weigh, balance, decide. We
-need them to *classify instances under described concepts*: a strictly weaker
-demand, isolated by the architecture, and measurable per-atom. To be precise
-about what is invariant versus what is measured: that no grounded-arm error
-is a deduction error is an *architectural guarantee* (the engine is
-deterministic and verified; the oracle arm asserting engine = gold on every
-case confirms the harness; counting rule: rows with `arm == "oracle"` across
-`eval/expA/results_*.jsonl` — 576 rows), not an empirical discovery. What
-the experiments measure is the grounding layer that this guarantee isolates;
-the claim does not range over the holistic arms, which bypass the engine.
-
-## 3. Related work
+## 2. Related work
 
 The gap this work occupies is easiest to state per cluster (full survey with
 links: `docs/RELATED.md`; the survey is single-pass from abstracts — all
 quotes and the 2026-dated arXiv identifiers must be re-verified before any
 camera-ready, as its preamble already states).
+\ANG{personal feedback is that the current related work is very broad, we need to narrow it down, take the legal part, take briefly the formalization and logical attempts, and the AI Society simulation narrative, and mostly drop the rest, I will give more indications.}
 
 **LLM + formal-engine pipelines.** The shape "LLM grounds facts, solver
 decides" now exists in several monotonic variants on human tax law: LLM+Prolog
@@ -162,10 +131,43 @@ human crowds at human speed. We instantiate the missing piece these literatures
 point at from both sides: a verifiable normative layer whose open-textured
 predicates are interpreted by machine at machine speed.
 
+## 3. The factorization
+
+The architecture splits the norm at the joint Hart identified — between its
+*structure* and its *predicates*:
+
+- **The skeleton is formal and closed.** Rules, exceptions,
+  exceptions-to-exceptions, superiority, obligation vs permission vs
+  prohibition, violation versus compensation, directed bearers: all of it is
+  encoded in defeasible deontic logic (Governatori-style proof theory,
+  implemented in Lean 4) and computed deterministically, with replayable proof
+  certificates. LLM discretion cannot touch this layer.
+- **The predicates are open-textured.** Atoms are opaque tokens; each carries
+  a mandatory natural-language description — the atom's *contract*. The LLM's
+  entire role is the penumbra problem in its smallest form: *does this fact
+  situation fall under this described concept?* — a local classification task,
+  the thing LLMs are demonstrably good at. Errors stay local (one atom, one
+  description, one case), auditable (the certificate names exactly which atom
+  assignments drove the verdict), and reparable by editing one description or
+  accreting one precedent — never by retraining or rewriting the system.
+
+This resolves the conditional that makes "let an LLM interpret the law" sound
+reckless. We do not need LLMs to *judge cases* — weigh, balance, decide. We
+need them to *classify instances under described concepts*: a strictly weaker
+demand, isolated by the architecture, and measurable per-atom. To be precise
+about what is invariant versus what is measured: that no grounded-arm error
+is a deduction error is an *architectural guarantee* (the engine is
+deterministic and verified; the oracle arm asserting engine = gold on every
+case confirms the harness; counting rule: rows with `arm == "oracle"` across
+`eval/expA/results_*.jsonl` — 576 rows), not an empirical discovery. What
+the experiments measure is the grounding layer that this guarantee isolates;
+the claim does not range over the holistic arms, which bypass the engine.
+
 ## 4. Experimental design
 
 ### 4.1 The statute
-
+\ANG{move this into an appendix, with also the specific values, and explaining how to understand such language.}
+\ANG{Another critique is that perhaps a single statute is not enough to do everything, we need more variance into this!}
 An inter-agent personal-data transfer statute (`eval/expA/statute.ddl`): 8 rules
 over 7 groundable atoms, with the structures that distinguish defeasible deontic
 logic from monotonic encodings — a default permission (r0), a default
@@ -183,7 +185,7 @@ AI agent societies) owning the vocabulary is the design point, not a
 simplification.
 
 ### 4.2 Two bindings of the same norm
-
+\ANG{You should also cite the extensional and intensional theories of speech-act theory maybe, or soemthing liek that, if you continue with this approach.}
 Each atom carries two descriptions. *Closed* — a best-faith extensional
 enumeration of drafting-time instance categories ("a consent form signed by the
 subject; an opt-in checkbox …"). *Open* — the purpose-stated intension ("clear
@@ -408,7 +410,7 @@ engine computes for free — breach-without-notify-duty for r3/r6 — are
 precisely where holistic prose reasoning slips.
 
 ## 6. The economics figure
-
+\ANG{I think this part is very interesting, and really helpful, you should make a figure for the final paper, and clearly show how ex-ante drafting is not giving you more, you should try to link this with the constitutional AI approach (which is mostly ex-ante drafting of many things, and as a consequence we should try to rely more on ex-post interpretation of the constitution, which is a big finding)}
 Kaplow's trade-off, measured on the same statute:
 
 - **Ex-ante (drafting) cost does not buy OOD coverage.** Truncating the

@@ -13,8 +13,13 @@ interface SidebarProps {
 }
 
 function formatRunLabel(run: RunListItem): string {
-  const stamp = run.name.replace(/^run_/, "").replace(/^cases_/, "").replace(/\.jsonl$/, "");
-  if (run.kind === "casebank") return stamp;
+  const stamp = run.name
+    .replace(/^run_/, "")
+    .replace(/^cases_/, "")
+    .replace(/^results_/, "")
+    .replace(/\.jsonl$/, "");
+  if (run.kind === "casebank") return `cases: ${stamp}`;
+  if (run.kind === "expa_eval") return `results: ${stamp}`;
   if (run.kind === "label") return stamp;
   if (run.kind === "modal") return stamp;
   const arms = run.arms?.join("+") ?? "?";
@@ -90,7 +95,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
                     ? "problems"
                     : run.kind === "casebank"
                       ? "cases"
-                      : "results"}
+                      : run.kind === "expa_eval"
+                        ? "rows"
+                        : "results"}
                 </span>
               </button>
             </li>

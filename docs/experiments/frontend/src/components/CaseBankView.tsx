@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { Card } from "./Card";
 import { MarkdownView } from "./MarkdownView";
-import type { CaseBankDetail, ExpACase } from "../types";
+import { ModelIoView } from "./ModelIoView";
+import type { CaseBankDetail, ExpACase, LlmCall } from "../types";
 
 export interface CaseBankViewProps {
   bank: CaseBankDetail | null;
@@ -32,6 +33,18 @@ export const CaseBankView: React.FC<CaseBankViewProps> = ({ bank }) => {
   const [assignment, setAssignment] = useState<string>("all");
   const [leaky, setLeaky] = useState<"all" | "clean" | "leaky">("all");
   const [activeCaseId, setActiveCaseId] = useState<string | null>(null);
+  const [promptArm, setPromptArm] = useState("ground_open");
+  const [promptCalls, setPromptCalls] = useState<LlmCall[]>([]);
+  const [promptLoading, setPromptLoading] = useState(false);
+  const [activeCallIdx, setActiveCallIdx] = useState(0);
+
+  const llmArms = bank?.meta.llm_arms ?? [
+    "ground_closed",
+    "ground_open",
+    "holistic",
+    "staged_open",
+    "staged_closed",
+  ];
 
   const assignments = useMemo(() => {
     if (!bank) return [];
@@ -67,6 +80,48 @@ export const CaseBankView: React.FC<CaseBankViewProps> = ({ bank }) => {
     () => visibleCases.find((c) => c.case_id === activeCaseId) ?? null,
     [visibleCases, activeCaseId]
   );
+
+  useEffect(() => {
+    if (!llmArms.includes(promptArm)) {
+      setPromptArm(llmArms[0] ?? "ground_open");
+    }
+  }, [llmArms, promptArm]);
+
+  useEffect(() => {
+    setActiveCallIdx(0);
+  }, [activeCaseId, promptArm]);
+
+  useEffect(() => {
+    if (!bank || !selected) {
+      setPromptCalls([]);
+      return;
+    }
+    let cancelled = false;
+    const load = async () => {
+      setPromptLoading(true);
+      try {
+        const params = new URLSearchParams({
+          bank: bank.name,
+          case: selected.case_id,
+          arm: promptArm,
+        });
+        const res = await fetch(`/api/sources/expA/prompts?${params}`);
+        if (!res.ok) throw new Error(`prompt fetch failed (${res.status})`);
+        const data = (await res.json()) as { calls: LlmCall[] };
+        if (!cancelled) setPromptCalls(data.calls ?? []);
+      } catch {
+        if (!cancelled) setPromptCalls([]);
+      } finally {
+        if (!cancelled) setPromptLoading(false);
+      }
+    };
+    void load();
+    return () => {
+      cancelled = true;
+    };
+  }, [bank, selected, promptArm]);
+
+  const selectedCall = promptCalls[activeCallIdx] ?? null;
 
   if (!bank) {
     return (
@@ -341,6 +396,58 @@ export const CaseBankView: React.FC<CaseBankViewProps> = ({ bank }) => {
           </Card.Body>
         </Card>
       </div>
+
+      <Card className="run-view-section model-io-card">
+        <Card.Header>
+          <div className="inspector-header">
+            <div>
+              <h2>LLM prompt preview</h2>
+              <p className="main-subtle">
+                Exact user message(s) reconstructed from <code>arms.py</code> for the
+                selected case and arm.
+              </p>
+            </div>
+            <label className="inspector-call-select">
+              Arm
+              <select value={promptArm} onChange={(e) => setPromptArm(e.target.value)}>
+                {llmArms.map((arm) => (
+                  <option key={arm} value={arm}>
+                    {arm}
+                  </option>
+                ))}
+              </select>
+            </label>
+            {promptCalls.length > 1 ? (
+              <label className="inspector-call-select">
+                LLM call
+                <select
+                  value={activeCallIdx}
+                  onChange={(e) => setActiveCallIdx(Number(e.target.value))}
+                >
+                  {promptCalls.map((call, idx) => (
+                    <option key={idx} value={idx}>
+                      Call {idx + 1}
+                      {call.atom ? ` · ${call.atom}` : ""}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            ) : null}
+          </div>
+        </Card.Header>
+        <Card.Body>
+          {promptLoading ? <p className="main-subtle">Loading prompt…</p> : null}
+          {!promptLoading && selectedCall ? (
+            <ModelIoView call={selectedCall} />
+          ) : null}
+          {!promptLoading && selected && !promptCalls.length ? (
+            <p>
+              Arm <strong>{promptArm}</strong> does not call the model (oracle/program).
+            </p>
+          ) : null}
+          {!selected ? <p>Select a case to preview its LLM prompts.</p> : null}
+        </Card.Body>
+      </Card>
     </div>
   );
 };

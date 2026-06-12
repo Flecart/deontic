@@ -1,9 +1,10 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { CaseBankView } from "./components/CaseBankView";
+import { ExpARunView } from "./components/ExpARunView";
 import { Layout } from "./components/Layout";
 import { RunView } from "./components/RunView";
 import { Sidebar } from "./components/Sidebar";
-import type { CaseBankDetail, RunDetail, RunListItem, Source } from "./types";
+import type { CaseBankDetail, ExpARunDetail, RunDetail, RunListItem, Source } from "./types";
 
 export const App: React.FC = () => {
   const [sources, setSources] = useState<Source[]>([]);
@@ -117,7 +118,9 @@ export const App: React.FC = () => {
 
   const activeSourceMeta = sources.find((s) => s.id === activeSource);
   const sourceLabel = activeSourceMeta?.label ?? "Eval";
-  const isCaseBank = activeSourceMeta?.type === "casebank";
+  const runKind = runDetail?.kind;
+  const isCaseBank = runKind === "casebank";
+  const isExpAEval = runKind === "expa_eval";
 
   const sidebar = (
     <Sidebar
@@ -139,11 +142,16 @@ export const App: React.FC = () => {
   const main = (
     <div className="main">
       <header className="main-header">
-        <h1>{sourceLabel} {isCaseBank ? "Case Viewer" : "Run Viewer"}</h1>
+        <h1>
+          {sourceLabel}{" "}
+          {isCaseBank ? "Case Viewer" : isExpAEval ? "Results Viewer" : "Run Viewer"}
+        </h1>
         <p>
           {isCaseBank
-            ? "Browse generated case banks: filters, gold labels, bank items, and narrative memos."
-            : "Inspect eval runs: per-arm accuracy, failures, and logged model outputs."}
+            ? "Browse case banks: gold labels, bank items, narrative memos, and per-arm LLM prompts."
+            : isExpAEval
+              ? "Inspect arm sweeps: verdict accuracy, failures, and exact LLM prompts plus logged replies."
+              : "Inspect eval runs: per-arm accuracy, failures, and logged model outputs."}
         </p>
         {lastUpdatedAt ? (
           <p className="main-subtle">
@@ -161,7 +169,7 @@ export const App: React.FC = () => {
         </div>
       ) : null}
 
-      {!isCaseBank && runDetail && runDetail.kind !== "label" ? (
+      {!isCaseBank && runDetail && runDetail.kind !== "label" && runDetail.kind !== "casebank" ? (
         <div className="tabs-row">
           <button
             type="button"
@@ -182,6 +190,11 @@ export const App: React.FC = () => {
 
       {isCaseBank ? (
         <CaseBankView bank={runDetail?.kind === "casebank" ? runDetail : null} />
+      ) : isExpAEval ? (
+        <ExpARunView
+          run={runDetail?.kind === "expa_eval" ? (runDetail as ExpARunDetail) : null}
+          failuresOnly={failuresOnly}
+        />
       ) : (
         <RunView run={runDetail?.kind === "casebank" ? null : runDetail} failuresOnly={failuresOnly} />
       )}

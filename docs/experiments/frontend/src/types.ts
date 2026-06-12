@@ -8,7 +8,7 @@ export interface Source {
 export interface RunListItem {
   name: string;
   mtime: number;
-  kind: "eval" | "label" | "modal" | "casebank" | "other";
+  kind: "eval" | "label" | "modal" | "casebank" | "expa_eval" | "other";
   model?: string;
   arms?: string[];
   case_count: number;
@@ -42,10 +42,10 @@ export interface ExpACase {
 export interface CaseBankDetail {
   name: string;
   mtime: number;
-  source: "casebank";
+  source: "expA";
   experiment: string;
   kind: "casebank";
-  meta: Record<string, unknown>;
+  meta: Record<string, unknown> & { llm_arms?: string[] };
   summary: {
     case_count: number;
     acted_count: number;
@@ -95,7 +95,14 @@ export interface ArmScores {
 export interface CaseResult {
   id: string;
   arm: string;
-  kind: "eval" | "label" | "modal";
+  kind: "eval" | "label" | "modal" | "expa_eval";
+  tier?: number;
+  acted?: boolean;
+  model?: string;
+  tokens?: number;
+  secs?: number;
+  pred_assignment?: Record<string, boolean> | null;
+  gold_assignment?: Record<string, boolean>;
   question_type?: string;
   story?: string[];
   question?: string;
@@ -115,9 +122,9 @@ export interface CaseResult {
 export interface RunDetail {
   name: string;
   mtime: number;
-  source: "corpus" | "modal";
+  source: "corpus" | "modal" | "expA";
   experiment: string;
-  kind: "eval" | "label" | "modal";
+  kind: "eval" | "label" | "modal" | "expa_eval";
   meta: Record<string, unknown>;
   summary: {
     llm_calls: number;
@@ -133,3 +140,5 @@ export interface RunDetail {
   };
   cases: CaseResult[];
 }
+
+export type ExpARunDetail = RunDetail & { kind: "expa_eval"; source: "expA" };

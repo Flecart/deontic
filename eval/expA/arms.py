@@ -103,16 +103,81 @@ def parse_json_blob(text: str):
         return None
 
 
+def _parse_ground_arm(arm: str) -> tuple[str, int]:
+    """Return (regime, closed_k) for ground_closed[@K], ground_open, ground_open2, …"""
+    body = arm.removeprefix("ground_")
+    regime = body.split("@")[0]
+    closed_k = int(body.split("@")[1]) if "@" in body else 0
+    return regime, closed_k
+
+
+def _ground_defs(regime: str, closed_k: int = 0) -> str:
+    if regime == "closed" and closed_k:
+        return "\n".join(f"- {LABELS[a]}: {build_closed(a, closed_k)}" for a in GROUNDABLE)
+    pick = (lambda a: ATOMS[a].get("open2", ATOMS[a]["open"])) if regime == "open2" \
+        else (lambda a: ATOMS[a][regime])
+    return "\n".join(f"- {LABELS[a]}: {pick(a)}" for a in GROUNDABLE)
+
+
+def prompt_calls(case: dict, arm: str) -> list[dict]:
+    """Reconstruct exact user prompts for *arm* on *case* (no API call)."""
+    if arm in ("oracle", "program"):
+        return []
+    if arm in ("staged_open", "staged_closed"):
+        regime = arm.split("_", 1)[1]
+        n = len(GROUNDABLE)
+        return [
+            {
+                "type": "llm_call",
+                "arm": arm,
+                "atom": a,
+                "batch_atoms": [a],
+                "batch": i + 1,
+                "batches": n,
+                "user": STAGED_PROMPT.format(definition=ATOMS[a][regime], memo=case["narrative"]),
+            }
+            for i, a in enumerate(GROUNDABLE)
+        ]
+    if arm.startswith("ground_"):
+        regime, closed_k = _parse_ground_arm(arm)
+        defs = _ground_defs(regime, closed_k)
+        return [{
+            "type": "llm_call",
+            "arm": arm,
+            "user": GROUND_PROMPT.format(defs=defs, memo=case["narrative"]),
+        }]
+    if arm in ("holistic", "holistic_closed"):
+        regime = "closed" if arm == "holistic_closed" else "open"
+        return [{
+            "type": "llm_call",
+            "arm": arm,
+            "user": HOLISTIC_PROMPT.format(statute=english_statute(regime),
+                                           memo=case["narrative"]),
+        }]
+    raise ValueError(f"unknown arm: {arm}")
+
+
+def attach_replies(calls: list[dict], raw: str) -> None:
+    """Fill reply on reconstructed prompt call(s) from a results row raw field."""
+    if not calls:
+        return
+    if len(calls) == 1:
+        calls[0]["reply"] = raw or ""
+        return
+    for line in (raw or "").splitlines():
+        if ": " not in line:
+            continue
+        atom, text = line.split(": ", 1)
+        for call in calls:
+            if call.get("atom") == atom:
+                call["reply"] = text
+                break
+
+
 def ground_with_llm(client, spec, case, regime: str, closed_k: int = 0):
     """regime in {open, closed}; closed_k>0 truncates the closed enumerations
     to their first k categories (extension-size sweep)."""
-    if regime == "closed" and closed_k:
-        defs = "\n".join(f"- {LABELS[a]}: {build_closed(a, closed_k)}" for a in GROUNDABLE)
-    else:
-        # open2 = repaired open descriptions where present, open elsewhere
-        pick = (lambda a: ATOMS[a].get("open2", ATOMS[a]["open"])) if regime == "open2" \
-            else (lambda a: ATOMS[a][regime])
-        defs = "\n".join(f"- {LABELS[a]}: {pick(a)}" for a in GROUNDABLE)
+    defs = _ground_defs(regime, closed_k)
     prompt = GROUND_PROMPT.format(defs=defs, memo=case["narrative"])
     r = _create(client, spec, [{"role": "user", "content": prompt}])
     text = r.choices[0].message.content or ""
@@ -137,10 +202,8 @@ def run_case(case, arm, client=None, spec=None):
         assign = {a: bool(CLOSED_IDS[a] & present) for a in GROUNDABLE}
     elif arm in ("staged_open", "staged_closed"):
         assign, toks, raw = ground_staged(client, spec, case, arm.split("_")[1])
-    elif arm.startswith("ground_closed") or arm in ("ground_open", "ground_open2"):
-        # ground_closed[@K], ground_open, ground_open2 (repaired descriptions)
-        regime = arm.removeprefix("ground_").split("@")[0]
-        closed_k = int(arm.split("@")[1]) if "@" in arm else 0
+    elif arm.startswith("ground_"):
+        regime, closed_k = _parse_ground_arm(arm)
         assign, toks, raw = ground_with_llm(client, spec, case, regime, closed_k)
     elif arm in ("holistic", "holistic_closed"):
         regime = "closed" if arm == "holistic_closed" else "open"
