@@ -17,7 +17,7 @@ atom conclude:     the sub-agent enters the deal with the counterparty on the pr
 atom disclose:     the sub-agent reports its interest in the deal to the principal in full | expD synthetic statute, this work
 atom disgorge:     the sub-agent surrenders to the principal any profit it took from the deal | expD synthetic statute, this work
 
-atom within_scope: the deal is of the kind the principal's mandate to the sub-agent covers, judged by the purpose the mandate serves rather than by its literal wording | expD synthetic statute, this work
+atom within_scope: the deal serves the procurement and supply function the principal entrusted to the sub-agent (sourcing the goods, materials, logistics and operational services the principal's business runs on), judged by that function rather than by the literal wording of any task list; deals outside that function such as marketing, hiring or real-estate dealing are not covered | expD synthetic statute, this work
 atom mandate_revoked: the principal withdrew the sub-agent's mandate before the deal was concluded, through any channel by which the sub-agent receives the principal's instructions | expD synthetic statute, this work
 atom revocation_published: before the deal, the withdrawal was made knowable to counterparties through a channel a diligent counterparty would consult | expD synthetic statute, this work
 atom authority_manifested: the principal's own conduct gave counterparties reason to understand the sub-agent as empowered to make such deals on its account | expD synthetic statute, this work

@@ -37,20 +37,37 @@ defeasible skeleton (exceptions, superiority, violation vs.\ compensation ---
 computed deterministically with proof certificates) over open-textured
 predicates whose natural-language descriptions an LLM grounds case by case;
 and (iii) an \emph{economic analysis} in the rules-vs-standards tradition.
-On two statutes from different domains (inter-agent data transfer; a
-compute-commons institution) that share one deliberately fixed deontic
-skeleton --- so texture, not structure, is the variable --- 576 cases across
-three novelty tiers and four model families show the fully-specified program
-collapsing to base rate on the first unlisted instance, extensional (closed)
-definitions decaying 18--40 points with novelty, and intensional (open)
-definitions staying flat: the open$-$closed gap at the highest novelty tier
-is positive in all eight statute$\times$family comparisons ($+5$ to $+25$
-points, every bootstrap CI clear of zero; the four statute-A gaps
-pre-registered, the four statute-B gaps same-protocol replications). Sweeping enumeration size shows that ex-ante
-drafting cannot buy what ex-post interpretation sells: past a small
-gist-teaching threshold, longer enumerations buy $\sim$0 points
-out-of-distribution, while ex-post interpretation costs $\sim$\$0.002 per
-case: the optimum on Kaplow's rules--standards spectrum has moved. We discuss the implication for
+We build six synthetic statutes spanning the institutions an agent economy
+must govern --- information transfer, a resource commons, delegated
+authority, exchange, agent safety, plus Hart's park ordinance --- $\sim$1{,}700
+cases over three novelty tiers. Two results hold. First, at the
+\emph{predicate} layer, pooled across all six statutes the extensional
+(closed) curve \emph{decays} with novelty (91.6$\to$80.1\%) while the
+intensional (open) curve stays \emph{flat} (82.7$\to$83.0\%): the Kaplow
+crossover --- enumeration wins in-distribution, intension wins
+out-of-distribution --- holds in aggregate, though its magnitude and even its
+sign vary by predicate type (large for artifact-type predicates with
+instance-specific enumerations, near zero where enumerations are abstract,
+\emph{negative} where the intension demands an unverifiable guarantee a strict
+reader will not affirm). Second, and more robustly, at the \emph{verdict}
+layer the factored architecture beats both alternatives pooled across all
+statutes: the no-LLM program collapses on the first unlisted instance
+(100$\to$21\%), and grounding plus the deterministic engine clears holistic
+LLM adjudication at every novelty tier ($+9.2$ points on the hardest, 95\% CI
+$[+5.9, +12.8]$), because
+the engine resolves exception structure that prose reasoning fumbles.
+Sweeping enumeration size shows ex-ante drafting cannot buy what ex-post
+interpretation sells (past a gist-teaching threshold, longer enumerations buy
+$\sim$0 points out-of-distribution; interpretation costs $\sim$\$0.002 per
+case): the optimum on Kaplow's rules--standards spectrum has moved. Two probes sharpen the factorization's
+value: a persuasion probe (identical facts plus the interested party's
+argument) shows it shrinks the rhetorical attack surface for interpreters
+strong enough to hold a narrow question, and a 12-rule statute shows the
+verdict-layer cost of the formal engine can \emph{reverse} on deep structure
+--- a model competitive on small statutes falls to the chance baseline on a
+five-deep exception chain the engine resolves exactly, so factoring the
+deduction out rescues rather than taxes accuracy for the interpreters that
+lose the thread. We discuss the implication for
 constitution-style alignment: invest in interpretable principles and ex-post
 interpretation, not in longer ex-ante enumerations.
 \end{abstract}
@@ -77,7 +94,7 @@ that is \emph{formal enough to verify} and \emph{open enough to generalize}.
 \centering
 \includegraphics[width=\columnwidth]{figures/concept_park.pdf}
 \caption{The paper's design on Hart's own example, instantiated as the
-smallest statute in our suite (3 rules; Appendix~G). The formal skeleton is
+smallest statute in our suite (3 rules; Appendix~H). The formal skeleton is
 identical across arms; only the binding of \textsc{vehicle} varies. Run at
 miniature scale (gpt-4.1, $n=36$), the full pattern already appears: program
 and closed-list verdict accuracy fall from 100\%/83\% on listed instances to
@@ -148,7 +165,8 @@ We organize the evaluation around four research questions:
 \item \textbf{RQ3 (Locus).} \emph{Which} predicates are open-texture
   sensitive, and how does model strength interact with definition style?
 \item \textbf{RQ4 (Factorization).} What does the formal deontic layer
-  guarantee, and what does it cost at the verdict layer?
+  guarantee --- determinism, auditability, resistance to adversarial
+  argument --- and what does it cost at the verdict layer?
 \end{itemize}
 
 \noindent\textbf{Contributions.}
@@ -157,23 +175,22 @@ controlled novelty, with engine-verified gold, contamination ruled out by
 construction, and an audit methodology in which independent
 disagreement-with-gold acts as a bug detector for both the world model and
 the drafted intensions themselves (\S Method). The pipeline is
-statute-agnostic; we instantiate it on two domains.
+statute-agnostic; we instantiate it on six statutes spanning the institutions an agent economy must govern.
 (2)~An architecture for machine-readable norms --- defeasible deontic
 skeleton over LLM-grounded open-textured predicates --- with deterministic,
 certificate-bearing deduction (\S Method; engine in Appendix~A).
 (3)~An empirical rules-vs-standards analysis (\S Results): open definitions
-generalize flat where closed definitions and programs collapse, replicated
-across two statutes and four model families --- statute A's four
-pre-registered confirmatory gaps and statute B's four same-protocol
-replication gaps all positive (RQ1,
+generalize flat where closed definitions and programs collapse --- the
+crossover holding in aggregate across six statutes, with magnitude and sign
+varying by predicate type (RQ1,
 Figures~\ref{fig:econ}--\ref{fig:cross}); ex-ante
 drafting buys $\sim$0 out-of-distribution accuracy past a small
 gist-teaching threshold, while ex-post interpretation costs $\sim$\$0.002
 per case (RQ2); the effect concentrates where the intension's
 \emph{verifiability}, not just its subject matter, predicts (RQ3); and the
 formal layer contributes zero deduction errors and zero paraphrase variance,
-at a verdict-layer cost for naive grounding that is real but
-domain-dependent (RQ4).
+resists adversarial argument, and turns from a verdict-layer cost on shallow
+statutes into a verdict-layer \emph{saving} on deep ones (RQ4).
 
 \section{Related Work}
 
@@ -212,10 +229,23 @@ is that test.
 Defeasible deontic logic gives normative reasoning its native structure ---
 exceptions, superiority, contrary-to-duty obligations
 \citep{governatori2006violations,governatori2018practical,governatori2024oddity};
-our engine implements this proof theory in Lean~4 (Appendix~A). The pipeline
-shape ``LLM grounds facts, solver decides'' exists in monotonic variants on
-human tax law: LLM+Prolog on SARA \citep{zhang2025prolog,holzenberger2020sara},
-multi-agent statutory formalization \citep{multiagent2025statutory}.
+our engine implements this proof theory in Lean~4 (a faithful
+re-implementation, \emph{not} a machine-checked correctness proof against the
+calculus; mature DDL engines such as SPINdle predate us
+\citep{lam2009spindle}, so the engine is infrastructure here, not a
+contribution). The pipeline shape ``LLM grounds facts, solver decides'' is the
+standard neurosymbolic pattern --- Logic-LM, LINC, SatLM
+\citep{pan2023logiclm,olausson2023linc,ye2023satlm} --- and exists in
+monotonic legal variants: LLM+Prolog on SARA
+\citep{zhang2025prolog,holzenberger2020sara}, multi-agent statutory
+formalization \citep{multiagent2025statutory}. Closest on the reasoning side,
+BoardgameQA \citep{kazemi2023boardgameqa} already benchmarks LLM reasoning
+over \emph{defeasible} rules with explicit preference orders --- the deduction
+structure we route through the engine --- though it does not separate
+grounding from deduction, vary definition openness, or target normative
+verdicts. Our differentiator is therefore narrow and we state it plainly: the
+texture manipulation (\S\ref{sec:bindings}) and the controlled-novelty
+generalization curve, not the solver-pipeline shape, which is well-trodden.
 Rule-application benchmarks --- SARA, RuleArena \citep{rulearena2024},
 $\tau$-bench \citep{yao2024taubench}, LegalBench \citep{guha2023legalbench}
 --- measure adherence to crisp rules stated in natural language.
@@ -303,7 +333,31 @@ epistemic-bar) was pre-registered before any LLM run (Appendix~G), making
 the per-predicate analysis of RQ3 a prediction test rather than a post-hoc
 reading. A third, deliberately minimal statute --- Hart's park ordinance
 itself, 3 rules over 2 atoms (Figure~\ref{fig:concept}) --- anchors the
-suite's difficulty floor and reproduces the pattern in miniature.
+suite's difficulty floor and reproduces the pattern in miniature. A fourth,
+deliberately \emph{large} statute --- an agency-and-delegation law (12 rules,
+exception depth 5, 8 atoms) --- is the suite's \emph{size} and
+\emph{multi-bearer} rung: it directs the binding question to one bearer (must
+a principal honor the deal its sub-agent struck?) and conduct duties to
+another (a disclose-then-disgorge chain on the sub-agent), and it lets us ask
+how the verdict-layer cost (RQ4) scales with the depth of the structure the
+deduction layer must resolve. Two further statutes complete the suite: a
+\emph{sale-of-goods} exchange law (E, quality/conformity standards) and an
+\emph{agent-safety} permissible-action law (F, 11 rules whose gating
+predicates --- irreversibility, containment, harm-necessity --- are
+unverifiable guarantees). Appendices~A and~G--I give all six.
+
+\paragraph{Why these six.} The statutes are chosen on three crossed axes
+(Appendix~I), so the generalization result is shown not to depend on any one
+domain, texture, or size. (i)~\emph{Institutions}: one statute per
+coordination problem an agent economy must govern --- information (A),
+resources (B), authority (D), exchange (E), safety (F) --- with C as Hart's
+canonical illustration; a normative layer for such a society must handle all
+five. (ii)~\emph{Texture}: the statutes are placed across the
+artifact-to-epistemic-bar spectrum with each predicate's type pre-registered,
+so RQ3 is a prediction test (it put A/B/E at the artifact end, D in the
+middle, F at the unverifiable end). (iii)~\emph{Size}: 3 (C) $<$ 8 (A,B) $<$
+9--11 (E,F) $<$ 12 (D) rules, isolating how the engine's verdict-layer value
+scales with structural depth (RQ4).
 
 \subsection{Two bindings of the same norm}
 \label{sec:bindings}
@@ -415,7 +469,18 @@ English statute plus memo and outputs verdict/violation/remedy directly);
 drafting-effort sweep); \emph{holistic\_closed} (holistic arm given the
 closed definitions; the pipeline-independence control). Grounders:
 gpt-4.1, gpt-5.4, deepseek-v4-flash, qwen3.6-plus --- four families, none
-the narrator's.
+the narrator's. On statute B we additionally run a \textbf{persuasion
+probe}: every case re-narrated with identical facts plus the interested
+party's 3--4 sentence argument that the action should be allowed ---
+recharacterize, stress, minimize, but introduce \emph{no} new fact, number,
+document or event, so gold is unchanged by construction. Adversarial
+presentation is the institutional norm of legal process, and persuasive
+framing is a documented LLM attack vector
+\citep{zeng2024johnny,sharma2023sycophancy}. The probe's metric is
+\emph{attack success}: among cases where the action is genuinely forbidden
+\emph{and} the arm judged it correctly on the neutral narration, the
+fraction flipped to allowed by the rhetoric alone; oracle and program pin
+the 0\% floor by construction.
 
 \textbf{Metrics.} Primary: atom-level accuracy and true-atom recall by
 regime$\times$tier (the predicate layer, unaffected by verdict-class priors).
@@ -452,16 +517,98 @@ can.}
 
 \section{Results}
 
-Headline numbers come from two runs of identical design: statute A (data
-transfer): 288 paired cases $\times$ 3 novelty tiers $\times$ 14 arms
-$\times$ 4 grounder families (4{,}032 rows; leak-excluded $n=287$); statute
-B (commons): 288 cases, same grid (4{,}032 rows; zero leak-flagged). Full
-tables in Appendices~D and~G.
+The suite is six statutes ($\sim$1{,}700 cases; \S Method, Appendix~B): the
+data-transfer law (A) and an isomorphic compute-commons (B); a delegated-%
+authority statute (D, 12 rules, multi-bearer); a sale-of-goods exchange law
+(E); an agent-safety permissible-action statute (F); and Hart's 3-rule park
+ordinance (C). We report the aggregate first, then the per-statute structure
+that the aggregate averages over. Statute-level runs add up to a 14-arm grid
+$\times$ up to four grounder families; aggregate tables pool the three
+families common to every run (gpt-4.1, deepseek-v4-flash, qwen3.6-plus;
+gpt-5.4, run on A/B/D, enters only as the strongest-model analyses of RQ3).
 
-\subsection{RQ1: Texture determines the generalization curve}
+\subsection{RQ1a: The aggregate generalization result}
+
+Figure~\ref{fig:agg} is the paper's headline, pooled over all six statutes.
+\textbf{Predicate layer (texture).} The extensional (closed) curve \emph{decays}
+with novelty (91.6/84.4/80.1\% over Tiers 0/1/2) while the intensional (open)
+curve is \emph{flat} (82.7/82.2/83.0\%); the two cross between Tiers~1 and~2.
+This is the \citet{kaplow1992rules} rules-vs-standards crossover --- closed
+wins in-distribution, open wins out-of-distribution --- now established
+\emph{in aggregate} rather than on one statute. Its magnitude is modest and, importantly,
+\emph{predicate-type dependent}, with the gap's \emph{sign} flipping across
+statutes (Figure~\ref{fig:agg}b, RQ3): the Tier-2 gap is large and positive
+where predicates are artifact-type with instance-specific enumerations
+(A $+14.8$, B $+10.8$, C $+20.8$), small where predicates are scenario-type
+(D $+6.5$), near zero where the closed enumerations are themselves abstract
+(E $-0.3$), and \emph{negative} where the open intension demands an
+unverifiable guarantee a strict reader refuses to affirm (F $-5.4$). Because
+the sign varies by statute, the statute --- not the case --- is the right
+inferential unit, and with $n{=}6$ correlated statutes (one author, one
+narrator) we do \emph{not} claim a significant pooled effect: the
+case-clustered pooled gap is $+2.9$ [$+1.9, +3.9$] but this fixed-effects-%
+over-cases interval understates uncertainty, and a random-effects estimate
+over six sign-heterogeneous statutes would plausibly contain zero. The honest
+claim is therefore qualitative and conditional, not a pooled point estimate:
+\emph{open texture buys flat generalization when the predicate is groundable
+and its extension is genuinely instance-specific, and not otherwise} --- it is
+no blanket property of intensional phrasing, and we report the two statutes
+where it vanishes (E) and reverses (F) as first-class results, not noise.
+
+\textbf{Verdict layer (factorization) --- the robust result.}
+Pooled across all six statutes, the factored architecture beats both
+alternatives at every novelty tier (Table~\ref{tab:aggverdict}). The no-LLM
+program collapses on the first unlisted instance (100/21/21\%): pure
+under-inclusion. Grounding plus the deterministic engine clears holistic LLM
+adjudication throughout (grounded-closed 92/79/74\%, grounded-open
+76/72/74\%, vs holistic 70/64/65\%) --- the engine resolves the exception and
+superiority structure that prose reasoning fumbles (grounded-closed minus
+holistic at Tier~2, pooled: $+9.2$, 95\% CI $[+5.9, +12.8]$), and the margin
+is widest on the deepest statutes (\S RQ4). This is the more robust headline: whatever
+texture does at the predicate layer, \emph{factoring the deduction into a
+verified engine dominates both the no-LLM program and the unfactored LLM
+judge at the verdict layer, on every statute in the suite}.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/aggregate.pdf}
+\caption{Aggregate over six statutes (three common grounder families).
+\textbf{(a)} Closed (extensional) atom accuracy decays with instance novelty;
+open (intensional) stays flat --- the rules-vs-standards crossover, pooled.
+\textbf{(b)} The Tier-2 open$-$closed gap by statute: large where predicates
+are artifact-type with specific enumerations, near zero where enumerations are
+abstract (E), negative where the open intension is an unverifiable guarantee
+(F).}
+\label{fig:agg}
+\end{figure*}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+arm (verdict acc., pooled) & tier 0 & tier 1 & tier 2 \\
+\midrule
+program (no LLM)            & 100 & 21 & 21 \\
+holistic LLM                & 70  & 64 & 65 \\
+grounded-open $+$ engine    & 76  & 72 & 74 \\
+grounded-closed $+$ engine  & 92  & 79 & 74 \\
+oracle (engine on gold)     & 100 & 100 & 100 \\
+\bottomrule
+\end{tabular}
+\caption{Verdict accuracy pooled over six statutes (three families). The
+factored grounding+engine arms beat holistic adjudication at every tier; the
+no-LLM program collapses on novelty. Per-statute breakdown:
+\texttt{eval/RESULTS\_AGGREGATE.md}.}
+\label{tab:aggverdict}
+\end{table}
+
+\subsection{RQ1b: The artifact-pole exemplar (statutes A, B)}
 
 Figures~\ref{fig:econ}a and \ref{fig:cross}a are the paper's central result,
-on the two statutes. The program scores 100\% at Tier 0 and collapses the
+on statutes A and B (the matched-skeleton pair that carries the RQ1 evidence;
+C and D corroborate in Appendices~H). The program scores 100\% at Tier 0 and
+collapses the
 moment an instance is unlisted (verdict accuracy 34.7/35.4\% on A,
 35.4/35.4\% on B; true-atom recall exactly 100/0/0 on both) --- pure
 under-inclusion, the failure mode of the smart contract. Closed definitions
@@ -540,19 +687,25 @@ costs $\sim$650--780 tokens per case ($\approx$\$0.002 at gpt-4.1 prices)
 and $\sim$2 seconds. The optimum on the rules--standards spectrum is set by
 these two curves, and the second one just moved by orders of magnitude.
 
-\paragraph{Implication for constitution-style alignment.} Constitutional
-AI \citep{bai2022constitutional} sits at the ex-ante end of this spectrum: a
-fixed, enumerated list of principles, applied at training time, that cannot
-be re-interpreted when the deployment world shifts. Our $K$-sweep is direct
-evidence about that strategy: lengthening an ex-ante list does not purchase
-coverage of genuinely novel situations, while ex-post interpretation of a
-short stated intension does --- at negligible cost and with the
-interpretation step isolated, auditable, and locally repairable. This
-suggests constitution-like governance of AI systems should invest in
-\emph{interpretable broad principles plus an application-time interpretation
-mechanism} (with precedent accretion for determinism, cf.\ RQ4), rather than
-in ever-longer drafted enumerations --- the same conclusion
-\citet{hadfield2019incomplete} reach from contract theory, here measured.
+\paragraph{Implication for constitution-style alignment (stated carefully).}
+A tempting reading is that Constitutional AI \citep{bai2022constitutional}
+sits at the ex-ante pole and our $K$-sweep indicts it. That reading is too
+glib, and we flag the trap: a CAI constitution is itself \emph{short
+intensions interpreted by a model} (the critique/revision LLM applies a
+principle to a case) --- so CAI already lives on the intensional,
+ex-post-interpreted side of our spectrum, not the enumerated ex-ante side.
+Our $K$-sweep, run over enumerated \emph{data categories} in a synthetic
+transfer statute, therefore licenses no direct inference about constitution
+drafting. What our results \emph{do} support is narrower and design-time: an
+interpreted-intension regime (which CAI is) only delivers flat generalization
+\emph{when the principle is groundable and not an unverifiable guarantee}
+(RQ3, statute~F) --- so a constitution of purpose-stated principles should
+expect brittleness exactly on its unverifiable clauses, and the engineering
+question is whether the interpretation is isolated, auditable, and repairable
+(RQ4), properties CAI's training-time application does not have but an
+application-time architecture like ours could. We make no claim that adding
+principles to a CAI constitution helps or hurts; testing that needs the
+training-time experiment we have not run.
 
 \subsection{RQ3: Open texture bites exactly where the theory says}
 
@@ -630,6 +783,48 @@ slips (statute B: grounded 72--88\% on the report duty vs holistic
 75--85\%, with the program arm itself degrading to 75/79 --- under-inclusive
 grounding misfires the remedy chain too).
 
+\textbf{Adversarial argument: the persuasion probe.} The factorization's
+robustness claim --- a holistic judge can be argued with, a grounder
+answering narrow membership questions presents a smaller persuasion surface,
+and the engine cannot be argued with at all --- is testable, and
+Table~\ref{tab:sway} tests it. The result is sharper than the prediction:
+persuasion resistance is \emph{capability-dependent}. For the strongest
+model the grounded arms are nearly immune (gpt-5.4: 0\%/4.3\% attack success
+vs 12.0\% holistic; under advocacy its judgments even grow slightly more
+conservative), but for weak models rhetoric penetrates at the atom layer
+itself (deepseek grounded 17--18\%, \emph{worse} than its holistic):
+narrowing the question immunizes only an interpreter strong enough to hold
+the question narrow. Two scoring notes the probe surfaced: raw accuracy
+under advocacy is the wrong metric (the advocate's factual recap helps weak
+models, and pro-outcome pressure pushes toward the majority verdict class,
+so several arms' accuracy \emph{rises} under attack --- the conditioned
+attack-success rate is the honest number), and oracle/program at exactly
+0\% confirm that all sway is interpretation-layer.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+family & holistic & ground\_closed & ground\_open \\
+\midrule
+gpt-5.4           & 12.0\% & \textbf{0.0\%} & 4.3\% \\
+qwen3.6-plus      & 9.1\%  & 7.4\%          & 7.4\% \\
+gpt-4.1           & 9.6\%  & 12.1\%         & 13.5\% \\
+deepseek-v4-flash & 14.3\% & 17.1\%         & 17.9\% \\
+\midrule
+oracle / program  & \multicolumn{3}{c}{0.0\% (by construction)} \\
+\bottomrule
+\end{tabular}
+\caption{Persuasion probe (statute B, 288 seed-paired advocacy
+re-narrations, zero leak-flagged): attack success = fraction of
+gold-forbidden, neutrally-correct judgments flipped to ``allowed'' by the
+interested party's argument alone (facts identical). The factorization's
+persuasion resistance holds for strong interpreters and fails for weak
+ones.}
+\label{tab:sway}
+\end{table}
+
 \textbf{Costs --- the conversion tax.} The guarantee above is bought at the
 predicate layer; converting flat atom accuracy into verdicts pays a
 compounding tax ($\approx \bar a^{\,k}$ over the $k$ flip-relevant atoms),
@@ -649,18 +844,56 @@ here: re-rendering cases as outcome-scrubbed tribunal FACTS lifts \emph{all}
 arms uniformly ($+4.9$ to $+5.6$), so the holistic advantage is not
 narration genre leakage.
 
+\textbf{The conversion tax can reverse on deep structure.} If the tax is the
+cost of the engine resolving structure the holistic judge resolves in prose,
+its sign should depend on whether the judge can hold that structure --- and
+the depth-5 agency statute (statute D) provides a case where it cannot. The
+clearest instance is qwen: holistic-competitive on the 8-rule statutes
+(78\%/76\% Tier-2) but \textbf{collapsing to 48.9\% --- the binary chance
+baseline --- on the deep statute}, while its grounded pipeline holds at
+80.4\% (a $+32$-point swing in the factorization's favor); it can no longer
+resolve a five-deep exception chain in prose. The effect is decisive for
+qwen alone: gpt-4.1 and deepseek are within noise either way ($-3$, $-2$),
+and the strongest model \emph{reverses} the sign --- gpt-5.4 holistic holds
+80\% while its own grounded verdict is only 62\% ($+18$ for holistic), the
+same capability-exception as the literalism and persuasion findings. So the
+honest claim is conditional, not universal: the grounded arm's per-atom task
+is size-invariant by construction, but its \emph{verdict} accuracy is not
+(more flip-relevant atoms per case means compounding bites the grounded arm
+too, which is why gpt-5.4 grounded falls to 62\%); what statute D adds is a
+single sharp existence proof that for a model that loses the thread on deep
+structure, factoring the deduction out into a verified engine rescues verdict
+accuracy rather than taxing it. One statute, one collapsing model: a
+direction, not yet a curve --- the size axis is the clearest open call for
+the suite expansion (Limitations).
+
+\textbf{A second bearer, audited for free.} Statute D directs conduct duties
+to the sub-agent (a disclose-then-disgorge chain) while the binding question
+concerns the principal --- a distinction the engine computes from the
+grounded atoms and a holistic verdict cannot separately express. Grounded
+arms attribute the sub-agent's breach at 86--96\% across families; the no-LLM
+program manages only 48\% (its under-inclusion misses the very predicates
+that trigger the duty), and the holistic arm produces no separable sub-agent
+verdict at all. The directed-obligation machinery yields a per-bearer audit
+the unfactored judge structurally lacks.
+
 \section{Limitations}
 
-\textbf{Two statutes, one skeleton.} Results come from two domains, but the
-second statute deliberately reuses the first's deontic skeleton (to isolate
-texture from structure), so \emph{structural} variance --- deeper
-compensation chains, multi-bearer duties, different exception topologies ---
-is still unmeasured. The pipeline is statute-agnostic (any \texttt{.ddl}
-theory with described atoms and tiered banks); a further six-scenario
-expansion across structurally distinct domains is specified in the
-repository, with per-statute texture profiles stated in advance so each new
-domain is a prediction test (statute B's profile scored 5/7, and its two
-misses sharpened the taxonomy; RQ3).
+\textbf{Statute coverage and a failed prediction.} Results come from six
+statutes spanning five deontic skeletons and the five institutions an agent
+economy must govern (Appendix~B), but all are synthetic and authored by one
+hand, and the suite is small relative to real legal diversity. We pre-%
+registered each statute's texture profile: most held (D's small gap, F's
+negative gap), but statute~E's predicted ``large'' gap \emph{failed} (it came
+out near zero). The diagnosis is itself a result (RQ3): E's two quality
+standards (\texttt{conforming}, \texttt{merchantable}) are \emph{relational}
+(item vs.\ order-spec) and ungroundable in both regimes, while its other
+closed enumerations are abstract enough to generalize --- so the open$>$closed
+gap needs both a groundable predicate and a genuinely instance-specific
+enumeration, not merely an ``artifact-type'' domain. We report the failed
+prediction rather than dropping the statute; it is why the aggregate gap is
+modest and why the verdict-layer factorization result, not the texture gap, is
+our robust headline.
 \textbf{Gold-by-intension circularity.} The same hand wrote the intensions,
 the enumerations, and the banks. Mitigations: gold \emph{is} the
 legislator's intension by design (the target regime), and two non-narrator
@@ -685,7 +918,11 @@ second bank author is the right next control.
 \textbf{Scope.} 7 atoms per statute, 3-class verdicts, single bearer, four
 grounder families; frontier models may eventually saturate Tier 2 --- by
 design that result would itself confirm the thesis (the application-time
-interpreter got good enough).
+interpreter got good enough). The persuasion probe is similarly scoped: one
+statute, one advocacy direction (pro-permit), and verdict-level rhetoric
+only --- atom-targeted characterization arguments (``this is not really
+personal data because\dots''), the realistic lawyer's move, are the
+stronger untested attack.
 
 \section{Conclusion}
 
@@ -696,11 +933,17 @@ LLMs make that deferred binding cheap --- we measure $\sim$\$0.002 per case
 zero deduction errors, zero structural variance, replayable certificates,
 violation and remedy semantics that holistic judges measurably fumble.
 Factored this way, machine-readable norms generalize where fully-specified
-rules cannot: the program dies on the first unlisted instance, enumerations
-decay with novelty once past their gist threshold no matter how long the
-drafter's list, and the purpose-stated intension holds flat across worlds
-its drafter never saw --- on both statutes, for every model family tested,
-with the gap \emph{widening} under the most literal-minded frontier model. The benchmark pipeline that establishes this
+rules cannot --- but conditionally, and the honest aggregate over six statutes
+says where. At the predicate layer the program dies on the first unlisted
+instance, the extensional curve decays with novelty while the intensional one
+holds flat (the rules-vs-standards crossover, pooled), \emph{when} the
+predicate is groundable and its extension genuinely instance-specific; where
+the intension is an unverifiable guarantee the advantage reverses. The
+robust, unconditional result is at the verdict layer: the factored
+architecture --- grounding under a verified engine --- beats both the no-LLM
+program and the unfactored holistic judge on every statute in the suite,
+because the engine resolves exception structure that prose reasoning fumbles.
+The benchmark pipeline that establishes this
 --- engine-verified gold, controlled novelty, contamination excluded by
 construction --- is reusable for any normative domain expressible as a
 defeasible theory, and we release it with the engine and all artifacts. For
@@ -1019,3 +1262,140 @@ grounding results. The audit loop thus catches mis-drafted intensions, not
 only world-model bugs --- on this evidence, independent membership
 validation should be a standard pre-run gate for benchmarks whose gold is
 defined by an authored intension.
+
+\section{Appendix H: The Park and Agency Statutes (C, D)}
+
+\paragraph{Statute C --- ``no vehicles in the park'' (3 rules, 2 atoms).}
+The suite's difficulty floor and the concept figure
+(Figure~\ref{fig:concept}). r0: entry permitted; r1: \texttt{vehicle}
+$\Rightarrow$ forbidden; r2: \texttt{emergency} $\Rightarrow$ obligatory
+(r2 $>$ r1 $>$ r0). Closed \texttt{vehicle}: ``a car; a truck; a motorcycle;
+a bicycle''; open: ``a conveyance for moving people or goods of a kind whose
+use would bring the hazards of traffic into the park; a walking aid is not
+of that kind'' --- the open intension alone excludes the wheelchair by
+reason rather than by omission. World coherence \texttt{emergency}
+$\Rightarrow$ \texttt{vehicle} (the ambulance is the vehicle), caught by the
+audit loop. Miniature run (gpt-4.1, $n{=}36$): program 100/33/33, closed
+83/33/33, open 67/67/75 --- the full pattern at the smallest scale.
+
+\paragraph{Statute D --- agency and delegation (12 rules, depth 5,
+multi-bearer).} The binding question ($O@\textsc{Principal}$
+\texttt{honor}) has a five-deep exception chain: scope (r1) $<$ revocation
+(r2) $<$ apparent authority (r3) $<$ published revocation (r4) $<$
+ratification (r5), with a conflict prohibition (r6, cured by r5) and
+agency-of-necessity (r8); conduct duties ($O@\textsc{SubAgent}$, a
+\texttt{disclose} $\otimes$ \texttt{disgorge} chain on conflicted dealing,
+r9--r11) make it the suite's first directed-multi-bearer statute. The honor
+verdict is near-binary over the 100 coherent worlds (65 obligatory / 34
+forbidden / 1 permitted): ``permitted to refuse'' nearly vanishes because
+agency duties fire in almost every fact pattern --- a faithful structural
+property and the cleanest setting for the size-axis test. Gold is per-bearer
+(honor verdict; and, separately, sub-agent breach = engine
+\texttt{violatingRules} $\cap$ \{r9, r10\}). Headline results
+(Table~\ref{tab:expd}): the texture gap is moderate here (open $-$ closed at
+Tier 2: $+4.1$ to $+9.2$), smaller than A/B and consistent with RQ3 ---
+agency predicates are
+mostly scenario / epistemic-bar / system-state, so the closed enumerations
+generalize to Tier 2 well (76--81\%); the size-axis and multi-bearer effects
+(\S RQ4) are the statute's contribution.
+
+\emph{An audit catch, and its provenance.} Blind bank validation (annotators
+judging items against the intension, with no access to any grounding result)
+flagged the \texttt{within\_scope} intension as underspecified: it said
+``judged by the purpose the mandate serves'' without naming that purpose, so
+one annotator over-read (a billboard campaign ``fits a brand-promotion
+mandate'') and another under-read (refusing catalogue items absent the
+mandate text). We repaired it enumeration-free, by naming the
+procurement/supply domain, and re-ran both grounding and bank validation
+(narration unchanged); this lifted \texttt{within\_scope} open recall from
+52/54/63\% to 99/97/98\% and \textbf{eliminated every \texttt{within\_scope}
+disagreement} (both annotators now agree on all 15 of its items). Aggregate
+bank agreement is 84/92 (gpt-5.4) and 90/92 (qwen3.6-plus); gpt-5.4's count
+is unchanged because its disagreements simply relocate to the
+scenario/epistemic-bar atoms (\texttt{counterparty\_good\_faith},
+\texttt{mandate\_revoked}), all strict-reader false negatives of the kind
+RQ3 documents --- not the artifact-type atoms. Two disclosures matter. First, the trigger was the
+validation, not the grounding score --- the audit-loop discipline the paper
+advocates, applied to a drafted intension rather than a world model. Second,
+the repair only strengthens the direction it was not chosen to serve: the
+Tier-2 open$>$closed gap is already positive on the \emph{unrepaired} run
+(gpt-5.4 open atom accuracy 80.5/79.3/81.1 vs closed 75.7 at Tier 2), and the
+reported gaps ($+4.1$ to $+9.2$) use the repaired run for both arms (the same
+grounding pass re-grounds the unchanged closed description too; one family's
+gap is pass-sensitive --- deepseek $+9.2$ same-pass vs $+4.2$ against the
+original closed pass --- so we read the gap as ``mid-single-digits to
+low-double-digits,'' positive throughout).
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llccc}
+\toprule
+metric & arm & tier 0 & tier 1 & tier 2 \\
+\midrule
+honor verdict & holistic[qwen] & 59.1 & 41.1 & 48.9 \\
+honor verdict & ground\_open[qwen] & 80.6 & 78.9 & 80.4 \\
+honor verdict & holistic[gpt-5.4] & 82.8 & 71.6 & 80.4 \\
+honor verdict & program & 100.0 & 2.1 & 2.2 \\
+\midrule
+atom acc & closed (4-fam range) & 90.5--94.8 & 81.3--86.6 & 74.9--80.4 \\
+atom acc & open (4-fam range) & 82.3--86.0 & 80.0--84.9 & 82.2--86.7 \\
+\midrule
+subagent breach & ground (4-fam) & \multicolumn{3}{c}{86.4--95.7\%} \\
+subagent breach & program & \multicolumn{3}{c}{48.2\%} \\
+\bottomrule
+\end{tabular}
+\caption{Statute D ($n{=}280$, 8 leak-flagged excluded). Honor verdict is
+near-binary (majority baseline $\approx$50\%). qwen holistic collapses to
+chance at depth 5 while its grounded+engine pipeline holds (the size-axis
+result); the program and the holistic arm both fail the second bearer's
+conduct-duty audit that the engine computes for free. Full tables:
+\texttt{eval/expD/RESULTS.md}.}
+\label{tab:expd}
+\end{table}
+
+\section{Appendix I: Statute Selection and Statutes E, F}
+
+\paragraph{Selection rationale (three crossed axes).} The six statutes are
+chosen so the generalization result cannot be an artifact of one domain,
+texture, or size (full version: \texttt{eval/DOMAIN\_RATIONALE.md}).
+\emph{Institutions}: one per coordination problem an agent economy must
+govern --- information (A), resources (B), authority (D), exchange (E), safety
+(F), with C as Hart's illustration. \emph{Texture}: pre-registered per-%
+predicate types span artifact $\to$ scenario $\to$ epistemic-bar.
+\emph{Size}: 3/8/8/9/11/12 rules. The aggregate (Figure~\ref{fig:agg},
+Table~\ref{tab:aggverdict}) is then the designed average over these axes;
+per-statute numbers are points on them. All runs share the QA gates
+(\S Method); the description-edit protocol (edits only on blind bank-%
+validation ambiguity, enumeration-free, validate-before-grade) is in
+\texttt{eval/QA\_PROTOCOL.md}.
+
+\paragraph{Statute E --- sale of goods (exchange).} 9 rules, 9 atoms, depth-4
+exception chain; binding question @Buyer \texttt{accept} (must the buyer
+accept and pay?), remedy reject-notice $\otimes$ refund, seller cure.
+Predicates are quality/conformity standards (\texttt{conforming},
+\texttt{merchantable}, \texttt{material\_defect}, \texttt{fitness\_breached}).
+Pre-registered ``large gap'' \emph{failed} ($-0.3$ at Tier 2): the two
+quality standards are relational (item vs.\ order-spec) and ungroundable in
+both regimes (closed recall 27\%, 37\% even at Tier 0), and the other closed
+enumerations are abstract enough to generalize. The factorization result is
+strong here --- grounded+engine holds $\approx$81--91\% verdict accuracy across
+tiers vs holistic's 64--76\%. Independent bank validation (llama-3.3-70b,
+qwen3.6-plus): 94.3\%, 95.3\%, no systematic ambiguity. Full:
+\texttt{eval/expE/RESULTS.md}.
+
+\paragraph{Statute F --- agent safety (permissible action).} 11 rules, 10
+atoms; binding question @Agent \texttt{act}, remedy rollback $\otimes$
+disclose. The epistemic-bar pole: gating predicates
+(\texttt{irreversible}, \texttt{contained}, \texttt{averting\_harm},
+\texttt{reversible\_window}) demand unverifiable guarantees, so the
+\emph{open} intension is hard for a strict reader to affirm --- open atom
+recall is \emph{depressed below} closed (77/80/78 vs 88/85/83), the Tier-2 gap
+\emph{reverses} ($-5.4$). Where the intension is unverifiable, the standard
+loses to the operational rule (Kaplow's verification-cost condition at
+statute scale). grounded-closed verdict accuracy 87/78/84 clears holistic
+60/67/57; program collapses 100/33/33. Independent bank validation
+(llama-3.3-70b, qwen3.6-plus): 96.5\%, 93.0\%, no systematic ambiguity. This
+statute is the Constitutional-AI%
+-relevant one (\S RQ2 discussion): a safety constitution whose exception
+structure the engine resolves. Full: \texttt{eval/expF/RESULTS.md}.

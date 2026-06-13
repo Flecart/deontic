@@ -208,3 +208,50 @@ def make_expb_figure() -> None:
 
 if __name__ == "__main__":
     make_expb_figure()
+
+
+# ── Figure 3: cross-statute aggregate (6 statutes, 3 families) ───────────────
+
+def make_aggregate_figure():
+    import subprocess, re
+    # per-statute Tier-2 gaps + pooled curve (hardcoded from eval/aggregate.py)
+    statutes = ["A\ntransfer", "B\ncommons", "C\npark", "D\nagency", "E\nsale", "F\nsafety"]
+    gaps = [14.8, 10.8, 20.8, 6.5, -0.3, -5.4]
+    pooled_closed = [91.6, 84.4, 80.1]
+    pooled_open = [82.7, 82.2, 83.0]
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(7.0, 2.7))
+    tiers = [0, 1, 2]
+    # (a) pooled closed-decays / open-flat crossover
+    ax1.plot(tiers, pooled_closed, color=CLOSED_C, lw=2.4, marker="o", ms=5,
+             label="closed (extensional)")
+    ax1.plot(tiers, pooled_open, color=OPEN_C, lw=2.4, marker="o", ms=5,
+             label="open (intensional)")
+    ax1.fill_between(tiers, pooled_closed, pooled_open, where=[c > o for c, o in zip(pooled_closed, pooled_open)],
+                     color=CLOSED_C, alpha=0.08)
+    ax1.set_xticks(tiers)
+    ax1.set_xticklabels(["tier 0\n(listed)", "tier 1", "tier 2\n(world shift)"], fontsize=7.5)
+    ax1.set_ylabel("atom accuracy (%), 6 statutes pooled", fontsize=7.5)
+    ax1.set_ylim(76, 94)
+    ax1.legend(fontsize=7.5, loc="upper right", frameon=False)
+    ax1.set_title("(a) Pooled: closed decays, open flat", fontsize=9)
+    ax1.annotate("crossover", xy=(1.55, 82.6), xytext=(1.55, 79.0), fontsize=7,
+                 ha="center", arrowprops=dict(arrowstyle="->", lw=0.6))
+    # (b) per-statute Tier-2 gap spectrum
+    colors = [OPEN_C if g > 0 else CLOSED_C for g in gaps]
+    ax2.bar(range(len(statutes)), gaps, color=colors, alpha=0.85)
+    ax2.axhline(0, color="#444444", lw=0.8)
+    ax2.set_xticks(range(len(statutes)))
+    ax2.set_xticklabels(statutes, fontsize=7)
+    ax2.set_ylabel("Tier-2 open$-$closed gap (pts)", fontsize=7.5)
+    ax2.set_title("(b) Gap varies by predicate texture", fontsize=9)
+    ax2.text(1.0, 17.5, "artifact +\nspecific enums", fontsize=6.3, color=OPEN_C, ha="center")
+    ax2.text(4.3, -10.5, "abstract enums /\nepistemic-bar", fontsize=6.3, color=CLOSED_C, ha="center")
+    ax2.set_ylim(-13, 23)
+    for ax in (ax1, ax2):
+        ax.tick_params(labelsize=7.5); ax.spines[["top", "right"]].set_visible(False)
+    fig.tight_layout(pad=0.4)
+    fig.savefig(OUT / "aggregate.pdf"); fig.savefig(OUT / "aggregate.png", dpi=200)
+    print("wrote", OUT / "aggregate.pdf")
+
+
+make_aggregate_figure()

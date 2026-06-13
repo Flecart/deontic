@@ -1,0 +1,20 @@
+Bank-validation catch (audit-loop signature, like expB lapsed-voucher):
+
+within_scope open intension is underspecified — it says "judged by the
+purpose the mandate serves" WITHOUT naming that purpose. Result:
+  - gpt-5.4 over-reads: billboard_campaign, recruitment_deal (gold=False)
+    judged in-scope ("fits a brand-promotion / recruitment mandate by
+    purpose");
+  - qwen3.6 under-reads: routine_freight, office_supplies (gold=True,
+    closed-list items!) judged NOT in-scope ("definition lacks the specific
+    mandate details").
+Both failure modes trace to one ambiguity: "purpose" is unbounded when the
+mandate's domain is unstated.
+
+FIX: name the procurement/supply domain in the within_scope open intension,
+so a billboard/recruitment is out and catalogue/freight is in.
+
+DECISION: fix + re-validate within_scope, then regenerate if it moves the
+headline. Quantify first from the completed main run (within_scope is 1 of 8
+atoms, always-instantiated; expD's headline is the SIZE-AXIS verdict result,
+which does not depend on within_scope's gold).

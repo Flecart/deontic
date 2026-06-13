@@ -49,9 +49,37 @@ REGISTRY: dict[str, ModelSpec] = {
     "deepseek-chat":     ModelSpec("deepseek-chat",     "openrouter", "deepseek/deepseek-chat"),
     "qwen-2.5-72b":      ModelSpec("qwen-2.5-72b",      "openrouter", "qwen/qwen-2.5-72b-instruct"),
     "gemini-2.0-flash":  ModelSpec("gemini-2.0-flash",  "openrouter", "google/gemini-2.0-flash-001"),
+    # ── grounder panel (June 2026 OpenRouter slugs; cheap/mid, autonomous-run) ──
+    # hybrid-reasoning models get no_think=True to keep grounding fast/cheap.
+    "kimi-k2.5":     ModelSpec("kimi-k2.5",     "openrouter", "moonshotai/kimi-k2.5", no_think=True),       # ~$0.35/$1.89
+    "kimi-k2.6":     ModelSpec("kimi-k2.6",     "openrouter", "moonshotai/kimi-k2.6", no_think=True),       # ~$0.68/$3.41
+    "glm-4.7":       ModelSpec("glm-4.7",       "openrouter", "z-ai/glm-4.7", no_think=True),               # ~$0.40/$1.75
+    "glm-4.7-flash": ModelSpec("glm-4.7-flash", "openrouter", "z-ai/glm-4.7-flash", no_think=True),         # cheap
+    "mistral-small": ModelSpec("mistral-small", "openrouter", "mistralai/mistral-small-2603"),              # ~$0.15/$0.60
+    "mistral-large": ModelSpec("mistral-large", "openrouter", "mistralai/mistral-large-2512"),              # ~$0.50/$1.50
+    "mimo-flash":    ModelSpec("mimo-flash",    "openrouter", "xiaomi/mimo-v2-flash", no_think=True),       # ~$0.09/$0.29 (cheapest)
+    "gemini-flash":  ModelSpec("gemini-flash",  "openrouter", "google/gemini-3.5-flash"),                   # current Gemini Flash
+    "deepseek-v4-pro": ModelSpec("deepseek-v4-pro", "openrouter", "deepseek/deepseek-v4-pro"),              # ~$0.44/$0.87
+    "deepseek-v3.2": ModelSpec("deepseek-v3.2", "openrouter", "deepseek/deepseek-v3.2"),                    # ~$0.23/$0.34
+    # ── costly / frontier: REGISTERED but human-run when grounding is strong ──
+    "grok-4.3":      ModelSpec("grok-4.3",      "openrouter", "x-ai/grok-4.3", no_think=True),              # ~$1.25/$2.50, xAI cheap-frontier
+    "grok-4.20":     ModelSpec("grok-4.20",     "openrouter", "x-ai/grok-4.20", no_think=True),               # human-run, frontier
+    "claude-opus":   ModelSpec("claude-opus",   "openrouter", "anthropic/claude-opus-4.8"),                 # human-run
+    "claude-sonnet": ModelSpec("claude-sonnet", "openrouter", "anthropic/claude-sonnet-4.6"),               # human-run (also narrator)
     # offline plumbing test
     "stub":          ModelSpec("stub",          "stub",   "stub"),
 }
+
+# The grounder panel for the multi-model run. CHEAP_PANEL (12, diverse
+# providers) is safe to run autonomously; COSTLY_PANEL (frontier: OpenAI
+# gpt-5.4, Anthropic, xAI grok-4.3) is for the HUMAN to run once the grounding
+# pipeline is validated strong on the cheap panel. Models that won't emit clean
+# JSON are swapped out at run time (see arms.py parse-failure guard).
+CHEAP_PANEL = ["gpt-4.1", "deepseek-v4-flash", "deepseek-v4-pro", "qwen3.6-plus",
+               "kimi-k2.5", "glm-4.7", "glm-4.7-flash", "mistral-small",
+               "mimo-flash", "grok-4.3", "gemini-flash", "llama-3.3-70b"]    # 12
+COSTLY_PANEL = ["gpt-5.4", "claude-opus", "claude-sonnet", "grok-4.20"]       # human-run
+FULL_PANEL = CHEAP_PANEL + COSTLY_PANEL
 
 
 def resolve(name: str) -> ModelSpec:
