@@ -125,28 +125,25 @@ uncertainty sampling (ceiling), recency. Hypothesis: dispute-selected ≈
 uncertainty sampling ≫ uniform. Deliverable: sample-efficiency curves
 (accuracy and agreement vs n).
 
-### E3 — Society level: coordination under legal regimes (freight, scaled)
+### E3-lite — Dyadic accountability episodes (PROPOSED 2026-07-02, pending Angelo's confirm)
 
-Freight at the brief's headline scale (T=400, ≥3 seeds, strong judge), with
-the E1 precedent-augmented grounder inside the agents' compliance decisions.
-Arms CL / Civ / US (+ RR as incoherence control). Fixes from the pilot:
-welfare reported **jointly with closure coherence** (never alone); selection
-KL measured on the *unsettledness* axis, not static ambiguity.
-Pre-registered predictions: invocation decay CL ≫ Civ; welfare×coherence
-dominance for CL; closure separates regimes; Priest–Rubin win-rate → 0.5
-under higher filing cost. Adversarial probe: sway-style persuader attacks
-open texture; measure exploitation rate with and without precedent.
-**Budget-gated:** estimate with `eval/token_cost.py` before launching.
+Scope option under discussion: **Paper 1 = E1 + E2 + E3-lite + the released
+benchmark**, with full-scale E3 (welfare economics, regime comparison) and E4
+deferred to a follow-up. Rationale: benchmark + mechanism + selection analysis
+is a complete top-venue package at the *law-coordination level*; what it loses
+without E3 is the society-level welfare claim, so claims must be scoped to
+interpretation-consistency and dyadic accountability (see §5).
 
-### E4 — Error entrenchment and the stare-decisis knob (safety result)
+E3-lite keeps a *behavioral* result at ~1/10 the cost of full freight: repeated
+**two-party episodes** using freight's contract shells and judge, no market.
+Per episode: (1) seller decides deviation given precedent-based anticipated
+liability; (2) buyer decides whether to **file** given the same store (priors
+from retrieval, as in the pilot); (3) adjudication → holding accretes.
+Metrics: deterrence (deviation rate vs store maturity), invocation decay,
+settlement rate, and closure coherence — i.e. "can LLM agents keep each other
+accountable through precedent," measured directly, without welfare
+aggregation. Reuses `freight/agents.py` + `judge.py` nearly unchanged.
 
-Seed the store with wrong/adversarial early holdings; vary bindingness
-(retrieval weight; instruction: follow vs distinguish vs ignore). Measure
-correction half-life and terminal error. Deliverable: how binding precedent
-should be for a judge of measured quality. Includes the amendment-policy arm
-that cashes in the expB finding: codify precedents into the statute
-(extensional) vs keep them as retrievable cases — expB predicts extensional
-codification hurts Tier 2.
 
 ## 3. Engineering deliverables
 
@@ -208,7 +205,6 @@ Milestones (~1 FTE-agent + Angelo steering):
 - **M1** (wks 2–4): E1 full on the three statutes → **GATE review**.
 - **M2** (wks 5–6): E2.
 - **M3** (wks 6–9): E3 scaled + sway probe (after budget estimate).
-- **M4** (wks 9–11): E4.
 - **M5**: paper. The §Motivation draft can start immediately from existing
   expA–F results.
 
@@ -219,7 +215,9 @@ Milestones (~1 FTE-agent + Angelo steering):
 3. Compute ceiling, especially E3's judge model — gate on a `token_cost.py`
    estimate.
 4. Venue/deadline, which drives scope: AAMAS-shaped = E1+E2+E3;
-   ICLR-shaped = E1+E2+E4.
+
+
+## Ideas for followups
 5. Agent identity / reputation in freight: **PROPOSED out of scope** for this
    paper (pilot's honest-limitations list).
 6. Lean-native/verification angle: **PROPOSED instrument-only** here; the
