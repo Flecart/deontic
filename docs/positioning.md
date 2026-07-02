@@ -5,41 +5,34 @@ derivable from the code. Checked into the repo so every machine and every
 agent session starts from the same picture. Update this file when a decision
 here changes; keep it short.
 
-## Paper strategy (decided 2026-07-02)
+## Paper strategy (pivoted 2026-07-02 — supersedes the same-day AI&Law plan)
 
-**One paper. Target community: AI & Law** (ICAIL/JURIX-style), framed as
-*law for computer agentic systems*, not law for humans. The multi-agent /
-agent-safety community is the secondary audience.
+**One paper: "Common law for agent societies."** Thesis: ship norms for agent
+societies as a *process, not a text* — thin open-textured statute +
+accumulated precedent + formal coherence monitor — and show it beats every
+static drafting (closed / open / hybrid) on epistemic coordination,
+behavioral coordination, and robustness. Primary audience: agents / MAS
+(AAMAS, COINE, ML agents tracks); AI & Law secondary.
+**Full brief: `docs/plan_common_law.md` — read it before touching `eval/`,
+`freight/`, or `paper/`.**
 
-Storyline: GovSim et al. simulate agent societies with no formal
-institutions; mechanism-design institutions (CoopEval) are formal but offer
-no interpretive flexibility, while intelligent environments keep changing
-(agents write tools, spawn sub-environments); prosocial-agents work saw the
-gap but governs only the agents you trained. This work imports law's open
-texture [Hart] so rules generalize to unforeseen cases: broad initial
-principles (do no harm, help humanity) are refined into more precise rules as
-new problems emerge in the society.
+Role changes vs the superseded plan: expA–F becomes the motivating static
+frontier (the impossibility that justifies the mechanism); `freight/` is
+promoted from future work to the society-level experiment (E3); `[JUDGE]`
+adjudication moves *in scope* (E1's adjudicator exercises it).
 
-Claim discipline:
+Claim discipline that survives the pivot:
 
-- **Do not claim "analogical reasoning" as mechanism.** The benchmark
-  measures *subsumption under a stated intension* — no precedents, no source
-  cases (not HYPO/CATO analogy). The intro delimits this explicitly.
-- The expB redraft finding is load-bearing: repairing a standard by listing
-  example forms fixes Tier 0 and *hurts* Tier 2 — refinement must stay
-  **intensional**, not extensional. State it as a design principle.
-- The machine-legislator point is a contribution, not an apology: in an agent
-  society the legislator is the system designer, so shared vocabularies,
-  stipulated priority, and gold-by-construction evaluation are legitimate —
-  the first jurisdiction where AI&Law theory is measurable end to end.
-- "LLM judges for automatic conflict resolution in open-ended cases" is **not
-  yet claimable** — no experiment exercises `[JUDGE]` resolution. The scoped
-  version needs a conflict-resolution experiment with meta-principles
-  (gold-by-construction superiority) + abstention calibration on genuinely
-  underdetermined conflicts. Candidate future work, kept out of the paper.
-- `freight/` (emergent case-law agent-society pilot) is the *dynamics* half
-  of the story: kept in-tree, cited as research program / future work, not as
-  a powered result.
+- Precedent-based reasoning becomes claimable once E1 stores real holdings —
+  but still **do not claim human-style "analogical reasoning"**; the
+  mechanism is retrieval + conditioning, and the paper says so.
+- The expB redraft finding stays load-bearing: refinement must stay
+  **intensional**, not extensional — now tested directly as E4's
+  amendment-policy arm.
+- The machine-legislator point stands: the system designer is the
+  legislator, so shared vocabularies, stipulated priority, and
+  gold-by-construction evaluation are legitimate.
+- Welfare is never reported without coherence (freight pilot lesson).
 
 ## Repo cleanup record (2026-07)
 
