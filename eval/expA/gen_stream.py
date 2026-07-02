@@ -47,7 +47,8 @@ def assign_key(assign: dict) -> str:
 def build_case(idx: int, gold_cls: str, assign: dict, tier: int, acted: bool,
                rng: random.Random, client=None, spec=None) -> dict:
     """One narrated case for one stream position (mirrors gen_cases.main's
-    inner loop, single tier)."""
+    inner loop, single tier). With client=None returns a template-narrated
+    row; narrate_rows() re-narrates in parallel afterwards."""
     true_atoms = [a for a, v in assign.items() if v]
     gold = engine_verdict(true_atoms, acted)
     assert gold["share_status"] == gold_cls
@@ -76,7 +77,25 @@ def build_case(idx: int, gold_cls: str, assign: dict, tier: int, acted: bool,
         fl = leak_flags(text, tier)
     return {"case_id": f"s{idx:03d}", "t": idx, "tier": tier, "acted": acted,
             "assignment": assign, "assign_key": assign_key(assign),
-            "items": items, "gold": gold, "narrative": text, "leak_flags": fl}
+            "items": items, "gold": gold, "narrative": text, "leak_flags": fl,
+            "_phrases": phrases}
+
+
+def narrate_rows(rows: list[dict], narrator: str, seed: int, workers: int):
+    """Re-narrate template rows in parallel (element sampling already happened
+    deterministically; only the LLM calls fan out)."""
+    from concurrent.futures import ThreadPoolExecutor
+    from models import resolve, make_client
+    spec = resolve(narrator)
+    client = make_client(spec)
+
+    def one(row):
+        text, fl = llm_narrative(client, spec, row["_phrases"], row["acted"],
+                                 random.Random(seed + row["t"]), row["tier"])
+        row["narrative"], row["leak_flags"] = text, fl
+        return row
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        list(pool.map(one, rows))
 
 
 def main():
@@ -90,24 +109,23 @@ def main():
     ap.add_argument("--acted-frac", type=float, default=0.33)
     ap.add_argument("--narrator", default=None,
                     help="model for prose narration; default = template mode")
+    ap.add_argument("--workers", type=int, default=16,
+                    help="parallel narration requests")
     args = ap.parse_args()
     rng = random.Random(args.seed)
 
-    client = spec = None
-    if args.narrator:
-        from models import resolve, make_client
-        spec = resolve(args.narrator)
-        client = make_client(spec)
-
     pool = stratified_sample(valid_assignments(), args.pool, rng)
-    rows, n_flagged = [], 0
+    rows = []
     for t in range(args.T):
         gold_cls, assign = rng.choice(pool)
         tier = rng.choices([0, 1, 2], weights=tier_probs(args.schedule, t, args.T))[0]
         acted = rng.random() < args.acted_frac
-        row = build_case(t, gold_cls, assign, tier, acted, rng, client, spec)
-        n_flagged += bool(row["leak_flags"])
-        rows.append(row)
+        rows.append(build_case(t, gold_cls, assign, tier, acted, rng))
+    if args.narrator:
+        narrate_rows(rows, args.narrator, args.seed, args.workers)
+    n_flagged = sum(bool(r["leak_flags"]) for r in rows)
+    for r in rows:
+        del r["_phrases"]
 
     Path(args.out).write_text("\n".join(json.dumps(r) for r in rows) + "\n")
     verdicts, tiers, keys = {}, {}, {}
