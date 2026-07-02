@@ -57,7 +57,7 @@ REGISTRY: dict[str, ModelSpec] = {
     "glm-4.7-flash": ModelSpec("glm-4.7-flash", "openrouter", "z-ai/glm-4.7-flash", no_think=True),         # cheap
     "mistral-small": ModelSpec("mistral-small", "openrouter", "mistralai/mistral-small-2603"),              # ~$0.15/$0.60
     "mistral-large": ModelSpec("mistral-large", "openrouter", "mistralai/mistral-large-2512"),              # ~$0.50/$1.50
-    "mimo-flash":    ModelSpec("mimo-flash",    "openrouter", "xiaomi/mimo-v2-flash", no_think=True),       # ~$0.09/$0.29 (cheapest)
+    "mimo-flash":    ModelSpec("mimo-flash",    "openrouter", "xiaomi/mimo-v2.5", no_think=True),           # v2-flash deprecated 2026-06; cheapest
     "gemini-flash":  ModelSpec("gemini-flash",  "openrouter", "google/gemini-3.5-flash"),                   # current Gemini Flash
     "deepseek-v4-pro": ModelSpec("deepseek-v4-pro", "openrouter", "deepseek/deepseek-v4-pro"),              # ~$0.44/$0.87
     "deepseek-v3.2": ModelSpec("deepseek-v3.2", "openrouter", "deepseek/deepseek-v3.2"),                    # ~$0.23/$0.34
@@ -66,6 +66,7 @@ REGISTRY: dict[str, ModelSpec] = {
     "grok-4.20":     ModelSpec("grok-4.20",     "openrouter", "x-ai/grok-4.20", no_think=True),               # human-run, frontier
     "claude-opus":   ModelSpec("claude-opus",   "openrouter", "anthropic/claude-opus-4.8"),                 # human-run
     "claude-sonnet": ModelSpec("claude-sonnet", "openrouter", "anthropic/claude-sonnet-4.6"),               # human-run (also narrator)
+    "claude-sonnet-5": ModelSpec("claude-sonnet-5", "openrouter", "anthropic/claude-sonnet-5"),             # E1 adjudicator (thinking on)
     # offline plumbing test
     "stub":          ModelSpec("stub",          "stub",   "stub"),
 }

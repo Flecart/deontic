@@ -54,6 +54,27 @@ export OPENROUTER_API_KEY=sk-or-...   # or OPENAI_API_KEY for provider openai
 python3 expA/arms.py --help
 ```
 
+## E1 — precedent-augmented grounding (docs/plan_common_law.md)
+
+Streaming experiment on top of expA. Shared modules: `precedent.py` (the
+precedent store: holdings, as-of-t retrieval in embed / atom-overlap /
+rule-subsumption modes, gold P@k via latent `assign_key`, offline-embedding
+fallback for stub runs) and `adjudicator.py` (the strong-model adjudicator —
+default `claude-sonnet-5`; findings only, verdicts always via the engine).
+Per-statute wiring in `expA/`:
+
+```bash
+cd eval/expA
+python3 gen_stream.py --T 200 --out stream.jsonl [--narrator ...]   # dataset
+python3 e1_run.py store --stream stream.jsonl --out-dir runs/e1 \
+    --dispute-models gpt-4.1,deepseek-v4-flash --judge claude-sonnet-5
+python3 e1_run.py eval  --stream stream.jsonl --out-dir runs/e1 --models cheap_panel
+python3 e1_score.py --results runs/e1/results_e1.jsonl --exclude-leaky stream.jsonl
+```
+
+Smoke everything offline with `--dispute-models stub,stub --judge stub
+--embed offline` and `--models stub`.
+
 ## Shared infrastructure
 
 - `models.py` — model registry + one OpenAI-compatible client for OpenAI and
