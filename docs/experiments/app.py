@@ -25,6 +25,16 @@ EVAL_ROOT = REPO / "eval"
 QA_EXPS = ["expA", "expB", "expC", "expD", "expE", "expF"]
 QA_CASE_BANKS = ["cases_stage2_memo.jsonl", "cases_memo.jsonl", "cases.jsonl"]
 QA_RESULTS = ["results_stage2_main.jsonl", "results_main.jsonl", "results.jsonl"]
+FRONTEND_DIST = REPO / "docs" / "experiments" / "frontend" / "dist"
+STATIC_TYPES = {
+    ".html": "text/html; charset=utf-8",
+    ".js": "text/javascript; charset=utf-8",
+    ".css": "text/css; charset=utf-8",
+    ".svg": "image/svg+xml",
+    ".png": "image/png",
+    ".ico": "image/x-icon",
+    ".map": "application/json",
+}
 PORT = 8051
 
 
@@ -1256,7 +1266,28 @@ class Handler(BaseHTTPRequestHandler):
                 self._send(200, summarize_corpus_run(run_path))
                 return
 
+        if not path.startswith("/api/"):
+            self._send_static(path)
+            return
+
         self._send(404, {"error": "not found"})
+
+    def _send_static(self, path: str) -> None:
+        # Serve the built frontend so `python3 app.py` works standalone
+        # (npm run dev proxies /api and serves the UI itself instead).
+        if not FRONTEND_DIST.is_dir():
+            self._send(404, {"error": "frontend not built: run `npm run build` in docs/experiments/frontend (or use `npm run dev`)"})
+            return
+        rel = path.lstrip("/") or "index.html"
+        target = (FRONTEND_DIST / rel).resolve()
+        if not target.is_file() or FRONTEND_DIST.resolve() not in target.parents:
+            target = FRONTEND_DIST / "index.html"  # SPA fallback
+        payload = target.read_bytes()
+        self.send_response(200)
+        self.send_header("Content-Type", STATIC_TYPES.get(target.suffix, "application/octet-stream"))
+        self.send_header("Content-Length", str(len(payload)))
+        self.end_headers()
+        self.wfile.write(payload)
 
 
 def main() -> None:

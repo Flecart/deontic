@@ -36,7 +36,14 @@ cd eval
 python3 reproduce_results.py   # per-statute + pooled tables from logs (no API)
 python3 aggregate.py           # cross-statute pooled + bootstrap CIs (run from eval/)
 python3 token_cost.py          # token totals and $ estimates per model/arm
+python3 error_analysis.py      # classify every wrong atom decision -> ERROR_ANATOMY.md
 ```
+
+`error_analysis.py` separates model misreads from unclear cases using three
+log-native signals (the model's true/false/**unknown** raw answer, all-models-
+wrong consensus, and annotator disagreement in `bank_validation.jsonl`); the
+`case_unclear` / `gold_disputed` rows it lists are the ones to eyeball in the
+Data QA viewer (`python3 docs/experiments/app.py`, then http://localhost:8051).
 
 Re-running arms needs the engine binary and an API key:
 
