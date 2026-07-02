@@ -1,12 +1,26 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { CaseBankView } from "./components/CaseBankView";
+import { DataQaView } from "./components/DataQaView";
 import { ExpARunView } from "./components/ExpARunView";
 import { Layout } from "./components/Layout";
 import { RunView } from "./components/RunView";
 import { Sidebar } from "./components/Sidebar";
-import type { CaseBankDetail, ExpARunDetail, RunDetail, RunListItem, Source } from "./types";
+import type {
+  CaseBankDetail,
+  ExpARunDetail,
+  QaStatute,
+  RunDetail,
+  RunListItem,
+  Source,
+} from "./types";
+
+type ViewMode = "runs" | "qa";
 
 export const App: React.FC = () => {
+  const [view, setView] = useState<ViewMode>("runs");
+  const [statutes, setStatutes] = useState<QaStatute[]>([]);
+  const [activeStatute, setActiveStatute] = useState<string | null>(null);
+  const [loadingStatutes, setLoadingStatutes] = useState(false);
   const [sources, setSources] = useState<Source[]>([]);
   const [activeSource, setActiveSource] = useState<string | null>(null);
   const [runs, setRuns] = useState<RunListItem[]>([]);
@@ -68,6 +82,35 @@ export const App: React.FC = () => {
   }, [loadSources]);
 
   useEffect(() => {
+    if (view !== "qa") return;
+    let cancelled = false;
+    const load = async () => {
+      try {
+        setLoadingStatutes(true);
+        const res = await fetch(`/api/qa/statutes?ts=${Date.now()}`);
+        if (!res.ok) throw new Error(`Failed to load statutes (${res.status})`);
+        const data = (await res.json()) as { statutes: QaStatute[] };
+        if (cancelled) return;
+        const next = data.statutes ?? [];
+        setStatutes(next);
+        setActiveStatute((prev) => {
+          if (prev && next.some((s) => s.id === prev)) return prev;
+          return next[0]?.id ?? null;
+        });
+        setError(null);
+      } catch (e) {
+        if (!cancelled) setError((e as Error).message);
+      } finally {
+        if (!cancelled) setLoadingStatutes(false);
+      }
+    };
+    void load();
+    return () => {
+      cancelled = true;
+    };
+  }, [view]);
+
+  useEffect(() => {
     if (!activeSource) {
       setRuns([]);
       setActiveRun(null);
@@ -122,21 +165,95 @@ export const App: React.FC = () => {
   const isCaseBank = runKind === "casebank";
   const isExpAEval = runKind === "expa_eval";
 
-  const sidebar = (
-    <Sidebar
-      sources={sources}
-      loadingSources={loadingSources}
-      activeSource={activeSource}
-      onSourceChange={(id) => {
-        setActiveSource(id);
-        setActiveRun(null);
-        setRunDetail(null);
-      }}
-      runs={runs}
-      loadingRuns={loadingRuns}
-      activeRun={activeRun}
-      onRunChange={setActiveRun}
-    />
+  const viewSwitch = (
+    <div className="view-switch">
+      <button
+        type="button"
+        className={"view-switch-btn" + (view === "runs" ? " view-switch-btn--active" : "")}
+        onClick={() => setView("runs")}
+      >
+        Eval runs
+      </button>
+      <button
+        type="button"
+        className={"view-switch-btn" + (view === "qa" ? " view-switch-btn--active" : "")}
+        onClick={() => setView("qa")}
+      >
+        Data QA
+      </button>
+    </div>
+  );
+
+  const sidebar =
+    view === "qa" ? (
+      <div className="sidebar">
+        {viewSwitch}
+        <section>
+          <h2 className="sidebar-title">
+            Statutes
+            {loadingStatutes ? (
+              <span className="inline-loader" aria-label="Loading statutes" />
+            ) : null}
+          </h2>
+          <ul className="sidebar-list">
+            {statutes.map((s) => (
+              <li key={s.id}>
+                <button
+                  type="button"
+                  className={
+                    "sidebar-item" + (s.id === activeStatute ? " sidebar-item--active" : "")
+                  }
+                  onClick={() => setActiveStatute(s.id)}
+                >
+                  <span className="sidebar-run-label">
+                    {s.label} ({s.id})
+                  </span>
+                  <span className="sidebar-run-meta">
+                    {s.case_count} cases · {s.result_rows} rows · {s.models.length} models
+                  </span>
+                </button>
+              </li>
+            ))}
+            {!loadingStatutes && statutes.length === 0 ? (
+              <li className="sidebar-empty">No eval statutes found</li>
+            ) : null}
+          </ul>
+        </section>
+      </div>
+    ) : (
+      <>
+        {viewSwitch}
+        <Sidebar
+          sources={sources}
+          loadingSources={loadingSources}
+          activeSource={activeSource}
+          onSourceChange={(id) => {
+            setActiveSource(id);
+            setActiveRun(null);
+            setRunDetail(null);
+          }}
+          runs={runs}
+          loadingRuns={loadingRuns}
+          activeRun={activeRun}
+          onRunChange={setActiveRun}
+        />
+      </>
+    );
+
+  const activeStatuteMeta = statutes.find((s) => s.id === activeStatute) ?? null;
+
+  const qaMain = (
+    <div className="main">
+      <header className="main-header">
+        <h1>Data QA{activeStatuteMeta ? ` — ${activeStatuteMeta.label}` : ""}</h1>
+        <p>
+          Audit the generated evaluation data: gold labels, narrations, model × arm
+          disagreements, and annotator bank-validation votes.
+        </p>
+      </header>
+      {error ? <div className="alert alert-error">{error}</div> : null}
+      <DataQaView statute={activeStatuteMeta} />
+    </div>
   );
 
   const main = (
@@ -201,5 +318,5 @@ export const App: React.FC = () => {
     </div>
   );
 
-  return <Layout sidebar={sidebar} main={main} />;
+  return <Layout sidebar={sidebar} main={view === "qa" ? qaMain : main} />;
 };

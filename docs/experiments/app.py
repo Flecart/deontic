@@ -6,6 +6,7 @@
 """
 from __future__ import annotations
 
+import ast
 import json
 import re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -20,6 +21,10 @@ EXPERIMENT_ROOTS = [
 ]
 MODAL_RESULTS = REPO.parent / "modal" / "results"
 EXPA_ROOT = REPO / "eval" / "expA"
+EVAL_ROOT = REPO / "eval"
+QA_EXPS = ["expA", "expB", "expC", "expD", "expE", "expF"]
+QA_CASE_BANKS = ["cases_stage2_memo.jsonl", "cases_memo.jsonl", "cases.jsonl"]
+QA_RESULTS = ["results_stage2_main.jsonl", "results_main.jsonl", "results.jsonl"]
 PORT = 8051
 
 
@@ -813,6 +818,288 @@ def summarize_modal_run(path: Path) -> dict:
     }
 
 
+# ── Data QA (eval/expA…expF statutes) ────────────────────────────────────────
+
+_QA_CACHE: dict[str, dict] = {}
+
+
+def qa_dir(exp_id: str) -> Path | None:
+    if exp_id not in QA_EXPS:
+        return None
+    path = EVAL_ROOT / exp_id
+    return path if path.is_dir() else None
+
+
+def _qa_pick(exp: Path, names: list[str]) -> Path | None:
+    for name in names:
+        path = exp / name
+        if path.is_file():
+            return path
+    return None
+
+
+def _qa_int(qs: dict[str, list[str]], key: str, default: int) -> int:
+    try:
+        return int(qs.get(key, [str(default)])[0])
+    except ValueError:
+        return default
+
+
+def qa_status_key(gold: dict) -> str | None:
+    return next((k for k in gold if k.endswith("_status")), None)
+
+
+def qa_verdict_wrong_fields(row: dict) -> list[str]:
+    """Gold verdict keys the row's pred_verdict misses or contradicts."""
+    gold = row.get("gold") or {}
+    pred = row.get("pred_verdict") or {}
+    return [k for k in gold if pred.get(k) != gold[k]]
+
+
+def parse_descriptions(path: Path) -> dict:
+    """Extract GROUNDABLE + per-atom open/closed text from descriptions.py.
+
+    Parsed with `ast` (never executed) — the files are pure literal data.
+    """
+    out: dict = {"groundable": [], "atoms": {}}
+    try:
+        tree = ast.parse(path.read_text())
+    except (OSError, SyntaxError):
+        return out
+    for node in tree.body:
+        if not isinstance(node, ast.Assign):
+            continue
+        for target in node.targets:
+            if not isinstance(target, ast.Name):
+                continue
+            try:
+                value = ast.literal_eval(node.value)
+            except (ValueError, TypeError, SyntaxError):
+                continue
+            if target.id == "GROUNDABLE" and isinstance(value, list):
+                out["groundable"] = value
+            if target.id == "ATOMS" and isinstance(value, dict):
+                out["atoms"] = {
+                    atom: {
+                        "open": spec.get("open", ""),
+                        "closed": spec.get("closed", ""),
+                    }
+                    for atom, spec in value.items()
+                    if isinstance(spec, dict)
+                }
+    return out
+
+
+def qa_load(exp_id: str) -> dict | None:
+    """Load (and cache, keyed on file mtimes) one statute's QA bundle."""
+    exp = qa_dir(exp_id)
+    if exp is None:
+        return None
+    bank_path = _qa_pick(exp, QA_CASE_BANKS)
+    results_path = _qa_pick(exp, QA_RESULTS)
+    if bank_path is None or results_path is None:
+        return None
+    validation_path = exp / "bank_validation.jsonl"
+    desc_path = exp / "descriptions.py"
+    stamp = tuple(
+        p.stat().st_mtime if p.is_file() else None
+        for p in (bank_path, results_path, validation_path, desc_path)
+    )
+    cached = _QA_CACHE.get(exp_id)
+    if cached and cached["stamp"] == stamp:
+        return cached
+
+    cases = load_events(bank_path)
+    results_by_case: dict[str, list[dict]] = {}
+    result_rows = 0
+    models: set[str] = set()
+    arms: set[str] = set()
+    for row in load_events(results_path):
+        row.pop("raw", None)  # exact prompts/replies live in the run viewer
+        results_by_case.setdefault(row["case_id"], []).append(row)
+        result_rows += 1
+        arms.add(row["arm"])
+        if row.get("model") and row["model"] != "-":
+            models.add(row["model"])
+
+    wrong_by_case = {
+        cid: sum(1 for r in rows if qa_verdict_wrong_fields(r))
+        for cid, rows in results_by_case.items()
+    }
+
+    status_key = qa_status_key(cases[0].get("gold", {})) if cases else None
+    verdicts = sorted(
+        {
+            (c.get("gold") or {}).get(status_key)
+            for c in cases
+            if status_key and (c.get("gold") or {}).get(status_key) is not None
+        }
+    )
+
+    data = {
+        "stamp": stamp,
+        "bank_name": bank_path.name,
+        "results_name": results_path.name,
+        "cases": cases,
+        "results_by_case": results_by_case,
+        "result_rows": result_rows,
+        "wrong_by_case": wrong_by_case,
+        "models": sorted(models),
+        "arms": sorted(arms),
+        "status_key": status_key,
+        "verdicts": verdicts,
+        "validation": load_events(validation_path) if validation_path.is_file() else [],
+        "descriptions": parse_descriptions(desc_path) if desc_path.is_file() else {"groundable": [], "atoms": {}},
+    }
+    _QA_CACHE[exp_id] = data
+    return data
+
+
+def qa_statutes() -> list[dict]:
+    rows: list[dict] = []
+    for exp_id in QA_EXPS:
+        data = qa_load(exp_id)
+        if data is None:
+            continue
+        rows.append(
+            {
+                "id": exp_id,
+                "label": f"Statute {exp_id.removeprefix('exp')}",
+                "case_bank": data["bank_name"],
+                "results_file": data["results_name"],
+                "case_count": len(data["cases"]),
+                "result_rows": data["result_rows"],
+                "models": data["models"],
+                "arms": data["arms"],
+                "status_key": data["status_key"],
+                "verdicts": data["verdicts"],
+                "atoms": data["descriptions"]["groundable"],
+                "has_validation": bool(data["validation"]),
+            }
+        )
+    return rows
+
+
+def qa_case_rows(data: dict, qs: dict[str, list[str]]) -> dict:
+    status_key = data["status_key"]
+    tier = qs.get("tier", [""])[0]
+    verdict = qs.get("verdict", [""])[0]
+    leaky_only = qs.get("leaky", [""])[0] == "1"
+    disagree_only = qs.get("disagree", [""])[0] == "1"
+    query = qs.get("q", [""])[0].strip().lower()
+    offset = max(0, _qa_int(qs, "offset", 0))
+    limit = max(1, _qa_int(qs, "limit", 500))
+
+    rows: list[dict] = []
+    for c in data["cases"]:
+        gold = c.get("gold") or {}
+        if tier and str(c.get("tier")) != tier:
+            continue
+        if verdict and status_key and gold.get(status_key) != verdict:
+            continue
+        if leaky_only and not c.get("leak_flags"):
+            continue
+        wrong = data["wrong_by_case"].get(c["case_id"], 0)
+        if disagree_only and not wrong:
+            continue
+        if query and query not in (c.get("narrative") or "").lower():
+            continue
+        rows.append(
+            {
+                "case_id": c["case_id"],
+                "tier": c.get("tier"),
+                "variant": c.get("variant"),
+                "acted": c.get("acted"),
+                "gold": gold,
+                "leak_flags": c.get("leak_flags") or [],
+                "wrong_rows": wrong,
+                "total_rows": len(data["results_by_case"].get(c["case_id"], [])),
+            }
+        )
+    return {
+        "total": len(rows),
+        "offset": offset,
+        "limit": limit,
+        "status_key": status_key,
+        "cases": rows[offset : offset + limit],
+    }
+
+
+def qa_case_detail(data: dict, case_id: str) -> dict | None:
+    case = next((c for c in data["cases"] if c.get("case_id") == case_id), None)
+    if case is None:
+        return None
+    results: list[dict] = []
+    ordered = sorted(
+        data["results_by_case"].get(case_id, []),
+        key=lambda r: (r.get("model") or "", r.get("arm") or ""),
+    )
+    for row in ordered:
+        wrong_fields = qa_verdict_wrong_fields(row)
+        gold_assignment = row.get("gold_assignment") or {}
+        pred_assignment = row.get("pred_assignment")
+        wrong_atoms = (
+            [a for a in gold_assignment if (pred_assignment or {}).get(a) != gold_assignment[a]]
+            if pred_assignment is not None
+            else []
+        )
+        results.append(
+            {
+                "model": row.get("model"),
+                "arm": row.get("arm"),
+                "pred_verdict": row.get("pred_verdict") or {},
+                "pred_assignment": pred_assignment,
+                "verdict_wrong": bool(wrong_fields),
+                "wrong_fields": wrong_fields,
+                "wrong_atoms": wrong_atoms,
+                "tokens": row.get("tokens"),
+                "secs": row.get("secs"),
+            }
+        )
+    return {"case": case, "status_key": data["status_key"], "results": results}
+
+
+def qa_validation(data: dict) -> dict:
+    """Bank-validation votes grouped per (atom, bank, instance id)."""
+    grouped: dict[tuple, dict] = {}
+    models: set[str] = set()
+    for row in data["validation"]:
+        key = (row.get("atom"), row.get("bank"), row.get("id"))
+        inst = grouped.setdefault(
+            key,
+            {
+                "atom": key[0],
+                "bank": key[1],
+                "id": key[2],
+                "gold_member": row.get("gold_member"),
+                "votes": {},
+            },
+        )
+        model = row.get("model") or "?"
+        models.add(model)
+        inst["votes"][model] = {
+            "annot_member": row.get("annot_member"),
+            "reason": row.get("reason") or "",
+        }
+    instances: list[dict] = []
+    disagreements = 0
+    for inst in grouped.values():
+        inst["disagree"] = any(
+            v["annot_member"] != inst["gold_member"] for v in inst["votes"].values()
+        )
+        disagreements += int(inst["disagree"])
+        instances.append(inst)
+    instances.sort(
+        key=lambda i: (not i["disagree"], i["atom"] or "", i["bank"] or "", i["id"] or "")
+    )
+    return {
+        "models": sorted(models),
+        "total": len(instances),
+        "disagreements": disagreements,
+        "instances": instances,
+    }
+
+
 # ── HTTP ─────────────────────────────────────────────────────────────────────
 
 
@@ -867,6 +1154,36 @@ class Handler(BaseHTTPRequestHandler):
 
         if path == "/api/sources":
             self._send(200, {"sources": discover_sources()})
+            return
+
+        if path == "/api/qa/statutes":
+            self._send(200, {"statutes": qa_statutes()})
+            return
+
+        if path.startswith("/api/qa/"):
+            parts = path.removeprefix("/api/qa/").split("/")
+            data = qa_load(parts[0]) if parts and parts[0] else None
+            if data is None:
+                self._send(404, {"error": f"statute not found: {parts[0] if parts else ''}"})
+                return
+            qs = parse_qs(parsed.query)
+            if len(parts) == 2 and parts[1] == "cases":
+                self._send(200, qa_case_rows(data, qs))
+                return
+            if len(parts) == 3 and parts[1] == "cases" and parts[2]:
+                detail = qa_case_detail(data, parts[2])
+                if detail is None:
+                    self._send(404, {"error": f"case not found: {parts[2]}"})
+                    return
+                self._send(200, detail)
+                return
+            if len(parts) == 2 and parts[1] == "descriptions":
+                self._send(200, data["descriptions"])
+                return
+            if len(parts) == 2 and parts[1] == "validation":
+                self._send(200, qa_validation(data))
+                return
+            self._send(404, {"error": "not found"})
             return
 
         if path == "/api/sources/expA/prompts":
@@ -947,6 +1264,9 @@ def main() -> None:
     print(f"Eval run viewer API on http://127.0.0.1:{PORT}")
     for s in discover_sources():
         print(f"  {s['type']:6} {s['id']} ({s['run_count']} runs)")
+    qa_ids = [e for e in QA_EXPS if qa_dir(e)]
+    if qa_ids:
+        print(f"  qa     data-qa ({', '.join(qa_ids)})")
     server.serve_forever()
 
 

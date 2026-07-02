@@ -142,3 +142,92 @@ export interface RunDetail {
 }
 
 export type ExpARunDetail = RunDetail & { kind: "expa_eval"; source: "expA" };
+
+// ── Data QA (eval/expA…expF) ─────────────────────────────────────────────────
+
+export type QaVerdict = Record<string, string | boolean>;
+
+export interface QaStatute {
+  id: string;
+  label: string;
+  case_bank: string;
+  results_file: string;
+  case_count: number;
+  result_rows: number;
+  models: string[];
+  arms: string[];
+  status_key: string | null;
+  verdicts: string[];
+  atoms: string[];
+  has_validation: boolean;
+}
+
+export interface QaCaseRow {
+  case_id: string;
+  tier: number | null;
+  variant?: number | null;
+  acted?: boolean | null;
+  gold: QaVerdict;
+  leak_flags: string[];
+  wrong_rows: number;
+  total_rows: number;
+}
+
+export interface QaCasesResponse {
+  total: number;
+  offset: number;
+  limit: number;
+  status_key: string | null;
+  cases: QaCaseRow[];
+}
+
+export interface QaPrediction {
+  model: string | null;
+  arm: string;
+  pred_verdict: QaVerdict;
+  pred_assignment: Record<string, boolean> | null;
+  verdict_wrong: boolean;
+  wrong_fields: string[];
+  wrong_atoms: string[];
+  tokens?: number | null;
+  secs?: number | null;
+}
+
+export interface QaCaseFull {
+  case_id: string;
+  tier: number;
+  variant?: number | null;
+  acted?: boolean | null;
+  assignment: Record<string, boolean>;
+  items: CaseItem[];
+  gold: QaVerdict;
+  narrative: string;
+  leak_flags: string[];
+}
+
+export interface QaCaseDetail {
+  case: QaCaseFull;
+  status_key: string | null;
+  results: QaPrediction[];
+}
+
+export interface QaDescriptions {
+  groundable: string[];
+  atoms: Record<string, { open: string; closed: string }>;
+}
+
+export interface QaValidationInstance {
+  atom: string;
+  bank: string;
+  id: string;
+  gold_member: boolean;
+  disagree: boolean;
+  votes: Record<string, { annot_member: boolean; reason: string }>;
+}
+
+export interface QaValidationResponse {
+  models: string[];
+  total: number;
+  disagreements: number;
+  instances: QaValidationInstance[];
+}
