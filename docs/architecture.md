@@ -180,8 +180,8 @@ superiority: r4 > r2, r2e > r2
 
 Three conveniences are **pure rewrites in `Parser.lean`** — they expand before
 `Theory` is built, so `ProofConditions`/`Extension` (the published calculus) are
-untouched. They were added to make large authored theories (see
-`examples/codice_penale/`) read like the source text.
+untouched. They were added to make large authored theories (e.g. the penal-code
+encoding preserved at git tag `codice-penale-final`) read like the source text.
 
 - **`oneof[a, b, c]`** in an antecedent → one rule per disjunct (`label$1`,
   `label$2`, …); several `oneof`s give the cartesian product. Author-written

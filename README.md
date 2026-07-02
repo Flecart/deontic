@@ -109,11 +109,15 @@ cycles are errors too. (Selective `from … import a, b` isn't implemented yet.)
 
 | Path | Scenario |
 |------|----------|
-| `examples/codice_penale/` | **The Italian penal code in DDL** — offences decomposed into adjudicable elements; the flagship. Start at its `README.md` / `PRINCIPLES.md` |
 | `examples/ex1_license.ddl` | License contract (Governatori §4): commission, use, publish |
 | `examples/clauses/` | Single contract clauses, exercised via the `abduce` reverse search |
 | `examples/imports/` | Reusing a shared definitions module (`import` / `from … import *`) |
 | `examples/deprecated/` | Pre-description examples kept for reference (won't load) |
+
+A full encoding of the Italian penal code (754 articles) lived at
+`examples/codice_penale/` and was removed to keep the tree lean; it is preserved
+at the git tag `codice-penale-final`
+(`git checkout codice-penale-final -- examples/codice_penale` to restore).
 
 ## Vision: legal LLMs with formal grounding
 
@@ -135,8 +139,7 @@ The reasoner is deliberately not a black box: output is proof-theoretic tags, no
 ## Documentation
 
 - [Architecture](docs/architecture.md) — modules, fixed-point engine, bearers, syntactic sugar, violations vs judge conflicts, JSON API
-- [Codice Penale example](examples/codice_penale/README.md) — the Italian penal code in DDL; the methodology is in its `PRINCIPLES.md`
-- [Evaluation](docs/evaluation.md) — how to test that the tool beats LLM-only
+- [Evaluation](eval/README.md) — the experiment suite (open-texture generalization, tool vs LLM-only)
 - [LLM prompts](prompts/README.md) — fact extraction from evidence; encoding law as `.ddl`
 
 ## License

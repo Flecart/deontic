@@ -135,7 +135,7 @@ private def parseRule (label : String) (tokens : List String) : Except String Ru
 
 -- ── Sugar: oneof[…], precondition blocks, overrides ──────────────────────────
 -- These are PARSE-TIME desugarings; the proof theory (ProofConditions/Extension)
--- is untouched. See examples/codice_penale for the surface syntax.
+-- is untouched. Surface syntax examples: git tag codice-penale-final.
 
 -- Split a token list on top-level commas (no nesting of `[]` expected inside).
 private def splitTopCommas (toks : List String) : List (List String) :=

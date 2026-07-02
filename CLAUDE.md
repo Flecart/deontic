@@ -43,18 +43,13 @@ module builds; force a re-check with `rm -rf .lake/build/lib/lean/Deontic/Exampl
 | Directed obligations `@Bearer` (scoping, conflicts) | `docs/architecture.md` §Hohfeldian bearers; `Theory.scopedForBearer` |
 | `[JUDGE]` unresolved conflicts vs `+∂_⊥` violations | `Deontic/Conflict.lean`; `docs/architecture.md` |
 | CLI commands, JSON shape | `Main.lean`; `docs/architecture.md` §CLI |
-| Worked theory + the methodology | `examples/codice_penale/` (`README.md`, `PRINCIPLES.md`, `coverage.md`) |
 | LLM workflows (text→`.ddl`, fact extraction) | `prompts/` |
-| How to evaluate "tool vs LLM-only" | `docs/evaluation.md` |
+| The experiment suite (open-texture generalization, six statutes) | `eval/` (`README.md`, `QA_PROTOCOL.md`, `expA`…`expF`) |
 
-**Flagship example — `examples/codice_penale/`**: the Italian penal code as DDL.
-~395 offence articles are element-decomposed (precetto @Chiunque / sanzione
-@Giudice / pena; scriminanti + imputabilità in `parte_generale.ddl`, shared
-vocabulary in `definizioni.ddl`); Libro I is grounded as described atoms. Authored
-via the **spec-driven generator** `tools/gen.py` + `tools/specs.txt` (NOT the
-rejected coarse generator — decomposition is hand-written; the script fills
-provenance + scaffolding). Run `bash examples/codice_penale/tests.sh` (uses
-`check`, the enforcing load — `atoms` is non-enforcing and hides missing descriptions).
+**Removed flagship — the Italian penal code as DDL** (754 articles, worked
+methodology in its `PRINCIPLES.md`): taken out of the tree to keep the repo
+lean. Preserved at git tag `codice-penale-final`; restore with
+`git checkout codice-penale-final -- examples/codice_penale`.
 
 **Two engine gotchas that bite when authoring `.ddl`** (verified, easy to miss):
 plain (non-deontic) body literals must be **facts** — a constitutive `=>`
@@ -105,9 +100,10 @@ later than its target (this is why `overrides` gates on plain facts).
 `Deontic/` — the library (`Basic` → `Theory` → `Applicability`/`ProofConditions`
 → `Extension`/`Conflict` → `Query`/`Abduce` → `Pretty`; `Parser` standalone;
 `Examples` holds tests). `Main.lean` — the CLI. `examples/` — `.ddl` theories
-(`codice_penale/` = the big one; `clauses/` = single contract clauses with
-sources; `imports/` = shared-module reuse; `deprecated/` = pre-grounding, won't
-load). `prompts/` — LLM workflow prompts. `docs/architecture.md` — design depth.
+(`clauses/` = single contract clauses with sources; `imports/` = shared-module
+reuse; `deprecated/` = pre-grounding, won't load; the penal-code flagship lives
+at git tag `codice-penale-final`). `eval/` — the experiment suite. `prompts/` —
+LLM workflow prompts. `docs/architecture.md` — design depth.
 
 A persistent memory dir (project goals, design decisions, user preferences) loads
 via `MEMORY.md` each session — trust it but verify any symbol it names still exists.
