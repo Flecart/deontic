@@ -45,6 +45,7 @@ module builds; force a re-check with `rm -rf .lake/build/lib/lean/Deontic/Exampl
 | CLI commands, JSON shape | `Main.lean`; `docs/architecture.md` §CLI |
 | LLM workflows (text→`.ddl`, fact extraction) | `prompts/` |
 | The experiment suite (open-texture generalization, six statutes) | `eval/` (`README.md`, `QA_PROTOCOL.md`, `expA`…`expF`) |
+| Paper strategy, claim discipline, open decisions | `docs/positioning.md` — **read before touching `paper/`** |
 
 **Removed flagship — the Italian penal code as DDL** (754 articles, worked
 methodology in its `PRINCIPLES.md`): taken out of the tree to keep the repo

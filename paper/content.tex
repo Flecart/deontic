@@ -20,27 +20,35 @@
 % \renewcommand{\SAM}[1]{}
 
 \begin{abstract}
-Legal theory treats \emph{open texture} --- Hart's ``no vehicles in the park''
---- as the reason normative text resists formalization: the predicates of a
-norm do not carry their extensions with them, so a drafter cannot enumerate at
+Societies of LLM agents have begun to transact, delegate, and share
+resources, and what governs them is unsettled: simulated agent societies
+collapse without institutions, emergent conventions bind no one, and the
+formal institutions on offer --- mechanism design, hard-coded protocols ---
+cannot reach situations their designers never enumerated. Human law solved
+precisely this problem, and AI \& Law has spent four decades explaining why
+its solution resists formalization: legal predicates are \emph{open-textured}
+--- Hart's ``no vehicles in the park'' --- so a drafter cannot fix at
 drafting time what ``vehicle'' will mean at application time. We invert the
-claim: open texture is law's \emph{generalization mechanism}, a deliberate
-deferral of concept-binding to application time, and the only thing it ever
-required was a competent interpreter present when the case arrives. LLMs now
-supply that interpreter at negligible cost. We contribute (i) a
-\emph{benchmark-generation pipeline} for legal analogical reasoning in which a
-defeasible deontic logic engine makes gold labels correct by construction,
-instance novelty is a controlled variable, and contamination --- unmeasurable
-on human-statute benchmarks --- is eliminated by design; (ii) an
-\emph{architecture} that factors a machine-readable norm into a formal
-defeasible skeleton (exceptions, superiority, violation vs.\ compensation ---
-computed deterministically with proof certificates) over open-textured
-predicates whose natural-language descriptions an LLM grounds case by case;
-and (iii) an \emph{economic analysis} in the rules-vs-standards tradition.
-We build six synthetic statutes spanning the institutions an agent economy
-must govern --- information transfer, a resource commons, delegated
-authority, exchange, agent safety, plus Hart's park ordinance --- $\sim$1{,}700
-cases over three novelty tiers. Two results hold. First, at the
+obstacle: open texture is law's \emph{generalization mechanism}, a deliberate
+deferral of concept-binding to application time, and all it ever required was
+a competent interpreter present when the case arrives. LLMs now supply that
+interpreter at negligible cost --- and machine societies supply what human
+law never had: a legislator who owns the vocabulary, can stipulate
+priorities, and can construct evaluation worlds where the correct verdict is
+known. We contribute (i) a \emph{benchmark-generation pipeline} for
+open-texture generalization in which a defeasible deontic logic engine makes
+gold labels correct by construction, instance novelty is a controlled
+variable, and contamination --- unmeasurable on human-statute benchmarks ---
+is eliminated by design; (ii) an \emph{architecture} that factors a
+machine-readable norm into a formal defeasible skeleton (exceptions,
+superiority, violation vs.\ compensation --- computed deterministically with
+proof certificates) over open-textured predicates whose natural-language
+descriptions an LLM grounds case by case; and (iii) an \emph{economic
+analysis} in the rules-vs-standards tradition. We build six synthetic
+statutes spanning the institutions an agent economy must govern ---
+information transfer, a resource commons, delegated authority, exchange,
+agent safety, plus Hart's park ordinance --- $\sim$1{,}700 cases over three
+novelty tiers. Two results hold. First, at the
 \emph{predicate} layer, pooled across all six statutes the extensional
 (closed) curve \emph{decays} with novelty (91.6$\to$80.1\%) while the
 intensional (open) curve stays \emph{flat} (82.7$\to$83.0\%): the Kaplow
@@ -67,9 +75,9 @@ verdict-layer cost of the formal engine can \emph{reverse} on deep structure
 --- a model competitive on small statutes falls to the chance baseline on a
 five-deep exception chain the engine resolves exactly, so factoring the
 deduction out rescues rather than taxes accuracy for the interpreters that
-lose the thread. We discuss the implication for
-constitution-style alignment: invest in interpretable principles and ex-post
-interpretation, not in longer ex-ante enumerations.
+lose the thread. We close with what this licenses for constitution-style
+governance of agent societies: invest in interpretable principles and
+ex-post interpretation, not in longer ex-ante enumerations.
 \end{abstract}
 
 \section{Introduction}
@@ -87,8 +95,12 @@ no flexibility of interpretation --- yet the defining feature of an
 new tools, spawn sub-environments, and produce situations the institution
 designer never enumerated. Prior work recognized this gap but proposed
 intrinsically prosocial agents as the remedy~\citep{prosocial2026}, which
-governs only the agents one trained. What is missing is an institution
-that is \emph{formal enough to verify} and \emph{open enough to generalize}.
+governs only the agents one trained. What is missing is an institution that
+is \emph{formal enough to verify} and \emph{open enough to generalize} ---
+and that is not a problem multi-agent systems research has to solve from
+scratch. It is the constitutive trade-off of a discipline that has studied
+normative institutions for centuries, and of the field that has spent forty
+years trying to compute them.
 
 \begin{figure}[t]
 \centering
@@ -122,6 +134,28 @@ purpose defers binding, and therefore reaches instances from worlds that did
 not exist when it was written. Deferral was an obstacle for machine-readable
 norms for a mundane reason: there was nothing competent to defer \emph{to}.
 
+The subject of this paper is therefore law, but not law for humans: law as
+the normative infrastructure of computational agent societies. The change of
+jurisdiction matters more than it may appear, because the conditions that
+kept legal formalization fragile for human law are contingencies of human
+institutions, not of law's structure. Human legal formalization inherits a
+vocabulary fragmented across thousands of drafters, an authority structure it
+cannot edit, and interpretive questions with no ground truth. In an agent
+society \emph{the legislator is the system designer}: shared, described
+predicate vocabularies are viable rather than utopian; priority between
+conflicting rules can be stipulated rather than litigated; and evaluation
+worlds can be constructed in which the correct verdict is known. Law for
+agentic systems is thus not a metaphor borrowed by computer science --- it is
+the first jurisdiction in which AI \& Law's theory of open texture,
+defeasibility, and the rules-vs-standards trade can be implemented,
+instrumented, and measured end to end. The institution we envision is
+dynamic: a society chartered with a few broad, open-textured principles
+(\emph{do no harm}; \emph{help humans}) whose rules grow more precise as the
+society meets new problems. This paper measures the static foundation that
+refinement loop rests on --- and already constrains its design: as we show,
+refinement must sharpen intensions, not accumulate enumerations
+(\S Results).
+
 \citet{kaplow1992rules} makes the trade economic: rules are specified ex ante
 (cheap to apply, brittle to the unforeseen); standards acquire content ex post
 at adjudication (robust, but each application costs an interpretation). Where
@@ -140,6 +174,22 @@ superiority, obligation/permission/prohibition, violation versus compensation
 tokens whose mandatory natural-language description is their contract, and
 whose only LLM-facing task is the penumbra problem in its smallest form:
 \emph{does this fact situation fall under this described concept?}
+
+One boundary must be drawn precisely, because this community owns the term.
+What our benchmark measures is \emph{subsumption under a stated intension}
+--- Hart's penumbra question --- not analogical reasoning in the
+case-based-reasoning sense of HYPO and CATO~\citep{ashley1990modeling,
+aleven2003using}: there are no precedents in the system, and the grounder
+maps a fact situation to a described concept, not to a decided source case.
+The distinction is load-bearing rather than defensive, because our data speak
+to it: the one binding in our design that does invite reasoning from
+instances --- the closed enumeration, and the redrafts that repair a standard
+by listing example forms --- is precisely the binding that decays out of
+distribution, while reasoning from a stated purpose stays flat. In this
+setting, exemplars are the brittle mode and intension is the robust one. We
+accordingly do not claim that LLMs perform legal analogy; we measure the
+prior question on which any interpretive institution rests --- whether a
+described concept binds novel instances reliably enough to build on.
 
 Measuring whether that factorization works requires a benchmark that does not
 exist: one that varies \emph{how a concept is defined} (extensional
@@ -170,12 +220,13 @@ We organize the evaluation around four research questions:
 \end{itemize}
 
 \noindent\textbf{Contributions.}
-(1)~A benchmark and generation pipeline for legal analogical reasoning under
-controlled novelty, with engine-verified gold, contamination ruled out by
-construction, and an audit methodology in which independent
-disagreement-with-gold acts as a bug detector for both the world model and
-the drafted intensions themselves (\S Method). The pipeline is
-statute-agnostic; we instantiate it on six statutes spanning the institutions an agent economy must govern.
+(1)~A benchmark and generation pipeline for open-texture generalization ---
+subsumption of novel instances under described concepts --- with controlled
+novelty, engine-verified gold, contamination ruled out by construction, and
+an audit methodology in which independent disagreement-with-gold acts as a
+bug detector for both the world model and the drafted intensions themselves
+(\S Method). The pipeline is statute-agnostic; we instantiate it on six
+statutes spanning the institutions an agent economy must govern.
 (2)~An architecture for machine-readable norms --- defeasible deontic
 skeleton over LLM-grounded open-textured predicates --- with deterministic,
 certificate-bearing deduction (\S Method; engine in Appendix~A).
@@ -284,7 +335,7 @@ intension does. We position this work as the missing layer these literatures
 point at from both sides: a verifiable normative institution whose
 open-textured predicates are interpreted at machine speed.
 
-\section{Method: A Benchmark for Analogical Rule Application}
+\section{Method: A Benchmark for Open-Texture Generalization}
 
 \subsection{Setting and why we chose it}
 
