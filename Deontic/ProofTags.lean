@@ -63,6 +63,14 @@ def Derivation.hasNegative (d : Derivation) (mod : Modality) (l : Lit) : Bool :=
 def Derivation.hasPositiveAny (d : Derivation) (mod : Modality) (l : Lit) : Bool :=
   d.any fun tl => tl.positive && tl.modality == mod && tl.lit == l
 
+/-- `+∂_mod lit` for a specific bearer. Constitutive (`C`) tags are bearer-neutral
+(`bearer = none`) and visible to every party slice. -/
+def Derivation.hasPositiveForBearer (d : Derivation) (b : Option String)
+    (mod : Modality) (l : Lit) : Bool :=
+  d.any fun tl =>
+    tl.positive && tl.modality == mod && tl.lit == l &&
+    (mod == .C && tl.bearer == none || tl.bearer == b)
+
 -- ── Bearer-scoped views (for the per-bearer fixed point in Extension) ─────────
 -- `scopeForBearer b`: the slice of the derivation visible to bearer `b`'s
 -- obligation derivation — every constitutive (`C`) tag (bearer-neutral, shared)

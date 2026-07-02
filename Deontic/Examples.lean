@@ -72,21 +72,21 @@ def ex4Theory : Theory := { ex3Theory with
 #eval do
   IO.println "=== Example 1A: license + publish + remove ==="
   let ext := computeExtension ex1Theory
-  IO.println (renderQueryResults ["use", "publish", "comment"] ext)
+  IO.println (renderQueryResults ex1Theory ["use", "publish", "comment"] ext none)
   IO.println s!"  violation: {ext.hasViolation}"
   IO.println s!"  unresolved: {ext.unresolvedConflicts.length}"
 
 #eval do
   IO.println "=== Example 1B: license + publish (no removal) ==="
   let ext := computeExtension ex1TheoryB
-  IO.println (renderQueryResults ["use", "publish", "comment"] ext)
+  IO.println (renderQueryResults ex1TheoryB ["use", "publish", "comment"] ext none)
   IO.println s!"  violation: {ext.hasViolation}"
   IO.println s!"  unresolved: {ext.unresolvedConflicts.length}"
 
 #eval do
   IO.println "=== Example 1C: license + commission ==="
   let ext := computeExtension ex1TheoryC
-  IO.println (renderQueryResults ["use", "publish", "comment"] ext)
+  IO.println (renderQueryResults ex1TheoryC ["use", "publish", "comment"] ext none)
   IO.println s!"  violation: {ext.hasViolation}"
   if ext.hasUnresolvedConflicts then
     IO.println (renderUnresolvedConflicts ext)
@@ -94,12 +94,12 @@ def ex4Theory : Theory := { ex3Theory with
 #eval do
   IO.println "=== Example 3: ExpressionDissatisfaction + InformationCall ==="
   let ext := computeExtension ex3Theory
-  IO.println (renderQueryResults ["complaint"] ext)
+  IO.println (renderQueryResults ex3Theory ["complaint"] ext none)
 
 #eval do
   IO.println "=== Example 4: + AdviseComplaint ==="
   let ext := computeExtension ex4Theory
-  IO.println (renderQueryResults ["complaint"] ext)
+  IO.println (renderQueryResults ex4Theory ["complaint"] ext none)
 
 -- ── Abduction: which facts make a goal hold? ──────────────────────────────────
 -- NDA confidentiality clause (cf. examples/other.ddl): default prohibition on
