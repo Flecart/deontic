@@ -171,12 +171,14 @@ def cmd_store(args):
     rng = random.Random(args.seed)
     uni_chosen: set[int] = set()
     j_toks = 0
+    tok_lock = __import__("threading").Lock()
 
     def adjudicate_into(st: Store, case: dict, now_t: int, reasons: list[str]):
         nonlocal j_toks
         prec = st.retrieve(case["narrative"], args.k, "embed", before_t=now_t)
         adj = judge.adjudicate(case["narrative"], render_block(prec, LABELS))
-        j_toks += adj["tokens"]
+        with tok_lock:
+            j_toks += adj["tokens"]
         st.add({"case_id": case["case_id"], "t": now_t, "facts": case["narrative"],
                 "findings": adj["findings"],
                 "verdict": verdict_of(adj["findings"], case["acted"]),
@@ -189,30 +191,39 @@ def cmd_store(args):
         for i, case in enumerate(cases):
             tris = [firstpass[(i, mi)] for mi in range(len(dspecs))]
             vs = [verdict_of(t, case["acted"]) for t in tris]
+            # A dispute is OUTCOME-level divergence (Priest-Klein: parties file
+            # when their predicted outcomes differ). Unknown atoms alone are
+            # honest epistemic gaps, recorded below but NOT a dispute trigger —
+            # an unknown that matters flips a verdict; one that doesn't isn't
+            # worth adjudicating.
             reasons = []
             if len({v["share_status"] for v in vs}) > 1:
                 reasons.append("verdict_disagreement")
-            if any("unknown" in t.values() for t in tris):
-                reasons.append("unknown_atom")
             if any(v["share_status"] == "unresolved" for v in vs):
                 reasons.append("engine_unresolved")
             if reasons:
                 print(f"adjudicating t={case['t']} ({'+'.join(reasons)}); "
                       f"store={len(store)}", file=sys.stderr)
-                adjudicate_into(store, case, case["t"], reasons)
+                jobs = [(store, case, case["t"], reasons)]
                 if uni is not None:   # matched accretion clock, uniform pick
                     avail = [j for j in range(i + 1) if j not in uni_chosen]
                     if avail:
                         j = rng.choice(avail)
                         uni_chosen.add(j)
-                        adjudicate_into(uni, cases[j], case["t"], ["uniform"])
+                        jobs.append((uni, cases[j], case["t"], ["uniform"]))
+                # the two adjudications are independent (different stores) —
+                # run the pair concurrently to halve the sequential wall time
+                with ThreadPoolExecutor(max_workers=2) as ex:
+                    list(ex.map(lambda a: adjudicate_into(*a), jobs))
             dlog.write(json.dumps({
                 "case_id": case["case_id"], "t": case["t"], "tier": case["tier"],
                 "contested": bool(reasons), "reasons": reasons,
+                "any_unknown": any("unknown" in t.values() for t in tris),
                 "first_pass": {dnames[mi]: tris[mi] for mi in range(len(dspecs))},
                 "first_verdicts": {dnames[mi]: vs[mi]["share_status"]
                                    for mi in range(len(dspecs))},
                 "gold": case["gold"]["share_status"]}) + "\n")
+            dlog.flush()
 
     store.save(out_dir / "store_precedent.jsonl")
     print(f"store_precedent: {len(store)} holdings "
