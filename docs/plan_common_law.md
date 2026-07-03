@@ -6,6 +6,23 @@ need Angelo's steer (§7). Cold-start order: `CLAUDE.md` →
 `docs/positioning.md` → this file. The two prior artifacts this plan builds on
 are `freight/Report.md` (the pilot) and `eval/README.md` (the static suite).
 
+## Status 2026-07-03 — M0 done; E1+E2 first full run on expA (DONE)
+
+Pipeline + 200-case stream + sonnet-5 adjudicator built and run; findings in
+**`eval/expA/REPORT_E1E2.md`** (read that first — this block is the index).
+Coordination claim confirmed (κ 0.45→0.79 under precedent, rising with store);
+selection claim confirmed (dispute-selected best at n=39, 94.4%, beats
+uniform and oracle error-sampling); retrieval ablation delivered (embed 11% /
+atom 27% / gold 73% P@5). **Gate X/Y not met by adjudicated arms** — the
+goldfs ceiling clears the frontier (+9.2pp over closed), and the miss is
+fully attributed: adjudicator-noise tax (+15–19pp at n≥10). Bonus arc: the
+six-regime override ladder (text amendments fail; binding+mandatory exemplar
+cases recover emergency FN 24→7 but induce over-following) — E4's
+stare-decisis tradeoff already measured at n=57. Open for Angelo: full
+12-model panel spend, expC/expF ports, paper integration, EACL call (the
+narrow NLP cut now includes the retrieval-with-gold-relevance result AND the
+override ladder — arguably stronger than planned).
+
 ## 0. Thesis
 
 **DECIDED (direction).** For societies of LLM agents, norms should be shipped
