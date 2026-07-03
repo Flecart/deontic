@@ -109,7 +109,11 @@ holdings:
 
 **F7 — litigation is active learning.** Dispute-selected accretion is
 monotone in n and best at scale: at n=39 it beats uniform by +7.2pp and even
-edges the oracle error-sampling ceiling. Agreement tells the same story:
+edges the oracle error-sampling ceiling. Robust to uniform's sampling seed:
+across three seeds uniform spans [85.6, 87.8]% at n=39 (dispute 94.4% clears
+the whole range) and dispute ≥ the across-seed maximum at every n ≥ 5
+(`results_e2_seed{1,2}.jsonl`; dispute/oracle/recency selections are
+deterministic). Agreement tells the same story:
 dispute κ rises monotonically 0.668→**0.899** (highest everywhere at n≥10),
 while recency peaks at n=10 and decays — old cases go stale; disputed cases
 stay on the boundary.
@@ -222,7 +226,8 @@ matters precisely because bindingness is what manufactures coherence.
 
 One statute (expA), 3 cheap grounders, one narrator (shared-narrator confound
 as in stage 2), one judge; E2 evaluates a 60-case tail with nested store
-prefixes (no reshuffled replicates yet); k=5 fixed everywhere; the dispute
+prefixes (uniform now replicated over 3 seeds; the tail itself is single);
+k=5 fixed everywhere; the dispute
 pair is capability-asymmetric (deepseek's 14% contested accuracy makes it
 close to a noise party — rerun with a matched pair before claiming the win-
 share number as a general result); gate cells at last-tercile×tier are small
