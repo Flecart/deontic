@@ -44,6 +44,13 @@ def main():
                     help="seed the store with N officially-decided exemplar "
                          "cases (gold findings, t=-1): the 'worked examples "
                          "shipped with the statute' institution")
+    ap.add_argument("--binding", action="store_true",
+                    help="strict stare decisis: precedents/exemplars bind on "
+                         "like facts; distinguishing requires naming the "
+                         "missing or contradicted fact")
+    ap.add_argument("--seed-mandatory", action="store_true",
+                    help="exemplars appear in EVERY adjudication (mandatory "
+                         "authorities) instead of competing in retrieval")
     ap.add_argument("--k", type=int, default=5)
     ap.add_argument("--embed", default="openai", choices=["auto", "openai", "offline"])
     args = ap.parse_args()
@@ -58,9 +65,18 @@ def main():
               "need that cannot wait), find the condition true; do not demand "
               "proof beyond the memo, and do not treat the mere possibility of "
               "alternatives as contradiction.")
+    BINDING = ("Stare decisis (strict): prior adjudicated cases — and above "
+               "all, officially decided examples issued with the statute — are "
+               "BINDING where the memo's facts are alike on the point they "
+               "decide. Follow them. You may distinguish ONLY by naming a "
+               "specific fact the earlier holding required that is absent or "
+               "contradicted in this memo; general doubts about a condition do "
+               "not justify departing from a decided case.")
+    procedure = "\n\n".join(p for p, on in ((BURDEN, args.burden),
+                                            (BINDING, args.binding)) if on)
     spec = resolve(args.judge)
     judge = Adjudicator(make_client(spec), spec, LABELS, defs_text(args.defs),
-                        procedure=BURDEN if args.burden else "")
+                        procedure=procedure)
     store = Store(GROUNDABLE, args.embed)
     if args.seed_gold:
         # exemplars = first N SETTLED emergency-true cases (the atom the whole
@@ -69,24 +85,30 @@ def main():
         settled = {d["case_id"] for d in
                    (json.loads(l) for l in Path(args.disputes).read_text().splitlines() if l)
                    if not d["contested"]}
-        seeds = [c for c in cases.values()
-                 if c["case_id"] in settled and c["assignment"]["emergency"]][:args.seed_gold]
-        for c in seeds:
-            store.add({"case_id": f"seed_{c['case_id']}", "t": -1,
-                       "facts": c["narrative"],
-                       "findings": {a: ("true" if v else "false")
-                                    for a, v in c["assignment"].items()},
-                       "verdict": c["gold"],
-                       "rationale": "Officially decided example issued with the statute.",
-                       "cites": [], "judge": "legislator", "contested": [],
-                       "assign_key": c["assign_key"]})
-        print(f"seeded {len(seeds)} official exemplars", file=sys.stderr)
+        picked = [c for c in cases.values()
+                  if c["case_id"] in settled and c["assignment"]["emergency"]][:args.seed_gold]
+        seed_holdings = [{"case_id": f"seed_{c['case_id']}", "t": -1,
+                          "facts": c["narrative"],
+                          "findings": {a: ("true" if v else "false")
+                                       for a, v in c["assignment"].items()},
+                          "verdict": c["gold"],
+                          "rationale": "Officially decided example issued with the statute.",
+                          "cites": [], "judge": "legislator", "contested": [],
+                          "assign_key": c["assign_key"]} for c in picked]
+        if not args.seed_mandatory:     # retrieval-gated: compete in the store
+            for h in seed_holdings:
+                store.add(h)
+        print(f"seeded {len(seed_holdings)} official exemplars "
+              f"({'mandatory' if args.seed_mandatory else 'retrieval-gated'})",
+              file=sys.stderr)
 
+    mand = seed_holdings if (args.seed_gold and args.seed_mandatory) else []
     ok = 0
     for d in contested:
         case = cases[d["case_id"]]
         prec = store.retrieve(case["narrative"], args.k, "embed", before_t=case["t"])
-        adj = judge.adjudicate(case["narrative"], render_block(prec, LABELS))
+        adj = judge.adjudicate(case["narrative"], render_block(mand + prec, LABELS))
+        prec = mand + prec      # recorded as seen-by-judge
         verdict = verdict_of(adj["findings"], case["acted"])
         ok += verdict["share_status"] == case["gold"]["share_status"]
         store.add({"case_id": case["case_id"], "t": case["t"],
