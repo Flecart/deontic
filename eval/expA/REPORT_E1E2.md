@@ -205,6 +205,19 @@ intervention made individual verdicts better but the case law *less stable*
 across narrations of the same latent situation — accuracy and stability of
 precedent are separate axes.)
 
+**Coda — better judging does not transmit (pre-registered ~85%: falsified).**
+Re-running E2's `dispute_adj` with the v6 store: at n=39, 76.7% vs the v1
+store's 76.1% — downstream grounders gained nothing from a judge that
+improved 54.4→68.4%, and the n=5 point *dropped* (81.1→71.1%). The v6 store
+is more accurate per holding but far less coherent (0.56 vs 0.875), and what
+retrieval-conditioned grounders appear to consume is the store's
+*consistency*, not the judge's average correctness. The freight pilot's rule
+— never report welfare without coherence — is not just hygiene; it is the
+transmission mechanism. For the program: adjudicator improvements must be
+evaluated on (accuracy × coherence), and E4's stare-decisis knob likely
+matters precisely because bindingness is what manufactures coherence.
+(`results_e2_v6.jsonl`.)
+
 ## Limitations
 
 One statute (expA), 3 cheap grounders, one narrator (shared-narrator confound
