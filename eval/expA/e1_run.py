@@ -101,12 +101,17 @@ Reply with ONLY a JSON object mapping each condition name to "true", "false" or 
 "unknown". Example: {{"C1": "true", "C2": "false"}}"""
 
 
+GROUND_TIMEOUT = 180        # s per grounding call; a hung provider must not stall the stream
+
+
 def ground_tri(client, spec, memo: str, defs: str, prec_block: str | None = None):
     """One batched grounding call; tri-state result. Returns (tri, toks, raw)."""
     if prec_block is None:
         prompt = GROUND_PROMPT.format(defs=defs, memo=memo)
     else:
         prompt = PREC_GROUND_PROMPT.format(defs=defs, precedents=prec_block, memo=memo)
+    if hasattr(client, "with_options"):       # StubClient has no options
+        client = client.with_options(timeout=GROUND_TIMEOUT, max_retries=1)
     r = _create(client, spec, [{"role": "user", "content": prompt}])
     text = r.choices[0].message.content or ""
     blob = parse_json_blob(text) or {}
@@ -150,9 +155,11 @@ def cmd_store(args):
     jobs = [(i, mi) for i in range(len(cases)) for mi in range(len(dspecs))]
     firstpass, fp_toks = {}, 0
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        for i, mi, tri, toks in pool.map(one, jobs):
+        for n_done, (i, mi, tri, toks) in enumerate(pool.map(one, jobs), 1):
             firstpass[(i, mi)] = tri
             fp_toks += toks
+            if n_done % 50 == 0:
+                print(f"first pass {n_done}/{len(jobs)}", file=sys.stderr)
     print(f"first pass done: {len(cases)} cases x {len(dspecs)} models, "
           f"{fp_toks} tokens", file=sys.stderr)
 
@@ -190,6 +197,8 @@ def cmd_store(args):
             if any(v["share_status"] == "unresolved" for v in vs):
                 reasons.append("engine_unresolved")
             if reasons:
+                print(f"adjudicating t={case['t']} ({'+'.join(reasons)}); "
+                      f"store={len(store)}", file=sys.stderr)
                 adjudicate_into(store, case, case["t"], reasons)
                 if uni is not None:   # matched accretion clock, uniform pick
                     avail = [j for j in range(i + 1) if j not in uni_chosen]

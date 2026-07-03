@@ -74,8 +74,11 @@ class Adjudicator:
         prompt = ADJUDICATE_PROMPT.format(defs=self.defs_text,
                                           precedents=precedent_block, memo=memo)
         toks, raw = 0, ""
+        client = self.client
+        if hasattr(client, "with_options"):   # adjudication thinks; still bound it
+            client = client.with_options(timeout=600, max_retries=1)
         for attempt in range(3):
-            r = _create(self.client, self.spec, [{"role": "user", "content": prompt}])
+            r = _create(client, self.spec, [{"role": "user", "content": prompt}])
             self.calls += 1
             raw = r.choices[0].message.content or ""
             usage = getattr(r, "usage", None)
