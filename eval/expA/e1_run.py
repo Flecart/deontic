@@ -68,6 +68,8 @@ def _def_of(atom: str, regime: str) -> str:
         return (ATOMS[atom]["closed"]
                 + "; or, beyond the listed categories, any case where "
                 + ATOMS[atom]["open"])
+    if regime == "open2":   # evidentiary redrafts where drafted; open elsewhere
+        return ATOMS[atom].get("open2", ATOMS[atom]["open"])
     return ATOMS[atom][regime]
 
 

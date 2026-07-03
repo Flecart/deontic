@@ -31,7 +31,7 @@ facts, and do not restate the definitions.
 
 Conditions:
 {defs}
-
+{procedure}
 Prior adjudicated cases:
 {precedents}
 
@@ -58,12 +58,16 @@ class Adjudicator:
     """`labels` maps atom name -> neutral label (C1..Cn); `defs_text` is the
     already-rendered condition list using those labels."""
 
-    def __init__(self, client, spec, labels: dict[str, str], defs_text: str):
+    def __init__(self, client, spec, labels: dict[str, str], defs_text: str,
+                 procedure: str = ""):
         self.client = client
         self.spec = spec
         self.labels = labels
         self.inv = {v: k for k, v in labels.items()}
         self.defs_text = defs_text
+        # optional procedural rule (e.g. a standard-of-proof clause) inserted
+        # between the definitions and the precedents
+        self.procedure = f"\n{procedure}\n" if procedure else ""
         self.calls = 0
 
     def adjudicate(self, memo: str, precedent_block: str) -> dict:
@@ -72,6 +76,7 @@ class Adjudicator:
         row is logged; the stub smoke path lands here by design)."""
         from agents import _create
         prompt = ADJUDICATE_PROMPT.format(defs=self.defs_text,
+                                          procedure=self.procedure,
                                           precedents=precedent_block, memo=memo)
         toks, raw = 0, ""
         client = self.client
