@@ -162,6 +162,82 @@ accountable through precedent," measured directly, without welfare
 aggregation. Reuses `freight/agents.py` + `judge.py` nearly unchanged.
 
 
+## 2.5 Theory track (WP-T) — a formal model of common law (brainstormed 2026-07-02)
+
+Discipline: theory must *predict experiments*, not decorate them. Every
+proposition should output a curve one of E1–E3-lite can plot. Four layers,
+micro → macro:
+
+**T1 — Interpretation is statistical learning (frames E1).** A norm is a
+concept c: X → {0,1} over fact-situations; *drafting* is a hypothesis-class
+choice. Closed enumeration = restricted class: low variance, irreducible
+**bias** that Tier-2 distribution shift exposes. Open intension applied by an
+LLM grounder = rich class: low bias, high **variance** (grounder noise).
+**The static drafting frontier is a bias–variance tradeoff; precedent is
+variance reduction at fixed low bias.** Consistency (inter-grounder
+agreement) = 1 − mass of the disagreement region; the version space is the
+right object. This one paragraph *is* the formal answer to "why does
+precedent dominate."
+
+**T2 — Litigation is disagreement-based active learning (headline
+proposition; formalizes E2).** Model parties' win-priors as shared
+retrieval-based estimate + private noise; settlement fails iff
+divergence × stakes > filing cost c_f. Then filed cases lie in the version
+space's **disagreement region**, so common-law accretion implements
+CAL/query-by-committee with the query threshold set by economics (c_f).
+Candidate results: (i) label-complexity separation of dispute-selected vs
+uniform accretion via Hanneke's disagreement coefficient — the formal
+version of "litigation is active learning"; (ii) invocation decay =
+query-rate decay in CAL — predicting the *shape* of E3-lite's filing curve,
+not just its direction.
+
+**T3 — The case base is Horty's precedential constraint (meso; grounds the
+instrument).** Case-base *consistency* is already formally defined in the
+factor model (Horty; Horty & Bench-Capon). Candidate proposition: our
+holdings→DDL compilation + closure check is a decidable consistency test for
+that fragment — i.e., the coherence monitor *is* Horty-consistency,
+implemented. Distinguishing = version-space carving. Bridge literature:
+the recent line connecting precedential constraint to ML classifiers
+(van Woerkom / Grossi / Prakken / Verheij — verify cites).
+
+**T4 — Precedent dynamics are reinforced processes (macro; formalizes the
+deferred E4).** Binding precedent makes sequential decisions correlated:
+stare decisis as **Pólya-urn reinforcement / information cascade**. With
+judge accuracy q and bindingness β, lock-in on a wrong rule has positive
+probability for β→1; distinguishing (subsumption-gated following) restores
+almost-sure correction. Cf. Gennaioli–Shleifer's evolution-of-common-law
+model and Daughety–Reinganum's judicial cascades. Prediction: correction
+half-life rises sharply in β — the E4 curve, derivable before E4 runs.
+
+**Why consistency is the right target (the game-theoretic frame).**
+Hadfield & Weingast's coordination model of legal order + McAdams's
+focal-point theory: decentralized enforcement works only when third parties
+*classify conduct convergently*. Consistency is not an aesthetic preference —
+it is the equilibrium condition for law without a sovereign, which is
+precisely the agent-society setting. This is the paper's answer to "why
+measure agreement at all."
+
+**Scope:** Paper 1 gets the T1 framing + the T2 proposition (+ T3 if the
+proof is short); T4 and full treatment = standalone theory paper or Paper 2.
+
+**Reading list** (by layer; ~verify recent AI&Law cites):
+- *Active learning:* Settles 2012 (survey); Hanneke 2014, *Theory of
+  Disagreement-Based Active Learning* (FnTML); Cohn–Atlas–Ladner 1994 (CAL);
+  Seung–Opper–Sompolinsky 1992 (query-by-committee).
+- *Law & economics:* Priest & Klein 1984; Gennaioli & Shleifer 2007 (QJE,
+  *The Evolution of Common Law*); Daughety & Reinganum 1999 (*Stampede to
+  Judgment*); Kaplow 1992; Rubin 1977; Priest 1977.
+- *Reinforced processes / cascades:* Pemantle 2007 (survey of reinforced
+  random processes); Bikhchandani–Hirshleifer–Welch 1992.
+- *Formal precedent (AI & Law):* Horty 2011 (*Rules and Reasons in the
+  Theory of Precedent*); Horty & Bench-Capon 2012; Canavotto & Horty
+  (recent); van Woerkom et al. on precedential constraint as classification.
+- *Coordination theory of law:* Hadfield & Weingast 2012 (*What Is Law?*);
+  McAdams (focal-point/expressive law); Basu 2018 (*Republic of Beliefs*);
+  Schelling 1960.
+- *Norm dynamics in DDL:* Governatori & Rotolo on abrogation/annulment
+  (norm change in defeasible logic — our own engine's lineage).
+
 ## 3. Engineering deliverables
 
 - Precedent store module (Python, under `eval/`): holding schema {facts,
