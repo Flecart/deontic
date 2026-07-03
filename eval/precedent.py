@@ -84,6 +84,12 @@ class Store:
             holding["embedding"] = embed(holding["facts"], self.embed_provider)
         self.holdings.append(holding)
 
+    def _ensure_embeddings(self, pool: list[dict]):
+        """Embeddings are a recomputable cache, stripped on save; refill lazily."""
+        for h in pool:
+            if "embedding" not in h:
+                h["embedding"] = embed(h["facts"], self.embed_provider)
+
     # -- retrieval ------------------------------------------------------------
 
     def retrieve(self, facts: str, k: int, mode: str = "embed",
@@ -95,6 +101,7 @@ class Store:
                 if before_t is None or h["t"] < before_t]
         if not pool:
             return []
+        self._ensure_embeddings(pool)
         q = embed(facts, self.embed_provider)
         sims = {id(h): _cos(q, h["embedding"]) for h in pool}
 
@@ -135,8 +142,10 @@ class Store:
     # -- persistence ----------------------------------------------------------
 
     def save(self, path: str | Path):
+        slim = [{k: v for k, v in h.items() if k != "embedding"}
+                for h in self.holdings]
         Path(path).write_text(
-            "\n".join(json.dumps(h) for h in self.holdings) + ("\n" if self.holdings else ""))
+            "\n".join(json.dumps(h) for h in slim) + ("\n" if slim else ""))
 
     @classmethod
     def load(cls, path: str | Path, atoms: list[str], embed_provider: str = "auto") -> "Store":
