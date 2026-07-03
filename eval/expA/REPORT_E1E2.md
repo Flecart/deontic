@@ -138,6 +138,59 @@ from gold (judge is 54.4% on contested — contested cases are *hard*).
    all classic selection-literature phenomena, reproduced with
    gold-by-construction ground truth.
 
+## Follow-up: the legislative-override arc (same night, pre-registered)
+
+E1's error anatomy localized the adjudicator-noise tax precisely: of the 26
+wrong contested verdicts, **24 are `emergency` false-negatives** — the judge
+will not find "necessity to prevent imminent harm" from recited professional
+claims. (The other big error mass, 29 `personal_data` FNs, turns out to be an
+**emergent doctrine, not noise**: from a first-impression holding at t=2, the
+judge reads C1 as scoped to the *transformed product being transferred* when
+anonymization is present; 29/30 eligible later holdings follow it via explicit
+`P5: followed` cites — entrenched, but verdict-preserving: 0 flips. The common
+law grew a doctrine the legislator never wrote, harmlessly.)
+
+The under-finding is judiciary-wide, not judge-specific: the cheap first-pass
+models find `emergency` on contested cases at 5/26 and 4/26; `ground_open`
+finds true-emergency at 33% overall — while `goldfs` finds it at **75%**.
+Correct precedent transmits the interpretation; but since every adjudicator
+shares the prior, the store never acquires a correct emergency holding — a
+**bootstrap trap: the common law cannot self-correct an error the whole
+judiciary shares.**
+
+We then replayed the same 57 contested cases under three institutional
+remedies, each with a pre-registered prediction (script: `e1_amend.py`):
+
+| version | instrument | prediction | judge==gold | emergency FN |
+|---|---|---|---|---|
+| v1 | baseline (open defs) | — | 54.4% | 24 |
+| v2 | substantive redraft (open2 evidentiary defs) | ≥80% | **47.4%** ✗ | 21 (and `anonymized` broke, 1→11) |
+| v3 | procedural burden-of-proof rule | ≥70% | **56.1%** ✗ | 19 |
+| v4 | 3 officially-decided gold exemplar cases seeded at t=−1 | ≥75% | **47.4%** ✗ | 22 |
+
+The v4 failure is not retrieval: a seed exemplar was retrieved into the
+judge's context in 16/26 emergency cases, and the judge found emergency=true
+in only **4 of those 16** — it *distinguishes the official example away*. The
+distinguish license that makes a common-law judge is exactly what lets a
+capable model maintain its own jurisprudence against text, procedure, and
+precedent alike.
+
+**Reading for AI societies:** the effective law of an LLM-adjudicated system
+concentrates in the adjudicator's model priors. Every textual instrument the
+legislator holds — redefinition, burden allocation, worked examples — failed
+to move a frontier judge's evidentiary prior on an epistemic-bar predicate,
+while the same in-context law readily moves weaker grounders (goldfs, F2).
+Two structural implications: (1) judge-model *selection/training* is a
+constitutional choice, not an implementation detail; (2) the verdict layer
+being mechanized (the DDL engine) is what kept these failures visible and
+attributable — a holistic judge would have absorbed them silently. Contrast
+with grounders under gold few-shot (F3): capability correlates with doctrinal
+independence — the stronger the model, the less its law is yours.
+
+(v2–v4 stores committed as `store_precedent_v{2,3,4}.jsonl`; v3/v4 coherence
+also degraded to 0.50 — the interventions made the case law less stable, not
+more accurate.)
+
 ## Limitations
 
 One statute (expA), 3 cheap grounders, one narrator (shared-narrator confound

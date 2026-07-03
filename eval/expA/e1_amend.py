@@ -40,6 +40,10 @@ def main():
     ap.add_argument("--defs", default="open2", choices=["open", "open2"])
     ap.add_argument("--burden", action="store_true",
                     help="add the standard-of-proof procedural rule")
+    ap.add_argument("--seed-gold", type=int, default=0,
+                    help="seed the store with N officially-decided exemplar "
+                         "cases (gold findings, t=-1): the 'worked examples "
+                         "shipped with the statute' institution")
     ap.add_argument("--k", type=int, default=5)
     ap.add_argument("--embed", default="openai", choices=["auto", "openai", "offline"])
     args = ap.parse_args()
@@ -58,6 +62,25 @@ def main():
     judge = Adjudicator(make_client(spec), spec, LABELS, defs_text(args.defs),
                         procedure=BURDEN if args.burden else "")
     store = Store(GROUNDABLE, args.embed)
+    if args.seed_gold:
+        # exemplars = first N SETTLED emergency-true cases (the atom the whole
+        # judiciary under-finds); gold findings, no rationale needed — the
+        # decided example itself carries the interpretation
+        settled = {d["case_id"] for d in
+                   (json.loads(l) for l in Path(args.disputes).read_text().splitlines() if l)
+                   if not d["contested"]}
+        seeds = [c for c in cases.values()
+                 if c["case_id"] in settled and c["assignment"]["emergency"]][:args.seed_gold]
+        for c in seeds:
+            store.add({"case_id": f"seed_{c['case_id']}", "t": -1,
+                       "facts": c["narrative"],
+                       "findings": {a: ("true" if v else "false")
+                                    for a, v in c["assignment"].items()},
+                       "verdict": c["gold"],
+                       "rationale": "Officially decided example issued with the statute.",
+                       "cites": [], "judge": "legislator", "contested": [],
+                       "assign_key": c["assign_key"]})
+        print(f"seeded {len(seeds)} official exemplars", file=sys.stderr)
 
     ok = 0
     for d in contested:
